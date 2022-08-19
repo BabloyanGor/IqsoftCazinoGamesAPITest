@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="utilities.Reporting"/>
+        <listener class-name="utilities.ReportingAllure"/>
+    </listeners>
+    <test name="testCases">
+        <classes>
+            <class name="testCases.CraftBet_01_LoginPopUpTest"/>
+            <class name="testCases.CraftBet_02_PasswordRecoveryTest"/>
+            <class name="testCases.CraftBet_03_SignUpQuickRegisterTest"/>
+
+            <class name="testCases.CraftBet_05_HeaderTest"/>
+            <class name="testCases.CraftBet_06_FooterTest"/>
+        </classes>
+    </test>
+</suite>
