@@ -28,6 +28,8 @@ public class BaseTest extends DriverFactory {
 
 
     public String getGamesAPIUrl;
+    public String getURLAPIUrl;
+    public int getUsertID;
     public String getGamesOrigin;
     public String getGamesRecurse;
     public String getGamesPartnerName;
@@ -61,14 +63,19 @@ public class BaseTest extends DriverFactory {
         switch (partnerID){
             case 1: {
                 getGamesAPIUrl = "https://websitewebapi.craftbet.com/1/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.craftbet.com/1/api/Main/GetProductUrl";
+                getUsertID=1630845;
                 getGamesOrigin = "https://craftbet.com";
                 getGamesRecurse = "https://resources.craftbet.com/products/";
                 getGamesPartnerName = "Craftbet";
                 getGamesBaseURL = "https://craftbet.com";
+
                 break;
             }
             case 56: {
                 getGamesAPIUrl = "https://websitewebapi.pokies2go.io/56/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.pokies2go.io/56/api/Main/GetProductUrl";
+                getUsertID=1650272;
                 getGamesOrigin = "https://pokies2go.io";
                 getGamesRecurse = "https://resources.pokies2go.io/products/";
                 getGamesPartnerName = "Pokies2go";
@@ -81,6 +88,7 @@ public class BaseTest extends DriverFactory {
                 getGamesOrigin = "";
                 getGamesRecurse = "";
                 getGamesPartnerName = "";
+                getGamesBaseURL = "";
             }
         }
 
@@ -94,7 +102,6 @@ public class BaseTest extends DriverFactory {
             }
 
         }
-
 
 
         catch (org.openqa.selenium.TimeoutException exception) {

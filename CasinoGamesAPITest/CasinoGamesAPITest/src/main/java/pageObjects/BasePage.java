@@ -64,7 +64,8 @@ public class BasePage {
 
 
 
-    public boolean getGamesAPICheckPictures(String APIUrl, String origin, String recurse, String partnerName) throws UnirestException, JSONException, IOException {
+
+    public boolean getGamesAPICheckPictures(String getGamesAPIUrl, String origin, String recurse, String partnerName) throws UnirestException, JSONException, IOException {
 
         boolean isPassed;
         int k = 0;
@@ -74,10 +75,10 @@ public class BasePage {
         ArrayList<String> errorSrcXl = new ArrayList<>();
 
         Unirest.setTimeouts(0, 0);
-        HttpResponse<String> response = Unirest.post(APIUrl)
+        HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
                 .header("content-type", "application/json")
                 .header("origin", origin)
-                .body("{\"PageIndex\":0,\"PageSize\":20000,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false,\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
+                .body("{\"PageIndex\":0,\"PageSize\":300,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false,\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
                 .asString();
 
         JSONObject jsonObjectBody = new JSONObject(response.getBody());
@@ -145,7 +146,7 @@ public class BasePage {
         if (errorSrcXl.size() == 0) {
             isPassed = true;
         } else {
-            String target = System.getProperty("user.dir") + "/src/test/java/APICasinoGamesCasinoImagesBrokenData/"+partnerName+"DataBrokenIMGList.xlsx";
+            String target = System.getProperty("user.dir") + "/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + partnerName + "DataBrokenIMGList.xlsx";
             XSSFWorkbook workbook = new XSSFWorkbook();
             FileOutputStream file = new FileOutputStream(target);
             XSSFSheet sheet = workbook.createSheet("brokenIMG");
@@ -166,7 +167,98 @@ public class BasePage {
     }
 
 
+    public boolean getUrlCheckGamesUrl(String getGamesAPIUrl, String origin, String getURLAPIurl, String token, int userID, int partnerID,String partnerName) throws JSONException, IOException, UnirestException {
+        boolean isPassed ;
+        ArrayList<String> productID = new ArrayList<>();
+        ArrayList<String> name = new ArrayList<>();
+        ArrayList<String> brokenURL = new ArrayList<>();
 
+        int errCount = 1;
+        int k = 0;
+
+        Unirest.setTimeouts(0, 0);
+        HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
+                .header("content-type", "application/json")
+                .header("origin", origin)
+                .body("{\"PageIndex\":0,\"PageSize\":130,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false,\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
+                .asString();
+        System.out.println("Get All games API call ");
+
+        JSONObject jsonObjectBody = new JSONObject(response.getBody());
+        JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.getString("ResponseObject"));
+        JSONArray jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
+        System.out.println("From Get All games API call body captured ");
+
+
+        for (int j = 0; j < jsonArrayGames.length(); j++) {
+            String first = String.valueOf(jsonArrayGames.get(j));
+            JSONObject jsonObjectGame = new JSONObject(first);
+            String p = jsonObjectGame.getString("p");
+            String n = jsonObjectGame.getString("n");
+            productID.add(p);
+            name.add(n);
+        }
+        System.out.println("From Get All games API productIDes and Names was captured ");
+
+        for (String id : productID) {
+            int proID = Integer.parseInt(id);
+
+            Unirest.setTimeouts(0, 0);
+            HttpResponse<String> responseUrl = Unirest.post(getURLAPIurl)
+                    .header("Content-Type", "application/json")
+                    .header("origin", origin)
+                    .body("{\"Loader\":true,\"PartnerId\":"+partnerID+",\"TimeZone\":4,\"LanguageId\":\"en\",\"ProductId\":" + proID + ",\"Method\":\"GetProductUrl\",\"Controller\":\"Main\",\"CategoryId\":null,\"PageIndex\":0,\"PageSize\":100,\"ProviderIds\":[],\"Index\":null,\"ActivationKey\":null,\"MobileNumber\":null,\"Code\":null,\"RequestData\":\"{}\",\"IsForDemo\":false,\"IsForMobile\":false,\"Position\":\"\",\"DeviceType\":1,\"ClientId\":"+userID+",\"Token\":\"" + token + "\"}")
+                    .asString();
+
+
+            JSONObject jsonObjectGetUrl = new JSONObject(responseUrl.getBody());
+
+            String code = jsonObjectGetUrl.getString("ResponseCode");
+            String description = jsonObjectGetUrl.getString("Description");
+            String url = jsonObjectGetUrl.getString("ResponseObject");
+
+            try{
+                if (!code.equals("0") || url==null || url.length() < 10) {
+                    String s = k + " ID=" + id + " Name=" + name.get(k)+ " cod=" + code + " description=" + description + " ResponseObject=" + url;
+                    System.out.println(s);
+                    brokenURL.add(s);
+                    errCount++;
+                }
+            }
+            catch (Exception e){
+                System.out.println(k + " Unirest Exception ");
+            }
+            k++;
+        }
+        System.out.println("From Get URL API broken games are captured");
+
+        System.out.println("Broken url-es are:  " + brokenURL.size());
+        if (brokenURL.size() == 0) {
+            System.out.println("Broken Games are null");
+            isPassed=true;
+
+        } else {
+            String target = System.getProperty("user.dir") + "/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + partnerName + "DataBrokenURLList.xlsx";
+            FileOutputStream file = new FileOutputStream(target);
+            XSSFWorkbook workbook = new XSSFWorkbook();
+            XSSFSheet sheet = workbook.createSheet("brokenURL");
+            sheet.setColumnWidth(0, 80000);
+            int l = 0;
+            for (String err : brokenURL) {
+                XSSFRow row = sheet.createRow(l);
+                row.createCell(0).setCellValue(err);
+                l++;
+            }
+            workbook.write(file);
+            workbook.close();
+            isPassed=false;
+        }
+
+
+
+
+        return isPassed;
+    }
 
 
 
