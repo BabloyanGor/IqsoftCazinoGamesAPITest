@@ -22,47 +22,46 @@ public class ReadConfig {
 
     public String getBrowser()
     {
-        String browser=pro.getProperty("browser");
-        return browser;
+        return pro.getProperty("browser");
     }
     public String isHeadless()
     {
-        String isHeadless=pro.getProperty("headless");
-        return isHeadless;
-    }
-
-    public String getApplicationURL()
-    {
-        String url=pro.getProperty("baseURL");
-        return url;
+        return pro.getProperty("headless");
     }
 
     public String getUsername()
     {
-        String username=pro.getProperty("username");
-        return username;
+        return pro.getProperty("username");
     }
 
     public String getPassword()
     {
-        String password=pro.getProperty("password");
-        return password;
+        return pro.getProperty("password");
     }
 
     public String getLanguage()
     {
-        String language=pro.getProperty("Language");
-        return language;
+        return pro.getProperty("Language");
     }
 
     public int getDimensionWidth()
     {
-        int DimensionWidth= Integer.parseInt(pro.getProperty("DimensionWidth"));
-        return DimensionWidth;
+        return Integer.parseInt(pro.getProperty("DimensionWidth"));
     }
     public int getDimensionHeight()
     {
-        int DimensionHeight= Integer.parseInt(pro.getProperty("DimensionHeight"));
-        return DimensionHeight;
+        return Integer.parseInt(pro.getProperty("DimensionHeight"));
     }
+
+
+
+
+
+
+
+    public int getPartnerID()
+    {
+        return Integer.parseInt(pro.getProperty("partnerID"));
+    }
+
 }

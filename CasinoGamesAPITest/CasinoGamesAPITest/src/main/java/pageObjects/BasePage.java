@@ -1,8 +1,19 @@
 package pageObjects;
 
 
+import com.mashape.unirest.http.HttpResponse;
+import com.mashape.unirest.http.Unirest;
+import com.mashape.unirest.http.exceptions.UnirestException;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.openqa.selenium.*;
 import org.openqa.selenium.html5.WebStorage;
 import org.openqa.selenium.interactions.Actions;
@@ -15,6 +26,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -25,12 +38,12 @@ import java.util.Date;
 public class BasePage {
 
     static WebDriver driver;
+    public int i = 1;
     WebDriverWait webDriverWait;
     Actions actions;
     Select select;
     JavascriptExecutor js;
     Robot robot;
-    public int i = 1;
 
     public BasePage(WebDriver driver) throws AWTException {
         this.driver = driver;
@@ -42,6 +55,120 @@ public class BasePage {
 
     public BasePage() throws AWTException {
     }
+
+    /* this method will be return integer number num symbols */
+    public static String randomNum(int num) {
+        String generatedInt = RandomStringUtils.randomNumeric(num);
+        return (generatedInt);
+    }
+
+
+
+    public boolean getGamesAPICheckPictures(String APIUrl, String origin, String recurse, String partnerName) throws UnirestException, JSONException, IOException {
+
+        boolean isPassed;
+        int k = 0;
+        ArrayList<String> srces = new ArrayList<>();
+        ArrayList<String> gameNames = new ArrayList<>();
+        ArrayList<String> gameProviderNames = new ArrayList<>();
+        ArrayList<String> errorSrcXl = new ArrayList<>();
+
+        Unirest.setTimeouts(0, 0);
+        HttpResponse<String> response = Unirest.post(APIUrl)
+                .header("content-type", "application/json")
+                .header("origin", origin)
+                .body("{\"PageIndex\":0,\"PageSize\":300,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false,\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
+                .asString();
+
+        JSONObject jsonObjectBody = new JSONObject(response.getBody());
+        JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.getString("ResponseObject"));
+        JSONArray jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
+
+
+        for (int j = 0; j < jsonArrayGames.length(); j++) {
+
+            String first = String.valueOf(jsonArrayGames.get(j));
+            JSONObject jsonObjectGame = new JSONObject(first);
+            String i = jsonObjectGame.getString("i");    // Game src
+            String n = jsonObjectGame.getString("n");    //Game Name
+            String sp = jsonObjectGame.getString("sp");  //Provider Name
+            gameNames.add(n);
+            gameProviderNames.add(sp);
+
+            if (i.contains("http") && !i.contains(" ")) {
+                srces.add(i);
+            } else if (i.contains(" Catalog image/image.jpg")) {
+                String change = i.replace(" ", "%20");
+                srces.add(change);
+            } else {
+                srces.add(recurse + i);
+            }
+        }
+
+        for (String src : srces) {
+            if (src == null || src.isEmpty()) {
+                System.out.println(k + "   Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + " :   " + ":   src = " + src + " :" + " this games image src has empty/null value");
+                errorSrcXl.add(k + "  Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + "  " + ":   src = " + src + " " + " ----->  this games image src has empty/null value");
+            } else {
+                try {
+                    URL img = new URL(src);
+                    HttpURLConnection connection = (HttpURLConnection) img.openConnection();
+                    connection.connect();
+                    int cod = connection.getResponseCode();
+
+                    if (cod >= 400) {
+                        System.out.println(k + "   Game Provider Name = " + gameProviderNames.get(k) + " :   " + "Game Name =  " + gameNames.get(k) + " :   " + "cod = " + cod + ":   src = " + src);
+                        errorSrcXl.add(k + "  Game Provider Name = " + gameProviderNames.get(k) + "   " + "Game Name =  " + gameNames.get(k) + "  " + "cod = " + cod + "   src = " + src);
+                    }
+                } catch (Exception e) {
+                    try {
+                        URL img = new URL(src);
+                        HttpURLConnection connection = (HttpURLConnection) img.openConnection();
+                        connection.connect();
+                        int cod = connection.getResponseCode();
+
+                        if (cod >= 400) {
+                            System.out.println(k + "   Game Provider Name = " + gameProviderNames.get(k) + " :   " + "Game Name =  " + gameNames.get(k) + " :   " + "cod = " + cod + ":   src = " + src);
+                            errorSrcXl.add(k + "  Game Provider Name = " + gameProviderNames.get(k) + "   " + "Game Name =  " + gameNames.get(k) + "  " + "cod = " + cod + "   src = " + src);
+                        }
+                    } catch (Exception ex) {
+                        System.out.println(k + "                    Game Provider Name = " + gameProviderNames.get(k) + " :                    " + "Game Name = " + gameNames.get(k) + " :                    " + "   src = " + src + "         " + e);
+                        errorSrcXl.add(k + "  Game Provider Name = " + gameProviderNames.get(k) + "   " + "Game Name =  " + gameNames.get(k) + "  " + "src = " + src);
+                    }
+
+                }
+            }
+            k++;
+        }
+
+        System.out.println("Broken images are:  " + errorSrcXl.size());
+        if (errorSrcXl.size() == 0) {
+            isPassed = true;
+        } else {
+            String target = System.getProperty("user.dir") + "/src/test/java/APICasinoGamesCasinoImagesBrokenData/"+partnerName+"DataBrokenIMGList.xlsx";
+            XSSFWorkbook workbook = new XSSFWorkbook();
+            FileOutputStream file = new FileOutputStream(target);
+            XSSFSheet sheet = workbook.createSheet("brokenIMG");
+            sheet.setColumnWidth(0, 20000);
+            int l = 0;
+            for (String err : errorSrcXl) {
+                XSSFRow row = sheet.createRow(l);
+                row.createCell(0).setCellValue(err);
+                l++;
+            }
+            workbook.write(file);
+            workbook.close();
+            isPassed = false;
+        }
+
+
+        return isPassed;
+    }
+
+
+
+
+
 
 
 
@@ -101,20 +228,19 @@ public class BasePage {
 
     }
 
+
+    //region <Get>
+
     /* this method will return true if element is selected */
     public boolean elementIsSelected(WebElement element) {
         return element.isSelected();
     }
 
-
-    //region <Get>
-
-
-
     /* this method will be return BasePage_s driver */
     public WebDriver getDriver() {
         return this.driver;
     }
+
     /* this method will get attribute from element */
     public String getTagName(WebElement element) {
         return element.getTagName();
@@ -141,15 +267,15 @@ public class BasePage {
         return driver.getPageSource();
     }
 
-    /* this method will get current Pages Title */
-    public String getTitle() {
-        return driver.getTitle();
-    }
-
 
     //endregion
 
     //region <Select from Dropdown>
+
+    /* this method will get current Pages Title */
+    public String getTitle() {
+        return driver.getTitle();
+    }
 
     public Select createSelectElement(WebElement element) {
         Select s = new Select(element);
@@ -173,14 +299,14 @@ public class BasePage {
         select = new Select(element);
         select.selectByValue(value);
     }
+    //endregion
+
+    //region <javaScript executor>
 
     public String getSelectedItemText(Select element) {
         String text = element.getFirstSelectedOption().getText();
         return text;
     }
-    //endregion
-
-    //region <javaScript executor>
 
     /* this method will be used for scrolling down to particular element */
     public void javaScriptScrollDownToParticularElement(WebElement element) {
@@ -214,7 +340,6 @@ public class BasePage {
         ((JavascriptExecutor) driver).executeScript(scrollElementIntoMiddle, element);
     }
 
-
     /* this method will zoom the page */
     public void zoomPageByJS(String zoomProcsent) {
         js.executeScript("document.body.style.zoom='" + zoomProcsent + "%'"); //zoom by 100%
@@ -247,13 +372,13 @@ public class BasePage {
         return title;
     }
 
+
+    //endregion
+
     /* this method will generate the alert window */
     public void javaScriptGenerateAlert(String massage) {
         js.executeScript("alert('" + massage + "')");
     }
-
-
-    //endregion
 
     //region <Actions>
     public void waitAction(int waitTime) {
@@ -291,6 +416,7 @@ public class BasePage {
         actions.keyUp(Keys.CONTROL);
         actions.perform();
     }
+
     public void actionControlCopy() {
         actions.keyDown(Keys.CONTROL);
         actions.sendKeys("c");
@@ -304,20 +430,22 @@ public class BasePage {
         actions.keyUp(Keys.CONTROL);
         actions.perform();
     }
+    //endregion
+
     public void actionTab() {
         actions.sendKeys(Keys.TAB).perform();
     }
-    //endregion
 
     //region <Robot>
     public void robotTab() {
         robot.keyPress(KeyEvent.VK_TAB);
     }
+
+    //endregion
+
     public void robotEnter() {
         robot.keyPress(KeyEvent.VK_ENTER);
     }
-
-    //endregion
 
     //region <Take Screenshot>
     /* this method will be take Screenshot whale page*/
@@ -339,6 +467,9 @@ public class BasePage {
         System.out.println("Screenshot taken");
     }
 
+
+    //endregion
+
     /* this method will be take Screenshot mentioned element */
     public void captureFromScreenSpecificElement(WebDriver driver, WebElement element, String tname) throws IOException {
 
@@ -347,9 +478,6 @@ public class BasePage {
         FileUtils.copyFile(source, target);
         System.out.println("Screenshot taken");
     }
-
-
-    //endregion
 
     //region <Generate emails>
     public String generateRandomMobileNumberValid() {
@@ -408,6 +536,8 @@ public class BasePage {
         return randomEmail;
     }
 
+    //endregion
+
     //i_like_underscore@but_its_not_allowed_in_this_part.example.com (Underscore is not allowed in domain part)
     public String generateRandomEmailInValid6() {
         String randomEmail;
@@ -416,8 +546,6 @@ public class BasePage {
         randomEmail = generatedString1 + "_" + generatedString2 + ".gmail.com";
         return randomEmail;
     }
-
-    //endregion
 
     //region <Navigation>
     public void navigateForward() {
@@ -432,11 +560,11 @@ public class BasePage {
         driver.navigate().refresh();
     }
 
+    //endregion
+
     public void navigateToUrl(String url) {
         driver.navigate().to(url);
     }
-
-    //endregion
 
     //region <Window Handling>
     public void handleWindowsWithArrayList(int index) {
@@ -456,11 +584,11 @@ public class BasePage {
         driver.switchTo().newWindow(WindowType.TAB);
     }
 
+    //endregion
+
     public String getWindowHandle() {
         return driver.getWindowHandle();
     }
-
-    //endregion
 
     //region <Local storage>
     public org.openqa.selenium.html5.LocalStorage getLocalStorage() {
@@ -472,16 +600,10 @@ public class BasePage {
         return getLocalStorage().getItem(key);
     }
 
-    public void setItem(String key, String value) {
-        getLocalStorage().setItem(key, value);
-    }
-
     //endregion
 
-    /* this method will be return integer number num symbols */
-    public static String randomNum(int num) {
-        String generatedInt = RandomStringUtils.randomNumeric(num);
-        return (generatedInt);
+    public void setItem(String key, String value) {
+        getLocalStorage().setItem(key, value);
     }
 
     /* this method will be return True if Response cod is 0-300 */
@@ -525,17 +647,17 @@ public class BasePage {
         return responseCodOK;
     }
 
-    public ArrayList<String> getBrowserErrors(){
+    public ArrayList<String> getBrowserErrors() {
         driver.get("https://pokies2go.io/casino/all-games");
         ArrayList<String> browserErrors = new ArrayList<>();
         LogEntries logEntries = driver.manage().logs().get("browser");
         int i = 1;
         for (LogEntry entry : logEntries) {
             System.out.println(new Date(entry.getTimestamp()) + " " + entry.getLevel() + " " + entry.getMessage());
-            String errorLogType= entry.getLevel().toString();
-            String errorLog= entry.getMessage().toString();
-            if(errorLog.contains("400") ||errorLog.contains("401")||errorLog.contains("402")||errorLog.contains("403")||errorLog.contains("404")||errorLog.contains("405")||errorLog.contains("Error")||errorLog.contains("ERROR")||errorLog.contains("error")||errorLog.contains("Failed")||errorLog.contains("Unchecked")||errorLog.contains("Uncaught")){
-                browserErrors.add("Error LogType: "+ errorLogType+" Error Log message: "+errorLog);
+            String errorLogType = entry.getLevel().toString();
+            String errorLog = entry.getMessage().toString();
+            if (errorLog.contains("400") || errorLog.contains("401") || errorLog.contains("402") || errorLog.contains("403") || errorLog.contains("404") || errorLog.contains("405") || errorLog.contains("Error") || errorLog.contains("ERROR") || errorLog.contains("error") || errorLog.contains("Failed") || errorLog.contains("Unchecked") || errorLog.contains("Uncaught")) {
+                browserErrors.add("Error LogType: " + errorLogType + " Error Log message: " + errorLog);
                 i++;
             }
         }

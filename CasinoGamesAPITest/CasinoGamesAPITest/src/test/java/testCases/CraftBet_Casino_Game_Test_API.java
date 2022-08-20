@@ -25,10 +25,6 @@ public class CraftBet_Casino_Game_Test_API extends BaseTest {
     String originCraftBetGetGames = "https://craftbet.com";
     String urlCraftBetGetProductUrl = "https://websitewebapi.craftbet.com/1/api/Main/GetProductUrl";
     String originCraftBetGetProductUrl = "https://craftbet.com";
-    ArrayList<String> srces = new ArrayList<>();
-    ArrayList<String> gameNames = new ArrayList<>();
-    ArrayList<String> gameProviderNames = new ArrayList<>();
-    ArrayList<String> errorSrcXl = new ArrayList<>();
     ArrayList<String> productID = new ArrayList<>();
     ArrayList<String> brokenURL = new ArrayList<>();
 
@@ -37,7 +33,6 @@ public class CraftBet_Casino_Game_Test_API extends BaseTest {
 
     @BeforeMethod
     public void logInCraftBet() {
-
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         craftBet_01_header_page.clickOnLogInButtonIfVisible();
         craftBet_03_login_popUp_page.loginPopUpEmailOrUsernameSendKeys(username);
@@ -52,109 +47,13 @@ public class CraftBet_Casino_Game_Test_API extends BaseTest {
         }
     }
 
+
     @Test
-    public void imgTest() throws UnirestException, JSONException, IOException {
-
-//        Casino_Img_API_Request.setPageIndex(0);
-//        Casino_Img_API_Request.setPageSize(10);
-//        Casino_Img_API_Request.setWithWidget(false);
-//        Casino_Img_API_Request.setCategoryId(0);
-//        Casino_Img_API_Request.setProviderIds(0);
-//        Casino_Img_API_Request.setForMobile(false);
-//        Casino_Img_API_Request.setName("");
-//        Casino_Img_API_Request.setLanguageId("en");
-//        Casino_Img_API_Request.setToken("");
-//        Casino_Img_API_Request.setClientId(0);
-//        Casino_Img_API_Request.setTimeZone(4);
-
-//        String   requestBodyValue = gson.toJson(Casino_Img_API_Request);
-        int k = 0;
-
-        Unirest.setTimeouts(0, 0);
-        HttpResponse<String> response = Unirest.post(urlCraftBetGetGames)
-                .header("content-type", "application/json")
-                .header("origin", originCraftBetGetGames)
-                .body("{\"PageIndex\":0,\"PageSize\":20000,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false,\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
-                .asString();
-
-        JSONObject jsonObjectBody = new JSONObject(response.getBody());
-        JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.getString("ResponseObject"));
-        JSONArray jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
-
-
-        for (int j = 0; j < jsonArrayGames.length(); j++) {
-
-            String first = String.valueOf(jsonArrayGames.get(j));
-            JSONObject jsonObjectGame = new JSONObject(first);
-            String i = jsonObjectGame.getString("i");
-            String n = jsonObjectGame.getString("n");
-            String sp = jsonObjectGame.getString("sp");
-            gameNames.add(n);
-            gameProviderNames.add(sp);
-
-            if (i.contains("http") && !i.contains(" ")) {
-                srces.add(i);
-            } else if (i.contains(" Catalog image/image.jpg")) {
-                String change = i.replace(" ", "%20");
-                srces.add(change);
-            } else {
-                srces.add("https://resources.craftbet.com/products/" + i);
-            }
-        }
-
-
-        for (String src : srces) {
-            if (src == null || src.isEmpty()) {
-                logger.info(k + "   Game Provider Name = " + gameProviderNames.get(k) + " :   " + "Game Name = " + gameNames.get(k) + " :   " + ":   src = " + src + " :" + " this games image src has empty/null value");
-                errorSrcXl.add(k + "                    Game Provider Name = " + gameProviderNames.get(k) + " :                    " + "Game Name = " + gameNames.get(k) + " :                    " + ":   src = " + src + " :" + " this games image src has empty/null value");
-            } else {
-                try {
-                    URL img = new URL(src);
-                    HttpURLConnection connection = (HttpURLConnection) img.openConnection();
-                    connection.connect();
-                    int cod = connection.getResponseCode();
-
-                    if (cod >= 400) {
-                        logger.fatal(k + "   Game Provider Name = " + gameProviderNames.get(k) + " :   " + "Game Name = " + gameNames.get(k) + " :   " + "cod = " + cod + ":   src = " + src);
-                        errorSrcXl.add(k + "                    Game Provider Name = " + gameProviderNames.get(k) + " :                    " + "Game Name = " + gameNames.get(k) + " :                    " + "cod = " + cod + ":   src = " + src);
-                    }
-                } catch (Exception e) {
-                    try {
-                        URL img = new URL(src);
-                        HttpURLConnection connection = (HttpURLConnection) img.openConnection();
-                        connection.connect();
-                        int cod = connection.getResponseCode();
-
-                        if (cod >= 400) {
-                            logger.fatal(k + "   Game Provider Name = " + gameProviderNames.get(k) + " :   " + "Game Name = " + gameNames.get(k) + " :   " + "cod = " + cod + ":   src = " + src);
-                            errorSrcXl.add(k + "                    Game Provider Name = " + gameProviderNames.get(k) + " :                    " + "Game Name = " + gameNames.get(k) + " :                    " + "cod = " + cod + ":   src = " + src);
-                        }
-                    } catch (Exception ex) {
-                        logger.fatal(k + "                    Game Provider Name = " + gameProviderNames.get(k) + " :                    " + "Game Name = " + gameNames.get(k) + " :                    " + "   src = " + src + "         " + e);
-                        errorSrcXl.add(k + "                    Game Provider Name = " + gameProviderNames.get(k) + " :                    " + "Game Name = " + gameNames.get(k) + " :                    " + "   src = " + src);
-                    }
-
-                }
-            }
-            k++;
-        }
-
-        logger.warn("Broken images are:  " + errorSrcXl.size());
-        if (errorSrcXl.size() == 0) {
+    public void gamesImgTest() throws UnirestException, JSONException, IOException {
+        if (craftBet_01_header_page.getGamesAPICheckPictures(APIUrl,origin,recurse,partnerName)){
             Assert.assertTrue(true);
-        } else {
-            String target = System.getProperty("user.dir") + "/src/test/java/APICasinoGamesCasinoImagesBrokenData/craftBetDataBrokenIMGList.xlsx";
-            FileOutputStream file = new FileOutputStream(target);
-            XSSFWorkbook workbook = new XSSFWorkbook();
-            XSSFSheet sheet = workbook.createSheet("brokenIMG");
-            int l = 0;
-            for (String err : errorSrcXl) {
-                XSSFRow row = sheet.createRow(l);
-                row.createCell(0).setCellValue(err);
-                l++;
-            }
-            workbook.write(file);
-            workbook.close();
+        }
+        else {
             Assert.fail();
         }
     }
