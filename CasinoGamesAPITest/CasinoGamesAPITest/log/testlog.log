@@ -156,3 +156,27 @@
 2022-08-20 15:23:52,358 - craftBet -INFO - Browser closed
 2022-08-20 15:23:52,358 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-08-20 15:23:52,363 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-20 15:28:48,415 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-20 15:28:48,625 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-20 15:28:48,652 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-20 15:28:50,891 - craftBet -INFO - All Page elements are initialized
+2022-08-20 15:28:50,902 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-20 15:28:52,204 - craftBet -INFO - username passed
+2022-08-20 15:28:52,330 - craftBet -INFO - password passed
+2022-08-20 15:28:52,562 - craftBet -INFO - Log In Button was clicked
+2022-08-20 15:28:56,932 - craftBet -INFO - Token was captured 
+2022-08-20 15:52:47,817 - craftBet -INFO - Browser closed
+2022-08-20 15:52:47,818 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-20 15:52:47,835 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-20 15:54:07,787 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-20 15:54:07,987 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-20 15:54:08,009 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-20 15:54:10,023 - craftBet -INFO - All Page elements are initialized
+2022-08-20 15:54:10,034 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-20 15:54:11,162 - craftBet -INFO - username passed
+2022-08-20 15:54:11,297 - craftBet -INFO - password passed
+2022-08-20 15:54:11,359 - craftBet -INFO - Log In Button was clicked
+2022-08-20 15:54:12,797 - craftBet -INFO - Token was captured 
+2022-08-20 16:12:05,878 - craftBet -INFO - Browser closed
+2022-08-20 16:12:05,878 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-20 16:12:05,941 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  

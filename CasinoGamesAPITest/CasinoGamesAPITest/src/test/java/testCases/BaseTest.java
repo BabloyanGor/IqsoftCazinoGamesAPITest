@@ -27,11 +27,11 @@ public class BaseTest extends DriverFactory {
 
 
 
-    public String APIUrl ;
-    public String origin ;
-    public String recurse ;
-    public String partnerName;
-    public String baseURL ;
+    public String getGamesAPIUrl;
+    public String getGamesOrigin;
+    public String getGamesRecurse;
+    public String getGamesPartnerName;
+    public String getGamesBaseURL;
 
 
 
@@ -60,33 +60,33 @@ public class BaseTest extends DriverFactory {
 
         switch (partnerID){
             case 1: {
-                APIUrl = "https://websitewebapi.craftbet.com/1/api/Main/GetGames";
-                origin = "https://craftbet.com";
-                recurse = "https://resources.craftbet.com/products/";
-                partnerName = "Craftbet";
-                baseURL = "https://craftbet.com";
+                getGamesAPIUrl = "https://websitewebapi.craftbet.com/1/api/Main/GetGames";
+                getGamesOrigin = "https://craftbet.com";
+                getGamesRecurse = "https://resources.craftbet.com/products/";
+                getGamesPartnerName = "Craftbet";
+                getGamesBaseURL = "https://craftbet.com";
                 break;
             }
             case 56: {
-                APIUrl = "https://websitewebapi.pokies2go.io/56/api/Main/GetGames";
-                origin = "https://pokies2go.io";
-                recurse = "https://resources.pokies2go.io/products/";
-                partnerName = "Pokies2go";
-                baseURL = "https://pokies2go.io";
+                getGamesAPIUrl = "https://websitewebapi.pokies2go.io/56/api/Main/GetGames";
+                getGamesOrigin = "https://pokies2go.io";
+                getGamesRecurse = "https://resources.pokies2go.io/products/";
+                getGamesPartnerName = "Pokies2go";
+                getGamesBaseURL = "https://pokies2go.io";
                 break;
             }
 
             default:{
-                APIUrl = "";
-                origin = "";
-                recurse = "";
-                partnerName = "";
+                getGamesAPIUrl = "";
+                getGamesOrigin = "";
+                getGamesRecurse = "";
+                getGamesPartnerName = "";
             }
         }
 
 
         try {
-            super.initDriver(baseURL, browser, isHeadless);
+            super.initDriver(getGamesBaseURL, browser, isHeadless);
             Dimension d = new Dimension(DimensionWidth, DimensionHeight);  //
             if (DimensionWidth > 1250  &&  DimensionHeight > 750){
                 driver.manage().window().setSize(d);
@@ -98,7 +98,7 @@ public class BaseTest extends DriverFactory {
 
 
         catch (org.openqa.selenium.TimeoutException exception) {
-            super.initDriver(baseURL, browser, isHeadless);
+            super.initDriver(getGamesBaseURL, browser, isHeadless);
 
         }
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));

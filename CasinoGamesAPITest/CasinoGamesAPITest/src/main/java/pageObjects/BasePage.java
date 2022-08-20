@@ -77,7 +77,7 @@ public class BasePage {
         HttpResponse<String> response = Unirest.post(APIUrl)
                 .header("content-type", "application/json")
                 .header("origin", origin)
-                .body("{\"PageIndex\":0,\"PageSize\":300,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false,\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
+                .body("{\"PageIndex\":0,\"PageSize\":20000,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false,\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
                 .asString();
 
         JSONObject jsonObjectBody = new JSONObject(response.getBody());
@@ -128,11 +128,11 @@ public class BasePage {
                         int cod = connection.getResponseCode();
 
                         if (cod >= 400) {
-                            System.out.println(k + "   Game Provider Name = " + gameProviderNames.get(k) + " :   " + "Game Name =  " + gameNames.get(k) + " :   " + "cod = " + cod + ":   src = " + src);
+                            System.out.println(k + "  Game Provider Name = " + gameProviderNames.get(k) + " :   " + "Game Name =  " + gameNames.get(k) + " :   " + "cod = " + cod + ":   src = " + src);
                             errorSrcXl.add(k + "  Game Provider Name = " + gameProviderNames.get(k) + "   " + "Game Name =  " + gameNames.get(k) + "  " + "cod = " + cod + "   src = " + src);
                         }
                     } catch (Exception ex) {
-                        System.out.println(k + "                    Game Provider Name = " + gameProviderNames.get(k) + " :                    " + "Game Name = " + gameNames.get(k) + " :                    " + "   src = " + src + "         " + e);
+                        System.out.println(k + " Game Provider Name = " + gameProviderNames.get(k) + " :                    " + "Game Name = " + gameNames.get(k) + " :                    " + "   src = " + src + "         " + e);
                         errorSrcXl.add(k + "  Game Provider Name = " + gameProviderNames.get(k) + "   " + "Game Name =  " + gameNames.get(k) + "  " + "src = " + src);
                     }
 
@@ -149,7 +149,7 @@ public class BasePage {
             XSSFWorkbook workbook = new XSSFWorkbook();
             FileOutputStream file = new FileOutputStream(target);
             XSSFSheet sheet = workbook.createSheet("brokenIMG");
-            sheet.setColumnWidth(0, 20000);
+            sheet.setColumnWidth(0, 80000);
             int l = 0;
             for (String err : errorSrcXl) {
                 XSSFRow row = sheet.createRow(l);

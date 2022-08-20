@@ -156,3 +156,27 @@
 2022-08-20 15:23:52,358 [main] INFO craftBet - Browser closed
 2022-08-20 15:23:52,358 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-08-20 15:23:52,363 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-20 15:28:48,415 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-20 15:28:48,625 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-20 15:28:48,652 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-20 15:28:50,891 [main] INFO craftBet - All Page elements are initialized
+2022-08-20 15:28:50,902 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-20 15:28:52,204 [main] INFO craftBet - username passed
+2022-08-20 15:28:52,330 [main] INFO craftBet - password passed
+2022-08-20 15:28:52,562 [main] INFO craftBet - Log In Button was clicked
+2022-08-20 15:28:56,932 [main] INFO craftBet - Token was captured 
+2022-08-20 15:52:47,817 [main] INFO craftBet - Browser closed
+2022-08-20 15:52:47,818 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-20 15:52:47,835 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-20 15:54:07,787 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-20 15:54:07,987 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-20 15:54:08,009 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-20 15:54:10,023 [main] INFO craftBet - All Page elements are initialized
+2022-08-20 15:54:10,034 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-20 15:54:11,162 [main] INFO craftBet - username passed
+2022-08-20 15:54:11,297 [main] INFO craftBet - password passed
+2022-08-20 15:54:11,359 [main] INFO craftBet - Log In Button was clicked
+2022-08-20 15:54:12,797 [main] INFO craftBet - Token was captured 
+2022-08-20 16:12:05,878 [main] INFO craftBet - Browser closed
+2022-08-20 16:12:05,878 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-20 16:12:05,941 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  

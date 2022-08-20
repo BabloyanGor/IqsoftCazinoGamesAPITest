@@ -15,8 +15,6 @@ import org.testng.annotations.Test;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.net.HttpURLConnection;
-import java.net.URL;
 import java.time.Duration;
 import java.util.ArrayList;
 
@@ -50,7 +48,7 @@ public class CraftBet_Casino_Game_Test_API extends BaseTest {
 
     @Test
     public void gamesImgTest() throws UnirestException, JSONException, IOException {
-        if (craftBet_01_header_page.getGamesAPICheckPictures(APIUrl,origin,recurse,partnerName)){
+        if (craftBet_01_header_page.getGamesAPICheckPictures(getGamesAPIUrl, getGamesOrigin, getGamesRecurse, getGamesPartnerName)){
             Assert.assertTrue(true);
         }
         else {
