@@ -4,6 +4,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.SkipException;
 import org.testng.annotations.*;
 import pageObjects.*;
 import utilities.DriverFactory;
@@ -35,12 +36,6 @@ public class BaseTest extends DriverFactory {
     public String getGamesPartnerName;
     public String getGamesBaseURL;
 
-
-
-
-
-
-
     public static Logger logger;
 
     //region <Page Class Instances  >
@@ -48,7 +43,6 @@ public class BaseTest extends DriverFactory {
     public CraftBet_01_Header_Page craftBet_01_header_page;
     public CraftBet_03_Login_PopUp_Page craftBet_03_login_popUp_page;
 
-    public Casino_GetGames_API_Request Cazino_Img_API_Request;
 
 
     //endregion
@@ -69,7 +63,6 @@ public class BaseTest extends DriverFactory {
                 getGamesRecurse = "https://resources.craftbet.com/products/";
                 getGamesPartnerName = "Craftbet";
                 getGamesBaseURL = "https://craftbet.com";
-
                 break;
             }
             case 56: {
@@ -84,11 +77,8 @@ public class BaseTest extends DriverFactory {
             }
 
             default:{
-                getGamesAPIUrl = "";
-                getGamesOrigin = "";
-                getGamesRecurse = "";
-                getGamesPartnerName = "";
-                getGamesBaseURL = "";
+                logger.error("Wrong Partner ID: From config.properties file insert the right PartnerID Please");
+                throw new SkipException("From config.properties file choose the right PartnerID Please");
             }
         }
 
@@ -122,7 +112,6 @@ public class BaseTest extends DriverFactory {
 
         craftBet_01_header_page.setItem("lang", language);
         craftBet_01_header_page.navigateRefresh();
-//        craftBet_header_page.selectEnglishLanguageFromDropDown();
         logger.info(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started ");
     }
 
