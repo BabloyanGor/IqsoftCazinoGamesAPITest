@@ -109,11 +109,12 @@ public class BasePage {
                 System.out.println(k + "   Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + " :   " + ":   src = " + src + " :" + " this games image src has empty/null value");
                 errorSrcXl.add(k + "  Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + "  " + ":   src = " + src + " " + " ----->  this games image src has empty/null value");
             } else {
+                int cod;
                 try {
                     URL img = new URL(src);
                     HttpURLConnection connection = (HttpURLConnection) img.openConnection();
                     connection.connect();
-                    int cod = connection.getResponseCode();
+                    cod = connection.getResponseCode();
 
                     if (cod >= 400) {
                         System.out.println(k + "   Game Provider Name = " + gameProviderNames.get(k) + " :   " + "Game Name =  " + gameNames.get(k) + " :   " + "cod = " + cod + ":   src = " + src);
@@ -124,7 +125,7 @@ public class BasePage {
                         URL img = new URL(src);
                         HttpURLConnection connection = (HttpURLConnection) img.openConnection();
                         connection.connect();
-                        int cod = connection.getResponseCode();
+                        cod = connection.getResponseCode();
 
                         if (cod >= 400) {
                             System.out.println(k + "  Game Provider Name = " + gameProviderNames.get(k) + " :   " + "Game Name =  " + gameNames.get(k) + " :   " + "cod = " + cod + ":   src = " + src);
@@ -134,12 +135,10 @@ public class BasePage {
                         System.out.println(k + " Game Provider Name = " + gameProviderNames.get(k) + " :                    " + "Game Name = " + gameNames.get(k) + " :                    " + "   src = " + src + "         " + e);
                         errorSrcXl.add(k + "  Game Provider Name = " + gameProviderNames.get(k) + "   " + "Game Name =  " + gameNames.get(k) + "  " + "src = " + src);
                     }
-
                 }
             }
             k++;
         }
-
         System.out.println("Broken images are:  " + errorSrcXl.size());
         if (errorSrcXl.size() == 0) {
             isPassed = true;
@@ -159,8 +158,6 @@ public class BasePage {
             workbook.close();
             isPassed = false;
         }
-
-
         return isPassed;
     }
 

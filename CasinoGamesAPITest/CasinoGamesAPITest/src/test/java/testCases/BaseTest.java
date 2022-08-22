@@ -24,13 +24,14 @@ public class BaseTest extends DriverFactory {
     public String language = readConfig.getLanguage();
     public int DimensionHeight = readConfig.getDimensionHeight();
     public int DimensionWidth = readConfig.getDimensionWidth();
-    public int partnerID = readConfig.getPartnerID();
+    public int partnerConfigNum = readConfig.partnerConfigNum();
 
 
 
+    public int partnerID;
     public String getGamesAPIUrl;
     public String getURLAPIUrl;
-    public int getUsertID;
+    public int getUserID;
     public String getGamesOrigin;
     public String getGamesRecurse;
     public String getGamesPartnerName;
@@ -54,29 +55,45 @@ public class BaseTest extends DriverFactory {
         logger = Logger.getLogger("craftBet");
         PropertyConfigurator.configure("Log4j.properties");
 
-        switch (partnerID){
+        switch (partnerConfigNum){
             case 1: {
+                partnerID=1;
                 getGamesAPIUrl = "https://websitewebapi.craftbet.com/1/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.craftbet.com/1/api/Main/GetProductUrl";
-                getUsertID=1630845;
+                getUserID =1630845;
                 getGamesOrigin = "https://craftbet.com";
                 getGamesRecurse = "https://resources.craftbet.com/products/";
                 getGamesPartnerName = "Craftbet";
                 getGamesBaseURL = "https://craftbet.com";
                 break;
             }
-            case 56: {
+            case 2: {
+                partnerID=56;
                 getGamesAPIUrl = "https://websitewebapi.pokies2go.io/56/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.pokies2go.io/56/api/Main/GetProductUrl";
-                getUsertID=1650272;
+                getUserID =1650272;
                 getGamesOrigin = "https://pokies2go.io";
                 getGamesRecurse = "https://resources.pokies2go.io/products/";
                 getGamesPartnerName = "Pokies2go";
                 getGamesBaseURL = "https://pokies2go.io";
                 break;
             }
+            case 3: {
+                partnerID = 1;
+                getGamesAPIUrl = "https://websitewebapi.exclusivebet-stage.com/1/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.exclusivebet-stage.com/1/api/Main/GetProductUrl";
+                getUserID = 2;
+                getGamesOrigin = "https://exclusivebet-stage.com";
+                getGamesRecurse = "https://resources.exclusivebet-stage.com/products/";
+                getGamesPartnerName = "Exclusivebet";
+                getGamesBaseURL = "https://exclusivebet-stage.com";
+                break;
+            }
 
-            default:{
+
+
+
+                default:{
                 logger.error("Wrong Partner ID: From config.properties file insert the right PartnerID Please");
                 throw new SkipException("From config.properties file choose the right PartnerID Please");
             }
@@ -85,12 +102,12 @@ public class BaseTest extends DriverFactory {
 
         try {
             super.initDriver(getGamesBaseURL, browser, isHeadless);
+            logger.info("URL: "+ getGamesBaseURL + "  Browser: "+ browser);
             Dimension d = new Dimension(DimensionWidth, DimensionHeight);  //
             if (DimensionWidth > 1250  &&  DimensionHeight > 750){
                 driver.manage().window().setSize(d);
                 logger.info("Window size is: "+ DimensionWidth + " x " + DimensionHeight);
             }
-
         }
 
 

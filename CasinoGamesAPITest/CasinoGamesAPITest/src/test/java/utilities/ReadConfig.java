@@ -53,15 +53,9 @@ public class ReadConfig {
         return Integer.parseInt(pro.getProperty("DimensionHeight"));
     }
 
-
-
-
-
-
-
-    public int getPartnerID()
+    public int partnerConfigNum()
     {
-        return Integer.parseInt(pro.getProperty("partnerID"));
+        return Integer.parseInt(pro.getProperty("id"));
     }
 
 }

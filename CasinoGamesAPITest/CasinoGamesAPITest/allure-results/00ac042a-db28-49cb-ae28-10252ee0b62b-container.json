@@ -1,0 +1,1 @@
+{"uuid":"00ac042a-db28-49cb-ae28-10252ee0b62b","name":"testCases.getUrlAPI_Test.logIn","children":["739193c5-29ad-4796-bb26-73e308435e8a"],"description":"","befores":[{"name":"logIn","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1661156065185,"stop":1661156188301}],"afters":[],"start":1661156065185,"stop":1661156188301}
