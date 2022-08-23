@@ -73,11 +73,11 @@ public class BaseTest extends DriverFactory {
                 .header("origin", origin)
                 .body("{\"PageIndex\":0,\"PageSize\":20000,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false,\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
                 .asString();
-
+        logger.info("Get games Api call was sent");
         JSONObject jsonObjectBody = new JSONObject(response.getBody());
         JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.getString("ResponseObject"));
         JSONArray jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
-
+        logger.info("Get games Api Response was captured");
 
         for (int j = 0; j < jsonArrayGames.length(); j++) {
 
@@ -89,16 +89,22 @@ public class BaseTest extends DriverFactory {
             gameNames.add(n);
             gameProviderNames.add(sp);
 
-            if (i.contains("http") && !i.contains(" ")) {
-                srces.add(i);
-            } else if (i.contains(" Catalog image/image.jpg")) {
+            if (i.contains("http")&& i.contains(" ")){
                 String change = i.replace(" ", "%20");
                 srces.add(change);
-            } else {
+            }
+            else if (!i.contains("http")&& !i.contains(" ")){
                 srces.add(recurse + i);
             }
+            else if (!i.contains("http")&& i.contains(" ")) {
+                String change = recurse + i.replace(" ", "%20");
+                srces.add(change);
+            }
+            else  {
+                srces.add(i);
+            }
         }
-
+        logger.info("All captured games images was added into ArrayList");
         for (String src : srces) {
             if (src == null || src.isEmpty()) {
                 logger.info(k + "   Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + " :   " + ":   src = " + src + " :" + " this games image src has empty/null value");
@@ -170,7 +176,7 @@ public class BaseTest extends DriverFactory {
         HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
                 .header("content-type", "application/json")
                 .header("origin", origin)
-                .body("{\"PageIndex\":0,\"PageSize\":20000,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false,\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
+                .body("{\"PageIndex\":0,\"PageSize\":200,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false,\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
                 .asString();
         logger.info("Get All games API call ");
 
@@ -309,7 +315,7 @@ public class BaseTest extends DriverFactory {
                 getGamesAPIUrl = "https://websitewebapi.crypto-casino.games/47/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.crypto-casino.games/47/api/Main/GetProductUrl";
                 getUserID =1650805;
-                getGamesOrigin = "https://crypto-casino.games/";
+                getGamesOrigin = "https://crypto-casino.games";
                 getGamesRecurse = "https://resources.crypto-casino.games/products/";
                 getGamesPartnerName = "cryptoCasino";
                 getGamesBaseURL = "https://crypto-casino.games";
@@ -360,8 +366,7 @@ public class BaseTest extends DriverFactory {
 //                getGamesBaseURL = "https://pokies2go.io";
 //                break;
 //            }
-//
-//
+
 
 
 

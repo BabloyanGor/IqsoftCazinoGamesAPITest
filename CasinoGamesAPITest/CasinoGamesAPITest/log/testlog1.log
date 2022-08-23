@@ -305,3 +305,278 @@ java.net.SocketException: Connection reset
 2022-08-22 21:58:31,361 [main] INFO craftBet - Browser closed
 2022-08-22 21:58:31,361 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-08-22 21:58:31,371 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-23 21:35:33,146 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-23 21:35:34,310 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-23 21:35:34,350 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-23 21:35:37,086 [main] INFO craftBet - URL: https://tigerbet001.com  Browser: chrome
+2022-08-23 21:35:37,163 [main] INFO craftBet - All Page elements are initialized
+2022-08-23 21:35:37,173 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-23 21:35:51,723 [main] ERROR craftBet - 47   Game Provider Name = ZeusPlay :   Game Name =  40 Flaming Lines :   cod = 404:   src = https://resources.tigerbet001.com/products/https://s3-eu-west-1.amazonaws.com/marketing-assets-83/games-prod/new/7ce19eb8ec1bbfe0cbac072246d1a9da54647e49/Games Catalog image/image.png
+2022-08-23 21:36:07,073 [main] ERROR craftBet - 95   Game Provider Name = NucleusGaming :   Game Name =  A Time to Win :   cod = 404:   src = https://resources.tigerbet001.com/products/https://s3-eu-west-1.amazonaws.com/marketing-assets-83/games-prod/new/2c306a5a0240554b9e2f5f6d3fcc70774e5ecd02/Games Catalog image/image.png
+2022-08-23 21:36:07,180 [main] ERROR craftBet - 96   Game Provider Name = ZeusPlay :   Game Name =  Abby and the Witch :   cod = 404:   src = https://resources.tigerbet001.com/products/https://s3-eu-west-1.amazonaws.com/marketing-assets-83/games-prod/new/514fd02fd207a8446d703038b5a4bf447948fd88/Games Catalog image/image.png
+2022-08-23 21:36:20,266 [main] ERROR craftBet - 144   Game Provider Name = NucleusGaming :   Game Name =  All Reel Drive :   cod = 404:   src = https://resources.tigerbet001.com/products/https://s3-eu-west-1.amazonaws.com/marketing-assets-83/games-prod/new/48a38bee8519399ea888a0b095b787e870cbfe47/Games Catalog image/image.png
+2022-08-23 21:36:26,103 [main] ERROR craftBet - 167   Game Provider Name = ZeusPlay :   Game Name =  Amuns Book HD :   cod = 404:   src = https://resources.tigerbet001.com/products/https://s3-eu-west-1.amazonaws.com/marketing-assets-83/games-prod/new/6aeac1ceb89d09699470dd367f8aa6f3dc3206ff/Games Catalog image/image.png
+2022-08-23 21:36:29,575 [main] ERROR craftBet - 182   Game Provider Name = ZeusPlay :   Game Name =  Arabian Dream :   cod = 404:   src = https://resources.tigerbet001.com/products/https://s3-eu-west-1.amazonaws.com/marketing-assets-83/games-prod/new/1b88412a06154b6a98349bba4d387a60c2096c3b/Games Catalog image/image.png
+2022-08-23 21:36:33,854 [main] INFO craftBet - Broken images are:  6
+2022-08-23 21:36:34,730 [main] INFO craftBet - Browser closed
+2022-08-23 21:36:34,730 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-23 21:36:34,736 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-23 22:15:43,648 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-23 22:15:43,846 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-23 22:15:43,866 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-23 22:15:46,070 [main] INFO craftBet - URL: https://tigerbet001.com  Browser: chrome
+2022-08-23 22:15:46,118 [main] INFO craftBet - All Page elements are initialized
+2022-08-23 22:15:46,128 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-23 22:16:41,132 [main] INFO craftBet - Broken images are:  0
+2022-08-23 22:16:41,259 [main] INFO craftBet - Browser closed
+2022-08-23 22:16:41,259 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-23 22:16:41,274 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-23 22:16:58,866 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-23 22:16:59,073 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-23 22:16:59,096 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-23 22:17:00,972 [main] INFO craftBet - URL: https://tigerbet001.com  Browser: chrome
+2022-08-23 22:17:01,031 [main] INFO craftBet - All Page elements are initialized
+2022-08-23 22:17:01,044 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-23 22:18:29,986 [main] ERROR craftBet - 262 Game Provider Name = Microgaming :                    Game Name = BankoftheNile :                       src = https://resources.{p}/products/BankoftheNile.jpg         java.net.UnknownHostException: resources.{p}
+2022-08-23 22:19:32,802 [main] ERROR craftBet - 453 Game Provider Name = Microgaming :                    Game Name = BookOfSouls :                       src = https://resources.{p}/products/BookOfSouls.jpg         java.net.UnknownHostException: resources.{p}
+2022-08-23 22:20:27,293 [main] ERROR craftBet - 614 Game Provider Name = Microgaming :                    Game Name = CheekyFruits6Deluxe :                       src = https://resources.{p}/products/CheekyFruits6Deluxe.jpg         java.net.UnknownHostException: resources.{p}
+2022-08-23 22:22:06,474 [main] ERROR craftBet - 904 Game Provider Name = Microgaming :                    Game Name = Dream3Team :                       src = https://resources.{p}/products/Dream3Team.jpg         java.net.UnknownHostException: resources.{p}
+2022-08-23 22:22:16,066 [main] ERROR craftBet - 933   Game Provider Name = EGT :   Game Name =  Egypt Sky :   cod = 403:   src = https://resources.tigerbet001.com/products/
+2022-08-23 22:22:22,344 [main] ERROR craftBet - 956 Game Provider Name = Microgaming :                    Game Name = EliteofEvil:PortalofGold :                       src = https://resources.{p}/products/EliteofEvil:PortalofGold.jpg         java.net.UnknownHostException: resources.{p}
+2022-08-23 22:22:29,156 [main] ERROR craftBet - 978 Game Provider Name = Microgaming :                    Game Name = EternalShogi :                       src = https://resources.{p}/products/EternalShogi·jpg         java.net.UnknownHostException: resources.{p}
+2022-08-23 22:23:07,860 [main] ERROR craftBet - 1098 Game Provider Name = Microgaming :                    Game Name = FootballStarDeluxe :                       src = https://resources.{p}/products/FootballStarDeluxe.jpg         java.net.UnknownHostException: resources.{p}
+2022-08-23 22:23:28,146 [main] ERROR craftBet - 1164 Game Provider Name = Microgaming :                    Game Name = FruitPunchUp :                       src = https://resources.{p}/products/FruitPunchUp·jpg         java.net.UnknownHostException: resources.{p}
+2022-08-23 22:23:35,265 [main] ERROR craftBet - 1186 Game Provider Name = Microgaming :                    Game Name = Fruitsand777's :                       src = https://resources.{p}/products/Fruitsand777's·jpg         java.net.UnknownHostException: resources.{p}
+2022-08-23 22:24:47,825 [main] ERROR craftBet - 1357 Game Provider Name = Microgaming :                    Game Name = Goldilocks :                       src = https://resources.{p}/products/goldilocks.jpg         java.net.UnknownHostException: resources.{p}
+2022-08-23 22:25:05,202 [main] ERROR craftBet - 1416   Game Provider Name = Leander :   Game Name =  Hattrick Heroes :   cod = 403:   src = https://static.egamings.com/games/leander/?attrick_?eroes.jpg
+2022-08-23 22:25:32,627 [main] ERROR craftBet - 1503 Game Provider Name = Microgaming :                    Game Name = HotInk :                       src = https://resources.{p}/products/hotink.jpeg         java.net.UnknownHostException: resources.{p}
+2022-08-23 22:26:29,048 [main] ERROR craftBet - 1684   Game Provider Name = EGT :   Game Name =  Kangaroo Land :   cod = 403:   src = https://resources.tigerbet001.com/products/
+2022-08-23 22:26:47,491 [main] ERROR craftBet - 1742 Game Provider Name = Microgaming :                    Game Name = LaraJonesisCleopatra :                       src = https://resources.{p}/products/LaraJonesisCleopatra·jpg         java.net.UnknownHostException: resources.{p}
+2022-08-23 22:27:31,154 [main] ERROR craftBet - 1874 Game Provider Name = Microgaming :                    Game Name = LuckyRiches:Hyperspins :                       src = https://resources.{p}/products/LuckyRiches:Hyperspins.jpg         java.net.UnknownHostException: resources.{p}
+2022-08-23 22:27:46,994 [main] ERROR craftBet - 1928   Game Provider Name = Amatic :   Game Name =  Magic Scatter :   cod = 404:   src = https://resources.tigerbet001.com/products/outcomebet/vikwin/web/MagicScatter.png
+2022-08-23 22:28:07,866 [main] ERROR craftBet - 1993 Game Provider Name = Microgaming :                    Game Name = Meganova :                       src = https://resources.{p}/products/Meganova·jpg         java.net.UnknownHostException: resources.{p}
+2022-08-23 22:28:15,017 [main] ERROR craftBet - 2015 Game Provider Name = Microgaming :                    Game Name = MidnightMadness :                       src = https://resources.{p}/products/MidnightMadness.jpg         java.net.UnknownHostException: resources.{p}
+2022-08-23 22:30:05,244 [main] ERROR craftBet - 2251 Game Provider Name = Microgaming :                    Game Name = Pentagram5000 :                       src = https://resources.{p}/products/Pentagram5000.jpg         java.net.UnknownHostException: resources.{p}
+2022-08-23 22:30:35,973 [main] ERROR craftBet - 2320 Game Provider Name = Microgaming :                    Game Name = Popstar :                       src = https://resources.{p}/products/Popstar.jpg         java.net.UnknownHostException: resources.{p}
+2022-08-23 22:31:21,383 [main] ERROR craftBet - 2470   Game Provider Name = EGT :   Game Name =  Retro Style :   cod = 403:   src = https://resources.tigerbet001.com/products/
+2022-08-23 22:31:43,798 [main] ERROR craftBet - 2542 Game Provider Name = Microgaming :                    Game Name = RomanPower :                       src = https://resources.{p}/products/RomanPower.jpg         java.net.UnknownHostException: resources.{p}
+2022-08-23 22:32:01,812 [main] ERROR craftBet - 2593 Game Provider Name = Microgaming :                    Game Name = SamanthaFox :                       src = https://resources.{p}/products/SamanthaFoxt·jpg         java.net.UnknownHostException: resources.{p}
+2022-08-23 22:32:12,409 [main] ERROR craftBet - 2626   Game Provider Name = TomHorn :   Game Name =  Scratch Card :   cod = 404:   src = https://resources.tigerbet001.com/products/tomhorn/ScratchCard.png
+2022-08-23 22:33:34,931 [main] ERROR craftBet - 2843   Game Provider Name = Microgaming :   Game Name =  SupeitUp :   cod = 404:   src = https://static.egamings.com/games/mg/supeitup.jpeg
+2022-08-23 22:33:35,907 [main] ERROR craftBet - 2846 Game Provider Name = Microgaming :                    Game Name = SuperBarXPullTab :                       src = https://resources.{p}/products/SuperBarXPullTab.jpg         java.net.UnknownHostException: resources.{p}
+2022-08-23 22:33:50,128 [main] ERROR craftBet - 2873 Game Provider Name = Microgaming :                    Game Name = SuperSync :                       src = https://resources.{p}/products/SuperSync.jpg         java.net.UnknownHostException: resources.{p}
+2022-08-23 22:34:11,819 [main] ERROR craftBet - 2928   Game Provider Name = Microgaming :   Game Name =  Terminator2 :   cod = 404:   src = https://static.egamings.com/games/mg/Terminator2.jpg
+2022-08-23 22:34:19,885 [main] ERROR craftBet - 2948   Game Provider Name = EGT :   Game Name =  The Big Journey :   cod = 403:   src = https://resources.tigerbet001.com/products/
+2022-08-23 22:36:30,772 [main] ERROR craftBet - 3322 Game Provider Name = Microgaming :                    Game Name = WildReels :                       src = https://resources.{p}/products/WildReelse.jpg         java.net.UnknownHostException: resources.{p}
+2022-08-23 22:36:38,744 [main] ERROR craftBet - 3355   Game Provider Name = NetEnt :   Game Name =  Wild Wild West :   cod = 404:   src = https://resources.tigerbet001.com/products/cmodul/wild_wild_west.png
+2022-08-23 22:37:30,132 [main] INFO craftBet - Broken images are:  32
+2022-08-23 22:37:30,867 [main] INFO craftBet - Browser closed
+2022-08-23 22:37:30,867 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-23 22:37:30,872 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-23 22:41:29,728 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-23 22:41:30,319 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-23 22:41:30,334 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-23 22:41:32,458 [main] INFO craftBet - URL: https://tigerbet001.com  Browser: chrome
+2022-08-23 22:41:32,525 [main] INFO craftBet - All Page elements are initialized
+2022-08-23 22:41:32,540 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-23 22:41:33,895 [main] INFO craftBet - username passed
+2022-08-23 22:41:34,020 [main] INFO craftBet - password passed
+2022-08-23 22:41:34,088 [main] INFO craftBet - Log In Button was clicked
+2022-08-23 22:41:35,510 [main] INFO craftBet - Token was captured f81c846a2be14506b2d1a39c976837b3
+2022-08-23 22:41:36,299 [main] INFO craftBet - Get All games API call 
+2022-08-23 22:41:36,321 [main] INFO craftBet - From Get All games API call body captured 
+2022-08-23 22:41:36,332 [main] INFO craftBet - From Get All games API productIDes and Names was captured 
+2022-08-23 22:41:39,471 [main] INFO craftBet - 1 9 ID=23305 Provider=IGT Name=100 Pandas cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:41:42,646 [main] INFO craftBet - 2 20 ID=2404 Provider=EGT Name=2 Dragons cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-23 22:41:43,535 [main] INFO craftBet - 3 23 ID=2401 Provider=EGT Name=20 Diamonds cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-23 22:41:44,177 [main] INFO craftBet - 4 25 ID=2402 Provider=EGT Name=20 Super Dice cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-23 22:41:49,842 [main] INFO craftBet - 5 36 ID=53030 Provider=Mascot Name=3 Corsairs cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:45:25,587 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-23 22:45:25,767 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-23 22:45:25,785 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-23 22:45:35,173 [main] INFO craftBet - URL: https://graciazz.com  Browser: chrome
+2022-08-23 22:45:35,228 [main] INFO craftBet - All Page elements are initialized
+2022-08-23 22:45:35,237 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-23 22:47:23,320 [main] ERROR craftBet - 197   Game Provider Name = EGT :   Game Name =  Egypt Sky :   cod = 403:   src = https://resources.graciazz.com/products/
+2022-08-23 22:47:41,081 [main] ERROR craftBet - 300   Game Provider Name = EGT :   Game Name =  Kangaroo Land :   cod = 403:   src = https://resources.graciazz.com/products/
+2022-08-23 22:47:45,255 [main] ERROR craftBet - 331   Game Provider Name = Amatic :   Game Name =  Magic Scatter :   cod = 404:   src = https://resources.graciazz.com/products/outcomebet/vikwin/web/MagicScatter.png
+2022-08-23 22:47:52,890 [main] ERROR craftBet - 397   Game Provider Name = EGT :   Game Name =  Retro Style :   cod = 403:   src = https://resources.graciazz.com/products/
+2022-08-23 22:47:58,074 [main] ERROR craftBet - 438   Game Provider Name = EGT :   Game Name =  The Big Journey :   cod = 403:   src = https://resources.graciazz.com/products/
+2022-08-23 22:48:04,161 [main] ERROR craftBet - 486   Game Provider Name = NetEnt :   Game Name =  Wild Wild West :   cod = 404:   src = https://resources.graciazz.com/products/cmodul/wild_wild_west.png
+2022-08-23 22:48:05,723 [main] INFO craftBet - Broken images are:  6
+2022-08-23 22:48:06,502 [main] INFO craftBet - Browser closed
+2022-08-23 22:48:06,503 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-23 22:48:06,512 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-23 22:48:33,077 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-23 22:48:33,255 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-23 22:48:33,274 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-23 22:48:35,104 [main] INFO craftBet - URL: https://graciazz.com  Browser: chrome
+2022-08-23 22:48:35,151 [main] INFO craftBet - All Page elements are initialized
+2022-08-23 22:48:35,162 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-23 22:48:36,150 [main] INFO craftBet - username passed
+2022-08-23 22:48:36,227 [main] INFO craftBet - password passed
+2022-08-23 22:48:36,293 [main] INFO craftBet - Log In Button was clicked
+2022-08-23 22:48:37,568 [main] INFO craftBet - Token was captured 1a12a2a717a04facbf8f49d9e575b4ca
+2022-08-23 22:48:38,213 [main] INFO craftBet - Get All games API call 
+2022-08-23 22:48:38,229 [main] INFO craftBet - From Get All games API call body captured 
+2022-08-23 22:48:38,234 [main] INFO craftBet - From Get All games API productIDes and Names was captured 
+2022-08-23 22:49:21,276 [main] INFO craftBet - 1 95 ID=23305 Provider=IGT Name=100 Pandas cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:21,506 [main] INFO craftBet - 2 96 ID=2404 Provider=EGT Name=2 Dragons cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-08-23 22:49:21,757 [main] INFO craftBet - 3 97 ID=2401 Provider=EGT Name=20 Diamonds cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-08-23 22:49:21,992 [main] INFO craftBet - 4 98 ID=2402 Provider=EGT Name=20 Super Dice cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-08-23 22:49:22,449 [main] INFO craftBet - 5 100 ID=53030 Provider=Mascot Name=3 Corsairs cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:22,686 [main] INFO craftBet - 6 101 ID=2405 Provider=EGT Name=40 Super Dice cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-08-23 22:49:23,250 [main] INFO craftBet - 7 103 ID=2409 Provider=EGT Name=5 Hot Dice cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-08-23 22:49:23,475 [main] INFO craftBet - 8 104 ID=2407 Provider=EGT Name=50 Horses cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-08-23 22:49:23,905 [main] INFO craftBet - 9 106 ID=23226 Provider=Amatic Name=A Book of Aztec cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:24,293 [main] INFO craftBet - 10 107 ID=23225 Provider=Amatic Name=Admiral Nelson cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:24,553 [main] INFO craftBet - 11 108 ID=23805 Provider=Amatic Name=All ways Joker cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:24,767 [main] INFO craftBet - 12 109 ID=23810 Provider=Amatic Name=All ways Win cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:24,985 [main] INFO craftBet - 13 110 ID=23235 Provider=Amatic Name=Allways Fruits cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:25,548 [main] INFO craftBet - 14 112 ID=2411 Provider=EGT Name=Amazing Amazonia cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-08-23 22:49:26,065 [main] INFO craftBet - 15 114 ID=53001 Provider=Mascot Name=Anksunamun: the Queen of Egypt cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:26,780 [main] INFO craftBet - 16 117 ID=23245 Provider=Amatic Name=Arising Phoenix cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:26,999 [main] INFO craftBet - 17 118 ID=23014 Provider=QuickSpin Name=Ark of Mystery cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:27,441 [main] INFO craftBet - 18 120 ID=23246 Provider=Amatic Name=Aztec Secret cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:27,677 [main] INFO craftBet - 19 121 ID=53013 Provider=Mascot Name=Bamboo Bear cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:27,991 [main] INFO craftBet - 20 122 ID=53026 Provider=Mascot Name=Bastet and Cats cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:28,222 [main] INFO craftBet - 21 123 ID=23232 Provider=Amatic Name=Bells on Fire cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:28,460 [main] INFO craftBet - 22 124 ID=23247 Provider=Amatic Name=Bells on Fire HOT cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:28,696 [main] INFO craftBet - 23 125 ID=23248 Provider=Amatic Name=Bells on Fire ROMBO cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:28,916 [main] INFO craftBet - 24 126 ID=53021 Provider=Mascot Name=Benny's the Biggest game cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:29,757 [main] INFO craftBet - 25 129 ID=23741 Provider=QuickSpin Name=Big Bad Wolf cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:29,998 [main] INFO craftBet - 26 130 ID=23725 Provider=QuickSpin Name=Big Bot Crew cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:30,219 [main] INFO craftBet - 27 131 ID=23396 Provider=Amatic Name=Big Panda cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:30,491 [main] INFO craftBet - 28 132 ID=23249 Provider=Amatic Name=Billyonaire cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:30,919 [main] INFO craftBet - 29 133 ID=23803 Provider=Amatic Name=Billy's game cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:32,166 [main] INFO craftBet - 30 137 ID=23231 Provider=Amatic Name=Blue Dolphin cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:32,420 [main] INFO craftBet - 31 138 ID=2412 Provider=EGT Name=Blue Heart cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-08-23 22:49:33,134 [main] INFO craftBet - 32 141 ID=23227 Provider=Amatic Name=Book of Fortune cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:33,352 [main] INFO craftBet - 33 142 ID=23817 Provider=Amatic Name=Book Of Lords cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:33,565 [main] INFO craftBet - 34 143 ID=23818 Provider=Amatic Name=Book Of Queen cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:34,607 [main] INFO craftBet - 35 147 ID=2414 Provider=EGT Name=Burning Dice cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-08-23 22:49:35,336 [main] INFO craftBet - 36 150 ID=53005 Provider=Mascot Name=CanCan Saloon cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:35,546 [main] INFO craftBet - 37 151 ID=23823 Provider=Amatic Name=Casanova cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:35,750 [main] INFO craftBet - 38 152 ID=23289 Provider=IGT Name=Cash Coaster cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:36,602 [main] INFO craftBet - 39 155 ID=2416 Provider=EGT Name=Casino Mania cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-08-23 22:49:36,851 [main] INFO craftBet - 40 156 ID=23250 Provider=Amatic Name=Casinova cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:37,081 [main] INFO craftBet - 41 157 ID=2400 Provider=EGT Name=Cats cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-08-23 22:49:37,301 [main] INFO craftBet - 42 158 ID=23290 Provider=IGT Name=Cats cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:38,290 [main] INFO craftBet - 43 162 ID=23291 Provider=IGT Name=Cleopatra cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:38,747 [main] INFO craftBet - 44 164 ID=23726 Provider=QuickSpin Name=Colossus cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:38,991 [main] INFO craftBet - 45 165 ID=23251 Provider=Amatic Name=Cool Diamonds II cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:39,440 [main] INFO craftBet - 46 167 ID=23292 Provider=IGT Name=Coyote Moon cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:40,195 [main] INFO craftBet - 47 169 ID=23742 Provider=QuickSpin Name=Crystal Queen cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:40,979 [main] INFO craftBet - 48 172 ID=23294 Provider=IGT Name=Day of the Dead cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:42,476 [main] INFO craftBet - 49 178 ID=23252 Provider=Amatic Name=Diamond Cats cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:42,698 [main] INFO craftBet - 50 179 ID=23253 Provider=Amatic Name=Diamond Monkey cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:42,945 [main] INFO craftBet - 51 180 ID=23295 Provider=IGT Name=Diamond Queen cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:43,175 [main] INFO craftBet - 52 181 ID=23254 Provider=Amatic Name=Diamonds on Fire cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:43,404 [main] INFO craftBet - 53 182 ID=2417 Provider=EGT Name=Dice Of Ra cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-08-23 22:49:43,930 [main] INFO craftBet - 54 184 ID=23727 Provider=QuickSpin Name=Divine Dreams cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:45,019 [main] INFO craftBet - 55 188 ID=23728 Provider=QuickSpin Name=Dragon Shrine cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:45,480 [main] INFO craftBet - 56 190 ID=23255 Provider=Amatic Name=Dragons Kingdom cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:45,709 [main] INFO craftBet - 57 191 ID=23236 Provider=Amatic Name=Dragon's Pearl cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:46,420 [main] INFO craftBet - 58 194 ID=23729 Provider=QuickSpin Name=Durian Dynamite cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:46,636 [main] INFO craftBet - 59 195 ID=23781 Provider=QuickSpin Name=Dwarfs Gone Wild cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:46,856 [main] INFO craftBet - 60 196 ID=23730 Provider=QuickSpin Name=Eastern Emeralds cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-23 22:49:47,085 [main] INFO craftBet - 61 197 ID=23799 Provider=EGT Name=Egypt Sky cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-08-23 22:49:47,579 [main] INFO craftBet - From Get URL API broken games are captured
+2022-08-23 22:49:47,579 [main] INFO craftBet - Broken url-es are:  61
+2022-08-23 22:49:48,323 [main] INFO craftBet - Browser closed
+2022-08-23 22:49:48,323 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-23 22:49:48,329 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-23 22:53:39,135 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-23 22:53:39,317 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-23 22:53:39,336 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-23 22:53:42,286 [main] INFO craftBet - URL: https://crypto-casino.games  Browser: chrome
+2022-08-23 22:53:42,346 [main] INFO craftBet - All Page elements are initialized
+2022-08-23 22:53:42,357 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-23 22:53:43,049 [main] INFO craftBet - Browser closed
+2022-08-23 22:53:43,050 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-23 22:53:43,056 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-23 22:54:17,705 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-23 22:54:17,885 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-23 22:54:17,904 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-23 22:54:21,426 [main] INFO craftBet - URL: https://crypto-casino.games  Browser: chrome
+2022-08-23 22:54:21,485 [main] INFO craftBet - All Page elements are initialized
+2022-08-23 22:54:21,496 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-23 22:54:22,221 [main] INFO craftBet - Browser closed
+2022-08-23 22:54:22,222 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-23 22:54:22,228 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-23 22:54:59,714 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-23 22:54:59,906 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-23 22:54:59,924 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-23 22:55:02,565 [main] INFO craftBet - URL: https://crypto-casino.games  Browser: chrome
+2022-08-23 22:55:02,616 [main] INFO craftBet - All Page elements are initialized
+2022-08-23 22:55:02,626 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-23 23:02:40,734 [main] ERROR craftBet - 1490   Game Provider Name = Leander :   Game Name =  Hattrick Heroes :   cod = 403:   src = https://static.egamings.com/games/leander/?attrick_?eroes.jpg
+2022-08-23 23:10:29,252 [main] ERROR craftBet - 2989   Game Provider Name = Microgaming :   Game Name =  SupeitUp :   cod = 404:   src = https://static.egamings.com/games/mg/supeitup.jpeg
+2022-08-23 23:13:21,486 [main] ERROR craftBet - 3532   Game Provider Name = NetEnt :   Game Name =  Wild Wild West :   cod = 404:   src = https://resources.crypto-casino.games/products/cmodul/wild_wild_west.png
+2022-08-23 23:13:49,164 [main] INFO craftBet - Broken images are:  3
+2022-08-23 23:13:50,240 [main] INFO craftBet - Browser closed
+2022-08-23 23:13:50,240 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-23 23:13:50,262 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  

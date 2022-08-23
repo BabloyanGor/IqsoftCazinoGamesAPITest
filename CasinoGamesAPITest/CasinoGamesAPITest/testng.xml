@@ -7,7 +7,8 @@
     </listeners>
     <test name="testCases">
         <classes>
-
+            <class name="testCases.GetAllGamesAPI_IMG_Test"/>
+            <class name="testCases.getUrlAPI_Test"/>
         </classes>
     </test>
 </suite>
