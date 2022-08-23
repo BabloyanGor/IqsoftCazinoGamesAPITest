@@ -246,3 +246,62 @@ java.net.SocketException: Connection reset
 2022-08-22 14:54:20,644 - craftBet -INFO - Browser closed
 2022-08-22 14:54:20,645 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-08-22 14:54:20,691 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-22 19:31:02,545 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-22 19:31:03,760 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-22 19:31:03,796 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-22 19:31:09,643 - craftBet -INFO - URL: https://pokies2go.io  Browser: chrome
+2022-08-22 19:31:09,750 - craftBet -INFO - All Page elements are initialized
+2022-08-22 19:31:09,763 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-22 20:15:37,195 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-22 20:15:37,399 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-22 20:15:37,421 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-22 20:15:41,721 - craftBet -INFO - URL: https://pokies2go.io  Browser: chrome
+2022-08-22 20:15:41,778 - craftBet -INFO - All Page elements are initialized
+2022-08-22 20:15:41,786 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-22 20:21:33,280 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-22 20:21:33,482 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-22 20:21:33,503 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-22 20:21:35,366 - craftBet -INFO - URL: https://pokies2go.io  Browser: chrome
+2022-08-22 20:21:35,418 - craftBet -INFO - All Page elements are initialized
+2022-08-22 20:21:35,426 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-22 20:26:37,151 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-22 20:26:37,337 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-22 20:26:37,356 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-22 20:26:39,315 - craftBet -INFO - URL: https://pokies2go.io  Browser: chrome
+2022-08-22 20:26:39,362 - craftBet -INFO - All Page elements are initialized
+2022-08-22 20:26:39,371 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-22 20:26:40,428 - craftBet -INFO - username passed
+2022-08-22 20:26:40,541 - craftBet -INFO - password passed
+2022-08-22 20:26:40,611 - craftBet -INFO - Log In Button was clicked
+2022-08-22 20:26:41,787 - craftBet -INFO - Token was captured abf2facc47dc45ef8a2cf6388f84e61b
+2022-08-22 20:52:17,825 - craftBet -INFO - Browser closed
+2022-08-22 20:52:17,825 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-22 20:52:17,830 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-22 20:53:15,702 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-22 20:53:16,336 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-22 20:53:16,355 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-22 20:53:18,613 - craftBet -INFO - URL: https://exclusivebet-stage.com  Browser: chrome
+2022-08-22 20:53:18,664 - craftBet -INFO - All Page elements are initialized
+2022-08-22 20:53:18,673 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-22 20:55:13,968 - craftBet -INFO - username passed
+2022-08-22 20:55:14,043 - craftBet -INFO - password passed
+2022-08-22 20:55:14,108 - craftBet -INFO - Log In Button was clicked
+2022-08-22 20:55:15,593 - craftBet -INFO - Token was captured c91a12a3418e4c31b4cd17249e389b48
+2022-08-22 20:55:23,468 - craftBet -INFO - Get All games API call 
+2022-08-22 20:55:23,915 - craftBet -INFO - From Get All games API productIDes and Names was captured 
+2022-08-22 21:18:25,813 - craftBet -INFO - From Get URL API broken games are captured
+2022-08-22 21:18:25,813 - craftBet -INFO - Broken url-es are:  0
+2022-08-22 21:18:25,813 - craftBet -INFO - Broken Games are null
+2022-08-22 21:18:25,877 - craftBet -INFO - Browser closed
+2022-08-22 21:18:25,878 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-22 21:18:25,883 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-22 21:42:59,064 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-22 21:42:59,255 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-22 21:42:59,274 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-22 21:43:03,365 - craftBet -INFO - URL: https://pokies2go.io  Browser: chrome
+2022-08-22 21:43:03,411 - craftBet -INFO - All Page elements are initialized
+2022-08-22 21:43:03,419 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-22 21:58:31,281 - craftBet -INFO - Broken images are:  0
+2022-08-22 21:58:31,361 - craftBet -INFO - Browser closed
+2022-08-22 21:58:31,361 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-22 21:58:31,371 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  

@@ -14,7 +14,8 @@ public class GetAllGamesAPI_IMG_Test extends BaseTest {
 
     @Test
     public void gamesImgTest() throws UnirestException, JSONException, IOException {
-        if (craftBet_01_header_page.getGamesAPICheckPictures(getGamesAPIUrl, getGamesOrigin, getGamesRecurse, getGamesPartnerName)){
+
+        if (getGamesAPICheckPictures(getGamesAPIUrl, getGamesOrigin, getGamesRecurse, getGamesPartnerName)){
             Assert.assertTrue(true);
         }
         else {

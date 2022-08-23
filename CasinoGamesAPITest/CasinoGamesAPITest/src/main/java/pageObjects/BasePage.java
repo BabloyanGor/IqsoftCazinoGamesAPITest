@@ -1,19 +1,6 @@
 package pageObjects;
-
-
-import com.mashape.unirest.http.HttpResponse;
-import com.mashape.unirest.http.Unirest;
-import com.mashape.unirest.http.exceptions.UnirestException;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
-import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.xssf.usermodel.XSSFRow;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
 import org.openqa.selenium.*;
 import org.openqa.selenium.html5.WebStorage;
 import org.openqa.selenium.interactions.Actions;
@@ -22,12 +9,9 @@ import org.openqa.selenium.logging.LogEntry;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -46,7 +30,7 @@ public class BasePage {
     Robot robot;
 
     public BasePage(WebDriver driver) throws AWTException {
-        this.driver = driver;
+        BasePage.driver = driver;
         actions = new Actions(driver);
         webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(100));
         js = (JavascriptExecutor) driver;
@@ -55,204 +39,6 @@ public class BasePage {
 
     public BasePage() throws AWTException {
     }
-
-    /* this method will be return integer number num symbols */
-    public static String randomNum(int num) {
-        String generatedInt = RandomStringUtils.randomNumeric(num);
-        return (generatedInt);
-    }
-
-
-    public boolean getGamesAPICheckPictures(String getGamesAPIUrl, String origin, String recurse, String partnerName) throws UnirestException, JSONException, IOException {
-
-        boolean isPassed;
-        int k = 0;
-        ArrayList<String> srces = new ArrayList<>();
-        ArrayList<String> gameNames = new ArrayList<>();
-        ArrayList<String> gameProviderNames = new ArrayList<>();
-        ArrayList<String> errorSrcXl = new ArrayList<>();
-
-        Unirest.setTimeouts(0, 0);
-        HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
-                .header("content-type", "application/json")
-                .header("origin", origin)
-                .body("{\"PageIndex\":0,\"PageSize\":20000,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false,\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
-                .asString();
-
-        JSONObject jsonObjectBody = new JSONObject(response.getBody());
-        JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.getString("ResponseObject"));
-        JSONArray jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
-
-
-        for (int j = 0; j < jsonArrayGames.length(); j++) {
-
-            String first = String.valueOf(jsonArrayGames.get(j));
-            JSONObject jsonObjectGame = new JSONObject(first);
-            String i = jsonObjectGame.getString("i");    // Game src
-            String n = jsonObjectGame.getString("n");    //Game Name
-            String sp = jsonObjectGame.getString("sp");  //Provider Name
-            gameNames.add(n);
-            gameProviderNames.add(sp);
-
-            if (i.contains("http") && !i.contains(" ")) {
-                srces.add(i);
-            } else if (i.contains(" Catalog image/image.jpg")) {
-                String change = i.replace(" ", "%20");
-                srces.add(change);
-            } else {
-                srces.add(recurse + i);
-            }
-        }
-
-        for (String src : srces) {
-            if (src == null || src.isEmpty()) {
-                System.out.println(k + "   Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + " :   " + ":   src = " + src + " :" + " this games image src has empty/null value");
-                errorSrcXl.add(k + "  Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + "  " + ":   src = " + src + " " + " ----->  this games image src has empty/null value");
-            } else {
-                int cod;
-                try {
-                    URL img = new URL(src);
-                    HttpURLConnection connection = (HttpURLConnection) img.openConnection();
-                    connection.connect();
-                    cod = connection.getResponseCode();
-
-                    if (cod >= 400) {
-                        System.out.println(k + "   Game Provider Name = " + gameProviderNames.get(k) + " :   " + "Game Name =  " + gameNames.get(k) + " :   " + "cod = " + cod + ":   src = " + src);
-                        errorSrcXl.add(k + "  Game Provider Name = " + gameProviderNames.get(k) + "   " + "Game Name =  " + gameNames.get(k) + "  " + "cod = " + cod + "   src = " + src);
-                    }
-                } catch (Exception e) {
-                    try {
-                        URL img = new URL(src);
-                        HttpURLConnection connection = (HttpURLConnection) img.openConnection();
-                        connection.connect();
-                        cod = connection.getResponseCode();
-
-                        if (cod >= 400) {
-                            System.out.println(k + "  Game Provider Name = " + gameProviderNames.get(k) + " :   " + "Game Name =  " + gameNames.get(k) + " :   " + "cod = " + cod + ":   src = " + src);
-                            errorSrcXl.add(k + "  Game Provider Name = " + gameProviderNames.get(k) + "   " + "Game Name =  " + gameNames.get(k) + "  " + "cod = " + cod + "   src = " + src);
-                        }
-                    } catch (Exception ex) {
-                        System.out.println(k + " Game Provider Name = " + gameProviderNames.get(k) + " :                    " + "Game Name = " + gameNames.get(k) + " :                    " + "   src = " + src + "         " + e);
-                        errorSrcXl.add(k + "  Game Provider Name = " + gameProviderNames.get(k) + "   " + "Game Name =  " + gameNames.get(k) + "  " + "src = " + src);
-                    }
-                }
-            }
-            k++;
-        }
-        System.out.println("Broken images are:  " + errorSrcXl.size());
-        if (errorSrcXl.size() == 0) {
-            isPassed = true;
-        } else {
-            String target = System.getProperty("user.dir") + "/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + partnerName + "DataBrokenIMGList.xlsx";
-            XSSFWorkbook workbook = new XSSFWorkbook();
-            FileOutputStream file = new FileOutputStream(target);
-            XSSFSheet sheet = workbook.createSheet("brokenIMG");
-            sheet.setColumnWidth(0, 20000);
-            int l = 0;
-            for (String err : errorSrcXl) {
-                XSSFRow row = sheet.createRow(l);
-                row.createCell(0).setCellValue(err);
-                l++;
-            }
-            workbook.write(file);
-            workbook.close();
-            isPassed = false;
-        }
-        return isPassed;
-    }
-
-
-    public boolean getUrlCheckGamesUrl(String getGamesAPIUrl, String origin, String getURLAPIurl, String token, int userID, int partnerID, String partnerName) throws JSONException, IOException, UnirestException {
-        boolean isPassed;
-        ArrayList<String> productID = new ArrayList<>();
-        ArrayList<String> name = new ArrayList<>();
-        ArrayList<String> provider = new ArrayList<>();
-        ArrayList<String> brokenURL = new ArrayList<>();
-
-        int errCount = 1;
-        int k = 0;
-
-        Unirest.setTimeouts(0, 0);
-        HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
-                .header("content-type", "application/json")
-                .header("origin", origin)
-                .body("{\"PageIndex\":0,\"PageSize\":20000,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false,\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
-                .asString();
-        System.out.println("Get All games API call ");
-
-        JSONObject jsonObjectBody = new JSONObject(response.getBody());
-        JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.getString("ResponseObject"));
-        JSONArray jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
-        System.out.println("From Get All games API call body captured ");
-
-
-        for (int j = 0; j < jsonArrayGames.length(); j++) {
-            String first = String.valueOf(jsonArrayGames.get(j));
-            JSONObject jsonObjectGame = new JSONObject(first);
-            String p = jsonObjectGame.getString("p");
-            String n = jsonObjectGame.getString("n");
-            String sp = jsonObjectGame.getString("sp");
-            productID.add(p);
-            name.add(n);
-            provider.add(sp);
-        }
-        System.out.println("From Get All games API productIDes and Names was captured ");
-
-        for (String id : productID) {
-            int proID = Integer.parseInt(id);
-
-            Unirest.setTimeouts(0, 0);
-            HttpResponse<String> responseUrl = Unirest.post(getURLAPIurl)
-                    .header("Content-Type", "application/json")
-                    .header("origin", origin)
-                    .body("{\"Loader\":true,\"PartnerId\":" + partnerID + ",\"TimeZone\":4,\"LanguageId\":\"en\",\"ProductId\":" + proID + ",\"Method\":\"GetProductUrl\",\"Controller\":\"Main\",\"CategoryId\":null,\"PageIndex\":0,\"PageSize\":100,\"ProviderIds\":[],\"Index\":null,\"ActivationKey\":null,\"MobileNumber\":null,\"Code\":null,\"RequestData\":\"{}\",\"IsForDemo\":false,\"IsForMobile\":false,\"Position\":\"\",\"DeviceType\":1,\"ClientId\":" + userID + ",\"Token\":\"" + token + "\"}")
-                    .asString();
-
-
-            JSONObject jsonObjectGetUrl = new JSONObject(responseUrl.getBody());
-
-            String code = jsonObjectGetUrl.getString("ResponseCode");
-            String description = jsonObjectGetUrl.getString("Description");
-            String url = jsonObjectGetUrl.getString("ResponseObject");
-            String s;
-            try {
-                if (!code.equals("0") || url == null || url.length() < 10) {
-                    s =errCount + " "+ k + " ID=" + id +" Provider=" + provider.get(k) + " Name=" + name.get(k) + " cod=" + code + " description=" + description + " ResponseObject=" + url;
-                    System.out.println(s);
-                    brokenURL.add(s);
-                    errCount++;
-                }
-            } catch (Exception e) {
-                System.out.println(k + " Unirest Exception ");
-            }
-            k++;
-        }
-        System.out.println("From Get URL API broken games are captured");
-
-        System.out.println("Broken url-es are:  " + brokenURL.size());
-        if (brokenURL.size() == 0) {
-            System.out.println("Broken Games are null");
-            isPassed = true;
-
-        } else {
-            String target = System.getProperty("user.dir") + "/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + partnerName + "DataBrokenURLList.xlsx";
-            FileOutputStream file = new FileOutputStream(target);
-            XSSFWorkbook workbook = new XSSFWorkbook();
-            XSSFSheet sheet = workbook.createSheet("brokenURL");
-            sheet.setColumnWidth(0, 20000);
-            int l = 0;
-            for (String err : brokenURL) {
-                XSSFRow row = sheet.createRow(l);
-                row.createCell(0).setCellValue(err);
-                l++;
-            }
-            workbook.write(file);
-            workbook.close();
-            isPassed = false;
-        }
-        return isPassed;
-    }
-
 
     /* this method will be used for validate webElements visibility */
     public void waitElementToBeVisible(WebElement element) {
@@ -350,7 +136,6 @@ public class BasePage {
 
 
     //endregion
-
     //region <Select from Dropdown>
 
     /* this method will get current Pages Title */
@@ -381,7 +166,6 @@ public class BasePage {
         select.selectByValue(value);
     }
     //endregion
-
     //region <javaScript executor>
 
     public String getSelectedItemText(Select element) {
@@ -454,13 +238,12 @@ public class BasePage {
     }
 
 
-    //endregion
-
     /* this method will generate the alert window */
     public void javaScriptGenerateAlert(String massage) {
         js.executeScript("alert('" + massage + "')");
     }
 
+    //endregion
     //region <Actions>
     public void waitAction(int waitTime) {
         actions.pause(waitTime).perform();
@@ -511,23 +294,22 @@ public class BasePage {
         actions.keyUp(Keys.CONTROL);
         actions.perform();
     }
-    //endregion
 
     public void actionTab() {
         actions.sendKeys(Keys.TAB).perform();
     }
 
+    //endregion
     //region <Robot>
     public void robotTab() {
         robot.keyPress(KeyEvent.VK_TAB);
     }
 
-    //endregion
-
     public void robotEnter() {
         robot.keyPress(KeyEvent.VK_ENTER);
     }
 
+    //endregion
     //region <Take Screenshot>
     /* this method will be take Screenshot whale page*/
     public File captureScreen(WebDriver driver, String tname) throws IOException {
@@ -550,16 +332,6 @@ public class BasePage {
 
 
     //endregion
-
-    /* this method will be take Screenshot mentioned element */
-    public void captureFromScreenSpecificElement(WebDriver driver, WebElement element, String tname) throws IOException {
-
-        File source = element.getScreenshotAs(OutputType.FILE);
-        File target = new File(System.getProperty("user.dir") + "\\Extent_Report\\Compare_Screenshots\\" + tname + ".png");
-        FileUtils.copyFile(source, target);
-        System.out.println("Screenshot taken");
-    }
-
     //region <Generate emails>
     public String generateRandomMobileNumberValid() {
         String generatedNumber = RandomStringUtils.randomNumeric(8);
@@ -618,16 +390,6 @@ public class BasePage {
     }
 
     //endregion
-
-    //i_like_underscore@but_its_not_allowed_in_this_part.example.com (Underscore is not allowed in domain part)
-    public String generateRandomEmailInValid6() {
-        String randomEmail;
-        String generatedString1 = RandomStringUtils.randomAlphanumeric(2);
-        String generatedString2 = RandomStringUtils.randomAlphanumeric(2);
-        randomEmail = generatedString1 + "_" + generatedString2 + ".gmail.com";
-        return randomEmail;
-    }
-
     //region <Navigation>
     public void navigateForward() {
         driver.navigate().forward();
@@ -642,19 +404,10 @@ public class BasePage {
     }
 
     //endregion
-
-    public void navigateToUrl(String url) {
-        driver.navigate().to(url);
-    }
-
     //region <Window Handling>
     public void handleWindowsWithArrayList(int index) {
         ArrayList<String> newTb = new ArrayList<String>(driver.getWindowHandles());
         driver.switchTo().window(newTb.get(index));
-//        //switch to new tab
-//        driver.switchTo().window(newTb.get(1));
-//        //switch to parent window
-//        driver.switchTo().window(newTb.get(0));
     }
 
     public void switchToTab(String name) {
@@ -666,11 +419,6 @@ public class BasePage {
     }
 
     //endregion
-
-    public String getWindowHandle() {
-        return driver.getWindowHandle();
-    }
-
     //region <Local storage>
     public org.openqa.selenium.html5.LocalStorage getLocalStorage() {
         WebStorage webStorage = (WebStorage) driver;
@@ -732,17 +480,43 @@ public class BasePage {
         driver.get("https://pokies2go.io/casino/all-games");
         ArrayList<String> browserErrors = new ArrayList<>();
         LogEntries logEntries = driver.manage().logs().get("browser");
-        int i = 1;
+
         for (LogEntry entry : logEntries) {
             System.out.println(new Date(entry.getTimestamp()) + " " + entry.getLevel() + " " + entry.getMessage());
             String errorLogType = entry.getLevel().toString();
             String errorLog = entry.getMessage().toString();
             if (errorLog.contains("400") || errorLog.contains("401") || errorLog.contains("402") || errorLog.contains("403") || errorLog.contains("404") || errorLog.contains("405") || errorLog.contains("Error") || errorLog.contains("ERROR") || errorLog.contains("error") || errorLog.contains("Failed") || errorLog.contains("Unchecked") || errorLog.contains("Uncaught")) {
                 browserErrors.add("Error LogType: " + errorLogType + " Error Log message: " + errorLog);
-                i++;
             }
         }
 
         return browserErrors;
     }
+
+    public String getWindowHandle() {
+        return driver.getWindowHandle();
+    }
+
+    public void navigateToUrl(String url) {
+        driver.navigate().to(url);
+    }
+
+    //i_like_underscore@but_its_not_allowed_in_this_part.example.com (Underscore is not allowed in domain part)
+    public String generateRandomEmailInValid6() {
+        String randomEmail;
+        String generatedString1 = RandomStringUtils.randomAlphanumeric(2);
+        String generatedString2 = RandomStringUtils.randomAlphanumeric(2);
+        randomEmail = generatedString1 + "_" + generatedString2 + ".gmail.com";
+        return randomEmail;
+    }
+
+    /* this method will be take Screenshot mentioned element */
+    public void captureFromScreenSpecificElement(WebDriver driver, WebElement element, String tname) throws IOException {
+
+        File source = element.getScreenshotAs(OutputType.FILE);
+        File target = new File(System.getProperty("user.dir") + "\\Extent_Report\\Compare_Screenshots\\" + tname + ".png");
+        FileUtils.copyFile(source, target);
+        System.out.println("Screenshot taken");
+    }
+
 }

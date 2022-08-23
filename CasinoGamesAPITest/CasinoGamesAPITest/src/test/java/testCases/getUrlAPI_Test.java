@@ -32,7 +32,7 @@ public class getUrlAPI_Test extends BaseTest {
 
     @Test
     public void getUrlAPITest() throws UnirestException, JSONException, IOException {
-        if (craftBet_01_header_page.getUrlCheckGamesUrl(getGamesAPIUrl, getGamesOrigin, getURLAPIUrl, token, getUserID, partnerID, getGamesPartnerName)) {
+        if (getUrlCheckGamesUrl(getGamesAPIUrl, getGamesOrigin, getURLAPIUrl, token, getUserID, partnerID, getGamesPartnerName)) {
             Assert.assertTrue(true);
         } else {
             Assert.fail();
