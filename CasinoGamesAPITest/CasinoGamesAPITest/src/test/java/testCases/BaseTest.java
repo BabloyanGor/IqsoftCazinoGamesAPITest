@@ -279,7 +279,9 @@ public class BaseTest extends DriverFactory {
                 getGamesBaseURL = "https://pokies2go.io";
                 break;
             }
-            case 3: {
+
+
+            case 100: {
                 partnerID = 1;
                 getGamesAPIUrl = "https://websitewebapi.exclusivebet-stage.com/1/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.exclusivebet-stage.com/1/api/Main/GetProductUrl";
@@ -290,8 +292,6 @@ public class BaseTest extends DriverFactory {
                 getGamesBaseURL = "https://exclusivebet-stage.com";
                 break;
             }
-
-
 
 
                 default:{

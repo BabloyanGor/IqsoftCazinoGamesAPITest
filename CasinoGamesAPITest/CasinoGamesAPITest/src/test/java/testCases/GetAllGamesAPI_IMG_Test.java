@@ -23,9 +23,6 @@ public class GetAllGamesAPI_IMG_Test extends BaseTest {
         }
     }
 
-
-
-
 }
 
 
