@@ -280,6 +280,93 @@ public class BaseTest extends DriverFactory {
                 break;
             }
 
+            case 3: {
+                partnerID=59;
+                getGamesAPIUrl = "https://websitewebapi.tigerbet001.com/59/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.tigerbet001.com/59/api/Main/GetProductUrl";
+                getUserID =1650803;
+                getGamesOrigin = "https://tigerbet001.com";
+                getGamesRecurse = "https://resources.tigerbet001.com/products/";
+                getGamesPartnerName = "tigerbet001";
+                getGamesBaseURL = "https://tigerbet001.com";
+                break;
+            }
+
+            case 4: {
+                partnerID=52;
+                getGamesAPIUrl = "https://websitewebapi.graciazz.com/52/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.graciazz.com/52/api/Main/GetProductUrl";
+                getUserID =1650804;
+                getGamesOrigin = "https://graciazz.com";
+                getGamesRecurse = "https://resources.graciazz.com/products/";
+                getGamesPartnerName = "graciazz";
+                getGamesBaseURL = "https://graciazz.com";
+                break;
+            }
+
+            case 5: {
+                partnerID=47;
+                getGamesAPIUrl = "https://websitewebapi.crypto-casino.games/47/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.crypto-casino.games/47/api/Main/GetProductUrl";
+                getUserID =1650805;
+                getGamesOrigin = "https://crypto-casino.games/";
+                getGamesRecurse = "https://resources.crypto-casino.games/products/";
+                getGamesPartnerName = "cryptoCasino";
+                getGamesBaseURL = "https://crypto-casino.games";
+                break;
+            }
+//
+//            case 6: {
+//                partnerID=56;
+//                getGamesAPIUrl = "https://websitewebapi.pokies2go.io/56/api/Main/GetGames";
+//                getURLAPIUrl = "https://websitewebapi.pokies2go.io/56/api/Main/GetProductUrl";
+//                getUserID =1650272;
+//                getGamesOrigin = "https://pokies2go.io";
+//                getGamesRecurse = "https://resources.pokies2go.io/products/";
+//                getGamesPartnerName = "Pokies2go";
+//                getGamesBaseURL = "https://pokies2go.io";
+//                break;
+//            }
+//            case 7: {
+//                partnerID=56;
+//                getGamesAPIUrl = "https://websitewebapi.pokies2go.io/56/api/Main/GetGames";
+//                getURLAPIUrl = "https://websitewebapi.pokies2go.io/56/api/Main/GetProductUrl";
+//                getUserID =1650272;
+//                getGamesOrigin = "https://pokies2go.io";
+//                getGamesRecurse = "https://resources.pokies2go.io/products/";
+//                getGamesPartnerName = "Pokies2go";
+//                getGamesBaseURL = "https://pokies2go.io";
+//                break;
+//            }
+//            case 8: {
+//                partnerID=56;
+//                getGamesAPIUrl = "https://websitewebapi.pokies2go.io/56/api/Main/GetGames";
+//                getURLAPIUrl = "https://websitewebapi.pokies2go.io/56/api/Main/GetProductUrl";
+//                getUserID =1650272;
+//                getGamesOrigin = "https://pokies2go.io";
+//                getGamesRecurse = "https://resources.pokies2go.io/products/";
+//                getGamesPartnerName = "Pokies2go";
+//                getGamesBaseURL = "https://pokies2go.io";
+//                break;
+//            }
+//            case 9: {
+//                partnerID=56;
+//                getGamesAPIUrl = "https://websitewebapi.pokies2go.io/56/api/Main/GetGames";
+//                getURLAPIUrl = "https://websitewebapi.pokies2go.io/56/api/Main/GetProductUrl";
+//                getUserID =1650272;
+//                getGamesOrigin = "https://pokies2go.io";
+//                getGamesRecurse = "https://resources.pokies2go.io/products/";
+//                getGamesPartnerName = "Pokies2go";
+//                getGamesBaseURL = "https://pokies2go.io";
+//                break;
+//            }
+//
+//
+
+
+
+
+
 
             case 100: {
                 partnerID = 1;
