@@ -580,3 +580,265 @@ Parameter name: s ResponseObject=null
 2022-08-23 23:13:50,240 [main] INFO craftBet - Browser closed
 2022-08-23 23:13:50,240 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-08-23 23:13:50,262 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-24 10:57:06,670 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-24 10:57:08,720 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-24 10:57:08,758 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-24 10:57:18,064 [main] INFO craftBet - URL: https://crypto-casino.games  Browser: chrome
+2022-08-24 10:57:18,239 [main] INFO craftBet - All Page elements are initialized
+2022-08-24 10:57:18,536 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-24 10:57:18,956 [main] INFO craftBet - username passed
+2022-08-24 10:57:19,044 [main] INFO craftBet - password passed
+2022-08-24 10:57:19,128 [main] INFO craftBet - Log In Button was clicked
+2022-08-24 10:57:20,377 [main] INFO craftBet - Token was captured bcc96e584fcf40e1a2d36de061292c5e
+2022-08-24 10:57:21,347 [main] INFO craftBet - Get All games API call 
+2022-08-24 10:57:21,371 [main] INFO craftBet - From Get All games API call body captured 
+2022-08-24 10:57:21,380 [main] INFO craftBet - From Get All games API productIDes and Names was captured 
+2022-08-24 10:57:30,246 [main] INFO craftBet - 1 16 ID=28843 Provider=Yggdrasil Name=2 Gods Zeus VS Thor cod=0 description=null ResponseObject=24
+2022-08-24 10:58:06,142 [main] INFO craftBet - 2 104 ID=26029 Provider=Edict Name=AfricanMask cod=0 description=null ResponseObject=24
+2022-08-24 10:58:19,541 [main] INFO craftBet - 3 137 ID=25700 Provider=Yggdrasil Name=AllStarKnockout cod=0 description=null ResponseObject=24
+2022-08-24 10:58:19,834 [main] INFO craftBet - 4 138 ID=25194 Provider=Yggdrasil Name=AllStarKnockoutUltraGamble cod=0 description=null ResponseObject=24
+2022-08-24 10:58:27,609 [main] INFO craftBet - 5 156 ID=75340 Provider=Ganapati Name=American Kombat cod=0 description=null ResponseObject=24
+2022-08-24 10:58:32,230 [main] INFO craftBet - 6 166 ID=26969 Provider=Edict Name=AncientRichesHTML5 cod=0 description=null ResponseObject=24
+2022-08-24 10:58:43,582 [main] INFO craftBet - 7 193 ID=27731 Provider=PariPlay Name=ArcticMadness cod=0 description=null ResponseObject=24
+2022-08-24 10:58:46,130 [main] INFO craftBet - From Get URL API broken games are captured
+2022-08-24 10:58:46,131 [main] INFO craftBet - Broken url-es are:  7
+2022-08-24 10:58:47,430 [main] INFO craftBet - Browser closed
+2022-08-24 10:58:47,430 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-24 10:58:47,455 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-24 10:59:48,658 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-24 10:59:49,069 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-24 10:59:49,108 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-24 11:00:00,905 [main] INFO craftBet - URL: https://crypto-casino.games  Browser: chrome
+2022-08-24 11:00:01,600 [main] INFO craftBet - All Page elements are initialized
+2022-08-24 11:00:02,285 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-24 11:00:03,000 [main] INFO craftBet - username passed
+2022-08-24 11:00:03,085 [main] INFO craftBet - password passed
+2022-08-24 11:00:03,168 [main] INFO craftBet - Log In Button was clicked
+2022-08-24 11:00:04,474 [main] INFO craftBet - Token was captured 86ffc3807bc84df7a205c4a83b152e47
+2022-08-24 11:00:08,185 [main] INFO craftBet - Get All games API call 
+2022-08-24 11:00:08,519 [main] INFO craftBet - From Get All games API call body captured 
+2022-08-24 11:00:08,684 [main] INFO craftBet - From Get All games API productIDes and Names was captured 
+2022-08-24 11:00:17,706 [main] INFO craftBet - 1 16 ID=28843 Provider=Yggdrasil Name=2 Gods Zeus VS Thor cod=0 description=null ResponseObject=24
+2022-08-24 11:00:53,363 [main] INFO craftBet - 2 104 ID=26029 Provider=Edict Name=AfricanMask cod=0 description=null ResponseObject=24
+2022-08-24 11:01:07,138 [main] INFO craftBet - 3 137 ID=25700 Provider=Yggdrasil Name=AllStarKnockout cod=0 description=null ResponseObject=24
+2022-08-24 11:01:07,450 [main] INFO craftBet - 4 138 ID=25194 Provider=Yggdrasil Name=AllStarKnockoutUltraGamble cod=0 description=null ResponseObject=24
+2022-08-24 11:01:14,697 [main] INFO craftBet - 5 156 ID=75340 Provider=Ganapati Name=American Kombat cod=0 description=null ResponseObject=24
+2022-08-24 11:01:19,182 [main] INFO craftBet - 6 166 ID=26969 Provider=Edict Name=AncientRichesHTML5 cod=0 description=null ResponseObject=24
+2022-08-24 11:01:29,600 [main] INFO craftBet - 7 193 ID=27731 Provider=PariPlay Name=ArcticMadness cod=0 description=null ResponseObject=24
+2022-08-24 11:01:32,192 [main] INFO craftBet - 8 200 ID=25434 Provider=Yggdrasil Name=Arthur’sFortune cod=0 description=null ResponseObject=24
+2022-08-24 11:01:36,300 [main] INFO craftBet - 9 210 ID=27172 Provider=Apollo Name=Atlantis cod=0 description=null ResponseObject=24
+2022-08-24 11:01:46,368 [main] INFO craftBet - 10 234 ID=25549 Provider=Leander Name=AztecaGold cod=0 description=null ResponseObject=24
+2022-08-24 11:01:49,155 [main] INFO craftBet - 11 241 ID=75976 Provider=Yggdrasil Name=Baccarat cod=0 description=null ResponseObject=24
+2022-08-24 11:01:50,367 [main] INFO craftBet - 12 244 ID=29600 Provider=SoftGaming Name=Baccarat Macao cod=0 description=null ResponseObject=24
+2022-08-24 11:01:51,916 [main] INFO craftBet - 13 248 ID=75977 Provider=Yggdrasil Name=Baccarat VIP cod=0 description=null ResponseObject=24
+2022-08-24 11:02:09,885 [main] INFO craftBet - 14 292 ID=26968 Provider=Edict Name=BeautifulNatureHTML5 cod=0 description=null ResponseObject=24
+2022-08-24 11:02:18,945 [main] INFO craftBet - 15 315 ID=28341 Provider=ISoftBet Name=Bewitched cod=0 description=null ResponseObject=24
+2022-08-24 11:02:30,825 [main] INFO craftBet - 16 345 ID=26967 Provider=Edict Name=BlackBeauty cod=0 description=null ResponseObject=24
+2022-08-24 11:02:43,296 [main] INFO craftBet - 17 381 ID=25433 Provider=Yggdrasil Name=BloodMoonWilds cod=0 description=null ResponseObject=24
+2022-08-24 11:02:50,034 [main] INFO craftBet - 18 397 ID=29962 Provider=SoftGaming Name=Bonus Fruits cod=0 description=null ResponseObject=24
+2022-08-24 11:03:03,032 [main] INFO craftBet - 19 425 ID=75667 Provider=Edict Name=Book of Fire cod=0 description=null ResponseObject=24
+2022-08-24 11:03:16,302 [main] INFO craftBet - 20 454 ID=26966 Provider=Edict Name=BookofRomeoandJuliaHTML5 cod=0 description=null ResponseObject=24
+2022-08-24 11:03:21,170 [main] INFO craftBet - 21 466 ID=26965 Provider=Edict Name=BookoftheAgesHTML5 cod=0 description=null ResponseObject=24
+2022-08-24 11:03:28,659 [main] INFO craftBet - 22 482 ID=26964 Provider=Edict Name=BooksandBulls cod=0 description=null ResponseObject=24
+2022-08-24 11:03:30,941 [main] INFO craftBet - 23 487 ID=26042 Provider=BoomingGames Name=BoomingCircus cod=0 description=null ResponseObject=24
+2022-08-24 11:03:37,143 [main] INFO craftBet - 24 502 ID=29944 Provider=Yggdrasil Name=Brawl At the RedCap Inn cod=0 description=null ResponseObject=24
+2022-08-24 11:03:37,818 [main] INFO craftBet - 25 504 ID=25045 Provider=Microgaming Name=BreakAwayLuckyWilds cod=0 description=null ResponseObject=24
+2022-08-24 11:03:38,517 [main] INFO craftBet - 26 506 ID=27997 Provider=Microgaming Name=Bridesmaids cod=0 description=null ResponseObject=24
+2022-08-24 11:04:02,200 [main] INFO craftBet - 27 566 ID=25548 Provider=Leander Name=CandySpins cod=0 description=null ResponseObject=24
+2022-08-24 11:04:08,135 [main] INFO craftBet - 28 582 ID=28840 Provider=Yggdrasil Name=Carol of the Elves cod=0 description=null ResponseObject=24
+2022-08-24 11:04:15,265 [main] INFO craftBet - 29 600 ID=28422 Provider=SoftGaming Name=Cashout Roulette cod=0 description=null ResponseObject=24
+2022-08-24 11:04:15,624 [main] INFO craftBet - 30 601 ID=28162 Provider=Microgaming Name=Cashville cod=0 description=null ResponseObject=24
+2022-08-24 11:04:16,252 [main] INFO craftBet - 31 603 ID=28499 Provider=ISoftBet Name=Casino High Low cod=0 description=null ResponseObject=24
+2022-08-24 11:04:19,962 [main] INFO craftBet - 32 615 ID=26409 Provider=Yggdrasil Name=CazinoCosmos cod=0 description=null ResponseObject=24
+2022-08-24 11:04:22,561 [main] INFO craftBet - 33 621 ID=26980 Provider=Yggdrasil Name=ChampionsofRome cod=0 description=null ResponseObject=24
+2022-08-24 11:04:27,995 [main] INFO craftBet - 34 634 ID=27237 Provider=Yggdrasil Name=Chibeasties2 cod=0 description=null ResponseObject=24
+2022-08-24 11:04:29,032 [main] INFO craftBet - 35 637 ID=25876 Provider=BoomingGames Name=ChickenParty cod=0 description=null ResponseObject=24
+2022-08-24 11:04:40,091 [main] INFO craftBet - 36 663 ID=28832 Provider=Yggdrasil Name=Christmas Tree cod=0 description=null ResponseObject=24
+2022-08-24 11:04:46,131 [main] INFO craftBet - 37 679 ID=28338 Provider=ISoftBet Name=CloudTales cod=0 description=null ResponseObject=24
+2022-08-24 11:04:48,636 [main] INFO craftBet - 38 686 ID=26286 Provider=SoftGaming Name=CoinConqueror cod=0 description=null ResponseObject=24
+2022-08-24 11:04:50,389 [main] INFO craftBet - 39 691 ID=26294 Provider=BoomingGames Name=ColossalFruitSmash cod=0 description=null ResponseObject=24
+2022-08-24 11:04:58,824 [main] INFO craftBet - 40 709 ID=26401 Provider=Fugaso Name=CosaNostra cod=0 description=null ResponseObject=24
+2022-08-24 11:04:59,133 [main] INFO craftBet - 41 710 ID=29318 Provider=Leander Name=Cosmic Fusion cod=0 description=null ResponseObject=24
+2022-08-24 11:05:04,088 [main] INFO craftBet - 42 723 ID=26397 Provider=Fugaso Name=CrazyBot cod=0 description=null ResponseObject=24
+2022-08-24 11:05:04,769 [main] INFO craftBet - 43 725 ID=27706 Provider=Microgaming Name=CrazyChameleons cod=0 description=null ResponseObject=24
+2022-08-24 11:05:05,679 [main] INFO craftBet - 44 728 ID=29619 Provider=Yggdrasil Name=Crazy Mix cod=0 description=null ResponseObject=24
+2022-08-24 11:05:11,507 [main] INFO craftBet - 45 743 ID=26955 Provider=Edict Name=CrystalBallHTML5 cod=0 description=null ResponseObject=24
+2022-08-24 11:05:23,454 [main] INFO craftBet - 46 771 ID=27236 Provider=Yggdrasil Name=Cyrusthevirus cod=0 description=null ResponseObject=24
+2022-08-24 11:05:34,704 [main] INFO craftBet - 47 800 ID=26332 Provider=Fugaso Name=DeepBlueSea cod=0 description=null ResponseObject=24
+2022-08-24 11:06:00,883 [main] INFO craftBet - 48 865 ID=28156 Provider=ISoftBet Name=Dolphin'sIsland cod=0 description=null ResponseObject=24
+2022-08-24 11:06:02,733 [main] INFO craftBet - 49 869 ID=25428 Provider=Fugaso Name=DonSlottione cod=0 description=null ResponseObject=24
+2022-08-24 11:06:04,598 [main] INFO craftBet - 50 874 ID=26405 Provider=Fugaso Name=DoubleCash cod=0 description=null ResponseObject=24
+2022-08-24 11:06:06,806 [main] INFO craftBet - 51 880 ID=27761 Provider=Microgaming Name=DoubleWammy cod=0 description=null ResponseObject=24
+2022-08-24 11:06:07,925 [main] INFO craftBet - 52 883 ID=27234 Provider=Yggdrasil Name=Doubles cod=0 description=null ResponseObject=24
+2022-08-24 11:06:11,194 [main] INFO craftBet - 53 892 ID=27802 Provider=SoftGaming Name=DraculasFamily cod=0 description=null ResponseObject=24
+2022-08-24 11:06:12,299 [main] INFO craftBet - 54 895 ID=26953 Provider=Edict Name=DragonandKnights cod=0 description=null ResponseObject=24
+2022-08-24 11:06:34,630 [main] INFO craftBet - 55 951 ID=26979 Provider=Yggdrasil Name=DwarfMine cod=0 description=null ResponseObject=24
+2022-08-24 11:06:53,982 [main] INFO craftBet - 56 995 ID=28836 Provider=Yggdrasil Name=Elemental Princess cod=0 description=null ResponseObject=24
+2022-08-24 11:07:00,859 [main] INFO craftBet - 57 1015 ID=27768 Provider=SoftGaming Name=EpicCity cod=0 description=null ResponseObject=24
+2022-08-24 11:07:13,968 [main] INFO craftBet - 58 1047 ID=26951 Provider=Edict Name=ExplodiacHTML5 cod=0 description=null ResponseObject=24
+2022-08-24 11:07:15,376 [main] INFO craftBet - 59 1049 ID=25370 Provider=GameArt Name=ExplosiveReels cod=0 description=null ResponseObject=24
+2022-08-24 11:07:25,264 [main] INFO craftBet - 60 1074 ID=26948 Provider=Edict Name=FancyFruitsHTML5 cod=0 description=null ResponseObject=24
+2022-08-24 11:07:27,677 [main] INFO craftBet - 61 1081 ID=26508 Provider=Fugaso Name=FearTheZombies cod=0 description=null ResponseObject=24
+2022-08-24 11:07:38,647 [main] INFO craftBet - 62 1111 ID=29137 Provider=SoftGaming Name=Fire Wizard cod=0 description=null ResponseObject=24
+2022-08-24 11:07:48,436 [main] INFO craftBet - 63 1135 ID=26503 Provider=SoftGaming Name=FlowerFortunes cod=0 description=null ResponseObject=24
+2022-08-24 11:07:55,845 [main] INFO craftBet - 64 1154 ID=29278 Provider=PariPlay Name=Force of the Gods cod=0 description=null ResponseObject=24
+2022-08-24 11:07:58,557 [main] INFO craftBet - 65 1160 ID=26943 Provider=Edict Name=FortBraveHTML5 cod=0 description=null ResponseObject=24
+2022-08-24 11:08:10,501 [main] INFO craftBet - 66 1192 ID=26379 Provider=Fugaso Name=FromChinawithLove cod=0 description=null ResponseObject=24
+2022-08-24 11:08:15,982 [main] INFO craftBet - 67 1206 ID=28155 Provider=ISoftBet Name=FruitBoxes cod=0 description=null ResponseObject=24
+2022-08-24 11:08:20,579 [main] INFO craftBet - 68 1215 ID=26942 Provider=Edict Name=FruitManiaHTML5 cod=0 description=null ResponseObject=24
+2022-08-24 11:08:38,001 [main] INFO craftBet - 69 1253 ID=26407 Provider=Fugaso Name=FruitsofNeon cod=0 description=null ResponseObject=24
+2022-08-24 11:08:50,588 [main] INFO craftBet - 70 1279 ID=25497 Provider=Microgaming Name=GameofThrones(15Lines) cod=0 description=null ResponseObject=24
+2022-08-24 11:08:54,768 [main] INFO craftBet - 71 1288 ID=26939 Provider=Edict Name=GatesofPersia cod=0 description=null ResponseObject=24
+2022-08-24 11:08:56,940 [main] INFO craftBet - 72 1294 ID=27230 Provider=Yggdrasil Name=GemRocks cod=0 description=null ResponseObject=24
+2022-08-24 11:08:57,266 [main] INFO craftBet - 73 1295 ID=29549 Provider=ISoftBet Name=Gem Roulette cod=0 description=null ResponseObject=24
+2022-08-24 11:09:02,150 [main] INFO craftBet - 74 1309 ID=26492 Provider=Fugaso Name=GemstoneofAztec cod=0 description=null ResponseObject=24
+2022-08-24 11:09:10,898 [main] INFO craftBet - 75 1331 ID=26937 Provider=Edict Name=GlamorousTimesHTML5 cod=0 description=null ResponseObject=24
+2022-08-24 11:09:11,966 [main] INFO craftBet - 76 1334 ID=75277 Provider=Yggdrasil Name=Glory of Heroes cod=0 description=null ResponseObject=24
+2022-08-24 11:09:13,274 [main] INFO craftBet - 77 1337 ID=26357 Provider=Fugaso Name=Goblin'sLand cod=0 description=null ResponseObject=24
+2022-08-24 11:09:35,902 [main] INFO craftBet - 78 1391 ID=27229 Provider=Yggdrasil Name=GoldenFishtank cod=0 description=null ResponseObject=24
+2022-08-24 11:09:46,874 [main] INFO craftBet - 79 1419 ID=29192 Provider=Leander Name=Golden Wild cod=0 description=null ResponseObject=24
+2022-08-24 11:09:50,071 [main] INFO craftBet - 80 1427 ID=29303 Provider=RedTiger Name=Gonzo's Quest Megaways cod=0 description=null ResponseObject=24
+2022-08-24 11:09:53,708 [main] INFO craftBet - 81 1436 ID=26394 Provider=Fugaso Name=GrandSumo cod=0 description=null ResponseObject=24
+2022-08-24 11:10:02,513 [main] INFO craftBet - 82 1458 ID=26931 Provider=Edict Name=GuardiansOfTheMonastery cod=0 description=null ResponseObject=24
+2022-08-24 11:10:05,526 [main] INFO craftBet - 83 1466 ID=25556 Provider=Yggdrasil Name=Hades cod=0 description=null ResponseObject=24
+2022-08-24 11:10:05,858 [main] INFO craftBet - 84 1467 ID=25218 Provider=SoftGaming Name=Hades:RiverofSouls cod=0 description=null ResponseObject=24
+2022-08-24 11:10:07,704 [main] INFO craftBet - 85 1471 ID=27697 Provider=Microgaming Name=Halloween cod=0 description=null ResponseObject=24
+2022-08-24 11:10:09,736 [main] INFO craftBet - 86 1477 ID=27228 Provider=Yggdrasil Name=Hanzo'sDojo cod=0 description=null ResponseObject=24
+2022-08-24 11:10:22,994 [main] INFO craftBet - 87 1511 ID=27628 Provider=Microgaming Name=Highlander cod=0 description=null ResponseObject=24
+2022-08-24 11:10:27,816 [main] INFO craftBet - 88 1523 ID=27226 Provider=Yggdrasil Name=Holmes&thestolenstones cod=0 description=null ResponseObject=24
+2022-08-24 11:10:30,263 [main] INFO craftBet - 89 1530 ID=26353 Provider=Fugaso Name=HorrorCastle cod=0 description=null ResponseObject=24
+2022-08-24 11:10:31,276 [main] INFO craftBet - 90 1533 ID=75171 Provider=Apollo Name=Horus Eye cod=0 description=null ResponseObject=24
+2022-08-24 11:11:02,531 [main] INFO craftBet - 91 1612 ID=28842 Provider=Yggdrasil Name=Hyperburst cod=0 description=null ResponseObject=24
+2022-08-24 11:11:03,637 [main] INFO craftBet - 92 1615 ID=25767 Provider=Yggdrasil Name=IceandFire cod=0 description=null ResponseObject=24
+2022-08-24 11:11:31,438 [main] INFO craftBet - 93 1687 ID=29948 Provider=Yggdrasil Name=Jambo Cash cod=0 description=null ResponseObject=24
+2022-08-24 11:11:33,794 [main] INFO craftBet - 94 1693 ID=28167 Provider=ISoftBet Name=JesterTrio cod=0 description=null ResponseObject=24
+2022-08-24 11:11:36,116 [main] INFO craftBet - 95 1699 ID=29197 Provider=SoftGaming Name=jewel Quest Riches cod=0 description=null ResponseObject=24
+2022-08-24 11:12:10,375 [main] INFO craftBet - 96 1784 ID=26926 Provider=Edict Name=KingandQueen cod=0 description=null ResponseObject=24
+2022-08-24 11:12:13,079 [main] INFO craftBet - 97 1790 ID=26925 Provider=Edict Name=KingoftheJungle cod=0 description=null ResponseObject=24
+2022-08-24 11:12:14,355 [main] INFO craftBet - 98 1793 ID=29701 Provider=PariPlay Name=King of the Trident Deluxe cod=0 description=null ResponseObject=24
+2022-08-24 11:12:22,366 [main] INFO craftBet - 99 1812 ID=26388 Provider=Fugaso Name=Knockout cod=0 description=null ResponseObject=24
+2022-08-24 11:12:26,259 [main] INFO craftBet - 100 1822 ID=26922 Provider=Edict Name=LaDolceVitaHTML5 cod=0 description=null ResponseObject=24
+2022-08-24 11:12:26,939 [main] INFO craftBet - 101 1824 ID=27723 Provider=SoftGaming Name=LaRouge cod=0 description=null ResponseObject=24
+2022-08-24 11:12:27,472 [main] INFO craftBet - 102 1826 ID=29345 Provider=Yggdrasil Name=Labyrinth of Knossos Multijump cod=0 description=null ResponseObject=24
+2022-08-24 11:12:32,580 [main] INFO craftBet - 103 1840 ID=26490 Provider=Fugaso Name=Lapland cod=0 description=null ResponseObject=24
+2022-08-24 11:12:38,095 [main] INFO craftBet - 104 1854 ID=28655 Provider=PlaysonDirect Name=Legend of Cleopatra Megaways cod=0 description=null ResponseObject=24
+2022-08-24 11:12:40,779 [main] INFO craftBet - 105 1861 ID=27220 Provider=Yggdrasil Name=LegendoftheWhiteSnakeLady cod=0 description=null ResponseObject=24
+2022-08-24 11:12:50,230 [main] INFO craftBet - 106 1886 ID=26443 Provider=Yggdrasil Name=Lilith'sInferno cod=0 description=null ResponseObject=24
+2022-08-24 11:13:00,638 [main] INFO craftBet - 107 1913 ID=29601 Provider=Yggdrasil Name=Lotsa Lines cod=0 description=null ResponseObject=24
+2022-08-24 11:13:03,080 [main] INFO craftBet - 108 1918 ID=26471 Provider=Microgaming Name=LoveIsland cod=0 description=null ResponseObject=24
+2022-08-24 11:13:23,287 [main] INFO craftBet - 109 1967 ID=26663 Provider=Evoplay Name=LuckyMahjongBox cod=0 description=null ResponseObject=24
+2022-08-24 11:13:25,468 [main] INFO craftBet - 110 1971 ID=25212 Provider=Yggdrasil Name=LuckyNeko cod=0 description=null ResponseObject=24
+2022-08-24 11:13:29,640 [main] INFO craftBet - 111 1981 ID=27896 Provider=Microgaming Name=LuckyTwins cod=0 description=null ResponseObject=24
+2022-08-24 11:13:35,028 [main] INFO craftBet - 112 1994 ID=26918 Provider=Edict Name=MaaaxDiamonds cod=0 description=null ResponseObject=24
+2022-08-24 11:13:40,585 [main] INFO craftBet - 113 2008 ID=26429 Provider=Fugaso Name=MagicDestiny cod=0 description=null ResponseObject=24
+2022-08-24 11:13:56,581 [main] INFO craftBet - 114 2048 ID=26913 Provider=Edict Name=MagicStone cod=0 description=null ResponseObject=24
+2022-08-24 11:14:13,581 [main] INFO craftBet - 115 2089 ID=26268 Provider=SoftGaming Name=Medallion cod=0 description=null ResponseObject=24
+2022-08-24 11:14:14,247 [main] INFO craftBet - 116 2091 ID=25141 Provider=Yggdrasil Name=Medusa:Fortune&Glory cod=0 description=null ResponseObject=24
+2022-08-24 11:14:14,599 [main] INFO craftBet - 117 2092 ID=29200 Provider=Edict Name=Medusas Eyes cod=0 description=null ResponseObject=24
+2022-08-24 11:14:15,035 [main] INFO craftBet - 118 2093 ID=28372 Provider=ISoftBet Name=MegaBoy cod=0 description=null ResponseObject=24
+2022-08-24 11:14:15,329 [main] INFO craftBet - 119 2094 ID=29273 Provider=GameArt Name=Mega Bunny HyperWays cod=0 description=null ResponseObject=24
+2022-08-24 11:14:18,174 [main] INFO craftBet - 120 2099 ID=26385 Provider=Fugaso Name=MegaPowerHeroes cod=0 description=null ResponseObject=24
+2022-08-24 11:14:18,477 [main] INFO craftBet - 121 2100 ID=27439 Provider=ISoftBet Name=MegaBoy cod=0 description=null ResponseObject=24
+2022-08-24 11:14:29,716 [main] INFO craftBet - 122 2128 ID=26911 Provider=Edict Name=MightyDragon cod=0 description=null ResponseObject=24
+2022-08-24 11:14:55,560 [main] INFO craftBet - 123 2194 ID=26424 Provider=Fugaso Name=MrToxicus cod=0 description=null ResponseObject=24
+2022-08-24 11:14:58,875 [main] INFO craftBet - 124 2203 ID=25664 Provider=Yggdrasil Name=MultiFly! cod=0 description=null ResponseObject=24
+2022-08-24 11:15:15,649 [main] INFO craftBet - 125 2244 ID=75789 Provider=GameArt Name=Nefertiti HyperWays cod=0 description=null ResponseObject=24
+2022-08-24 11:15:20,829 [main] INFO craftBet - 126 2259 ID=26642 Provider=Yggdrasil Name=NiagaraFalls cod=0 description=null ResponseObject=24
+2022-08-24 11:15:23,162 [main] INFO craftBet - 127 2265 ID=26906 Provider=Edict Name=NightOfTheWereWolf cod=0 description=null ResponseObject=24
+2022-08-24 11:15:23,825 [main] INFO craftBet - 128 2267 ID=26905 Provider=Edict Name=NightWolves cod=0 description=null ResponseObject=24
+2022-08-24 11:15:27,403 [main] INFO craftBet - 129 2273 ID=26469 Provider=Yggdrasil Name=NikolaTesla’sIncredibleMachine cod=0 description=null ResponseObject=24
+2022-08-24 11:15:28,792 [main] INFO craftBet - 130 2277 ID=28345 Provider=ISoftBet Name=NinjaChef cod=0 description=null ResponseObject=24
+2022-08-24 11:15:35,003 [main] INFO craftBet - 131 2292 ID=28960 Provider=Evoplay Name=Oasis Poker Pro Series cod=0 description=null ResponseObject=24
+2022-08-24 11:15:41,488 [main] INFO craftBet - 132 2309 ID=26902 Provider=Edict Name=OldFisherman cod=0 description=null ResponseObject=24
+2022-08-24 11:15:41,776 [main] INFO craftBet - 133 2310 ID=26491 Provider=Fugaso Name=Olympia cod=0 description=null ResponseObject=24
+2022-08-24 11:15:48,039 [main] INFO craftBet - 134 2324 ID=29145 Provider=SoftGaming Name=Over the Rainbow Pull Tab cod=0 description=null ResponseObject=24
+2022-08-24 11:15:50,067 [main] INFO craftBet - 135 2330 ID=26273 Provider=Ganapati Name=PacquiaoOnePunchKO cod=0 description=null ResponseObject=24
+2022-08-24 11:16:12,629 [main] INFO craftBet - 136 2385 ID=26901 Provider=Edict Name=Phantom'sMirror cod=0 description=null ResponseObject=24
+2022-08-24 11:16:13,820 [main] INFO craftBet - 137 2388 ID=26900 Provider=Edict Name=PharaosRiches cod=0 description=null ResponseObject=24
+2022-08-24 11:16:18,750 [main] INFO craftBet - 138 2400 ID=27630 Provider=Microgaming Name=PickaFortune cod=0 description=null ResponseObject=24
+2022-08-24 11:16:33,341 [main] INFO craftBet - 139 2435 ID=26507 Provider=Fugaso Name=PlaguesofEgypt cod=0 description=null ResponseObject=24
+2022-08-24 11:16:36,945 [main] INFO craftBet - 140 2445 ID=26236 Provider=Booongo Name=PoisonedApple cod=0 description=null ResponseObject=24
+2022-08-24 11:16:39,984 [main] INFO craftBet - 141 2453 ID=25646 Provider=Yggdrasil Name=PopRocks cod=0 description=null ResponseObject=24
+2022-08-24 11:16:44,590 [main] INFO craftBet - 142 2462 ID=26346 Provider=Fugaso Name=PowerofAsia cod=0 description=null ResponseObject=24
+2022-08-24 11:16:48,312 [main] INFO craftBet - 143 2472 ID=27214 Provider=Yggdrasil Name=PowerPlant cod=0 description=null ResponseObject=24
+2022-08-24 11:16:52,241 [main] INFO craftBet - 144 2482 ID=75369 Provider=Edict Name=Princess of the Forest cod=0 description=null ResponseObject=24
+2022-08-24 11:16:56,792 [main] INFO craftBet - 145 2494 ID=27212 Provider=Yggdrasil Name=PumpkinSmash cod=0 description=null ResponseObject=24
+2022-08-24 11:17:17,309 [main] INFO craftBet - 146 2548 ID=27210 Provider=Yggdrasil Name=RainbowRyan cod=0 description=null ResponseObject=24
+2022-08-24 11:17:18,289 [main] INFO craftBet - 147 2552 ID=26894 Provider=Edict Name=RamsesBookHTML5 cod=0 description=null ResponseObject=24
+2022-08-24 11:17:27,516 [main] INFO craftBet - 148 2575 ID=27209 Provider=Yggdrasil Name=Reefrun cod=0 description=null ResponseObject=24
+2022-08-24 11:17:28,022 [main] INFO craftBet - 149 2577 ID=29346 Provider=Yggdrasil Name=Reel Desire cod=0 description=null ResponseObject=24
+2022-08-24 11:17:28,696 [main] INFO craftBet - 150 2579 ID=27853 Provider=Microgaming Name=ReelGems cod=0 description=null ResponseObject=24
+2022-08-24 11:17:34,730 [main] INFO craftBet - 151 2596 ID=27207 Provider=Yggdrasil Name=Reptoids cod=0 description=null ResponseObject=24
+2022-08-24 11:17:39,876 [main] INFO craftBet - 152 2606 ID=27741 Provider=Microgaming Name=RetroReels cod=0 description=null ResponseObject=24
+2022-08-24 11:17:40,556 [main] INFO craftBet - 153 2608 ID=27745 Provider=Microgaming Name=RetroReelsExtremeHeat cod=0 description=null ResponseObject=24
+2022-08-24 11:17:41,234 [main] INFO craftBet - 154 2610 ID=28661 Provider=SoftGaming Name=Retro Solitaire cod=0 description=null ResponseObject=24
+2022-08-24 11:17:46,263 [main] INFO craftBet - 155 2621 ID=27765 Provider=Microgaming Name=RhymingReelsHeartsandTarts cod=0 description=null ResponseObject=24
+2022-08-24 11:17:57,358 [main] INFO craftBet - 156 2651 ID=28054 Provider=Microgaming Name=RivieraRiches cod=0 description=null ResponseObject=24
+2022-08-24 11:17:57,659 [main] INFO craftBet - 157 2652 ID=25975 Provider=SoftGaming Name=RivieraStar cod=0 description=null ResponseObject=24
+2022-08-24 11:17:59,068 [main] INFO craftBet - 158 2656 ID=26410 Provider=Fugaso Name=RobbieJones cod=0 description=null ResponseObject=24
+2022-08-24 11:18:01,339 [main] INFO craftBet - 159 2662 ID=28171 Provider=ISoftBet Name=RoboSmash cod=0 description=null ResponseObject=24
+2022-08-24 11:18:07,651 [main] INFO craftBet - 160 2676 ID=26892 Provider=Edict Name=RomanLegionHTML5 cod=0 description=null ResponseObject=24
+2022-08-24 11:18:07,951 [main] INFO craftBet - 161 2677 ID=26891 Provider=Edict Name=RomanLegionXtreme cod=0 description=null ResponseObject=24
+2022-08-24 11:18:11,279 [main] INFO craftBet - 162 2686 ID=75969 Provider=Yggdrasil Name=Roulette Evolution cod=0 description=null ResponseObject=24
+2022-08-24 11:18:11,575 [main] INFO craftBet - 163 2687 ID=75968 Provider=Yggdrasil Name=Roulette Evolution VIP cod=0 description=null ResponseObject=24
+2022-08-24 11:18:23,003 [main] INFO craftBet - 164 2712 ID=75005 Provider=Yggdrasil Name=Sabres and Swords: Charge Gigablox cod=0 description=null ResponseObject=24
+2022-08-24 11:18:25,198 [main] INFO craftBet - 165 2718 ID=26322 Provider=Yggdrasil Name=SaharaNights cod=0 description=null ResponseObject=24
+2022-08-24 11:18:25,501 [main] INFO craftBet - 166 2719 ID=26418 Provider=Fugaso Name=Sahara'sDreams cod=0 description=null ResponseObject=24
+2022-08-24 11:18:28,952 [main] INFO craftBet - 167 2728 ID=27498 Provider=SoftGaming Name=SamuraiKen cod=0 description=null ResponseObject=24
+2022-08-24 11:18:36,738 [main] INFO craftBet - 168 2745 ID=27831 Provider=Microgaming Name=SassyBingo cod=0 description=null ResponseObject=24
+2022-08-24 11:18:37,755 [main] INFO craftBet - 169 2748 ID=26890 Provider=Edict Name=SavannaMoon cod=0 description=null ResponseObject=24
+2022-08-24 11:18:54,017 [main] INFO craftBet - 170 2788 ID=26414 Provider=Fugaso Name=ShakeIt cod=0 description=null ResponseObject=24
+2022-08-24 11:19:06,759 [main] INFO craftBet - 171 2818 ID=26629 Provider=Evoplay Name=Sindbad cod=0 description=null ResponseObject=24
+2022-08-24 11:19:08,774 [main] INFO craftBet - 172 2824 ID=29828 Provider=Yggdrasil Name=Siren Song cod=0 description=null ResponseObject=24
+2022-08-24 11:19:18,164 [main] INFO craftBet - 173 2849 ID=25764 Provider=Apollo Name=SmilingJoker cod=0 description=null ResponseObject=24
+2022-08-24 11:19:18,847 [main] INFO craftBet - 174 2851 ID=26391 Provider=Fugaso Name=SmokingDogs cod=0 description=null ResponseObject=24
+2022-08-24 11:19:20,980 [main] INFO craftBet - 175 2856 ID=29390 Provider=SoftGaming Name=Snakes and Ladders Game Changer cod=0 description=null ResponseObject=24
+2022-08-24 11:19:23,603 [main] INFO craftBet - 176 2861 ID=27779 Provider=SoftGaming Name=SnowQueenRiches cod=0 description=null ResponseObject=24
+2022-08-24 11:19:32,049 [main] INFO craftBet - 177 2880 ID=26727 Provider=SoftGaming Name=SpaceSpins cod=0 description=null ResponseObject=24
+2022-08-24 11:19:41,129 [main] INFO craftBet - 178 2903 ID=27203 Provider=Yggdrasil Name=SpinaColada cod=0 description=null ResponseObject=24
+2022-08-24 11:19:47,623 [main] INFO craftBet - 179 2918 ID=28377 Provider=ISoftBet Name=SpookyFamily cod=0 description=null ResponseObject=24
+2022-08-24 11:19:56,743 [main] INFO craftBet - 180 2940 ID=75841 Provider=Yggdrasil Name=Steam Spin cod=0 description=null ResponseObject=24
+2022-08-24 11:19:59,950 [main] INFO craftBet - 181 2948 ID=26886 Provider=Edict Name=StickyDiamondsHTML5 cod=0 description=null ResponseObject=24
+2022-08-24 11:20:11,842 [main] INFO craftBet - 182 2972 ID=28320 Provider=PragmaticPlay Name=SugarRush cod=0 description=null ResponseObject=24
+2022-08-24 11:20:17,767 [main] INFO craftBet - 183 2986 ID=27270 Provider=Yggdrasil Name=SunnyShores cod=0 description=null ResponseObject=24
+2022-08-24 11:20:18,068 [main] INFO craftBet - 184 2987 ID=26425 Provider=Fugaso Name=Sunset cod=0 description=null ResponseObject=24
+2022-08-24 11:20:24,419 [main] INFO craftBet - 185 3003 ID=26884 Provider=Edict Name=SuperDuperCherry cod=0 description=null ResponseObject=24
+2022-08-24 11:20:25,677 [main] INFO craftBet - 186 3007 ID=26338 Provider=Fugaso Name=SuperHamster cod=0 description=null ResponseObject=24
+2022-08-24 11:20:26,507 [main] INFO craftBet - 187 3009 ID=27201 Provider=Yggdrasil Name=SuperHeroes cod=0 description=null ResponseObject=24
+2022-08-24 11:20:32,177 [main] INFO craftBet - 188 3023 ID=27752 Provider=SoftGaming Name=SuperSumo cod=0 description=null ResponseObject=24
+2022-08-24 11:20:37,065 [main] INFO craftBet - 189 3035 ID=29322 Provider=Leander Name=Swap The Flop cod=0 description=null ResponseObject=24
+2022-08-24 11:20:42,906 [main] INFO craftBet - 190 3049 ID=28835 Provider=Yggdrasil Name=Syncronite cod=0 description=null ResponseObject=24
+2022-08-24 11:20:44,856 [main] INFO craftBet - 191 3054 ID=26883 Provider=Edict Name=Take5HTML5 cod=0 description=null ResponseObject=24
+2022-08-24 11:20:58,076 [main] INFO craftBet - 192 3088 ID=29169 Provider=Leander Name=Texas Switch cod=0 description=null ResponseObject=24
+2022-08-24 11:21:00,933 [main] INFO craftBet - 193 3096 ID=28335 Provider=ISoftBet Name=TheBestWitch cod=0 description=null ResponseObject=24
+2022-08-24 11:21:01,993 [main] INFO craftBet - 194 3099 ID=29927 Provider=Yggdrasil Name=The Bounty Hunter cod=0 description=null ResponseObject=24
+2022-08-24 11:21:10,653 [main] INFO craftBet - 195 3122 ID=26399 Provider=Fugaso Name=TheGiant cod=0 description=null ResponseObject=24
+2022-08-24 11:21:19,310 [main] INFO craftBet - 196 3142 ID=27707 Provider=BoomingGames Name=TheKingPanda cod=0 description=null ResponseObject=24
+2022-08-24 11:21:19,967 [main] INFO craftBet - 197 3144 ID=26881 Provider=Edict Name=TheLandofHeroes cod=0 description=null ResponseObject=24
+2022-08-24 11:21:21,682 [main] INFO craftBet - 198 3149 ID=26654 Provider=Evoplay Name=TheLegendofShaolin cod=0 description=null ResponseObject=24
+2022-08-24 11:21:25,092 [main] INFO craftBet - 199 3157 ID=26437 Provider=Yggdrasil Name=TheOneArmedBandit cod=0 description=null ResponseObject=24
+2022-08-24 11:21:51,267 [main] INFO craftBet - 200 3225 ID=75193 Provider=PariPlay Name=Tiki Magic cod=0 description=null ResponseObject=24
+2022-08-24 11:22:05,026 [main] INFO craftBet - 201 3256 ID=26628 Provider=Evoplay Name=TotemIsland cod=0 description=null ResponseObject=24
+2022-08-24 11:22:06,926 [main] INFO craftBet - 202 3262 ID=75215 Provider=SoftGaming Name=Towering Pays - Babylon cod=0 description=null ResponseObject=24
+2022-08-24 11:22:10,413 [main] INFO craftBet - 203 3271 ID=26364 Provider=Fugaso Name=TreasureofShaman cod=0 description=null ResponseObject=24
+2022-08-24 11:22:13,714 [main] INFO craftBet - 204 3280 ID=25919 Provider=Edict Name=TribeoftheSun cod=0 description=null ResponseObject=24
+2022-08-24 11:22:24,004 [main] INFO craftBet - 205 3306 ID=26404 Provider=Fugaso Name=TrumpIt cod=0 description=null ResponseObject=24
+2022-08-24 11:22:36,112 [main] INFO craftBet - 206 3339 ID=26600 Provider=Evoplay Name=USSRGrocery cod=0 description=null ResponseObject=24
+2022-08-24 11:22:41,270 [main] INFO craftBet - 207 3350 ID=27199 Provider=Yggdrasil Name=Valleyofthegods cod=0 description=null ResponseObject=24
+2022-08-24 11:22:41,620 [main] INFO craftBet - 208 3351 ID=25566 Provider=Yggdrasil Name=ValleyoftheGods2 cod=0 description=null ResponseObject=24
+2022-08-24 11:22:51,601 [main] INFO craftBet - 209 3375 ID=28838 Provider=Yggdrasil Name=Victoria Wild cod=0 description=null ResponseObject=24
+2022-08-24 11:22:54,987 [main] INFO craftBet - 210 3384 ID=29342 Provider=Yggdrasil Name=Viking Runes cod=0 description=null ResponseObject=24
+2022-08-24 11:22:58,273 [main] INFO craftBet - 211 3392 ID=27198 Provider=Yggdrasil Name=VikingsGoBerzerk cod=0 description=null ResponseObject=24
+2022-08-24 11:22:58,929 [main] INFO craftBet - 212 3394 ID=27197 Provider=Yggdrasil Name=VikingsgotoHell cod=0 description=null ResponseObject=24
+2022-08-24 11:22:59,608 [main] INFO craftBet - 213 3396 ID=27194 Provider=Yggdrasil Name=Vikingsgowild cod=0 description=null ResponseObject=24
+2022-08-24 11:23:41,664 [main] INFO craftBet - 214 3496 ID=26876 Provider=Edict Name=WildRapaNui cod=0 description=null ResponseObject=24
+2022-08-24 11:24:01,025 [main] INFO craftBet - 215 3546 ID=27191 Provider=Yggdrasil Name=Winterberries cod=0 description=null ResponseObject=24
+2022-08-24 11:24:03,103 [main] INFO craftBet - 216 3552 ID=28356 Provider=ISoftBet Name=Wisps cod=0 description=null ResponseObject=24
+2022-08-24 11:24:13,619 [main] INFO craftBet - 217 3577 ID=27147 Provider=Apollo Name=WoodenFruits cod=0 description=null ResponseObject=24
+2022-08-24 11:24:14,297 [main] INFO craftBet - 218 3579 ID=29561 Provider=Yggdrasil Name=Word Of Thoth cod=0 description=null ResponseObject=24
+2022-08-24 11:24:23,566 [main] INFO craftBet - 219 3596 ID=26421 Provider=Fugaso Name=Yakuza cod=0 description=null ResponseObject=24
+2022-08-24 11:24:33,558 [main] INFO craftBet - From Get URL API broken games are captured
+2022-08-24 11:24:33,558 [main] INFO craftBet - Broken url-es are:  219
+2022-08-24 11:24:35,084 [main] INFO craftBet - Browser closed
+2022-08-24 11:24:35,085 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-24 11:24:35,096 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  

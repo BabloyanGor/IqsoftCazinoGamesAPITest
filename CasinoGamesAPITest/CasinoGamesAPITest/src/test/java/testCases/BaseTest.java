@@ -144,7 +144,7 @@ public class BaseTest extends DriverFactory {
         if (errorSrcXl.size() == 0) {
             isPassed = true;
         } else {
-            String target = System.getProperty("user.dir") + "/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + partnerName + "DataBrokenIMGList.xlsx";
+            String target = System.getProperty("user.dir") + "/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + readConfig.partnerConfigNum()+ partnerName + "DataBrokenIMGList.xlsx";
             XSSFWorkbook workbook = new XSSFWorkbook();
             FileOutputStream file = new FileOutputStream(target);
             XSSFSheet sheet = workbook.createSheet("brokenIMG");
@@ -176,7 +176,7 @@ public class BaseTest extends DriverFactory {
         HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
                 .header("content-type", "application/json")
                 .header("origin", origin)
-                .body("{\"PageIndex\":0,\"PageSize\":200,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false,\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
+                .body("{\"PageIndex\":0,\"PageSize\":20000,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false,\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
                 .asString();
         logger.info("Get All games API call ");
 
@@ -235,7 +235,7 @@ public class BaseTest extends DriverFactory {
             isPassed = true;
 
         } else {
-            String target = System.getProperty("user.dir") + "/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + partnerName + "DataBrokenURLList.xlsx";
+            String target = System.getProperty("user.dir") + "/src/test/java/APICasinoGamesCasinoImagesBrokenData/"+ readConfig.partnerConfigNum() + partnerName + "DataBrokenURLList.xlsx";
             FileOutputStream file = new FileOutputStream(target);
             XSSFWorkbook workbook = new XSSFWorkbook();
             XSSFSheet sheet = workbook.createSheet("brokenURL");
