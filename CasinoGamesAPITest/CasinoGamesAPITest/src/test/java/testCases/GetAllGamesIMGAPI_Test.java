@@ -3,13 +3,11 @@ package testCases;
 import org.json.JSONException;
 import com.mashape.unirest.http.exceptions.UnirestException;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
-import java.time.Duration;
 
-public class GetAllGamesAPI_IMG_Test extends BaseTest {
+public class GetAllGamesIMGAPI_Test extends BaseTest {
 
 
     @Test

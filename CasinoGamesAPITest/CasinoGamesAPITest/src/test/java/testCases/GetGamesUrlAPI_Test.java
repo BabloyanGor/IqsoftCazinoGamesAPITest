@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 import java.time.Duration;
 
-public class getUrlAPI_Test extends BaseTest {
+public class GetGamesUrlAPI_Test extends BaseTest {
     String token;
 
     @BeforeMethod

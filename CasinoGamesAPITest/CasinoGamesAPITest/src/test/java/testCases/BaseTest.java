@@ -29,19 +29,7 @@ import java.util.ArrayList;
 
 public class BaseTest extends DriverFactory {
 
-    ReadConfig readConfig = new ReadConfig();
-
-    public String isHeadless = readConfig.isHeadless();
-    public String browser = readConfig.getBrowser();
-    public String username = readConfig.getUsername();
-    public String password = readConfig.getPassword();
-    public String language = readConfig.getLanguage();
-    public int DimensionHeight = readConfig.getDimensionHeight();
-    public int DimensionWidth = readConfig.getDimensionWidth();
-    public int partnerConfigNum = readConfig.partnerConfigNum();
-
-
-
+    public static Logger logger;
     public int partnerID;
     public String getGamesAPIUrl;
     public String getURLAPIUrl;
@@ -50,15 +38,27 @@ public class BaseTest extends DriverFactory {
     public String getGamesRecurse;
     public String getGamesPartnerName;
     public String getGamesBaseURL;
-
-    public static Logger logger;
-
-    //region <Page Class Instances  >
-
     public CraftBet_01_Header_Page craftBet_01_header_page;
     public CraftBet_03_Login_PopUp_Page craftBet_03_login_popUp_page;
+    ReadConfig readConfig = new ReadConfig();
+    public String isHeadless = readConfig.isHeadless();
+    public String browser = readConfig.getBrowser();
+    public String username = readConfig.getUsername();
+    public String password = readConfig.getPassword();
+    public String language = readConfig.getLanguage();
+    public int DimensionHeight = readConfig.getDimensionHeight();
 
-    public boolean getGamesAPICheckPictures(String getGamesAPIUrl, String origin, String recurse, String partnerName) throws UnirestException, JSONException, IOException {
+    //region <Page Class Instances  >
+    public int DimensionWidth = readConfig.getDimensionWidth();
+    public int partnerConfigNum = readConfig.partnerConfigNum();
+
+    //endregion
+    public BaseTest() {
+    }
+
+
+    public boolean getGamesAPICheckPictures(String getGamesAPIUrl, String origin, String recurse, String partnerName)
+                                            throws UnirestException, JSONException, IOException {
 
         boolean isPassed;
         int k = 0;
@@ -89,18 +89,15 @@ public class BaseTest extends DriverFactory {
             gameNames.add(n);
             gameProviderNames.add(sp);
 
-            if (i.contains("http")&& i.contains(" ")){
+            if (i.contains("http") && i.contains(" ")) {
                 String change = i.replace(" ", "%20");
                 srces.add(change);
-            }
-            else if (!i.contains("http")&& !i.contains(" ")){
+            } else if (!i.contains("http") && !i.contains(" ")) {
                 srces.add(recurse + i);
-            }
-            else if (!i.contains("http")&& i.contains(" ")) {
+            } else if (!i.contains("http") && i.contains(" ")) {
                 String change = recurse + i.replace(" ", "%20");
                 srces.add(change);
-            }
-            else  {
+            } else {
                 srces.add(i);
             }
         }
@@ -144,7 +141,7 @@ public class BaseTest extends DriverFactory {
         if (errorSrcXl.size() == 0) {
             isPassed = true;
         } else {
-            String target = System.getProperty("user.dir") + "/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + readConfig.partnerConfigNum()+ partnerName + "DataBrokenIMGList.xlsx";
+            String target = System.getProperty("user.dir") + "/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataBrokenIMGList.xlsx";
             XSSFWorkbook workbook = new XSSFWorkbook();
             FileOutputStream file = new FileOutputStream(target);
             XSSFSheet sheet = workbook.createSheet("brokenIMG");
@@ -162,7 +159,75 @@ public class BaseTest extends DriverFactory {
         return isPassed;
     }
 
-    public boolean getUrlCheckGamesUrl(String getGamesAPIUrl, String origin, String getURLAPIurl, String token, int userID, int partnerID, String partnerName) throws JSONException, IOException, UnirestException {
+    public boolean getALLGamesAPICheckCopyGames(String getGamesAPIUrl, String origin, String partnerName)
+                                                throws UnirestException, JSONException, IOException {
+
+        boolean isPassed;
+        int k = 1;
+        ArrayList<String> gameNames = new ArrayList<>();
+        ArrayList<String> gameProviderNames = new ArrayList<>();
+        ArrayList<String> errorSrcXl = new ArrayList<>();
+
+        Unirest.setTimeouts(0, 0);
+        HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
+                .header("content-type", "application/json")
+                .header("origin", origin)
+                .body("{\"PageIndex\":0,\"PageSize\":20000,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false,\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
+                .asString();
+        logger.info("Get games Api call was sent");
+        JSONObject jsonObjectBody = new JSONObject(response.getBody());
+        JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.getString("ResponseObject"));
+        JSONArray jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
+        logger.info("Get games Api Response was captured");
+
+        for (int j = 0; j < jsonArrayGames.length(); j++) {
+
+            String first = String.valueOf(jsonArrayGames.get(j));
+            JSONObject jsonObjectGame = new JSONObject(first);
+            String n = jsonObjectGame.getString("n");    //Game Name
+            String sp = jsonObjectGame.getString("sp");  //Provider Name
+            gameProviderNames.add(sp);
+            gameNames.add(n);
+        }
+
+        for (int i = 0; i< gameNames.size(); i++){
+            String name = gameNames.get(i);
+            for (int j=i+1; j<gameNames.size(); j++){
+                String x = gameNames.get(j);
+                if (name.equals(x)){
+                    logger.info("Dupliicate game Name =  " + gameNames.get(j));
+                    errorSrcXl.add(k + "  This game has duplicate Please check it :  Name =  " + gameNames.get(j));
+                    k++;
+                }
+            }
+        }
+
+
+        logger.info("Duplicate games are:  " + errorSrcXl.size());
+        if (errorSrcXl.size() == 0) {
+            isPassed = true;
+        } else {
+            String target = System.getProperty("user.dir") + "/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataDuplicateGamesList.xlsx";
+            XSSFWorkbook workbook = new XSSFWorkbook();
+            FileOutputStream file = new FileOutputStream(target);
+            XSSFSheet sheet = workbook.createSheet("brokenIMG");
+            sheet.setColumnWidth(0, 20000);
+            int l = 0;
+            for (String err : errorSrcXl) {
+                XSSFRow row = sheet.createRow(l);
+                row.createCell(0).setCellValue(err);
+                l++;
+            }
+            workbook.write(file);
+            workbook.close();
+            isPassed = false;
+        }
+        return isPassed;
+    }
+
+    public boolean getUrlCheckGamesUrl(String getGamesAPIUrl, String origin, String getURLAPIurl, String token,
+                                       int userID, int partnerID, String partnerName)
+                                       throws JSONException, IOException, UnirestException {
         boolean isPassed;
         ArrayList<String> productID = new ArrayList<>();
         ArrayList<String> name = new ArrayList<>();
@@ -235,7 +300,7 @@ public class BaseTest extends DriverFactory {
             isPassed = true;
 
         } else {
-            String target = System.getProperty("user.dir") + "/src/test/java/APICasinoGamesCasinoImagesBrokenData/"+ readConfig.partnerConfigNum() + partnerName + "DataBrokenURLList.xlsx";
+            String target = System.getProperty("user.dir") + "/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataBrokenURLList.xlsx";
             FileOutputStream file = new FileOutputStream(target);
             XSSFWorkbook workbook = new XSSFWorkbook();
             XSSFSheet sheet = workbook.createSheet("brokenURL");
@@ -253,21 +318,17 @@ public class BaseTest extends DriverFactory {
         return isPassed;
     }
 
-    //endregion
-    public BaseTest() {
-    }
-
     @BeforeMethod
     public void setup() throws InterruptedException {
         logger = Logger.getLogger("craftBet");
         PropertyConfigurator.configure("Log4j.properties");
 
-        switch (partnerConfigNum){
+        switch (partnerConfigNum) {
             case 1: {
-                partnerID=1;
+                partnerID = 1;
                 getGamesAPIUrl = "https://websitewebapi.craftbet.com/1/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.craftbet.com/1/api/Main/GetProductUrl";
-                getUserID =1630845;
+                getUserID = 1630845;
                 getGamesOrigin = "https://craftbet.com";
                 getGamesRecurse = "https://resources.craftbet.com/products/";
                 getGamesPartnerName = "Craftbet";
@@ -275,10 +336,10 @@ public class BaseTest extends DriverFactory {
                 break;
             }
             case 2: {
-                partnerID=56;
+                partnerID = 56;
                 getGamesAPIUrl = "https://websitewebapi.pokies2go.io/56/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.pokies2go.io/56/api/Main/GetProductUrl";
-                getUserID =1650272;
+                getUserID = 1650272;
                 getGamesOrigin = "https://pokies2go.io";
                 getGamesRecurse = "https://resources.pokies2go.io/products/";
                 getGamesPartnerName = "Pokies2go";
@@ -287,10 +348,10 @@ public class BaseTest extends DriverFactory {
             }
 
             case 3: {
-                partnerID=59;
+                partnerID = 59;
                 getGamesAPIUrl = "https://websitewebapi.tigerbet001.com/59/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.tigerbet001.com/59/api/Main/GetProductUrl";
-                getUserID =1650824;
+                getUserID = 1650824;
                 getGamesOrigin = "https://tigerbet001.com";
                 getGamesRecurse = "https://resources.tigerbet001.com/products/";
                 getGamesPartnerName = "tigerbet001";
@@ -299,10 +360,10 @@ public class BaseTest extends DriverFactory {
             }
 
             case 4: {
-                partnerID=52;
+                partnerID = 52;
                 getGamesAPIUrl = "https://websitewebapi.graciazz.com/52/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.graciazz.com/52/api/Main/GetProductUrl";
-                getUserID =1650804;
+                getUserID = 1650804;
                 getGamesOrigin = "https://graciazz.com";
                 getGamesRecurse = "https://resources.graciazz.com/products/";
                 getGamesPartnerName = "graciazz";
@@ -311,10 +372,10 @@ public class BaseTest extends DriverFactory {
             }
 
             case 5: {
-                partnerID=47;
+                partnerID = 47;
                 getGamesAPIUrl = "https://websitewebapi.crypto-casino.games/47/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.crypto-casino.games/47/api/Main/GetProductUrl";
-                getUserID =1650805;
+                getUserID = 1650805;
                 getGamesOrigin = "https://crypto-casino.games";
                 getGamesRecurse = "https://resources.crypto-casino.games/products/";
                 getGamesPartnerName = "cryptoCasino";
@@ -323,10 +384,10 @@ public class BaseTest extends DriverFactory {
             }
 
             case 6: {
-                partnerID=48;
+                partnerID = 48;
                 getGamesAPIUrl = "https://websitewebapi.betvito.com/48/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.betvito.com/48/api/Main/GetProductUrl";
-                getUserID =1650817;
+                getUserID = 1650817;
                 getGamesOrigin = "https://betvito.com";
                 getGamesRecurse = "https://resources.https://betvito.com/products/";
                 getGamesPartnerName = "Betvito";
@@ -334,10 +395,10 @@ public class BaseTest extends DriverFactory {
                 break;
             }
             case 7: {
-                partnerID=41;
+                partnerID = 41;
                 getGamesAPIUrl = "https://websitewebapi.vikwin.com/41/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.vikwin.com/41/api/Main/GetProductUrl";
-                getUserID =1650818;
+                getUserID = 1650818;
                 getGamesOrigin = "https://vikwin.com";
                 getGamesRecurse = "https://resources.https://vikwin.com/products/";
                 getGamesPartnerName = "Vikwin";
@@ -345,10 +406,10 @@ public class BaseTest extends DriverFactory {
                 break;
             }
             case 8: {
-                partnerID=38;
+                partnerID = 38;
                 getGamesAPIUrl = "https://websitewebapi.bravowin.com/38/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.bravowin.com/38/api/Main/GetProductUrl";
-                getUserID =1650819;
+                getUserID = 1650819;
                 getGamesOrigin = "https://bravowin.com";
                 getGamesRecurse = "https://resources.bravowin.com/products/";
                 getGamesPartnerName = "Bravowin";
@@ -356,10 +417,10 @@ public class BaseTest extends DriverFactory {
                 break;
             }
             case 9: {
-                partnerID=54;
+                partnerID = 54;
                 getGamesAPIUrl = "https://websitewebapi.tetherbet.io/54/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.tetherbet.io/54/api/Main/GetProductUrl";
-                getUserID =1650822;
+                getUserID = 1650822;
                 getGamesOrigin = "https://tetherbet.io";
                 getGamesRecurse = "https://resources.tetherbet.io/products/";
                 getGamesPartnerName = "Tetherbet";
@@ -368,17 +429,16 @@ public class BaseTest extends DriverFactory {
             }
 
             case 10: {
-                partnerID=45;
+                partnerID = 45;
                 getGamesAPIUrl = "https://websitewebapi.bet2win.vip/45/api/Main/GetGames";
-                getURLAPIUrl = " https://websitewebapi.bet2win.vip/45/api/Main/GetProductUrl";
-                getUserID =1650845;
+                getURLAPIUrl = "https://websitewebapi.bet2win.vip/45/api/Main/GetProductUrl";
+                getUserID = 1650845;
                 getGamesOrigin = "https://bet2win.vip";
                 getGamesRecurse = "https://resources.bet2win.vip/products/";
                 getGamesPartnerName = "bet2win";
                 getGamesBaseURL = "https://bet2win.vip";
                 break;
             }
-
 
 
             case 100: {
@@ -394,7 +454,7 @@ public class BaseTest extends DriverFactory {
             }
 
 
-                default:{
+            default: {
                 logger.error("Wrong Partner ID: From config.properties file insert the right PartnerID Please");
                 throw new SkipException("From config.properties file choose the right PartnerID Please");
             }
@@ -403,16 +463,13 @@ public class BaseTest extends DriverFactory {
 
         try {
             super.initDriver(getGamesBaseURL, browser, isHeadless);
-            logger.info("URL: "+ getGamesBaseURL + "  Browser: "+ browser);
+            logger.info("URL: " + getGamesBaseURL + "  Browser: " + browser);
             Dimension d = new Dimension(DimensionWidth, DimensionHeight);  //
-            if (DimensionWidth > 1250  &&  DimensionHeight > 750){
+            if (DimensionWidth > 1250 && DimensionHeight > 750) {
                 driver.manage().window().setSize(d);
-                logger.info("Window size is: "+ DimensionWidth + " x " + DimensionHeight);
+                logger.info("Window size is: " + DimensionWidth + " x " + DimensionHeight);
             }
-        }
-
-
-        catch (org.openqa.selenium.TimeoutException exception) {
+        } catch (org.openqa.selenium.TimeoutException exception) {
             super.initDriver(getGamesBaseURL, browser, isHeadless);
 
         }
