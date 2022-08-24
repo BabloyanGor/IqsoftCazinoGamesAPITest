@@ -290,7 +290,7 @@ public class BaseTest extends DriverFactory {
                 partnerID=59;
                 getGamesAPIUrl = "https://websitewebapi.tigerbet001.com/59/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.tigerbet001.com/59/api/Main/GetProductUrl";
-                getUserID =1650803;
+                getUserID =1650824;
                 getGamesOrigin = "https://tigerbet001.com";
                 getGamesRecurse = "https://resources.tigerbet001.com/products/";
                 getGamesPartnerName = "tigerbet001";
@@ -321,53 +321,51 @@ public class BaseTest extends DriverFactory {
                 getGamesBaseURL = "https://crypto-casino.games";
                 break;
             }
-//
-//            case 6: {
-//                partnerID=56;
-//                getGamesAPIUrl = "https://websitewebapi.pokies2go.io/56/api/Main/GetGames";
-//                getURLAPIUrl = "https://websitewebapi.pokies2go.io/56/api/Main/GetProductUrl";
-//                getUserID =1650272;
-//                getGamesOrigin = "https://pokies2go.io";
-//                getGamesRecurse = "https://resources.pokies2go.io/products/";
-//                getGamesPartnerName = "Pokies2go";
-//                getGamesBaseURL = "https://pokies2go.io";
-//                break;
-//            }
-//            case 7: {
-//                partnerID=56;
-//                getGamesAPIUrl = "https://websitewebapi.pokies2go.io/56/api/Main/GetGames";
-//                getURLAPIUrl = "https://websitewebapi.pokies2go.io/56/api/Main/GetProductUrl";
-//                getUserID =1650272;
-//                getGamesOrigin = "https://pokies2go.io";
-//                getGamesRecurse = "https://resources.pokies2go.io/products/";
-//                getGamesPartnerName = "Pokies2go";
-//                getGamesBaseURL = "https://pokies2go.io";
-//                break;
-//            }
-//            case 8: {
-//                partnerID=56;
-//                getGamesAPIUrl = "https://websitewebapi.pokies2go.io/56/api/Main/GetGames";
-//                getURLAPIUrl = "https://websitewebapi.pokies2go.io/56/api/Main/GetProductUrl";
-//                getUserID =1650272;
-//                getGamesOrigin = "https://pokies2go.io";
-//                getGamesRecurse = "https://resources.pokies2go.io/products/";
-//                getGamesPartnerName = "Pokies2go";
-//                getGamesBaseURL = "https://pokies2go.io";
-//                break;
-//            }
-//            case 9: {
-//                partnerID=56;
-//                getGamesAPIUrl = "https://websitewebapi.pokies2go.io/56/api/Main/GetGames";
-//                getURLAPIUrl = "https://websitewebapi.pokies2go.io/56/api/Main/GetProductUrl";
-//                getUserID =1650272;
-//                getGamesOrigin = "https://pokies2go.io";
-//                getGamesRecurse = "https://resources.pokies2go.io/products/";
-//                getGamesPartnerName = "Pokies2go";
-//                getGamesBaseURL = "https://pokies2go.io";
-//                break;
-//            }
 
-
+            case 6: {
+                partnerID=48;
+                getGamesAPIUrl = "https://websitewebapi.betvito.com/48/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.betvito.com/48/api/Main/GetProductUrl";
+                getUserID =1650817;
+                getGamesOrigin = "https://betvito.com";
+                getGamesRecurse = "https://resources.https://betvito.com/products/";
+                getGamesPartnerName = "Betvito";
+                getGamesBaseURL = "https://betvito.com";
+                break;
+            }
+            case 7: {
+                partnerID=41;
+                getGamesAPIUrl = "https://websitewebapi.vikwin.com/41/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.vikwin.com/41/api/Main/GetProductUrl";
+                getUserID =1650818;
+                getGamesOrigin = "https://vikwin.com";
+                getGamesRecurse = "https://resources.https://vikwin.com/products/";
+                getGamesPartnerName = "Vikwin";
+                getGamesBaseURL = "https://vikwin.com";
+                break;
+            }
+            case 8: {
+                partnerID=38;
+                getGamesAPIUrl = "https://websitewebapi.bravowin.com/38/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.bravowin.com/38/api/Main/GetProductUrl";
+                getUserID =1650819;
+                getGamesOrigin = "https://bravowin.com";
+                getGamesRecurse = "https://resources.bravowin.com/products/";
+                getGamesPartnerName = "Bravowin";
+                getGamesBaseURL = "https://bravowin.com";
+                break;
+            }
+            case 9: {
+                partnerID=54;
+                getGamesAPIUrl = "https://websitewebapi.tetherbet.io/54/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.tetherbet.io/54/api/Main/GetProductUrl";
+                getUserID =1650822;
+                getGamesOrigin = "https://tetherbet.io";
+                getGamesRecurse = "https://resources.tetherbet.io/products/";
+                getGamesPartnerName = "Tetherbet";
+                getGamesBaseURL = "https://tetherbet.io";
+                break;
+            }
 
 
 
