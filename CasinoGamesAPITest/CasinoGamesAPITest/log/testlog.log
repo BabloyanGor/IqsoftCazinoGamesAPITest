@@ -842,3 +842,90 @@ Parameter name: s ResponseObject=null
 2022-08-24 11:24:35,084 - craftBet -INFO - Browser closed
 2022-08-24 11:24:35,085 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-08-24 11:24:35,096 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-24 17:58:46,410 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-24 17:58:48,121 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-24 17:58:48,213 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-24 17:58:53,961 - craftBet -INFO - URL: https://bet2win.vip  Browser: chrome
+2022-08-24 17:58:54,091 - craftBet -INFO - All Page elements are initialized
+2022-08-24 17:58:54,102 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-24 17:58:58,190 - craftBet -INFO - Get games Api call was sent
+2022-08-24 17:58:58,269 - craftBet -INFO - Get games Api Response was captured
+2022-08-24 17:58:58,301 - craftBet -INFO - All captured games images was added into ArrayList
+2022-08-24 17:59:01,131 - craftBet -ERROR - 7   Game Provider Name = TomHorn :   Game Name =  243CrystalFruits :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/243CrystalFruits.png
+2022-08-24 17:59:01,258 - craftBet -ERROR - 8   Game Provider Name = TomHorn :   Game Name =  243 Crystal Fruits R. :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/crystal-fruits-reversed.png
+2022-08-24 17:59:15,120 - craftBet -ERROR - 52   Game Provider Name = QuickSpin :   Game Name =  Ark of Mystery :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/ArkofMystery.png
+2022-08-24 17:59:22,405 - craftBet -ERROR - 77   Game Provider Name = QuickSpin :   Game Name =  Big Bad Wolf :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_bbw.jpg
+2022-08-24 17:59:23,071 - craftBet -ERROR - 80   Game Provider Name = QuickSpin :   Game Name =  Big Bot Crew :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/BigBotCrew.png
+2022-08-24 17:59:25,883 - craftBet -ERROR - 90   Game Provider Name = TomHorn :   Game Name =  Black Mummy :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/BlackMummy.png
+2022-08-24 17:59:26,001 - craftBet -ERROR - 91   Game Provider Name = TomHorn :   Game Name =  Blackbeard'sQuest :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/BookOfSpells.png
+2022-08-24 17:59:26,115 - craftBet -ERROR - 92   Game Provider Name = TomHorn :   Game Name =  Blackbeard'sQuestMini :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/BlackbeardsQuest.png
+2022-08-24 17:59:32,543 - craftBet -ERROR - 115   Game Provider Name = TomHorn :   Game Name =  Book Of Spells :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/BookOfSpells.png
+2022-08-24 17:59:48,075 - craftBet -ERROR - 167   Game Provider Name = QuickSpin :   Game Name =  Colossus :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_colossus.jpg
+2022-08-24 17:59:50,811 - craftBet -ERROR - 177   Game Provider Name = QuickSpin :   Game Name =  Crystal Queen :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_crystalqueen.jpg.jpg
+2022-08-24 17:59:55,085 - craftBet -ERROR - 191   Game Provider Name = TomHorn :   Game Name =  Diamond Hill :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/diamond-hill.png
+2022-08-24 17:59:58,791 - craftBet -ERROR - 202   Game Provider Name = QuickSpin :   Game Name =  Divine Dreams :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/DivineDreams.png
+2022-08-24 17:59:59,288 - craftBet -ERROR - 204   Game Provider Name = TomHorn :   Game Name =  Don Juan's Peppers :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/DonJuansPeppers.png
+2022-08-24 18:00:00,518 - craftBet -ERROR - 208   Game Provider Name = TomHorn :   Game Name =  Dragon Egg :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/DragonEgg.png
+2022-08-24 18:00:01,394 - craftBet -ERROR - 211   Game Provider Name = TomHorn :   Game Name =  Dragon Riches :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/DragonRichesProgressive.png
+2022-08-24 18:00:01,426 - craftBet -ERROR - 212   Game Provider Name = TomHorn :   Game Name =  Dragon Riches Prog. :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/DragonRichesProgressive.png
+2022-08-24 18:00:01,555 - craftBet -ERROR - 213   Game Provider Name = QuickSpin :   Game Name =  Dragon Shrine :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/DragonShrine.png
+2022-08-24 18:00:03,943 - craftBet -ERROR - 221   Game Provider Name = QuickSpin :   Game Name =  Durian Dynamite :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/DurianDynamite.png
+2022-08-24 18:00:06,122 - craftBet -ERROR - 229   Game Provider Name = QuickSpin :   Game Name =  Eastern Emeralds :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/EasternEmeralds.png
+2022-08-24 18:00:11,102 - craftBet -ERROR - 246   Game Provider Name = QuickSpin :   Game Name =  Fairy Gate :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/FairyGate.png
+2022-08-24 18:00:14,802 - craftBet -ERROR - 259   Game Provider Name = TomHorn :   Game Name =  Feng Fu :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/FengFu.png
+2022-08-24 18:00:17,038 - craftBet -ERROR - 266   Game Provider Name = TomHorn :   Game Name =  Fire 'n' Hot :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/FirenHot.png
+2022-08-24 18:00:20,805 - craftBet -ERROR - 278   Game Provider Name = TomHorn :   Game Name =  Flaming Fruit :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/FlamingFruit.png
+2022-08-24 18:00:24,799 - craftBet -ERROR - 292   Game Provider Name = TomHorn :   Game Name =  Frozen Queen :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/FrozenQueen.png
+2022-08-24 18:00:30,647 - craftBet -ERROR - 312   Game Provider Name = TomHorn :   Game Name =  Geisha's Fan :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/GeishasFun.png
+2022-08-24 18:00:32,243 - craftBet -ERROR - 318   Game Provider Name = QuickSpin :   Game Name =  Genies Touch :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_geniestouch.jpg
+2022-08-24 18:00:37,055 - craftBet -ERROR - 333   Game Provider Name = TomHorn :   Game Name =  Gold x :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/gold-x.png
+2022-08-24 18:00:41,713 - craftBet -ERROR - 346   Game Provider Name = QuickSpin :   Game Name =  Goldilocks & Wild Bears :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_goldilocks2.jpg
+2022-08-24 18:00:41,907 - craftBet -ERROR - 347   Game Provider Name = QuickSpin :   Game Name =  Gold Lab :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_goldlab.jpg
+2022-08-24 18:00:51,741 - craftBet -ERROR - 377   Game Provider Name = TomHorn :   Game Name =  Hot Blizzard :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/hot-blizzard.png
+2022-08-24 18:00:53,093 - craftBet -ERROR - 382   Game Provider Name = QuickSpin :   Game Name =  Hot Sync :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/HotSync.png
+2022-08-24 18:00:54,030 - craftBet -ERROR - 386   Game Provider Name = TomHorn :   Game Name =  Hot'n'Fruity :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/hotnfruity.png
+2022-08-24 18:00:59,283 - craftBet -ERROR - 403   Game Provider Name = QuickSpin :   Game Name =  Illuminous :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_illuminous.jpg
+2022-08-24 18:01:00,629 - craftBet -ERROR - 408   Game Provider Name = TomHorn :   Game Name =  Inca's Treasure :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/incas-treasure.png
+2022-08-24 18:01:02,360 - craftBet -ERROR - 414   Game Provider Name = RelaxGaming :   Game Name =  Iron Bank :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/ironbank_rg.jpg
+2022-08-24 18:01:09,652 - craftBet -ERROR - 437   Game Provider Name = TomHorn :   Game Name =  Joker Reelz :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/joker-reelz.png
+2022-08-24 18:01:23,661 - craftBet -ERROR - 474   Game Provider Name = QuickSpin :   Game Name =  Leprechaun Hills :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_leprechaunhills.jpg
+2022-08-24 18:01:36,246 - craftBet -ERROR - 515   Game Provider Name = QuickSpin :   Game Name =  Mayana :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_mayana.jpg
+2022-08-24 18:01:40,216 - craftBet -ERROR - 528   Game Provider Name = QuickSpin :   Game Name =  Mighty Arthur :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_mightyarthur.jpg
+2022-08-24 18:01:42,117 - craftBet -ERROR - 534   Game Provider Name = RelaxGaming :   Game Name =  Money Train 2 :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/moneytrain2_rg.jpg
+2022-08-24 18:01:42,316 - craftBet -ERROR - 535   Game Provider Name = TomHorn :   Game Name =  Monkey 27 :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/Monkey27.png
+2022-08-24 18:01:43,351 - craftBet -ERROR - 539   Game Provider Name = TomHorn :   Game Name =  Monster Madness :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/MonsterMadness.png
+2022-08-24 18:01:45,142 - craftBet -ERROR - 545   Game Provider Name = QuickSpin :   Game Name =  Mountain King :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/MountainKing.png
+2022-08-24 18:01:50,065 - craftBet -ERROR - 561   Game Provider Name = QuickSpin :   Game Name =  Northern Sky :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/NorthernSky.png
+2022-08-24 18:01:53,352 - craftBet -ERROR - 572   Game Provider Name = TomHorn :   Game Name =  Panda's Run :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/PandasRun.png
+2022-08-24 18:01:57,003 - craftBet -ERROR - 585   Game Provider Name = QuickSpin :   Game Name =  Phoenix Sun :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_phoenixsun.jpg
+2022-08-24 18:01:57,199 - craftBet -ERROR - 586   Game Provider Name = QuickSpin :   Game Name =  Pied Piper :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/PiedPiper.png
+2022-08-24 18:01:59,485 - craftBet -ERROR - 594   Game Provider Name = QuickSpin :   Game Name =  Pirates Charm :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/PiratesCharm.png
+2022-08-24 18:02:09,183 - craftBet -ERROR - 626   Game Provider Name = QuickSpin :   Game Name =  Razortooth :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_sabretooth.jpg
+2022-08-24 18:02:09,875 - craftBet -ERROR - 629   Game Provider Name = TomHorn :   Game Name =  Red Lights :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/RedLights.png
+2022-08-24 18:02:26,051 - craftBet -ERROR - 680   Game Provider Name = TomHorn :   Game Name =  Savannah King :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/SavannahKing.png
+2022-08-24 18:02:26,171 - craftBet -ERROR - 681   Game Provider Name = TomHorn :   Game Name =  Scratch Card :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/ScratchCard.png
+2022-08-24 18:02:27,562 - craftBet -ERROR - 686   Game Provider Name = QuickSpin :   Game Name =  Second Strike :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_secondstrike.jpg
+2022-08-24 18:02:29,480 - craftBet -ERROR - 693   Game Provider Name = QuickSpin :   Game Name =  Sevens High :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_sevens.jpg
+2022-08-24 18:02:30,468 - craftBet -ERROR - 696   Game Provider Name = TomHorn :   Game Name =  Shaolin's Tiger :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/ShaolinsTiger.jpg
+2022-08-24 18:02:31,085 - craftBet -ERROR - 698   Game Provider Name = TomHorn :   Game Name =  Sherlock in Bohemia :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/Sherlock.png
+2022-08-24 18:02:32,181 - craftBet -ERROR - 702   Game Provider Name = TomHorn :   Game Name =  Sizable Win :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/SizableWin.png
+2022-08-24 18:02:33,107 - craftBet -ERROR - 706   Game Provider Name = TomHorn :   Game Name =  Sky Barons :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/SkyBarons.png
+2022-08-24 18:02:33,965 - craftBet -ERROR - 709   Game Provider Name = RelaxGaming :   Game Name =  Snake Arena :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/snakearena_rg.jpg
+2022-08-24 18:02:38,230 - craftBet -ERROR - 722   Game Provider Name = TomHorn :   Game Name =  Spinball :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/spinball.png
+2022-08-24 18:02:38,423 - craftBet -ERROR - 723   Game Provider Name = QuickSpin :   Game Name =  Spinions Beach Party :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_spinions.jpg
+2022-08-24 18:02:41,656 - craftBet -ERROR - 733   Game Provider Name = QuickSpin :   Game Name =  Sticky Bandits :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_stickybandits.jpg
+2022-08-24 18:02:46,859 - craftBet -ERROR - 750   Game Provider Name = TomHorn :   Game Name =  Sweet Crush :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/sweet-crush.png
+2022-08-24 18:02:49,318 - craftBet -ERROR - 758   Game Provider Name = QuickSpin :   Game Name =  Tales of Doctor Dolittle :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/TalesofDoctorDolittle.png
+2022-08-24 18:02:50,709 - craftBet -ERROR - 763   Game Provider Name = TomHorn :   Game Name =  The Cup :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/TheCup.png
+2022-08-24 18:02:58,950 - craftBet -ERROR - 787   Game Provider Name = TomHorn :   Game Name =  The Secret of BA :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/the-secret-of-ba.png
+2022-08-24 18:03:01,285 - craftBet -ERROR - 795   Game Provider Name = TomHorn :   Game Name =  Thrones Of Persia :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/ThronesOfPersia.png
+2022-08-24 18:03:14,275 - craftBet -ERROR - 840   Game Provider Name = QuickSpin :   Game Name =  Volcano Riches :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/VolcanoRiches.png
+2022-08-24 18:03:17,687 - craftBet -ERROR - 851   Game Provider Name = RelaxGaming :   Game Name =  Wild Chapo :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/wildchapo_rg.jpg
+2022-08-24 18:03:18,226 - craftBet -ERROR - 853   Game Provider Name = QuickSpin :   Game Name =  Wild Chase :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/WildChase.png
+2022-08-24 18:03:22,136 - craftBet -ERROR - 867   Game Provider Name = TomHorn :   Game Name =  Wild Weather :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/WildWeather.png
+2022-08-24 18:03:24,657 - craftBet -ERROR - 875   Game Provider Name = QuickSpin :   Game Name =  Wins of Fortune :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/WinsofFortune.png
+2022-08-24 18:03:25,873 - craftBet -ERROR - 879   Game Provider Name = TomHorn :   Game Name =  Wolf Sierra :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/wolf-sierra.png
+2022-08-24 18:03:28,887 - craftBet -INFO - Broken images are:  74
+2022-08-24 18:03:30,175 - craftBet -INFO - Browser closed
+2022-08-24 18:03:30,176 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-24 18:03:30,205 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  

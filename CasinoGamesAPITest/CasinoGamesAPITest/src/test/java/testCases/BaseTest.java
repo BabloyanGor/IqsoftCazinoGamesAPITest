@@ -367,7 +367,17 @@ public class BaseTest extends DriverFactory {
                 break;
             }
 
-
+            case 10: {
+                partnerID=45;
+                getGamesAPIUrl = "https://websitewebapi.bet2win.vip/45/api/Main/GetGames";
+                getURLAPIUrl = " https://websitewebapi.bet2win.vip/45/api/Main/GetProductUrl";
+                getUserID =1650845;
+                getGamesOrigin = "https://bet2win.vip";
+                getGamesRecurse = "https://resources.bet2win.vip/products/";
+                getGamesPartnerName = "bet2win";
+                getGamesBaseURL = "https://bet2win.vip";
+                break;
+            }
 
 
 
