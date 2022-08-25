@@ -4866,3 +4866,193 @@ java.net.SocketException: Connection reset
 2022-08-25 23:43:02,752 - craftBet -INFO - Browser closed
 2022-08-25 23:43:02,752 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-08-25 23:43:02,752 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-25 23:45:38,782 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-25 23:45:38,973 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-25 23:45:38,992 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-25 23:45:40,812 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-25 23:45:40,856 - craftBet -INFO - All Page elements are initialized
+2022-08-25 23:45:40,865 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-25 23:45:42,247 - craftBet -INFO - Get games Api call was sent
+2022-08-25 23:45:42,330 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-25 23:45:42,396 - craftBet -ERROR - The Time Out games are :   3697380   Copa Rio   Soccer   2022-08-25T17:00:00   Time from Game Start   -6
+2022-08-25 23:45:42,396 - craftBet -ERROR - The Time Out games are :   3695760   Professional League   Soccer   2022-08-25T17:55:00   Time from Game Start   -5
+2022-08-25 23:45:42,396 - craftBet -ERROR - The Time Out games are :   3697306   Uzbekistan Cup   Soccer   2022-08-25T18:00:00   Time from Game Start   -5
+2022-08-25 23:45:42,396 - craftBet -ERROR - The Time Out games are :   3697381   Friendly Internationals U19   Soccer   2022-08-25T19:00:00   Time from Game Start   -4
+2022-08-25 23:45:42,397 - craftBet -ERROR - The Time Out games are :   3696815   Bolivia Cup Women   Soccer   2022-08-25T19:00:00   Time from Game Start   -4
+2022-08-25 23:45:42,397 - craftBet -ERROR - The Time Out games are :   3699526   Club Friendlies   Soccer   2022-08-25T19:00:00   Time from Game Start   -4
+2022-08-25 23:45:42,397 - craftBet -ERROR - The Time Out games are :   3695662   Premier League   Soccer   2022-08-25T19:00:00   Time from Game Start   -4
+2022-08-25 23:45:42,397 - craftBet -ERROR - The Time Out games are :   3686703   Ykkonen   Soccer   2022-08-25T19:30:00   Time from Game Start   -4
+2022-08-25 23:45:42,398 - craftBet -ERROR - The Time Out games are :   3695640   Premier League   Soccer   2022-08-25T19:50:00   Time from Game Start   -3
+2022-08-25 23:45:42,398 - craftBet -ERROR - The Time Out games are :   3679021   UEFA Europa League   Soccer   2022-08-25T20:00:00   Time from Game Start   -3
+2022-08-25 23:45:42,399 - craftBet -ERROR - The Time Out games are :   3699528   3 Liga   Soccer   2022-08-25T20:00:00   Time from Game Start   -3
+2022-08-25 23:45:42,399 - craftBet -ERROR - The Time Out games are :   3696616   Kolmonen League   Soccer   2022-08-25T20:00:00   Time from Game Start   -3
+2022-08-25 23:45:42,399 - craftBet -ERROR - The Time Out games are :   3696617   Kolmonen League   Soccer   2022-08-25T20:00:00   Time from Game Start   -3
+2022-08-25 23:45:42,399 - craftBet -ERROR - The Time Out games are :   3696228   Kolmonen League   Soccer   2022-08-25T20:00:00   Time from Game Start   -3
+2022-08-25 23:45:42,399 - craftBet -ERROR - The Time Out games are :   3695614   U23 League   Soccer   2022-08-25T20:00:00   Time from Game Start   -3
+2022-08-25 23:45:42,400 - craftBet -ERROR - The Time Out games are :   3679025   UEFA Europa League   Soccer   2022-08-25T20:00:00   Time from Game Start   -3
+2022-08-25 23:45:42,400 - craftBet -ERROR - The Time Out games are :   3697125   Elite League U19   Soccer   2022-08-25T20:30:00   Time from Game Start   -3
+2022-08-25 23:45:42,402 - craftBet -ERROR - The Time Out games are :   3691896   Cancun, Mexico   Tennis   2022-08-25T01:35:00   After game start tim out hours are :  -22   Hours from Game Start   -22
+2022-08-25 23:45:42,402 - craftBet -ERROR - The Time Out games are :   3693105   ITF-W Goyang   Tennis   2022-08-25T09:00:00   After game start tim out hours are :  -14   Hours from Game Start   -14
+2022-08-25 23:45:42,402 - craftBet -ERROR - The Time Out games are :   3693332   ITF-W Verbier   Tennis   2022-08-25T11:00:00   After game start tim out hours are :  -12   Hours from Game Start   -12
+2022-08-25 23:45:42,402 - craftBet -ERROR - The Time Out games are :   3698038   ITF-M Bad Waltersdorf   Tennis   2022-08-25T11:00:00   After game start tim out hours are :  -12   Hours from Game Start   -12
+2022-08-25 23:45:42,403 - craftBet -ERROR - The Time Out games are :   3694979   Monastir, Tunisia   Tennis   2022-08-25T12:00:00   After game start tim out hours are :  -11   Hours from Game Start   -11
+2022-08-25 23:45:42,403 - craftBet -ERROR - The Time Out games are :   3697039   Monastir, Tunisia   Tennis   2022-08-25T12:00:00   After game start tim out hours are :  -11   Hours from Game Start   -11
+2022-08-25 23:45:42,403 - craftBet -ERROR - The Time Out games are :   3697024   Monastir, Tunisia   Tennis   2022-08-25T12:00:00   After game start tim out hours are :  -11   Hours from Game Start   -11
+2022-08-25 23:45:42,403 - craftBet -ERROR - The Time Out games are :   3695067   ITF-M Oldenzaal   Tennis   2022-08-25T12:00:00   After game start tim out hours are :  -11   Hours from Game Start   -11
+2022-08-25 23:45:42,403 - craftBet -ERROR - The Time Out games are :   3697513   ITF-W Prerov   Tennis   2022-08-25T12:00:00   After game start tim out hours are :  -11   Hours from Game Start   -11
+2022-08-25 23:45:42,404 - craftBet -ERROR - The Time Out games are :   3697708   ITF-W Cairo   Tennis   2022-08-25T12:00:00   After game start tim out hours are :  -11   Hours from Game Start   -11
+2022-08-25 23:45:42,404 - craftBet -ERROR - The Time Out games are :   3693498   ITF-W Verbier   Tennis   2022-08-25T12:00:00   After game start tim out hours are :  -11   Hours from Game Start   -11
+2022-08-25 23:45:42,404 - craftBet -ERROR - The Time Out games are :   3697050   ITF-W Oldenzaal   Tennis   2022-08-25T12:00:00   After game start tim out hours are :  -11   Hours from Game Start   -11
+2022-08-25 23:45:42,404 - craftBet -ERROR - The Time Out games are :   3697712   ITF-W Oldenzaal   Tennis   2022-08-25T12:00:00   After game start tim out hours are :  -11   Hours from Game Start   -11
+2022-08-25 23:45:42,405 - craftBet -ERROR - The Time Out games are :   3697710   Monastir, Tunisia   Tennis   2022-08-25T12:00:00   After game start tim out hours are :  -11   Hours from Game Start   -11
+2022-08-25 23:45:42,405 - craftBet -ERROR - The Time Out games are :   3697016   Monastir, Tunisia   Tennis   2022-08-25T12:00:00   After game start tim out hours are :  -11   Hours from Game Start   -11
+2022-08-25 23:45:42,405 - craftBet -ERROR - The Time Out games are :   3695448   ATP CH Prague III   Tennis   2022-08-25T12:00:00   After game start tim out hours are :  -11   Hours from Game Start   -11
+2022-08-25 23:45:42,405 - craftBet -ERROR - The Time Out games are :   3697033   ITF-M Cairo   Tennis   2022-08-25T12:00:00   After game start tim out hours are :  -11   Hours from Game Start   -11
+2022-08-25 23:45:42,405 - craftBet -ERROR - The Time Out games are :   3697717   ITF-M Oldenzaal   Tennis   2022-08-25T12:00:00   After game start tim out hours are :  -11   Hours from Game Start   -11
+2022-08-25 23:45:42,405 - craftBet -ERROR - The Time Out games are :   3697714   ITF-M Cairo   Tennis   2022-08-25T12:00:00   After game start tim out hours are :  -11   Hours from Game Start   -11
+2022-08-25 23:45:42,405 - craftBet -ERROR - The Time Out games are :   3697035   ITF-M Cairo   Tennis   2022-08-25T12:00:00   After game start tim out hours are :  -11   Hours from Game Start   -11
+2022-08-25 23:45:42,406 - craftBet -ERROR - The Time Out games are :   3697709   ITF-W Cairo   Tennis   2022-08-25T12:00:00   After game start tim out hours are :  -11   Hours from Game Start   -11
+2022-08-25 23:45:42,406 - craftBet -ERROR - The Time Out games are :   3697038   Monastir, Tunisia   Tennis   2022-08-25T12:00:00   After game start tim out hours are :  -11   Hours from Game Start   -11
+2022-08-25 23:45:42,406 - craftBet -ERROR - The Time Out games are :   3697295   ITF-W Norrkoping   Tennis   2022-08-25T12:15:00   After game start tim out hours are :  -11   Hours from Game Start   -11
+2022-08-25 23:45:42,406 - craftBet -ERROR - The Time Out games are :   3695064   ITF-W Norrkoping   Tennis   2022-08-25T12:15:00   After game start tim out hours are :  -11   Hours from Game Start   -11
+2022-08-25 23:45:42,406 - craftBet -ERROR - The Time Out games are :   3697294   ITF-W Norrkoping   Tennis   2022-08-25T12:15:00   After game start tim out hours are :  -11   Hours from Game Start   -11
+2022-08-25 23:45:42,406 - craftBet -ERROR - The Time Out games are :   3697090   ITF-M Lambermont   Tennis   2022-08-25T12:30:00   After game start tim out hours are :  -11   Hours from Game Start   -11
+2022-08-25 23:45:42,407 - craftBet -ERROR - The Time Out games are :   3697168   ITF-W Verbier   Tennis   2022-08-25T12:30:00   After game start tim out hours are :  -11   Hours from Game Start   -11
+2022-08-25 23:45:42,407 - craftBet -ERROR - The Time Out games are :   3697018   ITF-M Poznan   Tennis   2022-08-25T12:30:00   After game start tim out hours are :  -11   Hours from Game Start   -11
+2022-08-25 23:45:42,407 - craftBet -ERROR - The Time Out games are :   3697843   ITF-M Poznan   Tennis   2022-08-25T12:30:00   After game start tim out hours are :  -11   Hours from Game Start   -11
+2022-08-25 23:45:42,407 - craftBet -ERROR - The Time Out games are :   3697015   ITF-W Bad Waltersdorf   Tennis   2022-08-25T12:40:00   After game start tim out hours are :  -11   Hours from Game Start   -11
+2022-08-25 23:45:42,407 - craftBet -ERROR - The Time Out games are :   3698354   ITF-M Lambermont   Tennis   2022-08-25T13:00:00   After game start tim out hours are :  -10   Hours from Game Start   -10
+2022-08-25 23:45:42,407 - craftBet -ERROR - The Time Out games are :   3697840   ITF-M Roehampton   Tennis   2022-08-25T13:00:00   After game start tim out hours are :  -10   Hours from Game Start   -10
+2022-08-25 23:45:42,408 - craftBet -ERROR - The Time Out games are :   3697722   ITF-M Roehampton   Tennis   2022-08-25T13:00:00   After game start tim out hours are :  -10   Hours from Game Start   -10
+2022-08-25 23:45:42,408 - craftBet -ERROR - The Time Out games are :   3693331   ITF-M Caslano   Tennis   2022-08-25T13:00:00   After game start tim out hours are :  -10   Hours from Game Start   -10
+2022-08-25 23:45:42,408 - craftBet -ERROR - The Time Out games are :   3697985   ITF-W Braunschweig   Tennis   2022-08-25T13:00:00   After game start tim out hours are :  -10   Hours from Game Start   -10
+2022-08-25 23:45:42,408 - craftBet -ERROR - The Time Out games are :   3697842   ITF-M Trier   Tennis   2022-08-25T13:00:00   After game start tim out hours are :  -10   Hours from Game Start   -10
+2022-08-25 23:45:42,408 - craftBet -ERROR - The Time Out games are :   3697893   ITF-W Vigo   Tennis   2022-08-25T13:00:00   After game start tim out hours are :  -10   Hours from Game Start   -10
+2022-08-25 23:45:42,408 - craftBet -ERROR - The Time Out games are :   3698840   ITF-M Celje   Tennis   2022-08-25T13:00:00   After game start tim out hours are :  -10   Hours from Game Start   -10
+2022-08-25 23:45:42,408 - craftBet -ERROR - The Time Out games are :   3697729   ITF-M Trier   Tennis   2022-08-25T13:00:00   After game start tim out hours are :  -10   Hours from Game Start   -10
+2022-08-25 23:45:42,409 - craftBet -ERROR - The Time Out games are :   3697715   ITF-W Braunschweig   Tennis   2022-08-25T13:00:00   After game start tim out hours are :  -10   Hours from Game Start   -10
+2022-08-25 23:45:42,409 - craftBet -ERROR - The Time Out games are :   3697453   ATP CH Banja Luka   Tennis   2022-08-25T13:00:00   After game start tim out hours are :  -10   Hours from Game Start   -10
+2022-08-25 23:45:42,409 - craftBet -ERROR - The Time Out games are :   3698613   ITF-M Bad Waltersdorf   Tennis   2022-08-25T13:15:00   After game start tim out hours are :  -10   Hours from Game Start   -10
+2022-08-25 23:45:42,409 - craftBet -ERROR - The Time Out games are :   3696719   ATP CH Nonthaburi Doubles   Tennis   2022-08-25T13:15:00   After game start tim out hours are :  -10   Hours from Game Start   -10
+2022-08-25 23:45:42,409 - craftBet -ERROR - The Time Out games are :   3698827   ITF-W Roehampton   Tennis   2022-08-25T16:00:00   After game start tim out hours are :  -7   Hours from Game Start   -7
+2022-08-25 23:45:42,409 - craftBet -ERROR - The Time Out games are :   3697021   ITF-M Poznan   Tennis   2022-08-25T16:00:00   After game start tim out hours are :  -7   Hours from Game Start   -7
+2022-08-25 23:45:42,410 - craftBet -ERROR - The Time Out games are :   3694965   ITF-W Roehampton Doubles   Tennis   2022-08-25T16:00:00   After game start tim out hours are :  -7   Hours from Game Start   -7
+2022-08-25 23:45:42,410 - craftBet -ERROR - The Time Out games are :   3695251   ITF-M Caslano Doubles   Tennis   2022-08-25T16:30:00   After game start tim out hours are :  -7   Hours from Game Start   -7
+2022-08-25 23:45:42,410 - craftBet -ERROR - The Time Out games are :   3698224   ITF-W Oldenzaal Doubles   Tennis   2022-08-25T16:30:00   After game start tim out hours are :  -7   Hours from Game Start   -7
+2022-08-25 23:45:42,410 - craftBet -ERROR - The Time Out games are :   3694987   ITF-W Cairo Doubles   Tennis   2022-08-25T17:00:00   After game start tim out hours are :  -6   Hours from Game Start   -6
+2022-08-25 23:45:42,410 - craftBet -ERROR - The Time Out games are :   3695824   Cancun, Mexico   Tennis   2022-08-25T17:30:00   After game start tim out hours are :  -6   Hours from Game Start   -6
+2022-08-25 23:45:42,410 - craftBet -ERROR - The Time Out games are :   3697022   Monastir, Tunisia   Tennis   2022-08-25T17:30:00   After game start tim out hours are :  -6   Hours from Game Start   -6
+2022-08-25 23:45:42,411 - craftBet -ERROR - The Time Out games are :   3699624   Cancun, Mexico   Tennis   2022-08-25T17:30:00   After game start tim out hours are :  -6   Hours from Game Start   -6
+2022-08-25 23:45:42,411 - craftBet -ERROR - The Time Out games are :   3700199   LDB U22   Basketball   2022-08-25T17:45:00   After game start tim out hours are :  -6   Hours from Game Start   -6
+2022-08-25 23:45:42,411 - craftBet -ERROR - The Time Out games are :   3697049   ITF-M Lambermont   Tennis   2022-08-25T17:50:00   After game start tim out hours are :  -5   Hours from Game Start   -5
+2022-08-25 23:45:42,411 - craftBet -ERROR - The Time Out games are :   3695130   ITF-W Braunschweig Doubles   Tennis   2022-08-25T18:00:00   After game start tim out hours are :  -5   Hours from Game Start   -5
+2022-08-25 23:45:42,411 - craftBet -ERROR - The Time Out games are :   3695085   ITF-M Santander Doubles   Tennis   2022-08-25T18:00:00   After game start tim out hours are :  -5   Hours from Game Start   -5
+2022-08-25 23:45:42,411 - craftBet -ERROR - The Time Out games are :   3696733   FIBA World Cup   Basketball   2022-08-25T18:00:00   After game start tim out hours are :  -5   Hours from Game Start   -5
+2022-08-25 23:45:42,412 - craftBet -ERROR - The Time Out games are :   3698794   ITF-W Vigo   Tennis   2022-08-25T18:00:00   After game start tim out hours are :  -5   Hours from Game Start   -5
+2022-08-25 23:45:42,412 - craftBet -ERROR - The Time Out games are :   3698503   ATP CH Granby   Tennis   2022-08-25T18:00:00   After game start tim out hours are :  -5   Hours from Game Start   -5
+2022-08-25 23:45:42,412 - craftBet -ERROR - The Time Out games are :   3698388   ITF-M Lambermont   Tennis   2022-08-25T18:00:00   After game start tim out hours are :  -5   Hours from Game Start   -5
+2022-08-25 23:45:42,412 - craftBet -ERROR - The Time Out games are :   3699008   ITF-M Caslano Doubles   Tennis   2022-08-25T18:00:00   After game start tim out hours are :  -5   Hours from Game Start   -5
+2022-08-25 23:45:42,412 - craftBet -ERROR - The Time Out games are :   3698418   ATP CH Prague III Doubles   Tennis   2022-08-25T18:15:00   After game start tim out hours are :  -5   Hours from Game Start   -5
+2022-08-25 23:45:42,412 - craftBet -ERROR - The Time Out games are :   3697026   ITF-W Verbier Doubles   Tennis   2022-08-25T18:30:00   After game start tim out hours are :  -5   Hours from Game Start   -5
+2022-08-25 23:45:42,412 - craftBet -ERROR - The Time Out games are :   3698780   ITF-M Brasilia   Tennis   2022-08-25T18:30:00   After game start tim out hours are :  -5   Hours from Game Start   -5
+2022-08-25 23:45:42,413 - craftBet -ERROR - The Time Out games are :   3694126   ATP CH Banja Luka   Tennis   2022-08-25T18:30:00   After game start tim out hours are :  -5   Hours from Game Start   -5
+2022-08-25 23:45:42,413 - craftBet -ERROR - The Time Out games are :   3697025   ITF-W Oldenzaal   Tennis   2022-08-25T18:45:00   After game start tim out hours are :  -5   Hours from Game Start   -5
+2022-08-25 23:45:42,413 - craftBet -ERROR - The Time Out games are :   3698881   Cancun, Mexico   Tennis   2022-08-25T19:00:00   After game start tim out hours are :  -4   Hours from Game Start   -4
+2022-08-25 23:45:42,413 - craftBet -ERROR - The Time Out games are :   3695449   ATP US Open   Tennis   2022-08-25T19:00:00   After game start tim out hours are :  -4   Hours from Game Start   -4
+2022-08-25 23:45:42,413 - craftBet -ERROR - The Time Out games are :   3695669   ATP US Open   Tennis   2022-08-25T19:00:00   After game start tim out hours are :  -4   Hours from Game Start   -4
+2022-08-25 23:45:42,413 - craftBet -ERROR - The Time Out games are :   3695673   ATP US Open   Tennis   2022-08-25T19:00:00   After game start tim out hours are :  -4   Hours from Game Start   -4
+2022-08-25 23:45:42,413 - craftBet -ERROR - The Time Out games are :   3695454   ATP US Open   Tennis   2022-08-25T19:00:00   After game start tim out hours are :  -4   Hours from Game Start   -4
+2022-08-25 23:45:42,414 - craftBet -ERROR - The Time Out games are :   3698822   ITF-W Braunschweig   Tennis   2022-08-25T19:00:00   After game start tim out hours are :  -4   Hours from Game Start   -4
+2022-08-25 23:45:42,414 - craftBet -ERROR - The Time Out games are :   3695632   ATP US Open   Tennis   2022-08-25T19:00:00   After game start tim out hours are :  -4   Hours from Game Start   -4
+2022-08-25 23:45:42,414 - craftBet -ERROR - The Time Out games are :   3695670   ATP US Open   Tennis   2022-08-25T19:00:00   After game start tim out hours are :  -4   Hours from Game Start   -4
+2022-08-25 23:45:42,414 - craftBet -ERROR - The Time Out games are :   3695596   WTA US Open   Tennis   2022-08-25T19:00:00   After game start tim out hours are :  -4   Hours from Game Start   -4
+2022-08-25 23:45:42,414 - craftBet -ERROR - The Time Out games are :   3698793   ITF-W Roehampton   Tennis   2022-08-25T19:15:00   After game start tim out hours are :  -4   Hours from Game Start   -4
+2022-08-25 23:45:42,414 - craftBet -ERROR - The Time Out games are :   3698466   ITF-M Lesa Doubles   Tennis   2022-08-25T19:25:00   After game start tim out hours are :  -4   Hours from Game Start   -4
+2022-08-25 23:45:42,415 - craftBet -ERROR - The Time Out games are :   3698207   ITF-M Celje Doubles   Tennis   2022-08-25T19:30:00   After game start tim out hours are :  -4   Hours from Game Start   -4
+2022-08-25 23:45:42,415 - craftBet -ERROR - The Time Out games are :   3696738   FIBA World Cup   Basketball   2022-08-25T19:30:00   After game start tim out hours are :  -4   Hours from Game Start   -4
+2022-08-25 23:45:42,415 - craftBet -ERROR - The Time Out games are :   3699013   ITF-M Caslano Doubles   Tennis   2022-08-25T19:35:00   After game start tim out hours are :  -4   Hours from Game Start   -4
+2022-08-25 23:45:42,415 - craftBet -ERROR - The Time Out games are :   3699023   ITF-M Caslano   Tennis   2022-08-25T20:00:00   After game start tim out hours are :  -3   Hours from Game Start   -3
+2022-08-25 23:45:42,415 - craftBet -ERROR - The Time Out games are :   3697630   FIBA World Cup   Basketball   2022-08-25T20:00:00   After game start tim out hours are :  -3   Hours from Game Start   -3
+2022-08-25 23:45:42,415 - craftBet -ERROR - The Time Out games are :   3699108   ATP CH Granby   Tennis   2022-08-25T20:00:00   After game start tim out hours are :  -3   Hours from Game Start   -3
+2022-08-25 23:45:42,415 - craftBet -ERROR - The Time Out games are :   3695062   ITF-W Vigo   Tennis   2022-08-25T20:00:00   After game start tim out hours are :  -3   Hours from Game Start   -3
+2022-08-25 23:45:42,415 - craftBet -ERROR - The Time Out games are :   3699009   ITF-M Caslano Doubles   Tennis   2022-08-25T20:15:00   After game start tim out hours are :  -3   Hours from Game Start   -3
+2022-08-25 23:45:42,416 - craftBet -ERROR - The Time Out games are :   3697626   FIBA World Cup   Basketball   2022-08-25T20:15:00   After game start tim out hours are :  -3   Hours from Game Start   -3
+2022-08-25 23:45:42,416 - craftBet -ERROR - The Time Out games are :   3697027   ITF-W Oldenzaal   Tennis   2022-08-25T20:25:00   After game start tim out hours are :  -3   Hours from Game Start   -3
+2022-08-25 23:45:42,416 - craftBet -ERROR - The Time Out games are :   3699103   Cancun, Mexico   Tennis   2022-08-25T20:30:00   After game start tim out hours are :  -3   Hours from Game Start   -3
+2022-08-25 23:45:42,416 - craftBet -ERROR - The Time Out games are :   3698226   ITF-M Lesa Doubles   Tennis   2022-08-25T20:30:00   After game start tim out hours are :  -3   Hours from Game Start   -3
+2022-08-25 23:45:42,416 - craftBet -ERROR - The Time Out games are :   3698346   ITF-M Oldenzaal   Tennis   2022-08-25T20:30:00   After game start tim out hours are :  -3   Hours from Game Start   -3
+2022-08-25 23:45:42,416 - craftBet -ERROR - The Time Out games are :   3699006   ITF-W Vigo Doubles   Tennis   2022-08-25T20:30:00   After game start tim out hours are :  -3   Hours from Game Start   -3
+2022-08-25 23:45:42,416 - craftBet -ERROR - The Time Out games are :   3695823   Cancun, Mexico   Tennis   2022-08-25T20:30:00   After game start tim out hours are :  -3   Hours from Game Start   -3
+2022-08-25 23:45:42,417 - craftBet -ERROR - The Time Out games are :   3698998   ITF-W Vigo Doubles   Tennis   2022-08-25T20:30:00   After game start tim out hours are :  -3   Hours from Game Start   -3
+2022-08-25 23:45:42,417 - craftBet -ERROR - The Time Out games are :   3701375   ATP US Open   Tennis   2022-08-25T20:35:00   After game start tim out hours are :  -3   Hours from Game Start   -3
+2022-08-25 23:45:42,417 - craftBet -ERROR - The Time Out games are :   3695590   WTA US Open   Tennis   2022-08-25T20:35:00   After game start tim out hours are :  -3   Hours from Game Start   -3
+2022-08-25 23:45:42,417 - craftBet -ERROR - The Time Out games are :   3695455   ATP US Open   Tennis   2022-08-25T20:45:00   After game start tim out hours are :  -3   Hours from Game Start   -3
+2022-08-25 23:45:42,417 - craftBet -ERROR - The Time Out games are :   3695526   WTA US Open   Tennis   2022-08-25T20:50:00   After game start tim out hours are :  -2   Hours from Game Start   -2
+2022-08-25 23:45:42,417 - craftBet -ERROR - The Time Out games are :   3695453   ATP US Open   Tennis   2022-08-25T21:25:00   After game start tim out hours are :  -2   Hours from Game Start   -2
+2022-08-25 23:45:42,417 - craftBet -ERROR - The Time Out games are :   3695587   WTA US Open   Tennis   2022-08-25T21:30:00   After game start tim out hours are :  -2   Hours from Game Start   -2
+2022-08-25 23:45:42,417 - craftBet -ERROR - The Time Out games are :   3701749   ITFW15Cancun   Tennis   2022-08-25T21:30:40   After game start tim out hours are :  -2   Hours from Game Start   -2
+2022-08-25 23:45:42,418 - craftBet -ERROR - The Time Out games are :   3697126   AVC Cup Women   Volleyball   2022-08-25T12:00:00   After game start tim out hours are :  -11   Hours from Game Start   -11
+2022-08-25 23:45:42,419 - craftBet -ERROR - The Time Out games are :   3699541   Premier League   Volleyball   2022-08-25T19:00:00   After game start tim out hours are :  -4   Hours from Game Start   -4
+2022-08-25 23:45:42,419 - craftBet -ERROR - The Time Out games are :   3699211   Cup   Ice Hockey   2022-08-25T17:00:00   After game start tim out hours are :  -6   Hours from Game Start   -6
+2022-08-25 23:45:42,419 - craftBet -ERROR - The Time Out games are :   3643904   World Championships Women   Ice Hockey   2022-08-25T17:00:00   After game start tim out hours are :  -6   Hours from Game Start   -6
+2022-08-25 23:45:42,419 - craftBet -ERROR - The Time Out games are :   3699227   Cup   Ice Hockey   2022-08-25T17:00:00   After game start tim out hours are :  -6   Hours from Game Start   -6
+2022-08-25 23:45:42,419 - craftBet -ERROR - The Time Out games are :   3699255   Club Friendlies   Ice Hockey   2022-08-25T18:00:00   After game start tim out hours are :  -5   Hours from Game Start   -5
+2022-08-25 23:45:42,419 - craftBet -ERROR - The Time Out games are :   3699263   Club Friendlies   Ice Hockey   2022-08-25T19:00:00   After game start tim out hours are :  -4   Hours from Game Start   -4
+2022-08-25 23:45:42,419 - craftBet -ERROR - The Time Out games are :   3699272   Club Friendlies   Ice Hockey   2022-08-25T19:00:00   After game start tim out hours are :  -4   Hours from Game Start   -4
+2022-08-25 23:45:42,420 - craftBet -ERROR - The Time Out games are :   3699262   Club Friendlies   Ice Hockey   2022-08-25T19:00:00   After game start tim out hours are :  -4   Hours from Game Start   -4
+2022-08-25 23:45:42,420 - craftBet -ERROR - The Time Out games are :   3699310   Club Friendlies   Ice Hockey   2022-08-25T19:30:00   After game start tim out hours are :  -4   Hours from Game Start   -4
+2022-08-25 23:45:42,420 - craftBet -ERROR - The Time Out games are :   3697409   Czech Liga Pro   Table Tennis   2022-08-25T10:30:00   After game start tim out hours are :  -13   Hours from Game Start   -13
+2022-08-25 23:45:42,420 - craftBet -ERROR - The Time Out games are :   3697135   Czech Liga Pro   Table Tennis   2022-08-25T11:00:00   After game start tim out hours are :  -12   Hours from Game Start   -12
+2022-08-25 23:45:42,420 - craftBet -ERROR - The Time Out games are :   3698931   TT-CUP   Table Tennis   2022-08-25T11:15:00   After game start tim out hours are :  -12   Hours from Game Start   -12
+2022-08-25 23:45:42,420 - craftBet -ERROR - The Time Out games are :   3697146   Czech Liga Pro   Table Tennis   2022-08-25T12:30:00   After game start tim out hours are :  -11   Hours from Game Start   -11
+2022-08-25 23:45:42,420 - craftBet -ERROR - The Time Out games are :   3698512   Setka Cup   Table Tennis   2022-08-25T12:50:00   After game start tim out hours are :  -10   Hours from Game Start   -10
+2022-08-25 23:45:42,420 - craftBet -ERROR - The Time Out games are :   3697585   Setka Cup   Table Tennis   2022-08-25T12:55:00   After game start tim out hours are :  -10   Hours from Game Start   -10
+2022-08-25 23:45:42,421 - craftBet -ERROR - The Time Out games are :   3697681   Setka Cup   Table Tennis   2022-08-25T12:55:00   After game start tim out hours are :  -10   Hours from Game Start   -10
+2022-08-25 23:45:42,421 - craftBet -ERROR - The Time Out games are :   3697570   Setka Cup   Table Tennis   2022-08-25T13:00:00   After game start tim out hours are :  -10   Hours from Game Start   -10
+2022-08-25 23:45:42,421 - craftBet -ERROR - The Time Out games are :   3697533   Setka Cup   Table Tennis   2022-08-25T13:05:00   After game start tim out hours are :  -10   Hours from Game Start   -10
+2022-08-25 23:45:42,421 - craftBet -ERROR - The Time Out games are :   3697557   Challenger Series TT   Table Tennis   2022-08-25T13:10:00   After game start tim out hours are :  -10   Hours from Game Start   -10
+2022-08-25 23:45:42,421 - craftBet -ERROR - The Time Out games are :   3698187   Setka Cup   Table Tennis   2022-08-25T18:25:00   After game start tim out hours are :  -5   Hours from Game Start   -5
+2022-08-25 23:45:42,421 - craftBet -ERROR - The Time Out games are :   3696303   WTT Feeder Olomouc   Table Tennis   2022-08-25T18:30:00   After game start tim out hours are :  -5   Hours from Game Start   -5
+2022-08-25 23:45:42,421 - craftBet -ERROR - The Time Out games are :   3696308   WTT Feeder Olomouc   Table Tennis   2022-08-25T18:30:00   After game start tim out hours are :  -5   Hours from Game Start   -5
+2022-08-25 23:45:42,422 - craftBet -ERROR - The Time Out games are :   3698517   Setka Cup   Table Tennis   2022-08-25T18:45:00   After game start tim out hours are :  -5   Hours from Game Start   -5
+2022-08-25 23:45:42,422 - craftBet -ERROR - The Time Out games are :   3698148   Setka Cup   Table Tennis   2022-08-25T18:55:00   After game start tim out hours are :  -4   Hours from Game Start   -4
+2022-08-25 23:45:42,422 - craftBet -ERROR - The Time Out games are :   3698201   Setka Cup   Table Tennis   2022-08-25T18:55:00   After game start tim out hours are :  -4   Hours from Game Start   -4
+2022-08-25 23:45:42,422 - craftBet -ERROR - The Time Out games are :   3697412   Czech Liga Pro   Table Tennis   2022-08-25T19:00:00   After game start tim out hours are :  -4   Hours from Game Start   -4
+2022-08-25 23:45:42,422 - craftBet -ERROR - The Time Out games are :   3698132   Setka Cup   Table Tennis   2022-08-25T19:00:00   After game start tim out hours are :  -4   Hours from Game Start   -4
+2022-08-25 23:45:42,422 - craftBet -ERROR - The Time Out games are :   3698159   Setka Cup   Table Tennis   2022-08-25T19:10:00   After game start tim out hours are :  -4   Hours from Game Start   -4
+2022-08-25 23:45:42,422 - craftBet -ERROR - The Time Out games are :   3699565   Club Friendlies. Women   Handball   2022-08-25T18:00:00   After game start tim out hours are :  -5   Hours from Game Start   -5
+2022-08-25 23:45:42,423 - craftBet -ERROR - The Time Out games are :   3697110   Dota 2 - ESL One Malaysia   E-sports   2022-08-25T10:45:00   After game start tim out hours are :  -13   Hours from Game Start   -13
+2022-08-25 23:45:42,423 - craftBet -ERROR - The Time Out games are :   3697109   Dota 2 - ESL One Malaysia   E-sports   2022-08-25T10:45:00   After game start tim out hours are :  -13   Hours from Game Start   -13
+2022-08-25 23:45:42,423 - craftBet -ERROR - The Time Out games are :   3693262   LoL Pro League   E-sports   2022-08-25T13:00:00   After game start tim out hours are :  -10   Hours from Game Start   -10
+2022-08-25 23:45:42,423 - craftBet -ERROR - The Time Out games are :   3690026   Counter Strike - Elisa Invitational   E-sports   2022-08-25T13:00:00   After game start tim out hours are :  -10   Hours from Game Start   -10
+2022-08-25 23:45:42,423 - craftBet -ERROR - The Time Out games are :   3700529   CS:GO-ElisaInvitational   E-sports   2022-08-25T15:58:38   After game start tim out hours are :  -7   Hours from Game Start   -7
+2022-08-25 23:45:42,423 - craftBet -ERROR - The Time Out games are :   3700483   The 6IXTY   Cricket   2022-08-25T18:00:00   After game start tim out hours are :  -5   Hours from Game Start   -5
+2022-08-25 23:45:42,423 - craftBet -ERROR - The Time Out games are :   3690559   The Hundred Women   Cricket   2022-08-25T18:30:00   After game start tim out hours are :  -5   Hours from Game Start   -5
+2022-08-25 23:45:42,423 - craftBet -ERROR - The Time Out games are :   3698479   LoL - European Masters   E-sports   2022-08-25T19:00:00   After game start tim out hours are :  -4   Hours from Game Start   -4
+2022-08-25 23:45:42,424 - craftBet -ERROR - The Time Out games are :   3698480   LoL - European Masters   E-sports   2022-08-26T00:00:00   1 / 0 / 0   Time from Game Start   1 / 0 / 0
+2022-08-25 23:45:42,424 - craftBet -ERROR - The Time Out games are :   3696935   World Championships   Badminton   2022-08-25T08:50:00   After game start tim out hours are :  -14   Hours from Game Start   -14
+2022-08-25 23:45:42,424 - craftBet -ERROR - The Time Out games are :   3696936   World Championships   Badminton   2022-08-25T08:50:00   After game start tim out hours are :  -14   Hours from Game Start   -14
+2022-08-25 23:45:42,424 - craftBet -ERROR - The Time Out games are :   3697353   Online Live League   Darts   2022-08-25T14:50:00   After game start tim out hours are :  -8   Hours from Game Start   -8
+2022-08-25 23:45:42,424 - craftBet -ERROR - The Time Out games are :   3686393   Northern Ireland Open   Snooker   2022-08-25T13:00:00   After game start tim out hours are :  -10   Hours from Game Start   -10
+2022-08-25 23:45:42,425 - craftBet -ERROR - The Time Out games are :   3685956   Northern Ireland Open   Snooker   2022-08-25T13:00:00   After game start tim out hours are :  -10   Hours from Game Start   -10
+2022-08-25 23:45:42,425 - craftBet -ERROR - The Time Out games are :   3686297   Northern Ireland Open   Snooker   2022-08-25T19:00:00   After game start tim out hours are :  -4   Hours from Game Start   -4
+2022-08-25 23:45:42,425 - craftBet -INFO - Time out Games are:  162
+2022-08-25 23:45:43,257 - org.asynchttpclient.netty.handler.WebSocketHandler -WARN - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-08-25 23:45:43,356 - craftBet -INFO - Browser closed
+2022-08-25 23:45:43,356 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-25 23:45:43,356 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
