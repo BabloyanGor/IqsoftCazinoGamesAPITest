@@ -10,6 +10,7 @@
             <class name="testCases.GetAllGamesIMGAPI_Test"/>
             <class name="testCases.GetGamesUrlAPI_Test"/>
             <class name="testCases.GetCopyGames_API_Test"/>
+            <class name="testCases.GetLifeGames_LimitOutGames_Test"/>
         </classes>
     </test>
 </suite>
