@@ -3205,3 +3205,47 @@ java.net.SocketException: Connection reset
 2022-08-25 17:22:52,288 - craftBet -INFO - Browser closed
 2022-08-25 17:22:52,289 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-08-25 17:22:52,297 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-25 17:27:11,287 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-25 17:27:11,524 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-25 17:27:11,556 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-25 17:27:13,810 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-25 17:27:13,889 - craftBet -INFO - All Page elements are initialized
+2022-08-25 17:27:13,899 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-25 17:27:14,806 - craftBet -INFO - Get games Api call was sent
+2022-08-25 17:27:14,838 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-25 17:27:15,022 - craftBet -INFO - Browser closed
+2022-08-25 17:27:15,022 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-25 17:27:15,030 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-25 17:50:55,845 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-25 17:50:56,178 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-25 17:50:56,212 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-25 17:51:02,466 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-25 17:51:02,606 - craftBet -INFO - All Page elements are initialized
+2022-08-25 17:51:02,976 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-25 17:51:05,436 - craftBet -INFO - Get games Api call was sent
+2022-08-25 17:51:05,468 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-25 17:51:05,669 - craftBet -INFO - Browser closed
+2022-08-25 17:51:05,670 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-25 17:51:05,680 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-25 17:59:10,409 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-25 17:59:10,662 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-25 17:59:10,694 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-25 17:59:15,865 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-25 17:59:15,937 - craftBet -INFO - All Page elements are initialized
+2022-08-25 17:59:16,320 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-25 17:59:17,263 - craftBet -INFO - Get games Api call was sent
+2022-08-25 17:59:17,318 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-25 17:59:17,553 - craftBet -INFO - Browser closed
+2022-08-25 17:59:17,553 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-25 17:59:17,559 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-25 17:59:30,823 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-25 17:59:31,074 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-25 17:59:31,106 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-25 17:59:33,338 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-25 17:59:33,430 - craftBet -INFO - All Page elements are initialized
+2022-08-25 17:59:33,782 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-25 17:59:34,983 - craftBet -INFO - Get games Api call was sent
+2022-08-25 17:59:35,018 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-25 17:59:35,211 - craftBet -INFO - Browser closed
+2022-08-25 17:59:35,211 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-25 17:59:35,220 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  

@@ -315,13 +315,16 @@ public class BaseTest extends DriverFactory {
 
                 Period period = getPeriod(now, much);
                 long time[] = getTime(now, much);
-
-                System.out.println(period.getYears() + " years " +
-                        period.getMonths() + " months " +
-                        period.getDays() + " days " +
-                        time[0] + " hours " +
-                        time[1] + " minutes " +
-                        time[2] + " seconds." + gameID.get(i) + "   " + gameStartTime.get(i));
+//
+//                System.out.println(period.getYears() + " years " +
+//                        period.getMonths() + " months " +
+//                        period.getDays() + " days " +
+//                        time[0] + " hours " +
+//                        time[1] + " minutes " +
+//                        time[2] + " seconds." + gameID.get(i) + "   " + gameStartTime.get(i));
+                if (time[0]>3){
+                    System.out.println("The broken games are"+gameID.get(i) + "   " + gameStartTime.get(i));
+                }
 
 
 
