@@ -23,8 +23,14 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
+
 import java.time.Duration;
+import java.time.LocalDateTime;
+import java.time.Period;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+
+import static org.apache.poi.ss.usermodel.DateUtil.SECONDS_PER_MINUTE;
 
 
 public class BaseTest extends DriverFactory {
@@ -38,6 +44,7 @@ public class BaseTest extends DriverFactory {
     public String getGamesRecurse;
     public String getGamesPartnerName;
     public String getGamesBaseURL;
+    public String getAllLifeGames;
     public CraftBet_01_Header_Page craftBet_01_header_page;
     public CraftBet_03_Login_PopUp_Page craftBet_03_login_popUp_page;
     ReadConfig readConfig = new ReadConfig();
@@ -52,9 +59,37 @@ public class BaseTest extends DriverFactory {
     public int DimensionWidth = readConfig.getDimensionWidth();
     public int partnerConfigNum = readConfig.partnerConfigNum();
 
+
+
+
+    static final int MINUTES_PER_HOUR = 60;
+    static final int SECONDS_PER_MINUTE = 60;
+    static final int SECONDS_PER_HOUR = SECONDS_PER_MINUTE * MINUTES_PER_HOUR;
+
     //endregion
     public BaseTest() {
     }
+
+
+    private static Period getPeriod(LocalDateTime dob, LocalDateTime now) {
+        return Period.between(dob.toLocalDate(), now.toLocalDate());
+    }
+
+    private static long[] getTime(LocalDateTime dob, LocalDateTime now) {
+        LocalDateTime today = LocalDateTime.of(now.getYear(),
+                now.getMonthValue(), now.getDayOfMonth(), dob.getHour(), dob.getMinute(), dob.getSecond());
+        Duration duration = Duration.between(today, now);
+
+        long seconds = duration.getSeconds();
+
+        long hours = seconds / SECONDS_PER_HOUR;
+        long minutes = ((seconds % SECONDS_PER_HOUR) / SECONDS_PER_MINUTE);
+        long secs = (seconds % SECONDS_PER_MINUTE);
+
+        return new long[]{hours, minutes, secs};
+    }
+
+
 
 
     public boolean getGamesAPICheckPictures(String getGamesAPIUrl, String origin, String recurse, String partnerName)
@@ -225,6 +260,83 @@ public class BaseTest extends DriverFactory {
         return isPassed;
     }
 
+
+    public boolean getLimitOutGamesApiCheck(String getGamesAPIUrl, String partnerName)
+                                                    throws UnirestException, JSONException, IOException{
+
+        boolean isPassed = true;
+        int k = 1;
+        ArrayList<String> gameID = new ArrayList<>();
+        ArrayList<String> leagueType = new ArrayList<>();
+        ArrayList<String> gameType = new ArrayList<>();
+        ArrayList<String> gameStartTime = new ArrayList<>();
+
+        ArrayList<String> soccerGameStartTime = new ArrayList<>();
+
+        Unirest.setTimeouts(0, 0);
+        HttpResponse<String> response = Unirest.get(getAllLifeGames).asString();
+
+
+        logger.info("Get games Api call was sent");
+        JSONObject jsonObjectBody = new JSONObject(response.getBody());
+        JSONArray jsonArrayGames = jsonObjectBody.getJSONArray("Ms");
+
+        System.out.println("Games are " + jsonArrayGames.length());
+
+        logger.info("Get Life games Api Response was captured");
+
+        for (int j = 0; j < jsonArrayGames.length(); j++) {
+
+            String first = String.valueOf(jsonArrayGames.get(j));
+            JSONObject jsonObjectGame = new JSONObject(first);
+            String MI = jsonObjectGame.getString("MI");  // Game ID
+            String CN = jsonObjectGame.getString("CN");  //League Name
+            String SN = jsonObjectGame.getString("SN");    // Game Type
+            String ST = jsonObjectGame.getString("ST");    //Game start Time
+
+            gameID.add(MI);
+            leagueType.add(CN);
+            gameType.add(SN);
+            gameStartTime.add(ST);
+
+           // System.out.println(k + "  " + MI + "  " + CN + "  " + SN + "   " + ST );
+            k++;
+        }
+        for (int i = 0 ; i< gameType.size(); i++ ){
+            if (gameType.get(i).equals("Soccer")){
+
+                soccerGameStartTime.add(gameStartTime.get(i));
+                String timeStart = gameStartTime.get(i);
+
+
+                LocalDateTime now = LocalDateTime.now();
+                LocalDateTime much = LocalDateTime.parse(timeStart);
+
+
+                Period period = getPeriod(now, much);
+                long time[] = getTime(now, much);
+
+                System.out.println(period.getYears() + " years " +
+                        period.getMonths() + " months " +
+                        period.getDays() + " days " +
+                        time[0] + " hours " +
+                        time[1] + " minutes " +
+                        time[2] + " seconds." + gameID.get(i) + "   " + gameStartTime.get(i));
+
+
+
+            }
+        }
+
+//        for (String soccer : soccerGameStartTime){
+//            System.out.println(soccer);
+//        }
+
+
+
+        return isPassed;
+    }
+
     public boolean getUrlCheckGamesUrl(String getGamesAPIUrl, String origin, String getURLAPIurl, String token,
                                        int userID, int partnerID, String partnerName)
                                        throws JSONException, IOException, UnirestException {
@@ -333,6 +445,9 @@ public class BaseTest extends DriverFactory {
                 getGamesRecurse = "https://resources.craftbet.com/products/";
                 getGamesPartnerName = "Craftbet";
                 getGamesBaseURL = "https://craftbet.com";
+
+
+                getAllLifeGames = "https://sportsbookwebsitewebapi.craftbet.com/website/getlivematchesoverview?LanguageId=en&TimeZone=4&origin=https://sportsbookwebsite.craftbet.com";
                 break;
             }
             case 2: {
