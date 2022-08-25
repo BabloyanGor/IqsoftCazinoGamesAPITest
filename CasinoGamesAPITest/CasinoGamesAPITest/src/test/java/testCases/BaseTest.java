@@ -30,11 +30,15 @@ import java.time.Period;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
+import static java.lang.Integer.parseInt;
 import static org.apache.poi.ss.usermodel.DateUtil.SECONDS_PER_MINUTE;
 
 
 public class BaseTest extends DriverFactory {
 
+    static final int MINUTES_PER_HOUR = 60;
+    static final int SECONDS_PER_MINUTE = 60;
+    static final int SECONDS_PER_HOUR = SECONDS_PER_MINUTE * MINUTES_PER_HOUR;
     public static Logger logger;
     public int partnerID;
     public String getGamesAPIUrl;
@@ -54,17 +58,9 @@ public class BaseTest extends DriverFactory {
     public String password = readConfig.getPassword();
     public String language = readConfig.getLanguage();
     public int DimensionHeight = readConfig.getDimensionHeight();
-
     //region <Page Class Instances  >
     public int DimensionWidth = readConfig.getDimensionWidth();
     public int partnerConfigNum = readConfig.partnerConfigNum();
-
-
-
-
-    static final int MINUTES_PER_HOUR = 60;
-    static final int SECONDS_PER_MINUTE = 60;
-    static final int SECONDS_PER_HOUR = SECONDS_PER_MINUTE * MINUTES_PER_HOUR;
 
     //endregion
     public BaseTest() {
@@ -90,10 +86,8 @@ public class BaseTest extends DriverFactory {
     }
 
 
-
-
     public boolean getGamesAPICheckPictures(String getGamesAPIUrl, String origin, String recurse, String partnerName)
-                                            throws UnirestException, JSONException, IOException {
+            throws UnirestException, JSONException, IOException {
 
         boolean isPassed;
         int k = 0;
@@ -195,7 +189,7 @@ public class BaseTest extends DriverFactory {
     }
 
     public boolean getALLGamesAPICheckCopyGames(String getGamesAPIUrl, String origin, String partnerName)
-                                                throws UnirestException, JSONException, IOException {
+            throws UnirestException, JSONException, IOException {
 
         boolean isPassed;
         int k = 1;
@@ -225,11 +219,11 @@ public class BaseTest extends DriverFactory {
             gameNames.add(n);
         }
 
-        for (int i = 0; i< gameNames.size(); i++){
+        for (int i = 0; i < gameNames.size(); i++) {
             String name = gameNames.get(i);
-            for (int j=i+1; j<gameNames.size(); j++){
+            for (int j = i + 1; j < gameNames.size(); j++) {
                 String x = gameNames.get(j);
-                if (name.equals(x)){
+                if (name.equals(x)) {
                     logger.info("Dupliicate game Name =  " + gameNames.get(j));
                     errorSrcXl.add(k + "  This game has duplicate Please check it :  Name =  " + gameNames.get(j));
                     k++;
@@ -262,14 +256,15 @@ public class BaseTest extends DriverFactory {
 
 
     public boolean getLimitOutGamesApiCheck(String getGamesAPIUrl, String partnerName)
-                                                    throws UnirestException, JSONException, IOException{
+            throws UnirestException, JSONException, IOException {
 
-        boolean isPassed = true;
+        boolean isPassed;
         int k = 1;
         ArrayList<String> gameID = new ArrayList<>();
         ArrayList<String> leagueType = new ArrayList<>();
         ArrayList<String> gameType = new ArrayList<>();
         ArrayList<String> gameStartTime = new ArrayList<>();
+        ArrayList<String> errorSrcXl = new ArrayList<>();
 
         ArrayList<String> soccerGameStartTime = new ArrayList<>();
 
@@ -298,51 +293,254 @@ public class BaseTest extends DriverFactory {
             leagueType.add(CN);
             gameType.add(SN);
             gameStartTime.add(ST);
-
-           // System.out.println(k + "  " + MI + "  " + CN + "  " + SN + "   " + ST );
             k++;
         }
-        for (int i = 0 ; i< gameType.size(); i++ ){
-            if (gameType.get(i).equals("Soccer")){
+        for (int i = 0; i < gameType.size(); i++) {
 
-                soccerGameStartTime.add(gameStartTime.get(i));
-                String timeStart = gameStartTime.get(i);
-
-
-                LocalDateTime now = LocalDateTime.now();
-                LocalDateTime much = LocalDateTime.parse(timeStart);
-
-
-                Period period = getPeriod(now, much);
-                long time[] = getTime(now, much);
-//
+            String timeStart = gameStartTime.get(i);
+            LocalDateTime now = LocalDateTime.now();
+            LocalDateTime much = LocalDateTime.parse(timeStart);
+            Period period = getPeriod(now, much);
+            long time[] = getTime(now, much);
 //                System.out.println(period.getYears() + " years " +
 //                        period.getMonths() + " months " +
 //                        period.getDays() + " days " +
 //                        time[0] + " hours " +
 //                        time[1] + " minutes " +
 //                        time[2] + " seconds." + gameID.get(i) + "   " + gameStartTime.get(i));
-                if (time[0]>3){
-                    System.out.println("The broken games are"+gameID.get(i) + "   " + gameStartTime.get(i));
+            String hoursString = String.valueOf(time[0]);
+            String daysString = String.valueOf(period.getDays());
+            String monthsString = String.valueOf(period.getMonths());
+            String yearsString = String.valueOf(period.getYears());
+
+            String errMessageHours = gameID.get(i) + "   " + leagueType.get(i) + "   " + gameType.get(i) + "   " + gameStartTime.get(i) + "   After game start tim out hours are :  " + time[0];
+            String errMessageDayMonthYear = gameID.get(i) + "   " + leagueType.get(i) + "   " + gameType.get(i) + "   " + gameStartTime.get(i) + "   " + daysString + " / " + monthsString + " / " + yearsString;
+
+
+            int hour;
+            try {
+                if (hoursString.contains("-")) {
+                    hour = Integer.parseInt(hoursString.substring(1));
+                } else {
+                    hour = Integer.parseInt(hoursString);
                 }
-
-
-
+            } catch (Exception e) {
+                logger.info("Hours cant be parseInt Exception  " + time[0]);
+                hour = 0;
             }
+            //region <Soccer>>
+            if (gameType.get(i).equals("Soccer")) {
+                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
+                    if (hour >= 3) {
+                        logger.error("The Time Out games are :   " + gameID.get(i) + "   " + leagueType.get(i) + "   " + gameType.get(i) + "   " + gameStartTime.get(i) + "   Time from Game Start   " + time[0]);
+                        errorSrcXl.add(errMessageHours);
+                    }
+                } else {
+                    logger.error("The Time Out games are :   " + gameID.get(i) + "   " + leagueType.get(i) + "   " + gameType.get(i) + "   " + gameStartTime.get(i) + "   Time from Game Start   " + daysString + " / " + monthsString + " / " + yearsString);
+                    errorSrcXl.add(errMessageDayMonthYear);
+                }
+            }
+            //endregion
+            //region <Basketball>>
+            else if (gameType.get(i).equals("Basketball")) {
+                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
+                    if (hour >= 2) {
+                        logger.error("The Time Out games are :   " + errMessageHours + "   Hours from Game Start   " + time[0]);
+                        errorSrcXl.add(errMessageHours);
+                    }
+                } else {
+                    logger.error("The Time Out games are :   " + errMessageDayMonthYear + "   Time from Game Start   " + daysString + " / " + monthsString + " / " + yearsString);
+                    errorSrcXl.add(errMessageDayMonthYear);
+                }
+            }
+            //endregion
+            //region <Tennis>
+            else if (gameType.get(i).equals("Tennis")) {
+                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
+                    if (hour >= 2) {
+                        logger.error("The Time Out games are :   " + errMessageHours + "   Hours from Game Start   " + time[0]);
+                        errorSrcXl.add(errMessageHours);
+                    }
+                } else {
+                    logger.error("The Time Out games are :   " + errMessageDayMonthYear + "   Time from Game Start   " + daysString + " / " + monthsString + " / " + yearsString);
+                    errorSrcXl.add(errMessageDayMonthYear);
+                }
+            }
+
+
+            //endregion
+            //region <Volleyball>
+            else if (gameType.get(i).equals("Volleyball")) {
+                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
+                    if (hour >= 2) {
+                        logger.error("The Time Out games are :   " + errMessageHours + "   Hours from Game Start   " + time[0]);
+                        errorSrcXl.add(errMessageHours);
+                    }
+                } else {
+                    logger.error("The Time Out games are :   " + errMessageDayMonthYear + "   Time from Game Start   " + daysString + " / " + monthsString + " / " + yearsString);
+                    errorSrcXl.add(errMessageDayMonthYear);
+                }
+            }
+
+            //endregion
+            //region <Ice Hockey>
+            else if (gameType.get(i).equals("Ice Hockey")) {
+                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
+                    if (hour >= 4) {
+                        logger.error("The Time Out games are :   " + errMessageHours + "   Hours from Game Start   " + time[0]);
+                        errorSrcXl.add(errMessageHours);
+                    }
+                } else {
+                    logger.error("The Time Out games are :   " + errMessageDayMonthYear + "   Time from Game Start   " + daysString + " / " + monthsString + " / " + yearsString);
+                    errorSrcXl.add(errMessageDayMonthYear);
+                }
+            }
+            //endregion
+            //region <Table Tennis>
+            else if (gameType.get(i).equals("Table Tennis")) {
+                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
+                    if (hour >= 4) {
+                        logger.error("The Time Out games are :   " + errMessageHours + "   Hours from Game Start   " + time[0]);
+                        errorSrcXl.add(errMessageHours);
+                    }
+                } else {
+                    logger.error("The Time Out games are :   " + errMessageDayMonthYear + "   Time from Game Start   " + daysString + " / " + monthsString + " / " + yearsString);
+                    errorSrcXl.add(errMessageDayMonthYear);
+                }
+            }
+            //endregion
+            //region <Handball>
+            else if (gameType.get(i).equals("Handball")) {
+                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
+                    if (hour >= 4) {
+                        logger.error("The Time Out games are :   " + errMessageHours + "   Hours from Game Start   " + time[0]);
+                        errorSrcXl.add(errMessageHours);
+                    }
+                } else {
+                    logger.error("The Time Out games are :   " + errMessageDayMonthYear + "   Time from Game Start   " + daysString + " / " + monthsString + " / " + yearsString);
+                    errorSrcXl.add(errMessageDayMonthYear);
+                }
+            }
+            //endregion
+            //region <E-sports>
+            else if (gameType.get(i).equals("E-sports")) {
+                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
+                    if (hour >= 4) {
+                        logger.error("The Time Out games are :   " + errMessageHours + "   Hours from Game Start   " + time[0]);
+                        errorSrcXl.add(errMessageHours);
+                    }
+                } else {
+                    logger.error("The Time Out games are :   " + errMessageDayMonthYear + "   Time from Game Start   " + daysString + " / " + monthsString + " / " + yearsString);
+                    errorSrcXl.add(errMessageDayMonthYear);
+                }
+            }
+            //endregion
+            //region <Badminton>
+            else if (gameType.get(i).equals("Badminton")) {
+                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
+                    if (hour >= 4) {
+                        logger.error("The Time Out games are :   " + errMessageHours + "   Hours from Game Start   " + time[0]);
+                        errorSrcXl.add(errMessageHours);
+                    }
+                } else {
+                    logger.error("The Time Out games are :   " + errMessageDayMonthYear + "   Time from Game Start   " + daysString + " / " + monthsString + " / " + yearsString);
+                    errorSrcXl.add(errMessageDayMonthYear);
+                }
+            }
+            //endregion
+            //region <Darts>
+            else if (gameType.get(i).equals("Darts")) {
+                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
+                    if (hour >= 4) {
+                        logger.error("The Time Out games are :   " + errMessageHours + "   Hours from Game Start   " + time[0]);
+                        errorSrcXl.add(errMessageHours);
+                    }
+                } else {
+                    logger.error("The Time Out games are :   " + errMessageDayMonthYear + "   Time from Game Start   " + daysString + " / " + monthsString + " / " + yearsString);
+                    errorSrcXl.add(errMessageDayMonthYear);
+                }
+            }
+            //endregion
+            //region <Cricket>
+            else if (gameType.get(i).equals("Cricket")) {
+                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
+                    if (hour >= 4) {
+                        logger.error("The Time Out games are :   " + errMessageHours + "   Hours from Game Start   " + time[0]);
+                        errorSrcXl.add(errMessageHours);
+                    }
+                } else {
+                    logger.error("The Time Out games are :   " + errMessageDayMonthYear + "   Time from Game Start   " + daysString + " / " + monthsString + " / " + yearsString);
+                    errorSrcXl.add(errMessageDayMonthYear);
+                }
+            }
+            //endregion
+            //region <Horse Racing>
+            else if (gameType.get(i).equals("Horse Racing")) {
+                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
+                    if (hour >= 4) {
+                        logger.error("The Time Out games are :   " + errMessageHours + "   Hours from Game Start   " + time[0]);
+                        errorSrcXl.add(errMessageHours);
+                    }
+                } else {
+                    logger.error("The Time Out games are :   " + errMessageDayMonthYear + "   Time from Game Start   " + daysString + " / " + monthsString + " / " + yearsString);
+                    errorSrcXl.add(errMessageDayMonthYear);
+                }
+            }
+            //endregion
+            //region <Table nE-Football>
+            else if (gameType.get(i).contains("nE-Football")) {
+                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
+                    if (hour >= 4) {
+                        logger.error("The Time Out games are :   " + errMessageHours + "   Hours from Game Start   " + time[0]);
+                        errorSrcXl.add(errMessageHours);
+                    }
+                } else {
+                    logger.error("The Time Out games are :   " + errMessageDayMonthYear + "   Time from Game Start   " + daysString + " / " + monthsString + " / " + yearsString);
+                    errorSrcXl.add(errMessageDayMonthYear);
+                }
+            }
+            //endregion
+            //region <Snooker>
+            else if (gameType.get(i).equals("Snooker")) {
+                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
+                    if (hour >= 4) {
+                        logger.error("The Time Out games are :   " + errMessageHours + "   Hours from Game Start   " + time[0]);
+                        errorSrcXl.add(errMessageHours);
+                    }
+                } else {
+                    logger.error("The Time Out games are :   " + errMessageDayMonthYear + "   Time from Game Start   " + daysString + " / " + monthsString + " / " + yearsString);
+                    errorSrcXl.add(errMessageDayMonthYear);
+                }
+            }
+            //endregion
         }
 
-//        for (String soccer : soccerGameStartTime){
-//            System.out.println(soccer);
-//        }
-
-
-
+        logger.info("Time out Games are:  " + errorSrcXl.size());
+        if (errorSrcXl.size() == 0) {
+            isPassed = true;
+        } else {
+            String target = System.getProperty("user.dir") + "/src/test/java/timeOutGames/" + readConfig.partnerConfigNum() + partnerName + "DataBrokenIMGList.xlsx";
+            XSSFWorkbook workbook = new XSSFWorkbook();
+            FileOutputStream file = new FileOutputStream(target);
+            XSSFSheet sheet = workbook.createSheet("TimeOutGames");
+            sheet.setColumnWidth(0, 20000);
+            int l = 0;
+            for (String err : errorSrcXl) {
+                XSSFRow row = sheet.createRow(l);
+                row.createCell(0).setCellValue(err);
+                l++;
+            }
+            workbook.write(file);
+            workbook.close();
+            isPassed = false;
+        }
         return isPassed;
     }
 
+
     public boolean getUrlCheckGamesUrl(String getGamesAPIUrl, String origin, String getURLAPIurl, String token,
                                        int userID, int partnerID, String partnerName)
-                                       throws JSONException, IOException, UnirestException {
+            throws JSONException, IOException, UnirestException {
         boolean isPassed;
         ArrayList<String> productID = new ArrayList<>();
         ArrayList<String> name = new ArrayList<>();
@@ -379,7 +577,7 @@ public class BaseTest extends DriverFactory {
         logger.info("From Get All games API productIDes and Names was captured ");
 
         for (String id : productID) {
-            int proID = Integer.parseInt(id);
+            int proID = parseInt(id);
 
             Unirest.setTimeouts(0, 0);
             HttpResponse<String> responseUrl = Unirest.post(getURLAPIurl)

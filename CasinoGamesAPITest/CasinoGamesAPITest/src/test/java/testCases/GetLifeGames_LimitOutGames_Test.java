@@ -9,7 +9,6 @@ import java.io.IOException;
 
 public class GetLifeGames_LimitOutGames_Test extends BaseTest{
 
-
     @Test
     public void gatLimitOutGames() throws UnirestException, JSONException, IOException {
 
