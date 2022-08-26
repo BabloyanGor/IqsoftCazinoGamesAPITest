@@ -6899,3 +6899,16 @@ java.net.SocketException: Connection reset
 2022-08-26 16:41:57,927 - craftBet -INFO - Browser closed
 2022-08-26 16:41:57,928 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-08-26 16:41:57,964 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-26 17:33:22,154 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-26 17:33:23,528 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-26 17:33:23,557 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-26 17:33:27,117 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-26 17:33:27,284 - craftBet -INFO - All Page elements are initialized
+2022-08-26 17:33:27,634 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-26 17:33:29,163 - craftBet -INFO - Get games Api call was sent
+2022-08-26 17:33:29,193 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-26 17:33:29,229 - craftBet -ERROR - The Time Out games are :   3693263   LoL Pro League   Top Esports (LOL)  VS  JD Gaming (LOL)   E-sports   2022-08-26T13:00:00  Status = 1   After game start time out = :  4 hours  33 minutes
+2022-08-26 17:33:29,230 - craftBet -INFO - Time out Games are:  1
+2022-08-26 17:33:31,117 - craftBet -INFO - Browser closed
+2022-08-26 17:33:31,118 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-26 17:33:31,132 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  

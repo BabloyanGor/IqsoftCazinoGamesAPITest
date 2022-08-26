@@ -570,7 +570,7 @@ public class BaseTest extends DriverFactory {
         if (errorSrcXl.size() == 0) {
             isPassed = true;
         } else {
-            String target = System.getProperty("user.dir") + "/src/test/java/timeOutGames/" + readConfig.partnerConfigNum() + partnerName + "DataBrokenIMGList.xlsx";
+            String target = System.getProperty("user.dir") + "/src/test/java/timeOutGames/" + readConfig.partnerConfigNum() + partnerName + "DataTimeOutGamesList.xlsx";
             XSSFWorkbook workbook = new XSSFWorkbook();
             FileOutputStream file = new FileOutputStream(target);
             XSSFSheet sheet = workbook.createSheet("TimeOutGames");
