@@ -264,9 +264,15 @@ public class BaseTest extends DriverFactory {
         ArrayList<String> leagueType = new ArrayList<>();
         ArrayList<String> gameType = new ArrayList<>();
         ArrayList<String> gameStartTime = new ArrayList<>();
+        ArrayList<String> gameStatus1 = new ArrayList<>();
+        ArrayList<String> gameStatus2 = new ArrayList<>();
+        ArrayList<String> gameStatus3 = new ArrayList<>();
+        ArrayList<String> gameStatus4 = new ArrayList<>();
+        ArrayList<String> teamOne = new ArrayList<>();
+        ArrayList<String> teamTwo = new ArrayList<>();
+
         ArrayList<String> errorSrcXl = new ArrayList<>();
 
-        ArrayList<String> soccerGameStartTime = new ArrayList<>();
 
         Unirest.setTimeouts(0, 0);
         HttpResponse<String> response = Unirest.get(getAllLifeGames).asString();
@@ -282,61 +288,107 @@ public class BaseTest extends DriverFactory {
 
         for (int j = 0; j < jsonArrayGames.length(); j++) {
 
-            String first = String.valueOf(jsonArrayGames.get(j));
-            JSONObject jsonObjectGame = new JSONObject(first);
+            String arrayObject = String.valueOf(jsonArrayGames.get(j));
+            JSONObject jsonObjectGame = new JSONObject(arrayObject);
             String MI = jsonObjectGame.getString("MI");  // Game ID
             String CN = jsonObjectGame.getString("CN");  //League Name
             String SN = jsonObjectGame.getString("SN");    // Game Type
             String ST = jsonObjectGame.getString("ST");    //Game start Time
+            String status1 = jsonObjectGame.getString("S");    //Status 1 (0 - prematch, 1 - Life, 2 -finished game)
+
+            JSONArray jsonArrayTeams = jsonObjectGame.getJSONArray("Cs");
+            JSONObject jsonObjectTeam1 = jsonArrayTeams.getJSONObject(0);
+            JSONObject jsonObjectTeam2 = jsonArrayTeams.getJSONObject(1);
+            String team1 = jsonObjectTeam1.getString("TN");
+            String team2 = jsonObjectTeam2.getString("TN");
+
+//            System.out.println("team1 " + team1 + "team2" + team2);
+
+            JSONArray jsonArrayTMs = jsonObjectGame.getJSONArray("TMs");
+            JSONObject TMs1;
+            JSONObject TMs2 ;
+            JSONObject TMs3;
+            try {
+                 TMs1 = jsonArrayTMs.getJSONObject(0);
+                 TMs2 = jsonArrayTMs.getJSONObject(1);
+                 TMs3 = jsonArrayTMs.getJSONObject(2);
+            }
+            catch (Exception e){
+
+            }
+
+
+//            String status2 = TMs1.getString("S");    //Status 2 (0 - prematch, 1 - Life, 2 -finished game)
+//            String status3 = TMs2.getString("S");    //Status 3 (0 - prematch, 1 - Life, 2 -finished game)
+//            String status4 = TMs3.getString("S");    //Status 4 (0 - prematch, 1 - Life, 2 -finished game)
+
+//            System.out.println(status2 + status3+status4);
 
             gameID.add(MI);
             leagueType.add(CN);
             gameType.add(SN);
             gameStartTime.add(ST);
+            gameStatus1.add(status1);
+//            gameStatus2.add(status2);
+//            gameStatus3.add(status3);
+//            gameStatus4.add(status4);
+            teamOne.add(team1);
+            teamTwo.add(team2);
             k++;
         }
+
+
         for (int i = 0; i < gameType.size(); i++) {
 
             String timeStart = gameStartTime.get(i);
             LocalDateTime now = LocalDateTime.now();
             LocalDateTime much = LocalDateTime.parse(timeStart);
-            Period period = getPeriod(now, much);
-            long time[] = getTime(now, much);
+            Period period = getPeriod(much, now);
+            long time[] = getTime(much, now);
 //                System.out.println(period.getYears() + " years " +
 //                        period.getMonths() + " months " +
 //                        period.getDays() + " days " +
 //                        time[0] + " hours " +
 //                        time[1] + " minutes " +
 //                        time[2] + " seconds." + gameID.get(i) + "   " + gameStartTime.get(i));
+
             String hoursString = String.valueOf(time[0]);
+            String minutesString = String.valueOf(time[1]);
             String daysString = String.valueOf(period.getDays());
             String monthsString = String.valueOf(period.getMonths());
             String yearsString = String.valueOf(period.getYears());
 
-            String errMessageHours = gameID.get(i) + "   " + leagueType.get(i) + "   " + gameType.get(i) + "   " + gameStartTime.get(i) + "   After game start tim out hours are :  " + time[0];
-            String errMessageDayMonthYear = gameID.get(i) + "   " + leagueType.get(i) + "   " + gameType.get(i) + "   " + gameStartTime.get(i) + "   " + daysString + " / " + monthsString + " / " + yearsString;
-
-
             int hour;
+            int minutes;
             try {
-                if (hoursString.contains("-")) {
-                    hour = Integer.parseInt(hoursString.substring(1));
-                } else {
-                    hour = Integer.parseInt(hoursString);
-                }
+//                if (hoursString.contains("-")) {
+//                    hour = Integer.parseInt(hoursString.substring(1));
+//                } else { }
+                hour = Integer.parseInt(hoursString);
+                minutes = Integer.parseInt(minutesString);
+                minutes = minutes + hour * 60;
+
             } catch (Exception e) {
-                logger.info("Hours cant be parseInt Exception  " + time[0]);
+                logger.info("Hours cant be parseInt Exception  " + time[0] + time[1]);
                 hour = 0;
+                minutes = 0;
             }
+            int hoursForLog = minutes / 60;
+            int minutesForLog = minutes % 60;
+
+            String errMessageMinutes = gameID.get(i) + "   " + leagueType.get(i) + "   " + teamOne.get(i) + "  VS  " + teamTwo.get(i) + "   " + gameType.get(i) + "   " + gameStartTime.get(i) + "  Status = " + gameStatus1.get(i) + "   After game start time out = :  " + hoursForLog + " hours  " + minutesForLog + " minutes";
+            String errMessageDayMonthYear = gameID.get(i) + "   " + leagueType.get(i) + "   " + teamOne.get(i) + "  VS  " + teamTwo.get(i) + "   " + gameType.get(i) + "   " + gameStartTime.get(i) + "  Status = " + gameStatus1.get(i) + "   " + daysString + " / " + monthsString + " / " + yearsString;
+
+
             //region <Soccer>>
             if (gameType.get(i).equals("Soccer")) {
-                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
-                    if (hour >= 3) {
-                        logger.error("The Time Out games are :   " + gameID.get(i) + "   " + leagueType.get(i) + "   " + gameType.get(i) + "   " + gameStartTime.get(i) + "   Time from Game Start   " + time[0]);
-                        errorSrcXl.add(errMessageHours);
+                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {  // contains to equals
+                    if (minutes >= 180) {
+                        logger.error("The Time Out games are :   " + errMessageMinutes);
+                        errorSrcXl.add(errMessageMinutes);
                     }
                 } else {
-                    logger.error("The Time Out games are :   " + gameID.get(i) + "   " + leagueType.get(i) + "   " + gameType.get(i) + "   " + gameStartTime.get(i) + "   Time from Game Start   " + daysString + " / " + monthsString + " / " + yearsString);
+                    logger.error("The Time Out games are :   " + errMessageDayMonthYear);
                     errorSrcXl.add(errMessageDayMonthYear);
                 }
             }
@@ -344,12 +396,12 @@ public class BaseTest extends DriverFactory {
             //region <Basketball>>
             else if (gameType.get(i).equals("Basketball")) {
                 if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
-                    if (hour >= 2) {
-                        logger.error("The Time Out games are :   " + errMessageHours + "   Hours from Game Start   " + time[0]);
-                        errorSrcXl.add(errMessageHours);
+                    if (minutes >= 180) {
+                        logger.error("The Time Out games are :   " + errMessageMinutes);
+                        errorSrcXl.add(errMessageMinutes);
                     }
                 } else {
-                    logger.error("The Time Out games are :   " + errMessageDayMonthYear + "   Time from Game Start   " + daysString + " / " + monthsString + " / " + yearsString);
+                    logger.error("The Time Out games are :   " + errMessageDayMonthYear);
                     errorSrcXl.add(errMessageDayMonthYear);
                 }
             }
@@ -357,12 +409,12 @@ public class BaseTest extends DriverFactory {
             //region <Tennis>
             else if (gameType.get(i).equals("Tennis")) {
                 if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
-                    if (hour >= 2) {
-                        logger.error("The Time Out games are :   " + errMessageHours + "   Hours from Game Start   " + time[0]);
-                        errorSrcXl.add(errMessageHours);
+                    if (minutes >= 240) {
+                        logger.error("The Time Out games are :   " + errMessageMinutes);
+                        errorSrcXl.add(errMessageMinutes);
                     }
                 } else {
-                    logger.error("The Time Out games are :   " + errMessageDayMonthYear + "   Time from Game Start   " + daysString + " / " + monthsString + " / " + yearsString);
+                    logger.error("The Time Out games are :   " + errMessageDayMonthYear);
                     errorSrcXl.add(errMessageDayMonthYear);
                 }
             }
@@ -372,26 +424,25 @@ public class BaseTest extends DriverFactory {
             //region <Volleyball>
             else if (gameType.get(i).equals("Volleyball")) {
                 if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
-                    if (hour >= 2) {
-                        logger.error("The Time Out games are :   " + errMessageHours + "   Hours from Game Start   " + time[0]);
-                        errorSrcXl.add(errMessageHours);
+                    if (minutes >= 180) {
+                        logger.error("The Time Out games are :   " + errMessageMinutes);
+                        errorSrcXl.add(errMessageMinutes);
                     }
                 } else {
-                    logger.error("The Time Out games are :   " + errMessageDayMonthYear + "   Time from Game Start   " + daysString + " / " + monthsString + " / " + yearsString);
+                    logger.error("The Time Out games are :   " + errMessageDayMonthYear);
                     errorSrcXl.add(errMessageDayMonthYear);
                 }
             }
-
             //endregion
             //region <Ice Hockey>
             else if (gameType.get(i).equals("Ice Hockey")) {
                 if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
-                    if (hour >= 4) {
-                        logger.error("The Time Out games are :   " + errMessageHours + "   Hours from Game Start   " + time[0]);
-                        errorSrcXl.add(errMessageHours);
+                    if (minutes >= 120) {
+                        logger.error("The Time Out games are :   " + errMessageMinutes);
+                        errorSrcXl.add(errMessageMinutes);
                     }
                 } else {
-                    logger.error("The Time Out games are :   " + errMessageDayMonthYear + "   Time from Game Start   " + daysString + " / " + monthsString + " / " + yearsString);
+                    logger.error("The Time Out games are :   " + errMessageDayMonthYear);
                     errorSrcXl.add(errMessageDayMonthYear);
                 }
             }
@@ -399,12 +450,12 @@ public class BaseTest extends DriverFactory {
             //region <Table Tennis>
             else if (gameType.get(i).equals("Table Tennis")) {
                 if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
-                    if (hour >= 4) {
-                        logger.error("The Time Out games are :   " + errMessageHours + "   Hours from Game Start   " + time[0]);
-                        errorSrcXl.add(errMessageHours);
+                    if (minutes >= 80) {
+                        logger.error("The Time Out games are :   " + errMessageMinutes);
+                        errorSrcXl.add(errMessageMinutes);
                     }
                 } else {
-                    logger.error("The Time Out games are :   " + errMessageDayMonthYear + "   Time from Game Start   " + daysString + " / " + monthsString + " / " + yearsString);
+                    logger.error("The Time Out games are :   " + errMessageDayMonthYear);
                     errorSrcXl.add(errMessageDayMonthYear);
                 }
             }
@@ -412,12 +463,12 @@ public class BaseTest extends DriverFactory {
             //region <Handball>
             else if (gameType.get(i).equals("Handball")) {
                 if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
-                    if (hour >= 4) {
-                        logger.error("The Time Out games are :   " + errMessageHours + "   Hours from Game Start   " + time[0]);
-                        errorSrcXl.add(errMessageHours);
+                    if (minutes >= 120) {
+                        logger.error("The Time Out games are :   " + errMessageMinutes);
+                        errorSrcXl.add(errMessageMinutes);
                     }
                 } else {
-                    logger.error("The Time Out games are :   " + errMessageDayMonthYear + "   Time from Game Start   " + daysString + " / " + monthsString + " / " + yearsString);
+                    logger.error("The Time Out games are :   " + errMessageDayMonthYear);
                     errorSrcXl.add(errMessageDayMonthYear);
                 }
             }
@@ -425,12 +476,12 @@ public class BaseTest extends DriverFactory {
             //region <E-sports>
             else if (gameType.get(i).equals("E-sports")) {
                 if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
-                    if (hour >= 4) {
-                        logger.error("The Time Out games are :   " + errMessageHours + "   Hours from Game Start   " + time[0]);
-                        errorSrcXl.add(errMessageHours);
+                    if (minutes >= 240) {
+                        logger.error("The Time Out games are :   " + errMessageMinutes);
+                        errorSrcXl.add(errMessageMinutes);
                     }
                 } else {
-                    logger.error("The Time Out games are :   " + errMessageDayMonthYear + "   Time from Game Start   " + daysString + " / " + monthsString + " / " + yearsString);
+                    logger.error("The Time Out games are :   " + errMessageDayMonthYear);
                     errorSrcXl.add(errMessageDayMonthYear);
                 }
             }
@@ -438,12 +489,12 @@ public class BaseTest extends DriverFactory {
             //region <Badminton>
             else if (gameType.get(i).equals("Badminton")) {
                 if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
-                    if (hour >= 4) {
-                        logger.error("The Time Out games are :   " + errMessageHours + "   Hours from Game Start   " + time[0]);
-                        errorSrcXl.add(errMessageHours);
+                    if (minutes >= 240) {
+                        logger.error("The Time Out games are :   " + errMessageMinutes);
+                        errorSrcXl.add(errMessageMinutes);
                     }
                 } else {
-                    logger.error("The Time Out games are :   " + errMessageDayMonthYear + "   Time from Game Start   " + daysString + " / " + monthsString + " / " + yearsString);
+                    logger.error("The Time Out games are :   " + errMessageDayMonthYear);
                     errorSrcXl.add(errMessageDayMonthYear);
                 }
             }
@@ -451,12 +502,12 @@ public class BaseTest extends DriverFactory {
             //region <Darts>
             else if (gameType.get(i).equals("Darts")) {
                 if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
-                    if (hour >= 4) {
-                        logger.error("The Time Out games are :   " + errMessageHours + "   Hours from Game Start   " + time[0]);
-                        errorSrcXl.add(errMessageHours);
+                    if (minutes >= 45) {
+                        logger.error("The Time Out games are :   " + errMessageMinutes);
+                        errorSrcXl.add(errMessageMinutes);
                     }
                 } else {
-                    logger.error("The Time Out games are :   " + errMessageDayMonthYear + "   Time from Game Start   " + daysString + " / " + monthsString + " / " + yearsString);
+                    logger.error("The Time Out games are :   " + errMessageDayMonthYear);
                     errorSrcXl.add(errMessageDayMonthYear);
                 }
             }
@@ -464,12 +515,12 @@ public class BaseTest extends DriverFactory {
             //region <Cricket>
             else if (gameType.get(i).equals("Cricket")) {
                 if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
-                    if (hour >= 4) {
-                        logger.error("The Time Out games are :   " + errMessageHours + "   Hours from Game Start   " + time[0]);
-                        errorSrcXl.add(errMessageHours);
+                    if (minutes >= 240) {
+                        logger.error("The Time Out games are :   " + errMessageMinutes);
+                        errorSrcXl.add(errMessageMinutes);
                     }
                 } else {
-                    logger.error("The Time Out games are :   " + errMessageDayMonthYear + "   Time from Game Start   " + daysString + " / " + monthsString + " / " + yearsString);
+                    logger.error("The Time Out games are :   " + errMessageDayMonthYear);
                     errorSrcXl.add(errMessageDayMonthYear);
                 }
             }
@@ -477,25 +528,25 @@ public class BaseTest extends DriverFactory {
             //region <Horse Racing>
             else if (gameType.get(i).equals("Horse Racing")) {
                 if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
-                    if (hour >= 4) {
-                        logger.error("The Time Out games are :   " + errMessageHours + "   Hours from Game Start   " + time[0]);
-                        errorSrcXl.add(errMessageHours);
+                    if (minutes >= 60) {
+                        logger.error("The Time Out games are :   " + errMessageMinutes);
+                        errorSrcXl.add(errMessageMinutes);
                     }
                 } else {
-                    logger.error("The Time Out games are :   " + errMessageDayMonthYear + "   Time from Game Start   " + daysString + " / " + monthsString + " / " + yearsString);
+                    logger.error("The Time Out games are :   " + errMessageDayMonthYear);
                     errorSrcXl.add(errMessageDayMonthYear);
                 }
             }
             //endregion
             //region <Table nE-Football>
-            else if (gameType.get(i).contains("nE-Football")) {
+            else if (gameType.get(i).equals("Table nE-Football")) {
                 if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
-                    if (hour >= 4) {
-                        logger.error("The Time Out games are :   " + errMessageHours + "   Hours from Game Start   " + time[0]);
-                        errorSrcXl.add(errMessageHours);
+                    if (minutes >= 240) {
+                        logger.error("The Time Out games are :   " + errMessageMinutes);
+                        errorSrcXl.add(errMessageMinutes);
                     }
                 } else {
-                    logger.error("The Time Out games are :   " + errMessageDayMonthYear + "   Time from Game Start   " + daysString + " / " + monthsString + " / " + yearsString);
+                    logger.error("The Time Out games are :   " + errMessageDayMonthYear);
                     errorSrcXl.add(errMessageDayMonthYear);
                 }
             }
@@ -503,12 +554,12 @@ public class BaseTest extends DriverFactory {
             //region <Snooker>
             else if (gameType.get(i).equals("Snooker")) {
                 if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
-                    if (hour >= 4) {
-                        logger.error("The Time Out games are :   " + errMessageHours + "   Hours from Game Start   " + time[0]);
-                        errorSrcXl.add(errMessageHours);
+                    if (minutes >= 240) {
+                        logger.error("The Time Out games are :   " + errMessageMinutes);
+                        errorSrcXl.add(errMessageMinutes);
                     }
                 } else {
-                    logger.error("The Time Out games are :   " + errMessageDayMonthYear + "   Time from Game Start   " + daysString + " / " + monthsString + " / " + yearsString);
+                    logger.error("The Time Out games are :   " + errMessageDayMonthYear);
                     errorSrcXl.add(errMessageDayMonthYear);
                 }
             }
