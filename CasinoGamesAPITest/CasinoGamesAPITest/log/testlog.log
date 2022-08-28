@@ -6912,3 +6912,1064 @@ java.net.SocketException: Connection reset
 2022-08-26 17:33:31,117 - craftBet -INFO - Browser closed
 2022-08-26 17:33:31,118 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-08-26 17:33:31,132 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-27 10:19:21,404 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-27 10:19:21,578 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-27 10:19:21,595 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-27 10:19:23,398 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-27 10:19:23,442 - craftBet -INFO - All Page elements are initialized
+2022-08-27 10:19:23,451 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-27 10:19:24,644 - craftBet -INFO - Get games Api call was sent
+2022-08-27 10:19:24,674 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-27 10:19:24,710 - craftBet -ERROR - The Time Out games are :   3705319   DenmarkSeriesGroup2   Frederikssund IK  VS  Allerød   Soccer   2022-08-26T21:30:34  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,710 - craftBet -ERROR - The Time Out games are :   3705320   AzerbaijanPremierLeague   Neftchi Baku  VS  Zira IK   Soccer   2022-08-26T21:30:34  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,711 - craftBet -ERROR - The Time Out games are :   3705324   DenmarkDivision1   Fremad Amager  VS  FC Fredericia   Soccer   2022-08-26T21:30:34  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,711 - craftBet -ERROR - The Time Out games are :   3705338   WomensFriendly   Sevilla Women  VS  CD Pozoalbense Women   Soccer   2022-08-26T21:30:34  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,711 - craftBet -ERROR - The Time Out games are :   3705339   GermanyBundesligaU19   FC Viktoria Köln U19  VS  Borussia M'gladbach U19   Soccer   2022-08-26T21:30:35  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,711 - craftBet -ERROR - The Time Out games are :   3705337   ItalyCampionatoPrimavera1   Fiorentina U19  VS  Empoli U19   Soccer   2022-08-26T21:30:35  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,711 - craftBet -ERROR - The Time Out games are :   3705326   SerbiaSuperLiga   FK Mladost Novi Sad  VS  FK Novi Pazar   Soccer   2022-08-26T21:30:35  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,711 - craftBet -ERROR - The Time Out games are :   3705336   AustriaRegionalligaMitte   TUS Bad Gleichenberg  VS  SV Allerheiligen   Soccer   2022-08-26T21:30:35  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,712 - craftBet -ERROR - The Time Out games are :   3705344   SaudiArabiaPremierLeague   Al Adalh  VS  Al Ittihad Jeddah   Soccer   2022-08-26T21:30:35  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,712 - craftBet -ERROR - The Time Out games are :   3705349   Austria2.Liga   Floridsdorfer AC  VS  SKU Amstetten   Soccer   2022-08-26T21:30:37  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,713 - craftBet -ERROR - The Time Out games are :   3705350   SwedenSuperettan   Dalkurd FF  VS  IK Brage   Soccer   2022-08-26T21:30:37  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,713 - craftBet -ERROR - The Time Out games are :   3705355   PolandILiga   Puszcza Niepolomice  VS  Zaglebie Sosnowiec   Soccer   2022-08-26T21:30:38  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,713 - craftBet -ERROR - The Time Out games are :   3705357   DenmarkDivision2   Aarhus Fremad  VS  Esbjerg   Soccer   2022-08-26T21:30:38  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,713 - craftBet -ERROR - The Time Out games are :   3705359   JordanLeague   Al-Hussein SC  VS  Al Salt   Soccer   2022-08-26T21:30:38  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,713 - craftBet -ERROR - The Time Out games are :   3705362   Austria2.Liga   SV Kapfenberg  VS  Vorwarts Steyr   Soccer   2022-08-26T21:30:38  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,713 - craftBet -ERROR - The Time Out games are :   3705363   OmanLeague   Al Rustaq  VS  Sohar Club   Soccer   2022-08-26T21:30:39  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,714 - craftBet -ERROR - The Time Out games are :   3705367   AustriaLandesliga   SK Furstenfeld  VS  SC Liezen   Soccer   2022-08-26T21:30:40  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,714 - craftBet -ERROR - The Time Out games are :   3705368   AustriaLandesliga   SC Mannswörth  VS  SV Wienerberg   Soccer   2022-08-26T21:30:40  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,715 - craftBet -ERROR - The Time Out games are :   3705371   DenmarkSeriesGroup2   VB 1968  VS  Avarta   Soccer   2022-08-26T21:30:40  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,715 - craftBet -ERROR - The Time Out games are :   3705374   GermanyBundesligaII   Fortuna Dusseldorf  VS  Jahn Regensburg   Soccer   2022-08-26T21:30:41  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,715 - craftBet -ERROR - The Time Out games are :   3705377   GermanyOberligaHamburg   TuRa Harksheide  VS  Hamburger SV III   Soccer   2022-08-26T21:30:42  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,716 - craftBet -ERROR - The Time Out games are :   3705379   Sweden1.divNorra   IF Karlstad  VS  Örebro Syrianska IF   Soccer   2022-08-26T21:30:42  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,716 - craftBet -ERROR - The Time Out games are :   3705380   EgyptDivision1   El Gounah  VS  Future SC   Soccer   2022-08-26T21:30:42  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,716 - craftBet -ERROR - The Time Out games are :   3705381   AlgeriaYouthLeague   NC Magra U21  VS  Paradou AC U21   Soccer   2022-08-26T21:30:43  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,716 - craftBet -ERROR - The Time Out games are :   3705387   FinlandKakkonenGroupC   Komeetat  VS  JJK   Soccer   2022-08-26T21:30:44  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,716 - craftBet -ERROR - The Time Out games are :   3705390   GeorgiaErovnuliLiga   FC Saburtalo Tbilisi  VS  Dinamo Tbilisi   Soccer   2022-08-26T21:30:44  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,717 - craftBet -ERROR - The Time Out games are :   3705391   CzechRepublic3.Ligy   SK Kvitkovice  VS  Banik Ostrava B   Soccer   2022-08-26T21:30:44  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,717 - craftBet -ERROR - The Time Out games are :   3705393   IranProLeague   Foolad Khuzestan  VS  Tractor Sazi   Soccer   2022-08-26T21:30:44  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,717 - craftBet -ERROR - The Time Out games are :   3705395   NorwayDivision3Group3   Brodd  VS  Sandnes Ulf 2   Soccer   2022-08-26T21:30:45  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,718 - craftBet -ERROR - The Time Out games are :   3705396   GermanyRegionalligaNorthEast   Rot-Weiss Erfurt  VS  Berliner AK 07   Soccer   2022-08-26T21:30:45  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,718 - craftBet -ERROR - The Time Out games are :   3705398   DenmarkDivision1   Nykobing  VS  Hobro IK   Soccer   2022-08-26T21:30:45  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,718 - craftBet -ERROR - The Time Out games are :   3705399   GermanyRegionalligaNorth   SV Atlas Delmenhorst  VS  St Pauli II   Soccer   2022-08-26T21:30:46  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,718 - craftBet -ERROR - The Time Out games are :   3705401   FinlandKolmonen   Pohu  VS  ToTe   Soccer   2022-08-26T21:30:46  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,718 - craftBet -ERROR - The Time Out games are :   3705402   FinlandKolmonen   PuiU  VS  MPS   Soccer   2022-08-26T21:30:46  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,718 - craftBet -ERROR - The Time Out games are :   3705403   CzechRepublic2.Liga   Vysocina Jihlava  VS  FK MAS Taborsko   Soccer   2022-08-26T21:30:47  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,719 - craftBet -ERROR - The Time Out games are :   3705404   AustriaLandesliga   St Jakob/Rosental  VS  ASKO Gmund   Soccer   2022-08-26T21:30:47  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,719 - craftBet -ERROR - The Time Out games are :   3705405   DenmarkSeriesGroup4   VRI  VS  Odder IGF   Soccer   2022-08-26T21:30:48  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,719 - craftBet -ERROR - The Time Out games are :   3705407   AlgeriaYouthLeague   US Biskra U21  VS  ES Setif U21   Soccer   2022-08-26T21:30:48  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,720 - craftBet -ERROR - The Time Out games are :   3705408   FinlandKolmonen   FC Espoo  VS  LePa   Soccer   2022-08-26T21:30:48  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,720 - craftBet -ERROR - The Time Out games are :   3705409   QatarLeague2   Lusail  VS  Al Mesaimeer SC   Soccer   2022-08-26T21:30:49  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,720 - craftBet -ERROR - The Time Out games are :   3705410   PolandIIILiga   Unia Swarzedz  VS  Unia Janikowo   Soccer   2022-08-26T21:30:49  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,721 - craftBet -ERROR - The Time Out games are :   3705411   AlgeriaDivision1   CR Belouizdad  VS  HB Chelghoum Laid   Soccer   2022-08-26T21:30:51  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,721 - craftBet -ERROR - The Time Out games are :   3705412   DenmarkDivision1   Sonderjyske  VS  Naestved IF   Soccer   2022-08-26T21:30:52  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,722 - craftBet -ERROR - The Time Out games are :   3705321   ITFW15Wanfercee-Baulet   Vicky Van De Peer  VS  Amelie Van Impe   Tennis   2022-08-26T21:30:34  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,722 - craftBet -ERROR - The Time Out games are :   3705342   ITFM15Brasilia   Joao Victor C Loureiro  VS  Eduardo Ribeiro   Tennis   2022-08-26T21:30:34  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,723 - craftBet -ERROR - The Time Out games are :   3705331   ITFW25Verbier   Fiona Ganz  VS  Zeynep Sonmez   Tennis   2022-08-26T21:30:34  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,723 - craftBet -ERROR - The Time Out games are :   3705327   USOpenWomen   Nao Hibino  VS  Daria Snigur   Tennis   2022-08-26T21:30:35  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,723 - craftBet -ERROR - The Time Out games are :   3705330   USOpen   Norbert Gombos  VS  Hugo Grenier   Tennis   2022-08-26T21:30:35  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,723 - craftBet -ERROR - The Time Out games are :   3705347   USOpen   Brandon Holt  VS  Dimitar Kuzmanov   Tennis   2022-08-26T21:30:36  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,723 - craftBet -ERROR - The Time Out games are :   3705351   USOpenWomen   Misaki Doi  VS  Clara Burel   Tennis   2022-08-26T21:30:37  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,723 - craftBet -ERROR - The Time Out games are :   3705353   USOpen   Jesper De Jong  VS  Federico Delbonis   Tennis   2022-08-26T21:30:38  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,724 - craftBet -ERROR - The Time Out games are :   3705354   USOpenWomen   Viktorija Golubic  VS  Astra Sharma   Tennis   2022-08-26T21:30:38  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,724 - craftBet -ERROR - The Time Out games are :   3705356   USOpen   Nicolas Jarry  VS  Dennis Novak   Tennis   2022-08-26T21:30:38  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,724 - craftBet -ERROR - The Time Out games are :   3705365   BrazilLDBU22   Pato Basquete LDB U22  VS  Praia Clube/Gabarito LDB U22   Basketball   2022-08-26T21:30:39  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,724 - craftBet -ERROR - The Time Out games are :   3705366   ITFW15Cancun   Maria P P-Garcia  VS  Jantje Tilbuerger   Tennis   2022-08-26T21:30:40  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,724 - craftBet -ERROR - The Time Out games are :   3705372   ITFM25Caslano   Remy Bertola  VS  Elmar Ejupovic   Tennis   2022-08-26T21:30:41  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,725 - craftBet -ERROR - The Time Out games are :   3705376   USOpenWomen   Chloe Paquet  VS  Linda Fruhvirtova   Tennis   2022-08-26T21:30:42  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,725 - craftBet -ERROR - The Time Out games are :   3705382   USOpenWomen   Sachia Vickery  VS  Cristina Bucsa   Tennis   2022-08-26T21:30:43  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,725 - craftBet -ERROR - The Time Out games are :   3705384   ITFW25Vigo   Kristina Dmitruk  VS  Nefisa Berberovic   Tennis   2022-08-26T21:30:44  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,725 - craftBet -ERROR - The Time Out games are :   3705386   ITFM15Brasilia   Fernando Yamacita  VS  Orlando Luz   Tennis   2022-08-26T21:30:44  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,725 - craftBet -ERROR - The Time Out games are :   3705394   ITFM15Cancun   Alexander Cozbinov  VS  Adam Walton   Tennis   2022-08-26T21:30:45  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,725 - craftBet -ERROR - The Time Out games are :   3705406   USOpenWomen   Fernanda Contreras Gomez  VS  Tamara Korpatsch   Tennis   2022-08-26T21:30:48  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,726 - craftBet -ERROR - The Time Out games are :   3705332   ClubFriendlies(RegulationOnly)   Växjö Lakers HC  VS  Rögle BK   Ice Hockey   2022-08-26T21:30:35  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,727 - craftBet -ERROR - The Time Out games are :   3705370   ClubFriendlies(RegulationOnly)   HC Olomouc  VS  Vitkovice   Ice Hockey   2022-08-26T21:30:40  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,727 - craftBet -ERROR - The Time Out games are :   3705378   IIHFWomenWorldChampionship   Switzerland Women  VS  Japan Women   Ice Hockey   2022-08-26T21:30:42  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,727 - craftBet -ERROR - The Time Out games are :   3705389   ClubFriendlies(RegulationOnly)   HC Dukla Jihlava  VS  Graz 99ers   Ice Hockey   2022-08-26T21:30:44  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,728 - craftBet -ERROR - The Time Out games are :   3705243   PAN American Cup Women   Mexico (W)  VS  Puerto Rico (W)   Volleyball   2022-08-27T07:00:00  Status = 1   After game start time out = :  3 hours  19 minutes
+2022-08-27 10:19:24,728 - craftBet -ERROR - The Time Out games are :   3701298   TT-CUP   Michal Brozek  VS  Ondrej Fiklik   Table Tennis   2022-08-26T19:50:00  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,728 - craftBet -ERROR - The Time Out games are :   3705323   ClubFriendliesWomen   Byasen Women  VS  Charlottenlund SK Women   Handball   2022-08-26T21:30:34  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,729 - craftBet -ERROR - The Time Out games are :   3705348   ClubFriendlies   Bergischer HC  VS  HC Motor Zaporozhye   Handball   2022-08-26T21:30:36  Status = 1   1 / 0 / 0
+2022-08-27 10:19:24,729 - craftBet -INFO - Time out Games are:  70
+2022-08-27 10:19:25,479 - craftBet -INFO - Browser closed
+2022-08-27 10:19:25,480 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-27 10:19:25,597 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-27 10:20:41,405 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-27 10:20:41,585 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-27 10:20:41,603 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-27 10:20:43,278 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-27 10:20:43,320 - craftBet -INFO - All Page elements are initialized
+2022-08-27 10:20:43,328 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-27 10:20:44,800 - craftBet -INFO - Get games Api call was sent
+2022-08-27 10:20:44,831 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-27 10:20:44,864 - craftBet -ERROR - The Time Out games are :   3705319   DenmarkSeriesGroup2   Frederikssund IK  VS  Allerød   Soccer   2022-08-26T21:30:34  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,864 - craftBet -ERROR - The Time Out games are :   3705320   AzerbaijanPremierLeague   Neftchi Baku  VS  Zira IK   Soccer   2022-08-26T21:30:34  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,864 - craftBet -ERROR - The Time Out games are :   3705324   DenmarkDivision1   Fremad Amager  VS  FC Fredericia   Soccer   2022-08-26T21:30:34  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,865 - craftBet -ERROR - The Time Out games are :   3705338   WomensFriendly   Sevilla Women  VS  CD Pozoalbense Women   Soccer   2022-08-26T21:30:34  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,865 - craftBet -ERROR - The Time Out games are :   3705339   GermanyBundesligaU19   FC Viktoria Köln U19  VS  Borussia M'gladbach U19   Soccer   2022-08-26T21:30:35  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,865 - craftBet -ERROR - The Time Out games are :   3705337   ItalyCampionatoPrimavera1   Fiorentina U19  VS  Empoli U19   Soccer   2022-08-26T21:30:35  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,865 - craftBet -ERROR - The Time Out games are :   3705326   SerbiaSuperLiga   FK Mladost Novi Sad  VS  FK Novi Pazar   Soccer   2022-08-26T21:30:35  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,866 - craftBet -ERROR - The Time Out games are :   3705336   AustriaRegionalligaMitte   TUS Bad Gleichenberg  VS  SV Allerheiligen   Soccer   2022-08-26T21:30:35  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,867 - craftBet -ERROR - The Time Out games are :   3705344   SaudiArabiaPremierLeague   Al Adalh  VS  Al Ittihad Jeddah   Soccer   2022-08-26T21:30:35  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,867 - craftBet -ERROR - The Time Out games are :   3705349   Austria2.Liga   Floridsdorfer AC  VS  SKU Amstetten   Soccer   2022-08-26T21:30:37  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,868 - craftBet -ERROR - The Time Out games are :   3705350   SwedenSuperettan   Dalkurd FF  VS  IK Brage   Soccer   2022-08-26T21:30:37  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,868 - craftBet -ERROR - The Time Out games are :   3705355   PolandILiga   Puszcza Niepolomice  VS  Zaglebie Sosnowiec   Soccer   2022-08-26T21:30:38  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,868 - craftBet -ERROR - The Time Out games are :   3705357   DenmarkDivision2   Aarhus Fremad  VS  Esbjerg   Soccer   2022-08-26T21:30:38  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,868 - craftBet -ERROR - The Time Out games are :   3705359   JordanLeague   Al-Hussein SC  VS  Al Salt   Soccer   2022-08-26T21:30:38  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,869 - craftBet -ERROR - The Time Out games are :   3705362   Austria2.Liga   SV Kapfenberg  VS  Vorwarts Steyr   Soccer   2022-08-26T21:30:38  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,869 - craftBet -ERROR - The Time Out games are :   3705363   OmanLeague   Al Rustaq  VS  Sohar Club   Soccer   2022-08-26T21:30:39  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,869 - craftBet -ERROR - The Time Out games are :   3705367   AustriaLandesliga   SK Furstenfeld  VS  SC Liezen   Soccer   2022-08-26T21:30:40  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,869 - craftBet -ERROR - The Time Out games are :   3705368   AustriaLandesliga   SC Mannswörth  VS  SV Wienerberg   Soccer   2022-08-26T21:30:40  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,870 - craftBet -ERROR - The Time Out games are :   3705371   DenmarkSeriesGroup2   VB 1968  VS  Avarta   Soccer   2022-08-26T21:30:40  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,870 - craftBet -ERROR - The Time Out games are :   3705374   GermanyBundesligaII   Fortuna Dusseldorf  VS  Jahn Regensburg   Soccer   2022-08-26T21:30:41  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,870 - craftBet -ERROR - The Time Out games are :   3705377   GermanyOberligaHamburg   TuRa Harksheide  VS  Hamburger SV III   Soccer   2022-08-26T21:30:42  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,870 - craftBet -ERROR - The Time Out games are :   3705379   Sweden1.divNorra   IF Karlstad  VS  Örebro Syrianska IF   Soccer   2022-08-26T21:30:42  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,870 - craftBet -ERROR - The Time Out games are :   3705380   EgyptDivision1   El Gounah  VS  Future SC   Soccer   2022-08-26T21:30:42  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,871 - craftBet -ERROR - The Time Out games are :   3705381   AlgeriaYouthLeague   NC Magra U21  VS  Paradou AC U21   Soccer   2022-08-26T21:30:43  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,871 - craftBet -ERROR - The Time Out games are :   3705387   FinlandKakkonenGroupC   Komeetat  VS  JJK   Soccer   2022-08-26T21:30:44  Status = 1   1 / 0 / 0  -670
+2022-08-27 10:20:44,872 - craftBet -ERROR - The Time Out games are :   3705390   GeorgiaErovnuliLiga   FC Saburtalo Tbilisi  VS  Dinamo Tbilisi   Soccer   2022-08-26T21:30:44  Status = 1   1 / 0 / 0  -670
+2022-08-27 10:20:44,872 - craftBet -ERROR - The Time Out games are :   3705391   CzechRepublic3.Ligy   SK Kvitkovice  VS  Banik Ostrava B   Soccer   2022-08-26T21:30:44  Status = 1   1 / 0 / 0  -670
+2022-08-27 10:20:44,872 - craftBet -ERROR - The Time Out games are :   3705393   IranProLeague   Foolad Khuzestan  VS  Tractor Sazi   Soccer   2022-08-26T21:30:44  Status = 1   1 / 0 / 0  -670
+2022-08-27 10:20:44,872 - craftBet -ERROR - The Time Out games are :   3705395   NorwayDivision3Group3   Brodd  VS  Sandnes Ulf 2   Soccer   2022-08-26T21:30:45  Status = 1   1 / 0 / 0  -670
+2022-08-27 10:20:44,873 - craftBet -ERROR - The Time Out games are :   3705396   GermanyRegionalligaNorthEast   Rot-Weiss Erfurt  VS  Berliner AK 07   Soccer   2022-08-26T21:30:45  Status = 1   1 / 0 / 0  -670
+2022-08-27 10:20:44,873 - craftBet -ERROR - The Time Out games are :   3705398   DenmarkDivision1   Nykobing  VS  Hobro IK   Soccer   2022-08-26T21:30:45  Status = 1   1 / 0 / 0  -670
+2022-08-27 10:20:44,873 - craftBet -ERROR - The Time Out games are :   3705399   GermanyRegionalligaNorth   SV Atlas Delmenhorst  VS  St Pauli II   Soccer   2022-08-26T21:30:46  Status = 1   1 / 0 / 0  -670
+2022-08-27 10:20:44,873 - craftBet -ERROR - The Time Out games are :   3705401   FinlandKolmonen   Pohu  VS  ToTe   Soccer   2022-08-26T21:30:46  Status = 1   1 / 0 / 0  -670
+2022-08-27 10:20:44,873 - craftBet -ERROR - The Time Out games are :   3705402   FinlandKolmonen   PuiU  VS  MPS   Soccer   2022-08-26T21:30:46  Status = 1   1 / 0 / 0  -670
+2022-08-27 10:20:44,873 - craftBet -ERROR - The Time Out games are :   3705403   CzechRepublic2.Liga   Vysocina Jihlava  VS  FK MAS Taborsko   Soccer   2022-08-26T21:30:47  Status = 1   1 / 0 / 0  -670
+2022-08-27 10:20:44,873 - craftBet -ERROR - The Time Out games are :   3705404   AustriaLandesliga   St Jakob/Rosental  VS  ASKO Gmund   Soccer   2022-08-26T21:30:47  Status = 1   1 / 0 / 0  -670
+2022-08-27 10:20:44,874 - craftBet -ERROR - The Time Out games are :   3705405   DenmarkSeriesGroup4   VRI  VS  Odder IGF   Soccer   2022-08-26T21:30:48  Status = 1   1 / 0 / 0  -670
+2022-08-27 10:20:44,874 - craftBet -ERROR - The Time Out games are :   3705407   AlgeriaYouthLeague   US Biskra U21  VS  ES Setif U21   Soccer   2022-08-26T21:30:48  Status = 1   1 / 0 / 0  -670
+2022-08-27 10:20:44,874 - craftBet -ERROR - The Time Out games are :   3705408   FinlandKolmonen   FC Espoo  VS  LePa   Soccer   2022-08-26T21:30:48  Status = 1   1 / 0 / 0  -670
+2022-08-27 10:20:44,874 - craftBet -ERROR - The Time Out games are :   3705409   QatarLeague2   Lusail  VS  Al Mesaimeer SC   Soccer   2022-08-26T21:30:49  Status = 1   1 / 0 / 0  -670
+2022-08-27 10:20:44,875 - craftBet -ERROR - The Time Out games are :   3705410   PolandIIILiga   Unia Swarzedz  VS  Unia Janikowo   Soccer   2022-08-26T21:30:49  Status = 1   1 / 0 / 0  -670
+2022-08-27 10:20:44,875 - craftBet -ERROR - The Time Out games are :   3705411   AlgeriaDivision1   CR Belouizdad  VS  HB Chelghoum Laid   Soccer   2022-08-26T21:30:51  Status = 1   1 / 0 / 0  -670
+2022-08-27 10:20:44,875 - craftBet -ERROR - The Time Out games are :   3705412   DenmarkDivision1   Sonderjyske  VS  Naestved IF   Soccer   2022-08-26T21:30:52  Status = 1   1 / 0 / 0  -670
+2022-08-27 10:20:44,876 - craftBet -ERROR - The Time Out games are :   3705321   ITFW15Wanfercee-Baulet   Vicky Van De Peer  VS  Amelie Van Impe   Tennis   2022-08-26T21:30:34  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,876 - craftBet -ERROR - The Time Out games are :   3705342   ITFM15Brasilia   Joao Victor C Loureiro  VS  Eduardo Ribeiro   Tennis   2022-08-26T21:30:34  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,877 - craftBet -ERROR - The Time Out games are :   3705331   ITFW25Verbier   Fiona Ganz  VS  Zeynep Sonmez   Tennis   2022-08-26T21:30:34  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,878 - craftBet -ERROR - The Time Out games are :   3705327   USOpenWomen   Nao Hibino  VS  Daria Snigur   Tennis   2022-08-26T21:30:35  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,878 - craftBet -ERROR - The Time Out games are :   3705330   USOpen   Norbert Gombos  VS  Hugo Grenier   Tennis   2022-08-26T21:30:35  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,878 - craftBet -ERROR - The Time Out games are :   3705347   USOpen   Brandon Holt  VS  Dimitar Kuzmanov   Tennis   2022-08-26T21:30:36  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,878 - craftBet -ERROR - The Time Out games are :   3705351   USOpenWomen   Misaki Doi  VS  Clara Burel   Tennis   2022-08-26T21:30:37  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,879 - craftBet -ERROR - The Time Out games are :   3705353   USOpen   Jesper De Jong  VS  Federico Delbonis   Tennis   2022-08-26T21:30:38  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,879 - craftBet -ERROR - The Time Out games are :   3705354   USOpenWomen   Viktorija Golubic  VS  Astra Sharma   Tennis   2022-08-26T21:30:38  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,879 - craftBet -ERROR - The Time Out games are :   3705356   USOpen   Nicolas Jarry  VS  Dennis Novak   Tennis   2022-08-26T21:30:38  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,879 - craftBet -ERROR - The Time Out games are :   3705365   BrazilLDBU22   Pato Basquete LDB U22  VS  Praia Clube/Gabarito LDB U22   Basketball   2022-08-26T21:30:39  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,879 - craftBet -ERROR - The Time Out games are :   3705366   ITFW15Cancun   Maria P P-Garcia  VS  Jantje Tilbuerger   Tennis   2022-08-26T21:30:40  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,880 - craftBet -ERROR - The Time Out games are :   3705372   ITFM25Caslano   Remy Bertola  VS  Elmar Ejupovic   Tennis   2022-08-26T21:30:41  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,880 - craftBet -ERROR - The Time Out games are :   3705376   USOpenWomen   Chloe Paquet  VS  Linda Fruhvirtova   Tennis   2022-08-26T21:30:42  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,880 - craftBet -ERROR - The Time Out games are :   3705382   USOpenWomen   Sachia Vickery  VS  Cristina Bucsa   Tennis   2022-08-26T21:30:43  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,880 - craftBet -ERROR - The Time Out games are :   3705384   ITFW25Vigo   Kristina Dmitruk  VS  Nefisa Berberovic   Tennis   2022-08-26T21:30:44  Status = 1   1 / 0 / 0  -670
+2022-08-27 10:20:44,880 - craftBet -ERROR - The Time Out games are :   3705386   ITFM15Brasilia   Fernando Yamacita  VS  Orlando Luz   Tennis   2022-08-26T21:30:44  Status = 1   1 / 0 / 0  -670
+2022-08-27 10:20:44,880 - craftBet -ERROR - The Time Out games are :   3705394   ITFM15Cancun   Alexander Cozbinov  VS  Adam Walton   Tennis   2022-08-26T21:30:45  Status = 1   1 / 0 / 0  -670
+2022-08-27 10:20:44,880 - craftBet -ERROR - The Time Out games are :   3705406   USOpenWomen   Fernanda Contreras Gomez  VS  Tamara Korpatsch   Tennis   2022-08-26T21:30:48  Status = 1   1 / 0 / 0  -670
+2022-08-27 10:20:44,881 - craftBet -ERROR - The Time Out games are :   3705332   ClubFriendlies(RegulationOnly)   Växjö Lakers HC  VS  Rögle BK   Ice Hockey   2022-08-26T21:30:35  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,881 - craftBet -ERROR - The Time Out games are :   3705370   ClubFriendlies(RegulationOnly)   HC Olomouc  VS  Vitkovice   Ice Hockey   2022-08-26T21:30:40  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,881 - craftBet -ERROR - The Time Out games are :   3705378   IIHFWomenWorldChampionship   Switzerland Women  VS  Japan Women   Ice Hockey   2022-08-26T21:30:42  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,881 - craftBet -ERROR - The Time Out games are :   3705389   ClubFriendlies(RegulationOnly)   HC Dukla Jihlava  VS  Graz 99ers   Ice Hockey   2022-08-26T21:30:44  Status = 1   1 / 0 / 0  -670
+2022-08-27 10:20:44,882 - craftBet -ERROR - The Time Out games are :   3705243   PAN American Cup Women   Mexico (W)  VS  Puerto Rico (W)   Volleyball   2022-08-27T07:00:00  Status = 1   After game start time out = :  3 hours  20 minutes
+2022-08-27 10:20:44,882 - craftBet -ERROR - The Time Out games are :   3701298   TT-CUP   Michal Brozek  VS  Ondrej Fiklik   Table Tennis   2022-08-26T19:50:00  Status = 1   1 / 0 / 0  -569
+2022-08-27 10:20:44,882 - craftBet -ERROR - The Time Out games are :   3705323   ClubFriendliesWomen   Byasen Women  VS  Charlottenlund SK Women   Handball   2022-08-26T21:30:34  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,882 - craftBet -ERROR - The Time Out games are :   3705348   ClubFriendlies   Bergischer HC  VS  HC Motor Zaporozhye   Handball   2022-08-26T21:30:36  Status = 1   1 / 0 / 0  -669
+2022-08-27 10:20:44,883 - craftBet -INFO - Time out Games are:  70
+2022-08-27 10:20:45,614 - craftBet -INFO - Browser closed
+2022-08-27 10:20:45,614 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-27 10:20:45,620 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-28 12:12:33,550 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 12:12:34,594 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 12:12:34,619 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 12:12:39,825 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 12:12:39,905 - craftBet -INFO - All Page elements are initialized
+2022-08-28 12:12:39,915 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 12:12:41,874 - craftBet -INFO - Get games Api call was sent
+2022-08-28 12:12:41,898 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 12:12:41,930 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   1 / 0 / 0  -635
+2022-08-28 12:12:41,932 - craftBet -ERROR - The Time Out games are :   3708111   ITFW60Prerov   Irene Burillo Escorihuela  VS  Sada Nahimana   Tennis   2022-08-27T16:30:47  Status = 1   1 / 0 / 0  -258
+2022-08-28 12:12:41,933 - craftBet -ERROR - The Time Out games are :   3704769   ITF-M Celje   Roko Horvat  VS  Daniele Capecchi   Tennis   2022-08-27T18:00:00  Status = 1   1 / 0 / 0  -347
+2022-08-28 12:12:41,936 - craftBet -ERROR - The Time Out games are :   3708552   Curragh   4.15 Curragh (Race 6)  VS  ~N/A~   Horse Racing   2022-08-27T18:45:09  Status = 1   1 / 0 / 0  -392
+2022-08-28 12:12:41,937 - craftBet -ERROR - The Time Out games are :   3709013   SanIsidro   8.15 San Isidro (Race 7)  VS  ~N/A~   Horse Racing   2022-08-27T22:50:04  Status = 1   1 / 0 / 0  -637
+2022-08-28 12:12:41,937 - craftBet -ERROR - The Time Out games are :   3709037   EllisPark   Race 4 Ellis Park  VS  ~N/A~   Horse Racing   2022-08-27T23:05:03  Status = 1   1 / 0 / 0  -652
+2022-08-28 12:12:41,937 - craftBet -INFO - Time out Games are:  6
+2022-08-28 12:12:42,954 - craftBet -INFO - Browser closed
+2022-08-28 12:12:42,955 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-28 12:12:43,062 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-28 12:27:13,272 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 12:27:13,461 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 12:27:13,484 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 12:27:18,268 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 12:27:18,316 - craftBet -INFO - All Page elements are initialized
+2022-08-28 12:27:18,326 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 12:27:19,407 - craftBet -INFO - Get games Api call was sent
+2022-08-28 12:27:19,445 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 12:27:19,479 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   -621
+2022-08-28 12:27:19,481 - craftBet -ERROR - The Time Out games are :   3708111   ITFW60Prerov   Irene Burillo Escorihuela  VS  Sada Nahimana   Tennis   2022-08-27T16:30:47  Status = 1   -243
+2022-08-28 12:27:19,482 - craftBet -ERROR - The Time Out games are :   3704769   ITF-M Celje   Roko Horvat  VS  Daniele Capecchi   Tennis   2022-08-27T18:00:00  Status = 1   -332
+2022-08-28 12:27:19,485 - craftBet -ERROR - The Time Out games are :   3708552   Curragh   4.15 Curragh (Race 6)  VS  ~N/A~   Horse Racing   2022-08-27T18:45:09  Status = 1   -377
+2022-08-28 12:27:19,485 - craftBet -ERROR - The Time Out games are :   3709013   SanIsidro   8.15 San Isidro (Race 7)  VS  ~N/A~   Horse Racing   2022-08-27T22:50:04  Status = 1   -622
+2022-08-28 12:27:19,485 - craftBet -ERROR - The Time Out games are :   3709037   EllisPark   Race 4 Ellis Park  VS  ~N/A~   Horse Racing   2022-08-27T23:05:03  Status = 1   -637
+2022-08-28 12:27:19,485 - craftBet -INFO - Time out Games are:  6
+2022-08-28 12:27:20,376 - craftBet -INFO - Browser closed
+2022-08-28 12:27:20,377 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-28 12:27:20,383 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-28 12:42:51,640 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 12:42:51,832 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 12:42:51,852 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 12:42:56,177 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 12:42:56,225 - craftBet -INFO - All Page elements are initialized
+2022-08-28 12:42:56,234 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 12:42:57,531 - craftBet -INFO - Get games Api call was sent
+2022-08-28 12:42:57,561 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 12:42:57,597 - craftBet -INFO - Time out Games are:  0
+2022-08-28 12:42:57,813 - craftBet -INFO - Browser closed
+2022-08-28 12:42:57,813 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-28 12:42:57,819 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-28 12:44:17,808 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 12:44:17,984 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 12:44:18,002 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 12:44:19,673 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 12:44:19,718 - craftBet -INFO - All Page elements are initialized
+2022-08-28 12:44:19,727 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 12:44:20,613 - craftBet -INFO - Get games Api call was sent
+2022-08-28 12:44:20,645 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 12:44:20,686 - craftBet -INFO - Time out Games are:  0
+2022-08-28 12:44:20,790 - craftBet -INFO - Browser closed
+2022-08-28 12:44:20,790 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-28 12:44:20,899 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-28 12:46:05,926 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 12:46:06,154 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 12:46:06,186 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 12:46:08,039 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 12:46:08,090 - craftBet -INFO - All Page elements are initialized
+2022-08-28 12:46:08,097 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 12:46:09,283 - craftBet -INFO - Get games Api call was sent
+2022-08-28 12:46:09,367 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 12:49:49,243 - craftBet -INFO - Time out Games are:  0
+2022-08-28 12:49:49,314 - craftBet -INFO - Browser closed
+2022-08-28 12:49:49,314 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-28 12:49:49,320 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-28 12:51:15,327 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 12:51:15,528 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 12:51:15,549 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 12:51:18,169 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 12:51:18,218 - craftBet -INFO - All Page elements are initialized
+2022-08-28 12:51:18,226 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 12:51:19,269 - craftBet -INFO - Get games Api call was sent
+2022-08-28 12:51:19,355 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 12:52:46,971 - craftBet -INFO - Time out Games are:  0
+2022-08-28 12:52:47,037 - craftBet -INFO - Browser closed
+2022-08-28 12:52:47,038 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-28 12:52:47,374 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-28 12:53:37,088 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 12:53:37,331 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 12:53:37,353 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 12:53:40,422 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 12:53:40,474 - craftBet -INFO - All Page elements are initialized
+2022-08-28 12:53:40,483 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 12:53:42,480 - craftBet -INFO - Get games Api call was sent
+2022-08-28 12:53:42,563 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 12:57:21,443 - craftBet -INFO - Time out Games are:  0
+2022-08-28 12:58:11,669 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 12:58:11,899 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 12:58:11,919 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 12:58:13,891 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 12:58:13,946 - craftBet -INFO - All Page elements are initialized
+2022-08-28 12:58:13,954 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 12:58:15,820 - craftBet -INFO - Get games Api call was sent
+2022-08-28 12:58:15,904 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 12:59:13,426 - craftBet -INFO - Hours cant be parseInt Exception  -50
+2022-08-28 12:59:13,437 - craftBet -INFO - Time out Games are:  0
+2022-08-28 12:59:29,745 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 12:59:29,979 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 12:59:30,001 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 12:59:31,815 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 12:59:31,867 - craftBet -INFO - All Page elements are initialized
+2022-08-28 12:59:31,875 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 12:59:32,996 - craftBet -INFO - Get games Api call was sent
+2022-08-28 12:59:33,091 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 13:01:30,909 - craftBet -INFO - Time out Games are:  0
+2022-08-28 13:01:30,983 - craftBet -INFO - Browser closed
+2022-08-28 13:01:30,984 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-28 13:01:36,755 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 13:01:36,939 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 13:01:36,958 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 13:01:38,768 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 13:01:38,818 - craftBet -INFO - All Page elements are initialized
+2022-08-28 13:01:38,827 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 13:01:39,839 - craftBet -INFO - Get games Api call was sent
+2022-08-28 13:01:39,875 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 13:01:39,916 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  15 hours  46 minutes
+2022-08-28 13:01:39,916 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  15 hours  46 minutes
+2022-08-28 13:01:39,916 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  15 hours  46 minutes
+2022-08-28 13:01:39,926 - craftBet -INFO - Time out Games are:  3
+2022-08-28 13:01:40,767 - craftBet -INFO - Browser closed
+2022-08-28 13:01:40,768 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-28 13:01:40,850 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-28 13:03:45,740 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 13:03:45,954 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 13:03:45,973 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 13:03:47,968 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 13:03:48,018 - craftBet -INFO - All Page elements are initialized
+2022-08-28 13:03:48,026 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 13:03:49,264 - craftBet -INFO - Get games Api call was sent
+2022-08-28 13:03:49,358 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 13:15:05,063 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  15 hours  44 minutes
+2022-08-28 13:15:05,064 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  15 hours  44 minutes
+2022-08-28 13:15:05,064 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  15 hours  44 minutes
+2022-08-28 13:15:05,074 - craftBet -INFO - Time out Games are:  3
+2022-08-28 13:15:09,040 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 13:15:09,671 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 13:15:09,689 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 13:15:13,897 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 13:15:13,950 - craftBet -INFO - All Page elements are initialized
+2022-08-28 13:15:13,960 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 13:15:15,228 - craftBet -INFO - Get games Api call was sent
+2022-08-28 13:15:15,345 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 13:32:52,397 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  15 hours  33 minutes
+2022-08-28 13:32:52,398 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  15 hours  33 minutes
+2022-08-28 13:32:52,398 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  15 hours  33 minutes
+2022-08-28 13:32:52,410 - craftBet -INFO - Time out Games are:  3
+2022-08-28 13:39:37,353 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 13:39:37,600 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 13:39:37,621 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 13:39:42,377 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 13:39:42,429 - craftBet -INFO - All Page elements are initialized
+2022-08-28 13:39:42,436 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 13:39:43,721 - craftBet -INFO - Get games Api call was sent
+2022-08-28 13:39:43,832 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 13:40:40,749 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  23 hours  52 minutes
+2022-08-28 13:40:40,750 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  23 hours  52 minutes
+2022-08-28 13:40:40,750 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  23 hours  52 minutes
+2022-08-28 13:40:40,761 - craftBet -INFO - Time out Games are:  3
+2022-08-28 13:46:45,561 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 13:46:45,815 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 13:46:45,838 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 13:46:48,055 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 13:46:48,110 - craftBet -INFO - All Page elements are initialized
+2022-08-28 13:46:48,120 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 13:46:49,239 - craftBet -INFO - Get games Api call was sent
+2022-08-28 13:46:49,356 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 13:48:02,382 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  23 hours  59 minutes
+2022-08-28 13:48:02,383 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  23 hours  59 minutes
+2022-08-28 13:48:02,383 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  23 hours  59 minutes
+2022-08-28 13:48:02,395 - craftBet -INFO - Time out Games are:  3
+2022-08-28 13:48:08,589 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 13:48:08,803 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 13:48:08,826 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 13:48:10,685 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 13:48:10,746 - craftBet -INFO - All Page elements are initialized
+2022-08-28 13:48:10,755 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 13:48:11,896 - craftBet -INFO - Get games Api call was sent
+2022-08-28 13:48:12,006 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 13:50:29,779 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  24 hours  0 minutes
+2022-08-28 13:50:29,779 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  24 hours  0 minutes
+2022-08-28 13:50:29,779 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  24 hours  0 minutes
+2022-08-28 13:51:51,350 - craftBet -INFO - Time out Games are:  3
+2022-08-28 13:51:52,339 - craftBet -INFO - Browser closed
+2022-08-28 13:51:52,339 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-28 13:51:52,345 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-28 14:02:21,417 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 14:02:21,658 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 14:02:21,681 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 14:02:26,000 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 14:02:26,062 - craftBet -INFO - All Page elements are initialized
+2022-08-28 14:02:26,314 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 14:02:27,941 - craftBet -INFO - Get games Api call was sent
+2022-08-28 14:02:28,007 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 14:02:28,067 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  15 hours  14 minutes
+2022-08-28 14:02:28,068 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  15 hours  14 minutes
+2022-08-28 14:02:28,068 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  15 hours  14 minutes
+2022-08-28 14:02:28,083 - craftBet -INFO - Time out Games are:  3
+2022-08-28 14:02:29,135 - craftBet -INFO - Browser closed
+2022-08-28 14:02:29,136 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-28 14:02:29,250 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-28 14:02:47,511 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 14:02:47,752 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 14:02:47,780 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 14:02:49,961 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 14:02:50,013 - craftBet -INFO - All Page elements are initialized
+2022-08-28 14:02:50,023 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 14:02:51,041 - craftBet -INFO - Get games Api call was sent
+2022-08-28 14:02:51,090 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 14:02:51,155 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  15 hours  15 minutes
+2022-08-28 14:02:51,155 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  15 hours  15 minutes
+2022-08-28 14:02:51,155 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  15 hours  15 minutes
+2022-08-28 14:02:51,166 - craftBet -INFO - Time out Games are:  3
+2022-08-28 14:02:52,216 - craftBet -INFO - Browser closed
+2022-08-28 14:02:52,217 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-28 14:02:52,225 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-28 14:13:37,987 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 14:13:38,202 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 14:13:38,229 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 14:13:42,588 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 14:13:42,642 - craftBet -INFO - All Page elements are initialized
+2022-08-28 14:13:42,655 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 14:13:43,837 - craftBet -INFO - Get games Api call was sent
+2022-08-28 14:13:43,892 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 14:13:43,951 - craftBet -ERROR - The Time Out games are :   3708111   ITFW60Prerov   Irene Burillo Escorihuela  VS  Sada Nahimana   Tennis   2022-08-27T16:30:47  Status = 1   After game start time out = :  21 hours  43 minutes
+2022-08-28 14:13:43,951 - craftBet -ERROR - The Time Out games are :   3708111   ITFW60Prerov   Irene Burillo Escorihuela  VS  Sada Nahimana   Tennis   2022-08-27T16:30:47  Status = 1   After game start time out = :  21 hours  43 minutes
+2022-08-28 14:13:43,951 - craftBet -ERROR - The Time Out games are :   3704769   ITF-M Celje   Roko Horvat  VS  Daniele Capecchi   Tennis   2022-08-27T18:00:00  Status = 1   After game start time out = :  20 hours  14 minutes
+2022-08-28 14:13:43,951 - craftBet -ERROR - The Time Out games are :   3704769   ITF-M Celje   Roko Horvat  VS  Daniele Capecchi   Tennis   2022-08-27T18:00:00  Status = 1   After game start time out = :  20 hours  14 minutes
+2022-08-28 14:13:43,955 - craftBet -INFO - Time out Games are:  4
+2022-08-28 14:13:44,816 - craftBet -INFO - Browser closed
+2022-08-28 14:13:44,816 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-28 14:13:44,930 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-28 14:14:29,828 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 14:14:30,062 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 14:14:30,086 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 14:14:32,022 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 14:14:32,073 - craftBet -INFO - All Page elements are initialized
+2022-08-28 14:14:32,322 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 14:14:33,479 - craftBet -INFO - Get games Api call was sent
+2022-08-28 14:14:33,519 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 14:14:33,571 - craftBet -ERROR - The Time Out games are :   3708111   ITFW60Prerov   Irene Burillo Escorihuela  VS  Sada Nahimana   Tennis   2022-08-27T16:30:47  Status = 1   After game start time out = :  21 hours  44 minutes
+2022-08-28 14:14:33,571 - craftBet -ERROR - The Time Out games are :   3708111   ITFW60Prerov   Irene Burillo Escorihuela  VS  Sada Nahimana   Tennis   2022-08-27T16:30:47  Status = 1   After game start time out = :  21 hours  44 minutes
+2022-08-28 14:14:33,571 - craftBet -ERROR - The Time Out games are :   3704769   ITF-M Celje   Roko Horvat  VS  Daniele Capecchi   Tennis   2022-08-27T18:00:00  Status = 1   After game start time out = :  20 hours  15 minutes
+2022-08-28 14:14:33,571 - craftBet -ERROR - The Time Out games are :   3704769   ITF-M Celje   Roko Horvat  VS  Daniele Capecchi   Tennis   2022-08-27T18:00:00  Status = 1   After game start time out = :  20 hours  15 minutes
+2022-08-28 14:14:33,572 - craftBet -ERROR - The Time Out games are :   3709061   ITF-M Oviedo   Alex Padro Parra  VS  Ivan Perez Martin   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  14 minutes
+2022-08-28 14:14:33,572 - craftBet -ERROR - The Time Out games are :   3709061   ITF-M Oviedo   Alex Padro Parra  VS  Ivan Perez Martin   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  14 minutes
+2022-08-28 14:14:33,572 - craftBet -ERROR - The Time Out games are :   3708246   Monastir, Tunisia   Matthew Dellavedova  VS  Eliakim Coulibaly   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  14 minutes
+2022-08-28 14:14:33,572 - craftBet -ERROR - The Time Out games are :   3708246   Monastir, Tunisia   Matthew Dellavedova  VS  Eliakim Coulibaly   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  14 minutes
+2022-08-28 14:14:33,573 - craftBet -ERROR - The Time Out games are :   3709226   ATP CH Como   Nicolas Moreno De Alboran  VS  Federico Iannaccone   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  14 minutes
+2022-08-28 14:14:33,573 - craftBet -ERROR - The Time Out games are :   3709226   ATP CH Como   Nicolas Moreno De Alboran  VS  Federico Iannaccone   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  14 minutes
+2022-08-28 14:14:33,574 - craftBet -ERROR - The Time Out games are :   3708076   ITF-M Bad Waltersdorf   Peter Heller  VS  Tommaso Compagnucci   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  14 minutes
+2022-08-28 14:14:33,574 - craftBet -ERROR - The Time Out games are :   3708076   ITF-M Bad Waltersdorf   Peter Heller  VS  Tommaso Compagnucci   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  14 minutes
+2022-08-28 14:14:33,574 - craftBet -ERROR - The Time Out games are :   3709170   ITF-W Cairo   Sandra Samir  VS  Mayuka Aikawa   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  14 minutes
+2022-08-28 14:14:33,574 - craftBet -ERROR - The Time Out games are :   3709170   ITF-W Cairo   Sandra Samir  VS  Mayuka Aikawa   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  14 minutes
+2022-08-28 14:14:33,574 - craftBet -ERROR - The Time Out games are :   3709178   Monastir, Tunisia   Sijia Wei  VS  Zongyu Li   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  14 minutes
+2022-08-28 14:14:33,575 - craftBet -ERROR - The Time Out games are :   3709178   Monastir, Tunisia   Sijia Wei  VS  Zongyu Li   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  14 minutes
+2022-08-28 14:14:33,576 - craftBet -ERROR - The Time Out games are :   3709278   ITF-M Caslano   Damien Wenger  VS  Elmar Ejupovic   Tennis   2022-08-28T12:30:00  Status = 1   After game start time out = :  1 hours  44 minutes
+2022-08-28 14:14:33,576 - craftBet -ERROR - The Time Out games are :   3709278   ITF-M Caslano   Damien Wenger  VS  Elmar Ejupovic   Tennis   2022-08-28T12:30:00  Status = 1   After game start time out = :  1 hours  44 minutes
+2022-08-28 14:14:33,576 - craftBet -ERROR - The Time Out games are :   3710290   ATP CH Toulouse   Roman Andres Burruchaga  VS  Federico Agustin Gomez   Tennis   2022-08-28T12:30:00  Status = 1   After game start time out = :  1 hours  44 minutes
+2022-08-28 14:14:33,576 - craftBet -ERROR - The Time Out games are :   3710290   ATP CH Toulouse   Roman Andres Burruchaga  VS  Federico Agustin Gomez   Tennis   2022-08-28T12:30:00  Status = 1   After game start time out = :  1 hours  44 minutes
+2022-08-28 14:14:33,577 - craftBet -ERROR - The Time Out games are :   3710561   ITF-M Maribor   Aljaz Jeran  VS  Matic Dimic   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  14 minutes
+2022-08-28 14:14:33,577 - craftBet -ERROR - The Time Out games are :   3710561   ITF-M Maribor   Aljaz Jeran  VS  Matic Dimic   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  14 minutes
+2022-08-28 14:14:33,577 - craftBet -ERROR - The Time Out games are :   3709821   ATP CH Prague III   Lucas Gerch  VS  Oleksii Krutykh   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  14 minutes
+2022-08-28 14:14:33,577 - craftBet -ERROR - The Time Out games are :   3709821   ATP CH Prague III   Lucas Gerch  VS  Oleksii Krutykh   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  14 minutes
+2022-08-28 14:14:33,577 - craftBet -ERROR - The Time Out games are :   3708260   ITF-W Verbier   Matilde Paoletti  VS  Zeynep Sonmez   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  14 minutes
+2022-08-28 14:14:33,577 - craftBet -ERROR - The Time Out games are :   3708260   ITF-W Verbier   Matilde Paoletti  VS  Zeynep Sonmez   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  14 minutes
+2022-08-28 14:14:33,578 - craftBet -ERROR - The Time Out games are :   3710558   ITF-M Maribor   Michelangelo Zvech Flaborea Mreule  VS  Aldin Jasarevic   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  14 minutes
+2022-08-28 14:14:33,578 - craftBet -ERROR - The Time Out games are :   3710558   ITF-M Maribor   Michelangelo Zvech Flaborea Mreule  VS  Aldin Jasarevic   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  14 minutes
+2022-08-28 14:14:33,578 - craftBet -ERROR - The Time Out games are :   3709678   ITF-M Poznan   Patrik Rikl  VS  Valerio Aboian   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  14 minutes
+2022-08-28 14:14:33,578 - craftBet -ERROR - The Time Out games are :   3709678   ITF-M Poznan   Patrik Rikl  VS  Valerio Aboian   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  14 minutes
+2022-08-28 14:14:33,578 - craftBet -ERROR - The Time Out games are :   3709668   ITF-M Trier   Tom Gentzsch  VS  Jiri Barnat   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  14 minutes
+2022-08-28 14:14:33,578 - craftBet -ERROR - The Time Out games are :   3709668   ITF-M Trier   Tom Gentzsch  VS  Jiri Barnat   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  14 minutes
+2022-08-28 14:14:33,579 - craftBet -ERROR - The Time Out games are :   3708136   NBL Women   UCU Lady Canons (W)  VS  Magic Stormers (W)   Basketball   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  14 minutes
+2022-08-28 14:14:33,579 - craftBet -ERROR - The Time Out games are :   3708136   NBL Women   UCU Lady Canons (W)  VS  Magic Stormers (W)   Basketball   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  14 minutes
+2022-08-28 14:14:33,579 - craftBet -ERROR - The Time Out games are :   3708136   NBL Women   UCU Lady Canons (W)  VS  Magic Stormers (W)   Basketball   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  14 minutes
+2022-08-28 14:14:33,579 - craftBet -ERROR - The Time Out games are :   3709168   ITF-W Vigo   Antonia Ruzic  VS  Anna Brogan   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  44 minutes
+2022-08-28 14:14:33,579 - craftBet -ERROR - The Time Out games are :   3709168   ITF-W Vigo   Antonia Ruzic  VS  Anna Brogan   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  44 minutes
+2022-08-28 14:14:33,579 - craftBet -ERROR - The Time Out games are :   3709011   Prague, Czech Republic   Johana Markova  VS  Karolina Kubanova   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  44 minutes
+2022-08-28 14:14:33,580 - craftBet -ERROR - The Time Out games are :   3709011   Prague, Czech Republic   Johana Markova  VS  Karolina Kubanova   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  44 minutes
+2022-08-28 14:14:33,580 - craftBet -ERROR - The Time Out games are :   3709231   ATP CH Como   Mariano Navone  VS  Matteo Martineau   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  44 minutes
+2022-08-28 14:14:33,580 - craftBet -ERROR - The Time Out games are :   3709231   ATP CH Como   Mariano Navone  VS  Matteo Martineau   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  44 minutes
+2022-08-28 14:14:33,580 - craftBet -ERROR - The Time Out games are :   3710543   ITF-M Oviedo   Nil Regas Luis  VS  Pablo Marcel Torres Almeida   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  44 minutes
+2022-08-28 14:14:33,580 - craftBet -ERROR - The Time Out games are :   3710543   ITF-M Oviedo   Nil Regas Luis  VS  Pablo Marcel Torres Almeida   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  44 minutes
+2022-08-28 14:14:33,580 - craftBet -ERROR - The Time Out games are :   3709907   Prague, Czech Republic   Noelia Zeballos  VS  Barbora Michalkova   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  44 minutes
+2022-08-28 14:14:33,580 - craftBet -ERROR - The Time Out games are :   3709907   Prague, Czech Republic   Noelia Zeballos  VS  Barbora Michalkova   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  44 minutes
+2022-08-28 14:14:33,581 - craftBet -ERROR - The Time Out games are :   3708996   Prague, Czech Republic   Timea Jaruskova  VS  Katarina Kuzmova   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  44 minutes
+2022-08-28 14:14:33,581 - craftBet -ERROR - The Time Out games are :   3708996   Prague, Czech Republic   Timea Jaruskova  VS  Katarina Kuzmova   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  44 minutes
+2022-08-28 14:14:33,581 - craftBet -ERROR - The Time Out games are :   3709286   ATP Ch Nonthaburi   Timo Legout  VS  Denis Istomin   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  44 minutes
+2022-08-28 14:14:33,581 - craftBet -ERROR - The Time Out games are :   3709286   ATP Ch Nonthaburi   Timo Legout  VS  Denis Istomin   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  44 minutes
+2022-08-28 14:14:33,581 - craftBet -ERROR - The Time Out games are :   3709908   ATP CH Como   Viktor Durasovic  VS  Giovanni Oradini   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  44 minutes
+2022-08-28 14:14:33,581 - craftBet -ERROR - The Time Out games are :   3709908   ATP CH Como   Viktor Durasovic  VS  Giovanni Oradini   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  44 minutes
+2022-08-28 14:14:33,582 - craftBet -ERROR - The Time Out games are :   3710542   ITF-M Maribor   Marko Novak  VS  Igor Dudun   Tennis   2022-08-28T13:45:00  Status = 1   After game start time out = :  0 hours  29 minutes
+2022-08-28 14:14:33,582 - craftBet -ERROR - The Time Out games are :   3710542   ITF-M Maribor   Marko Novak  VS  Igor Dudun   Tennis   2022-08-28T13:45:00  Status = 1   After game start time out = :  0 hours  29 minutes
+2022-08-28 14:14:33,582 - craftBet -ERROR - The Time Out games are :   3710734   EbasketballBattle-4x5mins   TOR Raptors (tapachan) Esports  VS  CHA Hornets (Lalkoff) Esports   Basketball   2022-08-28T13:54:37  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:14:33,582 - craftBet -ERROR - The Time Out games are :   3710734   EbasketballBattle-4x5mins   TOR Raptors (tapachan) Esports  VS  CHA Hornets (Lalkoff) Esports   Basketball   2022-08-28T13:54:37  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:14:33,582 - craftBet -ERROR - The Time Out games are :   3710734   EbasketballBattle-4x5mins   TOR Raptors (tapachan) Esports  VS  CHA Hornets (Lalkoff) Esports   Basketball   2022-08-28T13:54:37  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:14:33,582 - craftBet -ERROR - The Time Out games are :   3710737   EbasketballBattle-4x5mins   ATL Hawks (yangrainmaker) Esports  VS  CHI Bulls (Resarke) Esports   Basketball   2022-08-28T13:56:11  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:14:33,582 - craftBet -ERROR - The Time Out games are :   3710737   EbasketballBattle-4x5mins   ATL Hawks (yangrainmaker) Esports  VS  CHI Bulls (Resarke) Esports   Basketball   2022-08-28T13:56:11  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:14:33,582 - craftBet -ERROR - The Time Out games are :   3710737   EbasketballBattle-4x5mins   ATL Hawks (yangrainmaker) Esports  VS  CHI Bulls (Resarke) Esports   Basketball   2022-08-28T13:56:11  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:14:33,583 - craftBet -ERROR - The Time Out games are :   3709652   ITF-M Roehampton   Antoine Hoang  VS  Giles Hussey   Tennis   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  14 minutes
+2022-08-28 14:14:33,583 - craftBet -ERROR - The Time Out games are :   3709652   ITF-M Roehampton   Antoine Hoang  VS  Giles Hussey   Tennis   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  14 minutes
+2022-08-28 14:14:33,583 - craftBet -ERROR - The Time Out games are :   3708794   National League. Women   IPRC Huye (W)  VS  APR BBC (W)   Basketball   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  14 minutes
+2022-08-28 14:14:33,583 - craftBet -ERROR - The Time Out games are :   3708794   National League. Women   IPRC Huye (W)  VS  APR BBC (W)   Basketball   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  14 minutes
+2022-08-28 14:14:33,583 - craftBet -ERROR - The Time Out games are :   3708794   National League. Women   IPRC Huye (W)  VS  APR BBC (W)   Basketball   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  14 minutes
+2022-08-28 14:14:33,583 - craftBet -ERROR - The Time Out games are :   3710285   ATP CH Toulouse   Maxime Chazal  VS  Tristan Lamasine   Tennis   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  14 minutes
+2022-08-28 14:14:33,583 - craftBet -ERROR - The Time Out games are :   3710285   ATP CH Toulouse   Maxime Chazal  VS  Tristan Lamasine   Tennis   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  14 minutes
+2022-08-28 14:14:33,584 - craftBet -ERROR - The Time Out games are :   3708240   VBA   Saigon Heat  VS  Hanoi Buffaloes   Basketball   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  14 minutes
+2022-08-28 14:14:33,584 - craftBet -ERROR - The Time Out games are :   3708240   VBA   Saigon Heat  VS  Hanoi Buffaloes   Basketball   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  14 minutes
+2022-08-28 14:14:33,584 - craftBet -ERROR - The Time Out games are :   3708240   VBA   Saigon Heat  VS  Hanoi Buffaloes   Basketball   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  14 minutes
+2022-08-28 14:14:33,584 - craftBet -ERROR - The Time Out games are :   3707339   PBA Cup   Talk N Text Tropang Texters  VS  San Miguel Beermen   Basketball   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  14 minutes
+2022-08-28 14:14:33,584 - craftBet -ERROR - The Time Out games are :   3707339   PBA Cup   Talk N Text Tropang Texters  VS  San Miguel Beermen   Basketball   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  14 minutes
+2022-08-28 14:14:33,584 - craftBet -ERROR - The Time Out games are :   3707339   PBA Cup   Talk N Text Tropang Texters  VS  San Miguel Beermen   Basketball   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  14 minutes
+2022-08-28 14:14:33,585 - craftBet -ERROR - The Time Out games are :   3709523   AVC Cup Women   China (W)  VS  Thailand (W)   Volleyball   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  14 minutes
+2022-08-28 14:14:33,585 - craftBet -ERROR - The Time Out games are :   3710332   Asian Championship U20   Saudi Arabia U20  VS  Pakistan U20   Volleyball   2022-08-28T12:30:00  Status = 1   After game start time out = :  1 hours  44 minutes
+2022-08-28 14:14:33,585 - craftBet -ERROR - The Time Out games are :   3707517   World Championship Men   Cuba  VS  Qatar   Volleyball   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  14 minutes
+2022-08-28 14:14:33,585 - craftBet -ERROR - The Time Out games are :   3710450   Club Friendlies   SPS Chrobry Glogow  VS  Krispol Wrzesnia   Volleyball   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  14 minutes
+2022-08-28 14:14:33,587 - craftBet -INFO - Time out Games are:  76
+2022-08-28 14:14:34,625 - craftBet -INFO - Browser closed
+2022-08-28 14:14:34,626 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-28 14:14:34,633 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-28 14:16:19,676 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 14:16:20,345 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 14:16:20,363 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 14:16:22,432 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 14:16:22,489 - craftBet -INFO - All Page elements are initialized
+2022-08-28 14:16:22,500 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 14:16:23,607 - craftBet -INFO - Get games Api call was sent
+2022-08-28 14:16:23,663 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 14:16:23,712 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  15 hours  28 minutes
+2022-08-28 14:16:23,713 - craftBet -ERROR - The Time Out games are :   3707961   V-League 2   Dak Lak  VS  Phu Dong FC   Soccer   2022-08-28T12:30:00  Status = 1   After game start time out = :  1 hours  46 minutes
+2022-08-28 14:16:23,713 - craftBet -ERROR - The Time Out games are :   3706371   Liga 3   Fastav Zlin B  VS  Blansko   Soccer   2022-08-28T12:30:00  Status = 1   After game start time out = :  1 hours  46 minutes
+2022-08-28 14:16:23,713 - craftBet -ERROR - The Time Out games are :   3688537   Erste Liga   FC Blau Weiss Linz  VS  Rapid Wien II   Soccer   2022-08-28T12:30:00  Status = 1   After game start time out = :  1 hours  46 minutes
+2022-08-28 14:16:23,713 - craftBet -ERROR - The Time Out games are :   3697309   2nd League   FK Raca  VS  Puchov   Soccer   2022-08-28T12:30:00  Status = 1   After game start time out = :  1 hours  46 minutes
+2022-08-28 14:16:23,713 - craftBet -ERROR - The Time Out games are :   3707189   3rd League   Jednota Banova  VS  Nove Zamky   Soccer   2022-08-28T12:30:00  Status = 1   After game start time out = :  1 hours  46 minutes
+2022-08-28 14:16:23,714 - craftBet -ERROR - The Time Out games are :   3706839   Oberliga Hamburg   HEBC Hamburg  VS  TSV Buchholz 08   Soccer   2022-08-28T12:45:00  Status = 1   After game start time out = :  1 hours  31 minutes
+2022-08-28 14:16:23,714 - craftBet -ERROR - The Time Out games are :   3707799   Landesliga 2   SV Frannach  VS  TUS Bad Waltersdorf   Soccer   2022-08-28T12:45:00  Status = 1   After game start time out = :  1 hours  31 minutes
+2022-08-28 14:16:23,715 - craftBet -ERROR - The Time Out games are :   3710594   SerbiaU19League   FK Novi Pazar U19  VS  Crvena Zvezda U19   Soccer   2022-08-28T12:56:34  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:16:23,715 - craftBet -ERROR - The Time Out games are :   3710597   EuropeFriendlies   UCAM Murcia CF  VS  Hercules   Soccer   2022-08-28T12:57:33  Status = 1   After game start time out = :  1 hours  18 minutes
+2022-08-28 14:16:23,715 - craftBet -ERROR - The Time Out games are :   3708044   Liga 4   Arka II Gdynia  VS  Gryf Wejherowo   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,715 - craftBet -ERROR - The Time Out games are :   3708446   Liga 1   Bhayangkara FC  VS  Persita Tangerang   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,715 - craftBet -ERROR - The Time Out games are :   3688128   J-League Division 2   Blaublitz Akita  VS  Oita Trinita   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,716 - craftBet -ERROR - The Time Out games are :   3706538   Bundesliga. Under 19   Borussia Dortmund U19  VS  Rot-Weiss Essen U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,717 - craftBet -ERROR - The Time Out games are :   3706507   League U19   Colomiers U19  VS  Ajaccio U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,717 - craftBet -ERROR - The Time Out games are :   3708113   Youth League   Cracovia Krakow U19  VS  Legia Warsaw U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,717 - craftBet -ERROR - The Time Out games are :   3708046   Primavera 1   Frosinone U19  VS  Lecce U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,717 - craftBet -ERROR - The Time Out games are :   3706762   Oberliga Bremen   Geestemunde  VS  Brinkumer SV   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,717 - craftBet -ERROR - The Time Out games are :   3706527   Bundesliga. Under 19   Holsten Kiel U19  VS  Cottbus U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,718 - craftBet -ERROR - The Time Out games are :   3693939   J-League Division 3   Kagoshima United FC  VS  FC Imabari   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,718 - craftBet -ERROR - The Time Out games are :   3708117   Bundesliga 2. Women   Koln II (W)  VS  Bayern Munich II (W)   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,719 - craftBet -ERROR - The Time Out games are :   3706537   Bundesliga. Under 19   Koln U19  VS  Fortuna Dusseldorf U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,719 - craftBet -ERROR - The Time Out games are :   3708624   League U19   MFK Zemplin Michalovce U19  VS  MFK Ruzomberok U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,719 - craftBet -ERROR - The Time Out games are :   3706543   Bundesliga. Under 19   MSV Duisburg U19  VS  Bochum U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,719 - craftBet -ERROR - The Time Out games are :   3693967   J-League Division 3   Nagano Parceiro  VS  Giravanz Kitakyushu   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,719 - craftBet -ERROR - The Time Out games are :   3708051   League Cup Women   Nojima (W)  VS  INAC Leonessa (W)   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,719 - craftBet -ERROR - The Time Out games are :   3706520   Bundesliga. Under 19   Preusen Munster U19  VS  Rot Weiss Oberhausen U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,720 - craftBet -ERROR - The Time Out games are :   3708417   Bundesliga 2. Women   SG 99 Andernach (W)  VS  Freiburg II (W)   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,720 - craftBet -ERROR - The Time Out games are :   3707022   3rd League   Slavia TU Kosice  VS  Poprad   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,721 - craftBet -ERROR - The Time Out games are :   3706815   Reserve League   Sporting Westlake FC  VS  Singapore Khalsa Association   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,721 - craftBet -ERROR - The Time Out games are :   3707809   Landesliga 2   SV Gallizien  VS  Eisenkappel   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,722 - craftBet -ERROR - The Time Out games are :   3706508   League U19   Toulouse U19  VS  Olympique Marseille U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,722 - craftBet -ERROR - The Time Out games are :   3708437   SuperLiga. Women   ZFK Masinac (W)  VS  Spartak Subotica II (W)   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,722 - craftBet -ERROR - The Time Out games are :   3710671   EuropeFriendlies   Huesca B  VS  Utebo   Soccer   2022-08-28T13:26:04  Status = 1   After game start time out = :  0 hours  50 minutes
+2022-08-28 14:16:23,723 - craftBet -ERROR - The Time Out games are :   3691095   K League 2   Gyeongnam  VS  Ansan Greeners FC   Soccer   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  46 minutes
+2022-08-28 14:16:23,723 - craftBet -ERROR - The Time Out games are :   3707308   A Lyga   MFA Zalgiris (W)  VS  Hegelmann (w)   Soccer   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  46 minutes
+2022-08-28 14:16:23,723 - craftBet -ERROR - The Time Out games are :   3703795   Super League   Shijiazhuang Ever Bright  VS  Changchun Yatai   Soccer   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  46 minutes
+2022-08-28 14:16:23,723 - craftBet -ERROR - The Time Out games are :   3706563   S-League   Tampines Rovers  VS  Balestier Khalsa   Soccer   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  46 minutes
+2022-08-28 14:16:23,724 - craftBet -ERROR - The Time Out games are :   3709763   Durand Cup   Trau FC  VS  Army Red   Soccer   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  46 minutes
+2022-08-28 14:16:23,724 - craftBet -ERROR - The Time Out games are :   3710695   KazakhstanDivision2   Jas Qyran  VS  Zhetysu Taldykorgan Reserves   Soccer   2022-08-28T13:49:35  Status = 1   After game start time out = :  0 hours  26 minutes
+2022-08-28 14:16:23,724 - craftBet -ERROR - The Time Out games are :   3710696   KazakhstanDivision2   SD Family  VS  Khan Tengri FC   Soccer   2022-08-28T13:49:35  Status = 1   After game start time out = :  0 hours  26 minutes
+2022-08-28 14:16:23,724 - craftBet -ERROR - The Time Out games are :   3710728   KazakhstanDivision2   Tobol Kostanay Reserves  VS  FK Aksu Reserves   Soccer   2022-08-28T13:51:05  Status = 1   After game start time out = :  0 hours  25 minutes
+2022-08-28 14:16:23,724 - craftBet -ERROR - The Time Out games are :   3710740   WomensFriendly   Eibar Women  VS  CD Alaves Women   Soccer   2022-08-28T13:59:08  Status = 1   After game start time out = :  0 hours  17 minutes
+2022-08-28 14:16:23,725 - craftBet -ERROR - The Time Out games are :   3706994   Premier League   AC Taipei  VS  Ming Chuan University   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,725 - craftBet -ERROR - The Time Out games are :   3694046   Primera Division RFEF Group 2   Athletic Bilbao B  VS  La Nucia   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,725 - craftBet -ERROR - The Time Out games are :   3709742   Leinster Senior League   Ballymun United  VS  St Mochtas AFC Dublin   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,725 - craftBet -ERROR - The Time Out games are :   3694068   Primera Division RFEF Group 1   Celta de Vigo B  VS  SS Reyes   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,725 - craftBet -ERROR - The Time Out games are :   3708045   Liga 4   Chojniczanka Chojnice 2  VS  Pogon Lebork   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,726 - craftBet -ERROR - The Time Out games are :   3706509   3rd League   Concordia Elblag  VS  Pogon Grodzisk Mazowiecki   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,726 - craftBet -ERROR - The Time Out games are :   3688155   K League 1   Daegu  VS  Gimcheon Sangmu   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,726 - craftBet -ERROR - The Time Out games are :   3709748   Leinster Senior League   Donnycarney  VS  Bangor Celtic   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,726 - craftBet -ERROR - The Time Out games are :   3708112   Youth League   Gornik Zabrze U19  VS  Arka Gdynia U19   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,726 - craftBet -ERROR - The Time Out games are :   3704957   Danmarksserien G. 1   Herstedoster  VS  Holbaek BI   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,727 - craftBet -ERROR - The Time Out games are :   3709747   Leinster Senior League   Kilnamanagh  VS  Liffey Wanderers   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,727 - craftBet -ERROR - The Time Out games are :   3707912   Premier League   Kolos Kovalivka  VS  FC Rukh Vynnyky   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,727 - craftBet -ERROR - The Time Out games are :   3689639   Segunda Liga   Leixoes SC  VS  Nacional Madeira   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,727 - craftBet -ERROR - The Time Out games are :   3707021   3rd League   Miedz Legnica II  VS  Chrobry II Glogow   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,728 - craftBet -ERROR - The Time Out games are :   3706604   K3 League   Mokpo City  VS  Daejeon Korail   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,728 - craftBet -ERROR - The Time Out games are :   3710383   Second League   Okzhetpes II  VS  Kyzyl-Zhar II   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,728 - craftBet -ERROR - The Time Out games are :   3708180   Liga 3   Real SC  VS  CF OS Belenenses   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,728 - craftBet -ERROR - The Time Out games are :   3694038   Primera Division RFEF Group 2   Real Sociedad II  VS  Eldense   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,729 - craftBet -ERROR - The Time Out games are :   3694041   Primera Division RFEF Group 2   Real Union Irun  VS  Cornella   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,729 - craftBet -ERROR - The Time Out games are :   3688127   J-League Division 2   Roasso Kumamoto  VS  Tokyo Verdy   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,729 - craftBet -ERROR - The Time Out games are :   3708450   Premier League   Saunders  VS  Police SC   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,729 - craftBet -ERROR - The Time Out games are :   3708053   Landesliga   SC Austria Lustenau II  VS  Lustenau   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,730 - craftBet -ERROR - The Time Out games are :   3694069   Primera Division RFEF Group 2   SD Logrones  VS  CD Alcoyano   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,730 - craftBet -ERROR - The Time Out games are :   3688156   K League 1   Seongnam Ilhwa Chunma  VS  Suwon City   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,730 - craftBet -ERROR - The Time Out games are :   3706514   League U19   Strasbourg U19  VS  Nancy U19   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,730 - craftBet -ERROR - The Time Out games are :   3707832   2 Lyga   Suduva Marijampole II  VS  FK Jonava II   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,731 - craftBet -ERROR - The Time Out games are :   3706992   Premier League   Taipower  VS  Tainan City   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,731 - craftBet -ERROR - The Time Out games are :   3706612   K3 League   Ulsan Citizen  VS  Hwaseong   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,731 - craftBet -ERROR - The Time Out games are :   3708111   ITFW60Prerov   Irene Burillo Escorihuela  VS  Sada Nahimana   Tennis   2022-08-27T16:30:47  Status = 1   After game start time out = :  21 hours  46 minutes
+2022-08-28 14:16:23,732 - craftBet -ERROR - The Time Out games are :   3704769   ITF-M Celje   Roko Horvat  VS  Daniele Capecchi   Tennis   2022-08-27T18:00:00  Status = 1   After game start time out = :  20 hours  17 minutes
+2022-08-28 14:16:23,732 - craftBet -ERROR - The Time Out games are :   3709061   ITF-M Oviedo   Alex Padro Parra  VS  Ivan Perez Martin   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  16 minutes
+2022-08-28 14:16:23,732 - craftBet -ERROR - The Time Out games are :   3708246   Monastir, Tunisia   Matthew Dellavedova  VS  Eliakim Coulibaly   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  16 minutes
+2022-08-28 14:16:23,732 - craftBet -ERROR - The Time Out games are :   3709226   ATP CH Como   Nicolas Moreno De Alboran  VS  Federico Iannaccone   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  16 minutes
+2022-08-28 14:16:23,733 - craftBet -ERROR - The Time Out games are :   3708076   ITF-M Bad Waltersdorf   Peter Heller  VS  Tommaso Compagnucci   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  16 minutes
+2022-08-28 14:16:23,733 - craftBet -ERROR - The Time Out games are :   3709170   ITF-W Cairo   Sandra Samir  VS  Mayuka Aikawa   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  16 minutes
+2022-08-28 14:16:23,733 - craftBet -ERROR - The Time Out games are :   3709178   Monastir, Tunisia   Sijia Wei  VS  Zongyu Li   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  16 minutes
+2022-08-28 14:16:23,733 - craftBet -ERROR - The Time Out games are :   3709278   ITF-M Caslano   Damien Wenger  VS  Elmar Ejupovic   Tennis   2022-08-28T12:30:00  Status = 1   After game start time out = :  1 hours  46 minutes
+2022-08-28 14:16:23,733 - craftBet -ERROR - The Time Out games are :   3710290   ATP CH Toulouse   Roman Andres Burruchaga  VS  Federico Agustin Gomez   Tennis   2022-08-28T12:30:00  Status = 1   After game start time out = :  1 hours  46 minutes
+2022-08-28 14:16:23,734 - craftBet -ERROR - The Time Out games are :   3710561   ITF-M Maribor   Aljaz Jeran  VS  Matic Dimic   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,734 - craftBet -ERROR - The Time Out games are :   3709821   ATP CH Prague III   Lucas Gerch  VS  Oleksii Krutykh   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,734 - craftBet -ERROR - The Time Out games are :   3708260   ITF-W Verbier   Matilde Paoletti  VS  Zeynep Sonmez   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,734 - craftBet -ERROR - The Time Out games are :   3710558   ITF-M Maribor   Michelangelo Zvech Flaborea Mreule  VS  Aldin Jasarevic   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,734 - craftBet -ERROR - The Time Out games are :   3709678   ITF-M Poznan   Patrik Rikl  VS  Valerio Aboian   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,735 - craftBet -ERROR - The Time Out games are :   3709668   ITF-M Trier   Tom Gentzsch  VS  Jiri Barnat   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,735 - craftBet -ERROR - The Time Out games are :   3708136   NBL Women   UCU Lady Canons (W)  VS  Magic Stormers (W)   Basketball   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,735 - craftBet -ERROR - The Time Out games are :   3709168   ITF-W Vigo   Antonia Ruzic  VS  Anna Brogan   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  46 minutes
+2022-08-28 14:16:23,735 - craftBet -ERROR - The Time Out games are :   3709011   Prague, Czech Republic   Johana Markova  VS  Karolina Kubanova   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  46 minutes
+2022-08-28 14:16:23,735 - craftBet -ERROR - The Time Out games are :   3709231   ATP CH Como   Mariano Navone  VS  Matteo Martineau   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  46 minutes
+2022-08-28 14:16:23,735 - craftBet -ERROR - The Time Out games are :   3710543   ITF-M Oviedo   Nil Regas Luis  VS  Pablo Marcel Torres Almeida   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  46 minutes
+2022-08-28 14:16:23,735 - craftBet -ERROR - The Time Out games are :   3709907   Prague, Czech Republic   Noelia Zeballos  VS  Barbora Michalkova   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  46 minutes
+2022-08-28 14:16:23,736 - craftBet -ERROR - The Time Out games are :   3708996   Prague, Czech Republic   Timea Jaruskova  VS  Katarina Kuzmova   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  46 minutes
+2022-08-28 14:16:23,736 - craftBet -ERROR - The Time Out games are :   3709286   ATP Ch Nonthaburi   Timo Legout  VS  Denis Istomin   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  46 minutes
+2022-08-28 14:16:23,736 - craftBet -ERROR - The Time Out games are :   3709908   ATP CH Como   Viktor Durasovic  VS  Giovanni Oradini   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  46 minutes
+2022-08-28 14:16:23,736 - craftBet -ERROR - The Time Out games are :   3710542   ITF-M Maribor   Marko Novak  VS  Igor Dudun   Tennis   2022-08-28T13:45:00  Status = 1   After game start time out = :  0 hours  31 minutes
+2022-08-28 14:16:23,736 - craftBet -ERROR - The Time Out games are :   3710692   EbasketballH2HGGLeague-4x5mins   BOS Celtics (GRECO) Esports  VS  MIL Bucks (SPOOKY) Esports   Basketball   2022-08-28T13:46:05  Status = 1   After game start time out = :  0 hours  30 minutes
+2022-08-28 14:16:23,737 - craftBet -ERROR - The Time Out games are :   3710734   EbasketballBattle-4x5mins   TOR Raptors (tapachan) Esports  VS  CHA Hornets (Lalkoff) Esports   Basketball   2022-08-28T13:54:37  Status = 1   After game start time out = :  0 hours  21 minutes
+2022-08-28 14:16:23,737 - craftBet -ERROR - The Time Out games are :   3710737   EbasketballBattle-4x5mins   ATL Hawks (yangrainmaker) Esports  VS  CHI Bulls (Resarke) Esports   Basketball   2022-08-28T13:56:11  Status = 1   After game start time out = :  0 hours  20 minutes
+2022-08-28 14:16:23,737 - craftBet -ERROR - The Time Out games are :   3709652   ITF-M Roehampton   Antoine Hoang  VS  Giles Hussey   Tennis   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,737 - craftBet -ERROR - The Time Out games are :   3708794   National League. Women   IPRC Huye (W)  VS  APR BBC (W)   Basketball   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,737 - craftBet -ERROR - The Time Out games are :   3710285   ATP CH Toulouse   Maxime Chazal  VS  Tristan Lamasine   Tennis   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,738 - craftBet -ERROR - The Time Out games are :   3708240   VBA   Saigon Heat  VS  Hanoi Buffaloes   Basketball   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,738 - craftBet -ERROR - The Time Out games are :   3707339   PBA Cup   Talk N Text Tropang Texters  VS  San Miguel Beermen   Basketball   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,738 - craftBet -ERROR - The Time Out games are :   3710052   Cup   Arlan Kokshetau  VS  Kazzinc-Torpedo   Ice Hockey   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  16 minutes
+2022-08-28 14:16:23,739 - craftBet -ERROR - The Time Out games are :   3710066   Cup   Ertis Pavlodar  VS  Snezhnye Barsy   Ice Hockey   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  16 minutes
+2022-08-28 14:16:23,739 - craftBet -ERROR - The Time Out games are :   3710051   Cup   Humo  VS  Kulager   Ice Hockey   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,739 - craftBet -ERROR - The Time Out games are :   3710566   Club Friendlies U20   EHC Liwest Linz U20  VS  Pirati Chomutov-2   Ice Hockey   2022-08-28T13:15:00  Status = 1   After game start time out = :  1 hours  1 minutes
+2022-08-28 14:16:23,739 - craftBet -ERROR - The Time Out games are :   3709523   AVC Cup Women   China (W)  VS  Thailand (W)   Volleyball   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  16 minutes
+2022-08-28 14:16:23,739 - craftBet -ERROR - The Time Out games are :   3710332   Asian Championship U20   Saudi Arabia U20  VS  Pakistan U20   Volleyball   2022-08-28T12:30:00  Status = 1   After game start time out = :  1 hours  46 minutes
+2022-08-28 14:16:23,739 - craftBet -ERROR - The Time Out games are :   3707517   World Championship Men   Cuba  VS  Qatar   Volleyball   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,740 - craftBet -ERROR - The Time Out games are :   3710450   Club Friendlies   SPS Chrobry Glogow  VS  Krispol Wrzesnia   Volleyball   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,740 - craftBet -ERROR - The Time Out games are :   3709022   NFLPreseason   JAX Jaguars  VS  ATL Falcons   American Football   2022-08-27T22:58:53  Status = 1   After game start time out = :  15 hours  18 minutes
+2022-08-28 14:16:23,740 - craftBet -ERROR - The Time Out games are :   3710514   WTT Feeder Olomouc   Qihao Zhou  VS  Maharu Yoshimura   Table Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  46 minutes
+2022-08-28 14:16:23,740 - craftBet -ERROR - The Time Out games are :   3708387   Czech Liga Pro   Frantisek Chaloupka  VS  Jiri Skalicky   Table Tennis   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,740 - craftBet -ERROR - The Time Out games are :   3708382   Czech Liga Pro   Michal Sokol  VS  Frantiseik Blaha   Table Tennis   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,741 - craftBet -ERROR - The Time Out games are :   3709491   Setka Cup Women   Anastasiia Moskaliuk  VS  Nadiia Harmash   Table Tennis   2022-08-28T14:05:00  Status = 1   After game start time out = :  0 hours  11 minutes
+2022-08-28 14:16:23,741 - craftBet -ERROR - The Time Out games are :   3708980   Setka Cup   Andrii Skliarenko  VS  Vladyslav Mishchenko   Table Tennis   2022-08-28T14:05:00  Status = 1   After game start time out = :  0 hours  11 minutes
+2022-08-28 14:16:23,741 - craftBet -ERROR - The Time Out games are :   3708458   Thailand Championship   Thaiport  VS  Thai Army Futsal   Futsal   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,742 - craftBet -ERROR - The Time Out games are :   3710186   Dota 2 - ESL One Malaysia   Team Aster  VS  OG   E-sports   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  16 minutes
+2022-08-28 14:16:23,742 - craftBet -ERROR - The Time Out games are :   3705293   National League Women   CSM Targu Jiu (W)  VS  CS Dacia Mioveni 2012 (W)   Handball   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,742 - craftBet -ERROR - The Time Out games are :   3705499   LoL Pro League   Top Esports (LOL)  VS  Edward Gaming (LOL)   E-sports   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,742 - craftBet -ERROR - The Time Out games are :   3710719   Twenty20   Kenya  VS  Nepal   Cricket   2022-08-28T13:50:11  Status = 1   After game start time out = :  0 hours  26 minutes
+2022-08-28 14:16:23,742 - craftBet -ERROR - The Time Out games are :   3680142   King of Glory - King Growth League   EMC (KG)  VS  Ghost Owl Gaming (KG)   E-sports   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,742 - craftBet -ERROR - The Time Out games are :   3708908   Overwatch - OWL   Guangzhou Charge (OW)  VS  Philadelphia Fusion (OW)   E-sports   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,743 - craftBet -ERROR - The Time Out games are :   3710273   Club Friendlies   Mrk Sloga Gornji Vakuf  VS  RK Velez Mostar   Handball   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,743 - craftBet -ERROR - The Time Out games are :   3705495   LoL - VCS   SBTC (LOL)  VS  Team Secret (LOL)   E-sports   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,743 - craftBet -ERROR - The Time Out games are :   3710278   Club Friendlies. Women   Valur (W)  VS  BM Benidorm (W)   Handball   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  16 minutes
+2022-08-28 14:16:23,743 - craftBet -ERROR - The Time Out games are :   3708393   World Championships Women   Akane Yamaguchi  VS  CHEN Yu Fei   Badminton   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  16 minutes
+2022-08-28 14:16:23,743 - craftBet -ERROR - The Time Out games are :   3708912   French International   Ming Hong Lim  VS  Valentin SINGER   Badminton   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  46 minutes
+2022-08-28 14:16:23,744 - craftBet -ERROR - The Time Out games are :   3709018   MLB   LA Angels  VS  TOR Blue Jays   Baseball   2022-08-27T22:54:31  Status = 1   After game start time out = :  15 hours  22 minutes
+2022-08-28 14:16:23,744 - craftBet -ERROR - The Time Out games are :   3710418   KoreanKBO   Lotte Giants  VS  SSG Landers   Baseball   2022-08-28T11:58:32  Status = 1   After game start time out = :  2 hours  17 minutes
+2022-08-28 14:16:23,744 - craftBet -ERROR - The Time Out games are :   3710421   KoreanKBO   KT Wiz  VS  NC Dinos   Baseball   2022-08-28T12:01:03  Status = 1   After game start time out = :  2 hours  15 minutes
+2022-08-28 14:16:23,744 - craftBet -ERROR - The Time Out games are :   3710423   KoreanKBO   Hanwha Eagles  VS  Samsung Lions   Baseball   2022-08-28T12:01:05  Status = 1   After game start time out = :  2 hours  15 minutes
+2022-08-28 14:16:23,744 - craftBet -ERROR - The Time Out games are :   3710422   KoreanKBO   Kiwoom Heroes  VS  LG Twins   Baseball   2022-08-28T12:01:05  Status = 1   After game start time out = :  2 hours  15 minutes
+2022-08-28 14:16:23,744 - craftBet -ERROR - The Time Out games are :   3710487   KoreanKBO   Doosan Bears  VS  Kia Tigers   Baseball   2022-08-28T12:25:03  Status = 1   After game start time out = :  1 hours  51 minutes
+2022-08-28 14:16:23,745 - craftBet -ERROR - The Time Out games are :   3710591   JapanNPB   Yakult Swallows  VS  Yokohama Bay Stars   Baseball   2022-08-28T12:54:10  Status = 1   After game start time out = :  1 hours  22 minutes
+2022-08-28 14:16:23,745 - craftBet -ERROR - The Time Out games are :   3710592   JapanNPB   Yomiuri Giants  VS  Hiroshima Carp   Baseball   2022-08-28T12:54:34  Status = 1   After game start time out = :  1 hours  21 minutes
+2022-08-28 14:16:23,745 - craftBet -ERROR - The Time Out games are :   3710605   CPBL   Fubon Guardians  VS  CITIC Brothers   Baseball   2022-08-28T13:06:34  Status = 1   After game start time out = :  1 hours  9 minutes
+2022-08-28 14:16:23,745 - craftBet -ERROR - The Time Out games are :   3696193   European Championships Women   Hungary (W)  VS  Greece (W)   Water Polo   2022-08-27T22:30:00  Status = 1   After game start time out = :  15 hours  47 minutes
+2022-08-28 14:16:23,745 - craftBet -ERROR - The Time Out games are :   3710399   European Championships Women   Israel (W)  VS  Slovakia (W)   Water Polo   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  46 minutes
+2022-08-28 14:16:23,746 - craftBet -ERROR - The Time Out games are :   3708552   Curragh   4.15 Curragh (Race 6)  VS  ~N/A~   Horse Racing   2022-08-27T18:45:09  Status = 1   After game start time out = :  19 hours  32 minutes
+2022-08-28 14:16:23,746 - craftBet -ERROR - The Time Out games are :   3709013   SanIsidro   8.15 San Isidro (Race 7)  VS  ~N/A~   Horse Racing   2022-08-27T22:50:04  Status = 1   After game start time out = :  15 hours  27 minutes
+2022-08-28 14:16:23,746 - craftBet -ERROR - The Time Out games are :   3709037   EllisPark   Race 4 Ellis Park  VS  ~N/A~   Horse Racing   2022-08-27T23:05:03  Status = 1   After game start time out = :  15 hours  12 minutes
+2022-08-28 14:16:23,746 - craftBet -ERROR - The Time Out games are :   3710677   JPNKawasaki   Race 10 Kawasaki  VS  ~N/A~   Horse Racing   2022-08-28T13:29:34  Status = 1   After game start time out = :  0 hours  46 minutes
+2022-08-28 14:16:23,746 - craftBet -ERROR - The Time Out games are :   3686557   Northern Ireland Open   Ian Burns  VS  Tian Pengfei   Snooker   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,746 - craftBet -ERROR - The Time Out games are :   3686631   Northern Ireland Open   Sean O'Sullivan  VS  Jamie O'Neill   Snooker   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  16 minutes
+2022-08-28 14:16:23,746 - craftBet -INFO - Time out Games are:  148
+2022-08-28 14:16:24,622 - craftBet -INFO - Browser closed
+2022-08-28 14:16:24,622 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-28 14:16:24,731 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-28 14:17:05,302 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 14:17:05,505 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 14:17:05,525 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 14:17:07,619 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 14:17:07,667 - craftBet -INFO - All Page elements are initialized
+2022-08-28 14:17:07,678 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 14:17:09,050 - craftBet -INFO - Get games Api call was sent
+2022-08-28 14:17:09,101 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 14:17:09,162 - craftBet -ERROR - The Time Out games are :   3708111   ITFW60Prerov   Irene Burillo Escorihuela  VS  Sada Nahimana   Tennis   2022-08-27T16:30:47  Status = 1   After game start time out = :  21 hours  47 minutes
+2022-08-28 14:17:09,162 - craftBet -ERROR - The Time Out games are :   3704769   ITF-M Celje   Roko Horvat  VS  Daniele Capecchi   Tennis   2022-08-27T18:00:00  Status = 1   After game start time out = :  20 hours  18 minutes
+2022-08-28 14:17:09,163 - craftBet -ERROR - The Time Out games are :   3709061   ITF-M Oviedo   Alex Padro Parra  VS  Ivan Perez Martin   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  17 minutes
+2022-08-28 14:17:09,163 - craftBet -ERROR - The Time Out games are :   3708246   Monastir, Tunisia   Matthew Dellavedova  VS  Eliakim Coulibaly   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  17 minutes
+2022-08-28 14:17:09,164 - craftBet -ERROR - The Time Out games are :   3709226   ATP CH Como   Nicolas Moreno De Alboran  VS  Federico Iannaccone   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  17 minutes
+2022-08-28 14:17:09,164 - craftBet -ERROR - The Time Out games are :   3708076   ITF-M Bad Waltersdorf   Peter Heller  VS  Tommaso Compagnucci   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  17 minutes
+2022-08-28 14:17:09,164 - craftBet -ERROR - The Time Out games are :   3709170   ITF-W Cairo   Sandra Samir  VS  Mayuka Aikawa   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  17 minutes
+2022-08-28 14:17:09,165 - craftBet -ERROR - The Time Out games are :   3709178   Monastir, Tunisia   Sijia Wei  VS  Zongyu Li   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  17 minutes
+2022-08-28 14:17:09,166 - craftBet -ERROR - The Time Out games are :   3709278   ITF-M Caslano   Damien Wenger  VS  Elmar Ejupovic   Tennis   2022-08-28T12:30:00  Status = 1   After game start time out = :  1 hours  47 minutes
+2022-08-28 14:17:09,166 - craftBet -ERROR - The Time Out games are :   3710290   ATP CH Toulouse   Roman Andres Burruchaga  VS  Federico Agustin Gomez   Tennis   2022-08-28T12:30:00  Status = 1   After game start time out = :  1 hours  47 minutes
+2022-08-28 14:17:09,166 - craftBet -ERROR - The Time Out games are :   3710561   ITF-M Maribor   Aljaz Jeran  VS  Matic Dimic   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  17 minutes
+2022-08-28 14:17:09,166 - craftBet -ERROR - The Time Out games are :   3709821   ATP CH Prague III   Lucas Gerch  VS  Oleksii Krutykh   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  17 minutes
+2022-08-28 14:17:09,167 - craftBet -ERROR - The Time Out games are :   3708260   ITF-W Verbier   Matilde Paoletti  VS  Zeynep Sonmez   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  17 minutes
+2022-08-28 14:17:09,167 - craftBet -ERROR - The Time Out games are :   3710558   ITF-M Maribor   Michelangelo Zvech Flaborea Mreule  VS  Aldin Jasarevic   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  17 minutes
+2022-08-28 14:17:09,167 - craftBet -ERROR - The Time Out games are :   3709678   ITF-M Poznan   Patrik Rikl  VS  Valerio Aboian   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  17 minutes
+2022-08-28 14:17:09,168 - craftBet -ERROR - The Time Out games are :   3709668   ITF-M Trier   Tom Gentzsch  VS  Jiri Barnat   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  17 minutes
+2022-08-28 14:17:09,168 - craftBet -ERROR - The Time Out games are :   3708136   NBL Women   UCU Lady Canons (W)  VS  Magic Stormers (W)   Basketball   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  17 minutes
+2022-08-28 14:17:09,169 - craftBet -ERROR - The Time Out games are :   3709168   ITF-W Vigo   Antonia Ruzic  VS  Anna Brogan   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  47 minutes
+2022-08-28 14:17:09,169 - craftBet -ERROR - The Time Out games are :   3709011   Prague, Czech Republic   Johana Markova  VS  Karolina Kubanova   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  47 minutes
+2022-08-28 14:17:09,170 - craftBet -ERROR - The Time Out games are :   3709231   ATP CH Como   Mariano Navone  VS  Matteo Martineau   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  47 minutes
+2022-08-28 14:17:09,170 - craftBet -ERROR - The Time Out games are :   3710543   ITF-M Oviedo   Nil Regas Luis  VS  Pablo Marcel Torres Almeida   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  47 minutes
+2022-08-28 14:17:09,171 - craftBet -ERROR - The Time Out games are :   3709907   Prague, Czech Republic   Noelia Zeballos  VS  Barbora Michalkova   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  47 minutes
+2022-08-28 14:17:09,171 - craftBet -ERROR - The Time Out games are :   3708996   Prague, Czech Republic   Timea Jaruskova  VS  Katarina Kuzmova   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  47 minutes
+2022-08-28 14:17:09,172 - craftBet -ERROR - The Time Out games are :   3709286   ATP Ch Nonthaburi   Timo Legout  VS  Denis Istomin   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  47 minutes
+2022-08-28 14:17:09,172 - craftBet -ERROR - The Time Out games are :   3709908   ATP CH Como   Viktor Durasovic  VS  Giovanni Oradini   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  47 minutes
+2022-08-28 14:17:09,172 - craftBet -ERROR - The Time Out games are :   3710542   ITF-M Maribor   Marko Novak  VS  Igor Dudun   Tennis   2022-08-28T13:45:00  Status = 1   After game start time out = :  0 hours  32 minutes
+2022-08-28 14:17:09,173 - craftBet -ERROR - The Time Out games are :   3710692   EbasketballH2HGGLeague-4x5mins   BOS Celtics (GRECO) Esports  VS  MIL Bucks (SPOOKY) Esports   Basketball   2022-08-28T13:46:05  Status = 1   After game start time out = :  0 hours  31 minutes
+2022-08-28 14:17:09,173 - craftBet -ERROR - The Time Out games are :   3710734   EbasketballBattle-4x5mins   TOR Raptors (tapachan) Esports  VS  CHA Hornets (Lalkoff) Esports   Basketball   2022-08-28T13:54:37  Status = 1   After game start time out = :  0 hours  22 minutes
+2022-08-28 14:17:09,173 - craftBet -ERROR - The Time Out games are :   3710737   EbasketballBattle-4x5mins   ATL Hawks (yangrainmaker) Esports  VS  CHI Bulls (Resarke) Esports   Basketball   2022-08-28T13:56:11  Status = 1   After game start time out = :  0 hours  20 minutes
+2022-08-28 14:17:09,174 - craftBet -ERROR - The Time Out games are :   3709652   ITF-M Roehampton   Antoine Hoang  VS  Giles Hussey   Tennis   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  17 minutes
+2022-08-28 14:17:09,174 - craftBet -ERROR - The Time Out games are :   3708794   National League. Women   IPRC Huye (W)  VS  APR BBC (W)   Basketball   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  17 minutes
+2022-08-28 14:17:09,175 - craftBet -ERROR - The Time Out games are :   3710285   ATP CH Toulouse   Maxime Chazal  VS  Tristan Lamasine   Tennis   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  17 minutes
+2022-08-28 14:17:09,175 - craftBet -ERROR - The Time Out games are :   3708240   VBA   Saigon Heat  VS  Hanoi Buffaloes   Basketball   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  17 minutes
+2022-08-28 14:17:09,175 - craftBet -ERROR - The Time Out games are :   3707339   PBA Cup   Talk N Text Tropang Texters  VS  San Miguel Beermen   Basketball   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  17 minutes
+2022-08-28 14:17:09,176 - craftBet -ERROR - The Time Out games are :   3709523   AVC Cup Women   China (W)  VS  Thailand (W)   Volleyball   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  17 minutes
+2022-08-28 14:17:09,177 - craftBet -ERROR - The Time Out games are :   3710332   Asian Championship U20   Saudi Arabia U20  VS  Pakistan U20   Volleyball   2022-08-28T12:30:00  Status = 1   After game start time out = :  1 hours  47 minutes
+2022-08-28 14:17:09,177 - craftBet -ERROR - The Time Out games are :   3707517   World Championship Men   Cuba  VS  Qatar   Volleyball   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  17 minutes
+2022-08-28 14:17:09,178 - craftBet -ERROR - The Time Out games are :   3710450   Club Friendlies   SPS Chrobry Glogow  VS  Krispol Wrzesnia   Volleyball   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  17 minutes
+2022-08-28 14:17:09,181 - craftBet -INFO - Time out Games are:  38
+2022-08-28 14:17:10,295 - craftBet -INFO - Browser closed
+2022-08-28 14:17:10,295 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-28 14:17:10,300 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-28 14:18:38,455 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 14:18:38,659 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 14:18:38,685 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 14:18:40,738 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 14:18:40,795 - craftBet -INFO - All Page elements are initialized
+2022-08-28 14:18:40,807 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 14:18:41,895 - craftBet -INFO - Get games Api call was sent
+2022-08-28 14:18:41,954 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 14:18:42,023 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  15 hours  31 minutes
+2022-08-28 14:18:42,024 - craftBet -ERROR - The Time Out games are :   3706371   Liga 3   Fastav Zlin B  VS  Blansko   Soccer   2022-08-28T12:30:00  Status = 1   After game start time out = :  1 hours  48 minutes
+2022-08-28 14:18:42,024 - craftBet -ERROR - The Time Out games are :   3706839   Oberliga Hamburg   HEBC Hamburg  VS  TSV Buchholz 08   Soccer   2022-08-28T12:45:00  Status = 1   After game start time out = :  1 hours  33 minutes
+2022-08-28 14:18:42,025 - craftBet -ERROR - The Time Out games are :   3707799   Landesliga 2   SV Frannach  VS  TUS Bad Waltersdorf   Soccer   2022-08-28T12:45:00  Status = 1   After game start time out = :  1 hours  33 minutes
+2022-08-28 14:18:42,025 - craftBet -ERROR - The Time Out games are :   3710594   SerbiaU19League   FK Novi Pazar U19  VS  Crvena Zvezda U19   Soccer   2022-08-28T12:56:34  Status = 1   After game start time out = :  1 hours  22 minutes
+2022-08-28 14:18:42,025 - craftBet -ERROR - The Time Out games are :   3710597   EuropeFriendlies   UCAM Murcia CF  VS  Hercules   Soccer   2022-08-28T12:57:33  Status = 1   After game start time out = :  1 hours  21 minutes
+2022-08-28 14:18:42,026 - craftBet -ERROR - The Time Out games are :   3708044   Liga 4   Arka II Gdynia  VS  Gryf Wejherowo   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  18 minutes
+2022-08-28 14:18:42,026 - craftBet -ERROR - The Time Out games are :   3708446   Liga 1   Bhayangkara FC  VS  Persita Tangerang   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  18 minutes
+2022-08-28 14:18:42,027 - craftBet -ERROR - The Time Out games are :   3688128   J-League Division 2   Blaublitz Akita  VS  Oita Trinita   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  18 minutes
+2022-08-28 14:18:42,028 - craftBet -ERROR - The Time Out games are :   3706538   Bundesliga. Under 19   Borussia Dortmund U19  VS  Rot-Weiss Essen U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  18 minutes
+2022-08-28 14:18:42,028 - craftBet -ERROR - The Time Out games are :   3706507   League U19   Colomiers U19  VS  Ajaccio U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  18 minutes
+2022-08-28 14:18:42,028 - craftBet -ERROR - The Time Out games are :   3708113   Youth League   Cracovia Krakow U19  VS  Legia Warsaw U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  18 minutes
+2022-08-28 14:18:42,029 - craftBet -ERROR - The Time Out games are :   3708046   Primavera 1   Frosinone U19  VS  Lecce U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  18 minutes
+2022-08-28 14:18:42,029 - craftBet -ERROR - The Time Out games are :   3706762   Oberliga Bremen   Geestemunde  VS  Brinkumer SV   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  18 minutes
+2022-08-28 14:18:42,029 - craftBet -ERROR - The Time Out games are :   3706527   Bundesliga. Under 19   Holsten Kiel U19  VS  Cottbus U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  18 minutes
+2022-08-28 14:18:42,029 - craftBet -ERROR - The Time Out games are :   3693939   J-League Division 3   Kagoshima United FC  VS  FC Imabari   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  18 minutes
+2022-08-28 14:18:42,029 - craftBet -ERROR - The Time Out games are :   3708117   Bundesliga 2. Women   Koln II (W)  VS  Bayern Munich II (W)   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  18 minutes
+2022-08-28 14:18:42,030 - craftBet -ERROR - The Time Out games are :   3706537   Bundesliga. Under 19   Koln U19  VS  Fortuna Dusseldorf U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  18 minutes
+2022-08-28 14:18:42,030 - craftBet -ERROR - The Time Out games are :   3708624   League U19   MFK Zemplin Michalovce U19  VS  MFK Ruzomberok U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  18 minutes
+2022-08-28 14:18:42,030 - craftBet -ERROR - The Time Out games are :   3706543   Bundesliga. Under 19   MSV Duisburg U19  VS  Bochum U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  18 minutes
+2022-08-28 14:18:42,030 - craftBet -ERROR - The Time Out games are :   3693967   J-League Division 3   Nagano Parceiro  VS  Giravanz Kitakyushu   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  18 minutes
+2022-08-28 14:18:42,030 - craftBet -ERROR - The Time Out games are :   3708051   League Cup Women   Nojima (W)  VS  INAC Leonessa (W)   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  18 minutes
+2022-08-28 14:18:42,031 - craftBet -ERROR - The Time Out games are :   3706520   Bundesliga. Under 19   Preusen Munster U19  VS  Rot Weiss Oberhausen U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  18 minutes
+2022-08-28 14:18:42,031 - craftBet -ERROR - The Time Out games are :   3708417   Bundesliga 2. Women   SG 99 Andernach (W)  VS  Freiburg II (W)   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  18 minutes
+2022-08-28 14:18:42,032 - craftBet -ERROR - The Time Out games are :   3707022   3rd League   Slavia TU Kosice  VS  Poprad   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  18 minutes
+2022-08-28 14:18:42,032 - craftBet -ERROR - The Time Out games are :   3706815   Reserve League   Sporting Westlake FC  VS  Singapore Khalsa Association   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  18 minutes
+2022-08-28 14:18:42,033 - craftBet -ERROR - The Time Out games are :   3707809   Landesliga 2   SV Gallizien  VS  Eisenkappel   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  18 minutes
+2022-08-28 14:18:42,033 - craftBet -ERROR - The Time Out games are :   3706508   League U19   Toulouse U19  VS  Olympique Marseille U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  18 minutes
+2022-08-28 14:18:42,033 - craftBet -ERROR - The Time Out games are :   3708437   SuperLiga. Women   ZFK Masinac (W)  VS  Spartak Subotica II (W)   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  18 minutes
+2022-08-28 14:18:42,033 - craftBet -ERROR - The Time Out games are :   3710671   EuropeFriendlies   Huesca B  VS  Utebo   Soccer   2022-08-28T13:26:04  Status = 1   After game start time out = :  0 hours  52 minutes
+2022-08-28 14:18:42,034 - craftBet -ERROR - The Time Out games are :   3691095   K League 2   Gyeongnam  VS  Ansan Greeners FC   Soccer   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  48 minutes
+2022-08-28 14:18:42,034 - craftBet -ERROR - The Time Out games are :   3707308   A Lyga   MFA Zalgiris (W)  VS  Hegelmann (w)   Soccer   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  48 minutes
+2022-08-28 14:18:42,034 - craftBet -ERROR - The Time Out games are :   3703795   Super League   Shijiazhuang Ever Bright  VS  Changchun Yatai   Soccer   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  48 minutes
+2022-08-28 14:18:42,034 - craftBet -ERROR - The Time Out games are :   3706563   S-League   Tampines Rovers  VS  Balestier Khalsa   Soccer   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  48 minutes
+2022-08-28 14:18:42,034 - craftBet -ERROR - The Time Out games are :   3709763   Durand Cup   Trau FC  VS  Army Red   Soccer   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  48 minutes
+2022-08-28 14:18:42,034 - craftBet -ERROR - The Time Out games are :   3710695   KazakhstanDivision2   Jas Qyran  VS  Zhetysu Taldykorgan Reserves   Soccer   2022-08-28T13:49:35  Status = 1   After game start time out = :  0 hours  29 minutes
+2022-08-28 14:18:42,035 - craftBet -ERROR - The Time Out games are :   3710696   KazakhstanDivision2   SD Family  VS  Khan Tengri FC   Soccer   2022-08-28T13:49:35  Status = 1   After game start time out = :  0 hours  29 minutes
+2022-08-28 14:18:42,035 - craftBet -ERROR - The Time Out games are :   3710728   KazakhstanDivision2   Tobol Kostanay Reserves  VS  FK Aksu Reserves   Soccer   2022-08-28T13:51:05  Status = 1   After game start time out = :  0 hours  27 minutes
+2022-08-28 14:18:42,035 - craftBet -ERROR - The Time Out games are :   3710740   WomensFriendly   Eibar Women  VS  CD Alaves Women   Soccer   2022-08-28T13:59:08  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:18:42,035 - craftBet -ERROR - The Time Out games are :   3706994   Premier League   AC Taipei  VS  Ming Chuan University   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:18:42,035 - craftBet -ERROR - The Time Out games are :   3694046   Primera Division RFEF Group 2   Athletic Bilbao B  VS  La Nucia   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:18:42,036 - craftBet -ERROR - The Time Out games are :   3709742   Leinster Senior League   Ballymun United  VS  St Mochtas AFC Dublin   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:18:42,036 - craftBet -ERROR - The Time Out games are :   3694068   Primera Division RFEF Group 1   Celta de Vigo B  VS  SS Reyes   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:18:42,036 - craftBet -ERROR - The Time Out games are :   3708045   Liga 4   Chojniczanka Chojnice 2  VS  Pogon Lebork   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:18:42,036 - craftBet -ERROR - The Time Out games are :   3706509   3rd League   Concordia Elblag  VS  Pogon Grodzisk Mazowiecki   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:18:42,036 - craftBet -ERROR - The Time Out games are :   3688155   K League 1   Daegu  VS  Gimcheon Sangmu   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:18:42,037 - craftBet -ERROR - The Time Out games are :   3709748   Leinster Senior League   Donnycarney  VS  Bangor Celtic   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:18:42,037 - craftBet -ERROR - The Time Out games are :   3708112   Youth League   Gornik Zabrze U19  VS  Arka Gdynia U19   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:18:42,037 - craftBet -ERROR - The Time Out games are :   3704957   Danmarksserien G. 1   Herstedoster  VS  Holbaek BI   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:18:42,037 - craftBet -ERROR - The Time Out games are :   3709747   Leinster Senior League   Kilnamanagh  VS  Liffey Wanderers   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:18:42,038 - craftBet -ERROR - The Time Out games are :   3707912   Premier League   Kolos Kovalivka  VS  FC Rukh Vynnyky   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:18:42,038 - craftBet -ERROR - The Time Out games are :   3689639   Segunda Liga   Leixoes SC  VS  Nacional Madeira   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:18:42,038 - craftBet -ERROR - The Time Out games are :   3707021   3rd League   Miedz Legnica II  VS  Chrobry II Glogow   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:18:42,038 - craftBet -ERROR - The Time Out games are :   3706604   K3 League   Mokpo City  VS  Daejeon Korail   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:18:42,038 - craftBet -ERROR - The Time Out games are :   3710383   Second League   Okzhetpes II  VS  Kyzyl-Zhar II   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:18:42,039 - craftBet -ERROR - The Time Out games are :   3708180   Liga 3   Real SC  VS  CF OS Belenenses   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:18:42,039 - craftBet -ERROR - The Time Out games are :   3694038   Primera Division RFEF Group 2   Real Sociedad II  VS  Eldense   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:18:42,039 - craftBet -ERROR - The Time Out games are :   3694041   Primera Division RFEF Group 2   Real Union Irun  VS  Cornella   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:18:42,039 - craftBet -ERROR - The Time Out games are :   3688127   J-League Division 2   Roasso Kumamoto  VS  Tokyo Verdy   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:18:42,040 - craftBet -ERROR - The Time Out games are :   3708450   Premier League   Saunders  VS  Police SC   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:18:42,040 - craftBet -ERROR - The Time Out games are :   3708053   Landesliga   SC Austria Lustenau II  VS  Lustenau   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:18:42,040 - craftBet -ERROR - The Time Out games are :   3694069   Primera Division RFEF Group 2   SD Logrones  VS  CD Alcoyano   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:18:42,040 - craftBet -ERROR - The Time Out games are :   3688156   K League 1   Seongnam Ilhwa Chunma  VS  Suwon City   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:18:42,041 - craftBet -ERROR - The Time Out games are :   3706514   League U19   Strasbourg U19  VS  Nancy U19   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:18:42,041 - craftBet -ERROR - The Time Out games are :   3707832   2 Lyga   Suduva Marijampole II  VS  FK Jonava II   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:18:42,041 - craftBet -ERROR - The Time Out games are :   3706992   Premier League   Taipower  VS  Tainan City   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:18:42,041 - craftBet -ERROR - The Time Out games are :   3706612   K3 League   Ulsan Citizen  VS  Hwaseong   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  18 minutes
+2022-08-28 14:18:42,047 - craftBet -INFO - Time out Games are:  67
+2022-08-28 14:18:43,121 - craftBet -INFO - Browser closed
+2022-08-28 14:18:43,121 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-28 14:18:43,257 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-28 14:19:21,328 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 14:19:21,568 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 14:19:21,596 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 14:19:23,771 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 14:19:23,833 - craftBet -INFO - All Page elements are initialized
+2022-08-28 14:19:23,844 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 14:19:25,077 - craftBet -INFO - Get games Api call was sent
+2022-08-28 14:19:25,132 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 14:19:25,189 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  15 hours  31 minutes
+2022-08-28 14:19:25,190 - craftBet -ERROR - The Time Out games are :   3706371   Liga 3   Fastav Zlin B  VS  Blansko   Soccer   2022-08-28T12:30:00  Status = 1   After game start time out = :  1 hours  49 minutes
+2022-08-28 14:19:25,190 - craftBet -ERROR - The Time Out games are :   3706839   Oberliga Hamburg   HEBC Hamburg  VS  TSV Buchholz 08   Soccer   2022-08-28T12:45:00  Status = 1   After game start time out = :  1 hours  34 minutes
+2022-08-28 14:19:25,190 - craftBet -ERROR - The Time Out games are :   3707799   Landesliga 2   SV Frannach  VS  TUS Bad Waltersdorf   Soccer   2022-08-28T12:45:00  Status = 1   After game start time out = :  1 hours  34 minutes
+2022-08-28 14:19:25,191 - craftBet -ERROR - The Time Out games are :   3710594   SerbiaU19League   FK Novi Pazar U19  VS  Crvena Zvezda U19   Soccer   2022-08-28T12:56:34  Status = 1   After game start time out = :  1 hours  22 minutes
+2022-08-28 14:19:25,191 - craftBet -ERROR - The Time Out games are :   3710597   EuropeFriendlies   UCAM Murcia CF  VS  Hercules   Soccer   2022-08-28T12:57:33  Status = 1   After game start time out = :  1 hours  21 minutes
+2022-08-28 14:19:25,191 - craftBet -ERROR - The Time Out games are :   3708044   Liga 4   Arka II Gdynia  VS  Gryf Wejherowo   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,192 - craftBet -ERROR - The Time Out games are :   3708446   Liga 1   Bhayangkara FC  VS  Persita Tangerang   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,193 - craftBet -ERROR - The Time Out games are :   3688128   J-League Division 2   Blaublitz Akita  VS  Oita Trinita   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,193 - craftBet -ERROR - The Time Out games are :   3706538   Bundesliga. Under 19   Borussia Dortmund U19  VS  Rot-Weiss Essen U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,193 - craftBet -ERROR - The Time Out games are :   3706507   League U19   Colomiers U19  VS  Ajaccio U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,193 - craftBet -ERROR - The Time Out games are :   3708113   Youth League   Cracovia Krakow U19  VS  Legia Warsaw U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,194 - craftBet -ERROR - The Time Out games are :   3708046   Primavera 1   Frosinone U19  VS  Lecce U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,194 - craftBet -ERROR - The Time Out games are :   3706762   Oberliga Bremen   Geestemunde  VS  Brinkumer SV   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,194 - craftBet -ERROR - The Time Out games are :   3706527   Bundesliga. Under 19   Holsten Kiel U19  VS  Cottbus U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,194 - craftBet -ERROR - The Time Out games are :   3693939   J-League Division 3   Kagoshima United FC  VS  FC Imabari   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,194 - craftBet -ERROR - The Time Out games are :   3708117   Bundesliga 2. Women   Koln II (W)  VS  Bayern Munich II (W)   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,194 - craftBet -ERROR - The Time Out games are :   3706537   Bundesliga. Under 19   Koln U19  VS  Fortuna Dusseldorf U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,195 - craftBet -ERROR - The Time Out games are :   3708624   League U19   MFK Zemplin Michalovce U19  VS  MFK Ruzomberok U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,195 - craftBet -ERROR - The Time Out games are :   3706543   Bundesliga. Under 19   MSV Duisburg U19  VS  Bochum U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,195 - craftBet -ERROR - The Time Out games are :   3693967   J-League Division 3   Nagano Parceiro  VS  Giravanz Kitakyushu   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,195 - craftBet -ERROR - The Time Out games are :   3708051   League Cup Women   Nojima (W)  VS  INAC Leonessa (W)   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,195 - craftBet -ERROR - The Time Out games are :   3706520   Bundesliga. Under 19   Preusen Munster U19  VS  Rot Weiss Oberhausen U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,195 - craftBet -ERROR - The Time Out games are :   3708417   Bundesliga 2. Women   SG 99 Andernach (W)  VS  Freiburg II (W)   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,196 - craftBet -ERROR - The Time Out games are :   3707022   3rd League   Slavia TU Kosice  VS  Poprad   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,197 - craftBet -ERROR - The Time Out games are :   3706815   Reserve League   Sporting Westlake FC  VS  Singapore Khalsa Association   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,197 - craftBet -ERROR - The Time Out games are :   3707809   Landesliga 2   SV Gallizien  VS  Eisenkappel   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,198 - craftBet -ERROR - The Time Out games are :   3706508   League U19   Toulouse U19  VS  Olympique Marseille U19   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,198 - craftBet -ERROR - The Time Out games are :   3708437   SuperLiga. Women   ZFK Masinac (W)  VS  Spartak Subotica II (W)   Soccer   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,198 - craftBet -ERROR - The Time Out games are :   3710671   EuropeFriendlies   Huesca B  VS  Utebo   Soccer   2022-08-28T13:26:04  Status = 1   After game start time out = :  0 hours  53 minutes
+2022-08-28 14:19:25,199 - craftBet -ERROR - The Time Out games are :   3691095   K League 2   Gyeongnam  VS  Ansan Greeners FC   Soccer   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  49 minutes
+2022-08-28 14:19:25,199 - craftBet -ERROR - The Time Out games are :   3707308   A Lyga   MFA Zalgiris (W)  VS  Hegelmann (w)   Soccer   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  49 minutes
+2022-08-28 14:19:25,199 - craftBet -ERROR - The Time Out games are :   3703795   Super League   Shijiazhuang Ever Bright  VS  Changchun Yatai   Soccer   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  49 minutes
+2022-08-28 14:19:25,199 - craftBet -ERROR - The Time Out games are :   3706563   S-League   Tampines Rovers  VS  Balestier Khalsa   Soccer   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  49 minutes
+2022-08-28 14:19:25,200 - craftBet -ERROR - The Time Out games are :   3709763   Durand Cup   Trau FC  VS  Army Red   Soccer   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  49 minutes
+2022-08-28 14:19:25,200 - craftBet -ERROR - The Time Out games are :   3710695   KazakhstanDivision2   Jas Qyran  VS  Zhetysu Taldykorgan Reserves   Soccer   2022-08-28T13:49:35  Status = 1   After game start time out = :  0 hours  29 minutes
+2022-08-28 14:19:25,200 - craftBet -ERROR - The Time Out games are :   3710696   KazakhstanDivision2   SD Family  VS  Khan Tengri FC   Soccer   2022-08-28T13:49:35  Status = 1   After game start time out = :  0 hours  29 minutes
+2022-08-28 14:19:25,201 - craftBet -ERROR - The Time Out games are :   3710728   KazakhstanDivision2   Tobol Kostanay Reserves  VS  FK Aksu Reserves   Soccer   2022-08-28T13:51:05  Status = 1   After game start time out = :  0 hours  28 minutes
+2022-08-28 14:19:25,201 - craftBet -ERROR - The Time Out games are :   3710740   WomensFriendly   Eibar Women  VS  CD Alaves Women   Soccer   2022-08-28T13:59:08  Status = 1   After game start time out = :  0 hours  20 minutes
+2022-08-28 14:19:25,201 - craftBet -ERROR - The Time Out games are :   3706994   Premier League   AC Taipei  VS  Ming Chuan University   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,202 - craftBet -ERROR - The Time Out games are :   3694046   Primera Division RFEF Group 2   Athletic Bilbao B  VS  La Nucia   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,202 - craftBet -ERROR - The Time Out games are :   3709742   Leinster Senior League   Ballymun United  VS  St Mochtas AFC Dublin   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,202 - craftBet -ERROR - The Time Out games are :   3694068   Primera Division RFEF Group 1   Celta de Vigo B  VS  SS Reyes   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,202 - craftBet -ERROR - The Time Out games are :   3708045   Liga 4   Chojniczanka Chojnice 2  VS  Pogon Lebork   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,202 - craftBet -ERROR - The Time Out games are :   3706509   3rd League   Concordia Elblag  VS  Pogon Grodzisk Mazowiecki   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,203 - craftBet -ERROR - The Time Out games are :   3688155   K League 1   Daegu  VS  Gimcheon Sangmu   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,203 - craftBet -ERROR - The Time Out games are :   3709748   Leinster Senior League   Donnycarney  VS  Bangor Celtic   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,203 - craftBet -ERROR - The Time Out games are :   3708112   Youth League   Gornik Zabrze U19  VS  Arka Gdynia U19   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,203 - craftBet -ERROR - The Time Out games are :   3704957   Danmarksserien G. 1   Herstedoster  VS  Holbaek BI   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,203 - craftBet -ERROR - The Time Out games are :   3709747   Leinster Senior League   Kilnamanagh  VS  Liffey Wanderers   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,204 - craftBet -ERROR - The Time Out games are :   3707912   Premier League   Kolos Kovalivka  VS  FC Rukh Vynnyky   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,204 - craftBet -ERROR - The Time Out games are :   3689639   Segunda Liga   Leixoes SC  VS  Nacional Madeira   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,204 - craftBet -ERROR - The Time Out games are :   3707021   3rd League   Miedz Legnica II  VS  Chrobry II Glogow   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,204 - craftBet -ERROR - The Time Out games are :   3706604   K3 League   Mokpo City  VS  Daejeon Korail   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,204 - craftBet -ERROR - The Time Out games are :   3710383   Second League   Okzhetpes II  VS  Kyzyl-Zhar II   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,204 - craftBet -ERROR - The Time Out games are :   3708180   Liga 3   Real SC  VS  CF OS Belenenses   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,205 - craftBet -ERROR - The Time Out games are :   3694038   Primera Division RFEF Group 2   Real Sociedad II  VS  Eldense   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,205 - craftBet -ERROR - The Time Out games are :   3694041   Primera Division RFEF Group 2   Real Union Irun  VS  Cornella   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,205 - craftBet -ERROR - The Time Out games are :   3688127   J-League Division 2   Roasso Kumamoto  VS  Tokyo Verdy   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,205 - craftBet -ERROR - The Time Out games are :   3708450   Premier League   Saunders  VS  Police SC   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,205 - craftBet -ERROR - The Time Out games are :   3708053   Landesliga   SC Austria Lustenau II  VS  Lustenau   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,205 - craftBet -ERROR - The Time Out games are :   3694069   Primera Division RFEF Group 2   SD Logrones  VS  CD Alcoyano   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,206 - craftBet -ERROR - The Time Out games are :   3688156   K League 1   Seongnam Ilhwa Chunma  VS  Suwon City   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,206 - craftBet -ERROR - The Time Out games are :   3706514   League U19   Strasbourg U19  VS  Nancy U19   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,206 - craftBet -ERROR - The Time Out games are :   3707832   2 Lyga   Suduva Marijampole II  VS  FK Jonava II   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,206 - craftBet -ERROR - The Time Out games are :   3706992   Premier League   Taipower  VS  Tainan City   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,206 - craftBet -ERROR - The Time Out games are :   3706612   K3 League   Ulsan Citizen  VS  Hwaseong   Soccer   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,207 - craftBet -ERROR - The Time Out games are :   3708111   ITFW60Prerov   Irene Burillo Escorihuela  VS  Sada Nahimana   Tennis   2022-08-27T16:30:47  Status = 1   After game start time out = :  21 hours  49 minutes
+2022-08-28 14:19:25,207 - craftBet -ERROR - The Time Out games are :   3704769   ITF-M Celje   Roko Horvat  VS  Daniele Capecchi   Tennis   2022-08-27T18:00:00  Status = 1   After game start time out = :  20 hours  20 minutes
+2022-08-28 14:19:25,207 - craftBet -ERROR - The Time Out games are :   3709061   ITF-M Oviedo   Alex Padro Parra  VS  Ivan Perez Martin   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  19 minutes
+2022-08-28 14:19:25,208 - craftBet -ERROR - The Time Out games are :   3708246   Monastir, Tunisia   Matthew Dellavedova  VS  Eliakim Coulibaly   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  19 minutes
+2022-08-28 14:19:25,208 - craftBet -ERROR - The Time Out games are :   3709226   ATP CH Como   Nicolas Moreno De Alboran  VS  Federico Iannaccone   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  19 minutes
+2022-08-28 14:19:25,208 - craftBet -ERROR - The Time Out games are :   3708076   ITF-M Bad Waltersdorf   Peter Heller  VS  Tommaso Compagnucci   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  19 minutes
+2022-08-28 14:19:25,208 - craftBet -ERROR - The Time Out games are :   3709170   ITF-W Cairo   Sandra Samir  VS  Mayuka Aikawa   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  19 minutes
+2022-08-28 14:19:25,208 - craftBet -ERROR - The Time Out games are :   3709178   Monastir, Tunisia   Sijia Wei  VS  Zongyu Li   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  19 minutes
+2022-08-28 14:19:25,209 - craftBet -ERROR - The Time Out games are :   3709278   ITF-M Caslano   Damien Wenger  VS  Elmar Ejupovic   Tennis   2022-08-28T12:30:00  Status = 1   After game start time out = :  1 hours  49 minutes
+2022-08-28 14:19:25,209 - craftBet -ERROR - The Time Out games are :   3710290   ATP CH Toulouse   Roman Andres Burruchaga  VS  Federico Agustin Gomez   Tennis   2022-08-28T12:30:00  Status = 1   After game start time out = :  1 hours  49 minutes
+2022-08-28 14:19:25,209 - craftBet -ERROR - The Time Out games are :   3710561   ITF-M Maribor   Aljaz Jeran  VS  Matic Dimic   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,209 - craftBet -ERROR - The Time Out games are :   3709821   ATP CH Prague III   Lucas Gerch  VS  Oleksii Krutykh   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,209 - craftBet -ERROR - The Time Out games are :   3708260   ITF-W Verbier   Matilde Paoletti  VS  Zeynep Sonmez   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,209 - craftBet -ERROR - The Time Out games are :   3710558   ITF-M Maribor   Michelangelo Zvech Flaborea Mreule  VS  Aldin Jasarevic   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,210 - craftBet -ERROR - The Time Out games are :   3709678   ITF-M Poznan   Patrik Rikl  VS  Valerio Aboian   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,210 - craftBet -ERROR - The Time Out games are :   3709668   ITF-M Trier   Tom Gentzsch  VS  Jiri Barnat   Tennis   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,210 - craftBet -ERROR - The Time Out games are :   3708136   NBL Women   UCU Lady Canons (W)  VS  Magic Stormers (W)   Basketball   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,210 - craftBet -ERROR - The Time Out games are :   3709168   ITF-W Vigo   Antonia Ruzic  VS  Anna Brogan   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  49 minutes
+2022-08-28 14:19:25,210 - craftBet -ERROR - The Time Out games are :   3709011   Prague, Czech Republic   Johana Markova  VS  Karolina Kubanova   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  49 minutes
+2022-08-28 14:19:25,210 - craftBet -ERROR - The Time Out games are :   3709231   ATP CH Como   Mariano Navone  VS  Matteo Martineau   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  49 minutes
+2022-08-28 14:19:25,211 - craftBet -ERROR - The Time Out games are :   3710543   ITF-M Oviedo   Nil Regas Luis  VS  Pablo Marcel Torres Almeida   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  49 minutes
+2022-08-28 14:19:25,211 - craftBet -ERROR - The Time Out games are :   3709907   Prague, Czech Republic   Noelia Zeballos  VS  Barbora Michalkova   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  49 minutes
+2022-08-28 14:19:25,211 - craftBet -ERROR - The Time Out games are :   3708996   Prague, Czech Republic   Timea Jaruskova  VS  Katarina Kuzmova   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  49 minutes
+2022-08-28 14:19:25,211 - craftBet -ERROR - The Time Out games are :   3709286   ATP Ch Nonthaburi   Timo Legout  VS  Denis Istomin   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  49 minutes
+2022-08-28 14:19:25,211 - craftBet -ERROR - The Time Out games are :   3709908   ATP CH Como   Viktor Durasovic  VS  Giovanni Oradini   Tennis   2022-08-28T13:30:00  Status = 1   After game start time out = :  0 hours  49 minutes
+2022-08-28 14:19:25,211 - craftBet -ERROR - The Time Out games are :   3710542   ITF-M Maribor   Marko Novak  VS  Igor Dudun   Tennis   2022-08-28T13:45:00  Status = 1   After game start time out = :  0 hours  34 minutes
+2022-08-28 14:19:25,212 - craftBet -ERROR - The Time Out games are :   3710734   EbasketballBattle-4x5mins   TOR Raptors (tapachan) Esports  VS  CHA Hornets (Lalkoff) Esports   Basketball   2022-08-28T13:54:37  Status = 1   After game start time out = :  0 hours  24 minutes
+2022-08-28 14:19:25,212 - craftBet -ERROR - The Time Out games are :   3710737   EbasketballBattle-4x5mins   ATL Hawks (yangrainmaker) Esports  VS  CHI Bulls (Resarke) Esports   Basketball   2022-08-28T13:56:11  Status = 1   After game start time out = :  0 hours  23 minutes
+2022-08-28 14:19:25,212 - craftBet -ERROR - The Time Out games are :   3709652   ITF-M Roehampton   Antoine Hoang  VS  Giles Hussey   Tennis   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,212 - craftBet -ERROR - The Time Out games are :   3708794   National League. Women   IPRC Huye (W)  VS  APR BBC (W)   Basketball   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,213 - craftBet -ERROR - The Time Out games are :   3710285   ATP CH Toulouse   Maxime Chazal  VS  Tristan Lamasine   Tennis   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,213 - craftBet -ERROR - The Time Out games are :   3708240   VBA   Saigon Heat  VS  Hanoi Buffaloes   Basketball   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,214 - craftBet -ERROR - The Time Out games are :   3707339   PBA Cup   Talk N Text Tropang Texters  VS  San Miguel Beermen   Basketball   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  19 minutes
+2022-08-28 14:19:25,214 - craftBet -ERROR - The Time Out games are :   3710788   EbasketballH2HGGLeague-4x5mins   GS Warriors (SMOLZ) Esports  VS  PHI 76ers (JD) Esports   Basketball   2022-08-28T14:07:36  Status = 1   After game start time out = :  0 hours  11 minutes
+2022-08-28 14:19:25,214 - craftBet -ERROR - The Time Out games are :   3709523   AVC Cup Women   China (W)  VS  Thailand (W)   Volleyball   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  19 minutes
+2022-08-28 14:19:25,214 - craftBet -ERROR - The Time Out games are :   3710332   Asian Championship U20   Saudi Arabia U20  VS  Pakistan U20   Volleyball   2022-08-28T12:30:00  Status = 1   After game start time out = :  1 hours  49 minutes
+2022-08-28 14:19:25,214 - craftBet -ERROR - The Time Out games are :   3707517   World Championship Men   Cuba  VS  Qatar   Volleyball   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,215 - craftBet -ERROR - The Time Out games are :   3710450   Club Friendlies   SPS Chrobry Glogow  VS  Krispol Wrzesnia   Volleyball   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  19 minutes
+2022-08-28 14:19:25,217 - craftBet -INFO - Time out Games are:  105
+2022-08-28 14:19:26,091 - craftBet -INFO - Browser closed
+2022-08-28 14:19:26,091 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-28 14:19:26,099 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-28 14:20:16,236 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 14:20:16,453 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 14:20:16,474 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 14:20:18,265 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 14:20:18,322 - craftBet -INFO - All Page elements are initialized
+2022-08-28 14:20:18,332 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 14:20:19,119 - craftBet -INFO - Get games Api call was sent
+2022-08-28 14:20:19,174 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 14:20:19,230 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  15 hours  32 minutes
+2022-08-28 14:20:19,235 - craftBet -ERROR - The Time Out games are :   3708111   ITFW60Prerov   Irene Burillo Escorihuela  VS  Sada Nahimana   Tennis   2022-08-27T16:30:47  Status = 1   After game start time out = :  21 hours  50 minutes
+2022-08-28 14:20:19,235 - craftBet -ERROR - The Time Out games are :   3704769   ITF-M Celje   Roko Horvat  VS  Daniele Capecchi   Tennis   2022-08-27T18:00:00  Status = 1   After game start time out = :  20 hours  21 minutes
+2022-08-28 14:20:19,239 - craftBet -INFO - Time out Games are:  3
+2022-08-28 14:20:20,567 - craftBet -INFO - Browser closed
+2022-08-28 14:20:20,567 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-28 14:20:20,576 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-28 14:21:28,470 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 14:21:28,739 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 14:21:28,762 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 14:21:30,992 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 14:21:31,095 - craftBet -INFO - All Page elements are initialized
+2022-08-28 14:21:31,106 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 14:21:31,936 - craftBet -INFO - Get games Api call was sent
+2022-08-28 14:21:31,986 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 14:21:32,045 - craftBet -ERROR - The Time Out games are :   3708136   NBL Women   UCU Lady Canons (W)  VS  Magic Stormers (W)   Basketball   2022-08-28T13:00:00  Status = 1   After game start time out = :  1 hours  21 minutes
+2022-08-28 14:21:32,046 - craftBet -ERROR - The Time Out games are :   3710692   EbasketballH2HGGLeague-4x5mins   BOS Celtics (GRECO) Esports  VS  MIL Bucks (SPOOKY) Esports   Basketball   2022-08-28T13:46:05  Status = 1   After game start time out = :  0 hours  35 minutes
+2022-08-28 14:21:32,046 - craftBet -ERROR - The Time Out games are :   3710734   EbasketballBattle-4x5mins   TOR Raptors (tapachan) Esports  VS  CHA Hornets (Lalkoff) Esports   Basketball   2022-08-28T13:54:37  Status = 1   After game start time out = :  0 hours  26 minutes
+2022-08-28 14:21:32,046 - craftBet -ERROR - The Time Out games are :   3708794   National League. Women   IPRC Huye (W)  VS  APR BBC (W)   Basketball   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  21 minutes
+2022-08-28 14:21:32,047 - craftBet -ERROR - The Time Out games are :   3708240   VBA   Saigon Heat  VS  Hanoi Buffaloes   Basketball   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  21 minutes
+2022-08-28 14:21:32,047 - craftBet -ERROR - The Time Out games are :   3707339   PBA Cup   Talk N Text Tropang Texters  VS  San Miguel Beermen   Basketball   2022-08-28T14:00:00  Status = 1   After game start time out = :  0 hours  21 minutes
+2022-08-28 14:21:32,047 - craftBet -ERROR - The Time Out games are :   3710788   EbasketballH2HGGLeague-4x5mins   GS Warriors (SMOLZ) Esports  VS  PHI 76ers (JD) Esports   Basketball   2022-08-28T14:07:36  Status = 1   After game start time out = :  0 hours  13 minutes
+2022-08-28 14:21:32,049 - craftBet -INFO - Time out Games are:  7
+2022-08-28 14:21:32,961 - craftBet -INFO - Browser closed
+2022-08-28 14:21:32,961 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-28 14:21:32,968 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-28 14:40:32,872 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 14:40:33,127 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 14:40:33,152 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 14:40:37,553 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 14:40:37,617 - craftBet -INFO - All Page elements are initialized
+2022-08-28 14:40:37,627 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 14:40:38,848 - craftBet -INFO - Get games Api call was sent
+2022-08-28 14:40:38,898 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 14:40:38,957 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  15 hours  53 minutes
+2022-08-28 14:40:38,963 - craftBet -ERROR - The Time Out games are :   3708111   ITFW60Prerov   Irene Burillo Escorihuela  VS  Sada Nahimana   Tennis   2022-08-27T16:30:47  Status = 1   After game start time out = :  22 hours  10 minutes
+2022-08-28 14:40:38,964 - craftBet -ERROR - The Time Out games are :   3704769   ITF-M Celje   Roko Horvat  VS  Daniele Capecchi   Tennis   2022-08-27T18:00:00  Status = 1   After game start time out = :  20 hours  41 minutes
+2022-08-28 14:40:38,965 - craftBet -ERROR - The Time Out games are :   3708246   Monastir, Tunisia   Matthew Dellavedova  VS  Eliakim Coulibaly   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  40 minutes
+2022-08-28 14:40:38,965 - craftBet -ERROR - The Time Out games are :   3709226   ATP CH Como   Nicolas Moreno De Alboran  VS  Federico Iannaccone   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  40 minutes
+2022-08-28 14:40:38,965 - craftBet -ERROR - The Time Out games are :   3709178   Monastir, Tunisia   Sijia Wei  VS  Zongyu Li   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  40 minutes
+2022-08-28 14:40:38,966 - craftBet -ERROR - The Time Out games are :   3709278   ITF-M Caslano   Damien Wenger  VS  Elmar Ejupovic   Tennis   2022-08-28T12:30:00  Status = 1   After game start time out = :  2 hours  10 minutes
+2022-08-28 14:40:38,966 - craftBet -ERROR - The Time Out games are :   3710290   ATP CH Toulouse   Roman Andres Burruchaga  VS  Federico Agustin Gomez   Tennis   2022-08-28T12:30:00  Status = 1   After game start time out = :  2 hours  10 minutes
+2022-08-28 14:40:38,969 - craftBet -ERROR - The Time Out games are :   3709022   NFLPreseason   JAX Jaguars  VS  ATL Falcons   American Football   2022-08-27T22:58:53  Status = 1   After game start time out = :  15 hours  42 minutes
+2022-08-28 14:40:38,970 - craftBet -ERROR - The Time Out games are :   3710186   Dota 2 - ESL One Malaysia   Team Aster  VS  OG   E-sports   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  40 minutes
+2022-08-28 14:40:38,970 - craftBet -ERROR - The Time Out games are :   3709519   Counter Strike - IEM Road to Rio. APAC   Rare Atom (CS)  VS  Wings Up (CS)   E-sports   2022-08-28T12:30:00  Status = 1   After game start time out = :  2 hours  10 minutes
+2022-08-28 14:40:38,971 - craftBet -ERROR - The Time Out games are :   3708393   World Championships Women   Akane Yamaguchi  VS  CHEN Yu Fei   Badminton   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  40 minutes
+2022-08-28 14:40:38,971 - craftBet -ERROR - The Time Out games are :   3709018   MLB   LA Angels  VS  TOR Blue Jays   Baseball   2022-08-27T22:54:31  Status = 1   After game start time out = :  15 hours  47 minutes
+2022-08-28 14:40:38,971 - craftBet -ERROR - The Time Out games are :   3710418   KoreanKBO   Lotte Giants  VS  SSG Landers   Baseball   2022-08-28T11:58:32  Status = 1   After game start time out = :  2 hours  42 minutes
+2022-08-28 14:40:38,971 - craftBet -ERROR - The Time Out games are :   3710421   KoreanKBO   KT Wiz  VS  NC Dinos   Baseball   2022-08-28T12:01:03  Status = 1   After game start time out = :  2 hours  39 minutes
+2022-08-28 14:40:38,971 - craftBet -ERROR - The Time Out games are :   3710423   KoreanKBO   Hanwha Eagles  VS  Samsung Lions   Baseball   2022-08-28T12:01:05  Status = 1   After game start time out = :  2 hours  39 minutes
+2022-08-28 14:40:38,972 - craftBet -ERROR - The Time Out games are :   3710422   KoreanKBO   Kiwoom Heroes  VS  LG Twins   Baseball   2022-08-28T12:01:05  Status = 1   After game start time out = :  2 hours  39 minutes
+2022-08-28 14:40:38,972 - craftBet -ERROR - The Time Out games are :   3710487   KoreanKBO   Doosan Bears  VS  Kia Tigers   Baseball   2022-08-28T12:25:03  Status = 1   After game start time out = :  2 hours  15 minutes
+2022-08-28 14:40:38,972 - craftBet -ERROR - The Time Out games are :   3696193   European Championships Women   Hungary (W)  VS  Greece (W)   Water Polo   2022-08-27T22:30:00  Status = 1   After game start time out = :  16 hours  11 minutes
+2022-08-28 14:40:38,972 - craftBet -ERROR - The Time Out games are :   3708552   Curragh   4.15 Curragh (Race 6)  VS  ~N/A~   Horse Racing   2022-08-27T18:45:09  Status = 1   After game start time out = :  19 hours  56 minutes
+2022-08-28 14:40:38,972 - craftBet -ERROR - The Time Out games are :   3709013   SanIsidro   8.15 San Isidro (Race 7)  VS  ~N/A~   Horse Racing   2022-08-27T22:50:04  Status = 1   After game start time out = :  15 hours  51 minutes
+2022-08-28 14:40:38,973 - craftBet -ERROR - The Time Out games are :   3709037   EllisPark   Race 4 Ellis Park  VS  ~N/A~   Horse Racing   2022-08-27T23:05:03  Status = 1   After game start time out = :  15 hours  36 minutes
+2022-08-28 14:40:38,973 - craftBet -INFO - Time out Games are:  22
+2022-08-28 14:40:40,204 - craftBet -INFO - Browser closed
+2022-08-28 14:40:40,204 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-28 14:40:40,209 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-28 14:45:08,634 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 14:45:08,876 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 14:45:08,897 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 14:45:11,293 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 14:45:11,353 - craftBet -INFO - All Page elements are initialized
+2022-08-28 14:45:11,362 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 14:45:12,753 - craftBet -INFO - Get games Api call was sent
+2022-08-28 14:45:12,865 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 14:45:12,915 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  15 hours  57 minutes
+2022-08-28 14:45:33,494 - craftBet -ERROR - The Time Out games are :   3708111   ITFW60Prerov   Irene Burillo Escorihuela  VS  Sada Nahimana   Tennis   2022-08-27T16:30:47  Status = 1   After game start time out = :  22 hours  15 minutes
+2022-08-28 14:45:45,250 - craftBet -ERROR - The Time Out games are :   3704769   ITF-M Celje   Roko Horvat  VS  Daniele Capecchi   Tennis   2022-08-27T18:00:00  Status = 1   After game start time out = :  20 hours  46 minutes
+2022-08-28 14:45:57,713 - craftBet -ERROR - The Time Out games are :   3708246   Monastir, Tunisia   Matthew Dellavedova  VS  Eliakim Coulibaly   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  45 minutes
+2022-08-28 14:48:57,220 - craftBet -ERROR - The Time Out games are :   3709226   ATP CH Como   Nicolas Moreno De Alboran  VS  Federico Iannaccone   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  48 minutes
+2022-08-28 14:49:04,023 - craftBet -ERROR - The Time Out games are :   3709178   Monastir, Tunisia   Sijia Wei  VS  Zongyu Li   Tennis   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  49 minutes
+2022-08-28 14:52:41,993 - craftBet -ERROR - The Time Out games are :   3709278   ITF-M Caslano   Damien Wenger  VS  Elmar Ejupovic   Tennis   2022-08-28T12:30:00  Status = 1   After game start time out = :  2 hours  22 minutes
+2022-08-28 14:52:41,993 - craftBet -ERROR - The Time Out games are :   3710290   ATP CH Toulouse   Roman Andres Burruchaga  VS  Federico Agustin Gomez   Tennis   2022-08-28T12:30:00  Status = 1   After game start time out = :  2 hours  22 minutes
+2022-08-28 14:52:41,997 - craftBet -ERROR - The Time Out games are :   3709022   NFLPreseason   JAX Jaguars  VS  ATL Falcons   American Football   2022-08-27T22:58:53  Status = 1   After game start time out = :  15 hours  54 minutes
+2022-08-28 14:52:41,997 - craftBet -ERROR - The Time Out games are :   3710186   Dota 2 - ESL One Malaysia   Team Aster  VS  OG   E-sports   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  52 minutes
+2022-08-28 14:52:41,997 - craftBet -ERROR - The Time Out games are :   3709519   Counter Strike - IEM Road to Rio. APAC   Rare Atom (CS)  VS  Wings Up (CS)   E-sports   2022-08-28T12:30:00  Status = 1   After game start time out = :  2 hours  22 minutes
+2022-08-28 14:52:41,998 - craftBet -ERROR - The Time Out games are :   3708393   World Championships Women   Akane Yamaguchi  VS  CHEN Yu Fei   Badminton   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  52 minutes
+2022-08-28 14:52:41,998 - craftBet -ERROR - The Time Out games are :   3709018   MLB   LA Angels  VS  TOR Blue Jays   Baseball   2022-08-27T22:54:31  Status = 1   After game start time out = :  15 hours  59 minutes
+2022-08-28 14:52:41,999 - craftBet -ERROR - The Time Out games are :   3710418   KoreanKBO   Lotte Giants  VS  SSG Landers   Baseball   2022-08-28T11:58:32  Status = 1   After game start time out = :  2 hours  54 minutes
+2022-08-28 14:52:41,999 - craftBet -ERROR - The Time Out games are :   3710421   KoreanKBO   KT Wiz  VS  NC Dinos   Baseball   2022-08-28T12:01:03  Status = 1   After game start time out = :  2 hours  51 minutes
+2022-08-28 14:52:41,999 - craftBet -ERROR - The Time Out games are :   3710423   KoreanKBO   Hanwha Eagles  VS  Samsung Lions   Baseball   2022-08-28T12:01:05  Status = 1   After game start time out = :  2 hours  51 minutes
+2022-08-28 14:52:42,000 - craftBet -ERROR - The Time Out games are :   3710422   KoreanKBO   Kiwoom Heroes  VS  LG Twins   Baseball   2022-08-28T12:01:05  Status = 1   After game start time out = :  2 hours  51 minutes
+2022-08-28 14:52:42,000 - craftBet -ERROR - The Time Out games are :   3710487   KoreanKBO   Doosan Bears  VS  Kia Tigers   Baseball   2022-08-28T12:25:03  Status = 1   After game start time out = :  2 hours  27 minutes
+2022-08-28 14:52:42,001 - craftBet -ERROR - The Time Out games are :   3696193   European Championships Women   Hungary (W)  VS  Greece (W)   Water Polo   2022-08-27T22:30:00  Status = 1   After game start time out = :  16 hours  23 minutes
+2022-08-28 14:52:42,001 - craftBet -ERROR - The Time Out games are :   3708552   Curragh   4.15 Curragh (Race 6)  VS  ~N/A~   Horse Racing   2022-08-27T18:45:09  Status = 1   After game start time out = :  20 hours  8 minutes
+2022-08-28 14:52:42,002 - craftBet -ERROR - The Time Out games are :   3709013   SanIsidro   8.15 San Isidro (Race 7)  VS  ~N/A~   Horse Racing   2022-08-27T22:50:04  Status = 1   After game start time out = :  16 hours  3 minutes
+2022-08-28 14:52:42,002 - craftBet -ERROR - The Time Out games are :   3709037   EllisPark   Race 4 Ellis Park  VS  ~N/A~   Horse Racing   2022-08-27T23:05:03  Status = 1   After game start time out = :  15 hours  48 minutes
+2022-08-28 14:52:42,002 - craftBet -INFO - Time out Games are:  22
+2022-08-28 14:56:29,533 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 14:56:29,775 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 14:56:29,797 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 14:56:34,271 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 14:56:34,336 - craftBet -INFO - All Page elements are initialized
+2022-08-28 14:56:34,348 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 14:56:35,860 - craftBet -INFO - Get games Api call was sent
+2022-08-28 14:56:36,022 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 14:56:36,066 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  16 hours  9 minutes
+2022-08-28 14:56:48,858 - craftBet -ERROR - The Time Out games are :   3708111   ITFW60Prerov   Irene Burillo Escorihuela  VS  Sada Nahimana   Tennis   2022-08-27T16:30:47  Status = 1   After game start time out = :  22 hours  27 minutes
+2022-08-28 14:56:52,204 - craftBet -ERROR - The Time Out games are :   3704769   ITF-M Celje   Roko Horvat  VS  Daniele Capecchi   Tennis   2022-08-27T18:00:00  Status = 1   After game start time out = :  20 hours  57 minutes
+2022-08-28 14:56:54,976 - craftBet -ERROR - The Time Out games are :   3709022   NFLPreseason   JAX Jaguars  VS  ATL Falcons   American Football   2022-08-27T22:58:53  Status = 1   After game start time out = :  15 hours  59 minutes
+2022-08-28 14:57:23,990 - craftBet -ERROR - The Time Out games are :   3708393   World Championships Women   Akane Yamaguchi  VS  CHEN Yu Fei   Badminton   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  57 minutes
+2022-08-28 14:57:33,161 - craftBet -ERROR - The Time Out games are :   3709018   MLB   LA Angels  VS  TOR Blue Jays   Baseball   2022-08-27T22:54:31  Status = 1   After game start time out = :  16 hours  4 minutes
+2022-08-28 14:57:39,831 - craftBet -ERROR - The Time Out games are :   3696193   European Championships Women   Hungary (W)  VS  Greece (W)   Water Polo   2022-08-27T22:30:00  Status = 1   After game start time out = :  16 hours  28 minutes
+2022-08-28 14:58:16,304 - craftBet -ERROR - The Time Out games are :   3708552   Curragh   4.15 Curragh (Race 6)  VS  ~N/A~   Horse Racing   2022-08-27T18:45:09  Status = 1   After game start time out = :  20 hours  14 minutes
+2022-08-28 14:58:23,508 - craftBet -ERROR - The Time Out games are :   3709013   SanIsidro   8.15 San Isidro (Race 7)  VS  ~N/A~   Horse Racing   2022-08-27T22:50:04  Status = 1   After game start time out = :  16 hours  9 minutes
+2022-08-28 14:58:29,343 - craftBet -ERROR - The Time Out games are :   3709037   EllisPark   Race 4 Ellis Park  VS  ~N/A~   Horse Racing   2022-08-27T23:05:03  Status = 1   After game start time out = :  15 hours  54 minutes
+2022-08-28 14:58:30,414 - craftBet -INFO - Time out Games are:  10
+2022-08-28 14:58:31,470 - craftBet -INFO - Browser closed
+2022-08-28 14:58:31,471 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-28 14:58:31,481 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-28 14:59:09,223 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 14:59:09,493 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 14:59:09,515 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 14:59:11,627 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 14:59:11,701 - craftBet -INFO - All Page elements are initialized
+2022-08-28 14:59:11,715 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 14:59:13,238 - craftBet -INFO - Get games Api call was sent
+2022-08-28 14:59:13,313 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 14:59:13,419 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  16 hours  11 minutes
+2022-08-28 14:59:13,426 - craftBet -ERROR - The Time Out games are :   3708111   ITFW60Prerov   Irene Burillo Escorihuela  VS  Sada Nahimana   Tennis   2022-08-27T16:30:47  Status = 1   After game start time out = :  22 hours  29 minutes
+2022-08-28 14:59:13,426 - craftBet -ERROR - The Time Out games are :   3704769   ITF-M Celje   Roko Horvat  VS  Daniele Capecchi   Tennis   2022-08-27T18:00:00  Status = 1   After game start time out = :  21 hours  0 minutes
+2022-08-28 14:59:13,428 - craftBet -ERROR - The Time Out games are :   3709022   NFLPreseason   JAX Jaguars  VS  ATL Falcons   American Football   2022-08-27T22:58:53  Status = 1   After game start time out = :  16 hours  1 minutes
+2022-08-28 14:59:13,430 - craftBet -ERROR - The Time Out games are :   3708393   World Championships Women   Akane Yamaguchi  VS  CHEN Yu Fei   Badminton   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  59 minutes
+2022-08-28 14:59:13,431 - craftBet -ERROR - The Time Out games are :   3709018   MLB   LA Angels  VS  TOR Blue Jays   Baseball   2022-08-27T22:54:31  Status = 1   After game start time out = :  16 hours  5 minutes
+2022-08-28 14:59:13,431 - craftBet -ERROR - The Time Out games are :   3696193   European Championships Women   Hungary (W)  VS  Greece (W)   Water Polo   2022-08-27T22:30:00  Status = 1   After game start time out = :  16 hours  30 minutes
+2022-08-28 14:59:13,432 - craftBet -ERROR - The Time Out games are :   3708552   Curragh   4.15 Curragh (Race 6)  VS  ~N/A~   Horse Racing   2022-08-27T18:45:09  Status = 1   After game start time out = :  20 hours  15 minutes
+2022-08-28 14:59:13,434 - craftBet -ERROR - The Time Out games are :   3709013   SanIsidro   8.15 San Isidro (Race 7)  VS  ~N/A~   Horse Racing   2022-08-27T22:50:04  Status = 1   After game start time out = :  16 hours  10 minutes
+2022-08-28 14:59:13,434 - craftBet -ERROR - The Time Out games are :   3709037   EllisPark   Race 4 Ellis Park  VS  ~N/A~   Horse Racing   2022-08-27T23:05:03  Status = 1   After game start time out = :  15 hours  55 minutes
+2022-08-28 14:59:13,435 - craftBet -INFO - Time out Games are:  10
+2022-08-28 14:59:15,175 - craftBet -INFO - Browser closed
+2022-08-28 14:59:15,175 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-28 14:59:15,183 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-28 14:59:27,062 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-28 14:59:27,313 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-28 14:59:27,350 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-28 14:59:30,096 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-28 14:59:30,171 - craftBet -INFO - All Page elements are initialized
+2022-08-28 14:59:30,183 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-28 14:59:31,064 - craftBet -INFO - Get games Api call was sent
+2022-08-28 14:59:31,142 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-28 14:59:31,229 - craftBet -ERROR - The Time Out games are :   3708960   UruguaySegundaBNacional   Deportivo Colonia  VS  Club Oriental   Soccer   2022-08-27T22:48:33  Status = 1   After game start time out = :  16 hours  11 minutes
+2022-08-28 14:59:31,236 - craftBet -ERROR - The Time Out games are :   3708111   ITFW60Prerov   Irene Burillo Escorihuela  VS  Sada Nahimana   Tennis   2022-08-27T16:30:47  Status = 1   After game start time out = :  22 hours  29 minutes
+2022-08-28 14:59:31,237 - craftBet -ERROR - The Time Out games are :   3704769   ITF-M Celje   Roko Horvat  VS  Daniele Capecchi   Tennis   2022-08-27T18:00:00  Status = 1   After game start time out = :  21 hours  0 minutes
+2022-08-28 14:59:31,240 - craftBet -ERROR - The Time Out games are :   3709022   NFLPreseason   JAX Jaguars  VS  ATL Falcons   American Football   2022-08-27T22:58:53  Status = 1   After game start time out = :  16 hours  1 minutes
+2022-08-28 14:59:31,242 - craftBet -ERROR - The Time Out games are :   3708393   World Championships Women   Akane Yamaguchi  VS  CHEN Yu Fei   Badminton   2022-08-28T12:00:00  Status = 1   After game start time out = :  2 hours  59 minutes
+2022-08-28 14:59:31,243 - craftBet -ERROR - The Time Out games are :   3709018   MLB   LA Angels  VS  TOR Blue Jays   Baseball   2022-08-27T22:54:31  Status = 1   After game start time out = :  16 hours  5 minutes
+2022-08-28 14:59:31,245 - craftBet -ERROR - The Time Out games are :   3696193   European Championships Women   Hungary (W)  VS  Greece (W)   Water Polo   2022-08-27T22:30:00  Status = 1   After game start time out = :  16 hours  30 minutes
+2022-08-28 14:59:31,245 - craftBet -ERROR - The Time Out games are :   3708552   Curragh   4.15 Curragh (Race 6)  VS  ~N/A~   Horse Racing   2022-08-27T18:45:09  Status = 1   After game start time out = :  20 hours  15 minutes
+2022-08-28 14:59:31,248 - craftBet -ERROR - The Time Out games are :   3709013   SanIsidro   8.15 San Isidro (Race 7)  VS  ~N/A~   Horse Racing   2022-08-27T22:50:04  Status = 1   After game start time out = :  16 hours  10 minutes
+2022-08-28 14:59:31,249 - craftBet -ERROR - The Time Out games are :   3709037   EllisPark   Race 4 Ellis Park  VS  ~N/A~   Horse Racing   2022-08-27T23:05:03  Status = 1   After game start time out = :  15 hours  55 minutes
+2022-08-28 14:59:31,250 - craftBet -INFO - Time out Games are:  10
+2022-08-28 14:59:32,577 - craftBet -INFO - Browser closed
+2022-08-28 14:59:32,578 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-28 14:59:32,590 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  

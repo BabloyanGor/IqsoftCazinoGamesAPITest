@@ -306,14 +306,13 @@ public class BaseTest extends DriverFactory {
 
             JSONArray jsonArrayTMs = jsonObjectGame.getJSONArray("TMs");
             JSONObject TMs1;
-            JSONObject TMs2 ;
+            JSONObject TMs2;
             JSONObject TMs3;
             try {
-                 TMs1 = jsonArrayTMs.getJSONObject(0);
-                 TMs2 = jsonArrayTMs.getJSONObject(1);
-                 TMs3 = jsonArrayTMs.getJSONObject(2);
-            }
-            catch (Exception e){
+                TMs1 = jsonArrayTMs.getJSONObject(0);
+                TMs2 = jsonArrayTMs.getJSONObject(1);
+                TMs3 = jsonArrayTMs.getJSONObject(2);
+            } catch (Exception e) {
 
             }
 
@@ -358,212 +357,146 @@ public class BaseTest extends DriverFactory {
             String monthsString = String.valueOf(period.getMonths());
             String yearsString = String.valueOf(period.getYears());
 
-            int hour;
-            int minutes;
-            try {
-//                if (hoursString.contains("-")) {
-//                    hour = Integer.parseInt(hoursString.substring(1));
-//                } else { }
-                hour = Integer.parseInt(hoursString);
-                minutes = Integer.parseInt(minutesString);
-                minutes = minutes + hour * 60;
+            int day = parseInt(daysString);
+            int hour = parseInt(hoursString);
+            int minutes = parseInt(minutesString);
 
-            } catch (Exception e) {
-                logger.info("Hours cant be parseInt Exception  " + time[0] + time[1]);
-                hour = 0;
-                minutes = 0;
-            }
-            int hoursForLog = minutes / 60;
-            int minutesForLog = minutes % 60;
-
-            String errMessageMinutes = gameID.get(i) + "   " + leagueType.get(i) + "   " + teamOne.get(i) + "  VS  " + teamTwo.get(i) + "   " + gameType.get(i) + "   " + gameStartTime.get(i) + "  Status = " + gameStatus1.get(i) + "   After game start time out = :  " + hoursForLog + " hours  " + minutesForLog + " minutes";
-            String errMessageDayMonthYear = gameID.get(i) + "   " + leagueType.get(i) + "   " + teamOne.get(i) + "  VS  " + teamTwo.get(i) + "   " + gameType.get(i) + "   " + gameStartTime.get(i) + "  Status = " + gameStatus1.get(i) + "   " + daysString + " / " + monthsString + " / " + yearsString;
-
-
-            //region <Soccer>>
-            if (gameType.get(i).equals("Soccer")) {
-                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {  // contains to equals
-                    if (minutes >= 180) {
-                        logger.error("The Time Out games are :   " + errMessageMinutes);
-                        errorSrcXl.add(errMessageMinutes);
-                    }
-                } else {
-                    logger.error("The Time Out games are :   " + errMessageDayMonthYear);
-                    errorSrcXl.add(errMessageDayMonthYear);
-                }
-            }
-            //endregion
-            //region <Basketball>>
-            else if (gameType.get(i).equals("Basketball")) {
-                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
-                    if (minutes >= 180) {
-                        logger.error("The Time Out games are :   " + errMessageMinutes);
-                        errorSrcXl.add(errMessageMinutes);
-                    }
-                } else {
-                    logger.error("The Time Out games are :   " + errMessageDayMonthYear);
-                    errorSrcXl.add(errMessageDayMonthYear);
-                }
-            }
-            //endregion
-            //region <Tennis>
-            else if (gameType.get(i).equals("Tennis")) {
-                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
-                    if (minutes >= 240) {
-                        logger.error("The Time Out games are :   " + errMessageMinutes);
-                        errorSrcXl.add(errMessageMinutes);
-                    }
-                } else {
-                    logger.error("The Time Out games are :   " + errMessageDayMonthYear);
-                    errorSrcXl.add(errMessageDayMonthYear);
-                }
+            int allMinutes;
+            if (day == 0) {
+                allMinutes = hour * 60 + minutes;
+            } else {
+                allMinutes = day * 24 * 60 + (hour * 60 + minutes);
             }
 
 
-            //endregion
-            //region <Volleyball>
-            else if (gameType.get(i).equals("Volleyball")) {
-                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
-                    if (minutes >= 180) {
+//            System.out.println(allMinutes + "  " + day + "  " + hour + "   " + minutes);
+
+            int hoursForLog = allMinutes / 60;
+            int minutesForLog = allMinutes % 60;
+
+            String errMessageMinutes = gameID.get(i) + "   " + leagueType.get(i) + "   " + teamOne.get(i) + "  VS  "
+                    + teamTwo.get(i) + "   " + gameType.get(i) + "   " + gameStartTime.get(i) + "  Status = "
+                    + gameStatus1.get(i) + "   After game start time out = :  " + hoursForLog + " hours  "
+                    + minutesForLog + " minutes";
+
+            switch (gameType.get(i)){
+                case "Soccer":{
+                    if (allMinutes >= 180) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
                     }
-                } else {
-                    logger.error("The Time Out games are :   " + errMessageDayMonthYear);
-                    errorSrcXl.add(errMessageDayMonthYear);
+                    break;
                 }
-            }
-            //endregion
-            //region <Ice Hockey>
-            else if (gameType.get(i).equals("Ice Hockey")) {
-                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
-                    if (minutes >= 120) {
+                case "Basketball":{
+                    if (allMinutes > 180) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
                     }
-                } else {
-                    logger.error("The Time Out games are :   " + errMessageDayMonthYear);
-                    errorSrcXl.add(errMessageDayMonthYear);
+                    break;
                 }
-            }
-            //endregion
-            //region <Table Tennis>
-            else if (gameType.get(i).equals("Table Tennis")) {
-                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
-                    if (minutes >= 80) {
+                case "Baseball":{
+                    if (allMinutes >= 240) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
                     }
-                } else {
-                    logger.error("The Time Out games are :   " + errMessageDayMonthYear);
-                    errorSrcXl.add(errMessageDayMonthYear);
+                    break;
                 }
-            }
-            //endregion
-            //region <Handball>
-            else if (gameType.get(i).equals("Handball")) {
-                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
-                    if (minutes >= 120) {
+                case "Tennis":{
+                    if (allMinutes >= 350) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
                     }
-                } else {
-                    logger.error("The Time Out games are :   " + errMessageDayMonthYear);
-                    errorSrcXl.add(errMessageDayMonthYear);
+                    break;
                 }
-            }
-            //endregion
-            //region <E-sports>
-            else if (gameType.get(i).equals("E-sports")) {
-                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
-                    if (minutes >= 240) {
+                case "Volleyball":{
+                    if (allMinutes >= 210) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
                     }
-                } else {
-                    logger.error("The Time Out games are :   " + errMessageDayMonthYear);
-                    errorSrcXl.add(errMessageDayMonthYear);
+                    break;
                 }
-            }
-            //endregion
-            //region <Badminton>
-            else if (gameType.get(i).equals("Badminton")) {
-                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
-                    if (minutes >= 240) {
+                case "Ice Hockey":{
+                    if (allMinutes >= 150) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
                     }
-                } else {
-                    logger.error("The Time Out games are :   " + errMessageDayMonthYear);
-                    errorSrcXl.add(errMessageDayMonthYear);
+                    break;
                 }
-            }
-            //endregion
-            //region <Darts>
-            else if (gameType.get(i).equals("Darts")) {
-                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
-                    if (minutes >= 45) {
+                case "Table Tennis":{
+                    if (allMinutes >= 120) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
                     }
-                } else {
-                    logger.error("The Time Out games are :   " + errMessageDayMonthYear);
-                    errorSrcXl.add(errMessageDayMonthYear);
+                    break;
                 }
-            }
-            //endregion
-            //region <Cricket>
-            else if (gameType.get(i).equals("Cricket")) {
-                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
-                    if (minutes >= 240) {
+                case "Handball":{
+                    if (allMinutes > 120) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
                     }
-                } else {
-                    logger.error("The Time Out games are :   " + errMessageDayMonthYear);
-                    errorSrcXl.add(errMessageDayMonthYear);
+                    break;
                 }
-            }
-            //endregion
-            //region <Horse Racing>
-            else if (gameType.get(i).equals("Horse Racing")) {
-                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
-                    if (minutes >= 60) {
+                case "E-sports":{
+                    if (allMinutes > 181) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
                     }
-                } else {
-                    logger.error("The Time Out games are :   " + errMessageDayMonthYear);
-                    errorSrcXl.add(errMessageDayMonthYear);
+                    break;
                 }
-            }
-            //endregion
-            //region <Table nE-Football>
-            else if (gameType.get(i).equals("Table nE-Football")) {
-                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
-                    if (minutes >= 240) {
+                case "Badminton":{
+                    if (allMinutes > 150) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
                     }
-                } else {
-                    logger.error("The Time Out games are :   " + errMessageDayMonthYear);
-                    errorSrcXl.add(errMessageDayMonthYear);
+                    break;
                 }
-            }
-            //endregion
-            //region <Snooker>
-            else if (gameType.get(i).equals("Snooker")) {
-                if (daysString.contains("0") && monthsString.contains("0") && yearsString.contains("0")) {
-                    if (minutes >= 240) {
+                case "Darts":{
+                    if (allMinutes >= 121) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
                     }
-                } else {
-                    logger.error("The Time Out games are :   " + errMessageDayMonthYear);
-                    errorSrcXl.add(errMessageDayMonthYear);
+                    break;
                 }
+                case "Cricket":{
+                    if (allMinutes >= 500) {
+                        logger.error("The Time Out games are :   " + errMessageMinutes);
+                        errorSrcXl.add(errMessageMinutes);
+                    }
+                    break;
+                }
+                case "Horse Racing":{
+                    if (allMinutes >= 182) {
+                        logger.error("The Time Out games are :   " + errMessageMinutes);
+                        errorSrcXl.add(errMessageMinutes);
+                    }
+                    break;
+                }
+                case "Snooker":{
+                    if (allMinutes > 182) {
+                        logger.error("The Time Out games are :   " + errMessageMinutes);
+                        errorSrcXl.add(errMessageMinutes);
+                    }
+                    break;
+                }
+                case "Table nE-Football":{
+                    if (allMinutes >= 179) {
+                        logger.error("The Time Out games are :   " + errMessageMinutes);
+                        errorSrcXl.add(errMessageMinutes);
+                    }
+                    break;
+                }
+
+                default:{
+                    if (allMinutes >= 300) {
+                        logger.error("The Time Out games are :   " + errMessageMinutes);
+                        errorSrcXl.add(errMessageMinutes);
+                    }
+                }
+
+
             }
-            //endregion
+
+
         }
 
         logger.info("Time out Games are:  " + errorSrcXl.size());
