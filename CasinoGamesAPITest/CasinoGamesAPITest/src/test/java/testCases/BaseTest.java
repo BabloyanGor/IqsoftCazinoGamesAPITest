@@ -100,13 +100,19 @@ public class BaseTest extends DriverFactory {
         HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
                 .header("content-type", "application/json")
                 .header("origin", origin)
-                .body("{\"PageIndex\":0,\"PageSize\":20000,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false,\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
+                //.header("user-agent", "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1")
+
+                .body("{\"PageIndex\":0,\"PageSize\":20000,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":true,\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
+
+
                 .asString();
+
         logger.info("Get games Api call was sent");
         JSONObject jsonObjectBody = new JSONObject(response.getBody());
         JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.getString("ResponseObject"));
         JSONArray jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
         logger.info("Get games Api Response was captured");
+
 
         for (int j = 0; j < jsonArrayGames.length(); j++) {
 
@@ -747,6 +753,17 @@ public class BaseTest extends DriverFactory {
                 getGamesBaseURL = "https://craftbet.la";
                 break;
             }
+            case 12: {
+                partnerID = 43;
+                getGamesAPIUrl = "https://websitewebapi.oceanbet.io/43/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.oceanbet.io/43/api/Main/GetProductUrl";
+                getUserID = 11111111;
+                getGamesOrigin = "https://oceanbet.io";
+                getGamesRecurse = "https://resources.oceanbet.io/products/";
+                getGamesPartnerName = "oceanbet";
+                getGamesBaseURL = "https://oceanbet.io";
+                break;
+            }
 
             case 100: {
                 partnerID = 1;
@@ -772,7 +789,7 @@ public class BaseTest extends DriverFactory {
             super.initDriver(getGamesBaseURL, browser, isHeadless);
             logger.info("URL: " + getGamesBaseURL + "  Browser: " + browser);
             Dimension d = new Dimension(DimensionWidth, DimensionHeight);  //
-            if (DimensionWidth > 1250 && DimensionHeight > 750) {
+            if (DimensionWidth > 100 && DimensionHeight > 100) {
                 driver.manage().window().setSize(d);
                 logger.info("Window size is: " + DimensionWidth + " x " + DimensionHeight);
             }

@@ -712,3 +712,542 @@ java.net.SocketException: Connection reset
 2022-08-29 17:08:20,369 - craftBet -INFO - Browser closed
 2022-08-29 17:08:20,369 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-08-29 17:08:20,393 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-29 23:03:08,137 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-29 23:03:09,410 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-29 23:03:09,435 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-29 23:03:12,346 - craftBet -INFO - URL: https://oceanbet.io  Browser: chrome
+2022-08-29 23:03:12,423 - craftBet -INFO - All Page elements are initialized
+2022-08-29 23:03:12,433 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-29 23:03:15,969 - craftBet -INFO - Get games Api call was sent
+2022-08-29 23:03:16,194 - craftBet -INFO - Get games Api Response was captured
+2022-08-29 23:03:16,280 - craftBet -INFO - All captured games images was added into ArrayList
+2022-08-29 23:03:26,378 - craftBet -ERROR - 72   Game Provider Name = PragmaticPlay :   Game Name =  Fruit Party 2 :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/web/book-of-ra-deluxe.png
+2022-08-29 23:20:02,433 - craftBet -INFO - Broken images are:  1
+2022-08-29 23:20:03,732 - craftBet -INFO - Browser closed
+2022-08-29 23:20:03,733 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-29 23:20:03,746 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-29 23:33:53,120 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-29 23:33:53,304 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-29 23:33:53,322 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-29 23:33:55,383 - craftBet -INFO - URL: https://oceanbet.io  Browser: chrome
+2022-08-29 23:33:55,430 - craftBet -INFO - All Page elements are initialized
+2022-08-29 23:33:55,440 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-29 23:33:58,758 - craftBet -INFO - Get games Api call was sent
+2022-08-29 23:33:58,910 - craftBet -INFO - Get games Api Response was captured
+2022-08-29 23:33:58,976 - craftBet -INFO - All captured games images was added into ArrayList
+2022-08-29 23:34:08,844 - craftBet -ERROR - 72   Game Provider Name = PragmaticPlay :   Game Name =  Fruit Party 2 :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/web/book-of-ra-deluxe.png
+2022-08-29 23:35:05,611 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-29 23:35:05,833 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-29 23:35:05,860 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-29 23:35:07,852 - craftBet -INFO - URL: https://oceanbet.io  Browser: chrome
+2022-08-29 23:35:19,367 - craftBet -INFO - Window size is: 900 x 300
+2022-08-29 23:35:39,502 - craftBet -INFO - All Page elements are initialized
+2022-08-29 23:35:39,513 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-29 23:35:42,769 - craftBet -INFO - Get games Api call was sent
+2022-08-29 23:35:43,069 - craftBet -INFO - Get games Api Response was captured
+2022-08-29 23:35:43,133 - craftBet -INFO - All captured games images was added into ArrayList
+2022-08-29 23:35:53,098 - craftBet -ERROR - 72   Game Provider Name = PragmaticPlay :   Game Name =  Fruit Party 2 :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/web/book-of-ra-deluxe.png
+2022-08-29 23:39:50,146 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-29 23:39:50,331 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-29 23:39:50,352 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-29 23:39:53,889 - craftBet -INFO - URL: https://oceanbet.io  Browser: chrome
+2022-08-29 23:39:53,935 - craftBet -INFO - All Page elements are initialized
+2022-08-29 23:39:53,946 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-29 23:39:57,208 - craftBet -INFO - Get games Api call was sent
+2022-08-29 23:39:57,373 - craftBet -INFO - Get games Api Response was captured
+2022-08-29 23:39:57,444 - craftBet -INFO - All captured games images was added into ArrayList
+2022-08-29 23:40:10,657 - craftBet -ERROR - 72   Game Provider Name = PragmaticPlay :   Game Name =  Fruit Party 2 :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/web/fparty2.png
+2022-08-29 23:40:38,109 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-29 23:40:38,292 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-29 23:40:38,310 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-29 23:40:40,205 - craftBet -INFO - URL: https://oceanbet.io  Browser: chrome
+2022-08-29 23:40:40,439 - craftBet -INFO - Window size is: 390 x 844
+2022-08-29 23:40:40,504 - craftBet -INFO - All Page elements are initialized
+2022-08-29 23:40:40,741 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-29 23:40:44,085 - craftBet -INFO - Get games Api call was sent
+2022-08-29 23:40:44,247 - craftBet -INFO - Get games Api Response was captured
+2022-08-29 23:40:44,313 - craftBet -INFO - All captured games images was added into ArrayList
+2022-08-29 23:40:52,935 - craftBet -ERROR - 72   Game Provider Name = PragmaticPlay :   Game Name =  Fruit Party 2 :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/web/fparty2.png
+2022-08-29 23:45:37,294 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-29 23:45:37,484 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-29 23:45:37,505 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-29 23:45:39,842 - craftBet -INFO - URL: https://oceanbet.io  Browser: chrome
+2022-08-29 23:45:40,077 - craftBet -INFO - Window size is: 390 x 844
+2022-08-29 23:45:40,137 - craftBet -INFO - All Page elements are initialized
+2022-08-29 23:45:40,149 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-29 23:45:43,460 - craftBet -INFO - Get games Api call was sent
+2022-08-29 23:45:43,628 - craftBet -INFO - Get games Api Response was captured
+2022-08-29 23:45:43,694 - craftBet -INFO - All captured games images was added into ArrayList
+2022-08-29 23:51:24,399 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-29 23:51:24,590 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-29 23:51:24,608 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-29 23:51:26,530 - craftBet -INFO - URL: https://oceanbet.io  Browser: chrome
+2022-08-29 23:51:26,751 - craftBet -INFO - Window size is: 390 x 844
+2022-08-29 23:51:26,796 - craftBet -INFO - All Page elements are initialized
+2022-08-29 23:51:27,045 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-29 23:51:30,303 - craftBet -INFO - Get games Api call was sent
+2022-08-29 23:51:30,503 - craftBet -INFO - Get games Api Response was captured
+2022-08-29 23:51:30,565 - craftBet -INFO - All captured games images was added into ArrayList
+2022-08-29 23:51:38,096 - craftBet -ERROR - 65   Game Provider Name = PragmaticPlay :   Game Name =  Big Bass Bonanza :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/BigBassBonanza.png
+2022-08-29 23:51:38,333 - craftBet -ERROR - 67   Game Provider Name = PragmaticPlay :   Game Name =  Christmas Big Bass Bonanza :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/christmasbass.jpg
+2022-08-29 23:51:38,453 - craftBet -ERROR - 68   Game Provider Name = PragmaticPlay :   Game Name =  Madame Destiny :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MadameDestiny.png
+2022-08-29 23:51:38,562 - craftBet -ERROR - 69   Game Provider Name = PragmaticPlay :   Game Name =  Starz Megaways :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/StarzMegaways.png
+2022-08-29 23:51:39,051 - craftBet -ERROR - 71   Game Provider Name = PragmaticPlay :   Game Name =  The Dog House :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TheDogHouse.png
+2022-08-29 23:51:39,281 - craftBet -ERROR - 73   Game Provider Name = PragmaticPlay :   Game Name =  Fruit Party :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/FruitParty.png
+2022-08-29 23:51:39,399 - craftBet -ERROR - 74   Game Provider Name = PragmaticPlay :   Game Name =  Sweet Bonanza :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/SweetBonanza.png
+2022-08-29 23:51:39,499 - craftBet -ERROR - 75   Game Provider Name = PragmaticPlay :   Game Name =  Gems Bonanza :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GemsBonanza.png
+2022-08-29 23:51:39,590 - craftBet -ERROR - 76   Game Provider Name = PragmaticPlay :   Game Name =  Gates of Olympus :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GatesofOlympus.png
+2022-08-29 23:51:39,699 - craftBet -ERROR - 77   Game Provider Name = PragmaticPlay :   Game Name =  Santa's Wonderland :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/santaswonderland.jpg
+2022-08-29 23:51:39,800 - craftBet -ERROR - 78   Game Provider Name = PragmaticPlay :   Game Name =  Sweet Bonanza Xmas :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/SweetBonanzaXmas.png
+2022-08-29 23:51:39,914 - craftBet -ERROR - 79   Game Provider Name = PragmaticPlay :   Game Name =  Smugglers Cove :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/smuggle.jpg
+2022-08-29 23:51:40,025 - craftBet -ERROR - 80   Game Provider Name = PragmaticPlay :   Game Name =  Starlight Princess :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/starlight.jpg
+2022-08-29 23:51:40,246 - craftBet -ERROR - 82   Game Provider Name = PragmaticPlay :   Game Name =  John Hunter and the Tomb of the Scarab Queen :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/JohnHunterandtheScarabQueen.png
+2022-08-29 23:51:40,347 - craftBet -ERROR - 83   Game Provider Name = PragmaticPlay :   Game Name =  Wolf Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/WolfGold.png
+2022-08-29 23:51:40,448 - craftBet -ERROR - 84   Game Provider Name = PragmaticPlay :   Game Name =  Juicy Fruits :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/JuicyFruits.png
+2022-08-29 23:51:40,552 - craftBet -ERROR - 85   Game Provider Name = PragmaticPlay :   Game Name =  Might of Ra :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/mightofra.jpg
+2022-08-29 23:51:40,661 - craftBet -ERROR - 86   Game Provider Name = PragmaticPlay :   Game Name =  Big Bass Bonanza Megaways :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/bonanza-mways.jpg
+2022-08-29 23:51:40,797 - craftBet -ERROR - 87   Game Provider Name = PragmaticPlay :   Game Name =  Buffalo King Megaways :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/BuffaloKingMegaways.png
+2022-08-29 23:51:40,903 - craftBet -ERROR - 88   Game Provider Name = PragmaticPlay :   Game Name =  Elemental Gems Megaways :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/elementalgems.jpg
+2022-08-29 23:51:41,011 - craftBet -ERROR - 89   Game Provider Name = PragmaticPlay :   Game Name =  Curse of the Werewolf Megaways :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/CurseofTheWereWolfMegaways.png
+2022-08-29 23:53:21,326 - craftBet -ERROR - 321   Game Provider Name = PragmaticPlay :   Game Name =  Sweet Bonanza :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/SweetBonanza.png
+2022-08-29 23:53:40,145 - craftBet -ERROR - 360   Game Provider Name = PragmaticPlay :   Game Name =  Wolf Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/WolfGold.png
+2022-08-29 23:53:50,326 - craftBet -ERROR - 393   Game Provider Name = PragmaticPlay :   Game Name =  3 Genie Wishes :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/3GenieWishes.png
+2022-08-29 23:53:50,995 - craftBet -ERROR - 396   Game Provider Name = PragmaticPlay :   Game Name =  3Kingdoms-BattleofRedCliffs :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/3Kingdoms.png
+2022-08-29 23:53:54,092 - craftBet -ERROR - 407   Game Provider Name = PragmaticPlay :   Game Name =  5 Lions :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/5Lions.png
+2022-08-29 23:53:54,192 - craftBet -ERROR - 408   Game Provider Name = PragmaticPlay :   Game Name =  5 Lions Dance :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/5LionsDance.png
+2022-08-29 23:53:54,300 - craftBet -ERROR - 409   Game Provider Name = PragmaticPlay :   Game Name =  5 Lions Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/5LionsGold.png
+2022-08-29 23:53:57,493 - craftBet -ERROR - 420   Game Provider Name = PragmaticPlay :   Game Name =  7 Monkeys :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/7Monkeys.png
+2022-08-29 23:53:57,595 - craftBet -ERROR - 421   Game Provider Name = PragmaticPlay :   Game Name =  7 Piggies :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/7Piggies5000.png
+2022-08-29 23:53:59,219 - craftBet -ERROR - 427   Game Provider Name = PragmaticPlay :   Game Name =  8 Dragons :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/8Dragons.png
+2022-08-29 23:54:00,900 - craftBet -ERROR - 433   Game Provider Name = PragmaticPlay :   Game Name =  888 Dragons :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/888Dragons.png
+2022-08-29 23:54:01,012 - craftBet -ERROR - 434   Game Provider Name = PragmaticPlay :   Game Name =  888 Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/888Gold.png
+2022-08-29 23:54:12,857 - craftBet -ERROR - 473   Game Provider Name = PragmaticPlay :   Game Name =  Aladdin and the Sorcerer :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AladdinandtheSorcerer.png
+2022-08-29 23:54:13,273 - craftBet -ERROR - 475   Game Provider Name = PragmaticPlay :   Game Name =  Aladdin's Treasure :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AladdinTreasure.png
+2022-08-29 23:54:20,715 - craftBet -ERROR - 496   Game Provider Name = PragmaticPlay :   Game Name =  Amazing Money Machine :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TheAmazingMoneyMachine.png
+2022-08-29 23:54:22,365 - craftBet -ERROR - 502   Game Provider Name = PragmaticPlay :   Game Name =  Ancient Egypt :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AncientEgypt.png
+2022-08-29 23:54:22,469 - craftBet -ERROR - 503   Game Provider Name = PragmaticPlay :   Game Name =  Ancient Egypt Classic :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AncientEgyptmob.png
+2022-08-29 23:54:31,197 - craftBet -ERROR - 533   Game Provider Name = PragmaticPlay :   Game Name =  Asgard :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/Asgard.png
+2022-08-29 23:54:36,179 - craftBet -ERROR - 550   Game Provider Name = PragmaticPlay :   Game Name =  Aztec Bonanza :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AztecBonanza.png
+2022-08-29 23:54:36,941 - craftBet -ERROR - 553   Game Provider Name = PragmaticPlay :   Game Name =  Aztec Gems :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AztecGems.png
+2022-08-29 23:54:37,050 - craftBet -ERROR - 554   Game Provider Name = PragmaticPlay :   Game Name =  Aztec Gems Deluxe :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AztecGemsDeluxe.png
+2022-08-29 23:54:43,283 - craftBet -ERROR - 566   Game Provider Name = PragmaticPlay :   Game Name =  Aztec Treasure :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AztecTreasure.png
+2022-08-29 23:55:02,546 - craftBet -ERROR - 628   Game Provider Name = PragmaticPlay :   Game Name =  Beowulf :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/Beowulf.png
+2022-08-29 23:55:06,969 - craftBet -ERROR - 643   Game Provider Name = PragmaticPlay :   Game Name =  Big Juan :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/bigjuan.png
+2022-08-29 23:55:08,262 - craftBet -ERROR - 648   Game Provider Name = PragmaticPlay :   Game Name =  Bigger Bass Bonanza :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/biggerbassbonanza.png
+2022-08-29 23:55:35,276 - craftBet -ERROR - 734   Game Provider Name = PragmaticPlay :   Game Name =  Book Of Kingdoms :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/BookofKingdoms.png
+2022-08-29 23:55:44,018 - craftBet -ERROR - 762   Game Provider Name = PragmaticPlay :   Game Name =  Book of Vikings :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/BookofVikings.png
+2022-08-29 23:55:50,131 - craftBet -ERROR - 782   Game Provider Name = PragmaticPlay :   Game Name =  Bounty Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/bountygold.jpg
+2022-08-29 23:55:52,920 - craftBet -ERROR - 791   Game Provider Name = PragmaticPlay :   Game Name =  Bronco Spirit :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/BroncoSpirit.png
+2022-08-29 23:55:56,336 - craftBet -ERROR - 802   Game Provider Name = PragmaticPlay :   Game Name =  Buffalo King :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/BuffaloKing.png
+2022-08-29 23:56:03,525 - craftBet -ERROR - 826   Game Provider Name = PragmaticPlay :   Game Name =  Caishen's Cash :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/CaishenCash.png
+2022-08-29 23:56:04,160 - craftBet -ERROR - 828   Game Provider Name = PragmaticPlay :   Game Name =  Caishen's Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/CaishensGold.png
+2022-08-29 23:56:10,717 - craftBet -ERROR - 849   Game Provider Name = PragmaticPlay :   Game Name =  Cash Bonanza :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/cashbonanza.jpg
+2022-08-29 23:56:11,637 - craftBet -ERROR - 852   Game Provider Name = PragmaticPlay :   Game Name =  Cash Elevator :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/CashElevator.png
+2022-08-29 23:56:25,904 - craftBet -ERROR - 899   Game Provider Name = PragmaticPlay :   Game Name =  Chilli Heat :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/ChilliHeatMegaways.png
+2022-08-29 23:56:39,997 - craftBet -ERROR - 945   Game Provider Name = PragmaticPlay :   Game Name =  Congo Cash :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/CongoCash.png
+2022-08-29 23:56:44,554 - craftBet -ERROR - 959   Game Provider Name = PragmaticPlay :   Game Name =  Cowboys Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/CowboysGold.png
+2022-08-29 23:57:00,293 - craftBet -ERROR - 1009   Game Provider Name = PragmaticPlay :   Game Name =  Da Vinci's Treasure :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DaVinciTreasure.png
+2022-08-29 23:57:00,630 - craftBet -ERROR - 1010   Game Provider Name = PragmaticPlay :   Game Name =  Dance Party :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DanceParty.png
+2022-08-29 23:57:04,434 - craftBet -ERROR - 1022   Game Provider Name = PragmaticPlay :   Game Name =  Day of Dead :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/dayordead.jpg
+2022-08-29 23:57:32,012 - craftBet -ERROR - 1108   Game Provider Name = PragmaticPlay :   Game Name =  Drago - Jewels of Fortune :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DragoJewelsofFortune.png
+2022-08-29 23:57:33,676 - craftBet -ERROR - 1113   Game Provider Name = PragmaticPlay :   Game Name =  Dragon Hot Hold & Spin :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DragonHotHoldandSpin.png
+2022-08-29 23:57:34,538 - craftBet -ERROR - 1116   Game Provider Name = PragmaticPlay :   Game Name =  Dragon Kingdom :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DragonKingdom.png
+2022-08-29 23:57:34,891 - craftBet -ERROR - 1117   Game Provider Name = PragmaticPlay :   Game Name =  Dragon Kingdom - Eyes of Fire :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DragonKingdomEyesofFire.png
+2022-08-29 23:57:46,694 - craftBet -ERROR - 1155   Game Provider Name = PragmaticPlay :   Game Name =  Dwarven Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DwarvenGold.png
+2022-08-29 23:57:46,964 - craftBet -ERROR - 1156   Game Provider Name = PragmaticPlay :   Game Name =  Dwarven Gold Deluxe :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DwarvenGoldDeluxe.png
+2022-08-29 23:57:52,028 - craftBet -ERROR - 1173   Game Provider Name = PragmaticPlay :   Game Name =  Egyptian Fortunes :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/EgyptianFortunes.png
+2022-08-29 23:57:57,153 - craftBet -ERROR - 1190   Game Provider Name = PragmaticPlay :   Game Name =  Emerald King :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/EmeraldKing.png
+2022-08-29 23:57:57,587 - craftBet -ERROR - 1191   Game Provider Name = PragmaticPlay :   Game Name =  Emerald King Rainbow Road :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/EmeraldKingRainbowRoad.png
+2022-08-29 23:57:58,792 - craftBet -ERROR - 1195   Game Provider Name = PragmaticPlay :   Game Name =  Empty the Bank :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/EmptytheBank.png
+2022-08-29 23:58:05,142 - craftBet -ERROR - 1216   Game Provider Name = PragmaticPlay :   Game Name =  Extra Juicy :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/ExtraJuicy.png
+2022-08-29 23:58:06,645 - craftBet -ERROR - 1221   Game Provider Name = PragmaticPlay :   Game Name =  Eye of the Storm :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/EyeoftheStorm.png
+2022-08-29 23:58:09,317 - craftBet -ERROR - 1230   Game Provider Name = PragmaticPlay :   Game Name =  Fairytale Fortune :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/FairytaleFortune.png
+2022-08-29 23:58:15,801 - craftBet -ERROR - 1250   Game Provider Name = PragmaticPlay :   Game Name =  Fire 88 :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/Fire88.png
+2022-08-29 23:58:18,509 - craftBet -ERROR - 1259   Game Provider Name = PragmaticPlay :   Game Name =  Fire Strike :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/FireStrike.png
+2022-08-29 23:58:21,496 - craftBet -ERROR - 1269   Game Provider Name = PragmaticPlay :   Game Name =  Fishin Reels :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/fishin_reels.png
+2022-08-29 23:58:24,073 - craftBet -ERROR - 1277   Game Provider Name = PragmaticPlay :   Game Name =  Floating Dragon :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/FloatingDragon.png
+2022-08-29 23:59:00,069 - craftBet -ERROR - 1401   Game Provider Name = PragmaticPlay :   Game Name =  Gates of Olympus :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GatesofOlympus.jpg
+2022-08-29 23:59:04,104 - craftBet -ERROR - 1416   Game Provider Name = PragmaticPlay :   Game Name =  Gems Bonanza :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GemsBonanza.png
+2022-08-29 23:59:09,045 - craftBet -ERROR - 1435   Game Provider Name = PragmaticPlay :   Game Name =  Glorious Rome :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GloriousRome.png
+2022-08-29 23:59:16,277 - craftBet -ERROR - 1462   Game Provider Name = PragmaticPlay :   Game Name =  Gold Party :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/gold_party.jpg
+2022-08-29 23:59:17,132 - craftBet -ERROR - 1465   Game Provider Name = PragmaticPlay :   Game Name =  Gold Train :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GoldTrain.png
+2022-08-29 23:59:18,718 - craftBet -ERROR - 1470   Game Provider Name = PragmaticPlay :   Game Name =  Golden Beauty :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GoldenBeauty.png
+2022-08-29 23:59:35,989 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-29 23:59:36,170 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-29 23:59:36,189 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-29 23:59:38,679 - craftBet -INFO - URL: https://oceanbet.io  Browser: chrome
+2022-08-29 23:59:38,907 - craftBet -INFO - Window size is: 390 x 844
+2022-08-29 23:59:38,955 - craftBet -INFO - All Page elements are initialized
+2022-08-29 23:59:39,287 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-29 23:59:42,525 - craftBet -INFO - Get games Api call was sent
+2022-08-29 23:59:42,698 - craftBet -INFO - Get games Api Response was captured
+2022-08-29 23:59:42,762 - craftBet -INFO - All captured games images was added into ArrayList
+2022-08-30 00:00:09,265 - craftBet -ERROR - 69   Game Provider Name = PragmaticPlay :   Game Name =  Starz Megaways :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/StarzMegaways.png
+2022-08-30 00:00:09,812 - craftBet -ERROR - 71   Game Provider Name = PragmaticPlay :   Game Name =  The Dog House :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TheDogHouse.png
+2022-08-30 00:00:10,788 - craftBet -ERROR - 74   Game Provider Name = PragmaticPlay :   Game Name =  Sweet Bonanza :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/SweetBonanza.png
+2022-08-30 00:00:11,881 - craftBet -ERROR - 77   Game Provider Name = PragmaticPlay :   Game Name =  Santa's Wonderland :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/santaswonderland.jpg
+2022-08-30 00:00:12,207 - craftBet -ERROR - 78   Game Provider Name = PragmaticPlay :   Game Name =  Sweet Bonanza Xmas :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/SweetBonanzaXmas.png
+2022-08-30 00:00:13,573 - craftBet -ERROR - 79   Game Provider Name = PragmaticPlay :   Game Name =  Smugglers Cove :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/smuggle.jpg
+2022-08-30 00:00:13,909 - craftBet -ERROR - 80   Game Provider Name = PragmaticPlay :   Game Name =  Starlight Princess :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/starlight.jpg
+2022-08-30 00:00:14,817 - craftBet -ERROR - 83   Game Provider Name = PragmaticPlay :   Game Name =  Wolf Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/WolfGold.png
+2022-08-30 00:00:15,443 - craftBet -ERROR - 85   Game Provider Name = PragmaticPlay :   Game Name =  Might of Ra :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/mightofra.jpg
+2022-08-30 00:02:00,789 - craftBet -ERROR - 321   Game Provider Name = PragmaticPlay :   Game Name =  Sweet Bonanza :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/SweetBonanza.png
+2022-08-30 00:02:18,376 - craftBet -ERROR - 360   Game Provider Name = PragmaticPlay :   Game Name =  Wolf Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/WolfGold.png
+2022-08-30 00:02:27,398 - craftBet -ERROR - 393   Game Provider Name = PragmaticPlay :   Game Name =  3 Genie Wishes :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/3GenieWishes.png
+2022-08-30 00:02:28,156 - craftBet -ERROR - 396   Game Provider Name = PragmaticPlay :   Game Name =  3Kingdoms-BattleofRedCliffs :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/3Kingdoms.png
+2022-08-30 00:02:30,805 - craftBet -ERROR - 407   Game Provider Name = PragmaticPlay :   Game Name =  5 Lions :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/5Lions.png
+2022-08-30 00:02:30,906 - craftBet -ERROR - 408   Game Provider Name = PragmaticPlay :   Game Name =  5 Lions Dance :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/5LionsDance.png
+2022-08-30 00:02:31,009 - craftBet -ERROR - 409   Game Provider Name = PragmaticPlay :   Game Name =  5 Lions Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/5LionsGold.png
+2022-08-30 00:02:33,684 - craftBet -ERROR - 420   Game Provider Name = PragmaticPlay :   Game Name =  7 Monkeys :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/7Monkeys.png
+2022-08-30 00:02:33,815 - craftBet -ERROR - 421   Game Provider Name = PragmaticPlay :   Game Name =  7 Piggies :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/7Piggies5000.png
+2022-08-30 00:02:35,190 - craftBet -ERROR - 427   Game Provider Name = PragmaticPlay :   Game Name =  8 Dragons :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/8Dragons.png
+2022-08-30 00:02:36,592 - craftBet -ERROR - 433   Game Provider Name = PragmaticPlay :   Game Name =  888 Dragons :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/888Dragons.png
+2022-08-30 00:02:36,696 - craftBet -ERROR - 434   Game Provider Name = PragmaticPlay :   Game Name =  888 Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/888Gold.png
+2022-08-30 00:02:46,542 - craftBet -ERROR - 473   Game Provider Name = PragmaticPlay :   Game Name =  Aladdin and the Sorcerer :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AladdinandtheSorcerer.png
+2022-08-30 00:02:46,907 - craftBet -ERROR - 475   Game Provider Name = PragmaticPlay :   Game Name =  Aladdin's Treasure :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AladdinTreasure.png
+2022-08-30 00:02:53,383 - craftBet -ERROR - 496   Game Provider Name = PragmaticPlay :   Game Name =  Amazing Money Machine :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TheAmazingMoneyMachine.png
+2022-08-30 00:02:54,857 - craftBet -ERROR - 502   Game Provider Name = PragmaticPlay :   Game Name =  Ancient Egypt :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AncientEgypt.png
+2022-08-30 00:02:54,972 - craftBet -ERROR - 503   Game Provider Name = PragmaticPlay :   Game Name =  Ancient Egypt Classic :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AncientEgyptmob.png
+2022-08-30 00:03:02,716 - craftBet -ERROR - 533   Game Provider Name = PragmaticPlay :   Game Name =  Asgard :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/Asgard.png
+2022-08-30 00:03:06,703 - craftBet -ERROR - 550   Game Provider Name = PragmaticPlay :   Game Name =  Aztec Bonanza :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AztecBonanza.png
+2022-08-30 00:03:07,312 - craftBet -ERROR - 553   Game Provider Name = PragmaticPlay :   Game Name =  Aztec Gems :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AztecGems.png
+2022-08-30 00:03:07,417 - craftBet -ERROR - 554   Game Provider Name = PragmaticPlay :   Game Name =  Aztec Gems Deluxe :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AztecGemsDeluxe.png
+2022-08-30 00:03:10,359 - craftBet -ERROR - 566   Game Provider Name = PragmaticPlay :   Game Name =  Aztec Treasure :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AztecTreasure.png
+2022-08-30 00:03:27,748 - craftBet -ERROR - 628   Game Provider Name = PragmaticPlay :   Game Name =  Beowulf :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/Beowulf.png
+2022-08-30 00:03:32,189 - craftBet -ERROR - 643   Game Provider Name = PragmaticPlay :   Game Name =  Big Juan :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/bigjuan.png
+2022-08-30 00:03:33,500 - craftBet -ERROR - 648   Game Provider Name = PragmaticPlay :   Game Name =  Bigger Bass Bonanza :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/biggerbassbonanza.png
+2022-08-30 00:04:00,911 - craftBet -ERROR - 734   Game Provider Name = PragmaticPlay :   Game Name =  Book Of Kingdoms :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/BookofKingdoms.png
+2022-08-30 00:04:08,965 - craftBet -ERROR - 762   Game Provider Name = PragmaticPlay :   Game Name =  Book of Vikings :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/BookofVikings.png
+2022-08-30 00:04:14,843 - craftBet -ERROR - 782   Game Provider Name = PragmaticPlay :   Game Name =  Bounty Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/bountygold.jpg
+2022-08-30 00:04:17,348 - craftBet -ERROR - 791   Game Provider Name = PragmaticPlay :   Game Name =  Bronco Spirit :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/BroncoSpirit.png
+2022-08-30 00:04:20,631 - craftBet -ERROR - 802   Game Provider Name = PragmaticPlay :   Game Name =  Buffalo King :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/BuffaloKing.png
+2022-08-30 00:04:28,177 - craftBet -ERROR - 826   Game Provider Name = PragmaticPlay :   Game Name =  Caishen's Cash :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/CaishenCash.png
+2022-08-30 00:04:28,562 - craftBet -ERROR - 828   Game Provider Name = PragmaticPlay :   Game Name =  Caishen's Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/CaishensGold.png
+2022-08-30 00:04:34,969 - craftBet -ERROR - 849   Game Provider Name = PragmaticPlay :   Game Name =  Cash Bonanza :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/cashbonanza.jpg
+2022-08-30 00:04:35,679 - craftBet -ERROR - 852   Game Provider Name = PragmaticPlay :   Game Name =  Cash Elevator :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/CashElevator.png
+2022-08-30 00:04:49,320 - craftBet -ERROR - 899   Game Provider Name = PragmaticPlay :   Game Name =  Chilli Heat :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/ChilliHeatMegaways.png
+2022-08-30 00:05:03,240 - craftBet -ERROR - 945   Game Provider Name = PragmaticPlay :   Game Name =  Congo Cash :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/CongoCash.png
+2022-08-30 00:05:07,529 - craftBet -ERROR - 959   Game Provider Name = PragmaticPlay :   Game Name =  Cowboys Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/CowboysGold.png
+2022-08-30 00:05:22,519 - craftBet -ERROR - 1009   Game Provider Name = PragmaticPlay :   Game Name =  Da Vinci's Treasure :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DaVinciTreasure.png
+2022-08-30 00:05:22,620 - craftBet -ERROR - 1010   Game Provider Name = PragmaticPlay :   Game Name =  Dance Party :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DanceParty.png
+2022-08-30 00:05:26,076 - craftBet -ERROR - 1022   Game Provider Name = PragmaticPlay :   Game Name =  Day of Dead :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/dayordead.jpg
+2022-08-30 00:05:51,544 - craftBet -ERROR - 1108   Game Provider Name = PragmaticPlay :   Game Name =  Drago - Jewels of Fortune :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DragoJewelsofFortune.png
+2022-08-30 00:05:52,733 - craftBet -ERROR - 1113   Game Provider Name = PragmaticPlay :   Game Name =  Dragon Hot Hold & Spin :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DragonHotHoldandSpin.png
+2022-08-30 00:05:53,572 - craftBet -ERROR - 1116   Game Provider Name = PragmaticPlay :   Game Name =  Dragon Kingdom :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DragonKingdom.png
+2022-08-30 00:05:53,679 - craftBet -ERROR - 1117   Game Provider Name = PragmaticPlay :   Game Name =  Dragon Kingdom - Eyes of Fire :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DragonKingdomEyesofFire.png
+2022-08-30 00:06:04,635 - craftBet -ERROR - 1155   Game Provider Name = PragmaticPlay :   Game Name =  Dwarven Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DwarvenGold.png
+2022-08-30 00:06:04,744 - craftBet -ERROR - 1156   Game Provider Name = PragmaticPlay :   Game Name =  Dwarven Gold Deluxe :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DwarvenGoldDeluxe.png
+2022-08-30 00:06:09,677 - craftBet -ERROR - 1173   Game Provider Name = PragmaticPlay :   Game Name =  Egyptian Fortunes :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/EgyptianFortunes.png
+2022-08-30 00:06:14,602 - craftBet -ERROR - 1190   Game Provider Name = PragmaticPlay :   Game Name =  Emerald King :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/EmeraldKing.png
+2022-08-30 00:06:14,701 - craftBet -ERROR - 1191   Game Provider Name = PragmaticPlay :   Game Name =  Emerald King Rainbow Road :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/EmeraldKingRainbowRoad.png
+2022-08-30 00:06:15,697 - craftBet -ERROR - 1195   Game Provider Name = PragmaticPlay :   Game Name =  Empty the Bank :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/EmptytheBank.png
+2022-08-30 00:06:21,903 - craftBet -ERROR - 1216   Game Provider Name = PragmaticPlay :   Game Name =  Extra Juicy :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/ExtraJuicy.png
+2022-08-30 00:06:23,216 - craftBet -ERROR - 1221   Game Provider Name = PragmaticPlay :   Game Name =  Eye of the Storm :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/EyeoftheStorm.png
+2022-08-30 00:06:25,740 - craftBet -ERROR - 1230   Game Provider Name = PragmaticPlay :   Game Name =  Fairytale Fortune :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/FairytaleFortune.png
+2022-08-30 00:06:31,440 - craftBet -ERROR - 1250   Game Provider Name = PragmaticPlay :   Game Name =  Fire 88 :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/Fire88.png
+2022-08-30 00:06:34,926 - craftBet -ERROR - 1259   Game Provider Name = PragmaticPlay :   Game Name =  Fire Strike :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/FireStrike.png
+2022-08-30 00:06:38,055 - craftBet -ERROR - 1269   Game Provider Name = PragmaticPlay :   Game Name =  Fishin Reels :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/fishin_reels.png
+2022-08-30 00:06:41,281 - craftBet -ERROR - 1277   Game Provider Name = PragmaticPlay :   Game Name =  Floating Dragon :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/FloatingDragon.png
+2022-08-30 00:07:20,710 - craftBet -ERROR - 1401   Game Provider Name = PragmaticPlay :   Game Name =  Gates of Olympus :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GatesofOlympus.jpg
+2022-08-30 00:07:24,855 - craftBet -ERROR - 1416   Game Provider Name = PragmaticPlay :   Game Name =  Gems Bonanza :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GemsBonanza.png
+2022-08-30 00:07:30,344 - craftBet -ERROR - 1435   Game Provider Name = PragmaticPlay :   Game Name =  Glorious Rome :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GloriousRome.png
+2022-08-30 00:07:38,423 - craftBet -ERROR - 1462   Game Provider Name = PragmaticPlay :   Game Name =  Gold Party :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/gold_party.jpg
+2022-08-30 00:07:39,107 - craftBet -ERROR - 1465   Game Provider Name = PragmaticPlay :   Game Name =  Gold Train :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GoldTrain.png
+2022-08-30 00:07:40,782 - craftBet -ERROR - 1470   Game Provider Name = PragmaticPlay :   Game Name =  Golden Beauty :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GoldenBeauty.png
+2022-08-30 00:07:58,049 - craftBet -ERROR - 1529   Game Provider Name = PragmaticPlay :   Game Name =  Great Reef :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GreatReef.png
+2022-08-30 00:07:58,149 - craftBet -ERROR - 1530   Game Provider Name = PragmaticPlay :   Game Name =  Great Rhino :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GreatRhino.png
+2022-08-30 00:07:58,267 - craftBet -ERROR - 1531   Game Provider Name = PragmaticPlay :   Game Name =  Great Rhino Deluxe :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GreatRhinoDeluxe.png
+2022-08-30 00:07:58,673 - craftBet -ERROR - 1533   Game Provider Name = PragmaticPlay :   Game Name =  Greek Gods :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GreekGods.png
+2022-08-30 00:08:09,862 - craftBet -ERROR - 1569   Game Provider Name = PragmaticPlay :   Game Name =  Heart of Rio :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HeartofRio.png
+2022-08-30 00:08:10,886 - craftBet -ERROR - 1573   Game Provider Name = PragmaticPlay :   Game Name =  Hercules and Pegasus :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HerculesandPegasus.png
+2022-08-30 00:08:11,359 - craftBet -ERROR - 1575   Game Provider Name = PragmaticPlay :   Game Name =  Hercules Son of Zeus :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HerculesSonofZeus.png
+2022-08-30 00:08:14,619 - craftBet -ERROR - 1587   Game Provider Name = PragmaticPlay :   Game Name =  Hockey League :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HockeyLeague.png
+2022-08-30 00:08:14,733 - craftBet -ERROR - 1588   Game Provider Name = PragmaticPlay :   Game Name =  Hockey League Wild Match :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HockeyLeagueWildMatch.png
+2022-08-30 00:08:15,444 - craftBet -ERROR - 1591   Game Provider Name = PragmaticPlay :   Game Name =  Honey Honey Honey :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HoneyHoneyHoney.png
+2022-08-30 00:08:21,847 - craftBet -ERROR - 1613   Game Provider Name = PragmaticPlay :   Game Name =  Hot Chilli :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HotChilli.png
+2022-08-30 00:08:23,159 - craftBet -ERROR - 1618   Game Provider Name = PragmaticPlay :   Game Name =  Hot Fiesta :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HotFiesta.png
+2022-08-30 00:08:32,826 - craftBet -ERROR - 1646   Game Provider Name = PragmaticPlay :   Game Name =  Hot to Burn :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HottoBurn.png
+2022-08-30 00:08:32,935 - craftBet -ERROR - 1647   Game Provider Name = PragmaticPlay :   Game Name =  Hot to Burn Hold and Spin :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HottoBurnHoldandSpin.png
+2022-08-30 00:08:51,927 - craftBet -ERROR - 1706   Game Provider Name = PragmaticPlay :   Game Name =  Irish Charms :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/IrishCharms.png
+2022-08-30 00:08:57,894 - craftBet -ERROR - 1727   Game Provider Name = PragmaticPlay :   Game Name =  Jacks or Better :   cod = 403:   src = https://resources.oceanbet.io/products/
+2022-08-30 00:08:58,585 - craftBet -ERROR - 1730   Game Provider Name = PragmaticPlay :   Game Name =  Jade Butterfly :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/JadeButterfly.png
+2022-08-30 00:09:05,950 - craftBet -ERROR - 1755   Game Provider Name = PragmaticPlay :   Game Name =  John Hunter And The Mayan Gods :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/JohnHunterandtheMayanGods.png
+2022-08-30 00:09:06,045 - craftBet -ERROR - 1756   Game Provider Name = PragmaticPlay :   Game Name =  John Hunter and the Quest for Bermuda Riches :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/johnbermuda.png
+2022-08-30 00:09:06,141 - craftBet -ERROR - 1757   Game Provider Name = PragmaticPlay :   Game Name =  John Hunter and the Tomb of the Scarab Queen :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/JohnHunterandtheScarabQueen.png
+2022-08-30 00:09:08,886 - craftBet -ERROR - 1767   Game Provider Name = PragmaticPlay :   Game Name =  Joker King :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/JokerKing.png
+2022-08-30 00:09:12,986 - craftBet -ERROR - 1782   Game Provider Name = PragmaticPlay :   Game Name =  Joker's Jewels :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/Joker_sJewels.png
+2022-08-30 00:09:15,915 - craftBet -ERROR - 1789   Game Provider Name = PragmaticPlay :   Game Name =  Journey to the West :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/JourneytotheWest.png
+2022-08-30 00:09:19,370 - craftBet -ERROR - 1801   Game Provider Name = PragmaticPlay :   Game Name =  Jungle Gorilla :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/JungleGorilla.png
+2022-08-30 00:09:20,669 - craftBet -ERROR - 1806   Game Provider Name = PragmaticPlay :   Game Name =  Jurassic Giants :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/JurassicGiants.png
+2022-08-30 00:09:31,201 - craftBet -ERROR - 1841   Game Provider Name = PragmaticPlay :   Game Name =  KTV :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/KTV.png
+2022-08-30 00:09:32,868 - craftBet -ERROR - 1847   Game Provider Name = PragmaticPlay :   Game Name =  Lady Godiva :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/LadyGodiva.png
+2022-08-30 00:09:34,188 - craftBet -ERROR - 1852   Game Provider Name = PragmaticPlay :   Game Name =  Lady of the Moon :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/LadyoftheMoon.png
+2022-08-30 00:09:43,944 - craftBet -ERROR - 1881   Game Provider Name = PragmaticPlay :   Game Name =  Leprechaun Carol :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/LeprechaunCarol.png
+2022-08-30 00:09:45,311 - craftBet -ERROR - 1886   Game Provider Name = PragmaticPlay :   Game Name =  Leprechaun Song :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/LeprechaunSong.png
+2022-08-30 00:10:02,491 - craftBet -ERROR - 1943   Game Provider Name = PragmaticPlay :   Game Name =  Lucky Dragons :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/LuckyDragons.png
+2022-08-30 00:10:07,934 - craftBet -ERROR - 1962   Game Provider Name = PragmaticPlay :   Game Name =  Lucky Lightning :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/LuckyLightning.png
+2022-08-30 00:10:10,106 - craftBet -ERROR - 1970   Game Provider Name = PragmaticPlay :   Game Name =  Lucky New Year :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/LuckyNewYear.png
+2022-08-30 00:10:13,261 - craftBet -ERROR - 1981   Game Provider Name = PragmaticPlay :   Game Name =  Lucky, Grace & Charm :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/LuckyGraceCharm.png
+2022-08-30 00:10:15,511 - craftBet -ERROR - 1989   Game Provider Name = PragmaticPlay :   Game Name =  Madame Destiny :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MadameDestiny.png
+2022-08-30 00:10:17,276 - craftBet -ERROR - 1995   Game Provider Name = PragmaticPlay :   Game Name =  Magic Crystals :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MagicCrystals.png
+2022-08-30 00:10:21,689 - craftBet -ERROR - 2010   Game Provider Name = PragmaticPlay :   Game Name =  Magic Journey :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MagicJourney.png
+2022-08-30 00:10:28,459 - craftBet -ERROR - 2033   Game Provider Name = PragmaticPlay :   Game Name =  Magician's Secrets :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/magiciansecret.jpg
+2022-08-30 00:10:32,477 - craftBet -ERROR - 2047   Game Provider Name = PragmaticPlay :   Game Name =  Master Chen's Fortune :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MasterChensFortunemob.png
+2022-08-30 00:10:32,605 - craftBet -ERROR - 2048   Game Provider Name = PragmaticPlay :   Game Name =  Master Joker :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MasterJoker.png
+2022-08-30 00:10:45,081 - craftBet -ERROR - 2090   Game Provider Name = PragmaticPlay :   Game Name =  Mighty Kong :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MightyKong.png
+2022-08-30 00:10:51,477 - craftBet -ERROR - 2113   Game Provider Name = PragmaticPlay :   Game Name =  Monkey Madness :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MonkeyMadness.png
+2022-08-30 00:10:51,888 - craftBet -ERROR - 2115   Game Provider Name = PragmaticPlay :   Game Name =  Monkey Warrior :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MonkeyWarrior.png
+2022-08-30 00:11:03,893 - craftBet -ERROR - 2156   Game Provider Name = PragmaticPlay :   Game Name =  Mustang Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MustangGold.png
+2022-08-30 00:11:03,995 - craftBet -ERROR - 2157   Game Provider Name = PragmaticPlay :   Game Name =  Mysterious :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/Mysterious.png
+2022-08-30 00:11:04,101 - craftBet -ERROR - 2158   Game Provider Name = PragmaticPlay :   Game Name =  Mysterious Egypt :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MysteriousEgypt.png
+2022-08-30 00:11:07,277 - craftBet -ERROR - 2169   Game Provider Name = PragmaticPlay :   Game Name =  Mystic Chief :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/mysticchief.jpg
+2022-08-30 00:11:32,235 - craftBet -ERROR - 2253   Game Provider Name = PragmaticPlay :   Game Name =  Panda Fortune 2 :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/PandaFortune2.png
+2022-08-30 00:11:33,203 - craftBet -ERROR - 2257   Game Provider Name = PragmaticPlay :   Game Name =  Panda's Fortune :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/PandaFortune.png
+2022-08-30 00:11:33,703 - craftBet -ERROR - 2260   Game Provider Name = PragmaticPlay :   Game Name =  Panther Queen :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/PantherQueen.png
+2022-08-30 00:11:39,989 - craftBet -ERROR - 2282   Game Provider Name = PragmaticPlay :   Game Name =  Peking Luck :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/PekingLuck.png
+2022-08-30 00:11:44,387 - craftBet -ERROR - 2297   Game Provider Name = PragmaticPlay :   Game Name =  Phoenix Forge :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/PhoenixForge.png
+2022-08-30 00:11:46,978 - craftBet -ERROR - 2306   Game Provider Name = PragmaticPlay :   Game Name =  Piggy Bank Bills :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/piggybankbills.jpg
+2022-08-30 00:11:51,894 - craftBet -ERROR - 2323   Game Provider Name = PragmaticPlay :   Game Name =  Pirate Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/PirateGold.png
+2022-08-30 00:11:51,996 - craftBet -ERROR - 2324   Game Provider Name = PragmaticPlay :   Game Name =  Pirate Gold Deluxe :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/PirateGoldDeluxe.png
+2022-08-30 00:11:53,605 - craftBet -ERROR - 2330   Game Provider Name = PragmaticPlay :   Game Name =  Pixie Wings :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/PixieWings.png
+2022-08-30 00:12:11,433 - craftBet -ERROR - 2389   Game Provider Name = PragmaticPlay :   Game Name =  Pyramid King :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/PyramidKing.png
+2022-08-30 00:12:13,298 - craftBet -ERROR - 2396   Game Provider Name = PragmaticPlay :   Game Name =  Queen of Atlantis :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/QueenofAtlantis.png
+2022-08-30 00:12:14,003 - craftBet -ERROR - 2399   Game Provider Name = PragmaticPlay :   Game Name =  Queen of Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/QueenofGold.png
+2022-08-30 00:12:14,107 - craftBet -ERROR - 2400   Game Provider Name = PragmaticPlay :   Game Name =  Queen of Gold 100,000 :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/QueenofGold100k2.png
+2022-08-30 00:12:31,413 - craftBet -ERROR - 2457   Game Provider Name = PragmaticPlay :   Game Name =  Release the Kraken :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/ReleasetheKraken.png
+2022-08-30 00:12:36,337 - craftBet -ERROR - 2474   Game Provider Name = PragmaticPlay :   Game Name =  Return of the Dead :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/ReturnoftheDead.png
+2022-08-30 00:12:52,385 - craftBet -ERROR - 2527   Game Provider Name = PragmaticPlay :   Game Name =  Romeo and Juliet :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/RomeoandJuliet.png
+2022-08-30 00:12:59,581 - craftBet -ERROR - 2553   Game Provider Name = PragmaticPlay :   Game Name =  Safari King :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/SafariKing.png
+2022-08-30 00:13:03,224 - craftBet -ERROR - 2568   Game Provider Name = PragmaticPlay :   Game Name =  Santa :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/Santa.png
+2022-08-30 00:13:35,986 - craftBet -ERROR - 2695   Game Provider Name = PragmaticPlay :   Game Name =  Spartan King :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/SpartanKing.png
+2022-08-30 00:13:47,908 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-30 00:13:48,492 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 00:13:48,508 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 00:13:50,502 - craftBet -INFO - URL: https://oceanbet.io  Browser: chrome
+2022-08-30 00:13:50,733 - craftBet -INFO - Window size is: 390 x 844
+2022-08-30 00:13:50,793 - craftBet -INFO - All Page elements are initialized
+2022-08-30 00:13:51,067 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 00:13:58,431 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-30 00:13:58,626 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 00:13:58,646 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 00:14:00,574 - craftBet -INFO - URL: https://oceanbet.io  Browser: chrome
+2022-08-30 00:14:00,805 - craftBet -INFO - Window size is: 390 x 844
+2022-08-30 00:14:00,851 - craftBet -INFO - All Page elements are initialized
+2022-08-30 00:14:00,862 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 00:14:11,161 - craftBet -INFO - Get games Api call was sent
+2022-08-30 00:14:11,322 - craftBet -INFO - Get games Api Response was captured
+2022-08-30 00:14:13,407 - craftBet -INFO - All captured games images was added into ArrayList
+2022-08-30 00:15:56,207 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-30 00:15:56,418 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 00:15:56,440 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 00:15:58,296 - craftBet -INFO - URL: https://oceanbet.io  Browser: chrome
+2022-08-30 00:15:58,512 - craftBet -INFO - Window size is: 390 x 844
+2022-08-30 00:15:58,563 - craftBet -INFO - All Page elements are initialized
+2022-08-30 00:15:58,888 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 00:16:06,831 - craftBet -INFO - Get games Api call was sent
+2022-08-30 00:16:06,998 - craftBet -INFO - Get games Api Response was captured
+2022-08-30 00:16:09,052 - craftBet -INFO - All captured games images was added into ArrayList
+2022-08-30 00:16:24,392 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-30 00:16:24,584 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 00:16:24,604 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 00:16:26,390 - craftBet -INFO - URL: https://oceanbet.io  Browser: chrome
+2022-08-30 00:16:26,612 - craftBet -INFO - Window size is: 390 x 844
+2022-08-30 00:16:26,659 - craftBet -INFO - All Page elements are initialized
+2022-08-30 00:16:26,902 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 00:16:35,017 - craftBet -INFO - Get games Api call was sent
+2022-08-30 00:16:35,176 - craftBet -INFO - Get games Api Response was captured
+2022-08-30 00:16:35,244 - craftBet -INFO - All captured games images was added into ArrayList
+2022-08-30 00:18:02,757 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-30 00:18:02,939 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 00:18:02,959 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 00:18:04,804 - craftBet -INFO - URL: https://oceanbet.io  Browser: chrome
+2022-08-30 00:18:05,030 - craftBet -INFO - Window size is: 390 x 844
+2022-08-30 00:18:05,078 - craftBet -INFO - All Page elements are initialized
+2022-08-30 00:18:05,330 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 00:18:08,388 - craftBet -INFO - Get games Api call was sent
+2022-08-30 00:18:08,598 - craftBet -INFO - Get games Api Response was captured
+2022-08-30 00:18:08,904 - craftBet -INFO - All captured games images was added into ArrayList
+2022-08-30 00:19:31,690 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-30 00:19:31,870 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 00:19:31,889 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 00:19:34,184 - craftBet -INFO - URL: https://oceanbet.io  Browser: chrome
+2022-08-30 00:19:34,231 - craftBet -INFO - All Page elements are initialized
+2022-08-30 00:19:34,241 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 00:19:37,157 - craftBet -INFO - Get games Api call was sent
+2022-08-30 00:19:37,339 - craftBet -INFO - Get games Api Response was captured
+2022-08-30 00:19:37,400 - craftBet -INFO - All captured games images was added into ArrayList
+2022-08-30 00:20:09,326 - craftBet -ERROR - 59   Game Provider Name = PragmaticPlay :   Game Name =  Sweet Bonanza :   cod = 403:   src = https://resources.oceanbet.io/products/
+2022-08-30 00:22:28,088 - craftBet -ERROR - 360   Game Provider Name = PragmaticPlay :   Game Name =  Wolf Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/WolfGold.png
+2022-08-30 00:22:37,918 - craftBet -ERROR - 393   Game Provider Name = PragmaticPlay :   Game Name =  3 Genie Wishes :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/3GenieWishes.png
+2022-08-30 00:22:38,615 - craftBet -ERROR - 396   Game Provider Name = PragmaticPlay :   Game Name =  3Kingdoms-BattleofRedCliffs :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/3Kingdoms.png
+2022-08-30 00:22:41,779 - craftBet -ERROR - 407   Game Provider Name = PragmaticPlay :   Game Name =  5 Lions :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/5Lions.png
+2022-08-30 00:22:41,884 - craftBet -ERROR - 408   Game Provider Name = PragmaticPlay :   Game Name =  5 Lions Dance :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/5LionsDance.png
+2022-08-30 00:22:41,991 - craftBet -ERROR - 409   Game Provider Name = PragmaticPlay :   Game Name =  5 Lions Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/5LionsGold.png
+2022-08-30 00:22:45,552 - craftBet -ERROR - 420   Game Provider Name = PragmaticPlay :   Game Name =  7 Monkeys :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/7Monkeys.png
+2022-08-30 00:22:45,857 - craftBet -ERROR - 421   Game Provider Name = PragmaticPlay :   Game Name =  7 Piggies :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/7Piggies5000.png
+2022-08-30 00:22:48,427 - craftBet -ERROR - 427   Game Provider Name = PragmaticPlay :   Game Name =  8 Dragons :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/8Dragons.png
+2022-08-30 00:22:50,209 - craftBet -ERROR - 433   Game Provider Name = PragmaticPlay :   Game Name =  888 Dragons :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/888Dragons.png
+2022-08-30 00:22:50,398 - craftBet -ERROR - 434   Game Provider Name = PragmaticPlay :   Game Name =  888 Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/888Gold.png
+2022-08-30 00:23:03,095 - craftBet -ERROR - 473   Game Provider Name = PragmaticPlay :   Game Name =  Aladdin and the Sorcerer :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AladdinandtheSorcerer.png
+2022-08-30 00:23:03,498 - craftBet -ERROR - 475   Game Provider Name = PragmaticPlay :   Game Name =  Aladdin's Treasure :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AladdinTreasure.png
+2022-08-30 00:23:09,604 - craftBet -ERROR - 496   Game Provider Name = PragmaticPlay :   Game Name =  Amazing Money Machine :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TheAmazingMoneyMachine.png
+2022-08-30 00:23:11,166 - craftBet -ERROR - 502   Game Provider Name = PragmaticPlay :   Game Name =  Ancient Egypt :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AncientEgypt.png
+2022-08-30 00:23:11,264 - craftBet -ERROR - 503   Game Provider Name = PragmaticPlay :   Game Name =  Ancient Egypt Classic :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AncientEgyptmob.png
+2022-08-30 00:23:20,672 - craftBet -ERROR - 533   Game Provider Name = PragmaticPlay :   Game Name =  Asgard :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/Asgard.png
+2022-08-30 00:23:25,425 - craftBet -ERROR - 550   Game Provider Name = PragmaticPlay :   Game Name =  Aztec Bonanza :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AztecBonanza.png
+2022-08-30 00:23:27,120 - craftBet -ERROR - 553   Game Provider Name = PragmaticPlay :   Game Name =  Aztec Gems :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AztecGems.png
+2022-08-30 00:23:27,217 - craftBet -ERROR - 554   Game Provider Name = PragmaticPlay :   Game Name =  Aztec Gems Deluxe :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AztecGemsDeluxe.png
+2022-08-30 00:23:30,563 - craftBet -ERROR - 566   Game Provider Name = PragmaticPlay :   Game Name =  Aztec Treasure :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AztecTreasure.png
+2022-08-30 00:23:49,986 - craftBet -ERROR - 628   Game Provider Name = PragmaticPlay :   Game Name =  Beowulf :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/Beowulf.png
+2022-08-30 00:23:54,332 - craftBet -ERROR - 643   Game Provider Name = PragmaticPlay :   Game Name =  Big Juan :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/bigjuan.png
+2022-08-30 00:23:55,701 - craftBet -ERROR - 648   Game Provider Name = PragmaticPlay :   Game Name =  Bigger Bass Bonanza :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/biggerbassbonanza.png
+2022-08-30 00:24:21,192 - craftBet -ERROR - 734   Game Provider Name = PragmaticPlay :   Game Name =  Book Of Kingdoms :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/BookofKingdoms.png
+2022-08-30 00:24:29,430 - craftBet -ERROR - 762   Game Provider Name = PragmaticPlay :   Game Name =  Book of Vikings :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/BookofVikings.png
+2022-08-30 00:24:34,686 - craftBet -ERROR - 782   Game Provider Name = PragmaticPlay :   Game Name =  Bounty Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/bountygold.jpg
+2022-08-30 00:24:36,852 - craftBet -ERROR - 791   Game Provider Name = PragmaticPlay :   Game Name =  Bronco Spirit :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/BroncoSpirit.png
+2022-08-30 00:24:39,483 - craftBet -ERROR - 802   Game Provider Name = PragmaticPlay :   Game Name =  Buffalo King :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/BuffaloKing.png
+2022-08-30 00:24:45,540 - craftBet -ERROR - 826   Game Provider Name = PragmaticPlay :   Game Name =  Caishen's Cash :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/CaishenCash.png
+2022-08-30 00:24:45,881 - craftBet -ERROR - 828   Game Provider Name = PragmaticPlay :   Game Name =  Caishen's Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/CaishensGold.png
+2022-08-30 00:24:51,132 - craftBet -ERROR - 849   Game Provider Name = PragmaticPlay :   Game Name =  Cash Bonanza :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/cashbonanza.jpg
+2022-08-30 00:24:51,757 - craftBet -ERROR - 852   Game Provider Name = PragmaticPlay :   Game Name =  Cash Elevator :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/CashElevator.png
+2022-08-30 00:25:03,763 - craftBet -ERROR - 899   Game Provider Name = PragmaticPlay :   Game Name =  Chilli Heat :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/ChilliHeatMegaways.png
+2022-08-30 00:25:15,786 - craftBet -ERROR - 945   Game Provider Name = PragmaticPlay :   Game Name =  Congo Cash :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/CongoCash.png
+2022-08-30 00:25:19,236 - craftBet -ERROR - 959   Game Provider Name = PragmaticPlay :   Game Name =  Cowboys Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/CowboysGold.png
+2022-08-30 00:25:32,105 - craftBet -ERROR - 1009   Game Provider Name = PragmaticPlay :   Game Name =  Da Vinci's Treasure :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DaVinciTreasure.png
+2022-08-30 00:25:32,215 - craftBet -ERROR - 1010   Game Provider Name = PragmaticPlay :   Game Name =  Dance Party :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DanceParty.png
+2022-08-30 00:25:34,992 - craftBet -ERROR - 1022   Game Provider Name = PragmaticPlay :   Game Name =  Day of Dead :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/dayordead.jpg
+2022-08-30 00:25:57,701 - craftBet -ERROR - 1108   Game Provider Name = PragmaticPlay :   Game Name =  Drago - Jewels of Fortune :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DragoJewelsofFortune.png
+2022-08-30 00:25:58,679 - craftBet -ERROR - 1113   Game Provider Name = PragmaticPlay :   Game Name =  Dragon Hot Hold & Spin :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DragonHotHoldandSpin.png
+2022-08-30 00:25:59,291 - craftBet -ERROR - 1116   Game Provider Name = PragmaticPlay :   Game Name =  Dragon Kingdom :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DragonKingdom.png
+2022-08-30 00:25:59,393 - craftBet -ERROR - 1117   Game Provider Name = PragmaticPlay :   Game Name =  Dragon Kingdom - Eyes of Fire :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DragonKingdomEyesofFire.png
+2022-08-30 00:26:10,254 - craftBet -ERROR - 1155   Game Provider Name = PragmaticPlay :   Game Name =  Dwarven Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DwarvenGold.png
+2022-08-30 00:26:10,365 - craftBet -ERROR - 1156   Game Provider Name = PragmaticPlay :   Game Name =  Dwarven Gold Deluxe :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DwarvenGoldDeluxe.png
+2022-08-30 00:26:14,647 - craftBet -ERROR - 1173   Game Provider Name = PragmaticPlay :   Game Name =  Egyptian Fortunes :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/EgyptianFortunes.png
+2022-08-30 00:26:19,095 - craftBet -ERROR - 1190   Game Provider Name = PragmaticPlay :   Game Name =  Emerald King :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/EmeraldKing.png
+2022-08-30 00:26:19,207 - craftBet -ERROR - 1191   Game Provider Name = PragmaticPlay :   Game Name =  Emerald King Rainbow Road :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/EmeraldKingRainbowRoad.png
+2022-08-30 00:26:20,118 - craftBet -ERROR - 1195   Game Provider Name = PragmaticPlay :   Game Name =  Empty the Bank :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/EmptytheBank.png
+2022-08-30 00:26:25,543 - craftBet -ERROR - 1216   Game Provider Name = PragmaticPlay :   Game Name =  Extra Juicy :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/ExtraJuicy.png
+2022-08-30 00:26:26,653 - craftBet -ERROR - 1221   Game Provider Name = PragmaticPlay :   Game Name =  Eye of the Storm :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/EyeoftheStorm.png
+2022-08-30 00:26:28,904 - craftBet -ERROR - 1230   Game Provider Name = PragmaticPlay :   Game Name =  Fairytale Fortune :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/FairytaleFortune.png
+2022-08-30 00:26:33,919 - craftBet -ERROR - 1250   Game Provider Name = PragmaticPlay :   Game Name =  Fire 88 :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/Fire88.png
+2022-08-30 00:26:36,983 - craftBet -ERROR - 1259   Game Provider Name = PragmaticPlay :   Game Name =  Fire Strike :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/FireStrike.png
+2022-08-30 00:26:39,511 - craftBet -ERROR - 1269   Game Provider Name = PragmaticPlay :   Game Name =  Fishin Reels :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/fishin_reels.png
+2022-08-30 00:26:41,277 - craftBet -ERROR - 1277   Game Provider Name = PragmaticPlay :   Game Name =  Floating Dragon :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/FloatingDragon.png
+2022-08-30 00:27:14,903 - craftBet -ERROR - 1401   Game Provider Name = PragmaticPlay :   Game Name =  Gates of Olympus :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GatesofOlympus.jpg
+2022-08-30 00:27:18,465 - craftBet -ERROR - 1416   Game Provider Name = PragmaticPlay :   Game Name =  Gems Bonanza :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GemsBonanza.png
+2022-08-30 00:27:23,257 - craftBet -ERROR - 1435   Game Provider Name = PragmaticPlay :   Game Name =  Glorious Rome :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GloriousRome.png
+2022-08-30 00:27:30,423 - craftBet -ERROR - 1462   Game Provider Name = PragmaticPlay :   Game Name =  Gold Party :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/gold_party.jpg
+2022-08-30 00:27:31,079 - craftBet -ERROR - 1465   Game Provider Name = PragmaticPlay :   Game Name =  Gold Train :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GoldTrain.png
+2022-08-30 00:27:32,062 - craftBet -ERROR - 1470   Game Provider Name = PragmaticPlay :   Game Name =  Golden Beauty :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GoldenBeauty.png
+2022-08-30 00:27:47,280 - craftBet -ERROR - 1529   Game Provider Name = PragmaticPlay :   Game Name =  Great Reef :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GreatReef.png
+2022-08-30 00:27:47,380 - craftBet -ERROR - 1530   Game Provider Name = PragmaticPlay :   Game Name =  Great Rhino :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GreatRhino.png
+2022-08-30 00:27:47,486 - craftBet -ERROR - 1531   Game Provider Name = PragmaticPlay :   Game Name =  Great Rhino Deluxe :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GreatRhinoDeluxe.png
+2022-08-30 00:27:47,845 - craftBet -ERROR - 1533   Game Provider Name = PragmaticPlay :   Game Name =  Greek Gods :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GreekGods.png
+2022-08-30 00:27:56,958 - craftBet -ERROR - 1569   Game Provider Name = PragmaticPlay :   Game Name =  Heart of Rio :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HeartofRio.png
+2022-08-30 00:27:57,784 - craftBet -ERROR - 1573   Game Provider Name = PragmaticPlay :   Game Name =  Hercules and Pegasus :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HerculesandPegasus.png
+2022-08-30 00:27:58,125 - craftBet -ERROR - 1575   Game Provider Name = PragmaticPlay :   Game Name =  Hercules Son of Zeus :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HerculesSonofZeus.png
+2022-08-30 00:28:00,736 - craftBet -ERROR - 1587   Game Provider Name = PragmaticPlay :   Game Name =  Hockey League :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HockeyLeague.png
+2022-08-30 00:28:00,830 - craftBet -ERROR - 1588   Game Provider Name = PragmaticPlay :   Game Name =  Hockey League Wild Match :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HockeyLeagueWildMatch.png
+2022-08-30 00:28:01,436 - craftBet -ERROR - 1591   Game Provider Name = PragmaticPlay :   Game Name =  Honey Honey Honey :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HoneyHoneyHoney.png
+2022-08-30 00:28:06,544 - craftBet -ERROR - 1613   Game Provider Name = PragmaticPlay :   Game Name =  Hot Chilli :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HotChilli.png
+2022-08-30 00:28:08,012 - craftBet -ERROR - 1618   Game Provider Name = PragmaticPlay :   Game Name =  Hot Fiesta :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HotFiesta.png
+2022-08-30 00:28:14,942 - craftBet -ERROR - 1646   Game Provider Name = PragmaticPlay :   Game Name =  Hot to Burn :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HottoBurn.png
+2022-08-30 00:28:15,045 - craftBet -ERROR - 1647   Game Provider Name = PragmaticPlay :   Game Name =  Hot to Burn Hold and Spin :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HottoBurnHoldandSpin.png
+2022-08-30 00:28:29,175 - craftBet -ERROR - 1706   Game Provider Name = PragmaticPlay :   Game Name =  Irish Charms :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/IrishCharms.png
+2022-08-30 00:28:34,020 - craftBet -ERROR - 1727   Game Provider Name = PragmaticPlay :   Game Name =  Jacks or Better :   cod = 403:   src = https://resources.oceanbet.io/products/
+2022-08-30 00:28:34,608 - craftBet -ERROR - 1730   Game Provider Name = PragmaticPlay :   Game Name =  Jade Butterfly :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/JadeButterfly.png
+2022-08-30 00:28:40,894 - craftBet -ERROR - 1755   Game Provider Name = PragmaticPlay :   Game Name =  John Hunter And The Mayan Gods :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/JohnHunterandtheMayanGods.png
+2022-08-30 00:28:40,992 - craftBet -ERROR - 1756   Game Provider Name = PragmaticPlay :   Game Name =  John Hunter and the Quest for Bermuda Riches :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/johnbermuda.png
+2022-08-30 00:28:41,095 - craftBet -ERROR - 1757   Game Provider Name = PragmaticPlay :   Game Name =  John Hunter and the Tomb of the Scarab Queen :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/JohnHunterandtheScarabQueen.png
+2022-08-30 00:28:43,540 - craftBet -ERROR - 1767   Game Provider Name = PragmaticPlay :   Game Name =  Joker King :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/JokerKing.png
+2022-08-30 00:28:47,331 - craftBet -ERROR - 1782   Game Provider Name = PragmaticPlay :   Game Name =  Joker's Jewels :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/Joker_sJewels.png
+2022-08-30 00:28:49,016 - craftBet -ERROR - 1789   Game Provider Name = PragmaticPlay :   Game Name =  Journey to the West :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/JourneytotheWest.png
+2022-08-30 00:28:52,115 - craftBet -ERROR - 1801   Game Provider Name = PragmaticPlay :   Game Name =  Jungle Gorilla :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/JungleGorilla.png
+2022-08-30 00:28:53,233 - craftBet -ERROR - 1806   Game Provider Name = PragmaticPlay :   Game Name =  Jurassic Giants :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/JurassicGiants.png
+2022-08-30 00:29:02,040 - craftBet -ERROR - 1841   Game Provider Name = PragmaticPlay :   Game Name =  KTV :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/KTV.png
+2022-08-30 00:29:03,404 - craftBet -ERROR - 1847   Game Provider Name = PragmaticPlay :   Game Name =  Lady Godiva :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/LadyGodiva.png
+2022-08-30 00:29:04,520 - craftBet -ERROR - 1852   Game Provider Name = PragmaticPlay :   Game Name =  Lady of the Moon :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/LadyoftheMoon.png
+2022-08-30 00:29:11,833 - craftBet -ERROR - 1881   Game Provider Name = PragmaticPlay :   Game Name =  Leprechaun Carol :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/LeprechaunCarol.png
+2022-08-30 00:29:12,987 - craftBet -ERROR - 1886   Game Provider Name = PragmaticPlay :   Game Name =  Leprechaun Song :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/LeprechaunSong.png
+2022-08-30 00:29:27,957 - craftBet -ERROR - 1943   Game Provider Name = PragmaticPlay :   Game Name =  Lucky Dragons :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/LuckyDragons.png
+2022-08-30 00:29:32,860 - craftBet -ERROR - 1962   Game Provider Name = PragmaticPlay :   Game Name =  Lucky Lightning :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/LuckyLightning.png
+2022-08-30 00:29:34,740 - craftBet -ERROR - 1970   Game Provider Name = PragmaticPlay :   Game Name =  Lucky New Year :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/LuckyNewYear.png
+2022-08-30 00:29:37,480 - craftBet -ERROR - 1981   Game Provider Name = PragmaticPlay :   Game Name =  Lucky, Grace & Charm :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/LuckyGraceCharm.png
+2022-08-30 00:29:39,494 - craftBet -ERROR - 1989   Game Provider Name = PragmaticPlay :   Game Name =  Madame Destiny :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MadameDestiny.png
+2022-08-30 00:29:40,893 - craftBet -ERROR - 1995   Game Provider Name = PragmaticPlay :   Game Name =  Magic Crystals :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MagicCrystals.png
+2022-08-30 00:29:44,776 - craftBet -ERROR - 2010   Game Provider Name = PragmaticPlay :   Game Name =  Magic Journey :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MagicJourney.png
+2022-08-30 00:29:50,794 - craftBet -ERROR - 2033   Game Provider Name = PragmaticPlay :   Game Name =  Magician's Secrets :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/magiciansecret.jpg
+2022-08-30 00:29:54,411 - craftBet -ERROR - 2047   Game Provider Name = PragmaticPlay :   Game Name =  Master Chen's Fortune :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MasterChensFortunemob.png
+2022-08-30 00:29:54,523 - craftBet -ERROR - 2048   Game Provider Name = PragmaticPlay :   Game Name =  Master Joker :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MasterJoker.png
+2022-08-30 00:30:05,306 - craftBet -ERROR - 2090   Game Provider Name = PragmaticPlay :   Game Name =  Mighty Kong :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MightyKong.png
+2022-08-30 00:30:10,988 - craftBet -ERROR - 2113   Game Provider Name = PragmaticPlay :   Game Name =  Monkey Madness :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MonkeyMadness.png
+2022-08-30 00:30:11,408 - craftBet -ERROR - 2115   Game Provider Name = PragmaticPlay :   Game Name =  Monkey Warrior :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MonkeyWarrior.png
+2022-08-30 00:30:21,944 - craftBet -ERROR - 2156   Game Provider Name = PragmaticPlay :   Game Name =  Mustang Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MustangGold.png
+2022-08-30 00:30:22,055 - craftBet -ERROR - 2157   Game Provider Name = PragmaticPlay :   Game Name =  Mysterious :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/Mysterious.png
+2022-08-30 00:30:22,150 - craftBet -ERROR - 2158   Game Provider Name = PragmaticPlay :   Game Name =  Mysterious Egypt :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MysteriousEgypt.png
+2022-08-30 00:30:24,857 - craftBet -ERROR - 2169   Game Provider Name = PragmaticPlay :   Game Name =  Mystic Chief :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/mysticchief.jpg
+2022-08-30 00:30:50,433 - craftBet -ERROR - 2253   Game Provider Name = PragmaticPlay :   Game Name =  Panda Fortune 2 :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/PandaFortune2.png
+2022-08-30 00:30:51,457 - craftBet -ERROR - 2257   Game Provider Name = PragmaticPlay :   Game Name =  Panda's Fortune :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/PandaFortune.png
+2022-08-30 00:30:51,986 - craftBet -ERROR - 2260   Game Provider Name = PragmaticPlay :   Game Name =  Panther Queen :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/PantherQueen.png
+2022-08-30 00:30:58,593 - craftBet -ERROR - 2282   Game Provider Name = PragmaticPlay :   Game Name =  Peking Luck :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/PekingLuck.png
+2022-08-30 00:31:03,358 - craftBet -ERROR - 2297   Game Provider Name = PragmaticPlay :   Game Name =  Phoenix Forge :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/PhoenixForge.png
+2022-08-30 00:31:06,872 - craftBet -ERROR - 2306   Game Provider Name = PragmaticPlay :   Game Name =  Piggy Bank Bills :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/piggybankbills.jpg
+2022-08-30 00:31:11,995 - craftBet -ERROR - 2323   Game Provider Name = PragmaticPlay :   Game Name =  Pirate Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/PirateGold.png
+2022-08-30 00:31:12,137 - craftBet -ERROR - 2324   Game Provider Name = PragmaticPlay :   Game Name =  Pirate Gold Deluxe :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/PirateGoldDeluxe.png
+2022-08-30 00:31:13,914 - craftBet -ERROR - 2330   Game Provider Name = PragmaticPlay :   Game Name =  Pixie Wings :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/PixieWings.png
+2022-08-30 00:31:32,285 - craftBet -ERROR - 2389   Game Provider Name = PragmaticPlay :   Game Name =  Pyramid King :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/PyramidKing.png
+2022-08-30 00:31:34,237 - craftBet -ERROR - 2396   Game Provider Name = PragmaticPlay :   Game Name =  Queen of Atlantis :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/QueenofAtlantis.png
+2022-08-30 00:31:34,959 - craftBet -ERROR - 2399   Game Provider Name = PragmaticPlay :   Game Name =  Queen of Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/QueenofGold.png
+2022-08-30 00:31:35,056 - craftBet -ERROR - 2400   Game Provider Name = PragmaticPlay :   Game Name =  Queen of Gold 100,000 :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/QueenofGold100k2.png
+2022-08-30 00:31:52,581 - craftBet -ERROR - 2457   Game Provider Name = PragmaticPlay :   Game Name =  Release the Kraken :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/ReleasetheKraken.png
+2022-08-30 00:31:57,586 - craftBet -ERROR - 2474   Game Provider Name = PragmaticPlay :   Game Name =  Return of the Dead :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/ReturnoftheDead.png
+2022-08-30 00:32:13,794 - craftBet -ERROR - 2527   Game Provider Name = PragmaticPlay :   Game Name =  Romeo and Juliet :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/RomeoandJuliet.png
+2022-08-30 00:32:21,627 - craftBet -ERROR - 2553   Game Provider Name = PragmaticPlay :   Game Name =  Safari King :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/SafariKing.png
+2022-08-30 00:32:25,900 - craftBet -ERROR - 2568   Game Provider Name = PragmaticPlay :   Game Name =  Santa :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/Santa.png
+2022-08-30 00:33:07,664 - craftBet -ERROR - 2695   Game Provider Name = PragmaticPlay :   Game Name =  Spartan King :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/SpartanKing.png
+2022-08-30 00:33:17,682 - craftBet -ERROR - 2728   Game Provider Name = PragmaticPlay :   Game Name =  Star Bounty :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/starbounty.png
+2022-08-30 00:33:18,431 - craftBet -ERROR - 2731   Game Provider Name = PragmaticPlay :   Game Name =  Star Pirates Code :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/starpirates.jpg
+2022-08-30 00:33:19,140 - craftBet -ERROR - 2734   Game Provider Name = PragmaticPlay :   Game Name =  Starlight Princess :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/starlight.jpg
+2022-08-30 00:33:27,404 - craftBet -ERROR - 2762   Game Provider Name = PragmaticPlay :   Game Name =  Street Racer :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/StreetRacer.png
+2022-08-30 00:33:28,090 - craftBet -ERROR - 2765   Game Provider Name = PragmaticPlay :   Game Name =  Sugar Rush :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/SugarRush.png
+2022-08-30 00:33:28,195 - craftBet -ERROR - 2766   Game Provider Name = PragmaticPlay :   Game Name =  Sugar Rush Valentine's Day :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/SugarRushValentineDay.png
+2022-08-30 00:33:28,294 - craftBet -ERROR - 2767   Game Provider Name = PragmaticPlay :   Game Name =  Sugar Rush Winter :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/SugarRushWinter.png
+2022-08-30 00:33:33,110 - craftBet -ERROR - 2783   Game Provider Name = PragmaticPlay :   Game Name =  Super 7s  :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/Super7s.png
+2022-08-30 00:33:38,722 - craftBet -ERROR - 2802   Game Provider Name = PragmaticPlay :   Game Name =  Super Joker :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/SuperJoker.png
+2022-08-30 00:33:45,498 - craftBet -ERROR - 2824   Game Provider Name = PragmaticPlay :   Game Name =  Sweet Bonanza Xmas :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/SweetBonanzaXmas.png
+2022-08-30 00:33:51,739 - craftBet -ERROR - 2844   Game Provider Name = PragmaticPlay :   Game Name =  Tales of Egypt :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TalesofEgypt.png
+2022-08-30 00:33:55,059 - craftBet -ERROR - 2856   Game Provider Name = PragmaticPlay :   Game Name =  Temujin Treasures :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TemujinTreasures.png
+2022-08-30 00:34:01,063 - craftBet -ERROR - 2875   Game Provider Name = PragmaticPlay :   Game Name =  The Catfather :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TheCatfather.png
+2022-08-30 00:34:01,189 - craftBet -ERROR - 2876   Game Provider Name = PragmaticPlay :   Game Name =  The Catfather Part II :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TheCatfatherPartII.png
+2022-08-30 00:34:01,294 - craftBet -ERROR - 2877   Game Provider Name = PragmaticPlay :   Game Name =  The Champions :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TheChampions.png
+2022-08-30 00:34:02,728 - craftBet -ERROR - 2883   Game Provider Name = PragmaticPlay :   Game Name =  The Dog House :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TheDogHouse.png
+2022-08-30 00:34:07,918 - craftBet -ERROR - 2897   Game Provider Name = PragmaticPlay :   Game Name =  The Great Chicken Escape :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TheGreatChickenEscape.png
+2022-08-30 00:34:09,253 - craftBet -ERROR - 2902   Game Provider Name = PragmaticPlay :   Game Name =  The Hand of Midas :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TheHandofMidas.png
+2022-08-30 00:34:13,902 - craftBet -ERROR - 2916   Game Provider Name = PragmaticPlay :   Game Name =  The Magic Cauldron :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TheMagicCauldronEnchantedBrew.png
+2022-08-30 00:34:22,400 - craftBet -ERROR - 2945   Game Provider Name = PragmaticPlay :   Game Name =  The Wild Machine :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TheWildMachine.png
+2022-08-30 00:34:24,573 - craftBet -ERROR - 2953   Game Provider Name = PragmaticPlay :   Game Name =  Three Star Fortune :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/ThreeStarFortune.png
+2022-08-30 00:34:41,405 - craftBet -ERROR - 3008   Game Provider Name = PragmaticPlay :   Game Name =  Treasure Horse :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TreasureHorse.png
+2022-08-30 00:34:43,020 - craftBet -ERROR - 3013   Game Provider Name = PragmaticPlay :   Game Name =  Treasure Wild :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/treasurewild.png
+2022-08-30 00:34:43,770 - craftBet -ERROR - 3016   Game Provider Name = PragmaticPlay :   Game Name =  Tree of Riches :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TreeofRiches.png
+2022-08-30 00:34:46,107 - craftBet -ERROR - 3024   Game Provider Name = PragmaticPlay :   Game Name =  Triple Dragons :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TripleDragons.png
+2022-08-30 00:34:46,536 - craftBet -ERROR - 3026   Game Provider Name = PragmaticPlay :   Game Name =  Triple Jokers :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TripleJokers.png
+2022-08-30 00:34:47,264 - craftBet -ERROR - 3029   Game Provider Name = PragmaticPlay :   Game Name =  Triple Tigers :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TripleTigers.png
+2022-08-30 00:34:56,375 - craftBet -ERROR - 3058   Game Provider Name = PragmaticPlay :   Game Name =  Ultra Burn :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/UltraBurn.png
+2022-08-30 00:34:56,488 - craftBet -ERROR - 3059   Game Provider Name = PragmaticPlay :   Game Name =  Ultra Hold and Spin :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/ultraholdandspinmob.png
+2022-08-30 00:35:04,723 - craftBet -ERROR - 3086   Game Provider Name = PragmaticPlay :   Game Name =  Vampires vs Wolves :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/VampiresvsWolves.png
+2022-08-30 00:35:06,914 - craftBet -ERROR - 3093   Game Provider Name = PragmaticPlay :   Game Name =  Vegas Magic :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/VegasMagic.png
+2022-08-30 00:35:07,365 - craftBet -ERROR - 3095   Game Provider Name = PragmaticPlay :   Game Name =  Vegas Nights :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/VegasNights.png
+2022-08-30 00:35:16,653 - craftBet -ERROR - 3126   Game Provider Name = PragmaticPlay :   Game Name =  Voodoo Magic :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/VoodooMagic.png
+2022-08-30 00:35:26,931 - craftBet -ERROR - 3159   Game Provider Name = PragmaticPlay :   Game Name =  Wild Booster :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/WildBooster.png
+2022-08-30 00:35:29,497 - craftBet -ERROR - 3168   Game Provider Name = PragmaticPlay :   Game Name =  Wild Depths :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/wilddepths.jpg
+2022-08-30 00:35:33,642 - craftBet -ERROR - 3182   Game Provider Name = PragmaticPlay :   Game Name =  Wild Gladiator :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/WildGladiators.png
+2022-08-30 00:35:39,291 - craftBet -ERROR - 3201   Game Provider Name = PragmaticPlay :   Game Name =  Wild Pixies :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/WildPixies.png
+2022-08-30 00:35:42,164 - craftBet -ERROR - 3211   Game Provider Name = PragmaticPlay :   Game Name =  Wild Spells :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/WildSpells.png
+2022-08-30 00:35:44,825 - craftBet -ERROR - 3220   Game Provider Name = PragmaticPlay :   Game Name =  Wild Walker :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/WildWalker.png
+2022-08-30 00:35:45,342 - craftBet -ERROR - 3223   Game Provider Name = PragmaticPlay :   Game Name =  Wild West Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/WildWestGold.png
+2022-08-30 00:35:46,363 - craftBet -ERROR - 3227   Game Provider Name = PragmaticPlay :   Game Name =  Wild Wild Riches :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/wildwildriches.png
+2022-08-30 00:36:07,063 - craftBet -ERROR - 3292   Game Provider Name = PragmaticPlay :   Game Name =  Yum Yum Powerways :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/yumyum.jpg
+2022-08-30 00:36:11,215 - craftBet -INFO - Broken images are:  171
+2022-08-30 00:36:12,962 - craftBet -INFO - Browser closed
+2022-08-30 00:36:12,962 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 00:36:12,970 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
