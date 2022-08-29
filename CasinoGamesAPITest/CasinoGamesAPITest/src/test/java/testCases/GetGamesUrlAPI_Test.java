@@ -27,6 +27,10 @@ public class GetGamesUrlAPI_Test extends BaseTest {
                 token = craftBet_01_header_page.getItem("token");
                 logger.info("Token was captured " + token);
             }
+            else {
+                token = craftBet_01_header_page.getItem("token");
+                logger.info("Token was captured " + token);
+            }
 
     }
 

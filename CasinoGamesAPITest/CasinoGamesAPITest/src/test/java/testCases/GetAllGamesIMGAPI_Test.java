@@ -20,7 +20,6 @@ public class GetAllGamesIMGAPI_Test extends BaseTest {
             Assert.fail();
         }
     }
-
 }
 
 

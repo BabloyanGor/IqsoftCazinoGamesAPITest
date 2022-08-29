@@ -472,7 +472,7 @@ public class BaseTest extends DriverFactory {
                     break;
                 }
                 case "Snooker":{
-                    if (allMinutes > 182) {
+                    if (allMinutes > 240) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
                     }
@@ -492,11 +492,7 @@ public class BaseTest extends DriverFactory {
                         errorSrcXl.add(errMessageMinutes);
                     }
                 }
-
-
             }
-
-
         }
 
         logger.info("Time out Games are:  " + errorSrcXl.size());
@@ -740,6 +736,17 @@ public class BaseTest extends DriverFactory {
                 break;
             }
 
+            case 11: {
+                partnerID = 57;
+                getGamesAPIUrl = "https://websitewebapi.craftbet.la/57/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.craftbet.la/57/api/Main/GetProductUrl";
+                getUserID = 1651023;
+                getGamesOrigin = "https://craftbet.la";
+                getGamesRecurse = "https://resources.craftbet.la/products/";
+                getGamesPartnerName = "CraftLA";
+                getGamesBaseURL = "https://craftbet.la";
+                break;
+            }
 
             case 100: {
                 partnerID = 1;
