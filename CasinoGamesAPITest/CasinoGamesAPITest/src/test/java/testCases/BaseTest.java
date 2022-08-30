@@ -45,10 +45,19 @@ public class BaseTest extends DriverFactory {
     public String getURLAPIUrl;
     public int getUserID;
     public String getGamesOrigin;
+    public String getPrematchTreeOrigin;
+    public String getMarketByIDOrigin;
     public String getGamesRecurse;
     public String getGamesPartnerName;
     public String getGamesBaseURL;
     public String getAllLifeGames;
+
+    public String getPreMatchTree;
+    public String getMarketByID;
+
+
+
+
     public CraftBet_01_Header_Page craftBet_01_header_page;
     public CraftBet_03_Login_PopUp_Page craftBet_03_login_popUp_page;
     ReadConfig readConfig = new ReadConfig();
@@ -363,6 +372,85 @@ public class BaseTest extends DriverFactory {
         return isPassed;
     }
 
+    public boolean getPreMatchGamesAPICheckMarkets(String getMatchIDAPI,String getMarketsAPI ,String origin, String partnerName)
+            throws UnirestException, JSONException, IOException {
+
+        boolean isPassed = true;
+        int k = 1;
+        ArrayList<String> gameIDs = new ArrayList<>();
+        ArrayList<String> gameProviderNames = new ArrayList<>();
+        ArrayList<String> errorSrcXl = new ArrayList<>();
+
+
+
+        Unirest.setTimeouts(0, 0);
+        HttpResponse<String> responseGetMatches = Unirest.get(getMatchIDAPI)
+                .header("origin", origin)
+                .asString();
+
+        logger.info("Get Matches Api call was sent");
+        JSONObject jsonObjectBody = new JSONObject(responseGetMatches.getBody());
+
+        System.out.println(responseGetMatches);
+
+
+
+
+
+
+
+
+//
+//        JSONObject jsonObjectBody = new JSONObject(response.getBody());
+//        JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.getString("ResponseObject"));
+//        JSONArray jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
+//        logger.info("Get games Api Response was captured");
+//
+//        for (int j = 0; j < jsonArrayGames.length(); j++) {
+//
+//            String first = String.valueOf(jsonArrayGames.get(j));
+//            JSONObject jsonObjectGame = new JSONObject(first);
+//            String n = jsonObjectGame.getString("n");    //Game Name
+//            String sp = jsonObjectGame.getString("sp");  //Provider Name
+//            gameProviderNames.add(sp);
+//            gameNames.add(n);
+//        }
+//
+//        for (int i = 0; i < gameNames.size(); i++) {
+//            String name = gameNames.get(i);
+//            for (int j = i + 1; j < gameNames.size(); j++) {
+//                String x = gameNames.get(j);
+//                if (name.equals(x)) {
+//                    logger.info("Dupliicate game Name =  " + gameNames.get(j));
+//                    errorSrcXl.add(k + "  This game has duplicate Please check it :  Name =  " + gameNames.get(j));
+//                    k++;
+//                }
+//            }
+//        }
+//
+//
+//        logger.info("Duplicate games are:  " + errorSrcXl.size());
+//        if (errorSrcXl.size() == 0) {
+//            isPassed = true;
+//        } else {
+//            String target = System.getProperty("user.dir") + "/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataDuplicateGamesList.xlsx";
+//            XSSFWorkbook workbook = new XSSFWorkbook();
+//            FileOutputStream file = new FileOutputStream(target);
+//            XSSFSheet sheet = workbook.createSheet("brokenIMG");
+//            sheet.setColumnWidth(0, 20000);
+//            int l = 0;
+//            for (String err : errorSrcXl) {
+//                XSSFRow row = sheet.createRow(l);
+//                row.createCell(0).setCellValue(err);
+//                l++;
+//            }
+//            workbook.write(file);
+//            workbook.close();
+//            isPassed = false;
+//        }
+        return isPassed;
+    }
+
     public boolean getLimitOutGamesApiCheck(String getGamesAPIUrl, String partnerName)
             throws UnirestException, JSONException, IOException {
 
@@ -383,7 +471,7 @@ public class BaseTest extends DriverFactory {
 
 
         Unirest.setTimeouts(0, 0);
-        HttpResponse<String> response = Unirest.get(getAllLifeGames).asString();
+        HttpResponse<String> response = Unirest.get(getGamesAPIUrl).asString();
 
 
         logger.info("Get games Api call was sent");
@@ -735,6 +823,12 @@ public class BaseTest extends DriverFactory {
                 getGamesBaseURL = "https://craftbet.com";
 
                 getAllLifeGames = "https://sportsbookwebsitewebapi.craftbet.com/website/getlivematchesoverview?LanguageId=en&TimeZone=4&origin=https://sportsbookwebsite.craftbet.com";
+
+                getPreMatchTree = "https://sportsbookwebsitewebapi.craftbet.com/website/getprematchtree?LanguageId=en&TimeZone=4";
+                getPrematchTreeOrigin = "https://sportsbookwebsite.craftbet.com";
+                getMarketByID ="https://sportsbookwebsitewebapi.craftbet.com/website/getmarketsbymatchid?LanguageId=en&TimeZone=4&MatchId=3713041&OddsType=0";
+                getMarketByIDOrigin = "https://sportsbookwebsite.craftbet.com";
+
                 break;
             }
             case 2: {

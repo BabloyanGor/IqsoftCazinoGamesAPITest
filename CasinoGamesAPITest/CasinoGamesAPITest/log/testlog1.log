@@ -1834,3 +1834,453 @@ java.net.SocketException: Connection reset
 2022-08-30 11:22:03,601 [main] INFO craftBet - Browser closed
 2022-08-30 11:22:03,602 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-08-30 11:22:03,641 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 13:52:56,003 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 13:52:57,618 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 13:52:57,655 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 13:53:01,486 [main] INFO craftBet - URL: https://tetherbet.io  Browser: chrome
+2022-08-30 13:53:01,637 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 13:53:02,040 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 13:53:21,186 [main] INFO craftBet - Get games Api call was sent
+2022-08-30 13:53:21,441 [main] INFO craftBet - Get games Api Response was captured
+2022-08-30 13:53:21,535 [main] INFO craftBet - All captured games images was added into ArrayList
+2022-08-30 13:53:22,426 [main] ERROR craftBet - 2   Game Provider Name = NetEnt :   Game Name =  Aloha :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Aloha_252_190.jpg
+2022-08-30 13:53:22,544 [main] ERROR craftBet - 3   Game Provider Name = NetEnt :   Game Name =  Arcane :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/ArcaneReelChaos_376x250.gif
+2022-08-30 13:53:22,641 [main] ERROR craftBet - 4   Game Provider Name = NetEnt :   Game Name =  Archangels :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Archangels.png
+2022-08-30 13:53:22,815 [main] ERROR craftBet - 5   Game Provider Name = NetEnt :   Game Name =  AsgardianStones :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/AsgardianStones.png
+2022-08-30 13:53:22,922 [main] ERROR craftBet - 6   Game Provider Name = NetEnt :   Game Name =  Berry Burst :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/BerryBurst.jpg
+2022-08-30 13:53:23,025 [main] ERROR craftBet - 7   Game Provider Name = NetEnt :   Game Name =  Berry Burst Max :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/BerryBurstMax.jpg
+2022-08-30 13:53:23,726 [main] ERROR craftBet - 10   Game Provider Name = NetEnt :   Game Name =  blacklagoon :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/blacklagoon.png
+2022-08-30 13:53:23,845 [main] ERROR craftBet - 11   Game Provider Name = NetEnt :   Game Name =  Blood Suckers :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/blood_suckers_252_190_.jpg
+2022-08-30 13:53:23,932 [main] ERROR craftBet - 12   Game Provider Name = NetEnt :   Game Name =  Blood Suckers 2 :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Blood_Suckers_252_190.jpg
+2022-08-30 13:53:24,032 [main] ERROR craftBet - 13   Game Provider Name = NetEnt :   Game Name =  BollywoodStory :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/bollywood_story.png
+2022-08-30 13:53:24,837 [main] ERROR craftBet - 17   Game Provider Name = NetEnt :   Game Name =  Butterfly Staxx :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Butterfly_staxx_252_190.jpg
+2022-08-30 13:53:25,000 [main] ERROR craftBet - 18   Game Provider Name = NetEnt :   Game Name =  Butterfly Staxx 2 :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/ButterflyStaxx2.jpg.jpg
+2022-08-30 13:53:25,099 [main] ERROR craftBet - 19   Game Provider Name = NetEnt :   Game Name =  CashNoire :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/CashNoire.png
+2022-08-30 13:53:25,195 [main] ERROR craftBet - 20   Game Provider Name = NetEnt :   Game Name =  Colossal Pinatas :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/ColossalPinatas.jpg
+2022-08-30 13:53:25,301 [main] ERROR craftBet - 21   Game Provider Name = NetEnt :   Game Name =  Copy Cats :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Copy_Cats_252_190.jpg
+2022-08-30 13:53:25,397 [main] ERROR craftBet - 22   Game Provider Name = NetEnt :   Game Name =  DarkKing :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/DarkKing.png
+2022-08-30 13:53:25,573 [main] ERROR craftBet - 23   Game Provider Name = NetEnt :   Game Name =  Dazzleme :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Dazzle_Me_252_190.jpg
+2022-08-30 13:53:25,680 [main] ERROR craftBet - 24   Game Provider Name = NetEnt :   Game Name =  Dead Or Alive :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Dead_or_Alive_252_190.jpg
+2022-08-30 13:53:25,780 [main] ERROR craftBet - 25   Game Provider Name = NetEnt :   Game Name =  Dead Or Alive 2 :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/DeadOrAlive2.jpg
+2022-08-30 13:53:25,874 [main] ERROR craftBet - 26   Game Provider Name = NetEnt :   Game Name =  DeadOrAlive2FB :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/dead_or_alive2FB.png
+2022-08-30 13:53:26,395 [main] ERROR craftBet - 29   Game Provider Name = NetEnt :   Game Name =  DoubleStac :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/double_stacks.png
+2022-08-30 13:53:26,487 [main] ERROR craftBet - 30   Game Provider Name = NetEnt :   Game Name =  Dracula :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Dracula_slots_252_190.jpg
+2022-08-30 13:53:26,592 [main] ERROR craftBet - 31   Game Provider Name = NetEnt :   Game Name =  Gonzo's Quest :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Gonzo_s_Quest_252_190.jpg
+2022-08-30 13:53:26,684 [main] ERROR craftBet - 32   Game Provider Name = NetEnt :   Game Name =  Elements :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Elements_376x250.gif
+2022-08-30 13:53:26,777 [main] ERROR craftBet - 33   Game Provider Name = NetEnt :   Game Name =  Elements :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Elements_the_awakening_252_190.jpg
+2022-08-30 13:53:26,944 [main] ERROR craftBet - 34   Game Provider Name = NetEnt :   Game Name =  Excalibur :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/excalibur.png
+2022-08-30 13:53:27,029 [main] ERROR craftBet - 35   Game Provider Name = NetEnt :   Game Name =  Fairy Red :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Fairytale_legends_Hansel_Gratel_252_190.jpg
+2022-08-30 13:53:27,370 [main] ERROR craftBet - 37   Game Provider Name = NetEnt :   Game Name =  Flowers :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Flowers.jpg
+2022-08-30 13:53:27,466 [main] ERROR craftBet - 38   Game Provider Name = NetEnt :   Game Name =  Flowers Christmas :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/FlowersChristmas.jpg
+2022-08-30 13:53:27,564 [main] ERROR craftBet - 39   Game Provider Name = NetEnt :   Game Name =  Football :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Football_champions_cup_252_190.jpg
+2022-08-30 13:53:27,659 [main] ERROR craftBet - 40   Game Provider Name = NetEnt :   Game Name =  FortuneRangers :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/FortuneRangers.png
+2022-08-30 13:53:27,748 [main] ERROR craftBet - 41   Game Provider Name = NetEnt :   Game Name =  Fruit Shop :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Fruit_shop_252_190.jpg
+2022-08-30 13:53:28,080 [main] ERROR craftBet - 43   Game Provider Name = NetEnt :   Game Name =  Gods Of Fortune :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/GodsOfFortune.jpg
+2022-08-30 13:53:28,165 [main] ERROR craftBet - 44   Game Provider Name = NetEnt :   Game Name =  godsofgold :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/gods_of_gold.png
+2022-08-30 13:53:28,259 [main] ERROR craftBet - 45   Game Provider Name = NetEnt :   Game Name =  Golden Grimoire :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/GoldenGrimoire.jpg
+2022-08-30 13:53:28,629 [main] ERROR craftBet - 47   Game Provider Name = NetEnt :   Game Name =  GorillaKingdom :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/GorillaKingdom_376x250.gif
+2022-08-30 13:53:28,791 [main] ERROR craftBet - 48   Game Provider Name = NetEnt :   Game Name =  Gunsnroses :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Guns_n__roses_video_slots_252_190.jpg
+2022-08-30 13:53:28,897 [main] ERROR craftBet - 49   Game Provider Name = NetEnt :   Game Name =  hiddencoinsofegypt :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/hiddencoinsofegypt.png
+2022-08-30 13:53:28,991 [main] ERROR craftBet - 50   Game Provider Name = NetEnt :   Game Name =  Hotline2 :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/hotline2.png
+2022-08-30 13:53:29,089 [main] ERROR craftBet - 51   Game Provider Name = NetEnt :   Game Name =  Invisible Man :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/The_invisible_man_252_190.jpg
+2022-08-30 13:53:29,190 [main] ERROR craftBet - 52   Game Provider Name = NetEnt :   Game Name =  Jack And Beans Talk :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/JackBeansTalk.jpg.jpg
+2022-08-30 13:53:29,277 [main] ERROR craftBet - 53   Game Provider Name = NetEnt :   Game Name =  Jack Hammer :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/JackHammer.jpg
+2022-08-30 13:53:29,368 [main] ERROR craftBet - 54   Game Provider Name = NetEnt :   Game Name =  Jack Hammer 2 :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/JackHammer2.jpg
+2022-08-30 13:53:29,723 [main] ERROR craftBet - 56   Game Provider Name = NetEnt :   Game Name =  Jimi Hendrix :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/JimiHendrix.jpg
+2022-08-30 13:53:29,900 [main] ERROR craftBet - 57   Game Provider Name = NetEnt :   Game Name =  Joker Pro :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Joker_Pro_252_190.jpg
+2022-08-30 13:53:29,996 [main] ERROR craftBet - 58   Game Provider Name = NetEnt :   Game Name =  Jungle Spirit :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Jungle_spirit_252_190.jpg
+2022-08-30 13:53:30,101 [main] ERROR craftBet - 59   Game Provider Name = NetEnt :   Game Name =  King Of Slots :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/KingOfSlots.jpg.jpg
+2022-08-30 13:53:30,192 [main] ERROR craftBet - 60   Game Provider Name = NetEnt :   Game Name =  Koi Princess :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/KOI_princess_252_190.jpg
+2022-08-30 13:53:30,553 [main] ERROR craftBet - 62   Game Provider Name = NetEnt :   Game Name =  Lights :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Lights_252_190.jpg
+2022-08-30 13:53:30,651 [main] ERROR craftBet - 63   Game Provider Name = NetEnt :   Game Name =  longpao :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/long_pao.png
+2022-08-30 13:53:30,833 [main] ERROR craftBet - 65   Game Provider Name = NetEnt :   Game Name =  Lucky Angler :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Lucky_Angler_252_190.jpg
+2022-08-30 13:53:30,949 [main] ERROR craftBet - 66   Game Provider Name = NetEnt :   Game Name =  Magic Portals :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/magic_portals_252_190.jpg
+2022-08-30 13:53:32,483 [main] ERROR craftBet - 72   Game Provider Name = NetEnt :   Game Name =  Motor Head :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/motorbead_252_190.jpg
+2022-08-30 13:53:32,572 [main] ERROR craftBet - 73   Game Provider Name = NetEnt :   Game Name =  Multiplier Mayhem :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Drive_multiplayer_mayhem_252_190.jpg
+2022-08-30 13:53:32,661 [main] ERROR craftBet - 74   Game Provider Name = NetEnt :   Game Name =  Mythic Maiden :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Mythic_Maiden_252_190.jpg
+2022-08-30 13:53:32,750 [main] ERROR craftBet - 75   Game Provider Name = NetEnt :   Game Name =  Neon Staxx :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Neon_Taxx_252_190.jpg
+2022-08-30 13:53:32,846 [main] ERROR craftBet - 76   Game Provider Name = NetEnt :   Game Name =  Parthenon :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Parthenon.png
+2022-08-30 13:53:32,936 [main] ERROR craftBet - 77   Game Provider Name = NetEnt :   Game Name =  Piggy Riches :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/piggy_riches_252_190.jpg
+2022-08-30 13:53:33,299 [main] ERROR craftBet - 79   Game Provider Name = NetEnt :   Game Name =  Pyramid :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Pyramid_Quest_for_Immortality_252_190.jpg
+2022-08-30 13:53:33,650 [main] ERROR craftBet - 81   Game Provider Name = NetEnt :   Game Name =  RageOfTheSeas :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/rage_of_seas.png
+2022-08-30 13:53:33,994 [main] ERROR craftBet - 83   Game Provider Name = NetEnt :   Game Name =  reefraider_r1 :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/reef_raider.png
+2022-08-30 13:53:34,102 [main] ERROR craftBet - 84   Game Provider Name = NetEnt :   Game Name =  Reel Rush :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Reel_Rush_252_190.jpg
+2022-08-30 13:53:35,528 [main] ERROR craftBet - 90   Game Provider Name = NetEnt :   Game Name =  Scruffy Duck :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Scruffy_duck_252_190.jpg
+2022-08-30 13:53:35,618 [main] ERROR craftBet - 91   Game Provider Name = NetEnt :   Game Name =  Secrets Of Christmas :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Secrets_of_Christmas_252_190.jpg
+2022-08-30 13:53:35,700 [main] ERROR craftBet - 92   Game Provider Name = NetEnt :   Game Name =  shangrila :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/shangri_la.png
+2022-08-30 13:53:35,796 [main] ERROR craftBet - 93   Game Provider Name = NetEnt :   Game Name =  SpaceWars :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/SpaceWars.jpg.jpg
+2022-08-30 13:53:35,890 [main] ERROR craftBet - 94   Game Provider Name = NetEnt :   Game Name =  Sparks :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Sparks_252_190.jpg
+2022-08-30 13:53:35,993 [main] ERROR craftBet - 95   Game Provider Name = NetEnt :   Game Name =  Spellcast :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/spellcast.jpg.jpg
+2022-08-30 13:53:36,085 [main] ERROR craftBet - 96   Game Provider Name = NetEnt :   Game Name =  Spinsane :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/spinsane.jpg.jpg
+2022-08-30 13:53:36,174 [main] ERROR craftBet - 97   Game Provider Name = NetEnt :   Game Name =  StarBurst :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Sturburst_252_190.jpg
+2022-08-30 13:53:36,262 [main] ERROR craftBet - 98   Game Provider Name = NetEnt :   Game Name =  Steam Tower :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Steam_tower_252_190.jpg
+2022-08-30 13:53:36,360 [main] ERROR craftBet - 99   Game Provider Name = NetEnt :   Game Name =  Stickers :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/stickers_252_190.jpg
+2022-08-30 13:53:36,815 [main] ERROR craftBet - 102   Game Provider Name = NetEnt :   Game Name =  Sweety Honey Fruity :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/SweetyHoneyFruity.jpg.jpg
+2022-08-30 13:53:37,100 [main] ERROR craftBet - 105   Game Provider Name = NetEnt :   Game Name =  Theme Park :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Theme_park_252_190.jpg
+2022-08-30 13:53:37,196 [main] ERROR craftBet - 106   Game Provider Name = NetEnt :   Game Name =  Twin Happiness :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/TwinHappiness.jpg.jpg
+2022-08-30 13:53:37,298 [main] ERROR craftBet - 107   Game Provider Name = NetEnt :   Game Name =  Twin Spin :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/twin_spin_252_190.jpg
+2022-08-30 13:53:37,390 [main] ERROR craftBet - 108   Game Provider Name = NetEnt :   Game Name =  TwinSpinDeluxe :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/twin_spin_deluxe.png
+2022-08-30 13:53:37,485 [main] ERROR craftBet - 109   Game Provider Name = NetEnt :   Game Name =  twinspinmw :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/twinspin.png
+2022-08-30 13:53:37,595 [main] ERROR craftBet - 110   Game Provider Name = NetEnt :   Game Name =  Victorious :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Victorious_252_190.jpg
+2022-08-30 13:53:37,687 [main] ERROR craftBet - 111   Game Provider Name = NetEnt :   Game Name =  vikings :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/vikings.png
+2022-08-30 13:53:37,775 [main] ERROR craftBet - 112   Game Provider Name = NetEnt :   Game Name =  Warlords :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Warlords_252_190.jpg
+2022-08-30 13:53:37,874 [main] ERROR craftBet - 113   Game Provider Name = NetEnt :   Game Name =  whosthebride :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/whos_bride.png
+2022-08-30 13:53:38,062 [main] ERROR craftBet - 115   Game Provider Name = NetEnt :   Game Name =  WildOTron :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/wild_o_tron.png
+2022-08-30 13:53:38,150 [main] ERROR craftBet - 116   Game Provider Name = NetEnt :   Game Name =  WildTurkey :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/wild_turkey.png
+2022-08-30 13:53:38,237 [main] ERROR craftBet - 117   Game Provider Name = NetEnt :   Game Name =  Wild Water :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Wild_water_252_190.jpg
+2022-08-30 13:53:38,432 [main] ERROR craftBet - 119   Game Provider Name = NetEnt :   Game Name =  wingsofriches :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/wings_riches.png
+2022-08-30 13:53:38,525 [main] ERROR craftBet - 120   Game Provider Name = NetEnt :   Game Name =  Wolf Cub :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/wolf_cub_252_190.jpg
+2022-08-30 13:53:38,622 [main] ERROR craftBet - 121   Game Provider Name = NetEnt :   Game Name =  Wolfs Night :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/WolfsNight.jpg.jpg
+2022-08-30 13:53:46,513 [main] ERROR craftBet - 154   Game Provider Name = RedTiger :   Game Name =  24hourgrandprix :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/24grand_prix.png
+2022-08-30 13:53:52,853 [main] ERROR craftBet - 178   Game Provider Name = RedTiger :   Game Name =  4squad :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/4squad.png
+2022-08-30 13:53:58,163 [main] ERROR craftBet - 199   Game Provider Name = RedTiger :   Game Name =  777strike :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/777strike.png
+2022-08-30 13:54:24,281 [main] ERROR craftBet - 295   Game Provider Name = RedTiger :   Game Name =  ancientscript :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/ancient_script.png
+2022-08-30 13:55:18,863 [main] ERROR craftBet - 502   Game Provider Name = RedTiger :   Game Name =  bluediamond :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/blue_diamond.png
+2022-08-30 13:55:40,437 [main] ERROR craftBet - 581   Game Provider Name = Greentube :   Game Name =  BookOfRaDeluxe10 :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/web/book_of_ra_deluxe10.png
+2022-08-30 13:55:40,536 [main] ERROR craftBet - 582   Game Provider Name = Greentube :   Game Name =  BookOfRaDeluxe6 :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/web/book-of-ra-deluxe.png
+2022-08-30 13:55:44,331 [main] ERROR craftBet - 597   Game Provider Name = RedTiger :   Game Name =  bountyraid :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/bounty_raid.png
+2022-08-30 13:56:14,868 [main] ERROR craftBet - 690   Game Provider Name = RedTiger :   Game Name =  cashvolt :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/cash_volt.png
+2022-08-30 13:56:32,842 [main] ERROR craftBet - 744   Game Provider Name = RedTiger :   Game Name =  chinesetreasures :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/chinese_treasures.png
+2022-08-30 13:56:36,587 [main] ERROR craftBet - 757   Game Provider Name = RedTiger :   Game Name =  cirquedelafortune :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/cirque_fortune.png
+2022-08-30 13:56:37,091 [main] ERROR craftBet - 760   Game Provider Name = RedTiger :   Game Name =  clashofthebeasts :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/clash_beasts.png
+2022-08-30 13:56:57,758 [main] ERROR craftBet - 819   Game Provider Name = RedTiger :   Game Name =  crazygenie :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/crazy_genie.png
+2022-08-30 13:57:03,066 [main] ERROR craftBet - 841   Game Provider Name = RedTiger :   Game Name =  crystalmirror :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/crystal_mirror.png
+2022-08-30 13:57:15,329 [main] ERROR craftBet - 896   Game Provider Name = RedTiger :   Game Name =  devilsnumber :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/devil_number.png
+2022-08-30 13:57:21,402 [main] ERROR craftBet - 920   Game Provider Name = RedTiger :   Game Name =  dicedicedice :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/dice_dice_dice.png
+2022-08-30 13:57:24,608 [main] ERROR craftBet - 935   Game Provider Name = NetEnt :   Game Name =  divinemegaways :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/divinemegaways.png
+2022-08-30 13:57:37,273 [main] ERROR craftBet - 993   Game Provider Name = RedTiger :   Game Name =  dragonkinglegendoftheseas :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/dragon_king_legend_seas.png
+2022-08-30 13:57:40,855 [main] ERROR craftBet - 1011 Game Provider Name = Microgaming :                    Game Name = Dream3Team :                       src = https://resources.{p}/products/Dream3Team.jpg         java.net.UnknownHostException: resources.{p}
+2022-08-30 13:57:51,949 [main] ERROR craftBet - 1063   Game Provider Name = RedTiger :   Game Name =  elvenmagic :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/elven_magic.png
+2022-08-30 13:57:55,092 [main] ERROR craftBet - 1075   Game Provider Name = RedTiger :   Game Name =  epicjourney :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/epic_journey.png
+2022-08-30 13:57:55,594 [main] ERROR craftBet - 1078   Game Provider Name = RedTiger :   Game Name =  esqueletomariachi :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/esqueleto_mariachi.png
+2022-08-30 13:58:21,804 [main] ERROR craftBet - 1174   Game Provider Name = RedTiger :   Game Name =  fivestar :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/five_star.png
+2022-08-30 13:58:21,904 [main] ERROR craftBet - 1175   Game Provider Name = RedTiger :   Game Name =  fivestarpowerreels :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/five_star_power_reels.png
+2022-08-30 13:58:23,164 [main] ERROR craftBet - 1182   Game Provider Name = RedTiger :   Game Name =  flamingfox :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/flaming_fox.png
+2022-08-30 13:58:27,461 [main] ERROR craftBet - 1200   Game Provider Name = RedTiger :   Game Name =  forever7 :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/forever_7.png
+2022-08-30 13:58:32,417 [main] ERROR craftBet - 1219   Game Provider Name = RedTiger :   Game Name =  fortunecharm :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/fortune_charm.png
+2022-08-30 13:58:32,512 [main] ERROR craftBet - 1220   Game Provider Name = RedTiger :   Game Name =  fortunefest :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/fortune_fest.png
+2022-08-30 13:58:32,603 [main] ERROR craftBet - 1221   Game Provider Name = RedTiger :   Game Name =  fortunehouse :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/fortune_house.png
+2022-08-30 13:58:32,699 [main] ERROR craftBet - 1222   Game Provider Name = RedTiger :   Game Name =  fortunehousepowerreels :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/fortune_house_power_reels.png
+2022-08-30 13:58:47,293 [main] ERROR craftBet - 1270   Game Provider Name = RedTiger :   Game Name =  fruitblox :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/fruit_blox.png
+2022-08-30 13:58:54,845 [main] ERROR craftBet - 1296   Game Provider Name = NetEnt :   Game Name =  FruitshopMegaWays :   cod = 404:   src = https://resources.tetherbet.io/products/netent/web/Fruitshop_376x250.gif
+2022-08-30 13:59:08,557 [main] ERROR craftBet - 1345   Game Provider Name = RedTiger :   Game Name =  gemsgonewild :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/gems_gone_wild.png
+2022-08-30 13:59:08,924 [main] ERROR craftBet - 1347   Game Provider Name = RedTiger :   Game Name =  gemtastic :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/gemtastic.png
+2022-08-30 13:59:40,396 [main] ERROR craftBet - 1451   Game Provider Name = RedTiger :   Game Name =  goldencryptex :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/golden_cryptex_.png
+2022-08-30 13:59:40,488 [main] ERROR craftBet - 1452   Game Provider Name = RedTiger :   Game Name =  goldenleprechaunmegaways :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/golden_leprechaun_mw.png
+2022-08-30 13:59:44,440 [main] ERROR craftBet - 1465   Game Provider Name = RedTiger :   Game Name =  grandwheel :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/grand_wheel.png
+2022-08-30 14:00:35,983 [main] ERROR craftBet - 1584   Game Provider Name = RedTiger :   Game Name =  hothotchillipot :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/hot_hot_chilli_pot.png
+2022-08-30 14:00:54,932 [main] ERROR craftBet - 1625   Game Provider Name = RedTiger :   Game Name =  imperialpalace :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/imperial_palace.png
+2022-08-30 14:01:00,750 [main] ERROR craftBet - 1629 Game Provider Name = Yggdrasil :                    Game Name = Incinerator :                       src = https://static.egamings.com/games/yggdrasil/incinerator.jpg         java.net.ConnectException: Connection refused: connect
+2022-08-30 14:01:05,841 [main] ERROR craftBet - 1630 Game Provider Name = Habanero :                    Game Name = IndianCashCatcher :                       src = https://static.egamings.com/games/habanero/indian_cash_catcher.jpg         java.net.ConnectException: Connection refused: connect
+2022-08-30 14:01:26,544 [main] ERROR craftBet - 1662   Game Provider Name = RedTiger :   Game Name =  jackpotquest :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/jackpot_quest.png
+2022-08-30 14:01:30,325 [main] ERROR craftBet - 1671   Game Provider Name = RedTiger :   Game Name =  jadecharms :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/jade_charms.png
+2022-08-30 14:01:35,315 [main] ERROR craftBet - 1682   Game Provider Name = RedTiger :   Game Name =  jesterspins :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/jester_spins.png
+2022-08-30 14:01:43,530 [main] ERROR craftBet - 1695   Game Provider Name = RedTiger :   Game Name =  jinglebells :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/jingle_bells.png
+2022-08-30 14:01:43,628 [main] ERROR craftBet - 1696   Game Provider Name = RedTiger :   Game Name =  jinglewaysmegaways :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/jingle_ways_mw.png
+2022-08-30 14:01:44,279 [main] ERROR craftBet - 1698   Game Provider Name = RedTiger :   Game Name =  joeexotic :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/joe_exotic.png
+2022-08-30 14:02:10,195 [main] ERROR craftBet - 1751   Game Provider Name = Greentube :   Game Name =  JustJewelsDeluxe :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/web/Just-Jewels.png
+2022-08-30 14:02:35,488 [main] ERROR craftBet - 1807   Game Provider Name = RedTiger :   Game Name =  laserfruit :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/laser_fruit.png
+2022-08-30 14:02:46,462 [main] ERROR craftBet - 1828   Game Provider Name = RedTiger :   Game Name =  legendaryexcalibur :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/legendary_excalibur.png
+2022-08-30 14:02:46,564 [main] ERROR craftBet - 1829   Game Provider Name = RedTiger :   Game Name =  legendofathena :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/legend_athena.png
+2022-08-30 14:02:55,274 [main] ERROR craftBet - 1852   Game Provider Name = RedTiger :   Game Name =  liondance :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/lion_dance.png
+2022-08-30 14:03:00,779 [main] ERROR craftBet - 1866   Game Provider Name = Greentube :   Game Name =  LordOfOcean :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/web/Lord-Of-The-Ocean.png
+2022-08-30 14:03:35,258 [main] ERROR craftBet - 1939   Game Provider Name = RedTiger :   Game Name =  luckyeaster :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/lucky_easter.png
+2022-08-30 14:03:35,355 [main] ERROR craftBet - 1940   Game Provider Name = Greentube :   Game Name =  LuckyL'sCharmDeluxe :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/web/lucky_lady_charm_deluxe.png
+2022-08-30 14:03:35,464 [main] ERROR craftBet - 1941   Game Provider Name = Greentube :   Game Name =  LuckyL'sCharmDeluxe10 :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/web/Lucky-Lady-Charm-10.png
+2022-08-30 14:03:35,567 [main] ERROR craftBet - 1942   Game Provider Name = RedTiger :   Game Name =  luckywizard :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/lucky_wizard.png
+2022-08-30 14:04:12,832 [main] ERROR craftBet - 2019   Game Provider Name = RedTiger :   Game Name =  masquerade :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/masquerade.png
+2022-08-30 14:04:18,324 [main] ERROR craftBet - 2032   Game Provider Name = RedTiger :   Game Name =  mayangods :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/mayan_gods.png
+2022-08-30 14:04:25,737 [main] ERROR craftBet - 2046   Game Provider Name = RedTiger :   Game Name =  megadragon :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/mega_dragon.png
+2022-08-30 14:04:25,830 [main] ERROR craftBet - 2047   Game Provider Name = Greentube :   Game Name =  MegaJoker :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/web/Mega-Jokerf.png
+2022-08-30 14:05:00,297 [main] ERROR craftBet - 2160   Game Provider Name = RedTiger :   Game Name =  mysteryreelspowerreels :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/mystery_reels_power_reels.png
+2022-08-30 14:05:02,262 [main] ERROR craftBet - 2167   Game Provider Name = RedTiger :   Game Name =  mysticwheel :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/mystic_wheel.png
+2022-08-30 14:05:06,653 [main] ERROR craftBet - 2184   Game Provider Name = RedTiger :   Game Name =  neonlinks :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/neon_links.png
+2022-08-30 14:05:08,083 [main] ERROR craftBet - 2190   Game Provider Name = RedTiger :   Game Name =  nftmegaways :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/nft_mw.png
+2022-08-30 14:05:12,570 [main] ERROR craftBet - 2207   Game Provider Name = RedTiger :   Game Name =  ninjaways :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/ninja_ways.png
+2022-08-30 14:05:17,135 [main] ERROR craftBet - 2226   Game Provider Name = RedTiger :   Game Name =  oceanfortune :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/ocean_fortune.png
+2022-08-30 14:05:30,115 [main] ERROR craftBet - 2275   Game Provider Name = RedTiger :   Game Name =  pathofdestiny :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/path_destiny.png
+2022-08-30 14:05:37,405 [main] ERROR craftBet - 2302   Game Provider Name = RedTiger :   Game Name =  persianfortune :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/persian_fortune.png
+2022-08-30 14:06:26,071 [main] ERROR craftBet - 2486   Game Provider Name = RedTiger :   Game Name =  regalstreak :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/regal_streak.png
+2022-08-30 14:06:45,617 [main] ERROR craftBet - 2559   Game Provider Name = RedTiger :   Game Name =  robinhoodswildforest :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/robin_hoods_wild_forest.png
+2022-08-30 14:06:48,156 [main] ERROR craftBet - 2569   Game Provider Name = RedTiger :   Game Name =  rocketmen :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/rocket_men.png
+2022-08-30 14:07:24,422 [main] ERROR craftBet - 2690   Game Provider Name = RedTiger :   Game Name =  shahmat :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/shah_mat.png
+2022-08-30 14:07:37,674 [main] ERROR craftBet - 2739   Game Provider Name = Greentube :   Game Name =  Sizzling6 :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/web/Sizzling6.png
+2022-08-30 14:07:37,778 [main] ERROR craftBet - 2740   Game Provider Name = Greentube :   Game Name =  SizzlingHotDeluxe :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/web/Sizzling-Hot-7.png
+2022-08-30 14:07:57,951 [main] ERROR craftBet - 2813   Game Provider Name = Greentube :   Game Name =  SpringQueen :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/web/Spring-Queen.png
+2022-08-30 14:08:26,491 [main] ERROR craftBet - 2936   Game Provider Name = Greentube :   Game Name =  TalesOfDarkness :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/web/Tales-Of-Darkness.png
+2022-08-30 14:08:26,588 [main] ERROR craftBet - 2937   Game Provider Name = Greentube :   Game Name =  TalesOfDarkness :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/web/Tales-Of-Darkness-Lunar-Eclipse.png
+2022-08-30 14:08:29,396 [main] ERROR craftBet - 2951   Game Provider Name = RedTiger :   Game Name =  tenelements :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/ten_elements.png
+2022-08-30 14:08:57,266 [main] ERROR craftBet - 3068   Game Provider Name = RedTiger :   Game Name =  theequalizer :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/the_equalizer.png
+2022-08-30 14:08:57,365 [main] ERROR craftBet - 3069   Game Provider Name = RedTiger :   Game Name =  thegreatesttrainrobbery :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/the_greatest_train%20_robbery.png
+2022-08-30 14:08:57,823 [main] ERROR craftBet - 3071   Game Provider Name = RedTiger :   Game Name =  thewildhatter :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/the_wild_hatter.png
+2022-08-30 14:08:58,828 [main] ERROR craftBet - 3076   Game Provider Name = RedTiger :   Game Name =  Thor's Vengeance :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/thor_vengeance.png
+2022-08-30 14:09:14,523 [main] ERROR craftBet - 3145   Game Provider Name = RedTiger :   Game Name =  treasuremine :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/treasure_mine.png
+2022-08-30 14:09:14,622 [main] ERROR craftBet - 3146   Game Provider Name = RedTiger :   Game Name =  treasureminepowerreels :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/treasure_mine_power_reels.png
+2022-08-30 14:09:29,513 [main] ERROR craftBet - 3211   Game Provider Name = RedTiger :   Game Name =  vaultofanubis :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/vault_anubis.png
+2022-08-30 14:09:32,749 [main] ERROR craftBet - 3226   Game Provider Name = RedTiger :   Game Name =  vickyventura :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/vicky_ventura.png
+2022-08-30 14:09:40,724 [main] ERROR craftBet - 3262   Game Provider Name = RedTiger :   Game Name =  warofgods :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/war_gods.png
+2022-08-30 14:09:44,735 [main] ERROR craftBet - 3281   Game Provider Name = RedTiger :   Game Name =  whatthefoxmegaways :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/what_fox_mw.png
+2022-08-30 14:10:01,766 [main] ERROR craftBet - 3359   Game Provider Name = RedTiger :   Game Name =  wildcatsmultiline :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/wild_cats_multiline.png
+2022-08-30 14:10:03,210 [main] ERROR craftBet - 3366   Game Provider Name = RedTiger :   Game Name =  wildwildchest :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/wild_wild_chest.png
+2022-08-30 14:10:07,174 [main] ERROR craftBet - 3383   Game Provider Name = RedTiger :   Game Name =  winterwonders :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/winter_wonders.png
+2022-08-30 14:10:18,979 [main] ERROR craftBet - 3436   Game Provider Name = RedTiger :   Game Name =  yucatansmystery :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/yucatan_mystery.png
+2022-08-30 14:10:22,572 [main] INFO craftBet - Broken images are:  181
+2022-08-30 14:10:24,118 [main] INFO craftBet - Browser closed
+2022-08-30 14:10:24,120 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 14:10:24,136 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 14:15:32,242 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 14:15:32,561 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 14:15:32,596 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 14:15:37,975 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-08-30 14:15:38,088 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 14:15:38,354 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 14:15:39,179 [main] INFO craftBet - Get games Api call was sent
+2022-08-30 14:15:39,194 [main] INFO craftBet - Get Life games Api Response was captured
+2022-08-30 14:15:39,221 [main] ERROR craftBet - The Time Out games are :   3714203   JapanNPBReserveLeague   Yomiuri Giants Reserves  VS  Nipponham Fighters Reserves   Baseball   2022-08-30T07:55:57  Status = 1   After game start time out = :  6 hours  19 minutes
+2022-08-30 14:15:39,222 [main] INFO craftBet - Time out Games are:  1
+2022-08-30 14:15:40,480 [main] INFO craftBet - Browser closed
+2022-08-30 14:15:40,481 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 14:15:40,510 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 14:25:43,587 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 14:25:43,869 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 14:25:43,904 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 14:25:49,340 [main] INFO craftBet - URL: https://oceanbet.io  Browser: chrome
+2022-08-30 14:25:49,415 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 14:25:49,427 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 14:25:53,589 [main] INFO craftBet - Get games Api call was sent
+2022-08-30 14:25:53,894 [main] INFO craftBet - Get games Api Response was captured
+2022-08-30 14:25:53,970 [main] INFO craftBet - All captured games images was added into ArrayList
+2022-08-30 14:32:48,232 [main] ERROR craftBet - 1726   Game Provider Name = PragmaticPlay :   Game Name =  Jacks or Better :   cod = 403:   src = https://resources.oceanbet.io/products/
+2022-08-30 14:39:10,433 [main] INFO craftBet - Broken images are:  1
+2022-08-30 14:39:12,241 [main] INFO craftBet - Browser closed
+2022-08-30 14:39:12,241 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 14:39:12,249 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 14:44:07,911 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 14:44:08,195 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 14:44:08,227 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 14:44:13,976 [main] INFO craftBet - URL: https://tetherbet.io  Browser: chrome
+2022-08-30 14:44:14,125 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 14:44:14,382 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 14:44:17,841 [main] INFO craftBet - Get games Api call was sent
+2022-08-30 14:44:18,050 [main] INFO craftBet - Get games Api Response was captured
+2022-08-30 14:44:18,136 [main] INFO craftBet - All captured games images was added into ArrayList
+2022-08-30 14:44:18,680 [main] ERROR craftBet - 2   Game Provider Name = NetEnt :   Game Name =  Aloha :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Aloha_252_190.jpg
+2022-08-30 14:44:18,778 [main] ERROR craftBet - 3   Game Provider Name = NetEnt :   Game Name =  Arcane :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/ArcaneReelChaos_376x250.gif
+2022-08-30 14:44:18,892 [main] ERROR craftBet - 4   Game Provider Name = NetEnt :   Game Name =  Archangels :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Archangels.png
+2022-08-30 14:44:19,064 [main] ERROR craftBet - 5   Game Provider Name = NetEnt :   Game Name =  AsgardianStones :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/AsgardianStones.png
+2022-08-30 14:44:19,178 [main] ERROR craftBet - 6   Game Provider Name = NetEnt :   Game Name =  Berry Burst :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/BerryBurst.jpg
+2022-08-30 14:44:19,271 [main] ERROR craftBet - 7   Game Provider Name = NetEnt :   Game Name =  Berry Burst Max :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/BerryBurstMax.jpg
+2022-08-30 14:44:19,670 [main] ERROR craftBet - 9   Game Provider Name = PragmaticPlay :   Game Name =  Bigger Bass Bonanza :   cod = 404:   src = https://resources.tetherbet.io/products/pragmaticplay\mob\biggerbassbonanza.png
+2022-08-30 14:44:19,770 [main] ERROR craftBet - 10   Game Provider Name = NetEnt :   Game Name =  blacklagoon :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/blacklagoon.png
+2022-08-30 14:44:19,947 [main] ERROR craftBet - 11   Game Provider Name = NetEnt :   Game Name =  Blood Suckers :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/blood_suckers_252_190_.jpg
+2022-08-30 14:44:20,053 [main] ERROR craftBet - 12   Game Provider Name = NetEnt :   Game Name =  Blood Suckers 2 :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Blood_Suckers_252_190.jpg
+2022-08-30 14:44:20,142 [main] ERROR craftBet - 13   Game Provider Name = NetEnt :   Game Name =  BollywoodStory :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/bollywood_story.png
+2022-08-30 14:44:20,826 [main] ERROR craftBet - 17   Game Provider Name = NetEnt :   Game Name =  Butterfly Staxx :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Butterfly_staxx_252_190.jpg
+2022-08-30 14:44:21,001 [main] ERROR craftBet - 18   Game Provider Name = NetEnt :   Game Name =  Butterfly Staxx 2 :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/ButterflyStaxx2.jpg.jpg
+2022-08-30 14:44:21,098 [main] ERROR craftBet - 19   Game Provider Name = NetEnt :   Game Name =  CashNoire :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/CashNoire.png
+2022-08-30 14:44:21,198 [main] ERROR craftBet - 20   Game Provider Name = NetEnt :   Game Name =  Colossal Pinatas :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/ColossalPinatas.jpg
+2022-08-30 14:44:21,308 [main] ERROR craftBet - 21   Game Provider Name = NetEnt :   Game Name =  Copy Cats :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Copy_Cats_252_190.jpg
+2022-08-30 14:44:21,414 [main] ERROR craftBet - 22   Game Provider Name = NetEnt :   Game Name =  DarkKing :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/DarkKing.png
+2022-08-30 14:44:21,583 [main] ERROR craftBet - 23   Game Provider Name = NetEnt :   Game Name =  Dazzleme :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Dazzle_Me_252_190.jpg
+2022-08-30 14:44:21,756 [main] ERROR craftBet - 24   Game Provider Name = NetEnt :   Game Name =  Dead Or Alive :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Dead_or_Alive_252_190.jpg
+2022-08-30 14:44:21,848 [main] ERROR craftBet - 25   Game Provider Name = NetEnt :   Game Name =  Dead Or Alive 2 :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/DeadOrAlive2.jpg
+2022-08-30 14:44:21,938 [main] ERROR craftBet - 26   Game Provider Name = NetEnt :   Game Name =  DeadOrAlive2FB :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/dead_or_alive2FB.png
+2022-08-30 14:44:22,409 [main] ERROR craftBet - 29   Game Provider Name = NetEnt :   Game Name =  DoubleStac :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/double_stacks.png
+2022-08-30 14:44:22,516 [main] ERROR craftBet - 30   Game Provider Name = NetEnt :   Game Name =  Dracula :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Dracula_slots_252_190.jpg
+2022-08-30 14:44:22,611 [main] ERROR craftBet - 31   Game Provider Name = NetEnt :   Game Name =  Gonzo's Quest :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Gonzo_s_Quest_252_190.jpg
+2022-08-30 14:44:22,711 [main] ERROR craftBet - 32   Game Provider Name = NetEnt :   Game Name =  Elements :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Elements_376x250.gif
+2022-08-30 14:44:22,805 [main] ERROR craftBet - 33   Game Provider Name = NetEnt :   Game Name =  Elements :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Elements_the_awakening_252_190.jpg
+2022-08-30 14:44:22,913 [main] ERROR craftBet - 34   Game Provider Name = NetEnt :   Game Name =  Excalibur :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/excalibur.png
+2022-08-30 14:44:23,090 [main] ERROR craftBet - 35   Game Provider Name = NetEnt :   Game Name =  Fairy Red :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Fairytale_legends_Hansel_Gratel_252_190.jpg
+2022-08-30 14:44:23,186 [main] ERROR craftBet - 36   Game Provider Name = PragmaticPlay :   Game Name =  Floating Dragon :   cod = 404:   src = https://resources.tetherbet.io/products/pragmaticplay/mob/FloatingDragon.png
+2022-08-30 14:44:23,305 [main] ERROR craftBet - 37   Game Provider Name = NetEnt :   Game Name =  Flowers :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Flowers.jpg
+2022-08-30 14:44:23,392 [main] ERROR craftBet - 38   Game Provider Name = NetEnt :   Game Name =  Flowers Christmas :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/FlowersChristmas.jpg
+2022-08-30 14:44:23,497 [main] ERROR craftBet - 39   Game Provider Name = NetEnt :   Game Name =  Football :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Football_champions_cup_252_190.jpg
+2022-08-30 14:44:23,591 [main] ERROR craftBet - 40   Game Provider Name = NetEnt :   Game Name =  FortuneRangers :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/FortuneRangers.png
+2022-08-30 14:44:23,690 [main] ERROR craftBet - 41   Game Provider Name = NetEnt :   Game Name =  Fruit Shop :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Fruit_shop_252_190.jpg
+2022-08-30 14:44:23,789 [main] ERROR craftBet - 42   Game Provider Name = PragmaticPlay :   Game Name =  Gates of Olympus :   cod = 404:   src = https://resources.tetherbet.io/products/pragmaticplay/mob/GatesofOlympus.jpg
+2022-08-30 14:44:23,901 [main] ERROR craftBet - 43   Game Provider Name = NetEnt :   Game Name =  Gods Of Fortune :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/GodsOfFortune.jpg
+2022-08-30 14:44:24,005 [main] ERROR craftBet - 44   Game Provider Name = NetEnt :   Game Name =  godsofgold :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/gods_of_gold.png
+2022-08-30 14:44:24,112 [main] ERROR craftBet - 45   Game Provider Name = NetEnt :   Game Name =  Golden Grimoire :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/GoldenGrimoire.jpg
+2022-08-30 14:44:24,424 [main] ERROR craftBet - 47   Game Provider Name = NetEnt :   Game Name =  GorillaKingdom :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/GorillaKingdom_376x250.gif
+2022-08-30 14:44:24,511 [main] ERROR craftBet - 48   Game Provider Name = NetEnt :   Game Name =  Gunsnroses :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Guns_n__roses_video_slots_252_190.jpg
+2022-08-30 14:44:24,594 [main] ERROR craftBet - 49   Game Provider Name = NetEnt :   Game Name =  hiddencoinsofegypt :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/hiddencoinsofegypt.png
+2022-08-30 14:44:24,691 [main] ERROR craftBet - 50   Game Provider Name = NetEnt :   Game Name =  Hotline2 :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/hotline2.png
+2022-08-30 14:44:24,783 [main] ERROR craftBet - 51   Game Provider Name = NetEnt :   Game Name =  Invisible Man :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/The_invisible_man_252_190.jpg
+2022-08-30 14:44:24,876 [main] ERROR craftBet - 52   Game Provider Name = NetEnt :   Game Name =  Jack And Beans Talk :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/JackBeansTalk.jpg.jpg
+2022-08-30 14:44:24,977 [main] ERROR craftBet - 53   Game Provider Name = NetEnt :   Game Name =  Jack Hammer :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/JackHammer.jpg
+2022-08-30 14:44:25,070 [main] ERROR craftBet - 54   Game Provider Name = NetEnt :   Game Name =  Jack Hammer 2 :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/JackHammer2.jpg
+2022-08-30 14:44:25,376 [main] ERROR craftBet - 56   Game Provider Name = NetEnt :   Game Name =  Jimi Hendrix :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/JimiHendrix.jpg
+2022-08-30 14:44:25,468 [main] ERROR craftBet - 57   Game Provider Name = NetEnt :   Game Name =  Joker Pro :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Joker_Pro_252_190.jpg
+2022-08-30 14:44:25,557 [main] ERROR craftBet - 58   Game Provider Name = NetEnt :   Game Name =  Jungle Spirit :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Jungle_spirit_252_190.jpg
+2022-08-30 14:44:25,657 [main] ERROR craftBet - 59   Game Provider Name = NetEnt :   Game Name =  King Of Slots :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/KingOfSlots.jpg.jpg
+2022-08-30 14:44:25,747 [main] ERROR craftBet - 60   Game Provider Name = NetEnt :   Game Name =  Koi Princess :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/KOI_princess_252_190.jpg
+2022-08-30 14:44:26,049 [main] ERROR craftBet - 62   Game Provider Name = NetEnt :   Game Name =  Lights :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Lights_252_190.jpg
+2022-08-30 14:44:26,137 [main] ERROR craftBet - 63   Game Provider Name = NetEnt :   Game Name =  longpao :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/long_pao.png
+2022-08-30 14:44:26,416 [main] ERROR craftBet - 65   Game Provider Name = NetEnt :   Game Name =  Lucky Angler :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Lucky_Angler_252_190.jpg
+2022-08-30 14:44:26,515 [main] ERROR craftBet - 66   Game Provider Name = NetEnt :   Game Name =  Magic Portals :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/magic_portals_252_190.jpg
+2022-08-30 14:44:27,684 [main] ERROR craftBet - 72   Game Provider Name = NetEnt :   Game Name =  Motor Head :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/motorbead_252_190.jpg
+2022-08-30 14:44:27,787 [main] ERROR craftBet - 73   Game Provider Name = NetEnt :   Game Name =  Multiplier Mayhem :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Drive_multiplayer_mayhem_252_190.jpg
+2022-08-30 14:44:27,896 [main] ERROR craftBet - 74   Game Provider Name = NetEnt :   Game Name =  Mythic Maiden :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Mythic_Maiden_252_190.jpg
+2022-08-30 14:44:27,988 [main] ERROR craftBet - 75   Game Provider Name = NetEnt :   Game Name =  Neon Staxx :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Neon_Taxx_252_190.jpg
+2022-08-30 14:44:28,077 [main] ERROR craftBet - 76   Game Provider Name = NetEnt :   Game Name =  Parthenon :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Parthenon.png
+2022-08-30 14:44:28,181 [main] ERROR craftBet - 77   Game Provider Name = NetEnt :   Game Name =  Piggy Riches :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/piggy_riches_252_190.jpg
+2022-08-30 14:44:28,488 [main] ERROR craftBet - 79   Game Provider Name = NetEnt :   Game Name =  Pyramid :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Pyramid_Quest_for_Immortality_252_190.jpg
+2022-08-30 14:44:28,801 [main] ERROR craftBet - 81   Game Provider Name = NetEnt :   Game Name =  RageOfTheSeas :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/rage_of_seas.png
+2022-08-30 14:44:29,115 [main] ERROR craftBet - 83   Game Provider Name = NetEnt :   Game Name =  reefraider_r1 :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/reef_raider.png
+2022-08-30 14:44:29,214 [main] ERROR craftBet - 84   Game Provider Name = NetEnt :   Game Name =  Reel Rush :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Reel_Rush_252_190.jpg
+2022-08-30 14:44:30,301 [main] ERROR craftBet - 90   Game Provider Name = NetEnt :   Game Name =  Scruffy Duck :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Scruffy_duck_252_190.jpg
+2022-08-30 14:44:30,394 [main] ERROR craftBet - 91   Game Provider Name = NetEnt :   Game Name =  Secrets Of Christmas :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Secrets_of_Christmas_252_190.jpg
+2022-08-30 14:44:30,483 [main] ERROR craftBet - 92   Game Provider Name = NetEnt :   Game Name =  shangrila :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/shangri_la.png
+2022-08-30 14:44:30,569 [main] ERROR craftBet - 93   Game Provider Name = NetEnt :   Game Name =  SpaceWars :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/SpaceWars.jpg.jpg
+2022-08-30 14:44:30,658 [main] ERROR craftBet - 94   Game Provider Name = NetEnt :   Game Name =  Sparks :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Sparks_252_190.jpg
+2022-08-30 14:44:30,749 [main] ERROR craftBet - 95   Game Provider Name = NetEnt :   Game Name =  Spellcast :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/spellcast.jpg.jpg
+2022-08-30 14:44:30,836 [main] ERROR craftBet - 96   Game Provider Name = NetEnt :   Game Name =  Spinsane :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/spinsane.jpg.jpg
+2022-08-30 14:44:30,926 [main] ERROR craftBet - 97   Game Provider Name = NetEnt :   Game Name =  StarBurst :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Sturburst_252_190.jpg
+2022-08-30 14:44:31,015 [main] ERROR craftBet - 98   Game Provider Name = NetEnt :   Game Name =  Steam Tower :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Steam_tower_252_190.jpg
+2022-08-30 14:44:31,103 [main] ERROR craftBet - 99   Game Provider Name = NetEnt :   Game Name =  Stickers :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/stickers_252_190.jpg
+2022-08-30 14:44:31,189 [main] ERROR craftBet - 100   Game Provider Name = PragmaticPlay :   Game Name =  Sweet Bonanza :   cod = 404:   src = https://resources.tetherbet.io/products/pragmaticplay/mob/SweetBonanzaXmas.png
+2022-08-30 14:44:31,277 [main] ERROR craftBet - 101   Game Provider Name = PragmaticPlay :   Game Name =  Sweet Bonanza Xmas :   cod = 404:   src = https://resources.tetherbet.io/products/pragmaticplay/mob/SweetBonanzaXmas.png
+2022-08-30 14:44:31,365 [main] ERROR craftBet - 102   Game Provider Name = NetEnt :   Game Name =  Sweety Honey Fruity :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/SweetyHoneyFruity.jpg.jpg
+2022-08-30 14:44:31,452 [main] ERROR craftBet - 103   Game Provider Name = PragmaticPlay :   Game Name =  The Dog House :   cod = 404:   src = https://resources.tetherbet.io/products/pragmaticplay/mob/TheDogHouse.png
+2022-08-30 14:44:31,548 [main] ERROR craftBet - 104   Game Provider Name = PragmaticPlay :   Game Name =  The Dog House Megaways :   cod = 404:   src = https://resources.tetherbet.io/products/pragmaticplay/mob/TheDogHouseMegaways.png
+2022-08-30 14:44:31,638 [main] ERROR craftBet - 105   Game Provider Name = NetEnt :   Game Name =  Theme Park :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Theme_park_252_190.jpg
+2022-08-30 14:44:31,725 [main] ERROR craftBet - 106   Game Provider Name = NetEnt :   Game Name =  Twin Happiness :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/TwinHappiness.jpg.jpg
+2022-08-30 14:44:31,815 [main] ERROR craftBet - 107   Game Provider Name = NetEnt :   Game Name =  Twin Spin :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/twin_spin_252_190.jpg
+2022-08-30 14:44:31,904 [main] ERROR craftBet - 108   Game Provider Name = NetEnt :   Game Name =  TwinSpinDeluxe :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/twin_spin_deluxe.png
+2022-08-30 14:44:31,993 [main] ERROR craftBet - 109   Game Provider Name = NetEnt :   Game Name =  twinspinmw :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/twinspin.png
+2022-08-30 14:44:32,089 [main] ERROR craftBet - 110   Game Provider Name = NetEnt :   Game Name =  Victorious :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Victorious_252_190.jpg
+2022-08-30 14:44:32,182 [main] ERROR craftBet - 111   Game Provider Name = NetEnt :   Game Name =  vikings :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/vikings.png
+2022-08-30 14:44:32,277 [main] ERROR craftBet - 112   Game Provider Name = NetEnt :   Game Name =  Warlords :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Warlords_252_190.jpg
+2022-08-30 14:44:32,379 [main] ERROR craftBet - 113   Game Provider Name = NetEnt :   Game Name =  whosthebride :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/whos_bride.png
+2022-08-30 14:44:32,475 [main] ERROR craftBet - 114   Game Provider Name = PragmaticPlay :   Game Name =  Wild West Gold :   cod = 404:   src = https://resources.tetherbet.io/products/pragmaticplay/mob/WildWestGold.png
+2022-08-30 14:44:32,567 [main] ERROR craftBet - 115   Game Provider Name = NetEnt :   Game Name =  WildOTron :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/wild_o_tron.png
+2022-08-30 14:44:32,662 [main] ERROR craftBet - 116   Game Provider Name = NetEnt :   Game Name =  WildTurkey :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/wild_turkey.png
+2022-08-30 14:44:32,753 [main] ERROR craftBet - 117   Game Provider Name = NetEnt :   Game Name =  Wild Water :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Wild_water_252_190.jpg
+2022-08-30 14:44:32,928 [main] ERROR craftBet - 119   Game Provider Name = NetEnt :   Game Name =  wingsofriches :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/wings_riches.png
+2022-08-30 14:44:33,020 [main] ERROR craftBet - 120   Game Provider Name = NetEnt :   Game Name =  Wolf Cub :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/wolf_cub_252_190.jpg
+2022-08-30 14:44:33,115 [main] ERROR craftBet - 121   Game Provider Name = NetEnt :   Game Name =  Wolfs Night :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/WolfsNight.jpg.jpg
+2022-08-30 14:44:39,609 [main] ERROR craftBet - 154   Game Provider Name = RedTiger :   Game Name =  24hourgrandprix :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/24grand_prix.png
+2022-08-30 14:44:44,676 [main] ERROR craftBet - 178   Game Provider Name = RedTiger :   Game Name =  4squad :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/4squad.png
+2022-08-30 14:44:49,022 [main] ERROR craftBet - 198   Game Provider Name = RedTiger :   Game Name =  777strike :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/777strike.png
+2022-08-30 14:45:10,645 [main] ERROR craftBet - 293   Game Provider Name = RedTiger :   Game Name =  ancientscript :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/ancient_script.png
+2022-08-30 14:45:11,902 [main] ERROR craftBet - 299   Game Provider Name = Mascot :   Game Name =  Anksunamun: the Queen of Egypt :   cod = 403:   src = https://resources.tetherbet.io/products/
+2022-08-30 14:45:53,269 [main] ERROR craftBet - 494   Game Provider Name = RedTiger :   Game Name =  bluediamond :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/blue_diamond.png
+2022-08-30 14:46:10,637 [main] ERROR craftBet - 573   Game Provider Name = Greentube :   Game Name =  BookOfRaDeluxe10 :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/mobile/book_of_ra_deluxe10.png
+2022-08-30 14:46:10,736 [main] ERROR craftBet - 574   Game Provider Name = Greentube :   Game Name =  BookOfRaDeluxe6 :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/mobile/book-of-ra-deluxe.png
+2022-08-30 14:46:13,983 [main] ERROR craftBet - 589   Game Provider Name = RedTiger :   Game Name =  bountyraid :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/bounty_raid.png
+2022-08-30 14:46:26,853 [main] ERROR craftBet - 645   Game Provider Name = Mascot :   Game Name =  CanCan Saloon :   cod = 403:   src = https://resources.tetherbet.io/products/
+2022-08-30 14:46:34,721 [main] ERROR craftBet - 681   Game Provider Name = RedTiger :   Game Name =  cashvolt :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/cash_volt.png
+2022-08-30 14:46:48,312 [main] ERROR craftBet - 734   Game Provider Name = RedTiger :   Game Name =  chinesetreasures :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/chinese_treasures.png
+2022-08-30 14:46:52,328 [main] ERROR craftBet - 747   Game Provider Name = RedTiger :   Game Name =  cirquedelafortune :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/cirque_fortune.png
+2022-08-30 14:46:52,874 [main] ERROR craftBet - 750   Game Provider Name = RedTiger :   Game Name =  clashofthebeasts :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/clash_beasts.png
+2022-08-30 14:47:05,501 [main] ERROR craftBet - 808   Game Provider Name = RedTiger :   Game Name =  crazygenie :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/crazy_genie.png
+2022-08-30 14:47:11,277 [main] ERROR craftBet - 829   Game Provider Name = RedTiger :   Game Name =  crystalmirror :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/crystal_mirror.png
+2022-08-30 14:47:25,305 [main] ERROR craftBet - 881   Game Provider Name = RedTiger :   Game Name =  devilsnumber :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/devil_number.png
+2022-08-30 14:47:30,750 [main] ERROR craftBet - 905   Game Provider Name = RedTiger :   Game Name =  dicedicedice :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/dice_dice_dice.png
+2022-08-30 14:47:33,724 [main] ERROR craftBet - 919   Game Provider Name = NetEnt :   Game Name =  divinemegaways :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/divinemegaways.png
+2022-08-30 14:47:46,242 [main] ERROR craftBet - 977   Game Provider Name = RedTiger :   Game Name =  dragonkinglegendoftheseas :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/dragon_king_legend_seas.png
+2022-08-30 14:47:49,772 [main] ERROR craftBet - 995 Game Provider Name = Microgaming :                    Game Name = Dream3Team :                       src = https://resources.{p}/products/Dream3Team.jpg         java.net.UnknownHostException: resources.{p}
+2022-08-30 14:48:00,814 [main] ERROR craftBet - 1047   Game Provider Name = RedTiger :   Game Name =  elvenmagic :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/elven_magic.png
+2022-08-30 14:48:03,615 [main] ERROR craftBet - 1059   Game Provider Name = RedTiger :   Game Name =  epicjourney :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/epic_journey.png
+2022-08-30 14:48:04,144 [main] ERROR craftBet - 1062   Game Provider Name = RedTiger :   Game Name =  esqueletomariachi :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/esqueleto_mariachi.png
+2022-08-30 14:48:23,878 [main] ERROR craftBet - 1151   Game Provider Name = PragmaticPlay :   Game Name =  Fishin Reels :   cod = 404:   src = https://resources.tetherbet.io/products/pragmaticplay/mob/fishin_reels.png
+2022-08-30 14:48:25,290 [main] ERROR craftBet - 1156   Game Provider Name = RedTiger :   Game Name =  fivestar :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/five_star.png
+2022-08-30 14:48:25,396 [main] ERROR craftBet - 1157   Game Provider Name = RedTiger :   Game Name =  fivestarpowerreels :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/five_star_power_reels.png
+2022-08-30 14:48:26,733 [main] ERROR craftBet - 1164   Game Provider Name = RedTiger :   Game Name =  flamingfox :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/flaming_fox.png
+2022-08-30 14:48:30,492 [main] ERROR craftBet - 1182   Game Provider Name = RedTiger :   Game Name =  forever7 :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/forever_7.png
+2022-08-30 14:48:34,423 [main] ERROR craftBet - 1201   Game Provider Name = RedTiger :   Game Name =  fortunecharm :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/fortune_charm.png
+2022-08-30 14:48:34,525 [main] ERROR craftBet - 1202   Game Provider Name = RedTiger :   Game Name =  fortunefest :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/fortune_fest.png
+2022-08-30 14:48:34,631 [main] ERROR craftBet - 1203   Game Provider Name = RedTiger :   Game Name =  fortunehouse :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/fortune_house.png
+2022-08-30 14:48:34,728 [main] ERROR craftBet - 1204   Game Provider Name = RedTiger :   Game Name =  fortunehousepowerreels :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/fortune_house_power_reels.png
+2022-08-30 14:48:45,007 [main] ERROR craftBet - 1252   Game Provider Name = RedTiger :   Game Name =  fruitblox :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/fruit_blox.png
+2022-08-30 14:48:50,308 [main] ERROR craftBet - 1277   Game Provider Name = NetEnt :   Game Name =  FruitshopMegaWays :   cod = 404:   src = https://resources.tetherbet.io/products/netent/mob/Fruitshop_376x250.gif
+2022-08-30 14:49:01,020 [main] ERROR craftBet - 1326   Game Provider Name = RedTiger :   Game Name =  gemsgonewild :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/gems_gone_wild.png
+2022-08-30 14:49:01,327 [main] ERROR craftBet - 1328   Game Provider Name = RedTiger :   Game Name =  gemtastic :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/gemtastic.png
+2022-08-30 14:49:24,448 [main] ERROR craftBet - 1428   Game Provider Name = RedTiger :   Game Name =  goldencryptex :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/golden_cryptex_.png
+2022-08-30 14:49:24,552 [main] ERROR craftBet - 1429   Game Provider Name = RedTiger :   Game Name =  goldenleprechaunmegaways :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/golden_leprechaun_mw.png
+2022-08-30 14:49:27,264 [main] ERROR craftBet - 1442   Game Provider Name = RedTiger :   Game Name =  grandwheel :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/grand_wheel.png
+2022-08-30 14:49:53,690 [main] ERROR craftBet - 1560   Game Provider Name = RedTiger :   Game Name =  hothotchillipot :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/hot_hot_chilli_pot.png
+2022-08-30 14:50:02,923 [main] ERROR craftBet - 1601   Game Provider Name = RedTiger :   Game Name =  imperialpalace :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/imperial_palace.png
+2022-08-30 14:50:10,903 [main] ERROR craftBet - 1638   Game Provider Name = RedTiger :   Game Name =  jackpotquest :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/jackpot_quest.png
+2022-08-30 14:50:12,753 [main] ERROR craftBet - 1647   Game Provider Name = RedTiger :   Game Name =  jadecharms :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/jade_charms.png
+2022-08-30 14:50:14,991 [main] ERROR craftBet - 1658   Game Provider Name = RedTiger :   Game Name =  jesterspins :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/jester_spins.png
+2022-08-30 14:50:17,811 [main] ERROR craftBet - 1671   Game Provider Name = RedTiger :   Game Name =  jinglebells :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/jingle_bells.png
+2022-08-30 14:50:17,908 [main] ERROR craftBet - 1672   Game Provider Name = RedTiger :   Game Name =  jinglewaysmegaways :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/jingle_ways_mw.png
+2022-08-30 14:50:18,221 [main] ERROR craftBet - 1674   Game Provider Name = RedTiger :   Game Name =  joeexotic :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/joe_exotic.png
+2022-08-30 14:50:30,085 [main] ERROR craftBet - 1727   Game Provider Name = Greentube :   Game Name =  JustJewelsDeluxe :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/mobile/Just-Jewels.png
+2022-08-30 14:50:42,864 [main] ERROR craftBet - 1783   Game Provider Name = RedTiger :   Game Name =  laserfruit :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/laser_fruit.png
+2022-08-30 14:50:47,844 [main] ERROR craftBet - 1804   Game Provider Name = RedTiger :   Game Name =  legendaryexcalibur :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/legendary_excalibur.png
+2022-08-30 14:50:47,949 [main] ERROR craftBet - 1805   Game Provider Name = RedTiger :   Game Name =  legendofathena :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/legend_athena.png
+2022-08-30 14:50:54,878 [main] ERROR craftBet - 1828   Game Provider Name = RedTiger :   Game Name =  liondance :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/lion_dance.png
+2022-08-30 14:50:57,919 [main] ERROR craftBet - 1842   Game Provider Name = Greentube :   Game Name =  LordOfOcean :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/mobile/Lord-Of-The-Ocean.png
+2022-08-30 14:51:14,218 [main] ERROR craftBet - 1914   Game Provider Name = RedTiger :   Game Name =  luckyeaster :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/lucky_easter.png
+2022-08-30 14:51:14,318 [main] ERROR craftBet - 1915   Game Provider Name = Greentube :   Game Name =  LuckyL'sCharmDeluxe :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/mobile/lucky_lady_charm_deluxe.png
+2022-08-30 14:51:14,479 [main] ERROR craftBet - 1916   Game Provider Name = Greentube :   Game Name =  LuckyL'sCharmDeluxe10 :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/mobile/Lucky-Lady-Charm-10.png
+2022-08-30 14:51:14,571 [main] ERROR craftBet - 1917   Game Provider Name = RedTiger :   Game Name =  luckywizard :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/lucky_wizard.png
+2022-08-30 14:51:31,331 [main] ERROR craftBet - 1993   Game Provider Name = RedTiger :   Game Name =  masquerade :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/masquerade.png
+2022-08-30 14:51:34,080 [main] ERROR craftBet - 2006   Game Provider Name = RedTiger :   Game Name =  mayangods :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/mayan_gods.png
+2022-08-30 14:51:36,956 [main] ERROR craftBet - 2019   Game Provider Name = RedTiger :   Game Name =  megadragon :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/mega_dragon.png
+2022-08-30 14:51:37,059 [main] ERROR craftBet - 2020   Game Provider Name = Greentube :   Game Name =  MegaJoker :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/mobile/Mega-Jokerf.png
+2022-08-30 14:51:38,874 [main] ERROR craftBet - 2028   Game Provider Name = Mascot :   Game Name =  Mermaid's Bay :   cod = 403:   src = https://resources.tetherbet.io/products/
+2022-08-30 14:52:01,357 [main] ERROR craftBet - 2131   Game Provider Name = RedTiger :   Game Name =  mysteryreelspowerreels :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/mystery_reels_power_reels.png
+2022-08-30 14:52:02,895 [main] ERROR craftBet - 2138   Game Provider Name = RedTiger :   Game Name =  mysticwheel :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/mystic_wheel.png
+2022-08-30 14:52:06,540 [main] ERROR craftBet - 2155   Game Provider Name = RedTiger :   Game Name =  neonlinks :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/neon_links.png
+2022-08-30 14:52:07,500 [main] ERROR craftBet - 2160   Game Provider Name = RedTiger :   Game Name =  nftmegaways :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/nft_mw.png
+2022-08-30 14:52:11,104 [main] ERROR craftBet - 2177   Game Provider Name = RedTiger :   Game Name =  ninjaways :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/ninja_ways.png
+2022-08-30 14:52:12,354 [main] ERROR craftBet - 2183   Game Provider Name = Mascot :   Game Name =  Northern Heat :   cod = 403:   src = https://resources.tetherbet.io/products/
+2022-08-30 14:52:14,930 [main] ERROR craftBet - 2196   Game Provider Name = RedTiger :   Game Name =  oceanfortune :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/ocean_fortune.png
+2022-08-30 14:52:26,489 [main] ERROR craftBet - 2245   Game Provider Name = RedTiger :   Game Name =  pathofdestiny :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/path_destiny.png
+2022-08-30 14:52:33,771 [main] ERROR craftBet - 2272   Game Provider Name = RedTiger :   Game Name =  persianfortune :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/persian_fortune.png
+2022-08-30 14:53:11,837 [main] ERROR craftBet - 2416   Game Provider Name = RedTiger :   Game Name =  rainbowjackpots :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/rainbow_jackpot.png
+2022-08-30 14:53:21,491 [main] ERROR craftBet - 2455   Game Provider Name = RedTiger :   Game Name =  regalstreak :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/regal_streak.png
+2022-08-30 14:53:40,602 [main] ERROR craftBet - 2527   Game Provider Name = RedTiger :   Game Name =  robinhoodswildforest :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/robin_hoods_wild_forest.png
+2022-08-30 14:53:43,140 [main] ERROR craftBet - 2537   Game Provider Name = RedTiger :   Game Name =  rocketmen :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/rocket_men.png
+2022-08-30 14:54:13,089 [main] ERROR craftBet - 2657   Game Provider Name = RedTiger :   Game Name =  shahmat :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/shah_mat.png
+2022-08-30 14:54:23,734 [main] ERROR craftBet - 2706   Game Provider Name = Greentube :   Game Name =  Sizzling6 :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/mobile/Sizzling6.png
+2022-08-30 14:54:23,902 [main] ERROR craftBet - 2707   Game Provider Name = Greentube :   Game Name =  SizzlingHotDeluxe :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/mobile/Sizzling-Hot-7.png
+2022-08-30 14:54:40,604 [main] ERROR craftBet - 2780   Game Provider Name = Greentube :   Game Name =  SpringQueen :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/mobile/Spring-Queen.png
+2022-08-30 14:55:07,746 [main] ERROR craftBet - 2902   Game Provider Name = Greentube :   Game Name =  TalesOfDarkness :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/mobile/Tales-Of-Darkness.png
+2022-08-30 14:55:07,835 [main] ERROR craftBet - 2903   Game Provider Name = Greentube :   Game Name =  TalesOfDarkness :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/mobile/Tales-Of-Darkness-Lunar-Eclipse.png
+2022-08-30 14:55:10,679 [main] ERROR craftBet - 2917   Game Provider Name = RedTiger :   Game Name =  tenelements :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/ten_elements.png
+2022-08-30 14:55:37,812 [main] ERROR craftBet - 3033   Game Provider Name = RedTiger :   Game Name =  theequalizer :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/the_equalizer.png
+2022-08-30 14:55:37,970 [main] ERROR craftBet - 3034   Game Provider Name = RedTiger :   Game Name =  thegreatesttrainrobbery :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/the_greatest_train%20_robbery.png
+2022-08-30 14:55:38,435 [main] ERROR craftBet - 3036   Game Provider Name = RedTiger :   Game Name =  thewildhatter :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/the_wild_hatter.png
+2022-08-30 14:55:39,343 [main] ERROR craftBet - 3041   Game Provider Name = RedTiger :   Game Name =  Thor's Vengeance :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/thor_vengeance.png
+2022-08-30 14:55:54,362 [main] ERROR craftBet - 3110   Game Provider Name = RedTiger :   Game Name =  treasuremine :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/treasure_mine.png
+2022-08-30 14:55:54,456 [main] ERROR craftBet - 3111   Game Provider Name = RedTiger :   Game Name =  treasureminepowerreels :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/treasure_mine_power_reels.png
+2022-08-30 14:56:08,255 [main] ERROR craftBet - 3176   Game Provider Name = RedTiger :   Game Name =  vaultofanubis :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/vault_anubis.png
+2022-08-30 14:56:11,275 [main] ERROR craftBet - 3191   Game Provider Name = RedTiger :   Game Name =  vickyventura :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/vicky_ventura.png
+2022-08-30 14:56:18,433 [main] ERROR craftBet - 3225   Game Provider Name = RedTiger :   Game Name =  warofgods :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/war_gods.png
+2022-08-30 14:56:22,228 [main] ERROR craftBet - 3244   Game Provider Name = RedTiger :   Game Name =  whatthefoxmegaways :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/what_fox_mw.png
+2022-08-30 14:56:39,150 [main] ERROR craftBet - 3322   Game Provider Name = RedTiger :   Game Name =  wildcatsmultiline :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/wild_cats_multiline.png
+2022-08-30 14:56:39,673 [main] ERROR craftBet - 3324   Game Provider Name = RedTiger :   Game Name =  wildfight :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/web/wild_fight.png
+2022-08-30 14:56:40,598 [main] ERROR craftBet - 3329   Game Provider Name = RedTiger :   Game Name =  wildwildchest :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/wild_wild_chest.png
+2022-08-30 14:56:44,530 [main] ERROR craftBet - 3346   Game Provider Name = RedTiger :   Game Name =  winterwonders :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/winter_wonders.png
+2022-08-30 14:56:55,758 [main] ERROR craftBet - 3399   Game Provider Name = RedTiger :   Game Name =  yucatansmystery :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/yucatan_mystery.png
+2022-08-30 14:56:58,593 [main] INFO craftBet - Broken images are:  194
+2022-08-30 14:57:00,051 [main] INFO craftBet - Browser closed
+2022-08-30 14:57:00,052 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 14:57:00,062 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 15:29:04,520 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 15:29:05,695 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 15:29:05,728 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 15:29:11,069 [main] INFO craftBet - URL: https://tetherbet.io  Browser: chrome
+2022-08-30 15:29:11,142 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 15:29:11,486 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 15:29:15,240 [main] INFO craftBet - Get games Api call was sent
+2022-08-30 15:29:15,472 [main] INFO craftBet - Get games Api Response was captured
+2022-08-30 15:29:15,551 [main] INFO craftBet - All captured games images was added into ArrayList
+2022-08-30 15:32:47,644 [main] ERROR craftBet - 1011 Game Provider Name = Microgaming :                    Game Name = Dream3Team :                       src = https://resources.{p}/products/Dream3Team.jpg         java.net.UnknownHostException: resources.{p}
+2022-08-30 15:37:56,753 [main] ERROR craftBet - 2313   Game Provider Name = RedTiger :   Game Name =  phoenixfirepowerreels :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/phoenix_fire_power_reels.png
+2022-08-30 15:37:59,577 [main] ERROR craftBet - 2325   Game Provider Name = RedTiger :   Game Name =  piggyrichesmegaways :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/piggy_riches_mw.png
+2022-08-30 15:38:22,892 [main] ERROR craftBet - 2411   Game Provider Name = RedTiger :   Game Name =  pussnboots :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/puss_boots.png
+2022-08-30 15:38:34,182 [main] ERROR craftBet - 2446   Game Provider Name = RedTiger :   Game Name =  rainbowjackpots :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/rainbow_jackpots.png
+2022-08-30 15:38:36,611 [main] ERROR craftBet - 2456   Game Provider Name = RedTiger :   Game Name =  reactor :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/reactor.png
+2022-08-30 15:38:41,960 [main] ERROR craftBet - 2479   Game Provider Name = RedTiger :   Game Name =  reelkingmega :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/reel_king_mega.png
+2022-08-30 15:38:43,627 [main] ERROR craftBet - 2485   Game Provider Name = RedTiger :   Game Name =  regalbeasts :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/regal_beasts.png
+2022-08-30 15:42:36,505 [main] ERROR craftBet - 3361   Game Provider Name = RedTiger :   Game Name =  wildfight :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/wild_fight.png
+2022-08-30 15:43:00,266 [main] INFO craftBet - Broken images are:  9
+2022-08-30 15:43:01,777 [main] INFO craftBet - Browser closed
+2022-08-30 15:43:01,777 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 15:43:01,791 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
