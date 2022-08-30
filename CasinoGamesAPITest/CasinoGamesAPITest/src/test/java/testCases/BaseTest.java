@@ -29,6 +29,7 @@ import java.time.LocalDateTime;
 import java.time.Period;
 import java.util.ArrayList;
 
+import static java.lang.Double.parseDouble;
 import static java.lang.Integer.parseInt;
 
 
@@ -101,7 +102,8 @@ public class BaseTest extends DriverFactory {
         ArrayList<String> gameProviderNames = new ArrayList<>();
         ArrayList<String> errorSrcXl = new ArrayList<>();
 
-        Unirest.setTimeouts(0, 0);
+
+        Unirest.setTimeouts(5000, 0);
         HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
                 .header("content-type", "application/json")
                 .header("origin", origin)
@@ -373,6 +375,7 @@ public class BaseTest extends DriverFactory {
 
         boolean isPassed;
         int k = 1;
+        int pointCount = 1;
         ArrayList<String> gameIDs = new ArrayList<>();
         ArrayList<String> StartTime = new ArrayList<>();
 
@@ -384,7 +387,7 @@ public class BaseTest extends DriverFactory {
         ArrayList<String> errorSrcXl = new ArrayList<>();
 
 
-        Unirest.setTimeouts(0, 0);
+//        Unirest.setTimeouts(0, 0);
         HttpResponse<String> responseGetMatches = Unirest.get(getMatchIDAPI)
                 .header("origin", origin)
                 .asString();
@@ -432,6 +435,7 @@ public class BaseTest extends DriverFactory {
             }
         }
 
+//        craftBet_01_header_page.waitAction(2000);
         for (String gameId : gameIDs){
 
             Unirest.setTimeouts(0, 0);
@@ -454,6 +458,7 @@ public class BaseTest extends DriverFactory {
                 JSONArray jsonArrayMarket = jsonObjectMarket.getJSONArray("Ss");
 
                 for (int t = 0; t < jsonArrayMarket.length(); t++) {
+
                     String oneSelector = String.valueOf(jsonArrayMarket.get(t));
                     JSONObject jsonObjectSelector = new JSONObject(oneSelector);
                     String selectorPoint = jsonObjectSelector.getString("C");
@@ -465,17 +470,26 @@ public class BaseTest extends DriverFactory {
                     isBlockedForSelectorArray.add(isBlockedSelector);
 
 //                    System.out.println(selectorPoint+"     "+nameSelector+"     "+isBlockedSelector);
-                    if (selectorPoint.equals("1")){
-                        String errMessage = "GameID  = " + gameIDs.get(t) + "   MarketName = " + nameMarket + "   Selector = " + selectorPoint  + "   SelectorName" + nameSelector + "   Selector IsBlocked = " + isBlockedSelector;
-                        errorSrcXl.add(errMessage);
-                        logger.error(errMessage);
+                    try {
+                        double point = parseDouble(selectorPoint);
+                        if (point<=1){
+                            // String errMessage = "GameID  = " + gameIDs.get(t) + "   MarketName = " + nameMarket + "   Selector = " + selectorPoint  + "   SelectorName" + nameSelector + "   Selector IsBlocked = " + isBlockedSelector;
+                            String errMessage = "GameID  = " + gameIDs.get(t) + "   selectorPoint = " + selectorPoint;
+                            errorSrcXl.add(errMessage);
+                            logger.error(errMessage);
+                        }
                     }
+                    catch (Exception e){
+                        logger.info("Cant parse to int selectorPoint:  " + selectorPoint );
+
+                    }
+                    pointCount++;
                 }
             }
-
         }
 
 
+        logger.info("Point count =  " + pointCount);
         logger.info("Games with selector >= 1:  " + errorSrcXl.size());
         if (errorSrcXl.size() == 0) {
             isPassed = true;
