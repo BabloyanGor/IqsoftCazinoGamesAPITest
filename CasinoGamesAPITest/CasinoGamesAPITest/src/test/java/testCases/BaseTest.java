@@ -363,7 +363,6 @@ public class BaseTest extends DriverFactory {
         return isPassed;
     }
 
-
     public boolean getLimitOutGamesApiCheck(String getGamesAPIUrl, String partnerName)
             throws UnirestException, JSONException, IOException {
 
@@ -626,9 +625,8 @@ public class BaseTest extends DriverFactory {
         return isPassed;
     }
 
-
     public boolean getUrlCheckGamesUrl(String getGamesAPIUrl, String origin, String getURLAPIurl, String token,
-                                       int userID, int partnerID, String partnerName)
+            int userID, int partnerID, String partnerName)
             throws JSONException, IOException, UnirestException {
         boolean isPassed;
         ArrayList<String> productID = new ArrayList<>();
@@ -735,7 +733,6 @@ public class BaseTest extends DriverFactory {
                 getGamesRecurse = "https://resources.craftbet.com/products/";
                 getGamesPartnerName = "Craftbet";
                 getGamesBaseURL = "https://craftbet.com";
-
 
                 getAllLifeGames = "https://sportsbookwebsitewebapi.craftbet.com/website/getlivematchesoverview?LanguageId=en&TimeZone=4&origin=https://sportsbookwebsite.craftbet.com";
                 break;
@@ -860,7 +857,7 @@ public class BaseTest extends DriverFactory {
                 partnerID = 43;
                 getGamesAPIUrl = "https://websitewebapi.oceanbet.io/43/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.oceanbet.io/43/api/Main/GetProductUrl";
-                getUserID = 11111111;
+                getUserID = 1651063;
                 getGamesOrigin = "https://oceanbet.io";
                 getGamesRecurse = "https://resources.oceanbet.io/products/";
                 getGamesPartnerName = "oceanbet";

@@ -1260,3 +1260,577 @@ java.net.SocketException: Connection reset
 2022-08-30 10:23:17,815 - craftBet -INFO - Get games Api call was sent
 2022-08-30 10:23:18,047 - craftBet -INFO - Get games Api Response was captured
 2022-08-30 10:23:18,136 - craftBet -INFO - All captured games images was added into ArrayList
+2022-08-30 10:24:02,045 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-30 10:24:02,338 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 10:24:02,369 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 10:24:06,924 - craftBet -INFO - URL: https://oceanbet.io  Browser: chrome
+2022-08-30 10:24:07,058 - craftBet -INFO - All Page elements are initialized
+2022-08-30 10:24:07,075 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 10:24:10,222 - craftBet -INFO - Get games Api call was sent
+2022-08-30 10:24:10,735 - craftBet -INFO - Get games Api Response was captured
+2022-08-30 10:24:10,820 - craftBet -INFO - All captured games images was added into ArrayList
+2022-08-30 10:36:35,152 - craftBet -INFO - Broken images are:  0
+2022-08-30 10:36:35,576 - craftBet -INFO - Browser closed
+2022-08-30 10:36:35,576 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 10:36:35,593 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 10:37:44,403 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-30 10:37:44,688 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 10:37:44,721 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 10:37:47,799 - craftBet -INFO - URL: https://oceanbet.io  Browser: chrome
+2022-08-30 10:37:47,943 - craftBet -INFO - All Page elements are initialized
+2022-08-30 10:37:47,955 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 10:37:51,581 - craftBet -INFO - Get games Api call was sent
+2022-08-30 10:37:51,909 - craftBet -INFO - Get games Api Response was captured
+2022-08-30 10:37:52,006 - craftBet -INFO - All captured games images was added into ArrayList
+2022-08-30 10:39:46,080 - craftBet -ERROR - 395   Game Provider Name = PragmaticPlay :   Game Name =  3Kingdoms-BattleofRedCliffs :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/3Kingdoms.png
+2022-08-30 10:40:01,692 - craftBet -ERROR - 472   Game Provider Name = PragmaticPlay :   Game Name =  Aladdin and the Sorcerer :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AladdinandtheSorcerer.png
+2022-08-30 10:40:01,997 - craftBet -ERROR - 474   Game Provider Name = PragmaticPlay :   Game Name =  Aladdin's Treasure :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AladdinTreasure.png
+2022-08-30 10:40:06,451 - craftBet -ERROR - 495   Game Provider Name = PragmaticPlay :   Game Name =  Amazing Money Machine :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TheAmazingMoneyMachine.png
+2022-08-30 10:40:07,680 - craftBet -ERROR - 501   Game Provider Name = PragmaticPlay :   Game Name =  Ancient Egypt :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AncientEgypt.png
+2022-08-30 10:40:07,787 - craftBet -ERROR - 502   Game Provider Name = PragmaticPlay :   Game Name =  Ancient Egypt Classic :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AncientEgyptmob.png
+2022-08-30 10:40:14,182 - craftBet -ERROR - 532   Game Provider Name = PragmaticPlay :   Game Name =  Asgard :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/Asgard.png
+2022-08-30 10:40:17,603 - craftBet -ERROR - 549   Game Provider Name = PragmaticPlay :   Game Name =  Aztec Bonanza :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AztecBonanza.png
+2022-08-30 10:40:18,129 - craftBet -ERROR - 552   Game Provider Name = PragmaticPlay :   Game Name =  Aztec Gems :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AztecGems.png
+2022-08-30 10:40:18,230 - craftBet -ERROR - 553   Game Provider Name = PragmaticPlay :   Game Name =  Aztec Gems Deluxe :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AztecGemsDeluxe.png
+2022-08-30 10:40:20,675 - craftBet -ERROR - 565   Game Provider Name = PragmaticPlay :   Game Name =  Aztec Treasure :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/AztecTreasure.png
+2022-08-30 10:40:34,032 - craftBet -ERROR - 627   Game Provider Name = PragmaticPlay :   Game Name =  Beowulf :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/Beowulf.png
+2022-08-30 10:40:37,226 - craftBet -ERROR - 642   Game Provider Name = PragmaticPlay :   Game Name =  Big Juan :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/bigjuan.png
+2022-08-30 10:40:38,196 - craftBet -ERROR - 647   Game Provider Name = PragmaticPlay :   Game Name =  Bigger Bass Bonanza :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/biggerbassbonanza.png
+2022-08-30 10:40:56,750 - craftBet -ERROR - 733   Game Provider Name = PragmaticPlay :   Game Name =  Book Of Kingdoms :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/BookofKingdoms.png
+2022-08-30 10:41:02,591 - craftBet -ERROR - 761   Game Provider Name = PragmaticPlay :   Game Name =  Book of Vikings :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/BookofVikings.png
+2022-08-30 10:41:06,874 - craftBet -ERROR - 781   Game Provider Name = PragmaticPlay :   Game Name =  Bounty Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/bountygold.jpg
+2022-08-30 10:41:08,706 - craftBet -ERROR - 790   Game Provider Name = PragmaticPlay :   Game Name =  Bronco Spirit :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/BroncoSpirit.png
+2022-08-30 10:41:11,002 - craftBet -ERROR - 801   Game Provider Name = PragmaticPlay :   Game Name =  Buffalo King :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/BuffaloKing.png
+2022-08-30 10:41:16,057 - craftBet -ERROR - 825   Game Provider Name = PragmaticPlay :   Game Name =  Caishen's Cash :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/CaishenCash.png
+2022-08-30 10:41:16,375 - craftBet -ERROR - 827   Game Provider Name = PragmaticPlay :   Game Name =  Caishen's Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/CaishensGold.png
+2022-08-30 10:41:20,810 - craftBet -ERROR - 848   Game Provider Name = PragmaticPlay :   Game Name =  Cash Bonanza :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/cashbonanza.jpg
+2022-08-30 10:41:21,342 - craftBet -ERROR - 851   Game Provider Name = PragmaticPlay :   Game Name =  Cash Elevator :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/CashElevator.png
+2022-08-30 10:41:31,385 - craftBet -ERROR - 898   Game Provider Name = PragmaticPlay :   Game Name =  Chilli Heat :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/ChilliHeatMegaways.png
+2022-08-30 10:41:41,288 - craftBet -ERROR - 944   Game Provider Name = PragmaticPlay :   Game Name =  Congo Cash :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/CongoCash.png
+2022-08-30 10:41:44,227 - craftBet -ERROR - 958   Game Provider Name = PragmaticPlay :   Game Name =  Cowboys Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/CowboysGold.png
+2022-08-30 10:41:54,828 - craftBet -ERROR - 1008   Game Provider Name = PragmaticPlay :   Game Name =  Da Vinci's Treasure :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DaVinciTreasure.png
+2022-08-30 10:41:54,951 - craftBet -ERROR - 1009   Game Provider Name = PragmaticPlay :   Game Name =  Dance Party :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DanceParty.png
+2022-08-30 10:41:57,988 - craftBet -ERROR - 1021   Game Provider Name = PragmaticPlay :   Game Name =  Day of Dead :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/dayordead.jpg
+2022-08-30 10:42:16,533 - craftBet -ERROR - 1107   Game Provider Name = PragmaticPlay :   Game Name =  Drago - Jewels of Fortune :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DragoJewelsofFortune.png
+2022-08-30 10:42:17,366 - craftBet -ERROR - 1112   Game Provider Name = PragmaticPlay :   Game Name =  Dragon Hot Hold & Spin :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DragonHotHoldandSpin.png
+2022-08-30 10:42:17,892 - craftBet -ERROR - 1115   Game Provider Name = PragmaticPlay :   Game Name =  Dragon Kingdom :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DragonKingdom.png
+2022-08-30 10:42:17,991 - craftBet -ERROR - 1116   Game Provider Name = PragmaticPlay :   Game Name =  Dragon Kingdom - Eyes of Fire :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DragonKingdomEyesofFire.png
+2022-08-30 10:42:25,925 - craftBet -ERROR - 1154   Game Provider Name = PragmaticPlay :   Game Name =  Dwarven Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DwarvenGold.png
+2022-08-30 10:42:26,017 - craftBet -ERROR - 1155   Game Provider Name = PragmaticPlay :   Game Name =  Dwarven Gold Deluxe :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/DwarvenGoldDeluxe.png
+2022-08-30 10:42:29,527 - craftBet -ERROR - 1172   Game Provider Name = PragmaticPlay :   Game Name =  Egyptian Fortunes :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/EgyptianFortunes.png
+2022-08-30 10:42:33,075 - craftBet -ERROR - 1189   Game Provider Name = PragmaticPlay :   Game Name =  Emerald King :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/EmeraldKing.png
+2022-08-30 10:42:33,172 - craftBet -ERROR - 1190   Game Provider Name = PragmaticPlay :   Game Name =  Emerald King Rainbow Road :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/EmeraldKingRainbowRoad.png
+2022-08-30 10:42:33,948 - craftBet -ERROR - 1194   Game Provider Name = PragmaticPlay :   Game Name =  Empty the Bank :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/EmptytheBank.png
+2022-08-30 10:42:39,325 - craftBet -ERROR - 1220   Game Provider Name = PragmaticPlay :   Game Name =  Eye of the Storm :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/EyeoftheStorm.png
+2022-08-30 10:42:41,139 - craftBet -ERROR - 1229   Game Provider Name = PragmaticPlay :   Game Name =  Fairytale Fortune :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/FairytaleFortune.png
+2022-08-30 10:42:45,277 - craftBet -ERROR - 1249   Game Provider Name = PragmaticPlay :   Game Name =  Fire 88 :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/Fire88.png
+2022-08-30 10:42:47,008 - craftBet -ERROR - 1258   Game Provider Name = PragmaticPlay :   Game Name =  Fire Strike :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/FireStrike.png
+2022-08-30 10:42:49,088 - craftBet -ERROR - 1268   Game Provider Name = PragmaticPlay :   Game Name =  Fishin Reels :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/fishin_reels.png
+2022-08-30 10:43:20,847 - craftBet -ERROR - 1415   Game Provider Name = PragmaticPlay :   Game Name =  Gems Bonanza :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GemsBonanza.png
+2022-08-30 10:43:24,889 - craftBet -ERROR - 1434   Game Provider Name = PragmaticPlay :   Game Name =  Glorious Rome :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GloriousRome.png
+2022-08-30 10:43:31,035 - craftBet -ERROR - 1461   Game Provider Name = PragmaticPlay :   Game Name =  Gold Party :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/gold_party.jpg
+2022-08-30 10:43:31,553 - craftBet -ERROR - 1464   Game Provider Name = PragmaticPlay :   Game Name =  Gold Train :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GoldTrain.png
+2022-08-30 10:43:32,420 - craftBet -ERROR - 1469   Game Provider Name = PragmaticPlay :   Game Name =  Golden Beauty :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GoldenBeauty.png
+2022-08-30 10:43:45,021 - craftBet -ERROR - 1528   Game Provider Name = PragmaticPlay :   Game Name =  Great Reef :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GreatReef.png
+2022-08-30 10:43:45,139 - craftBet -ERROR - 1529   Game Provider Name = PragmaticPlay :   Game Name =  Great Rhino :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GreatRhino.png
+2022-08-30 10:43:45,249 - craftBet -ERROR - 1530   Game Provider Name = PragmaticPlay :   Game Name =  Great Rhino Deluxe :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GreatRhinoDeluxe.png
+2022-08-30 10:43:45,560 - craftBet -ERROR - 1532   Game Provider Name = PragmaticPlay :   Game Name =  Greek Gods :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/GreekGods.png
+2022-08-30 10:43:53,582 - craftBet -ERROR - 1568   Game Provider Name = PragmaticPlay :   Game Name =  Heart of Rio :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HeartofRio.png
+2022-08-30 10:43:54,471 - craftBet -ERROR - 1572   Game Provider Name = PragmaticPlay :   Game Name =  Hercules and Pegasus :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HerculesandPegasus.png
+2022-08-30 10:43:54,819 - craftBet -ERROR - 1574   Game Provider Name = PragmaticPlay :   Game Name =  Hercules Son of Zeus :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HerculesSonofZeus.png
+2022-08-30 10:43:57,181 - craftBet -ERROR - 1586   Game Provider Name = PragmaticPlay :   Game Name =  Hockey League :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HockeyLeague.png
+2022-08-30 10:43:57,279 - craftBet -ERROR - 1587   Game Provider Name = PragmaticPlay :   Game Name =  Hockey League Wild Match :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HockeyLeagueWildMatch.png
+2022-08-30 10:43:57,804 - craftBet -ERROR - 1590   Game Provider Name = PragmaticPlay :   Game Name =  Honey Honey Honey :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HoneyHoneyHoney.png
+2022-08-30 10:44:02,374 - craftBet -ERROR - 1612   Game Provider Name = PragmaticPlay :   Game Name =  Hot Chilli :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HotChilli.png
+2022-08-30 10:44:03,360 - craftBet -ERROR - 1617   Game Provider Name = PragmaticPlay :   Game Name =  Hot Fiesta :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HotFiesta.png
+2022-08-30 10:44:09,297 - craftBet -ERROR - 1645   Game Provider Name = PragmaticPlay :   Game Name =  Hot to Burn :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HottoBurn.png
+2022-08-30 10:44:09,388 - craftBet -ERROR - 1646   Game Provider Name = PragmaticPlay :   Game Name =  Hot to Burn Hold and Spin :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/HottoBurnHoldandSpin.png
+2022-08-30 10:44:21,785 - craftBet -ERROR - 1705   Game Provider Name = PragmaticPlay :   Game Name =  Irish Charms :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/IrishCharms.png
+2022-08-30 10:44:26,144 - craftBet -ERROR - 1726   Game Provider Name = PragmaticPlay :   Game Name =  Jacks or Better :   cod = 403:   src = https://resources.oceanbet.io/products/
+2022-08-30 10:44:26,658 - craftBet -ERROR - 1729   Game Provider Name = PragmaticPlay :   Game Name =  Jade Butterfly :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/JadeButterfly.png
+2022-08-30 10:44:32,273 - craftBet -ERROR - 1754   Game Provider Name = PragmaticPlay :   Game Name =  John Hunter And The Mayan Gods :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/JohnHunterandtheMayanGods.png
+2022-08-30 10:44:32,373 - craftBet -ERROR - 1755   Game Provider Name = PragmaticPlay :   Game Name =  John Hunter and the Quest for Bermuda Riches :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/johnbermuda.png
+2022-08-30 10:44:32,478 - craftBet -ERROR - 1756   Game Provider Name = PragmaticPlay :   Game Name =  John Hunter and the Tomb of the Scarab Queen :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/JohnHunterandtheScarabQueen.png
+2022-08-30 10:44:34,526 - craftBet -ERROR - 1766   Game Provider Name = PragmaticPlay :   Game Name =  Joker King :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/JokerKing.png
+2022-08-30 10:44:37,618 - craftBet -ERROR - 1781   Game Provider Name = PragmaticPlay :   Game Name =  Joker's Jewels :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/Joker_sJewels.png
+2022-08-30 10:44:39,041 - craftBet -ERROR - 1788   Game Provider Name = PragmaticPlay :   Game Name =  Journey to the West :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/JourneytotheWest.png
+2022-08-30 10:44:43,600 - craftBet -ERROR - 1805   Game Provider Name = PragmaticPlay :   Game Name =  Jurassic Giants :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/JurassicGiants.png
+2022-08-30 10:44:51,081 - craftBet -ERROR - 1840   Game Provider Name = PragmaticPlay :   Game Name =  KTV :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/KTV.png
+2022-08-30 10:44:52,284 - craftBet -ERROR - 1846   Game Provider Name = PragmaticPlay :   Game Name =  Lady Godiva :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/LadyGodiva.png
+2022-08-30 10:44:53,266 - craftBet -ERROR - 1851   Game Provider Name = PragmaticPlay :   Game Name =  Lady of the Moon :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/LadyoftheMoon.png
+2022-08-30 10:44:59,484 - craftBet -ERROR - 1880   Game Provider Name = PragmaticPlay :   Game Name =  Leprechaun Carol :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/LeprechaunCarol.png
+2022-08-30 10:45:00,472 - craftBet -ERROR - 1885   Game Provider Name = PragmaticPlay :   Game Name =  Leprechaun Song :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/LeprechaunSong.png
+2022-08-30 10:45:12,470 - craftBet -ERROR - 1942   Game Provider Name = PragmaticPlay :   Game Name =  Lucky Dragons :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/LuckyDragons.png
+2022-08-30 10:45:16,573 - craftBet -ERROR - 1961   Game Provider Name = PragmaticPlay :   Game Name =  Lucky Lightning :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/LuckyLightning.png
+2022-08-30 10:45:18,233 - craftBet -ERROR - 1969   Game Provider Name = PragmaticPlay :   Game Name =  Lucky New Year :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/LuckyNewYear.png
+2022-08-30 10:45:20,532 - craftBet -ERROR - 1980   Game Provider Name = PragmaticPlay :   Game Name =  Lucky, Grace & Charm :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/LuckyGraceCharm.png
+2022-08-30 10:45:22,172 - craftBet -ERROR - 1988   Game Provider Name = PragmaticPlay :   Game Name =  Madame Destiny :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MadameDestiny.png
+2022-08-30 10:45:23,365 - craftBet -ERROR - 1994   Game Provider Name = PragmaticPlay :   Game Name =  Magic Crystals :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MagicCrystals.png
+2022-08-30 10:45:26,460 - craftBet -ERROR - 2009   Game Provider Name = PragmaticPlay :   Game Name =  Magic Journey :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MagicJourney.png
+2022-08-30 10:45:31,379 - craftBet -ERROR - 2032   Game Provider Name = PragmaticPlay :   Game Name =  Magician's Secrets :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/magiciansecret.jpg
+2022-08-30 10:45:34,496 - craftBet -ERROR - 2046   Game Provider Name = PragmaticPlay :   Game Name =  Master Chen's Fortune :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MasterChensFortunemob.png
+2022-08-30 10:45:34,586 - craftBet -ERROR - 2047   Game Provider Name = PragmaticPlay :   Game Name =  Master Joker :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MasterJoker.png
+2022-08-30 10:45:43,633 - craftBet -ERROR - 2089   Game Provider Name = PragmaticPlay :   Game Name =  Mighty Kong :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MightyKong.png
+2022-08-30 10:45:48,421 - craftBet -ERROR - 2112   Game Provider Name = PragmaticPlay :   Game Name =  Monkey Madness :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MonkeyMadness.png
+2022-08-30 10:45:48,738 - craftBet -ERROR - 2114   Game Provider Name = PragmaticPlay :   Game Name =  Monkey Warrior :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MonkeyWarrior.png
+2022-08-30 10:45:57,334 - craftBet -ERROR - 2155   Game Provider Name = PragmaticPlay :   Game Name =  Mustang Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MustangGold.png
+2022-08-30 10:45:57,441 - craftBet -ERROR - 2156   Game Provider Name = PragmaticPlay :   Game Name =  Mysterious :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/Mysterious.png
+2022-08-30 10:45:57,530 - craftBet -ERROR - 2157   Game Provider Name = PragmaticPlay :   Game Name =  Mysterious Egypt :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/MysteriousEgypt.png
+2022-08-30 10:45:59,745 - craftBet -ERROR - 2168   Game Provider Name = PragmaticPlay :   Game Name =  Mystic Chief :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/mysticchief.jpg
+2022-08-30 10:46:17,924 - craftBet -ERROR - 2252   Game Provider Name = PragmaticPlay :   Game Name =  Panda Fortune 2 :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/PandaFortune2.png
+2022-08-30 10:46:18,670 - craftBet -ERROR - 2256   Game Provider Name = PragmaticPlay :   Game Name =  Panda's Fortune :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/PandaFortune.png
+2022-08-30 10:46:19,097 - craftBet -ERROR - 2259   Game Provider Name = PragmaticPlay :   Game Name =  Panther Queen :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/PantherQueen.png
+2022-08-30 10:46:23,913 - craftBet -ERROR - 2281   Game Provider Name = PragmaticPlay :   Game Name =  Peking Luck :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/PekingLuck.png
+2022-08-30 10:46:27,047 - craftBet -ERROR - 2296   Game Provider Name = PragmaticPlay :   Game Name =  Phoenix Forge :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/PhoenixForge.png
+2022-08-30 10:46:28,903 - craftBet -ERROR - 2305   Game Provider Name = PragmaticPlay :   Game Name =  Piggy Bank Bills :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/piggybankbills.jpg
+2022-08-30 10:46:32,507 - craftBet -ERROR - 2322   Game Provider Name = PragmaticPlay :   Game Name =  Pirate Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/PirateGold.png
+2022-08-30 10:46:32,600 - craftBet -ERROR - 2323   Game Provider Name = PragmaticPlay :   Game Name =  Pirate Gold Deluxe :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/PirateGoldDeluxe.png
+2022-08-30 10:46:33,758 - craftBet -ERROR - 2329   Game Provider Name = PragmaticPlay :   Game Name =  Pixie Wings :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/PixieWings.png
+2022-08-30 10:46:46,485 - craftBet -ERROR - 2388   Game Provider Name = PragmaticPlay :   Game Name =  Pyramid King :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/PyramidKing.png
+2022-08-30 10:46:47,859 - craftBet -ERROR - 2395   Game Provider Name = PragmaticPlay :   Game Name =  Queen of Atlantis :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/QueenofAtlantis.png
+2022-08-30 10:46:48,399 - craftBet -ERROR - 2398   Game Provider Name = PragmaticPlay :   Game Name =  Queen of Gold :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/QueenofGold.png
+2022-08-30 10:46:48,494 - craftBet -ERROR - 2399   Game Provider Name = PragmaticPlay :   Game Name =  Queen of Gold 100,000 :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/QueenofGold100k2.png
+2022-08-30 10:47:00,987 - craftBet -ERROR - 2456   Game Provider Name = PragmaticPlay :   Game Name =  Release the Kraken :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/ReleasetheKraken.png
+2022-08-30 10:47:04,547 - craftBet -ERROR - 2473   Game Provider Name = PragmaticPlay :   Game Name =  Return of the Dead :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/ReturnoftheDead.png
+2022-08-30 10:47:15,913 - craftBet -ERROR - 2526   Game Provider Name = PragmaticPlay :   Game Name =  Romeo and Juliet :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/RomeoandJuliet.png
+2022-08-30 10:47:21,408 - craftBet -ERROR - 2552   Game Provider Name = PragmaticPlay :   Game Name =  Safari King :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/SafariKing.png
+2022-08-30 10:47:24,524 - craftBet -ERROR - 2567   Game Provider Name = PragmaticPlay :   Game Name =  Santa :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/Santa.png
+2022-08-30 10:47:51,207 - craftBet -ERROR - 2694   Game Provider Name = PragmaticPlay :   Game Name =  Spartan King :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/SpartanKing.png
+2022-08-30 10:47:58,114 - craftBet -ERROR - 2727   Game Provider Name = PragmaticPlay :   Game Name =  Star Bounty :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/starbounty.png
+2022-08-30 10:47:58,642 - craftBet -ERROR - 2730   Game Provider Name = PragmaticPlay :   Game Name =  Star Pirates Code :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/starpirates.jpg
+2022-08-30 10:47:59,162 - craftBet -ERROR - 2733   Game Provider Name = PragmaticPlay :   Game Name =  Starlight Princess :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/starlight.jpg
+2022-08-30 10:48:05,063 - craftBet -ERROR - 2761   Game Provider Name = PragmaticPlay :   Game Name =  Street Racer :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/StreetRacer.png
+2022-08-30 10:48:05,581 - craftBet -ERROR - 2764   Game Provider Name = PragmaticPlay :   Game Name =  Sugar Rush :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/SugarRush.png
+2022-08-30 10:48:05,671 - craftBet -ERROR - 2765   Game Provider Name = PragmaticPlay :   Game Name =  Sugar Rush Valentine's Day :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/SugarRushValentineDay.png
+2022-08-30 10:48:05,772 - craftBet -ERROR - 2766   Game Provider Name = PragmaticPlay :   Game Name =  Sugar Rush Winter :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/SugarRushWinter.png
+2022-08-30 10:48:09,120 - craftBet -ERROR - 2782   Game Provider Name = PragmaticPlay :   Game Name =  Super 7s  :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/Super7s.png
+2022-08-30 10:48:13,497 - craftBet -ERROR - 2801   Game Provider Name = PragmaticPlay :   Game Name =  Super Joker :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/SuperJoker.png
+2022-08-30 10:48:24,063 - craftBet -ERROR - 2842   Game Provider Name = PragmaticPlay :   Game Name =  Tales of Egypt :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TalesofEgypt.png
+2022-08-30 10:48:27,401 - craftBet -ERROR - 2854   Game Provider Name = PragmaticPlay :   Game Name =  Temujin Treasures :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TemujinTreasures.png
+2022-08-30 10:48:34,273 - craftBet -ERROR - 2873   Game Provider Name = PragmaticPlay :   Game Name =  The Catfather :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TheCatfather.png
+2022-08-30 10:48:34,366 - craftBet -ERROR - 2874   Game Provider Name = PragmaticPlay :   Game Name =  The Catfather Part II :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TheCatfatherPartII.png
+2022-08-30 10:48:34,470 - craftBet -ERROR - 2875   Game Provider Name = PragmaticPlay :   Game Name =  The Champions :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TheChampions.png
+2022-08-30 10:48:39,572 - craftBet -ERROR - 2895   Game Provider Name = PragmaticPlay :   Game Name =  The Great Chicken Escape :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TheGreatChickenEscape.png
+2022-08-30 10:48:40,720 - craftBet -ERROR - 2900   Game Provider Name = PragmaticPlay :   Game Name =  The Hand of Midas :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TheHandofMidas.png
+2022-08-30 10:48:43,981 - craftBet -ERROR - 2914   Game Provider Name = PragmaticPlay :   Game Name =  The Magic Cauldron :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TheMagicCauldronEnchantedBrew.png
+2022-08-30 10:48:50,062 - craftBet -ERROR - 2943   Game Provider Name = PragmaticPlay :   Game Name =  The Wild Machine :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TheWildMachine.png
+2022-08-30 10:48:51,840 - craftBet -ERROR - 2951   Game Provider Name = PragmaticPlay :   Game Name =  Three Star Fortune :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/ThreeStarFortune.png
+2022-08-30 10:49:06,693 - craftBet -ERROR - 3006   Game Provider Name = PragmaticPlay :   Game Name =  Treasure Horse :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TreasureHorse.png
+2022-08-30 10:49:08,896 - craftBet -ERROR - 3011   Game Provider Name = PragmaticPlay :   Game Name =  Treasure Wild :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/treasurewild.png
+2022-08-30 10:49:09,414 - craftBet -ERROR - 3014   Game Provider Name = PragmaticPlay :   Game Name =  Tree of Riches :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TreeofRiches.png
+2022-08-30 10:49:11,032 - craftBet -ERROR - 3022   Game Provider Name = PragmaticPlay :   Game Name =  Triple Dragons :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TripleDragons.png
+2022-08-30 10:49:11,346 - craftBet -ERROR - 3024   Game Provider Name = PragmaticPlay :   Game Name =  Triple Jokers :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TripleJokers.png
+2022-08-30 10:49:11,883 - craftBet -ERROR - 3027   Game Provider Name = PragmaticPlay :   Game Name =  Triple Tigers :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/TripleTigers.png
+2022-08-30 10:49:17,967 - craftBet -ERROR - 3056   Game Provider Name = PragmaticPlay :   Game Name =  Ultra Burn :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/UltraBurn.png
+2022-08-30 10:49:18,070 - craftBet -ERROR - 3057   Game Provider Name = PragmaticPlay :   Game Name =  Ultra Hold and Spin :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/ultraholdandspinmob.png
+2022-08-30 10:49:23,728 - craftBet -ERROR - 3084   Game Provider Name = PragmaticPlay :   Game Name =  Vampires vs Wolves :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/VampiresvsWolves.png
+2022-08-30 10:49:25,198 - craftBet -ERROR - 3091   Game Provider Name = PragmaticPlay :   Game Name =  Vegas Magic :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/VegasMagic.png
+2022-08-30 10:49:25,532 - craftBet -ERROR - 3093   Game Provider Name = PragmaticPlay :   Game Name =  Vegas Nights :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/VegasNights.png
+2022-08-30 10:49:32,193 - craftBet -ERROR - 3124   Game Provider Name = PragmaticPlay :   Game Name =  Voodoo Magic :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/VoodooMagic.png
+2022-08-30 10:49:39,064 - craftBet -ERROR - 3157   Game Provider Name = PragmaticPlay :   Game Name =  Wild Booster :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/WildBooster.png
+2022-08-30 10:49:40,769 - craftBet -ERROR - 3166   Game Provider Name = PragmaticPlay :   Game Name =  Wild Depths :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/wilddepths.jpg
+2022-08-30 10:49:43,692 - craftBet -ERROR - 3180   Game Provider Name = PragmaticPlay :   Game Name =  Wild Gladiator :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/WildGladiators.png
+2022-08-30 10:49:47,693 - craftBet -ERROR - 3199   Game Provider Name = PragmaticPlay :   Game Name =  Wild Pixies :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/WildPixies.png
+2022-08-30 10:49:49,729 - craftBet -ERROR - 3209   Game Provider Name = PragmaticPlay :   Game Name =  Wild Spells :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/WildSpells.png
+2022-08-30 10:49:51,562 - craftBet -ERROR - 3218   Game Provider Name = PragmaticPlay :   Game Name =  Wild Walker :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/WildWalker.png
+2022-08-30 10:49:52,718 - craftBet -ERROR - 3225   Game Provider Name = PragmaticPlay :   Game Name =  Wild Wild Riches :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/wildwildriches.png
+2022-08-30 10:50:06,640 - craftBet -ERROR - 3290   Game Provider Name = PragmaticPlay :   Game Name =  Yum Yum Powerways :   cod = 404:   src = https://resources.oceanbet.io/products/pragmaticplay/mobile/yumyum.jpg
+2022-08-30 10:50:09,465 - craftBet -INFO - Broken images are:  153
+2022-08-30 10:50:11,018 - craftBet -INFO - Browser closed
+2022-08-30 10:50:11,018 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 10:50:11,032 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 10:51:18,416 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-30 10:51:18,715 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 10:51:18,750 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 10:51:21,609 - craftBet -INFO - URL: https://oceanbet.io  Browser: chrome
+2022-08-30 10:51:21,741 - craftBet -INFO - All Page elements are initialized
+2022-08-30 10:51:21,753 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 10:51:25,168 - craftBet -INFO - Get games Api call was sent
+2022-08-30 10:51:25,387 - craftBet -INFO - Get games Api Response was captured
+2022-08-30 10:51:25,476 - craftBet -INFO - Dupliicate game Name =  Football
+2022-08-30 10:51:25,481 - craftBet -INFO - Dupliicate game Name =  Sweet Bonanza
+2022-08-30 10:51:25,482 - craftBet -INFO - Dupliicate game Name =  Madame Destiny
+2022-08-30 10:51:25,483 - craftBet -INFO - Dupliicate game Name =  The Dog House
+2022-08-30 10:51:25,483 - craftBet -INFO - Dupliicate game Name =  Gems Bonanza
+2022-08-30 10:51:25,484 - craftBet -INFO - Dupliicate game Name =  Gates of Olympus
+2022-08-30 10:51:25,484 - craftBet -INFO - Dupliicate game Name =  Starlight Princess
+2022-08-30 10:51:25,485 - craftBet -INFO - Dupliicate game Name =  Mustang Gold
+2022-08-30 10:51:25,486 - craftBet -INFO - Dupliicate game Name =  John Hunter and the Tomb of the Scarab Queen
+2022-08-30 10:51:25,489 - craftBet -INFO - Dupliicate game Name =  Baccarat
+2022-08-30 10:51:25,492 - craftBet -INFO - Dupliicate game Name =  European Roulette
+2022-08-30 10:51:25,492 - craftBet -INFO - Dupliicate game Name =  European Roulette
+2022-08-30 10:51:25,492 - craftBet -INFO - Dupliicate game Name =  European Roulette
+2022-08-30 10:51:25,492 - craftBet -INFO - Dupliicate game Name =  European Roulette
+2022-08-30 10:51:25,493 - craftBet -INFO - Dupliicate game Name =  European Roulette
+2022-08-30 10:51:25,493 - craftBet -INFO - Dupliicate game Name =  European Roulette
+2022-08-30 10:51:25,493 - craftBet -INFO - Dupliicate game Name =  European Roulette
+2022-08-30 10:51:25,493 - craftBet -INFO - Dupliicate game Name =  European Roulette
+2022-08-30 10:51:25,493 - craftBet -INFO - Dupliicate game Name =  European Roulette
+2022-08-30 10:51:25,494 - craftBet -INFO - Dupliicate game Name =  European Roulette
+2022-08-30 10:51:25,495 - craftBet -INFO - Dupliicate game Name =  European Roulette VIP
+2022-08-30 10:51:25,515 - craftBet -INFO - Dupliicate game Name =  Atlantis
+2022-08-30 10:51:25,522 - craftBet -INFO - Dupliicate game Name =  Black Jack
+2022-08-30 10:51:25,524 - craftBet -INFO - Dupliicate game Name =  Blackjack VIP
+2022-08-30 10:51:25,532 - craftBet -INFO - Dupliicate game Name =  Caligula
+2022-08-30 10:51:25,536 - craftBet -INFO - Dupliicate game Name =  ChineseNewYear
+2022-08-30 10:51:25,542 - craftBet -INFO - Dupliicate game Name =  Deuces Wild
+2022-08-30 10:51:25,551 - craftBet -INFO - Dupliicate game Name =  El Paso Gunfight xNudge
+2022-08-30 10:51:25,561 - craftBet -INFO - Dupliicate game Name =  Gladiators Go Wild
+2022-08-30 10:51:25,563 - craftBet -INFO - Dupliicate game Name =  Golden Buffalo Double Up
+2022-08-30 10:51:25,572 - craftBet -INFO - Dupliicate game Name =  Jackpot Fortunes
+2022-08-30 10:51:25,572 - craftBet -INFO - Dupliicate game Name =  Jacks or Better
+2022-08-30 10:51:25,574 - craftBet -INFO - Dupliicate game Name =  Joker Poker
+2022-08-30 10:51:25,575 - craftBet -INFO - Dupliicate game Name =  Joker Poker
+2022-08-30 10:51:25,575 - craftBet -INFO - Dupliicate game Name =  Joker Poker
+2022-08-30 10:51:25,579 - craftBet -INFO - Dupliicate game Name =  Lucky Clover
+2022-08-30 10:51:25,583 - craftBet -INFO - Dupliicate game Name =  MegaBoy
+2022-08-30 10:51:25,589 - craftBet -INFO - Dupliicate game Name =  Power Strike Super Spin
+2022-08-30 10:51:25,589 - craftBet -INFO - Dupliicate game Name =  Pyramid Pays
+2022-08-30 10:51:25,590 - craftBet -INFO - Dupliicate game Name =  Red Dog
+2022-08-30 10:51:25,594 - craftBet -INFO - Dupliicate game Name =  Stampede
+2022-08-30 10:51:25,594 - craftBet -INFO - Dupliicate game Name =  Starstruck
+2022-08-30 10:51:25,595 - craftBet -INFO - Dupliicate game Name =  Super Reel - Spin It Hot
+2022-08-30 10:51:25,596 - craftBet -INFO - Dupliicate game Name =  Tomahawk
+2022-08-30 10:51:25,597 - craftBet -INFO - Duplicate games are:  44
+2022-08-30 10:51:26,856 - craftBet -INFO - Browser closed
+2022-08-30 10:51:26,857 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 10:51:26,868 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 10:52:05,517 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-30 10:52:05,751 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 10:52:05,783 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 10:52:10,273 - craftBet -INFO - URL: https://oceanbet.io  Browser: chrome
+2022-08-30 10:52:10,354 - craftBet -INFO - All Page elements are initialized
+2022-08-30 10:52:10,382 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 10:52:11,365 - craftBet -INFO - username passed
+2022-08-30 10:52:11,492 - craftBet -INFO - password passed
+2022-08-30 10:52:11,574 - craftBet -INFO - Log In Button was clicked
+2022-08-30 10:52:12,881 - craftBet -INFO - Token was captured 79045787ab7044c28d35212e31793628
+2022-08-30 10:52:16,030 - craftBet -INFO - Get All games API call 
+2022-08-30 10:52:16,254 - craftBet -INFO - From Get All games API call body captured 
+2022-08-30 10:52:16,312 - craftBet -INFO - From Get All games API productIDes and Names was captured 
+2022-08-30 10:52:16,589 - craftBet -INFO - 1 0 ID=26316 Provider=PariPlay Name=AlohaFortune cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:52:16,871 - craftBet -INFO - 2 1 ID=17637 Provider=NetEnt Name=Arcane cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:52:17,150 - craftBet -INFO - 3 2 ID=17050 Provider=NetEnt Name=Berry Burst cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:52:17,441 - craftBet -INFO - 4 3 ID=17051 Provider=NetEnt Name=Berry Burst Max cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:52:17,741 - craftBet -INFO - 5 4 ID=17002 Provider=NetEnt Name=Blood Suckers cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:52:18,017 - craftBet -INFO - 6 5 ID=17003 Provider=NetEnt Name=Blood Suckers 2 cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:52:18,290 - craftBet -INFO - 7 6 ID=17635 Provider=NetEnt Name=BollywoodStory cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:52:18,575 - craftBet -INFO - 8 7 ID=17004 Provider=NetEnt Name=Butterfly Staxx cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:52:18,851 - craftBet -INFO - 9 8 ID=17056 Provider=NetEnt Name=Butterfly Staxx 2 cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:52:19,230 - craftBet -INFO - 10 9 ID=17005 Provider=NetEnt Name=Colossal Pinatas cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:52:19,505 - craftBet -INFO - 11 10 ID=17006 Provider=NetEnt Name=Copy Cats cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:52:19,814 - craftBet -INFO - 12 11 ID=17007 Provider=NetEnt Name=Dazzleme cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:52:20,088 - craftBet -INFO - 13 12 ID=17008 Provider=NetEnt Name=Dead Or Alive cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:52:20,365 - craftBet -INFO - 14 13 ID=17052 Provider=NetEnt Name=Dead Or Alive 2 cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:52:20,654 - craftBet -INFO - 15 14 ID=17634 Provider=NetEnt Name=DeadOrAlive2FB cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:52:20,928 - craftBet -INFO - 16 15 ID=17633 Provider=NetEnt Name=DoubleStac cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:52:21,201 - craftBet -INFO - 17 16 ID=17009 Provider=NetEnt Name=Dracula cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:52:21,506 - craftBet -INFO - 18 17 ID=17010 Provider=NetEnt Name=Gonzo's Quest cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:52:21,780 - craftBet -INFO - 19 18 ID=17011 Provider=NetEnt Name=Elements cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:52:58,094 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-30 10:52:58,330 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 10:52:58,362 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 10:53:01,957 - craftBet -INFO - URL: https://oceanbet.io  Browser: chrome
+2022-08-30 10:53:02,038 - craftBet -INFO - All Page elements are initialized
+2022-08-30 10:53:02,052 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 10:53:03,395 - craftBet -INFO - username passed
+2022-08-30 10:53:03,530 - craftBet -INFO - password passed
+2022-08-30 10:53:03,615 - craftBet -INFO - Log In Button was clicked
+2022-08-30 10:53:05,035 - craftBet -INFO - Token was captured 4b232bc5744a4819928ea3d6b53461c3
+2022-08-30 10:53:08,298 - craftBet -INFO - Get All games API call 
+2022-08-30 10:53:08,471 - craftBet -INFO - From Get All games API call body captured 
+2022-08-30 10:53:08,549 - craftBet -INFO - From Get All games API productIDes and Names was captured 
+2022-08-30 10:53:08,861 - craftBet -INFO - 1 0 ID=26316 Provider=PariPlay Name=AlohaFortune cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:09,147 - craftBet -INFO - 2 1 ID=17637 Provider=NetEnt Name=Arcane cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:09,426 - craftBet -INFO - 3 2 ID=17050 Provider=NetEnt Name=Berry Burst cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:09,703 - craftBet -INFO - 4 3 ID=17051 Provider=NetEnt Name=Berry Burst Max cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:09,982 - craftBet -INFO - 5 4 ID=17002 Provider=NetEnt Name=Blood Suckers cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:10,262 - craftBet -INFO - 6 5 ID=17003 Provider=NetEnt Name=Blood Suckers 2 cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:10,532 - craftBet -INFO - 7 6 ID=17635 Provider=NetEnt Name=BollywoodStory cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:10,938 - craftBet -INFO - 8 7 ID=17004 Provider=NetEnt Name=Butterfly Staxx cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:11,221 - craftBet -INFO - 9 8 ID=17056 Provider=NetEnt Name=Butterfly Staxx 2 cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:11,492 - craftBet -INFO - 10 9 ID=17005 Provider=NetEnt Name=Colossal Pinatas cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:11,759 - craftBet -INFO - 11 10 ID=17006 Provider=NetEnt Name=Copy Cats cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:12,042 - craftBet -INFO - 12 11 ID=17007 Provider=NetEnt Name=Dazzleme cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:12,318 - craftBet -INFO - 13 12 ID=17008 Provider=NetEnt Name=Dead Or Alive cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:12,585 - craftBet -INFO - 14 13 ID=17052 Provider=NetEnt Name=Dead Or Alive 2 cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:12,862 - craftBet -INFO - 15 14 ID=17634 Provider=NetEnt Name=DeadOrAlive2FB cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:13,129 - craftBet -INFO - 16 15 ID=17633 Provider=NetEnt Name=DoubleStac cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:13,403 - craftBet -INFO - 17 16 ID=17009 Provider=NetEnt Name=Dracula cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:13,685 - craftBet -INFO - 18 17 ID=17010 Provider=NetEnt Name=Gonzo's Quest cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:13,959 - craftBet -INFO - 19 18 ID=17011 Provider=NetEnt Name=Elements cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:14,224 - craftBet -INFO - 20 19 ID=17632 Provider=NetEnt Name=Excalibur cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:14,503 - craftBet -INFO - 21 20 ID=17012 Provider=NetEnt Name=Fairy Red cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:14,774 - craftBet -INFO - 22 21 ID=17053 Provider=NetEnt Name=Flowers cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:15,054 - craftBet -INFO - 23 22 ID=17054 Provider=NetEnt Name=Flowers Christmas cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:15,331 - craftBet -INFO - 24 23 ID=17014 Provider=NetEnt Name=Football cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:15,607 - craftBet -INFO - 25 24 ID=17015 Provider=NetEnt Name=Fruit Shop cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:15,897 - craftBet -INFO - 26 25 ID=17016 Provider=NetEnt Name=Gods Of Fortune cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:16,172 - craftBet -INFO - 27 26 ID=17055 Provider=NetEnt Name=Golden Grimoire cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:16,454 - craftBet -INFO - 28 27 ID=17017 Provider=NetEnt Name=Gunsnroses cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:16,795 - craftBet -INFO - 29 28 ID=17631 Provider=NetEnt Name=Hotline2 cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:17,068 - craftBet -INFO - 30 29 ID=17020 Provider=NetEnt Name=Invisible Man cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:17,367 - craftBet -INFO - 31 30 ID=17057 Provider=NetEnt Name=Jack And Beans Talk cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:17,655 - craftBet -INFO - 32 31 ID=17021 Provider=NetEnt Name=Jack Hammer cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:18,234 - craftBet -INFO - 33 32 ID=17022 Provider=NetEnt Name=Jack Hammer 2 cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:18,523 - craftBet -INFO - 34 33 ID=17023 Provider=NetEnt Name=Jimi Hendrix cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:18,806 - craftBet -INFO - 35 34 ID=17024 Provider=NetEnt Name=Joker Pro cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:19,083 - craftBet -INFO - 36 35 ID=17025 Provider=NetEnt Name=Jungle Spirit cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:19,356 - craftBet -INFO - 37 36 ID=17058 Provider=NetEnt Name=King Of Slots cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:19,635 - craftBet -INFO - 38 37 ID=17026 Provider=NetEnt Name=Koi Princess cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:20,156 - craftBet -INFO - 39 38 ID=17027 Provider=NetEnt Name=Lights cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:20,426 - craftBet -INFO - 40 39 ID=17028 Provider=NetEnt Name=Lucky Angler cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:20,911 - craftBet -INFO - 41 40 ID=17029 Provider=NetEnt Name=Magic Portals cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:21,244 - craftBet -INFO - 42 41 ID=17030 Provider=NetEnt Name=Motor Head cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:21,535 - craftBet -INFO - 43 42 ID=17031 Provider=NetEnt Name=Multiplier Mayhem cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:22,020 - craftBet -INFO - 44 43 ID=17032 Provider=NetEnt Name=Mythic Maiden cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:22,280 - craftBet -INFO - 45 44 ID=17033 Provider=NetEnt Name=Neon Staxx cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:22,789 - craftBet -INFO - 46 45 ID=17034 Provider=NetEnt Name=Piggy Riches cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:23,155 - craftBet -INFO - 47 46 ID=17035 Provider=NetEnt Name=Pyramid cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:24,264 - craftBet -INFO - 48 47 ID=17036 Provider=NetEnt Name=Reel Rush cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:24,529 - craftBet -INFO - 49 48 ID=17630 Provider=NetEnt Name=ReelSteal cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:24,812 - craftBet -INFO - 50 49 ID=17629 Provider=NetEnt Name=SantaVsRudolf cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:25,095 - craftBet -INFO - 51 50 ID=17037 Provider=NetEnt Name=Scruffy Duck cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:25,377 - craftBet -INFO - 52 51 ID=17038 Provider=NetEnt Name=Secrets Of Christmas cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:25,656 - craftBet -INFO - 53 52 ID=17059 Provider=NetEnt Name=SpaceWars cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:25,932 - craftBet -INFO - 54 53 ID=17039 Provider=NetEnt Name=Sparks cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:26,202 - craftBet -INFO - 55 54 ID=17600 Provider=NetEnt Name=Spellcast cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:26,507 - craftBet -INFO - 56 55 ID=17601 Provider=NetEnt Name=Spinsane cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:26,797 - craftBet -INFO - 57 56 ID=17040 Provider=NetEnt Name=StarBurst cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:27,161 - craftBet -INFO - 58 57 ID=17041 Provider=NetEnt Name=Steam Tower cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:27,439 - craftBet -INFO - 59 58 ID=17042 Provider=NetEnt Name=Stickers cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:27,712 - craftBet -INFO - 60 59 ID=54002 Provider=PragmaticPlay Name=Sweet Bonanza cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:28,203 - craftBet -INFO - 61 60 ID=17602 Provider=NetEnt Name=Sweety Honey Fruity cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:28,473 - craftBet -INFO - 62 61 ID=17043 Provider=NetEnt Name=Theme Park cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:28,741 - craftBet -INFO - 63 62 ID=17603 Provider=NetEnt Name=Twin Happiness cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:29,012 - craftBet -INFO - 64 63 ID=17044 Provider=NetEnt Name=Twin Spin cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:29,281 - craftBet -INFO - 65 64 ID=17628 Provider=NetEnt Name=TwinSpinDeluxe cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:29,567 - craftBet -INFO - 66 65 ID=17045 Provider=NetEnt Name=Victorious cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:29,835 - craftBet -INFO - 67 66 ID=17756 Provider=PragmaticPlay Name=Big Bass Bonanza cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:30,107 - craftBet -INFO - 68 67 ID=17773 Provider=PragmaticPlay Name=John Hunter and the Book of Tut cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:30,402 - craftBet -INFO - 69 68 ID=17762 Provider=PragmaticPlay Name=Christmas Big Bass Bonanza cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:30,675 - craftBet -INFO - 70 69 ID=17778 Provider=PragmaticPlay Name=Madame Destiny cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:30,947 - craftBet -INFO - 71 70 ID=17784 Provider=PragmaticPlay Name=Starz Megaways cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:31,225 - craftBet -INFO - 72 71 ID=17788 Provider=PragmaticPlay Name=Wild Beach Party cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:31,614 - craftBet -INFO - 73 72 ID=17787 Provider=PragmaticPlay Name=The Dog House cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:31,892 - craftBet -INFO - 74 73 ID=17767 Provider=PragmaticPlay Name=Fruit Party 2 cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:32,217 - craftBet -INFO - 75 74 ID=17766 Provider=PragmaticPlay Name=Fruit Party cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:32,500 - craftBet -INFO - 76 75 ID=17785 Provider=PragmaticPlay Name=Sweet Bonanza cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:32,779 - craftBet -INFO - 77 76 ID=17769 Provider=PragmaticPlay Name=Gems Bonanza cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:33,054 - craftBet -INFO - 78 77 ID=17768 Provider=PragmaticPlay Name=Gates of Olympus cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:33,332 - craftBet -INFO - 79 78 ID=17781 Provider=PragmaticPlay Name=Santa's Wonderland cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:33,611 - craftBet -INFO - 80 79 ID=17786 Provider=PragmaticPlay Name=Sweet Bonanza Xmas cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:33,879 - craftBet -INFO - 81 80 ID=17782 Provider=PragmaticPlay Name=Smugglers Cove cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:34,161 - craftBet -INFO - 82 81 ID=17783 Provider=PragmaticPlay Name=Starlight Princess cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:34,465 - craftBet -INFO - 83 82 ID=17780 Provider=PragmaticPlay Name=Mustang Gold cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:34,731 - craftBet -INFO - 84 83 ID=17776 Provider=PragmaticPlay Name=John Hunter and the Tomb of the Scarab Queen cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:35,004 - craftBet -INFO - 85 84 ID=17790 Provider=PragmaticPlay Name=Wolf Gold cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:35,275 - craftBet -INFO - 86 85 ID=17777 Provider=PragmaticPlay Name=Juicy Fruits cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:35,630 - craftBet -INFO - 87 86 ID=17779 Provider=PragmaticPlay Name=Might of Ra cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:35,912 - craftBet -INFO - 88 87 ID=17757 Provider=PragmaticPlay Name=Big Bass Bonanza Megaways cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:36,180 - craftBet -INFO - 89 88 ID=17761 Provider=PragmaticPlay Name=Buffalo King Megaways cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:36,456 - craftBet -INFO - 90 89 ID=17764 Provider=PragmaticPlay Name=Elemental Gems Megaways cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:36,830 - craftBet -INFO - 91 90 ID=17763 Provider=PragmaticPlay Name=Curse of the Werewolf Megaways cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:37,104 - craftBet -INFO - 92 91 ID=17046 Provider=NetEnt Name=Warlords cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:37,406 - craftBet -INFO - 93 92 ID=17627 Provider=NetEnt Name=WildOTron cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:37,679 - craftBet -INFO - 94 93 ID=17626 Provider=NetEnt Name=WildTurkey cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:37,971 - craftBet -INFO - 95 94 ID=17047 Provider=NetEnt Name=Wild Water cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:38,246 - craftBet -INFO - 96 95 ID=17048 Provider=NetEnt Name=Wild Wild West cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:38,533 - craftBet -INFO - 97 96 ID=17049 Provider=NetEnt Name=Wolf Cub cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:38,811 - craftBet -INFO - 98 97 ID=17604 Provider=NetEnt Name=Wolfs Night cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:39,090 - craftBet -INFO - 99 98 ID=65543 Provider=NucleusGaming Name=12 Animals cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:39,377 - craftBet -INFO - 100 99 ID=67624 Provider=ZeusPlay Name=40 Flaming Lines cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:39,653 - craftBet -INFO - 101 100 ID=67415 Provider=Spadegaming Name=5 Fortune Dragons cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:39,929 - craftBet -INFO - 102 101 ID=67416 Provider=Spadegaming Name=5 Fortune SA cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:40,208 - craftBet -INFO - 103 102 ID=67419 Provider=Spadegaming Name=888 cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:40,484 - craftBet -INFO - 104 103 ID=65906 Provider=NucleusGaming Name=A Time to Win cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:40,767 - craftBet -INFO - 105 104 ID=67625 Provider=ZeusPlay Name=Abby and the Witch cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:41,038 - craftBet -INFO - 106 105 ID=67421 Provider=Spadegaming Name=Alibaba cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:41,314 - craftBet -INFO - 107 106 ID=67422 Provider=Spadegaming Name=Alien hunter cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:41,589 - craftBet -INFO - 108 107 ID=66507 Provider=NucleusGaming Name=All Reel Drive cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:42,006 - craftBet -INFO - 109 108 ID=28468 Provider=Habanero Name=American Baccarat cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:42,298 - craftBet -INFO - 110 109 ID=28465 Provider=Habanero Name=American Baccarat Zero Commission cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:42,586 - craftBet -INFO - 111 110 ID=28527 Provider=Betsoft Name=American Roulette cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:42,856 - craftBet -INFO - 112 111 ID=29355 Provider=PariPlay Name=American Roulette 10c Min cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:43,130 - craftBet -INFO - 113 112 ID=28444 Provider=Evoplay Name=American Roulette 3D cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:43,412 - craftBet -INFO - 114 113 ID=29209 Provider=PariPlay Name=American Roulette High Stakes cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:43,693 - craftBet -INFO - 115 114 ID=67628 Provider=ZeusPlay Name=Amuns Book HD cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:43,978 - craftBet -INFO - 116 115 ID=67629 Provider=ZeusPlay Name=Arabian Dream cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:44,260 - craftBet -INFO - 117 116 ID=65544 Provider=NucleusGaming Name=Arabian Wishes cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:44,537 - craftBet -INFO - 118 117 ID=67426 Provider=Spadegaming Name=Baby Cai Shen cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:44,813 - craftBet -INFO - 119 118 ID=28497 Provider=ISoftBet Name=Baccarat cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:45,099 - craftBet -INFO - 120 119 ID=28519 Provider=Betsoft Name=Baccarat cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:45,408 - craftBet -INFO - 121 120 ID=28445 Provider=Evoplay Name=Baccarat 777 cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:45,690 - craftBet -INFO - 122 121 ID=28443 Provider=Platipus Name=Baccarat Mini cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:46,261 - craftBet -INFO - 123 122 ID=28430 Provider=Platipus Name=Baccarat PRO cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:46,579 - craftBet -INFO - 124 123 ID=28442 Provider=Platipus Name=Baccarat VIP cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:46,853 - craftBet -INFO - 125 124 ID=66978 Provider=NucleusGaming Name=Bandits and Bounties cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:47,176 - craftBet -INFO - 126 125 ID=67188 Provider=DragonGaming Name=Basketball Legends cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:47,527 - craftBet -INFO - 127 126 ID=67427 Provider=Spadegaming Name=Big Prosperity SA cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:48,076 - craftBet -INFO - 128 127 ID=28427 Provider=ISoftBet Name=Big Win Baccarat cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:48,470 - craftBet -INFO - 129 128 ID=28470 Provider=Habanero Name=Blackjack 3 Hand cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:48,794 - craftBet -INFO - 130 129 ID=28471 Provider=Habanero Name=Blackjack Double Exposure 3 Hand cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:49,089 - craftBet -INFO - 131 130 ID=65545 Provider=NucleusGaming Name=Blades Of The Abyss cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:49,376 - craftBet -INFO - 132 131 ID=67428 Provider=Spadegaming Name=Book of Myth cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:49,662 - craftBet -INFO - 133 132 ID=65838 Provider=NucleusGaming Name=Bottled Wishes cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:49,958 - craftBet -INFO - 134 133 ID=67430 Provider=Spadegaming Name=Brothers Kingdom cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:50,242 - craftBet -INFO - 135 134 ID=67190 Provider=DragonGaming Name=Buffalo of Bounty cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:53:50,545 - craftBet -INFO - 136 135 ID=67634 Provider=ZeusPlay Name=Butterfly Hot 10 cod=28 description=Session not found ResponseObject=null
+2022-08-30 10:55:35,923 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-30 10:55:36,278 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 10:55:36,317 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 10:55:40,048 - craftBet -INFO - URL: https://oceanbet.io  Browser: chrome
+2022-08-30 10:55:40,155 - craftBet -INFO - All Page elements are initialized
+2022-08-30 10:55:40,167 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 10:55:41,328 - craftBet -INFO - username passed
+2022-08-30 10:55:41,463 - craftBet -INFO - password passed
+2022-08-30 10:55:41,547 - craftBet -INFO - Log In Button was clicked
+2022-08-30 10:55:42,901 - craftBet -INFO - Token was captured c7923b37162f4e5b9c88af160f98f5b1
+2022-08-30 10:55:46,327 - craftBet -INFO - Get All games API call 
+2022-08-30 10:55:46,533 - craftBet -INFO - From Get All games API call body captured 
+2022-08-30 10:55:46,595 - craftBet -INFO - From Get All games API productIDes and Names was captured 
+2022-08-30 10:57:49,246 - craftBet -INFO - 1 353 ID=23749 Provider=Hacksaw Name=Wanted Dead or a Wild cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-08-30 10:58:02,318 - craftBet -INFO - 2 382 ID=28843 Provider=Yggdrasil Name=2 Gods Zeus VS Thor cod=0 description=null ResponseObject=24
+2022-08-30 10:58:56,765 - craftBet -INFO - 3 491 ID=25700 Provider=Yggdrasil Name=AllStarKnockout cod=0 description=null ResponseObject=24
+2022-08-30 10:58:57,268 - craftBet -INFO - 4 492 ID=25194 Provider=Yggdrasil Name=AllStarKnockoutUltraGamble cod=0 description=null ResponseObject=24
+2022-08-30 10:59:02,689 - craftBet -INFO - 5 504 ID=75340 Provider=Ganapati Name=American Kombat cod=0 description=null ResponseObject=24
+2022-08-30 10:59:14,460 - craftBet -INFO - 6 529 ID=27731 Provider=PariPlay Name=ArcticMadness cod=0 description=null ResponseObject=24
+2022-08-30 10:59:17,828 - craftBet -INFO - 7 536 ID=25434 Provider=Yggdrasil Name=Arthur’sFortune cod=0 description=null ResponseObject=24
+2022-08-30 10:59:23,330 - craftBet -INFO - 8 546 ID=27172 Provider=Apollo Name=Atlantis cod=0 description=null ResponseObject=24
+2022-08-30 10:59:35,998 - craftBet -INFO - 9 572 ID=25549 Provider=Leander Name=AztecaGold cod=0 description=null ResponseObject=24
+2022-08-30 11:00:08,961 - craftBet -INFO - 10 637 ID=28341 Provider=ISoftBet Name=Bewitched cod=0 description=null ResponseObject=24
+2022-08-30 11:00:42,632 - craftBet -INFO - 11 696 ID=25433 Provider=Yggdrasil Name=BloodMoonWilds cod=0 description=null ResponseObject=24
+2022-08-30 11:01:29,945 - craftBet -INFO - 12 782 ID=26042 Provider=BoomingGames Name=BoomingCircus cod=0 description=null ResponseObject=24
+2022-08-30 11:01:36,835 - craftBet -INFO - 13 796 ID=29944 Provider=Yggdrasil Name=Brawl At the RedCap Inn cod=0 description=null ResponseObject=24
+2022-08-30 11:01:59,767 - craftBet -INFO - 14 845 ID=25548 Provider=Leander Name=CandySpins cod=0 description=null ResponseObject=24
+2022-08-30 11:02:05,083 - craftBet -INFO - 15 857 ID=28840 Provider=Yggdrasil Name=Carol of the Elves cod=0 description=null ResponseObject=24
+2022-08-30 11:02:11,953 - craftBet -INFO - 16 874 ID=28499 Provider=ISoftBet Name=Casino High Low cod=0 description=null ResponseObject=24
+2022-08-30 11:02:15,734 - craftBet -INFO - 17 884 ID=26409 Provider=Yggdrasil Name=CazinoCosmos cod=0 description=null ResponseObject=24
+2022-08-30 11:02:17,492 - craftBet -INFO - 18 888 ID=26980 Provider=Yggdrasil Name=ChampionsofRome cod=0 description=null ResponseObject=24
+2022-08-30 11:02:18,759 - craftBet -INFO - 19 890 ID=23748 Provider=Hacksaw Name=Chaos Crew cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-08-30 11:02:24,996 - craftBet -INFO - 20 902 ID=27237 Provider=Yggdrasil Name=Chibeasties2 cod=0 description=null ResponseObject=24
+2022-08-30 11:02:25,925 - craftBet -INFO - 21 904 ID=25876 Provider=BoomingGames Name=ChickenParty cod=0 description=null ResponseObject=24
+2022-08-30 11:02:36,554 - craftBet -INFO - 22 925 ID=28832 Provider=Yggdrasil Name=Christmas Tree cod=0 description=null ResponseObject=24
+2022-08-30 11:02:44,075 - craftBet -INFO - 23 941 ID=28338 Provider=ISoftBet Name=CloudTales cod=0 description=null ResponseObject=24
+2022-08-30 11:02:47,315 - craftBet -INFO - 24 949 ID=26294 Provider=BoomingGames Name=ColossalFruitSmash cod=0 description=null ResponseObject=24
+2022-08-30 11:02:55,393 - craftBet -INFO - 25 965 ID=26401 Provider=Fugaso Name=CosaNostra cod=0 description=null ResponseObject=24
+2022-08-30 11:02:55,742 - craftBet -INFO - 26 966 ID=29318 Provider=Leander Name=Cosmic Fusion cod=0 description=null ResponseObject=24
+2022-08-30 11:03:01,259 - craftBet -INFO - 27 979 ID=26397 Provider=Fugaso Name=CrazyBot cod=0 description=null ResponseObject=24
+2022-08-30 11:03:03,447 - craftBet -INFO - 28 984 ID=29619 Provider=Yggdrasil Name=Crazy Mix cod=0 description=null ResponseObject=24
+2022-08-30 11:03:22,720 - craftBet -INFO - 29 1021 ID=27236 Provider=Yggdrasil Name=Cyrusthevirus cod=0 description=null ResponseObject=24
+2022-08-30 11:03:33,256 - craftBet -INFO - 30 1045 ID=26332 Provider=Fugaso Name=DeepBlueSea cod=0 description=null ResponseObject=24
+2022-08-30 11:04:00,787 - craftBet -INFO - 31 1102 ID=28156 Provider=ISoftBet Name=Dolphin'sIsland cod=0 description=null ResponseObject=24
+2022-08-30 11:04:03,273 - craftBet -INFO - 32 1106 ID=25428 Provider=Fugaso Name=DonSlottione cod=0 description=null ResponseObject=24
+2022-08-30 11:04:05,528 - craftBet -INFO - 33 1111 ID=26405 Provider=Fugaso Name=DoubleCash cod=0 description=null ResponseObject=24
+2022-08-30 11:04:08,461 - craftBet -INFO - 34 1118 ID=27234 Provider=Yggdrasil Name=Doubles cod=0 description=null ResponseObject=24
+2022-08-30 11:04:33,924 - craftBet -INFO - 35 1170 ID=26979 Provider=Yggdrasil Name=DwarfMine cod=0 description=null ResponseObject=24
+2022-08-30 11:04:49,269 - craftBet -INFO - 36 1202 ID=28836 Provider=Yggdrasil Name=Elemental Princess cod=0 description=null ResponseObject=24
+2022-08-30 11:05:04,691 - craftBet -INFO - 37 1233 ID=25370 Provider=GameArt Name=ExplosiveReels cod=0 description=null ResponseObject=24
+2022-08-30 11:05:13,547 - craftBet -INFO - 38 1254 ID=29986 Provider=PushGaming Name=Fat Rabbit cod=0 description=null ResponseObject=24
+2022-08-30 11:05:14,359 - craftBet -INFO - 39 1256 ID=26508 Provider=Fugaso Name=FearTheZombies cod=0 description=null ResponseObject=24
+2022-08-30 11:05:40,813 - craftBet -INFO - 40 1310 ID=29278 Provider=PariPlay Name=Force of the Gods cod=0 description=null ResponseObject=24
+2022-08-30 11:05:55,704 - craftBet -INFO - 41 1340 ID=26379 Provider=Fugaso Name=FromChinawithLove cod=0 description=null ResponseObject=24
+2022-08-30 11:06:03,173 - craftBet -INFO - 42 1354 ID=28155 Provider=ISoftBet Name=FruitBoxes cod=0 description=null ResponseObject=24
+2022-08-30 11:06:25,223 - craftBet -INFO - 43 1393 ID=26407 Provider=Fugaso Name=FruitsofNeon cod=0 description=null ResponseObject=24
+2022-08-30 11:06:42,702 - craftBet -INFO - 44 1427 ID=27230 Provider=Yggdrasil Name=GemRocks cod=0 description=null ResponseObject=24
+2022-08-30 11:06:48,912 - craftBet -INFO - 45 1441 ID=26492 Provider=Fugaso Name=GemstoneofAztec cod=0 description=null ResponseObject=24
+2022-08-30 11:06:56,535 - craftBet -INFO - 46 1459 ID=75277 Provider=Yggdrasil Name=Glory of Heroes cod=0 description=null ResponseObject=24
+2022-08-30 11:06:58,051 - craftBet -INFO - 47 1462 ID=26357 Provider=Fugaso Name=Goblin'sLand cod=0 description=null ResponseObject=24
+2022-08-30 11:07:19,979 - craftBet -INFO - 48 1507 ID=27229 Provider=Yggdrasil Name=GoldenFishtank cod=0 description=null ResponseObject=24
+2022-08-30 11:07:31,280 - craftBet -INFO - 49 1532 ID=29192 Provider=Leander Name=Golden Wild cod=0 description=null ResponseObject=24
+2022-08-30 11:07:37,227 - craftBet -INFO - 50 1543 ID=26394 Provider=Fugaso Name=GrandSumo cod=0 description=null ResponseObject=24
+2022-08-30 11:07:48,031 - craftBet -INFO - 51 1569 ID=25556 Provider=Yggdrasil Name=Hades cod=0 description=null ResponseObject=24
+2022-08-30 11:07:53,224 - craftBet -INFO - 52 1577 ID=27228 Provider=Yggdrasil Name=Hanzo'sDojo cod=0 description=null ResponseObject=24
+2022-08-30 11:08:09,533 - craftBet -INFO - 53 1616 ID=27226 Provider=Yggdrasil Name=Holmes&thestolenstones cod=0 description=null ResponseObject=24
+2022-08-30 11:08:12,254 - craftBet -INFO - 54 1623 ID=26353 Provider=Fugaso Name=HorrorCastle cod=0 description=null ResponseObject=24
+2022-08-30 11:08:13,509 - craftBet -INFO - 55 1626 ID=75171 Provider=Apollo Name=Horus Eye cod=0 description=null ResponseObject=24
+2022-08-30 11:08:45,889 - craftBet -INFO - 56 1692 ID=29981 Provider=PushGaming Name=Humpty Dumpty cod=0 description=null ResponseObject=24
+2022-08-30 11:08:49,760 - craftBet -INFO - 57 1698 ID=28842 Provider=Yggdrasil Name=Hyperburst cod=0 description=null ResponseObject=24
+2022-08-30 11:08:51,266 - craftBet -INFO - 58 1701 ID=25767 Provider=Yggdrasil Name=IceandFire cod=0 description=null ResponseObject=24
+2022-08-30 11:08:56,025 - craftBet -INFO - 59 1711 ID=29983 Provider=PushGaming Name=Immortal Guild cod=0 description=null ResponseObject=24
+2022-08-30 11:09:19,940 - craftBet -INFO - 60 1760 ID=29948 Provider=Yggdrasil Name=Jambo Cash cod=0 description=null ResponseObject=24
+2022-08-30 11:09:23,272 - craftBet -INFO - 61 1767 ID=28167 Provider=ISoftBet Name=JesterTrio cod=0 description=null ResponseObject=24
+2022-08-30 11:10:08,353 - craftBet -INFO - 62 1860 ID=26388 Provider=Fugaso Name=Knockout cod=0 description=null ResponseObject=24
+2022-08-30 11:10:12,292 - craftBet -INFO - 63 1869 ID=29345 Provider=Yggdrasil Name=Labyrinth of Knossos Multijump cod=0 description=null ResponseObject=24
+2022-08-30 11:10:18,034 - craftBet -INFO - 64 1882 ID=26490 Provider=Fugaso Name=Lapland cod=0 description=null ResponseObject=24
+2022-08-30 11:10:22,976 - craftBet -INFO - 65 1892 ID=28655 Provider=PlaysonDirect Name=Legend of Cleopatra Megaways cod=0 description=null ResponseObject=24
+2022-08-30 11:10:26,066 - craftBet -INFO - 66 1899 ID=27220 Provider=Yggdrasil Name=LegendoftheWhiteSnakeLady cod=0 description=null ResponseObject=24
+2022-08-30 11:10:33,582 - craftBet -INFO - 67 1917 ID=26443 Provider=Yggdrasil Name=Lilith'sInferno cod=0 description=null ResponseObject=24
+2022-08-30 11:10:43,587 - craftBet -INFO - 68 1939 ID=29601 Provider=Yggdrasil Name=Lotsa Lines cod=0 description=null ResponseObject=24
+2022-08-30 11:10:46,122 - craftBet -INFO - 69 1944 ID=26471 Provider=Microgaming Name=LoveIsland cod=0 description=null ResponseObject=24
+2022-08-30 11:11:08,133 - craftBet -INFO - 70 1991 ID=26663 Provider=Evoplay Name=LuckyMahjongBox cod=0 description=null ResponseObject=24
+2022-08-30 11:11:10,313 - craftBet -INFO - 71 1995 ID=25212 Provider=Yggdrasil Name=LuckyNeko cod=0 description=null ResponseObject=24
+2022-08-30 11:11:22,937 - craftBet -INFO - 72 2022 ID=26429 Provider=Fugaso Name=MagicDestiny cod=0 description=null ResponseObject=24
+2022-08-30 11:11:51,825 - craftBet -INFO - 73 2085 ID=25141 Provider=Yggdrasil Name=Medusa:Fortune&Glory cod=0 description=null ResponseObject=24
+2022-08-30 11:11:52,199 - craftBet -INFO - 74 2086 ID=28372 Provider=ISoftBet Name=MegaBoy cod=0 description=null ResponseObject=24
+2022-08-30 11:11:52,550 - craftBet -INFO - 75 2087 ID=29273 Provider=GameArt Name=Mega Bunny HyperWays cod=0 description=null ResponseObject=24
+2022-08-30 11:11:55,004 - craftBet -INFO - 76 2092 ID=26385 Provider=Fugaso Name=MegaPowerHeroes cod=0 description=null ResponseObject=24
+2022-08-30 11:11:55,357 - craftBet -INFO - 77 2093 ID=27439 Provider=ISoftBet Name=MegaBoy cod=0 description=null ResponseObject=24
+2022-08-30 11:12:36,624 - craftBet -INFO - 78 2177 ID=26424 Provider=Fugaso Name=MrToxicus cod=0 description=null ResponseObject=24
+2022-08-30 11:12:38,582 - craftBet -INFO - 79 2182 ID=25664 Provider=Yggdrasil Name=MultiFly! cod=0 description=null ResponseObject=24
+2022-08-30 11:12:52,558 - craftBet -INFO - 80 2213 ID=75789 Provider=GameArt Name=Nefertiti HyperWays cod=0 description=null ResponseObject=24
+2022-08-30 11:12:57,814 - craftBet -INFO - 81 2225 ID=26642 Provider=Yggdrasil Name=NiagaraFalls cod=0 description=null ResponseObject=24
+2022-08-30 11:13:04,280 - craftBet -INFO - 82 2237 ID=26469 Provider=Yggdrasil Name=NikolaTesla’sIncredibleMachine cod=0 description=null ResponseObject=24
+2022-08-30 11:13:05,049 - craftBet -INFO - 83 2239 ID=28345 Provider=ISoftBet Name=NinjaChef cod=0 description=null ResponseObject=24
+2022-08-30 11:13:12,424 - craftBet -INFO - 84 2254 ID=28960 Provider=Evoplay Name=Oasis Poker Pro Series cod=0 description=null ResponseObject=24
+2022-08-30 11:13:18,506 - craftBet -INFO - 85 2266 ID=26491 Provider=Fugaso Name=Olympia cod=0 description=null ResponseObject=24
+2022-08-30 11:14:05,966 - craftBet -INFO - 86 2363 ID=26507 Provider=Fugaso Name=PlaguesofEgypt cod=0 description=null ResponseObject=24
+2022-08-30 11:14:09,627 - craftBet -INFO - 87 2371 ID=26236 Provider=Booongo Name=PoisonedApple cod=0 description=null ResponseObject=24
+2022-08-30 11:14:12,837 - craftBet -INFO - 88 2378 ID=25646 Provider=Yggdrasil Name=PopRocks cod=0 description=null ResponseObject=24
+2022-08-30 11:14:18,125 - craftBet -INFO - 89 2387 ID=26346 Provider=Fugaso Name=PowerofAsia cod=0 description=null ResponseObject=24
+2022-08-30 11:14:22,361 - craftBet -INFO - 90 2395 ID=27214 Provider=Yggdrasil Name=PowerPlant cod=0 description=null ResponseObject=24
+2022-08-30 11:14:31,797 - craftBet -INFO - 91 2414 ID=27212 Provider=Yggdrasil Name=PumpkinSmash cod=0 description=null ResponseObject=24
+2022-08-30 11:14:49,929 - craftBet -INFO - 92 2454 ID=27210 Provider=Yggdrasil Name=RainbowRyan cod=0 description=null ResponseObject=24
+2022-08-30 11:15:02,609 - craftBet -INFO - 93 2479 ID=27209 Provider=Yggdrasil Name=Reefrun cod=0 description=null ResponseObject=24
+2022-08-30 11:15:03,245 - craftBet -INFO - 94 2481 ID=29346 Provider=Yggdrasil Name=Reel Desire cod=0 description=null ResponseObject=24
+2022-08-30 11:15:08,178 - craftBet -INFO - 95 2492 ID=27207 Provider=Yggdrasil Name=Reptoids cod=0 description=null ResponseObject=24
+2022-08-30 11:15:32,141 - craftBet -INFO - 96 2540 ID=26410 Provider=Fugaso Name=RobbieJones cod=0 description=null ResponseObject=24
+2022-08-30 11:15:34,701 - craftBet -INFO - 97 2545 ID=28171 Provider=ISoftBet Name=RoboSmash cod=0 description=null ResponseObject=24
+2022-08-30 11:15:53,915 - craftBet -INFO - 98 2584 ID=75005 Provider=Yggdrasil Name=Sabres and Swords: Charge Gigablox cod=0 description=null ResponseObject=24
+2022-08-30 11:15:55,820 - craftBet -INFO - 99 2589 ID=26322 Provider=Yggdrasil Name=SaharaNights cod=0 description=null ResponseObject=24
+2022-08-30 11:15:56,175 - craftBet -INFO - 100 2590 ID=26418 Provider=Fugaso Name=Sahara'sDreams cod=0 description=null ResponseObject=24
+2022-08-30 11:16:23,147 - craftBet -INFO - 101 2646 ID=26414 Provider=Fugaso Name=ShakeIt cod=0 description=null ResponseObject=24
+2022-08-30 11:16:37,583 - craftBet -INFO - 102 2676 ID=26629 Provider=Evoplay Name=Sindbad cod=0 description=null ResponseObject=24
+2022-08-30 11:16:39,495 - craftBet -INFO - 103 2681 ID=29828 Provider=Yggdrasil Name=Siren Song cod=0 description=null ResponseObject=24
+2022-08-30 11:16:50,089 - craftBet -INFO - 104 2702 ID=25764 Provider=Apollo Name=SmilingJoker cod=0 description=null ResponseObject=24
+2022-08-30 11:16:50,879 - craftBet -INFO - 105 2704 ID=26391 Provider=Fugaso Name=SmokingDogs cod=0 description=null ResponseObject=24
+2022-08-30 11:17:08,649 - craftBet -INFO - 106 2740 ID=27203 Provider=Yggdrasil Name=SpinaColada cod=0 description=null ResponseObject=24
+2022-08-30 11:17:15,796 - craftBet -INFO - 107 2753 ID=28377 Provider=ISoftBet Name=SpookyFamily cod=0 description=null ResponseObject=24
+2022-08-30 11:17:24,243 - craftBet -INFO - 108 2772 ID=75841 Provider=Yggdrasil Name=Steam Spin cod=0 description=null ResponseObject=24
+2022-08-30 11:17:44,378 - craftBet -INFO - 109 2813 ID=27270 Provider=Yggdrasil Name=SunnyShores cod=0 description=null ResponseObject=24
+2022-08-30 11:17:44,753 - craftBet -INFO - 110 2814 ID=26425 Provider=Fugaso Name=Sunset cod=0 description=null ResponseObject=24
+2022-08-30 11:17:52,231 - craftBet -INFO - 111 2831 ID=26338 Provider=Fugaso Name=SuperHamster cod=0 description=null ResponseObject=24
+2022-08-30 11:17:53,444 - craftBet -INFO - 112 2833 ID=27201 Provider=Yggdrasil Name=SuperHeroes cod=0 description=null ResponseObject=24
+2022-08-30 11:18:03,891 - craftBet -INFO - 113 2855 ID=29322 Provider=Leander Name=Swap The Flop cod=0 description=null ResponseObject=24
+2022-08-30 11:18:10,671 - craftBet -INFO - 114 2866 ID=28835 Provider=Yggdrasil Name=Syncronite cod=0 description=null ResponseObject=24
+2022-08-30 11:18:25,372 - craftBet -INFO - 115 2896 ID=29169 Provider=Leander Name=Texas Switch cod=0 description=null ResponseObject=24
+2022-08-30 11:18:29,080 - craftBet -INFO - 116 2904 ID=28335 Provider=ISoftBet Name=TheBestWitch cod=0 description=null ResponseObject=24
+2022-08-30 11:18:29,879 - craftBet -INFO - 117 2906 ID=29927 Provider=Yggdrasil Name=The Bounty Hunter cod=0 description=null ResponseObject=24
+2022-08-30 11:18:38,483 - craftBet -INFO - 118 2925 ID=26399 Provider=Fugaso Name=TheGiant cod=0 description=null ResponseObject=24
+2022-08-30 11:18:46,748 - craftBet -INFO - 119 2942 ID=27707 Provider=BoomingGames Name=TheKingPanda cod=0 description=null ResponseObject=24
+2022-08-30 11:18:49,460 - craftBet -INFO - 120 2948 ID=26654 Provider=Evoplay Name=TheLegendofShaolin cod=0 description=null ResponseObject=24
+2022-08-30 11:18:52,455 - craftBet -INFO - 121 2955 ID=26437 Provider=Yggdrasil Name=TheOneArmedBandit cod=0 description=null ResponseObject=24
+2022-08-30 11:19:19,115 - craftBet -INFO - 122 3008 ID=75193 Provider=PariPlay Name=Tiki Magic cod=0 description=null ResponseObject=24
+2022-08-30 11:19:19,916 - craftBet -INFO - 123 3010 ID=29992 Provider=PushGaming Name=Tiki Tumble cod=0 description=null ResponseObject=24
+2022-08-30 11:19:31,593 - craftBet -INFO - 124 3033 ID=26628 Provider=Evoplay Name=TotemIsland cod=0 description=null ResponseObject=24
+2022-08-30 11:19:36,279 - craftBet -INFO - 125 3044 ID=26364 Provider=Fugaso Name=TreasureofShaman cod=0 description=null ResponseObject=24
+2022-08-30 11:19:50,577 - craftBet -INFO - 126 3074 ID=26404 Provider=Fugaso Name=TrumpIt cod=0 description=null ResponseObject=24
+2022-08-30 11:20:04,079 - craftBet -INFO - 127 3104 ID=26600 Provider=Evoplay Name=USSRGrocery cod=0 description=null ResponseObject=24
+2022-08-30 11:20:10,444 - craftBet -INFO - 128 3115 ID=27199 Provider=Yggdrasil Name=Valleyofthegods cod=0 description=null ResponseObject=24
+2022-08-30 11:20:10,800 - craftBet -INFO - 129 3116 ID=25566 Provider=Yggdrasil Name=ValleyoftheGods2 cod=0 description=null ResponseObject=24
+2022-08-30 11:20:21,061 - craftBet -INFO - 130 3137 ID=28838 Provider=Yggdrasil Name=Victoria Wild cod=0 description=null ResponseObject=24
+2022-08-30 11:20:24,688 - craftBet -INFO - 131 3145 ID=29342 Provider=Yggdrasil Name=Viking Runes cod=0 description=null ResponseObject=24
+2022-08-30 11:20:28,184 - craftBet -INFO - 132 3152 ID=27198 Provider=Yggdrasil Name=VikingsGoBerzerk cod=0 description=null ResponseObject=24
+2022-08-30 11:20:29,001 - craftBet -INFO - 133 3154 ID=27197 Provider=Yggdrasil Name=VikingsgotoHell cod=0 description=null ResponseObject=24
+2022-08-30 11:20:29,362 - craftBet -INFO - 134 3155 ID=27194 Provider=Yggdrasil Name=Vikingsgowild cod=0 description=null ResponseObject=24
+2022-08-30 11:21:20,136 - craftBet -INFO - 135 3259 ID=29980 Provider=PushGaming Name=Wild Wheel cod=0 description=null ResponseObject=24
+2022-08-30 11:21:30,036 - craftBet -INFO - 136 3280 ID=27191 Provider=Yggdrasil Name=Winterberries cod=0 description=null ResponseObject=24
+2022-08-30 11:21:30,851 - craftBet -INFO - 137 3282 ID=28356 Provider=ISoftBet Name=Wisps cod=0 description=null ResponseObject=24
+2022-08-30 11:21:41,333 - craftBet -INFO - 138 3302 ID=27147 Provider=Apollo Name=WoodenFruits cod=0 description=null ResponseObject=24
+2022-08-30 11:21:41,700 - craftBet -INFO - 139 3303 ID=29561 Provider=Yggdrasil Name=Word Of Thoth cod=0 description=null ResponseObject=24
+2022-08-30 11:21:50,137 - craftBet -INFO - 140 3319 ID=26421 Provider=Fugaso Name=Yakuza cod=0 description=null ResponseObject=24
+2022-08-30 11:22:01,225 - craftBet -INFO - From Get URL API broken games are captured
+2022-08-30 11:22:01,226 - craftBet -INFO - Broken url-es are:  140
+2022-08-30 11:22:03,601 - craftBet -INFO - Browser closed
+2022-08-30 11:22:03,602 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 11:22:03,641 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
