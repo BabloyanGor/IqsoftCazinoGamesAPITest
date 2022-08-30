@@ -371,7 +371,7 @@ public class BaseTest extends DriverFactory {
     public boolean getPreMatchGamesAPICheckMarkets(String getMatchIDAPI, String getMarketsAPI, String origin, String partnerName)
             throws UnirestException, JSONException, IOException {
 
-        boolean isPassed = true;
+        boolean isPassed;
         int k = 1;
         ArrayList<String> gameIDs = new ArrayList<>();
         ArrayList<String> StartTime = new ArrayList<>();
@@ -433,6 +433,7 @@ public class BaseTest extends DriverFactory {
         }
 
         for (String gameId : gameIDs){
+
             Unirest.setTimeouts(0, 0);
             HttpResponse<String> response = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getmarketsbymatchid?LanguageId=en&TimeZone=4&MatchId="+gameId+"&OddsType=0")
                     .header("origin", getMarketsAPI)
@@ -440,14 +441,16 @@ public class BaseTest extends DriverFactory {
             JSONObject jsonObjectMarketsResponseBody = new JSONObject(response.getBody());
 //            System.out.println(jsonObjectMarketsResponseBody.toString());
             JSONArray jsonArrayAllMarkets = jsonObjectMarketsResponseBody.getJSONArray("Markets");
-
+            System.out.println(k);
+            k--;
             for (int c = 0; c < jsonArrayAllMarkets.length(); c++) {
                 String oneMarket = String.valueOf(jsonArrayAllMarkets.get(c));
 //            System.out.println(oneSport);
 //            System.out.println();
                 JSONObject jsonObjectMarket = new JSONObject(oneMarket);
                 String nameMarket = jsonObjectMarket.getString("N");
-                System.out.println(nameMarket);
+                nameMarketArray.add(nameMarket);
+//                System.out.println(nameMarket);
                 JSONArray jsonArrayMarket = jsonObjectMarket.getJSONArray("Ss");
 
                 for (int t = 0; t < jsonArrayMarket.length(); t++) {
@@ -456,63 +459,42 @@ public class BaseTest extends DriverFactory {
                     String selectorPoint = jsonObjectSelector.getString("C");
                     String nameSelector = jsonObjectSelector.getString("N");
                     String isBlockedSelector = jsonObjectSelector.getString("IB");
-                    System.out.println(selectorPoint+"     "+nameSelector+"     "+isBlockedSelector);
-                    System.out.println();
 
+                    selectorPointArray.add(selectorPoint);
+                    nameSelectorArray.add(nameSelector);
+                    isBlockedForSelectorArray.add(isBlockedSelector);
+
+//                    System.out.println(selectorPoint+"     "+nameSelector+"     "+isBlockedSelector);
+                    if (selectorPoint.equals("1")){
+                        String errMessage = "GameID  = " + gameIDs.get(t) + "   MarketName = " + nameMarket + "   Selector = " + selectorPoint  + "   SelectorName" + nameSelector + "   Selector IsBlocked = " + isBlockedSelector;
+                        errorSrcXl.add(errMessage);
+                        logger.error(errMessage);
+                    }
                 }
             }
 
         }
 
 
-//
-//        JSONObject jsonObjectBody = new JSONObject(response.getBody());
-//        JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.getString("ResponseObject"));
-//        JSONArray jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
-//        logger.info("Get games Api Response was captured");
-//
-//        for (int j = 0; j < jsonArrayGames.length(); j++) {
-//
-//            String first = String.valueOf(jsonArrayGames.get(j));
-//            JSONObject jsonObjectGame = new JSONObject(first);
-//            String n = jsonObjectGame.getString("n");    //Game Name
-//            String sp = jsonObjectGame.getString("sp");  //Provider Name
-//            gameProviderNames.add(sp);
-//            gameNames.add(n);
-//        }
-//
-//        for (int i = 0; i < gameNames.size(); i++) {
-//            String name = gameNames.get(i);
-//            for (int j = i + 1; j < gameNames.size(); j++) {
-//                String x = gameNames.get(j);
-//                if (name.equals(x)) {
-//                    logger.info("Dupliicate game Name =  " + gameNames.get(j));
-//                    errorSrcXl.add(k + "  This game has duplicate Please check it :  Name =  " + gameNames.get(j));
-//                    k++;
-//                }
-//            }
-//        }
-//
-//
-//        logger.info("Duplicate games are:  " + errorSrcXl.size());
-//        if (errorSrcXl.size() == 0) {
-//            isPassed = true;
-//        } else {
-//            String target = System.getProperty("user.dir") + "/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataDuplicateGamesList.xlsx";
-//            XSSFWorkbook workbook = new XSSFWorkbook();
-//            FileOutputStream file = new FileOutputStream(target);
-//            XSSFSheet sheet = workbook.createSheet("brokenIMG");
-//            sheet.setColumnWidth(0, 20000);
-//            int l = 0;
-//            for (String err : errorSrcXl) {
-//                XSSFRow row = sheet.createRow(l);
-//                row.createCell(0).setCellValue(err);
-//                l++;
-//            }
-//            workbook.write(file);
-//            workbook.close();
-//            isPassed = false;
-//        }
+        logger.info("Games with selector >= 1:  " + errorSrcXl.size());
+        if (errorSrcXl.size() == 0) {
+            isPassed = true;
+        } else {
+            String target = System.getProperty("user.dir") + "/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataMarketsEqual1.xlsx";
+            XSSFWorkbook workbook = new XSSFWorkbook();
+            FileOutputStream file = new FileOutputStream(target);
+            XSSFSheet sheet = workbook.createSheet("brokenIMG");
+            sheet.setColumnWidth(0, 20000);
+            int l = 0;
+            for (String err : errorSrcXl) {
+                XSSFRow row = sheet.createRow(l);
+                row.createCell(0).setCellValue(err);
+                l++;
+            }
+            workbook.write(file);
+            workbook.close();
+            isPassed = false;
+        }
         return isPassed;
     }
 
