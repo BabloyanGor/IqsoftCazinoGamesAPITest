@@ -1251,3 +1251,12 @@ java.net.SocketException: Connection reset
 2022-08-30 00:36:12,962 - craftBet -INFO - Browser closed
 2022-08-30 00:36:12,962 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-08-30 00:36:12,970 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 10:23:04,262 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-30 10:23:07,807 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 10:23:07,862 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 10:23:14,055 - craftBet -INFO - URL: https://oceanbet.io  Browser: chrome
+2022-08-30 10:23:14,202 - craftBet -INFO - All Page elements are initialized
+2022-08-30 10:23:14,230 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 10:23:17,815 - craftBet -INFO - Get games Api call was sent
+2022-08-30 10:23:18,047 - craftBet -INFO - Get games Api Response was captured
+2022-08-30 10:23:18,136 - craftBet -INFO - All captured games images was added into ArrayList
