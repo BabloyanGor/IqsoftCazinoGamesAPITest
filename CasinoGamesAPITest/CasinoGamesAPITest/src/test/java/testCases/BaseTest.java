@@ -27,11 +27,9 @@ import java.net.URL;
 import java.time.Duration;
 import java.time.LocalDateTime;
 import java.time.Period;
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
 import static java.lang.Integer.parseInt;
-import static org.apache.poi.ss.usermodel.DateUtil.SECONDS_PER_MINUTE;
 
 
 public class BaseTest extends DriverFactory {
@@ -54,8 +52,6 @@ public class BaseTest extends DriverFactory {
 
     public String getPreMatchTree;
     public String getMarketByID;
-
-
 
 
     public CraftBet_01_Header_Page craftBet_01_header_page;
@@ -372,15 +368,20 @@ public class BaseTest extends DriverFactory {
         return isPassed;
     }
 
-    public boolean getPreMatchGamesAPICheckMarkets(String getMatchIDAPI,String getMarketsAPI ,String origin, String partnerName)
+    public boolean getPreMatchGamesAPICheckMarkets(String getMatchIDAPI, String getMarketsAPI, String origin, String partnerName)
             throws UnirestException, JSONException, IOException {
 
         boolean isPassed = true;
         int k = 1;
         ArrayList<String> gameIDs = new ArrayList<>();
-        ArrayList<String> gameProviderNames = new ArrayList<>();
-        ArrayList<String> errorSrcXl = new ArrayList<>();
+        ArrayList<String> StartTime = new ArrayList<>();
 
+        ArrayList<String> nameMarketArray = new ArrayList<>();
+        ArrayList<String> selectorPointArray = new ArrayList<>();
+        ArrayList<String> nameSelectorArray = new ArrayList<>();
+        ArrayList<String> isBlockedForSelectorArray = new ArrayList<>();
+
+        ArrayList<String> errorSrcXl = new ArrayList<>();
 
 
         Unirest.setTimeouts(0, 0);
@@ -390,14 +391,78 @@ public class BaseTest extends DriverFactory {
 
         logger.info("Get Matches Api call was sent");
         JSONObject jsonObjectBody = new JSONObject(responseGetMatches.getBody());
+        JSONArray jsonArrayAllSports = jsonObjectBody.getJSONArray("Ss");
 
-        System.out.println(responseGetMatches);
+        for (int j = 0; j < jsonArrayAllSports.length(); j++) {
+            String oneSport = String.valueOf(jsonArrayAllSports.get(j));
+//            System.out.println(oneSport);
+//            System.out.println();
+            JSONObject jsonObjectSport = new JSONObject(oneSport);
+            JSONArray jsonArrayRegion = jsonObjectSport.getJSONArray("Rs");
 
+            for (int m = 0; m < jsonArrayRegion.length(); m++) {
+                String oneRegion = String.valueOf(jsonArrayRegion.get(m));
+//                System.out.println(oneRegion);
+//                System.out.println();
+                JSONObject jsonObjectRegion = new JSONObject(oneRegion);
+                JSONArray jsonArrayCompetitions = jsonObjectRegion.getJSONArray("Cs");
 
+                for (int n = 0; n < jsonArrayCompetitions.length(); n++) {
+                    String oneCompetition = String.valueOf(jsonArrayCompetitions.get(n));
+//                    System.out.println(oneCompetition);
+//                    System.out.println();
+                    JSONObject jsonObjectMatches = new JSONObject(oneCompetition);
+                    JSONArray jsonArrayMatches = jsonObjectMatches.getJSONArray("Ms");
 
+                    for (int l = 0; l < jsonArrayMatches.length(); l++) {
+                        String oneMatch = String.valueOf(jsonArrayMatches.get(l));
+                        JSONObject jsonObjectMatchID = new JSONObject(oneMatch);
+                        String matchID = jsonObjectMatchID.getString("MI");
+                        String startTime = jsonObjectMatchID.getString("ST");
+                        String isBlocked = jsonObjectMatchID.getString("IB");
+//                        System.out.println(oneMatch );
+//                        System.out.println(matchID);
+//                        System.out.println();
+                        gameIDs.add(matchID);
+                        StartTime.add(startTime);
+                        //System.out.println(k + "  matchID = " + matchID + "   startTimeIs = " + startTime + "   isBlocked = " + isBlocked );
+                        k++;
+                    }
+                }
+            }
+        }
 
+        for (String gameId : gameIDs){
+            Unirest.setTimeouts(0, 0);
+            HttpResponse<String> response = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getmarketsbymatchid?LanguageId=en&TimeZone=4&MatchId="+gameId+"&OddsType=0")
+                    .header("origin", getMarketsAPI)
+                    .asString();
+            JSONObject jsonObjectMarketsResponseBody = new JSONObject(response.getBody());
+//            System.out.println(jsonObjectMarketsResponseBody.toString());
+            JSONArray jsonArrayAllMarkets = jsonObjectMarketsResponseBody.getJSONArray("Markets");
 
+            for (int c = 0; c < jsonArrayAllMarkets.length(); c++) {
+                String oneMarket = String.valueOf(jsonArrayAllMarkets.get(c));
+//            System.out.println(oneSport);
+//            System.out.println();
+                JSONObject jsonObjectMarket = new JSONObject(oneMarket);
+                String nameMarket = jsonObjectMarket.getString("N");
+                System.out.println(nameMarket);
+                JSONArray jsonArrayMarket = jsonObjectMarket.getJSONArray("Ss");
 
+                for (int t = 0; t < jsonArrayMarket.length(); t++) {
+                    String oneSelector = String.valueOf(jsonArrayMarket.get(t));
+                    JSONObject jsonObjectSelector = new JSONObject(oneSelector);
+                    String selectorPoint = jsonObjectSelector.getString("C");
+                    String nameSelector = jsonObjectSelector.getString("N");
+                    String isBlockedSelector = jsonObjectSelector.getString("IB");
+                    System.out.println(selectorPoint+"     "+nameSelector+"     "+isBlockedSelector);
+                    System.out.println();
+
+                }
+            }
+
+        }
 
 
 //
@@ -575,106 +640,106 @@ public class BaseTest extends DriverFactory {
                     + gameStatus1.get(i) + "   After game start time out = :  " + hoursForLog + " hours  "
                     + minutesForLog + " minutes";
 
-            switch (gameType.get(i)){
-                case "Soccer":{
+            switch (gameType.get(i)) {
+                case "Soccer": {
                     if (allMinutes >= 180) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
                     }
                     break;
                 }
-                case "Basketball":{
+                case "Basketball": {
                     if (allMinutes > 180) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
                     }
                     break;
                 }
-                case "Baseball":{
+                case "Baseball": {
                     if (allMinutes >= 240) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
                     }
                     break;
                 }
-                case "Tennis":{
+                case "Tennis": {
                     if (allMinutes >= 350) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
                     }
                     break;
                 }
-                case "Volleyball":{
+                case "Volleyball": {
                     if (allMinutes >= 210) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
                     }
                     break;
                 }
-                case "Ice Hockey":{
+                case "Ice Hockey": {
                     if (allMinutes >= 150) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
                     }
                     break;
                 }
-                case "Table Tennis":{
+                case "Table Tennis": {
                     if (allMinutes >= 120) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
                     }
                     break;
                 }
-                case "Handball":{
+                case "Handball": {
                     if (allMinutes > 120) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
                     }
                     break;
                 }
-                case "E-sports":{
+                case "E-sports": {
                     if (allMinutes > 181) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
                     }
                     break;
                 }
-                case "Badminton":{
+                case "Badminton": {
                     if (allMinutes > 150) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
                     }
                     break;
                 }
-                case "Darts":{
+                case "Darts": {
                     if (allMinutes >= 121) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
                     }
                     break;
                 }
-                case "Cricket":{
+                case "Cricket": {
                     if (allMinutes >= 500) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
                     }
                     break;
                 }
-                case "Horse Racing":{
+                case "Horse Racing": {
                     if (allMinutes >= 182) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
                     }
                     break;
                 }
-                case "Snooker":{
+                case "Snooker": {
                     if (allMinutes > 240) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
                     }
                     break;
                 }
-                case "Table nE-Football":{
+                case "Table nE-Football": {
                     if (allMinutes >= 179) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
@@ -682,7 +747,7 @@ public class BaseTest extends DriverFactory {
                     break;
                 }
 
-                default:{
+                default: {
                     if (allMinutes >= 300) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
@@ -714,7 +779,7 @@ public class BaseTest extends DriverFactory {
     }
 
     public boolean getUrlCheckGamesUrl(String getGamesAPIUrl, String origin, String getURLAPIurl, String token,
-            int userID, int partnerID, String partnerName)
+                                       int userID, int partnerID, String partnerName)
             throws JSONException, IOException, UnirestException {
         boolean isPassed;
         ArrayList<String> productID = new ArrayList<>();
@@ -826,7 +891,7 @@ public class BaseTest extends DriverFactory {
 
                 getPreMatchTree = "https://sportsbookwebsitewebapi.craftbet.com/website/getprematchtree?LanguageId=en&TimeZone=4";
                 getPrematchTreeOrigin = "https://sportsbookwebsite.craftbet.com";
-                getMarketByID ="https://sportsbookwebsitewebapi.craftbet.com/website/getmarketsbymatchid?LanguageId=en&TimeZone=4&MatchId=3713041&OddsType=0";
+                getMarketByID = "https://sportsbookwebsitewebapi.craftbet.com/website/getmarketsbymatchid?LanguageId=en&TimeZone=4&MatchId=3713041&OddsType=0";
                 getMarketByIDOrigin = "https://sportsbookwebsite.craftbet.com";
 
                 break;

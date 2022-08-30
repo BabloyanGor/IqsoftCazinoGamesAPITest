@@ -2284,3 +2284,362 @@ java.net.SocketException: Connection reset
 2022-08-30 15:43:01,777 [main] INFO craftBet - Browser closed
 2022-08-30 15:43:01,777 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-08-30 15:43:01,791 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 15:45:34,524 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 15:45:34,866 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 15:45:34,906 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 15:45:38,811 [main] INFO craftBet - URL: https://tetherbet.io  Browser: chrome
+2022-08-30 15:45:38,953 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 15:45:39,232 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 15:45:39,714 [main] INFO craftBet - Browser closed
+2022-08-30 15:45:39,715 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 15:45:39,744 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 15:46:16,911 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 15:46:17,213 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 15:46:17,264 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 15:46:19,996 [main] INFO craftBet - URL: https://tetherbet.io  Browser: chrome
+2022-08-30 15:46:20,097 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 15:46:20,109 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 15:46:20,544 [main] INFO craftBet - Browser closed
+2022-08-30 15:46:20,545 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 15:46:20,581 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 15:47:05,510 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 15:47:05,812 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 15:47:05,848 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 15:47:08,493 [main] INFO craftBet - URL: https://tetherbet.io  Browser: chrome
+2022-08-30 15:47:08,575 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 15:47:08,585 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 15:47:17,138 [main] INFO craftBet - Browser closed
+2022-08-30 15:47:17,139 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 15:47:17,149 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 15:48:08,194 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 15:48:08,509 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 15:48:08,541 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 15:48:11,054 [main] INFO craftBet - URL: https://tetherbet.io  Browser: chrome
+2022-08-30 15:48:11,144 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 15:48:11,408 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 15:48:13,683 [main] INFO craftBet - Browser closed
+2022-08-30 15:48:13,684 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 15:48:13,707 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 15:49:03,713 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 15:49:03,953 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 15:49:03,986 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 15:49:06,153 [main] INFO craftBet - URL: https://tetherbet.io  Browser: chrome
+2022-08-30 15:49:06,230 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 15:49:06,242 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 15:49:09,611 [main] INFO craftBet - Get games Api call was sent
+2022-08-30 15:49:09,851 [main] INFO craftBet - Get games Api Response was captured
+2022-08-30 15:49:09,936 [main] INFO craftBet - All captured games images was added into ArrayList
+2022-08-30 15:49:35,122 [main] ERROR craftBet - 154   Game Provider Name = RedTiger :   Game Name =  24hourgrandprix :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/24grand_prix.png
+2022-08-30 15:49:41,248 [main] ERROR craftBet - 178   Game Provider Name = RedTiger :   Game Name =  4squad :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/4squad.png
+2022-08-30 15:49:46,405 [main] ERROR craftBet - 198   Game Provider Name = RedTiger :   Game Name =  777strike :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/777strike.png
+2022-08-30 15:50:12,500 [main] ERROR craftBet - 293   Game Provider Name = RedTiger :   Game Name =  ancientscript :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/ancient_script.png
+2022-08-30 15:50:14,055 [main] ERROR craftBet - 299   Game Provider Name = Mascot :   Game Name =  Anksunamun: the Queen of Egypt :   cod = 403:   src = https://resources.tetherbet.io/products/
+2022-08-30 15:51:06,311 [main] ERROR craftBet - 494   Game Provider Name = RedTiger :   Game Name =  bluediamond :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/blue_diamond.png
+2022-08-30 15:51:27,712 [main] ERROR craftBet - 573   Game Provider Name = Greentube :   Game Name =  BookOfRaDeluxe10 :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/mobile/book_of_ra_deluxe10.png
+2022-08-30 15:51:27,811 [main] ERROR craftBet - 574   Game Provider Name = Greentube :   Game Name =  BookOfRaDeluxe6 :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/mobile/book-of-ra-deluxe.png
+2022-08-30 15:51:31,806 [main] ERROR craftBet - 589   Game Provider Name = RedTiger :   Game Name =  bountyraid :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/bounty_raid.png
+2022-08-30 15:51:48,368 [main] ERROR craftBet - 645   Game Provider Name = Mascot :   Game Name =  CanCan Saloon :   cod = 403:   src = https://resources.tetherbet.io/products/
+2022-08-30 15:51:57,869 [main] ERROR craftBet - 681   Game Provider Name = RedTiger :   Game Name =  cashvolt :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/cash_volt.png
+2022-08-30 15:52:11,195 [main] ERROR craftBet - 734   Game Provider Name = RedTiger :   Game Name =  chinesetreasures :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/chinese_treasures.png
+2022-08-30 15:52:14,006 [main] ERROR craftBet - 747   Game Provider Name = RedTiger :   Game Name =  cirquedelafortune :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/cirque_fortune.png
+2022-08-30 15:52:14,528 [main] ERROR craftBet - 750   Game Provider Name = RedTiger :   Game Name =  clashofthebeasts :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/clash_beasts.png
+2022-08-30 15:52:15,459 [main] ERROR craftBet - 755   Game Provider Name = IGT :   Game Name =  Cleopatra :   cod = 404:   src = https://resources.tetherbet.io/products/outcomebet/cleopatra_gpe.jpg
+2022-08-30 15:52:23,912 [main] ERROR craftBet - 794   Game Provider Name = IGT :   Game Name =  Coyote Moon :   cod = 404:   src = https://resources.tetherbet.io/products/outcomebet/coyotemoon.jpg
+2022-08-30 15:52:26,888 [main] ERROR craftBet - 808   Game Provider Name = RedTiger :   Game Name =  crazygenie :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/crazy_genie.png
+2022-08-30 15:52:31,096 [main] ERROR craftBet - 829   Game Provider Name = RedTiger :   Game Name =  crystalmirror :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/crystal_mirror.png
+2022-08-30 15:52:36,790 [main] ERROR craftBet - 854   Game Provider Name = IGT :   Game Name =  Day of the Dead :   cod = 404:   src = https://resources.tetherbet.io/products/outcomebet/day_of_the_dead.jpg
+2022-08-30 15:52:42,429 [main] ERROR craftBet - 881   Game Provider Name = RedTiger :   Game Name =  devilsnumber :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/devil_number.png
+2022-08-30 15:52:44,183 [main] ERROR craftBet - 891   Game Provider Name = IGT :   Game Name =  Diamond Queen :   cod = 404:   src = https://resources.tetherbet.io/products/outcomebet/diamond_queen.jpg
+2022-08-30 15:52:47,722 [main] ERROR craftBet - 905   Game Provider Name = RedTiger :   Game Name =  dicedicedice :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/dice_dice_dice.png
+2022-08-30 15:53:03,163 [main] ERROR craftBet - 977   Game Provider Name = RedTiger :   Game Name =  dragonkinglegendoftheseas :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/dragon_king_legend_seas.png
+2022-08-30 15:53:06,615 [main] ERROR craftBet - 995 Game Provider Name = Microgaming :                    Game Name = Dream3Team :                       src = https://resources.{p}/products/Dream3Team.jpg         java.net.UnknownHostException: resources.{p}
+2022-08-30 15:53:17,603 [main] ERROR craftBet - 1047   Game Provider Name = RedTiger :   Game Name =  elvenmagic :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/elven_magic.png
+2022-08-30 15:53:20,420 [main] ERROR craftBet - 1059   Game Provider Name = RedTiger :   Game Name =  epicjourney :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/epic_journey.png
+2022-08-30 15:53:21,236 [main] ERROR craftBet - 1062   Game Provider Name = RedTiger :   Game Name =  esqueletomariachi :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/esqueleto_mariachi.png
+2022-08-30 15:53:37,270 [main] ERROR craftBet - 1137   Game Provider Name = IGT :   Game Name =  Fire Opals :   cod = 404:   src = https://resources.tetherbet.io/products/outcomebet/fire_opals.jpg
+2022-08-30 15:53:41,840 [main] ERROR craftBet - 1156   Game Provider Name = RedTiger :   Game Name =  fivestar :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/five_star.png
+2022-08-30 15:53:41,941 [main] ERROR craftBet - 1157   Game Provider Name = RedTiger :   Game Name =  fivestarpowerreels :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/five_star_power_reels.png
+2022-08-30 15:53:43,189 [main] ERROR craftBet - 1164   Game Provider Name = RedTiger :   Game Name =  flamingfox :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/flaming_fox.png
+2022-08-30 15:53:46,871 [main] ERROR craftBet - 1182   Game Provider Name = RedTiger :   Game Name =  forever7 :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/forever_7.png
+2022-08-30 15:53:50,739 [main] ERROR craftBet - 1201   Game Provider Name = RedTiger :   Game Name =  fortunecharm :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/fortune_charm.png
+2022-08-30 15:53:50,840 [main] ERROR craftBet - 1202   Game Provider Name = RedTiger :   Game Name =  fortunefest :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/fortune_fest.png
+2022-08-30 15:53:50,932 [main] ERROR craftBet - 1203   Game Provider Name = RedTiger :   Game Name =  fortunehouse :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/fortune_house.png
+2022-08-30 15:53:51,032 [main] ERROR craftBet - 1204   Game Provider Name = RedTiger :   Game Name =  fortunehousepowerreels :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/fortune_house_power_reels.png
+2022-08-30 15:54:01,055 [main] ERROR craftBet - 1252   Game Provider Name = RedTiger :   Game Name =  fruitblox :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/fruit_blox.png
+2022-08-30 15:54:16,651 [main] ERROR craftBet - 1326   Game Provider Name = RedTiger :   Game Name =  gemsgonewild :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/gems_gone_wild.png
+2022-08-30 15:54:16,960 [main] ERROR craftBet - 1328   Game Provider Name = RedTiger :   Game Name =  gemtastic :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/gemtastic.png
+2022-08-30 15:54:39,929 [main] ERROR craftBet - 1428   Game Provider Name = RedTiger :   Game Name =  goldencryptex :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/golden_cryptex_.png
+2022-08-30 15:54:40,028 [main] ERROR craftBet - 1429   Game Provider Name = RedTiger :   Game Name =  goldenleprechaunmegaways :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/golden_leprechaun_mw.png
+2022-08-30 15:54:42,574 [main] ERROR craftBet - 1442   Game Provider Name = RedTiger :   Game Name =  grandwheel :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/grand_wheel.png
+2022-08-30 15:55:08,467 [main] ERROR craftBet - 1560   Game Provider Name = RedTiger :   Game Name =  hothotchillipot :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/hot_hot_chilli_pot.png
+2022-08-30 15:55:17,649 [main] ERROR craftBet - 1601   Game Provider Name = RedTiger :   Game Name =  imperialpalace :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/imperial_palace.png
+2022-08-30 15:55:25,577 [main] ERROR craftBet - 1638   Game Provider Name = RedTiger :   Game Name =  jackpotquest :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/jackpot_quest.png
+2022-08-30 15:55:27,390 [main] ERROR craftBet - 1647   Game Provider Name = RedTiger :   Game Name =  jadecharms :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/jade_charms.png
+2022-08-30 15:55:29,624 [main] ERROR craftBet - 1658   Game Provider Name = RedTiger :   Game Name =  jesterspins :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/jester_spins.png
+2022-08-30 15:55:32,480 [main] ERROR craftBet - 1671   Game Provider Name = RedTiger :   Game Name =  jinglebells :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/jingle_bells.png
+2022-08-30 15:55:32,589 [main] ERROR craftBet - 1672   Game Provider Name = RedTiger :   Game Name =  jinglewaysmegaways :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/jingle_ways_mw.png
+2022-08-30 15:55:32,900 [main] ERROR craftBet - 1674   Game Provider Name = RedTiger :   Game Name =  joeexotic :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/joe_exotic.png
+2022-08-30 15:55:44,918 [main] ERROR craftBet - 1727   Game Provider Name = Greentube :   Game Name =  JustJewelsDeluxe :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/mobile/Just-Jewels.png
+2022-08-30 15:55:57,717 [main] ERROR craftBet - 1783   Game Provider Name = RedTiger :   Game Name =  laserfruit :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/laser_fruit.png
+2022-08-30 15:56:02,599 [main] ERROR craftBet - 1804   Game Provider Name = RedTiger :   Game Name =  legendaryexcalibur :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/legendary_excalibur.png
+2022-08-30 15:56:02,716 [main] ERROR craftBet - 1805   Game Provider Name = RedTiger :   Game Name =  legendofathena :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/legend_athena.png
+2022-08-30 15:56:07,276 [main] ERROR craftBet - 1828   Game Provider Name = RedTiger :   Game Name =  liondance :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/lion_dance.png
+2022-08-30 15:56:10,074 [main] ERROR craftBet - 1842   Game Provider Name = Greentube :   Game Name =  LordOfOcean :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/mobile/Lord-Of-The-Ocean.png
+2022-08-30 15:56:26,197 [main] ERROR craftBet - 1914   Game Provider Name = RedTiger :   Game Name =  luckyeaster :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/lucky_easter.png
+2022-08-30 15:56:26,296 [main] ERROR craftBet - 1915   Game Provider Name = Greentube :   Game Name =  LuckyL'sCharmDeluxe :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/mobile/lucky_lady_charm_deluxe.png
+2022-08-30 15:56:26,391 [main] ERROR craftBet - 1916   Game Provider Name = Greentube :   Game Name =  LuckyL'sCharmDeluxe10 :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/mobile/Lucky-Lady-Charm-10.png
+2022-08-30 15:56:26,506 [main] ERROR craftBet - 1917   Game Provider Name = RedTiger :   Game Name =  luckywizard :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/lucky_wizard.png
+2022-08-30 15:56:43,112 [main] ERROR craftBet - 1993   Game Provider Name = RedTiger :   Game Name =  masquerade :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/masquerade.png
+2022-08-30 15:56:45,762 [main] ERROR craftBet - 2006   Game Provider Name = RedTiger :   Game Name =  mayangods :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/mayan_gods.png
+2022-08-30 15:56:48,595 [main] ERROR craftBet - 2019   Game Provider Name = RedTiger :   Game Name =  megadragon :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/mega_dragon.png
+2022-08-30 15:56:48,684 [main] ERROR craftBet - 2020   Game Provider Name = Greentube :   Game Name =  MegaJoker :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/mobile/Mega-Jokerf.png
+2022-08-30 15:56:50,308 [main] ERROR craftBet - 2028   Game Provider Name = Mascot :   Game Name =  Mermaid's Bay :   cod = 403:   src = https://resources.tetherbet.io/products/
+2022-08-30 15:57:12,780 [main] ERROR craftBet - 2131   Game Provider Name = RedTiger :   Game Name =  mysteryreelspowerreels :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/mystery_reels_power_reels.png
+2022-08-30 15:57:14,617 [main] ERROR craftBet - 2138   Game Provider Name = RedTiger :   Game Name =  mysticwheel :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/mystic_wheel.png
+2022-08-30 15:57:18,990 [main] ERROR craftBet - 2155   Game Provider Name = RedTiger :   Game Name =  neonlinks :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/neon_links.png
+2022-08-30 15:57:20,189 [main] ERROR craftBet - 2160   Game Provider Name = RedTiger :   Game Name =  nftmegaways :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/nft_mw.png
+2022-08-30 15:57:24,493 [main] ERROR craftBet - 2177   Game Provider Name = RedTiger :   Game Name =  ninjaways :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/ninja_ways.png
+2022-08-30 15:57:25,943 [main] ERROR craftBet - 2183   Game Provider Name = Mascot :   Game Name =  Northern Heat :   cod = 403:   src = https://resources.tetherbet.io/products/
+2022-08-30 15:57:29,044 [main] ERROR craftBet - 2196   Game Provider Name = RedTiger :   Game Name =  oceanfortune :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/ocean_fortune.png
+2022-08-30 15:57:41,455 [main] ERROR craftBet - 2245   Game Provider Name = RedTiger :   Game Name =  pathofdestiny :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/path_destiny.png
+2022-08-30 15:57:48,478 [main] ERROR craftBet - 2272   Game Provider Name = RedTiger :   Game Name =  persianfortune :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/persian_fortune.png
+2022-08-30 15:57:51,056 [main] ERROR craftBet - 2283   Game Provider Name = RedTiger :   Game Name =  phoenixfirepowerreels :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/phoenix_fire_power_reels.png
+2022-08-30 15:57:53,894 [main] ERROR craftBet - 2295   Game Provider Name = RedTiger :   Game Name =  piggyrichesmegaways :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/piggy_riches_mw.png
+2022-08-30 15:58:18,239 [main] ERROR craftBet - 2381   Game Provider Name = RedTiger :   Game Name =  pussnboots :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/puss_boots.png
+2022-08-30 15:58:27,288 [main] ERROR craftBet - 2416   Game Provider Name = RedTiger :   Game Name =  rainbowjackpots :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/rainbow_jackpot.png
+2022-08-30 15:58:29,619 [main] ERROR craftBet - 2426   Game Provider Name = RedTiger :   Game Name =  reactor :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/reactor.png
+2022-08-30 15:58:34,853 [main] ERROR craftBet - 2448   Game Provider Name = RedTiger :   Game Name =  reelkingmega :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/reel_king_mega.png
+2022-08-30 15:58:36,484 [main] ERROR craftBet - 2454   Game Provider Name = RedTiger :   Game Name =  regalbeasts :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/regal_beasts.png
+2022-08-30 15:58:36,572 [main] ERROR craftBet - 2455   Game Provider Name = RedTiger :   Game Name =  regalstreak :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/regal_streak.png
+2022-08-30 15:58:55,557 [main] ERROR craftBet - 2527   Game Provider Name = RedTiger :   Game Name =  robinhoodswildforest :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/robin_hoods_wild_forest.png
+2022-08-30 15:58:58,072 [main] ERROR craftBet - 2537   Game Provider Name = RedTiger :   Game Name =  rocketmen :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/rocket_men.png
+2022-08-30 15:59:31,659 [main] ERROR craftBet - 2657   Game Provider Name = RedTiger :   Game Name =  shahmat :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/shah_mat.png
+2022-08-30 15:59:44,489 [main] ERROR craftBet - 2706   Game Provider Name = Greentube :   Game Name =  Sizzling6 :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/mobile/Sizzling6.png
+2022-08-30 15:59:44,596 [main] ERROR craftBet - 2707   Game Provider Name = Greentube :   Game Name =  SizzlingHotDeluxe :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/mobile/Sizzling-Hot-7.png
+2022-08-30 16:00:04,929 [main] ERROR craftBet - 2780   Game Provider Name = Greentube :   Game Name =  SpringQueen :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/mobile/Spring-Queen.png
+2022-08-30 16:00:37,641 [main] ERROR craftBet - 2902   Game Provider Name = Greentube :   Game Name =  TalesOfDarkness :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/mobile/Tales-Of-Darkness.png
+2022-08-30 16:00:37,736 [main] ERROR craftBet - 2903   Game Provider Name = Greentube :   Game Name =  TalesOfDarkness :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/mobile/Tales-Of-Darkness-Lunar-Eclipse.png
+2022-08-30 16:00:41,225 [main] ERROR craftBet - 2917   Game Provider Name = RedTiger :   Game Name =  tenelements :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/ten_elements.png
+2022-08-30 16:01:13,783 [main] ERROR craftBet - 3033   Game Provider Name = RedTiger :   Game Name =  theequalizer :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/the_equalizer.png
+2022-08-30 16:01:13,948 [main] ERROR craftBet - 3034   Game Provider Name = RedTiger :   Game Name =  thegreatesttrainrobbery :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/the_greatest_train%20_robbery.png
+2022-08-30 16:01:14,402 [main] ERROR craftBet - 3036   Game Provider Name = RedTiger :   Game Name =  thewildhatter :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/the_wild_hatter.png
+2022-08-30 16:01:15,587 [main] ERROR craftBet - 3041   Game Provider Name = RedTiger :   Game Name =  Thor's Vengeance :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/thor_vengeance.png
+2022-08-30 16:01:34,348 [main] ERROR craftBet - 3110   Game Provider Name = RedTiger :   Game Name =  treasuremine :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/treasure_mine.png
+2022-08-30 16:01:34,453 [main] ERROR craftBet - 3111   Game Provider Name = RedTiger :   Game Name =  treasureminepowerreels :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/treasure_mine_power_reels.png
+2022-08-30 16:01:51,993 [main] ERROR craftBet - 3176   Game Provider Name = RedTiger :   Game Name =  vaultofanubis :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/vault_anubis.png
+2022-08-30 16:01:55,638 [main] ERROR craftBet - 3191   Game Provider Name = RedTiger :   Game Name =  vickyventura :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/vicky_ventura.png
+2022-08-30 16:02:04,726 [main] ERROR craftBet - 3225   Game Provider Name = RedTiger :   Game Name =  warofgods :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/war_gods.png
+2022-08-30 16:02:09,439 [main] ERROR craftBet - 3244   Game Provider Name = RedTiger :   Game Name =  whatthefoxmegaways :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/what_fox_mw.png
+2022-08-30 16:02:30,048 [main] ERROR craftBet - 3322   Game Provider Name = RedTiger :   Game Name =  wildcatsmultiline :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/wild_cats_multiline.png
+2022-08-30 16:02:31,819 [main] ERROR craftBet - 3329   Game Provider Name = RedTiger :   Game Name =  wildwildchest :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/wild_wild_chest.png
+2022-08-30 16:02:36,395 [main] ERROR craftBet - 3346   Game Provider Name = RedTiger :   Game Name =  winterwonders :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/winter_wonders.png
+2022-08-30 16:02:50,216 [main] ERROR craftBet - 3399   Game Provider Name = RedTiger :   Game Name =  yucatansmystery :   cod = 404:   src = https://resources.tetherbet.io/products/redtiger/mobile/yucatan_mystery.png
+2022-08-30 16:02:53,760 [main] INFO craftBet - Broken images are:  105
+2022-08-30 16:02:55,095 [main] INFO craftBet - Browser closed
+2022-08-30 16:02:55,096 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 16:02:55,124 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 16:04:13,396 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 16:04:13,793 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 16:04:13,843 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 16:04:19,013 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-08-30 16:04:19,141 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 16:04:19,152 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 16:04:34,472 [main] INFO craftBet - Get Matches Api call was sent
+2022-08-30 16:04:34,649 [main] INFO craftBet - Browser closed
+2022-08-30 16:04:34,649 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 16:04:34,659 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 16:05:02,733 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 16:05:02,986 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 16:05:03,019 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 16:05:05,387 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-08-30 16:05:05,464 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 16:05:05,475 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 16:05:06,066 [main] INFO craftBet - Get Matches Api call was sent
+2022-08-30 16:05:06,201 [main] INFO craftBet - Browser closed
+2022-08-30 16:05:06,202 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 16:05:06,228 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 16:05:51,978 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 16:05:52,258 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 16:05:52,293 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 16:05:54,699 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-08-30 16:05:54,805 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 16:05:55,153 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 16:05:55,807 [main] INFO craftBet - Get Matches Api call was sent
+2022-08-30 16:05:55,987 [main] INFO craftBet - Browser closed
+2022-08-30 16:05:55,988 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 16:05:56,012 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 16:11:57,673 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 16:11:57,955 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 16:11:57,987 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 16:12:00,942 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-08-30 16:12:01,040 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 16:12:01,051 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 16:12:01,721 [main] INFO craftBet - Get Matches Api call was sent
+2022-08-30 16:12:01,882 [main] INFO craftBet - Browser closed
+2022-08-30 16:12:01,882 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 16:12:01,891 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 16:19:29,965 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 16:19:30,228 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 16:19:30,260 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 16:19:35,431 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-08-30 16:19:35,508 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 16:19:35,520 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 16:19:36,230 [main] INFO craftBet - Get Matches Api call was sent
+2022-08-30 16:19:36,611 [main] INFO craftBet - Browser closed
+2022-08-30 16:19:36,612 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 16:19:36,621 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 16:20:30,722 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 16:20:30,969 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 16:20:31,004 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 16:20:33,406 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-08-30 16:20:33,484 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 16:20:33,495 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 16:20:34,182 [main] INFO craftBet - Get Matches Api call was sent
+2022-08-30 16:20:34,365 [main] INFO craftBet - Browser closed
+2022-08-30 16:20:34,365 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 16:20:34,379 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 16:25:40,225 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 16:25:40,519 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 16:25:40,558 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 16:25:42,923 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-08-30 16:25:43,005 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 16:25:43,390 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 16:25:43,952 [main] INFO craftBet - Get Matches Api call was sent
+2022-08-30 16:25:44,124 [main] INFO craftBet - Browser closed
+2022-08-30 16:25:44,126 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 16:25:44,137 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 16:36:18,770 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 16:36:19,987 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 16:36:20,015 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 16:36:25,557 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-08-30 16:36:25,636 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 16:36:25,936 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 16:36:26,440 [main] INFO craftBet - Get Matches Api call was sent
+2022-08-30 16:36:26,627 [main] INFO craftBet - Browser closed
+2022-08-30 16:36:26,628 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 16:36:26,639 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 16:39:55,300 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 16:39:55,567 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 16:39:55,608 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 16:39:58,873 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-08-30 16:39:59,044 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 16:39:59,054 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 16:39:59,882 [main] INFO craftBet - Get Matches Api call was sent
+2022-08-30 16:40:00,124 [main] INFO craftBet - Browser closed
+2022-08-30 16:40:00,124 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 16:40:00,133 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 16:46:42,785 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 16:46:43,084 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 16:46:43,121 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 16:47:01,612 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 16:47:01,890 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 16:47:01,929 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 16:47:04,444 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-08-30 16:47:04,536 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 16:47:04,546 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 16:47:05,694 [main] INFO craftBet - Get Matches Api call was sent
+2022-08-30 16:47:05,977 [main] INFO craftBet - Browser closed
+2022-08-30 16:47:05,977 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 16:47:05,988 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 16:53:02,421 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 16:53:02,655 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 16:53:02,688 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 16:53:05,364 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-08-30 16:53:05,453 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 16:53:05,463 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 16:53:06,186 [main] INFO craftBet - Get Matches Api call was sent
+2022-08-30 16:53:06,619 [main] INFO craftBet - Browser closed
+2022-08-30 16:53:06,620 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 16:53:06,650 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 16:59:37,164 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 16:59:37,412 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 16:59:37,443 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 16:59:39,778 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-08-30 16:59:39,853 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 16:59:39,863 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 16:59:40,503 [main] INFO craftBet - Get Matches Api call was sent
+2022-08-30 16:59:40,739 [main] INFO craftBet - Browser closed
+2022-08-30 16:59:40,739 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 16:59:40,749 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 17:01:14,136 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 17:01:14,417 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 17:01:14,453 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 17:01:17,603 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-08-30 17:01:17,707 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 17:01:18,052 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 17:01:18,823 [main] INFO craftBet - Get Matches Api call was sent
+2022-08-30 17:01:19,073 [main] INFO craftBet - Browser closed
+2022-08-30 17:01:19,073 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 17:01:19,083 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 17:01:51,102 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 17:01:51,365 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 17:01:51,397 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 17:01:53,832 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-08-30 17:01:53,908 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 17:01:54,180 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 17:01:54,689 [main] INFO craftBet - Get Matches Api call was sent
+2022-08-30 17:01:54,903 [main] INFO craftBet - Browser closed
+2022-08-30 17:01:54,904 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 17:01:54,912 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 17:19:57,191 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 17:19:57,438 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 17:19:57,471 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 17:20:02,260 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-08-30 17:20:02,334 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 17:20:02,669 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 17:20:03,266 [main] INFO craftBet - Get Matches Api call was sent
+2022-08-30 17:20:03,513 [main] INFO craftBet - Browser closed
+2022-08-30 17:20:03,513 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 17:20:03,522 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 17:21:59,091 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 17:21:59,336 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 17:21:59,396 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 17:22:02,057 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-08-30 17:22:02,132 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 17:22:02,400 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 17:22:02,878 [main] INFO craftBet - Get Matches Api call was sent
+2022-08-30 17:22:03,076 [main] INFO craftBet - Browser closed
+2022-08-30 17:22:03,076 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-30 17:22:03,085 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-30 17:30:16,436 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 17:30:16,812 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 17:30:16,857 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 17:30:22,978 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-08-30 17:30:23,117 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 17:30:23,531 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 17:30:55,407 [main] INFO craftBet - Get Matches Api call was sent
+2022-08-30 17:40:47,675 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 17:40:49,082 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 17:40:49,112 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 17:40:54,085 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-08-30 17:40:54,162 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 17:40:54,548 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 17:40:55,339 [main] INFO craftBet - Get Matches Api call was sent
+2022-08-30 17:41:59,561 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 17:41:59,897 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 17:41:59,936 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 17:42:03,450 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-08-30 17:42:03,620 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 17:42:03,637 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 17:42:04,800 [main] INFO craftBet - Get Matches Api call was sent
+2022-08-30 17:43:10,483 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 17:43:10,857 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 17:43:10,919 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 17:43:15,621 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-08-30 17:43:15,976 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 17:43:15,991 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 17:43:18,622 [main] INFO craftBet - Get Matches Api call was sent
+2022-08-30 17:49:56,299 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 17:49:56,814 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 17:49:56,851 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 17:50:00,839 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-08-30 17:50:01,011 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 17:50:01,029 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 17:50:02,885 [main] INFO craftBet - Get Matches Api call was sent
+2022-08-30 17:52:03,093 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-30 17:52:03,427 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-30 17:52:03,471 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-30 17:52:07,006 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-08-30 17:52:07,192 [main] INFO craftBet - All Page elements are initialized
+2022-08-30 17:52:07,222 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-30 17:52:09,326 [main] INFO craftBet - Get Matches Api call was sent

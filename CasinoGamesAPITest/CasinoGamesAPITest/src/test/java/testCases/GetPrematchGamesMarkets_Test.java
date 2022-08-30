@@ -12,13 +12,19 @@ public class GetPrematchGamesMarkets_Test extends BaseTest{
 
     @Test
     public void gatPreMatchGamesMarket() throws UnirestException, JSONException, IOException {
-
-        if (getPreMatchGamesAPICheckMarkets(getPreMatchTree, getMarketByID, getPrematchTreeOrigin,getGamesPartnerName)){
-            Assert.assertTrue(true);
+        if (getGamesPartnerName.equals("Craftbet")){
+            if (getPreMatchGamesAPICheckMarkets(getPreMatchTree, getMarketByID, getPrematchTreeOrigin,getGamesPartnerName)){
+                Assert.assertTrue(true);
+            }
+            else {
+                Assert.fail();
+            }
         }
-        else {
+        else{
+            logger.error("Please provide Craftbet id  as test Partner ");
             Assert.fail();
         }
+
     }
 
 
