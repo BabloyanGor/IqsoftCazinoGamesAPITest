@@ -6152,3 +6152,513 @@
 2022-08-30 22:38:55,414 - craftBet -INFO - All Page elements are initialized
 2022-08-30 22:38:55,423 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
 2022-08-30 22:38:56,252 - craftBet -INFO - Get Matches Api call was sent
+2022-08-31 10:13:29,365 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-31 10:13:30,876 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-31 10:13:30,910 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-31 10:13:37,347 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-31 10:13:37,493 - craftBet -INFO - All Page elements are initialized
+2022-08-31 10:13:37,504 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-31 10:13:38,812 - craftBet -INFO - Get games Api call was sent
+2022-08-31 10:13:38,851 - craftBet -INFO - Games are 65
+2022-08-31 10:13:38,852 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-31 10:13:40,230 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:13:40,231 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:13:40,231 - craftBet -ERROR - GameID  = 3714981   selectorPoint = 80
+2022-08-31 10:13:40,232 - craftBet -ERROR - GameID  = 3708659   selectorPoint = 80
+2022-08-31 10:13:40,233 - craftBet -ERROR - GameID  = 3704002   selectorPoint = 80
+2022-08-31 10:13:40,233 - craftBet -ERROR - GameID  = 3711743   selectorPoint = 97
+2022-08-31 10:13:40,233 - craftBet -ERROR - GameID  = 3703845   selectorPoint = 50
+2022-08-31 10:13:40,235 - craftBet -ERROR - GameID  = 3714988   selectorPoint = 80
+2022-08-31 10:13:40,237 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:13:40,238 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:13:41,075 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:13:41,076 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:13:41,076 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:13:41,077 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:13:41,077 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:13:41,077 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:13:41,078 - craftBet -ERROR - GameID  = 3714937   selectorPoint = 0
+2022-08-31 10:13:41,078 - craftBet -ERROR - GameID  = 3714936   selectorPoint = 0
+2022-08-31 10:13:41,078 - craftBet -ERROR - GameID  = 3715769   selectorPoint = 0
+2022-08-31 10:13:41,078 - craftBet -ERROR - GameID  = 3719592   selectorPoint = 0
+2022-08-31 10:13:41,079 - craftBet -ERROR - GameID  = 3719591   selectorPoint = 0
+2022-08-31 10:13:41,079 - craftBet -ERROR - GameID  = 3719595   selectorPoint = 0
+2022-08-31 10:13:41,080 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:13:41,080 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:13:41,081 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:13:41,081 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:13:41,082 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:13:41,082 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:13:41,764 - craftBet -ERROR - GameID  = 3714937   selectorPoint = 80
+2022-08-31 10:13:41,764 - craftBet -ERROR - GameID  = 3714981   selectorPoint = 50
+2022-08-31 10:13:41,765 - craftBet -ERROR - GameID  = 3719592   selectorPoint = 50
+2022-08-31 10:13:41,765 - craftBet -ERROR - GameID  = 3703870   selectorPoint = 50
+2022-08-31 10:13:41,765 - craftBet -ERROR - GameID  = 3708659   selectorPoint = 120
+2022-08-31 10:13:42,524 - craftBet -ERROR - GameID  = 3714936   selectorPoint = 50
+2022-08-31 10:13:42,524 - craftBet -ERROR - GameID  = 3714981   selectorPoint = 65
+2022-08-31 10:13:42,525 - craftBet -ERROR - GameID  = 3715769   selectorPoint = 80
+2022-08-31 10:13:42,525 - craftBet -ERROR - GameID  = 3719592   selectorPoint = 80
+2022-08-31 10:13:42,526 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 65
+2022-08-31 10:13:42,526 - craftBet -ERROR - GameID  = 3714933   selectorPoint = 97
+2022-08-31 10:13:43,375 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:13:43,376 - craftBet -ERROR - GameID  = 3719592   selectorPoint = 77
+2022-08-31 10:13:43,376 - craftBet -ERROR - GameID  = 3719595   selectorPoint = 62
+2022-08-31 10:13:44,084 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 80
+2022-08-31 10:13:44,085 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 50
+2022-08-31 10:13:44,085 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 1
+2022-08-31 10:13:44,085 - craftBet -ERROR - GameID  = 3714933   selectorPoint = 145
+2022-08-31 10:13:44,085 - craftBet -ERROR - GameID  = 3714941   selectorPoint = 120
+2022-08-31 10:13:44,085 - craftBet -ERROR - GameID  = 3715769   selectorPoint = 145
+2022-08-31 10:13:44,086 - craftBet -ERROR - GameID  = 3719591   selectorPoint = 65
+2022-08-31 10:13:44,086 - craftBet -ERROR - GameID  = 3703870   selectorPoint = 50
+2022-08-31 10:13:44,086 - craftBet -ERROR - GameID  = 3708659   selectorPoint = 195
+2022-08-31 10:13:44,086 - craftBet -ERROR - GameID  = 3704002   selectorPoint = 65
+2022-08-31 10:13:44,086 - craftBet -ERROR - GameID  = 3711743   selectorPoint = 145
+2022-08-31 10:13:44,086 - craftBet -ERROR - GameID  = 3703845   selectorPoint = 290
+2022-08-31 10:13:44,090 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 50
+2022-08-31 10:13:44,092 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 50
+2022-08-31 10:13:44,093 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 80
+2022-08-31 10:13:44,094 - craftBet -ERROR - GameID  = 3714937   selectorPoint = 65
+2022-08-31 10:13:44,094 - craftBet -ERROR - GameID  = 3714936   selectorPoint = 50
+2022-08-31 10:13:45,234 - craftBet -ERROR - GameID  = 3714937   selectorPoint = 50
+2022-08-31 10:13:45,234 - craftBet -ERROR - GameID  = 3719591   selectorPoint = 50
+2022-08-31 10:13:45,234 - craftBet -ERROR - GameID  = 3719595   selectorPoint = 50
+2022-08-31 10:13:45,235 - craftBet -ERROR - GameID  = 3703870   selectorPoint = 80
+2022-08-31 10:13:45,235 - craftBet -ERROR - GameID  = 3708659   selectorPoint = 97
+2022-08-31 10:13:47,885 - craftBet -ERROR - GameID  = 3714941   selectorPoint = 120
+2022-08-31 10:13:47,886 - craftBet -ERROR - GameID  = 3719595   selectorPoint = 50
+2022-08-31 10:13:47,886 - craftBet -ERROR - GameID  = 3703870   selectorPoint = 50
+2022-08-31 10:13:47,887 - craftBet -ERROR - GameID  = 3708659   selectorPoint = 65
+2022-08-31 10:13:47,887 - craftBet -ERROR - GameID  = 3703845   selectorPoint = 50
+2022-08-31 10:13:47,887 - craftBet -ERROR - GameID  = 3714988   selectorPoint = 120
+2022-08-31 10:13:47,887 - craftBet -ERROR - GameID  = 3708138   selectorPoint = 97
+2022-08-31 10:13:47,888 - craftBet -ERROR - GameID  = 3703966   selectorPoint = 50
+2022-08-31 10:13:47,888 - craftBet -ERROR - GameID  = 3708077   selectorPoint = 65
+2022-08-31 10:13:47,890 - craftBet -ERROR - GameID  = 3714941   selectorPoint = 195
+2022-08-31 10:13:47,890 - craftBet -ERROR - GameID  = 3714981   selectorPoint = 97
+2022-08-31 10:13:47,891 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:13:47,891 - craftBet -ERROR - GameID  = 3714941   selectorPoint = 65
+2022-08-31 10:13:47,891 - craftBet -ERROR - GameID  = 3714981   selectorPoint = 65
+2022-08-31 10:13:47,892 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:13:47,893 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:13:49,899 - craftBet -ERROR - GameID  = 3719592   selectorPoint = 97
+2022-08-31 10:13:49,900 - craftBet -ERROR - GameID  = 3708659   selectorPoint = 50
+2022-08-31 10:13:49,900 - craftBet -ERROR - GameID  = 3704002   selectorPoint = 50
+2022-08-31 10:13:49,900 - craftBet -ERROR - GameID  = 3703845   selectorPoint = 65
+2022-08-31 10:13:49,900 - craftBet -ERROR - GameID  = 3714988   selectorPoint = 50
+2022-08-31 10:13:49,900 - craftBet -ERROR - GameID  = 3708138   selectorPoint = 80
+2022-08-31 10:13:49,900 - craftBet -ERROR - GameID  = 3703966   selectorPoint = 97
+2022-08-31 10:13:49,901 - craftBet -ERROR - GameID  = 3708077   selectorPoint = 80
+2022-08-31 10:13:49,901 - craftBet -ERROR - GameID  = 3703848   selectorPoint = 97
+2022-08-31 10:13:49,913 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 50
+2022-08-31 10:13:49,914 - craftBet -ERROR - GameID  = 3714941   selectorPoint = 50
+2022-08-31 10:13:49,915 - craftBet -ERROR - GameID  = 3715762   selectorPoint = 50
+2022-08-31 10:13:49,916 - craftBet -ERROR - GameID  = 3715769   selectorPoint = 97
+2022-08-31 10:13:49,917 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:13:49,918 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:13:49,918 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:13:50,177 - craftBet -ERROR - GameID  = 3719592   selectorPoint = 97
+2022-08-31 10:13:50,178 - craftBet -ERROR - GameID  = 3708659   selectorPoint = 50
+2022-08-31 10:13:50,179 - craftBet -ERROR - GameID  = 3711743   selectorPoint = 50
+2022-08-31 10:13:50,179 - craftBet -ERROR - GameID  = 3714988   selectorPoint = 65
+2022-08-31 10:13:50,180 - craftBet -ERROR - GameID  = 3708138   selectorPoint = 50
+2022-08-31 10:13:50,180 - craftBet -ERROR - GameID  = 3703966   selectorPoint = 120
+2022-08-31 10:13:50,181 - craftBet -ERROR - GameID  = 3708077   selectorPoint = 97
+2022-08-31 10:13:50,181 - craftBet -ERROR - GameID  = 3703848   selectorPoint = 80
+2022-08-31 10:13:50,182 - craftBet -ERROR - GameID  = 3703956   selectorPoint = 97
+2022-08-31 10:13:50,197 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 50
+2022-08-31 10:13:50,199 - craftBet -ERROR - GameID  = 3714941   selectorPoint = 80
+2022-08-31 10:13:50,199 - craftBet -ERROR - GameID  = 3715769   selectorPoint = 50
+2022-08-31 10:13:50,395 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:13:50,396 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:13:50,396 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:13:50,396 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:13:50,396 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:13:50,397 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:13:50,397 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:13:50,397 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:13:50,397 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:13:50,397 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:13:50,398 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:13:50,398 - craftBet -ERROR - GameID  = 3714933   selectorPoint = 0
+2022-08-31 10:13:50,398 - craftBet -ERROR - GameID  = 3714937   selectorPoint = 0
+2022-08-31 10:13:50,398 - craftBet -ERROR - GameID  = 3714936   selectorPoint = 0
+2022-08-31 10:13:50,398 - craftBet -ERROR - GameID  = 3714941   selectorPoint = 0
+2022-08-31 10:13:50,398 - craftBet -ERROR - GameID  = 3714981   selectorPoint = 0
+2022-08-31 10:13:50,398 - craftBet -ERROR - GameID  = 3715762   selectorPoint = 0
+2022-08-31 10:13:50,398 - craftBet -ERROR - GameID  = 3715769   selectorPoint = 0
+2022-08-31 10:13:50,398 - craftBet -ERROR - GameID  = 3719592   selectorPoint = 0
+2022-08-31 10:13:50,399 - craftBet -ERROR - GameID  = 3719591   selectorPoint = 0
+2022-08-31 10:13:50,399 - craftBet -ERROR - GameID  = 3719595   selectorPoint = 0
+2022-08-31 10:13:50,399 - craftBet -ERROR - GameID  = 3703870   selectorPoint = 0
+2022-08-31 10:13:50,399 - craftBet -ERROR - GameID  = 3708659   selectorPoint = 0
+2022-08-31 10:13:50,400 - craftBet -ERROR - GameID  = 3704002   selectorPoint = 0
+2022-08-31 10:13:50,400 - craftBet -ERROR - GameID  = 3711743   selectorPoint = 0
+2022-08-31 10:13:50,400 - craftBet -ERROR - GameID  = 3703845   selectorPoint = 0
+2022-08-31 10:13:50,400 - craftBet -ERROR - GameID  = 3714988   selectorPoint = 0
+2022-08-31 10:13:50,400 - craftBet -ERROR - GameID  = 3708138   selectorPoint = 0
+2022-08-31 10:13:50,400 - craftBet -ERROR - GameID  = 3703966   selectorPoint = 0
+2022-08-31 10:13:50,400 - craftBet -ERROR - GameID  = 3708077   selectorPoint = 0
+2022-08-31 10:13:50,400 - craftBet -ERROR - GameID  = 3703848   selectorPoint = 0
+2022-08-31 10:13:50,400 - craftBet -ERROR - GameID  = 3703956   selectorPoint = 0
+2022-08-31 10:13:50,401 - craftBet -ERROR - GameID  = 3708203   selectorPoint = 0
+2022-08-31 10:13:50,401 - craftBet -ERROR - GameID  = 3703957   selectorPoint = 0
+2022-08-31 10:13:50,401 - craftBet -ERROR - GameID  = 3718351   selectorPoint = 0
+2022-08-31 10:13:50,401 - craftBet -ERROR - GameID  = 3703979   selectorPoint = 0
+2022-08-31 10:13:50,401 - craftBet -ERROR - GameID  = 3703871   selectorPoint = 0
+2022-08-31 10:13:50,401 - craftBet -ERROR - GameID  = 3716720   selectorPoint = 0
+2022-08-31 10:13:50,401 - craftBet -ERROR - GameID  = 3716631   selectorPoint = 0
+2022-08-31 10:13:50,401 - craftBet -ERROR - GameID  = 3716650   selectorPoint = 0
+2022-08-31 10:13:50,401 - craftBet -ERROR - GameID  = 3716634   selectorPoint = 0
+2022-08-31 10:13:50,402 - craftBet -ERROR - GameID  = 3716713   selectorPoint = 0
+2022-08-31 10:13:50,402 - craftBet -ERROR - GameID  = 3716718   selectorPoint = 97
+2022-08-31 10:13:50,403 - craftBet -ERROR - GameID  = 3716711   selectorPoint = 0
+2022-08-31 10:13:50,403 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:13:50,403 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:13:50,403 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:13:50,403 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:13:50,404 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:13:50,404 - craftBet -ERROR - GameID  = 3714933   selectorPoint = 0
+2022-08-31 10:13:50,404 - craftBet -ERROR - GameID  = 3714937   selectorPoint = 0
+2022-08-31 10:13:50,404 - craftBet -ERROR - GameID  = 3714936   selectorPoint = 0
+2022-08-31 10:13:50,404 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:13:50,404 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:13:50,404 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:13:50,404 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:13:50,405 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:13:50,405 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:13:50,405 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:13:50,405 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:13:50,406 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:13:50,406 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:13:50,406 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:13:50,406 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:13:50,406 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:13:50,406 - craftBet -ERROR - GameID  = 3714933   selectorPoint = 0
+2022-08-31 10:13:50,406 - craftBet -ERROR - GameID  = 3714937   selectorPoint = 0
+2022-08-31 10:13:50,406 - craftBet -ERROR - GameID  = 3714936   selectorPoint = 0
+2022-08-31 10:13:50,406 - craftBet -ERROR - GameID  = 3714941   selectorPoint = 0
+2022-08-31 10:13:50,406 - craftBet -ERROR - GameID  = 3714981   selectorPoint = 0
+2022-08-31 10:13:50,407 - craftBet -ERROR - GameID  = 3715762   selectorPoint = 0
+2022-08-31 10:13:50,407 - craftBet -ERROR - GameID  = 3715769   selectorPoint = 0
+2022-08-31 10:13:50,407 - craftBet -ERROR - GameID  = 3719592   selectorPoint = 0
+2022-08-31 10:13:50,407 - craftBet -ERROR - GameID  = 3719591   selectorPoint = 0
+2022-08-31 10:13:50,407 - craftBet -ERROR - GameID  = 3719595   selectorPoint = 0
+2022-08-31 10:13:50,408 - craftBet -ERROR - GameID  = 3703870   selectorPoint = 0
+2022-08-31 10:13:50,408 - craftBet -ERROR - GameID  = 3708659   selectorPoint = 0
+2022-08-31 10:13:50,409 - craftBet -ERROR - GameID  = 3704002   selectorPoint = 0
+2022-08-31 10:13:50,409 - craftBet -ERROR - GameID  = 3711743   selectorPoint = 0
+2022-08-31 10:13:50,601 - craftBet -ERROR - GameID  = 3719595   selectorPoint = 50
+2022-08-31 10:13:50,602 - craftBet -ERROR - GameID  = 3703848   selectorPoint = 65
+2022-08-31 10:13:50,602 - craftBet -ERROR - GameID  = 3716631   selectorPoint = 65
+2022-08-31 10:13:50,602 - craftBet -ERROR - GameID  = 3716650   selectorPoint = 120
+2022-08-31 10:13:50,602 - craftBet -ERROR - GameID  = 3716713   selectorPoint = 65
+2022-08-31 10:13:50,602 - craftBet -ERROR - GameID  = 3716711   selectorPoint = 0
+2022-08-31 10:13:50,602 - craftBet -ERROR - GameID  = 3716750   selectorPoint = 65
+2022-08-31 10:13:50,602 - craftBet -ERROR - GameID  = 3719544   selectorPoint = 50
+2022-08-31 10:13:50,602 - craftBet -ERROR - GameID  = 3719564   selectorPoint = 97
+2022-08-31 10:13:50,602 - craftBet -ERROR - GameID  = 3719566   selectorPoint = 80
+2022-08-31 10:13:50,603 - craftBet -ERROR - GameID  = 3719567   selectorPoint = 80
+2022-08-31 10:13:50,603 - craftBet -ERROR - GameID  = 3717431   selectorPoint = 65
+2022-08-31 10:13:50,603 - craftBet -ERROR - GameID  = 3717792   selectorPoint = 120
+2022-08-31 10:13:50,603 - craftBet -ERROR - GameID  = 3717742   selectorPoint = 65
+2022-08-31 10:13:50,603 - craftBet -ERROR - GameID  = 3717362   selectorPoint = 120
+2022-08-31 10:13:50,604 - craftBet -ERROR - GameID  = 3718449   selectorPoint = 97
+2022-08-31 10:13:50,604 - craftBet -ERROR - GameID  = 3714933   selectorPoint = 0
+2022-08-31 10:13:50,604 - craftBet -ERROR - GameID  = 3714937   selectorPoint = 0
+2022-08-31 10:13:50,605 - craftBet -ERROR - GameID  = 3719592   selectorPoint = 50
+2022-08-31 10:13:50,605 - craftBet -ERROR - GameID  = 3708659   selectorPoint = 50
+2022-08-31 10:13:50,605 - craftBet -ERROR - GameID  = 3704002   selectorPoint = 50
+2022-08-31 10:13:50,605 - craftBet -ERROR - GameID  = 3714988   selectorPoint = 50
+2022-08-31 10:13:50,605 - craftBet -ERROR - GameID  = 3708138   selectorPoint = 120
+2022-08-31 10:13:50,605 - craftBet -ERROR - GameID  = 3703966   selectorPoint = 65
+2022-08-31 10:13:50,605 - craftBet -ERROR - GameID  = 3708077   selectorPoint = 50
+2022-08-31 10:13:50,605 - craftBet -ERROR - GameID  = 3703848   selectorPoint = 65
+2022-08-31 10:13:50,606 - craftBet -ERROR - GameID  = 3703956   selectorPoint = 120
+2022-08-31 10:14:31,876 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-31 10:14:32,768 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-31 10:14:32,830 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-31 10:14:36,544 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-31 10:14:36,642 - craftBet -INFO - All Page elements are initialized
+2022-08-31 10:14:36,986 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-31 10:14:37,835 - craftBet -INFO - Get games Api call was sent
+2022-08-31 10:14:37,945 - craftBet -INFO - Games are 66
+2022-08-31 10:14:37,945 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-31 10:14:38,163 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:38,164 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:38,180 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:38,181 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:38,378 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:14:38,378 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:14:38,378 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:14:38,381 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:14:38,381 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:38,382 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:38,382 - craftBet -ERROR - GameID  = 3714937   selectorPoint = 0
+2022-08-31 10:14:38,383 - craftBet -ERROR - GameID  = 3714936   selectorPoint = 0
+2022-08-31 10:14:38,383 - craftBet -ERROR - GameID  = 3715769   selectorPoint = 0
+2022-08-31 10:14:38,383 - craftBet -ERROR - GameID  = 3719592   selectorPoint = 0
+2022-08-31 10:14:38,383 - craftBet -ERROR - GameID  = 3719591   selectorPoint = 0
+2022-08-31 10:14:38,383 - craftBet -ERROR - GameID  = 3719594   selectorPoint = 0
+2022-08-31 10:14:38,389 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:14:38,389 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:38,391 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:14:38,392 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:38,392 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:14:38,392 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:38,915 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:39,093 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 1
+2022-08-31 10:14:39,416 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:39,418 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:14:39,418 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:39,608 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:14:39,608 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:39,965 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:39,966 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:14:39,966 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:14:39,966 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:39,966 - craftBet -ERROR - GameID  = 3714936   selectorPoint = 0
+2022-08-31 10:14:39,967 - craftBet -ERROR - GameID  = 3714941   selectorPoint = 0
+2022-08-31 10:14:39,967 - craftBet -ERROR - GameID  = 3714981   selectorPoint = 0
+2022-08-31 10:14:39,967 - craftBet -ERROR - GameID  = 3715762   selectorPoint = 0
+2022-08-31 10:14:39,967 - craftBet -ERROR - GameID  = 3715769   selectorPoint = 0
+2022-08-31 10:14:39,967 - craftBet -ERROR - GameID  = 3719592   selectorPoint = 0
+2022-08-31 10:14:39,967 - craftBet -ERROR - GameID  = 3719591   selectorPoint = 0
+2022-08-31 10:14:39,968 - craftBet -ERROR - GameID  = 3719594   selectorPoint = 0
+2022-08-31 10:14:39,968 - craftBet -ERROR - GameID  = 3703870   selectorPoint = 0
+2022-08-31 10:14:39,968 - craftBet -ERROR - GameID  = 3708659   selectorPoint = 0
+2022-08-31 10:14:39,968 - craftBet -ERROR - GameID  = 3704002   selectorPoint = 0
+2022-08-31 10:14:39,968 - craftBet -ERROR - GameID  = 3711743   selectorPoint = 0
+2022-08-31 10:14:39,968 - craftBet -ERROR - GameID  = 3703845   selectorPoint = 0
+2022-08-31 10:14:39,968 - craftBet -ERROR - GameID  = 3714988   selectorPoint = 0
+2022-08-31 10:14:39,969 - craftBet -ERROR - GameID  = 3708138   selectorPoint = 0
+2022-08-31 10:14:39,969 - craftBet -ERROR - GameID  = 3703966   selectorPoint = 0
+2022-08-31 10:14:39,971 - craftBet -ERROR - GameID  = 3703956   selectorPoint = 0
+2022-08-31 10:14:39,973 - craftBet -ERROR - GameID  = 3718351   selectorPoint = 0
+2022-08-31 10:14:39,973 - craftBet -ERROR - GameID  = 3703979   selectorPoint = 0
+2022-08-31 10:14:39,975 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:39,975 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:14:39,975 - craftBet -ERROR - GameID  = 3714937   selectorPoint = 0
+2022-08-31 10:14:39,975 - craftBet -ERROR - GameID  = 3714936   selectorPoint = 0
+2022-08-31 10:14:39,976 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:14:39,976 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:39,976 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:14:39,976 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:14:39,976 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:39,977 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:14:39,977 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:39,977 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:14:39,977 - craftBet -ERROR - GameID  = 3714937   selectorPoint = 0
+2022-08-31 10:14:39,977 - craftBet -ERROR - GameID  = 3714936   selectorPoint = 0
+2022-08-31 10:14:39,978 - craftBet -ERROR - GameID  = 3715769   selectorPoint = 0
+2022-08-31 10:14:40,181 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:40,181 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:14:40,182 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:14:40,182 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:40,183 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:14:40,184 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:40,184 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:14:40,184 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:40,184 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:14:40,184 - craftBet -ERROR - GameID  = 3714936   selectorPoint = 0
+2022-08-31 10:14:40,185 - craftBet -ERROR - GameID  = 3715762   selectorPoint = 0
+2022-08-31 10:14:40,185 - craftBet -ERROR - GameID  = 3715769   selectorPoint = 0
+2022-08-31 10:14:40,185 - craftBet -ERROR - GameID  = 3719592   selectorPoint = 0
+2022-08-31 10:14:40,185 - craftBet -ERROR - GameID  = 3719591   selectorPoint = 0
+2022-08-31 10:14:40,185 - craftBet -ERROR - GameID  = 3719595   selectorPoint = 0
+2022-08-31 10:14:40,185 - craftBet -ERROR - GameID  = 3703870   selectorPoint = 0
+2022-08-31 10:14:40,185 - craftBet -ERROR - GameID  = 3708659   selectorPoint = 0
+2022-08-31 10:14:40,186 - craftBet -ERROR - GameID  = 3704002   selectorPoint = 0
+2022-08-31 10:14:40,186 - craftBet -ERROR - GameID  = 3711743   selectorPoint = 0
+2022-08-31 10:14:40,188 - craftBet -ERROR - GameID  = 3703845   selectorPoint = 0
+2022-08-31 10:14:40,188 - craftBet -ERROR - GameID  = 3714988   selectorPoint = 0
+2022-08-31 10:14:40,189 - craftBet -ERROR - GameID  = 3703966   selectorPoint = 0
+2022-08-31 10:14:40,189 - craftBet -ERROR - GameID  = 3708077   selectorPoint = 0
+2022-08-31 10:14:40,189 - craftBet -ERROR - GameID  = 3703848   selectorPoint = 0
+2022-08-31 10:14:40,189 - craftBet -ERROR - GameID  = 3703956   selectorPoint = 0
+2022-08-31 10:14:40,189 - craftBet -ERROR - GameID  = 3703957   selectorPoint = 0
+2022-08-31 10:14:40,189 - craftBet -ERROR - GameID  = 3718351   selectorPoint = 0
+2022-08-31 10:14:40,189 - craftBet -ERROR - GameID  = 3703871   selectorPoint = 0
+2022-08-31 10:14:40,190 - craftBet -ERROR - GameID  = 3716720   selectorPoint = 0
+2022-08-31 10:14:40,190 - craftBet -ERROR - GameID  = 3716631   selectorPoint = 0
+2022-08-31 10:14:40,190 - craftBet -ERROR - GameID  = 3716650   selectorPoint = 0
+2022-08-31 10:14:40,195 - craftBet -ERROR - GameID  = 3716634   selectorPoint = 0
+2022-08-31 10:14:40,197 - craftBet -ERROR - GameID  = 3716713   selectorPoint = 0
+2022-08-31 10:14:40,197 - craftBet -ERROR - GameID  = 3716718   selectorPoint = 0
+2022-08-31 10:14:40,198 - craftBet -ERROR - GameID  = 3716748   selectorPoint = 0
+2022-08-31 10:14:40,198 - craftBet -ERROR - GameID  = 3716750   selectorPoint = 0
+2022-08-31 10:14:40,198 - craftBet -ERROR - GameID  = 3719544   selectorPoint = 0
+2022-08-31 10:14:40,198 - craftBet -ERROR - GameID  = 3719567   selectorPoint = 0
+2022-08-31 10:14:40,198 - craftBet -ERROR - GameID  = 3717431   selectorPoint = 0
+2022-08-31 10:14:40,198 - craftBet -ERROR - GameID  = 3717792   selectorPoint = 0
+2022-08-31 10:14:40,199 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:40,199 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:14:40,199 - craftBet -ERROR - GameID  = 3714933   selectorPoint = 0
+2022-08-31 10:14:40,199 - craftBet -ERROR - GameID  = 3714937   selectorPoint = 0
+2022-08-31 10:14:40,200 - craftBet -ERROR - GameID  = 3714936   selectorPoint = 0
+2022-08-31 10:14:40,200 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:14:40,200 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:40,200 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:14:40,200 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:14:40,200 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:40,201 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:14:40,201 - craftBet -ERROR - GameID  = 3714933   selectorPoint = 0
+2022-08-31 10:14:40,201 - craftBet -ERROR - GameID  = 3714937   selectorPoint = 0
+2022-08-31 10:14:40,201 - craftBet -ERROR - GameID  = 3714936   selectorPoint = 0
+2022-08-31 10:14:40,201 - craftBet -ERROR - GameID  = 3714981   selectorPoint = 0
+2022-08-31 10:14:40,201 - craftBet -ERROR - GameID  = 3715762   selectorPoint = 0
+2022-08-31 10:14:40,201 - craftBet -ERROR - GameID  = 3719592   selectorPoint = 0
+2022-08-31 10:14:40,201 - craftBet -ERROR - GameID  = 3719594   selectorPoint = 0
+2022-08-31 10:14:40,202 - craftBet -ERROR - GameID  = 3719595   selectorPoint = 0
+2022-08-31 10:14:40,202 - craftBet -ERROR - GameID  = 3704002   selectorPoint = 0
+2022-08-31 10:14:40,202 - craftBet -ERROR - GameID  = 3711743   selectorPoint = 0
+2022-08-31 10:14:40,202 - craftBet -ERROR - GameID  = 3714988   selectorPoint = 0
+2022-08-31 10:14:40,202 - craftBet -ERROR - GameID  = 3708138   selectorPoint = 0
+2022-08-31 10:14:40,202 - craftBet -ERROR - GameID  = 3703966   selectorPoint = 0
+2022-08-31 10:14:42,232 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:14:42,232 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:45,147 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 1
+2022-08-31 10:14:45,147 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 1
+2022-08-31 10:14:45,147 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 1
+2022-08-31 10:14:58,840 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:14:58,840 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:58,840 - craftBet -ERROR - GameID  = 3714933   selectorPoint = 0
+2022-08-31 10:14:58,840 - craftBet -ERROR - GameID  = 3714981   selectorPoint = 0
+2022-08-31 10:14:58,841 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:14:58,841 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:58,841 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:14:58,841 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:58,841 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:14:58,841 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:58,841 - craftBet -ERROR - GameID  = 3714933   selectorPoint = 0
+2022-08-31 10:14:58,842 - craftBet -ERROR - GameID  = 3714981   selectorPoint = 0
+2022-08-31 10:14:58,940 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:14:58,941 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:14:59,802 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:14:59,802 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:15:02,464 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:15:03,990 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:15:03,991 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:15:03,991 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:15:03,991 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:15:03,991 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:15:03,991 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:15:03,991 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:15:03,991 - craftBet -ERROR - GameID  = 3714933   selectorPoint = 0
+2022-08-31 10:15:03,991 - craftBet -ERROR - GameID  = 3714937   selectorPoint = 0
+2022-08-31 10:15:03,991 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:15:03,992 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:15:03,992 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:15:03,992 - craftBet -ERROR - GameID  = 3714933   selectorPoint = 0
+2022-08-31 10:15:03,992 - craftBet -ERROR - GameID  = 3714937   selectorPoint = 0
+2022-08-31 10:15:03,992 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:15:03,992 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:15:03,992 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:15:03,992 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:15:03,992 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:15:03,992 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:15:03,993 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:15:03,993 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:15:03,993 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:15:03,993 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:15:03,993 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:15:03,993 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:15:03,993 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:15:03,993 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:15:03,993 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:15:03,993 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:15:03,994 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:15:03,994 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:15:03,994 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:15:03,994 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:15:03,994 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:15:03,994 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:15:03,994 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:15:03,994 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:15:03,994 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:15:03,994 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:15:03,995 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:15:03,995 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:15:03,995 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:15:03,995 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:15:03,995 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:15:03,995 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:15:03,995 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:15:03,995 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:15:03,995 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:15:03,995 - craftBet -ERROR - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:15:03,996 - craftBet -ERROR - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:15:03,996 - craftBet -ERROR - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:15:04,856 - craftBet -ERROR - GameID  = 3714981   selectorPoint = 0
+2022-08-31 10:15:04,857 - craftBet -ERROR - GameID  = 3715762   selectorPoint = 0
+2022-08-31 10:15:05,106 - craftBet -ERROR - GameID  = 3714981   selectorPoint = 0
+2022-08-31 10:15:05,106 - craftBet -ERROR - GameID  = 3715762   selectorPoint = 0
+2022-08-31 10:15:05,262 - craftBet -ERROR - GameID  = 3714936   selectorPoint = 0
+2022-08-31 10:15:05,262 - craftBet -ERROR - GameID  = 3714941   selectorPoint = 0
+2022-08-31 10:15:05,419 - craftBet -ERROR - GameID  = 3714936   selectorPoint = 0
+2022-08-31 10:15:05,419 - craftBet -ERROR - GameID  = 3714941   selectorPoint = 0
+2022-08-31 10:15:05,419 - craftBet -INFO - Point count =  2626
+2022-08-31 10:15:05,419 - craftBet -INFO - Games with selector >= 1:  213
+2022-08-31 10:15:07,197 - craftBet -INFO - Browser closed
+2022-08-31 10:15:07,197 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-31 10:15:07,210 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-31 10:17:33,459 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-31 10:17:33,908 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-31 10:17:33,981 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-31 10:17:37,594 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-31 10:17:37,688 - craftBet -INFO - All Page elements are initialized
+2022-08-31 10:17:37,700 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-31 10:17:38,653 - craftBet -INFO - Get games Api call was sent
+2022-08-31 10:17:38,778 - craftBet -INFO - Games are 64
+2022-08-31 10:17:38,778 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-31 10:18:43,848 - craftBet -INFO - Point count =  2338
+2022-08-31 10:18:43,848 - craftBet -INFO - Games with selector >= 1:  0
+2022-08-31 10:18:44,011 - craftBet -INFO - Browser closed
+2022-08-31 10:18:44,012 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-31 10:18:44,027 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-31 10:20:16,434 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-31 10:20:16,862 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-31 10:20:16,895 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-31 10:20:19,682 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-31 10:20:19,762 - craftBet -INFO - All Page elements are initialized
+2022-08-31 10:20:19,774 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-31 10:20:20,757 - craftBet -INFO - Get games Api call was sent
+2022-08-31 10:20:20,889 - craftBet -INFO - Games are 63
+2022-08-31 10:20:20,890 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-31 10:20:20,933 - craftBet -INFO - Games Ides = 63
+2022-08-31 10:20:58,932 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-31 10:20:59,268 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-31 10:20:59,333 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-31 10:21:02,578 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-31 10:21:02,672 - craftBet -INFO - All Page elements are initialized
+2022-08-31 10:21:02,967 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-31 10:21:03,887 - craftBet -INFO - Get games Api call was sent
+2022-08-31 10:21:04,080 - craftBet -INFO - Games are 63
+2022-08-31 10:21:04,081 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-31 10:21:04,112 - craftBet -INFO - Games Ides = 63
+2022-08-31 10:21:29,078 - craftBet -INFO - Point count =  2345
+2022-08-31 10:21:29,078 - craftBet -INFO - Games with selector >= 1:  0
+2022-08-31 10:21:29,236 - craftBet -INFO - Browser closed
+2022-08-31 10:21:29,237 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-31 10:21:29,253 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-31 10:38:32,081 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-31 10:38:33,086 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-31 10:38:33,133 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-31 10:38:39,110 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-31 10:38:39,263 - craftBet -INFO - All Page elements are initialized
+2022-08-31 10:38:39,290 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-31 10:38:40,351 - craftBet -INFO - Get Matches Api call was sent
+2022-08-31 10:40:40,124 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-31 10:40:40,520 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-31 10:40:40,570 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-31 10:40:44,302 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-31 10:40:44,490 - craftBet -INFO - All Page elements are initialized
+2022-08-31 10:40:44,507 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-31 10:40:45,598 - craftBet -INFO - Get Matches Api call was sent
+2022-08-31 10:42:16,881 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-31 10:42:17,502 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-31 10:42:17,581 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-31 10:42:24,244 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-31 10:42:24,481 - craftBet -INFO - All Page elements are initialized
+2022-08-31 10:42:24,502 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-31 10:42:25,851 - craftBet -INFO - Get Matches Api call was sent

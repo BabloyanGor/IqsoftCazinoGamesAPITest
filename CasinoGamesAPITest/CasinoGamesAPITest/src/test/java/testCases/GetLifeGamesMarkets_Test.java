@@ -18,10 +18,10 @@ import java.util.ArrayList;
 
 import static java.lang.Double.parseDouble;
 
-public class GetPrematchGamesMarkets_Test extends BaseTest{
+public class GetLifeGamesMarkets_Test extends BaseTest{
 
 
-    public boolean getPreMatchGamesAPICheckMarkets(String getMatchIDAPI, String getMarketsAPI, String origin, String partnerName)
+    public boolean getLifeMatchGamesAPICheckMarkets(String getAllLifeGames, String marketOrigin,  String partnerName)
             throws UnirestException, JSONException, IOException {
 
         boolean isPassed;
@@ -37,66 +37,38 @@ public class GetPrematchGamesMarkets_Test extends BaseTest{
 
         ArrayList<String> errorSrcXl = new ArrayList<>();
 
+        Unirest.setTimeouts(0, 0);
+        HttpResponse<String> response = Unirest.get(getAllLifeGames).asString();
 
-//        Unirest.setTimeouts(0, 0);
-        HttpResponse<String> responseGetMatches = Unirest.get(getMatchIDAPI)
-                .header("origin", origin)
-                .asString();
+        logger.info("Get games Api call was sent");
+        JSONObject jsonObjectBody = new JSONObject(response.getBody());
+        JSONArray jsonArrayGames = jsonObjectBody.getJSONArray("Ms");
 
-        logger.info("Get Matches Api call was sent");
-        JSONObject jsonObjectBody = new JSONObject(responseGetMatches.getBody());
-        JSONArray jsonArrayAllSports = jsonObjectBody.getJSONArray("Ss");
+        logger.info("Games are " + jsonArrayGames.length());
 
-        for (int j = 0; j < jsonArrayAllSports.length(); j++) {
-            String oneSport = String.valueOf(jsonArrayAllSports.get(j));
-//            System.out.println(oneSport);
-//            System.out.println();
-            JSONObject jsonObjectSport = new JSONObject(oneSport);
-            JSONArray jsonArrayRegion = jsonObjectSport.getJSONArray("Rs");
+        logger.info("Get Life games Api Response was captured");
 
-            for (int m = 0; m < jsonArrayRegion.length(); m++) {
-                String oneRegion = String.valueOf(jsonArrayRegion.get(m));
-//                System.out.println(oneRegion);
-//                System.out.println();
-                JSONObject jsonObjectRegion = new JSONObject(oneRegion);
-                JSONArray jsonArrayCompetitions = jsonObjectRegion.getJSONArray("Cs");
+        for (int j = 0; j < jsonArrayGames.length(); j++) {
 
-                for (int n = 0; n < jsonArrayCompetitions.length(); n++) {
-                    String oneCompetition = String.valueOf(jsonArrayCompetitions.get(n));
-//                    System.out.println(oneCompetition);
-//                    System.out.println();
-                    JSONObject jsonObjectMatches = new JSONObject(oneCompetition);
-                    JSONArray jsonArrayMatches = jsonObjectMatches.getJSONArray("Ms");
-
-                    for (int l = 0; l < jsonArrayMatches.length(); l++) {
-                        String oneMatch = String.valueOf(jsonArrayMatches.get(l));
-                        JSONObject jsonObjectMatchID = new JSONObject(oneMatch);
-                        String matchID = jsonObjectMatchID.getString("MI");
-                        String startTime = jsonObjectMatchID.getString("ST");
-                        String isBlocked = jsonObjectMatchID.getString("IB");
-//                        System.out.println(oneMatch );
-//                        System.out.println(matchID);
-//                        System.out.println();
-                        gameIDs.add(matchID);
-                        StartTime.add(startTime);
-                        //System.out.println(k + "  matchID = " + matchID + "   startTimeIs = " + startTime + "   isBlocked = " + isBlocked );
-                        k++;
-                    }
-                }
-            }
+            String arrayObject = String.valueOf(jsonArrayGames.get(j));
+            JSONObject jsonObjectGame = new JSONObject(arrayObject);
+            String MI = jsonObjectGame.getString("MI");  // Game ID
+            gameIDs.add(MI);
         }
+
+        logger.info("Games Ides = " + gameIDs.size());
 
 //        craftBet_01_header_page.waitAction(2000);
         for (String gameId : gameIDs){
 
             Unirest.setTimeouts(0, 0);
-            HttpResponse<String> response = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getmarketsbymatchid?LanguageId=en&TimeZone=4&MatchId="+gameId+"&OddsType=0")
-                    .header("origin", getMarketsAPI)
+            HttpResponse<String> responseLifeGames = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getmarketsbymatchid?LanguageId=en&TimeZone=4&MatchId="+gameId+"&OddsType=0")
+                    .header("origin", marketOrigin)
                     .asString();
-            JSONObject jsonObjectMarketsResponseBody = new JSONObject(response.getBody());
+            JSONObject jsonObjectMarketsResponseBody = new JSONObject(responseLifeGames.getBody());
 //            System.out.println(jsonObjectMarketsResponseBody.toString());
             JSONArray jsonArrayAllMarkets = jsonObjectMarketsResponseBody.getJSONArray("Markets");
-            System.out.println(k);
+
             k--;
             for (int c = 0; c < jsonArrayAllMarkets.length(); c++) {
                 String oneMarket = String.valueOf(jsonArrayAllMarkets.get(c));
@@ -119,13 +91,11 @@ public class GetPrematchGamesMarkets_Test extends BaseTest{
                     selectorPointArray.add(selectorPoint);
                     nameSelectorArray.add(nameSelector);
                     isBlockedForSelectorArray.add(isBlockedSelector);
-                    if (isBlockedSelector.equals("true")){
-                        break;
-                    }
+
 //                    System.out.println(selectorPoint+"     "+nameSelector+"     "+isBlockedSelector);
                     try {
                         double point = parseDouble(selectorPoint);
-                        if (point<=1){
+                        if (point<=1 && isBlockedSelector.equals("false")){
                             // String errMessage = "GameID  = " + gameIDs.get(t) + "   MarketName = " + nameMarket + "   Selector = " + selectorPoint  + "   SelectorName" + nameSelector + "   Selector IsBlocked = " + isBlockedSelector;
                             String errMessage = "GameID  = " + gameIDs.get(t) + "   selectorPoint = " + selectorPoint;
                             errorSrcXl.add(errMessage);
@@ -164,10 +134,12 @@ public class GetPrematchGamesMarkets_Test extends BaseTest{
         }
         return isPassed;
     }
+
+
     @Test
-    public void gatPreMatchGamesMarket() throws UnirestException, JSONException, IOException {
+    public void gatLifeMatchGamesMarkets() throws UnirestException, JSONException, IOException {
         if (getGamesPartnerName.equals("Craftbet")){
-            if (getPreMatchGamesAPICheckMarkets(getPreMatchTree, getMarketByID, getPrematchTreeOrigin,getGamesPartnerName)){
+            if (getLifeMatchGamesAPICheckMarkets(getAllLifeGames, getMarketByIDOrigin,getGamesPartnerName)){
                 Assert.assertTrue(true);
             }
             else {
@@ -179,6 +151,4 @@ public class GetPrematchGamesMarkets_Test extends BaseTest{
             Assert.fail();
         }
     }
-
-
 }
