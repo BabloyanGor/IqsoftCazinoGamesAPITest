@@ -110,8 +110,6 @@ public class GetLifeGamesMarkets_Test extends BaseTest{
                 }
             }
         }
-
-
         logger.info("Point count =  " + pointCount);
         logger.info("Games with selector >= 1:  " + errorSrcXl.size());
         if (errorSrcXl.size() == 0) {
