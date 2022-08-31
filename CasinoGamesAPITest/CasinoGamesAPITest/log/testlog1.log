@@ -6662,3 +6662,655 @@
 2022-08-31 10:42:24,481 [main] INFO craftBet - All Page elements are initialized
 2022-08-31 10:42:24,502 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
 2022-08-31 10:42:25,851 [main] INFO craftBet - Get Matches Api call was sent
+2022-08-31 10:46:40,633 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-31 10:46:41,330 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-31 10:46:41,533 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-31 10:46:47,913 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-08-31 10:46:48,059 [main] INFO craftBet - All Page elements are initialized
+2022-08-31 10:46:48,082 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-31 10:46:52,161 [main] INFO craftBet - Get games Api call was sent
+2022-08-31 10:46:52,373 [main] INFO craftBet - Games are 66
+2022-08-31 10:46:52,374 [main] INFO craftBet - Get Life games Api Response was captured
+2022-08-31 10:46:52,424 [main] INFO craftBet - Games Ides = 66
+2022-08-31 10:48:26,538 [main] ERROR craftBet - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:48:26,609 [main] ERROR craftBet - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:48:26,716 [main] ERROR craftBet - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:48:26,718 [main] ERROR craftBet - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:48:26,999 [main] ERROR craftBet - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:48:27,000 [main] ERROR craftBet - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:48:27,003 [main] ERROR craftBet - GameID  = 3714932   selectorPoint = 0
+2022-08-31 10:48:27,034 [main] ERROR craftBet - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:48:27,035 [main] ERROR craftBet - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:48:27,035 [main] ERROR craftBet - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:48:27,036 [main] ERROR craftBet - GameID  = 3714937   selectorPoint = 0
+2022-08-31 10:48:27,036 [main] ERROR craftBet - GameID  = 3714936   selectorPoint = 0
+2022-08-31 10:48:27,042 [main] ERROR craftBet - GameID  = 3715769   selectorPoint = 0
+2022-08-31 10:48:27,045 [main] ERROR craftBet - GameID  = 3719671   selectorPoint = 0
+2022-08-31 10:48:27,046 [main] ERROR craftBet - GameID  = 3719670   selectorPoint = 0
+2022-08-31 10:48:27,046 [main] ERROR craftBet - GameID  = 3719672   selectorPoint = 0
+2022-08-31 10:48:27,077 [main] ERROR craftBet - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:48:27,078 [main] ERROR craftBet - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:48:27,082 [main] ERROR craftBet - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:48:27,121 [main] ERROR craftBet - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:48:27,123 [main] ERROR craftBet - GameID  = 3714929   selectorPoint = 0
+2022-08-31 10:48:27,123 [main] ERROR craftBet - GameID  = 3714930   selectorPoint = 0
+2022-08-31 10:48:52,730 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-31 10:48:53,146 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-31 10:48:53,186 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-31 10:49:00,160 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-08-31 10:49:00,295 [main] INFO craftBet - All Page elements are initialized
+2022-08-31 10:49:00,311 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-31 10:49:01,568 [main] INFO craftBet - Get games Api call was sent
+2022-08-31 10:49:01,661 [main] INFO craftBet - Games are 68
+2022-08-31 10:49:01,662 [main] INFO craftBet - Get Life games Api Response was captured
+2022-08-31 10:49:01,867 [main] INFO craftBet - Games Ides = 68
+2022-08-31 10:49:17,324 [main] INFO craftBet - Point count =  2346
+2022-08-31 10:49:17,325 [main] INFO craftBet - Games with selector >= 1:  0
+2022-08-31 10:49:19,369 [main] INFO craftBet - Browser closed
+2022-08-31 10:49:19,369 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-31 10:49:19,448 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-31 10:50:09,631 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-31 10:50:09,921 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-31 10:50:09,967 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-31 10:50:16,616 [main] INFO craftBet - URL: https://tetherbet.io  Browser: chrome
+2022-08-31 10:50:16,695 [main] INFO craftBet - All Page elements are initialized
+2022-08-31 10:50:16,711 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-31 10:50:21,418 [main] INFO craftBet - Get games Api call was sent
+2022-08-31 10:50:22,642 [main] INFO craftBet - Get games Api Response was captured
+2022-08-31 10:50:22,797 [main] INFO craftBet - All captured games images was added into ArrayList
+2022-08-31 11:09:21,564 [main] INFO craftBet - Broken images are:  0
+2022-08-31 11:09:21,581 [main] INFO craftBet - gamesImgTest--------------------------------------------------------->  Success
+2022-08-31 11:09:21,582 [main] INFO craftBet - gamesImgTest----------------------------------------------------------
+2022-08-31 11:09:21,777 [main] INFO craftBet - Browser closed
+2022-08-31 11:09:21,778 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-31 11:09:21,803 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-31 11:09:21,831 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-31 11:09:21,855 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-31 11:09:27,999 [main] INFO craftBet - URL: https://tetherbet.io  Browser: chrome
+2022-08-31 11:09:28,004 [main] INFO craftBet - All Page elements are initialized
+2022-08-31 11:09:28,344 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-31 11:09:31,869 [main] INFO craftBet - Get games Api call was sent
+2022-08-31 11:09:34,246 [main] INFO craftBet - Get games Api Response was captured
+2022-08-31 11:09:34,453 [main] INFO craftBet - All captured games images was added into ArrayList
+2022-08-31 11:13:15,158 [main] ERROR craftBet - 573   Game Provider Name = Greentube :   Game Name =  BookOfRaDeluxe6 :   cod = 404:   src = https://resources.tetherbet.io/products/greentube/mobile/book-of-ra-deluxe.png
+2022-08-31 11:29:05,471 [main] INFO craftBet - Broken images are:  1
+2022-08-31 11:29:10,372 [main] ERROR craftBet - mobileGamesImgTest--------------------------------------------------------->   Fail
+2022-08-31 11:29:10,372 [main] ERROR craftBet - mobileGamesImgTest-----------------------------------------------------------------
+2022-08-31 11:29:10,500 [main] INFO craftBet - Browser closed
+2022-08-31 11:29:10,500 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-31 11:29:10,505 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-31 11:29:15,358 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-31 11:29:15,380 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-31 11:29:22,516 [main] INFO craftBet - URL: https://tetherbet.io  Browser: chrome
+2022-08-31 11:29:22,519 [main] INFO craftBet - All Page elements are initialized
+2022-08-31 11:29:22,531 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-31 11:29:23,582 [main] INFO craftBet - username passed
+2022-08-31 11:29:23,682 [main] INFO craftBet - password passed
+2022-08-31 11:29:23,783 [main] INFO craftBet - Log In Button was clicked
+2022-08-31 11:29:29,263 [main] INFO craftBet - Token was captured 79f359b07ec1451b9bf4de82d63c9fda
+2022-08-31 11:29:32,891 [main] INFO craftBet - Get All games API call 
+2022-08-31 11:29:33,238 [main] INFO craftBet - From Get All games API call body captured 
+2022-08-31 11:29:35,353 [main] INFO craftBet - From Get All games API productIDes and Names was captured 
+2022-08-31 11:29:40,486 [main] INFO craftBet - 1 10 ID=23227 Provider=Amatic Name=Book of Fortune cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:29:44,778 [main] INFO craftBet - 2 21 ID=23252 Provider=Amatic Name=Diamond Cats cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:29:58,294 [main] INFO craftBet - 3 57 ID=23229 Provider=Amatic Name=Lovely Lady cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:30:00,191 [main] INFO craftBet - 4 62 ID=23753 Provider=RelaxGaming Name=Money Train 2 cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:30:17,803 [main] INFO craftBet - 5 109 ID=23269 Provider=Amatic Name=Wild Shark cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:30:20,320 [main] INFO craftBet - 6 114 ID=2441 Provider=EGT Name=Zodiac Wheel cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:30:20,640 [main] INFO craftBet - 7 115 ID=23226 Provider=Amatic Name=A Book of Aztec cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:30:31,021 [main] INFO craftBet - 8 133 ID=23305 Provider=IGT Name=100 Pandas cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:30:36,331 [main] INFO craftBet - 9 144 ID=2404 Provider=EGT Name=2 Dragons cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:30:36,799 [main] INFO craftBet - 10 145 ID=28843 Provider=Yggdrasil Name=2 Gods Zeus VS Thor cod=0 description=null ResponseObject=24
+2022-08-31 11:30:37,790 [main] INFO craftBet - 11 147 ID=2401 Provider=EGT Name=20 Diamonds cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:30:38,817 [main] INFO craftBet - 12 149 ID=2402 Provider=EGT Name=20 Super Dice cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:30:46,188 [main] INFO craftBet - 13 161 ID=53030 Provider=Mascot Name=3 Corsairs cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:30:54,117 [main] INFO craftBet - 14 176 ID=2405 Provider=EGT Name=40 Super Dice cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:30:56,789 [main] INFO craftBet - 15 183 ID=2409 Provider=EGT Name=5 Hot Dice cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:30:58,672 [main] INFO craftBet - 16 187 ID=2407 Provider=EGT Name=50 Horses cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:31:20,459 [main] INFO craftBet - 17 232 ID=23225 Provider=Amatic Name=Admiral Nelson cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:31:41,187 [main] INFO craftBet - 18 271 ID=25700 Provider=Yggdrasil Name=AllStarKnockout cod=0 description=null ResponseObject=24
+2022-08-31 11:31:41,639 [main] INFO craftBet - 19 272 ID=25194 Provider=Yggdrasil Name=AllStarKnockoutUltraGamble cod=0 description=null ResponseObject=24
+2022-08-31 11:31:42,020 [main] INFO craftBet - 20 273 ID=23235 Provider=Amatic Name=Allways Fruits cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:31:44,465 [main] INFO craftBet - 21 278 ID=2411 Provider=EGT Name=Amazing Amazonia cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:31:48,666 [main] INFO craftBet - 22 286 ID=75340 Provider=Ganapati Name=American Kombat cod=0 description=null ResponseObject=24
+2022-08-31 11:32:06,036 [main] INFO craftBet - 23 320 ID=27731 Provider=PariPlay Name=ArcticMadness cod=0 description=null ResponseObject=24
+2022-08-31 11:32:07,221 [main] INFO craftBet - 24 323 ID=23245 Provider=Amatic Name=Arising Phoenix cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:32:07,582 [main] INFO craftBet - 25 324 ID=23014 Provider=QuickSpin Name=Ark of Mystery cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:32:12,749 [main] INFO craftBet - 26 334 ID=27172 Provider=Apollo Name=Atlantis cod=0 description=null ResponseObject=24
+2022-08-31 11:32:20,842 [main] INFO craftBet - 27 349 ID=23246 Provider=Amatic Name=Aztec Secret cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:32:27,328 [main] INFO craftBet - 28 361 ID=75976 Provider=Yggdrasil Name=Baccarat cod=0 description=null ResponseObject=24
+2022-08-31 11:32:30,232 [main] INFO craftBet - 29 367 ID=75977 Provider=Yggdrasil Name=Baccarat VIP cod=0 description=null ResponseObject=24
+2022-08-31 11:32:33,490 [main] INFO craftBet - 30 373 ID=53013 Provider=Mascot Name=Bamboo Bear cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:32:47,587 [main] INFO craftBet - 31 398 ID=53026 Provider=Mascot Name=Bastet and Cats cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:33:01,514 [main] INFO craftBet - 32 425 ID=23232 Provider=Amatic Name=Bells on Fire cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:33:01,817 [main] INFO craftBet - 33 426 ID=23247 Provider=Amatic Name=Bells on Fire HOT cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:33:02,160 [main] INFO craftBet - 34 427 ID=23248 Provider=Amatic Name=Bells on Fire ROMBO cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:33:02,890 [main] INFO craftBet - 35 429 ID=53021 Provider=Mascot Name=Benny's the Biggest game cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:33:03,767 [main] INFO craftBet - 36 431 ID=28341 Provider=ISoftBet Name=Bewitched cod=0 description=null ResponseObject=24
+2022-08-31 11:33:06,878 [main] INFO craftBet - 37 436 ID=23741 Provider=QuickSpin Name=Big Bad Wolf cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:33:08,560 [main] INFO craftBet - 38 440 ID=23725 Provider=QuickSpin Name=Big Bot Crew cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:33:10,725 [main] INFO craftBet - 39 445 ID=23396 Provider=Amatic Name=Big Panda cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:33:13,569 [main] INFO craftBet - 40 452 ID=23249 Provider=Amatic Name=Billyonaire cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:33:40,500 [main] INFO craftBet - 41 497 ID=23231 Provider=Amatic Name=Blue Dolphin cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:33:41,771 [main] INFO craftBet - 42 498 ID=2412 Provider=EGT Name=Blue Heart cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:34:34,761 [main] INFO craftBet - 43 585 ID=26042 Provider=BoomingGames Name=BoomingCircus cod=0 description=null ResponseObject=24
+2022-08-31 11:34:42,090 [main] INFO craftBet - 44 599 ID=29944 Provider=Yggdrasil Name=Brawl At the RedCap Inn cod=0 description=null ResponseObject=24
+2022-08-31 11:34:42,973 [main] INFO craftBet - 45 601 ID=25045 Provider=Microgaming Name=BreakAwayLuckyWilds cod=0 description=null ResponseObject=24
+2022-08-31 11:34:44,086 [main] INFO craftBet - 46 603 ID=27997 Provider=Microgaming Name=Bridesmaids cod=0 description=null ResponseObject=24
+2022-08-31 11:34:58,036 [main] INFO craftBet - 47 630 ID=2414 Provider=EGT Name=Burning Dice cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:35:21,224 [main] INFO craftBet - 48 673 ID=28840 Provider=Yggdrasil Name=Carol of the Elves cod=0 description=null ResponseObject=24
+2022-08-31 11:35:22,010 [main] INFO craftBet - 49 675 ID=23289 Provider=IGT Name=Cash Coaster cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:35:27,239 [main] INFO craftBet - 50 686 ID=28162 Provider=Microgaming Name=Cashville cod=0 description=null ResponseObject=24
+2022-08-31 11:35:27,972 [main] INFO craftBet - 51 688 ID=28499 Provider=ISoftBet Name=Casino High Low cod=0 description=null ResponseObject=24
+2022-08-31 11:35:28,599 [main] INFO craftBet - 52 690 ID=2416 Provider=EGT Name=Casino Mania cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:35:30,182 [main] INFO craftBet - 53 694 ID=23250 Provider=Amatic Name=Casinova cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:35:33,170 [main] INFO craftBet - 54 701 ID=2400 Provider=EGT Name=Cats cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:35:33,540 [main] INFO craftBet - 55 702 ID=23290 Provider=IGT Name=Cats cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:35:35,376 [main] INFO craftBet - 56 706 ID=26409 Provider=Yggdrasil Name=CazinoCosmos cod=0 description=null ResponseObject=24
+2022-08-31 11:35:38,183 [main] INFO craftBet - 57 712 ID=26980 Provider=Yggdrasil Name=ChampionsofRome cod=0 description=null ResponseObject=24
+2022-08-31 11:35:39,365 [main] INFO craftBet - 58 714 ID=23748 Provider=Hacksaw Name=Chaos Crew cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:35:46,868 [main] INFO craftBet - 59 726 ID=27237 Provider=Yggdrasil Name=Chibeasties2 cod=0 description=null ResponseObject=24
+2022-08-31 11:35:47,849 [main] INFO craftBet - 60 728 ID=25876 Provider=BoomingGames Name=ChickenParty cod=0 description=null ResponseObject=24
+2022-08-31 11:35:59,589 [main] INFO craftBet - 61 750 ID=28832 Provider=Yggdrasil Name=Christmas Tree cod=0 description=null ResponseObject=24
+2022-08-31 11:36:05,229 [main] INFO craftBet - 62 762 ID=23291 Provider=IGT Name=Cleopatra cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:36:07,789 [main] INFO craftBet - 63 768 ID=28338 Provider=ISoftBet Name=CloudTales cod=0 description=null ResponseObject=24
+2022-08-31 11:36:12,069 [main] INFO craftBet - 64 778 ID=26294 Provider=BoomingGames Name=ColossalFruitSmash cod=0 description=null ResponseObject=24
+2022-08-31 11:36:13,551 [main] INFO craftBet - 65 781 ID=23726 Provider=QuickSpin Name=Colossus cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:36:17,427 [main] INFO craftBet - 66 788 ID=23251 Provider=Amatic Name=Cool Diamonds II cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:36:20,048 [main] INFO craftBet - 67 794 ID=26401 Provider=Fugaso Name=CosaNostra cod=0 description=null ResponseObject=24
+2022-08-31 11:36:20,471 [main] INFO craftBet - 68 795 ID=29318 Provider=Leander Name=Cosmic Fusion cod=0 description=null ResponseObject=24
+2022-08-31 11:36:24,372 [main] INFO craftBet - 69 802 ID=23292 Provider=IGT Name=Coyote Moon cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:36:27,039 [main] INFO craftBet - 70 808 ID=26397 Provider=Fugaso Name=CrazyBot cod=0 description=null ResponseObject=24
+2022-08-31 11:36:28,032 [main] INFO craftBet - 71 810 ID=27706 Provider=Microgaming Name=CrazyChameleons cod=0 description=null ResponseObject=24
+2022-08-31 11:36:29,418 [main] INFO craftBet - 72 813 ID=29619 Provider=Yggdrasil Name=Crazy Mix cod=0 description=null ResponseObject=24
+2022-08-31 11:36:39,304 [main] INFO craftBet - 73 832 ID=23742 Provider=QuickSpin Name=Crystal Queen cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:36:48,333 [main] INFO craftBet - 74 848 ID=27236 Provider=Yggdrasil Name=Cyrusthevirus cod=0 description=null ResponseObject=24
+2022-08-31 11:36:57,649 [main] INFO craftBet - 75 866 ID=23294 Provider=IGT Name=Day of the Dead cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:37:01,388 [main] INFO craftBet - 76 873 ID=26332 Provider=Fugaso Name=DeepBlueSea cod=0 description=null ResponseObject=24
+2022-08-31 11:37:16,997 [main] INFO craftBet - 77 902 ID=23253 Provider=Amatic Name=Diamond Monkey cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:37:17,322 [main] INFO craftBet - 78 903 ID=23295 Provider=IGT Name=Diamond Queen cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:37:21,196 [main] INFO craftBet - 79 911 ID=23254 Provider=Amatic Name=Diamonds on Fire cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:37:22,435 [main] INFO craftBet - 80 913 ID=2417 Provider=EGT Name=Dice Of Ra cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:37:29,466 [main] INFO craftBet - 81 929 ID=23727 Provider=QuickSpin Name=Divine Dreams cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:37:33,197 [main] INFO craftBet - 82 937 ID=28156 Provider=ISoftBet Name=Dolphin'sIsland cod=0 description=null ResponseObject=24
+2022-08-31 11:37:35,932 [main] INFO craftBet - 83 941 ID=25428 Provider=Fugaso Name=DonSlottione cod=0 description=null ResponseObject=24
+2022-08-31 11:37:38,218 [main] INFO craftBet - 84 946 ID=26405 Provider=Fugaso Name=DoubleCash cod=0 description=null ResponseObject=24
+2022-08-31 11:37:41,456 [main] INFO craftBet - 85 953 ID=27761 Provider=Microgaming Name=DoubleWammy cod=0 description=null ResponseObject=24
+2022-08-31 11:37:42,662 [main] INFO craftBet - 86 956 ID=27234 Provider=Yggdrasil Name=Doubles cod=0 description=null ResponseObject=24
+2022-08-31 11:37:56,028 [main] INFO craftBet - 87 980 ID=23728 Provider=QuickSpin Name=Dragon Shrine cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:38:02,164 [main] INFO craftBet - 88 993 ID=23255 Provider=Amatic Name=Dragons Kingdom cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:38:04,917 [main] INFO craftBet - 89 998 ID=23236 Provider=Amatic Name=Dragon's Pearl cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:38:11,376 [main] INFO craftBet - 90 1012 ID=23729 Provider=QuickSpin Name=Durian Dynamite cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:38:12,172 [main] INFO craftBet - 91 1014 ID=26979 Provider=Yggdrasil Name=DwarfMine cod=0 description=null ResponseObject=24
+2022-08-31 11:38:13,602 [main] INFO craftBet - 92 1017 ID=23781 Provider=QuickSpin Name=Dwarfs Gone Wild cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:38:21,814 [main] INFO craftBet - 93 1032 ID=23730 Provider=QuickSpin Name=Eastern Emeralds cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:38:34,181 [main] INFO craftBet - 94 1053 ID=28836 Provider=Yggdrasil Name=Elemental Princess cod=0 description=null ResponseObject=24
+2022-08-31 11:38:56,014 [main] INFO craftBet - 95 1096 ID=25370 Provider=GameArt Name=ExplosiveReels cod=0 description=null ResponseObject=24
+2022-08-31 11:38:56,481 [main] INFO craftBet - 96 1097 ID=2418 Provider=EGT Name=Extra Joker cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:38:56,922 [main] INFO craftBet - 97 1098 ID=2420 Provider=EGT Name=Extremely Hot cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:38:58,905 [main] INFO craftBet - 98 1102 ID=23234 Provider=Amatic Name=Eye of Ra cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:39:03,667 [main] INFO craftBet - 99 1113 ID=23731 Provider=QuickSpin Name=Fairy Gate cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:39:09,628 [main] INFO craftBet - 100 1126 ID=29986 Provider=PushGaming Name=Fat Rabbit cod=0 description=null ResponseObject=24
+2022-08-31 11:39:10,722 [main] INFO craftBet - 101 1128 ID=26508 Provider=Fugaso Name=FearTheZombies cod=0 description=null ResponseObject=24
+2022-08-31 11:39:16,837 [main] INFO craftBet - 102 1141 ID=23256 Provider=Amatic Name=Fire & Ice cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:39:22,032 [main] INFO craftBet - 103 1151 ID=23296 Provider=IGT Name=Fire Opals cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:39:48,548 [main] INFO craftBet - 104 1200 ID=23237 Provider=Amatic Name=Fortuna's Fruits cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:39:54,704 [main] INFO craftBet - 105 1211 ID=2422 Provider=EGT Name=Fortune Spells cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:40:03,679 [main] INFO craftBet - 106 1230 ID=26379 Provider=Fugaso Name=FromChinawithLove cod=0 description=null ResponseObject=24
+2022-08-31 11:40:11,041 [main] INFO craftBet - 107 1243 ID=28155 Provider=ISoftBet Name=FruitBoxes cod=0 description=null ResponseObject=24
+2022-08-31 11:40:14,887 [main] INFO craftBet - 108 1249 ID=53027 Provider=Mascot Name=Fruit Macau cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:40:16,330 [main] INFO craftBet - 109 1252 ID=53028 Provider=Mascot Name=Fruit Monaco cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:40:22,219 [main] INFO craftBet - 110 1261 ID=53019 Provider=Mascot Name=Fruit Vegas cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:40:34,519 [main] INFO craftBet - 111 1285 ID=26407 Provider=Fugaso Name=FruitsofNeon cod=0 description=null ResponseObject=24
+2022-08-31 11:40:48,556 [main] INFO craftBet - 112 1311 ID=2356 Provider=EGT Name=Game Of Luck cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:40:49,890 [main] INFO craftBet - 113 1313 ID=25497 Provider=Microgaming Name=GameofThrones(15Lines) cod=0 description=null ResponseObject=24
+2022-08-31 11:40:54,381 [main] INFO craftBet - 114 1321 ID=23297 Provider=IGT Name=Garden Party cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:40:58,556 [main] INFO craftBet - 115 1328 ID=27230 Provider=Yggdrasil Name=GemRocks cod=0 description=null ResponseObject=24
+2022-08-31 11:40:58,912 [main] INFO craftBet - 116 1329 ID=29549 Provider=ISoftBet Name=Gem Roulette cod=0 description=null ResponseObject=24
+2022-08-31 11:40:59,636 [main] INFO craftBet - 117 1331 ID=23257 Provider=Amatic Name=Gem Star cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:41:05,555 [main] INFO craftBet - 118 1342 ID=26492 Provider=Fugaso Name=GemstoneofAztec cod=0 description=null ResponseObject=24
+2022-08-31 11:41:06,192 [main] INFO craftBet - 119 1344 ID=53015 Provider=Mascot Name=Gemz Grow cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:41:07,395 [main] INFO craftBet - 120 1347 ID=23743 Provider=QuickSpin Name=Genies Touch cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:41:15,508 [main] INFO craftBet - 121 1364 ID=75277 Provider=Yggdrasil Name=Glory of Heroes cod=0 description=null ResponseObject=24
+2022-08-31 11:41:18,320 [main] INFO craftBet - 122 1369 ID=26357 Provider=Fugaso Name=Goblin'sLand cod=0 description=null ResponseObject=24
+2022-08-31 11:41:38,470 [main] INFO craftBet - 123 1404 ID=23258 Provider=Amatic Name=Golden Book cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:41:44,749 [main] INFO craftBet - 124 1418 ID=27229 Provider=Yggdrasil Name=GoldenFishtank cod=0 description=null ResponseObject=24
+2022-08-31 11:41:58,657 [main] INFO craftBet - 125 1446 ID=29192 Provider=Leander Name=Golden Wild cod=0 description=null ResponseObject=24
+2022-08-31 11:41:59,771 [main] INFO craftBet - 126 1449 ID=23021 Provider=QuickSpin Name=Goldilocks & Wild Bears cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:42:00,757 [main] INFO craftBet - 127 1450 ID=23015 Provider=QuickSpin Name=Gold Lab cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:42:04,051 [main] INFO craftBet - 128 1456 ID=2424 Provider=EGT Name=Grace Of Cleopatra cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:42:05,887 [main] INFO craftBet - 129 1459 ID=23298 Provider=IGT Name=Grand Monarch cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:42:06,272 [main] INFO craftBet - 130 1460 ID=26394 Provider=Fugaso Name=GrandSumo cod=0 description=null ResponseObject=24
+2022-08-31 11:42:12,990 [main] INFO craftBet - 131 1475 ID=53020 Provider=Mascot Name=Gryphons Castle cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:42:18,502 [main] INFO craftBet - 132 1485 ID=27697 Provider=Microgaming Name=Halloween cod=0 description=null ResponseObject=24
+2022-08-31 11:42:22,187 [main] INFO craftBet - 133 1491 ID=27228 Provider=Yggdrasil Name=Hanzo'sDojo cod=0 description=null ResponseObject=24
+2022-08-31 11:42:31,684 [main] INFO craftBet - 134 1512 ID=53022 Provider=Mascot Name=Hell'Sing cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:42:34,087 [main] INFO craftBet - 135 1518 ID=23783 Provider=QuickSpin Name=Hidden Valley cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:42:35,557 [main] INFO craftBet - 136 1521 ID=27628 Provider=Microgaming Name=Highlander cod=0 description=null ResponseObject=24
+2022-08-31 11:42:41,250 [main] INFO craftBet - 137 1535 ID=27226 Provider=Yggdrasil Name=Holmes&thestolenstones cod=0 description=null ResponseObject=24
+2022-08-31 11:42:44,288 [main] INFO craftBet - 138 1542 ID=26353 Provider=Fugaso Name=HorrorCastle cod=0 description=null ResponseObject=24
+2022-08-31 11:42:45,592 [main] INFO craftBet - 139 1545 ID=75171 Provider=Apollo Name=Horus Eye cod=0 description=null ResponseObject=24
+2022-08-31 11:42:51,276 [main] INFO craftBet - 140 1556 ID=23243 Provider=Amatic Name=Hot Diamonds cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:42:57,842 [main] INFO craftBet - 141 1563 ID=23259 Provider=Amatic Name=Hot Scatter cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:42:58,132 [main] INFO craftBet - 142 1564 ID=23233 Provider=Amatic Name=Hot Seven cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:43:02,124 [main] INFO craftBet - 143 1573 ID=23260 Provider=Amatic Name=Hot Star cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:43:02,481 [main] INFO craftBet - 144 1574 ID=23732 Provider=QuickSpin Name=Hot Sync cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:43:04,720 [main] INFO craftBet - 145 1577 ID=23242 Provider=Amatic Name=Hot Twenty cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:43:12,501 [main] INFO craftBet - 146 1592 ID=29981 Provider=PushGaming Name=Humpty Dumpty cod=0 description=null ResponseObject=24
+2022-08-31 11:43:19,932 [main] INFO craftBet - 147 1602 ID=25767 Provider=Yggdrasil Name=IceandFire cod=0 description=null ResponseObject=24
+2022-08-31 11:43:24,392 [main] INFO craftBet - 148 1611 ID=23744 Provider=QuickSpin Name=Illuminous cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:43:26,220 [main] INFO craftBet - 149 1615 ID=29983 Provider=PushGaming Name=Immortal Guild cod=0 description=null ResponseObject=24
+2022-08-31 11:43:32,364 [main] INFO craftBet - 150 1623 ID=2425 Provider=EGT Name=Inca Gold II cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:43:44,871 [main] INFO craftBet - 151 1645 ID=23754 Provider=RelaxGaming Name=Iron Bank cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:43:47,738 [main] INFO craftBet - 152 1650 ID=23784 Provider=QuickSpin Name=Ivan and the Immortal King cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:43:58,673 [main] INFO craftBet - 153 1670 ID=29948 Provider=Yggdrasil Name=Jambo Cash cod=0 description=null ResponseObject=24
+2022-08-31 11:44:01,777 [main] INFO craftBet - 154 1676 ID=28167 Provider=ISoftBet Name=JesterTrio cod=0 description=null ResponseObject=24
+2022-08-31 11:44:04,372 [main] INFO craftBet - 155 1682 ID=23299 Provider=IGT Name=Jewel of the Arts cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:44:25,369 [main] INFO craftBet - 156 1712 ID=23785 Provider=QuickSpin Name=Joker Strike cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:44:45,804 [main] INFO craftBet - 157 1752 ID=2426 Provider=EGT Name=Kashmir Gold cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:45:00,233 [main] INFO craftBet - 158 1777 ID=23300 Provider=IGT Name=Kitty Glitter cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:45:01,405 [main] INFO craftBet - 159 1779 ID=26388 Provider=Fugaso Name=Knockout cod=0 description=null ResponseObject=24
+2022-08-31 11:45:06,110 [main] INFO craftBet - 160 1788 ID=29345 Provider=Yggdrasil Name=Labyrinth of Knossos Multijump cod=0 description=null ResponseObject=24
+2022-08-31 11:45:06,443 [main] INFO craftBet - 161 1789 ID=23238 Provider=Amatic Name=Lady Joker cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:45:11,343 [main] INFO craftBet - 162 1799 ID=26490 Provider=Fugaso Name=Lapland cod=0 description=null ResponseObject=24
+2022-08-31 11:45:18,275 [main] INFO craftBet - 163 1814 ID=28655 Provider=PlaysonDirect Name=Legend of Cleopatra Megaways cod=0 description=null ResponseObject=24
+2022-08-31 11:45:22,338 [main] INFO craftBet - 164 1822 ID=27220 Provider=Yggdrasil Name=LegendoftheWhiteSnakeLady cod=0 description=null ResponseObject=24
+2022-08-31 11:45:25,865 [main] INFO craftBet - 165 1830 ID=53017 Provider=Mascot Name=Legioner cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:45:28,564 [main] INFO craftBet - 166 1836 ID=23724 Provider=QuickSpin Name=Leprechaun Hills cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:45:30,320 [main] INFO craftBet - 167 1839 ID=76131 Provider=Yggdrasil Name=Let It Slide cod=0 description=null ResponseObject=24
+2022-08-31 11:45:32,180 [main] INFO craftBet - 168 1843 ID=26443 Provider=Yggdrasil Name=Lilith'sInferno cod=0 description=null ResponseObject=24
+2022-08-31 11:45:34,985 [main] INFO craftBet - 169 1849 ID=53002 Provider=Mascot Name=Lions Pride cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:45:44,755 [main] INFO craftBet - 170 1870 ID=29601 Provider=Yggdrasil Name=Lotsa Lines cod=0 description=null ResponseObject=24
+2022-08-31 11:45:47,937 [main] INFO craftBet - 171 1876 ID=26471 Provider=Microgaming Name=LoveIsland cod=0 description=null ResponseObject=24
+2022-08-31 11:45:52,940 [main] INFO craftBet - 172 1886 ID=2427 Provider=EGT Name=Lucky And Wild cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:45:53,744 [main] INFO craftBet - 173 1888 ID=23261 Provider=Amatic Name=Lucky Bells cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:45:57,157 [main] INFO craftBet - 174 1896 ID=23228 Provider=Amatic Name=Lucky Coin cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:46:03,812 [main] INFO craftBet - 175 1909 ID=2428 Provider=EGT Name=Lucky Hot cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:46:08,876 [main] INFO craftBet - 176 1919 ID=26663 Provider=Evoplay Name=LuckyMahjongBox cod=0 description=null ResponseObject=24
+2022-08-31 11:46:11,985 [main] INFO craftBet - 177 1925 ID=25212 Provider=Yggdrasil Name=LuckyNeko cod=0 description=null ResponseObject=24
+2022-08-31 11:46:16,170 [main] INFO craftBet - 178 1933 ID=27896 Provider=Microgaming Name=LuckyTwins cod=0 description=null ResponseObject=24
+2022-08-31 11:46:27,052 [main] INFO craftBet - 179 1955 ID=26429 Provider=Fugaso Name=MagicDestiny cod=0 description=null ResponseObject=24
+2022-08-31 11:46:33,071 [main] INFO craftBet - 180 1968 ID=23230 Provider=Amatic Name=Magic Idol cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:46:37,097 [main] INFO craftBet - 181 1977 ID=23262 Provider=Amatic Name=Magic Owl cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:46:50,072 [main] INFO craftBet - 182 1998 ID=2429 Provider=EGT Name=Majestic Forest cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:47:03,382 [main] INFO craftBet - 183 2016 ID=23301 Provider=IGT Name=Masques of San Marco cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:47:06,941 [main] INFO craftBet - 184 2025 ID=23302 Provider=IGT Name=Mayan Riches cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:47:08,170 [main] INFO craftBet - 185 2027 ID=23018 Provider=QuickSpin Name=Mayana cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:47:10,222 [main] INFO craftBet - 186 2031 ID=25141 Provider=Yggdrasil Name=Medusa:Fortune&Glory cod=0 description=null ResponseObject=24
+2022-08-31 11:47:10,879 [main] INFO craftBet - 187 2033 ID=28372 Provider=ISoftBet Name=MegaBoy cod=0 description=null ResponseObject=24
+2022-08-31 11:47:11,238 [main] INFO craftBet - 188 2034 ID=29273 Provider=GameArt Name=Mega Bunny HyperWays cod=0 description=null ResponseObject=24
+2022-08-31 11:47:14,207 [main] INFO craftBet - 189 2040 ID=26385 Provider=Fugaso Name=MegaPowerHeroes cod=0 description=null ResponseObject=24
+2022-08-31 11:47:14,617 [main] INFO craftBet - 190 2041 ID=27439 Provider=ISoftBet Name=MegaBoy cod=0 description=null ResponseObject=24
+2022-08-31 11:47:18,110 [main] INFO craftBet - 191 2049 ID=53009 Provider=Mascot Name=Merlin's Tower cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:47:18,983 [main] INFO craftBet - 192 2052 ID=23241 Provider=Amatic Name=Mermaid's Gold cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:47:19,557 [main] INFO craftBet - 193 2054 ID=23263 Provider=Amatic Name=Merry Fruits cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:47:19,847 [main] INFO craftBet - 194 2055 ID=53023 Provider=Mascot Name=Merry Scary Christmas cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:47:27,437 [main] INFO craftBet - 195 2069 ID=23019 Provider=QuickSpin Name=Mighty Arthur cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:47:35,040 [main] INFO craftBet - 196 2084 ID=23303 Provider=IGT Name=Miss Red cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:47:57,513 [main] INFO craftBet - 197 2128 ID=23733 Provider=QuickSpin Name=Mountain King cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:47:59,939 [main] INFO craftBet - 198 2133 ID=26424 Provider=Fugaso Name=MrToxicus cod=0 description=null ResponseObject=24
+2022-08-31 11:48:19,218 [main] INFO craftBet - 199 2172 ID=75789 Provider=GameArt Name=Nefertiti HyperWays cod=0 description=null ResponseObject=24
+2022-08-31 11:48:21,988 [main] INFO craftBet - 200 2177 ID=2430 Provider=EGT Name=Neon Dice cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:48:26,498 [main] INFO craftBet - 201 2186 ID=26642 Provider=Yggdrasil Name=NiagaraFalls cod=0 description=null ResponseObject=24
+2022-08-31 11:48:33,970 [main] INFO craftBet - 202 2197 ID=26469 Provider=Yggdrasil Name=NikolaTesla’sIncredibleMachine cod=0 description=null ResponseObject=24
+2022-08-31 11:48:35,371 [main] INFO craftBet - 203 2200 ID=28345 Provider=ISoftBet Name=NinjaChef cod=0 description=null ResponseObject=24
+2022-08-31 11:48:37,127 [main] INFO craftBet - 204 2205 ID=23304 Provider=IGT Name=Noahs Ark cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:48:38,773 [main] INFO craftBet - 205 2208 ID=23734 Provider=QuickSpin Name=Northern Sky cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:48:43,994 [main] INFO craftBet - 206 2217 ID=28960 Provider=Evoplay Name=Oasis Poker Pro Series cod=0 description=null ResponseObject=24
+2022-08-31 11:48:49,975 [main] INFO craftBet - 207 2229 ID=2431 Provider=EGT Name=Oil Company II cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:48:51,814 [main] INFO craftBet - 208 2233 ID=26491 Provider=Fugaso Name=Olympia cod=0 description=null ResponseObject=24
+2022-08-31 11:49:02,611 [main] INFO craftBet - 209 2254 ID=23306 Provider=IGT Name=Pamplona cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:49:11,069 [main] INFO craftBet - 210 2268 ID=23264 Provider=Amatic Name=Party Time cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:49:31,741 [main] INFO craftBet - 211 2306 ID=23017 Provider=QuickSpin Name=Phoenix Sun cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:49:32,838 [main] INFO craftBet - 212 2309 ID=27630 Provider=Microgaming Name=PickaFortune cod=0 description=null ResponseObject=24
+2022-08-31 11:49:33,724 [main] INFO craftBet - 213 2311 ID=23735 Provider=QuickSpin Name=Pied Piper cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:49:45,437 [main] INFO craftBet - 214 2333 ID=23736 Provider=QuickSpin Name=Pirates Charm cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:49:48,318 [main] INFO craftBet - 215 2340 ID=26507 Provider=Fugaso Name=PlaguesofEgypt cod=0 description=null ResponseObject=24
+2022-08-31 11:49:56,548 [main] INFO craftBet - 216 2356 ID=25646 Provider=Yggdrasil Name=PopRocks cod=0 description=null ResponseObject=24
+2022-08-31 11:50:01,237 [main] INFO craftBet - 217 2364 ID=26346 Provider=Fugaso Name=PowerofAsia cod=0 description=null ResponseObject=24
+2022-08-31 11:50:06,755 [main] INFO craftBet - 218 2374 ID=27214 Provider=Yggdrasil Name=PowerPlant cod=0 description=null ResponseObject=24
+2022-08-31 11:50:10,315 [main] INFO craftBet - 219 2381 ID=53024 Provider=Mascot Name=Prince of Persia: Persepolis cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:50:15,121 [main] INFO craftBet - 220 2392 ID=23307 Provider=IGT Name=Prowling Panther cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:50:20,209 [main] INFO craftBet - 221 2402 ID=53010 Provider=Mascot Name=Purple Pills cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:50:29,672 [main] INFO craftBet - 222 2419 ID=53029 Provider=Mascot Name=Queen of Spades cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:50:39,170 [main] INFO craftBet - 223 2439 ID=27210 Provider=Yggdrasil Name=RainbowRyan cod=0 description=null ResponseObject=24
+2022-08-31 11:50:42,210 [main] INFO craftBet - 224 2446 ID=23011 Provider=QuickSpin Name=Razortooth cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:50:43,527 [main] INFO craftBet - 225 2450 ID=23265 Provider=Amatic Name=Red Chilli cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:50:47,223 [main] INFO craftBet - 226 2456 ID=53016 Provider=Mascot Name=Red Horde cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:50:52,655 [main] INFO craftBet - 227 2464 ID=27209 Provider=Yggdrasil Name=Reefrun cod=0 description=null ResponseObject=24
+2022-08-31 11:50:53,055 [main] INFO craftBet - 228 2465 ID=29346 Provider=Yggdrasil Name=Reel Desire cod=0 description=null ResponseObject=24
+2022-08-31 11:51:00,430 [main] INFO craftBet - 229 2481 ID=53003 Provider=Mascot Name=ReKill cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:51:01,829 [main] INFO craftBet - 230 2484 ID=27207 Provider=Yggdrasil Name=Reptoids cod=0 description=null ResponseObject=24
+2022-08-31 11:51:10,085 [main] INFO craftBet - 231 2497 ID=27741 Provider=Microgaming Name=RetroReels cod=0 description=null ResponseObject=24
+2022-08-31 11:51:10,892 [main] INFO craftBet - 232 2499 ID=27745 Provider=Microgaming Name=RetroReelsExtremeHeat cod=0 description=null ResponseObject=24
+2022-08-31 11:51:16,914 [main] INFO craftBet - 233 2510 ID=27765 Provider=Microgaming Name=RhymingReelsHeartsandTarts cod=0 description=null ResponseObject=24
+2022-08-31 11:51:25,977 [main] INFO craftBet - 234 2529 ID=53012 Provider=Mascot Name=Riot cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:51:29,180 [main] INFO craftBet - 235 2536 ID=2361 Provider=EGT Name=Rise Of Ra cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:51:32,369 [main] INFO craftBet - 236 2543 ID=28054 Provider=Microgaming Name=RivieraRiches cod=0 description=null ResponseObject=24
+2022-08-31 11:51:34,112 [main] INFO craftBet - 237 2547 ID=26410 Provider=Fugaso Name=RobbieJones cod=0 description=null ResponseObject=24
+2022-08-31 11:51:37,487 [main] INFO craftBet - 238 2551 ID=53011 Provider=Mascot Name=Robin of Loxley cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:51:39,225 [main] INFO craftBet - 239 2554 ID=28171 Provider=ISoftBet Name=RoboSmash cod=0 description=null ResponseObject=24
+2022-08-31 11:51:52,122 [main] INFO craftBet - 240 2577 ID=75969 Provider=Yggdrasil Name=Roulette Evolution cod=0 description=null ResponseObject=24
+2022-08-31 11:51:52,496 [main] INFO craftBet - 241 2578 ID=75968 Provider=Yggdrasil Name=Roulette Evolution VIP cod=0 description=null ResponseObject=24
+2022-08-31 11:51:52,777 [main] INFO craftBet - 242 2579 ID=23593 Provider=Amatic Name=Roulette Royal cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:52:00,713 [main] INFO craftBet - 243 2596 ID=2434 Provider=EGT Name=Royal Secrets cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:52:01,010 [main] INFO craftBet - 244 2597 ID=23240 Provider=Amatic Name=Royal Unicorn cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:52:08,336 [main] INFO craftBet - 245 2612 ID=75005 Provider=Yggdrasil Name=Sabres and Swords: Charge Gigablox cod=0 description=null ResponseObject=24
+2022-08-31 11:52:11,505 [main] INFO craftBet - 246 2619 ID=26322 Provider=Yggdrasil Name=SaharaNights cod=0 description=null ResponseObject=24
+2022-08-31 11:52:11,950 [main] INFO craftBet - 247 2620 ID=26418 Provider=Fugaso Name=Sahara'sDreams cod=0 description=null ResponseObject=24
+2022-08-31 11:52:22,202 [main] INFO craftBet - 248 2642 ID=27831 Provider=Microgaming Name=SassyBingo cod=0 description=null ResponseObject=24
+2022-08-31 11:52:35,965 [main] INFO craftBet - 249 2669 ID=23012 Provider=QuickSpin Name=Second Strike cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:52:40,952 [main] INFO craftBet - 250 2680 ID=23013 Provider=QuickSpin Name=Sevens High cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:52:42,597 [main] INFO craftBet - 251 2684 ID=26414 Provider=Fugaso Name=ShakeIt cod=0 description=null ResponseObject=24
+2022-08-31 11:52:55,464 [main] INFO craftBet - 252 2707 ID=23308 Provider=IGT Name=Siberian Storm cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:52:59,466 [main] INFO craftBet - 253 2714 ID=26629 Provider=Evoplay Name=Sindbad cod=0 description=null ResponseObject=24
+2022-08-31 11:53:01,682 [main] INFO craftBet - 254 2719 ID=29828 Provider=Yggdrasil Name=Siren Song cod=0 description=null ResponseObject=24
+2022-08-31 11:53:14,985 [main] INFO craftBet - 255 2745 ID=25764 Provider=Apollo Name=SmilingJoker cod=0 description=null ResponseObject=24
+2022-08-31 11:53:15,976 [main] INFO craftBet - 256 2747 ID=26391 Provider=Fugaso Name=SmokingDogs cod=0 description=null ResponseObject=24
+2022-08-31 11:53:16,944 [main] INFO craftBet - 257 2749 ID=23752 Provider=RelaxGaming Name=Snake Arena cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:53:38,377 [main] INFO craftBet - 258 2789 ID=27203 Provider=Yggdrasil Name=SpinaColada cod=0 description=null ResponseObject=24
+2022-08-31 11:53:40,353 [main] INFO craftBet - 259 2792 ID=23016 Provider=QuickSpin Name=Spinions Beach Party cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:53:46,317 [main] INFO craftBet - 260 2804 ID=28377 Provider=ISoftBet Name=SpookyFamily cod=0 description=null ResponseObject=24
+2022-08-31 11:53:52,219 [main] INFO craftBet - 261 2816 ID=23309 Provider=IGT Name=Star Trek cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:53:54,328 [main] INFO craftBet - 262 2821 ID=75841 Provider=Yggdrasil Name=Steam Spin cod=0 description=null ResponseObject=24
+2022-08-31 11:53:55,461 [main] INFO craftBet - 263 2823 ID=23020 Provider=QuickSpin Name=Sticky Bandits cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:54:11,529 [main] INFO craftBet - 264 2849 ID=23310 Provider=IGT Name=Sumatran Storm cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:54:17,056 [main] INFO craftBet - 265 2860 ID=27270 Provider=Yggdrasil Name=SunnyShores cod=0 description=null ResponseObject=24
+2022-08-31 11:54:17,512 [main] INFO craftBet - 266 2861 ID=26425 Provider=Fugaso Name=Sunset cod=0 description=null ResponseObject=24
+2022-08-31 11:54:26,064 [main] INFO craftBet - 267 2879 ID=26338 Provider=Fugaso Name=SuperHamster cod=0 description=null ResponseObject=24
+2022-08-31 11:54:27,018 [main] INFO craftBet - 268 2881 ID=27201 Provider=Yggdrasil Name=SuperHeroes cod=0 description=null ResponseObject=24
+2022-08-31 11:54:37,703 [main] INFO craftBet - 269 2902 ID=29322 Provider=Leander Name=Swap The Flop cod=0 description=null ResponseObject=24
+2022-08-31 11:54:45,782 [main] INFO craftBet - 270 2916 ID=28835 Provider=Yggdrasil Name=Syncronite cod=0 description=null ResponseObject=24
+2022-08-31 11:54:51,199 [main] INFO craftBet - 271 2927 ID=23737 Provider=QuickSpin Name=Tales of Doctor Dolittle cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:54:59,421 [main] INFO craftBet - 272 2943 ID=23751 Provider=RelaxGaming Name=Temple Tumble Megaways cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:55:05,091 [main] INFO craftBet - 273 2954 ID=29169 Provider=Leander Name=Texas Switch cod=0 description=null ResponseObject=24
+2022-08-31 11:55:12,018 [main] INFO craftBet - 274 2964 ID=28335 Provider=ISoftBet Name=TheBestWitch cod=0 description=null ResponseObject=24
+2022-08-31 11:55:23,824 [main] INFO craftBet - 275 2988 ID=26399 Provider=Fugaso Name=TheGiant cod=0 description=null ResponseObject=24
+2022-08-31 11:55:26,790 [main] INFO craftBet - 276 2995 ID=23782 Provider=QuickSpin Name=The Grand cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:55:28,101 [main] INFO craftBet - 277 2997 ID=2436 Provider=EGT Name=The Great Egypt cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:55:35,281 [main] INFO craftBet - 278 3012 ID=27707 Provider=BoomingGames Name=TheKingPanda cod=0 description=null ResponseObject=24
+2022-08-31 11:55:37,723 [main] INFO craftBet - 279 3018 ID=26654 Provider=Evoplay Name=TheLegendofShaolin cod=0 description=null ResponseObject=24
+2022-08-31 11:55:41,713 [main] INFO craftBet - 280 3028 ID=53025 Provider=Mascot Name=the Myth cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:55:42,726 [main] INFO craftBet - 281 3030 ID=26437 Provider=Yggdrasil Name=TheOneArmedBandit cod=0 description=null ResponseObject=24
+2022-08-31 11:55:47,881 [main] INFO craftBet - 282 3041 ID=53006 Provider=Mascot Name=The Rite cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:55:56,989 [main] INFO craftBet - 283 3055 ID=53014 Provider=Mascot Name=The Tomb: Dragon Emperor's Treasure cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:56:18,363 [main] INFO craftBet - 284 3096 ID=75193 Provider=PariPlay Name=Tiki Magic cod=0 description=null ResponseObject=24
+2022-08-31 11:56:32,607 [main] INFO craftBet - 285 3121 ID=26628 Provider=Evoplay Name=TotemIsland cod=0 description=null ResponseObject=24
+2022-08-31 11:56:38,775 [main] INFO craftBet - 286 3135 ID=26364 Provider=Fugaso Name=TreasureofShaman cod=0 description=null ResponseObject=24
+2022-08-31 11:56:50,368 [main] INFO craftBet - 287 3160 ID=26404 Provider=Fugaso Name=TrumpIt cod=0 description=null ResponseObject=24
+2022-08-31 11:56:55,551 [main] INFO craftBet - 288 3170 ID=23266 Provider=Amatic Name=Tweety Birds cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:56:59,361 [main] INFO craftBet - 289 3178 ID=2438 Provider=EGT Name=Ultimate Hot cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:57:04,265 [main] INFO craftBet - 290 3188 ID=26600 Provider=Evoplay Name=USSRGrocery cod=0 description=null ResponseObject=24
+2022-08-31 11:57:13,547 [main] INFO craftBet - 291 3205 ID=23311 Provider=IGT Name=Vegas Baby cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:57:19,879 [main] INFO craftBet - 292 3218 ID=53007 Provider=Mascot Name=Venetian Magic cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:57:20,646 [main] INFO craftBet - 293 3220 ID=28838 Provider=Yggdrasil Name=Victoria Wild cod=0 description=null ResponseObject=24
+2022-08-31 11:57:24,998 [main] INFO craftBet - 294 3229 ID=29342 Provider=Yggdrasil Name=Viking Runes cod=0 description=null ResponseObject=24
+2022-08-31 11:57:28,740 [main] INFO craftBet - 295 3236 ID=27198 Provider=Yggdrasil Name=VikingsGoBerzerk cod=0 description=null ResponseObject=24
+2022-08-31 11:57:29,509 [main] INFO craftBet - 296 3238 ID=27197 Provider=Yggdrasil Name=VikingsgotoHell cod=0 description=null ResponseObject=24
+2022-08-31 11:57:33,852 [main] INFO craftBet - 297 3247 ID=23738 Provider=QuickSpin Name=Volcano Riches cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:57:35,716 [main] INFO craftBet - 298 3251 ID=23749 Provider=Hacksaw Name=Wanted Dead or a Wild cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:57:38,939 [main] INFO craftBet - 299 3259 ID=23312 Provider=IGT Name=Water Dragons cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:57:44,118 [main] INFO craftBet - 300 3270 ID=23313 Provider=IGT Name=Western Belles cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:57:56,011 [main] INFO craftBet - 301 3293 ID=23750 Provider=RelaxGaming Name=Wild Chapo cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:57:56,666 [main] INFO craftBet - 302 3295 ID=23739 Provider=QuickSpin Name=Wild Chase cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:57:59,662 [main] INFO craftBet - 303 3301 ID=23267 Provider=Amatic Name=Wild Dragon cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:58:19,090 [main] INFO craftBet - 304 3331 ID=23268 Provider=Amatic Name=Wild Respin cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:58:21,686 [main] INFO craftBet - 305 3336 ID=53018 Provider=Mascot Name=Wild Spirit cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:58:22,024 [main] INFO craftBet - 306 3337 ID=23244 Provider=Amatic Name=Wild Stars cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:58:27,310 [main] INFO craftBet - 307 3346 ID=29980 Provider=PushGaming Name=Wild Wheel cod=0 description=null ResponseObject=24
+2022-08-31 11:58:30,437 [main] INFO craftBet - 308 3351 ID=23314 Provider=IGT Name=Wild Wolf cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:58:41,406 [main] INFO craftBet - 309 3373 ID=23740 Provider=QuickSpin Name=Wins of Fortune cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:58:44,042 [main] INFO craftBet - 310 3378 ID=28356 Provider=ISoftBet Name=Wisps cod=0 description=null ResponseObject=24
+2022-08-31 11:58:44,533 [main] INFO craftBet - 311 3379 ID=2440 Provider=EGT Name=Witches Charm cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-08-31 11:58:51,406 [main] INFO craftBet - 312 3391 ID=23239 Provider=Amatic Name=Wolf Moon cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:58:54,644 [main] INFO craftBet - 313 3397 ID=23315 Provider=IGT Name=Wolf Run cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-08-31 11:58:59,503 [main] INFO craftBet - 314 3405 ID=27147 Provider=Apollo Name=WoodenFruits cod=0 description=null ResponseObject=24
+2022-08-31 11:58:59,931 [main] INFO craftBet - 315 3406 ID=29561 Provider=Yggdrasil Name=Word Of Thoth cod=0 description=null ResponseObject=24
+2022-08-31 11:59:08,722 [main] INFO craftBet - 316 3422 ID=26421 Provider=Fugaso Name=Yakuza cod=0 description=null ResponseObject=24
+2022-08-31 11:59:19,778 [main] INFO craftBet - From Get URL API broken games are captured
+2022-08-31 11:59:19,780 [main] INFO craftBet - Broken url-es are:  316
+2022-08-31 11:59:21,606 [main] ERROR craftBet - getUrlAPITest--------------------------------------------------------->   Fail
+2022-08-31 11:59:21,607 [main] ERROR craftBet - getUrlAPITest-----------------------------------------------------------------
+2022-08-31 11:59:21,625 [AsyncHttpClient-1-12] WARN org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-08-31 11:59:21,775 [main] INFO craftBet - Browser closed
+2022-08-31 11:59:21,775 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-31 11:59:21,787 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-08-31 11:59:21,799 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-31 11:59:21,818 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-31 11:59:23,584 [main] INFO craftBet - URL: https://tetherbet.io  Browser: chrome
+2022-08-31 11:59:23,589 [main] INFO craftBet - All Page elements are initialized
+2022-08-31 11:59:27,630 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-31 11:59:30,808 [main] INFO craftBet - Get games Api call was sent
+2022-08-31 11:59:31,204 [main] INFO craftBet - Get games Api Response was captured
+2022-08-31 11:59:31,314 [main] INFO craftBet - Dupliicate game Name =  Elements
+2022-08-31 11:59:31,333 [main] INFO craftBet - Dupliicate game Name =  Football
+2022-08-31 11:59:31,378 [main] INFO craftBet - Dupliicate game Name =  Atlantis
+2022-08-31 11:59:31,393 [main] INFO craftBet - Dupliicate game Name =  Baccarat
+2022-08-31 11:59:32,108 [main] INFO craftBet - Dupliicate game Name =  Baccarat
+2022-08-31 11:59:32,108 [main] INFO craftBet - Dupliicate game Name =  Baccarat
+2022-08-31 11:59:32,109 [main] INFO craftBet - Dupliicate game Name =  Baccarat VIP
+2022-08-31 11:59:32,113 [main] INFO craftBet - Dupliicate game Name =  Bier Party
+2022-08-31 11:59:32,123 [main] INFO craftBet - Dupliicate game Name =  Black Jack
+2022-08-31 11:59:32,124 [main] INFO craftBet - Dupliicate game Name =  Blackjack
+2022-08-31 11:59:32,125 [main] INFO craftBet - Dupliicate game Name =  Blackjack VIP
+2022-08-31 11:59:32,139 [main] INFO craftBet - Dupliicate game Name =  Bloodshot: Rising Spirit
+2022-08-31 11:59:32,668 [main] INFO craftBet - Dupliicate game Name =  Buffalo Hunter
+2022-08-31 11:59:32,669 [main] INFO craftBet - Dupliicate game Name =  Bushido Ways xNudge
+2022-08-31 11:59:32,670 [main] INFO craftBet - Dupliicate game Name =  Caligula
+2022-08-31 11:59:32,670 [main] INFO craftBet - Dupliicate game Name =  Carol of the Elves
+2022-08-31 11:59:32,671 [main] INFO craftBet - Dupliicate game Name =  Cats
+2022-08-31 11:59:32,672 [main] INFO craftBet - Dupliicate game Name =  ChineseNewYear
+2022-08-31 11:59:32,676 [main] INFO craftBet - Dupliicate game Name =  Deadwood
+2022-08-31 11:59:32,679 [main] INFO craftBet - Dupliicate game Name =  Deuces Wild
+2022-08-31 11:59:32,680 [main] INFO craftBet - Dupliicate game Name =  Deuces Wild
+2022-08-31 11:59:32,680 [main] INFO craftBet - Dupliicate game Name =  Deuces Wild
+2022-08-31 11:59:32,682 [main] INFO craftBet - Dupliicate game Name =  Dragon Stone
+2022-08-31 11:59:32,684 [main] INFO craftBet - Dupliicate game Name =  East Coast vs West Coast
+2022-08-31 11:59:32,684 [main] INFO craftBet - Dupliicate game Name =  Egyptian King
+2022-08-31 11:59:32,685 [main] INFO craftBet - Dupliicate game Name =  El Paso Gunfight xNudge
+2022-08-31 11:59:32,687 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-08-31 11:59:32,689 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-08-31 11:59:32,689 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-08-31 11:59:32,689 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-08-31 11:59:32,690 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-08-31 11:59:32,690 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-08-31 11:59:32,690 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-08-31 11:59:32,690 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-08-31 11:59:32,690 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-08-31 11:59:32,690 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-08-31 11:59:32,690 [main] INFO craftBet - Dupliicate game Name =  European Roulette VIP
+2022-08-31 11:59:32,691 [main] INFO craftBet - Dupliicate game Name =  Faith
+2022-08-31 11:59:32,691 [main] INFO craftBet - Dupliicate game Name =  Fat Rabbit
+2022-08-31 11:59:32,692 [main] INFO craftBet - Dupliicate game Name =  Fire In The Hole xBomb
+2022-08-31 11:59:32,700 [main] INFO craftBet - Dupliicate game Name =  Fruits
+2022-08-31 11:59:32,702 [main] INFO craftBet - Dupliicate game Name =  Ghosts N Gold
+2022-08-31 11:59:32,703 [main] INFO craftBet - Dupliicate game Name =  Gladiators Go Wild
+2022-08-31 11:59:32,705 [main] INFO craftBet - Dupliicate game Name =  Golden Buffalo Double Up
+2022-08-31 11:59:32,707 [main] INFO craftBet - Dupliicate game Name =  Golden Tiger
+2022-08-31 11:59:32,709 [main] INFO craftBet - Dupliicate game Name =  Hot Spin Deluxe
+2022-08-31 11:59:32,722 [main] INFO craftBet - Dupliicate game Name =  Jacks or Better
+2022-08-31 11:59:32,723 [main] INFO craftBet - Dupliicate game Name =  Joker Poker
+2022-08-31 11:59:32,723 [main] INFO craftBet - Dupliicate game Name =  Joker Poker
+2022-08-31 11:59:32,724 [main] INFO craftBet - Dupliicate game Name =  Joker Poker
+2022-08-31 11:59:32,739 [main] INFO craftBet - Dupliicate game Name =  Lucky Clover
+2022-08-31 11:59:32,741 [main] INFO craftBet - Dupliicate game Name =  MegaBoy
+2022-08-31 11:59:32,742 [main] INFO craftBet - Dupliicate game Name =  Merlin's Magic Mirror
+2022-08-31 11:59:32,743 [main] INFO craftBet - Dupliicate game Name =  Monkey's Gold xPays
+2022-08-31 11:59:32,751 [main] INFO craftBet - Dupliicate game Name =  Oktoberfest
+2022-08-31 11:59:32,752 [main] INFO craftBet - Dupliicate game Name =  Owls
+2022-08-31 11:59:32,754 [main] INFO craftBet - Dupliicate game Name =  Pyramid Pays
+2022-08-31 11:59:32,754 [main] INFO craftBet - Dupliicate game Name =  Raging Reindeer
+2022-08-31 11:59:32,755 [main] INFO craftBet - Dupliicate game Name =  Red Dog
+2022-08-31 11:59:32,756 [main] INFO craftBet - Dupliicate game Name =  Roo Riches
+2022-08-31 11:59:32,892 [main] INFO craftBet - Dupliicate game Name =  San Quentin xWays
+2022-08-31 11:59:32,894 [main] INFO craftBet - Dupliicate game Name =  TalesOfDarkness
+2022-08-31 11:59:32,895 [main] INFO craftBet - Dupliicate game Name =  Thunder Shields
+2022-08-31 11:59:32,896 [main] INFO craftBet - Dupliicate game Name =  Tomahawk
+2022-08-31 11:59:32,896 [main] INFO craftBet - Dupliicate game Name =  Tombstone
+2022-08-31 11:59:32,896 [main] INFO craftBet - Dupliicate game Name =  Wild Ape
+2022-08-31 11:59:32,896 [main] INFO craftBet - Dupliicate game Name =  Wixx
+2022-08-31 11:59:32,896 [main] INFO craftBet - Dupliicate game Name =  xWays Hoarder xSplit
+2022-08-31 11:59:32,896 [main] INFO craftBet - Duplicate games are:  68
+2022-08-31 11:59:35,690 [main] ERROR craftBet - gatDuplicateGames--------------------------------------------------------->   Fail
+2022-08-31 11:59:35,690 [main] ERROR craftBet - gatDuplicateGames-----------------------------------------------------------------
+2022-08-31 11:59:35,821 [main] INFO craftBet - Browser closed
+2022-08-31 11:59:35,822 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-31 11:59:36,158 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
