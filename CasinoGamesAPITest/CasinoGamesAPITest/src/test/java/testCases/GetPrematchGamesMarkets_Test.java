@@ -47,6 +47,7 @@ public class GetPrematchGamesMarkets_Test extends BaseTest{
         JSONObject jsonObjectBody = new JSONObject(responseGetMatches.getBody());
         JSONArray jsonArrayAllSports = jsonObjectBody.getJSONArray("Ss");
 
+        Unirest.shutdown();
         for (int j = 0; j < jsonArrayAllSports.length(); j++) {
             String oneSport = String.valueOf(jsonArrayAllSports.get(j));
 //            System.out.println(oneSport);
@@ -71,9 +72,9 @@ public class GetPrematchGamesMarkets_Test extends BaseTest{
                     for (int l = 0; l < jsonArrayMatches.length(); l++) {
                         String oneMatch = String.valueOf(jsonArrayMatches.get(l));
                         JSONObject jsonObjectMatchID = new JSONObject(oneMatch);
-                        String matchID = jsonObjectMatchID.getString("MI");
-                        String startTime = jsonObjectMatchID.getString("ST");
-                        String isBlocked = jsonObjectMatchID.getString("IB");
+                        String matchID = jsonObjectMatchID.get("MI").toString();
+                        String startTime = jsonObjectMatchID.get("ST").toString();
+                        String isBlocked = jsonObjectMatchID.get("IB").toString();
 //                        System.out.println(oneMatch );
 //                        System.out.println(matchID);
 //                        System.out.println();
@@ -96,6 +97,7 @@ public class GetPrematchGamesMarkets_Test extends BaseTest{
             JSONObject jsonObjectMarketsResponseBody = new JSONObject(response.getBody());
 //            System.out.println(jsonObjectMarketsResponseBody.toString());
             JSONArray jsonArrayAllMarkets = jsonObjectMarketsResponseBody.getJSONArray("Markets");
+            Unirest.shutdown();
             System.out.println(k);
             k--;
             for (int c = 0; c < jsonArrayAllMarkets.length(); c++) {
@@ -103,7 +105,7 @@ public class GetPrematchGamesMarkets_Test extends BaseTest{
 //            System.out.println(oneSport);
 //            System.out.println();
                 JSONObject jsonObjectMarket = new JSONObject(oneMarket);
-                String nameMarket = jsonObjectMarket.getString("N");
+                String nameMarket = jsonObjectMarket.get("N").toString();
                 nameMarketArray.add(nameMarket);
 //                System.out.println(nameMarket);
                 JSONArray jsonArrayMarket = jsonObjectMarket.getJSONArray("Ss");
@@ -112,9 +114,9 @@ public class GetPrematchGamesMarkets_Test extends BaseTest{
 
                     String oneSelector = String.valueOf(jsonArrayMarket.get(t));
                     JSONObject jsonObjectSelector = new JSONObject(oneSelector);
-                    String selectorPoint = jsonObjectSelector.getString("C");
-                    String nameSelector = jsonObjectSelector.getString("N");
-                    String isBlockedSelector = jsonObjectSelector.getString("IB");
+                    String selectorPoint = jsonObjectSelector.get("C").toString();
+                    String nameSelector = jsonObjectSelector.get("N").toString();
+                    String isBlockedSelector = jsonObjectSelector.get("IB").toString();
 
                     selectorPointArray.add(selectorPoint);
                     nameSelectorArray.add(nameSelector);
@@ -122,7 +124,6 @@ public class GetPrematchGamesMarkets_Test extends BaseTest{
                     if (isBlockedSelector.equals("true")){
                         break;
                     }
-//                    System.out.println(selectorPoint+"     "+nameSelector+"     "+isBlockedSelector);
                     try {
                         double point = parseDouble(selectorPoint);
                         if (point<=1){
@@ -134,8 +135,10 @@ public class GetPrematchGamesMarkets_Test extends BaseTest{
                     }
                     catch (Exception e){
                         logger.info("Cant parse to int selectorPoint:  " + selectorPoint );
+                        errorSrcXl.add("Cant parse to int selectorPoint:  " + selectorPoint );
 
                     }
+                    System.out.println(pointCount);
                     pointCount++;
                 }
             }
@@ -147,19 +150,7 @@ public class GetPrematchGamesMarkets_Test extends BaseTest{
         if (errorSrcXl.size() == 0) {
             isPassed = true;
         } else {
-            String target = System.getProperty("user.dir") + "/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataMarketsEqual1.xlsx";
-            XSSFWorkbook workbook = new XSSFWorkbook();
-            FileOutputStream file = new FileOutputStream(target);
-            XSSFSheet sheet = workbook.createSheet("brokenIMG");
-            sheet.setColumnWidth(0, 20000);
-            int l = 0;
-            for (String err : errorSrcXl) {
-                XSSFRow row = sheet.createRow(l);
-                row.createCell(0).setCellValue(err);
-                l++;
-            }
-            workbook.write(file);
-            workbook.close();
+            writeInExel(errorSrcXl,"/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataLifeMarketsEqual1.xlsx" ,"brokenLifeMarkets");
             isPassed = false;
         }
         return isPassed;

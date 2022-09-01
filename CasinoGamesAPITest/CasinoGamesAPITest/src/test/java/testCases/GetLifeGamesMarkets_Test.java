@@ -44,6 +44,7 @@ public class GetLifeGamesMarkets_Test extends BaseTest{
         JSONObject jsonObjectBody = new JSONObject(response.getBody());
         JSONArray jsonArrayGames = jsonObjectBody.getJSONArray("Ms");
 
+        Unirest.shutdown();
         logger.info("Games are " + jsonArrayGames.length());
 
         logger.info("Get Life games Api Response was captured");
@@ -52,7 +53,7 @@ public class GetLifeGamesMarkets_Test extends BaseTest{
 
             String arrayObject = String.valueOf(jsonArrayGames.get(j));
             JSONObject jsonObjectGame = new JSONObject(arrayObject);
-            String MI = jsonObjectGame.getString("MI");  // Game ID
+            String MI = jsonObjectGame.get("MI").toString();  // Game ID
             gameIDs.add(MI);
         }
 
@@ -68,14 +69,14 @@ public class GetLifeGamesMarkets_Test extends BaseTest{
             JSONObject jsonObjectMarketsResponseBody = new JSONObject(responseLifeGames.getBody());
 //            System.out.println(jsonObjectMarketsResponseBody.toString());
             JSONArray jsonArrayAllMarkets = jsonObjectMarketsResponseBody.getJSONArray("Markets");
-
+            Unirest.shutdown();
             k--;
             for (int c = 0; c < jsonArrayAllMarkets.length(); c++) {
                 String oneMarket = String.valueOf(jsonArrayAllMarkets.get(c));
 //            System.out.println(oneSport);
 //            System.out.println();
                 JSONObject jsonObjectMarket = new JSONObject(oneMarket);
-                String nameMarket = jsonObjectMarket.getString("N");
+                String nameMarket = jsonObjectMarket.get("N").toString();
                 nameMarketArray.add(nameMarket);
 //                System.out.println(nameMarket);
                 JSONArray jsonArrayMarket = jsonObjectMarket.getJSONArray("Ss");
@@ -84,9 +85,9 @@ public class GetLifeGamesMarkets_Test extends BaseTest{
 
                     String oneSelector = String.valueOf(jsonArrayMarket.get(t));
                     JSONObject jsonObjectSelector = new JSONObject(oneSelector);
-                    String selectorPoint = jsonObjectSelector.getString("C");
-                    String nameSelector = jsonObjectSelector.getString("N");
-                    String isBlockedSelector = jsonObjectSelector.getString("IB");
+                    String selectorPoint = jsonObjectSelector.get("C").toString();
+                    String nameSelector = jsonObjectSelector.get("N").toString();
+                    String isBlockedSelector = jsonObjectSelector.get("IB").toString();
 
                     selectorPointArray.add(selectorPoint);
                     nameSelectorArray.add(nameSelector);
@@ -110,24 +111,27 @@ public class GetLifeGamesMarkets_Test extends BaseTest{
                 }
             }
         }
+
         logger.info("Point count =  " + pointCount);
         logger.info("Games with selector >= 1:  " + errorSrcXl.size());
         if (errorSrcXl.size() == 0) {
             isPassed = true;
         } else {
-            String target = System.getProperty("user.dir") + "/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataMarketsEqual1.xlsx";
-            XSSFWorkbook workbook = new XSSFWorkbook();
-            FileOutputStream file = new FileOutputStream(target);
-            XSSFSheet sheet = workbook.createSheet("brokenIMG");
-            sheet.setColumnWidth(0, 20000);
-            int l = 0;
-            for (String err : errorSrcXl) {
-                XSSFRow row = sheet.createRow(l);
-                row.createCell(0).setCellValue(err);
-                l++;
-            }
-            workbook.write(file);
-            workbook.close();
+            writeInExel(errorSrcXl,"/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataPreMatchMarketsEqual1.xlsx" ,"brokenPrematchMarkets");
+
+//            String target = System.getProperty("user.dir") + "/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataMarketsEqual1.xlsx";
+//            XSSFWorkbook workbook = new XSSFWorkbook();
+//            FileOutputStream file = new FileOutputStream(target);
+//            XSSFSheet sheet = workbook.createSheet("brokenIMG");
+//            sheet.setColumnWidth(0, 20000);
+//            int l = 0;
+//            for (String err : errorSrcXl) {
+//                XSSFRow row = sheet.createRow(l);
+//                row.createCell(0).setCellValue(err);
+//                l++;
+//            }
+//            workbook.write(file);
+//            workbook.close();
             isPassed = false;
         }
         return isPassed;

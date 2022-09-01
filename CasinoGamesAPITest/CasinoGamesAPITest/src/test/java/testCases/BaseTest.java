@@ -19,6 +19,7 @@ import pageObjects.*;
 import utilities.DriverFactory;
 import utilities.ReadConfig;
 
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.net.HttpURLConnection;
@@ -72,6 +73,25 @@ public class BaseTest extends DriverFactory {
     //endregion
     public BaseTest() {
     }
+
+
+    public void writeInExel(ArrayList<String> errorSrcXl , String src, String shitName) throws IOException {
+        String target = System.getProperty("user.dir") +src;
+        XSSFWorkbook workbook = new XSSFWorkbook();
+        FileOutputStream file = new FileOutputStream(target);
+        XSSFSheet sheet = workbook.createSheet(shitName);
+        sheet.setColumnWidth(0, 20000);
+        int l = 0;
+        for (String err : errorSrcXl) {
+            XSSFRow row = sheet.createRow(l);
+            row.createCell(0).setCellValue(err);
+            l++;
+        }
+        workbook.write(file);
+        workbook.close();
+    }
+
+
 
 
     @BeforeMethod

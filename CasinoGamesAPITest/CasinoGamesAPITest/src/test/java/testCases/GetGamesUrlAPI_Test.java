@@ -3,6 +3,7 @@ package testCases;
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
+import io.joshworks.restclient.http.RestClient;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -52,7 +53,7 @@ public class GetGamesUrlAPI_Test extends BaseTest {
         ArrayList<String> productID = new ArrayList<>();
         ArrayList<String> name = new ArrayList<>();
         ArrayList<String> provider = new ArrayList<>();
-        ArrayList<String> brokenURL = new ArrayList<>();
+        ArrayList<String> errorSrcXl = new ArrayList<>();
 
         int errCount = 1;
         int k = 0;
@@ -66,17 +67,17 @@ public class GetGamesUrlAPI_Test extends BaseTest {
         logger.info("Get All games API call ");
 
         JSONObject jsonObjectBody = new JSONObject(response.getBody());
-        JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.getString("ResponseObject"));
+        JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.get("ResponseObject").toString());
         JSONArray jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
         logger.info("From Get All games API call body captured ");
-
+        Unirest.shutdown();
 
         for (int j = 0; j < jsonArrayGames.length(); j++) {
             String first = String.valueOf(jsonArrayGames.get(j));
             JSONObject jsonObjectGame = new JSONObject(first);
-            String p = jsonObjectGame.getString("p");
-            String n = jsonObjectGame.getString("n");
-            String sp = jsonObjectGame.getString("sp");
+            String p = jsonObjectGame.get("p").toString();
+            String n = jsonObjectGame.get("n").toString();
+            String sp = jsonObjectGame.get("sp").toString();
             productID.add(p);
             name.add(n);
             provider.add(sp);
@@ -96,43 +97,35 @@ public class GetGamesUrlAPI_Test extends BaseTest {
 
             JSONObject jsonObjectGetUrl = new JSONObject(responseUrl.getBody());
 
-            String code = jsonObjectGetUrl.getString("ResponseCode");
-            String description = jsonObjectGetUrl.getString("Description");
-            String url = jsonObjectGetUrl.getString("ResponseObject");
-            String s;
+            String code = jsonObjectGetUrl.get("ResponseCode").toString();
+            String description = jsonObjectGetUrl.get("Description").toString();
+            String url = jsonObjectGetUrl.get("ResponseObject").toString();
+            Unirest.shutdown();
+            String errMessage;
             try {
                 if (!code.equals("0") || url == null || url.length() < 10) {
-                    s = errCount + " " + k + " ID=" + id + " Provider=" + provider.get(k) + " Name=" + name.get(k) + " cod=" + code + " description=" + description + " ResponseObject=" + url;
-                    logger.info(s);
-                    brokenURL.add(s);
+                    errMessage = errCount + " " + k + " ID=" + id + " Provider=" + provider.get(k) + " Name=" + name.get(k) + " cod=" + code + " description=" + description + " ResponseObject=" + url;
+                    logger.info(errMessage);
+                    errorSrcXl.add(errMessage);
                     errCount++;
                 }
             } catch (Exception e) {
                 logger.info(k + " Unirest Exception ");
             }
             k++;
+
         }
         logger.info("From Get URL API broken games are captured");
 
-        logger.info("Broken url-es are:  " + brokenURL.size());
-        if (brokenURL.size() == 0) {
+        //Write into exel shite
+
+        logger.info("Broken url-es are:  " + errorSrcXl.size());
+        if (errorSrcXl.size() == 0) {
             logger.info("Broken Games are null");
             isPassed = true;
 
         } else {
-            String target = System.getProperty("user.dir") + "/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataBrokenURLList.xlsx";
-            FileOutputStream file = new FileOutputStream(target);
-            XSSFWorkbook workbook = new XSSFWorkbook();
-            XSSFSheet sheet = workbook.createSheet("brokenURL");
-            sheet.setColumnWidth(0, 20000);
-            int l = 0;
-            for (String err : brokenURL) {
-                XSSFRow row = sheet.createRow(l);
-                row.createCell(0).setCellValue(err);
-                l++;
-            }
-            workbook.write(file);
-            workbook.close();
+            writeInExel(errorSrcXl, "/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataBrokenURLList.xlsx", "brokenURL");
             isPassed = false;
         }
         return isPassed;

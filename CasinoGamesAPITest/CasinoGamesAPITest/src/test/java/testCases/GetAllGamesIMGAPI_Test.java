@@ -32,23 +32,20 @@ public class GetAllGamesIMGAPI_Test extends BaseTest {
         ArrayList<String> errorSrcXl = new ArrayList<>();
 
 
-        Unirest.setTimeouts(5000, 0);
+        Unirest.setTimeouts(0, 0);
         HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
                 .header("content-type", "application/json")
                 .header("origin", origin)
-
                 .body("{\"PageIndex\":0,\"PageSize\":20000,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false,\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
-
-
                 .asString();
 
         logger.info("Get games Api call was sent");
         JSONObject jsonObjectBody = new JSONObject(response.getBody());
-        JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.getString("ResponseObject"));
+        JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.get("ResponseObject").toString());
         JSONArray jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
         logger.info("Get games Api Response was captured");
 
-
+        Unirest.shutdown();
         for (int j = 0; j < jsonArrayGames.length(); j++) {
 
             String first = String.valueOf(jsonArrayGames.get(j));
@@ -107,27 +104,20 @@ public class GetAllGamesIMGAPI_Test extends BaseTest {
             }
             k++;
         }
+
+
         logger.info("Broken images are:  " + errorSrcXl.size());
         if (errorSrcXl.size() == 0) {
             isPassed = true;
         } else {
-            String target = System.getProperty("user.dir") + "/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataBrokenIMGList.xlsx";
-            XSSFWorkbook workbook = new XSSFWorkbook();
-            FileOutputStream file = new FileOutputStream(target);
-            XSSFSheet sheet = workbook.createSheet("brokenIMG");
-            sheet.setColumnWidth(0, 20000);
-            int l = 0;
-            for (String err : errorSrcXl) {
-                XSSFRow row = sheet.createRow(l);
-                row.createCell(0).setCellValue(err);
-                l++;
-            }
-            workbook.write(file);
-            workbook.close();
+            writeInExel(errorSrcXl,"/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataBrokenIMGList.xlsx" , "brokenIMG");
             isPassed = false;
         }
         return isPassed;
     }
+
+
+
     @Test
     public void gamesImgTest() throws UnirestException, JSONException, IOException {
 

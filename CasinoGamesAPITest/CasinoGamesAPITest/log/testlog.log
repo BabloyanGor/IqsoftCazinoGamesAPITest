@@ -7314,3 +7314,1121 @@ java.net.SocketException: Connection reset
 2022-08-31 11:59:35,821 - craftBet -INFO - Browser closed
 2022-08-31 11:59:35,822 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-08-31 11:59:36,158 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-31 13:51:05,541 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-31 13:51:07,078 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-31 13:51:07,126 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-31 13:51:14,071 - craftBet -INFO - URL: https://tetherbet.io  Browser: chrome
+2022-08-31 13:51:14,230 - craftBet -INFO - All Page elements are initialized
+2022-08-31 13:51:14,543 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-31 13:51:14,651 - craftBet -ERROR - Please provide Craftbet id  as test Partner 
+2022-08-31 13:51:14,815 - craftBet -INFO - Browser closed
+2022-08-31 13:51:14,816 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-31 13:51:14,848 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-31 13:51:47,877 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-31 13:51:48,223 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-31 13:51:48,261 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-31 13:51:51,569 - craftBet -INFO - URL: https://tetherbet.io  Browser: chrome
+2022-08-31 13:51:51,707 - craftBet -INFO - All Page elements are initialized
+2022-08-31 13:51:51,722 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-31 13:51:51,846 - craftBet -ERROR - Please provide Craftbet id  as test Partner 
+2022-08-31 13:51:52,456 - craftBet -INFO - Browser closed
+2022-08-31 13:51:52,457 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-31 13:51:52,498 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-08-31 13:52:07,256 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-08-31 13:52:07,554 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-31 13:52:07,589 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-31 13:52:10,441 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-08-31 13:52:10,520 - craftBet -INFO - All Page elements are initialized
+2022-08-31 13:52:10,531 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-08-31 13:52:11,709 - craftBet -INFO - Get games Api call was sent
+2022-08-31 13:52:11,747 - craftBet -INFO - Get Life games Api Response was captured
+2022-08-31 13:52:11,809 - craftBet -ERROR - The Time Out games are :   3703845   ATP US Open   Laslo Djere  VS  Andrey Rublev   Tennis   2022-08-30T21:20:00  Status = 1   After game start time out = :  16 hours  33 minutes
+2022-08-31 13:52:11,810 - craftBet -ERROR - The Time Out games are :   3708138   ATP US Open   Borna Coric  VS  Enzo Couacaud   Tennis   2022-08-30T23:00:00  Status = 1   After game start time out = :  14 hours  53 minutes
+2022-08-31 13:52:11,810 - craftBet -ERROR - The Time Out games are :   3703966   ATP US Open   Daniel Altmaier  VS  Jannik Sinner   Tennis   2022-08-30T23:00:00  Status = 1   After game start time out = :  14 hours  53 minutes
+2022-08-31 13:52:11,810 - craftBet -ERROR - The Time Out games are :   3708077   WTA US Open   Yue Yuan  VS  Jaimee Fourlis   Tennis   2022-08-30T23:45:00  Status = 1   After game start time out = :  14 hours  8 minutes
+2022-08-31 13:52:11,811 - craftBet -ERROR - The Time Out games are :   3703848   ATP US Open   Jenson Brooksby  VS  Dusan Lajovic   Tennis   2022-08-31T00:10:00  Status = 1   After game start time out = :  13 hours  42 minutes
+2022-08-31 13:52:11,812 - craftBet -ERROR - The Time Out games are :   3703956   WTA US Open   Varvara Gracheva  VS  Petra Martic   Tennis   2022-08-31T00:15:00  Status = 1   After game start time out = :  13 hours  37 minutes
+2022-08-31 13:52:11,814 - craftBet -ERROR - The Time Out games are :   3708203   ATP US Open   Adrian Mannarino  VS  Gijs Brouwer   Tennis   2022-08-31T00:25:00  Status = 1   After game start time out = :  13 hours  27 minutes
+2022-08-31 13:52:11,815 - craftBet -ERROR - The Time Out games are :   3703957   WTA US Open   Elise Mertens  VS  Irina-Camelia Begu   Tennis   2022-08-31T00:25:00  Status = 1   After game start time out = :  13 hours  27 minutes
+2022-08-31 13:52:11,822 - craftBet -ERROR - The Time Out games are :   3718351   Superliga   Toros de Aragua  VS  Heroes de Falcon   Basketball   2022-08-31T01:00:00  Status = 1   After game start time out = :  12 hours  52 minutes
+2022-08-31 13:52:11,823 - craftBet -ERROR - The Time Out games are :   3703979   WTA US Open   Amanda Anisimova  VS  Yulia Putintseva   Tennis   2022-08-31T01:10:00  Status = 1   After game start time out = :  12 hours  42 minutes
+2022-08-31 13:52:11,824 - craftBet -ERROR - The Time Out games are :   3703871   ATP US Open   Jason Kubler  VS  Mikael Ymer   Tennis   2022-08-31T02:25:00  Status = 1   After game start time out = :  11 hours  27 minutes
+2022-08-31 13:52:11,828 - craftBet -ERROR - The Time Out games are :   3717792   Czech Liga Pro   Jiri Louda  VS  Tomas Holik   Table Tennis   2022-08-31T00:00:00  Status = 1   After game start time out = :  13 hours  52 minutes
+2022-08-31 13:52:11,828 - craftBet -ERROR - The Time Out games are :   3717742   Czech Liga Pro   Jiri Vanous  VS  Robert Koczy   Table Tennis   2022-08-31T00:00:00  Status = 1   After game start time out = :  13 hours  52 minutes
+2022-08-31 13:52:11,828 - craftBet -ERROR - The Time Out games are :   3718449   SetkaCup   Volodymyr Kuzmych  VS  Viktor Slozka   Table Tennis   2022-08-31T01:18:12  Status = 1   After game start time out = :  12 hours  33 minutes
+2022-08-31 13:52:11,829 - craftBet -ERROR - The Time Out games are :   3717381   Japan Open MD   LEE Jhe-Huei / YANG Po-Hsuan  VS  Liang / Wang   Badminton   2022-08-31T08:40:00  Status = 1   After game start time out = :  5 hours  12 minutes
+2022-08-31 13:52:11,829 - craftBet -ERROR - The Time Out games are :   3717900   Japan Open Women   Kim Ga Eun  VS  Pattarasuda Chaiwan   Badminton   2022-08-31T09:00:00  Status = 1   After game start time out = :  4 hours  52 minutes
+2022-08-31 13:52:11,829 - craftBet -ERROR - The Time Out games are :   3719350   JapanNPBReserveLeague   Yomiuri Giants Reserves  VS  Nipponham Fighters Reserves   Baseball   2022-08-31T07:58:22  Status = 1   After game start time out = :  5 hours  53 minutes
+2022-08-31 13:52:11,830 - craftBet -INFO - Time out Games are:  17
+2022-08-31 13:52:13,433 - craftBet -INFO - Browser closed
+2022-08-31 13:52:13,435 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-08-31 13:52:13,456 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 09:20:00,405 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 09:20:02,130 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 09:20:02,175 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 09:20:09,446 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-01 09:20:09,585 - craftBet -INFO - All Page elements are initialized
+2022-09-01 09:20:09,595 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 09:20:10,814 - craftBet -INFO - Get games Api call was sent
+2022-09-01 09:20:10,827 - craftBet -INFO - Get Life games Api Response was captured
+2022-09-01 09:20:10,938 - craftBet -ERROR - The Time Out games are :   3722387   MLB   HOU Astros  VS  TEX Rangers   Baseball   2022-08-31T23:37:00  Status = 1   After game start time out = :  9 hours  44 minutes
+2022-09-01 09:20:10,938 - craftBet -ERROR - The Time Out games are :   3722400   MLB   PIT Pirates  VS  MIL Brewers   Baseball   2022-08-31T23:37:00  Status = 1   After game start time out = :  9 hours  44 minutes
+2022-09-01 09:20:10,938 - craftBet -ERROR - The Time Out games are :   3722373   MLB   SD Padres  VS  SF Giants   Baseball   2022-08-31T23:51:09  Status = 1   After game start time out = :  9 hours  30 minutes
+2022-09-01 09:20:10,939 - craftBet -ERROR - The Time Out games are :   3723107   MexicoLMB   Yucatan  VS  Mexico City   Baseball   2022-09-01T03:50:35  Status = 1   After game start time out = :  5 hours  29 minutes
+2022-09-01 09:20:10,939 - craftBet -ERROR - The Time Out games are :   3722357   DelawarePark   Race 7 Delaware Park  VS  ~N/A~   Horse Racing   2022-08-31T23:51:09  Status = 1   After game start time out = :  9 hours  30 minutes
+2022-09-01 09:20:10,939 - craftBet -INFO - Time out Games are:  5
+2022-09-01 09:20:12,439 - craftBet -INFO - Browser closed
+2022-09-01 09:20:12,440 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 09:20:12,458 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 09:53:28,062 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 09:53:28,409 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 09:53:28,445 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 09:53:33,688 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-01 09:53:33,836 - craftBet -INFO - All Page elements are initialized
+2022-09-01 09:53:34,135 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 09:53:35,261 - craftBet -INFO - Get games Api call was sent
+2022-09-01 09:53:35,273 - craftBet -INFO - Get Life games Api Response was captured
+2022-09-01 09:53:35,300 - craftBet -ERROR - The Time Out games are :   3722387   MLB   HOU Astros  VS  TEX Rangers   Baseball   2022-08-31T23:37:00  Status = 1   After game start time out = :  10 hours  17 minutes
+2022-09-01 09:53:35,300 - craftBet -ERROR - The Time Out games are :   3722400   MLB   PIT Pirates  VS  MIL Brewers   Baseball   2022-08-31T23:37:00  Status = 1   After game start time out = :  10 hours  17 minutes
+2022-09-01 09:53:35,300 - craftBet -ERROR - The Time Out games are :   3722373   MLB   SD Padres  VS  SF Giants   Baseball   2022-08-31T23:51:09  Status = 1   After game start time out = :  10 hours  3 minutes
+2022-09-01 09:53:35,301 - craftBet -ERROR - The Time Out games are :   3722357   DelawarePark   Race 7 Delaware Park  VS  ~N/A~   Horse Racing   2022-08-31T23:51:09  Status = 1   After game start time out = :  10 hours  3 minutes
+2022-09-01 09:53:35,301 - craftBet -INFO - Time out Games are:  4
+2022-09-01 09:53:36,363 - craftBet -INFO - Browser closed
+2022-09-01 09:53:36,364 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 09:53:36,462 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 09:55:34,541 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 09:55:34,791 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 09:55:34,822 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 09:55:37,247 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-01 09:55:37,321 - craftBet -INFO - All Page elements are initialized
+2022-09-01 09:55:37,709 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 09:55:38,447 - craftBet -INFO - Get games Api call was sent
+2022-09-01 09:55:38,461 - craftBet -INFO - Get Life games Api Response was captured
+2022-09-01 09:55:38,478 - craftBet -ERROR - The Time Out games are :   3722387   MLB   HOU Astros  VS  TEX Rangers   Baseball   2022-08-31T23:37:00  Status = 1   After game start time out = :  10 hours  19 minutes
+2022-09-01 09:55:38,479 - craftBet -ERROR - The Time Out games are :   3722400   MLB   PIT Pirates  VS  MIL Brewers   Baseball   2022-08-31T23:37:00  Status = 1   After game start time out = :  10 hours  19 minutes
+2022-09-01 09:55:38,479 - craftBet -ERROR - The Time Out games are :   3722373   MLB   SD Padres  VS  SF Giants   Baseball   2022-08-31T23:51:09  Status = 1   After game start time out = :  10 hours  5 minutes
+2022-09-01 09:55:38,479 - craftBet -ERROR - The Time Out games are :   3722357   DelawarePark   Race 7 Delaware Park  VS  ~N/A~   Horse Racing   2022-08-31T23:51:09  Status = 1   After game start time out = :  10 hours  5 minutes
+2022-09-01 09:55:38,479 - craftBet -INFO - Time out Games are:  4
+2022-09-01 09:55:39,474 - craftBet -INFO - Browser closed
+2022-09-01 09:55:39,475 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 09:55:39,500 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 09:58:50,294 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 09:58:50,605 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 09:58:50,642 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 09:58:53,332 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-01 09:58:53,408 - craftBet -INFO - All Page elements are initialized
+2022-09-01 09:58:53,418 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 09:58:54,193 - craftBet -INFO - Get games Api call was sent
+2022-09-01 09:58:54,231 - craftBet -INFO - Get Life games Api Response was captured
+2022-09-01 09:58:54,257 - craftBet -ERROR - The Time Out games are :   3722387   MLB   HOU Astros  VS  TEX Rangers   Baseball   2022-08-31T23:37:00  Status = 1   After game start time out = :  10 hours  22 minutes
+2022-09-01 09:58:54,257 - craftBet -ERROR - The Time Out games are :   3722400   MLB   PIT Pirates  VS  MIL Brewers   Baseball   2022-08-31T23:37:00  Status = 1   After game start time out = :  10 hours  22 minutes
+2022-09-01 09:58:54,258 - craftBet -ERROR - The Time Out games are :   3722373   MLB   SD Padres  VS  SF Giants   Baseball   2022-08-31T23:51:09  Status = 1   After game start time out = :  10 hours  8 minutes
+2022-09-01 09:58:54,258 - craftBet -ERROR - The Time Out games are :   3722357   DelawarePark   Race 7 Delaware Park  VS  ~N/A~   Horse Racing   2022-08-31T23:51:09  Status = 1   After game start time out = :  10 hours  8 minutes
+2022-09-01 09:58:54,258 - craftBet -INFO - Time out Games are:  4
+2022-09-01 09:59:36,715 - craftBet -INFO - Browser closed
+2022-09-01 09:59:36,715 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 09:59:36,725 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 09:59:40,802 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 09:59:41,092 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 09:59:41,128 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 09:59:45,312 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-01 09:59:45,388 - craftBet -INFO - All Page elements are initialized
+2022-09-01 09:59:45,745 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 09:59:46,765 - craftBet -INFO - Get games Api call was sent
+2022-09-01 09:59:46,812 - craftBet -INFO - Get Life games Api Response was captured
+2022-09-01 09:59:46,847 - craftBet -ERROR - The Time Out games are :   3722387   MLB   HOU Astros  VS  TEX Rangers   Baseball   2022-08-31T23:37:00  Status = 1   After game start time out = :  10 hours  23 minutes
+2022-09-01 09:59:46,847 - craftBet -ERROR - The Time Out games are :   3722400   MLB   PIT Pirates  VS  MIL Brewers   Baseball   2022-08-31T23:37:00  Status = 1   After game start time out = :  10 hours  23 minutes
+2022-09-01 09:59:46,848 - craftBet -ERROR - The Time Out games are :   3722373   MLB   SD Padres  VS  SF Giants   Baseball   2022-08-31T23:51:09  Status = 1   After game start time out = :  10 hours  9 minutes
+2022-09-01 09:59:46,848 - craftBet -ERROR - The Time Out games are :   3722357   DelawarePark   Race 7 Delaware Park  VS  ~N/A~   Horse Racing   2022-08-31T23:51:09  Status = 1   After game start time out = :  10 hours  9 minutes
+2022-09-01 09:59:46,848 - craftBet -INFO - Time out Games are:  4
+2022-09-01 10:00:54,650 - craftBet -INFO - Browser closed
+2022-09-01 10:00:54,650 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 10:00:54,659 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 10:01:00,479 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 10:01:00,767 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 10:01:00,804 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 10:01:03,435 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-01 10:01:03,513 - craftBet -INFO - All Page elements are initialized
+2022-09-01 10:01:03,841 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 10:01:04,650 - craftBet -INFO - Get games Api call was sent
+2022-09-01 10:01:04,692 - craftBet -INFO - Get Life games Api Response was captured
+2022-09-01 10:01:04,719 - craftBet -ERROR - The Time Out games are :   3722387   MLB   HOU Astros  VS  TEX Rangers   Baseball   2022-08-31T23:37:00  Status = 1   After game start time out = :  10 hours  25 minutes
+2022-09-01 10:01:04,720 - craftBet -ERROR - The Time Out games are :   3722400   MLB   PIT Pirates  VS  MIL Brewers   Baseball   2022-08-31T23:37:00  Status = 1   After game start time out = :  10 hours  25 minutes
+2022-09-01 10:01:04,720 - craftBet -ERROR - The Time Out games are :   3722373   MLB   SD Padres  VS  SF Giants   Baseball   2022-08-31T23:51:09  Status = 1   After game start time out = :  10 hours  10 minutes
+2022-09-01 10:01:04,722 - craftBet -ERROR - The Time Out games are :   3722357   DelawarePark   Race 7 Delaware Park  VS  ~N/A~   Horse Racing   2022-08-31T23:51:09  Status = 1   After game start time out = :  10 hours  10 minutes
+2022-09-01 10:01:04,722 - craftBet -INFO - Time out Games are:  4
+2022-09-01 10:03:49,094 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 10:03:49,388 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 10:03:49,421 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 10:03:52,310 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-01 10:03:52,391 - craftBet -INFO - All Page elements are initialized
+2022-09-01 10:03:52,824 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 10:03:54,897 - craftBet -INFO - Get games Api call was sent
+2022-09-01 10:03:54,940 - craftBet -INFO - Get Life games Api Response was captured
+2022-09-01 10:03:54,976 - craftBet -ERROR - The Time Out games are :   3722387   MLB   HOU Astros  VS  TEX Rangers   Baseball   2022-08-31T23:37:00  Status = 1   After game start time out = :  10 hours  27 minutes
+2022-09-01 10:03:54,977 - craftBet -ERROR - The Time Out games are :   3722400   MLB   PIT Pirates  VS  MIL Brewers   Baseball   2022-08-31T23:37:00  Status = 1   After game start time out = :  10 hours  27 minutes
+2022-09-01 10:03:54,984 - craftBet -ERROR - The Time Out games are :   3722373   MLB   SD Padres  VS  SF Giants   Baseball   2022-08-31T23:51:09  Status = 1   After game start time out = :  10 hours  13 minutes
+2022-09-01 10:03:54,985 - craftBet -ERROR - The Time Out games are :   3722357   DelawarePark   Race 7 Delaware Park  VS  ~N/A~   Horse Racing   2022-08-31T23:51:09  Status = 1   After game start time out = :  10 hours  13 minutes
+2022-09-01 10:03:54,985 - craftBet -INFO - Time out Games are:  4
+2022-09-01 10:04:11,869 - craftBet -INFO - Browser closed
+2022-09-01 10:04:11,870 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 10:04:11,899 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 10:23:37,137 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 10:23:38,359 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 10:23:38,392 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 10:23:43,124 - craftBet -INFO - URL: https://bet2win.vip  Browser: chrome
+2022-09-01 10:23:43,268 - craftBet -INFO - All Page elements are initialized
+2022-09-01 10:23:43,609 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 10:23:45,720 - craftBet -INFO - Get games Api call was sent
+2022-09-01 10:23:45,797 - craftBet -INFO - Get games Api Response was captured
+2022-09-01 10:23:45,823 - craftBet -INFO - All captured games images was added into ArrayList
+2022-09-01 10:23:48,154 - craftBet -ERROR - 7   Game Provider Name = TomHorn :   Game Name =  243CrystalFruits :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/243CrystalFruits.png
+2022-09-01 10:23:48,215 - craftBet -ERROR - 8   Game Provider Name = TomHorn :   Game Name =  243 Crystal Fruits R. :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/crystal-fruits-reversed.png
+2022-09-01 10:24:03,012 - craftBet -ERROR - 52   Game Provider Name = QuickSpin :   Game Name =  Ark of Mystery :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/ArkofMystery.png
+2022-09-01 10:24:10,246 - craftBet -ERROR - 77   Game Provider Name = QuickSpin :   Game Name =  Big Bad Wolf :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_bbw.jpg
+2022-09-01 10:24:11,044 - craftBet -ERROR - 80   Game Provider Name = QuickSpin :   Game Name =  Big Bot Crew :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/BigBotCrew.png
+2022-09-01 10:24:14,013 - craftBet -ERROR - 90   Game Provider Name = TomHorn :   Game Name =  Black Mummy :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/BlackMummy.png
+2022-09-01 10:24:14,124 - craftBet -ERROR - 91   Game Provider Name = TomHorn :   Game Name =  Blackbeard'sQuest :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/BookOfSpells.png
+2022-09-01 10:24:14,247 - craftBet -ERROR - 92   Game Provider Name = TomHorn :   Game Name =  Blackbeard'sQuestMini :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/BlackbeardsQuest.png
+2022-09-01 10:24:20,638 - craftBet -ERROR - 115   Game Provider Name = TomHorn :   Game Name =  Book Of Spells :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/BookOfSpells.png
+2022-09-01 10:24:36,009 - craftBet -ERROR - 167   Game Provider Name = QuickSpin :   Game Name =  Colossus :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_colossus.jpg
+2022-09-01 10:24:38,747 - craftBet -ERROR - 177   Game Provider Name = QuickSpin :   Game Name =  Crystal Queen :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_crystalqueen.jpg.jpg
+2022-09-01 10:24:42,854 - craftBet -ERROR - 191   Game Provider Name = TomHorn :   Game Name =  Diamond Hill :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/diamond-hill.png
+2022-09-01 10:24:46,592 - craftBet -ERROR - 202   Game Provider Name = QuickSpin :   Game Name =  Divine Dreams :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/DivineDreams.png
+2022-09-01 10:24:47,065 - craftBet -ERROR - 204   Game Provider Name = TomHorn :   Game Name =  Don Juan's Peppers :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/DonJuansPeppers.png
+2022-09-01 10:24:48,221 - craftBet -ERROR - 208   Game Provider Name = TomHorn :   Game Name =  Dragon Egg :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/DragonEgg.png
+2022-09-01 10:24:49,050 - craftBet -ERROR - 211   Game Provider Name = TomHorn :   Game Name =  Dragon Riches :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/DragonRichesProgressive.png
+2022-09-01 10:24:49,073 - craftBet -ERROR - 212   Game Provider Name = TomHorn :   Game Name =  Dragon Riches Prog. :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/DragonRichesProgressive.png
+2022-09-01 10:24:49,179 - craftBet -ERROR - 213   Game Provider Name = QuickSpin :   Game Name =  Dragon Shrine :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/DragonShrine.png
+2022-09-01 10:24:51,556 - craftBet -ERROR - 221   Game Provider Name = QuickSpin :   Game Name =  Durian Dynamite :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/DurianDynamite.png
+2022-09-01 10:24:53,409 - craftBet -ERROR - 228   Game Provider Name = QuickSpin :   Game Name =  Eastern Emeralds :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/EasternEmeralds.png
+2022-09-01 10:24:58,261 - craftBet -ERROR - 245   Game Provider Name = QuickSpin :   Game Name =  Fairy Gate :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/FairyGate.png
+2022-09-01 10:25:01,959 - craftBet -ERROR - 258   Game Provider Name = TomHorn :   Game Name =  Feng Fu :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/FengFu.png
+2022-09-01 10:25:04,186 - craftBet -ERROR - 265   Game Provider Name = TomHorn :   Game Name =  Fire 'n' Hot :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/FirenHot.png
+2022-09-01 10:25:07,998 - craftBet -ERROR - 277   Game Provider Name = TomHorn :   Game Name =  Flaming Fruit :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/FlamingFruit.png
+2022-09-01 10:25:11,882 - craftBet -ERROR - 291   Game Provider Name = TomHorn :   Game Name =  Frozen Queen :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/FrozenQueen.png
+2022-09-01 10:25:18,086 - craftBet -ERROR - 311   Game Provider Name = TomHorn :   Game Name =  Geisha's Fan :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/GeishasFun.png
+2022-09-01 10:25:19,694 - craftBet -ERROR - 317   Game Provider Name = QuickSpin :   Game Name =  Genies Touch :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_geniestouch.jpg
+2022-09-01 10:25:24,534 - craftBet -ERROR - 332   Game Provider Name = TomHorn :   Game Name =  Gold x :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/gold-x.png
+2022-09-01 10:25:28,803 - craftBet -ERROR - 345   Game Provider Name = QuickSpin :   Game Name =  Goldilocks & Wild Bears :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_goldilocks2.jpg
+2022-09-01 10:25:29,003 - craftBet -ERROR - 346   Game Provider Name = QuickSpin :   Game Name =  Gold Lab :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_goldlab.jpg
+2022-09-01 10:25:38,663 - craftBet -ERROR - 376   Game Provider Name = TomHorn :   Game Name =  Hot Blizzard :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/hot-blizzard.png
+2022-09-01 10:25:40,000 - craftBet -ERROR - 381   Game Provider Name = QuickSpin :   Game Name =  Hot Sync :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/HotSync.png
+2022-09-01 10:25:41,004 - craftBet -ERROR - 385   Game Provider Name = TomHorn :   Game Name =  Hot'n'Fruity :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/hotnfruity.png
+2022-09-01 10:25:46,081 - craftBet -ERROR - 402   Game Provider Name = QuickSpin :   Game Name =  Illuminous :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_illuminous.jpg
+2022-09-01 10:25:47,351 - craftBet -ERROR - 407   Game Provider Name = TomHorn :   Game Name =  Inca's Treasure :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/incas-treasure.png
+2022-09-01 10:25:49,088 - craftBet -ERROR - 413   Game Provider Name = RelaxGaming :   Game Name =  Iron Bank :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/ironbank_rg.jpg
+2022-09-01 10:25:55,869 - craftBet -ERROR - 436   Game Provider Name = TomHorn :   Game Name =  Joker Reelz :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/joker-reelz.png
+2022-09-01 10:26:07,272 - craftBet -ERROR - 473   Game Provider Name = QuickSpin :   Game Name =  Leprechaun Hills :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_leprechaunhills.jpg
+2022-09-01 10:26:19,706 - craftBet -ERROR - 514   Game Provider Name = QuickSpin :   Game Name =  Mayana :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_mayana.jpg
+2022-09-01 10:26:23,521 - craftBet -ERROR - 527   Game Provider Name = QuickSpin :   Game Name =  Mighty Arthur :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_mightyarthur.jpg
+2022-09-01 10:26:25,302 - craftBet -ERROR - 533   Game Provider Name = RelaxGaming :   Game Name =  Money Train 2 :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/moneytrain2_rg.jpg
+2022-09-01 10:26:25,489 - craftBet -ERROR - 534   Game Provider Name = TomHorn :   Game Name =  Monkey 27 :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/Monkey27.png
+2022-09-01 10:26:26,492 - craftBet -ERROR - 538   Game Provider Name = TomHorn :   Game Name =  Monster Madness :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/MonsterMadness.png
+2022-09-01 10:26:28,266 - craftBet -ERROR - 544   Game Provider Name = QuickSpin :   Game Name =  Mountain King :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/MountainKing.png
+2022-09-01 10:26:33,048 - craftBet -ERROR - 560   Game Provider Name = QuickSpin :   Game Name =  Northern Sky :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/NorthernSky.png
+2022-09-01 10:26:36,246 - craftBet -ERROR - 571   Game Provider Name = TomHorn :   Game Name =  Panda's Run :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/PandasRun.png
+2022-09-01 10:26:39,730 - craftBet -ERROR - 584   Game Provider Name = QuickSpin :   Game Name =  Phoenix Sun :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_phoenixsun.jpg
+2022-09-01 10:26:39,921 - craftBet -ERROR - 585   Game Provider Name = QuickSpin :   Game Name =  Pied Piper :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/PiedPiper.png
+2022-09-01 10:26:42,200 - craftBet -ERROR - 593   Game Provider Name = QuickSpin :   Game Name =  Pirates Charm :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/PiratesCharm.png
+2022-09-01 10:26:51,583 - craftBet -ERROR - 625   Game Provider Name = QuickSpin :   Game Name =  Razortooth :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_sabretooth.jpg
+2022-09-01 10:26:52,373 - craftBet -ERROR - 628   Game Provider Name = TomHorn :   Game Name =  Red Lights :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/RedLights.png
+2022-09-01 10:27:08,450 - craftBet -ERROR - 679   Game Provider Name = TomHorn :   Game Name =  Savannah King :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/SavannahKing.png
+2022-09-01 10:27:08,673 - craftBet -ERROR - 680   Game Provider Name = TomHorn :   Game Name =  Scratch Card :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/ScratchCard.png
+2022-09-01 10:27:10,277 - craftBet -ERROR - 685   Game Provider Name = QuickSpin :   Game Name =  Second Strike :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_secondstrike.jpg
+2022-09-01 10:27:12,302 - craftBet -ERROR - 692   Game Provider Name = QuickSpin :   Game Name =  Sevens High :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_sevens.jpg
+2022-09-01 10:27:13,372 - craftBet -ERROR - 695   Game Provider Name = TomHorn :   Game Name =  Shaolin's Tiger :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/ShaolinsTiger.jpg
+2022-09-01 10:27:14,007 - craftBet -ERROR - 697   Game Provider Name = TomHorn :   Game Name =  Sherlock in Bohemia :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/Sherlock.png
+2022-09-01 10:27:15,310 - craftBet -ERROR - 701   Game Provider Name = TomHorn :   Game Name =  Sizable Win :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/SizableWin.png
+2022-09-01 10:27:16,366 - craftBet -ERROR - 705   Game Provider Name = TomHorn :   Game Name =  Sky Barons :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/SkyBarons.png
+2022-09-01 10:27:17,252 - craftBet -ERROR - 708   Game Provider Name = RelaxGaming :   Game Name =  Snake Arena :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/snakearena_rg.jpg
+2022-09-01 10:27:21,354 - craftBet -ERROR - 721   Game Provider Name = TomHorn :   Game Name =  Spinball :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/spinball.png
+2022-09-01 10:27:21,544 - craftBet -ERROR - 722   Game Provider Name = QuickSpin :   Game Name =  Spinions Beach Party :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_spinions.jpg
+2022-09-01 10:27:24,741 - craftBet -ERROR - 732   Game Provider Name = QuickSpin :   Game Name =  Sticky Bandits :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_stickybandits.jpg
+2022-09-01 10:27:30,134 - craftBet -ERROR - 749   Game Provider Name = TomHorn :   Game Name =  Sweet Crush :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/sweet-crush.png
+2022-09-01 10:27:32,480 - craftBet -ERROR - 757   Game Provider Name = QuickSpin :   Game Name =  Tales of Doctor Dolittle :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/TalesofDoctorDolittle.png
+2022-09-01 10:27:33,851 - craftBet -ERROR - 762   Game Provider Name = TomHorn :   Game Name =  The Cup :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/TheCup.png
+2022-09-01 10:27:41,989 - craftBet -ERROR - 786   Game Provider Name = TomHorn :   Game Name =  The Secret of BA :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/the-secret-of-ba.png
+2022-09-01 10:27:44,401 - craftBet -ERROR - 794   Game Provider Name = TomHorn :   Game Name =  Thrones Of Persia :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/ThronesOfPersia.png
+2022-09-01 10:27:57,444 - craftBet -ERROR - 839   Game Provider Name = QuickSpin :   Game Name =  Volcano Riches :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/VolcanoRiches.png
+2022-09-01 10:28:00,549 - craftBet -ERROR - 850   Game Provider Name = RelaxGaming :   Game Name =  Wild Chapo :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/wildchapo_rg.jpg
+2022-09-01 10:28:01,070 - craftBet -ERROR - 852   Game Provider Name = QuickSpin :   Game Name =  Wild Chase :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/WildChase.png
+2022-09-01 10:28:04,961 - craftBet -ERROR - 866   Game Provider Name = TomHorn :   Game Name =  Wild Weather :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/WildWeather.png
+2022-09-01 10:28:07,297 - craftBet -ERROR - 874   Game Provider Name = QuickSpin :   Game Name =  Wins of Fortune :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/WinsofFortune.png
+2022-09-01 10:28:08,313 - craftBet -ERROR - 878   Game Provider Name = TomHorn :   Game Name =  Wolf Sierra :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/wolf-sierra.png
+2022-09-01 10:28:11,299 - craftBet -INFO - Broken images are:  74
+2022-09-01 10:28:12,681 - craftBet -INFO - Browser closed
+2022-09-01 10:28:12,682 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 10:28:12,711 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 10:34:34,275 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 10:34:34,568 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 10:34:34,614 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 10:34:39,926 - craftBet -INFO - URL: https://bet2win.vip  Browser: chrome
+2022-09-01 10:34:39,995 - craftBet -INFO - All Page elements are initialized
+2022-09-01 10:34:40,293 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 10:34:41,940 - craftBet -INFO - Get games Api call was sent
+2022-09-01 10:34:42,041 - craftBet -INFO - Get games Api Response was captured
+2022-09-01 10:34:42,065 - craftBet -INFO - All captured games images was added into ArrayList
+2022-09-01 10:34:44,413 - craftBet -ERROR - 7   Game Provider Name = TomHorn :   Game Name =  243CrystalFruits :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/243CrystalFruits.png
+2022-09-01 10:34:44,609 - craftBet -ERROR - 8   Game Provider Name = TomHorn :   Game Name =  243 Crystal Fruits R. :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/crystal-fruits-reversed.png
+2022-09-01 10:36:28,982 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 10:36:29,293 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 10:36:29,329 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 10:36:32,087 - craftBet -INFO - URL: https://bet2win.vip  Browser: chrome
+2022-09-01 10:36:32,162 - craftBet -INFO - All Page elements are initialized
+2022-09-01 10:36:32,177 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 10:36:34,135 - craftBet -INFO - Get games Api call was sent
+2022-09-01 10:36:34,216 - craftBet -INFO - Get games Api Response was captured
+2022-09-01 10:36:34,251 - craftBet -INFO - All captured games images was added into ArrayList
+2022-09-01 10:36:36,819 - craftBet -ERROR - 7   Game Provider Name = TomHorn :   Game Name =  243CrystalFruits :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/243CrystalFruits.png
+2022-09-01 10:36:36,958 - craftBet -ERROR - 8   Game Provider Name = TomHorn :   Game Name =  243 Crystal Fruits R. :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/crystal-fruits-reversed.png
+2022-09-01 10:36:50,822 - craftBet -ERROR - 52   Game Provider Name = QuickSpin :   Game Name =  Ark of Mystery :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/ArkofMystery.png
+2022-09-01 10:36:57,689 - craftBet -ERROR - 77   Game Provider Name = QuickSpin :   Game Name =  Big Bad Wolf :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/qso_bbw.jpg
+2022-09-01 10:36:58,327 - craftBet -ERROR - 80   Game Provider Name = QuickSpin :   Game Name =  Big Bot Crew :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/BigBotCrew.png
+2022-09-01 10:37:07,135 - craftBet -ERROR - 112   Game Provider Name = TomHorn :   Game Name =  Book Of Spells :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/BookOfSpells.png
+2022-09-01 10:37:23,187 - craftBet -ERROR - 164   Game Provider Name = QuickSpin :   Game Name =  Colossus :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/qso_colossus.jpg
+2022-09-01 10:37:25,786 - craftBet -ERROR - 174   Game Provider Name = QuickSpin :   Game Name =  Crystal Queen :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/qso_crystalqueen.jpg.jpg
+2022-09-01 10:37:29,796 - craftBet -ERROR - 188   Game Provider Name = TomHorn :   Game Name =  Diamond Hill :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/diamond-hill.png
+2022-09-01 10:37:33,669 - craftBet -ERROR - 199   Game Provider Name = QuickSpin :   Game Name =  Divine Dreams :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/DivineDreams.png
+2022-09-01 10:37:34,070 - craftBet -ERROR - 201   Game Provider Name = TomHorn :   Game Name =  Don Juan's Peppers :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/DonJuansPeppers.png
+2022-09-01 10:37:35,275 - craftBet -ERROR - 205   Game Provider Name = TomHorn :   Game Name =  Dragon Egg :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/DragonEgg.png
+2022-09-01 10:37:36,041 - craftBet -ERROR - 208   Game Provider Name = TomHorn :   Game Name =  Dragon Riches :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/DragonRichesProgressive.png
+2022-09-01 10:37:36,067 - craftBet -ERROR - 209   Game Provider Name = TomHorn :   Game Name =  Dragon Riches Prog. :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/DragonRichesProgressive.png
+2022-09-01 10:37:36,195 - craftBet -ERROR - 210   Game Provider Name = QuickSpin :   Game Name =  Dragon Shrine :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/DragonShrine.png
+2022-09-01 10:37:38,526 - craftBet -ERROR - 218   Game Provider Name = QuickSpin :   Game Name =  Durian Dynamite :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/DurianDynamite.png
+2022-09-01 10:37:40,214 - craftBet -ERROR - 225   Game Provider Name = QuickSpin :   Game Name =  Eastern Emeralds :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/EasternEmeralds.png
+2022-09-01 10:37:45,007 - craftBet -ERROR - 242   Game Provider Name = QuickSpin :   Game Name =  Fairy Gate :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/FairyGate.png
+2022-09-01 10:37:48,704 - craftBet -ERROR - 255   Game Provider Name = TomHorn :   Game Name =  Feng Fu :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/FengFu.png
+2022-09-01 10:37:50,961 - craftBet -ERROR - 262   Game Provider Name = TomHorn :   Game Name =  Fire 'n' Hot :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/FirenHot.png
+2022-09-01 10:37:54,463 - craftBet -ERROR - 274   Game Provider Name = TomHorn :   Game Name =  Flaming Fruit :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/FlamingFruit.png
+2022-09-01 10:37:58,179 - craftBet -ERROR - 288   Game Provider Name = TomHorn :   Game Name =  Frozen Queen :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/FrozenQueen.png
+2022-09-01 10:38:03,815 - craftBet -ERROR - 308   Game Provider Name = TomHorn :   Game Name =  Geisha's Fan :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/GeishasFun.png
+2022-09-01 10:38:05,281 - craftBet -ERROR - 314   Game Provider Name = QuickSpin :   Game Name =  Genies Touch :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/qso_geniestouch.jpg
+2022-09-01 10:38:09,707 - craftBet -ERROR - 329   Game Provider Name = TomHorn :   Game Name =  Gold x :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/gold-x.png
+2022-09-01 10:38:13,743 - craftBet -ERROR - 342   Game Provider Name = QuickSpin :   Game Name =  Goldilocks & Wild Bears :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/qso_goldilocks2.jpg
+2022-09-01 10:38:13,937 - craftBet -ERROR - 343   Game Provider Name = QuickSpin :   Game Name =  Gold Lab :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/qso_goldlab.jpg
+2022-09-01 10:38:23,353 - craftBet -ERROR - 373   Game Provider Name = TomHorn :   Game Name =  Hot Blizzard :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/hot-blizzard.png
+2022-09-01 10:38:24,858 - craftBet -ERROR - 378   Game Provider Name = QuickSpin :   Game Name =  Hot Sync :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/HotSync.png
+2022-09-01 10:38:25,859 - craftBet -ERROR - 382   Game Provider Name = TomHorn :   Game Name =  Hot'n'Fruity :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/hotnfruity.png
+2022-09-01 10:38:30,830 - craftBet -ERROR - 399   Game Provider Name = QuickSpin :   Game Name =  Illuminous :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/qso_illuminous.jpg
+2022-09-01 10:38:32,095 - craftBet -ERROR - 404   Game Provider Name = TomHorn :   Game Name =  Inca's Treasure :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/incas-treasure.png
+2022-09-01 10:38:33,879 - craftBet -ERROR - 410   Game Provider Name = RelaxGaming :   Game Name =  Iron Bank :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/ironbank_rg.jpg
+2022-09-01 10:38:40,477 - craftBet -ERROR - 433   Game Provider Name = TomHorn :   Game Name =  Joker Reelz :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/joker-reelz.png
+2022-09-01 10:38:51,742 - craftBet -ERROR - 470   Game Provider Name = QuickSpin :   Game Name =  Leprechaun Hills :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/qso_leprechaunhills.jpg
+2022-09-01 10:39:03,771 - craftBet -ERROR - 511   Game Provider Name = QuickSpin :   Game Name =  Mayana :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/qso_mayana.jpg
+2022-09-01 10:39:07,857 - craftBet -ERROR - 524   Game Provider Name = QuickSpin :   Game Name =  Mighty Arthur :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/qso_mightyarthur.jpg
+2022-09-01 10:39:09,675 - craftBet -ERROR - 530   Game Provider Name = RelaxGaming :   Game Name =  Money Train 2 :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/moneytrain2_rg.jpg
+2022-09-01 10:39:09,866 - craftBet -ERROR - 531   Game Provider Name = TomHorn :   Game Name =  Monkey 27 :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/Monkey27.png
+2022-09-01 10:39:11,098 - craftBet -ERROR - 535   Game Provider Name = TomHorn :   Game Name =  Monster Madness :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/MonsterMadness.png
+2022-09-01 10:39:12,804 - craftBet -ERROR - 541   Game Provider Name = QuickSpin :   Game Name =  Mountain King :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/MountainKing.png
+2022-09-01 10:39:17,411 - craftBet -ERROR - 557   Game Provider Name = QuickSpin :   Game Name =  Northern Sky :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/NorthernSky.png
+2022-09-01 10:39:20,531 - craftBet -ERROR - 568   Game Provider Name = TomHorn :   Game Name =  Panda's Run :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/PandasRun.png
+2022-09-01 10:39:24,008 - craftBet -ERROR - 581   Game Provider Name = QuickSpin :   Game Name =  Phoenix Sun :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/qso_phoenixsun.jpg
+2022-09-01 10:39:24,200 - craftBet -ERROR - 582   Game Provider Name = QuickSpin :   Game Name =  Pied Piper :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/PiedPiper.png
+2022-09-01 10:39:26,363 - craftBet -ERROR - 590   Game Provider Name = QuickSpin :   Game Name =  Pirates Charm :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/PiratesCharm.png
+2022-09-01 10:39:36,070 - craftBet -ERROR - 622   Game Provider Name = QuickSpin :   Game Name =  Razortooth :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/qso_sabretooth.jpg
+2022-09-01 10:39:36,739 - craftBet -ERROR - 625   Game Provider Name = TomHorn :   Game Name =  Red Lights :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/RedLights.png
+2022-09-01 10:39:52,602 - craftBet -ERROR - 676   Game Provider Name = TomHorn :   Game Name =  Savannah King :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/SavannahKing.png
+2022-09-01 10:39:54,040 - craftBet -ERROR - 681   Game Provider Name = QuickSpin :   Game Name =  Second Strike :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/qso_secondstrike.jpg
+2022-09-01 10:39:55,929 - craftBet -ERROR - 688   Game Provider Name = QuickSpin :   Game Name =  Sevens High :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/qso_sevens.jpg
+2022-09-01 10:39:56,961 - craftBet -ERROR - 691   Game Provider Name = TomHorn :   Game Name =  Shaolin's Tiger :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/ShaolinsTiger.jpg
+2022-09-01 10:39:57,459 - craftBet -ERROR - 693   Game Provider Name = TomHorn :   Game Name =  Sherlock in Bohemia :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/Sherlock.png
+2022-09-01 10:39:58,681 - craftBet -ERROR - 697   Game Provider Name = TomHorn :   Game Name =  Sizable Win :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/SizableWin.png
+2022-09-01 10:39:59,678 - craftBet -ERROR - 701   Game Provider Name = TomHorn :   Game Name =  Sky Barons :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/SkyBarons.png
+2022-09-01 10:40:00,515 - craftBet -ERROR - 704   Game Provider Name = RelaxGaming :   Game Name =  Snake Arena :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/snakearena_rg.jpg
+2022-09-01 10:40:05,369 - craftBet -ERROR - 717   Game Provider Name = TomHorn :   Game Name =  Spinball :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/spinball.png
+2022-09-01 10:40:05,497 - craftBet -ERROR - 718   Game Provider Name = QuickSpin :   Game Name =  Spinions Beach Party :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/qso_spinions.jpg
+2022-09-01 10:40:08,848 - craftBet -ERROR - 728   Game Provider Name = QuickSpin :   Game Name =  Sticky Bandits :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/qso_stickybandits.jpg
+2022-09-01 10:40:14,056 - craftBet -ERROR - 745   Game Provider Name = TomHorn :   Game Name =  Sweet Crush :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/sweet-crush.png
+2022-09-01 10:40:16,388 - craftBet -ERROR - 753   Game Provider Name = QuickSpin :   Game Name =  Tales of Doctor Dolittle :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/TalesofDoctorDolittle.png
+2022-09-01 10:40:17,894 - craftBet -ERROR - 758   Game Provider Name = TomHorn :   Game Name =  The Cup :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/TheCup.png
+2022-09-01 10:40:26,083 - craftBet -ERROR - 782   Game Provider Name = TomHorn :   Game Name =  The Secret of BA :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/the-secret-of-ba.png
+2022-09-01 10:40:28,441 - craftBet -ERROR - 790   Game Provider Name = TomHorn :   Game Name =  Thrones Of Persia :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/ThronesOfPersia.png
+2022-09-01 10:40:41,515 - craftBet -ERROR - 835   Game Provider Name = QuickSpin :   Game Name =  Volcano Riches :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/VolcanoRiches.png
+2022-09-01 10:40:44,580 - craftBet -ERROR - 846   Game Provider Name = RelaxGaming :   Game Name =  Wild Chapo :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/wildchapo_rg.jpg
+2022-09-01 10:40:45,171 - craftBet -ERROR - 848   Game Provider Name = QuickSpin :   Game Name =  Wild Chase :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/WildChase.png
+2022-09-01 10:40:49,450 - craftBet -ERROR - 862   Game Provider Name = TomHorn :   Game Name =  Wild Weather :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/WildWeather.png
+2022-09-01 10:40:52,054 - craftBet -ERROR - 870   Game Provider Name = QuickSpin :   Game Name =  Wins of Fortune :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/WinsofFortune.png
+2022-09-01 10:40:53,230 - craftBet -ERROR - 874   Game Provider Name = TomHorn :   Game Name =  Wolf Sierra :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/wolf-sierra.png
+2022-09-01 10:40:56,216 - craftBet -INFO - Broken images are:  70
+2022-09-01 10:40:57,985 - craftBet -INFO - Browser closed
+2022-09-01 10:40:57,986 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 10:40:58,000 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 13:00:54,751 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 13:00:56,523 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 13:00:56,566 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 13:01:02,062 - craftBet -INFO - URL: https://bet2win.vip  Browser: chrome
+2022-09-01 13:01:02,229 - craftBet -INFO - All Page elements are initialized
+2022-09-01 13:01:02,240 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 13:01:06,793 - craftBet -INFO - username passed
+2022-09-01 13:01:07,313 - craftBet -INFO - password passed
+2022-09-01 13:01:07,450 - craftBet -INFO - Log In Button was clicked
+2022-09-01 13:01:11,038 - craftBet -INFO - Token was captured a08da068038a4d918b65033475993676
+2022-09-01 13:01:11,499 - io.joshworks.restclient.http.ClientContainer -INFO - New rest client created, id: 18b71431
+2022-09-01 13:01:11,500 - io.joshworks.restclient.http.IdleConnectionMonitor -INFO - Starting idle connection monitor
+2022-09-01 13:01:13,271 - craftBet -INFO - Get All games API call 
+2022-09-01 13:01:13,389 - craftBet -INFO - From Get All games API call body captured 
+2022-09-01 13:01:13,421 - craftBet -INFO - From Get All games API productIDes and Names was captured 
+2022-09-01 13:01:18,104 - craftBet -INFO - 1 7 ID=6086 Provider=TomHorn Name=243CrystalFruits cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:01:18,543 - craftBet -INFO - 2 8 ID=6101 Provider=TomHorn Name=243 Crystal Fruits R. cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:01:41,247 - craftBet -INFO - 3 52 ID=23014 Provider=QuickSpin Name=Ark of Mystery cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:01:44,754 - craftBet -INFO - 4 59 ID=75976 Provider=Yggdrasil Name=Baccarat cod=0 description=null ResponseObject=24
+2022-09-01 13:01:46,920 - craftBet -INFO - 5 63 ID=75977 Provider=Yggdrasil Name=Baccarat VIP cod=0 description=null ResponseObject=24
+2022-09-01 13:01:54,678 - craftBet -INFO - 6 77 ID=23741 Provider=QuickSpin Name=Big Bad Wolf cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:01:56,092 - craftBet -INFO - 7 80 ID=23725 Provider=QuickSpin Name=Big Bot Crew cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:02:01,118 - craftBet -INFO - 8 90 ID=6013 Provider=TomHorn Name=Black Mummy cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:02:01,506 - craftBet -INFO - 9 91 ID=6010 Provider=TomHorn Name=Blackbeard'sQuest cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:02:01,913 - craftBet -INFO - 10 92 ID=6096 Provider=TomHorn Name=Blackbeard'sQuestMini cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:02:14,224 - craftBet -INFO - 11 115 ID=6009 Provider=TomHorn Name=Book Of Spells cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:02:39,051 - craftBet -INFO - 12 167 ID=23726 Provider=QuickSpin Name=Colossus cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:02:44,206 - craftBet -INFO - 13 177 ID=23742 Provider=QuickSpin Name=Crystal Queen cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:02:51,881 - craftBet -INFO - 14 191 ID=6104 Provider=TomHorn Name=Diamond Hill cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:02:56,906 - craftBet -INFO - 15 202 ID=23727 Provider=QuickSpin Name=Divine Dreams cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:02:57,981 - craftBet -INFO - 16 204 ID=6007 Provider=TomHorn Name=Don Juan's Peppers cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:02:59,723 - craftBet -INFO - 17 208 ID=6020 Provider=TomHorn Name=Dragon Egg cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:03:01,133 - craftBet -INFO - 18 211 ID=6097 Provider=TomHorn Name=Dragon Riches cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:03:01,524 - craftBet -INFO - 19 212 ID=6088 Provider=TomHorn Name=Dragon Riches Prog. cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:03:01,898 - craftBet -INFO - 20 213 ID=23728 Provider=QuickSpin Name=Dragon Shrine cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:03:06,428 - craftBet -INFO - 21 221 ID=23729 Provider=QuickSpin Name=Durian Dynamite cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:03:08,463 - craftBet -INFO - 22 225 ID=23781 Provider=QuickSpin Name=Dwarfs Gone Wild cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:03:10,136 - craftBet -INFO - 23 228 ID=23730 Provider=QuickSpin Name=Eastern Emeralds cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:03:19,829 - craftBet -INFO - 24 245 ID=23731 Provider=QuickSpin Name=Fairy Gate cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:03:25,160 - craftBet -INFO - 25 254 ID=29986 Provider=PushGaming Name=Fat Rabbit cod=0 description=null ResponseObject=24
+2022-09-01 13:03:26,891 - craftBet -INFO - 26 258 ID=6019 Provider=TomHorn Name=Feng Fu cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:03:29,967 - craftBet -INFO - 27 265 ID=6003 Provider=TomHorn Name=Fire 'n' Hot cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:03:35,894 - craftBet -INFO - 28 277 ID=6015 Provider=TomHorn Name=Flaming Fruit cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:03:37,347 - craftBet -INFO - 29 280 ID=29278 Provider=PariPlay Name=Force of the Gods cod=0 description=null ResponseObject=24
+2022-09-01 13:03:42,961 - craftBet -INFO - 30 291 ID=6089 Provider=TomHorn Name=Frozen Queen cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:03:53,320 - craftBet -INFO - 31 311 ID=6005 Provider=TomHorn Name=Geisha's Fan cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:03:56,222 - craftBet -INFO - 32 317 ID=23743 Provider=QuickSpin Name=Genies Touch cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:03:58,704 - craftBet -INFO - 33 323 ID=75277 Provider=Yggdrasil Name=Glory of Heroes cod=0 description=null ResponseObject=24
+2022-09-01 13:04:03,403 - craftBet -INFO - 34 332 ID=6099 Provider=TomHorn Name=Gold x cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:04:09,839 - craftBet -INFO - 35 345 ID=23021 Provider=QuickSpin Name=Goldilocks & Wild Bears cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:04:10,199 - craftBet -INFO - 36 346 ID=23015 Provider=QuickSpin Name=Gold Lab cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:04:19,862 - craftBet -INFO - 37 365 ID=23783 Provider=QuickSpin Name=Hidden Valley cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:04:24,627 - craftBet -INFO - 38 376 ID=6106 Provider=TomHorn Name=Hot Blizzard cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:04:27,312 - craftBet -INFO - 39 381 ID=23732 Provider=QuickSpin Name=Hot Sync cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:04:29,443 - craftBet -INFO - 40 385 ID=6105 Provider=TomHorn Name=Hot'n'Fruity cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:04:32,689 - craftBet -INFO - 41 392 ID=29981 Provider=PushGaming Name=Humpty Dumpty cod=0 description=null ResponseObject=24
+2022-09-01 13:04:37,192 - craftBet -INFO - 42 402 ID=23744 Provider=QuickSpin Name=Illuminous cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:04:37,670 - craftBet -INFO - 43 403 ID=29983 Provider=PushGaming Name=Immortal Guild cod=0 description=null ResponseObject=24
+2022-09-01 13:04:39,591 - craftBet -INFO - 44 407 ID=6107 Provider=TomHorn Name=Inca's Treasure cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:04:42,636 - craftBet -INFO - 45 413 ID=23754 Provider=RelaxGaming Name=Iron Bank cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:04:43,028 - craftBet -INFO - 46 414 ID=23784 Provider=QuickSpin Name=Ivan and the Immortal King cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:04:55,072 - craftBet -INFO - 47 436 ID=6102 Provider=TomHorn Name=Joker Reelz cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:04:55,492 - craftBet -INFO - 48 437 ID=23785 Provider=QuickSpin Name=Joker Strike cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:05:03,179 - craftBet -INFO - 49 452 ID=29701 Provider=PariPlay Name=King of the Trident Deluxe cod=0 description=null ResponseObject=24
+2022-09-01 13:05:12,363 - craftBet -INFO - 50 471 ID=28655 Provider=PlaysonDirect Name=Legend of Cleopatra Megaways cod=0 description=null ResponseObject=24
+2022-09-01 13:05:13,135 - craftBet -INFO - 51 473 ID=23724 Provider=QuickSpin Name=Leprechaun Hills cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:05:14,186 - craftBet -INFO - 52 475 ID=76131 Provider=Yggdrasil Name=Let It Slide cod=0 description=null ResponseObject=24
+2022-09-01 13:05:32,720 - craftBet -INFO - 53 514 ID=23018 Provider=QuickSpin Name=Mayana cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:05:38,956 - craftBet -INFO - 54 527 ID=23019 Provider=QuickSpin Name=Mighty Arthur cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:05:41,641 - craftBet -INFO - 55 533 ID=23753 Provider=RelaxGaming Name=Money Train 2 cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:05:42,014 - craftBet -INFO - 56 534 ID=6008 Provider=TomHorn Name=Monkey 27 cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:05:44,188 - craftBet -INFO - 57 538 ID=6090 Provider=TomHorn Name=Monster Madness cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:05:46,682 - craftBet -INFO - 58 544 ID=23733 Provider=QuickSpin Name=Mountain King cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:05:54,810 - craftBet -INFO - 59 560 ID=23734 Provider=QuickSpin Name=Northern Sky cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:05:59,484 - craftBet -INFO - 60 571 ID=6001 Provider=TomHorn Name=Panda's Run cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:06:06,757 - craftBet -INFO - 61 584 ID=23017 Provider=QuickSpin Name=Phoenix Sun cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:06:07,118 - craftBet -INFO - 62 585 ID=23735 Provider=QuickSpin Name=Pied Piper cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:06:22,894 - craftBet -INFO - 63 593 ID=23736 Provider=QuickSpin Name=Pirates Charm cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:06:38,223 - craftBet -INFO - 64 625 ID=23011 Provider=QuickSpin Name=Razortooth cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:06:39,381 - craftBet -INFO - 65 628 ID=6091 Provider=TomHorn Name=Red Lights cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:06:49,758 - craftBet -INFO - 66 651 ID=75969 Provider=Yggdrasil Name=Roulette Evolution cod=0 description=null ResponseObject=24
+2022-09-01 13:06:50,188 - craftBet -INFO - 67 652 ID=75968 Provider=Yggdrasil Name=Roulette Evolution VIP cod=0 description=null ResponseObject=24
+2022-09-01 13:06:56,650 - craftBet -INFO - 68 666 ID=75005 Provider=Yggdrasil Name=Sabres and Swords: Charge Gigablox cod=0 description=null ResponseObject=24
+2022-09-01 13:07:02,031 - craftBet -INFO - 69 679 ID=6018 Provider=TomHorn Name=Savannah King cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:07:02,386 - craftBet -INFO - 70 680 ID=6095 Provider=TomHorn Name=Scratch Card cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:07:04,502 - craftBet -INFO - 71 685 ID=23012 Provider=QuickSpin Name=Second Strike cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:07:07,543 - craftBet -INFO - 72 692 ID=23013 Provider=QuickSpin Name=Sevens High cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:07:08,764 - craftBet -INFO - 73 695 ID=6004 Provider=TomHorn Name=Shaolin's Tiger cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:07:09,525 - craftBet -INFO - 74 697 ID=6093 Provider=TomHorn Name=Sherlock in Bohemia cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:07:11,023 - craftBet -INFO - 75 701 ID=6012 Provider=TomHorn Name=Sizable Win cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:07:12,975 - craftBet -INFO - 76 705 ID=6017 Provider=TomHorn Name=Sky Barons cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:07:14,218 - craftBet -INFO - 77 708 ID=23752 Provider=RelaxGaming Name=Snake Arena cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:07:20,199 - craftBet -INFO - 78 721 ID=6109 Provider=TomHorn Name=Spinball cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:07:20,567 - craftBet -INFO - 79 722 ID=23016 Provider=QuickSpin Name=Spinions Beach Party cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:07:25,081 - craftBet -INFO - 80 731 ID=75841 Provider=Yggdrasil Name=Steam Spin cod=0 description=null ResponseObject=24
+2022-09-01 13:07:25,426 - craftBet -INFO - 81 732 ID=23020 Provider=QuickSpin Name=Sticky Bandits cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:07:32,947 - craftBet -INFO - 82 749 ID=6098 Provider=TomHorn Name=Sweet Crush cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:07:36,150 - craftBet -INFO - 83 757 ID=23737 Provider=QuickSpin Name=Tales of Doctor Dolittle cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:07:38,412 - craftBet -INFO - 84 762 ID=6016 Provider=TomHorn Name=The Cup cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:07:42,275 - craftBet -INFO - 85 772 ID=23782 Provider=QuickSpin Name=The Grand cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:07:47,591 - craftBet -INFO - 86 786 ID=6103 Provider=TomHorn Name=The Secret of BA cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:07:51,502 - craftBet -INFO - 87 794 ID=6006 Provider=TomHorn Name=Thrones Of Persia cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:07:55,682 - craftBet -INFO - 88 803 ID=75193 Provider=PariPlay Name=Tiki Magic cod=0 description=null ResponseObject=24
+2022-09-01 13:07:56,553 - craftBet -INFO - 89 805 ID=29992 Provider=PushGaming Name=Tiki Tumble cod=0 description=null ResponseObject=24
+2022-09-01 13:08:13,117 - craftBet -INFO - 90 839 ID=23738 Provider=QuickSpin Name=Volcano Riches cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:08:18,364 - craftBet -INFO - 91 850 ID=23750 Provider=RelaxGaming Name=Wild Chapo cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:08:19,412 - craftBet -INFO - 92 852 ID=23739 Provider=QuickSpin Name=Wild Chase cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:08:26,504 - craftBet -INFO - 93 866 ID=6094 Provider=TomHorn Name=Wild Weather cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:08:27,309 - craftBet -INFO - 94 868 ID=29980 Provider=PushGaming Name=Wild Wheel cod=0 description=null ResponseObject=24
+2022-09-01 13:08:34,323 - craftBet -INFO - 95 874 ID=23740 Provider=QuickSpin Name=Wins of Fortune cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 13:08:36,078 - craftBet -INFO - 96 878 ID=6100 Provider=TomHorn Name=Wolf Sierra cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 13:08:40,954 - craftBet -INFO - From Get URL API broken games are captured
+2022-09-01 13:08:40,955 - craftBet -INFO - Broken url-es are:  96
+2022-09-01 13:08:42,436 - craftBet -INFO - Browser closed
+2022-09-01 13:08:42,437 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 13:08:42,460 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 13:11:51,521 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 13:11:52,008 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 13:11:52,043 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 13:11:55,480 - craftBet -INFO - URL: https://bet2win.vip  Browser: chrome
+2022-09-01 13:11:55,659 - craftBet -INFO - All Page elements are initialized
+2022-09-01 13:11:55,677 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 13:11:57,591 - craftBet -INFO - Get games Api call was sent
+2022-09-01 13:11:57,745 - craftBet -INFO - Get games Api Response was captured
+2022-09-01 13:11:57,830 - craftBet -INFO - Dupliicate game Name =  Baccarat VIP
+2022-09-01 13:11:57,852 - craftBet -INFO - Dupliicate game Name =  Bier Party
+2022-09-01 13:11:57,856 - craftBet -INFO - Dupliicate game Name =  Blackjack
+2022-09-01 13:11:57,858 - craftBet -INFO - Dupliicate game Name =  Bloodshot: Rising Spirit
+2022-09-01 13:11:57,859 - craftBet -INFO - Dupliicate game Name =  Book of Itza
+2022-09-01 13:11:57,860 - craftBet -INFO - Dupliicate game Name =  Dragons of the North Deluxe
+2022-09-01 13:11:57,861 - craftBet -INFO - Dupliicate game Name =  Epic Riches
+2022-09-01 13:11:57,861 - craftBet -INFO - Dupliicate game Name =  Faith
+2022-09-01 13:11:57,862 - craftBet -INFO - Dupliicate game Name =  Fat Rabbit
+2022-09-01 13:11:57,875 - craftBet -INFO - Dupliicate game Name =  Force of the Gods
+2022-09-01 13:11:57,876 - craftBet -INFO - Dupliicate game Name =  Force of the Gods
+2022-09-01 13:11:57,876 - craftBet -INFO - Dupliicate game Name =  Force of the Gods
+2022-09-01 13:11:57,877 - craftBet -INFO - Dupliicate game Name =  Grand Loot
+2022-09-01 13:11:57,878 - craftBet -INFO - Dupliicate game Name =  Hot Wild 7s
+2022-09-01 13:11:57,878 - craftBet -INFO - Dupliicate game Name =  Jackpot Fortunes
+2022-09-01 13:11:57,879 - craftBet -INFO - Dupliicate game Name =  King of the Trident Deluxe
+2022-09-01 13:11:57,879 - craftBet -INFO - Dupliicate game Name =  King of the Trident Deluxe
+2022-09-01 13:11:57,879 - craftBet -INFO - Dupliicate game Name =  King of the Trident Deluxe
+2022-09-01 13:11:57,883 - craftBet -INFO - Dupliicate game Name =  Mystery Fox Christmas Party
+2022-09-01 13:11:57,884 - craftBet -INFO - Dupliicate game Name =  Phoenix Kingdom
+2022-09-01 13:11:57,884 - craftBet -INFO - Dupliicate game Name =  Power Strike Super Spin
+2022-09-01 13:11:57,885 - craftBet -INFO - Dupliicate game Name =  Tiki Tumble
+2022-09-01 13:11:57,885 - craftBet -INFO - Dupliicate game Name =  Titan’s Riches
+2022-09-01 13:11:57,885 - craftBet -INFO - Dupliicate game Name =  Wild Fortunes
+2022-09-01 13:11:57,886 - craftBet -INFO - Dupliicate game Name =  Wild Fruit Super Wheel
+2022-09-01 13:11:57,886 - craftBet -INFO - Duplicate games are:  25
+2022-09-01 13:11:59,433 - craftBet -INFO - Browser closed
+2022-09-01 13:11:59,433 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 13:11:59,441 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 13:13:20,336 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 13:13:20,714 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 13:13:20,757 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 13:13:23,748 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-01 13:13:23,827 - craftBet -INFO - All Page elements are initialized
+2022-09-01 13:13:24,272 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 13:13:25,332 - craftBet -INFO - Get games Api call was sent
+2022-09-01 13:13:25,386 - craftBet -INFO - Get Life games Api Response was captured
+2022-09-01 13:13:25,454 - craftBet -ERROR - The Time Out games are :   3718191   ITF-W Vienna   Haruka Kaji  VS  Elena Karner   Tennis   2022-08-31T20:50:00  Status = 1   After game start time out = :  16 hours  24 minutes
+2022-09-01 13:13:25,464 - craftBet -ERROR - The Time Out games are :   3720440   Japan Open   Kodai Naraoka  VS  Anders Antonsen   Badminton   2022-09-01T08:30:00  Status = 1   After game start time out = :  4 hours  43 minutes
+2022-09-01 13:13:25,464 - craftBet -ERROR - The Time Out games are :   3720533   Japan Open WD   Amalia Cahaya Pratiwi/Kusuma  VS  Maiken Fruergaard / Sara Thygesen   Badminton   2022-09-01T08:50:00  Status = 1   After game start time out = :  4 hours  23 minutes
+2022-09-01 13:13:25,466 - craftBet -ERROR - The Time Out games are :   3721096   Japan Open XD   HEE Yong Kai Terry / TAN Wei Han  VS  Dechapol PUAVARANUKROH / Sapsiree TAERATTANACHAI   Badminton   2022-09-01T09:10:00  Status = 1   After game start time out = :  4 hours  3 minutes
+2022-09-01 13:13:25,466 - craftBet -ERROR - The Time Out games are :   3720907   Japan Open MD   Liang / Wang  VS  Mohammad Ahsan / Hendra Setiawan   Badminton   2022-09-01T09:10:00  Status = 1   After game start time out = :  4 hours  3 minutes
+2022-09-01 13:13:25,467 - craftBet -ERROR - The Time Out games are :   3722387   MLB   HOU Astros  VS  TEX Rangers   Baseball   2022-08-31T23:37:00  Status = 1   After game start time out = :  13 hours  37 minutes
+2022-09-01 13:13:25,467 - craftBet -ERROR - The Time Out games are :   3722400   MLB   PIT Pirates  VS  MIL Brewers   Baseball   2022-08-31T23:37:00  Status = 1   After game start time out = :  13 hours  37 minutes
+2022-09-01 13:13:25,467 - craftBet -ERROR - The Time Out games are :   3722373   MLB   SD Padres  VS  SF Giants   Baseball   2022-08-31T23:51:09  Status = 1   After game start time out = :  13 hours  23 minutes
+2022-09-01 13:13:25,469 - craftBet -ERROR - The Time Out games are :   3722357   DelawarePark   Race 7 Delaware Park  VS  ~N/A~   Horse Racing   2022-08-31T23:51:09  Status = 1   After game start time out = :  13 hours  23 minutes
+2022-09-01 13:13:25,469 - craftBet -INFO - Time out Games are:  9
+2022-09-01 13:13:27,087 - craftBet -INFO - Browser closed
+2022-09-01 13:13:27,087 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 13:13:27,097 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 13:17:00,922 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 13:17:01,214 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 13:17:01,248 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 13:17:03,711 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-01 13:17:03,797 - craftBet -INFO - All Page elements are initialized
+2022-09-01 13:17:03,811 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 13:17:05,263 - craftBet -INFO - Get games Api call was sent
+2022-09-01 13:17:05,295 - craftBet -INFO - Games are 90
+2022-09-01 13:17:05,295 - craftBet -INFO - Get Life games Api Response was captured
+2022-09-01 13:17:05,346 - craftBet -INFO - Games Ides = 90
+2022-09-01 13:17:31,559 - craftBet -INFO - Point count =  2629
+2022-09-01 13:17:31,559 - craftBet -INFO - Games with selector >= 1:  0
+2022-09-01 13:17:31,701 - craftBet -INFO - Browser closed
+2022-09-01 13:17:31,701 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 13:17:31,712 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 15:09:13,742 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 15:09:15,429 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 15:09:15,483 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 15:09:21,581 - craftBet -INFO - URL: https://bet2win.vip  Browser: chrome
+2022-09-01 15:09:21,761 - craftBet -INFO - All Page elements are initialized
+2022-09-01 15:09:21,777 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 15:09:24,062 - craftBet -INFO - Get games Api call was sent
+2022-09-01 15:09:24,165 - org.asynchttpclient.netty.handler.WebSocketHandler -WARN - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-09-01 15:09:24,360 - craftBet -INFO - Browser closed
+2022-09-01 15:09:24,361 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 15:09:24,378 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 15:17:14,533 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 15:17:14,948 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 15:17:14,991 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 15:17:20,431 - craftBet -INFO - URL: https://bet2win.vip  Browser: chrome
+2022-09-01 15:17:20,516 - craftBet -INFO - All Page elements are initialized
+2022-09-01 15:17:20,896 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 15:17:22,732 - craftBet -INFO - Get games Api call was sent
+2022-09-01 15:17:22,984 - craftBet -INFO - Browser closed
+2022-09-01 15:17:22,984 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 15:17:22,997 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 15:18:15,224 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 15:18:15,575 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 15:18:15,660 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 15:18:18,705 - craftBet -INFO - URL: https://bet2win.vip  Browser: chrome
+2022-09-01 15:18:18,807 - craftBet -INFO - All Page elements are initialized
+2022-09-01 15:18:19,117 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 15:18:20,814 - craftBet -INFO - Get games Api call was sent
+2022-09-01 15:18:21,098 - craftBet -INFO - Browser closed
+2022-09-01 15:18:21,098 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 15:18:21,117 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 15:18:53,632 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 15:18:54,038 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 15:18:54,092 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 15:18:58,162 - craftBet -INFO - URL: https://bet2win.vip  Browser: chrome
+2022-09-01 15:18:58,273 - craftBet -INFO - All Page elements are initialized
+2022-09-01 15:18:58,286 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 15:19:00,225 - craftBet -INFO - Get games Api call was sent
+2022-09-01 15:22:35,868 - craftBet -INFO - Browser closed
+2022-09-01 15:22:35,869 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 15:22:35,909 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 15:25:24,058 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 15:25:24,474 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 15:25:24,529 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 15:25:27,305 - craftBet -INFO - URL: https://bet2win.vip  Browser: chrome
+2022-09-01 15:25:27,396 - craftBet -INFO - All Page elements are initialized
+2022-09-01 15:25:27,675 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 15:25:29,522 - craftBet -INFO - Get games Api call was sent
+2022-09-01 15:25:34,582 - craftBet -INFO - Browser closed
+2022-09-01 15:25:34,583 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 15:25:34,594 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 15:25:44,525 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 15:25:44,840 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 15:25:44,882 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 15:25:46,952 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 15:25:47,326 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 15:25:47,387 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 15:25:48,353 - craftBet -INFO - URL: https://bet2win.vip  Browser: chrome
+2022-09-01 15:25:48,433 - craftBet -INFO - All Page elements are initialized
+2022-09-01 15:25:48,451 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 15:25:50,438 - craftBet -INFO - Get games Api call was sent
+2022-09-01 15:25:50,754 - craftBet -INFO - Browser closed
+2022-09-01 15:25:50,755 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 15:25:50,767 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 15:25:51,418 - craftBet -INFO - URL: https://bet2win.vip  Browser: chrome
+2022-09-01 15:25:51,605 - craftBet -INFO - All Page elements are initialized
+2022-09-01 15:25:52,063 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 15:25:54,069 - craftBet -INFO - Get games Api call was sent
+2022-09-01 15:26:02,988 - craftBet -INFO - Browser closed
+2022-09-01 15:26:02,989 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 15:26:03,005 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 15:28:02,531 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 15:28:02,827 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 15:28:02,863 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 15:28:05,782 - craftBet -INFO - URL: https://bet2win.vip  Browser: chrome
+2022-09-01 15:28:05,863 - craftBet -INFO - All Page elements are initialized
+2022-09-01 15:28:05,875 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 15:28:07,785 - craftBet -INFO - Get games Api call was sent
+2022-09-01 15:28:13,392 - craftBet -INFO - Get games Api Response was captured
+2022-09-01 15:28:13,410 - craftBet -INFO - Dupliicate game Name =  Baccarat VIP
+2022-09-01 15:28:13,411 - craftBet -INFO - Dupliicate game Name =  Bier Party
+2022-09-01 15:28:13,412 - craftBet -INFO - Dupliicate game Name =  Blackjack
+2022-09-01 15:28:13,413 - craftBet -INFO - Dupliicate game Name =  Bloodshot: Rising Spirit
+2022-09-01 15:28:13,414 - craftBet -INFO - Dupliicate game Name =  Book of Itza
+2022-09-01 15:28:13,417 - craftBet -INFO - Dupliicate game Name =  Dragons of the North Deluxe
+2022-09-01 15:28:13,418 - craftBet -INFO - Dupliicate game Name =  Epic Riches
+2022-09-01 15:28:13,419 - craftBet -INFO - Dupliicate game Name =  Faith
+2022-09-01 15:28:13,422 - craftBet -INFO - Dupliicate game Name =  Fat Rabbit
+2022-09-01 15:28:13,423 - craftBet -INFO - Dupliicate game Name =  Force of the Gods
+2022-09-01 15:28:13,424 - craftBet -INFO - Dupliicate game Name =  Force of the Gods
+2022-09-01 15:28:13,425 - craftBet -INFO - Dupliicate game Name =  Force of the Gods
+2022-09-01 15:28:13,427 - craftBet -INFO - Dupliicate game Name =  Grand Loot
+2022-09-01 15:28:13,428 - craftBet -INFO - Dupliicate game Name =  Hot Wild 7s
+2022-09-01 15:28:13,429 - craftBet -INFO - Dupliicate game Name =  Jackpot Fortunes
+2022-09-01 15:28:13,430 - craftBet -INFO - Dupliicate game Name =  King of the Trident Deluxe
+2022-09-01 15:28:13,430 - craftBet -INFO - Dupliicate game Name =  King of the Trident Deluxe
+2022-09-01 15:28:13,430 - craftBet -INFO - Dupliicate game Name =  King of the Trident Deluxe
+2022-09-01 15:28:13,432 - craftBet -INFO - Dupliicate game Name =  Mystery Fox Christmas Party
+2022-09-01 15:28:13,432 - craftBet -INFO - Dupliicate game Name =  Phoenix Kingdom
+2022-09-01 15:28:13,433 - craftBet -INFO - Dupliicate game Name =  Power Strike Super Spin
+2022-09-01 15:28:13,435 - craftBet -INFO - Dupliicate game Name =  Tiki Tumble
+2022-09-01 15:28:13,436 - craftBet -INFO - Dupliicate game Name =  Titan’s Riches
+2022-09-01 15:28:13,436 - craftBet -INFO - Dupliicate game Name =  Wild Fortunes
+2022-09-01 15:28:13,437 - craftBet -INFO - Dupliicate game Name =  Wild Fruit Super Wheel
+2022-09-01 15:28:13,437 - craftBet -INFO - Duplicate games are:  25
+2022-09-01 15:28:15,270 - craftBet -INFO - Browser closed
+2022-09-01 15:28:15,271 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 15:28:15,284 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 15:29:03,469 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 15:29:03,750 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 15:29:03,795 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 15:29:06,325 - craftBet -INFO - URL: https://bet2win.vip  Browser: chrome
+2022-09-01 15:29:06,429 - craftBet -INFO - All Page elements are initialized
+2022-09-01 15:29:06,807 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 15:29:08,482 - craftBet -INFO - Get games Api call was sent
+2022-09-01 15:29:08,708 - craftBet -INFO - Browser closed
+2022-09-01 15:29:08,709 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 15:29:08,733 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 15:29:46,496 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 15:29:46,842 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 15:29:46,879 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 15:29:49,758 - craftBet -INFO - URL: https://bet2win.vip  Browser: chrome
+2022-09-01 15:29:49,849 - craftBet -INFO - All Page elements are initialized
+2022-09-01 15:29:50,210 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 15:29:51,794 - craftBet -INFO - Get games Api call was sent
+2022-09-01 15:29:51,974 - craftBet -INFO - Browser closed
+2022-09-01 15:29:51,974 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 15:29:51,986 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 15:30:13,960 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 15:30:14,298 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 15:30:14,337 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 15:30:16,983 - craftBet -INFO - URL: https://bet2win.vip  Browser: chrome
+2022-09-01 15:30:17,171 - craftBet -INFO - All Page elements are initialized
+2022-09-01 15:30:17,192 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 15:30:19,084 - craftBet -INFO - Get games Api call was sent
+2022-09-01 15:30:19,154 - craftBet -INFO - Get games Api Response was captured
+2022-09-01 15:30:25,945 - craftBet -INFO - All captured games images was added into ArrayList
+2022-09-01 15:30:28,266 - craftBet -ERROR - 7   Game Provider Name = TomHorn :   Game Name =  243CrystalFruits :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/243CrystalFruits.png
+2022-09-01 15:30:28,453 - craftBet -ERROR - 8   Game Provider Name = TomHorn :   Game Name =  243 Crystal Fruits R. :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/crystal-fruits-reversed.png
+2022-09-01 15:31:05,842 - craftBet -ERROR - 52   Game Provider Name = QuickSpin :   Game Name =  Ark of Mystery :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/ArkofMystery.png
+2022-09-01 15:32:19,560 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 15:32:19,840 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 15:32:19,882 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 15:32:22,586 - craftBet -INFO - URL: https://bet2win.vip  Browser: chrome
+2022-09-01 15:32:22,696 - craftBet -INFO - All Page elements are initialized
+2022-09-01 15:32:22,714 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 15:32:24,791 - craftBet -INFO - Get games Api call was sent
+2022-09-01 15:32:24,851 - craftBet -INFO - Get games Api Response was captured
+2022-09-01 15:32:24,884 - craftBet -INFO - All captured games images was added into ArrayList
+2022-09-01 15:32:27,018 - craftBet -ERROR - 7   Game Provider Name = TomHorn :   Game Name =  243CrystalFruits :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/243CrystalFruits.png
+2022-09-01 15:32:27,047 - craftBet -ERROR - 8   Game Provider Name = TomHorn :   Game Name =  243 Crystal Fruits R. :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/crystal-fruits-reversed.png
+2022-09-01 15:32:40,492 - craftBet -ERROR - 52   Game Provider Name = QuickSpin :   Game Name =  Ark of Mystery :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/ArkofMystery.png
+2022-09-01 15:32:47,623 - craftBet -ERROR - 77   Game Provider Name = QuickSpin :   Game Name =  Big Bad Wolf :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_bbw.jpg
+2022-09-01 15:32:48,269 - craftBet -ERROR - 80   Game Provider Name = QuickSpin :   Game Name =  Big Bot Crew :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/BigBotCrew.png
+2022-09-01 15:32:50,931 - craftBet -ERROR - 90   Game Provider Name = TomHorn :   Game Name =  Black Mummy :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/BlackMummy.png
+2022-09-01 15:32:51,175 - craftBet -ERROR - 91   Game Provider Name = TomHorn :   Game Name =  Blackbeard'sQuest :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/BookOfSpells.png
+2022-09-01 15:32:51,313 - craftBet -ERROR - 92   Game Provider Name = TomHorn :   Game Name =  Blackbeard'sQuestMini :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/BlackbeardsQuest.png
+2022-09-01 15:32:57,905 - craftBet -ERROR - 115   Game Provider Name = TomHorn :   Game Name =  Book Of Spells :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/BookOfSpells.png
+2022-09-01 15:33:12,884 - craftBet -ERROR - 167   Game Provider Name = QuickSpin :   Game Name =  Colossus :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_colossus.jpg
+2022-09-01 15:33:15,481 - craftBet -ERROR - 177   Game Provider Name = QuickSpin :   Game Name =  Crystal Queen :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_crystalqueen.jpg.jpg
+2022-09-01 15:33:20,694 - craftBet -ERROR - 191   Game Provider Name = TomHorn :   Game Name =  Diamond Hill :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/diamond-hill.png
+2022-09-01 15:33:24,353 - craftBet -ERROR - 202   Game Provider Name = QuickSpin :   Game Name =  Divine Dreams :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/DivineDreams.png
+2022-09-01 15:33:24,843 - craftBet -ERROR - 204   Game Provider Name = TomHorn :   Game Name =  Don Juan's Peppers :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/DonJuansPeppers.png
+2022-09-01 15:33:26,234 - craftBet -ERROR - 208   Game Provider Name = TomHorn :   Game Name =  Dragon Egg :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/DragonEgg.png
+2022-09-01 15:33:27,165 - craftBet -ERROR - 211   Game Provider Name = TomHorn :   Game Name =  Dragon Riches :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/DragonRichesProgressive.png
+2022-09-01 15:33:27,246 - craftBet -ERROR - 212   Game Provider Name = TomHorn :   Game Name =  Dragon Riches Prog. :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/DragonRichesProgressive.png
+2022-09-01 15:33:27,418 - craftBet -ERROR - 213   Game Provider Name = QuickSpin :   Game Name =  Dragon Shrine :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/DragonShrine.png
+2022-09-01 15:33:29,875 - craftBet -ERROR - 221   Game Provider Name = QuickSpin :   Game Name =  Durian Dynamite :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/DurianDynamite.png
+2022-09-01 15:33:31,944 - craftBet -ERROR - 228   Game Provider Name = QuickSpin :   Game Name =  Eastern Emeralds :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/EasternEmeralds.png
+2022-09-01 15:33:37,300 - craftBet -ERROR - 245   Game Provider Name = QuickSpin :   Game Name =  Fairy Gate :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/FairyGate.png
+2022-09-01 15:33:41,251 - craftBet -ERROR - 258   Game Provider Name = TomHorn :   Game Name =  Feng Fu :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/FengFu.png
+2022-09-01 15:33:43,327 - craftBet -ERROR - 265   Game Provider Name = TomHorn :   Game Name =  Fire 'n' Hot :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/FirenHot.png
+2022-09-01 15:33:47,149 - craftBet -ERROR - 277   Game Provider Name = TomHorn :   Game Name =  Flaming Fruit :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/FlamingFruit.png
+2022-09-01 15:33:51,076 - craftBet -ERROR - 291   Game Provider Name = TomHorn :   Game Name =  Frozen Queen :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/FrozenQueen.png
+2022-09-01 15:33:57,327 - craftBet -ERROR - 311   Game Provider Name = TomHorn :   Game Name =  Geisha's Fan :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/GeishasFun.png
+2022-09-01 15:33:58,833 - craftBet -ERROR - 317   Game Provider Name = QuickSpin :   Game Name =  Genies Touch :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_geniestouch.jpg
+2022-09-01 15:34:03,695 - craftBet -ERROR - 332   Game Provider Name = TomHorn :   Game Name =  Gold x :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/gold-x.png
+2022-09-01 15:34:07,871 - craftBet -ERROR - 345   Game Provider Name = QuickSpin :   Game Name =  Goldilocks & Wild Bears :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_goldilocks2.jpg
+2022-09-01 15:34:08,063 - craftBet -ERROR - 346   Game Provider Name = QuickSpin :   Game Name =  Gold Lab :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_goldlab.jpg
+2022-09-01 15:34:17,865 - craftBet -ERROR - 376   Game Provider Name = TomHorn :   Game Name =  Hot Blizzard :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/hot-blizzard.png
+2022-09-01 15:34:19,215 - craftBet -ERROR - 381   Game Provider Name = QuickSpin :   Game Name =  Hot Sync :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/HotSync.png
+2022-09-01 15:34:20,216 - craftBet -ERROR - 385   Game Provider Name = TomHorn :   Game Name =  Hot'n'Fruity :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/hotnfruity.png
+2022-09-01 15:34:25,349 - craftBet -ERROR - 402   Game Provider Name = QuickSpin :   Game Name =  Illuminous :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_illuminous.jpg
+2022-09-01 15:34:29,868 - craftBet -ERROR - 407   Game Provider Name = TomHorn :   Game Name =  Inca's Treasure :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/incas-treasure.png
+2022-09-01 15:34:31,744 - craftBet -ERROR - 413   Game Provider Name = RelaxGaming :   Game Name =  Iron Bank :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/ironbank_rg.jpg
+2022-09-01 15:34:39,002 - craftBet -ERROR - 436   Game Provider Name = TomHorn :   Game Name =  Joker Reelz :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/joker-reelz.png
+2022-09-01 15:34:51,559 - craftBet -ERROR - 473   Game Provider Name = QuickSpin :   Game Name =  Leprechaun Hills :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_leprechaunhills.jpg
+2022-09-01 15:35:04,191 - craftBet -ERROR - 514   Game Provider Name = QuickSpin :   Game Name =  Mayana :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_mayana.jpg
+2022-09-01 15:35:08,245 - craftBet -ERROR - 527   Game Provider Name = QuickSpin :   Game Name =  Mighty Arthur :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_mightyarthur.jpg
+2022-09-01 15:35:10,256 - craftBet -ERROR - 533   Game Provider Name = RelaxGaming :   Game Name =  Money Train 2 :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/moneytrain2_rg.jpg
+2022-09-01 15:35:10,437 - craftBet -ERROR - 534   Game Provider Name = TomHorn :   Game Name =  Monkey 27 :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/Monkey27.png
+2022-09-01 15:35:11,438 - craftBet -ERROR - 538   Game Provider Name = TomHorn :   Game Name =  Monster Madness :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/MonsterMadness.png
+2022-09-01 15:35:13,233 - craftBet -ERROR - 544   Game Provider Name = QuickSpin :   Game Name =  Mountain King :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/MountainKing.png
+2022-09-01 15:35:18,136 - craftBet -ERROR - 560   Game Provider Name = QuickSpin :   Game Name =  Northern Sky :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/NorthernSky.png
+2022-09-01 15:35:21,505 - craftBet -ERROR - 571   Game Provider Name = TomHorn :   Game Name =  Panda's Run :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/PandasRun.png
+2022-09-01 15:35:25,096 - craftBet -ERROR - 584   Game Provider Name = QuickSpin :   Game Name =  Phoenix Sun :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_phoenixsun.jpg
+2022-09-01 15:35:25,276 - craftBet -ERROR - 585   Game Provider Name = QuickSpin :   Game Name =  Pied Piper :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/PiedPiper.png
+2022-09-01 15:35:27,598 - craftBet -ERROR - 593   Game Provider Name = QuickSpin :   Game Name =  Pirates Charm :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/PiratesCharm.png
+2022-09-01 15:35:37,515 - craftBet -ERROR - 625   Game Provider Name = QuickSpin :   Game Name =  Razortooth :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_sabretooth.jpg
+2022-09-01 15:35:38,272 - craftBet -ERROR - 628   Game Provider Name = TomHorn :   Game Name =  Red Lights :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/RedLights.png
+2022-09-01 15:35:54,695 - craftBet -ERROR - 679   Game Provider Name = TomHorn :   Game Name =  Savannah King :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/SavannahKing.png
+2022-09-01 15:35:54,909 - craftBet -ERROR - 680   Game Provider Name = TomHorn :   Game Name =  Scratch Card :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/ScratchCard.png
+2022-09-01 15:35:56,396 - craftBet -ERROR - 685   Game Provider Name = QuickSpin :   Game Name =  Second Strike :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_secondstrike.jpg
+2022-09-01 15:35:58,347 - craftBet -ERROR - 692   Game Provider Name = QuickSpin :   Game Name =  Sevens High :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_sevens.jpg
+2022-09-01 15:35:59,315 - craftBet -ERROR - 695   Game Provider Name = TomHorn :   Game Name =  Shaolin's Tiger :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/ShaolinsTiger.jpg
+2022-09-01 15:35:59,951 - craftBet -ERROR - 697   Game Provider Name = TomHorn :   Game Name =  Sherlock in Bohemia :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/Sherlock.png
+2022-09-01 15:36:01,199 - craftBet -ERROR - 701   Game Provider Name = TomHorn :   Game Name =  Sizable Win :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/SizableWin.png
+2022-09-01 15:36:02,214 - craftBet -ERROR - 705   Game Provider Name = TomHorn :   Game Name =  Sky Barons :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/SkyBarons.png
+2022-09-01 15:36:03,131 - craftBet -ERROR - 708   Game Provider Name = RelaxGaming :   Game Name =  Snake Arena :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/snakearena_rg.jpg
+2022-09-01 15:36:07,181 - craftBet -ERROR - 721   Game Provider Name = TomHorn :   Game Name =  Spinball :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/spinball.png
+2022-09-01 15:36:07,376 - craftBet -ERROR - 722   Game Provider Name = QuickSpin :   Game Name =  Spinions Beach Party :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_spinions.jpg
+2022-09-01 15:36:10,578 - craftBet -ERROR - 732   Game Provider Name = QuickSpin :   Game Name =  Sticky Bandits :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/qso_stickybandits.jpg
+2022-09-01 15:36:15,828 - craftBet -ERROR - 749   Game Provider Name = TomHorn :   Game Name =  Sweet Crush :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/sweet-crush.png
+2022-09-01 15:36:18,177 - craftBet -ERROR - 757   Game Provider Name = QuickSpin :   Game Name =  Tales of Doctor Dolittle :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/TalesofDoctorDolittle.png
+2022-09-01 15:36:19,692 - craftBet -ERROR - 762   Game Provider Name = TomHorn :   Game Name =  The Cup :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/TheCup.png
+2022-09-01 15:36:27,947 - craftBet -ERROR - 786   Game Provider Name = TomHorn :   Game Name =  The Secret of BA :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/the-secret-of-ba.png
+2022-09-01 15:36:30,491 - craftBet -ERROR - 794   Game Provider Name = TomHorn :   Game Name =  Thrones Of Persia :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/ThronesOfPersia.png
+2022-09-01 15:36:44,737 - craftBet -ERROR - 839   Game Provider Name = QuickSpin :   Game Name =  Volcano Riches :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/VolcanoRiches.png
+2022-09-01 15:36:47,795 - craftBet -ERROR - 850   Game Provider Name = RelaxGaming :   Game Name =  Wild Chapo :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/wildchapo_rg.jpg
+2022-09-01 15:36:48,369 - craftBet -ERROR - 852   Game Provider Name = QuickSpin :   Game Name =  Wild Chase :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/WildChase.png
+2022-09-01 15:36:52,321 - craftBet -ERROR - 866   Game Provider Name = TomHorn :   Game Name =  Wild Weather :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/WildWeather.png
+2022-09-01 15:36:54,595 - craftBet -ERROR - 874   Game Provider Name = QuickSpin :   Game Name =  Wins of Fortune :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/web/WinsofFortune.png
+2022-09-01 15:36:55,758 - craftBet -ERROR - 878   Game Provider Name = TomHorn :   Game Name =  Wolf Sierra :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/web/wolf-sierra.png
+2022-09-01 15:36:58,890 - craftBet -INFO - Broken images are:  74
+2022-09-01 15:37:00,435 - craftBet -INFO - Browser closed
+2022-09-01 15:37:00,436 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 15:37:00,454 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 15:38:08,353 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 15:38:08,671 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 15:38:08,706 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 15:38:11,422 - craftBet -INFO - URL: https://bet2win.vip  Browser: chrome
+2022-09-01 15:38:11,554 - craftBet -INFO - All Page elements are initialized
+2022-09-01 15:38:11,568 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 15:38:13,537 - craftBet -INFO - Get games Api call was sent
+2022-09-01 15:38:13,623 - craftBet -INFO - Get games Api Response was captured
+2022-09-01 15:38:13,702 - craftBet -INFO - All captured games images was added into ArrayList
+2022-09-01 15:38:16,299 - craftBet -ERROR - 7   Game Provider Name = TomHorn :   Game Name =  243CrystalFruits :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/243CrystalFruits.png
+2022-09-01 15:38:16,404 - craftBet -ERROR - 8   Game Provider Name = TomHorn :   Game Name =  243 Crystal Fruits R. :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/crystal-fruits-reversed.png
+2022-09-01 15:38:30,141 - craftBet -ERROR - 52   Game Provider Name = QuickSpin :   Game Name =  Ark of Mystery :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/ArkofMystery.png
+2022-09-01 15:38:37,315 - craftBet -ERROR - 77   Game Provider Name = QuickSpin :   Game Name =  Big Bad Wolf :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/qso_bbw.jpg
+2022-09-01 15:38:38,005 - craftBet -ERROR - 80   Game Provider Name = QuickSpin :   Game Name =  Big Bot Crew :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/BigBotCrew.png
+2022-09-01 15:38:47,125 - craftBet -ERROR - 112   Game Provider Name = TomHorn :   Game Name =  Book Of Spells :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/BookOfSpells.png
+2022-09-01 15:39:01,900 - craftBet -ERROR - 164   Game Provider Name = QuickSpin :   Game Name =  Colossus :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/qso_colossus.jpg
+2022-09-01 15:39:04,695 - craftBet -ERROR - 174   Game Provider Name = QuickSpin :   Game Name =  Crystal Queen :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/qso_crystalqueen.jpg.jpg
+2022-09-01 15:39:08,746 - craftBet -ERROR - 188   Game Provider Name = TomHorn :   Game Name =  Diamond Hill :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/diamond-hill.png
+2022-09-01 15:39:12,324 - craftBet -ERROR - 199   Game Provider Name = QuickSpin :   Game Name =  Divine Dreams :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/DivineDreams.png
+2022-09-01 15:39:12,720 - craftBet -ERROR - 201   Game Provider Name = TomHorn :   Game Name =  Don Juan's Peppers :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/DonJuansPeppers.png
+2022-09-01 15:39:13,817 - craftBet -ERROR - 205   Game Provider Name = TomHorn :   Game Name =  Dragon Egg :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/DragonEgg.png
+2022-09-01 15:39:14,619 - craftBet -ERROR - 208   Game Provider Name = TomHorn :   Game Name =  Dragon Riches :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/DragonRichesProgressive.png
+2022-09-01 15:39:14,646 - craftBet -ERROR - 209   Game Provider Name = TomHorn :   Game Name =  Dragon Riches Prog. :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/DragonRichesProgressive.png
+2022-09-01 15:39:14,882 - craftBet -ERROR - 210   Game Provider Name = QuickSpin :   Game Name =  Dragon Shrine :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/DragonShrine.png
+2022-09-01 15:39:17,226 - craftBet -ERROR - 218   Game Provider Name = QuickSpin :   Game Name =  Durian Dynamite :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/DurianDynamite.png
+2022-09-01 15:39:19,090 - craftBet -ERROR - 225   Game Provider Name = QuickSpin :   Game Name =  Eastern Emeralds :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/EasternEmeralds.png
+2022-09-01 15:39:23,828 - craftBet -ERROR - 242   Game Provider Name = QuickSpin :   Game Name =  Fairy Gate :   cod = 404:   src = https://resources.bet2win.vip/products/outcomebet/mobile/FairyGate.png
+2022-09-01 15:39:27,405 - craftBet -ERROR - 255   Game Provider Name = TomHorn :   Game Name =  Feng Fu :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/FengFu.png
+2022-09-01 15:39:29,495 - craftBet -ERROR - 262   Game Provider Name = TomHorn :   Game Name =  Fire 'n' Hot :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/FirenHot.png
+2022-09-01 15:39:33,326 - craftBet -ERROR - 274   Game Provider Name = TomHorn :   Game Name =  Flaming Fruit :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/FlamingFruit.png
+2022-09-01 15:39:37,169 - craftBet -ERROR - 288   Game Provider Name = TomHorn :   Game Name =  Frozen Queen :   cod = 404:   src = https://resources.bet2win.vip/products/tomhorn/mob/FrozenQueen.png
+2022-09-01 15:39:53,953 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 15:39:54,318 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 15:39:54,419 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 15:39:57,416 - craftBet -INFO - URL: https://bet2win.vip  Browser: chrome
+2022-09-01 15:39:57,534 - craftBet -INFO - All Page elements are initialized
+2022-09-01 15:39:57,551 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 15:39:59,655 - craftBet -INFO - Get games Api call was sent
+2022-09-01 15:39:59,737 - craftBet -INFO - Get games Api Response was captured
+2022-09-01 15:39:59,798 - craftBet -INFO - Dupliicate game Name =  Baccarat VIP
+2022-09-01 15:39:59,800 - craftBet -INFO - Dupliicate game Name =  Bier Party
+2022-09-01 15:39:59,802 - craftBet -INFO - Dupliicate game Name =  Blackjack
+2022-09-01 15:39:59,803 - craftBet -INFO - Dupliicate game Name =  Bloodshot: Rising Spirit
+2022-09-01 15:39:59,804 - craftBet -INFO - Dupliicate game Name =  Book of Itza
+2022-09-01 15:39:59,819 - craftBet -INFO - Dupliicate game Name =  Dragons of the North Deluxe
+2022-09-01 15:39:59,820 - craftBet -INFO - Dupliicate game Name =  Epic Riches
+2022-09-01 15:39:59,821 - craftBet -INFO - Dupliicate game Name =  Faith
+2022-09-01 15:39:59,840 - craftBet -INFO - Dupliicate game Name =  Fat Rabbit
+2022-09-01 15:39:59,840 - craftBet -INFO - Dupliicate game Name =  Force of the Gods
+2022-09-01 15:39:59,857 - craftBet -INFO - Dupliicate game Name =  Force of the Gods
+2022-09-01 15:39:59,857 - craftBet -INFO - Dupliicate game Name =  Force of the Gods
+2022-09-01 15:39:59,862 - craftBet -INFO - Dupliicate game Name =  Grand Loot
+2022-09-01 15:39:59,863 - craftBet -INFO - Dupliicate game Name =  Hot Wild 7s
+2022-09-01 15:39:59,863 - craftBet -INFO - Dupliicate game Name =  Jackpot Fortunes
+2022-09-01 15:39:59,864 - craftBet -INFO - Dupliicate game Name =  King of the Trident Deluxe
+2022-09-01 15:39:59,864 - craftBet -INFO - Dupliicate game Name =  King of the Trident Deluxe
+2022-09-01 15:39:59,865 - craftBet -INFO - Dupliicate game Name =  King of the Trident Deluxe
+2022-09-01 15:39:59,865 - craftBet -INFO - Dupliicate game Name =  Mystery Fox Christmas Party
+2022-09-01 15:39:59,866 - craftBet -INFO - Dupliicate game Name =  Phoenix Kingdom
+2022-09-01 15:39:59,866 - craftBet -INFO - Dupliicate game Name =  Power Strike Super Spin
+2022-09-01 15:39:59,869 - craftBet -INFO - Dupliicate game Name =  Tiki Tumble
+2022-09-01 15:39:59,869 - craftBet -INFO - Dupliicate game Name =  Titan’s Riches
+2022-09-01 15:39:59,895 - craftBet -INFO - Dupliicate game Name =  Wild Fortunes
+2022-09-01 15:39:59,896 - craftBet -INFO - Dupliicate game Name =  Wild Fruit Super Wheel
+2022-09-01 15:39:59,897 - craftBet -INFO - Duplicate games are:  25
+2022-09-01 15:40:02,242 - craftBet -INFO - Browser closed
+2022-09-01 15:40:02,243 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 15:40:02,256 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 15:41:53,215 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 15:41:53,686 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 15:41:53,728 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 15:41:58,285 - craftBet -INFO - URL: https://bet2win.vip  Browser: chrome
+2022-09-01 15:41:58,410 - craftBet -INFO - All Page elements are initialized
+2022-09-01 15:41:58,809 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 15:42:00,196 - craftBet -INFO - username passed
+2022-09-01 15:42:00,313 - craftBet -INFO - password passed
+2022-09-01 15:42:00,462 - craftBet -INFO - Log In Button was clicked
+2022-09-01 15:42:02,102 - craftBet -INFO - Token was captured 27d4164159df4d72a2acd40b7e62f384
+2022-09-01 15:42:04,298 - craftBet -INFO - Get All games API call 
+2022-09-01 15:42:04,466 - craftBet -INFO - From Get All games API call body captured 
+2022-09-01 15:42:05,012 - craftBet -INFO - Browser closed
+2022-09-01 15:42:05,013 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 15:42:05,033 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 15:43:17,332 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 15:43:17,727 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 15:43:17,777 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 15:43:21,757 - craftBet -INFO - URL: https://bet2win.vip  Browser: chrome
+2022-09-01 15:43:21,913 - craftBet -INFO - All Page elements are initialized
+2022-09-01 15:43:21,933 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 15:43:24,056 - craftBet -INFO - username passed
+2022-09-01 15:43:24,223 - craftBet -INFO - password passed
+2022-09-01 15:43:24,355 - craftBet -INFO - Log In Button was clicked
+2022-09-01 15:43:26,181 - craftBet -INFO - Token was captured 51c8da8bc13b4e659589ef612ae01c20
+2022-09-01 15:43:27,760 - craftBet -INFO - Get All games API call 
+2022-09-01 15:43:27,885 - craftBet -INFO - From Get All games API call body captured 
+2022-09-01 15:43:27,974 - craftBet -INFO - From Get All games API productIDes and Names was captured 
+2022-09-01 15:43:32,268 - craftBet -INFO - 1 7 ID=6086 Provider=TomHorn Name=243CrystalFruits cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:43:32,626 - craftBet -INFO - 2 8 ID=6101 Provider=TomHorn Name=243 Crystal Fruits R. cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:43:53,447 - craftBet -INFO - 3 52 ID=23014 Provider=QuickSpin Name=Ark of Mystery cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:43:56,593 - craftBet -INFO - 4 59 ID=75976 Provider=Yggdrasil Name=Baccarat cod=0 description=null ResponseObject=24
+2022-09-01 15:43:58,680 - craftBet -INFO - 5 63 ID=75977 Provider=Yggdrasil Name=Baccarat VIP cod=0 description=null ResponseObject=24
+2022-09-01 15:44:05,916 - craftBet -INFO - 6 77 ID=23741 Provider=QuickSpin Name=Big Bad Wolf cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:44:07,257 - craftBet -INFO - 7 80 ID=23725 Provider=QuickSpin Name=Big Bot Crew cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:44:11,957 - craftBet -INFO - 8 90 ID=6013 Provider=TomHorn Name=Black Mummy cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:44:12,263 - craftBet -INFO - 9 91 ID=6010 Provider=TomHorn Name=Blackbeard'sQuest cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:44:12,653 - craftBet -INFO - 10 92 ID=6096 Provider=TomHorn Name=Blackbeard'sQuestMini cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:44:23,877 - craftBet -INFO - 11 115 ID=6009 Provider=TomHorn Name=Book Of Spells cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:44:46,259 - craftBet -INFO - 12 167 ID=23726 Provider=QuickSpin Name=Colossus cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:44:50,843 - craftBet -INFO - 13 177 ID=23742 Provider=QuickSpin Name=Crystal Queen cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:44:57,181 - craftBet -INFO - 14 191 ID=6104 Provider=TomHorn Name=Diamond Hill cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:45:01,612 - craftBet -INFO - 15 202 ID=23727 Provider=QuickSpin Name=Divine Dreams cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:45:02,464 - craftBet -INFO - 16 204 ID=6007 Provider=TomHorn Name=Don Juan's Peppers cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:45:03,875 - craftBet -INFO - 17 208 ID=6020 Provider=TomHorn Name=Dragon Egg cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:45:05,191 - craftBet -INFO - 18 211 ID=6097 Provider=TomHorn Name=Dragon Riches cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:45:05,503 - craftBet -INFO - 19 212 ID=6088 Provider=TomHorn Name=Dragon Riches Prog. cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:45:05,920 - craftBet -INFO - 20 213 ID=23728 Provider=QuickSpin Name=Dragon Shrine cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:45:09,688 - craftBet -INFO - 21 221 ID=23729 Provider=QuickSpin Name=Durian Dynamite cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:45:11,562 - craftBet -INFO - 22 225 ID=23781 Provider=QuickSpin Name=Dwarfs Gone Wild cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:45:12,793 - craftBet -INFO - 23 228 ID=23730 Provider=QuickSpin Name=Eastern Emeralds cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:45:21,259 - craftBet -INFO - 24 245 ID=23731 Provider=QuickSpin Name=Fairy Gate cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:45:25,587 - craftBet -INFO - 25 254 ID=29986 Provider=PushGaming Name=Fat Rabbit cod=0 description=null ResponseObject=24
+2022-09-01 15:45:27,225 - craftBet -INFO - 26 258 ID=6019 Provider=TomHorn Name=Feng Fu cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:45:29,934 - craftBet -INFO - 27 265 ID=6003 Provider=TomHorn Name=Fire 'n' Hot cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:45:35,396 - craftBet -INFO - 28 277 ID=6015 Provider=TomHorn Name=Flaming Fruit cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:45:37,498 - craftBet -INFO - 29 280 ID=29278 Provider=PariPlay Name=Force of the Gods cod=0 description=null ResponseObject=24
+2022-09-01 15:45:42,640 - craftBet -INFO - 30 291 ID=6089 Provider=TomHorn Name=Frozen Queen cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:45:52,123 - craftBet -INFO - 31 311 ID=6005 Provider=TomHorn Name=Geisha's Fan cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:45:54,558 - craftBet -INFO - 32 317 ID=23743 Provider=QuickSpin Name=Genies Touch cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:45:56,647 - craftBet -INFO - 33 323 ID=75277 Provider=Yggdrasil Name=Glory of Heroes cod=0 description=null ResponseObject=24
+2022-09-01 15:46:00,498 - craftBet -INFO - 34 332 ID=6099 Provider=TomHorn Name=Gold x cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:46:05,541 - craftBet -INFO - 35 345 ID=23021 Provider=QuickSpin Name=Goldilocks & Wild Bears cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:46:05,865 - craftBet -INFO - 36 346 ID=23015 Provider=QuickSpin Name=Gold Lab cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:46:13,747 - craftBet -INFO - 37 365 ID=23783 Provider=QuickSpin Name=Hidden Valley cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:46:17,204 - craftBet -INFO - 38 376 ID=6106 Provider=TomHorn Name=Hot Blizzard cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:46:19,625 - craftBet -INFO - 39 381 ID=23732 Provider=QuickSpin Name=Hot Sync cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:46:21,581 - craftBet -INFO - 40 385 ID=6105 Provider=TomHorn Name=Hot'n'Fruity cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:46:24,555 - craftBet -INFO - 41 392 ID=29981 Provider=PushGaming Name=Humpty Dumpty cod=0 description=null ResponseObject=24
+2022-09-01 15:46:28,473 - craftBet -INFO - 42 402 ID=23744 Provider=QuickSpin Name=Illuminous cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:46:28,883 - craftBet -INFO - 43 403 ID=29983 Provider=PushGaming Name=Immortal Guild cod=0 description=null ResponseObject=24
+2022-09-01 15:46:30,483 - craftBet -INFO - 44 407 ID=6107 Provider=TomHorn Name=Inca's Treasure cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:46:32,924 - craftBet -INFO - 45 413 ID=23754 Provider=RelaxGaming Name=Iron Bank cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:46:33,240 - craftBet -INFO - 46 414 ID=23784 Provider=QuickSpin Name=Ivan and the Immortal King cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:46:44,015 - craftBet -INFO - 47 436 ID=6102 Provider=TomHorn Name=Joker Reelz cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:46:44,334 - craftBet -INFO - 48 437 ID=23785 Provider=QuickSpin Name=Joker Strike cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:46:51,371 - craftBet -INFO - 49 452 ID=29701 Provider=PariPlay Name=King of the Trident Deluxe cod=0 description=null ResponseObject=24
+2022-09-01 15:46:59,604 - craftBet -INFO - 50 471 ID=28655 Provider=PlaysonDirect Name=Legend of Cleopatra Megaways cod=0 description=null ResponseObject=24
+2022-09-01 15:47:00,242 - craftBet -INFO - 51 473 ID=23724 Provider=QuickSpin Name=Leprechaun Hills cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:47:01,054 - craftBet -INFO - 52 475 ID=76131 Provider=Yggdrasil Name=Let It Slide cod=0 description=null ResponseObject=24
+2022-09-01 15:47:17,100 - craftBet -INFO - 53 514 ID=23018 Provider=QuickSpin Name=Mayana cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:47:22,866 - craftBet -INFO - 54 527 ID=23019 Provider=QuickSpin Name=Mighty Arthur cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:47:25,476 - craftBet -INFO - 55 533 ID=23753 Provider=RelaxGaming Name=Money Train 2 cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:47:25,803 - craftBet -INFO - 56 534 ID=6008 Provider=TomHorn Name=Monkey 27 cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:47:27,479 - craftBet -INFO - 57 538 ID=6090 Provider=TomHorn Name=Monster Madness cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:47:29,666 - craftBet -INFO - 58 544 ID=23733 Provider=QuickSpin Name=Mountain King cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:47:36,652 - craftBet -INFO - 59 560 ID=23734 Provider=QuickSpin Name=Northern Sky cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:47:40,938 - craftBet -INFO - 60 571 ID=6001 Provider=TomHorn Name=Panda's Run cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:47:47,028 - craftBet -INFO - 61 584 ID=23017 Provider=QuickSpin Name=Phoenix Sun cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:47:47,351 - craftBet -INFO - 62 585 ID=23735 Provider=QuickSpin Name=Pied Piper cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:47:51,130 - craftBet -INFO - 63 593 ID=23736 Provider=QuickSpin Name=Pirates Charm cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:48:05,402 - craftBet -INFO - 64 625 ID=23011 Provider=QuickSpin Name=Razortooth cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:48:06,631 - craftBet -INFO - 65 628 ID=6091 Provider=TomHorn Name=Red Lights cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:48:16,088 - craftBet -INFO - 66 651 ID=75969 Provider=Yggdrasil Name=Roulette Evolution cod=0 description=null ResponseObject=24
+2022-09-01 15:48:16,494 - craftBet -INFO - 67 652 ID=75968 Provider=Yggdrasil Name=Roulette Evolution VIP cod=0 description=null ResponseObject=24
+2022-09-01 15:48:22,809 - craftBet -INFO - 68 666 ID=75005 Provider=Yggdrasil Name=Sabres and Swords: Charge Gigablox cod=0 description=null ResponseObject=24
+2022-09-01 15:48:28,339 - craftBet -INFO - 69 679 ID=6018 Provider=TomHorn Name=Savannah King cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:48:28,637 - craftBet -INFO - 70 680 ID=6095 Provider=TomHorn Name=Scratch Card cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:48:30,798 - craftBet -INFO - 71 685 ID=23012 Provider=QuickSpin Name=Second Strike cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:48:33,925 - craftBet -INFO - 72 692 ID=23013 Provider=QuickSpin Name=Sevens High cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:48:35,093 - craftBet -INFO - 73 695 ID=6004 Provider=TomHorn Name=Shaolin's Tiger cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:48:35,808 - craftBet -INFO - 74 697 ID=6093 Provider=TomHorn Name=Sherlock in Bohemia cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:48:37,252 - craftBet -INFO - 75 701 ID=6012 Provider=TomHorn Name=Sizable Win cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:48:39,445 - craftBet -INFO - 76 705 ID=6017 Provider=TomHorn Name=Sky Barons cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:48:40,670 - craftBet -INFO - 77 708 ID=23752 Provider=RelaxGaming Name=Snake Arena cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:48:46,501 - craftBet -INFO - 78 721 ID=6109 Provider=TomHorn Name=Spinball cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:48:46,978 - craftBet -INFO - 79 722 ID=23016 Provider=QuickSpin Name=Spinions Beach Party cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:48:50,888 - craftBet -INFO - 80 731 ID=75841 Provider=Yggdrasil Name=Steam Spin cod=0 description=null ResponseObject=24
+2022-09-01 15:48:51,198 - craftBet -INFO - 81 732 ID=23020 Provider=QuickSpin Name=Sticky Bandits cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:48:58,937 - craftBet -INFO - 82 749 ID=6098 Provider=TomHorn Name=Sweet Crush cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:49:02,143 - craftBet -INFO - 83 757 ID=23737 Provider=QuickSpin Name=Tales of Doctor Dolittle cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:49:04,425 - craftBet -INFO - 84 762 ID=6016 Provider=TomHorn Name=The Cup cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:49:08,863 - craftBet -INFO - 85 772 ID=23782 Provider=QuickSpin Name=The Grand cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:49:14,247 - craftBet -INFO - 86 786 ID=6103 Provider=TomHorn Name=The Secret of BA cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:49:18,338 - craftBet -INFO - 87 794 ID=6006 Provider=TomHorn Name=Thrones Of Persia cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:49:22,630 - craftBet -INFO - 88 803 ID=75193 Provider=PariPlay Name=Tiki Magic cod=0 description=null ResponseObject=24
+2022-09-01 15:49:23,865 - craftBet -INFO - 89 805 ID=29992 Provider=PushGaming Name=Tiki Tumble cod=0 description=null ResponseObject=24
+2022-09-01 15:49:40,349 - craftBet -INFO - 90 839 ID=23738 Provider=QuickSpin Name=Volcano Riches cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:49:45,887 - craftBet -INFO - 91 850 ID=23750 Provider=RelaxGaming Name=Wild Chapo cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:49:46,536 - craftBet -INFO - 92 852 ID=23739 Provider=QuickSpin Name=Wild Chase cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:49:53,949 - craftBet -INFO - 93 866 ID=6094 Provider=TomHorn Name=Wild Weather cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:49:54,668 - craftBet -INFO - 94 868 ID=29980 Provider=PushGaming Name=Wild Wheel cod=0 description=null ResponseObject=24
+2022-09-01 15:49:57,509 - craftBet -INFO - 95 874 ID=23740 Provider=QuickSpin Name=Wins of Fortune cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-01 15:49:59,213 - craftBet -INFO - 96 878 ID=6100 Provider=TomHorn Name=Wolf Sierra cod=60 description=Partner key not found ResponseObject=null
+2022-09-01 15:50:03,319 - craftBet -INFO - From Get URL API broken games are captured
+2022-09-01 15:50:03,320 - craftBet -INFO - Broken url-es are:  96
+2022-09-01 15:50:06,137 - craftBet -INFO - Browser closed
+2022-09-01 15:50:06,138 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 15:50:06,165 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 16:03:28,006 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 16:03:28,378 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 16:03:28,413 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 16:03:35,549 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-01 16:03:35,692 - craftBet -INFO - All Page elements are initialized
+2022-09-01 16:03:36,032 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 16:03:37,307 - craftBet -INFO - Get games Api call was sent
+2022-09-01 16:03:37,329 - craftBet -INFO - Games are 93
+2022-09-01 16:03:37,329 - craftBet -INFO - Get Life games Api Response was captured
+2022-09-01 16:03:37,373 - craftBet -ERROR - The Time Out games are :   3720514   Counter Strike - CCT Central Europe   Eternal Fire (CS)  VS  ENTERPRISE (CS)   E-sports   2022-09-01T12:00:00  Status = 1   After game start time out = :  4 hours  3 minutes
+2022-09-01 16:03:37,374 - craftBet -ERROR - The Time Out games are :   3711340   Counter Strike - Elisa Invitational   EYEBALLERS (CS)  VS  Into The Breach (CS)   E-sports   2022-09-01T13:00:00  Status = 1   After game start time out = :  3 hours  3 minutes
+2022-09-01 16:03:37,375 - craftBet -ERROR - The Time Out games are :   3711254   LoL Pro League   JD Gaming (LOL)  VS  Top Esports (LOL)   E-sports   2022-09-01T13:00:00  Status = 1   After game start time out = :  3 hours  3 minutes
+2022-09-01 16:03:37,375 - craftBet -ERROR - The Time Out games are :   3722387   MLB   HOU Astros  VS  TEX Rangers   Baseball   2022-08-31T23:37:00  Status = 1   After game start time out = :  16 hours  27 minutes
+2022-09-01 16:03:37,375 - craftBet -ERROR - The Time Out games are :   3722400   MLB   PIT Pirates  VS  MIL Brewers   Baseball   2022-08-31T23:37:00  Status = 1   After game start time out = :  16 hours  27 minutes
+2022-09-01 16:03:37,375 - craftBet -ERROR - The Time Out games are :   3722373   MLB   SD Padres  VS  SF Giants   Baseball   2022-08-31T23:51:09  Status = 1   After game start time out = :  16 hours  13 minutes
+2022-09-01 16:03:37,377 - craftBet -ERROR - The Time Out games are :   3722357   DelawarePark   Race 7 Delaware Park  VS  ~N/A~   Horse Racing   2022-08-31T23:51:09  Status = 1   After game start time out = :  16 hours  13 minutes
+2022-09-01 16:03:37,379 - craftBet -INFO - Time out Games are:  7
+2022-09-01 16:03:38,992 - craftBet -INFO - Browser closed
+2022-09-01 16:03:38,993 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 16:03:39,120 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 16:06:29,819 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 16:06:30,060 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 16:06:30,090 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 16:06:32,542 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-01 16:06:32,617 - craftBet -INFO - All Page elements are initialized
+2022-09-01 16:06:33,128 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 16:06:34,666 - craftBet -INFO - Get games Api call was sent
+2022-09-01 16:06:34,683 - craftBet -INFO - Games are 96
+2022-09-01 16:06:34,683 - craftBet -INFO - Get Life games Api Response was captured
+2022-09-01 16:06:34,703 - craftBet -INFO - Games Ides = 96
+2022-09-01 16:06:52,536 - craftBet -INFO - Point count =  2614
+2022-09-01 16:06:52,536 - craftBet -INFO - Games with selector >= 1:  0
+2022-09-01 16:06:52,677 - craftBet -INFO - Browser closed
+2022-09-01 16:06:52,677 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 16:06:52,693 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 16:09:20,100 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 16:09:21,108 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 16:09:21,138 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 16:09:23,612 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-01 16:09:23,682 - craftBet -INFO - All Page elements are initialized
+2022-09-01 16:09:24,128 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 16:09:25,387 - craftBet -INFO - Get Matches Api call was sent
+2022-09-01 16:09:27,513 - org.asynchttpclient.netty.handler.WebSocketHandler -WARN - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-09-01 16:09:27,617 - craftBet -INFO - Browser closed
+2022-09-01 16:09:27,618 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 16:09:27,640 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-01 16:10:22,626 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 16:10:22,897 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 16:10:22,929 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 16:10:25,332 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-01 16:10:25,406 - craftBet -INFO - All Page elements are initialized
+2022-09-01 16:10:25,730 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 16:10:26,998 - craftBet -INFO - Get Matches Api call was sent

@@ -68,25 +68,25 @@ public class GetLifeGames_LimitOutGames_Test extends BaseTest{
         JSONObject jsonObjectBody = new JSONObject(response.getBody());
         JSONArray jsonArrayGames = jsonObjectBody.getJSONArray("Ms");
 
-        System.out.println("Games are " + jsonArrayGames.length());
-
+        Unirest.shutdown();
+        logger.info("Games are " + jsonArrayGames.length());
         logger.info("Get Life games Api Response was captured");
 
         for (int j = 0; j < jsonArrayGames.length(); j++) {
 
             String arrayObject = String.valueOf(jsonArrayGames.get(j));
             JSONObject jsonObjectGame = new JSONObject(arrayObject);
-            String MI = jsonObjectGame.getString("MI");  // Game ID
-            String CN = jsonObjectGame.getString("CN");  //League Name
-            String SN = jsonObjectGame.getString("SN");    // Game Type
-            String ST = jsonObjectGame.getString("ST");    //Game start Time
-            String status1 = jsonObjectGame.getString("S");    //Status 1 (0 - prematch, 1 - Life, 2 -finished game)
+            String MI = jsonObjectGame.get("MI").toString();  // Game ID
+            String CN = jsonObjectGame.get("CN").toString();  //League Name
+            String SN = jsonObjectGame.get("SN").toString();    // Game Type
+            String ST = jsonObjectGame.get("ST").toString();    //Game start Time
+            String status1 = jsonObjectGame.get("S").toString();    //Status 1 (0 - prematch, 1 - Life, 2 -finished game)
 
             JSONArray jsonArrayTeams = jsonObjectGame.getJSONArray("Cs");
             JSONObject jsonObjectTeam1 = jsonArrayTeams.getJSONObject(0);
             JSONObject jsonObjectTeam2 = jsonArrayTeams.getJSONObject(1);
-            String team1 = jsonObjectTeam1.getString("TN");
-            String team2 = jsonObjectTeam2.getString("TN");
+            String team1 = jsonObjectTeam1.get("TN").toString();
+            String team2 = jsonObjectTeam2.get("TN").toString();
 
 //            System.out.println("team1 " + team1 + "team2" + team2);
 
@@ -153,7 +153,6 @@ public class GetLifeGames_LimitOutGames_Test extends BaseTest{
             } else {
                 allMinutes = day * 24 * 60 + (hour * 60 + minutes);
             }
-
 
 //            System.out.println(allMinutes + "  " + day + "  " + hour + "   " + minutes);
 
@@ -285,19 +284,8 @@ public class GetLifeGames_LimitOutGames_Test extends BaseTest{
         if (errorSrcXl.size() == 0) {
             isPassed = true;
         } else {
-            String target = System.getProperty("user.dir") + "/src/test/java/timeOutGames/" + readConfig.partnerConfigNum() + partnerName + "DataTimeOutGamesList.xlsx";
-            XSSFWorkbook workbook = new XSSFWorkbook();
-            FileOutputStream file = new FileOutputStream(target);
-            XSSFSheet sheet = workbook.createSheet("TimeOutGames");
-            sheet.setColumnWidth(0, 20000);
-            int l = 0;
-            for (String err : errorSrcXl) {
-                XSSFRow row = sheet.createRow(l);
-                row.createCell(0).setCellValue(err);
-                l++;
-            }
-            workbook.write(file);
-            workbook.close();
+
+            writeInExel(errorSrcXl, "/src/test/java/timeOutGames/" + readConfig.partnerConfigNum() + partnerName + "DataTimeOutGamesList.xlsx", "TimeOutGames");
             isPassed = false;
         }
         return isPassed;
