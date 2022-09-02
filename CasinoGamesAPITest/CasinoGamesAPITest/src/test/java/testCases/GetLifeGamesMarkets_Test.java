@@ -18,10 +18,20 @@ import java.util.ArrayList;
 
 import static java.lang.Double.parseDouble;
 
-public class GetLifeGamesMarkets_Test extends BaseTest{
+public class GetLifeGamesMarkets_Test extends BaseTest {
 
+    public JSONArray apiCallUnirest(String marketOrigin, String baseUrl) throws UnirestException, IOException {
+        Unirest.setTimeouts(0, 0);
+        HttpResponse<String> responseLifeGames = Unirest.get(baseUrl)
+                .header("origin", marketOrigin)
+                .asString();
+        JSONObject jsonObjectMarketsResponseBody = new JSONObject(responseLifeGames.getBody());
+        JSONArray jsonArrayAllMarkets = jsonObjectMarketsResponseBody.getJSONArray("Markets");
+        Unirest.shutdown();
+        return jsonArrayAllMarkets;
+    }
 
-    public boolean getLifeMatchGamesAPICheckMarkets(String getAllLifeGames, String marketOrigin,  String partnerName)
+    public boolean getLifeMatchGamesAPICheckMarkets(String getAllLifeGames, String marketOrigin, String partnerName)
             throws UnirestException, JSONException, IOException {
 
         boolean isPassed;
@@ -60,16 +70,18 @@ public class GetLifeGamesMarkets_Test extends BaseTest{
         logger.info("Games Ides = " + gameIDs.size());
 
 //        craftBet_01_header_page.waitAction(2000);
-        for (String gameId : gameIDs){
+        for (String gameId : gameIDs) {
+            JSONArray jsonArrayAllMarkets = apiCallUnirest(marketOrigin, "https://sportsbookwebsitewebapi.craftbet.com/website/getmarketsbymatchid?LanguageId=en&TimeZone=4&MatchId=" + gameId + "&OddsType=0");
 
-            Unirest.setTimeouts(0, 0);
-            HttpResponse<String> responseLifeGames = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getmarketsbymatchid?LanguageId=en&TimeZone=4&MatchId="+gameId+"&OddsType=0")
-                    .header("origin", marketOrigin)
-                    .asString();
-            JSONObject jsonObjectMarketsResponseBody = new JSONObject(responseLifeGames.getBody());
-//            System.out.println(jsonObjectMarketsResponseBody.toString());
-            JSONArray jsonArrayAllMarkets = jsonObjectMarketsResponseBody.getJSONArray("Markets");
-            Unirest.shutdown();
+//            Unirest.setTimeouts(0, 0);
+//            HttpResponse<String> responseLifeGames = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getmarketsbymatchid?LanguageId=en&TimeZone=4&MatchId="+gameId+"&OddsType=0")
+//                    .header("origin", marketOrigin)
+//                    .asString();
+//            JSONObject jsonObjectMarketsResponseBody = new JSONObject(responseLifeGames.getBody());
+//            JSONArray jsonArrayAllMarkets = jsonObjectMarketsResponseBody.getJSONArray("Markets");
+//            Unirest.shutdown();
+
+
             k--;
             for (int c = 0; c < jsonArrayAllMarkets.length(); c++) {
                 String oneMarket = String.valueOf(jsonArrayAllMarkets.get(c));
@@ -96,15 +108,14 @@ public class GetLifeGamesMarkets_Test extends BaseTest{
 //                    System.out.println(selectorPoint+"     "+nameSelector+"     "+isBlockedSelector);
                     try {
                         double point = parseDouble(selectorPoint);
-                        if (point<=1 && isBlockedSelector.equals("false")){
+                        if (point <= 1 && isBlockedSelector.equals("false")) {
                             // String errMessage = "GameID  = " + gameIDs.get(t) + "   MarketName = " + nameMarket + "   Selector = " + selectorPoint  + "   SelectorName" + nameSelector + "   Selector IsBlocked = " + isBlockedSelector;
                             String errMessage = "GameID  = " + gameIDs.get(t) + "   selectorPoint = " + selectorPoint;
                             errorSrcXl.add(errMessage);
                             logger.error(errMessage);
                         }
-                    }
-                    catch (Exception e){
-                        logger.info("Cant parse to int selectorPoint:  " + selectorPoint );
+                    } catch (Exception e) {
+                        logger.info("Cant parse to int selectorPoint:  " + selectorPoint);
 
                     }
                     pointCount++;
@@ -117,21 +128,7 @@ public class GetLifeGamesMarkets_Test extends BaseTest{
         if (errorSrcXl.size() == 0) {
             isPassed = true;
         } else {
-            writeInExel(errorSrcXl,"/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataPreMatchMarketsEqual1.xlsx" ,"brokenPrematchMarkets");
-
-//            String target = System.getProperty("user.dir") + "/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataMarketsEqual1.xlsx";
-//            XSSFWorkbook workbook = new XSSFWorkbook();
-//            FileOutputStream file = new FileOutputStream(target);
-//            XSSFSheet sheet = workbook.createSheet("brokenIMG");
-//            sheet.setColumnWidth(0, 20000);
-//            int l = 0;
-//            for (String err : errorSrcXl) {
-//                XSSFRow row = sheet.createRow(l);
-//                row.createCell(0).setCellValue(err);
-//                l++;
-//            }
-//            workbook.write(file);
-//            workbook.close();
+            writeInExel(errorSrcXl, "/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataPreMatchMarketsEqual1.xlsx", "brokenPrematchMarkets");
             isPassed = false;
         }
         return isPassed;
@@ -140,15 +137,13 @@ public class GetLifeGamesMarkets_Test extends BaseTest{
 
     @Test
     public void gatLifeMatchGamesMarkets() throws UnirestException, JSONException, IOException {
-        if (getGamesPartnerName.equals("Craftbet")){
-            if (getLifeMatchGamesAPICheckMarkets(getAllLifeGames, getMarketByIDOrigin,getGamesPartnerName)){
+        if (getGamesPartnerName.equals("Craftbet")) {
+            if (getLifeMatchGamesAPICheckMarkets(getAllLifeGames, getMarketByIDOrigin, getGamesPartnerName)) {
                 Assert.assertTrue(true);
-            }
-            else {
+            } else {
                 Assert.fail();
             }
-        }
-        else{
+        } else {
             logger.error("Please provide Craftbet id  as test Partner ");
             Assert.fail();
         }

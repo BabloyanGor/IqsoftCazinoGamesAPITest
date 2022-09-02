@@ -43,7 +43,6 @@ public class GetGamesUrlAPI_Test extends BaseTest {
                 token = craftBet_01_header_page.getItem("token");
                 logger.info("Token was captured " + token);
             }
-
     }
 
     public boolean getUrlCheckGamesUrl(String getGamesAPIUrl, String origin, String getURLAPIurl, String token,
