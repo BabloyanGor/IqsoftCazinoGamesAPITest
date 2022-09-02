@@ -6,100 +6,107 @@ import com.mashape.unirest.http.exceptions.UnirestException;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class MarketsSumError_Test extends BaseTest{
-    public boolean getLimitOutGamesApiCheck(String getGamesAPIUrl, String partnerName)
+public class MarketsSumError_Test extends BaseTest {
+
+    String getAllLifeGamesURL = "https://sportsbookwebsitewebapi.craftbet.com/website/getlivematchesoverview?LanguageId=en&TimeZone=4&origin=https://sportsbookwebsite.craftbet.com";
+
+    public boolean getMarketsOptionsSum(String partnerName)
             throws UnirestException, JSONException, IOException {
 
         boolean isPassed;
-        int k = 1;
-        ArrayList<String> gameID = new ArrayList<>();
-        ArrayList<String> leagueType = new ArrayList<>();
-        ArrayList<String> gameType = new ArrayList<>();
-        ArrayList<String> gameStartTime = new ArrayList<>();
-        ArrayList<String> gameStatus1 = new ArrayList<>();
-        ArrayList<String> gameStatus2 = new ArrayList<>();
-        ArrayList<String> gameStatus3 = new ArrayList<>();
-        ArrayList<String> gameStatus4 = new ArrayList<>();
-        ArrayList<String> teamOne = new ArrayList<>();
-        ArrayList<String> teamTwo = new ArrayList<>();
+        int count = 1;
+        ArrayList<String> matchIDArray = new ArrayList<>();
+        ArrayList<String> sportIDArray = new ArrayList<>();
+        ArrayList<String> sportNameArray = new ArrayList<>();
+        ArrayList<String> matchIsBlockedArray = new ArrayList<>();
+        ArrayList<String> gameStartTimeArray = new ArrayList<>();
+        ArrayList<String> lifeScoreArray = new ArrayList<>();
+        ArrayList<String> gameStatusArray = new ArrayList<>();
+        ArrayList<String> teamIDArray = new ArrayList<>();
+        ArrayList<String> teamNameArray = new ArrayList<>();
+
+        ArrayList<String> marketNameArray = new ArrayList<>();
+        ArrayList<String> marketIsBlockedArray = new ArrayList<>();
 
         ArrayList<String> errorSrcXl = new ArrayList<>();
 
 
-
         Unirest.setTimeouts(0, 0);
-        HttpResponse<String> response = Unirest.get(getGamesAPIUrl).asString();
-
+        HttpResponse<String> response = Unirest.get(getAllLifeGamesURL).asString();
 
         logger.info("Get games Api call was sent");
         JSONObject jsonObjectBody = new JSONObject(response.getBody());
-        JSONArray jsonArrayMatches = jsonObjectBody.getJSONArray("Ms");
+        JSONArray jsonArrayMatches = jsonObjectBody.getJSONArray("Ms"); //All life games array list
         Unirest.shutdown();
         logger.info("Games are " + jsonArrayMatches.length());
         logger.info("Get Life games Api Response was captured");
 
-        for (int j = 0; j < jsonArrayMatches.length(); j++) {
+        for (int m = 0; m < jsonArrayMatches.length(); m++) {
 
-            String arrayObject = String.valueOf(jsonArrayMatches.get(j));
-            JSONObject jsonObjectGame = new JSONObject(arrayObject);
-            String MI = jsonObjectGame.get("MI").toString();  // Game ID
-            String CN = jsonObjectGame.get("CN").toString();  //League Name
-            String SN = jsonObjectGame.get("SN").toString();    // Game Type
-            String ST = jsonObjectGame.get("ST").toString();    //Game start Time
-            String status1 = jsonObjectGame.get("S").toString();    //Status 1 (0 - prematch, 1 - Life, 2 -finished game)
+            String arrayObject = String.valueOf(jsonArrayMatches.get(m));
 
-            JSONArray jsonArrayTeams = jsonObjectGame.getJSONArray("Cs");
-            JSONObject jsonObjectTeam1 = jsonArrayTeams.getJSONObject(0);
-            JSONObject jsonObjectTeam2 = jsonArrayTeams.getJSONObject(1);
-            String team1 = jsonObjectTeam1.get("TN").toString();
-            String team2 = jsonObjectTeam2.get("TN").toString();
+            for (int i = 0; i < arrayObject.length(); i++) {
 
-//            System.out.println("team1 " + team1 + "team2" + team2);
+                JSONObject jsonObjectGame = new JSONObject(arrayObject);
+                String matchID = jsonObjectGame.get("MI").toString();  // Match ID
+                String sportID = jsonObjectGame.get("SI").toString();  // Sport id ex for soccer = 1
+                String sportName = jsonObjectGame.get("SN").toString();  // Sport Name
+                String matchIsBlocked = jsonObjectGame.get("IB").toString();  // Sport Name
+                String gameStartTime = jsonObjectGame.get("ST").toString();    //Game start Time
+                String lifeScore = jsonObjectGame.get("RsI").toString();    //Match real score
+                String gameStatus = jsonObjectGame.get("CPN").toString();    //Were is game now ex H1,H2, P, Started, Not Started
 
-            JSONArray jsonArrayTMs = jsonObjectGame.getJSONArray("TMs");
-            JSONObject TMs1;
-            JSONObject TMs2;
-            JSONObject TMs3;
-            try {
-                TMs1 = jsonArrayTMs.getJSONObject(0);
-                TMs2 = jsonArrayTMs.getJSONObject(1);
-                TMs3 = jsonArrayTMs.getJSONObject(2);
-            } catch (Exception e) {
+                JSONArray jsonArrayCompetitors = jsonObjectGame.getJSONArray("Cs"); //Competitors
+
+                for (int j = 0; j < jsonArrayCompetitors.length(); j++) {
+                    JSONObject jsonObjectTeam = jsonArrayCompetitors.getJSONObject(i);
+                    String teamID = jsonObjectTeam.get("TI").toString();  // Team ID
+                    String teamName = jsonObjectTeam.get("TN").toString();  // Team Name
+                    teamIDArray.add(teamID);
+                    teamNameArray.add(teamName);
+                }
+
+                JSONArray jsonArrayTopMarkets = jsonObjectGame.getJSONArray("TMs");  // Markets
+
+                for (int k = 0; k < jsonArrayTopMarkets.length(); k++) {
+                    JSONObject jsonObjectMarkets = jsonArrayTopMarkets.getJSONObject(i);
+                    String marketID = jsonObjectMarkets.get("I").toString();  // Market IsBlocked
+                    JSONArray jsonArraySelectors;
+                    if (marketID.equals("0")){
+                        break;
+                    }
+                    else{
+                        String marketIsBlocked = jsonObjectMarkets.get("IB").toString();  // Market IsBlocked
+                        String marketName = jsonObjectMarkets.get("N").toString();  // Market Name
+                        marketNameArray.add(marketName);
+                        marketIsBlockedArray.add(marketIsBlocked);
+                        jsonArraySelectors = jsonObjectMarkets.getJSONArray("Ss");  // Selectors
+                        System.out.println();
+                    }
+
+
+                    for (int l = 0; l<jsonArraySelectors.length(); l++ ){
+                        JSONObject jsonObjectSelector = jsonArraySelectors.getJSONObject(i);
+                        String selectorIsBlocked = jsonObjectSelector.get("IB").toString();  // selector IsBlocked
+                        if (selectorIsBlocked.equals("true")){
+                            break;
+                        }
+                        else{
+                            String selectorName = jsonObjectSelector.get("N").toString();  // selector Name
+                            String selectorCoificent = jsonObjectSelector.get("C").toString();  // selector Name
+                        }
+                    }
+                }
+
 
             }
-
-
-//            String status2 = TMs1.getString("S");    //Status 2 (0 - prematch, 1 - Life, 2 -finished game)
-//            String status3 = TMs2.getString("S");    //Status 3 (0 - prematch, 1 - Life, 2 -finished game)
-//            String status4 = TMs3.getString("S");    //Status 4 (0 - prematch, 1 - Life, 2 -finished game)
-
-//            System.out.println(status2 + status3+status4);
-
-            gameID.add(MI);
-            leagueType.add(CN);
-            gameType.add(SN);
-            gameStartTime.add(ST);
-            gameStatus1.add(status1);
-//            gameStatus2.add(status2);
-//            gameStatus3.add(status3);
-//            gameStatus4.add(status4);
-            teamOne.add(team1);
-            teamTwo.add(team2);
-            k++;
         }
-
-
-
-
-
-
-
-
-
 
 
         logger.info("Error Markets are:  " + errorSrcXl.size());
@@ -107,9 +114,24 @@ public class MarketsSumError_Test extends BaseTest{
             isPassed = true;
         } else {
 
-            writeInExel(errorSrcXl, "/src/test/java/timeOutGames/" + readConfig.partnerConfigNum() + partnerName + "DataErrorMarketsList.xlsx", "ErrorMarkets");
+//            writeInExel(errorSrcXl, "/src/test/java/timeOutGames/" + readConfig.partnerConfigNum() + partnerName + "DataErrorMarketsList.xlsx", "ErrorMarkets");
             isPassed = false;
         }
         return isPassed;
     }
+
+
+    @Test
+    public void gatPreMatchGamesMarket() throws UnirestException, JSONException, IOException {
+        if (getGamesPartnerName.equals("Craftbet")) {
+            if (getMarketsOptionsSum(getGamesPartnerName)) {
+                Assert.assertTrue(true);
+            } else {
+                Assert.fail();
+            }
+        } else {
+            logger.error("Please provide Craftbet id  as test Partner ");
+            Assert.fail();
+        }
     }
+}

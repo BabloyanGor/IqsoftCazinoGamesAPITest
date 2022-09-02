@@ -31,7 +31,7 @@ public class GetLifeGamesMarkets_Test extends BaseTest {
         return jsonArrayAllMarkets;
     }
 
-    public boolean getLifeMatchGamesAPICheckMarkets(String getAllLifeGames, String marketOrigin, String partnerName)
+    public boolean getLifeMatchGamesAPICheckMarkets(String getAllLifeGamesURL, String marketOrigin, String partnerName)
             throws UnirestException, JSONException, IOException {
 
         boolean isPassed;
@@ -48,7 +48,7 @@ public class GetLifeGamesMarkets_Test extends BaseTest {
         ArrayList<String> errorSrcXl = new ArrayList<>();
 
         Unirest.setTimeouts(0, 0);
-        HttpResponse<String> response = Unirest.get(getAllLifeGames).asString();
+        HttpResponse<String> response = Unirest.get(getAllLifeGamesURL).asString();
 
         logger.info("Get games Api call was sent");
         JSONObject jsonObjectBody = new JSONObject(response.getBody());
