@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2022-08-30 22:03:32,113 - craftBet -INFO - Browser for test will be chrome as chosen
 2022-08-30 22:03:32,801 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
 2022-08-30 22:03:32,823 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
@@ -8500,3 +8501,20 @@ java.net.SocketException: Connection reset
 2022-09-02 09:15:12,266 - craftBet -INFO - Browser closed
 2022-09-02 09:15:12,267 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-09-02 09:15:12,292 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+=======
+2022-09-01 22:29:29,728 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-01 22:29:31,132 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 22:29:31,161 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 22:29:36,110 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-01 22:29:36,186 - craftBet -INFO - All Page elements are initialized
+2022-09-01 22:29:36,194 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-01 22:29:37,859 - craftBet -INFO - Get games Api call was sent
+2022-09-01 22:29:37,880 - craftBet -INFO - Games are 184
+2022-09-01 22:29:37,881 - craftBet -INFO - Get Life games Api Response was captured
+2022-09-01 22:29:37,915 - craftBet -INFO - Games Ides = 184
+2022-09-01 22:30:49,528 - craftBet -INFO - Point count =  10652
+2022-09-01 22:30:49,528 - craftBet -INFO - Games with selector >= 1:  0
+2022-09-01 22:30:49,604 - craftBet -INFO - Browser closed
+2022-09-01 22:30:49,604 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-01 22:30:49,906 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+>>>>>>> 7d36c390e2cf3c230387840ed663fe6c23eee5bd

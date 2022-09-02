@@ -290,6 +290,9 @@ public class GetLifeGames_LimitOutGames_Test extends BaseTest{
         }
         return isPassed;
     }
+
+
+
     @Test
     public void gatLimitOutGames() throws UnirestException, JSONException, IOException {
         if (getGamesPartnerName.equals("Craftbet")) {
