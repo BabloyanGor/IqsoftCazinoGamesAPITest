@@ -170,6 +170,4 @@ public class GetPrematchGamesMarkets_Test extends BaseTest{
             Assert.fail();
         }
     }
-
-
 }
