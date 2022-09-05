@@ -7,6 +7,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
@@ -17,8 +18,10 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
     String getAllLifeGamesURL = "https://sportsbookwebsitewebapi.craftbet.com/website/getlivematchesoverview?LanguageId=en&TimeZone=4&origin=https://sportsbookwebsite.craftbet.com";
 
     String getPreMatchTree = "https://sportsbookwebsitewebapi.craftbet.com/website/getprematchtree?LanguageId=en&TimeZone=4";
-    String getPreMatchTreeOrigin =  "https://sportsbookwebsite.craftbet.com";
-    public boolean getPreMatchGamesAPICheckMarkets( )
+    String getPreMatchTreeOrigin = "https://sportsbookwebsite.craftbet.com";
+
+
+    public boolean getPreMatchGamesAPICheckMarkets(String sport)
             throws UnirestException, JSONException, IOException {
 
         boolean isPassed;
@@ -48,7 +51,7 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
             String oneSport = String.valueOf(jsonArrayAllSports.get(j));
             JSONObject jsonObjectSport = new JSONObject(oneSport);
             String sportType = jsonObjectSport.get("SN").toString();
-            if (sportType.equals("Volleyball")){
+            if (sportType.equals(sport)) {
                 JSONArray jsonArrayRegion = jsonObjectSport.getJSONArray("Rs");  //Sport Type
                 for (int m = 0; m < jsonArrayRegion.length(); m++) {
                     String oneRegion = String.valueOf(jsonArrayRegion.get(m));
@@ -85,78 +88,61 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
                     .asString();
             JSONObject jsonObjectMarketsResponseBody = new JSONObject(responseGetMarkets.getBody());
             Unirest.shutdown();
-                JSONArray jsonArrayAllMarkets = jsonObjectMarketsResponseBody.getJSONArray("Markets");
+            JSONArray jsonArrayAllMarkets = jsonObjectMarketsResponseBody.getJSONArray("Markets");
 //                logger.info( gameId+ "  "+jsonArrayAllMarkets.length());
             int blockMarketsCount = 0;
-            for (int z=0; z<jsonArrayAllMarkets.length(); z++){
+            for (int z = 0; z < jsonArrayAllMarkets.length(); z++) {
                 String arrayObjectMarket = String.valueOf(jsonArrayAllMarkets.get(z));
                 JSONObject jsonObjectMarket = new JSONObject(arrayObjectMarket);
                 String isMarketBlocked = jsonObjectMarket.get("IB").toString();  // Market isBlocked
                 String MarketName = jsonObjectMarket.get("N").toString();  // Market Name
 
-                if (isMarketBlocked.equals("false")){
-                    blockMarketsCount ++;
+                if (isMarketBlocked.equals("false")) {
+                    blockMarketsCount++;
                     JSONArray jsonArraySelectors = jsonObjectMarket.getJSONArray("Ss");
                     double selectorError = 0;
-                    for (int x=0; x<jsonArraySelectors.length(); x++){
+                    for (int x = 0; x < jsonArraySelectors.length(); x++) {
                         String arrayObjectSelectors = String.valueOf(jsonArraySelectors.get(x));
                         JSONObject jsonObjectSelector = new JSONObject(arrayObjectSelectors);
                         String selector = jsonObjectSelector.get("C").toString();  // Selector num
                         double selectorValue = Double.parseDouble(selector);
 
-                        if (selectorValue<1){
+                        if (selectorValue < 1) {
                             selectorValue = 1;
                         }
                         selectorError = selectorError + 1 / selectorValue;
                     }
-                    if (selectorError<1){
-                        logger.info("This market works for Client  GameID = " + gameId + "  MarketName = " + MarketName + "  SelectorError = " + selectorError );
+                    if (selectorError < 1) {
+                        logger.info("This market works for Client  GameID = " + gameId + "  MarketName = " + MarketName + "  SelectorError = " + selectorError);
                         errorSrcXl.add("This market works for Client  GameID = " + gameId + "  MarketName = " + MarketName);
                     }
                 }
             }
-            if (blockMarketsCount == 0){
+            if (blockMarketsCount == 0) {
                 logger.info(gameId + "  This game has no available Markets");
                 errorSrcXl.add(gameId + "  This game has no available Markets");
             }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         }
 
-            logger.info("Error Markets are:  " + errorSrcXl.size());
-            if (errorSrcXl.size() == 0) {
-                isPassed = true;
-            } else {
+        logger.info("Error Markets are:  " + errorSrcXl.size());
+        if (errorSrcXl.size() == 0) {
+            isPassed = true;
+        } else {
 
-//            writeInExel(errorSrcXl, "/src/test/java/timeOutGames/" + readConfig.partnerConfigNum() + partnerName + "DataErrorMarketsList.xlsx", "ErrorMarkets");
-                isPassed = false;
-            }
-            return isPassed;
+            writeInExel(errorSrcXl, "/src/test/java/BrokenMarkets/" + readConfig.partnerConfigNum() + getGamesPartnerName + sport + "DataErrorMarketsList.xlsx", "ErrorMarkets");
+            isPassed = false;
+        }
+        return isPassed;
     }
 
 
-
-
-
-    @Test
-    public void gatPreMatchMatchGamesBrockenMarkets() throws UnirestException, JSONException, IOException {
+    @Test(dataProvider = "sports")
+    public void gatPreMatchMatchGamesBrokenMarkets(String sport) throws UnirestException, JSONException, IOException {
 
         if (getGamesPartnerName.equals("Craftbet")) {
-            if (getPreMatchGamesAPICheckMarkets()) {
+            if (getPreMatchGamesAPICheckMarkets(sport)) {
                 Assert.assertTrue(true);
             } else {
                 Assert.fail();
@@ -168,6 +154,16 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
     }
 
 
+    @DataProvider(name = "sports")
+    Object[][] loginDataInvalid(){
+
+//        String[][] arr = { {"Basketball"}, {"Tennis"},{"Rugby League"},{ "Rugby Union"},{"Volleyball"},{"American Football"},{"Table Tennis"},
+//                {"Aussie Rules"},{"Cricket"},{"E-sports"},{"Handball"},{"Baseball"},{"Biathlon"},{"Water Polo"},{"Boxing"},{"MMA"},{"Gaelic Football"},
+//                {"Darts"},{"Squash"}, {"Floorball"},{"Chess"},{"Soccer"}
+//        };
+        String[][] arr = { {"Basketball"}        };
+        return arr;
+    }
 
 
 
@@ -178,19 +174,7 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-        public boolean getMarketsOptionsSum(String partnerName)
+    public boolean getMarketsOptionsSum(String partnerName)
             throws UnirestException, JSONException, IOException {
 
         boolean isPassed;
@@ -296,7 +280,7 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
                     if (selectorCoefficientArrayList.size() > 0) {
                         for (int r = 0; r < selectorCoefficientArrayList.size(); r++) {
                             double selector = selectorCoefficientArrayList.get(r);
-                            if (selector<1){
+                            if (selector < 1) {
                                 selector = 1;
                             }
                             selectorError = selectorError + 1 / selector;
@@ -304,7 +288,7 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
 
                         if (selectorError <= 1) {
                             String selectors = "";
-                            logger.info(matchID + "  MatchID" + marketName + "  MarketName" +"---->This market works for client ");
+                            logger.info(matchID + "  MatchID" + marketName + "  MarketName" + "---->This market works for client ");
                             for (double selector : selectorCoefficientArrayList) {
                                 selectors = selectors + selector + "  ";
                             }
@@ -347,8 +331,6 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
             Assert.fail();
         }
     }
-
-
 
 
 }

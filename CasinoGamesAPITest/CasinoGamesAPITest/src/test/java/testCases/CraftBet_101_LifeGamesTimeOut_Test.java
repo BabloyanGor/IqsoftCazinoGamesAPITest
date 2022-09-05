@@ -302,9 +302,12 @@ public class CraftBet_101_LifeGamesTimeOut_Test extends BaseTest{
             logger.error("Please provide CraftBet id  as test Partner ");
             Assert.fail();
         }
-
-
-
     }
+
+
+
+
+
+
 
 }
