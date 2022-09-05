@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class MarketsSumErrorLifeGames_Test extends BaseTest {
+public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest {
     int count = 1;
     String getAllLifeGamesURL = "https://sportsbookwebsitewebapi.craftbet.com/website/getlivematchesoverview?LanguageId=en&TimeZone=4&origin=https://sportsbookwebsite.craftbet.com";
 

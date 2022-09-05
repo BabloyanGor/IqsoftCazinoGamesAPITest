@@ -3,22 +3,18 @@ package testCases;
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
-import org.apache.poi.xssf.usermodel.XSSFRow;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 
 import static java.lang.Double.parseDouble;
 
-public class GetLifeGamesMarkets_Test extends BaseTest {
+public class CraftBet_102_LifeGamesMarkets_Test extends BaseTest {
 
     public JSONArray apiCallUnirest(String marketOrigin, String baseUrl) throws UnirestException, IOException {
         Unirest.setTimeouts(0, 0);
@@ -144,7 +140,7 @@ public class GetLifeGamesMarkets_Test extends BaseTest {
                 Assert.fail();
             }
         } else {
-            logger.error("Please provide Craftbet id  as test Partner ");
+            logger.error("Please provide CraftBet id  as test Partner ");
             Assert.fail();
         }
     }

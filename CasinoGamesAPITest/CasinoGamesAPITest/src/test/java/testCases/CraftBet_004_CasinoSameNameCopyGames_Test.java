@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class GetCopyGames_API_Test extends BaseTest{
+public class CraftBet_004_CasinoSameNameCopyGames_Test extends BaseTest{
 
 
     public boolean getALLGamesAPICheckCopyGames(String getGamesAPIUrl, String origin, String partnerName)

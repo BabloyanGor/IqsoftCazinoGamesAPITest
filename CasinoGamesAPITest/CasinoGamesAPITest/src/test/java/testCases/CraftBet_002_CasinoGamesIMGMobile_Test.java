@@ -13,7 +13,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 
-public class GetAllGamesIMGMobile_Test extends BaseTest{
+public class CraftBet_002_CasinoGamesIMGMobile_Test extends BaseTest{
 
 
     public boolean getGamesAPICheckPicturesForMobile(String getGamesAPIUrl, String origin, String recurse, String partnerName)

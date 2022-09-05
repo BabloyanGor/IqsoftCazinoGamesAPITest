@@ -3,22 +3,18 @@ package testCases;
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
-import org.apache.poi.xssf.usermodel.XSSFRow;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 
 import static java.lang.Double.parseDouble;
 
-public class GetPrematchGamesMarkets_Test extends BaseTest{
+public class CraftBet_103_PreMatchGamesMarkets_Test extends BaseTest{
 
 
     public boolean getPreMatchGamesAPICheckMarkets(String getMatchIDAPI, String getMarketsAPI, String origin, String partnerName)
