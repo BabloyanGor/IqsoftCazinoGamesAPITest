@@ -18,15 +18,17 @@ public class MarketsSumErrorLifeGames_Test extends BaseTest {
 
     String getPreMatchTree = "https://sportsbookwebsitewebapi.craftbet.com/website/getprematchtree?LanguageId=en&TimeZone=4";
     String getPreMatchTreeOrigin =  "https://sportsbookwebsite.craftbet.com";
-    public boolean getPreMatchGamesAPICheckMarkets()
+    public boolean getPreMatchGamesAPICheckMarkets( )
             throws UnirestException, JSONException, IOException {
 
         boolean isPassed;
         int k = 1;
         int pointCount = 1;
+
         ArrayList<String> gameIDs = new ArrayList<>();
         ArrayList<String> sportTypeArrayList = new ArrayList<>();
         ArrayList<String> soccerIDsArrayList = new ArrayList<>();
+        ArrayList<Double> selectorValueArrayList = new ArrayList<>();
         ArrayList<String> StartTime = new ArrayList<>();
         ArrayList<String> errorSrcXl = new ArrayList<>();
 
@@ -46,7 +48,7 @@ public class MarketsSumErrorLifeGames_Test extends BaseTest {
             String oneSport = String.valueOf(jsonArrayAllSports.get(j));
             JSONObject jsonObjectSport = new JSONObject(oneSport);
             String sportType = jsonObjectSport.get("SN").toString();
-            if (sportType.equals("Handball")){
+            if (sportType.equals("Volleyball")){
                 JSONArray jsonArrayRegion = jsonObjectSport.getJSONArray("Rs");  //Sport Type
                 for (int m = 0; m < jsonArrayRegion.length(); m++) {
                     String oneRegion = String.valueOf(jsonArrayRegion.get(m));
@@ -66,7 +68,6 @@ public class MarketsSumErrorLifeGames_Test extends BaseTest {
                             String isBlocked = jsonObjectMatchID.get("IB").toString();
                             gameIDs.add(matchID);
                             StartTime.add(startTime);
-                            //System.out.println(k + "  matchID = " + matchID + "   startTimeIs = " + startTime + "   isBlocked = " + isBlocked );
                         }
                     }
                 }
@@ -76,18 +77,48 @@ public class MarketsSumErrorLifeGames_Test extends BaseTest {
 
 
         for (String gameId : gameIDs) {
-
+            k++;
             Unirest.setTimeouts(0, 0);
             HttpResponse<String> responseGetMarkets = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getmarketsbymatchid?LanguageId=en&TimeZone=4&MatchId=" + gameId + "&OddsType=0")
 //            HttpResponse<String> responseGetMarkets = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getmatchbyid?LanguageId=en&TimeZone=4&MatchId=" + gameId)
                     .header("origin", getPreMatchTreeOrigin)
                     .asString();
-
             JSONObject jsonObjectMarketsResponseBody = new JSONObject(responseGetMarkets.getBody());
             Unirest.shutdown();
                 JSONArray jsonArrayAllMarkets = jsonObjectMarketsResponseBody.getJSONArray("Markets");
 //                logger.info( gameId+ "  "+jsonArrayAllMarkets.length());
+            int blockMarketsCount = 0;
+            for (int z=0; z<jsonArrayAllMarkets.length(); z++){
+                String arrayObjectMarket = String.valueOf(jsonArrayAllMarkets.get(z));
+                JSONObject jsonObjectMarket = new JSONObject(arrayObjectMarket);
+                String isMarketBlocked = jsonObjectMarket.get("IB").toString();  // Market isBlocked
+                String MarketName = jsonObjectMarket.get("N").toString();  // Market Name
 
+                if (isMarketBlocked.equals("false")){
+                    blockMarketsCount ++;
+                    JSONArray jsonArraySelectors = jsonObjectMarket.getJSONArray("Ss");
+                    double selectorError = 0;
+                    for (int x=0; x<jsonArraySelectors.length(); x++){
+                        String arrayObjectSelectors = String.valueOf(jsonArraySelectors.get(x));
+                        JSONObject jsonObjectSelector = new JSONObject(arrayObjectSelectors);
+                        String selector = jsonObjectSelector.get("C").toString();  // Selector num
+                        double selectorValue = Double.parseDouble(selector);
+
+                        if (selectorValue<1){
+                            selectorValue = 1;
+                        }
+                        selectorError = selectorError + 1 / selectorValue;
+                    }
+                    if (selectorError<1){
+                        logger.info("This market works for Client  GameID = " + gameId + "  MarketName = " + MarketName + "  SelectorError = " + selectorError );
+                        errorSrcXl.add("This market works for Client  GameID = " + gameId + "  MarketName = " + MarketName);
+                    }
+                }
+            }
+            if (blockMarketsCount == 0){
+                logger.info(gameId + "  This game has no available Markets");
+                errorSrcXl.add(gameId + "  This game has no available Markets");
+            }
 
 
 

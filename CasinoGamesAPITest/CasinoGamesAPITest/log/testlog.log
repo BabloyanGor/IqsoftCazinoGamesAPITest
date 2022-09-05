@@ -1,0 +1,266 @@
+2022-09-04 11:29:00,892 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-04 11:29:02,422 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-04 11:29:02,446 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-04 11:29:07,255 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-04 11:29:07,339 - craftBet -INFO - All Page elements are initialized
+2022-09-04 11:29:07,349 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-04 11:29:08,160 - craftBet -INFO - Get Matches Api call was sent
+2022-09-04 11:29:08,216 - craftBet -INFO - Matches count is  = 63
+2022-09-04 11:29:10,236 - craftBet -INFO - Browser closed
+2022-09-04 11:29:10,237 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-04 11:29:10,246 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-04 11:30:21,890 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-04 11:30:22,101 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-04 11:30:22,122 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-04 11:30:23,871 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-04 11:30:23,921 - craftBet -INFO - All Page elements are initialized
+2022-09-04 11:30:23,930 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-04 11:30:24,545 - craftBet -INFO - Get Matches Api call was sent
+2022-09-04 11:30:24,597 - craftBet -INFO - Matches count is  = 63
+2022-09-04 11:33:09,952 - craftBet -INFO - Browser closed
+2022-09-04 11:33:09,953 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-04 11:33:09,973 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-04 11:33:15,900 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-04 11:33:16,113 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-04 11:33:16,136 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-04 11:33:18,145 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-04 11:33:18,195 - craftBet -INFO - All Page elements are initialized
+2022-09-04 11:33:18,203 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-04 11:33:18,922 - craftBet -INFO - Get Matches Api call was sent
+2022-09-04 11:33:18,981 - craftBet -INFO - Matches count is  = 63
+2022-09-04 11:41:55,095 - craftBet -INFO - Error Markets are:  0
+2022-09-04 11:41:55,159 - craftBet -INFO - Browser closed
+2022-09-04 11:41:55,159 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-04 11:41:55,166 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-04 11:51:30,644 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-04 11:51:30,830 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-04 11:51:30,851 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-04 11:51:35,002 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-04 11:51:35,047 - craftBet -INFO - All Page elements are initialized
+2022-09-04 11:51:35,055 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-04 11:51:38,087 - craftBet -INFO - Get Matches Api call was sent
+2022-09-04 11:51:38,146 - craftBet -INFO - Matches count is  = 1000000000
+2022-09-04 11:51:42,850 - craftBet -INFO - Browser closed
+2022-09-04 11:51:42,850 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-04 11:51:42,855 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-04 11:52:18,862 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-04 11:52:19,046 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-04 11:52:19,066 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-04 11:52:21,196 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-04 11:52:21,241 - craftBet -INFO - All Page elements are initialized
+2022-09-04 11:52:21,249 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-04 11:52:21,732 - craftBet -INFO - Get Matches Api call was sent
+2022-09-04 11:52:21,783 - craftBet -INFO - Matches count is  = 63
+2022-09-04 11:52:34,496 - craftBet -INFO - Error Markets are:  0
+2022-09-04 11:52:34,583 - craftBet -INFO - Browser closed
+2022-09-04 11:52:34,584 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-04 11:52:34,597 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-04 11:53:40,409 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-04 11:53:40,588 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-04 11:53:40,608 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-04 11:53:42,720 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-04 11:53:42,764 - craftBet -INFO - All Page elements are initialized
+2022-09-04 11:53:42,772 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-04 11:53:43,205 - craftBet -INFO - Get Matches Api call was sent
+2022-09-04 11:53:43,267 - craftBet -INFO - Matches count is  = 63
+2022-09-04 11:53:54,733 - craftBet -INFO - Error Markets are:  0
+2022-09-04 11:53:54,812 - craftBet -INFO - Browser closed
+2022-09-04 11:53:54,812 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-04 11:53:54,816 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-04 11:54:24,426 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-04 11:54:24,608 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-04 11:54:24,627 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-04 11:54:26,659 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-04 11:54:26,704 - craftBet -INFO - All Page elements are initialized
+2022-09-04 11:54:26,712 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-04 11:54:27,140 - craftBet -INFO - Get Matches Api call was sent
+2022-09-04 11:54:27,237 - craftBet -INFO - Matches count is  = 1537
+2022-09-04 11:54:43,303 - craftBet -INFO - This market works for Client  GameID = 3246416  MarketName = Last Team To Score
+2022-09-04 11:54:43,303 - craftBet -INFO - This market works for Client  GameID = 3246416  MarketName = To Win Both Halves
+2022-09-04 11:54:43,311 - craftBet -INFO - This market works for Client  GameID = 3246416  MarketName = To Score in Both Halves
+2022-09-04 11:54:43,311 - craftBet -INFO - This market works for Client  GameID = 3246416  MarketName = To Win To Nil
+2022-09-04 11:54:43,312 - craftBet -INFO - This market works for Client  GameID = 3246416  MarketName = To Miss A Penalty
+2022-09-04 11:54:54,798 - craftBet -INFO - This market works for Client  GameID = 3246418  MarketName = To Win Both Halves
+2022-09-04 11:54:54,805 - craftBet -INFO - This market works for Client  GameID = 3246418  MarketName = To Win To Nil
+2022-09-04 11:54:54,805 - craftBet -INFO - This market works for Client  GameID = 3246418  MarketName = To Score in Both Halves
+2022-09-04 11:54:54,806 - craftBet -INFO - This market works for Client  GameID = 3246418  MarketName = To Miss A Penalty
+2022-09-04 11:55:08,499 - craftBet -INFO - This market works for Client  GameID = 3246419  MarketName = To Win Both Halves
+2022-09-04 11:55:08,503 - craftBet -INFO - This market works for Client  GameID = 3246419  MarketName = To Score in Both Halves
+2022-09-04 11:55:08,504 - craftBet -INFO - This market works for Client  GameID = 3246419  MarketName = To Win To Nil
+2022-09-04 11:55:08,504 - craftBet -INFO - This market works for Client  GameID = 3246419  MarketName = To Miss A Penalty
+2022-09-04 11:55:17,099 - craftBet -INFO - This market works for Client  GameID = 3246420  MarketName = Last Team To Score
+2022-09-04 11:55:17,100 - craftBet -INFO - This market works for Client  GameID = 3246420  MarketName = To Win Both Halves
+2022-09-04 11:55:17,105 - craftBet -INFO - This market works for Client  GameID = 3246420  MarketName = To Score in Both Halves
+2022-09-04 11:55:17,105 - craftBet -INFO - This market works for Client  GameID = 3246420  MarketName = To Win To Nil
+2022-09-04 11:55:17,105 - craftBet -INFO - This market works for Client  GameID = 3246420  MarketName = To Miss A Penalty
+2022-09-04 11:55:30,035 - craftBet -INFO - This market works for Client  GameID = 3246421  MarketName = To Win Both Halves
+2022-09-04 11:55:30,038 - craftBet -INFO - This market works for Client  GameID = 3246421  MarketName = To Win To Nil
+2022-09-04 11:55:30,039 - craftBet -INFO - This market works for Client  GameID = 3246421  MarketName = To Score in Both Halves
+2022-09-04 11:55:30,039 - craftBet -INFO - This market works for Client  GameID = 3246421  MarketName = To Miss A Penalty
+2022-09-04 11:55:41,288 - craftBet -INFO - This market works for Client  GameID = 3246422  MarketName = To Win Both Halves
+2022-09-04 11:55:41,292 - craftBet -INFO - This market works for Client  GameID = 3246422  MarketName = To Score in Both Halves
+2022-09-04 11:55:41,293 - craftBet -INFO - This market works for Client  GameID = 3246422  MarketName = To Win To Nil
+2022-09-04 11:55:41,293 - craftBet -INFO - This market works for Client  GameID = 3246422  MarketName = To Miss A Penalty
+2022-09-04 11:55:50,371 - craftBet -INFO - This market works for Client  GameID = 3246423  MarketName = Last Team To Score
+2022-09-04 11:55:50,371 - craftBet -INFO - This market works for Client  GameID = 3246423  MarketName = To Win Both Halves
+2022-09-04 11:55:50,375 - craftBet -INFO - This market works for Client  GameID = 3246423  MarketName = To Score in Both Halves
+2022-09-04 11:55:50,375 - craftBet -INFO - This market works for Client  GameID = 3246423  MarketName = To Win To Nil
+2022-09-04 11:55:50,375 - craftBet -INFO - This market works for Client  GameID = 3246423  MarketName = To Miss A Penalty
+2022-09-04 11:55:58,768 - craftBet -INFO - This market works for Client  GameID = 3246424  MarketName = Last Team To Score
+2022-09-04 11:55:58,768 - craftBet -INFO - This market works for Client  GameID = 3246424  MarketName = To Win Both Halves
+2022-09-04 11:55:58,771 - craftBet -INFO - This market works for Client  GameID = 3246424  MarketName = To Score in Both Halves
+2022-09-04 11:55:58,771 - craftBet -INFO - This market works for Client  GameID = 3246424  MarketName = To Win To Nil
+2022-09-04 11:55:58,771 - craftBet -INFO - This market works for Client  GameID = 3246424  MarketName = To Miss A Penalty
+2022-09-04 11:56:12,587 - craftBet -INFO - This market works for Client  GameID = 3246425  MarketName = Last Team To Score
+2022-09-04 11:56:12,587 - craftBet -INFO - This market works for Client  GameID = 3246425  MarketName = To Win Both Halves
+2022-09-04 11:56:12,591 - craftBet -INFO - This market works for Client  GameID = 3246425  MarketName = To Win To Nil
+2022-09-04 11:56:12,592 - craftBet -INFO - This market works for Client  GameID = 3246425  MarketName = To Score in Both Halves
+2022-09-04 11:56:12,593 - craftBet -INFO - This market works for Client  GameID = 3246425  MarketName = To Miss A Penalty
+2022-09-04 11:56:24,468 - craftBet -INFO - This market works for Client  GameID = 3246426  MarketName = To Win Both Halves
+2022-09-04 11:56:24,472 - craftBet -INFO - This market works for Client  GameID = 3246426  MarketName = To Score in Both Halves
+2022-09-04 11:56:24,472 - craftBet -INFO - This market works for Client  GameID = 3246426  MarketName = To Win To Nil
+2022-09-04 11:56:24,472 - craftBet -INFO - This market works for Client  GameID = 3246426  MarketName = To Miss A Penalty
+2022-09-04 11:56:34,043 - craftBet -INFO - This market works for Client  GameID = 3246427  MarketName = To Win Both Halves
+2022-09-04 11:56:34,047 - craftBet -INFO - This market works for Client  GameID = 3246427  MarketName = To Score in Both Halves
+2022-09-04 11:56:34,048 - craftBet -INFO - This market works for Client  GameID = 3246427  MarketName = To Win To Nil
+2022-09-04 11:56:34,048 - craftBet -INFO - This market works for Client  GameID = 3246427  MarketName = To Miss A Penalty
+2022-09-04 11:56:46,754 - craftBet -INFO - This market works for Client  GameID = 3246428  MarketName = To Win Both Halves
+2022-09-04 11:56:46,758 - craftBet -INFO - This market works for Client  GameID = 3246428  MarketName = To Win To Nil
+2022-09-04 11:56:46,759 - craftBet -INFO - This market works for Client  GameID = 3246428  MarketName = To Miss A Penalty
+2022-09-04 11:56:46,759 - craftBet -INFO - This market works for Client  GameID = 3246428  MarketName = To Score in Both Halves
+2022-09-04 11:56:57,831 - craftBet -INFO - This market works for Client  GameID = 3246429  MarketName = Last Team To Score
+2022-09-04 11:56:57,831 - craftBet -INFO - This market works for Client  GameID = 3246429  MarketName = To Win Both Halves
+2022-09-04 11:56:57,834 - craftBet -INFO - This market works for Client  GameID = 3246429  MarketName = To Win To Nil
+2022-09-04 11:56:57,835 - craftBet -INFO - This market works for Client  GameID = 3246429  MarketName = To Score in Both Halves
+2022-09-04 11:56:57,835 - craftBet -INFO - This market works for Client  GameID = 3246429  MarketName = To Miss A Penalty
+2022-09-04 11:57:06,733 - craftBet -INFO - This market works for Client  GameID = 3453871  MarketName = Last Team To Score
+2022-09-04 11:57:06,733 - craftBet -INFO - This market works for Client  GameID = 3453871  MarketName = To Win Both Halves
+2022-09-04 11:57:06,737 - craftBet -INFO - This market works for Client  GameID = 3453871  MarketName = To Win To Nil
+2022-09-04 11:57:06,737 - craftBet -INFO - This market works for Client  GameID = 3453871  MarketName = To Miss A Penalty
+2022-09-04 11:57:06,737 - craftBet -INFO - This market works for Client  GameID = 3453871  MarketName = To Score in Both Halves
+2022-09-04 11:57:14,497 - craftBet -INFO - This market works for Client  GameID = 3479223  MarketName = To Win Both Halves
+2022-09-04 11:57:14,502 - craftBet -INFO - This market works for Client  GameID = 3479223  MarketName = To Score in Both Halves
+2022-09-04 11:57:14,502 - craftBet -INFO - This market works for Client  GameID = 3479223  MarketName = To Win To Nil
+2022-09-04 11:57:14,503 - craftBet -INFO - This market works for Client  GameID = 3479223  MarketName = To Miss A Penalty
+2022-09-04 11:57:20,135 - craftBet -INFO - This market works for Client  GameID = 3482561  MarketName = To Win Both Halves
+2022-09-04 11:57:20,139 - craftBet -INFO - This market works for Client  GameID = 3482561  MarketName = To Score in Both Halves
+2022-09-04 11:57:20,139 - craftBet -INFO - This market works for Client  GameID = 3482561  MarketName = To Win To Nil
+2022-09-04 11:57:20,140 - craftBet -INFO - This market works for Client  GameID = 3482561  MarketName = To Miss A Penalty
+2022-09-04 11:58:09,913 - craftBet -INFO - This market works for Client  GameID = 3715772  MarketName = Last Team To Score
+2022-09-04 11:59:44,411 - craftBet -INFO - This market works for Client  GameID = 3708299  MarketName = To Win Both Halves
+2022-09-04 11:59:44,414 - craftBet -INFO - This market works for Client  GameID = 3708299  MarketName = To Score in Both Halves
+2022-09-04 11:59:44,415 - craftBet -INFO - This market works for Client  GameID = 3708299  MarketName = To Win To Nil
+2022-09-04 11:59:44,415 - craftBet -INFO - This market works for Client  GameID = 3708299  MarketName = To Miss A Penalty
+2022-09-04 11:59:54,408 - craftBet -INFO - This market works for Client  GameID = 3708300  MarketName = To Win Both Halves
+2022-09-04 11:59:54,415 - craftBet -INFO - This market works for Client  GameID = 3708300  MarketName = To Score in Both Halves
+2022-09-04 11:59:54,415 - craftBet -INFO - This market works for Client  GameID = 3708300  MarketName = To Win To Nil
+2022-09-04 11:59:54,415 - craftBet -INFO - This market works for Client  GameID = 3708300  MarketName = To Miss A Penalty
+2022-09-04 12:00:04,315 - craftBet -INFO - This market works for Client  GameID = 3708301  MarketName = To Win Both Halves
+2022-09-04 12:00:04,318 - craftBet -INFO - This market works for Client  GameID = 3708301  MarketName = To Win To Nil
+2022-09-04 12:00:04,319 - craftBet -INFO - This market works for Client  GameID = 3708301  MarketName = To Miss A Penalty
+2022-09-04 12:00:04,319 - craftBet -INFO - This market works for Client  GameID = 3708301  MarketName = To Score in Both Halves
+2022-09-04 12:00:14,389 - craftBet -INFO - This market works for Client  GameID = 3708302  MarketName = To Win Both Halves
+2022-09-04 12:00:14,392 - craftBet -INFO - This market works for Client  GameID = 3708302  MarketName = To Miss A Penalty
+2022-09-04 12:00:14,393 - craftBet -INFO - This market works for Client  GameID = 3708302  MarketName = To Win To Nil
+2022-09-04 12:00:14,393 - craftBet -INFO - This market works for Client  GameID = 3708302  MarketName = To Score in Both Halves
+2022-09-04 12:00:25,824 - craftBet -INFO - This market works for Client  GameID = 3708303  MarketName = To Win Both Halves
+2022-09-04 12:00:25,828 - craftBet -INFO - This market works for Client  GameID = 3708303  MarketName = To Score in Both Halves
+2022-09-04 12:00:25,828 - craftBet -INFO - This market works for Client  GameID = 3708303  MarketName = To Miss A Penalty
+2022-09-04 12:00:25,828 - craftBet -INFO - This market works for Client  GameID = 3708303  MarketName = To Win To Nil
+2022-09-04 12:00:34,697 - craftBet -INFO - This market works for Client  GameID = 3708411  MarketName = To Win Both Halves
+2022-09-04 12:00:34,700 - craftBet -INFO - This market works for Client  GameID = 3708411  MarketName = To Win To Nil
+2022-09-04 12:00:34,700 - craftBet -INFO - This market works for Client  GameID = 3708411  MarketName = To Score in Both Halves
+2022-09-04 12:00:34,700 - craftBet -INFO - This market works for Client  GameID = 3708411  MarketName = To Miss A Penalty
+2022-09-04 12:00:43,851 - craftBet -INFO - This market works for Client  GameID = 3708412  MarketName = To Win Both Halves
+2022-09-04 12:00:43,855 - craftBet -INFO - This market works for Client  GameID = 3708412  MarketName = To Score in Both Halves
+2022-09-04 12:00:43,855 - craftBet -INFO - This market works for Client  GameID = 3708412  MarketName = To Win To Nil
+2022-09-04 12:00:43,855 - craftBet -INFO - This market works for Client  GameID = 3708412  MarketName = To Miss A Penalty
+2022-09-04 12:00:53,612 - craftBet -INFO - This market works for Client  GameID = 3708413  MarketName = To Win Both Halves
+2022-09-04 12:00:53,621 - craftBet -INFO - This market works for Client  GameID = 3708413  MarketName = To Miss A Penalty
+2022-09-04 12:00:53,622 - craftBet -INFO - This market works for Client  GameID = 3708413  MarketName = To Score in Both Halves
+2022-09-04 12:00:53,622 - craftBet -INFO - This market works for Client  GameID = 3708413  MarketName = To Win To Nil
+2022-09-04 12:01:03,472 - craftBet -INFO - This market works for Client  GameID = 3708414  MarketName = To Win Both Halves
+2022-09-04 12:01:03,476 - craftBet -INFO - This market works for Client  GameID = 3708414  MarketName = To Win To Nil
+2022-09-04 12:01:03,476 - craftBet -INFO - This market works for Client  GameID = 3708414  MarketName = To Score in Both Halves
+2022-09-04 12:01:03,476 - craftBet -INFO - This market works for Client  GameID = 3708414  MarketName = To Miss A Penalty
+2022-09-04 12:01:13,542 - craftBet -INFO - This market works for Client  GameID = 3708415  MarketName = To Win Both Halves
+2022-09-04 12:01:13,546 - craftBet -INFO - This market works for Client  GameID = 3708415  MarketName = To Score in Both Halves
+2022-09-04 12:01:13,546 - craftBet -INFO - This market works for Client  GameID = 3708415  MarketName = To Win To Nil
+2022-09-04 12:01:13,546 - craftBet -INFO - This market works for Client  GameID = 3708415  MarketName = To Miss A Penalty
+2022-09-04 12:01:23,323 - craftBet -INFO - This market works for Client  GameID = 3708430  MarketName = To Win Both Halves
+2022-09-04 12:01:23,327 - craftBet -INFO - This market works for Client  GameID = 3708430  MarketName = To Score in Both Halves
+2022-09-04 12:01:23,327 - craftBet -INFO - This market works for Client  GameID = 3708430  MarketName = To Win To Nil
+2022-09-04 12:01:23,328 - craftBet -INFO - This market works for Client  GameID = 3708430  MarketName = To Miss A Penalty
+2022-09-04 12:01:31,993 - craftBet -INFO - This market works for Client  GameID = 3708431  MarketName = To Win Both Halves
+2022-09-04 12:01:31,996 - craftBet -INFO - This market works for Client  GameID = 3708431  MarketName = To Score in Both Halves
+2022-09-04 12:01:31,997 - craftBet -INFO - This market works for Client  GameID = 3708431  MarketName = To Win To Nil
+2022-09-04 12:01:31,997 - craftBet -INFO - This market works for Client  GameID = 3708431  MarketName = To Miss A Penalty
+2022-09-04 12:01:40,106 - craftBet -INFO - This market works for Client  GameID = 3708433  MarketName = To Win Both Halves
+2022-09-04 12:01:40,109 - craftBet -INFO - This market works for Client  GameID = 3708433  MarketName = To Miss A Penalty
+2022-09-04 12:01:40,109 - craftBet -INFO - This market works for Client  GameID = 3708433  MarketName = To Win To Nil
+2022-09-04 12:01:40,110 - craftBet -INFO - This market works for Client  GameID = 3708433  MarketName = To Score in Both Halves
+2022-09-04 12:01:46,964 - craftBet -INFO - This market works for Client  GameID = 3708444  MarketName = To Win Both Halves
+2022-09-04 12:01:46,968 - craftBet -INFO - This market works for Client  GameID = 3708444  MarketName = To Score in Both Halves
+2022-09-04 12:01:46,968 - craftBet -INFO - This market works for Client  GameID = 3708444  MarketName = To Miss A Penalty
+2022-09-04 12:01:46,968 - craftBet -INFO - This market works for Client  GameID = 3708444  MarketName = To Win To Nil
+2022-09-04 12:01:54,406 - craftBet -INFO - This market works for Client  GameID = 3708449  MarketName = To Win Both Halves
+2022-09-04 12:01:54,410 - craftBet -INFO - This market works for Client  GameID = 3708449  MarketName = To Score in Both Halves
+2022-09-04 12:01:54,410 - craftBet -INFO - This market works for Client  GameID = 3708449  MarketName = To Miss A Penalty
+2022-09-04 12:01:54,410 - craftBet -INFO - This market works for Client  GameID = 3708449  MarketName = To Win To Nil
+2022-09-04 12:02:01,789 - craftBet -INFO - This market works for Client  GameID = 3708456  MarketName = To Win Both Halves
+2022-09-04 12:02:01,793 - craftBet -INFO - This market works for Client  GameID = 3708456  MarketName = To Win To Nil
+2022-09-04 12:02:01,793 - craftBet -INFO - This market works for Client  GameID = 3708456  MarketName = To Score in Both Halves
+2022-09-04 12:02:01,793 - craftBet -INFO - This market works for Client  GameID = 3708456  MarketName = To Miss A Penalty
+2022-09-04 12:02:08,568 - craftBet -INFO - This market works for Client  GameID = 3712817  MarketName = To Win Both Halves
+2022-09-04 12:02:08,571 - craftBet -INFO - This market works for Client  GameID = 3712817  MarketName = To Score in Both Halves
+2022-09-04 12:02:08,572 - craftBet -INFO - This market works for Client  GameID = 3712817  MarketName = To Win To Nil
+2022-09-04 12:02:16,271 - craftBet -INFO - This market works for Client  GameID = 3712819  MarketName = To Win Both Halves
+2022-09-04 12:02:16,275 - craftBet -INFO - This market works for Client  GameID = 3712819  MarketName = To Win To Nil
+2022-09-04 12:02:16,276 - craftBet -INFO - This market works for Client  GameID = 3712819  MarketName = To Score in Both Halves
+2022-09-04 12:02:22,690 - craftBet -INFO - This market works for Client  GameID = 3712820  MarketName = To Win Both Halves
+2022-09-04 12:02:22,695 - craftBet -INFO - This market works for Client  GameID = 3712820  MarketName = To Score in Both Halves
+2022-09-04 12:02:22,695 - craftBet -INFO - This market works for Client  GameID = 3712820  MarketName = To Win To Nil
+2022-09-04 12:02:32,307 - craftBet -INFO - This market works for Client  GameID = 3712821  MarketName = To Win Both Halves
+2022-09-04 12:02:32,313 - craftBet -INFO - This market works for Client  GameID = 3712821  MarketName = To Score in Both Halves
+2022-09-04 12:02:32,313 - craftBet -INFO - This market works for Client  GameID = 3712821  MarketName = To Win To Nil
+2022-09-04 12:02:42,653 - craftBet -INFO - This market works for Client  GameID = 3712822  MarketName = To Win Both Halves
+2022-09-04 12:02:42,656 - craftBet -INFO - This market works for Client  GameID = 3712822  MarketName = To Score in Both Halves
+2022-09-04 12:02:42,657 - craftBet -INFO - This market works for Client  GameID = 3712822  MarketName = To Win To Nil
+2022-09-04 12:02:54,701 - craftBet -INFO - This market works for Client  GameID = 3712823  MarketName = Hapoel Beer Sheva Total Over/Under
+2022-09-04 12:02:54,701 - craftBet -INFO - This market works for Client  GameID = 3712823  MarketName = To Win Both Halves
+2022-09-04 12:02:54,705 - craftBet -INFO - This market works for Client  GameID = 3712823  MarketName = To Score in Both Halves
+2022-09-04 12:02:54,705 - craftBet -INFO - This market works for Client  GameID = 3712823  MarketName = To Win To Nil
+2022-09-04 12:03:05,145 - craftBet -INFO - This market works for Client  GameID = 3712824  MarketName = To Win Both Halves
+2022-09-04 12:03:05,149 - craftBet -INFO - This market works for Client  GameID = 3712824  MarketName = To Score in Both Halves
+2022-09-04 12:03:05,149 - craftBet -INFO - This market works for Client  GameID = 3712824  MarketName = To Win To Nil
+2022-09-04 12:03:14,676 - craftBet -INFO - This market works for Client  GameID = 3712825  MarketName = To Win Both Halves
+2022-09-04 12:03:14,681 - craftBet -INFO - This market works for Client  GameID = 3712825  MarketName = To Score in Both Halves
+2022-09-04 12:03:14,682 - craftBet -INFO - This market works for Client  GameID = 3712825  MarketName = To Win To Nil
+2022-09-04 12:03:22,751 - craftBet -INFO - This market works for Client  GameID = 3712827  MarketName = To Win Both Halves
+2022-09-04 12:03:22,755 - craftBet -INFO - This market works for Client  GameID = 3712827  MarketName = To Score in Both Halves
+2022-09-04 12:03:22,755 - craftBet -INFO - This market works for Client  GameID = 3712827  MarketName = To Win To Nil
+2022-09-04 12:03:37,132 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-04 12:03:37,343 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-04 12:03:37,362 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-04 12:03:41,549 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-04 12:03:41,600 - craftBet -INFO - All Page elements are initialized
+2022-09-04 12:03:41,609 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-04 12:03:42,075 - craftBet -INFO - Get Matches Api call was sent
+2022-09-04 12:03:42,136 - craftBet -INFO - Matches count is  = 180
+2022-09-04 12:03:47,479 - craftBet -INFO - This market works for Client  GameID = 3724086  MarketName =  Set Betting  SelectorError = 0.9936684641796891
+2022-09-04 12:03:50,772 - craftBet -INFO - This market works for Client  GameID = 3724087  MarketName =  Set Betting  SelectorError = 0.9896007055404408
+2022-09-04 12:03:54,136 - craftBet -INFO - This market works for Client  GameID = 3724088  MarketName =  Set Betting  SelectorError = 0.9712760435260579
+2022-09-04 12:03:59,574 - craftBet -INFO - This market works for Client  GameID = 3724294  MarketName =  Set Betting  SelectorError = 0.9508970467785856
+2022-09-04 12:04:03,185 - craftBet -INFO - This market works for Client  GameID = 3724302  MarketName =  Set Betting  SelectorError = 0.9944471200128345
+2022-09-04 12:04:05,238 - craftBet -INFO - This market works for Client  GameID = 3730145  MarketName =  Set Betting  SelectorError = 0.9872200028934255
+2022-09-04 12:04:07,443 - craftBet -INFO - This market works for Client  GameID = 3730172  MarketName =  Set Betting  SelectorError = 0.9836685004956924
+2022-09-04 12:04:09,074 - craftBet -INFO - This market works for Client  GameID = 3730184  MarketName =  Set Betting  SelectorError = 0.99514100348684
+2022-09-04 12:04:11,327 - craftBet -INFO - This market works for Client  GameID = 3730191  MarketName =  Set Betting  SelectorError = 0.9845138738144938
+2022-09-04 12:04:12,537 - craftBet -INFO - This market works for Client  GameID = 3730194  MarketName =  Set Betting  SelectorError = 0.9960768039599344
+2022-09-04 12:05:24,533 - craftBet -INFO - 3733636  This game has no available Markets
+2022-09-04 12:08:41,996 - craftBet -INFO - This market works for Client  GameID = 3724551  MarketName =  Set Betting  SelectorError = 0.9776747443862742
+2022-09-04 12:08:42,518 - craftBet -INFO - This market works for Client  GameID = 3724554  MarketName =  Set Betting  SelectorError = 0.989116672338683
+2022-09-04 12:08:42,518 - craftBet -INFO - Error Markets are:  13
+2022-09-04 12:08:42,598 - craftBet -INFO - Browser closed
+2022-09-04 12:08:42,598 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-04 12:08:42,904 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
