@@ -104,7 +104,6 @@ package utilities;//package utilities;
 //}
 
 
-import com.aventstack.extentreports.Status;
 import io.qameta.allure.Attachment;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -116,7 +115,6 @@ import pageObjects.BasePage;
 import testCases.BaseTest;
 
 import java.awt.*;
-import java.util.Objects;
 
 public class ReportingAllure extends BaseTest implements ITestListener {
     private static String getTestMethodName(ITestResult iTestResult) {

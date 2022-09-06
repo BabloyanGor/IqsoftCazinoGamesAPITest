@@ -140,7 +140,6 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
 
     @Test(dataProvider = "sports")
     public void gatPreMatchMatchGamesBrokenMarkets(String sport) throws UnirestException, JSONException, IOException {
-
         if (getGamesPartnerName.equals("Craftbet")) {
             if (getPreMatchGamesAPICheckMarkets(sport)) {
                 Assert.assertTrue(true);
@@ -157,11 +156,11 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
     @DataProvider(name = "sports")
     Object[][] loginDataInvalid(){
 
-//        String[][] arr = { {"Basketball"}, {"Tennis"},{"Rugby League"},{ "Rugby Union"},{"Volleyball"},{"American Football"},{"Table Tennis"},
-//                {"Aussie Rules"},{"Cricket"},{"E-sports"},{"Handball"},{"Baseball"},{"Biathlon"},{"Water Polo"},{"Boxing"},{"MMA"},{"Gaelic Football"},
-//                {"Darts"},{"Squash"}, {"Floorball"},{"Chess"},{"Soccer"}
-//        };
-        String[][] arr = { {"Basketball"}        };
+        String[][] arr = { {"Basketball"}, {"Tennis"},{"Ice Hockey"},{"Rugby League"},{ "Rugby Union"},{"Volleyball"},{"American Football"},{"Table Tennis"},{"Futsal"},
+                {"Aussie Rules"},{"Cricket"},{"E-sports"},{"Handball"},{"Baseball"},{"Biathlon"},{"Water Polo"},{"Boxing"},{"MMA"},{"Gaelic Football"},{"Lacrosse"},
+                {"Darts"},{"Squash"}, {"Floorball"},{"Chess"},{"Soccer"}
+        };
+//        String[][] arr = { {"Basketball"}};
         return arr;
     }
 
