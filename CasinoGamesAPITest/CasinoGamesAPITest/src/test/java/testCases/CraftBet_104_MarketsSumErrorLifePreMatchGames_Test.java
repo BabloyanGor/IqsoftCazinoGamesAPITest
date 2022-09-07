@@ -16,7 +16,6 @@ import java.util.ArrayList;
 public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest {
     int count = 1;
     String getAllLifeGamesURL = "https://sportsbookwebsitewebapi.craftbet.com/website/getlivematchesoverview?LanguageId=en&TimeZone=4&origin=https://sportsbookwebsite.craftbet.com";
-
     String getPreMatchTree = "https://sportsbookwebsitewebapi.craftbet.com/website/getprematchtree?LanguageId=en&TimeZone=4";
     String getPreMatchTreeOrigin = "https://sportsbookwebsite.craftbet.com";
 
@@ -34,6 +33,7 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
         ArrayList<Double> selectorValueArrayList = new ArrayList<>();
         ArrayList<String> StartTime = new ArrayList<>();
         ArrayList<String> errorSrcXl = new ArrayList<>();
+        ArrayList<String> errorEmptyMarkets = new ArrayList<>();
 
 
         Unirest.setTimeouts(0, 0);
@@ -57,7 +57,6 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
                     String oneRegion = String.valueOf(jsonArrayRegion.get(m));
                     JSONObject jsonObjectRegion = new JSONObject(oneRegion);
                     JSONArray jsonArrayCompetitions = jsonObjectRegion.getJSONArray("Cs");
-
                     for (int n = 0; n < jsonArrayCompetitions.length(); n++) {
                         String oneCompetition = String.valueOf(jsonArrayCompetitions.get(n));
                         JSONObject jsonObjectMatches = new JSONObject(oneCompetition);
@@ -83,7 +82,6 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
             k++;
             Unirest.setTimeouts(0, 0);
             HttpResponse<String> responseGetMarkets = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getmarketsbymatchid?LanguageId=en&TimeZone=4&MatchId=" + gameId + "&OddsType=0")
-//            HttpResponse<String> responseGetMarkets = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getmatchbyid?LanguageId=en&TimeZone=4&MatchId=" + gameId)
                     .header("origin", getPreMatchTreeOrigin)
                     .asString();
             JSONObject jsonObjectMarketsResponseBody = new JSONObject(responseGetMarkets.getBody());
@@ -97,7 +95,7 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
                 String isMarketBlocked = jsonObjectMarket.get("IB").toString();  // Market isBlocked
                 String MarketName = jsonObjectMarket.get("N").toString();  // Market Name
 
-                if (isMarketBlocked.equals("false")) {
+                if (isMarketBlocked.equals("false")|| MarketName.equals("To Miss A Penalty")) {
                     blockMarketsCount++;
                     JSONArray jsonArraySelectors = jsonObjectMarket.getJSONArray("Ss");
                     double selectorError = 0;
@@ -120,19 +118,26 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
             }
             if (blockMarketsCount == 0) {
                 logger.info(gameId + "  This game has no available Markets");
-                errorSrcXl.add(gameId + "  This game has no available Markets");
+//                errorSrcXl.add(gameId + "  This game has no available Markets");
+                errorEmptyMarkets.add(gameId + "  This game has no available Markets");
             }
 
 
         }
 
-        logger.info("Error Markets are:  " + errorSrcXl.size());
-        if (errorSrcXl.size() == 0) {
-            isPassed = true;
-        } else {
+        logger.info("Error Markets count is:  " + errorSrcXl.size());
+        logger.info("Empty Markets count is:  " + errorEmptyMarkets.size());
 
-            writeInExel(errorSrcXl, "/src/test/java/BrokenMarkets/" + readConfig.partnerConfigNum() + getGamesPartnerName + sport + "DataErrorMarketsList.xlsx", "ErrorMarkets");
+        if (errorSrcXl.size() > 0) {
+            writeInExel(errorSrcXl, "/src/test/java/CraftBet_003_BrokenMarkets/" + readConfig.partnerConfigNum() + getGamesPartnerName + sport + "DataErrorMarketsList.xlsx", "ErrorMarkets");
             isPassed = false;
+        }
+        else if (errorEmptyMarkets.size()>0){
+            writeInExel(errorEmptyMarkets, "/src/test/java/CraftBet_003_BrokenMarkets/" + readConfig.partnerConfigNum() + getGamesPartnerName + sport + "EmptyMarketsList.xlsx", "EmptyMarkets");
+            isPassed = false;
+        }
+        else {
+            isPassed=true;
         }
         return isPassed;
     }
@@ -154,11 +159,11 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
 
 
     @DataProvider(name = "sports")
-    Object[][] loginDataInvalid(){
+    Object[][] loginDataInvalid() {
 
-        String[][] arr = { {"Basketball"}, {"Tennis"},{"Ice Hockey"},{"Rugby League"},{ "Rugby Union"},{"Volleyball"},{"American Football"},{"Table Tennis"},{"Futsal"},
-                {"Aussie Rules"},{"Cricket"},{"E-sports"},{"Handball"},{"Baseball"},{"Biathlon"},{"Water Polo"},{"Boxing"},{"MMA"},{"Gaelic Football"},{"Lacrosse"},
-                {"Darts"},{"Squash"}, {"Floorball"},{"Chess"},{"Soccer"}
+        String[][] arr = {{"Basketball"}, {"Tennis"}, {"Ice Hockey"}, {"Rugby League"}, {"Rugby Union"}, {"Volleyball"}, {"American Football"}, {"Table Tennis"}, {"Futsal"},
+                {"Aussie Rules"}, {"Cricket"}, {"E-sports"}, {"Handball"}, {"Baseball"}, {"Biathlon"}, {"Water Polo"}, {"Boxing"}, {"MMA"}, {"Gaelic Football"}, {"Lacrosse"},
+                {"Darts"}, {"Squash"}, {"Floorball"}, {"Chess"}, {"Soccer"}
         };
 //        String[][] arr = { {"Basketball"}};
         return arr;
@@ -309,7 +314,7 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
             isPassed = true;
         } else {
 
-//            writeInExel(errorSrcXl, "/src/test/java/timeOutGames/" + readConfig.partnerConfigNum() + partnerName + "DataErrorMarketsList.xlsx", "ErrorMarkets");
+//            writeInExel(errorSrcXl, "src/test/java/CraftBet_003_BrokenMarkets/" + readConfig.partnerConfigNum() + partnerName + "DataErrorMarketsList.xlsx", "ErrorMarkets");
             isPassed = false;
         }
         return isPassed;
