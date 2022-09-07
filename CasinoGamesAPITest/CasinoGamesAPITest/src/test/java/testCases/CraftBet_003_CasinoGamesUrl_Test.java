@@ -61,10 +61,11 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
         logger.info("Get All games API call ");
 
         JSONObject jsonObjectBody = new JSONObject(response.getBody());
+        Unirest.shutdown();
         JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.get("ResponseObject").toString());
         JSONArray jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
         logger.info("From Get All games API call body captured ");
-        Unirest.shutdown();
+
 
         for (int j = 0; j < jsonArrayGames.length(); j++) {
             String first = String.valueOf(jsonArrayGames.get(j));
@@ -90,11 +91,11 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
 
 
             JSONObject jsonObjectGetUrl = new JSONObject(responseUrl.getBody());
-
+            Unirest.shutdown();
             String code = jsonObjectGetUrl.get("ResponseCode").toString();
             String description = jsonObjectGetUrl.get("Description").toString();
             String url = jsonObjectGetUrl.get("ResponseObject").toString();
-            Unirest.shutdown();
+
             String errMessage;
             try {
                 if (!code.equals("0") || url == null || url.length() < 10) {
@@ -119,7 +120,7 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
             isPassed = true;
 
         } else {
-            writeInExel(errorSrcXl, "/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataBrokenURLList.xlsx", "brokenURL");
+            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataBrokenURLList.xlsx", "brokenURL");
             isPassed = false;
         }
         return isPassed;

@@ -124,7 +124,7 @@ public class CraftBet_102_LifeGamesMarkets_Test extends BaseTest {
         if (errorSrcXl.size() == 0) {
             isPassed = true;
         } else {
-            writeInExel(errorSrcXl, "/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataPreMatchMarketsEqual1.xlsx", "brokenPrematchMarkets");
+            writeInExel(errorSrcXl, "/src/test/java/CraftBet_004_SelectorsHaveEqualOrLessOneValue/" + readConfig.partnerConfigNum() + partnerName + "DataPreMatchMarketsEqual1.xlsx", "brokenPrematchMarkets");
             isPassed = false;
         }
         return isPassed;

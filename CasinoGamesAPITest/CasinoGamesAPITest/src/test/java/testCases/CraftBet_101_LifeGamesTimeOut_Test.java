@@ -281,7 +281,7 @@ public class CraftBet_101_LifeGamesTimeOut_Test extends BaseTest{
             isPassed = true;
         } else {
 
-            writeInExel(errorSrcXl, "/src/test/java/timeOutGames/" + readConfig.partnerConfigNum() + partnerName + "DataTimeOutGamesList.xlsx", "TimeOutGames");
+            writeInExel(errorSrcXl, "/src/test/java/CraftBet_002_TimeOutGames/" + readConfig.partnerConfigNum() + partnerName + "DataTimeOutGamesList.xlsx", "TimeOutGames");
             isPassed = false;
         }
         return isPassed;

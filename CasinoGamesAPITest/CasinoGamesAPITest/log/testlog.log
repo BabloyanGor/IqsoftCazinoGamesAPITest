@@ -1161,3 +1161,189 @@ java.net.SocketException: Connection reset
 2022-09-07 12:41:43,196 - craftBet -INFO - Browser closed
 2022-09-07 12:41:43,196 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-09-07 12:41:43,341 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-07 16:10:02,907 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-07 16:10:05,564 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-07 16:10:05,643 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-07 16:10:13,552 - craftBet -INFO - URL: https://bet2win.vip  Browser: chrome
+2022-09-07 16:10:14,117 - craftBet -INFO - All Page elements are initialized
+2022-09-07 16:10:14,138 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-07 16:10:18,838 - craftBet -INFO - Get games Api call was sent
+2022-09-07 16:10:20,266 - craftBet -INFO - Get games Api Response was captured
+2022-09-07 16:10:20,310 - craftBet -INFO - All captured games images was added into ArrayList
+2022-09-07 16:15:09,089 - craftBet -INFO - Broken images are:  0
+2022-09-07 16:15:09,118 - craftBet -INFO - gamesImgTest--------------------------------------------------------->  Success
+2022-09-07 16:15:09,119 - craftBet -INFO - gamesImgTest----------------------------------------------------------
+2022-09-07 16:15:09,819 - craftBet -INFO - Browser closed
+2022-09-07 16:15:09,820 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-07 16:15:09,843 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-07 16:15:09,911 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-07 16:15:09,947 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-07 16:15:11,602 - craftBet -INFO - URL: https://bet2win.vip  Browser: chrome
+2022-09-07 16:15:11,611 - craftBet -INFO - All Page elements are initialized
+2022-09-07 16:15:11,986 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-07 16:15:13,547 - craftBet -INFO - Get games Api call was sent
+2022-09-07 16:15:13,601 - craftBet -INFO - Get games Api Response was captured
+2022-09-07 16:15:13,811 - craftBet -INFO - All captured games images was added into ArrayList
+2022-09-07 16:18:18,285 - craftBet -ERROR - 628   Game Provider Name = NucleusGaming :   Game Name =  Reels of Treasure NJP :   cod = 503:   src = https://s3-eu-west-1.amazonaws.com/marketing-assets-83/games-prod/new/373b1b69d127521829d2d7ad117152ca46ee5187/Games%20Catalog%20image/image.jpg
+2022-09-07 16:19:32,836 - craftBet -INFO - Broken images are:  1
+2022-09-07 16:19:37,400 - craftBet -ERROR - mobileGamesImgTest--------------------------------------------------------->   Fail
+2022-09-07 16:19:37,400 - craftBet -ERROR - mobileGamesImgTest-----------------------------------------------------------------
+2022-09-07 16:19:37,562 - craftBet -INFO - Browser closed
+2022-09-07 16:19:37,563 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-07 16:19:37,575 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-07 16:19:37,594 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-07 16:19:37,614 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-07 16:19:39,324 - craftBet -INFO - URL: https://bet2win.vip  Browser: chrome
+2022-09-07 16:19:39,331 - craftBet -INFO - All Page elements are initialized
+2022-09-07 16:19:39,753 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-07 16:19:41,536 - craftBet -INFO - username passed
+2022-09-07 16:19:41,829 - craftBet -INFO - password passed
+2022-09-07 16:19:42,704 - craftBet -INFO - Log In Button was clicked
+2022-09-07 16:19:44,298 - craftBet -INFO - Token was captured c2d27b3a67c14adc95f3e4af0ed7c8ff
+2022-09-07 16:19:45,544 - craftBet -INFO - Get All games API call 
+2022-09-07 16:19:45,566 - craftBet -INFO - From Get All games API call body captured 
+2022-09-07 16:19:45,580 - craftBet -INFO - From Get All games API productIDes and Names was captured 
+2022-09-07 16:20:13,945 - craftBet -INFO - 1 52 ID=23014 Provider=QuickSpin Name=Ark of Mystery cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:20:17,581 - craftBet -INFO - 2 59 ID=75976 Provider=Yggdrasil Name=Baccarat cod=0 description=null ResponseObject=24
+2022-09-07 16:20:20,015 - craftBet -INFO - 3 63 ID=75977 Provider=Yggdrasil Name=Baccarat VIP cod=0 description=null ResponseObject=24
+2022-09-07 16:20:26,674 - craftBet -INFO - 4 77 ID=23741 Provider=QuickSpin Name=Big Bad Wolf cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:20:27,933 - craftBet -INFO - 5 80 ID=23725 Provider=QuickSpin Name=Big Bot Crew cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:21:11,476 - craftBet -INFO - 6 167 ID=23726 Provider=QuickSpin Name=Colossus cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:21:16,399 - craftBet -INFO - 7 177 ID=23742 Provider=QuickSpin Name=Crystal Queen cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:21:29,402 - craftBet -INFO - 8 202 ID=23727 Provider=QuickSpin Name=Divine Dreams cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:21:36,635 - craftBet -INFO - 9 213 ID=23728 Provider=QuickSpin Name=Dragon Shrine cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:21:40,997 - craftBet -INFO - 10 221 ID=23729 Provider=QuickSpin Name=Durian Dynamite cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:21:42,854 - craftBet -INFO - 11 225 ID=23781 Provider=QuickSpin Name=Dwarfs Gone Wild cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:21:44,075 - craftBet -INFO - 12 228 ID=23730 Provider=QuickSpin Name=Eastern Emeralds cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:21:53,875 - craftBet -INFO - 13 245 ID=23731 Provider=QuickSpin Name=Fairy Gate cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:21:58,608 - craftBet -INFO - 14 254 ID=29986 Provider=PushGaming Name=Fat Rabbit cod=0 description=null ResponseObject=24
+2022-09-07 16:22:11,823 - craftBet -INFO - 15 280 ID=29278 Provider=PariPlay Name=Force of the Gods cod=0 description=null ResponseObject=24
+2022-09-07 16:22:31,467 - craftBet -INFO - 16 317 ID=23743 Provider=QuickSpin Name=Genies Touch cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:22:33,731 - craftBet -INFO - 17 323 ID=75277 Provider=Yggdrasil Name=Glory of Heroes cod=0 description=null ResponseObject=24
+2022-09-07 16:22:44,265 - craftBet -INFO - 18 345 ID=23021 Provider=QuickSpin Name=Goldilocks & Wild Bears cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:22:44,657 - craftBet -INFO - 19 346 ID=23015 Provider=QuickSpin Name=Gold Lab cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:22:53,915 - craftBet -INFO - 20 365 ID=23783 Provider=QuickSpin Name=Hidden Valley cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:23:00,937 - craftBet -INFO - 21 381 ID=23732 Provider=QuickSpin Name=Hot Sync cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:23:06,551 - craftBet -INFO - 22 392 ID=29981 Provider=PushGaming Name=Humpty Dumpty cod=0 description=null ResponseObject=24
+2022-09-07 16:23:10,743 - craftBet -INFO - 23 402 ID=23744 Provider=QuickSpin Name=Illuminous cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:23:11,144 - craftBet -INFO - 24 403 ID=29983 Provider=PushGaming Name=Immortal Guild cod=0 description=null ResponseObject=24
+2022-09-07 16:23:16,685 - craftBet -INFO - 25 413 ID=23754 Provider=RelaxGaming Name=Iron Bank cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:23:16,989 - craftBet -INFO - 26 414 ID=23784 Provider=QuickSpin Name=Ivan and the Immortal King cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:23:29,051 - craftBet -INFO - 27 437 ID=23785 Provider=QuickSpin Name=Joker Strike cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:23:35,837 - craftBet -INFO - 28 452 ID=29701 Provider=PariPlay Name=King of the Trident Deluxe cod=0 description=null ResponseObject=24
+2022-09-07 16:23:43,949 - craftBet -INFO - 29 471 ID=28655 Provider=PlaysonDirect Name=Legend of Cleopatra Megaways cod=0 description=null ResponseObject=24
+2022-09-07 16:23:44,557 - craftBet -INFO - 30 473 ID=23724 Provider=QuickSpin Name=Leprechaun Hills cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:23:45,391 - craftBet -INFO - 31 475 ID=76131 Provider=Yggdrasil Name=Let It Slide cod=0 description=null ResponseObject=24
+2022-09-07 16:24:02,043 - craftBet -INFO - 32 514 ID=23018 Provider=QuickSpin Name=Mayana cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:24:07,428 - craftBet -INFO - 33 527 ID=23019 Provider=QuickSpin Name=Mighty Arthur cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:24:09,841 - craftBet -INFO - 34 533 ID=23753 Provider=RelaxGaming Name=Money Train 2 cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:24:15,428 - craftBet -INFO - 35 544 ID=23733 Provider=QuickSpin Name=Mountain King cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:24:23,438 - craftBet -INFO - 36 560 ID=23734 Provider=QuickSpin Name=Northern Sky cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:24:35,525 - craftBet -INFO - 37 584 ID=23017 Provider=QuickSpin Name=Phoenix Sun cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:24:35,884 - craftBet -INFO - 38 585 ID=23735 Provider=QuickSpin Name=Pied Piper cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:24:39,626 - craftBet -INFO - 39 593 ID=23736 Provider=QuickSpin Name=Pirates Charm cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:24:54,899 - craftBet -INFO - 40 625 ID=23011 Provider=QuickSpin Name=Razortooth cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:25:07,096 - craftBet -INFO - 41 651 ID=75969 Provider=Yggdrasil Name=Roulette Evolution cod=0 description=null ResponseObject=24
+2022-09-07 16:25:07,501 - craftBet -INFO - 42 652 ID=75968 Provider=Yggdrasil Name=Roulette Evolution VIP cod=0 description=null ResponseObject=24
+2022-09-07 16:25:13,397 - craftBet -INFO - 43 666 ID=75005 Provider=Yggdrasil Name=Sabres and Swords: Charge Gigablox cod=0 description=null ResponseObject=24
+2022-09-07 16:25:22,352 - craftBet -INFO - 44 685 ID=23012 Provider=QuickSpin Name=Second Strike cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:25:25,142 - craftBet -INFO - 45 692 ID=23013 Provider=QuickSpin Name=Sevens High cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:25:33,751 - craftBet -INFO - 46 708 ID=23752 Provider=RelaxGaming Name=Snake Arena cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:25:40,302 - craftBet -INFO - 47 722 ID=23016 Provider=QuickSpin Name=Spinions Beach Party cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:25:44,341 - craftBet -INFO - 48 731 ID=75841 Provider=Yggdrasil Name=Steam Spin cod=0 description=null ResponseObject=24
+2022-09-07 16:25:44,670 - craftBet -INFO - 49 732 ID=23020 Provider=QuickSpin Name=Sticky Bandits cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:25:55,610 - craftBet -INFO - 50 757 ID=23737 Provider=QuickSpin Name=Tales of Doctor Dolittle cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:26:02,593 - craftBet -INFO - 51 772 ID=23782 Provider=QuickSpin Name=The Grand cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:26:17,940 - craftBet -INFO - 52 803 ID=75193 Provider=PariPlay Name=Tiki Magic cod=0 description=null ResponseObject=24
+2022-09-07 16:26:19,077 - craftBet -INFO - 53 805 ID=29992 Provider=PushGaming Name=Tiki Tumble cod=0 description=null ResponseObject=24
+2022-09-07 16:26:37,025 - craftBet -INFO - 54 839 ID=23738 Provider=QuickSpin Name=Volcano Riches cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:26:42,288 - craftBet -INFO - 55 850 ID=23750 Provider=RelaxGaming Name=Wild Chapo cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:26:43,014 - craftBet -INFO - 56 852 ID=23739 Provider=QuickSpin Name=Wild Chase cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:26:51,411 - craftBet -INFO - 57 868 ID=29980 Provider=PushGaming Name=Wild Wheel cod=0 description=null ResponseObject=24
+2022-09-07 16:26:55,435 - craftBet -INFO - 58 874 ID=23740 Provider=QuickSpin Name=Wins of Fortune cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-07 16:27:01,805 - craftBet -INFO - From Get URL API broken games are captured
+2022-09-07 16:27:01,806 - craftBet -INFO - Broken url-es are:  58
+2022-09-07 16:27:04,324 - craftBet -ERROR - getUrlAPITest--------------------------------------------------------->   Fail
+2022-09-07 16:27:04,325 - craftBet -ERROR - getUrlAPITest-----------------------------------------------------------------
+2022-09-07 16:27:04,805 - craftBet -INFO - Browser closed
+2022-09-07 16:27:04,806 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-07 16:27:04,848 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-07 16:27:04,878 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-07 16:27:04,910 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-07 16:27:07,328 - craftBet -INFO - URL: https://bet2win.vip  Browser: chrome
+2022-09-07 16:27:07,331 - craftBet -INFO - All Page elements are initialized
+2022-09-07 16:27:07,343 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-07 16:27:08,594 - craftBet -INFO - Get games Api call was sent
+2022-09-07 16:27:08,641 - craftBet -INFO - Get games Api Response was captured
+2022-09-07 16:27:08,658 - craftBet -INFO - Dupliicate game Name =  Baccarat VIP
+2022-09-07 16:27:08,659 - craftBet -INFO - Dupliicate game Name =  Bier Party
+2022-09-07 16:27:08,660 - craftBet -INFO - Dupliicate game Name =  Blackjack
+2022-09-07 16:27:08,660 - craftBet -INFO - Dupliicate game Name =  Bloodshot: Rising Spirit
+2022-09-07 16:27:08,661 - craftBet -INFO - Dupliicate game Name =  Book of Itza
+2022-09-07 16:27:08,663 - craftBet -INFO - Dupliicate game Name =  Dragons of the North Deluxe
+2022-09-07 16:27:08,663 - craftBet -INFO - Dupliicate game Name =  Epic Riches
+2022-09-07 16:27:08,664 - craftBet -INFO - Dupliicate game Name =  Faith
+2022-09-07 16:27:08,664 - craftBet -INFO - Dupliicate game Name =  Fat Rabbit
+2022-09-07 16:27:08,664 - craftBet -INFO - Dupliicate game Name =  Force of the Gods
+2022-09-07 16:27:08,664 - craftBet -INFO - Dupliicate game Name =  Force of the Gods
+2022-09-07 16:27:08,664 - craftBet -INFO - Dupliicate game Name =  Force of the Gods
+2022-09-07 16:27:08,665 - craftBet -INFO - Dupliicate game Name =  Grand Loot
+2022-09-07 16:27:08,665 - craftBet -INFO - Dupliicate game Name =  Hot Wild 7s
+2022-09-07 16:27:08,666 - craftBet -INFO - Dupliicate game Name =  Jackpot Fortunes
+2022-09-07 16:27:08,666 - craftBet -INFO - Dupliicate game Name =  King of the Trident Deluxe
+2022-09-07 16:27:08,666 - craftBet -INFO - Dupliicate game Name =  King of the Trident Deluxe
+2022-09-07 16:27:08,666 - craftBet -INFO - Dupliicate game Name =  King of the Trident Deluxe
+2022-09-07 16:27:08,667 - craftBet -INFO - Dupliicate game Name =  Mystery Fox Christmas Party
+2022-09-07 16:27:08,667 - craftBet -INFO - Dupliicate game Name =  Phoenix Kingdom
+2022-09-07 16:27:08,667 - craftBet -INFO - Dupliicate game Name =  Power Strike Super Spin
+2022-09-07 16:27:08,668 - craftBet -INFO - Dupliicate game Name =  Tiki Tumble
+2022-09-07 16:27:08,668 - craftBet -INFO - Dupliicate game Name =  Titan’s Riches
+2022-09-07 16:27:08,668 - craftBet -INFO - Dupliicate game Name =  Wild Fortunes
+2022-09-07 16:27:08,668 - craftBet -INFO - Dupliicate game Name =  Wild Fruit Super Wheel
+2022-09-07 16:27:08,668 - craftBet -INFO - Duplicate games are:  25
+2022-09-07 16:27:09,493 - craftBet -ERROR - getDuplicateGames--------------------------------------------------------->   Fail
+2022-09-07 16:27:09,493 - craftBet -ERROR - getDuplicateGames-----------------------------------------------------------------
+2022-09-07 16:27:09,717 - craftBet -INFO - Browser closed
+2022-09-07 16:27:09,717 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-07 16:27:10,544 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  

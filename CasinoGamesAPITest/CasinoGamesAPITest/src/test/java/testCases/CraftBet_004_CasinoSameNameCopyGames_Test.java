@@ -32,6 +32,7 @@ public class CraftBet_004_CasinoSameNameCopyGames_Test extends BaseTest{
                 .asString();
         logger.info("Get games Api call was sent");
         JSONObject jsonObjectBody = new JSONObject(response.getBody());
+        Unirest.shutdown();
         JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.get("ResponseObject").toString());
         JSONArray jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
         logger.info("Get games Api Response was captured");
@@ -61,15 +62,15 @@ public class CraftBet_004_CasinoSameNameCopyGames_Test extends BaseTest{
         if (errorSrcXl.size() == 0) {
             isPassed = true;
         } else {
-            writeInExel(errorSrcXl, "/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataDuplicateGamesList.xlsx", "CopyGames");
+            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataDuplicateGamesList.xlsx", "CopyGames");
             isPassed = false;
         }
-        Unirest.shutdown();
+
         return isPassed;
     }
 
         @Test
-        public void gatDuplicateGames() throws UnirestException, JSONException, IOException {
+        public void getDuplicateGames() throws UnirestException, JSONException, IOException {
 
             if (getALLGamesAPICheckCopyGames(getGamesAPIUrl, getGamesOrigin, getGamesPartnerName)){
                 Assert.assertTrue(true);

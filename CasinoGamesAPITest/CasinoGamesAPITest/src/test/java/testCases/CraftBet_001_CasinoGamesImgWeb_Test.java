@@ -37,11 +37,12 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
 
         logger.info("Get games Api call was sent");
         JSONObject jsonObjectBody = new JSONObject(response.getBody());
+        Unirest.shutdown();
         JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.get("ResponseObject").toString());
         JSONArray jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
         logger.info("Get games Api Response was captured");
 
-        Unirest.shutdown();
+
         for (int j = 0; j < jsonArrayGames.length(); j++) {
 
             String first = String.valueOf(jsonArrayGames.get(j));
@@ -106,7 +107,7 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
         if (errorSrcXl.size() == 0) {
             isPassed = true;
         } else {
-            writeInExel(errorSrcXl,"/src/test/java/APICasinoGamesCasinoImagesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataBrokenIMGList.xlsx" , "brokenIMG");
+            writeInExel(errorSrcXl,"/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataBrokenIMGList.xlsx" , "brokenIMG");
             isPassed = false;
         }
         return isPassed;
