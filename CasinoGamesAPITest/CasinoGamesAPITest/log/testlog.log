@@ -4509,3 +4509,93 @@ java.net.SocketException: Connection reset
 2022-09-08 14:17:49,766 - craftBet -INFO - Browser closed
 2022-09-08 14:17:49,767 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-09-08 14:17:49,818 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-08 16:09:11,297 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-08 16:09:12,781 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-08 16:09:12,818 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-08 16:09:18,362 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-08 16:09:18,497 - craftBet -INFO - All Page elements are initialized
+2022-09-08 16:09:18,509 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-08 16:09:19,877 - craftBet -INFO - Get Matches Api call was sent
+2022-09-08 16:09:19,948 - craftBet -INFO - Matches count is  = 92
+2022-09-08 17:11:52,189 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-08 17:11:53,570 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-08 17:11:53,629 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-08 17:11:59,544 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-08 17:11:59,705 - craftBet -INFO - All Page elements are initialized
+2022-09-08 17:11:59,717 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-08 17:12:01,328 - craftBet -INFO - Get Matches Api call was sent
+2022-09-08 17:12:01,484 - craftBet -INFO - Matches count is  = 98
+2022-09-08 17:40:48,796 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-08 17:40:49,420 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-08 17:40:49,491 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-08 17:40:55,836 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-08 17:40:55,975 - craftBet -INFO - All Page elements are initialized
+2022-09-08 17:40:55,989 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-08 17:40:59,743 - craftBet -INFO - Get Matches Api call was sent
+2022-09-08 17:40:59,843 - craftBet -INFO - Matches count is  = 98
+2022-09-08 17:45:18,829 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-08 17:45:19,175 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-08 17:45:19,220 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-08 17:45:23,209 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-08 17:45:23,330 - craftBet -INFO - All Page elements are initialized
+2022-09-08 17:45:23,683 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-08 17:45:25,019 - craftBet -INFO - Get games Api call was sent
+2022-09-08 17:45:25,045 - craftBet -INFO - Games are 167
+2022-09-08 17:45:25,046 - craftBet -INFO - Get Life games Api Response was captured
+2022-09-08 17:45:25,174 - craftBet -ERROR - The Time Out games are :   3750984   EsoccerGTLeagues-12minsplay   Bayern (General) Esports  VS  PSG (Pipis) Esports   Soccer   2022-09-08T08:29:28  Status = 1   After game start time out = :  9 hours  15 minutes
+2022-09-08 17:45:25,174 - craftBet -ERROR - The Time Out games are :   3750985   EsoccerGTLeagues-12minsplay   Liverpool (Votepeace) Esports  VS  Real Madrid (Rafa) Esports   Soccer   2022-09-08T08:29:32  Status = 1   After game start time out = :  9 hours  15 minutes
+2022-09-08 17:45:25,180 - craftBet -ERROR - The Time Out games are :   3752069   TTStarSeries   Tomas Koldas  VS  David Prusa   Table Tennis   2022-09-08T14:18:23  Status = 1   After game start time out = :  3 hours  27 minutes
+2022-09-08 17:45:25,180 - craftBet -ERROR - The Time Out games are :   3750146   Setka Cup   Volodymyr Bilobrov  VS  Ilya Parnivoda   Table Tennis   2022-09-08T14:30:00  Status = 1   After game start time out = :  3 hours  15 minutes
+2022-09-08 17:45:25,180 - craftBet -ERROR - The Time Out games are :   3750362   TT-CUP   Andrey Romanov  VS  Johannes Kant   Table Tennis   2022-09-08T14:45:00  Status = 1   After game start time out = :  3 hours  0 minutes
+2022-09-08 17:45:25,182 - craftBet -ERROR - The Time Out games are :   3750102   Setka Cup   Tomas lukes  VS  Tomas Stejskal Jr   Table Tennis   2022-09-08T14:45:00  Status = 1   After game start time out = :  3 hours  0 minutes
+2022-09-08 17:45:25,184 - craftBet -ERROR - The Time Out games are :   3749506   Setka Cup   Adam Vojkovic  VS  Adam Klbik   Table Tennis   2022-09-08T14:50:00  Status = 1   After game start time out = :  2 hours  55 minutes
+2022-09-08 17:45:25,185 - craftBet -ERROR - The Time Out games are :   3749211   Setka Cup   Mykhailo Urban  VS  Orest Melnik   Table Tennis   2022-09-08T14:50:00  Status = 1   After game start time out = :  2 hours  55 minutes
+2022-09-08 17:45:25,185 - craftBet -ERROR - The Time Out games are :   3748806   Czech Liga Pro   Dominik Lengal  VS  Tomas Bartik   Table Tennis   2022-09-08T15:00:00  Status = 1   After game start time out = :  2 hours  45 minutes
+2022-09-08 17:45:25,186 - craftBet -ERROR - The Time Out games are :   3749020   Czech Liga Pro   Jiri Motak  VS  Jaromir Kanok   Table Tennis   2022-09-08T15:00:00  Status = 1   After game start time out = :  2 hours  45 minutes
+2022-09-08 17:45:25,186 - craftBet -ERROR - The Time Out games are :   3732710   1st ODI   Australia  VS  New Zealand   Cricket   2022-09-08T08:20:00  Status = 1   After game start time out = :  9 hours  25 minutes
+2022-09-08 17:45:25,187 - craftBet -ERROR - The Time Out games are :   3748937   King of Glory - LeiTing Cup   Rogue Warriors (KG)  VS  Wolves (KG)   E-sports   2022-09-08T13:00:00  Status = 1   After game start time out = :  4 hours  45 minutes
+2022-09-08 17:45:25,187 - craftBet -ERROR - The Time Out games are :   3715103   Global Offensive - ESL Pro League   OutSiders (CS)  VS  For The Win (CS)   E-sports   2022-09-08T14:30:00  Status = 1   After game start time out = :  3 hours  15 minutes
+2022-09-08 17:45:25,187 - craftBet -ERROR - The Time Out games are :   3749119   NPB   Chiba Lotte Marines  VS  Nippon-Ham Fighters   Baseball   2022-09-08T13:00:00  Status = 1   After game start time out = :  4 hours  45 minutes
+2022-09-08 17:45:25,188 - craftBet -ERROR - The Time Out games are :   3749115   NPB   Chunichi Dragons  VS  Hiroshima Carp   Baseball   2022-09-08T13:00:00  Status = 1   After game start time out = :  4 hours  45 minutes
+2022-09-08 17:45:25,188 - craftBet -ERROR - The Time Out games are :   3749116   NPB   Fukuoka Hawks  VS  Rakuten Gold. Eagles   Baseball   2022-09-08T13:00:00  Status = 1   After game start time out = :  4 hours  45 minutes
+2022-09-08 17:45:25,188 - craftBet -ERROR - The Time Out games are :   3749123   NPB   Yomiuri Giants  VS  Yokohama BayStars   Baseball   2022-09-08T13:00:00  Status = 1   After game start time out = :  4 hours  45 minutes
+2022-09-08 17:45:25,189 - craftBet -ERROR - The Time Out games are :   3750091   KBO   Doosan Bears  VS  Hanwha Eagles   Baseball   2022-09-08T13:30:00  Status = 1   After game start time out = :  4 hours  15 minutes
+2022-09-08 17:45:25,189 - craftBet -ERROR - The Time Out games are :   3749316   KBO   Nexen Heroes  VS  LG Twins   Baseball   2022-09-08T13:30:00  Status = 1   After game start time out = :  4 hours  15 minutes
+2022-09-08 17:45:25,189 - craftBet -ERROR - The Time Out games are :   3750094   KBO   SSG Landers  VS  Kia Tigers   Baseball   2022-09-08T13:30:00  Status = 1   After game start time out = :  4 hours  15 minutes
+2022-09-08 17:45:25,190 - craftBet -INFO - Time out Games are:  20
+2022-09-08 17:45:27,099 - craftBet -INFO - Browser closed
+2022-09-08 17:45:27,100 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-08 17:45:27,137 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-08 17:46:32,912 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-08 17:46:33,181 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-08 17:46:33,216 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-08 17:46:35,581 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-08 17:46:35,652 - craftBet -INFO - All Page elements are initialized
+2022-09-08 17:46:35,663 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-08 17:46:36,867 - craftBet -INFO - Get games Api call was sent
+2022-09-08 17:46:36,894 - craftBet -INFO - Games are 167
+2022-09-08 17:46:36,895 - craftBet -INFO - Get Life games Api Response was captured
+2022-09-08 17:46:36,930 - craftBet -ERROR - The Time Out games are :   3750984   EsoccerGTLeagues-12minsplay   Bayern (General) Esports  VS  PSG (Pipis) Esports   Soccer   2022-09-08T08:29:28  Status = 1   After game start time out = :  9 hours  17 minutes
+2022-09-08 17:46:36,931 - craftBet -ERROR - The Time Out games are :   3750985   EsoccerGTLeagues-12minsplay   Liverpool (Votepeace) Esports  VS  Real Madrid (Rafa) Esports   Soccer   2022-09-08T08:29:32  Status = 1   After game start time out = :  9 hours  17 minutes
+2022-09-08 17:46:36,941 - craftBet -ERROR - The Time Out games are :   3752069   TTStarSeries   Tomas Koldas  VS  David Prusa   Table Tennis   2022-09-08T14:18:23  Status = 1   After game start time out = :  3 hours  28 minutes
+2022-09-08 17:46:36,941 - craftBet -ERROR - The Time Out games are :   3750146   Setka Cup   Volodymyr Bilobrov  VS  Ilya Parnivoda   Table Tennis   2022-09-08T14:30:00  Status = 1   After game start time out = :  3 hours  16 minutes
+2022-09-08 17:46:36,941 - craftBet -ERROR - The Time Out games are :   3750362   TT-CUP   Andrey Romanov  VS  Johannes Kant   Table Tennis   2022-09-08T14:45:00  Status = 1   After game start time out = :  3 hours  1 minutes
+2022-09-08 17:46:36,942 - craftBet -ERROR - The Time Out games are :   3750102   Setka Cup   Tomas lukes  VS  Tomas Stejskal Jr   Table Tennis   2022-09-08T14:45:00  Status = 1   After game start time out = :  3 hours  1 minutes
+2022-09-08 17:46:36,942 - craftBet -ERROR - The Time Out games are :   3749506   Setka Cup   Adam Vojkovic  VS  Adam Klbik   Table Tennis   2022-09-08T14:50:00  Status = 1   After game start time out = :  2 hours  56 minutes
+2022-09-08 17:46:36,943 - craftBet -ERROR - The Time Out games are :   3749211   Setka Cup   Mykhailo Urban  VS  Orest Melnik   Table Tennis   2022-09-08T14:50:00  Status = 1   After game start time out = :  2 hours  56 minutes
+2022-09-08 17:46:36,944 - craftBet -ERROR - The Time Out games are :   3748806   Czech Liga Pro   Dominik Lengal  VS  Tomas Bartik   Table Tennis   2022-09-08T15:00:00  Status = 1   After game start time out = :  2 hours  46 minutes
+2022-09-08 17:46:36,944 - craftBet -ERROR - The Time Out games are :   3749020   Czech Liga Pro   Jiri Motak  VS  Jaromir Kanok   Table Tennis   2022-09-08T15:00:00  Status = 1   After game start time out = :  2 hours  46 minutes
+2022-09-08 17:46:36,945 - craftBet -ERROR - The Time Out games are :   3732710   1st ODI   Australia  VS  New Zealand   Cricket   2022-09-08T08:20:00  Status = 1   After game start time out = :  9 hours  26 minutes
+2022-09-08 17:46:36,945 - craftBet -ERROR - The Time Out games are :   3748937   King of Glory - LeiTing Cup   Rogue Warriors (KG)  VS  Wolves (KG)   E-sports   2022-09-08T13:00:00  Status = 1   After game start time out = :  4 hours  46 minutes
+2022-09-08 17:46:36,945 - craftBet -ERROR - The Time Out games are :   3715103   Global Offensive - ESL Pro League   OutSiders (CS)  VS  For The Win (CS)   E-sports   2022-09-08T14:30:00  Status = 1   After game start time out = :  3 hours  16 minutes
+2022-09-08 17:46:36,946 - craftBet -ERROR - The Time Out games are :   3749119   NPB   Chiba Lotte Marines  VS  Nippon-Ham Fighters   Baseball   2022-09-08T13:00:00  Status = 1   After game start time out = :  4 hours  46 minutes
+2022-09-08 17:46:36,946 - craftBet -ERROR - The Time Out games are :   3749115   NPB   Chunichi Dragons  VS  Hiroshima Carp   Baseball   2022-09-08T13:00:00  Status = 1   After game start time out = :  4 hours  46 minutes
+2022-09-08 17:46:36,947 - craftBet -ERROR - The Time Out games are :   3749116   NPB   Fukuoka Hawks  VS  Rakuten Gold. Eagles   Baseball   2022-09-08T13:00:00  Status = 1   After game start time out = :  4 hours  46 minutes
+2022-09-08 17:46:36,947 - craftBet -ERROR - The Time Out games are :   3749123   NPB   Yomiuri Giants  VS  Yokohama BayStars   Baseball   2022-09-08T13:00:00  Status = 1   After game start time out = :  4 hours  46 minutes
+2022-09-08 17:46:36,947 - craftBet -ERROR - The Time Out games are :   3750091   KBO   Doosan Bears  VS  Hanwha Eagles   Baseball   2022-09-08T13:30:00  Status = 1   After game start time out = :  4 hours  16 minutes
+2022-09-08 17:46:36,947 - craftBet -ERROR - The Time Out games are :   3749316   KBO   Nexen Heroes  VS  LG Twins   Baseball   2022-09-08T13:30:00  Status = 1   After game start time out = :  4 hours  16 minutes
+2022-09-08 17:46:36,948 - craftBet -ERROR - The Time Out games are :   3750094   KBO   SSG Landers  VS  Kia Tigers   Baseball   2022-09-08T13:30:00  Status = 1   After game start time out = :  4 hours  16 minutes
+2022-09-08 17:46:36,948 - craftBet -INFO - Time out Games are:  20
+2022-09-08 17:46:38,573 - craftBet -INFO - Browser closed
+2022-09-08 17:46:38,573 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-08 17:46:38,683 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  

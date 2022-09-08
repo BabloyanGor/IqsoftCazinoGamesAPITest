@@ -28,6 +28,7 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
         int pointCount = 1;
 
         ArrayList<String> gameIDs = new ArrayList<>();
+        ArrayList<String> marketIDs = new ArrayList<>();
         ArrayList<String> sportTypeArrayList = new ArrayList<>();
         ArrayList<String> soccerIDsArrayList = new ArrayList<>();
         ArrayList<Double> selectorValueArrayList = new ArrayList<>();
@@ -66,9 +67,11 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
                             String oneMatch = String.valueOf(jsonArrayMatches.get(l));
                             JSONObject jsonObjectMatchID = new JSONObject(oneMatch);
                             String matchID = jsonObjectMatchID.get("MI").toString();
+
                             String startTime = jsonObjectMatchID.get("ST").toString();
                             String isBlocked = jsonObjectMatchID.get("IB").toString();
                             gameIDs.add(matchID);
+
                             StartTime.add(startTime);
                         }
                     }
@@ -76,9 +79,6 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
             }
         }
         logger.info("Matches count is  = " + gameIDs.size());
-
-
-
 
 
         for (String gameId : gameIDs) {
@@ -95,9 +95,10 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
             for (int z = 0; z < jsonArrayAllMarkets.length(); z++) {
                 String arrayObjectMarket = String.valueOf(jsonArrayAllMarkets.get(z));
                 JSONObject jsonObjectMarket = new JSONObject(arrayObjectMarket);
+//                String marketID = jsonArrayAllMarkets.get("I").toString();
                 String isMarketBlocked = jsonObjectMarket.get("IB").toString();  // Market isBlocked
+                String marketID = jsonObjectMarket.get("I").toString();  // Market ID
                 String MarketName = jsonObjectMarket.get("N").toString();  // Market Name
-
                 if (isMarketBlocked.equals("false")) {
                     blockMarketsCount++;
                     JSONArray jsonArraySelectors = jsonObjectMarket.getJSONArray("Ss");
@@ -114,9 +115,9 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
                         selectorError = selectorError + 1 / selectorValue;
                     }
                     if (selectorError < 1) {
-                        if (!MarketName.contains("To Miss A Penalty")){
-                            logger.info("This market works for Client  GameID = " + gameId + "  MarketName = " + MarketName + "  SelectorError = " + selectorError);
-                            errorSrcXl.add("This market works for Client  GameID = " + gameId + "  MarketName = " + MarketName);
+                        if (!MarketName.contains("To Miss A Penalty")) {
+                            logger.info("This market works for Client  GameID = " + gameId + "  MarketName = " + MarketName + "  MarketID = " + marketID + "  SelectorError = " + selectorError);
+                            errorSrcXl.add("This market works for Client  GameID = " + gameId + "  MarketName = " + MarketName + "  MarketID = " + marketID + "  SelectorError = " + selectorError);
                         }
                     }
                 }
@@ -131,22 +132,17 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
         }
 
 
-
-
-
         logger.info("Error Markets count is:  " + errorSrcXl.size());
         logger.info("Empty Markets count is:  " + errorEmptyMarkets.size());
 
         if (errorSrcXl.size() > 0) {
             writeInExel(errorSrcXl, "/src/test/java/CraftBet_003_BrokenMarkets/" + readConfig.partnerConfigNum() + getGamesPartnerName + sport + "DataErrorMarketsList.xlsx", "ErrorMarkets");
             isPassed = false;
-        }
-        else if (errorEmptyMarkets.size()>0){
-            writeInExel(errorEmptyMarkets, "/src/test/java/CraftBet_003_BrokenMarkets/" + readConfig.partnerConfigNum() + getGamesPartnerName + sport + "EmptyMarketsList.xlsx", "EmptyMarkets");
+        } else if (errorEmptyMarkets.size() > 0) {
+            writeInExel(errorEmptyMarkets, "/src/test/java/Craftbet_003_EmptyMarketList/" + readConfig.partnerConfigNum() + getGamesPartnerName + sport + "EmptyMarketsList.xlsx", "EmptyMarkets");
             isPassed = false;
-        }
-        else {
-            isPassed=true;
+        } else {
+            isPassed = true;
         }
         return isPassed;
     }
@@ -177,14 +173,6 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
 //        String[][] arr = { {"Basketball"}};
         return arr;
     }
-
-
-
-
-
-
-
-
 
 
     public boolean getMarketsOptionsSum(String partnerName)
