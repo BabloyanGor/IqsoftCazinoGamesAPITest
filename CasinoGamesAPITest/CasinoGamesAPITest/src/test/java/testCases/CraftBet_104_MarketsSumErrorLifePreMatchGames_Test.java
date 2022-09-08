@@ -78,6 +78,9 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
         logger.info("Matches count is  = " + gameIDs.size());
 
 
+
+
+
         for (String gameId : gameIDs) {
             k++;
             Unirest.setTimeouts(0, 0);
@@ -95,7 +98,7 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
                 String isMarketBlocked = jsonObjectMarket.get("IB").toString();  // Market isBlocked
                 String MarketName = jsonObjectMarket.get("N").toString();  // Market Name
 
-                if (isMarketBlocked.equals("false")|| MarketName.equals("To Miss A Penalty")) {
+                if (isMarketBlocked.equals("false")) {
                     blockMarketsCount++;
                     JSONArray jsonArraySelectors = jsonObjectMarket.getJSONArray("Ss");
                     double selectorError = 0;
@@ -111,8 +114,10 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
                         selectorError = selectorError + 1 / selectorValue;
                     }
                     if (selectorError < 1) {
-                        logger.info("This market works for Client  GameID = " + gameId + "  MarketName = " + MarketName + "  SelectorError = " + selectorError);
-                        errorSrcXl.add("This market works for Client  GameID = " + gameId + "  MarketName = " + MarketName);
+                        if (!MarketName.contains("To Miss A Penalty")){
+                            logger.info("This market works for Client  GameID = " + gameId + "  MarketName = " + MarketName + "  SelectorError = " + selectorError);
+                            errorSrcXl.add("This market works for Client  GameID = " + gameId + "  MarketName = " + MarketName);
+                        }
                     }
                 }
             }
@@ -124,6 +129,10 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
 
 
         }
+
+
+
+
 
         logger.info("Error Markets count is:  " + errorSrcXl.size());
         logger.info("Empty Markets count is:  " + errorEmptyMarkets.size());
