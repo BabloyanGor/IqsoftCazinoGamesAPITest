@@ -161,10 +161,11 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
     @DataProvider(name = "sports")
     Object[][] loginDataInvalid() {
 
-        String[][] arr = {{"Basketball"}, {"Tennis"}, {"Ice Hockey"}, {"Rugby League"}, {"Rugby Union"}, {"Volleyball"}, {"American Football"}, {"Table Tennis"}, {"Futsal"},
-                {"Aussie Rules"}, {"Cricket"}, {"E-sports"}, {"Handball"}, {"Baseball"}, {"Biathlon"}, {"Water Polo"}, {"Boxing"}, {"MMA"}, {"Gaelic Football"}, {"Lacrosse"},
+        String[][] arr = {  {"Baseball"}, {"Biathlon"}, {"Water Polo"}, {"Boxing"}, {"MMA"}, {"Gaelic Football"}, {"Lacrosse"},
                 {"Darts"}, {"Squash"}, {"Floorball"}, {"Chess"}, {"Soccer"}
         };
+//        {"Handball"}, {"Basketball"}, {"Tennis"}, {"Ice Hockey"}, {"Rugby League"}, {"Rugby Union"}, {"Volleyball"}, {"American Football"}, {"Table Tennis"}, {"Futsal"},
+//        {"Aussie Rules"}, {"Cricket"}, {"E-sports"},
 //        String[][] arr = { {"Basketball"}};
         return arr;
     }
