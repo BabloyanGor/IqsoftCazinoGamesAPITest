@@ -4599,3 +4599,971 @@ java.net.SocketException: Connection reset
 2022-09-08 17:46:38,573 - craftBet -INFO - Browser closed
 2022-09-08 17:46:38,573 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-09-08 17:46:38,683 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-08 17:49:39,597 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-08 17:49:39,866 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-08 17:49:39,900 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-08 17:49:43,034 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-08 17:49:43,112 - craftBet -INFO - All Page elements are initialized
+2022-09-08 17:49:43,122 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-08 17:49:45,248 - craftBet -INFO - Get games Api call was sent
+2022-09-08 17:49:45,289 - craftBet -INFO - Games are 190
+2022-09-08 17:49:45,290 - craftBet -INFO - Get Life games Api Response was captured
+2022-09-08 17:49:45,327 - craftBet -ERROR - The Time Out games are :   3749020   Czech Liga Pro   Jiri Motak  VS  Jaromir Kanok   Table Tennis   2022-09-08T15:00:00  Status = 1   After game start time out = :  2 hours  49 minutes
+2022-09-08 17:49:45,328 - craftBet -ERROR - The Time Out games are :   3732710   1st ODI   Australia  VS  New Zealand   Cricket   2022-09-08T08:20:00  Status = 1   After game start time out = :  9 hours  29 minutes
+2022-09-08 17:49:45,329 - craftBet -ERROR - The Time Out games are :   3748937   King of Glory - LeiTing Cup   Rogue Warriors (KG)  VS  Wolves (KG)   E-sports   2022-09-08T13:00:00  Status = 1   After game start time out = :  4 hours  49 minutes
+2022-09-08 17:49:45,329 - craftBet -ERROR - The Time Out games are :   3715103   Global Offensive - ESL Pro League   OutSiders (CS)  VS  For The Win (CS)   E-sports   2022-09-08T14:30:00  Status = 1   After game start time out = :  3 hours  19 minutes
+2022-09-08 17:49:45,329 - craftBet -ERROR - The Time Out games are :   3749119   NPB   Chiba Lotte Marines  VS  Nippon-Ham Fighters   Baseball   2022-09-08T13:00:00  Status = 1   After game start time out = :  4 hours  49 minutes
+2022-09-08 17:49:45,330 - craftBet -ERROR - The Time Out games are :   3749115   NPB   Chunichi Dragons  VS  Hiroshima Carp   Baseball   2022-09-08T13:00:00  Status = 1   After game start time out = :  4 hours  49 minutes
+2022-09-08 17:49:45,330 - craftBet -ERROR - The Time Out games are :   3749116   NPB   Fukuoka Hawks  VS  Rakuten Gold. Eagles   Baseball   2022-09-08T13:00:00  Status = 1   After game start time out = :  4 hours  49 minutes
+2022-09-08 17:49:45,331 - craftBet -ERROR - The Time Out games are :   3749123   NPB   Yomiuri Giants  VS  Yokohama BayStars   Baseball   2022-09-08T13:00:00  Status = 1   After game start time out = :  4 hours  49 minutes
+2022-09-08 17:49:45,331 - craftBet -ERROR - The Time Out games are :   3750091   KBO   Doosan Bears  VS  Hanwha Eagles   Baseball   2022-09-08T13:30:00  Status = 1   After game start time out = :  4 hours  19 minutes
+2022-09-08 17:49:45,331 - craftBet -ERROR - The Time Out games are :   3749316   KBO   Nexen Heroes  VS  LG Twins   Baseball   2022-09-08T13:30:00  Status = 1   After game start time out = :  4 hours  19 minutes
+2022-09-08 17:49:45,331 - craftBet -ERROR - The Time Out games are :   3750094   KBO   SSG Landers  VS  Kia Tigers   Baseball   2022-09-08T13:30:00  Status = 1   After game start time out = :  4 hours  19 minutes
+2022-09-08 17:49:45,332 - craftBet -INFO - Time out Games are:  11
+2022-09-08 17:49:46,535 - craftBet -INFO - Browser closed
+2022-09-08 17:49:46,536 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-08 17:49:46,564 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-08 17:50:26,369 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-08 17:50:26,611 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-08 17:50:26,643 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-08 17:50:29,179 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-08 17:50:29,253 - craftBet -INFO - All Page elements are initialized
+2022-09-08 17:50:29,602 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-08 17:50:32,934 - craftBet -INFO - Get games Api call was sent
+2022-09-08 17:50:32,963 - craftBet -INFO - Games are 191
+2022-09-08 17:50:32,964 - craftBet -INFO - Get Life games Api Response was captured
+2022-09-08 17:50:32,997 - craftBet -ERROR - The Time Out games are :   3749121   Monastir, Tunisia   Bharath Nishok Kumaran  VS  Rishab Agarwal   Tennis   2022-09-08T12:00:00  Status = 1   After game start time out = :  5 hours  50 minutes
+2022-09-08 17:50:32,998 - craftBet -ERROR - The Time Out games are :   3750053   ITF-W Cairo   Elena-Teodora Cadar  VS  Ilay Yoruk   Tennis   2022-09-08T12:00:00  Status = 1   After game start time out = :  5 hours  50 minutes
+2022-09-08 17:50:33,003 - craftBet -ERROR - The Time Out games are :   3750131   Setka Cup   Anatolii Dulich  VS  Ivan Pitsko   Table Tennis   2022-09-08T15:50:00  Status = 1   After game start time out = :  2 hours  0 minutes
+2022-09-08 17:50:33,004 - craftBet -ERROR - The Time Out games are :   3732710   1st ODI   Australia  VS  New Zealand   Cricket   2022-09-08T08:20:00  Status = 1   After game start time out = :  9 hours  30 minutes
+2022-09-08 17:50:33,004 - craftBet -ERROR - The Time Out games are :   3748937   King of Glory - LeiTing Cup   Rogue Warriors (KG)  VS  Wolves (KG)   E-sports   2022-09-08T13:00:00  Status = 1   After game start time out = :  4 hours  50 minutes
+2022-09-08 17:50:33,004 - craftBet -ERROR - The Time Out games are :   3715103   Global Offensive - ESL Pro League   OutSiders (CS)  VS  For The Win (CS)   E-sports   2022-09-08T14:30:00  Status = 1   After game start time out = :  3 hours  20 minutes
+2022-09-08 17:50:33,005 - craftBet -ERROR - The Time Out games are :   3749119   NPB   Chiba Lotte Marines  VS  Nippon-Ham Fighters   Baseball   2022-09-08T13:00:00  Status = 1   After game start time out = :  4 hours  50 minutes
+2022-09-08 17:50:33,006 - craftBet -ERROR - The Time Out games are :   3749115   NPB   Chunichi Dragons  VS  Hiroshima Carp   Baseball   2022-09-08T13:00:00  Status = 1   After game start time out = :  4 hours  50 minutes
+2022-09-08 17:50:33,006 - craftBet -ERROR - The Time Out games are :   3749116   NPB   Fukuoka Hawks  VS  Rakuten Gold. Eagles   Baseball   2022-09-08T13:00:00  Status = 1   After game start time out = :  4 hours  50 minutes
+2022-09-08 17:50:33,006 - craftBet -ERROR - The Time Out games are :   3749123   NPB   Yomiuri Giants  VS  Yokohama BayStars   Baseball   2022-09-08T13:00:00  Status = 1   After game start time out = :  4 hours  50 minutes
+2022-09-08 17:50:33,006 - craftBet -ERROR - The Time Out games are :   3750091   KBO   Doosan Bears  VS  Hanwha Eagles   Baseball   2022-09-08T13:30:00  Status = 1   After game start time out = :  4 hours  20 minutes
+2022-09-08 17:50:33,006 - craftBet -ERROR - The Time Out games are :   3749316   KBO   Nexen Heroes  VS  LG Twins   Baseball   2022-09-08T13:30:00  Status = 1   After game start time out = :  4 hours  20 minutes
+2022-09-08 17:50:33,007 - craftBet -ERROR - The Time Out games are :   3750094   KBO   SSG Landers  VS  Kia Tigers   Baseball   2022-09-08T13:30:00  Status = 1   After game start time out = :  4 hours  20 minutes
+2022-09-08 17:50:33,007 - craftBet -INFO - Time out Games are:  13
+2022-09-08 17:50:34,157 - craftBet -INFO - Browser closed
+2022-09-08 17:50:34,158 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-08 17:50:34,187 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-08 17:50:58,301 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-08 17:50:58,568 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-08 17:50:58,603 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-08 17:51:01,123 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-08 17:51:01,204 - craftBet -INFO - All Page elements are initialized
+2022-09-08 17:51:01,514 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-08 17:51:02,920 - craftBet -INFO - Get games Api call was sent
+2022-09-08 17:51:02,953 - craftBet -INFO - Games are 188
+2022-09-08 17:51:02,954 - craftBet -INFO - Get Life games Api Response was captured
+2022-09-08 17:51:02,991 - craftBet -ERROR - The Time Out games are :   3749121   Monastir, Tunisia   Bharath Nishok Kumaran  VS  Rishab Agarwal   Tennis   2022-09-08T12:00:00  Status = 1   After game start time out = :  5 hours  51 minutes
+2022-09-08 17:51:02,991 - craftBet -ERROR - The Time Out games are :   3750053   ITF-W Cairo   Elena-Teodora Cadar  VS  Ilay Yoruk   Tennis   2022-09-08T12:00:00  Status = 1   After game start time out = :  5 hours  51 minutes
+2022-09-08 17:51:02,997 - craftBet -ERROR - The Time Out games are :   3750131   Setka Cup   Anatolii Dulich  VS  Ivan Pitsko   Table Tennis   2022-09-08T15:50:00  Status = 1   After game start time out = :  2 hours  1 minutes
+2022-09-08 17:51:02,998 - craftBet -ERROR - The Time Out games are :   3715103   Global Offensive - ESL Pro League   OutSiders (CS)  VS  For The Win (CS)   E-sports   2022-09-08T14:30:00  Status = 1   After game start time out = :  3 hours  21 minutes
+2022-09-08 17:51:02,998 - craftBet -ERROR - The Time Out games are :   3749119   NPB   Chiba Lotte Marines  VS  Nippon-Ham Fighters   Baseball   2022-09-08T13:00:00  Status = 1   After game start time out = :  4 hours  51 minutes
+2022-09-08 17:51:02,999 - craftBet -ERROR - The Time Out games are :   3749115   NPB   Chunichi Dragons  VS  Hiroshima Carp   Baseball   2022-09-08T13:00:00  Status = 1   After game start time out = :  4 hours  51 minutes
+2022-09-08 17:51:02,999 - craftBet -ERROR - The Time Out games are :   3749116   NPB   Fukuoka Hawks  VS  Rakuten Gold. Eagles   Baseball   2022-09-08T13:00:00  Status = 1   After game start time out = :  4 hours  51 minutes
+2022-09-08 17:51:03,000 - craftBet -ERROR - The Time Out games are :   3749123   NPB   Yomiuri Giants  VS  Yokohama BayStars   Baseball   2022-09-08T13:00:00  Status = 1   After game start time out = :  4 hours  51 minutes
+2022-09-08 17:51:03,000 - craftBet -ERROR - The Time Out games are :   3750091   KBO   Doosan Bears  VS  Hanwha Eagles   Baseball   2022-09-08T13:30:00  Status = 1   After game start time out = :  4 hours  21 minutes
+2022-09-08 17:51:03,001 - craftBet -ERROR - The Time Out games are :   3749316   KBO   Nexen Heroes  VS  LG Twins   Baseball   2022-09-08T13:30:00  Status = 1   After game start time out = :  4 hours  21 minutes
+2022-09-08 17:51:03,001 - craftBet -ERROR - The Time Out games are :   3750094   KBO   SSG Landers  VS  Kia Tigers   Baseball   2022-09-08T13:30:00  Status = 1   After game start time out = :  4 hours  21 minutes
+2022-09-08 17:51:03,002 - craftBet -INFO - Time out Games are:  11
+2022-09-08 17:51:04,186 - craftBet -INFO - Browser closed
+2022-09-08 17:51:04,187 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-08 17:51:04,208 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-08 17:51:33,237 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-08 17:51:33,526 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-08 17:51:33,563 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-08 17:51:35,782 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-08 17:51:35,851 - craftBet -INFO - All Page elements are initialized
+2022-09-08 17:51:35,861 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-08 17:51:37,118 - craftBet -INFO - Get games Api call was sent
+2022-09-08 17:51:37,144 - craftBet -INFO - Games are 188
+2022-09-08 17:51:37,144 - craftBet -INFO - Get Life games Api Response was captured
+2022-09-08 17:51:37,179 - craftBet -ERROR - The Time Out games are :   3749121   Monastir, Tunisia   Bharath Nishok Kumaran  VS  Rishab Agarwal   Tennis   2022-09-08T12:00:00  Status = 1   After game start time out = :  5 hours  51 minutes
+2022-09-08 17:51:37,179 - craftBet -ERROR - The Time Out games are :   3750053   ITF-W Cairo   Elena-Teodora Cadar  VS  Ilay Yoruk   Tennis   2022-09-08T12:00:00  Status = 1   After game start time out = :  5 hours  51 minutes
+2022-09-08 17:51:37,184 - craftBet -ERROR - The Time Out games are :   3750131   Setka Cup   Anatolii Dulich  VS  Ivan Pitsko   Table Tennis   2022-09-08T15:50:00  Status = 1   After game start time out = :  2 hours  1 minutes
+2022-09-08 17:51:37,185 - craftBet -ERROR - The Time Out games are :   3715103   Global Offensive - ESL Pro League   OutSiders (CS)  VS  For The Win (CS)   E-sports   2022-09-08T14:30:00  Status = 1   After game start time out = :  3 hours  21 minutes
+2022-09-08 17:51:37,185 - craftBet -ERROR - The Time Out games are :   3749115   NPB   Chunichi Dragons  VS  Hiroshima Carp   Baseball   2022-09-08T13:00:00  Status = 1   After game start time out = :  4 hours  51 minutes
+2022-09-08 17:51:37,185 - craftBet -ERROR - The Time Out games are :   3749116   NPB   Fukuoka Hawks  VS  Rakuten Gold. Eagles   Baseball   2022-09-08T13:00:00  Status = 1   After game start time out = :  4 hours  51 minutes
+2022-09-08 17:51:37,186 - craftBet -ERROR - The Time Out games are :   3749123   NPB   Yomiuri Giants  VS  Yokohama BayStars   Baseball   2022-09-08T13:00:00  Status = 1   After game start time out = :  4 hours  51 minutes
+2022-09-08 17:51:37,187 - craftBet -ERROR - The Time Out games are :   3750091   KBO   Doosan Bears  VS  Hanwha Eagles   Baseball   2022-09-08T13:30:00  Status = 1   After game start time out = :  4 hours  21 minutes
+2022-09-08 17:51:37,187 - craftBet -ERROR - The Time Out games are :   3749316   KBO   Nexen Heroes  VS  LG Twins   Baseball   2022-09-08T13:30:00  Status = 1   After game start time out = :  4 hours  21 minutes
+2022-09-08 17:51:37,188 - craftBet -ERROR - The Time Out games are :   3750094   KBO   SSG Landers  VS  Kia Tigers   Baseball   2022-09-08T13:30:00  Status = 1   After game start time out = :  4 hours  21 minutes
+2022-09-08 17:51:37,189 - craftBet -INFO - Time out Games are:  10
+2022-09-08 17:51:38,303 - craftBet -INFO - Browser closed
+2022-09-08 17:51:38,303 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-08 17:51:38,317 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-08 17:52:01,906 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-08 17:52:02,152 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-08 17:52:02,187 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-08 17:52:04,217 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-08 17:52:04,285 - craftBet -INFO - All Page elements are initialized
+2022-09-08 17:52:04,545 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-08 17:52:18,821 - craftBet -INFO - Get games Api call was sent
+2022-09-08 17:52:18,847 - craftBet -INFO - Games are 186
+2022-09-08 17:52:18,847 - craftBet -INFO - Get Life games Api Response was captured
+2022-09-08 17:52:18,884 - craftBet -ERROR - The Time Out games are :   3749121   Monastir, Tunisia   Bharath Nishok Kumaran  VS  Rishab Agarwal   Tennis   2022-09-08T12:00:00  Status = 1   After game start time out = :  5 hours  52 minutes
+2022-09-08 17:52:18,884 - craftBet -ERROR - The Time Out games are :   3750053   ITF-W Cairo   Elena-Teodora Cadar  VS  Ilay Yoruk   Tennis   2022-09-08T12:00:00  Status = 1   After game start time out = :  5 hours  52 minutes
+2022-09-08 17:52:18,892 - craftBet -ERROR - The Time Out games are :   3750131   Setka Cup   Anatolii Dulich  VS  Ivan Pitsko   Table Tennis   2022-09-08T15:50:00  Status = 1   After game start time out = :  2 hours  2 minutes
+2022-09-08 17:52:18,893 - craftBet -ERROR - The Time Out games are :   3715103   Global Offensive - ESL Pro League   OutSiders (CS)  VS  For The Win (CS)   E-sports   2022-09-08T14:30:00  Status = 1   After game start time out = :  3 hours  22 minutes
+2022-09-08 17:52:18,894 - craftBet -ERROR - The Time Out games are :   3749116   NPB   Fukuoka Hawks  VS  Rakuten Gold. Eagles   Baseball   2022-09-08T13:00:00  Status = 1   After game start time out = :  4 hours  52 minutes
+2022-09-08 17:52:18,894 - craftBet -ERROR - The Time Out games are :   3749123   NPB   Yomiuri Giants  VS  Yokohama BayStars   Baseball   2022-09-08T13:00:00  Status = 1   After game start time out = :  4 hours  52 minutes
+2022-09-08 17:52:18,894 - craftBet -ERROR - The Time Out games are :   3750091   KBO   Doosan Bears  VS  Hanwha Eagles   Baseball   2022-09-08T13:30:00  Status = 1   After game start time out = :  4 hours  22 minutes
+2022-09-08 17:52:18,895 - craftBet -ERROR - The Time Out games are :   3749316   KBO   Nexen Heroes  VS  LG Twins   Baseball   2022-09-08T13:30:00  Status = 1   After game start time out = :  4 hours  22 minutes
+2022-09-08 17:52:18,896 - craftBet -ERROR - The Time Out games are :   3750094   KBO   SSG Landers  VS  Kia Tigers   Baseball   2022-09-08T13:30:00  Status = 1   After game start time out = :  4 hours  22 minutes
+2022-09-08 17:52:18,897 - craftBet -INFO - Time out Games are:  9
+2022-09-08 17:52:20,017 - craftBet -INFO - Browser closed
+2022-09-08 17:52:20,017 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-08 17:52:20,025 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-08 17:53:14,006 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-08 17:53:14,273 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-08 17:53:14,310 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-08 17:53:16,488 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-08 17:53:16,579 - craftBet -INFO - All Page elements are initialized
+2022-09-08 17:53:16,595 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-08 17:53:18,032 - craftBet -INFO - Get games Api call was sent
+2022-09-08 17:53:18,080 - craftBet -INFO - Games are 174
+2022-09-08 17:53:18,081 - craftBet -INFO - Get Life games Api Response was captured
+2022-09-08 17:53:18,149 - craftBet -ERROR - The Time Out games are :   3749121   Monastir, Tunisia   Bharath Nishok Kumaran  VS  Rishab Agarwal   Tennis   2022-09-08T12:00:00  Status = 1   After game start time out = :  5 hours  53 minutes
+2022-09-08 17:53:18,157 - craftBet -ERROR - The Time Out games are :   3750053   ITF-W Cairo   Elena-Teodora Cadar  VS  Ilay Yoruk   Tennis   2022-09-08T12:00:00  Status = 1   After game start time out = :  5 hours  53 minutes
+2022-09-08 17:53:18,175 - craftBet -ERROR - The Time Out games are :   3750131   Setka Cup   Anatolii Dulich  VS  Ivan Pitsko   Table Tennis   2022-09-08T15:50:00  Status = 1   After game start time out = :  2 hours  3 minutes
+2022-09-08 17:53:18,176 - craftBet -ERROR - The Time Out games are :   3715103   Global Offensive - ESL Pro League   OutSiders (CS)  VS  For The Win (CS)   E-sports   2022-09-08T14:30:00  Status = 1   After game start time out = :  3 hours  23 minutes
+2022-09-08 17:53:18,177 - craftBet -INFO - Time out Games are:  4
+2022-09-08 17:53:21,595 - craftBet -INFO - Browser closed
+2022-09-08 17:53:21,595 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-08 17:53:21,606 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-08 18:01:21,398 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-08 18:01:21,649 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-08 18:01:21,683 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-08 18:01:24,074 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-08 18:01:24,152 - craftBet -INFO - All Page elements are initialized
+2022-09-08 18:01:24,569 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-08 18:01:25,958 - craftBet -INFO - Get games Api call was sent
+2022-09-08 18:01:25,982 - craftBet -INFO - Games are 179
+2022-09-08 18:01:25,983 - craftBet -INFO - Get Life games Api Response was captured
+2022-09-08 18:01:26,025 - craftBet -ERROR - The Time Out games are :   3752326   Setka Cup   Petro Tsolik  VS  Oleksandr Budnikov   Table Tennis   2022-09-08T15:55:00  Status = 1   After game start time out = :  2 hours  6 minutes
+2022-09-08 18:01:26,026 - craftBet -ERROR - The Time Out games are :   3748995   Czech Liga Pro   Bohuslav Kaloc  VS  Jaromir Kanok   Table Tennis   2022-09-08T16:00:00  Status = 1   After game start time out = :  2 hours  1 minutes
+2022-09-08 18:01:26,026 - craftBet -ERROR - The Time Out games are :   3748795   Czech Liga Pro   Petr Oliver Korp  VS  Tomas Holik   Table Tennis   2022-09-08T16:00:00  Status = 1   After game start time out = :  2 hours  1 minutes
+2022-09-08 18:01:26,026 - craftBet -ERROR - The Time Out games are :   3749545   Setka Cup   Vladimir Melnikov  VS  Vitalii Mukhin   Table Tennis   2022-09-08T16:00:00  Status = 1   After game start time out = :  2 hours  1 minutes
+2022-09-08 18:01:26,028 - craftBet -INFO - Time out Games are:  4
+2022-09-08 18:01:27,162 - craftBet -INFO - Browser closed
+2022-09-08 18:01:27,163 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-08 18:01:27,188 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-08 18:01:35,004 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-08 18:01:35,291 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-08 18:01:35,326 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-08 18:01:37,671 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-08 18:01:37,752 - craftBet -INFO - All Page elements are initialized
+2022-09-08 18:01:37,764 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-08 18:01:38,783 - craftBet -INFO - Get games Api call was sent
+2022-09-08 18:01:38,814 - craftBet -INFO - Games are 179
+2022-09-08 18:01:38,815 - craftBet -INFO - Get Life games Api Response was captured
+2022-09-08 18:01:38,863 - craftBet -ERROR - The Time Out games are :   3752326   Setka Cup   Petro Tsolik  VS  Oleksandr Budnikov   Table Tennis   2022-09-08T15:55:00  Status = 1   After game start time out = :  2 hours  6 minutes
+2022-09-08 18:01:38,863 - craftBet -ERROR - The Time Out games are :   3748995   Czech Liga Pro   Bohuslav Kaloc  VS  Jaromir Kanok   Table Tennis   2022-09-08T16:00:00  Status = 1   After game start time out = :  2 hours  1 minutes
+2022-09-08 18:01:38,864 - craftBet -ERROR - The Time Out games are :   3748795   Czech Liga Pro   Petr Oliver Korp  VS  Tomas Holik   Table Tennis   2022-09-08T16:00:00  Status = 1   After game start time out = :  2 hours  1 minutes
+2022-09-08 18:01:38,864 - craftBet -ERROR - The Time Out games are :   3749545   Setka Cup   Vladimir Melnikov  VS  Vitalii Mukhin   Table Tennis   2022-09-08T16:00:00  Status = 1   After game start time out = :  2 hours  1 minutes
+2022-09-08 18:01:38,865 - craftBet -INFO - Time out Games are:  4
+2022-09-08 18:01:40,107 - org.asynchttpclient.netty.handler.WebSocketHandler -WARN - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-09-08 18:01:40,228 - craftBet -INFO - Browser closed
+2022-09-08 18:01:40,232 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-08 18:01:40,267 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-09 09:20:48,682 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-09 09:20:51,933 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-09 09:20:51,989 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-09 09:21:01,037 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-09 09:21:01,437 - craftBet -INFO - All Page elements are initialized
+2022-09-09 09:21:01,952 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-09 09:21:13,055 - craftBet -INFO - Get games Api call was sent
+2022-09-09 09:21:13,078 - craftBet -INFO - Games are 121
+2022-09-09 09:21:13,078 - craftBet -INFO - Get Life games Api Response was captured
+2022-09-09 09:21:13,120 - craftBet -ERROR - The Time Out games are :   3753064   EsoccerGTLeagues-12minsplay   Villarreal (Cliff) Esports  VS  Arsenal (Brand) Esports   Soccer   2022-09-08T17:29:01  Status = 1   After game start time out = :  15 hours  53 minutes
+2022-09-09 09:21:13,121 - craftBet -ERROR - The Time Out games are :   3753065   EsoccerGTLeagues-12minsplay   Roma (Nero) Esports  VS  Lazio (Krouks) Esports   Soccer   2022-09-08T17:29:28  Status = 1   After game start time out = :  15 hours  52 minutes
+2022-09-09 09:21:13,121 - craftBet -ERROR - The Time Out games are :   3754173   EsoccerBattle-8minsplay   Real Madrid (BPBP94) Esports  VS  PSG (Calvin) Esports   Soccer   2022-09-09T02:21:27  Status = 1   After game start time out = :  6 hours  59 minutes
+2022-09-09 09:21:13,122 - craftBet -ERROR - The Time Out games are :   3746132   ATP CH Cassis   Francesco Maestrelli  VS  Ryan Peniston   Tennis   2022-09-08T12:30:00  Status = 1   After game start time out = :  20 hours  52 minutes
+2022-09-09 09:21:13,123 - craftBet -ERROR - The Time Out games are :   3750033   ITF-M Maribor   Valentin Royer  VS  Tim Heger   Tennis   2022-09-08T13:10:00  Status = 1   After game start time out = :  20 hours  12 minutes
+2022-09-09 09:21:13,123 - craftBet -ERROR - The Time Out games are :   3750466   ITF-M Sintra   Adria Soriano Barrera  VS  Kelsey Stevenson   Tennis   2022-09-08T13:30:00  Status = 1   After game start time out = :  19 hours  52 minutes
+2022-09-09 09:21:13,123 - craftBet -ERROR - The Time Out games are :   3747898   ITF-W Casablanca   Aleksandra Pospelova  VS  Alina Korneeva   Tennis   2022-09-08T13:30:00  Status = 1   After game start time out = :  19 hours  52 minutes
+2022-09-09 09:21:13,127 - craftBet -ERROR - The Time Out games are :   3748562   ITF-W Marbella   Angela Fita Boluda  VS  Jasmijn Gimbrere   Tennis   2022-09-08T13:30:00  Status = 1   After game start time out = :  19 hours  52 minutes
+2022-09-09 09:21:13,127 - craftBet -ERROR - The Time Out games are :   3749846   ITF-W Marbella   Ekaterina Ovcharenko  VS  Amanda Carreras   Tennis   2022-09-08T13:30:00  Status = 1   After game start time out = :  19 hours  52 minutes
+2022-09-09 09:21:13,128 - craftBet -ERROR - The Time Out games are :   3750219   ITF-W Casablanca   Eleanor Baglow  VS  Ela Platenikova   Tennis   2022-09-08T13:30:00  Status = 1   After game start time out = :  19 hours  52 minutes
+2022-09-09 09:21:13,128 - craftBet -ERROR - The Time Out games are :   3749069   ITF-M Sintra   Fabio Coelho  VS  Duarte Vale   Tennis   2022-09-08T13:30:00  Status = 1   After game start time out = :  19 hours  52 minutes
+2022-09-09 09:21:13,128 - craftBet -ERROR - The Time Out games are :   3750468   ITF-M Sintra   Goncalo Oliveira  VS  Mario Gonzalez Fernandez   Tennis   2022-09-08T13:30:00  Status = 1   After game start time out = :  19 hours  52 minutes
+2022-09-09 09:21:13,130 - craftBet -ERROR - The Time Out games are :   3750218   ITF-W Casablanca   Ilinca Dalina Amariei  VS  Oumaima Aziz   Tennis   2022-09-08T13:30:00  Status = 1   After game start time out = :  19 hours  52 minutes
+2022-09-09 09:21:13,130 - craftBet -ERROR - The Time Out games are :   3749456   ITF-W Frydek Mistek   Karolina Vlckova  VS  Sofia Nami Samavati   Tennis   2022-09-08T13:30:00  Status = 1   After game start time out = :  19 hours  52 minutes
+2022-09-09 09:21:13,130 - craftBet -ERROR - The Time Out games are :   3750445   ITF-W Casablanca   Laura Hietaranta  VS  Lucia Peyre   Tennis   2022-09-08T13:30:00  Status = 1   After game start time out = :  19 hours  52 minutes
+2022-09-09 09:21:13,138 - craftBet -ERROR - The Time Out games are :   3746473   ITF-M Sintra   Lorenzo Claverie  VS  Sasi Kumar Mukund   Tennis   2022-09-08T13:30:00  Status = 1   After game start time out = :  19 hours  52 minutes
+2022-09-09 09:21:13,142 - craftBet -ERROR - The Time Out games are :   3750208   ITF-W Casablanca   Marie Mettraux  VS  Mariana Drazic   Tennis   2022-09-08T13:30:00  Status = 1   After game start time out = :  19 hours  52 minutes
+2022-09-09 09:21:13,144 - craftBet -ERROR - The Time Out games are :   3748561   ITF-M Cairo   Mohamed Maamoon  VS  Leo Borg   Tennis   2022-09-08T13:30:00  Status = 1   After game start time out = :  19 hours  52 minutes
+2022-09-09 09:21:13,145 - craftBet -ERROR - The Time Out games are :   3749479   ITF-W Frydek Mistek   Nika Radisic  VS  Mara Guth   Tennis   2022-09-08T13:30:00  Status = 1   After game start time out = :  19 hours  52 minutes
+2022-09-09 09:21:13,149 - craftBet -ERROR - The Time Out games are :   3749863   ITF-W Casablanca   Noelia Bouzo Zanotti  VS  Nina Rudiukova   Tennis   2022-09-08T13:30:00  Status = 1   After game start time out = :  19 hours  52 minutes
+2022-09-09 09:21:13,150 - craftBet -ERROR - The Time Out games are :   3749205   ITF-M Cairo   Remy Bertola  VS  Alec Beckley   Tennis   2022-09-08T13:30:00  Status = 1   After game start time out = :  19 hours  52 minutes
+2022-09-09 09:21:13,151 - craftBet -ERROR - The Time Out games are :   3748559   ITF-M Cairo   Santiago De La Fuente  VS  Ilya Rudiukov   Tennis   2022-09-08T13:30:00  Status = 1   After game start time out = :  19 hours  52 minutes
+2022-09-09 09:21:13,160 - craftBet -ERROR - The Time Out games are :   3748971   IITF-M Constanta   Valentin Vanta  VS  Kai Wehnelt   Tennis   2022-09-08T13:30:00  Status = 1   After game start time out = :  19 hours  52 minutes
+2022-09-09 09:21:13,161 - craftBet -ERROR - The Time Out games are :   3749305   Monastir, Tunisia   Viktor Jovic  VS  Tom Evans   Tennis   2022-09-08T13:30:00  Status = 1   After game start time out = :  19 hours  52 minutes
+2022-09-09 09:21:13,161 - craftBet -ERROR - The Time Out games are :   3748560   ITF-W Marbella   Xiaodi You  VS  Naia Mercadier   Tennis   2022-09-08T13:30:00  Status = 1   After game start time out = :  19 hours  52 minutes
+2022-09-09 09:21:13,162 - craftBet -ERROR - The Time Out games are :   3749148   Monastir, Tunisia   Xinxin Yao  VS  Esther Bataille   Tennis   2022-09-08T13:30:00  Status = 1   After game start time out = :  19 hours  52 minutes
+2022-09-09 09:21:13,162 - craftBet -ERROR - The Time Out games are :   3749397   ITF-M Madrid   Vilius Gaubas  VS  Alvaro Lopez San Martin   Tennis   2022-09-08T13:35:00  Status = 1   After game start time out = :  19 hours  47 minutes
+2022-09-09 09:21:13,162 - craftBet -ERROR - The Time Out games are :   3750265   ITF-W Cairo   Melania Delai  VS  Anastasia Zolotareva   Tennis   2022-09-08T13:45:00  Status = 1   After game start time out = :  19 hours  37 minutes
+2022-09-09 09:21:13,163 - craftBet -ERROR - The Time Out games are :   3749307   Monastir, Tunisia   Jacob Bradshaw  VS  Matthew Dellavedova   Tennis   2022-09-08T13:50:00  Status = 1   After game start time out = :  19 hours  32 minutes
+2022-09-09 09:21:13,166 - craftBet -ERROR - The Time Out games are :   3748913   ATP CH Tulln   Jurij Rodionov  VS  Jozef Kovalik   Tennis   2022-09-08T13:50:00  Status = 1   After game start time out = :  19 hours  32 minutes
+2022-09-09 09:21:13,166 - craftBet -ERROR - The Time Out games are :   3750045   ITF-W Cairo   Rosa Vicens Mas  VS  Ayla Aksu   Tennis   2022-09-08T13:50:00  Status = 1   After game start time out = :  19 hours  32 minutes
+2022-09-09 09:21:13,167 - craftBet -ERROR - The Time Out games are :   3750244   ITF-M Cairo   Fabrizio Andaloro  VS  Leonardo Aboian   Tennis   2022-09-08T13:55:00  Status = 1   After game start time out = :  19 hours  27 minutes
+2022-09-09 09:21:13,168 - craftBet -ERROR - The Time Out games are :   3750708   World Padel Tour Cascais Women   Collombon/Castello  VS  Ortega/Gonzalez   Tennis   2022-09-08T14:00:00  Status = 1   After game start time out = :  19 hours  22 minutes
+2022-09-09 09:21:13,168 - craftBet -ERROR - The Time Out games are :   3750106   ITF-M Bagneres-de-bigorre   Federico Agustin Gomez  VS  Noah Lopez   Tennis   2022-09-08T14:00:00  Status = 1   After game start time out = :  19 hours  22 minutes
+2022-09-09 09:21:13,168 - craftBet -ERROR - The Time Out games are :   3750216   ITF-M Budapest   Koray Kirci  VS  Peter Fajta   Tennis   2022-09-08T14:00:00  Status = 1   After game start time out = :  19 hours  22 minutes
+2022-09-09 09:21:13,168 - craftBet -ERROR - The Time Out games are :   3751128   World Padel Tour Cascais   Maximilian Sanchez / Capra  VS  Leal / Rico   Tennis   2022-09-08T14:00:00  Status = 1   After game start time out = :  19 hours  22 minutes
+2022-09-09 09:21:13,168 - craftBet -ERROR - The Time Out games are :   3750570   ITF-M Salerno   Omar Brigida  VS  Giorgio Ricca   Tennis   2022-09-08T14:00:00  Status = 1   After game start time out = :  19 hours  22 minutes
+2022-09-09 09:21:13,168 - craftBet -ERROR - The Time Out games are :   3750709   World Padel Tour Cascais Women   Talavan / Araujo  VS  Virseda / Las Heras   Tennis   2022-09-08T14:00:00  Status = 1   After game start time out = :  19 hours  22 minutes
+2022-09-09 09:21:13,169 - craftBet -ERROR - The Time Out games are :   3750731   ITF-M Budapest   Aleksandre Bakshi  VS  Peter Goldsteiner   Tennis   2022-09-08T14:10:00  Status = 1   After game start time out = :  19 hours  12 minutes
+2022-09-09 09:21:13,169 - craftBet -ERROR - The Time Out games are :   3749090   ITF-W Frydek Mistek   Misaki Matsuda  VS  Aneta Laboutkova   Tennis   2022-09-08T14:10:00  Status = 1   After game start time out = :  19 hours  12 minutes
+2022-09-09 09:21:13,169 - craftBet -ERROR - The Time Out games are :   3750041   WTA Bari Doubles   Alena Fomina / Julia Lohoff  VS  Paula Kania-Chodun / Renata Voracova   Tennis   2022-09-08T14:30:00  Status = 1   After game start time out = :  18 hours  52 minutes
+2022-09-09 09:21:13,169 - craftBet -ERROR - The Time Out games are :   3750474   ITF-W Montreux   Chiara Scholl  VS  Conny Perrin   Tennis   2022-09-08T14:30:00  Status = 1   After game start time out = :  18 hours  52 minutes
+2022-09-09 09:21:13,169 - craftBet -ERROR - The Time Out games are :   3750481   ITF-W Montreux   Ines Ibbou  VS  Elsa Jacquemot   Tennis   2022-09-08T14:45:00  Status = 1   After game start time out = :  18 hours  37 minutes
+2022-09-09 09:21:13,170 - craftBet -ERROR - The Time Out games are :   3745529   ATP CH Cassis   Zsombor Piros  VS  Terence Atmane   Tennis   2022-09-08T14:45:00  Status = 1   After game start time out = :  18 hours  37 minutes
+2022-09-09 09:21:13,170 - craftBet -ERROR - The Time Out games are :   3752022   ITFM25Sintra   Goncalo Oliveira  VS  Mario G Fernandez   Tennis   2022-09-08T14:59:26  Status = 1   After game start time out = :  18 hours  22 minutes
+2022-09-09 09:21:13,170 - craftBet -ERROR - The Time Out games are :   3748602   ITF-M Cairo   Nitin Kumar Sinha  VS  Jose Fco. Vidal Azorin   Tennis   2022-09-08T15:00:00  Status = 1   After game start time out = :  18 hours  22 minutes
+2022-09-09 09:21:13,194 - craftBet -ERROR - The Time Out games are :   3749088   ITF-M Madrid   Ryan Nijboer  VS  Edoardo Lavagno   Tennis   2022-09-08T15:05:00  Status = 1   After game start time out = :  18 hours  17 minutes
+2022-09-09 09:21:13,199 - craftBet -ERROR - The Time Out games are :   3749999   ITF-M Budapest Doubles   Antonin Bolardt / Michael Vrbensky  VS  Piotr Czaczkowski / Gabriel Matuszewski   Tennis   2022-09-08T15:30:00  Status = 1   After game start time out = :  17 hours  52 minutes
+2022-09-09 09:21:13,199 - craftBet -ERROR - The Time Out games are :   3750712   World Padel Tour Cascais   Fernandez Cano / Garcia Diestro  VS  Stupaczuk / Lima   Tennis   2022-09-08T15:30:00  Status = 1   After game start time out = :  17 hours  52 minutes
+2022-09-09 09:21:13,201 - craftBet -ERROR - The Time Out games are :   3745834   ATP CH Cassis   Hiroki Moriya  VS  Tomas Machac   Tennis   2022-09-08T15:30:00  Status = 1   After game start time out = :  17 hours  52 minutes
+2022-09-09 09:21:13,201 - craftBet -ERROR - The Time Out games are :   3750725   World Padel Tour Cascais Women   Martinez / Carnicero  VS  Sanchez/Josemaria   Tennis   2022-09-08T15:30:00  Status = 1   After game start time out = :  17 hours  52 minutes
+2022-09-09 09:21:13,201 - craftBet -ERROR - The Time Out games are :   3749173   ITF-M Budapest   Mate Valkusz  VS  Jakub Kroslak   Tennis   2022-09-08T15:30:00  Status = 1   After game start time out = :  17 hours  52 minutes
+2022-09-09 09:21:13,201 - craftBet -ERROR - The Time Out games are :   3750343   ITF-W Cairo Doubles   Tamara Curovic / Oana Georgeta Simion  VS  Lola Radivojevic / Chantal Sauvant   Tennis   2022-09-08T15:30:00  Status = 1   After game start time out = :  17 hours  52 minutes
+2022-09-09 09:21:13,202 - craftBet -ERROR - The Time Out games are :   3749279   ITF-W Marbella   Alice Rame  VS  Eva Guerrero Alvarez   Tennis   2022-09-08T15:35:00  Status = 1   After game start time out = :  17 hours  47 minutes
+2022-09-09 09:21:13,202 - craftBet -ERROR - The Time Out games are :   3750202   ITF-M Casablanca   Stefano Battaglino  VS  David Pichler   Tennis   2022-09-08T15:35:00  Status = 1   After game start time out = :  17 hours  47 minutes
+2022-09-09 09:21:13,203 - craftBet -ERROR - The Time Out games are :   3752606   ITFM25Cairo   Remy Bertola  VS  Alec Beckley   Tennis   2022-09-08T15:52:18  Status = 1   After game start time out = :  17 hours  29 minutes
+2022-09-09 09:21:13,203 - craftBet -ERROR - The Time Out games are :   3752603   ITFM25Sintra   Daniel Rodrigues  VS  Vito Tonejc   Tennis   2022-09-08T15:52:19  Status = 1   After game start time out = :  17 hours  29 minutes
+2022-09-09 09:21:13,203 - craftBet -ERROR - The Time Out games are :   3752635   ITFM25Sintra   Fajing Sun  VS  Harry Wendelken   Tennis   2022-09-08T15:52:24  Status = 1   After game start time out = :  17 hours  29 minutes
+2022-09-09 09:21:13,203 - craftBet -ERROR - The Time Out games are :   3752644   ITFW25SaintPalaisSurMer   Sohyun Park  VS  Magali Kempen   Tennis   2022-09-08T15:52:30  Status = 1   After game start time out = :  17 hours  29 minutes
+2022-09-09 09:21:13,204 - craftBet -ERROR - The Time Out games are :   3750001   Monastir, Tunisia - Mens Doubles   Anis Ghorbel / Aziz Ouakaa  VS  Luc Koenig / Andreas Scott   Tennis   2022-09-08T16:00:00  Status = 1   After game start time out = :  17 hours  22 minutes
+2022-09-09 09:21:13,204 - craftBet -ERROR - The Time Out games are :   3746915   ITF-M Cairo Doubles   Julian Gimenez / Marco Miceli  VS  Amr Asrawy / Faris Zakaryia   Tennis   2022-09-08T16:00:00  Status = 1   After game start time out = :  17 hours  22 minutes
+2022-09-09 09:21:13,204 - craftBet -ERROR - The Time Out games are :   3750002   Monastir, Tunisia - Mens Doubles   Qian Sun / Sheng Tang  VS  Nikolay Nedelchev / Alexandros Skorilas   Tennis   2022-09-08T16:00:00  Status = 1   After game start time out = :  17 hours  22 minutes
+2022-09-09 09:21:13,205 - craftBet -ERROR - The Time Out games are :   3752709   ITFW25Marbella   Alice Rame  VS  Eva Guerrero Alvarez   Tennis   2022-09-08T16:14:35  Status = 1   After game start time out = :  17 hours  7 minutes
+2022-09-09 09:21:13,205 - craftBet -ERROR - The Time Out games are :   3752715   ITFM25Sintra   Luca Potenza  VS  Arthur Fery   Tennis   2022-09-08T16:14:35  Status = 1   After game start time out = :  17 hours  7 minutes
+2022-09-09 09:21:13,205 - craftBet -ERROR - The Time Out games are :   3752733   ITFW25SaintPalaisSurMer   Anna Siskova  VS  Jessica Pieri   Tennis   2022-09-08T16:14:39  Status = 1   After game start time out = :  17 hours  7 minutes
+2022-09-09 09:21:13,205 - craftBet -ERROR - The Time Out games are :   3749083   ITF-M Sintra   Luca Potenza  VS  Arthur Fery   Tennis   2022-09-08T16:15:00  Status = 1   After game start time out = :  17 hours  7 minutes
+2022-09-09 09:21:13,207 - craftBet -ERROR - The Time Out games are :   3750489   ITF-W Montreux   Arantxa Rus  VS  Mona Barthel   Tennis   2022-09-08T16:20:00  Status = 1   After game start time out = :  17 hours  2 minutes
+2022-09-09 09:21:13,208 - craftBet -ERROR - The Time Out games are :   3749398   Monastir, Tunisia - Womens Doubles   Elena Jamshidi / Lara Pfeifer  VS  Honoka Kobayashi / Milana Zhabrailova   Tennis   2022-09-08T16:30:00  Status = 1   After game start time out = :  16 hours  52 minutes
+2022-09-09 09:21:13,208 - craftBet -ERROR - The Time Out games are :   3753000   EbasketballBattle-4x5mins   IND Pacers (Moody) Esports  VS  TOR Raptors (Lalkoff) Esports   Basketball   2022-09-08T17:07:39  Status = 1   After game start time out = :  16 hours  14 minutes
+2022-09-09 09:21:13,210 - craftBet -ERROR - The Time Out games are :   3753005   EbasketballBattle-4x5mins   MIN Timberwolves (RINT) Esports  VS  DAL Mavericks (tapachan) Esports   Basketball   2022-09-08T17:09:26  Status = 1   After game start time out = :  16 hours  12 minutes
+2022-09-09 09:21:13,211 - craftBet -ERROR - The Time Out games are :   3748254   ITF-W Montreux Doubles   Emily Appleton / Elsa Jacquemot  VS  Maria Michaela Fiacan / Elena Grekul   Tennis   2022-09-08T18:00:00  Status = 1   After game start time out = :  15 hours  22 minutes
+2022-09-09 09:21:13,211 - craftBet -ERROR - The Time Out games are :   3748263   Cancun, Mexico - Mens Doubles   Blu Baker / Tristan McCormick  VS  Alfredo Casso / Yahir Emiliano Moheno   Tennis   2022-09-08T21:30:00  Status = 1   After game start time out = :  11 hours  52 minutes
+2022-09-09 09:21:13,211 - craftBet -ERROR - The Time Out games are :   3749488   Setka Cup   Ivan Udovenko  VS  Yevhen Skorobahatiy   Table Tennis   2022-09-08T16:10:00  Status = 1   After game start time out = :  17 hours  12 minutes
+2022-09-09 09:21:13,211 - craftBet -ERROR - The Time Out games are :   3749487   Setka Cup   Oleg Volynets  VS  Andrii Khnykin   Table Tennis   2022-09-08T17:10:00  Status = 1   After game start time out = :  16 hours  12 minutes
+2022-09-09 09:21:13,212 - craftBet -ERROR - The Time Out games are :   3753010   SwedishProSeries   Par Gerell  VS  Elias Ranefur   Table Tennis   2022-09-08T17:13:13  Status = 1   After game start time out = :  16 hours  8 minutes
+2022-09-09 09:21:13,214 - craftBet -ERROR - The Time Out games are :   3753016   SetkaCup   Tomas lukes  VS  Jan Blazek   Table Tennis   2022-09-08T17:15:57  Status = 1   After game start time out = :  16 hours  6 minutes
+2022-09-09 09:21:13,214 - craftBet -ERROR - The Time Out games are :   3750123   Setka Cup   Anatolii Dulich  VS  Maksim Baranov   Table Tennis   2022-09-08T17:20:00  Status = 1   After game start time out = :  16 hours  2 minutes
+2022-09-09 09:21:13,214 - craftBet -ERROR - The Time Out games are :   3752359   Setka Cup   Petro Tsolik  VS  Yuri Kolos   Table Tennis   2022-09-08T17:25:00  Status = 1   After game start time out = :  15 hours  57 minutes
+2022-09-09 09:21:13,215 - craftBet -ERROR - The Time Out games are :   3753063   TTStarSeries   Tomas Koldas  VS  Boguslav Koszyk   Table Tennis   2022-09-08T17:26:57  Status = 1   After game start time out = :  15 hours  55 minutes
+2022-09-09 09:21:13,215 - craftBet -ERROR - The Time Out games are :   3749572   Setka Cup   Vladimir Melnikov  VS  Andrii Troian   Table Tennis   2022-09-08T17:30:00  Status = 1   After game start time out = :  15 hours  52 minutes
+2022-09-09 09:21:13,216 - craftBet -ERROR - The Time Out games are :   3749549   Setka Cup   Aleksey Krutko  VS  Roman Cherevko   Table Tennis   2022-09-08T21:25:00  Status = 1   After game start time out = :  11 hours  57 minutes
+2022-09-09 09:21:13,216 - craftBet -ERROR - The Time Out games are :   3752641   3rdTest   England  VS  South Africa   Cricket   2022-09-08T15:52:28  Status = 1   After game start time out = :  17 hours  29 minutes
+2022-09-09 09:21:13,216 - craftBet -ERROR - The Time Out games are :   3752236   CS:GO-ElisaInvitational   00Prospects  VS  Dynamo Eclot   E-sports   2022-09-08T15:52:38  Status = 1   After game start time out = :  17 hours  29 minutes
+2022-09-09 09:21:13,216 - craftBet -ERROR - The Time Out games are :   3752716   CCDiv1   Hampshire  VS  Northants   Cricket   2022-09-08T16:14:35  Status = 1   After game start time out = :  17 hours  7 minutes
+2022-09-09 09:21:13,217 - craftBet -ERROR - The Time Out games are :   3752719   CCDiv1   Lancashire  VS  Yorkshire   Cricket   2022-09-08T16:14:37  Status = 1   After game start time out = :  17 hours  7 minutes
+2022-09-09 09:21:13,217 - craftBet -ERROR - The Time Out games are :   3752364   CPBL   CITIC Brothers  VS  Uni-Lions   Baseball   2022-09-08T15:58:25  Status = 1   After game start time out = :  17 hours  23 minutes
+2022-09-09 09:21:13,217 - craftBet -ERROR - The Time Out games are :   3752367   CPBL   Rakuten Monkeys  VS  Wei-Chuan Dragons   Baseball   2022-09-08T15:58:25  Status = 1   After game start time out = :  17 hours  23 minutes
+2022-09-09 09:21:13,218 - craftBet -ERROR - The Time Out games are :   3753006   Doncaster   2.35 Doncaster (Race 3)  VS  ~N/A~   Horse Racing   2022-09-08T17:11:56  Status = 1   After game start time out = :  16 hours  10 minutes
+2022-09-09 09:21:13,218 - craftBet -ERROR - The Time Out games are :   3749018   World Beach Games. Qualifier. Europe   Spain (W)  VS  Czech Republic (W)   Beach Soccer   2022-09-08T14:15:00  Status = 1   After game start time out = :  19 hours  7 minutes
+2022-09-09 09:21:13,218 - craftBet -ERROR - The Time Out games are :   3749019   World Beach Games. Qualifier. Europe   Ukraine  VS  Azerbaijan   Beach Soccer   2022-09-08T15:30:00  Status = 1   After game start time out = :  17 hours  52 minutes
+2022-09-09 09:21:13,218 - craftBet -INFO - Time out Games are:  90
+2022-09-09 09:21:18,613 - craftBet -INFO - Browser closed
+2022-09-09 09:21:18,613 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-09 09:21:18,627 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-09 09:23:23,176 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-09 09:23:23,495 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-09 09:23:23,530 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-09 09:23:26,109 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-09 09:23:26,221 - craftBet -INFO - All Page elements are initialized
+2022-09-09 09:23:26,496 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-09 09:23:34,081 - craftBet -INFO - Get Matches Api call was sent
+2022-09-09 09:23:34,158 - craftBet -INFO - Matches count is  = 90
+2022-09-09 09:29:45,107 - craftBet -INFO - 3717111  This game has no available Markets
+2022-09-09 09:29:45,530 - craftBet -INFO - 3717136  This game has no available Markets
+2022-09-09 09:32:09,326 - craftBet -INFO - 3750832  This game has no available Markets
+2022-09-09 09:32:09,491 - craftBet -INFO - 3750833  This game has no available Markets
+2022-09-09 09:38:19,628 - craftBet -INFO - Error Markets count is:  0
+2022-09-09 09:38:19,629 - craftBet -INFO - Empty Markets count is:  4
+2022-09-09 09:38:20,954 - craftBet -INFO - Browser closed
+2022-09-09 09:38:20,954 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-09 09:38:20,959 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-09 09:38:20,973 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-09 09:38:20,992 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-09 09:38:22,978 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-09 09:38:22,985 - craftBet -INFO - All Page elements are initialized
+2022-09-09 09:38:23,337 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-09 09:38:24,385 - craftBet -INFO - Get Matches Api call was sent
+2022-09-09 09:38:24,428 - craftBet -INFO - Matches count is  = 135
+2022-09-09 09:41:23,191 - craftBet -INFO - Error Markets count is:  0
+2022-09-09 09:41:23,192 - craftBet -INFO - Empty Markets count is:  0
+2022-09-09 09:41:23,340 - craftBet -INFO - Browser closed
+2022-09-09 09:41:23,341 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-09 09:41:23,356 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-09 09:41:23,381 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-09 09:41:23,402 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-09 09:41:24,831 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-09 09:41:24,835 - craftBet -INFO - All Page elements are initialized
+2022-09-09 09:41:24,846 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-09 09:41:25,577 - craftBet -INFO - Get Matches Api call was sent
+2022-09-09 09:41:25,639 - craftBet -INFO - Matches count is  = 173
+2022-09-09 09:44:07,844 - craftBet -INFO - This market works for Client  GameID = 3749832  MarketName = Correct Score  MarketID = 223467159  SelectorError = 0.8522479172450067
+2022-09-09 09:44:18,524 - craftBet -INFO - This market works for Client  GameID = 3749833  MarketName = Correct Score  MarketID = 223354307  SelectorError = 0.8070937105278456
+2022-09-09 09:44:28,018 - craftBet -INFO - This market works for Client  GameID = 3750640  MarketName = Correct Score  MarketID = 223467202  SelectorError = 0.820317307460297
+2022-09-09 09:44:32,786 - craftBet -INFO - This market works for Client  GameID = 3750641  MarketName = Correct Score  MarketID = 223467076  SelectorError = 0.8413743744074228
+2022-09-09 09:44:39,908 - craftBet -INFO - This market works for Client  GameID = 3751595  MarketName = Correct Score  MarketID = 223488721  SelectorError = 0.7272156904025665
+2022-09-09 09:45:23,018 - craftBet -INFO - This market works for Client  GameID = 3739920  MarketName = Correct Score  MarketID = 223296927  SelectorError = 0.8563090319403038
+2022-09-09 09:46:20,120 - craftBet -INFO - 3739999  This game has no available Markets
+2022-09-09 09:46:34,311 - craftBet -INFO - 3740033  This game has no available Markets
+2022-09-09 09:47:05,642 - craftBet -INFO - This market works for Client  GameID = 3748080  MarketName = Correct Score  MarketID = 223476676  SelectorError = 0.8400833823055892
+2022-09-09 09:47:10,956 - craftBet -INFO - This market works for Client  GameID = 3751378  MarketName = Correct Score  MarketID = 223470264  SelectorError = 0.8558291062240178
+2022-09-09 09:47:47,173 - craftBet -INFO - This market works for Client  GameID = 3750083  MarketName = Correct Score  MarketID = 223475033  SelectorError = 0.8614862827095494
+2022-09-09 09:48:09,468 - craftBet -INFO - This market works for Client  GameID = 3750081  MarketName = Correct Score  MarketID = 223467187  SelectorError = 0.8441603348302512
+2022-09-09 09:48:14,612 - craftBet -INFO - This market works for Client  GameID = 3753177  MarketName = Correct Score  MarketID = 223467246  SelectorError = 0.9001383419289528
+2022-09-09 09:48:18,789 - craftBet -INFO - This market works for Client  GameID = 3753178  MarketName = Correct Score  MarketID = 223467214  SelectorError = 0.8585619633189323
+2022-09-09 09:48:22,941 - craftBet -INFO - This market works for Client  GameID = 3753184  MarketName = Correct Score  MarketID = 223467230  SelectorError = 0.862329110569898
+2022-09-09 09:48:29,931 - craftBet -INFO - This market works for Client  GameID = 3739320  MarketName = Correct Score  MarketID = 223364957  SelectorError = 0.8302135764189836
+2022-09-09 09:48:33,353 - craftBet -INFO - This market works for Client  GameID = 3739321  MarketName = Correct Score  MarketID = 223030724  SelectorError = 0.7882693155890462
+2022-09-09 09:48:39,023 - craftBet -INFO - This market works for Client  GameID = 3739322  MarketName = Correct Score  MarketID = 223416539  SelectorError = 0.7884337746921968
+2022-09-09 09:48:47,715 - craftBet -INFO - 3716278  This game has no available Markets
+2022-09-09 09:48:49,516 - craftBet -INFO - This market works for Client  GameID = 3716288  MarketName = Correct Score  MarketID = 223525204  SelectorError = 0.5651008717074985
+2022-09-09 09:48:51,324 - craftBet -INFO - This market works for Client  GameID = 3716291  MarketName = Correct Score  MarketID = 223525175  SelectorError = 0.4828005160183636
+2022-09-09 09:49:00,875 - craftBet -INFO - This market works for Client  GameID = 3716345  MarketName = Correct Score  MarketID = 223307077  SelectorError = 0.9187262966351337
+2022-09-09 09:49:11,978 - craftBet -INFO - This market works for Client  GameID = 3716401  MarketName = Correct Score  MarketID = 223307105  SelectorError = 0.9187262966351337
+2022-09-09 09:49:37,321 - craftBet -INFO - This market works for Client  GameID = 3716431  MarketName = Correct Score  MarketID = 223307124  SelectorError = 0.8990477389495696
+2022-09-09 09:50:06,379 - craftBet -INFO - This market works for Client  GameID = 3716481  MarketName = Correct Score  MarketID = 222976705  SelectorError = 0.879309107287518
+2022-09-09 09:50:24,426 - craftBet -INFO - This market works for Client  GameID = 3707726  MarketName = Correct Score  MarketID = 222779684  SelectorError = 0.9848931293732303
+2022-09-09 09:51:33,624 - craftBet -INFO - This market works for Client  GameID = 3729400  MarketName = Correct Score  MarketID = 223295023  SelectorError = 0.9034845257411349
+2022-09-09 09:54:09,222 - craftBet -INFO - This market works for Client  GameID = 3428784  MarketName = Correct Score  MarketID = 223296892  SelectorError = 0.838081315830425
+2022-09-09 09:54:25,869 - craftBet -INFO - This market works for Client  GameID = 3428787  MarketName = Correct Score  MarketID = 222324684  SelectorError = 0.8932778910184889
+2022-09-09 09:54:33,296 - craftBet -INFO - This market works for Client  GameID = 3751965  MarketName = Correct Score  MarketID = 223490535  SelectorError = 0.6742291310375164
+2022-09-09 09:54:38,455 - craftBet -INFO - Error Markets count is:  27
+2022-09-09 09:54:38,455 - craftBet -INFO - Empty Markets count is:  3
+2022-09-09 09:54:38,647 - craftBet -INFO - Browser closed
+2022-09-09 09:54:38,647 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-09 09:54:38,654 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-09 09:54:38,923 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-09 09:54:38,943 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-09 09:54:42,655 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-09 09:54:42,662 - craftBet -INFO - All Page elements are initialized
+2022-09-09 09:54:42,951 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-09 09:54:43,570 - craftBet -INFO - Get Matches Api call was sent
+2022-09-09 09:54:43,603 - craftBet -INFO - Matches count is  = 10
+2022-09-09 09:55:25,744 - craftBet -INFO - Error Markets count is:  0
+2022-09-09 09:55:25,744 - craftBet -INFO - Empty Markets count is:  0
+2022-09-09 09:55:25,862 - craftBet -INFO - Browser closed
+2022-09-09 09:55:25,862 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-09 09:55:25,866 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-09 09:55:25,877 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-09 09:55:25,896 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-09 09:55:27,250 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-09 09:55:27,254 - craftBet -INFO - All Page elements are initialized
+2022-09-09 09:55:27,264 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-09 09:55:28,685 - craftBet -INFO - Get Matches Api call was sent
+2022-09-09 09:55:28,717 - craftBet -INFO - Matches count is  = 45
+2022-09-09 09:55:29,204 - craftBet -INFO - 3717017  This game has no available Markets
+2022-09-09 09:56:29,145 - craftBet -INFO - Error Markets count is:  0
+2022-09-09 09:56:29,146 - craftBet -INFO - Empty Markets count is:  1
+2022-09-09 09:56:29,285 - craftBet -INFO - Browser closed
+2022-09-09 09:56:29,285 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-09 09:56:29,291 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-09 09:56:29,301 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-09 09:56:29,320 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-09 09:56:30,679 - craftBet -INFO - URL: https://craftbet.com  Browser: chrome
+2022-09-09 09:56:30,682 - craftBet -INFO - All Page elements are initialized
+2022-09-09 09:56:31,020 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-09 09:56:32,050 - craftBet -INFO - Get Matches Api call was sent
+2022-09-09 09:56:32,083 - craftBet -INFO - Matches count is  = 144
+2022-09-09 10:00:19,578 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-09 10:00:19,993 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-09 10:00:20,034 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-09 10:00:23,044 - craftBet -INFO - URL: https://baqto.com  Browser: chrome
+2022-09-09 10:00:23,202 - craftBet -INFO - All Page elements are initialized
+2022-09-09 10:00:23,218 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-09 10:00:24,648 - craftBet -INFO - username passed
+2022-09-09 10:00:24,755 - craftBet -INFO - password passed
+2022-09-09 10:00:24,856 - craftBet -INFO - Log In Button was clicked
+2022-09-09 10:00:26,491 - craftBet -INFO - Token was captured 547b758c766542a79cd5cd686ec00966
+2022-09-09 10:00:33,519 - craftBet -INFO - Get All games API call 
+2022-09-09 10:00:33,700 - craftBet -INFO - From Get All games API call body captured 
+2022-09-09 10:00:33,804 - craftBet -INFO - From Get All games API productIDes and Names was captured 
+2022-09-09 10:00:54,598 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-09 10:00:54,924 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-09 10:00:54,967 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-09 10:00:57,558 - craftBet -INFO - URL: https://baqto.com  Browser: chrome
+2022-09-09 10:00:57,634 - craftBet -INFO - All Page elements are initialized
+2022-09-09 10:00:57,649 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-09 10:01:01,085 - craftBet -INFO - Get games Api call was sent
+2022-09-09 10:01:01,228 - craftBet -INFO - Get games Api Response was captured
+2022-09-09 10:01:01,306 - craftBet -INFO - All captured games images was added into ArrayList
+2022-09-09 10:01:01,514 - craftBet -ERROR - 0   Game Provider Name = LuckyGaming :   Game Name =  Alchemy Potions :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/web/AlchemyPotions.png
+2022-09-09 10:01:02,288 - craftBet -ERROR - 7   Game Provider Name = LuckyGaming :   Game Name =  Canal Towns :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/web/CanalTowns.png
+2022-09-09 10:01:02,596 - craftBet -ERROR - 10   Game Provider Name = LuckyGaming :   Game Name =  Chi Bi :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/mob/ChiBi.png
+2022-09-09 10:01:03,107 - craftBet -ERROR - 14   Game Provider Name = LuckyGaming :   Game Name =  Da San Yuan :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/web/DaSanYuan.png
+2022-09-09 10:01:03,676 - craftBet -ERROR - 18   Game Provider Name = LuckyGaming :   Game Name =  DuoBao Gold :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/web/DuoBaoGold.png
+2022-09-09 10:01:04,056 - craftBet -ERROR - 21   Game Provider Name = LuckyGaming :   Game Name =  Fa Da Cai :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/web/FaDaCai.png
+2022-09-09 10:01:04,439 - craftBet -ERROR - 24   Game Provider Name = LuckyGaming :   Game Name =  Fortune Twins PK :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/web/FortuneTwinsPK.png
+2022-09-09 10:01:05,706 - craftBet -ERROR - 32   Game Provider Name = LuckyGaming :   Game Name =  Golden Mouse :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/web/GoldenMouse.png
+2022-09-09 10:01:05,806 - craftBet -ERROR - 33   Game Provider Name = LuckyGaming :   Game Name =  Golden Mouse Caishen :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/web/GoldenMouseCaishen.png
+2022-09-09 10:01:07,096 - craftBet -ERROR - 40   Game Provider Name = LuckyGaming :   Game Name =  Hell's King :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/web/Hell'sKing.png
+2022-09-09 10:01:07,195 - craftBet -ERROR - 41   Game Provider Name = LuckyGaming :   Game Name =  Hobbit's Treasure :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/web/Hobbit'sTreasure.png
+2022-09-09 10:01:07,555 - craftBet -ERROR - 43   Game Provider Name = LuckyGaming :   Game Name =  Hu Hu Hu :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/web/HuHuHu.png
+2022-09-09 10:01:08,895 - craftBet -ERROR - 50   Game Provider Name = LuckyGaming :   Game Name =  Lion Dance :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/web/LionDance.png
+2022-09-09 10:01:10,875 - craftBet -ERROR - 63   Game Provider Name = LuckyGaming :   Game Name =  Rocket Man :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/web/Rocket%20Man.png
+2022-09-09 10:01:11,475 - craftBet -ERROR - 67   Game Provider Name = LuckyGaming :   Game Name =  ShangHai 1920 :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/web/ShangHai1920.png
+2022-09-09 10:01:11,833 - craftBet -ERROR - 69   Game Provider Name = LuckyGaming :   Game Name =  Stone Age :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/web/Stone%20Age.png.png
+2022-09-09 10:01:12,064 - craftBet -ERROR - 71   Game Provider Name = LuckyGaming :   Game Name =  Super Dragon PK :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/web/SuperDragonPK.png
+2022-09-09 10:01:12,514 - craftBet -ERROR - 75   Game Provider Name = LuckyGaming :   Game Name =  Treasure Hunting :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/web/Treasure%20Hunting.png
+2022-09-09 10:01:12,616 - craftBet -ERROR - 76   Game Provider Name = LuckyGaming :   Game Name =  Triple Golden Toad :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/web/TripleGoldenToad.png
+2022-09-09 10:01:12,845 - craftBet -ERROR - 78   Game Provider Name = LuckyGaming :   Game Name =  Under Water :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/web/Under%20Water.png
+2022-09-09 10:01:13,407 - craftBet -ERROR - 82   Game Provider Name = LuckyGaming :   Game Name =  Viking :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/web/Viking.png.png
+2022-09-09 10:01:13,515 - craftBet -ERROR - 83   Game Provider Name = LuckyGaming :   Game Name =  Western Venture :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/web/WesternVenture.png
+2022-09-09 10:01:13,624 - craftBet -ERROR - 84   Game Provider Name = LuckyGaming :   Game Name =  Wild West :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/web/Wild%20West.png
+2022-09-09 10:02:18,731 - craftBet -ERROR - 334 Game Provider Name = Microgaming :                    Game Name = BankoftheNile :                       src = https://resources.{p}/products/BankoftheNile.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:03:03,780 - craftBet -ERROR - 519 Game Provider Name = Microgaming :                    Game Name = BookOfSouls :                       src = https://resources.{p}/products/BookOfSouls.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:03:43,519 - craftBet -ERROR - 677 Game Provider Name = Microgaming :                    Game Name = CheekyFruits6Deluxe :                       src = https://resources.{p}/products/CheekyFruits6Deluxe.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:04:53,325 - craftBet -ERROR - 963 Game Provider Name = Microgaming :                    Game Name = Dream3Team :                       src = https://resources.{p}/products/Dream3Team.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:05:00,338 - craftBet -ERROR - 991   Game Provider Name = EGT :   Game Name =  Egypt Sky :   cod = 403:   src = https://resources.baqto.com/products/
+2022-09-09 10:05:06,125 - craftBet -ERROR - 1016 Game Provider Name = Microgaming :                    Game Name = EliteofEvil:PortalofGold :                       src = https://resources.{p}/products/EliteofEvil:PortalofGold.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:05:10,249 - craftBet -ERROR - 1034 Game Provider Name = Microgaming :                    Game Name = EternalShogi :                       src = https://resources.{p}/products/EternalShogi·jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:05:36,933 - craftBet -ERROR - 1143 Game Provider Name = Microgaming :                    Game Name = FootballStarDeluxe :                       src = https://resources.{p}/products/FootballStarDeluxe.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:05:50,009 - craftBet -ERROR - 1200 Game Provider Name = Microgaming :                    Game Name = FruitPunchUp :                       src = https://resources.{p}/products/FruitPunchUp·jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:05:55,036 - craftBet -ERROR - 1220 Game Provider Name = Microgaming :                    Game Name = Fruitsand777's :                       src = https://resources.{p}/products/Fruitsand777's·jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:06:37,834 - craftBet -ERROR - 1389 Game Provider Name = Microgaming :                    Game Name = Goldilocks :                       src = https://resources.{p}/products/goldilocks.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:06:51,331 - craftBet -ERROR - 1443   Game Provider Name = Leander :   Game Name =  Hattrick Heroes :   cod = 403:   src = https://static.egamings.com/games/leander/?attrick_?eroes.jpg
+2022-09-09 10:07:11,582 - craftBet -ERROR - 1526 Game Provider Name = Microgaming :                    Game Name = HotInk :                       src = https://resources.{p}/products/hotink.jpeg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:07:51,395 - craftBet -ERROR - 1690   Game Provider Name = EGT :   Game Name =  Kangaroo Land :   cod = 403:   src = https://resources.baqto.com/products/
+2022-09-09 10:08:04,228 - craftBet -ERROR - 1743 Game Provider Name = Microgaming :                    Game Name = LaraJonesisCleopatra :                       src = https://resources.{p}/products/LaraJonesisCleopatra·jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:08:37,201 - craftBet -ERROR - 1872 Game Provider Name = Microgaming :                    Game Name = LuckyRiches:Hyperspins :                       src = https://resources.{p}/products/LuckyRiches:Hyperspins.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:08:48,895 - craftBet -ERROR - 1922   Game Provider Name = Amatic :   Game Name =  Magic Scatter :   cod = 404:   src = https://resources.baqto.com/products/outcomebet/vikwin/web/MagicScatter.png
+2022-09-09 10:09:03,925 - craftBet -ERROR - 1986 Game Provider Name = Microgaming :                    Game Name = Meganova :                       src = https://resources.{p}/products/Meganova·jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:09:08,615 - craftBet -ERROR - 2006 Game Provider Name = Microgaming :                    Game Name = MidnightMadness :                       src = https://resources.{p}/products/MidnightMadness.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:10:04,271 - craftBet -ERROR - 2235 Game Provider Name = Microgaming :                    Game Name = Pentagram5000 :                       src = https://resources.{p}/products/Pentagram5000.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:10:19,152 - craftBet -ERROR - 2296 Game Provider Name = Microgaming :                    Game Name = Popstar :                       src = https://resources.{p}/products/Popstar.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:10:56,081 - craftBet -ERROR - 2447   Game Provider Name = EGT :   Game Name =  Retro Style :   cod = 403:   src = https://resources.baqto.com/products/
+2022-09-09 10:11:12,525 - craftBet -ERROR - 2512 Game Provider Name = Microgaming :                    Game Name = RomanPower :                       src = https://resources.{p}/products/RomanPower.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:11:24,505 - craftBet -ERROR - 2558 Game Provider Name = Microgaming :                    Game Name = SamanthaFox :                       src = https://resources.{p}/products/SamanthaFoxt·jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:12:24,769 - craftBet -ERROR - 2793   Game Provider Name = Microgaming :   Game Name =  SupeitUp :   cod = 404:   src = https://static.egamings.com/games/mg/supeitup.jpeg
+2022-09-09 10:12:25,032 - craftBet -ERROR - 2795 Game Provider Name = Microgaming :                    Game Name = SuperBarXPullTab :                       src = https://resources.{p}/products/SuperBarXPullTab.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:12:32,053 - craftBet -ERROR - 2822 Game Provider Name = Microgaming :                    Game Name = SuperSync :                       src = https://resources.{p}/products/SuperSync.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:12:45,425 - craftBet -ERROR - 2873   Game Provider Name = Microgaming :   Game Name =  Terminator2 :   cod = 404:   src = https://static.egamings.com/games/mg/Terminator2.jpg
+2022-09-09 10:12:50,133 - craftBet -ERROR - 2891   Game Provider Name = EGT :   Game Name =  The Big Journey :   cod = 403:   src = https://resources.baqto.com/products/
+2022-09-09 10:14:17,032 - craftBet -ERROR - 3232 Game Provider Name = Microgaming :                    Game Name = WildReels :                       src = https://resources.{p}/products/WildReelse.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:14:44,829 - craftBet -INFO - Broken images are:  53
+2022-09-09 10:14:47,825 - craftBet -ERROR - gamesImgTest--------------------------------------------------------->   Fail
+2022-09-09 10:14:47,826 - craftBet -ERROR - gamesImgTest-----------------------------------------------------------------
+2022-09-09 10:14:47,953 - craftBet -INFO - Browser closed
+2022-09-09 10:14:47,953 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-09 10:14:47,960 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-09 10:14:47,974 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-09 10:14:47,998 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-09 10:14:49,823 - craftBet -INFO - URL: https://baqto.com  Browser: chrome
+2022-09-09 10:14:49,826 - craftBet -INFO - All Page elements are initialized
+2022-09-09 10:14:49,838 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-09 10:14:52,983 - craftBet -INFO - Get games Api call was sent
+2022-09-09 10:14:53,298 - craftBet -INFO - Get games Api Response was captured
+2022-09-09 10:14:53,510 - craftBet -INFO - All captured games images was added into ArrayList
+2022-09-09 10:14:53,635 - craftBet -ERROR - 0   Game Provider Name = LuckyGaming :   Game Name =  Alchemy Potions :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/mob/AlchemyPotions.png
+2022-09-09 10:14:54,891 - craftBet -ERROR - 7   Game Provider Name = LuckyGaming :   Game Name =  Canal Towns :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/mob/CanalTowns.png
+2022-09-09 10:14:55,208 - craftBet -ERROR - 10   Game Provider Name = LuckyGaming :   Game Name =  Chi Bi :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/mob/ChiBi.png
+2022-09-09 10:14:55,633 - craftBet -ERROR - 14   Game Provider Name = LuckyGaming :   Game Name =  Da San Yuan :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/mob/DaSanYuan.png
+2022-09-09 10:14:56,070 - craftBet -ERROR - 18   Game Provider Name = LuckyGaming :   Game Name =  DuoBao Gold :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/mob/DuoBaoGold.png
+2022-09-09 10:14:56,494 - craftBet -ERROR - 21   Game Provider Name = LuckyGaming :   Game Name =  Fa Da Cai :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/mob/FaDaCai.png
+2022-09-09 10:14:56,814 - craftBet -ERROR - 24   Game Provider Name = LuckyGaming :   Game Name =  Fortune Twins PK :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/mob/FortuneTwinsPK.png
+2022-09-09 10:14:57,786 - craftBet -ERROR - 32   Game Provider Name = LuckyGaming :   Game Name =  Golden Mouse :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/mob/GoldenMouse.png
+2022-09-09 10:14:57,888 - craftBet -ERROR - 33   Game Provider Name = LuckyGaming :   Game Name =  Golden Mouse Caishen :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/mob/GoldenMouseCaishen.png
+2022-09-09 10:14:58,640 - craftBet -ERROR - 40   Game Provider Name = LuckyGaming :   Game Name =  Hell's King :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/mob/Hell'sKing.png
+2022-09-09 10:14:58,735 - craftBet -ERROR - 41   Game Provider Name = LuckyGaming :   Game Name =  Hobbit's Treasure :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/mob/Hobbit'sTreasure.png
+2022-09-09 10:14:59,005 - craftBet -ERROR - 43   Game Provider Name = LuckyGaming :   Game Name =  Hu Hu Hu :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/mob/HuHuHu.png
+2022-09-09 10:14:59,873 - craftBet -ERROR - 50   Game Provider Name = LuckyGaming :   Game Name =  Lion Dance :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/mob/LionDance.png
+2022-09-09 10:15:01,229 - craftBet -ERROR - 63   Game Provider Name = LuckyGaming :   Game Name =  Rocket Man :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/mob/Rocket%20Man.png
+2022-09-09 10:15:01,663 - craftBet -ERROR - 67   Game Provider Name = LuckyGaming :   Game Name =  ShangHai 1920 :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/mob/ShangHai1920.png
+2022-09-09 10:15:01,869 - craftBet -ERROR - 69   Game Provider Name = LuckyGaming :   Game Name =  Stone Age :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/mob/Stone%20Age.png
+2022-09-09 10:15:02,082 - craftBet -ERROR - 71   Game Provider Name = LuckyGaming :   Game Name =  Super Dragon PK :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/mob/SuperDragonPK.png
+2022-09-09 10:15:02,578 - craftBet -ERROR - 75   Game Provider Name = LuckyGaming :   Game Name =  Treasure Hunting :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/mob/Treasure%20Hunting.png
+2022-09-09 10:15:02,676 - craftBet -ERROR - 76   Game Provider Name = LuckyGaming :   Game Name =  Triple Golden Toad :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/mob/TripleGoldenToad.png
+2022-09-09 10:15:02,885 - craftBet -ERROR - 78   Game Provider Name = LuckyGaming :   Game Name =  Under Water :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/mob/Under%20Water.png.png
+2022-09-09 10:15:03,375 - craftBet -ERROR - 83   Game Provider Name = LuckyGaming :   Game Name =  Western Venture :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/mob/WesternVenture.png
+2022-09-09 10:15:03,468 - craftBet -ERROR - 84   Game Provider Name = LuckyGaming :   Game Name =  Wild West :   cod = 404:   src = https://resources.baqto.com/products/LuckyGaming/mob/Wild%20West.png
+2022-09-09 10:16:31,841 - craftBet -ERROR - 331 Game Provider Name = Microgaming :                    Game Name = BankoftheNile :                       src = https://resources.{p}/products/BankoftheNile.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:17:22,016 - craftBet -ERROR - 511 Game Provider Name = Microgaming :                    Game Name = BookOfSouls :                       src = https://resources.{p}/products/BookOfSouls.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:17:27,097 - craftBet -ERROR - 532   Game Provider Name = Greentube :   Game Name =  BookOfRaDeluxe6 :   cod = 404:   src = https://resources.baqto.com/products/greentube/mobile/book-of-ra-deluxe.png
+2022-09-09 10:18:06,033 - craftBet -ERROR - 667 Game Provider Name = Microgaming :                    Game Name = CheekyFruits6Deluxe :                       src = https://resources.{p}/products/CheekyFruits6Deluxe.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:19:13,696 - craftBet -ERROR - 947 Game Provider Name = Microgaming :                    Game Name = Dream3Team :                       src = https://resources.{p}/products/Dream3Team.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:19:20,623 - craftBet -ERROR - 975   Game Provider Name = EGT :   Game Name =  Egypt Sky :   cod = 403:   src = https://resources.baqto.com/products/
+2022-09-09 10:19:26,416 - craftBet -ERROR - 1000 Game Provider Name = Microgaming :                    Game Name = EliteofEvil:PortalofGold :                       src = https://resources.{p}/products/EliteofEvil:PortalofGold.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:19:30,386 - craftBet -ERROR - 1018 Game Provider Name = Microgaming :                    Game Name = EternalShogi :                       src = https://resources.{p}/products/EternalShogi·jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:19:56,283 - craftBet -ERROR - 1125 Game Provider Name = Microgaming :                    Game Name = FootballStarDeluxe :                       src = https://resources.{p}/products/FootballStarDeluxe.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:20:09,416 - craftBet -ERROR - 1182 Game Provider Name = Microgaming :                    Game Name = FruitPunchUp :                       src = https://resources.{p}/products/FruitPunchUp·jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:20:14,157 - craftBet -ERROR - 1202 Game Provider Name = Microgaming :                    Game Name = Fruitsand777's :                       src = https://resources.{p}/products/Fruitsand777's·jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:20:55,178 - craftBet -ERROR - 1367   Game Provider Name = Microgaming :   Game Name =  Goldilocks :   cod = 403:   src = https://resources.baqto.com/products/
+2022-09-09 10:21:08,343 - craftBet -ERROR - 1421   Game Provider Name = Leander :   Game Name =  Hattrick Heroes :   cod = 403:   src = https://static.egamings.com/games/leander/?attrick_?eroes.jpg
+2022-09-09 10:21:28,520 - craftBet -ERROR - 1503   Game Provider Name = Microgaming :   Game Name =  HotInk :   cod = 403:   src = https://resources.baqto.com/products/
+2022-09-09 10:22:13,869 - craftBet -ERROR - 1667   Game Provider Name = EGT :   Game Name =  Kangaroo Land :   cod = 403:   src = https://resources.baqto.com/products/
+2022-09-09 10:22:27,697 - craftBet -ERROR - 1720 Game Provider Name = Microgaming :                    Game Name = LaraJonesisCleopatra :                       src = https://resources.{p}/products/LaraJonesisCleopatra·jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:23:00,566 - craftBet -ERROR - 1848 Game Provider Name = Microgaming :                    Game Name = LuckyRiches:Hyperspins :                       src = https://resources.{p}/products/LuckyRiches:Hyperspins.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:23:12,564 - craftBet -ERROR - 1897   Game Provider Name = Amatic :   Game Name =  Magic Scatter :   cod = 404:   src = https://resources.baqto.com/products/outcomebet/vikwin/mobile/MagicScatter.png
+2022-09-09 10:23:27,860 - craftBet -ERROR - 1960 Game Provider Name = Microgaming :                    Game Name = Meganova :                       src = https://resources.{p}/products/Meganova·jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:23:32,549 - craftBet -ERROR - 1979 Game Provider Name = Microgaming :                    Game Name = MidnightMadness :                       src = https://resources.{p}/products/MidnightMadness.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:24:30,227 - craftBet -ERROR - 2206 Game Provider Name = Microgaming :                    Game Name = Pentagram5000 :                       src = https://resources.{p}/products/Pentagram5000.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:24:45,530 - craftBet -ERROR - 2267 Game Provider Name = Microgaming :                    Game Name = Popstar :                       src = https://resources.{p}/products/Popstar.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:25:10,007 - craftBet -ERROR - 2354   Game Provider Name = RedTiger :   Game Name =  rainbowjackpots :   cod = 404:   src = https://resources.baqto.com/products/redtiger/mob/rainbow_jackpot.png
+2022-09-09 10:25:26,986 - craftBet -ERROR - 2417   Game Provider Name = EGT :   Game Name =  Retro Style :   cod = 403:   src = https://resources.baqto.com/products/
+2022-09-09 10:25:43,776 - craftBet -ERROR - 2481 Game Provider Name = Microgaming :                    Game Name = RomanPower :                       src = https://resources.{p}/products/RomanPower.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:25:55,798 - craftBet -ERROR - 2527 Game Provider Name = Microgaming :                    Game Name = SamanthaFox :                       src = https://resources.{p}/products/SamanthaFoxt·jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:26:54,554 - craftBet -ERROR - 2760   Game Provider Name = Microgaming :   Game Name =  SupeitUp :   cod = 404:   src = https://static.egamings.com/games/mg/supeitup.jpeg
+2022-09-09 10:26:54,807 - craftBet -ERROR - 2762 Game Provider Name = Microgaming :                    Game Name = SuperBarXPullTab :                       src = https://resources.{p}/products/SuperBarXPullTab.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:27:01,504 - craftBet -ERROR - 2789 Game Provider Name = Microgaming :                    Game Name = SuperSync :                       src = https://resources.{p}/products/SuperSync.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:27:14,496 - craftBet -ERROR - 2840   Game Provider Name = Microgaming :   Game Name =  Terminator2 :   cod = 404:   src = https://static.egamings.com/games/mg/Terminator2.jpg
+2022-09-09 10:27:18,978 - craftBet -ERROR - 2858   Game Provider Name = EGT :   Game Name =  The Big Journey :   cod = 403:   src = https://resources.baqto.com/products/
+2022-09-09 10:28:42,671 - craftBet -ERROR - 3196 Game Provider Name = Microgaming :                    Game Name = WildReels :                       src = https://resources.{p}/products/WildReelse.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-09 10:28:47,914 - craftBet -ERROR - 3220   Game Provider Name = RedTiger :   Game Name =  wildnords :   cod = 404:   src = https://resources.baqto.com/products/redtiger/mobile/wild_nords.png
+2022-09-09 10:29:09,292 - craftBet -INFO - Broken images are:  55
+2022-09-09 10:29:11,008 - craftBet -ERROR - mobileGamesImgTest--------------------------------------------------------->   Fail
+2022-09-09 10:29:11,008 - craftBet -ERROR - mobileGamesImgTest-----------------------------------------------------------------
+2022-09-09 10:29:11,136 - craftBet -INFO - Browser closed
+2022-09-09 10:29:11,136 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-09 10:29:11,142 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-09 10:29:11,949 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-09 10:29:11,967 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-09 10:29:13,546 - craftBet -INFO - URL: https://baqto.com  Browser: chrome
+2022-09-09 10:29:13,550 - craftBet -INFO - All Page elements are initialized
+2022-09-09 10:29:13,824 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-09 10:29:14,835 - craftBet -INFO - username passed
+2022-09-09 10:29:14,947 - craftBet -INFO - password passed
+2022-09-09 10:29:15,024 - craftBet -INFO - Log In Button was clicked
+2022-09-09 10:29:17,104 - craftBet -INFO - Token was captured f7a1c030869c4b1597f17fe55d70b384
+2022-09-09 10:29:20,445 - craftBet -INFO - Get All games API call 
+2022-09-09 10:29:20,508 - craftBet -INFO - From Get All games API call body captured 
+2022-09-09 10:29:20,542 - craftBet -INFO - From Get All games API productIDes and Names was captured 
+2022-09-09 10:31:18,619 - craftBet -INFO - 1 95 ID=23305 Provider=IGT Name=100 Pandas cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:31:21,963 - craftBet -INFO - 2 104 ID=2404 Provider=EGT Name=2 Dragons cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:31:34,291 - craftBet -INFO - 3 132 ID=2405 Provider=EGT Name=40 Super Dice cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:31:36,689 - craftBet -INFO - 4 139 ID=2409 Provider=EGT Name=5 Hot Dice cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:31:38,306 - craftBet -INFO - 5 143 ID=2407 Provider=EGT Name=50 Horses cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:31:49,405 - craftBet -INFO - 6 173 ID=23226 Provider=Amatic Name=A Book of Aztec cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:31:53,830 - craftBet -INFO - 7 186 ID=23225 Provider=Amatic Name=Admiral Nelson cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:32:07,943 - craftBet -INFO - 8 226 ID=23805 Provider=Amatic Name=All ways Joker cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:32:08,234 - craftBet -INFO - 9 227 ID=23810 Provider=Amatic Name=All ways Win cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:32:08,529 - craftBet -INFO - 10 228 ID=23235 Provider=Amatic Name=Allways Fruits cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:32:10,356 - craftBet -INFO - 11 233 ID=2411 Provider=EGT Name=Amazing Amazonia cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:32:23,407 - craftBet -INFO - 12 270 ID=23245 Provider=Amatic Name=Arising Phoenix cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:32:23,705 - craftBet -INFO - 13 271 ID=23014 Provider=QuickSpin Name=Ark of Mystery cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:32:36,349 - craftBet -INFO - 14 300 ID=23246 Provider=Amatic Name=Aztec Secret cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:33:04,118 - craftBet -INFO - 15 375 ID=23232 Provider=Amatic Name=Bells on Fire cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:33:04,410 - craftBet -INFO - 16 376 ID=23247 Provider=Amatic Name=Bells on Fire HOT cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:33:04,699 - craftBet -INFO - 17 377 ID=23248 Provider=Amatic Name=Bells on Fire ROMBO cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:33:07,870 - craftBet -INFO - 18 385 ID=23741 Provider=QuickSpin Name=Big Bad Wolf cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:33:09,316 - craftBet -INFO - 19 389 ID=23725 Provider=QuickSpin Name=Big Bot Crew cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:33:11,411 - craftBet -INFO - 20 395 ID=23396 Provider=Amatic Name=Big Panda cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:33:13,867 - craftBet -INFO - 21 402 ID=23249 Provider=Amatic Name=Billyonaire cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:33:14,172 - craftBet -INFO - 22 403 ID=23803 Provider=Amatic Name=Billy's game cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:33:33,634 - craftBet -INFO - 23 449 ID=23231 Provider=Amatic Name=Blue Dolphin cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:33:34,000 - craftBet -INFO - 24 450 ID=2412 Provider=EGT Name=Blue Heart cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:33:46,750 - craftBet -INFO - 25 486 ID=23227 Provider=Amatic Name=Book of Fortune cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:33:50,901 - craftBet -INFO - 26 497 ID=23817 Provider=Amatic Name=Book Of Lords cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:33:53,626 - craftBet -INFO - 27 505 ID=23818 Provider=Amatic Name=Book Of Queen cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:34:24,533 - craftBet -INFO - 28 588 ID=2414 Provider=EGT Name=Burning Dice cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:34:40,852 - craftBet -INFO - 29 634 ID=23823 Provider=Amatic Name=Casanova cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:34:41,499 - craftBet -INFO - 30 636 ID=23289 Provider=IGT Name=Cash Coaster cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:34:46,811 - craftBet -INFO - 31 650 ID=2416 Provider=EGT Name=Casino Mania cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:34:48,185 - craftBet -INFO - 32 654 ID=23250 Provider=Amatic Name=Casinova cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:34:50,021 - craftBet -INFO - 33 660 ID=23290 Provider=IGT Name=Cats cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:35:10,679 - craftBet -INFO - 34 718 ID=23291 Provider=IGT Name=Cleopatra cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:35:17,991 - craftBet -INFO - 35 737 ID=23726 Provider=QuickSpin Name=Colossus cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:35:20,377 - craftBet -INFO - 36 744 ID=23251 Provider=Amatic Name=Cool Diamonds II cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:35:25,369 - craftBet -INFO - 37 758 ID=23292 Provider=IGT Name=Coyote Moon cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:35:36,028 - craftBet -INFO - 38 788 ID=23742 Provider=QuickSpin Name=Crystal Queen cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:35:48,743 - craftBet -INFO - 39 823 ID=23294 Provider=IGT Name=Day of the Dead cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:36:01,112 - craftBet -INFO - 40 858 ID=23252 Provider=Amatic Name=Diamond Cats cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:36:03,985 - craftBet -INFO - 41 864 ID=23253 Provider=Amatic Name=Diamond Monkey cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:36:04,284 - craftBet -INFO - 42 865 ID=23295 Provider=IGT Name=Diamond Queen cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:36:06,599 - craftBet -INFO - 43 872 ID=23254 Provider=Amatic Name=Diamonds on Fire cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:36:07,325 - craftBet -INFO - 44 874 ID=2417 Provider=EGT Name=Dice Of Ra cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:36:11,928 - craftBet -INFO - 45 887 ID=23727 Provider=QuickSpin Name=Divine Dreams cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:36:33,201 - craftBet -INFO - 46 939 ID=23728 Provider=QuickSpin Name=Dragon Shrine cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:36:37,498 - craftBet -INFO - 47 951 ID=23255 Provider=Amatic Name=Dragons Kingdom cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:36:38,160 - craftBet -INFO - 48 953 ID=23236 Provider=Amatic Name=Dragon's Pearl cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:36:43,487 - craftBet -INFO - 49 968 ID=23729 Provider=QuickSpin Name=Durian Dynamite cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:36:45,469 - craftBet -INFO - 50 973 ID=23781 Provider=QuickSpin Name=Dwarfs Gone Wild cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:36:51,081 - craftBet -INFO - 51 988 ID=23730 Provider=QuickSpin Name=Eastern Emeralds cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:36:52,163 - craftBet -INFO - 52 991 ID=23799 Provider=EGT Name=Egypt Sky cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:37:03,546 - craftBet -INFO - 53 1023 ID=23806 Provider=Amatic Name=Enchanted Cleopatra cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:37:15,014 - craftBet -INFO - 54 1056 ID=2418 Provider=EGT Name=Extra Joker cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:37:15,499 - craftBet -INFO - 55 1057 ID=2420 Provider=EGT Name=Extremely Hot cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:37:17,099 - craftBet -INFO - 56 1061 ID=23234 Provider=Amatic Name=Eye of Ra cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:37:20,971 - craftBet -INFO - 57 1072 ID=23731 Provider=QuickSpin Name=Fairy Gate cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:37:30,534 - craftBet -INFO - 58 1098 ID=23256 Provider=Amatic Name=Fire & Ice cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:37:34,302 - craftBet -INFO - 59 1107 ID=23296 Provider=IGT Name=Fire Opals cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:37:51,181 - craftBet -INFO - 60 1152 ID=23237 Provider=Amatic Name=Fortuna's Fruits cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:37:55,101 - craftBet -INFO - 61 1163 ID=2422 Provider=EGT Name=Fortune Spells cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:38:31,852 - craftBet -INFO - 62 1264 ID=23297 Provider=IGT Name=Garden Party cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:38:36,907 - craftBet -INFO - 63 1274 ID=23257 Provider=Amatic Name=Gem Star cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:38:42,294 - craftBet -INFO - 64 1289 ID=23743 Provider=QuickSpin Name=Genies Touch cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:39:02,777 - craftBet -INFO - 65 1341 ID=23258 Provider=Amatic Name=Golden Book cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:39:11,636 - craftBet -INFO - 66 1365 ID=23808 Provider=Amatic Name=Golden Joker cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:39:21,013 - craftBet -INFO - 67 1390 ID=23021 Provider=QuickSpin Name=Goldilocks & Wild Bears cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:39:21,301 - craftBet -INFO - 68 1391 ID=23015 Provider=QuickSpin Name=Gold Lab cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:39:23,487 - craftBet -INFO - 69 1397 ID=2424 Provider=EGT Name=Grace Of Cleopatra cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:39:23,777 - craftBet -INFO - 70 1398 ID=23298 Provider=IGT Name=Grand Monarch cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:39:24,796 - craftBet -INFO - 71 1401 ID=23824 Provider=Amatic Name=grandx_original cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:39:47,490 - craftBet -INFO - 72 1459 ID=23783 Provider=QuickSpin Name=Hidden Valley cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:39:56,432 - craftBet -INFO - 73 1484 ID=23813 Provider=Amatic Name=Hot 27 dice cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:39:57,578 - craftBet -INFO - 74 1487 ID=23807 Provider=Amatic Name=Hot 40 cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:39:57,862 - craftBet -INFO - 75 1488 ID=23812 Provider=Amatic Name=Hot choice cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:40:01,066 - craftBet -INFO - 76 1495 ID=23822 Provider=Amatic Name=Hot Choice cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:40:01,742 - craftBet -INFO - 77 1497 ID=23243 Provider=Amatic Name=Hot Diamonds cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:40:02,193 - craftBet -INFO - 78 1498 ID=23816 Provider=Amatic Name=Hot fruits 100 cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:40:02,497 - craftBet -INFO - 79 1499 ID=23814 Provider=Amatic Name=Hot Fruits 20 cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:40:02,789 - craftBet -INFO - 80 1500 ID=23815 Provider=Amatic Name=Hot Fruits 40 cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:40:05,408 - craftBet -INFO - 81 1507 ID=23259 Provider=Amatic Name=Hot Scatter cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:40:05,941 - craftBet -INFO - 82 1508 ID=23811 Provider=Amatic Name=Hot scatter dice cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:40:06,350 - craftBet -INFO - 83 1509 ID=23233 Provider=Amatic Name=Hot Seven cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:40:10,423 - craftBet -INFO - 84 1519 ID=23260 Provider=Amatic Name=Hot Star cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:40:10,989 - craftBet -INFO - 85 1520 ID=23732 Provider=QuickSpin Name=Hot Sync cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:40:11,988 - craftBet -INFO - 86 1523 ID=23242 Provider=Amatic Name=Hot Twenty cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:40:14,957 - craftBet -INFO - 87 1529 ID=23802 Provider=Amatic Name=Hottest Fruits 20 cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:40:24,706 - craftBet -INFO - 88 1556 ID=23744 Provider=QuickSpin Name=Illuminous cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:40:29,231 - craftBet -INFO - 89 1569 ID=2425 Provider=EGT Name=Inca Gold II cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:40:39,068 - craftBet -INFO - 90 1595 ID=23784 Provider=QuickSpin Name=Ivan and the Immortal King cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:40:49,939 - craftBet -INFO - 91 1626 ID=23299 Provider=IGT Name=Jewel of the Arts cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:40:59,722 - craftBet -INFO - 92 1652 ID=23785 Provider=QuickSpin Name=Joker Strike cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:41:12,938 - craftBet -INFO - 93 1690 ID=23795 Provider=EGT Name=Kangaroo Land cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:41:13,992 - craftBet -INFO - 94 1693 ID=2426 Provider=EGT Name=Kashmir Gold cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:41:23,973 - craftBet -INFO - 95 1720 ID=23300 Provider=IGT Name=Kitty Glitter cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:41:28,482 - craftBet -INFO - 96 1733 ID=23238 Provider=Amatic Name=Lady Joker cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:41:43,367 - craftBet -INFO - 97 1777 ID=23724 Provider=QuickSpin Name=Leprechaun Hills cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:41:59,494 - craftBet -INFO - 98 1822 ID=23229 Provider=Amatic Name=Lovely Lady cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:42:02,025 - craftBet -INFO - 99 1829 ID=2427 Provider=EGT Name=Lucky And Wild cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:42:02,673 - craftBet -INFO - 100 1831 ID=23261 Provider=Amatic Name=Lucky Bells cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:42:05,032 - craftBet -INFO - 101 1838 ID=23228 Provider=Amatic Name=Lucky Coin cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:42:10,225 - craftBet -INFO - 102 1852 ID=2428 Provider=EGT Name=Lucky Hot cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:42:11,199 - craftBet -INFO - 103 1855 ID=23820 Provider=Amatic Name=Lucky Joker 20 cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:42:11,497 - craftBet -INFO - 104 1856 ID=23821 Provider=Amatic Name=Lucky Joker 40 cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:42:11,782 - craftBet -INFO - 105 1857 ID=23819 Provider=Amatic Name=Lucky Joker 5 cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:42:31,093 - craftBet -INFO - 106 1910 ID=23230 Provider=Amatic Name=Magic Idol cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:42:34,364 - craftBet -INFO - 107 1919 ID=23262 Provider=Amatic Name=Magic Owl cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:42:35,613 - craftBet -INFO - 108 1922 ID=23804 Provider=Amatic Name=Magic Scatter cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:42:44,696 - craftBet -INFO - 109 1941 ID=2429 Provider=EGT Name=Majestic Forest cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:42:51,542 - craftBet -INFO - 110 1959 ID=23301 Provider=IGT Name=Masques of San Marco cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:42:54,443 - craftBet -INFO - 111 1968 ID=23302 Provider=IGT Name=Mayan Riches cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:42:55,096 - craftBet -INFO - 112 1970 ID=23018 Provider=QuickSpin Name=Mayana cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:43:03,238 - craftBet -INFO - 113 1994 ID=23241 Provider=Amatic Name=Mermaid's Gold cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:43:03,522 - craftBet -INFO - 114 1995 ID=23263 Provider=Amatic Name=Merry Fruits cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:43:09,089 - craftBet -INFO - 115 2011 ID=23019 Provider=QuickSpin Name=Mighty Arthur cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:43:14,677 - craftBet -INFO - 116 2027 ID=23303 Provider=IGT Name=Miss Red cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:43:34,356 - craftBet -INFO - 117 2073 ID=23733 Provider=QuickSpin Name=Mountain King cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:43:52,118 - craftBet -INFO - 118 2120 ID=2430 Provider=EGT Name=Neon Dice cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:44:02,699 - craftBet -INFO - 119 2148 ID=23304 Provider=IGT Name=Noahs Ark cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:44:03,829 - craftBet -INFO - 120 2151 ID=23734 Provider=QuickSpin Name=Northern Sky cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:44:10,993 - craftBet -INFO - 121 2171 ID=2431 Provider=EGT Name=Oil Company II cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:44:20,831 - craftBet -INFO - 122 2196 ID=23306 Provider=IGT Name=Pamplona cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:44:25,459 - craftBet -INFO - 123 2207 ID=23809 Provider=Amatic Name=Party Night cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:44:26,118 - craftBet -INFO - 124 2209 ID=23264 Provider=Amatic Name=Party Time cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:44:38,884 - craftBet -INFO - 125 2244 ID=23017 Provider=QuickSpin Name=Phoenix Sun cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:44:40,772 - craftBet -INFO - 126 2249 ID=23735 Provider=QuickSpin Name=Pied Piper cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:44:49,717 - craftBet -INFO - 127 2273 ID=23736 Provider=QuickSpin Name=Pirates Charm cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:45:12,329 - craftBet -INFO - 128 2330 ID=23307 Provider=IGT Name=Prowling Panther cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:45:34,947 - craftBet -INFO - 129 2391 ID=23011 Provider=QuickSpin Name=Razortooth cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:45:36,470 - craftBet -INFO - 130 2395 ID=23265 Provider=Amatic Name=Red Chilli cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:45:56,827 - craftBet -INFO - 131 2447 ID=23796 Provider=EGT Name=Retro Style cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:46:09,895 - craftBet -INFO - 132 2481 ID=2433 Provider=EGT Name=Rise Of Ra cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:46:24,750 - craftBet -INFO - 133 2522 ID=23593 Provider=Amatic Name=Roulette Royal cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:46:29,286 - craftBet -INFO - 134 2535 ID=2434 Provider=EGT Name=Royal Secrets cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:46:29,601 - craftBet -INFO - 135 2536 ID=23240 Provider=Amatic Name=Royal Unicorn cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:46:54,993 - craftBet -INFO - 136 2604 ID=23012 Provider=QuickSpin Name=Second Strike cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:46:58,296 - craftBet -INFO - 137 2614 ID=23013 Provider=QuickSpin Name=Sevens High cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:47:08,808 - craftBet -INFO - 138 2640 ID=23308 Provider=IGT Name=Siberian Storm cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:47:39,691 - craftBet -INFO - 139 2721 ID=23016 Provider=QuickSpin Name=Spinions Beach Party cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:47:47,120 - craftBet -INFO - 140 2741 ID=23309 Provider=IGT Name=Star Trek cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:47:50,768 - craftBet -INFO - 141 2752 ID=23020 Provider=QuickSpin Name=Sticky Bandits cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:48:00,142 - craftBet -INFO - 142 2778 ID=23310 Provider=IGT Name=Sumatran Storm cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:48:29,225 - craftBet -INFO - 143 2854 ID=23737 Provider=QuickSpin Name=Tales of Doctor Dolittle cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:48:43,308 - craftBet -INFO - 144 2891 ID=23797 Provider=EGT Name=The Big Journey cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:48:53,299 - craftBet -INFO - 145 2915 ID=23782 Provider=QuickSpin Name=The Grand cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:48:54,178 - craftBet -INFO - 146 2917 ID=2436 Provider=EGT Name=The Great Egypt cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:49:55,035 - craftBet -INFO - 147 3072 ID=23266 Provider=Amatic Name=Tweety Birds cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:49:59,000 - craftBet -INFO - 148 3083 ID=2438 Provider=EGT Name=Ultimate Hot cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:49:59,651 - craftBet -INFO - 149 3085 ID=23801 Provider=Amatic Name=Ultra Seven cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:50:10,483 - craftBet -INFO - 150 3113 ID=23311 Provider=IGT Name=Vegas Baby cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:50:25,627 - craftBet -INFO - 151 3154 ID=23738 Provider=QuickSpin Name=Volcano Riches cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:50:29,365 - craftBet -INFO - 152 3165 ID=23312 Provider=IGT Name=Water Dragons cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:50:33,197 - craftBet -INFO - 153 3176 ID=23313 Provider=IGT Name=Western Belles cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:50:41,054 - craftBet -INFO - 154 3199 ID=23739 Provider=QuickSpin Name=Wild Chase cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:50:42,723 - craftBet -INFO - 155 3203 ID=23267 Provider=Amatic Name=Wild Dragon cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:50:53,748 - craftBet -INFO - 156 3233 ID=23268 Provider=Amatic Name=Wild Respin cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:50:55,459 - craftBet -INFO - 157 3238 ID=23244 Provider=Amatic Name=Wild Stars cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:51:01,206 - craftBet -INFO - 158 3251 ID=23314 Provider=IGT Name=Wild Wolf cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:51:05,361 - craftBet -INFO - 159 3264 ID=23269 Provider=Amatic Name=Wild Shark cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:51:09,295 - craftBet -INFO - 160 3275 ID=23740 Provider=QuickSpin Name=Wins of Fortune cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:51:12,403 - craftBet -INFO - 161 3284 ID=2440 Provider=EGT Name=Witches Charm cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:51:16,502 - craftBet -INFO - 162 3296 ID=23239 Provider=Amatic Name=Wolf Moon cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:51:18,441 - craftBet -INFO - 163 3301 ID=23315 Provider=IGT Name=Wolf Run cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-09-09 10:51:34,243 - craftBet -INFO - 164 3344 ID=2441 Provider=EGT Name=Zodiac Wheel cod=21 description={"name":"Not Found","message":"This currency is not enabled for your contract","code":0,"status":404} ResponseObject=null
+2022-09-09 10:51:35,984 - craftBet -INFO - From Get URL API broken games are captured
+2022-09-09 10:51:35,984 - craftBet -INFO - Broken url-es are:  164
+2022-09-09 10:51:38,081 - craftBet -ERROR - getUrlAPITest--------------------------------------------------------->   Fail
+2022-09-09 10:51:38,081 - craftBet -ERROR - getUrlAPITest-----------------------------------------------------------------
+2022-09-09 10:51:38,281 - craftBet -INFO - Browser closed
+2022-09-09 10:51:38,281 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-09 10:51:38,288 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-09-09 10:51:38,318 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-09 10:51:38,369 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-09 10:51:40,726 - craftBet -INFO - URL: https://baqto.com  Browser: chrome
+2022-09-09 10:51:40,730 - craftBet -INFO - All Page elements are initialized
+2022-09-09 10:51:41,020 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-09 10:51:43,815 - craftBet -INFO - Get games Api call was sent
+2022-09-09 10:51:43,964 - craftBet -INFO - Get games Api Response was captured
+2022-09-09 10:51:44,005 - craftBet -INFO - Dupliicate game Name =  Atlantis
+2022-09-09 10:51:44,005 - craftBet -INFO - Dupliicate game Name =  Atlantis
+2022-09-09 10:51:44,014 - craftBet -INFO - Dupliicate game Name =  Golden Pig
+2022-09-09 10:51:44,016 - craftBet -INFO - Dupliicate game Name =  Party Night
+2022-09-09 10:51:44,018 - craftBet -INFO - Dupliicate game Name =  Zeus
+2022-09-09 10:51:44,037 - craftBet -INFO - Dupliicate game Name =  Atlantis
+2022-09-09 10:51:44,038 - craftBet -INFO - Dupliicate game Name =  Aztec Gold MegaWays
+2022-09-09 10:51:44,039 - craftBet -INFO - Dupliicate game Name =  Baccarat
+2022-09-09 10:51:44,045 - craftBet -INFO - Dupliicate game Name =  Baccarat
+2022-09-09 10:51:44,047 - craftBet -INFO - Dupliicate game Name =  Baccarat
+2022-09-09 10:51:44,047 - craftBet -INFO - Dupliicate game Name =  Baccarat VIP
+2022-09-09 10:51:44,049 - craftBet -INFO - Dupliicate game Name =  Black Jack
+2022-09-09 10:51:44,050 - craftBet -INFO - Dupliicate game Name =  Blackjack VIP
+2022-09-09 10:51:44,053 - craftBet -INFO - Dupliicate game Name =  Bounty Belles
+2022-09-09 10:51:44,054 - craftBet -INFO - Dupliicate game Name =  Buffalo Hunter
+2022-09-09 10:51:44,054 - craftBet -INFO - Dupliicate game Name =  Bushido Ways xNudge
+2022-09-09 10:51:44,061 - craftBet -INFO - Dupliicate game Name =  Caligula
+2022-09-09 10:51:44,062 - craftBet -INFO - Dupliicate game Name =  Carol of the Elves
+2022-09-09 10:51:44,063 - craftBet -INFO - Dupliicate game Name =  ChineseNewYear
+2022-09-09 10:51:44,067 - craftBet -INFO - Dupliicate game Name =  Deadwood
+2022-09-09 10:51:44,067 - craftBet -INFO - Dupliicate game Name =  Deuces Wild
+2022-09-09 10:51:44,067 - craftBet -INFO - Dupliicate game Name =  Deuces Wild
+2022-09-09 10:51:44,067 - craftBet -INFO - Dupliicate game Name =  Deuces Wild
+2022-09-09 10:51:44,069 - craftBet -INFO - Dupliicate game Name =  Dragon Stone
+2022-09-09 10:51:44,070 - craftBet -INFO - Dupliicate game Name =  East Coast vs West Coast
+2022-09-09 10:51:44,071 - craftBet -INFO - Dupliicate game Name =  Egyptian King
+2022-09-09 10:51:44,071 - craftBet -INFO - Dupliicate game Name =  El Paso Gunfight xNudge
+2022-09-09 10:51:44,071 - craftBet -INFO - Dupliicate game Name =  Elements
+2022-09-09 10:51:44,079 - craftBet -INFO - Dupliicate game Name =  European Roulette
+2022-09-09 10:51:44,079 - craftBet -INFO - Dupliicate game Name =  European Roulette
+2022-09-09 10:51:44,080 - craftBet -INFO - Dupliicate game Name =  European Roulette
+2022-09-09 10:51:44,080 - craftBet -INFO - Dupliicate game Name =  European Roulette
+2022-09-09 10:51:44,080 - craftBet -INFO - Dupliicate game Name =  European Roulette
+2022-09-09 10:51:44,080 - craftBet -INFO - Dupliicate game Name =  European Roulette
+2022-09-09 10:51:44,080 - craftBet -INFO - Dupliicate game Name =  European Roulette
+2022-09-09 10:51:44,080 - craftBet -INFO - Dupliicate game Name =  European Roulette
+2022-09-09 10:51:44,080 - craftBet -INFO - Dupliicate game Name =  European Roulette
+2022-09-09 10:51:44,080 - craftBet -INFO - Dupliicate game Name =  European Roulette
+2022-09-09 10:51:44,081 - craftBet -INFO - Dupliicate game Name =  European Roulette VIP
+2022-09-09 10:51:44,082 - craftBet -INFO - Dupliicate game Name =  Fat Rabbit
+2022-09-09 10:51:44,083 - craftBet -INFO - Dupliicate game Name =  Fire In The Hole xBomb
+2022-09-09 10:51:44,083 - craftBet -INFO - Dupliicate game Name =  Fishin' for Gold
+2022-09-09 10:51:44,084 - craftBet -INFO - Dupliicate game Name =  Football
+2022-09-09 10:51:44,086 - craftBet -INFO - Dupliicate game Name =  Fruits
+2022-09-09 10:51:44,087 - craftBet -INFO - Dupliicate game Name =  Ghosts N Gold
+2022-09-09 10:51:44,088 - craftBet -INFO - Dupliicate game Name =  Gladiators Go Wild
+2022-09-09 10:51:44,094 - craftBet -INFO - Dupliicate game Name =  Golden Buffalo Double Up
+2022-09-09 10:51:44,095 - craftBet -INFO - Dupliicate game Name =  Golden Tiger
+2022-09-09 10:51:44,096 - craftBet -INFO - Dupliicate game Name =  Hades
+2022-09-09 10:51:44,098 - craftBet -INFO - Dupliicate game Name =  Hot Spin Deluxe
+2022-09-09 10:51:44,098 - craftBet -INFO - Dupliicate game Name =  Hot Spin Megaways
+2022-09-09 10:51:44,099 - craftBet -INFO - Dupliicate game Name =  Hyperburst
+2022-09-09 10:51:44,099 - craftBet -INFO - Dupliicate game Name =  Infectious 5 xWays
+2022-09-09 10:51:44,100 - craftBet -INFO - Dupliicate game Name =  Jacks or Better
+2022-09-09 10:51:44,100 - craftBet -INFO - Dupliicate game Name =  Joker Poker
+2022-09-09 10:51:44,101 - craftBet -INFO - Dupliicate game Name =  Joker Poker
+2022-09-09 10:51:44,101 - craftBet -INFO - Dupliicate game Name =  Joker Poker
+2022-09-09 10:51:44,102 - craftBet -INFO - Dupliicate game Name =  Kings of Gold
+2022-09-09 10:51:44,103 - craftBet -INFO - Dupliicate game Name =  Legend of the Four Beasts
+2022-09-09 10:51:44,103 - craftBet -INFO - Dupliicate game Name =  Lost Boys Loot
+2022-09-09 10:51:44,104 - craftBet -INFO - Dupliicate game Name =  Lucky Clover
+2022-09-09 10:51:44,113 - craftBet -INFO - Dupliicate game Name =  MegaBoy
+2022-09-09 10:51:44,114 - craftBet -INFO - Dupliicate game Name =  Merlin's Magic Mirror
+2022-09-09 10:51:44,114 - craftBet -INFO - Dupliicate game Name =  Monkey's Gold xPays
+2022-09-09 10:51:44,116 - craftBet -INFO - Dupliicate game Name =  Oktoberfest
+2022-09-09 10:51:44,116 - craftBet -INFO - Dupliicate game Name =  Owls
+2022-09-09 10:51:44,116 - craftBet -INFO - Dupliicate game Name =  Pearl Legend: Hold & Win
+2022-09-09 10:51:44,117 - craftBet -INFO - Dupliicate game Name =  Prosperity Ox
+2022-09-09 10:51:44,117 - craftBet -INFO - Dupliicate game Name =  Pyramid Pays
+2022-09-09 10:51:44,118 - craftBet -INFO - Dupliicate game Name =  Raging Dragons
+2022-09-09 10:51:44,118 - craftBet -INFO - Dupliicate game Name =  Raging Reindeer
+2022-09-09 10:51:44,118 - craftBet -INFO - Dupliicate game Name =  Red Dog
+2022-09-09 10:51:44,118 - craftBet -INFO - Dupliicate game Name =  Reel Desire
+2022-09-09 10:51:44,118 - craftBet -INFO - Dupliicate game Name =  ReelGems
+2022-09-09 10:51:44,119 - craftBet -INFO - Dupliicate game Name =  Roo Riches
+2022-09-09 10:51:44,119 - craftBet -INFO - Dupliicate game Name =  SamanthaFox
+2022-09-09 10:51:44,119 - craftBet -INFO - Dupliicate game Name =  San Quentin xWays
+2022-09-09 10:51:44,119 - craftBet -INFO - Dupliicate game Name =  Sea of Riches
+2022-09-09 10:51:44,120 - craftBet -INFO - Dupliicate game Name =  Starstruck
+2022-09-09 10:51:44,120 - craftBet -INFO - Dupliicate game Name =  Super Reel - Spin It Hot
+2022-09-09 10:51:44,120 - craftBet -INFO - Dupliicate game Name =  Syncronite
+2022-09-09 10:51:44,120 - craftBet -INFO - Dupliicate game Name =  TalesOfDarkness
+2022-09-09 10:51:44,121 - craftBet -INFO - Dupliicate game Name =  The Bounty Hunter
+2022-09-09 10:51:44,121 - craftBet -INFO - Dupliicate game Name =  The Golden City
+2022-09-09 10:51:44,121 - craftBet -INFO - Dupliicate game Name =  The Great Wall
+2022-09-09 10:51:44,121 - craftBet -INFO - Dupliicate game Name =  The Ruby Megaways
+2022-09-09 10:51:44,121 - craftBet -INFO - Dupliicate game Name =  Thunder Shields
+2022-09-09 10:51:44,121 - craftBet -INFO - Dupliicate game Name =  Tiki Tumble
+2022-09-09 10:51:44,121 - craftBet -INFO - Dupliicate game Name =  Tomahawk
+2022-09-09 10:51:44,121 - craftBet -INFO - Dupliicate game Name =  Tomb of Akhenaten
+2022-09-09 10:51:44,121 - craftBet -INFO - Dupliicate game Name =  Tombstone
+2022-09-09 10:51:44,122 - craftBet -INFO - Dupliicate game Name =  Wild Ape
+2022-09-09 10:51:44,123 - craftBet -INFO - Dupliicate game Name =  Winterberries
+2022-09-09 10:51:44,123 - craftBet -INFO - Dupliicate game Name =  Wishing Wheel
+2022-09-09 10:51:44,123 - craftBet -INFO - Dupliicate game Name =  Wixx
+2022-09-09 10:51:44,123 - craftBet -INFO - Dupliicate game Name =  xWays Hoarder xSplit
+2022-09-09 10:51:44,124 - craftBet -INFO - Duplicate games are:  96
+2022-09-09 10:51:47,651 - craftBet -ERROR - getDuplicateGames--------------------------------------------------------->   Fail
+2022-09-09 10:51:47,652 - craftBet -ERROR - getDuplicateGames-----------------------------------------------------------------
+2022-09-09 10:51:47,834 - craftBet -INFO - Browser closed
+2022-09-09 10:51:47,834 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-09 10:51:48,183 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
