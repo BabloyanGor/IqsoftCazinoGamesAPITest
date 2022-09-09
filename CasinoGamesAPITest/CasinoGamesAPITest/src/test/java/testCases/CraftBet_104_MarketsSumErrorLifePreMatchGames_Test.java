@@ -48,7 +48,6 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
         Unirest.shutdown();
 
         for (int j = 0; j < jsonArrayAllSports.length(); j++) {
-
             String oneSport = String.valueOf(jsonArrayAllSports.get(j));
             JSONObject jsonObjectSport = new JSONObject(oneSport);
             String sportType = jsonObjectSport.get("SN").toString();
@@ -78,7 +77,7 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
                 }
             }
         }
-        logger.info("Matches count is  = " + gameIDs.size());
+        logger.info("Matches count is  = " + gameIDs.size()); //All preMatch game IDs was caught and added to array list
 
 
         for (String gameId : gameIDs) {
@@ -127,11 +126,7 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
 //                errorSrcXl.add(gameId + "  This game has no available Markets");
                 errorEmptyMarkets.add(gameId + "  This game has no available Markets");
             }
-
-
         }
-
-
         logger.info("Error Markets count is:  " + errorSrcXl.size());
         logger.info("Empty Markets count is:  " + errorEmptyMarkets.size());
 
@@ -173,6 +168,13 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
 //        String[][] arr = { {"Basketball"}};
         return arr;
     }
+
+
+
+
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 
     public boolean getMarketsOptionsSum(String partnerName)

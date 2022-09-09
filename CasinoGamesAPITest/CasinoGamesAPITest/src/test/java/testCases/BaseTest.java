@@ -246,6 +246,17 @@ public class BaseTest extends DriverFactory {
                 getGamesBaseURL = "https://oceanbet.io";
                 break;
             }
+            case 13: {
+                partnerID = 55;
+                getGamesAPIUrl = "https://websitewebapi.baqto.com/55/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.baqto.com/55/api/Main/GetProductUrl";
+                getUserID = 1651687;
+                getGamesOrigin = "https://baqto.com";
+                getGamesRecurse = "https://resources.baqto.com/products/";
+                getGamesPartnerName = "baqto";
+                getGamesBaseURL = "https://baqto.com";
+                break;
+            }
 
             case 100: {
                 partnerID = 1;
