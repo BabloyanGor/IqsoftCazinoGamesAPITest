@@ -28,11 +28,11 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
         int pointCount = 1;
 
         ArrayList<String> gameIDs = new ArrayList<>();
-        ArrayList<String> marketIDs = new ArrayList<>();
-        ArrayList<String> sportTypeArrayList = new ArrayList<>();
-        ArrayList<String> soccerIDsArrayList = new ArrayList<>();
-        ArrayList<Double> selectorValueArrayList = new ArrayList<>();
-        ArrayList<String> StartTime = new ArrayList<>();
+//        ArrayList<String> marketIDs = new ArrayList<>();
+//        ArrayList<String> sportTypeArrayList = new ArrayList<>();
+//        ArrayList<String> soccerIDsArrayList = new ArrayList<>();
+//        ArrayList<Double> selectorValueArrayList = new ArrayList<>();
+//        ArrayList<String> StartTime = new ArrayList<>();
         ArrayList<String> errorSrcXl = new ArrayList<>();
         ArrayList<String> errorEmptyMarkets = new ArrayList<>();
 
@@ -70,8 +70,7 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
                             String startTime = jsonObjectMatchID.get("ST").toString();
                             String isBlocked = jsonObjectMatchID.get("IB").toString();
                             gameIDs.add(matchID);
-
-                            StartTime.add(startTime);
+//                            StartTime.add(startTime);
                         }
                     }
                 }
@@ -168,31 +167,31 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
     Object[][] loginDataInvalid() {
 
         String[][] arr = {
-//                {"Handball"},
-//                {"Basketball"},
-//                {"Tennis"},
-//                {"Ice Hockey"},
-//                {"Rugby League"},
-//                {"Rugby Union"},
-//                {"Volleyball"},
-//                {"American Football"},
-//                {"Table Tennis"},
-//                {"Futsal"},
-//                {"Aussie Rules"},
-//                {"Cricket"},
-//                {"E-sports"},
-//                {"Baseball"},
-//                {"Biathlon"},
-//                {"Water Polo"},
-//                {"Boxing"},
-//                {"MMA"},
-//                {"Gaelic Football"},
-//                {"Lacrosse"},
-//                {"Darts"},
-//                {"Beach Soccer"},
-//                {"Squash"},
-//                {"Floorball"},
-//                {"Chess"},
+                {"Handball"},
+                {"Basketball"},
+                {"Tennis"},
+                {"Ice Hockey"},
+                {"Rugby League"},
+                {"Rugby Union"},
+                {"Volleyball"},
+                {"American Football"},
+                {"Table Tennis"},
+                {"Futsal"},
+                {"Aussie Rules"},
+                {"Cricket"},
+                {"E-sports"},
+                {"Baseball"},
+                {"Biathlon"},
+                {"Water Polo"},
+                {"Boxing"},
+                {"MMA"},
+                {"Gaelic Football"},
+                {"Lacrosse"},
+                {"Darts"},
+                {"Beach Soccer"},
+                {"Squash"},
+                {"Floorball"},
+                {"Chess"},
                 {"Soccer"}
         };
 
