@@ -1,16 +1,10 @@
 package testCases;
 
-import com.mashape.unirest.http.HttpResponse;
-import com.mashape.unirest.http.Unirest;
-import com.mashape.unirest.http.exceptions.UnirestException;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.SkipException;
@@ -19,19 +13,12 @@ import pageObjects.*;
 import utilities.DriverFactory;
 import utilities.ReadConfig;
 
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.net.HttpURLConnection;
-import java.net.URL;
-
 import java.time.Duration;
-import java.time.LocalDateTime;
-import java.time.Period;
 import java.util.ArrayList;
 
-import static java.lang.Double.parseDouble;
-import static java.lang.Integer.parseInt;
+
 
 
 public class BaseTest extends DriverFactory {

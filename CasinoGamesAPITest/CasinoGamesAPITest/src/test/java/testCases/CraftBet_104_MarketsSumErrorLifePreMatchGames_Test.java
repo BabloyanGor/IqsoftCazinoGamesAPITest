@@ -114,10 +114,10 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
                         selectorError = selectorError + 1 / selectorValue;
                     }
                     if (selectorError < 1) {
-//                        if (!MarketName.contains("To Miss A Penalty")) {
+                        if (!MarketName.contains("To Miss A Penalty")) {
                             logger.info("This market works for Client  GameID = " + gameId + "  MarketName = " + MarketName + "  MarketID = " + marketID + "  SelectorError = " + selectorError);
                             errorSrcXl.add("This market works for Client  GameID = " + gameId + "  MarketName = " + MarketName + "  MarketID = " + marketID + "  SelectorError = " + selectorError);
-//                        }
+                        }
                     }
                 }
             }
@@ -126,6 +126,12 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
 //                errorSrcXl.add(gameId + "  This game has no available Markets");
                 errorEmptyMarkets.add(gameId + "  This game has no available Markets");
             }
+
+            if(k==200){
+                break;
+            }
+
+
         }
         logger.info("Error Markets count is:  " + errorSrcXl.size());
         logger.info("Empty Markets count is:  " + errorEmptyMarkets.size());
@@ -161,11 +167,35 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
     @DataProvider(name = "sports")
     Object[][] loginDataInvalid() {
 
-        String[][] arr = {  {"Baseball"}, {"Biathlon"}, {"Water Polo"}, {"Boxing"}, {"MMA"}, {"Gaelic Football"}, {"Lacrosse"},
-                {"Darts"}, {"Squash"}, {"Floorball"}, {"Chess"}, {"Soccer"}
+        String[][] arr = {
+//                {"Handball"},
+//                {"Basketball"},
+//                {"Tennis"},
+//                {"Ice Hockey"},
+//                {"Rugby League"},
+//                {"Rugby Union"},
+//                {"Volleyball"},
+//                {"American Football"},
+//                {"Table Tennis"},
+//                {"Futsal"},
+//                {"Aussie Rules"},
+//                {"Cricket"},
+//                {"E-sports"},
+//                {"Baseball"},
+//                {"Biathlon"},
+//                {"Water Polo"},
+//                {"Boxing"},
+//                {"MMA"},
+//                {"Gaelic Football"},
+//                {"Lacrosse"},
+//                {"Darts"},
+//                {"Beach Soccer"},
+//                {"Squash"},
+//                {"Floorball"},
+//                {"Chess"},
+                {"Soccer"}
         };
-//        {"Handball"}, {"Basketball"}, {"Tennis"}, {"Ice Hockey"}, {"Rugby League"}, {"Rugby Union"}, {"Volleyball"}, {"American Football"}, {"Table Tennis"}, {"Futsal"},
-//        {"Aussie Rules"}, {"Cricket"}, {"E-sports"},
+
 //        String[][] arr = { {"Basketball"}};
         return arr;
     }
