@@ -114,10 +114,10 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
                         selectorError = selectorError + 1 / selectorValue;
                     }
                     if (selectorError < 1) {
-                        if (!MarketName.contains("To Miss A Penalty")) {
+//                        if (!MarketName.contains("To Miss A Penalty")) {
                             logger.info("This market works for Client  GameID = " + gameId + "  MarketName = " + MarketName + "  MarketID = " + marketID + "  SelectorError = " + selectorError);
                             errorSrcXl.add("This market works for Client  GameID = " + gameId + "  MarketName = " + MarketName + "  MarketID = " + marketID + "  SelectorError = " + selectorError);
-                        }
+//                        }
                     }
                 }
             }
