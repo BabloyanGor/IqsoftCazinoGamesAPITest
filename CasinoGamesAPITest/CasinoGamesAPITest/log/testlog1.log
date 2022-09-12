@@ -382,3 +382,579 @@
 2022-09-09 15:15:55,656 [main] INFO craftBet - Browser closed
 2022-09-09 15:15:55,657 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-09-09 15:15:55,672 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-10 10:29:27,956 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-10 10:29:29,113 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-10 10:29:29,133 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-10 10:29:33,690 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-10 10:29:33,765 [main] INFO craftBet - All Page elements are initialized
+2022-09-10 10:29:33,772 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-10 10:29:34,415 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-10 10:29:34,498 [main] INFO craftBet - Matches count is  = 179
+2022-09-10 10:34:50,040 [main] INFO craftBet - This market works for Client  GameID = 3756229  MarketName = CSD Mariano Acosta (W) Winning Margin  MarketID = 223721685  SelectorError = 0.15757015109466543
+2022-09-10 10:34:50,041 [main] INFO craftBet - This market works for Client  GameID = 3756229  MarketName = CSD Mariano Acosta (W) Winning Margin  MarketID = 223721688  SelectorError = 0.21935941049884344
+2022-09-10 10:35:53,016 [main] INFO craftBet - 3756022  This game has no available Markets
+2022-09-10 10:40:52,988 [main] INFO craftBet - Error Markets count is:  2
+2022-09-10 10:40:52,989 [main] INFO craftBet - Empty Markets count is:  1
+2022-09-10 10:40:54,085 [main] INFO craftBet - Browser closed
+2022-09-10 10:40:54,085 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-10 10:40:54,088 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-10 10:40:54,096 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-10 10:40:54,104 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-10 10:40:57,760 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-10 10:40:57,763 [main] INFO craftBet - All Page elements are initialized
+2022-09-10 10:40:57,769 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-10 10:40:58,103 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-10 10:40:58,140 [main] INFO craftBet - Matches count is  = 106
+2022-09-10 10:47:23,097 [main] INFO craftBet - 3717111  This game has no available Markets
+2022-09-10 10:47:23,535 [main] INFO craftBet - 3717136  This game has no available Markets
+2022-09-10 10:54:24,358 [main] INFO craftBet - Error Markets count is:  0
+2022-09-10 10:54:24,358 [main] INFO craftBet - Empty Markets count is:  2
+2022-09-10 10:54:24,440 [main] INFO craftBet - Browser closed
+2022-09-10 10:54:24,440 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-10 10:54:24,689 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-10 10:54:24,695 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-10 10:54:24,703 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-10 10:54:28,506 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-10 10:54:28,508 [main] INFO craftBet - All Page elements are initialized
+2022-09-10 10:54:28,515 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-10 10:54:28,718 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-10 10:54:28,776 [main] INFO craftBet - Matches count is  = 101
+2022-09-10 10:55:44,746 [main] INFO craftBet - Error Markets count is:  0
+2022-09-10 10:55:44,746 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-10 10:55:44,802 [main] INFO craftBet - Browser closed
+2022-09-10 10:55:44,802 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-10 10:55:44,808 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-10 10:55:44,829 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-10 10:55:44,849 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-10 10:55:46,007 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-10 10:55:46,009 [main] INFO craftBet - All Page elements are initialized
+2022-09-10 10:55:46,016 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-10 10:55:46,210 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-10 10:55:46,246 [main] INFO craftBet - Matches count is  = 151
+2022-09-10 10:56:13,502 [main] INFO craftBet - This market works for Client  GameID = 3751592  MarketName = Correct Score  MarketID = 223716965  SelectorError = 0.04342082433877378
+2022-09-10 10:56:16,917 [main] INFO craftBet - This market works for Client  GameID = 3751595  MarketName = Correct Score  MarketID = 223488721  SelectorError = 0.7910355902576817
+2022-09-10 10:57:25,012 [main] INFO craftBet - 3739999  This game has no available Markets
+2022-09-10 10:57:29,196 [main] INFO craftBet - 3740033  This game has no available Markets
+2022-09-10 10:57:33,077 [main] INFO craftBet - This market works for Client  GameID = 3740057  MarketName = Correct Score  MarketID = 223706558  SelectorError = 0.8765921277376679
+2022-09-10 10:57:48,326 [main] INFO craftBet - This market works for Client  GameID = 3751378  MarketName = Correct Score  MarketID = 223470264  SelectorError = 0.8440079509715279
+2022-09-10 10:57:50,502 [main] INFO craftBet - This market works for Client  GameID = 3751379  MarketName = Correct Score  MarketID = 223602425  SelectorError = 0.8471824264443872
+2022-09-10 10:58:36,099 [main] INFO craftBet - This market works for Client  GameID = 3751470  MarketName = Correct Score  MarketID = 223693874  SelectorError = 0.27203299911006096
+2022-09-10 10:58:40,510 [main] INFO craftBet - This market works for Client  GameID = 3751473  MarketName = Correct Score  MarketID = 223573269  SelectorError = 0.8205694367131708
+2022-09-10 10:58:51,171 [main] INFO craftBet - This market works for Client  GameID = 3739321  MarketName = Correct Score  MarketID = 223030724  SelectorError = 0.8296294145565939
+2022-09-10 10:58:55,452 [main] INFO craftBet - This market works for Client  GameID = 3739322  MarketName = Correct Score  MarketID = 223416539  SelectorError = 0.8680175646779196
+2022-09-10 10:59:00,451 [main] INFO craftBet - This market works for Client  GameID = 3739323  MarketName = Correct Score  MarketID = 223553144  SelectorError = 0.8728851684714638
+2022-09-10 10:59:17,318 [main] INFO craftBet - This market works for Client  GameID = 3716345  MarketName = Correct Score  MarketID = 223307077  SelectorError = 0.9187262966351337
+2022-09-10 10:59:23,028 [main] INFO craftBet - This market works for Client  GameID = 3716401  MarketName = Correct Score  MarketID = 223307105  SelectorError = 0.9187262966351337
+2022-09-10 10:59:25,610 [main] INFO craftBet - This market works for Client  GameID = 3716431  MarketName = Correct Score  MarketID = 223307124  SelectorError = 0.8990477389495696
+2022-09-10 10:59:28,761 [main] INFO craftBet - This market works for Client  GameID = 3716481  MarketName = Correct Score  MarketID = 222976705  SelectorError = 0.879309107287518
+2022-09-10 10:59:31,494 [main] INFO craftBet - This market works for Client  GameID = 3707726  MarketName = Correct Score  MarketID = 222779684  SelectorError = 0.9848931293732303
+2022-09-10 11:00:06,791 [main] INFO craftBet - This market works for Client  GameID = 3729400  MarketName = Correct Score  MarketID = 223295023  SelectorError = 0.9034845257411349
+2022-09-10 11:01:50,642 [main] INFO craftBet - This market works for Client  GameID = 3428784  MarketName = Correct Score  MarketID = 223296892  SelectorError = 0.838081315830425
+2022-09-10 11:02:03,748 [main] INFO craftBet - This market works for Client  GameID = 3428787  MarketName = Correct Score  MarketID = 222324684  SelectorError = 0.8932778910184889
+2022-09-10 11:02:09,212 [main] INFO craftBet - This market works for Client  GameID = 3751973  MarketName = Correct Score  MarketID = 223591410  SelectorError = 0.941951586089629
+2022-09-10 11:02:09,212 [main] INFO craftBet - Error Markets count is:  19
+2022-09-10 11:02:09,212 [main] INFO craftBet - Empty Markets count is:  2
+2022-09-10 11:02:09,319 [main] INFO craftBet - Browser closed
+2022-09-10 11:02:09,320 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-10 11:02:09,321 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-10 11:02:09,326 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-10 11:02:09,333 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-10 11:02:10,497 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-10 11:02:10,500 [main] INFO craftBet - All Page elements are initialized
+2022-09-10 11:02:10,505 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-10 11:02:10,696 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-10 11:02:10,725 [main] INFO craftBet - Matches count is  = 10
+2022-09-10 11:02:29,094 [main] INFO craftBet - Error Markets count is:  0
+2022-09-10 11:02:29,095 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-10 11:02:29,206 [main] INFO craftBet - Browser closed
+2022-09-10 11:02:29,206 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-10 11:02:29,207 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-10 11:02:29,212 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-10 11:02:29,219 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-10 11:02:30,290 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-10 11:02:30,293 [main] INFO craftBet - All Page elements are initialized
+2022-09-10 11:02:30,299 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-10 11:02:30,488 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-10 11:02:30,520 [main] INFO craftBet - Matches count is  = 34
+2022-09-10 11:02:32,052 [main] INFO craftBet - 3717017  This game has no available Markets
+2022-09-10 11:03:03,650 [main] INFO craftBet - Error Markets count is:  0
+2022-09-10 11:03:03,650 [main] INFO craftBet - Empty Markets count is:  1
+2022-09-10 11:03:03,734 [main] INFO craftBet - Browser closed
+2022-09-10 11:03:03,734 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-10 11:03:03,735 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-10 11:03:03,739 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-10 11:03:03,746 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-10 11:03:04,810 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-10 11:03:04,812 [main] INFO craftBet - All Page elements are initialized
+2022-09-10 11:03:04,817 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-10 11:03:05,169 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-10 11:03:05,201 [main] INFO craftBet - Matches count is  = 168
+2022-09-10 11:04:52,652 [main] INFO craftBet - 3737574  This game has no available Markets
+2022-09-10 11:04:53,879 [main] INFO craftBet - 3737581  This game has no available Markets
+2022-09-10 11:06:55,298 [main] INFO craftBet - Error Markets count is:  0
+2022-09-10 11:06:55,299 [main] INFO craftBet - Empty Markets count is:  2
+2022-09-10 11:06:55,388 [main] INFO craftBet - Browser closed
+2022-09-10 11:06:55,388 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-10 11:06:55,390 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-10 11:06:55,394 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-10 11:06:55,401 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-10 11:06:56,492 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-10 11:06:56,494 [main] INFO craftBet - All Page elements are initialized
+2022-09-10 11:06:56,499 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-10 11:06:56,714 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-10 11:06:56,744 [main] INFO craftBet - Matches count is  = 227
+2022-09-10 11:11:47,463 [main] INFO craftBet - 3716971  This game has no available Markets
+2022-09-10 11:11:54,849 [main] INFO craftBet - 3717027  This game has no available Markets
+2022-09-10 11:11:54,962 [main] INFO craftBet - 3717029  This game has no available Markets
+2022-09-10 11:11:55,951 [main] INFO craftBet - 3717035  This game has no available Markets
+2022-09-10 11:11:56,742 [main] INFO craftBet - 3717039  This game has no available Markets
+2022-09-10 11:11:58,030 [main] INFO craftBet - 3717051  This game has no available Markets
+2022-09-10 11:12:00,009 [main] INFO craftBet - 3717065  This game has no available Markets
+2022-09-10 11:12:00,519 [main] INFO craftBet - 3717067  This game has no available Markets
+2022-09-10 11:12:01,727 [main] INFO craftBet - 3717074  This game has no available Markets
+2022-09-10 11:12:02,588 [main] INFO craftBet - 3717083  This game has no available Markets
+2022-09-10 11:12:05,820 [main] INFO craftBet - 3717105  This game has no available Markets
+2022-09-10 11:12:09,253 [main] INFO craftBet - 3717129  This game has no available Markets
+2022-09-10 11:12:13,168 [main] INFO craftBet - 3717149  This game has no available Markets
+2022-09-10 11:12:14,621 [main] INFO craftBet - 3717159  This game has no available Markets
+2022-09-10 11:12:14,805 [main] INFO craftBet - 3717161  This game has no available Markets
+2022-09-10 11:12:16,517 [main] INFO craftBet - 3717171  This game has no available Markets
+2022-09-10 11:12:20,390 [main] INFO craftBet - 3717202  This game has no available Markets
+2022-09-10 11:12:24,698 [main] INFO craftBet - 3717241  This game has no available Markets
+2022-09-10 11:12:26,595 [main] INFO craftBet - Error Markets count is:  0
+2022-09-10 11:12:26,595 [main] INFO craftBet - Empty Markets count is:  18
+2022-09-10 11:12:26,677 [main] INFO craftBet - Browser closed
+2022-09-10 11:12:26,678 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-10 11:12:26,679 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-10 11:12:26,683 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-10 11:12:26,689 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-10 11:12:27,882 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-10 11:12:27,883 [main] INFO craftBet - All Page elements are initialized
+2022-09-10 11:12:28,111 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-10 11:12:28,316 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-10 11:12:28,348 [main] INFO craftBet - Matches count is  = 452
+2022-09-10 11:13:06,039 [main] INFO craftBet - 3757574  This game has no available Markets
+2022-09-10 11:13:06,199 [main] INFO craftBet - 3756765  This game has no available Markets
+2022-09-10 11:13:07,592 [main] INFO craftBet - 3756778  This game has no available Markets
+2022-09-10 11:13:07,696 [main] INFO craftBet - 3756783  This game has no available Markets
+2022-09-10 11:13:07,809 [main] INFO craftBet - 3756787  This game has no available Markets
+2022-09-10 11:13:09,289 [main] INFO craftBet - 3757409  This game has no available Markets
+2022-09-10 11:13:09,430 [main] INFO craftBet - 3757421  This game has no available Markets
+2022-09-10 11:13:09,559 [main] INFO craftBet - 3757429  This game has no available Markets
+2022-09-10 11:13:13,531 [main] INFO craftBet - 3757714  This game has no available Markets
+2022-09-10 11:13:31,674 [main] INFO craftBet - 3756880  This game has no available Markets
+2022-09-10 11:13:31,774 [main] INFO craftBet - 3756882  This game has no available Markets
+2022-09-10 11:13:33,812 [main] INFO craftBet - 3757694  This game has no available Markets
+2022-09-10 11:13:33,950 [main] INFO craftBet - 3757695  This game has no available Markets
+2022-09-10 11:13:34,141 [main] INFO craftBet - 3757696  This game has no available Markets
+2022-09-10 11:13:34,248 [main] INFO craftBet - 3757697  This game has no available Markets
+2022-09-10 11:13:34,357 [main] INFO craftBet - 3757700  This game has no available Markets
+2022-09-10 11:13:59,560 [main] INFO craftBet - 3756766  This game has no available Markets
+2022-09-10 11:14:00,452 [main] INFO craftBet - 3756972  This game has no available Markets
+2022-09-10 11:14:00,591 [main] INFO craftBet - 3756981  This game has no available Markets
+2022-09-10 11:14:02,610 [main] INFO craftBet - 3756989  This game has no available Markets
+2022-09-10 11:14:10,879 [main] INFO craftBet - 3757554  This game has no available Markets
+2022-09-10 11:14:11,557 [main] INFO craftBet - 3757557  This game has no available Markets
+2022-09-10 11:14:12,528 [main] INFO craftBet - 3757568  This game has no available Markets
+2022-09-10 11:14:17,123 [main] INFO craftBet - 3757773  This game has no available Markets
+2022-09-10 11:14:17,238 [main] INFO craftBet - 3757774  This game has no available Markets
+2022-09-10 11:14:17,239 [main] INFO craftBet - Error Markets count is:  0
+2022-09-10 11:14:17,239 [main] INFO craftBet - Empty Markets count is:  25
+2022-09-10 11:14:17,317 [main] INFO craftBet - Browser closed
+2022-09-10 11:14:17,318 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-10 11:14:17,319 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-10 11:14:17,323 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-10 11:14:17,329 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-10 11:14:18,374 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-10 11:14:18,375 [main] INFO craftBet - All Page elements are initialized
+2022-09-10 11:14:18,381 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-10 11:14:18,629 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-10 11:14:18,658 [main] INFO craftBet - Matches count is  = 11
+2022-09-10 11:14:31,607 [main] INFO craftBet - Error Markets count is:  0
+2022-09-10 11:14:31,607 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-10 11:14:31,669 [main] INFO craftBet - Browser closed
+2022-09-10 11:14:31,669 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-10 11:14:31,670 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-10 11:14:31,675 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-10 11:14:31,682 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-10 11:14:32,801 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-10 11:14:32,803 [main] INFO craftBet - All Page elements are initialized
+2022-09-10 11:14:32,808 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-10 11:14:32,997 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-10 11:14:33,025 [main] INFO craftBet - Matches count is  = 12
+2022-09-10 11:14:40,309 [main] INFO craftBet - This market works for Client  GameID = 3739782  MarketName = Winning Margin  MarketID = 223746742  SelectorError = 0.9668109668109668
+2022-09-10 11:14:40,310 [main] INFO craftBet - This market works for Client  GameID = 3739782  MarketName = Winning Margin  MarketID = 223746743  SelectorError = 0.16241754705850808
+2022-09-10 11:14:40,310 [main] INFO craftBet - This market works for Client  GameID = 3739782  MarketName = Winning Margin  MarketID = 223746749  SelectorError = 0.18037488516211922
+2022-09-10 11:14:42,716 [main] INFO craftBet - This market works for Client  GameID = 3739786  MarketName = Winning Margin  MarketID = 223753570  SelectorError = 0.025128205128205128
+2022-09-10 11:14:42,717 [main] INFO craftBet - This market works for Client  GameID = 3739786  MarketName = Winning Margin  MarketID = 223753573  SelectorError = 0.015330060010911074
+2022-09-10 11:14:42,717 [main] INFO craftBet - This market works for Client  GameID = 3739786  MarketName = 1 Half Winning Margin  MarketID = 223753574  SelectorError = 0.00851063829787234
+2022-09-10 11:14:42,717 [main] INFO craftBet - This market works for Client  GameID = 3739786  MarketName = 1 Half Winning Margin  MarketID = 223753566  SelectorError = 0.00425531914893617
+2022-09-10 11:14:46,047 [main] INFO craftBet - Error Markets count is:  7
+2022-09-10 11:14:46,047 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-10 11:14:46,172 [main] INFO craftBet - Browser closed
+2022-09-10 11:14:46,172 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-10 11:14:46,175 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-10 11:14:46,183 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-10 11:14:46,196 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-10 11:14:47,336 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-10 11:14:47,337 [main] INFO craftBet - All Page elements are initialized
+2022-09-10 11:14:47,564 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-10 11:14:47,768 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-10 11:14:47,795 [main] INFO craftBet - Matches count is  = 34
+2022-09-10 11:15:00,742 [main] INFO craftBet - 3757681  This game has no available Markets
+2022-09-10 11:15:03,467 [main] INFO craftBet - 3757387  This game has no available Markets
+2022-09-10 11:15:15,051 [main] INFO craftBet - 3755768  This game has no available Markets
+2022-09-10 11:15:15,051 [main] INFO craftBet - Error Markets count is:  0
+2022-09-10 11:15:15,051 [main] INFO craftBet - Empty Markets count is:  3
+2022-09-10 11:15:15,139 [main] INFO craftBet - Browser closed
+2022-09-10 11:15:15,139 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-10 11:15:15,143 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-10 11:15:15,153 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-10 11:15:15,164 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-10 11:15:16,265 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-10 11:15:16,266 [main] INFO craftBet - All Page elements are initialized
+2022-09-10 11:15:16,504 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-10 11:15:16,905 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-10 11:15:16,937 [main] INFO craftBet - Matches count is  = 224
+2022-09-10 11:15:22,001 [main] INFO craftBet - This market works for Client  GameID = 3757095  MarketName = Correct Score  MarketID = 223640384  SelectorError = 0.9912885555660943
+2022-09-10 11:15:23,848 [main] INFO craftBet - This market works for Client  GameID = 3757096  MarketName = Correct Score  MarketID = 223641325  SelectorError = 0.9994789005811664
+2022-09-10 11:15:25,179 [main] INFO craftBet - This market works for Client  GameID = 3757546  MarketName = Correct Score  MarketID = 223668870  SelectorError = 0.9912885555660943
+2022-09-10 11:15:27,572 [main] INFO craftBet - This market works for Client  GameID = 3751476  MarketName = Correct Score  MarketID = 223544407  SelectorError = 0.9256205162035128
+2022-09-10 11:15:27,962 [main] INFO craftBet - This market works for Client  GameID = 3751477  MarketName = Correct Score  MarketID = 223544428  SelectorError = 0.9225281634119428
+2022-09-10 11:15:28,245 [main] INFO craftBet - This market works for Client  GameID = 3751478  MarketName = Correct Score  MarketID = 223544449  SelectorError = 0.9204846845909823
+2022-09-10 11:15:28,937 [main] INFO craftBet - This market works for Client  GameID = 3751482  MarketName = Correct Score  MarketID = 223542900  SelectorError = 0.9249480461963002
+2022-09-10 11:15:29,307 [main] INFO craftBet - This market works for Client  GameID = 3751483  MarketName = Correct Score  MarketID = 223544225  SelectorError = 0.929952628717869
+2022-09-10 11:15:29,584 [main] INFO craftBet - This market works for Client  GameID = 3751484  MarketName = Correct Score  MarketID = 223544251  SelectorError = 0.9318181818181819
+2022-09-10 11:15:31,009 [main] INFO craftBet - This market works for Client  GameID = 3756363  MarketName = Correct Score  MarketID = 223592723  SelectorError = 0.9485263594852635
+2022-09-10 11:15:33,121 [main] INFO craftBet - This market works for Client  GameID = 3688776  MarketName = Correct Score  MarketID = 220711609  SelectorError = 0.9663043221589941
+2022-09-10 11:15:35,632 [main] INFO craftBet - This market works for Client  GameID = 3688779  MarketName = Correct Score  MarketID = 220711654  SelectorError = 0.9936809107554053
+2022-09-10 11:15:37,307 [main] INFO craftBet - This market works for Client  GameID = 3720487  MarketName = Correct Score  MarketID = 222283192  SelectorError = 0.9941198158604347
+2022-09-10 11:15:40,548 [main] INFO craftBet - This market works for Client  GameID = 3750328  MarketName = Correct Score  MarketID = 223383985  SelectorError = 0.9521698520371298
+2022-09-10 11:15:42,318 [main] INFO craftBet - This market works for Client  GameID = 3750329  MarketName = Correct Score  MarketID = 223449942  SelectorError = 0.9525401951073521
+2022-09-10 11:15:48,076 [main] INFO craftBet - This market works for Client  GameID = 3756067  MarketName = Correct Score  MarketID = 223571547  SelectorError = 0.9658965043491189
+2022-09-10 11:15:50,125 [main] INFO craftBet - This market works for Client  GameID = 3756050  MarketName = Correct Score  MarketID = 223571108  SelectorError = 0.9343728650082386
+2022-09-10 11:15:50,801 [main] INFO craftBet - This market works for Client  GameID = 3756052  MarketName = Correct Score  MarketID = 223571140  SelectorError = 0.9315222807131562
+2022-09-10 11:15:51,377 [main] INFO craftBet - This market works for Client  GameID = 3756053  MarketName = Correct Score  MarketID = 223571182  SelectorError = 0.9343728650082386
+2022-09-10 11:15:52,024 [main] INFO craftBet - This market works for Client  GameID = 3756054  MarketName = Correct Score  MarketID = 223571244  SelectorError = 0.9349060725207514
+2022-09-10 11:15:54,000 [main] INFO craftBet - This market works for Client  GameID = 3748596  MarketName = Correct Score  MarketID = 223218857  SelectorError = 0.9786864369717752
+2022-09-10 11:16:04,234 [main] INFO craftBet - This market works for Client  GameID = 3747270  MarketName = Correct Score  MarketID = 223725150  SelectorError = 0.9550447762355536
+2022-09-10 11:16:22,341 [main] INFO craftBet - This market works for Client  GameID = 3756065  MarketName = Correct Score  MarketID = 223571517  SelectorError = 0.928551735003348
+2022-09-10 11:16:23,697 [main] INFO craftBet - This market works for Client  GameID = 3758867  MarketName = Correct Score  MarketID = 223727255  SelectorError = 0.9886202121175924
+2022-09-10 11:16:25,905 [main] INFO craftBet - This market works for Client  GameID = 3750729  MarketName = Correct Score  MarketID = 223305950  SelectorError = 0.935646556884916
+2022-09-10 11:16:29,238 [main] INFO craftBet - This market works for Client  GameID = 3750730  MarketName = Correct Score  MarketID = 223305976  SelectorError = 0.9355617143021664
+2022-09-10 11:16:29,899 [main] INFO craftBet - This market works for Client  GameID = 3751265  MarketName = Correct Score  MarketID = 223411508  SelectorError = 0.9342534069994378
+2022-09-10 11:16:33,080 [main] INFO craftBet - This market works for Client  GameID = 3756044  MarketName = Correct Score  MarketID = 223570950  SelectorError = 0.9447751211437787
+2022-09-10 11:16:35,127 [main] INFO craftBet - This market works for Client  GameID = 3756048  MarketName = Correct Score  MarketID = 223571041  SelectorError = 0.9403137473312911
+2022-09-10 11:16:37,190 [main] INFO craftBet - This market works for Client  GameID = 3743950  MarketName = Correct Score  MarketID = 223479659  SelectorError = 0.9657752742303889
+2022-09-10 11:16:38,254 [main] INFO craftBet - This market works for Client  GameID = 3743954  MarketName = Correct Score  MarketID = 223741126  SelectorError = 0.953071349788176
+2022-09-10 11:16:42,081 [main] INFO craftBet - This market works for Client  GameID = 3715072  MarketName = Correct Score  MarketID = 222636253  SelectorError = 0.954088050130006
+2022-09-10 11:16:42,506 [main] INFO craftBet - This market works for Client  GameID = 3715073  MarketName = Correct Score  MarketID = 221572593  SelectorError = 0.9554947087811794
+2022-09-10 11:16:43,654 [main] INFO craftBet - This market works for Client  GameID = 3756845  MarketName = Correct Score  MarketID = 223627677  SelectorError = 0.9485590325012111
+2022-09-10 11:16:44,330 [main] INFO craftBet - This market works for Client  GameID = 3754334  MarketName = Correct Score  MarketID = 223490842  SelectorError = 0.9382151236109786
+2022-09-10 11:16:45,189 [main] INFO craftBet - This market works for Client  GameID = 3754992  MarketName = Correct Score  MarketID = 223512980  SelectorError = 0.9672960661999691
+2022-09-10 11:16:45,984 [main] INFO craftBet - This market works for Client  GameID = 3758875  MarketName = Correct Score  MarketID = 223727239  SelectorError = 0.9893331087114667
+2022-09-10 11:16:46,426 [main] INFO craftBet - This market works for Client  GameID = 3715063  MarketName = Correct Score  MarketID = 221572178  SelectorError = 0.9466511407254065
+2022-09-10 11:16:47,154 [main] INFO craftBet - This market works for Client  GameID = 3715066  MarketName = Correct Score  MarketID = 221572315  SelectorError = 0.994252733142421
+2022-09-10 11:16:48,584 [main] INFO craftBet - This market works for Client  GameID = 3715069  MarketName = Correct Score  MarketID = 221572436  SelectorError = 0.9853504989679942
+2022-09-10 11:16:49,351 [main] INFO craftBet - This market works for Client  GameID = 3715071  MarketName = Correct Score  MarketID = 221572519  SelectorError = 0.9713358127175862
+2022-09-10 11:16:49,982 [main] INFO craftBet - This market works for Client  GameID = 3715080  MarketName = Correct Score  MarketID = 221572894  SelectorError = 0.9662058157850302
+2022-09-10 11:16:50,635 [main] INFO craftBet - This market works for Client  GameID = 3715082  MarketName = Correct Score  MarketID = 221572931  SelectorError = 0.9693691653956378
+2022-09-10 11:17:05,361 [main] INFO craftBet - This market works for Client  GameID = 3739406  MarketName = Correct Score  MarketID = 222840298  SelectorError = 0.9721471271873718
+2022-09-10 11:17:06,566 [main] INFO craftBet - This market works for Client  GameID = 3738618  MarketName = Correct Score  MarketID = 222808136  SelectorError = 0.9751445466148194
+2022-09-10 11:17:12,768 [main] INFO craftBet - 3741087  This game has no available Markets
+2022-09-10 11:17:14,376 [main] INFO craftBet - This market works for Client  GameID = 3756056  MarketName = Correct Score  MarketID = 223571307  SelectorError = 0.9354130463323957
+2022-09-10 11:17:14,842 [main] INFO craftBet - This market works for Client  GameID = 3756058  MarketName = Correct Score  MarketID = 223571359  SelectorError = 0.9603147175865356
+2022-09-10 11:17:15,299 [main] INFO craftBet - 3740332  This game has no available Markets
+2022-09-10 11:17:15,860 [main] INFO craftBet - This market works for Client  GameID = 3746547  MarketName = Correct Score  MarketID = 223128852  SelectorError = 0.9862795816306485
+2022-09-10 11:17:16,349 [main] INFO craftBet - This market works for Client  GameID = 3746548  MarketName = Correct Score  MarketID = 223128882  SelectorError = 0.9915178591476176
+2022-09-10 11:17:16,736 [main] INFO craftBet - This market works for Client  GameID = 3746549  MarketName = Correct Score  MarketID = 223128888  SelectorError = 0.9867699529729506
+2022-09-10 11:17:17,416 [main] INFO craftBet - This market works for Client  GameID = 3756471  MarketName = Correct Score  MarketID = 223600101  SelectorError = 0.9840845447903702
+2022-09-10 11:17:17,942 [main] INFO craftBet - This market works for Client  GameID = 3750703  MarketName = Correct Score  MarketID = 223305640  SelectorError = 0.9536145640675237
+2022-09-10 11:17:18,123 [main] INFO craftBet - 3753548  This game has no available Markets
+2022-09-10 11:17:18,609 [main] INFO craftBet - This market works for Client  GameID = 3756364  MarketName = Correct Score  MarketID = 223592731  SelectorError = 0.9717203562757013
+2022-09-10 11:17:19,118 [main] INFO craftBet - This market works for Client  GameID = 3756365  MarketName = Correct Score  MarketID = 223592742  SelectorError = 0.9688739166442364
+2022-09-10 11:17:19,573 [main] INFO craftBet - This market works for Client  GameID = 3756367  MarketName = Correct Score  MarketID = 223592777  SelectorError = 0.9741449642400876
+2022-09-10 11:17:20,109 [main] INFO craftBet - This market works for Client  GameID = 3756041  MarketName = Correct Score  MarketID = 223570782  SelectorError = 0.9859591722530328
+2022-09-10 11:17:20,581 [main] INFO craftBet - This market works for Client  GameID = 3756042  MarketName = Correct Score  MarketID = 223570815  SelectorError = 0.9845390627651175
+2022-09-10 11:17:21,110 [main] INFO craftBet - This market works for Client  GameID = 3746556  MarketName = Correct Score  MarketID = 223128930  SelectorError = 0.9830556257131191
+2022-09-10 11:17:21,589 [main] INFO craftBet - This market works for Client  GameID = 3746557  MarketName = Correct Score  MarketID = 223128916  SelectorError = 0.9887391169807589
+2022-09-10 11:17:22,051 [main] INFO craftBet - This market works for Client  GameID = 3746558  MarketName = Correct Score  MarketID = 223128923  SelectorError = 0.9848728316978126
+2022-09-10 11:17:22,536 [main] INFO craftBet - This market works for Client  GameID = 3746575  MarketName = Correct Score  MarketID = 223128908  SelectorError = 0.9887391169807589
+2022-09-10 11:17:23,034 [main] INFO craftBet - This market works for Client  GameID = 3756043  MarketName = Correct Score  MarketID = 223570887  SelectorError = 0.9789377525904027
+2022-09-10 11:17:24,742 [main] INFO craftBet - 3715136  This game has no available Markets
+2022-09-10 11:17:27,579 [main] INFO craftBet - This market works for Client  GameID = 3753535  MarketName = Correct Score  MarketID = 223459646  SelectorError = 0.9795221508623961
+2022-09-10 11:17:28,025 [main] INFO craftBet - This market works for Client  GameID = 3753536  MarketName = Correct Score  MarketID = 223459650  SelectorError = 0.9828872656597374
+2022-09-10 11:17:28,489 [main] INFO craftBet - This market works for Client  GameID = 3753550  MarketName = Correct Score  MarketID = 223459654  SelectorError = 0.9897419601130996
+2022-09-10 11:17:28,988 [main] INFO craftBet - This market works for Client  GameID = 3753551  MarketName = Correct Score  MarketID = 223459662  SelectorError = 0.9776986711567721
+2022-09-10 11:17:31,297 [main] INFO craftBet - This market works for Client  GameID = 3750693  MarketName = Correct Score  MarketID = 223305796  SelectorError = 0.9844883142385568
+2022-09-10 11:17:33,676 [main] INFO craftBet - This market works for Client  GameID = 3754344  MarketName = Correct Score  MarketID = 223491094  SelectorError = 0.9882086460641423
+2022-09-10 11:17:49,427 [main] INFO craftBet - This market works for Client  GameID = 3715100  MarketName = Correct Score  MarketID = 221574484  SelectorError = 0.9317531842489358
+2022-09-10 11:17:54,409 [main] INFO craftBet - This market works for Client  GameID = 3715105  MarketName = Correct Score  MarketID = 221574940  SelectorError = 0.9172072485021205
+2022-09-10 11:17:59,041 [main] INFO craftBet - This market works for Client  GameID = 3715107  MarketName = Correct Score  MarketID = 221575222  SelectorError = 0.9174852437380829
+2022-09-10 11:18:03,609 [main] INFO craftBet - This market works for Client  GameID = 3715108  MarketName = Correct Score  MarketID = 221575352  SelectorError = 0.9712207649177432
+2022-09-10 11:18:08,097 [main] INFO craftBet - This market works for Client  GameID = 3715109  MarketName = Correct Score  MarketID = 221575405  SelectorError = 0.9758814900878847
+2022-09-10 11:18:12,079 [main] INFO craftBet - This market works for Client  GameID = 3715111  MarketName = Correct Score  MarketID = 221575635  SelectorError = 0.9305001266359398
+2022-09-10 11:18:17,116 [main] INFO craftBet - This market works for Client  GameID = 3715114  MarketName = Correct Score  MarketID = 221575927  SelectorError = 0.9364299659997247
+2022-09-10 11:18:21,909 [main] INFO craftBet - This market works for Client  GameID = 3715115  MarketName = Correct Score  MarketID = 221576300  SelectorError = 0.9677009969228949
+2022-09-10 11:18:26,993 [main] INFO craftBet - This market works for Client  GameID = 3715118  MarketName = Correct Score  MarketID = 221576518  SelectorError = 0.9599330451733197
+2022-09-10 11:18:31,794 [main] INFO craftBet - This market works for Client  GameID = 3715119  MarketName = Correct Score  MarketID = 221576627  SelectorError = 0.9401327891024575
+2022-09-10 11:18:36,007 [main] INFO craftBet - This market works for Client  GameID = 3715120  MarketName = Correct Score  MarketID = 221576929  SelectorError = 0.9874196047420769
+2022-09-10 11:18:36,011 [main] INFO craftBet - Error Markets count is:  79
+2022-09-10 11:18:36,011 [main] INFO craftBet - Empty Markets count is:  4
+2022-09-10 11:18:36,101 [main] INFO craftBet - Browser closed
+2022-09-10 11:18:36,101 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-10 11:18:36,106 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-10 11:18:36,121 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-10 11:18:36,135 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-10 11:18:37,390 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-10 11:18:37,392 [main] INFO craftBet - All Page elements are initialized
+2022-09-10 11:18:37,396 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-10 11:18:37,569 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-10 11:18:37,598 [main] INFO craftBet - Matches count is  = 23
+2022-09-10 11:19:08,821 [main] INFO craftBet - Error Markets count is:  0
+2022-09-10 11:19:08,822 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-10 11:19:08,939 [main] INFO craftBet - Browser closed
+2022-09-10 11:19:08,939 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-10 11:19:08,943 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-10 11:19:08,947 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-10 11:19:08,953 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-10 11:19:10,010 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-10 11:19:10,011 [main] INFO craftBet - All Page elements are initialized
+2022-09-10 11:19:10,017 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-10 11:19:10,211 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-10 11:19:10,243 [main] INFO craftBet - Matches count is  = 7
+2022-09-10 11:19:10,401 [main] INFO craftBet - 3241657  This game has no available Markets
+2022-09-10 11:19:10,585 [main] INFO craftBet - 3243551  This game has no available Markets
+2022-09-10 11:19:10,813 [main] INFO craftBet - 3243552  This game has no available Markets
+2022-09-10 11:19:11,001 [main] INFO craftBet - 3243553  This game has no available Markets
+2022-09-10 11:19:11,175 [main] INFO craftBet - 3243554  This game has no available Markets
+2022-09-10 11:19:11,335 [main] INFO craftBet - 3243555  This game has no available Markets
+2022-09-10 11:19:11,603 [main] INFO craftBet - 3243556  This game has no available Markets
+2022-09-10 11:19:11,603 [main] INFO craftBet - Error Markets count is:  0
+2022-09-10 11:19:11,603 [main] INFO craftBet - Empty Markets count is:  7
+2022-09-10 11:19:11,694 [main] INFO craftBet - Browser closed
+2022-09-10 11:19:11,694 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-10 11:19:11,697 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-10 11:19:11,701 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-10 11:19:11,706 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-10 11:19:12,778 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-10 11:19:12,780 [main] INFO craftBet - All Page elements are initialized
+2022-09-10 11:19:12,785 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-10 11:19:12,978 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-10 11:19:13,007 [main] INFO craftBet - Matches count is  = 4
+2022-09-10 11:19:21,587 [main] INFO craftBet - Error Markets count is:  0
+2022-09-10 11:19:21,587 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-10 11:19:21,698 [main] INFO craftBet - Browser closed
+2022-09-10 11:19:21,698 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-10 11:19:21,701 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-10 11:19:21,706 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-10 11:19:21,711 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-10 11:19:22,858 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-10 11:19:22,860 [main] INFO craftBet - All Page elements are initialized
+2022-09-10 11:19:23,103 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-10 11:19:23,297 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-10 11:19:23,332 [main] INFO craftBet - Matches count is  = 42
+2022-09-10 11:19:38,846 [main] INFO craftBet - Error Markets count is:  0
+2022-09-10 11:19:38,847 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-10 11:19:38,929 [main] INFO craftBet - Browser closed
+2022-09-10 11:19:38,929 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-10 11:19:38,932 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-10 11:19:38,937 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-10 11:19:38,943 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-10 11:19:40,025 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-10 11:19:40,026 [main] INFO craftBet - All Page elements are initialized
+2022-09-10 11:19:40,268 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-10 11:19:40,481 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-10 11:19:40,515 [main] INFO craftBet - Matches count is  = 124
+2022-09-10 11:19:43,174 [main] INFO craftBet - 3716910  This game has no available Markets
+2022-09-10 11:19:49,365 [main] INFO craftBet - 3733324  This game has no available Markets
+2022-09-10 11:19:49,532 [main] INFO craftBet - 3733325  This game has no available Markets
+2022-09-10 11:19:49,690 [main] INFO craftBet - 3733326  This game has no available Markets
+2022-09-10 11:19:53,155 [main] INFO craftBet - 3716947  This game has no available Markets
+2022-09-10 11:20:10,324 [main] INFO craftBet - 3704047  This game has no available Markets
+2022-09-10 11:20:11,479 [main] INFO craftBet - 3710937  This game has no available Markets
+2022-09-10 11:20:14,721 [main] INFO craftBet - 3716839  This game has no available Markets
+2022-09-10 11:20:16,552 [main] INFO craftBet - 3716865  This game has no available Markets
+2022-09-10 11:20:17,004 [main] INFO craftBet - 3716871  This game has no available Markets
+2022-09-10 11:20:28,332 [main] INFO craftBet - Error Markets count is:  0
+2022-09-10 11:20:28,332 [main] INFO craftBet - Empty Markets count is:  10
+2022-09-10 11:20:28,413 [main] INFO craftBet - Browser closed
+2022-09-10 11:20:28,414 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-10 11:20:28,415 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-10 11:20:28,419 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-10 11:20:28,426 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-10 11:20:29,552 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-10 11:20:29,554 [main] INFO craftBet - All Page elements are initialized
+2022-09-10 11:20:29,558 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-10 11:20:29,909 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-10 11:20:29,941 [main] INFO craftBet - Matches count is  = 98
+2022-09-10 11:20:41,183 [main] INFO craftBet - 3749299  This game has no available Markets
+2022-09-10 11:20:46,032 [main] INFO craftBet - 3741559  This game has no available Markets
+2022-09-10 11:20:46,474 [main] INFO craftBet - 3741561  This game has no available Markets
+2022-09-10 11:20:46,632 [main] INFO craftBet - 3741562  This game has no available Markets
+2022-09-10 11:20:46,797 [main] INFO craftBet - 3741563  This game has no available Markets
+2022-09-10 11:20:57,594 [main] INFO craftBet - 3749301  This game has no available Markets
+2022-09-10 11:20:59,613 [main] INFO craftBet - Error Markets count is:  0
+2022-09-10 11:20:59,614 [main] INFO craftBet - Empty Markets count is:  6
+2022-09-10 11:20:59,699 [main] INFO craftBet - Browser closed
+2022-09-10 11:20:59,699 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-10 11:20:59,700 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-10 11:20:59,707 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-10 11:20:59,713 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-10 11:21:00,809 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-10 11:21:00,811 [main] INFO craftBet - All Page elements are initialized
+2022-09-10 11:21:00,815 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-10 11:21:01,053 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-10 11:21:01,083 [main] INFO craftBet - Matches count is  = 2
+2022-09-10 11:21:01,262 [main] INFO craftBet - 3739819  This game has no available Markets
+2022-09-10 11:21:01,436 [main] INFO craftBet - 3739820  This game has no available Markets
+2022-09-10 11:21:01,436 [main] INFO craftBet - Error Markets count is:  0
+2022-09-10 11:21:01,436 [main] INFO craftBet - Empty Markets count is:  2
+2022-09-10 11:21:01,536 [main] INFO craftBet - Browser closed
+2022-09-10 11:21:01,536 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-10 11:21:01,538 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-10 11:21:01,541 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-10 11:21:01,547 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-10 11:21:02,626 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-10 11:21:02,628 [main] INFO craftBet - All Page elements are initialized
+2022-09-10 11:21:02,846 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-10 11:21:03,082 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-10 11:21:03,119 [main] INFO craftBet - Matches count is  = 31
+2022-09-10 11:21:33,712 [main] INFO craftBet - Error Markets count is:  0
+2022-09-10 11:21:33,713 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-10 11:21:33,790 [main] INFO craftBet - Browser closed
+2022-09-10 11:21:33,790 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-10 11:21:33,792 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-10 11:21:33,795 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-10 11:21:33,800 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-10 11:21:34,875 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-10 11:21:34,877 [main] INFO craftBet - All Page elements are initialized
+2022-09-10 11:21:34,882 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-10 11:21:35,081 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-10 11:21:35,116 [main] INFO craftBet - Matches count is  = 0
+2022-09-10 11:21:35,117 [main] INFO craftBet - Error Markets count is:  0
+2022-09-10 11:21:35,117 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-10 11:21:35,195 [main] INFO craftBet - Browser closed
+2022-09-10 11:21:35,195 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-10 11:21:35,198 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-10 11:21:35,209 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-10 11:21:35,222 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-10 11:21:36,351 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-10 11:21:36,352 [main] INFO craftBet - All Page elements are initialized
+2022-09-10 11:21:36,357 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-10 11:21:36,544 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-10 11:21:36,575 [main] INFO craftBet - Matches count is  = 1
+2022-09-10 11:21:37,014 [main] INFO craftBet - Error Markets count is:  0
+2022-09-10 11:21:37,014 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-10 11:21:37,089 [main] INFO craftBet - Browser closed
+2022-09-10 11:21:37,089 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-10 11:21:37,092 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-10 11:21:37,103 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-10 11:21:37,114 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-10 11:21:38,255 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-10 11:21:38,257 [main] INFO craftBet - All Page elements are initialized
+2022-09-10 11:21:38,261 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-10 11:21:38,461 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-10 11:21:38,492 [main] INFO craftBet - Matches count is  = 36
+2022-09-10 11:21:56,756 [main] INFO craftBet - Error Markets count is:  0
+2022-09-10 11:21:56,756 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-10 11:21:56,817 [main] INFO craftBet - Browser closed
+2022-09-10 11:21:56,817 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-10 11:21:56,821 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-10 11:21:56,827 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-10 11:21:56,833 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-10 11:21:57,928 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-10 11:21:57,929 [main] INFO craftBet - All Page elements are initialized
+2022-09-10 11:21:57,935 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-10 11:21:58,110 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-10 11:21:58,139 [main] INFO craftBet - Matches count is  = 4
+2022-09-10 11:22:00,058 [main] INFO craftBet - Error Markets count is:  0
+2022-09-10 11:22:00,058 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-10 11:22:00,137 [main] INFO craftBet - Browser closed
+2022-09-10 11:22:00,137 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-10 11:22:00,140 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-10 11:22:00,144 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-10 11:22:00,150 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-10 11:22:01,212 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-10 11:22:01,214 [main] INFO craftBet - All Page elements are initialized
+2022-09-10 11:22:01,219 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-10 11:22:01,410 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-10 11:22:01,470 [main] INFO craftBet - Matches count is  = 2701
+2022-09-10 11:22:23,719 [main] INFO craftBet - This market works for Client  GameID = 3246416  MarketName = Last Team To Score  MarketID = 206895756  SelectorError = 0.9926997025457207
+2022-09-10 11:22:23,719 [main] INFO craftBet - This market works for Client  GameID = 3246416  MarketName = To Win Both Halves  MarketID = 206895767  SelectorError = 0.2922686450605232
+2022-09-10 11:22:23,721 [main] INFO craftBet - This market works for Client  GameID = 3246416  MarketName = To Score in Both Halves  MarketID = 206895754  SelectorError = 0.4663003663003663
+2022-09-10 11:22:23,721 [main] INFO craftBet - This market works for Client  GameID = 3246416  MarketName = To Win To Nil  MarketID = 206895765  SelectorError = 0.6000861883214824
+2022-09-10 11:22:34,788 [main] INFO craftBet - This market works for Client  GameID = 3246418  MarketName = To Win Both Halves  MarketID = 206895843  SelectorError = 0.5013071895424837
+2022-09-10 11:22:34,791 [main] INFO craftBet - This market works for Client  GameID = 3246418  MarketName = To Score in Both Halves  MarketID = 206895832  SelectorError = 0.6605491734379378
+2022-09-10 11:22:34,791 [main] INFO craftBet - This market works for Client  GameID = 3246418  MarketName = To Win To Nil  MarketID = 206895841  SelectorError = 0.743071041733036
+2022-09-10 11:22:44,954 [main] INFO craftBet - This market works for Client  GameID = 3246419  MarketName = To Win Both Halves  MarketID = 206895912  SelectorError = 0.3317166704263478
+2022-09-10 11:22:44,956 [main] INFO craftBet - This market works for Client  GameID = 3246419  MarketName = To Win To Nil  MarketID = 206895910  SelectorError = 0.5651162790697675
+2022-09-10 11:22:44,956 [main] INFO craftBet - This market works for Client  GameID = 3246419  MarketName = To Score in Both Halves  MarketID = 206895899  SelectorError = 0.5626287564613556
+2022-09-10 11:22:55,127 [main] INFO craftBet - This market works for Client  GameID = 3246420  MarketName = Last Team To Score  MarketID = 206895963  SelectorError = 0.9969441016609359
+2022-09-10 11:22:55,127 [main] INFO craftBet - This market works for Client  GameID = 3246420  MarketName = To Win Both Halves  MarketID = 206895980  SelectorError = 0.3131868131868132
+2022-09-10 11:22:55,129 [main] INFO craftBet - This market works for Client  GameID = 3246420  MarketName = To Score in Both Halves  MarketID = 206895971  SelectorError = 0.5300581771170007
+2022-09-10 11:22:55,129 [main] INFO craftBet - This market works for Client  GameID = 3246420  MarketName = To Win To Nil  MarketID = 206895978  SelectorError = 0.5901960784313726
+2022-09-10 11:23:05,219 [main] INFO craftBet - This market works for Client  GameID = 3246421  MarketName = To Win Both Halves  MarketID = 206896049  SelectorError = 0.36601007787448464
+2022-09-10 11:23:05,221 [main] INFO craftBet - This market works for Client  GameID = 3246421  MarketName = To Win To Nil  MarketID = 206896047  SelectorError = 0.6661411115490737
+2022-09-10 11:23:05,221 [main] INFO craftBet - This market works for Client  GameID = 3246421  MarketName = To Score in Both Halves  MarketID = 206896040  SelectorError = 0.5901960784313726
+2022-09-10 11:23:14,484 [main] INFO craftBet - This market works for Client  GameID = 3246422  MarketName = To Win Both Halves  MarketID = 206896120  SelectorError = 0.42702702702702705
+2022-09-10 11:23:14,486 [main] INFO craftBet - This market works for Client  GameID = 3246422  MarketName = To Win To Nil  MarketID = 206896118  SelectorError = 0.5884952743591487
+2022-09-10 11:23:14,486 [main] INFO craftBet - This market works for Client  GameID = 3246422  MarketName = To Score in Both Halves  MarketID = 206896107  SelectorError = 0.6593406593406592
+2022-09-10 11:23:24,590 [main] INFO craftBet - This market works for Client  GameID = 3246423  MarketName = Last Team To Score  MarketID = 206896171  SelectorError = 0.9971760129868042
+2022-09-10 11:23:24,590 [main] INFO craftBet - This market works for Client  GameID = 3246423  MarketName = To Win Both Halves  MarketID = 206896188  SelectorError = 0.22210012210012212
+2022-09-10 11:23:24,592 [main] INFO craftBet - This market works for Client  GameID = 3246423  MarketName = To Score in Both Halves  MarketID = 206896179  SelectorError = 0.5192240522313871
+2022-09-10 11:23:24,592 [main] INFO craftBet - This market works for Client  GameID = 3246423  MarketName = To Win To Nil  MarketID = 206896186  SelectorError = 0.5192240522313871
+2022-09-10 11:23:35,171 [main] INFO craftBet - This market works for Client  GameID = 3246424  MarketName = Last Team To Score  MarketID = 206896243  SelectorError = 0.9920692842893981
+2022-09-10 11:23:35,171 [main] INFO craftBet - This market works for Client  GameID = 3246424  MarketName = To Win Both Halves  MarketID = 206896254  SelectorError = 0.24878048780487805
+2022-09-10 11:23:35,173 [main] INFO craftBet - This market works for Client  GameID = 3246424  MarketName = To Win To Nil  MarketID = 206896252  SelectorError = 0.60973337209389
+2022-09-10 11:23:35,173 [main] INFO craftBet - This market works for Client  GameID = 3246424  MarketName = To Score in Both Halves  MarketID = 206896241  SelectorError = 0.43656553090515354
+2022-09-10 11:23:44,374 [main] INFO craftBet - This market works for Client  GameID = 3246425  MarketName = Last Team To Score  MarketID = 206896309  SelectorError = 0.9932033788174139
+2022-09-10 11:23:44,374 [main] INFO craftBet - This market works for Client  GameID = 3246425  MarketName = To Win Both Halves  MarketID = 206896320  SelectorError = 0.2523560209424084
+2022-09-10 11:23:44,377 [main] INFO craftBet - This market works for Client  GameID = 3246425  MarketName = To Score in Both Halves  MarketID = 206896307  SelectorError = 0.4457247175693778
+2022-09-10 11:23:44,377 [main] INFO craftBet - This market works for Client  GameID = 3246425  MarketName = To Win To Nil  MarketID = 206896318  SelectorError = 0.5771539384984763
+2022-09-10 11:23:52,211 [main] INFO craftBet - This market works for Client  GameID = 3246426  MarketName = To Win Both Halves  MarketID = 206896391  SelectorError = 0.44190719766167336
+2022-09-10 11:23:52,213 [main] INFO craftBet - This market works for Client  GameID = 3246426  MarketName = To Win To Nil  MarketID = 206896389  SelectorError = 0.6673447034892819
+2022-09-10 11:23:52,213 [main] INFO craftBet - This market works for Client  GameID = 3246426  MarketName = To Score in Both Halves  MarketID = 206896378  SelectorError = 0.6813953488372093
+2022-09-10 11:23:57,762 [main] INFO craftBet - This market works for Client  GameID = 3246427  MarketName = To Win Both Halves  MarketID = 206896459  SelectorError = 0.2932792653109905
+2022-09-10 11:23:57,764 [main] INFO craftBet - This market works for Client  GameID = 3246427  MarketName = To Win To Nil  MarketID = 206896457  SelectorError = 0.5778912717238708
+2022-09-10 11:23:57,764 [main] INFO craftBet - This market works for Client  GameID = 3246427  MarketName = To Score in Both Halves  MarketID = 206896450  SelectorError = 0.5373626373626373
+2022-09-10 11:24:05,070 [main] INFO craftBet - This market works for Client  GameID = 3246428  MarketName = To Win Both Halves  MarketID = 206896527  SelectorError = 0.24173163398344996
+2022-09-10 11:24:05,072 [main] INFO craftBet - This market works for Client  GameID = 3246428  MarketName = To Win To Nil  MarketID = 206896525  SelectorError = 0.5144654088050314
+2022-09-10 11:24:05,072 [main] INFO craftBet - This market works for Client  GameID = 3246428  MarketName = To Score in Both Halves  MarketID = 206896514  SelectorError = 0.5342456285852513
+2022-09-10 11:24:11,891 [main] INFO craftBet - This market works for Client  GameID = 3246429  MarketName = Last Team To Score  MarketID = 206896582  SelectorError = 0.9994781090467424
+2022-09-10 11:24:11,891 [main] INFO craftBet - This market works for Client  GameID = 3246429  MarketName = To Win Both Halves  MarketID = 206896593  SelectorError = 0.24128971803390406
+2022-09-10 11:24:11,893 [main] INFO craftBet - This market works for Client  GameID = 3246429  MarketName = To Score in Both Halves  MarketID = 206896580  SelectorError = 0.47145128007661696
+2022-09-10 11:24:11,893 [main] INFO craftBet - This market works for Client  GameID = 3246429  MarketName = To Win To Nil  MarketID = 206896591  SelectorError = 0.5355051040330228
+2022-09-10 11:24:17,988 [main] INFO craftBet - This market works for Client  GameID = 3453871  MarketName = Last Team To Score  MarketID = 215155544  SelectorError = 0.9594298245614036
+2022-09-10 11:24:17,988 [main] INFO craftBet - This market works for Client  GameID = 3453871  MarketName = To Win Both Halves  MarketID = 213577989  SelectorError = 0.2098901098901099
+2022-09-10 11:24:17,991 [main] INFO craftBet - This market works for Client  GameID = 3453871  MarketName = To Score in Both Halves  MarketID = 213577956  SelectorError = 0.4444987775061125
+2022-09-10 11:24:17,991 [main] INFO craftBet - This market works for Client  GameID = 3453871  MarketName = To Win To Nil  MarketID = 213577987  SelectorError = 0.5470622385637941
+2022-09-10 11:24:23,822 [main] INFO craftBet - This market works for Client  GameID = 3479223  MarketName = To Win Both Halves  MarketID = 214207471  SelectorError = 0.48685540950455003
+2022-09-10 11:24:23,824 [main] INFO craftBet - This market works for Client  GameID = 3479223  MarketName = To Score in Both Halves  MarketID = 214207405  SelectorError = 0.6871554012660813
+2022-09-10 11:24:23,824 [main] INFO craftBet - This market works for Client  GameID = 3479223  MarketName = To Win To Nil  MarketID = 214207445  SelectorError = 0.7059607059607059
+2022-09-10 11:24:28,882 [main] INFO craftBet - This market works for Client  GameID = 3482561  MarketName = To Win Both Halves  MarketID = 214282516  SelectorError = 0.44190719766167336
+2022-09-10 11:24:28,884 [main] INFO craftBet - This market works for Client  GameID = 3482561  MarketName = To Score in Both Halves  MarketID = 214282452  SelectorError = 0.5884952743591487
+2022-09-10 11:24:28,884 [main] INFO craftBet - This market works for Client  GameID = 3482561  MarketName = To Win To Nil  MarketID = 214282491  SelectorError = 0.7142857142857142
+2022-09-10 11:24:47,454 [main] INFO craftBet - This market works for Client  GameID = 3715755  MarketName = Last Team To Score  MarketID = 223673507  SelectorError = 0.9640088215901599
+2022-09-10 11:25:08,867 [main] INFO craftBet - This market works for Client  GameID = 3715772  MarketName = Last Team To Score  MarketID = 222197249  SelectorError = 0.9964036386714619
+2022-09-10 11:25:22,285 [main] INFO craftBet - This market works for Client  GameID = 3715784  MarketName = 1 Half Correct Score  MarketID = 223713000  SelectorError = 0.014285714285714285
+2022-09-10 11:25:25,914 [main] INFO craftBet - This market works for Client  GameID = 3715787  MarketName = Last Team To Score  MarketID = 223080769  SelectorError = 0.9902995656185996
+2022-09-10 11:25:35,134 [main] INFO craftBet - This market works for Client  GameID = 3715798  MarketName = Last Team To Score  MarketID = 223080771  SelectorError = 0.9825617420554129
+2022-09-10 11:26:38,522 [main] INFO craftBet - This market works for Client  GameID = 3746659  MarketName = Paris Saint-Germain Exact Goals  MarketID = 223286654  SelectorError = 0.946198170684768
+2022-09-10 11:28:29,086 [main] INFO craftBet - This market works for Client  GameID = 3754774  MarketName = Race To th Goal  MarketID = 223667290  SelectorError = 0.31850031850031846
+2022-09-10 11:30:39,937 [main] INFO craftBet - This market works for Client  GameID = 3754868  MarketName = Race To th Goal  MarketID = 223667268  SelectorError = 0.3468846424511449
+2022-09-10 11:32:18,617 [main] INFO craftBet - This market works for Client  GameID = 3715258  MarketName = Last Team To Score  MarketID = 223619499  SelectorError = 0.9592490842490843
+2022-09-10 11:32:23,959 [main] INFO craftBet - This market works for Client  GameID = 3715260  MarketName = Last Team To Score  MarketID = 222360412  SelectorError = 0.9860649018756931
+2022-09-10 11:32:49,738 [main] INFO craftBet - This market works for Client  GameID = 3715264  MarketName = Last Team To Score  MarketID = 222197573  SelectorError = 0.950376606114311
+2022-09-10 11:33:11,619 [main] INFO craftBet - This market works for Client  GameID = 3715269  MarketName = Last Team To Score  MarketID = 222359394  SelectorError = 0.9616234857193386
+2022-09-10 11:33:29,637 [main] INFO craftBet - This market works for Client  GameID = 3715276  MarketName = Last Team To Score  MarketID = 222359467  SelectorError = 0.9651212509926088
+2022-09-10 11:33:32,738 [main] INFO craftBet - This market works for Client  GameID = 3715277  MarketName = Last Team To Score  MarketID = 222886639  SelectorError = 0.9753550543024228
+2022-09-10 11:33:46,564 [main] INFO craftBet - This market works for Client  GameID = 3715284  MarketName = Last Team To Score  MarketID = 222398275  SelectorError = 0.9418846353715573
+2022-09-10 11:35:13,730 [main] INFO craftBet - This market works for Client  GameID = 3715315  MarketName = Race To th Goal  MarketID = 223254332  SelectorError = 0.6846354257941655
+2022-09-10 11:35:34,293 [main] INFO craftBet - This market works for Client  GameID = 3715316  MarketName = Last Team To Score  MarketID = 222784419  SelectorError = 0.9860649018756931
+2022-09-10 11:36:14,322 [main] INFO craftBet - This market works for Client  GameID = 3715357  MarketName = Race To th Goal  MarketID = 223116877  SelectorError = 0.5518676867686768
+2022-09-10 11:36:49,228 [main] INFO craftBet - This market works for Client  GameID = 3715380  MarketName = Last Team To Score  MarketID = 222643464  SelectorError = 0.9821428571428572
+2022-09-10 11:37:08,422 [main] INFO craftBet - This market works for Client  GameID = 3715403  MarketName = Last Team To Score  MarketID = 222014327  SelectorError = 0.9860649018756931
+2022-09-10 11:37:45,600 [main] INFO craftBet - This market works for Client  GameID = 3715565  MarketName = Last Team To Score  MarketID = 223036270  SelectorError = 0.9876182831010242
+2022-09-10 11:37:50,142 [main] INFO craftBet - This market works for Client  GameID = 3736436  MarketName = Last Team To Score  MarketID = 222863357  SelectorError = 0.9786350988067726
+2022-09-10 11:38:20,543 [main] INFO craftBet - This market works for Client  GameID = 3738510  MarketName = Race To th Goal  MarketID = 222945153  SelectorError = 0.28458360513155034
