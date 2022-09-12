@@ -47,9 +47,9 @@ public class CraftBet_101_LifeGamesTimeOut_Test extends BaseTest{
         ArrayList<String> gameType = new ArrayList<>();
         ArrayList<String> gameStartTime = new ArrayList<>();
         ArrayList<String> gameStatus1 = new ArrayList<>();
-        ArrayList<String> gameStatus2 = new ArrayList<>();
-        ArrayList<String> gameStatus3 = new ArrayList<>();
-        ArrayList<String> gameStatus4 = new ArrayList<>();
+//        ArrayList<String> gameStatus2 = new ArrayList<>();
+//        ArrayList<String> gameStatus3 = new ArrayList<>();
+//        ArrayList<String> gameStatus4 = new ArrayList<>();
         ArrayList<String> teamOne = new ArrayList<>();
         ArrayList<String> teamTwo = new ArrayList<>();
 
@@ -87,16 +87,16 @@ public class CraftBet_101_LifeGamesTimeOut_Test extends BaseTest{
 //            System.out.println("team1 " + team1 + "team2" + team2);
 
             JSONArray jsonArrayTMs = jsonObjectGame.getJSONArray("TMs");
-            JSONObject TMs1;
-            JSONObject TMs2;
-            JSONObject TMs3;
-            try {
-                TMs1 = jsonArrayTMs.getJSONObject(0);
-                TMs2 = jsonArrayTMs.getJSONObject(1);
-                TMs3 = jsonArrayTMs.getJSONObject(2);
-            } catch (Exception e) {
-
-            }
+//            JSONObject TMs1;
+//            JSONObject TMs2;
+//            JSONObject TMs3;
+//            try {
+//                TMs1 = jsonArrayTMs.getJSONObject(0);
+//                TMs2 = jsonArrayTMs.getJSONObject(1);
+//                TMs3 = jsonArrayTMs.getJSONObject(2);
+//            } catch (Exception e) {
+//
+//            }
 
 
 //            String status2 = TMs1.getString("S");    //Status 2 (0 - prematch, 1 - Life, 2 -finished game)
@@ -136,8 +136,8 @@ public class CraftBet_101_LifeGamesTimeOut_Test extends BaseTest{
             String hoursString = String.valueOf(time[0]);
             String minutesString = String.valueOf(time[1]);
             String daysString = String.valueOf(period.getDays());
-            String monthsString = String.valueOf(period.getMonths());
-            String yearsString = String.valueOf(period.getYears());
+//            String monthsString = String.valueOf(period.getMonths());
+//            String yearsString = String.valueOf(period.getYears());
 
             int day = parseInt(daysString);
             int hour = parseInt(hoursString);
@@ -155,16 +155,16 @@ public class CraftBet_101_LifeGamesTimeOut_Test extends BaseTest{
             int hoursForLog = allMinutes / 60;
             int minutesForLog = allMinutes % 60;
 
-            String errMessageMinutes = gameID.get(i) + "   " + leagueType.get(i) + "   " + teamOne.get(i) + "  VS  "
+            String errMessageMinutes = k + gameID.get(i) + "   " + leagueType.get(i) + "   " + teamOne.get(i) + "  VS  "
                     + teamTwo.get(i) + "   " + gameType.get(i) + "   " + gameStartTime.get(i) + "  Status = "
                     + gameStatus1.get(i) + "   After game start time out = :  " + hoursForLog + " hours  "
                     + minutesForLog + " minutes";
-
             switch (gameType.get(i)) {
                 case "Soccer": {
                     if (allMinutes >= 180) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
+                        k++;
                     }
                     break;
                 }
@@ -172,6 +172,7 @@ public class CraftBet_101_LifeGamesTimeOut_Test extends BaseTest{
                     if (allMinutes > 180) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
+                        k++;
                     }
                     break;
                 }
@@ -179,6 +180,7 @@ public class CraftBet_101_LifeGamesTimeOut_Test extends BaseTest{
                     if (allMinutes >= 240) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
+                        k++;
                     }
                     break;
                 }
@@ -186,6 +188,7 @@ public class CraftBet_101_LifeGamesTimeOut_Test extends BaseTest{
                     if (allMinutes >= 350) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
+                        k++;
                     }
                     break;
                 }
@@ -193,6 +196,7 @@ public class CraftBet_101_LifeGamesTimeOut_Test extends BaseTest{
                     if (allMinutes >= 210) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
+                        k++;
                     }
                     break;
                 }
@@ -200,6 +204,7 @@ public class CraftBet_101_LifeGamesTimeOut_Test extends BaseTest{
                     if (allMinutes >= 150) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
+                        k++;
                     }
                     break;
                 }
@@ -207,6 +212,7 @@ public class CraftBet_101_LifeGamesTimeOut_Test extends BaseTest{
                     if (allMinutes >= 120) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
+                        k++;
                     }
                     break;
                 }
@@ -214,6 +220,7 @@ public class CraftBet_101_LifeGamesTimeOut_Test extends BaseTest{
                     if (allMinutes > 120) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
+                        k++;
                     }
                     break;
                 }
@@ -221,6 +228,7 @@ public class CraftBet_101_LifeGamesTimeOut_Test extends BaseTest{
                     if (allMinutes > 181) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
+                        k++;
                     }
                     break;
                 }
@@ -228,6 +236,7 @@ public class CraftBet_101_LifeGamesTimeOut_Test extends BaseTest{
                     if (allMinutes > 150) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
+                        k++;
                     }
                     break;
                 }
@@ -235,6 +244,7 @@ public class CraftBet_101_LifeGamesTimeOut_Test extends BaseTest{
                     if (allMinutes >= 121) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
+                        k++;
                     }
                     break;
                 }
@@ -242,6 +252,7 @@ public class CraftBet_101_LifeGamesTimeOut_Test extends BaseTest{
                     if (allMinutes >= 500) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
+                        k++;
                     }
                     break;
                 }
@@ -249,6 +260,7 @@ public class CraftBet_101_LifeGamesTimeOut_Test extends BaseTest{
                     if (allMinutes >= 182) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
+                        k++;
                     }
                     break;
                 }
@@ -256,6 +268,7 @@ public class CraftBet_101_LifeGamesTimeOut_Test extends BaseTest{
                     if (allMinutes > 240) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
+                        k++;
                     }
                     break;
                 }
@@ -263,14 +276,79 @@ public class CraftBet_101_LifeGamesTimeOut_Test extends BaseTest{
                     if (allMinutes >= 179) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
+                        k++;
                     }
                     break;
                 }
-
+                case "Floorball": {
+                    if (allMinutes >= 123) {
+                        logger.error("The Time Out games are :   " + errMessageMinutes);
+                        errorSrcXl.add(errMessageMinutes);
+                        k++;
+                    }
+                    break;
+                }
+                case "Squash": {
+                    if (allMinutes >= 90) {
+                        logger.error("The Time Out games are :   " + errMessageMinutes);
+                        errorSrcXl.add(errMessageMinutes);
+                        k++;
+                    }
+                    break;
+                }
+                case "Gaelic Football": {
+                    if (allMinutes >= 91) {
+                        logger.error("The Time Out games are :   " + errMessageMinutes);
+                        errorSrcXl.add(errMessageMinutes);
+                        k++;
+                    }
+                    break;
+                }
+                case "MMA": {
+                    if (allMinutes >= 30) {
+                        logger.error("The Time Out games are :   " + errMessageMinutes);
+                        errorSrcXl.add(errMessageMinutes);
+                        k++;
+                    }
+                    break;
+                }
+                case "Boxing": {
+                    if (allMinutes >= 50) {
+                        logger.error("The Time Out games are :   " + errMessageMinutes);
+                        errorSrcXl.add(errMessageMinutes);
+                        k++;
+                    }
+                    break;
+                }
+                case "Biathlon": {
+                    if (allMinutes >= 151) {
+                        logger.error("The Time Out games are :   " + errMessageMinutes);
+                        errorSrcXl.add(errMessageMinutes);
+                        k++;
+                    }
+                    break;
+                }
+                case "Rugby Union": {
+                    if (allMinutes >= 152) {
+                        logger.error("The Time Out games are :   " + errMessageMinutes);
+                        errorSrcXl.add(errMessageMinutes);
+                        k++;
+                    }
+                    break;
+                }
+                case "Rugby League": {
+                    if (allMinutes >= 122) {
+                        logger.error("The Time Out games are :   " + errMessageMinutes);
+                        errorSrcXl.add(errMessageMinutes);
+                        k++;
+                    }
+                    break;
+                }
                 default: {
                     if (allMinutes >= 300) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
+                        k++;
                     }
                 }
             }
