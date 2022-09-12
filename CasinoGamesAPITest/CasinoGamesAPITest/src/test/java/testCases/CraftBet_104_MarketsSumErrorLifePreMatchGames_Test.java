@@ -24,7 +24,8 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
             throws UnirestException, JSONException, IOException {
 
         boolean isPassed;
-        int k = 1;
+        int breakMatchCount = 1;
+        int count = 1;
         int pointCount = 1;
 
         ArrayList<String> gameIDs = new ArrayList<>();
@@ -80,7 +81,7 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
 
 
         for (String gameId : gameIDs) {
-            k++;
+            breakMatchCount++;
             Unirest.setTimeouts(0, 0);
             HttpResponse<String> responseGetMarkets = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getmarketsbymatchid?LanguageId=en&TimeZone=4&MatchId=" + gameId + "&OddsType=0")
                     .header("origin", getPreMatchTreeOrigin)
@@ -114,8 +115,9 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
                     }
                     if (selectorError < 1) {
                         if (!MarketName.contains("To Miss A Penalty")) {
-                            logger.info("This market works for Client  GameID = " + gameId + "  MarketName = " + MarketName + "  MarketID = " + marketID + "  SelectorError = " + selectorError);
-                            errorSrcXl.add("This market works for Client  GameID = " + gameId + "  MarketName = " + MarketName + "  MarketID = " + marketID + "  SelectorError = " + selectorError);
+                            logger.info(count +"This market works for Client  GameID = " + gameId + "  MarketName = " + MarketName + "  MarketID = " + marketID + "  SelectorError = " + selectorError);
+                            errorSrcXl.add(count + "This market works for Client  GameID = " + gameId + "  MarketName = " + MarketName + "  MarketID = " + marketID + "  SelectorError = " + selectorError);
+                            count++;
                         }
                     }
                 }
@@ -126,7 +128,7 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
                 errorEmptyMarkets.add(gameId + "  This game has no available Markets");
             }
 
-            if(k==200){
+            if(breakMatchCount==200){
                 break;
             }
 
@@ -167,32 +169,32 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
     Object[][] loginDataInvalid() {
 
         String[][] arr = {
-                {"Handball"},
-                {"Basketball"},
-                {"Tennis"},
-                {"Ice Hockey"},
-                {"Rugby League"},
-                {"Rugby Union"},
-                {"Volleyball"},
-                {"American Football"},
-                {"Table Tennis"},
-                {"Futsal"},
-                {"Aussie Rules"},
-                {"Cricket"},
-                {"E-sports"},
-                {"Baseball"},
-                {"Biathlon"},
-                {"Water Polo"},
-                {"Boxing"},
-                {"MMA"},
-                {"Gaelic Football"},
-                {"Lacrosse"},
-                {"Darts"},
-                {"Beach Soccer"},
-                {"Squash"},
-                {"Floorball"},
-                {"Chess"},
-                {"Soccer"}
+//                {"Handball"},
+//                {"Basketball"},
+//                {"Tennis"},
+//                {"Ice Hockey"},
+//                {"Rugby League"},
+//                {"Rugby Union"},
+//                {"Volleyball"},
+//                {"American Football"},
+//                {"Table Tennis"},
+//                {"Futsal"},
+//                {"Aussie Rules"},
+//                {"Cricket"},
+                    {"E-sports"},
+//                {"Baseball"},
+//                {"Biathlon"},
+//                {"Water Polo"},
+//                {"Boxing"},
+//                {"MMA"},
+//                {"Gaelic Football"},
+//                {"Lacrosse"},
+//                {"Darts"},
+//                {"Beach Soccer"},
+//                {"Squash"},
+//                {"Floorball"},
+//                {"Chess"},
+                    {"Soccer"}
         };
 
 //        String[][] arr = { {"Basketball"}};
