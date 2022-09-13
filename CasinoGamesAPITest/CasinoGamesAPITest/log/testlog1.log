@@ -676,3 +676,16 @@
 2022-09-12 10:57:27,338 [main] INFO craftBet - Browser closed
 2022-09-12 10:57:27,339 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-09-12 10:57:27,347 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-12 11:55:59,785 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-12 11:56:01,133 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-12 11:56:01,166 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-12 11:56:05,920 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-12 11:56:06,096 [main] INFO craftBet - All Page elements are initialized
+2022-09-12 11:56:06,530 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-12 11:56:07,195 [main] INFO craftBet - Get games Api call was sent
+2022-09-12 11:56:07,227 [main] INFO craftBet - Games are 24
+2022-09-12 11:56:07,227 [main] INFO craftBet - Get Life games Api Response was captured
+2022-09-12 11:56:07,248 [main] INFO craftBet - Time out Games are:  0
+2022-09-12 11:56:07,400 [main] INFO craftBet - Browser closed
+2022-09-12 11:56:07,401 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-12 11:56:07,404 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
