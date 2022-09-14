@@ -171,7 +171,7 @@ public class BaseTest extends DriverFactory {
                 getURLAPIUrl = "https://websitewebapi.vikwin.com/41/api/Main/GetProductUrl";
                 getUserID = 1650818;
                 getGamesOrigin = "https://vikwin.com";
-                getGamesRecurse = "https://resources.https://vikwin.com/products/";
+                getGamesRecurse = "https://resources.vikwin.com/products/";
                 getGamesPartnerName = "Vikwin";
                 getGamesBaseURL = "https://vikwin.com";
                 break;

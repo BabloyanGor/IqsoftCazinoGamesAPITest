@@ -21,7 +21,7 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
             throws UnirestException, JSONException, IOException {
 
         boolean isPassed;
-        int k = 0;
+        int k = 1;
         ArrayList<String> srces = new ArrayList<>();
         ArrayList<String> gameNames = new ArrayList<>();
         ArrayList<String> gameProviderNames = new ArrayList<>();
