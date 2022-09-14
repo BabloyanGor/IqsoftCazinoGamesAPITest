@@ -228,8 +228,8 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
                     }
                     if (selectorError < 1) {
                         if (!MarketName.contains("To Miss A Penalty")) {
-                            logger.info(count + "This market works for Client  GameID = " + gameId + "  MarketName = " + MarketName + "  MarketID = " + marketID + "  SelectorError = " + selectorError);
-                            errorSrcXl.add(count + "This market works for Client  GameID = " + gameId + "  MarketName = " + MarketName + "  MarketID = " + marketID + "  SelectorError = " + selectorError);
+                            logger.info(count + "  This market works for Client  GameID = " + gameId + "  MarketName = " + MarketName + "  MarketID = " + marketID + "  SelectorError = " + selectorError);
+                            errorSrcXl.add(count + "  This market works for Client  GameID = " + gameId + "  MarketName = " + MarketName + "  MarketID = " + marketID + "  SelectorError = " + selectorError);
                             count++;
                         }
                     }
@@ -252,6 +252,9 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
         }
         return isPassed;
     }
+
+
+
 
 
     @DataProvider(name = "sports")
