@@ -102,7 +102,6 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
             k++;
         }
 
-
         logger.info("Broken images are:  " + errorSrcXl.size());
         if (errorSrcXl.size() == 0) {
             isPassed = true;

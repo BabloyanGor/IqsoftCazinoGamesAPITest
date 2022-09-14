@@ -4176,3 +4176,1015 @@
 2022-09-14 09:47:18,683 [main] INFO craftBet - Browser closed
 2022-09-14 09:47:18,684 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-09-14 09:47:19,042 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-14 10:36:21,184 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 10:36:22,974 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 10:36:23,018 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 10:36:29,606 [main] INFO craftBet - URL: https://oceanbet.io  Browser: chrome
+2022-09-14 10:36:29,750 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 10:36:30,169 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 10:36:35,575 [main] INFO craftBet - Get games Api call was sent
+2022-09-14 10:36:35,733 [main] INFO craftBet - Get games Api Response was captured
+2022-09-14 10:36:35,812 [main] INFO craftBet - All captured games images was added into ArrayList
+2022-09-14 10:38:20,887 [main] ERROR craftBet - 354   Game Provider Name = NucleusGaming :   Game Name =  Wild Adventures :   cod = 404:   src = https://resources.oceanbet.io/products/outcomebet/wanted_dead_or_a_wild.jpg
+2022-09-14 10:40:13,096 [main] ERROR craftBet - 891   Game Provider Name = PlaynGo :   Game Name =  Charlie Chance :   cod = 404:   src = https://resources.oceanbet.io/products/outcomebet/chaos_crew.jpg
+2022-09-14 10:43:07,956 [main] ERROR craftBet - 1740   Game Provider Name = PlaynGo :   Game Name =  IronGirl :   cod = 404:   src = https://resources.oceanbet.io/products/outcomebet/ironbank_rg.jpg
+2022-09-14 10:44:30,445 [main] ERROR craftBet - 2138   Game Provider Name = TomHorn :   Game Name =  Monkey 27 :   cod = 404:   src = https://resources.oceanbet.io/products/outcomebet/moneytrain2_rg.jpg
+2022-09-14 10:46:28,084 [main] ERROR craftBet - 2705   Game Provider Name = PlaynGo :   Game Name =  Snakebite :   cod = 404:   src = https://resources.oceanbet.io/products/outcomebet/snakearena_rg.jpg
+2022-09-14 10:47:05,821 [main] ERROR craftBet - 2887   Game Provider Name = PragmaticPlay :   Game Name =  Temujin Treasures :   cod = 404:   src = https://resources.oceanbet.io/products/outcomebet/templetumble_rg.jpg
+2022-09-14 10:48:10,169 [main] ERROR craftBet - 3197   Game Provider Name = QuickSpin :   Game Name =  WildChase :   cod = 404:   src = https://resources.oceanbet.io/products/outcomebet/wildchapo_rg.jpg
+2022-09-14 10:48:39,285 [main] INFO craftBet - Broken images are:  7
+2022-09-14 10:48:41,847 [main] ERROR craftBet - gamesImgTest--------------------------------------------------------->   Fail
+2022-09-14 10:48:41,847 [main] ERROR craftBet - gamesImgTest-----------------------------------------------------------------
+2022-09-14 10:48:42,041 [main] INFO craftBet - Browser closed
+2022-09-14 10:48:42,041 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 10:48:42,053 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 10:48:42,078 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 10:48:42,108 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 10:48:45,863 [main] INFO craftBet - URL: https://oceanbet.io  Browser: chrome
+2022-09-14 10:48:45,870 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 10:48:46,125 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 10:48:49,076 [main] INFO craftBet - Get games Api call was sent
+2022-09-14 10:48:49,220 [main] INFO craftBet - Get games Api Response was captured
+2022-09-14 10:48:49,282 [main] INFO craftBet - All captured games images was added into ArrayList
+2022-09-14 10:50:31,787 [main] ERROR craftBet - 352   Game Provider Name = NucleusGaming :   Game Name =  Wild Adventures :   cod = 404:   src = https://resources.oceanbet.io/products/outcomebet/wanted_dead_or_a_wild.jpg
+2022-09-14 10:52:50,681 [main] ERROR craftBet - 878   Game Provider Name = PlaynGo :   Game Name =  Charlie Chance :   cod = 404:   src = https://resources.oceanbet.io/products/outcomebet/chaos_crew.jpg
+2022-09-14 10:56:27,437 [main] ERROR craftBet - 1713   Game Provider Name = PlaynGo :   Game Name =  IronGirl :   cod = 404:   src = https://resources.oceanbet.io/products/outcomebet/ironbank_rg.jpg
+2022-09-14 10:56:34,898 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 10:56:35,262 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 10:56:35,302 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 10:56:37,772 [main] INFO craftBet - URL: https://oceanbet.io  Browser: chrome
+2022-09-14 10:56:37,910 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 10:56:37,923 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 10:56:41,128 [main] INFO craftBet - Get games Api call was sent
+2022-09-14 10:56:41,308 [main] INFO craftBet - Get games Api Response was captured
+2022-09-14 10:56:41,408 [main] INFO craftBet - All captured games images was added into ArrayList
+2022-09-14 10:58:26,550 [main] ERROR craftBet - 354   Game Provider Name = NucleusGaming :   Game Name =  Wild Adventures :   cod = 404:   src = https://resources.oceanbet.io/products/outcomebet/wanted_dead_or_a_wild.jpg
+2022-09-14 11:00:30,493 [main] ERROR craftBet - 891   Game Provider Name = PlaynGo :   Game Name =  Charlie Chance :   cod = 404:   src = https://resources.oceanbet.io/products/outcomebet/chaos_crew.jpg
+2022-09-14 11:03:25,719 [main] ERROR craftBet - 1740   Game Provider Name = PlaynGo :   Game Name =  IronGirl :   cod = 404:   src = https://resources.oceanbet.io/products/outcomebet/ironbank_rg.jpg
+2022-09-14 11:04:48,045 [main] ERROR craftBet - 2138   Game Provider Name = TomHorn :   Game Name =  Monkey 27 :   cod = 404:   src = https://resources.oceanbet.io/products/outcomebet/moneytrain2_rg.jpg
+2022-09-14 11:07:09,595 [main] ERROR craftBet - 2705   Game Provider Name = PlaynGo :   Game Name =  Snakebite :   cod = 404:   src = https://resources.oceanbet.io/products/outcomebet/snakearena_rg.jpg
+2022-09-14 11:07:56,828 [main] ERROR craftBet - 2887   Game Provider Name = PragmaticPlay :   Game Name =  Temujin Treasures :   cod = 404:   src = https://resources.oceanbet.io/products/outcomebet/templetumble_rg.jpg
+2022-09-14 11:09:15,330 [main] ERROR craftBet - 3197   Game Provider Name = QuickSpin :   Game Name =  WildChase :   cod = 404:   src = https://resources.oceanbet.io/products/outcomebet/wildchapo_rg.jpg
+2022-09-14 11:09:48,004 [main] INFO craftBet - Broken images are:  7
+2022-09-14 11:09:49,994 [main] ERROR craftBet - gamesImgTest--------------------------------------------------------->   Fail
+2022-09-14 11:09:49,994 [main] ERROR craftBet - gamesImgTest-----------------------------------------------------------------
+2022-09-14 11:09:50,193 [main] INFO craftBet - Browser closed
+2022-09-14 11:09:50,194 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 11:09:50,202 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 11:09:50,229 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 11:09:50,268 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 11:09:54,616 [main] INFO craftBet - URL: https://oceanbet.io  Browser: chrome
+2022-09-14 11:09:54,622 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 11:09:54,887 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 11:09:57,693 [main] INFO craftBet - Get games Api call was sent
+2022-09-14 11:09:57,842 [main] INFO craftBet - Get games Api Response was captured
+2022-09-14 11:09:57,888 [main] INFO craftBet - All captured games images was added into ArrayList
+2022-09-14 11:11:37,102 [main] ERROR craftBet - 352   Game Provider Name = NucleusGaming :   Game Name =  Wild Adventures :   cod = 404:   src = https://resources.oceanbet.io/products/outcomebet/wanted_dead_or_a_wild.jpg
+2022-09-14 11:13:25,411 [main] ERROR craftBet - 878   Game Provider Name = PlaynGo :   Game Name =  Charlie Chance :   cod = 404:   src = https://resources.oceanbet.io/products/outcomebet/chaos_crew.jpg
+2022-09-14 11:16:16,552 [main] ERROR craftBet - 1713   Game Provider Name = PlaynGo :   Game Name =  IronGirl :   cod = 404:   src = https://resources.oceanbet.io/products/outcomebet/ironbank_rg.jpg
+2022-09-14 11:17:38,177 [main] ERROR craftBet - 2107   Game Provider Name = TomHorn :   Game Name =  Monkey 27 :   cod = 404:   src = https://resources.oceanbet.io/products/outcomebet/moneytrain2_rg.jpg
+2022-09-14 11:19:54,124 [main] ERROR craftBet - 2670   Game Provider Name = PlaynGo :   Game Name =  Snakebite :   cod = 404:   src = https://resources.oceanbet.io/products/outcomebet/snakearena_rg.jpg
+2022-09-14 11:20:40,501 [main] ERROR craftBet - 2851   Game Provider Name = PragmaticPlay :   Game Name =  Temujin Treasures :   cod = 404:   src = https://resources.oceanbet.io/products/outcomebet/templetumble_rg.jpg
+2022-09-14 11:21:58,768 [main] ERROR craftBet - 3160   Game Provider Name = QuickSpin :   Game Name =  WildChase :   cod = 404:   src = https://resources.oceanbet.io/products/outcomebet/wildchapo_rg.jpg
+2022-09-14 11:22:34,759 [main] INFO craftBet - Broken images are:  7
+2022-09-14 11:22:35,397 [main] ERROR craftBet - mobileGamesImgTest--------------------------------------------------------->   Fail
+2022-09-14 11:22:35,397 [main] ERROR craftBet - mobileGamesImgTest-----------------------------------------------------------------
+2022-09-14 11:22:35,514 [main] INFO craftBet - Browser closed
+2022-09-14 11:22:35,515 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 11:22:35,522 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 11:22:35,542 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 11:22:35,564 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 11:22:39,179 [main] INFO craftBet - URL: https://oceanbet.io  Browser: chrome
+2022-09-14 11:22:39,183 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 11:22:39,200 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 11:22:41,955 [main] INFO craftBet - Get games Api call was sent
+2022-09-14 11:22:42,025 [main] INFO craftBet - Get games Api Response was captured
+2022-09-14 11:22:42,066 [main] INFO craftBet - Dupliicate game Name =  Football
+2022-09-14 11:22:42,077 [main] INFO craftBet - Dupliicate game Name =  Sweet Bonanza
+2022-09-14 11:22:42,078 [main] INFO craftBet - Dupliicate game Name =  Madame Destiny
+2022-09-14 11:22:42,078 [main] INFO craftBet - Dupliicate game Name =  The Dog House
+2022-09-14 11:22:42,079 [main] INFO craftBet - Dupliicate game Name =  Gems Bonanza
+2022-09-14 11:22:42,079 [main] INFO craftBet - Dupliicate game Name =  Gates of Olympus
+2022-09-14 11:22:42,079 [main] INFO craftBet - Dupliicate game Name =  Starlight Princess
+2022-09-14 11:22:42,079 [main] INFO craftBet - Dupliicate game Name =  Mustang Gold
+2022-09-14 11:22:42,080 [main] INFO craftBet - Dupliicate game Name =  John Hunter and the Tomb of the Scarab Queen
+2022-09-14 11:22:42,082 [main] INFO craftBet - Dupliicate game Name =  Baccarat
+2022-09-14 11:22:42,084 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-09-14 11:22:42,085 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-09-14 11:22:42,090 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-09-14 11:22:42,091 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-09-14 11:22:42,092 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-09-14 11:22:42,094 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-09-14 11:22:42,095 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-09-14 11:22:42,096 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-09-14 11:22:42,097 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-09-14 11:22:42,097 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-09-14 11:22:42,098 [main] INFO craftBet - Dupliicate game Name =  European Roulette VIP
+2022-09-14 11:22:42,132 [main] INFO craftBet - Dupliicate game Name =  Atlantis
+2022-09-14 11:22:42,135 [main] INFO craftBet - Dupliicate game Name =  Black Jack
+2022-09-14 11:22:42,136 [main] INFO craftBet - Dupliicate game Name =  Blackjack VIP
+2022-09-14 11:22:42,145 [main] INFO craftBet - Dupliicate game Name =  Caligula
+2022-09-14 11:22:42,147 [main] INFO craftBet - Dupliicate game Name =  ChineseNewYear
+2022-09-14 11:22:42,150 [main] INFO craftBet - Dupliicate game Name =  Deuces Wild
+2022-09-14 11:22:42,154 [main] INFO craftBet - Dupliicate game Name =  El Paso Gunfight xNudge
+2022-09-14 11:22:42,163 [main] INFO craftBet - Dupliicate game Name =  Gladiators Go Wild
+2022-09-14 11:22:42,163 [main] INFO craftBet - Dupliicate game Name =  Golden Buffalo Double Up
+2022-09-14 11:22:42,167 [main] INFO craftBet - Dupliicate game Name =  Jackpot Fortunes
+2022-09-14 11:22:42,167 [main] INFO craftBet - Dupliicate game Name =  Joker Poker
+2022-09-14 11:22:42,168 [main] INFO craftBet - Dupliicate game Name =  Joker Poker
+2022-09-14 11:22:42,168 [main] INFO craftBet - Dupliicate game Name =  Joker Poker
+2022-09-14 11:22:42,172 [main] INFO craftBet - Dupliicate game Name =  Lucky Clover
+2022-09-14 11:22:42,175 [main] INFO craftBet - Dupliicate game Name =  MegaBoy
+2022-09-14 11:22:42,179 [main] INFO craftBet - Dupliicate game Name =  Power Strike Super Spin
+2022-09-14 11:22:42,180 [main] INFO craftBet - Dupliicate game Name =  Pyramid Pays
+2022-09-14 11:22:42,180 [main] INFO craftBet - Dupliicate game Name =  Red Dog
+2022-09-14 11:22:42,181 [main] INFO craftBet - Dupliicate game Name =  Stampede
+2022-09-14 11:22:42,182 [main] INFO craftBet - Dupliicate game Name =  Starstruck
+2022-09-14 11:22:42,182 [main] INFO craftBet - Dupliicate game Name =  Super Reel - Spin It Hot
+2022-09-14 11:22:42,182 [main] INFO craftBet - Dupliicate game Name =  Tomahawk
+2022-09-14 11:22:42,183 [main] INFO craftBet - Duplicate games are:  43
+2022-09-14 11:22:42,941 [main] ERROR craftBet - getDuplicateGames--------------------------------------------------------->   Fail
+2022-09-14 11:22:42,941 [main] ERROR craftBet - getDuplicateGames-----------------------------------------------------------------
+2022-09-14 11:22:43,071 [main] INFO craftBet - Browser closed
+2022-09-14 11:22:43,072 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 11:22:43,380 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-14 12:15:20,206 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 12:15:21,883 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 12:15:21,954 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 12:15:29,188 [main] INFO craftBet - URL: https://oceanbet.io  Browser: chrome
+2022-09-14 12:15:29,355 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 12:15:29,685 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 12:15:29,688 [main] ERROR craftBet - Please provide CraftBet id  as test Partner 
+2022-09-14 12:15:29,717 [AsyncHttpClient-1-4] WARN org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-09-14 12:15:29,854 [main] INFO craftBet - Browser closed
+2022-09-14 12:15:29,854 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 12:15:29,865 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-14 12:15:43,774 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 12:15:44,104 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 12:15:44,149 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 12:15:46,452 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 12:15:46,567 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 12:15:46,583 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 12:15:47,194 [main] INFO craftBet - Get games Api call was sent
+2022-09-14 12:15:47,206 [main] INFO craftBet - Games are 28
+2022-09-14 12:15:47,206 [main] INFO craftBet - Get Life games Api Response was captured
+2022-09-14 12:15:47,224 [main] ERROR craftBet - The Time Out games are :   293771260   TT Elite Series   Bartosz Czerwinski  VS  Konrad Kulpa   Table Tennis   2022-09-14T00:00:00  Status = 1   After game start time out = :  12 hours  15 minutes
+2022-09-14 12:15:47,226 [main] ERROR craftBet - The Time Out games are :   303762118   Counter Strike - CCT Central Europe   eSuba (CS)  VS  OG Academy (CS)   E-sports   2022-09-13T18:00:00  Status = 1   After game start time out = :  18 hours  16 minutes
+2022-09-14 12:15:47,227 [main] ERROR craftBet - The Time Out games are :   313715071   Dota 2 - The International. Western Europe   Alliance  VS  Entity (D2)   E-sports   2022-09-13T21:00:00  Status = 1   After game start time out = :  15 hours  16 minutes
+2022-09-14 12:15:47,227 [main] ERROR craftBet - The Time Out games are :   323766525   Counter Strike - CCT South America Series   Paqueta (CS)  VS  Fusion (CS)   E-sports   2022-09-13T21:00:00  Status = 1   After game start time out = :  15 hours  16 minutes
+2022-09-14 12:15:47,227 [main] ERROR craftBet - The Time Out games are :   333771451   Dota 2 - The International. Southeast Asia   Nigma Galaxy SEA (D2)  VS  XERXIA (D2)   E-sports   2022-09-14T08:00:00  Status = 1   After game start time out = :  4 hours  15 minutes
+2022-09-14 12:15:47,227 [main] INFO craftBet - Time out Games are:  5
+2022-09-14 12:15:49,047 [main] INFO craftBet - Browser closed
+2022-09-14 12:15:49,050 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 12:15:49,067 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-14 12:31:13,999 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 12:31:14,603 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 12:31:14,654 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 12:31:20,596 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 12:31:20,702 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 12:31:20,719 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 12:31:21,414 [main] INFO craftBet - Get games Api call was sent
+2022-09-14 12:31:21,434 [main] INFO craftBet - Games are 28
+2022-09-14 12:31:21,435 [main] INFO craftBet - Get Life games Api Response was captured
+2022-09-14 12:31:21,465 [main] ERROR craftBet - The Time Out games are :   293771260   TT Elite Series   Bartosz Czerwinski  VS  Konrad Kulpa   Table Tennis   2022-09-14T00:00:00  Status = 1   After game start time out = :  12 hours  31 minutes
+2022-09-14 12:31:21,465 [main] ERROR craftBet - The Time Out games are :   303762118   Counter Strike - CCT Central Europe   eSuba (CS)  VS  OG Academy (CS)   E-sports   2022-09-13T18:00:00  Status = 1   After game start time out = :  18 hours  32 minutes
+2022-09-14 12:31:21,466 [main] ERROR craftBet - The Time Out games are :   313715071   Dota 2 - The International. Western Europe   Alliance  VS  Entity (D2)   E-sports   2022-09-13T21:00:00  Status = 1   After game start time out = :  15 hours  32 minutes
+2022-09-14 12:31:21,466 [main] ERROR craftBet - The Time Out games are :   323766525   Counter Strike - CCT South America Series   Paqueta (CS)  VS  Fusion (CS)   E-sports   2022-09-13T21:00:00  Status = 1   After game start time out = :  15 hours  32 minutes
+2022-09-14 12:31:21,466 [main] ERROR craftBet - The Time Out games are :   333771451   Dota 2 - The International. Southeast Asia   Nigma Galaxy SEA (D2)  VS  XERXIA (D2)   E-sports   2022-09-14T08:00:00  Status = 1   After game start time out = :  4 hours  31 minutes
+2022-09-14 12:31:21,466 [main] INFO craftBet - Time out Games are:  5
+2022-09-14 12:31:24,221 [main] INFO craftBet - Browser closed
+2022-09-14 12:31:24,230 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 12:31:24,236 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-14 12:31:37,910 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 12:31:38,386 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 12:31:38,433 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 12:31:41,516 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 12:31:41,633 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 12:31:41,650 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 12:31:42,449 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 12:31:42,560 [main] INFO craftBet - Matches count is  = 89
+2022-09-14 12:34:49,799 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 12:34:50,185 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 12:34:50,231 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 12:34:52,601 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 12:34:52,690 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 12:34:52,968 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 12:34:53,561 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 12:34:53,673 [main] INFO craftBet - Matches count is  = 89
+2022-09-14 12:38:38,994 [main] INFO craftBet - Error Markets count is:  0
+2022-09-14 12:38:38,995 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-14 12:38:39,138 [main] INFO craftBet - Browser closed
+2022-09-14 12:38:39,139 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 12:38:39,142 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 12:38:39,156 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 12:38:39,178 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 12:38:40,469 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 12:38:40,479 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 12:38:40,805 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 12:38:41,025 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 12:38:41,080 [main] INFO craftBet - Matches count is  = 80
+2022-09-14 12:44:46,290 [main] INFO craftBet - 3767075  This game has no available Markets
+2022-09-14 12:48:32,512 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 12:48:33,038 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 12:48:33,078 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 12:48:39,107 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 12:48:39,238 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 12:48:39,502 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 12:48:40,422 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 12:48:40,537 [main] INFO craftBet - Matches count is  = 95
+2022-09-14 12:49:23,171 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-14 12:49:23,351 [main] INFO craftBet - Browser closed
+2022-09-14 12:49:23,352 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 12:49:23,366 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 12:49:23,404 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 12:49:23,427 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 12:49:24,960 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 12:49:24,969 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 12:49:24,985 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 12:49:25,164 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 12:49:25,203 [main] INFO craftBet - Matches count is  = 80
+2022-09-14 12:49:34,535 [main] INFO craftBet - 3767075  This game has no available Markets
+2022-09-14 12:54:02,881 [main] INFO craftBet - Empty Markets count is:  1
+2022-09-14 12:54:05,656 [main] INFO craftBet - Browser closed
+2022-09-14 12:54:05,657 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 12:54:05,666 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 12:54:05,692 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 12:54:05,722 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 12:54:08,106 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 12:54:08,110 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 12:54:08,372 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 12:54:08,541 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 12:54:08,607 [main] INFO craftBet - Matches count is  = 383
+2022-09-14 12:54:40,807 [main] INFO craftBet - 3762255  This game has no available Markets
+2022-09-14 12:57:07,631 [main] INFO craftBet - 3775208  This game has no available Markets
+2022-09-14 12:59:39,614 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 12:59:39,998 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 12:59:40,046 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 12:59:42,757 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 12:59:42,917 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 12:59:42,930 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 12:59:43,828 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 12:59:43,930 [main] INFO craftBet - Matches count is  = 80
+2022-09-14 12:59:51,158 [main] INFO craftBet - 3767075  This game has no available Markets
+2022-09-14 13:00:01,126 [main] INFO craftBet - Empty Markets count is:  1
+2022-09-14 13:00:02,926 [main] INFO craftBet - Browser closed
+2022-09-14 13:00:02,926 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 13:00:02,931 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:00:02,965 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:00:03,028 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:00:04,726 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:00:04,730 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:00:04,745 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:00:04,931 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:00:04,976 [main] INFO craftBet - Matches count is  = 383
+2022-09-14 13:00:11,950 [main] INFO craftBet - 3762255  This game has no available Markets
+2022-09-14 13:00:35,197 [main] INFO craftBet - 3775208  This game has no available Markets
+2022-09-14 13:02:02,541 [main] INFO craftBet - Empty Markets count is:  2
+2022-09-14 13:02:03,020 [main] INFO craftBet - Browser closed
+2022-09-14 13:02:03,020 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 13:02:03,029 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:02:03,052 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:02:03,077 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:02:05,176 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:02:05,179 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:02:05,438 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:02:05,893 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:02:05,936 [main] INFO craftBet - Matches count is  = 243
+2022-09-14 13:14:35,243 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-14 13:14:35,407 [main] INFO craftBet - Browser closed
+2022-09-14 13:14:35,407 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 13:14:35,413 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:14:35,425 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:14:35,449 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:14:39,876 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:14:39,882 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:14:40,225 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:14:40,413 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:14:40,444 [main] INFO craftBet - Matches count is  = 8
+2022-09-14 13:14:53,554 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-14 13:14:53,778 [main] INFO craftBet - Browser closed
+2022-09-14 13:14:53,779 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 13:14:53,784 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:14:53,811 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:14:53,843 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:14:55,460 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:14:55,463 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:14:55,711 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:14:55,877 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:14:55,905 [main] INFO craftBet - Matches count is  = 30
+2022-09-14 13:15:00,962 [main] INFO craftBet - 3717017  This game has no available Markets
+2022-09-14 13:15:27,070 [main] INFO craftBet - Empty Markets count is:  1
+2022-09-14 13:15:27,234 [main] INFO craftBet - Browser closed
+2022-09-14 13:15:27,234 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 13:15:27,239 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:15:28,246 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:15:28,272 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:15:29,937 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:15:29,941 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:15:30,247 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:15:33,630 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:15:33,690 [main] INFO craftBet - Matches count is  = 114
+2022-09-14 13:17:50,369 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-14 13:17:50,490 [main] INFO craftBet - Browser closed
+2022-09-14 13:17:50,491 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 13:17:50,500 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:17:50,545 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:17:50,591 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:17:52,046 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:17:52,050 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:17:52,301 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:17:52,525 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:17:52,561 [main] INFO craftBet - Matches count is  = 214
+2022-09-14 13:20:53,350 [main] INFO craftBet - 3716941  This game has no available Markets
+2022-09-14 13:21:11,624 [main] INFO craftBet - 3716951  This game has no available Markets
+2022-09-14 13:21:11,717 [main] INFO craftBet - 3716956  This game has no available Markets
+2022-09-14 13:21:11,819 [main] INFO craftBet - 3716959  This game has no available Markets
+2022-09-14 13:21:11,922 [main] INFO craftBet - 3716961  This game has no available Markets
+2022-09-14 13:21:12,014 [main] INFO craftBet - 3716962  This game has no available Markets
+2022-09-14 13:21:12,137 [main] INFO craftBet - 3716968  This game has no available Markets
+2022-09-14 13:21:12,238 [main] INFO craftBet - 3716970  This game has no available Markets
+2022-09-14 13:21:12,362 [main] INFO craftBet - 3716971  This game has no available Markets
+2022-09-14 13:21:12,464 [main] INFO craftBet - 3716972  This game has no available Markets
+2022-09-14 13:21:12,573 [main] INFO craftBet - 3716974  This game has no available Markets
+2022-09-14 13:21:12,681 [main] INFO craftBet - 3716975  This game has no available Markets
+2022-09-14 13:21:12,781 [main] INFO craftBet - 3716979  This game has no available Markets
+2022-09-14 13:21:12,871 [main] INFO craftBet - 3716981  This game has no available Markets
+2022-09-14 13:21:12,983 [main] INFO craftBet - 3716983  This game has no available Markets
+2022-09-14 13:21:13,092 [main] INFO craftBet - 3716984  This game has no available Markets
+2022-09-14 13:21:21,467 [main] INFO craftBet - 3716987  This game has no available Markets
+2022-09-14 13:21:21,561 [main] INFO craftBet - 3716988  This game has no available Markets
+2022-09-14 13:21:21,674 [main] INFO craftBet - 3716989  This game has no available Markets
+2022-09-14 13:21:21,773 [main] INFO craftBet - 3716990  This game has no available Markets
+2022-09-14 13:21:21,865 [main] INFO craftBet - 3716991  This game has no available Markets
+2022-09-14 13:21:21,959 [main] INFO craftBet - 3716994  This game has no available Markets
+2022-09-14 13:21:22,048 [main] INFO craftBet - 3716996  This game has no available Markets
+2022-09-14 13:21:22,142 [main] INFO craftBet - 3716998  This game has no available Markets
+2022-09-14 13:21:22,228 [main] INFO craftBet - 3716999  This game has no available Markets
+2022-09-14 13:21:22,318 [main] INFO craftBet - 3717000  This game has no available Markets
+2022-09-14 13:21:22,427 [main] INFO craftBet - 3717004  This game has no available Markets
+2022-09-14 13:21:22,514 [main] INFO craftBet - 3717006  This game has no available Markets
+2022-09-14 13:21:22,607 [main] INFO craftBet - 3717008  This game has no available Markets
+2022-09-14 13:21:22,698 [main] INFO craftBet - 3717009  This game has no available Markets
+2022-09-14 13:21:22,797 [main] INFO craftBet - 3717010  This game has no available Markets
+2022-09-14 13:21:22,891 [main] INFO craftBet - 3717012  This game has no available Markets
+2022-09-14 13:21:22,986 [main] INFO craftBet - 3717014  This game has no available Markets
+2022-09-14 13:21:23,079 [main] INFO craftBet - 3717015  This game has no available Markets
+2022-09-14 13:21:23,174 [main] INFO craftBet - 3717016  This game has no available Markets
+2022-09-14 13:21:23,266 [main] INFO craftBet - 3717019  This game has no available Markets
+2022-09-14 13:21:23,361 [main] INFO craftBet - 3717022  This game has no available Markets
+2022-09-14 13:21:23,468 [main] INFO craftBet - 3717023  This game has no available Markets
+2022-09-14 13:21:23,560 [main] INFO craftBet - 3717025  This game has no available Markets
+2022-09-14 13:21:23,693 [main] INFO craftBet - 3717026  This game has no available Markets
+2022-09-14 13:21:23,786 [main] INFO craftBet - 3717027  This game has no available Markets
+2022-09-14 13:21:23,883 [main] INFO craftBet - 3717029  This game has no available Markets
+2022-09-14 13:21:23,977 [main] INFO craftBet - 3717030  This game has no available Markets
+2022-09-14 13:21:24,064 [main] INFO craftBet - 3717031  This game has no available Markets
+2022-09-14 13:21:24,153 [main] INFO craftBet - 3717032  This game has no available Markets
+2022-09-14 13:21:24,259 [main] INFO craftBet - 3717034  This game has no available Markets
+2022-09-14 13:21:24,346 [main] INFO craftBet - 3717035  This game has no available Markets
+2022-09-14 13:21:24,436 [main] INFO craftBet - 3717036  This game has no available Markets
+2022-09-14 13:21:24,536 [main] INFO craftBet - 3717037  This game has no available Markets
+2022-09-14 13:21:24,661 [main] INFO craftBet - 3717038  This game has no available Markets
+2022-09-14 13:21:24,748 [main] INFO craftBet - 3717039  This game has no available Markets
+2022-09-14 13:21:24,845 [main] INFO craftBet - 3717042  This game has no available Markets
+2022-09-14 13:21:24,931 [main] INFO craftBet - 3717043  This game has no available Markets
+2022-09-14 13:21:25,021 [main] INFO craftBet - 3717046  This game has no available Markets
+2022-09-14 13:21:25,111 [main] INFO craftBet - 3717047  This game has no available Markets
+2022-09-14 13:21:25,200 [main] INFO craftBet - 3717049  This game has no available Markets
+2022-09-14 13:21:25,287 [main] INFO craftBet - 3717051  This game has no available Markets
+2022-09-14 13:21:25,376 [main] INFO craftBet - 3717053  This game has no available Markets
+2022-09-14 13:21:25,461 [main] INFO craftBet - 3717054  This game has no available Markets
+2022-09-14 13:21:25,552 [main] INFO craftBet - 3717055  This game has no available Markets
+2022-09-14 13:21:25,694 [main] INFO craftBet - 3717056  This game has no available Markets
+2022-09-14 13:21:25,788 [main] INFO craftBet - 3717057  This game has no available Markets
+2022-09-14 13:21:25,895 [main] INFO craftBet - 3717059  This game has no available Markets
+2022-09-14 13:21:25,986 [main] INFO craftBet - 3717060  This game has no available Markets
+2022-09-14 13:21:26,100 [main] INFO craftBet - 3717061  This game has no available Markets
+2022-09-14 13:21:26,205 [main] INFO craftBet - 3717065  This game has no available Markets
+2022-09-14 13:21:26,317 [main] INFO craftBet - 3717066  This game has no available Markets
+2022-09-14 13:21:26,417 [main] INFO craftBet - 3717067  This game has no available Markets
+2022-09-14 13:21:26,513 [main] INFO craftBet - 3717068  This game has no available Markets
+2022-09-14 13:21:26,605 [main] INFO craftBet - 3717069  This game has no available Markets
+2022-09-14 13:21:26,711 [main] INFO craftBet - 3717071  This game has no available Markets
+2022-09-14 13:21:26,823 [main] INFO craftBet - 3717072  This game has no available Markets
+2022-09-14 13:21:26,932 [main] INFO craftBet - 3717073  This game has no available Markets
+2022-09-14 13:21:27,032 [main] INFO craftBet - 3717074  This game has no available Markets
+2022-09-14 13:21:27,131 [main] INFO craftBet - 3717077  This game has no available Markets
+2022-09-14 13:21:27,228 [main] INFO craftBet - 3717078  This game has no available Markets
+2022-09-14 13:21:27,323 [main] INFO craftBet - 3717082  This game has no available Markets
+2022-09-14 13:21:27,416 [main] INFO craftBet - 3717083  This game has no available Markets
+2022-09-14 13:21:27,520 [main] INFO craftBet - 3717084  This game has no available Markets
+2022-09-14 13:21:27,620 [main] INFO craftBet - 3717086  This game has no available Markets
+2022-09-14 13:21:27,724 [main] INFO craftBet - 3717088  This game has no available Markets
+2022-09-14 13:21:27,814 [main] INFO craftBet - 3717089  This game has no available Markets
+2022-09-14 13:21:27,907 [main] INFO craftBet - 3717092  This game has no available Markets
+2022-09-14 13:21:27,998 [main] INFO craftBet - 3717093  This game has no available Markets
+2022-09-14 13:21:28,094 [main] INFO craftBet - 3717094  This game has no available Markets
+2022-09-14 13:21:28,211 [main] INFO craftBet - 3717097  This game has no available Markets
+2022-09-14 13:21:28,311 [main] INFO craftBet - 3717098  This game has no available Markets
+2022-09-14 13:21:28,409 [main] INFO craftBet - 3717099  This game has no available Markets
+2022-09-14 13:21:28,492 [main] INFO craftBet - 3717100  This game has no available Markets
+2022-09-14 13:21:28,578 [main] INFO craftBet - 3717102  This game has no available Markets
+2022-09-14 13:21:28,666 [main] INFO craftBet - 3717103  This game has no available Markets
+2022-09-14 13:21:28,760 [main] INFO craftBet - 3717104  This game has no available Markets
+2022-09-14 13:21:28,847 [main] INFO craftBet - 3717105  This game has no available Markets
+2022-09-14 13:21:36,751 [main] INFO craftBet - 3717107  This game has no available Markets
+2022-09-14 13:21:36,895 [main] INFO craftBet - 3717112  This game has no available Markets
+2022-09-14 13:21:37,006 [main] INFO craftBet - 3717114  This game has no available Markets
+2022-09-14 13:21:37,096 [main] INFO craftBet - 3717115  This game has no available Markets
+2022-09-14 13:21:44,698 [main] INFO craftBet - 3717117  This game has no available Markets
+2022-09-14 13:21:44,791 [main] INFO craftBet - 3717118  This game has no available Markets
+2022-09-14 13:21:44,880 [main] INFO craftBet - 3717119  This game has no available Markets
+2022-09-14 13:21:44,975 [main] INFO craftBet - 3717120  This game has no available Markets
+2022-09-14 13:21:52,929 [main] INFO craftBet - 3717123  This game has no available Markets
+2022-09-14 13:21:53,024 [main] INFO craftBet - 3717127  This game has no available Markets
+2022-09-14 13:21:53,121 [main] INFO craftBet - 3717128  This game has no available Markets
+2022-09-14 13:21:53,214 [main] INFO craftBet - 3717129  This game has no available Markets
+2022-09-14 13:21:53,320 [main] INFO craftBet - 3717131  This game has no available Markets
+2022-09-14 13:21:53,414 [main] INFO craftBet - 3717132  This game has no available Markets
+2022-09-14 13:22:01,820 [main] INFO craftBet - 3717134  This game has no available Markets
+2022-09-14 13:22:01,922 [main] INFO craftBet - 3717135  This game has no available Markets
+2022-09-14 13:22:02,025 [main] INFO craftBet - 3717139  This game has no available Markets
+2022-09-14 13:22:02,118 [main] INFO craftBet - 3717143  This game has no available Markets
+2022-09-14 13:22:02,236 [main] INFO craftBet - 3717144  This game has no available Markets
+2022-09-14 13:22:02,342 [main] INFO craftBet - 3717146  This game has no available Markets
+2022-09-14 13:22:02,440 [main] INFO craftBet - 3717147  This game has no available Markets
+2022-09-14 13:22:02,539 [main] INFO craftBet - 3717148  This game has no available Markets
+2022-09-14 13:22:02,644 [main] INFO craftBet - 3717149  This game has no available Markets
+2022-09-14 13:22:02,748 [main] INFO craftBet - 3717150  This game has no available Markets
+2022-09-14 13:22:02,861 [main] INFO craftBet - 3717152  This game has no available Markets
+2022-09-14 13:22:02,951 [main] INFO craftBet - 3717156  This game has no available Markets
+2022-09-14 13:22:31,208 [main] INFO craftBet - 3717163  This game has no available Markets
+2022-09-14 13:22:31,310 [main] INFO craftBet - 3717164  This game has no available Markets
+2022-09-14 13:22:31,405 [main] INFO craftBet - 3717165  This game has no available Markets
+2022-09-14 13:22:31,501 [main] INFO craftBet - 3717166  This game has no available Markets
+2022-09-14 13:22:31,595 [main] INFO craftBet - 3717167  This game has no available Markets
+2022-09-14 13:22:31,687 [main] INFO craftBet - 3717171  This game has no available Markets
+2022-09-14 13:22:31,774 [main] INFO craftBet - 3717174  This game has no available Markets
+2022-09-14 13:22:31,875 [main] INFO craftBet - 3717177  This game has no available Markets
+2022-09-14 13:22:31,963 [main] INFO craftBet - 3717180  This game has no available Markets
+2022-09-14 13:22:32,110 [main] INFO craftBet - 3717182  This game has no available Markets
+2022-09-14 13:22:32,203 [main] INFO craftBet - 3717183  This game has no available Markets
+2022-09-14 13:22:32,307 [main] INFO craftBet - 3717185  This game has no available Markets
+2022-09-14 13:22:32,435 [main] INFO craftBet - 3717189  This game has no available Markets
+2022-09-14 13:22:32,539 [main] INFO craftBet - 3717191  This game has no available Markets
+2022-09-14 13:22:32,644 [main] INFO craftBet - 3717193  This game has no available Markets
+2022-09-14 13:22:32,741 [main] INFO craftBet - 3717198  This game has no available Markets
+2022-09-14 13:22:32,836 [main] INFO craftBet - 3717201  This game has no available Markets
+2022-09-14 13:22:32,933 [main] INFO craftBet - 3717202  This game has no available Markets
+2022-09-14 13:22:33,027 [main] INFO craftBet - 3717208  This game has no available Markets
+2022-09-14 13:22:33,116 [main] INFO craftBet - 3717210  This game has no available Markets
+2022-09-14 13:22:33,206 [main] INFO craftBet - 3717211  This game has no available Markets
+2022-09-14 13:22:33,300 [main] INFO craftBet - 3717214  This game has no available Markets
+2022-09-14 13:22:33,392 [main] INFO craftBet - 3717218  This game has no available Markets
+2022-09-14 13:22:33,493 [main] INFO craftBet - 3717220  This game has no available Markets
+2022-09-14 13:22:33,578 [main] INFO craftBet - 3717225  This game has no available Markets
+2022-09-14 13:22:33,677 [main] INFO craftBet - 3717227  This game has no available Markets
+2022-09-14 13:22:33,772 [main] INFO craftBet - 3717232  This game has no available Markets
+2022-09-14 13:22:33,873 [main] INFO craftBet - 3717233  This game has no available Markets
+2022-09-14 13:22:33,963 [main] INFO craftBet - 3717238  This game has no available Markets
+2022-09-14 13:22:34,075 [main] INFO craftBet - 3717241  This game has no available Markets
+2022-09-14 13:22:34,161 [main] INFO craftBet - 3717539  This game has no available Markets
+2022-09-14 13:22:34,255 [main] INFO craftBet - 3717547  This game has no available Markets
+2022-09-14 13:22:42,720 [main] INFO craftBet - 3717551  This game has no available Markets
+2022-09-14 13:22:42,832 [main] INFO craftBet - 3717561  This game has no available Markets
+2022-09-14 13:22:42,943 [main] INFO craftBet - 3717565  This game has no available Markets
+2022-09-14 13:22:43,104 [main] INFO craftBet - 3717569  This game has no available Markets
+2022-09-14 13:22:43,197 [main] INFO craftBet - 3717571  This game has no available Markets
+2022-09-14 13:22:50,491 [main] INFO craftBet - 3717578  This game has no available Markets
+2022-09-14 13:22:50,605 [main] INFO craftBet - 3717579  This game has no available Markets
+2022-09-14 13:22:58,478 [main] INFO craftBet - 3717584  This game has no available Markets
+2022-09-14 13:22:58,575 [main] INFO craftBet - 3717589  This game has no available Markets
+2022-09-14 13:22:58,669 [main] INFO craftBet - 3717590  This game has no available Markets
+2022-09-14 13:22:58,773 [main] INFO craftBet - 3717594  This game has no available Markets
+2022-09-14 13:22:58,874 [main] INFO craftBet - 3717595  This game has no available Markets
+2022-09-14 13:22:58,968 [main] INFO craftBet - 3717598  This game has no available Markets
+2022-09-14 13:23:05,874 [main] INFO craftBet - 3717604  This game has no available Markets
+2022-09-14 13:23:05,966 [main] INFO craftBet - 3717606  This game has no available Markets
+2022-09-14 13:23:06,144 [main] INFO craftBet - 3717611  This game has no available Markets
+2022-09-14 13:23:06,329 [main] INFO craftBet - 3717617  This game has no available Markets
+2022-09-14 13:23:06,423 [main] INFO craftBet - 3717627  This game has no available Markets
+2022-09-14 13:23:06,524 [main] INFO craftBet - 3717628  This game has no available Markets
+2022-09-14 13:23:06,612 [main] INFO craftBet - 3717786  This game has no available Markets
+2022-09-14 13:23:06,724 [main] INFO craftBet - 3717840  This game has no available Markets
+2022-09-14 13:23:06,834 [main] INFO craftBet - 3717849  This game has no available Markets
+2022-09-14 13:23:06,930 [main] INFO craftBet - 3717856  This game has no available Markets
+2022-09-14 13:23:07,031 [main] INFO craftBet - 3717862  This game has no available Markets
+2022-09-14 13:23:07,139 [main] INFO craftBet - 3717867  This game has no available Markets
+2022-09-14 13:23:07,225 [main] INFO craftBet - 3717870  This game has no available Markets
+2022-09-14 13:23:07,311 [main] INFO craftBet - 3718059  This game has no available Markets
+2022-09-14 13:23:07,400 [main] INFO craftBet - 3718061  This game has no available Markets
+2022-09-14 13:23:23,105 [main] INFO craftBet - Empty Markets count is:  179
+2022-09-14 13:23:23,303 [main] INFO craftBet - Browser closed
+2022-09-14 13:23:23,303 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 13:23:23,308 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:23:23,336 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:23:23,360 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:23:25,511 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:23:25,519 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:23:25,529 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:23:25,757 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:23:25,794 [main] INFO craftBet - Matches count is  = 361
+2022-09-14 13:26:35,550 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-14 13:26:35,800 [main] INFO craftBet - Browser closed
+2022-09-14 13:26:35,800 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 13:26:35,804 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:26:35,818 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:26:35,838 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:26:37,483 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:26:37,486 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:26:37,870 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:26:38,042 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:26:38,074 [main] INFO craftBet - Matches count is  = 3
+2022-09-14 13:26:39,625 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-14 13:26:39,781 [main] INFO craftBet - Browser closed
+2022-09-14 13:26:39,782 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 13:26:39,784 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:26:39,802 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:26:39,831 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:26:41,535 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:26:41,537 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:26:41,554 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:26:41,902 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:26:41,938 [main] INFO craftBet - Matches count is  = 13
+2022-09-14 13:26:58,069 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-14 13:26:58,195 [main] INFO craftBet - Browser closed
+2022-09-14 13:26:58,195 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 13:26:58,197 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:26:58,209 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:26:58,227 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:26:59,512 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:26:59,514 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:26:59,766 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:27:00,055 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:27:00,083 [main] INFO craftBet - Matches count is  = 64
+2022-09-14 13:27:04,818 [main] INFO craftBet - 3765112  This game has no available Markets
+2022-09-14 13:27:05,334 [main] INFO craftBet - 3765114  This game has no available Markets
+2022-09-14 13:27:05,482 [main] INFO craftBet - 3765116  This game has no available Markets
+2022-09-14 13:27:16,581 [main] INFO craftBet - Empty Markets count is:  3
+2022-09-14 13:27:17,029 [main] INFO craftBet - Browser closed
+2022-09-14 13:27:17,030 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 13:27:17,049 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:27:17,119 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:27:17,162 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:27:18,899 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:27:18,901 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:27:18,911 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:27:19,079 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:27:19,116 [main] INFO craftBet - Matches count is  = 331
+2022-09-14 13:27:41,884 [main] INFO craftBet - 3771283  This game has no available Markets
+2022-09-14 13:30:15,331 [main] INFO craftBet - 3715136  This game has no available Markets
+2022-09-14 13:33:13,183 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:33:13,772 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:33:13,888 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:33:17,833 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:33:18,012 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:33:18,026 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:33:18,723 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:33:18,850 [main] INFO craftBet - Matches count is  = 214
+2022-09-14 13:33:24,533 [main] INFO craftBet - 3716941  This game has no available Markets:  Start time = 2022-10-21T04:15:01
+2022-09-14 13:33:25,011 [main] INFO craftBet - 3716951  This game has no available Markets:  Start time = 2022-10-31T00:05:01
+2022-09-14 13:33:25,107 [main] INFO craftBet - 3716956  This game has no available Markets:  Start time = 2022-12-24T21:00:01
+2022-09-14 13:33:25,203 [main] INFO craftBet - 3716959  This game has no available Markets:  Start time = 2022-10-10T00:05:01
+2022-09-14 13:33:25,304 [main] INFO craftBet - 3716961  This game has no available Markets:  Start time = 2022-10-23T21:00:01
+2022-09-14 13:33:25,402 [main] INFO craftBet - 3716962  This game has no available Markets:  Start time = 2022-12-24T21:00:01
+2022-09-14 13:33:25,500 [main] INFO craftBet - 3716968  This game has no available Markets:  Start time = 2022-12-04T21:00:01
+2022-09-14 13:33:25,594 [main] INFO craftBet - 3716970  This game has no available Markets:  Start time = 2022-10-16T21:00:01
+2022-09-14 13:33:25,699 [main] INFO craftBet - 3716971  This game has no available Markets:  Start time = 2022-12-09T04:15:01
+2022-09-14 13:33:25,812 [main] INFO craftBet - 3716972  This game has no available Markets:  Start time = 2022-10-23T21:00:01
+2022-09-14 13:33:25,912 [main] INFO craftBet - 3716974  This game has no available Markets:  Start time = 2022-12-11T21:00:01
+2022-09-14 13:33:26,025 [main] INFO craftBet - 3716975  This game has no available Markets:  Start time = 2022-12-11T21:00:01
+2022-09-14 13:33:26,152 [main] INFO craftBet - 3716979  This game has no available Markets:  Start time = 2022-12-24T21:00:01
+2022-09-14 13:33:26,279 [main] INFO craftBet - 3716981  This game has no available Markets:  Start time = 2022-11-04T04:15:01
+2022-09-14 13:33:26,414 [main] INFO craftBet - 3716983  This game has no available Markets:  Start time = 2022-12-11T21:00:01
+2022-09-14 13:33:26,537 [main] INFO craftBet - 3716984  This game has no available Markets:  Start time = 2022-11-28T00:05:01
+2022-09-14 13:33:26,874 [main] INFO craftBet - 3716987  This game has no available Markets:  Start time = 2022-12-19T00:05:01
+2022-09-14 13:33:27,135 [main] INFO craftBet - 3716988  This game has no available Markets:  Start time = 2022-10-03T00:05:01
+2022-09-14 13:33:27,253 [main] INFO craftBet - 3716989  This game has no available Markets:  Start time = 2022-12-05T04:20:01
+2022-09-14 13:33:27,404 [main] INFO craftBet - 3716990  This game has no available Markets:  Start time = 2022-10-03T00:25:01
+2022-09-14 13:33:27,535 [main] INFO craftBet - 3716991  This game has no available Markets:  Start time = 2022-11-20T21:00:01
+2022-09-14 13:33:27,664 [main] INFO craftBet - 3716994  This game has no available Markets:  Start time = 2022-11-29T04:15:01
+2022-09-14 13:33:27,769 [main] INFO craftBet - 3716996  This game has no available Markets:  Start time = 2022-10-07T04:15:01
+2022-09-14 13:33:27,899 [main] INFO craftBet - 3716998  This game has no available Markets:  Start time = 2022-11-20T21:00:01
+2022-09-14 13:33:28,038 [main] INFO craftBet - 3716999  This game has no available Markets:  Start time = 2022-10-24T00:25:01
+2022-09-14 13:33:28,167 [main] INFO craftBet - 3717000  This game has no available Markets:  Start time = 2022-10-31T00:25:01
+2022-09-14 13:33:28,286 [main] INFO craftBet - 3717004  This game has no available Markets:  Start time = 2022-10-02T21:00:01
+2022-09-14 13:33:28,430 [main] INFO craftBet - 3717006  This game has no available Markets:  Start time = 2022-12-16T04:15:01
+2022-09-14 13:33:28,541 [main] INFO craftBet - 3717008  This game has no available Markets:  Start time = 2022-11-27T21:00:01
+2022-09-14 13:33:28,652 [main] INFO craftBet - 3717009  This game has no available Markets:  Start time = 2022-11-21T00:25:01
+2022-09-14 13:33:28,763 [main] INFO craftBet - 3717010  This game has no available Markets:  Start time = 2022-10-09T21:00:01
+2022-09-14 13:33:28,881 [main] INFO craftBet - 3717012  This game has no available Markets:  Start time = 2022-11-18T04:15:01
+2022-09-14 13:33:29,017 [main] INFO craftBet - 3717014  This game has no available Markets:  Start time = 2022-12-04T21:00:01
+2022-09-14 13:33:29,137 [main] INFO craftBet - 3717015  This game has no available Markets:  Start time = 2022-10-09T21:00:01
+2022-09-14 13:33:29,240 [main] INFO craftBet - 3717016  This game has no available Markets:  Start time = 2022-12-04T21:00:01
+2022-09-14 13:33:29,363 [main] INFO craftBet - 3717019  This game has no available Markets:  Start time = 2022-11-14T04:20:01
+2022-09-14 13:33:29,486 [main] INFO craftBet - 3717022  This game has no available Markets:  Start time = 2022-10-10T00:25:01
+2022-09-14 13:33:29,610 [main] INFO craftBet - 3717023  This game has no available Markets:  Start time = 2022-10-03T00:25:01
+2022-09-14 13:33:29,761 [main] INFO craftBet - 3717025  This game has no available Markets:  Start time = 2022-10-30T21:00:01
+2022-09-14 13:33:29,969 [main] INFO craftBet - 3717026  This game has no available Markets:  Start time = 2022-10-30T21:00:01
+2022-09-14 13:33:30,099 [main] INFO craftBet - 3717027  This game has no available Markets:  Start time = 2022-10-31T04:20:01
+2022-09-14 13:33:30,213 [main] INFO craftBet - 3717029  This game has no available Markets:  Start time = 2022-10-09T21:00:01
+2022-09-14 13:33:30,316 [main] INFO craftBet - 3717030  This game has no available Markets:  Start time = 2022-11-13T21:00:01
+2022-09-14 13:33:30,424 [main] INFO craftBet - 3717031  This game has no available Markets:  Start time = 2022-11-28T04:20:01
+2022-09-14 13:33:30,537 [main] INFO craftBet - 3717032  This game has no available Markets:  Start time = 2022-12-20T00:25:00
+2022-09-14 13:33:30,654 [main] INFO craftBet - 3717034  This game has no available Markets:  Start time = 2022-10-02T21:00:01
+2022-09-14 13:33:30,762 [main] INFO craftBet - 3717035  This game has no available Markets:  Start time = 2022-11-14T00:25:01
+2022-09-14 13:33:30,861 [main] INFO craftBet - 3717036  This game has no available Markets:  Start time = 2022-10-18T04:15:01
+2022-09-14 13:33:30,969 [main] INFO craftBet - 3717037  This game has no available Markets:  Start time = 2022-11-27T21:00:01
+2022-09-14 13:33:31,082 [main] INFO craftBet - 3717038  This game has no available Markets:  Start time = 2022-10-23T21:00:01
+2022-09-14 13:33:31,187 [main] INFO craftBet - 3717039  This game has no available Markets:  Start time = 2022-11-20T21:00:01
+2022-09-14 13:33:31,302 [main] INFO craftBet - 3717042  This game has no available Markets:  Start time = 2022-11-06T21:00:01
+2022-09-14 13:33:31,411 [main] INFO craftBet - 3717043  This game has no available Markets:  Start time = 2022-10-09T21:00:01
+2022-09-14 13:33:31,536 [main] INFO craftBet - 3717046  This game has no available Markets:  Start time = 2022-10-28T04:15:01
+2022-09-14 13:33:31,637 [main] INFO craftBet - 3717047  This game has no available Markets:  Start time = 2022-11-06T21:00:01
+2022-09-14 13:33:31,737 [main] INFO craftBet - 3717049  This game has no available Markets:  Start time = 2022-10-16T21:00:01
+2022-09-14 13:33:31,833 [main] INFO craftBet - 3717051  This game has no available Markets:  Start time = 2022-12-05T00:05:01
+2022-09-14 13:33:31,932 [main] INFO craftBet - 3717053  This game has no available Markets:  Start time = 2022-12-25T04:15:01
+2022-09-14 13:33:32,026 [main] INFO craftBet - 3717054  This game has no available Markets:  Start time = 2022-12-12T04:20:01
+2022-09-14 13:33:32,134 [main] INFO craftBet - 3717055  This game has no available Markets:  Start time = 2022-10-02T21:00:01
+2022-09-14 13:33:32,237 [main] INFO craftBet - 3717056  This game has no available Markets:  Start time = 2022-10-30T21:00:01
+2022-09-14 13:33:32,331 [main] INFO craftBet - 3717057  This game has no available Markets:  Start time = 2022-10-09T21:00:01
+2022-09-14 13:33:32,435 [main] INFO craftBet - 3717059  This game has no available Markets:  Start time = 2022-10-09T21:00:01
+2022-09-14 13:33:32,542 [main] INFO craftBet - 3717060  This game has no available Markets:  Start time = 2022-09-30T04:15:01
+2022-09-14 13:33:32,638 [main] INFO craftBet - 3717061  This game has no available Markets:  Start time = 2022-12-18T21:00:01
+2022-09-14 13:33:32,738 [main] INFO craftBet - 3717065  This game has no available Markets:  Start time = 2022-11-06T21:00:01
+2022-09-14 13:33:32,833 [main] INFO craftBet - 3717066  This game has no available Markets:  Start time = 2022-10-14T04:15:01
+2022-09-14 13:33:32,943 [main] INFO craftBet - 3717067  This game has no available Markets:  Start time = 2022-10-31T00:25:01
+2022-09-14 13:33:33,044 [main] INFO craftBet - 3717068  This game has no available Markets:  Start time = 2022-11-13T21:00:01
+2022-09-14 13:33:33,143 [main] INFO craftBet - 3717069  This game has no available Markets:  Start time = 2022-11-22T00:02:00
+2022-09-14 13:33:33,299 [main] INFO craftBet - 3717071  This game has no available Markets:  Start time = 2022-12-12T00:25:01
+2022-09-14 13:33:33,402 [main] INFO craftBet - 3717072  This game has no available Markets:  Start time = 2022-11-06T21:00:01
+2022-09-14 13:33:33,517 [main] INFO craftBet - 3717073  This game has no available Markets:  Start time = 2022-11-08T04:15:01
+2022-09-14 13:33:33,649 [main] INFO craftBet - 3717074  This game has no available Markets:  Start time = 2022-10-02T21:00:01
+2022-09-14 13:33:33,741 [main] INFO craftBet - 3717077  This game has no available Markets:  Start time = 2022-10-23T21:00:01
+2022-09-14 13:33:33,847 [main] INFO craftBet - 3717078  This game has no available Markets:  Start time = 2022-12-19T00:25:01
+2022-09-14 13:33:33,962 [main] INFO craftBet - 3717082  This game has no available Markets:  Start time = 2022-12-11T21:00:01
+2022-09-14 13:33:34,078 [main] INFO craftBet - 3717083  This game has no available Markets:  Start time = 2022-11-13T21:00:01
+2022-09-14 13:33:34,178 [main] INFO craftBet - 3717084  This game has no available Markets:  Start time = 2022-10-24T00:25:01
+2022-09-14 13:33:34,303 [main] INFO craftBet - 3717086  This game has no available Markets:  Start time = 2022-10-11T04:15:01
+2022-09-14 13:33:34,400 [main] INFO craftBet - 3717088  This game has no available Markets:  Start time = 2022-10-16T21:00:01
+2022-09-14 13:33:34,490 [main] INFO craftBet - 3717089  This game has no available Markets:  Start time = 2022-11-28T00:25:01
+2022-09-14 13:33:34,608 [main] INFO craftBet - 3717092  This game has no available Markets:  Start time = 2022-12-04T21:00:01
+2022-09-14 13:33:34,700 [main] INFO craftBet - 3717093  This game has no available Markets:  Start time = 2022-10-30T21:00:01
+2022-09-14 13:33:34,801 [main] INFO craftBet - 3717094  This game has no available Markets:  Start time = 2022-10-02T21:00:01
+2022-09-14 13:33:34,936 [main] INFO craftBet - 3717097  This game has no available Markets:  Start time = 2022-11-06T21:00:01
+2022-09-14 13:33:35,129 [main] INFO craftBet - 3717098  This game has no available Markets:  Start time = 2022-12-18T21:00:01
+2022-09-14 13:33:35,249 [main] INFO craftBet - 3717099  This game has no available Markets:  Start time = 2022-10-16T21:00:01
+2022-09-14 13:33:35,370 [main] INFO craftBet - 3717100  This game has no available Markets:  Start time = 2022-11-06T21:00:01
+2022-09-14 13:33:35,508 [main] INFO craftBet - 3717102  This game has no available Markets:  Start time = 2022-10-17T00:05:01
+2022-09-14 13:33:35,657 [main] INFO craftBet - 3717103  This game has no available Markets:  Start time = 2022-12-06T00:25:00
+2022-09-14 13:33:35,777 [main] INFO craftBet - 3717104  This game has no available Markets:  Start time = 2022-11-27T21:00:01
+2022-09-14 13:33:35,944 [main] INFO craftBet - 3717105  This game has no available Markets:  Start time = 2022-10-17T00:05:01
+2022-09-14 13:33:36,314 [main] INFO craftBet - 3717107  This game has no available Markets:  Start time = 2022-11-20T21:00:01
+2022-09-14 13:33:36,418 [main] INFO craftBet - 3717112  This game has no available Markets:  Start time = 2022-11-15T04:15:01
+2022-09-14 13:33:36,554 [main] INFO craftBet - 3717114  This game has no available Markets:  Start time = 2022-12-27T04:15:01
+2022-09-14 13:33:36,694 [main] INFO craftBet - 3717115  This game has no available Markets:  Start time = 2022-11-20T21:00:01
+2022-09-14 13:33:37,090 [main] INFO craftBet - 3717117  This game has no available Markets:  Start time = 2022-12-23T04:15:01
+2022-09-14 13:33:37,233 [main] INFO craftBet - 3717118  This game has no available Markets:  Start time = 2022-11-06T21:00:01
+2022-09-14 13:33:37,369 [main] INFO craftBet - 3717119  This game has no available Markets:  Start time = 2022-11-22T00:25:00
+2022-09-14 13:33:37,503 [main] INFO craftBet - 3717120  This game has no available Markets:  Start time = 2022-12-18T21:00:01
+2022-09-14 13:33:37,951 [main] INFO craftBet - 3717123  This game has no available Markets:  Start time = 2022-10-23T21:00:01
+2022-09-14 13:33:38,053 [main] INFO craftBet - 3717127  This game has no available Markets:  Start time = 2022-09-26T04:15:01
+2022-09-14 13:33:38,157 [main] INFO craftBet - 3717128  This game has no available Markets:  Start time = 2022-10-10T04:20:01
+2022-09-14 13:33:38,276 [main] INFO craftBet - 3717129  This game has no available Markets:  Start time = 2022-11-28T00:25:01
+2022-09-14 13:33:38,396 [main] INFO craftBet - 3717131  This game has no available Markets:  Start time = 2022-10-23T21:00:01
+2022-09-14 13:33:38,499 [main] INFO craftBet - 3717132  This game has no available Markets:  Start time = 2022-12-19T04:20:01
+2022-09-14 13:33:38,811 [main] INFO craftBet - 3717134  This game has no available Markets:  Start time = 2022-10-30T21:00:01
+2022-09-14 13:33:38,913 [main] INFO craftBet - 3717135  This game has no available Markets:  Start time = 2022-12-25T00:05:01
+2022-09-14 13:33:39,003 [main] INFO craftBet - 3717139  This game has no available Markets:  Start time = 2022-11-28T00:05:01
+2022-09-14 13:33:39,101 [main] INFO craftBet - 3717143  This game has no available Markets:  Start time = 2022-11-27T21:00:01
+2022-09-14 13:33:39,191 [main] INFO craftBet - 3717144  This game has no available Markets:  Start time = 2022-12-26T01:30:00
+2022-09-14 13:33:39,280 [main] INFO craftBet - 3717146  This game has no available Markets:  Start time = 2022-11-07T04:20:01
+2022-09-14 13:33:39,368 [main] INFO craftBet - 3717147  This game has no available Markets:  Start time = 2022-12-18T21:00:01
+2022-09-14 13:33:39,464 [main] INFO craftBet - 3717148  This game has no available Markets:  Start time = 2022-12-06T00:25:00
+2022-09-14 13:33:39,561 [main] INFO craftBet - 3717149  This game has no available Markets:  Start time = 2022-12-11T21:00:01
+2022-09-14 13:33:39,654 [main] INFO craftBet - 3717150  This game has no available Markets:  Start time = 2022-11-07T00:05:01
+2022-09-14 13:33:39,752 [main] INFO craftBet - 3717152  This game has no available Markets:  Start time = 2022-12-18T21:00:01
+2022-09-14 13:33:39,851 [main] INFO craftBet - 3717156  This game has no available Markets:  Start time = 2022-10-24T00:05:01
+2022-09-14 13:33:40,526 [main] INFO craftBet - 3717163  This game has no available Markets:  Start time = 2022-11-20T21:00:01
+2022-09-14 13:33:40,624 [main] INFO craftBet - 3717164  This game has no available Markets:  Start time = 2022-11-21T04:20:01
+2022-09-14 13:33:40,729 [main] INFO craftBet - 3717165  This game has no available Markets:  Start time = 2022-11-20T21:00:01
+2022-09-14 13:33:40,840 [main] INFO craftBet - 3717166  This game has no available Markets:  Start time = 2022-12-13T04:15:01
+2022-09-14 13:33:40,952 [main] INFO craftBet - 3717167  This game has no available Markets:  Start time = 2022-11-13T21:00:01
+2022-09-14 13:33:41,049 [main] INFO craftBet - 3717171  This game has no available Markets:  Start time = 2022-12-18T21:00:01
+2022-09-14 13:33:41,142 [main] INFO craftBet - 3717174  This game has no available Markets:  Start time = 2022-12-18T21:00:01
+2022-09-14 13:33:41,248 [main] INFO craftBet - 3717177  This game has no available Markets:  Start time = 2023-01-01T21:00:01
+2022-09-14 13:33:41,342 [main] INFO craftBet - 3717180  This game has no available Markets:  Start time = 2022-11-13T21:00:01
+2022-09-14 13:33:41,443 [main] INFO craftBet - 3717182  This game has no available Markets:  Start time = 2022-12-12T00:05:01
+2022-09-14 13:33:41,545 [main] INFO craftBet - 3717183  This game has no available Markets:  Start time = 2022-12-25T00:25:01
+2022-09-14 13:33:41,647 [main] INFO craftBet - 3717185  This game has no available Markets:  Start time = 2022-11-13T18:30:00
+2022-09-14 13:33:41,746 [main] INFO craftBet - 3717189  This game has no available Markets:  Start time = 2022-11-14T00:05:01
+2022-09-14 13:33:41,853 [main] INFO craftBet - 3717191  This game has no available Markets:  Start time = 2022-12-24T21:00:01
+2022-09-14 13:33:41,956 [main] INFO craftBet - 3717193  This game has no available Markets:  Start time = 2022-12-24T21:00:01
+2022-09-14 13:33:42,080 [main] INFO craftBet - 3717198  This game has no available Markets:  Start time = 2022-11-14T01:25:00
+2022-09-14 13:33:42,183 [main] INFO craftBet - 3717201  This game has no available Markets:  Start time = 2022-12-04T21:00:01
+2022-09-14 13:33:42,284 [main] INFO craftBet - 3717202  This game has no available Markets:  Start time = 2022-12-24T21:00:01
+2022-09-14 13:33:42,404 [main] INFO craftBet - 3717208  This game has no available Markets:  Start time = 2022-10-03T04:20:00
+2022-09-14 13:33:42,544 [main] INFO craftBet - 3717210  This game has no available Markets:  Start time = 2022-12-11T21:00:01
+2022-09-14 13:33:42,681 [main] INFO craftBet - 3717211  This game has no available Markets:  Start time = 2022-11-27T21:00:01
+2022-09-14 13:33:42,804 [main] INFO craftBet - 3717214  This game has no available Markets:  Start time = 2023-01-08T21:00:01
+2022-09-14 13:33:42,916 [main] INFO craftBet - 3717218  This game has no available Markets:  Start time = 2022-10-09T17:30:00
+2022-09-14 13:33:43,022 [main] INFO craftBet - 3717220  This game has no available Markets:  Start time = 2022-11-27T21:00:01
+2022-09-14 13:33:43,131 [main] INFO craftBet - 3717225  This game has no available Markets:  Start time = 2022-10-30T17:30:00
+2022-09-14 13:33:43,234 [main] INFO craftBet - 3717227  This game has no available Markets:  Start time = 2022-12-05T00:05:01
+2022-09-14 13:33:43,334 [main] INFO craftBet - 3717232  This game has no available Markets:  Start time = 2022-12-04T21:00:01
+2022-09-14 13:33:43,434 [main] INFO craftBet - 3717233  This game has no available Markets:  Start time = 2022-10-02T17:30:00
+2022-09-14 13:33:43,552 [main] INFO craftBet - 3717238  This game has no available Markets:  Start time = 2022-11-22T05:15:00
+2022-09-14 13:33:43,665 [main] INFO craftBet - 3717241  This game has no available Markets:  Start time = 2022-12-02T04:15:01
+2022-09-14 13:33:43,812 [main] INFO craftBet - 3717539  This game has no available Markets:  Start time = 2022-11-11T04:15:01
+2022-09-14 13:33:43,931 [main] INFO craftBet - 3717547  This game has no available Markets:  Start time = 2022-12-25T21:00:01
+2022-09-14 13:33:44,237 [main] INFO craftBet - 3717551  This game has no available Markets:  Start time = 2022-10-16T21:00:01
+2022-09-14 13:33:44,344 [main] INFO craftBet - 3717561  This game has no available Markets:  Start time = 2022-10-16T21:00:01
+2022-09-14 13:33:44,468 [main] INFO craftBet - 3717565  This game has no available Markets:  Start time = 2022-10-02T21:00:01
+2022-09-14 13:33:44,575 [main] INFO craftBet - 3717569  This game has no available Markets:  Start time = 2022-11-06T21:00:01
+2022-09-14 13:33:44,677 [main] INFO craftBet - 3717571  This game has no available Markets:  Start time = 2022-10-25T04:15:01
+2022-09-14 13:33:44,944 [main] INFO craftBet - 3717578  This game has no available Markets:  Start time = 2022-10-09T21:00:01
+2022-09-14 13:33:45,042 [main] INFO craftBet - 3717579  This game has no available Markets:  Start time = 2022-10-24T00:05:01
+2022-09-14 13:33:45,310 [main] INFO craftBet - 3717584  This game has no available Markets:  Start time = 2022-11-07T00:25:01
+2022-09-14 13:33:45,416 [main] INFO craftBet - 3717589  This game has no available Markets:  Start time = 2022-10-16T21:00:01
+2022-09-14 13:33:45,526 [main] INFO craftBet - 3717590  This game has no available Markets:  Start time = 2022-10-09T21:00:01
+2022-09-14 13:33:45,626 [main] INFO craftBet - 3717594  This game has no available Markets:  Start time = 2022-12-12T00:25:01
+2022-09-14 13:33:45,731 [main] INFO craftBet - 3717595  This game has no available Markets:  Start time = 2022-10-30T21:00:01
+2022-09-14 13:33:45,828 [main] INFO craftBet - 3717598  This game has no available Markets:  Start time = 2022-12-04T21:00:01
+2022-09-14 13:33:46,109 [main] INFO craftBet - 3717604  This game has no available Markets:  Start time = 2022-10-24T04:20:01
+2022-09-14 13:33:46,196 [main] INFO craftBet - 3717606  This game has no available Markets:  Start time = 2022-12-26T04:20:01
+2022-09-14 13:33:46,292 [main] INFO craftBet - 3717611  This game has no available Markets:  Start time = 2022-12-20T04:15:01
+2022-09-14 13:33:46,427 [main] INFO craftBet - 3717617  This game has no available Markets:  Start time = 2022-10-30T21:00:01
+2022-09-14 13:33:46,543 [main] INFO craftBet - 3717627  This game has no available Markets:  Start time = 2022-12-24T21:00:01
+2022-09-14 13:33:46,641 [main] INFO craftBet - 3717628  This game has no available Markets:  Start time = 2022-10-17T00:25:01
+2022-09-14 13:33:46,735 [main] INFO craftBet - 3717786  This game has no available Markets:  Start time = 2022-11-25T01:30:00
+2022-09-14 13:33:46,833 [main] INFO craftBet - 3717840  This game has no available Markets:  Start time = 2022-10-02T21:00:01
+2022-09-14 13:33:46,929 [main] INFO craftBet - 3717849  This game has no available Markets:  Start time = 2022-10-31T00:25:01
+2022-09-14 13:33:47,033 [main] INFO craftBet - 3717856  This game has no available Markets:  Start time = 2022-10-02T21:00:01
+2022-09-14 13:33:47,135 [main] INFO craftBet - 3717862  This game has no available Markets:  Start time = 2022-11-13T21:00:01
+2022-09-14 13:33:47,242 [main] INFO craftBet - 3717867  This game has no available Markets:  Start time = 2022-10-17T04:20:01
+2022-09-14 13:33:47,352 [main] INFO craftBet - 3717870  This game has no available Markets:  Start time = 2022-10-10T00:25:01
+2022-09-14 13:33:47,462 [main] INFO craftBet - 3718059  This game has no available Markets:  Start time = 2022-11-25T05:20:00
+2022-09-14 13:33:47,565 [main] INFO craftBet - 3718061  This game has no available Markets:  Start time = 2022-11-24T21:30:00
+2022-09-14 13:33:47,943 [main] INFO craftBet - Empty Markets count is:  179
+2022-09-14 13:33:51,980 [main] INFO craftBet - Browser closed
+2022-09-14 13:33:51,981 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 13:33:51,990 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:33:52,036 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:33:52,072 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:33:53,771 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:33:53,779 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:33:54,047 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:33:54,535 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:33:54,622 [main] INFO craftBet - Matches count is  = 361
+2022-09-14 13:34:41,040 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-14 13:34:41,245 [main] INFO craftBet - Browser closed
+2022-09-14 13:34:41,246 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 13:34:41,250 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:34:41,269 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:34:41,312 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:34:43,275 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:34:43,279 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:34:43,299 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:34:43,480 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:34:43,514 [main] INFO craftBet - Matches count is  = 3
+2022-09-14 13:34:43,834 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-14 13:34:44,034 [main] INFO craftBet - Browser closed
+2022-09-14 13:34:44,034 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 13:34:44,043 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:34:44,059 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:34:44,082 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:34:46,956 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:34:46,962 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:34:46,982 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:34:47,296 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:34:47,325 [main] INFO craftBet - Matches count is  = 13
+2022-09-14 13:34:49,041 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-14 13:34:49,231 [main] INFO craftBet - Browser closed
+2022-09-14 13:34:49,231 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 13:34:49,244 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:34:49,294 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:34:49,333 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:34:50,749 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:34:50,752 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:34:50,764 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:34:50,945 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:34:50,976 [main] INFO craftBet - Matches count is  = 64
+2022-09-14 13:34:55,307 [main] INFO craftBet - 3765112  This game has no available Markets:  Start time = 2022-09-15T13:30:00
+2022-09-14 13:34:55,631 [main] INFO craftBet - 3765114  This game has no available Markets:  Start time = 2022-09-15T13:30:00
+2022-09-14 13:34:55,733 [main] INFO craftBet - 3765116  This game has no available Markets:  Start time = 2022-09-15T13:30:00
+2022-09-14 13:35:01,563 [main] INFO craftBet - Empty Markets count is:  3
+2022-09-14 13:35:01,794 [AsyncHttpClient-1-4] WARN org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-09-14 13:35:02,225 [main] INFO craftBet - Browser closed
+2022-09-14 13:35:02,226 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 13:35:02,230 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:35:02,278 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:35:02,325 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:35:04,676 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:35:04,681 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:35:04,699 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:35:04,876 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:35:04,914 [main] INFO craftBet - Matches count is  = 331
+2022-09-14 13:35:09,064 [main] INFO craftBet - 3771283  This game has no available Markets:  Start time = 2022-09-17T19:00:00
+2022-09-14 13:35:39,123 [main] INFO craftBet - 3715136  This game has no available Markets:  Start time = 2022-09-30T14:00:00
+2022-09-14 13:36:34,541 [main] INFO craftBet - Empty Markets count is:  2
+2022-09-14 13:36:34,768 [main] INFO craftBet - Browser closed
+2022-09-14 13:36:34,769 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 13:36:34,777 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:36:34,830 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:36:34,872 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:36:37,139 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:36:37,161 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:36:38,128 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:36:38,375 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:36:38,427 [main] INFO craftBet - Matches count is  = 24
+2022-09-14 13:37:07,515 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-14 13:37:07,640 [main] INFO craftBet - Browser closed
+2022-09-14 13:37:07,640 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 13:37:07,642 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:37:07,660 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:37:07,691 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:37:09,418 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:37:09,421 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:37:09,431 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:37:09,600 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:37:09,627 [main] INFO craftBet - Matches count is  = 7
+2022-09-14 13:37:09,841 [main] INFO craftBet - 3241657  This game has no available Markets:  Start time = 2022-11-14T11:00:00
+2022-09-14 13:37:09,993 [main] INFO craftBet - 3243551  This game has no available Markets:  Start time = 2022-11-14T11:00:00
+2022-09-14 13:37:10,139 [main] INFO craftBet - 3243552  This game has no available Markets:  Start time = 2022-11-14T11:00:00
+2022-09-14 13:37:10,287 [main] INFO craftBet - 3243553  This game has no available Markets:  Start time = 2022-11-14T11:00:00
+2022-09-14 13:37:10,444 [main] INFO craftBet - 3243554  This game has no available Markets:  Start time = 2022-11-14T11:00:00
+2022-09-14 13:37:10,689 [main] INFO craftBet - 3243555  This game has no available Markets:  Start time = 2022-11-14T11:00:00
+2022-09-14 13:37:11,069 [main] INFO craftBet - 3243556  This game has no available Markets:  Start time = 2022-11-14T11:00:00
+2022-09-14 13:37:11,069 [main] INFO craftBet - Empty Markets count is:  7
+2022-09-14 13:37:11,233 [main] INFO craftBet - Browser closed
+2022-09-14 13:37:11,233 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 13:37:11,236 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:37:11,246 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:37:11,273 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:37:14,373 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:37:14,378 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:37:14,401 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:37:14,579 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:37:14,610 [main] INFO craftBet - Matches count is  = 0
+2022-09-14 13:37:14,610 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-14 13:37:14,794 [main] INFO craftBet - Browser closed
+2022-09-14 13:37:14,795 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 13:37:14,803 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:37:14,826 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:37:14,870 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:37:16,606 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:37:16,609 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:37:16,857 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:37:17,027 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:37:17,057 [main] INFO craftBet - Matches count is  = 50
+2022-09-14 13:37:35,372 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-14 13:37:35,620 [main] INFO craftBet - Browser closed
+2022-09-14 13:37:35,621 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 13:37:35,623 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:37:35,644 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:37:35,670 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:37:37,239 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:37:37,251 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:37:37,525 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:37:37,686 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:37:37,715 [main] INFO craftBet - Matches count is  = 116
+2022-09-14 13:37:41,572 [main] INFO craftBet - 3716910  This game has no available Markets:  Start time = 2022-12-31T10:00:00
+2022-09-14 13:37:45,033 [main] INFO craftBet - 3727427  This game has no available Markets:  Start time = 2022-09-17T22:00:00
+2022-09-14 13:37:51,452 [main] INFO craftBet - 3716947  This game has no available Markets:  Start time = 2022-12-31T23:00:00
+2022-09-14 13:37:56,852 [main] INFO craftBet - 3704047  This game has no available Markets:  Start time = 2022-09-18T03:00:00
+2022-09-14 13:38:03,355 [main] INFO craftBet - 3716865  This game has no available Markets:  Start time = 2022-09-18T03:00:00
+2022-09-14 13:38:03,898 [main] INFO craftBet - 3716871  This game has no available Markets:  Start time = 2022-10-16T07:00:00
+2022-09-14 13:38:13,585 [main] INFO craftBet - 3741343  This game has no available Markets:  Start time = 2022-10-23T03:00:00
+2022-09-14 13:38:14,303 [main] INFO craftBet - Empty Markets count is:  7
+2022-09-14 13:38:14,654 [main] INFO craftBet - Browser closed
+2022-09-14 13:38:14,655 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 13:38:14,672 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:38:14,696 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:38:14,735 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:38:19,673 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:38:19,680 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:38:19,958 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:38:20,139 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:38:20,173 [main] INFO craftBet - Matches count is  = 52
+2022-09-14 13:38:38,006 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-14 13:38:38,270 [main] INFO craftBet - Browser closed
+2022-09-14 13:38:38,270 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 13:38:38,288 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:38:38,321 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:38:38,406 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:38:40,482 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:38:40,491 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:38:40,867 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:38:41,031 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:38:41,066 [main] INFO craftBet - Matches count is  = 1
+2022-09-14 13:38:41,266 [main] INFO craftBet - 3768777  This game has no available Markets:  Start time = 2022-09-18T23:00:00
+2022-09-14 13:38:41,266 [main] INFO craftBet - Empty Markets count is:  1
+2022-09-14 13:38:41,430 [main] INFO craftBet - Browser closed
+2022-09-14 13:38:41,430 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 13:38:41,446 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:38:41,505 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:38:41,533 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:38:43,184 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:38:43,186 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:38:43,200 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:38:43,380 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:38:43,418 [main] INFO craftBet - Matches count is  = 22
+2022-09-14 13:39:01,478 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-14 13:39:01,607 [main] INFO craftBet - Browser closed
+2022-09-14 13:39:01,607 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 13:39:01,611 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:39:01,623 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:39:01,647 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:39:03,853 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:39:03,857 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:39:04,220 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:39:06,588 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:39:06,643 [main] INFO craftBet - Matches count is  = 0
+2022-09-14 13:39:06,644 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-14 13:39:07,033 [main] INFO craftBet - Browser closed
+2022-09-14 13:39:07,033 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 13:39:07,039 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:39:07,056 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:39:07,083 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:39:08,721 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:39:08,740 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:39:09,080 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:39:09,251 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:39:09,279 [main] INFO craftBet - Matches count is  = 8
+2022-09-14 13:39:11,772 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-14 13:39:12,099 [main] INFO craftBet - Browser closed
+2022-09-14 13:39:12,100 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 13:39:12,103 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:39:12,122 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:39:12,151 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:39:15,401 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:39:15,412 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:39:15,436 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:39:15,635 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:39:15,673 [main] INFO craftBet - Matches count is  = 33
+2022-09-14 13:39:32,634 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-14 13:39:32,946 [main] INFO craftBet - Browser closed
+2022-09-14 13:39:32,947 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 13:39:32,952 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:39:32,971 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:39:33,000 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:39:36,319 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:39:36,323 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:39:36,346 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:39:36,521 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:39:36,552 [main] INFO craftBet - Matches count is  = 29
+2022-09-14 13:39:47,591 [main] INFO craftBet - Empty Markets count is:  0
+2022-09-14 13:39:47,919 [main] INFO craftBet - Browser closed
+2022-09-14 13:39:47,919 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 13:39:47,922 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-14 13:39:47,952 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-14 13:39:47,995 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-14 13:39:50,405 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-14 13:39:50,413 [main] INFO craftBet - All Page elements are initialized
+2022-09-14 13:39:50,698 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-14 13:39:50,896 [main] INFO craftBet - Get Matches Api call was sent
+2022-09-14 13:39:50,942 [main] INFO craftBet - Matches count is  = 1554
+2022-09-14 13:50:41,043 [main] INFO craftBet - 3754875  This game has no available Markets:  Start time = 2022-09-15T23:00:00
+2022-09-14 13:59:40,495 [main] INFO craftBet - 3736432  This game has no available Markets:  Start time = 2022-09-18T19:30:00
+2022-09-14 14:00:21,732 [main] INFO craftBet - 3736460  This game has no available Markets:  Start time = 2022-09-17T18:00:00
+2022-09-14 14:00:21,855 [main] INFO craftBet - 3736472  This game has no available Markets:  Start time = 2022-09-18T17:00:00
+2022-09-14 14:49:01,860 [main] INFO craftBet - 3772714  This game has no available Markets:  Start time = 2022-09-14T17:00:00
+2022-09-14 14:49:02,030 [main] INFO craftBet - 3772715  This game has no available Markets:  Start time = 2022-09-14T17:00:00
+2022-09-14 14:49:02,153 [main] INFO craftBet - 3772717  This game has no available Markets:  Start time = 2022-09-14T17:00:00
+2022-09-14 14:49:02,303 [main] INFO craftBet - 3772718  This game has no available Markets:  Start time = 2022-09-14T17:00:00
+2022-09-14 14:49:02,446 [main] INFO craftBet - 3772719  This game has no available Markets:  Start time = 2022-09-14T17:00:00
+2022-09-14 14:49:02,595 [main] INFO craftBet - 3772720  This game has no available Markets:  Start time = 2022-09-14T17:00:00
+2022-09-14 14:49:02,715 [main] INFO craftBet - 3772721  This game has no available Markets:  Start time = 2022-09-14T17:00:00
+2022-09-14 14:52:58,762 [main] INFO craftBet - 3717397  This game has no available Markets:  Start time = 2022-09-24T22:30:00
+2022-09-14 15:09:03,704 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (java.net.SocketException) caught when processing request to {s}->https://sportsbookwebsitewebapi.craftbet.com:443: Connection reset
+2022-09-14 15:09:03,713 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {s}->https://sportsbookwebsitewebapi.craftbet.com:443
+2022-09-14 15:14:38,516 [main] INFO craftBet - Empty Markets count is:  12
+2022-09-14 15:14:39,770 [main] INFO craftBet - Browser closed
+2022-09-14 15:14:39,770 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-14 15:14:39,903 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
