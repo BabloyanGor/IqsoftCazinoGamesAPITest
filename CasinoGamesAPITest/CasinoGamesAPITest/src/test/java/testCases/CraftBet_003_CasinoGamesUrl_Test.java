@@ -50,7 +50,7 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
         ArrayList<String> errorSrcXl = new ArrayList<>();
 
         int errCount = 1;
-        int k = 0;
+        int k = 1;
 
         Unirest.setTimeouts(0, 0);
         HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
