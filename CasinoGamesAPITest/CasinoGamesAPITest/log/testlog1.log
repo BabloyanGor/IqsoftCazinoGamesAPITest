@@ -6006,3 +6006,65 @@ java.net.SocketException: Connection reset
 2022-09-14 16:40:55,950 [main] INFO craftBet - Browser closed
 2022-09-14 16:40:55,950 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-09-14 16:40:55,959 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-15 11:21:27,747 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-15 11:21:29,447 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-15 11:21:29,486 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-15 11:21:34,800 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-15 11:21:34,969 [main] INFO craftBet - All Page elements are initialized
+2022-09-15 11:21:35,387 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-15 11:21:35,920 [main] INFO craftBet - Get games Api call was sent
+2022-09-15 11:21:35,928 [main] INFO craftBet - Games are 10
+2022-09-15 11:21:35,929 [main] INFO craftBet - Get Life games Api Response was captured
+2022-09-15 11:21:35,940 [main] ERROR craftBet - The Time Out games are :   113776268   WTT Contender Almaty MD   Ali Alkhadrawi / Bu Shulaybi Abdulaziz   VS  Iskender Kharki / Kenzhigulov   Table Tennis   2022-09-15T08:00:00  Status = 0   After game start time out = :  3 hours  21 minutes
+2022-09-15 11:21:35,941 [main] ERROR craftBet - The Time Out games are :   123776251   WTT Contender Almaty WD   Yi Chen / Yuxuan Qin  VS  Y. Shin/H. Choi   Table Tennis   2022-09-15T08:00:00  Status = 0   After game start time out = :  3 hours  21 minutes
+2022-09-15 11:21:35,941 [main] ERROR craftBet - The Time Out games are :   133778172   Setka Cup   Oleksandr Hordiichuk  VS  Valery Vlasenko   Table Tennis   2022-09-15T08:25:00  Status = 1   After game start time out = :  2 hours  56 minutes
+2022-09-15 11:21:35,942 [main] ERROR craftBet - The Time Out games are :   143776183   TT Elite Series   Szymon Radlo  VS  Mikolaj Szalinsky   Table Tennis   2022-09-15T08:30:00  Status = 0   After game start time out = :  2 hours  51 minutes
+2022-09-15 11:21:35,942 [main] ERROR craftBet - The Time Out games are :   153776169   WTT Contender Almaty MD   Lin/Cheng-Ting Liao  VS  Xinyuan Han / Chen Yuanyu   Table Tennis   2022-09-15T08:35:00  Status = 0   After game start time out = :  2 hours  46 minutes
+2022-09-15 11:21:35,942 [main] ERROR craftBet - The Time Out games are :   163776262   WTT Contender Almaty WD   Zang Xiaotong / Yangchen Wu  VS  Zong Geman / Feier Han   Table Tennis   2022-09-15T08:35:00  Status = 0   After game start time out = :  2 hours  46 minutes
+2022-09-15 11:21:35,942 [main] ERROR craftBet - The Time Out games are :   173778680   MLB   LA Dodgers  VS  ARI Diamondbacks   Baseball   2022-09-15T05:22:23  Status = 1   After game start time out = :  5 hours  59 minutes
+2022-09-15 11:21:35,943 [main] INFO craftBet - Time out Games are:  7
+2022-09-15 11:21:37,524 [main] INFO craftBet - Browser closed
+2022-09-15 11:21:37,524 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-15 11:21:37,539 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-15 11:24:38,785 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-15 11:24:39,140 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-15 11:24:39,176 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-15 11:24:42,537 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-15 11:24:42,722 [main] INFO craftBet - All Page elements are initialized
+2022-09-15 11:24:42,736 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-15 11:24:43,566 [main] INFO craftBet - Get games Api call was sent
+2022-09-15 11:24:43,575 [main] INFO craftBet - Games are 10
+2022-09-15 11:24:43,575 [main] INFO craftBet - Get Life games Api Response was captured
+2022-09-15 11:24:43,585 [main] ERROR craftBet - The Time Out games are :   113779054   EbasketballBattle-4x5mins   MIA Heat (Tebra) Esports  VS  TOR Raptors (Laja) Esports   Basketball   2022-09-15T08:22:05  Status = 1   After game start time out = :  3 hours  2 minutes
+2022-09-15 11:24:43,585 [main] ERROR craftBet - The Time Out games are :   123776268   WTT Contender Almaty MD   Ali Alkhadrawi / Bu Shulaybi Abdulaziz   VS  Iskender Kharki / Kenzhigulov   Table Tennis   2022-09-15T08:00:00  Status = 0   After game start time out = :  3 hours  24 minutes
+2022-09-15 11:24:43,586 [main] ERROR craftBet - The Time Out games are :   133776251   WTT Contender Almaty WD   Yi Chen / Yuxuan Qin  VS  Y. Shin/H. Choi   Table Tennis   2022-09-15T08:00:00  Status = 0   After game start time out = :  3 hours  24 minutes
+2022-09-15 11:24:43,586 [main] ERROR craftBet - The Time Out games are :   143778172   Setka Cup   Oleksandr Hordiichuk  VS  Valery Vlasenko   Table Tennis   2022-09-15T08:25:00  Status = 1   After game start time out = :  2 hours  59 minutes
+2022-09-15 11:24:43,586 [main] ERROR craftBet - The Time Out games are :   153776183   TT Elite Series   Szymon Radlo  VS  Mikolaj Szalinsky   Table Tennis   2022-09-15T08:30:00  Status = 0   After game start time out = :  2 hours  54 minutes
+2022-09-15 11:24:43,586 [main] ERROR craftBet - The Time Out games are :   163776169   WTT Contender Almaty MD   Lin/Cheng-Ting Liao  VS  Xinyuan Han / Chen Yuanyu   Table Tennis   2022-09-15T08:35:00  Status = 0   After game start time out = :  2 hours  49 minutes
+2022-09-15 11:24:43,587 [main] ERROR craftBet - The Time Out games are :   173776262   WTT Contender Almaty WD   Zang Xiaotong / Yangchen Wu  VS  Zong Geman / Feier Han   Table Tennis   2022-09-15T08:35:00  Status = 0   After game start time out = :  2 hours  49 minutes
+2022-09-15 11:24:43,588 [main] ERROR craftBet - The Time Out games are :   183778680   MLB   LA Dodgers  VS  ARI Diamondbacks   Baseball   2022-09-15T05:22:23  Status = 1   After game start time out = :  6 hours  2 minutes
+2022-09-15 11:24:43,588 [main] INFO craftBet - Time out Games are:  8
+2022-09-15 11:24:45,518 [main] INFO craftBet - Browser closed
+2022-09-15 11:24:45,518 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-15 11:24:45,521 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-15 11:26:09,611 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-15 11:26:10,028 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-15 11:26:10,123 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-15 11:26:13,310 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-15 11:26:13,436 [main] INFO craftBet - All Page elements are initialized
+2022-09-15 11:26:13,789 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-15 11:26:14,427 [main] INFO craftBet - Get games Api call was sent
+2022-09-15 11:26:14,441 [main] INFO craftBet - Games are 10
+2022-09-15 11:26:14,442 [main] INFO craftBet - Get Life games Api Response was captured
+2022-09-15 11:26:14,456 [main] ERROR craftBet - The Time Out games are :   3779054   EbasketballBattle-4x5mins   MIA Heat (Tebra) Esports  VS  TOR Raptors (Laja) Esports   Basketball   2022-09-15T08:22:05  Status = 1   After game start time out = :  3 hours  4 minutes
+2022-09-15 11:26:14,457 [main] ERROR craftBet - The Time Out games are :   3776268   WTT Contender Almaty MD   Ali Alkhadrawi / Bu Shulaybi Abdulaziz   VS  Iskender Kharki / Kenzhigulov   Table Tennis   2022-09-15T08:00:00  Status = 0   After game start time out = :  3 hours  26 minutes
+2022-09-15 11:26:14,457 [main] ERROR craftBet - The Time Out games are :   3776251   WTT Contender Almaty WD   Yi Chen / Yuxuan Qin  VS  Y. Shin/H. Choi   Table Tennis   2022-09-15T08:00:00  Status = 0   After game start time out = :  3 hours  26 minutes
+2022-09-15 11:26:14,457 [main] ERROR craftBet - The Time Out games are :   3778172   Setka Cup   Oleksandr Hordiichuk  VS  Valery Vlasenko   Table Tennis   2022-09-15T08:25:00  Status = 1   After game start time out = :  3 hours  1 minutes
+2022-09-15 11:26:14,457 [main] ERROR craftBet - The Time Out games are :   3776183   TT Elite Series   Szymon Radlo  VS  Mikolaj Szalinsky   Table Tennis   2022-09-15T08:30:00  Status = 0   After game start time out = :  2 hours  56 minutes
+2022-09-15 11:26:14,457 [main] ERROR craftBet - The Time Out games are :   3776169   WTT Contender Almaty MD   Lin/Cheng-Ting Liao  VS  Xinyuan Han / Chen Yuanyu   Table Tennis   2022-09-15T08:35:00  Status = 0   After game start time out = :  2 hours  51 minutes
+2022-09-15 11:26:14,458 [main] ERROR craftBet - The Time Out games are :   3776262   WTT Contender Almaty WD   Zang Xiaotong / Yangchen Wu  VS  Zong Geman / Feier Han   Table Tennis   2022-09-15T08:35:00  Status = 0   After game start time out = :  2 hours  51 minutes
+2022-09-15 11:26:14,458 [main] ERROR craftBet - The Time Out games are :   3778680   MLB   LA Dodgers  VS  ARI Diamondbacks   Baseball   2022-09-15T05:22:23  Status = 1   After game start time out = :  6 hours  3 minutes
+2022-09-15 11:26:14,459 [main] INFO craftBet - Time out Games are:  8
+2022-09-15 11:26:17,052 [main] INFO craftBet - Browser closed
+2022-09-15 11:26:17,052 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-15 11:26:17,057 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  

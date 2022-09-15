@@ -155,7 +155,7 @@ public class CraftBet_101_LifeGamesTimeOut_Test extends BaseTest{
             int hoursForLog = allMinutes / 60;
             int minutesForLog = allMinutes % 60;
 
-            String errMessageMinutes = k + gameID.get(i) + "   " + leagueType.get(i) + "   " + teamOne.get(i) + "  VS  "
+            String errMessageMinutes = gameID.get(i) + "   " + leagueType.get(i) + "   " + teamOne.get(i) + "  VS  "
                     + teamTwo.get(i) + "   " + gameType.get(i) + "   " + gameStartTime.get(i) + "  Status = "
                     + gameStatus1.get(i) + "   After game start time out = :  " + hoursForLog + " hours  "
                     + minutesForLog + " minutes";
