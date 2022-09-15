@@ -79,5 +79,4 @@ public class CraftBet_004_CasinoSameNameCopyGames_Test extends BaseTest{
                 Assert.fail();
             }
         }
-
 }
