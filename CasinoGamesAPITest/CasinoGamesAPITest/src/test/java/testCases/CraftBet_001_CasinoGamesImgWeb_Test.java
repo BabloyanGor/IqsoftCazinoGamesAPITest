@@ -21,12 +21,11 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
             throws UnirestException, JSONException, IOException {
 
         boolean isPassed;
-        int k = 1;
+        int k = 0;
         ArrayList<String> srces = new ArrayList<>();
         ArrayList<String> gameNames = new ArrayList<>();
         ArrayList<String> gameProviderNames = new ArrayList<>();
         ArrayList<String> errorSrcXl = new ArrayList<>();
-
 
         Unirest.setTimeouts(0, 0);
         HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
@@ -44,7 +43,6 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
 
 
         for (int j = 0; j < jsonArrayGames.length(); j++) {
-
             String first = String.valueOf(jsonArrayGames.get(j));
             JSONObject jsonObjectGame = new JSONObject(first);
             String i = jsonObjectGame.getString("i");    // Game src

@@ -1,0 +1,229 @@
+2022-09-19 10:32:36,046 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-19 10:32:36,427 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-19 10:32:36,460 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-19 10:32:39,674 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-19 10:32:39,797 [main] INFO craftBet - All Page elements are initialized
+2022-09-19 10:32:39,808 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-19 10:32:40,814 [main] INFO craftBet - Get games Api call was sent
+2022-09-19 10:32:40,829 [main] INFO craftBet - Games are 38
+2022-09-19 10:32:40,829 [main] INFO craftBet - Get Life games Api Response was captured
+2022-09-19 10:32:40,849 [main] INFO craftBet - Time out Games are:  0
+2022-09-19 10:32:41,006 [main] INFO craftBet - Browser closed
+2022-09-19 10:32:41,006 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-19 10:32:41,011 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-20 13:48:44,231 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-20 13:48:46,254 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-20 13:48:46,318 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-20 13:48:52,782 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-09-20 13:48:52,908 [main] INFO craftBet - All Page elements are initialized
+2022-09-20 13:48:52,919 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-20 13:48:54,306 [main] INFO craftBet - Get games Api call was sent
+2022-09-20 13:48:54,326 [main] INFO craftBet - Games are 108
+2022-09-20 13:48:54,326 [main] INFO craftBet - Get Life games Api Response was captured
+2022-09-20 13:48:54,359 [main] ERROR craftBet - The Time Out games are :   3798927   WTABudapest   Julia Grabher  VS  Timea Babos   Tennis   2022-09-20T00:09:38  Status = 1   After game start time out = :  13 hours  39 minutes
+2022-09-20 13:48:54,362 [main] ERROR craftBet - The Time Out games are :   3797778   Czech Liga Pro   Petr Jochym  VS  Adam Strelec   Table Tennis   2022-09-20T11:00:00  Status = 1   After game start time out = :  2 hours  48 minutes
+2022-09-20 13:48:54,363 [main] ERROR craftBet - The Time Out games are :   3799925   JapanNPBReserveLeague   Orix Buffaloes Reserves  VS  Hanshin Tigers Reserves   Baseball   2022-09-20T07:28:13  Status = 1   After game start time out = :  6 hours  20 minutes
+2022-09-20 13:48:54,364 [main] INFO craftBet - Time out Games are:  3
+2022-09-20 13:48:55,902 [main] INFO craftBet - Browser closed
+2022-09-20 13:48:55,904 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-20 13:48:55,918 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-26 14:20:59,824 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-26 14:21:00,185 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-26 14:21:00,220 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-26 14:21:12,021 [main] INFO craftBet - URL: https://tigerbet001.com  Browser: chrome
+2022-09-26 14:21:12,383 [main] INFO craftBet - All Page elements are initialized
+2022-09-26 14:21:12,926 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-26 14:21:19,074 [main] INFO craftBet - Get games Api call was sent
+2022-09-26 14:21:19,839 [main] INFO craftBet - Get games Api Response was captured
+2022-09-26 14:21:19,977 [main] INFO craftBet - All captured games images was added into ArrayList
+2022-09-26 14:22:58,516 [main] ERROR craftBet - 127   Game Provider Name = ISoftBet :   Game Name =  LuckyDragon :   cod = 404:   src = https://resources.tigerbet001.com/products/endorphina/web/LuckyDice3.jpg
+2022-09-26 14:24:50,607 [main] ERROR craftBet - 271   Game Provider Name = Platipus :   Game Name =  1001 Spins :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/onehundredpandas.jpg
+2022-09-26 14:26:50,086 [main] ERROR craftBet - 428   Game Provider Name = Betsoft :   Game Name =  Arrival :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/ArkofMystery.png
+2022-09-26 14:27:31,409 [main] ERROR craftBet - 483 Game Provider Name = Leander :                    Game Name = Bar King Deluxe :                       src = https://resources.{p}/products/BankoftheNile.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 14:27:59,497 [main] ERROR craftBet - 526   Game Provider Name = PushGaming :   Game Name =  Big Bamboo :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_bbw.jpg
+2022-09-26 14:28:01,298 [main] ERROR craftBet - 530   Game Provider Name = Yggdrasil :   Game Name =  Big Bucks Bandits Megaways :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/BigBotCrew.png
+2022-09-26 14:28:51,482 [main] ERROR craftBet - 615 Game Provider Name = TomHorn :                    Game Name = Book Of Spells :                       src = https://resources.{p}/products/BookOfSouls.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 14:29:49,791 [main] ERROR craftBet - 712   Game Provider Name = PariPlay :   Game Name =  CashCuisine :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/cashcoaster.jpg
+2022-09-26 14:30:14,050 [main] ERROR craftBet - 750 Game Provider Name = BoomingGames :                    Game Name = CheekyMonkeys :                       src = https://resources.{p}/products/CheekyFruits6Deluxe.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 14:30:40,308 [main] ERROR craftBet - 790   Game Provider Name = GameArt :   Game Name =  AtlantisWorld :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/cleopatragpe.jpg
+2022-09-26 14:30:52,409 [main] ERROR craftBet - 809   Game Provider Name = PlaynGo :   Game Name =  Contact :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_colossus.jpg
+2022-09-26 14:31:22,425 [main] ERROR craftBet - 852   Game Provider Name = Thunderkick :   Game Name =  Crystal Quest 1: DEEP JUNGLE :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_crystalqueen.jpg.jpg
+2022-09-26 14:31:47,645 [main] ERROR craftBet - 883   Game Provider Name = PlaynGo :   Game Name =  DawnofEgypt :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/davincidualplay.jpg
+2022-09-26 14:31:50,672 [main] ERROR craftBet - 887   Game Provider Name = NetEnt :   Game Name =  Dazzleme :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/dayofthedead.jpg
+2022-09-26 14:32:07,350 [main] ERROR craftBet - 913   Game Provider Name = BoomingGames :   Game Name =  Diamond Riches :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/diamondqueen.jpg
+2022-09-26 14:32:25,595 [main] ERROR craftBet - 938   Game Provider Name = Thunderkick :   Game Name =  DivineLotus :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/DivineDreams.png
+2022-09-26 14:33:04,335 [main] ERROR craftBet - 986   Game Provider Name = Leander :   Game Name =  DragonSlot :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/DragonShrine.png
+2022-09-26 14:33:22,915 [main] ERROR craftBet - 1010 Game Provider Name = Spadegaming :                    Game Name = Drunken Jungle :                       src = https://resources.{p}/products/Dream3Team.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 14:33:25,476 [main] ERROR craftBet - 1015   Game Provider Name = Yggdrasil :   Game Name =  DwarfMine :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/DurianDynamite.png
+2022-09-26 14:33:37,565 [main] ERROR craftBet - 1031   Game Provider Name = Booongo :   Game Name =  Eggs of Gold :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/EasternEmeralds.png
+2022-09-26 14:33:47,793 [main] ERROR craftBet - 1047 Game Provider Name = Evoplay :                    Game Name = Ellen's Fortune :                       src = https://resources.{p}/products/EliteofEvil:PortalofGold.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 14:34:00,990 [main] ERROR craftBet - 1069 Game Provider Name = Betsoft :                    Game Name = European Blackjack :                       src = https://resources.{p}/products/EternalShogi·jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 14:34:21,134 [main] ERROR craftBet - 1092   Game Provider Name = NetEnt :   Game Name =  Fairy Red :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/FairyGate.png
+2022-09-26 14:34:46,302 [main] ERROR craftBet - 1129   Game Provider Name = Habanero :   Game Name =  FireRooster :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/fireopals.jpg
+2022-09-26 14:35:15,646 [main] ERROR craftBet - 1168 Game Provider Name = Endorphina :                    Game Name = Football Superstar :                       src = https://resources.{p}/products/FootballStarDeluxe.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 14:35:55,906 [main] ERROR craftBet - 1228 Game Provider Name = NucleusGaming :                    Game Name = Fruit Serenity :                       src = https://resources.{p}/products/FruitPunchUp·jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 14:36:08,665 [main] ERROR craftBet - 1248 Game Provider Name = PlaysonDirect :                    Game Name = FruitsandStars :                       src = https://resources.{p}/products/Fruitsand777's·jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 14:36:31,634 [main] ERROR craftBet - 1281   Game Provider Name = Fugaso :   Game Name =  GatesofHell :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/gardenparty.jpg
+2022-09-26 14:36:47,778 [main] ERROR craftBet - 1305   Game Provider Name = WorldMatch :   Game Name =  Gentleman Thief HD :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web//qso_geniestouch.jpg
+2022-09-26 14:37:48,632 [main] ERROR craftBet - 1392 Game Provider Name = QuickSpin :                    Game Name = Goldilocks & Wild Bears :                       src = https://resources.{p}/products/goldilocks.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 14:37:48,876 [main] ERROR craftBet - 1393   Game Provider Name = QuickSpin :   Game Name =  Gold Lab :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_goldilocks2.jpg
+2022-09-26 14:37:49,105 [main] ERROR craftBet - 1394   Game Provider Name = PariPlay :   Game Name =  Goldorado :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_goldlab.jpg
+2022-09-26 14:37:55,023 [main] ERROR craftBet - 1404   Game Provider Name = Fugaso :   Game Name =  GrandSumo :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/grandmonarch.jpg
+2022-09-26 14:38:19,315 [main] ERROR craftBet - 1441   Game Provider Name = Wazdan :   Game Name =  HauntedHospital :   cod = 403:   src = https://static.egamings.com/games/leander/?attrick_?eroes.jpg
+2022-09-26 14:39:02,306 [main] ERROR craftBet - 1506   Game Provider Name = Evoplay :   Game Name =  Hot Triple Seven Specials :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/HotSync.png
+2022-09-26 14:39:05,178 [main] ERROR craftBet - 1512 Game Provider Name = NetEnt :                    Game Name = Hotline2 :                       src = https://resources.{p}/products/hotink.jpeg         java.net.UnknownHostException: resources.{p}
+2022-09-26 14:39:24,300 [main] ERROR craftBet - 1543   Game Provider Name = Fugaso :   Game Name =  ImhotepManuscript :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_illuminous.jpg
+2022-09-26 14:39:42,697 [main] ERROR craftBet - 1572   Game Provider Name = PlaynGo :   Game Name =  IronGirl :   cod = 404:   src = https://resources.tigerbet001.com/products/outcomebet/ironbank_rg.jpg
+2022-09-26 14:40:07,963 [main] ERROR craftBet - 1613   Game Provider Name = Fugaso :   Game Name =  JewelSea :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/jewelofthearts.jpg
+2022-09-26 14:41:10,658 [main] ERROR craftBet - 1708   Game Provider Name = GameArt :   Game Name =  Kitty Twins :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/kittyglitter.jpg
+2022-09-26 14:41:24,372 [main] ERROR craftBet - 1730 Game Provider Name = Wazdan :                    Game Name = LarrytheLaprechaun :                       src = https://resources.{p}/products/LaraJonesisCleopatra·jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 14:41:44,786 [main] ERROR craftBet - 1761   Game Provider Name = Platipus :   Game Name =  Leprechaun’s Coins :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_leprechaunhills.jpg
+2022-09-26 14:42:39,872 [main] ERROR craftBet - 1847 Game Provider Name = BoomingGames :                    Game Name = Lucky Scarabs :                       src = https://resources.{p}/products/LuckyRiches:Hyperspins.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 14:43:33,760 [main] ERROR craftBet - 1927   Game Provider Name = Spadegaming :   Game Name =  Master Chef :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/masquesofsanmarco.jpg
+2022-09-26 14:43:39,186 [main] ERROR craftBet - 1936   Game Provider Name = Wazdan :   Game Name =  MayanRitual :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/mayanriches.jpg
+2022-09-26 14:43:40,201 [main] ERROR craftBet - 1938   Game Provider Name = RedTiger :   Game Name =  mayangods :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_mayana.jpg
+2022-09-26 14:43:49,482 [main] ERROR craftBet - 1955 Game Provider Name = NoLimitCity :                    Game Name = Mental :                       src = https://resources.{p}/products/Meganova·jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 14:44:01,742 [main] ERROR craftBet - 1973 Game Provider Name = Evoplay :                    Game Name = MidnightShow :                       src = https://resources.{p}/products/MidnightMadness.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 14:44:04,016 [main] ERROR craftBet - 1977   Game Provider Name = BoomingGames :   Game Name =  Mighty Gorilla :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_mightyarthur.jpg
+2022-09-26 14:44:12,614 [main] ERROR craftBet - 1991   Game Provider Name = PlaynGo :   Game Name =  MissionCash :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/missred.jpg
+2022-09-26 14:44:20,043 [main] ERROR craftBet - 2001   Game Provider Name = Endorphina :   Game Name =  Mongol Treasures :   cod = 404:   src = https://resources.tigerbet001.com/products/outcomebet/moneytrain2_rg.jpg
+2022-09-26 14:44:38,484 [main] ERROR craftBet - 2032   Game Provider Name = Habanero :   Game Name =  MrBling :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/MountainKing.png
+2022-09-26 14:45:23,785 [main] ERROR craftBet - 2099   Game Provider Name = GameArt :   Game Name =  Norns' Fate :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web//noahsark.jpg
+2022-09-26 14:45:25,462 [main] ERROR craftBet - 2102   Game Provider Name = Thunderkick :   Game Name =  NotEnoughKittens :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/NorthernSky.png
+2022-09-26 14:46:06,198 [main] ERROR craftBet - 2166 Game Provider Name = PlaynGo :                    Game Name = PerfectGems :                       src = https://resources.{p}/products/Pentagram5000.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 14:46:13,332 [main] ERROR craftBet - 2178   Game Provider Name = RedTiger :   Game Name =  phoenixfirepowerreels :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_phoenixsun.jpg
+2022-09-26 14:46:15,574 [main] ERROR craftBet - 2182   Game Provider Name = Platipus :   Game Name =  Piedra del Sol :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/PiedPiper.png
+2022-09-26 14:46:28,853 [main] ERROR craftBet - 2203   Game Provider Name = Platipus :   Game Name =  Pirate'sMap :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/PiratesCharm.png
+2022-09-26 14:46:46,658 [main] ERROR craftBet - 2232 Game Provider Name = Platipus :                    Game Name = Posh Cats :                       src = https://resources.{p}/products/Popstar.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 14:47:09,713 [main] ERROR craftBet - 2267   Game Provider Name = Habanero :   Game Name =  PuckerUpPrince :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/prowlingpanther.jpg
+2022-09-26 14:47:32,074 [main] ERROR craftBet - 2312   Game Provider Name = PlaynGo :   Game Name =  Reactoonz :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_sabretooth.jpg
+2022-09-26 14:48:20,858 [main] ERROR craftBet - 2408 Game Provider Name = Fugaso :                    Game Name = Romance V :                       src = https://resources.{p}/products/RomanPower.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 14:48:45,950 [main] ERROR craftBet - 2454 Game Provider Name = PlaynGo :                    Game Name = SambaCarnival :                       src = https://resources.{p}/products/SamanthaFoxt·jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 14:49:08,177 [main] ERROR craftBet - 2495   Game Provider Name = Microgaming :   Game Name =  SecretAdmirer :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_secondstrike.jpg
+2022-09-26 14:49:12,727 [main] ERROR craftBet - 2505   Game Provider Name = Spadegaming :   Game Name =  Sexy Vegas :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_sevens.jpg
+2022-09-26 14:49:24,005 [main] ERROR craftBet - 2527   Game Provider Name = Wazdan :   Game Name =  Sic Bo Dragons :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/siberianstorm.jpg
+2022-09-26 14:49:43,573 [main] ERROR craftBet - 2565   Game Provider Name = ZeusPlay :   Game Name =  Snake Eyes :   cod = 404:   src = https://resources.tigerbet001.com/products/outcomebet/snakearena_rg.jpg
+2022-09-26 14:50:06,666 [main] ERROR craftBet - 2606   Game Provider Name = BoomingGames :   Game Name =  Spinosaurus :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_spinions.jpg
+2022-09-26 14:50:18,170 [main] ERROR craftBet - 2625   Game Provider Name = NetEnt :   Game Name =  StarBurst :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/startrek.jpg
+2022-09-26 14:50:22,436 [main] ERROR craftBet - 2635   Game Provider Name = BoomingGames :   Game Name =  Sticky Bombs :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_stickybandits.jpg
+2022-09-26 14:50:29,809 [main] ERROR craftBet - 2651   Game Provider Name = Ganapati :   Game Name =  Sumi-e :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/sumatranstorm.jpg
+2022-09-26 14:50:37,380 [main] ERROR craftBet - 2664   Game Provider Name = Betsoft :   Game Name =  Super 7 Blackjack :   cod = 404:   src = https://static.egamings.com/games/mg/supeitup.jpeg
+2022-09-26 14:50:38,618 [main] ERROR craftBet - 2667 Game Provider Name = PlaynGo :                    Game Name = Super Bola :                       src = https://resources.{p}/products/SuperBarXPullTab.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 14:50:54,319 [main] ERROR craftBet - 2691 Game Provider Name = Habanero :                    Game Name = SuperTwister :                       src = https://resources.{p}/products/SuperSync.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 14:51:18,268 [main] ERROR craftBet - 2724   Game Provider Name = Greentube :   Game Name =  TalesOfDarkness :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/TalesofDoctorDolittle.png
+2022-09-26 14:51:25,159 [main] ERROR craftBet - 2738   Game Provider Name = RedTiger :   Game Name =  tenelements :   cod = 404:   src = https://resources.tigerbet001.com/products/outcomebet/templetumble_rg.jpg
+2022-09-26 14:51:26,589 [main] ERROR craftBet - 2741   Game Provider Name = GameArt :   Game Name =  Tesla :   cod = 404:   src = https://static.egamings.com/games/mg/Terminator2.jpg
+2022-09-26 14:53:47,478 [main] ERROR craftBet - 2982   Game Provider Name = Wazdan :   Game Name =  VegasHot :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/vegasbaby.jpg
+2022-09-26 14:54:11,230 [main] ERROR craftBet - 3022   Game Provider Name = Endorphina :   Game Name =  Voodoo :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/VolcanoRiches.png
+2022-09-26 14:54:19,830 [main] ERROR craftBet - 3034   Game Provider Name = Habanero :   Game Name =  WaysOfFortune :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/waterdragons.jpg
+2022-09-26 14:54:25,980 [main] ERROR craftBet - 3046   Game Provider Name = Evoplay :   Game Name =  WesternReels :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/westernbelles.jpg
+2022-09-26 14:54:35,692 [main] ERROR craftBet - 3065   Game Provider Name = ZeusPlay :   Game Name =  Wild Charger :   cod = 404:   src = https://resources.tigerbet001.com/products/outcomebet/wildchapo_rg.jpg
+2022-09-26 14:54:36,760 [main] ERROR craftBet - 3067   Game Provider Name = PariPlay :   Game Name =  WildCherry :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/WildChase.png
+2022-09-26 14:54:53,614 [main] ERROR craftBet - 3097 Game Provider Name = Yggdrasil :                    Game Name = WildRoboFactory :                       src = https://resources.{p}/products/WildReelse.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 14:55:02,680 [main] ERROR craftBet - 3115   Game Provider Name = RedTiger :   Game Name =  wildcatsmultiline :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/wildwolf.jpg
+2022-09-26 14:55:15,760 [main] ERROR craftBet - 3140   Game Provider Name = NucleusGaming :   Game Name =  Winter Champs :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/WinsofFortune.png
+2022-09-26 14:55:23,781 [main] ERROR craftBet - 3156   Game Provider Name = Booongo :   Game Name =  Wolf Saga :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/wolfrun.jpg
+2022-09-26 14:55:43,611 [main] INFO craftBet - Broken images are:  87
+2022-09-26 14:55:45,268 [main] INFO craftBet - Browser closed
+2022-09-26 14:55:45,269 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-26 14:55:45,277 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-09-26 16:23:59,855 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-09-26 16:24:04,224 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-26 16:24:04,281 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-26 16:24:18,275 [main] INFO craftBet - URL: https://tigerbet001.com  Browser: chrome
+2022-09-26 16:24:20,626 [main] INFO craftBet - All Page elements are initialized
+2022-09-26 16:24:27,677 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-09-26 16:24:46,427 [main] INFO craftBet - Get games Api call was sent
+2022-09-26 16:24:47,251 [main] INFO craftBet - Get games Api Response was captured
+2022-09-26 16:24:48,343 [main] INFO craftBet - All captured games images was added into ArrayList
+2022-09-26 16:26:12,984 [main] ERROR craftBet - 126   Game Provider Name = Endorphina :   Game Name =  Lucky Dice 3 :   cod = 404:   src = https://resources.tigerbet001.com/products/endorphina/web/LuckyDice3.jpg
+2022-09-26 16:27:28,984 [main] ERROR craftBet - 270   Game Provider Name = IGT :   Game Name =  100 Pandas :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/onehundredpandas.jpg
+2022-09-26 16:29:08,672 [main] ERROR craftBet - 427   Game Provider Name = QuickSpin :   Game Name =  Ark of Mystery :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/ArkofMystery.png
+2022-09-26 16:29:51,311 [main] ERROR craftBet - 482 Game Provider Name = Microgaming :                    Game Name = BankoftheNile :                       src = https://resources.{p}/products/BankoftheNile.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 16:30:22,156 [main] ERROR craftBet - 525   Game Provider Name = QuickSpin :   Game Name =  Big Bad Wolf :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_bbw.jpg
+2022-09-26 16:30:24,784 [main] ERROR craftBet - 529   Game Provider Name = QuickSpin :   Game Name =  Big Bot Crew :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/BigBotCrew.png
+2022-09-26 16:31:23,267 [main] ERROR craftBet - 614 Game Provider Name = Microgaming :                    Game Name = BookOfSouls :                       src = https://resources.{p}/products/BookOfSouls.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 16:32:31,547 [main] ERROR craftBet - 711   Game Provider Name = IGT :   Game Name =  Cash Coaster :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/cashcoaster.jpg
+2022-09-26 16:32:55,807 [main] ERROR craftBet - 749 Game Provider Name = Microgaming :                    Game Name = CheekyFruits6Deluxe :                       src = https://resources.{p}/products/CheekyFruits6Deluxe.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 16:33:24,923 [main] ERROR craftBet - 789   Game Provider Name = IGT :   Game Name =  Cleopatra :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/cleopatragpe.jpg
+2022-09-26 16:33:38,221 [main] ERROR craftBet - 808   Game Provider Name = QuickSpin :   Game Name =  Colossus :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_colossus.jpg
+2022-09-26 16:34:09,308 [main] ERROR craftBet - 851   Game Provider Name = QuickSpin :   Game Name =  Crystal Queen :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_crystalqueen.jpg.jpg
+2022-09-26 16:34:31,008 [main] ERROR craftBet - 882   Game Provider Name = IGT :   Game Name =  DaVinci Dual Pay :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/davincidualplay.jpg
+2022-09-26 16:34:33,918 [main] ERROR craftBet - 886   Game Provider Name = IGT :   Game Name =  Day of the Dead :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/dayofthedead.jpg
+2022-09-26 16:34:50,338 [main] ERROR craftBet - 912   Game Provider Name = IGT :   Game Name =  Diamond Queen :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/diamondqueen.jpg
+2022-09-26 16:35:06,390 [main] ERROR craftBet - 937   Game Provider Name = QuickSpin :   Game Name =  Divine Dreams :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/DivineDreams.png
+2022-09-26 16:35:38,638 [main] ERROR craftBet - 985   Game Provider Name = QuickSpin :   Game Name =  Dragon Shrine :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/DragonShrine.png
+2022-09-26 16:35:55,154 [main] ERROR craftBet - 1009 Game Provider Name = Microgaming :                    Game Name = Dream3Team :                       src = https://resources.{p}/products/Dream3Team.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 16:35:58,914 [main] ERROR craftBet - 1014   Game Provider Name = QuickSpin :   Game Name =  Durian Dynamite :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/DurianDynamite.png
+2022-09-26 16:36:10,429 [main] ERROR craftBet - 1030   Game Provider Name = QuickSpin :   Game Name =  Eastern Emeralds :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/EasternEmeralds.png
+2022-09-26 16:36:21,931 [main] ERROR craftBet - 1046 Game Provider Name = Microgaming :                    Game Name = EliteofEvil:PortalofGold :                       src = https://resources.{p}/products/EliteofEvil:PortalofGold.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 16:36:36,110 [main] ERROR craftBet - 1068 Game Provider Name = Microgaming :                    Game Name = EternalShogi :                       src = https://resources.{p}/products/EternalShogi·jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 16:36:52,379 [main] ERROR craftBet - 1091   Game Provider Name = QuickSpin :   Game Name =  Fairy Gate :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/FairyGate.png
+2022-09-26 16:37:19,199 [main] ERROR craftBet - 1128   Game Provider Name = IGT :   Game Name =  Fire Opals :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/fireopals.jpg
+2022-09-26 16:37:45,190 [main] ERROR craftBet - 1167 Game Provider Name = Microgaming :                    Game Name = FootballStarDeluxe :                       src = https://resources.{p}/products/FootballStarDeluxe.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 16:38:25,714 [main] ERROR craftBet - 1227 Game Provider Name = Microgaming :                    Game Name = FruitPunchUp :                       src = https://resources.{p}/products/FruitPunchUp·jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 16:38:40,093 [main] ERROR craftBet - 1247 Game Provider Name = Microgaming :                    Game Name = Fruitsand777's :                       src = https://resources.{p}/products/Fruitsand777's·jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 16:39:04,281 [main] ERROR craftBet - 1280   Game Provider Name = IGT :   Game Name =  Garden Party :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/gardenparty.jpg
+2022-09-26 16:39:19,574 [main] ERROR craftBet - 1304   Game Provider Name = QuickSpin :   Game Name =  Genies Touch :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web//qso_geniestouch.jpg
+2022-09-26 16:40:21,545 [main] ERROR craftBet - 1391 Game Provider Name = Microgaming :                    Game Name = Goldilocks :                       src = https://resources.{p}/products/goldilocks.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 16:40:21,833 [main] ERROR craftBet - 1392   Game Provider Name = QuickSpin :   Game Name =  Goldilocks & Wild Bears :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_goldilocks2.jpg
+2022-09-26 16:40:22,072 [main] ERROR craftBet - 1393   Game Provider Name = QuickSpin :   Game Name =  Gold Lab :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_goldlab.jpg
+2022-09-26 16:40:28,184 [main] ERROR craftBet - 1403   Game Provider Name = IGT :   Game Name =  Grand Monarch :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/grandmonarch.jpg
+2022-09-26 16:40:52,278 [main] ERROR craftBet - 1440   Game Provider Name = Leander :   Game Name =  Hattrick Heroes :   cod = 403:   src = https://static.egamings.com/games/leander/?attrick_?eroes.jpg
+2022-09-26 16:41:34,573 [main] ERROR craftBet - 1505   Game Provider Name = QuickSpin :   Game Name =  Hot Sync :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/HotSync.png
+2022-09-26 16:41:37,220 [main] ERROR craftBet - 1511 Game Provider Name = Microgaming :                    Game Name = HotInk :                       src = https://resources.{p}/products/hotink.jpeg         java.net.UnknownHostException: resources.{p}
+2022-09-26 16:41:54,978 [main] ERROR craftBet - 1542   Game Provider Name = QuickSpin :   Game Name =  Illuminous :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_illuminous.jpg
+2022-09-26 16:42:11,591 [main] ERROR craftBet - 1571   Game Provider Name = RelaxGaming :   Game Name =  Iron Bank :   cod = 404:   src = https://resources.tigerbet001.com/products/outcomebet/ironbank_rg.jpg
+2022-09-26 16:42:33,484 [main] ERROR craftBet - 1612   Game Provider Name = IGT :   Game Name =  Jewel of the Arts :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/jewelofthearts.jpg
+2022-09-26 16:43:33,350 [main] ERROR craftBet - 1707   Game Provider Name = IGT :   Game Name =  Kitty Glitter :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/kittyglitter.jpg
+2022-09-26 16:43:45,853 [main] ERROR craftBet - 1729 Game Provider Name = Microgaming :                    Game Name = LaraJonesisCleopatra :                       src = https://resources.{p}/products/LaraJonesisCleopatra·jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 16:44:03,109 [main] ERROR craftBet - 1760   Game Provider Name = QuickSpin :   Game Name =  Leprechaun Hills :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_leprechaunhills.jpg
+2022-09-26 16:44:49,427 [main] ERROR craftBet - 1846 Game Provider Name = Microgaming :                    Game Name = LuckyRiches:Hyperspins :                       src = https://resources.{p}/products/LuckyRiches:Hyperspins.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 16:45:31,247 [main] ERROR craftBet - 1926   Game Provider Name = IGT :   Game Name =  Masques of San Marco :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/masquesofsanmarco.jpg
+2022-09-26 16:45:36,388 [main] ERROR craftBet - 1935   Game Provider Name = IGT :   Game Name =  Mayan Riches :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/mayanriches.jpg
+2022-09-26 16:45:37,140 [main] ERROR craftBet - 1937   Game Provider Name = QuickSpin :   Game Name =  Mayana :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_mayana.jpg
+2022-09-26 16:45:46,062 [main] ERROR craftBet - 1954 Game Provider Name = Microgaming :                    Game Name = Meganova :                       src = https://resources.{p}/products/Meganova·jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 16:45:55,911 [main] ERROR craftBet - 1972 Game Provider Name = Microgaming :                    Game Name = MidnightMadness :                       src = https://resources.{p}/products/MidnightMadness.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 16:45:58,318 [main] ERROR craftBet - 1976   Game Provider Name = QuickSpin :   Game Name =  Mighty Arthur :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_mightyarthur.jpg
+2022-09-26 16:46:05,429 [main] ERROR craftBet - 1990   Game Provider Name = IGT :   Game Name =  Miss Red :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/missred.jpg
+2022-09-26 16:46:10,665 [main] ERROR craftBet - 2000   Game Provider Name = RelaxGaming :   Game Name =  Money Train 2 :   cod = 404:   src = https://resources.tigerbet001.com/products/outcomebet/moneytrain2_rg.jpg
+2022-09-26 16:46:26,379 [main] ERROR craftBet - 2031   Game Provider Name = QuickSpin :   Game Name =  Mountain King :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/MountainKing.png
+2022-09-26 16:47:01,468 [main] ERROR craftBet - 2098   Game Provider Name = IGT :   Game Name =  Noahs Ark :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web//noahsark.jpg
+2022-09-26 16:47:02,717 [main] ERROR craftBet - 2101   Game Provider Name = QuickSpin :   Game Name =  Northern Sky :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/NorthernSky.png
+2022-09-26 16:47:36,781 [main] ERROR craftBet - 2165 Game Provider Name = Microgaming :                    Game Name = Pentagram5000 :                       src = https://resources.{p}/products/Pentagram5000.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 16:47:42,529 [main] ERROR craftBet - 2177   Game Provider Name = QuickSpin :   Game Name =  Phoenix Sun :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_phoenixsun.jpg
+2022-09-26 16:47:44,060 [main] ERROR craftBet - 2181   Game Provider Name = QuickSpin :   Game Name =  Pied Piper :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/PiedPiper.png
+2022-09-26 16:47:55,067 [main] ERROR craftBet - 2202   Game Provider Name = QuickSpin :   Game Name =  Pirates Charm :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/PiratesCharm.png
+2022-09-26 16:48:11,250 [main] ERROR craftBet - 2231 Game Provider Name = Microgaming :                    Game Name = Popstar :                       src = https://resources.{p}/products/Popstar.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 16:48:34,543 [main] ERROR craftBet - 2266   Game Provider Name = IGT :   Game Name =  Prowling Panther :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/prowlingpanther.jpg
+2022-09-26 16:48:59,365 [main] ERROR craftBet - 2311   Game Provider Name = QuickSpin :   Game Name =  Razortooth :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_sabretooth.jpg
+2022-09-26 16:49:51,273 [main] ERROR craftBet - 2407 Game Provider Name = Microgaming :                    Game Name = RomanPower :                       src = https://resources.{p}/products/RomanPower.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 16:50:16,842 [main] ERROR craftBet - 2453 Game Provider Name = Microgaming :                    Game Name = SamanthaFox :                       src = https://resources.{p}/products/SamanthaFoxt·jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 16:50:38,653 [main] ERROR craftBet - 2494   Game Provider Name = QuickSpin :   Game Name =  Second Strike :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_secondstrike.jpg
+2022-09-26 16:50:43,697 [main] ERROR craftBet - 2504   Game Provider Name = QuickSpin :   Game Name =  Sevens High :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_sevens.jpg
+2022-09-26 16:50:56,840 [main] ERROR craftBet - 2526   Game Provider Name = IGT :   Game Name =  Siberian Storm :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/siberianstorm.jpg
+2022-09-26 16:51:18,314 [main] ERROR craftBet - 2564   Game Provider Name = RelaxGaming :   Game Name =  Snake Arena :   cod = 404:   src = https://resources.tigerbet001.com/products/outcomebet/snakearena_rg.jpg
+2022-09-26 16:51:44,745 [main] ERROR craftBet - 2605   Game Provider Name = QuickSpin :   Game Name =  Spinions Beach Party :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_spinions.jpg
+2022-09-26 16:51:56,225 [main] ERROR craftBet - 2624   Game Provider Name = IGT :   Game Name =  Star Trek :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/startrek.jpg
+2022-09-26 16:52:01,355 [main] ERROR craftBet - 2634   Game Provider Name = QuickSpin :   Game Name =  Sticky Bandits :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/qso_stickybandits.jpg
+2022-09-26 16:52:10,716 [main] ERROR craftBet - 2650   Game Provider Name = IGT :   Game Name =  Sumatran Storm :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/sumatranstorm.jpg
+2022-09-26 16:52:19,963 [main] ERROR craftBet - 2663   Game Provider Name = Microgaming :   Game Name =  SupeitUp :   cod = 404:   src = https://static.egamings.com/games/mg/supeitup.jpeg
+2022-09-26 16:52:21,345 [main] ERROR craftBet - 2666 Game Provider Name = Microgaming :                    Game Name = SuperBarXPullTab :                       src = https://resources.{p}/products/SuperBarXPullTab.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 16:52:37,616 [main] ERROR craftBet - 2690 Game Provider Name = Microgaming :                    Game Name = SuperSync :                       src = https://resources.{p}/products/SuperSync.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 16:52:58,933 [main] ERROR craftBet - 2723   Game Provider Name = QuickSpin :   Game Name =  Tales of Doctor Dolittle :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/TalesofDoctorDolittle.png
+2022-09-26 16:53:08,367 [main] ERROR craftBet - 2737   Game Provider Name = RelaxGaming :   Game Name =  Temple Tumble Megaways :   cod = 404:   src = https://resources.tigerbet001.com/products/outcomebet/templetumble_rg.jpg
+2022-09-26 16:53:10,259 [main] ERROR craftBet - 2740   Game Provider Name = Microgaming :   Game Name =  Terminator2 :   cod = 404:   src = https://static.egamings.com/games/mg/Terminator2.jpg
+2022-09-26 16:55:56,006 [main] ERROR craftBet - 2981   Game Provider Name = IGT :   Game Name =  Vegas Baby :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/vegasbaby.jpg
+2022-09-26 16:56:17,119 [main] ERROR craftBet - 3021   Game Provider Name = QuickSpin :   Game Name =  Volcano Riches :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/VolcanoRiches.png
+2022-09-26 16:56:22,310 [main] ERROR craftBet - 3033   Game Provider Name = IGT :   Game Name =  Water Dragons :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/waterdragons.jpg
+2022-09-26 16:56:28,698 [main] ERROR craftBet - 3045   Game Provider Name = IGT :   Game Name =  Western Belles :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/westernbelles.jpg
+2022-09-26 16:56:39,996 [main] ERROR craftBet - 3064   Game Provider Name = RelaxGaming :   Game Name =  Wild Chapo :   cod = 404:   src = https://resources.tigerbet001.com/products/outcomebet/wildchapo_rg.jpg
+2022-09-26 16:56:42,026 [main] ERROR craftBet - 3066   Game Provider Name = QuickSpin :   Game Name =  Wild Chase :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/WildChase.png
+2022-09-26 16:56:57,859 [main] ERROR craftBet - 3096 Game Provider Name = Microgaming :                    Game Name = WildReels :                       src = https://resources.{p}/products/WildReelse.jpg         java.net.UnknownHostException: resources.{p}
+2022-09-26 16:57:06,837 [main] ERROR craftBet - 3114   Game Provider Name = IGT :   Game Name =  Wild Wolf :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/wildwolf.jpg
+2022-09-26 16:57:18,034 [main] ERROR craftBet - 3139   Game Provider Name = QuickSpin :   Game Name =  Wins of Fortune :   cod = 404:   src = https://resources.tigerbet001.com/products/quickspin/web/WinsofFortune.png
+2022-09-26 16:57:25,701 [main] ERROR craftBet - 3155   Game Provider Name = IGT :   Game Name =  Wolf Run :   cod = 404:   src = https://resources.tigerbet001.com/products/igt/web/wolfrun.jpg
+2022-09-26 16:57:44,580 [main] INFO craftBet - Broken images are:  87
+2022-09-26 16:57:48,689 [main] INFO craftBet - Browser closed
+2022-09-26 16:57:48,690 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-09-26 16:57:48,700 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
