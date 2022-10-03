@@ -1230,3 +1230,196 @@ java.net.SocketException: Connection reset
 2022-09-30 10:09:07,257 [main] INFO craftBet - Browser closed
 2022-09-30 10:09:07,258 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-09-30 10:09:07,262 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-10-03 12:34:40,546 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-10-03 12:34:42,626 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-10-03 12:34:42,684 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-10-03 12:34:48,932 [main] INFO craftBet - URL: https://pokies2go.io  Browser: chrome
+2022-10-03 12:34:49,090 [main] INFO craftBet - All Page elements are initialized
+2022-10-03 12:34:49,474 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-10-03 12:35:01,087 [main] INFO craftBet - Get games Api call was sent
+2022-10-03 12:35:01,242 [main] INFO craftBet - Get games Api Response was captured
+2022-10-03 12:35:01,401 [main] INFO craftBet - Duplicate games are:  0
+2022-10-03 12:35:01,552 [main] INFO craftBet - Browser closed
+2022-10-03 12:35:01,552 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-10-03 12:35:01,718 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-10-03 12:35:37,704 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-10-03 12:35:38,281 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-10-03 12:35:38,319 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-10-03 12:35:42,990 [main] INFO craftBet - URL: https://pokies2go.io  Browser: chrome
+2022-10-03 12:35:43,061 [main] INFO craftBet - All Page elements are initialized
+2022-10-03 12:35:43,073 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-10-03 12:35:45,805 [main] INFO craftBet - Get games Api call was sent
+2022-10-03 12:35:45,964 [main] INFO craftBet - Get games Api Response was captured
+2022-10-03 12:35:46,132 [main] INFO craftBet - Duplicate games are:  0
+2022-10-03 12:35:46,425 [main] INFO craftBet - Browser closed
+2022-10-03 12:35:46,427 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-10-03 12:35:46,442 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-10-03 12:36:09,122 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-10-03 12:36:09,509 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-10-03 12:36:09,545 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-10-03 12:36:14,597 [main] INFO craftBet - URL: https://craftbet.com  Browser: chrome
+2022-10-03 12:36:14,677 [main] INFO craftBet - All Page elements are initialized
+2022-10-03 12:36:15,151 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-10-03 12:36:22,376 [main] INFO craftBet - Get games Api call was sent
+2022-10-03 12:36:22,681 [main] INFO craftBet - Get games Api Response was captured
+2022-10-03 12:36:22,905 [main] INFO craftBet - Dupliicate game Name =  Lights
+2022-10-03 12:36:22,911 [main] INFO craftBet - Dupliicate game Name =  Sugar Rush
+2022-10-03 12:36:22,951 [main] INFO craftBet - Dupliicate game Name =  First Person American Roulette
+2022-10-03 12:36:22,957 [main] INFO craftBet - Dupliicate game Name =  3Kingdoms-BattleofRedCliffs
+2022-10-03 12:36:22,967 [main] INFO craftBet - Dupliicate game Name =  Always Hot Cubes
+2022-10-03 12:36:22,968 [main] INFO craftBet - Dupliicate game Name =  Always Hot Deluxe
+2022-10-03 12:36:22,970 [main] INFO craftBet - Dupliicate game Name =  American Roulette
+2022-10-03 12:36:22,975 [main] INFO craftBet - Dupliicate game Name =  Aztec Gold MegaWays
+2022-10-03 12:36:22,978 [main] INFO craftBet - Dupliicate game Name =  Baccarat
+2022-10-03 12:36:22,979 [main] INFO craftBet - Dupliicate game Name =  Baccarat
+2022-10-03 12:36:22,979 [main] INFO craftBet - Dupliicate game Name =  Baccarat
+2022-10-03 12:36:22,979 [main] INFO craftBet - Dupliicate game Name =  Baccarat VIP
+2022-10-03 12:36:22,985 [main] INFO craftBet - Dupliicate game Name =  Bier Party
+2022-10-03 12:36:22,986 [main] INFO craftBet - Dupliicate game Name =  Big Ben
+2022-10-03 12:36:22,991 [main] INFO craftBet - Dupliicate game Name =  Black Jack
+2022-10-03 12:36:22,994 [main] INFO craftBet - Dupliicate game Name =  Blackjack
+2022-10-03 12:36:22,995 [main] INFO craftBet - Dupliicate game Name =  Blackjack VIP
+2022-10-03 12:36:22,997 [main] INFO craftBet - Dupliicate game Name =  Bloodshot: Rising Spirit
+2022-10-03 12:36:23,001 [main] INFO craftBet - Dupliicate game Name =  Book of Itza
+2022-10-03 12:36:23,010 [main] INFO craftBet - Dupliicate game Name =  Bounty Belles
+2022-10-03 12:36:23,013 [main] INFO craftBet - Dupliicate game Name =  Buffalo Hunter
+2022-10-03 12:36:23,015 [main] INFO craftBet - Dupliicate game Name =  Bushido Ways xNudge
+2022-10-03 12:36:23,016 [main] INFO craftBet - Dupliicate game Name =  Caligula
+2022-10-03 12:36:23,018 [main] INFO craftBet - Dupliicate game Name =  Carol of the Elves
+2022-10-03 12:36:23,024 [main] INFO craftBet - Dupliicate game Name =  Choy Sun Doa
+2022-10-03 12:36:23,035 [main] INFO craftBet - Dupliicate game Name =  Dazzling Diamonds
+2022-10-03 12:36:23,036 [main] INFO craftBet - Dupliicate game Name =  Deadwood
+2022-10-03 12:36:23,039 [main] INFO craftBet - Dupliicate game Name =  Deuces Wild
+2022-10-03 12:36:23,039 [main] INFO craftBet - Dupliicate game Name =  Deuces Wild
+2022-10-03 12:36:23,040 [main] INFO craftBet - Dupliicate game Name =  Deuces Wild
+2022-10-03 12:36:23,045 [main] INFO craftBet - Dupliicate game Name =  Dolphin's Pearl
+2022-10-03 12:36:23,049 [main] INFO craftBet - Dupliicate game Name =  Dragon Stone
+2022-10-03 12:36:23,050 [main] INFO craftBet - Dupliicate game Name =  Dragons of the North Deluxe
+2022-10-03 12:36:23,051 [main] INFO craftBet - Dupliicate game Name =  East Coast vs West Coast
+2022-10-03 12:36:23,052 [main] INFO craftBet - Dupliicate game Name =  Egyptian King
+2022-10-03 12:36:23,053 [main] INFO craftBet - Dupliicate game Name =  El Paso Gunfight xNudge
+2022-10-03 12:36:23,054 [main] INFO craftBet - Dupliicate game Name =  Epic Riches
+2022-10-03 12:36:23,054 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-03 12:36:23,054 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-03 12:36:23,054 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-03 12:36:23,057 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-03 12:36:23,058 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-03 12:36:23,059 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-03 12:36:23,059 [main] INFO craftBet - Dupliicate game Name =  European Roulette VIP
+2022-10-03 12:36:23,066 [main] INFO craftBet - Dupliicate game Name =  Faith
+2022-10-03 12:36:23,067 [main] INFO craftBet - Dupliicate game Name =  Faust
+2022-10-03 12:36:23,068 [main] INFO craftBet - Dupliicate game Name =  Fire In The Hole xBomb
+2022-10-03 12:36:23,069 [main] INFO craftBet - Dupliicate game Name =  Fishin' for Gold
+2022-10-03 12:36:23,070 [main] INFO craftBet - Dupliicate game Name =  Force of the Gods
+2022-10-03 12:36:23,070 [main] INFO craftBet - Dupliicate game Name =  Force of the Gods
+2022-10-03 12:36:23,070 [main] INFO craftBet - Dupliicate game Name =  Force of the Gods
+2022-10-03 12:36:23,072 [main] INFO craftBet - Dupliicate game Name =  Fruit Farm
+2022-10-03 12:36:23,072 [main] INFO craftBet - Dupliicate game Name =  Fruit Sensation
+2022-10-03 12:36:23,074 [main] INFO craftBet - Dupliicate game Name =  Fruits
+2022-10-03 12:36:23,075 [main] INFO craftBet - Dupliicate game Name =  Fruits'n Royals
+2022-10-03 12:36:23,078 [main] INFO craftBet - Dupliicate game Name =  Ghosts N Gold
+2022-10-03 12:36:23,079 [main] INFO craftBet - Dupliicate game Name =  Gladiators Go Wild
+2022-10-03 12:36:23,080 [main] INFO craftBet - Dupliicate game Name =  Golden Ark
+2022-10-03 12:36:23,081 [main] INFO craftBet - Dupliicate game Name =  Golden Buffalo Double Up
+2022-10-03 12:36:23,082 [main] INFO craftBet - Dupliicate game Name =  Golden Tiger
+2022-10-03 12:36:23,083 [main] INFO craftBet - Dupliicate game Name =  Grand Loot
+2022-10-03 12:36:23,085 [main] INFO craftBet - Dupliicate game Name =  Hades
+2022-10-03 12:36:23,086 [main] INFO craftBet - Dupliicate game Name =  Helena
+2022-10-03 12:36:23,087 [main] INFO craftBet - Dupliicate game Name =  Hot Chance
+2022-10-03 12:36:23,088 [main] INFO craftBet - Dupliicate game Name =  Hot Spin Deluxe
+2022-10-03 12:36:23,090 [main] INFO craftBet - Dupliicate game Name =  Hot Spin Megaways
+2022-10-03 12:36:23,091 [main] INFO craftBet - Dupliicate game Name =  Hot Wild 7s
+2022-10-03 12:36:23,093 [main] INFO craftBet - Dupliicate game Name =  Hyperburst
+2022-10-03 12:36:23,094 [main] INFO craftBet - Dupliicate game Name =  Infectious 5 xWays
+2022-10-03 12:36:23,095 [main] INFO craftBet - Dupliicate game Name =  Jackpot Fortunes
+2022-10-03 12:36:23,096 [main] INFO craftBet - Dupliicate game Name =  Jacks or Better
+2022-10-03 12:36:23,097 [main] INFO craftBet - Dupliicate game Name =  Joker Poker
+2022-10-03 12:36:23,098 [main] INFO craftBet - Dupliicate game Name =  Joker Poker
+2022-10-03 12:36:23,098 [main] INFO craftBet - Dupliicate game Name =  Joker Poker
+2022-10-03 12:36:23,100 [main] INFO craftBet - Dupliicate game Name =  Katana
+2022-10-03 12:36:23,101 [main] INFO craftBet - Dupliicate game Name =  King of the Trident Deluxe
+2022-10-03 12:36:23,101 [main] INFO craftBet - Dupliicate game Name =  King of the Trident Deluxe
+2022-10-03 12:36:23,101 [main] INFO craftBet - Dupliicate game Name =  King of the Trident Deluxe
+2022-10-03 12:36:23,101 [main] INFO craftBet - Dupliicate game Name =  Kings of Gold
+2022-10-03 12:36:23,103 [main] INFO craftBet - Dupliicate game Name =  Legend of the Four Beasts
+2022-10-03 12:36:23,104 [main] INFO craftBet - Dupliicate game Name =  Lost Boys Loot
+2022-10-03 12:36:23,105 [main] INFO craftBet - Dupliicate game Name =  Lucky Clover
+2022-10-03 12:36:23,105 [main] INFO craftBet - Dupliicate game Name =  Lucky Lady's Charm
+2022-10-03 12:36:23,105 [main] INFO craftBet - Dupliicate game Name =  Lucky Lady's Charm
+2022-10-03 12:36:23,106 [main] INFO craftBet - Dupliicate game Name =  Lucky Lady's Charm
+2022-10-03 12:36:23,106 [main] INFO craftBet - Dupliicate game Name =  Lucky Lady's Charm
+2022-10-03 12:36:23,106 [main] INFO craftBet - Dupliicate game Name =  Lucky Lady's Charm
+2022-10-03 12:36:23,107 [main] INFO craftBet - Dupliicate game Name =  Lucky Lady's Charm
+2022-10-03 12:36:23,109 [main] INFO craftBet - Dupliicate game Name =  Luxor
+2022-10-03 12:36:23,111 [main] INFO craftBet - Dupliicate game Name =  Mega Joker
+2022-10-03 12:36:23,112 [main] INFO craftBet - Dupliicate game Name =  MegaBoy
+2022-10-03 12:36:23,112 [main] INFO craftBet - Dupliicate game Name =  Merlin's Magic Mirror
+2022-10-03 12:36:23,113 [main] INFO craftBet - Dupliicate game Name =  Money Mouse
+2022-10-03 12:36:23,114 [main] INFO craftBet - Dupliicate game Name =  Monkey's Gold xPays
+2022-10-03 12:36:23,115 [main] INFO craftBet - Dupliicate game Name =  Mystery Fox Christmas Party
+2022-10-03 12:36:23,116 [main] INFO craftBet - Dupliicate game Name =  Mystic Secrets
+2022-10-03 12:36:23,117 [main] INFO craftBet - Dupliicate game Name =  Oktoberfest
+2022-10-03 12:36:23,118 [main] INFO craftBet - Dupliicate game Name =  Owls
+2022-10-03 12:36:23,119 [main] INFO craftBet - Dupliicate game Name =  Pearl Legend: Hold & Win
+2022-10-03 12:36:23,120 [main] INFO craftBet - Dupliicate game Name =  Phoenix Kingdom
+2022-10-03 12:36:23,120 [main] INFO craftBet - Dupliicate game Name =  Plenty of Fruit 20
+2022-10-03 12:36:23,121 [main] INFO craftBet - Dupliicate game Name =  Plenty of Fruit 40
+2022-10-03 12:36:23,121 [main] INFO craftBet - Dupliicate game Name =  Power Strike Super Spin
+2022-10-03 12:36:23,122 [main] INFO craftBet - Dupliicate game Name =  Prosperity Ox
+2022-10-03 12:36:23,122 [main] INFO craftBet - Dupliicate game Name =  Pyramid Pays
+2022-10-03 12:36:23,122 [main] INFO craftBet - Dupliicate game Name =  Queen of Gold 100,000
+2022-10-03 12:36:23,122 [main] INFO craftBet - Dupliicate game Name =  Queen Of Hearts
+2022-10-03 12:36:23,123 [main] INFO craftBet - Dupliicate game Name =  Raging Dragons
+2022-10-03 12:36:23,123 [main] INFO craftBet - Dupliicate game Name =  Raging Reindeer
+2022-10-03 12:36:23,124 [main] INFO craftBet - Dupliicate game Name =  Red Baron
+2022-10-03 12:36:23,124 [main] INFO craftBet - Dupliicate game Name =  Red Dog
+2022-10-03 12:36:23,124 [main] INFO craftBet - Dupliicate game Name =  Reel Desire
+2022-10-03 12:36:23,125 [main] INFO craftBet - Dupliicate game Name =  ReelGems
+2022-10-03 12:36:23,125 [main] INFO craftBet - Dupliicate game Name =  Rex
+2022-10-03 12:36:23,126 [main] INFO craftBet - Dupliicate game Name =  Roaring Forties
+2022-10-03 12:36:23,126 [main] INFO craftBet - Dupliicate game Name =  Roo Riches
+2022-10-03 12:36:23,126 [main] INFO craftBet - Dupliicate game Name =  SamanthaFox
+2022-10-03 12:36:23,128 [main] INFO craftBet - Dupliicate game Name =  San Quentin xWays
+2022-10-03 12:36:23,129 [main] INFO craftBet - Dupliicate game Name =  Sea of Riches
+2022-10-03 12:36:23,129 [main] INFO craftBet - Dupliicate game Name =  Secret Elixir
+2022-10-03 12:36:23,129 [main] INFO craftBet - Dupliicate game Name =  Sicbo
+2022-10-03 12:36:23,131 [main] INFO craftBet - Dupliicate game Name =  Sizzling Hot Deluxe
+2022-10-03 12:36:23,131 [main] INFO craftBet - Dupliicate game Name =  Sparta
+2022-10-03 12:36:23,132 [main] INFO craftBet - Dupliicate game Name =  Starstruck
+2022-10-03 12:36:23,133 [main] INFO craftBet - Dupliicate game Name =  Super Reel - Spin It Hot
+2022-10-03 12:36:23,134 [main] INFO craftBet - Dupliicate game Name =  Syncronite
+2022-10-03 12:36:23,135 [main] INFO craftBet - Dupliicate game Name =  TalesOfDarkness
+2022-10-03 12:36:23,135 [main] INFO craftBet - Dupliicate game Name =  The Bounty Hunter
+2022-10-03 12:36:23,136 [main] INFO craftBet - Dupliicate game Name =  The Golden City
+2022-10-03 12:36:23,136 [main] INFO craftBet - Dupliicate game Name =  The Great Wall
+2022-10-03 12:36:23,136 [main] INFO craftBet - Dupliicate game Name =  The King G.Records
+2022-10-03 12:36:23,137 [main] INFO craftBet - Dupliicate game Name =  The Ruby Megaways
+2022-10-03 12:36:23,138 [main] INFO craftBet - Dupliicate game Name =  Thunder Shields
+2022-10-03 12:36:23,138 [main] INFO craftBet - Dupliicate game Name =  Titan’s Riches
+2022-10-03 12:36:23,138 [main] INFO craftBet - Dupliicate game Name =  Tomahawk
+2022-10-03 12:36:23,139 [main] INFO craftBet - Dupliicate game Name =  Tomb of Akhenaten
+2022-10-03 12:36:23,139 [main] INFO craftBet - Dupliicate game Name =  Tombstone
+2022-10-03 12:36:23,141 [main] INFO craftBet - Dupliicate game Name =  Wild Ape
+2022-10-03 12:36:23,142 [main] INFO craftBet - Dupliicate game Name =  Wild Fortunes
+2022-10-03 12:36:23,142 [main] INFO craftBet - Dupliicate game Name =  Wild Fruit Super Wheel
+2022-10-03 12:36:23,143 [main] INFO craftBet - Dupliicate game Name =  Winterberries
+2022-10-03 12:36:23,143 [main] INFO craftBet - Dupliicate game Name =  Wishing Wheel
+2022-10-03 12:36:23,143 [main] INFO craftBet - Dupliicate game Name =  Wixx
+2022-10-03 12:36:23,145 [main] INFO craftBet - Dupliicate game Name =  Xtra Hot
+2022-10-03 12:36:23,146 [main] INFO craftBet - Dupliicate game Name =  xWays Hoarder xSplit
+2022-10-03 12:36:23,148 [main] INFO craftBet - Duplicate games are:  145
+2022-10-03 12:36:24,972 [main] INFO craftBet - Browser closed
+2022-10-03 12:36:24,973 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-10-03 12:36:24,982 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-10-03 12:37:02,087 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-10-03 12:37:02,367 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-10-03 12:37:02,405 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-10-03 12:37:06,857 [main] INFO craftBet - URL: https://pokies2go.io  Browser: chrome
+2022-10-03 12:37:06,932 [main] INFO craftBet - All Page elements are initialized
+2022-10-03 12:37:07,420 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-10-03 12:37:10,490 [main] INFO craftBet - Get games Api call was sent
+2022-10-03 12:37:10,650 [main] INFO craftBet - Get games Api Response was captured
+2022-10-03 12:37:10,828 [main] INFO craftBet - Duplicate games are:  0
+2022-10-03 12:37:11,004 [main] INFO craftBet - Browser closed
+2022-10-03 12:37:11,004 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-10-03 12:37:11,008 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  

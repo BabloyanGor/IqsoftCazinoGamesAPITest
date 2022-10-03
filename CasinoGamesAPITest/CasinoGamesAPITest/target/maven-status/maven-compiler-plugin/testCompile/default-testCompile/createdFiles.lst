@@ -1,0 +1,12 @@
+testCases\CraftBet_002_CasinoGamesIMGMobile_Test.class
+testCases\CraftBet_004_CasinoSameNameCopyGames_Test.class
+testCases\CraftBet_104_MarketsSumErrorLifePreMatchGames_Test.class
+testCases\CraftBet_003_CasinoGamesUrl_Test.class
+testCases\CraftBet_101_LifeGamesTimeOut_Test.class
+testCases\CraftBet_103_PreMatchGamesMarkets_Test.class
+utilities\XLUtils.class
+utilities\DriverFactory.class
+testCases\CraftBet_001_CasinoGamesImgWeb_Test.class
+testCases\BaseTest.class
+testCases\CraftBet_102_LifeGamesMarkets_Test.class
+utilities\ReadConfig.class
