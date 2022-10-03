@@ -42,7 +42,7 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
 
     public boolean getUrlCheckGamesUrl(String getGamesAPIUrl, String origin, String getURLAPIurl, String token,
                                        int userID, int partnerID, String partnerName)
-            throws JSONException, IOException, UnirestException {
+                                                                    throws JSONException, IOException, UnirestException {
         boolean isPassed;
         ArrayList<String> productID = new ArrayList<>();
         ArrayList<String> name = new ArrayList<>();
