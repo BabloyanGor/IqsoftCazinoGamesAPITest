@@ -1423,6 +1423,269 @@ java.net.SocketException: Connection reset
 2022-10-03 12:37:11,004 [main] INFO craftBet - Browser closed
 2022-10-03 12:37:11,004 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-10-03 12:37:11,008 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-10-05 11:33:44,406 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-10-05 11:33:45,309 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.31.0 (resolved driver for Firefox 105)
+2022-10-05 11:33:45,335 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\user\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-10-05 11:33:48,816 [main] INFO craftBet - URL: https://tigerbet001.com  Browser: firefox
+2022-10-05 11:33:48,907 [main] INFO craftBet - All Page elements are initialized
+2022-10-05 11:33:49,421 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-10-05 11:33:55,032 [main] INFO craftBet - Get games Api call was sent
+2022-10-05 11:33:55,163 [main] INFO craftBet - Get games Api Response was captured
+2022-10-05 11:33:55,219 [main] INFO craftBet - Dupliicate game Name =  Aztec Gold MegaWays
+2022-10-05 11:33:55,221 [main] INFO craftBet - Dupliicate game Name =  Blackjack VIP
+2022-10-05 11:33:55,222 [main] INFO craftBet - Dupliicate game Name =  Bounty Belles
+2022-10-05 11:33:55,224 [main] INFO craftBet - Dupliicate game Name =  Dragon Stone
+2022-10-05 11:33:55,224 [main] INFO craftBet - Dupliicate game Name =  Egyptian King
+2022-10-05 11:33:55,226 [main] INFO craftBet - Dupliicate game Name =  Fishin' for Gold
+2022-10-05 11:33:55,227 [main] INFO craftBet - Dupliicate game Name =  Ghosts N Gold
+2022-10-05 11:33:55,228 [main] INFO craftBet - Dupliicate game Name =  Golden Buffalo Double Up
+2022-10-05 11:33:55,229 [main] INFO craftBet - Dupliicate game Name =  Golden Tiger
+2022-10-05 11:33:55,229 [main] INFO craftBet - Dupliicate game Name =  Hot Spin Deluxe
+2022-10-05 11:33:55,229 [main] INFO craftBet - Dupliicate game Name =  Hot Spin Megaways
+2022-10-05 11:33:55,230 [main] INFO craftBet - Dupliicate game Name =  Kings of Gold
+2022-10-05 11:33:55,230 [main] INFO craftBet - Dupliicate game Name =  Legend of the Four Beasts
+2022-10-05 11:33:55,230 [main] INFO craftBet - Dupliicate game Name =  Lost Boys Loot
+2022-10-05 11:33:55,230 [main] INFO craftBet - Dupliicate game Name =  Lucky Clover
+2022-10-05 11:33:55,231 [main] INFO craftBet - Dupliicate game Name =  Merlin's Magic Mirror
+2022-10-05 11:33:55,232 [main] INFO craftBet - Dupliicate game Name =  Pearl Legend: Hold & Win
+2022-10-05 11:33:55,232 [main] INFO craftBet - Dupliicate game Name =  Prosperity Ox
+2022-10-05 11:33:55,232 [main] INFO craftBet - Dupliicate game Name =  Pyramid Pays
+2022-10-05 11:33:55,232 [main] INFO craftBet - Dupliicate game Name =  Raging Dragons
+2022-10-05 11:33:55,232 [main] INFO craftBet - Dupliicate game Name =  Raging Reindeer
+2022-10-05 11:33:55,233 [main] INFO craftBet - Dupliicate game Name =  Red Dog
+2022-10-05 11:33:55,233 [main] INFO craftBet - Dupliicate game Name =  Roo Riches
+2022-10-05 11:33:55,233 [main] INFO craftBet - Dupliicate game Name =  Sea of Riches
+2022-10-05 11:33:55,234 [main] INFO craftBet - Dupliicate game Name =  Super Reel - Spin It Hot
+2022-10-05 11:33:55,234 [main] INFO craftBet - Dupliicate game Name =  The Golden City
+2022-10-05 11:33:55,235 [main] INFO craftBet - Dupliicate game Name =  The Great Wall
+2022-10-05 11:33:55,235 [main] INFO craftBet - Dupliicate game Name =  The Ruby Megaways
+2022-10-05 11:33:55,235 [main] INFO craftBet - Dupliicate game Name =  Thunder Shields
+2022-10-05 11:33:55,236 [main] INFO craftBet - Dupliicate game Name =  Wild Ape
+2022-10-05 11:33:55,236 [main] INFO craftBet - Dupliicate game Name =  Wishing Wheel
+2022-10-05 11:33:55,259 [main] INFO craftBet - Dupliicate game Name =  Epic Riches
+2022-10-05 11:33:55,287 [main] INFO craftBet - Duplicate games are:  32
+2022-10-05 11:33:57,024 [main] INFO craftBet - Browser closed
+2022-10-05 11:33:57,024 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-10-05 11:33:57,030 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-10-05 11:33:57,098 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.31.0 (resolved driver for Firefox 105)
+2022-10-05 11:33:57,115 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\user\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-10-05 11:33:59,341 [main] INFO craftBet - URL: https://tigerbet001.com  Browser: firefox
+2022-10-05 11:33:59,345 [main] INFO craftBet - All Page elements are initialized
+2022-10-05 11:33:59,990 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-10-05 11:34:01,975 [main] INFO craftBet - Get games Api call was sent
+2022-10-05 11:34:02,040 [main] INFO craftBet - Get games Api Response was captured
+2022-10-05 11:34:02,088 [main] INFO craftBet - All captured games images was added into ArrayList
+2022-10-05 11:39:27,177 [main] ERROR craftBet - 1295   Game Provider Name = Leander :   Game Name =  Hattrick Heroes :   cod = 403:   src = https://static.egamings.com/games/leander/?attrick_?eroes.jpg
+2022-10-05 11:47:15,527 [main] INFO craftBet - Broken images are:  1
+2022-10-05 11:47:16,378 [main] INFO craftBet - Browser closed
+2022-10-05 11:47:16,379 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-10-05 11:47:16,381 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-10-05 11:47:16,386 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.31.0 (resolved driver for Firefox 105)
+2022-10-05 11:47:16,394 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\user\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-10-05 11:47:19,176 [main] INFO craftBet - URL: https://tigerbet001.com  Browser: firefox
+2022-10-05 11:47:19,180 [main] INFO craftBet - All Page elements are initialized
+2022-10-05 11:47:19,736 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-10-05 11:47:22,083 [main] INFO craftBet - Get games Api call was sent
+2022-10-05 11:47:22,130 [main] INFO craftBet - Get games Api Response was captured
+2022-10-05 11:47:22,170 [main] INFO craftBet - All captured games images was added into ArrayList
+2022-10-05 11:50:08,637 [main] ERROR craftBet - 531   Game Provider Name = NoLimitCity :   Game Name =  BookofShadows :   cod = 404:   src = https://resources.tigerbet001.com/products/greentube/mobile/book-of-ra-deluxe.png
+2022-10-05 11:53:54,401 [main] ERROR craftBet - 1272   Game Provider Name = Wazdan :   Game Name =  HauntedHospital :   cod = 403:   src = https://static.egamings.com/games/leander/?attrick_?eroes.jpg
+2022-10-05 12:01:41,796 [main] INFO craftBet - Broken images are:  2
+2022-10-05 12:01:43,172 [main] INFO craftBet - Browser closed
+2022-10-05 12:01:43,172 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-10-05 12:01:43,174 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-10-05 12:01:43,179 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.31.0 (resolved driver for Firefox 105)
+2022-10-05 12:01:43,187 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\user\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-10-05 12:01:46,290 [main] INFO craftBet - URL: https://tigerbet001.com  Browser: firefox
+2022-10-05 12:01:46,293 [main] INFO craftBet - All Page elements are initialized
+2022-10-05 12:01:47,463 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-10-05 12:01:48,515 [main] INFO craftBet - username passed
+2022-10-05 12:01:48,557 [main] INFO craftBet - password passed
+2022-10-05 12:01:48,817 [main] INFO craftBet - Log In Button was clicked
+2022-10-05 12:03:44,550 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-10-05 12:04:47,197 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-10-05 12:04:47,376 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.31.0 (resolved driver for Firefox 105)
+2022-10-05 12:04:47,394 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\user\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-10-05 12:04:50,383 [main] INFO craftBet - URL: https://tigerbet001.com  Browser: firefox
+2022-10-05 12:04:50,434 [main] INFO craftBet - All Page elements are initialized
+2022-10-05 12:04:51,719 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-10-05 12:04:53,025 [main] INFO craftBet - username passed
+2022-10-05 12:04:53,069 [main] INFO craftBet - password passed
+2022-10-05 12:04:53,332 [main] INFO craftBet - Log In Button was clicked
+2022-10-05 12:04:55,909 [main] INFO craftBet - Token was captured 732c167d32404ea980dabbd6b3f34cef
+2022-10-05 12:04:58,003 [main] INFO craftBet - Get All games API call 
+2022-10-05 12:04:58,129 [main] INFO craftBet - From Get All games API call body captured 
+2022-10-05 12:04:58,187 [main] INFO craftBet - From Get All games API productIDes and Names was captured 
+2022-10-05 12:05:06,011 [main] INFO craftBet - 1 17 ID=28341 Provider=ISoftBet Name=Big Win Baccarat cod=0 description=null ResponseObject=24
+2022-10-05 12:05:12,189 [main] INFO craftBet - 2 31 ID=28499 Provider=ISoftBet Name=Cherry Trio cod=0 description=null ResponseObject=24
+2022-10-05 12:05:13,489 [main] INFO craftBet - 3 34 ID=28338 Provider=ISoftBet Name=Colossus: Hold & Win cod=0 description=null ResponseObject=24
+2022-10-05 12:05:16,825 [main] INFO craftBet - 4 41 ID=28156 Provider=ISoftBet Name=Dragon Match Megaways cod=0 description=null ResponseObject=24
+2022-10-05 12:05:23,037 [main] INFO craftBet - 5 55 ID=28155 Provider=ISoftBet Name=FuFortunesMegaways cod=0 description=null ResponseObject=24
+2022-10-05 12:05:23,891 [main] INFO craftBet - 6 57 ID=29549 Provider=ISoftBet Name=Ghosts N Gold cod=0 description=null ResponseObject=24
+2022-10-05 12:05:35,054 [main] INFO craftBet - 7 82 ID=28167 Provider=ISoftBet Name=Joker Stacks cod=0 description=null ResponseObject=24
+2022-10-05 12:05:45,622 [main] INFO craftBet - 8 105 ID=27439 Provider=ISoftBet Name=Merlin's Magic Mirror cod=0 description=null ResponseObject=24
+2022-10-05 12:05:52,842 [main] INFO craftBet - 9 121 ID=28345 Provider=ISoftBet Name=Outback Gold: Hold and Win cod=0 description=null ResponseObject=24
+2022-10-05 12:06:02,558 [main] INFO craftBet - 10 143 ID=28171 Provider=ISoftBet Name=Roo Riches cod=0 description=null ResponseObject=24
+2022-10-05 12:06:10,208 [main] INFO craftBet - 11 160 ID=28377 Provider=ISoftBet Name=Stacks O'Gold cod=0 description=null ResponseObject=24
+2022-10-05 12:06:19,867 [main] INFO craftBet - 12 181 ID=28335 Provider=ISoftBet Name=TheDalaiPanda cod=0 description=null ResponseObject=24
+2022-10-05 12:06:28,406 [main] INFO craftBet - 13 200 ID=28356 Provider=Platipus Name=1001 Spins cod=0 description=null ResponseObject=24
+2022-10-05 12:06:32,876 [main] INFO craftBet - 14 210 ID=28843 Provider=Betsoft Name=2 Million B.C. cod=0 description=null ResponseObject=24
+2022-10-05 12:07:00,165 [main] INFO craftBet - 15 268 ID=28610 Provider=PlaynGo Name=AceofSpades cod=0 description=null ResponseObject=24
+2022-10-05 12:07:15,851 [main] INFO craftBet - 16 301 ID=25700 Provider=Yggdrasil Name=AllStarKnockoutUltraGamble cod=0 description=null ResponseObject=24
+2022-10-05 12:07:16,218 [main] INFO craftBet - 17 302 ID=25194 Provider=NetEnt Name=Aloha cod=0 description=null ResponseObject=24
+2022-10-05 12:07:20,991 [main] INFO craftBet - 18 312 ID=75340 Provider=Betsoft Name=American Roulette cod=0 description=null ResponseObject=24
+2022-10-05 12:07:35,515 [main] INFO craftBet - 19 344 ID=27731 Provider=Habanero Name=ArcticWonders cod=0 description=null ResponseObject=24
+2022-10-05 12:07:38,937 [main] INFO craftBet - 20 351 ID=25434 Provider=Yggdrasil Name=Arthur's Fortune cod=0 description=null ResponseObject=24
+2022-10-05 12:07:44,820 [main] INFO craftBet - 21 363 ID=25742 Provider=GameArt Name=Azrabah Wishes cod=0 description=null ResponseObject=24
+2022-10-05 12:07:49,091 [main] INFO craftBet - 22 372 ID=25549 Provider=Platipus Name=AztecCoins cod=0 description=null ResponseObject=24
+2022-10-05 12:07:55,717 [main] INFO craftBet - 23 387 ID=75976 Provider=Evoplay Name=Baccarat 777 cod=0 description=null ResponseObject=24
+2022-10-05 12:08:15,877 [main] INFO craftBet - 24 427 ID=25743 Provider=Thunderkick Name=BeattheBeast:Kraken’sLair cod=0 description=null ResponseObject=24
+2022-10-05 12:08:50,757 [main] INFO craftBet - 25 496 ID=25741 Provider=Yggdrasil Name=BloodMoonWilds cod=0 description=null ResponseObject=24
+2022-10-05 12:08:51,281 [main] INFO craftBet - 26 497 ID=25433 Provider=PariPlay Name=Bloodshot: Rising Spirit cod=0 description=null ResponseObject=24
+2022-10-05 12:09:18,217 [main] INFO craftBet - 27 549 ID=26042 Provider=BoomingGames Name=BoomingGold cod=0 description=null ResponseObject=24
+2022-10-05 12:09:23,857 [main] INFO craftBet - 28 559 ID=28611 Provider=BGaming Name=Brave Viking cod=0 description=null ResponseObject=24
+2022-10-05 12:09:24,677 [main] INFO craftBet - 29 561 ID=29944 Provider=Yggdrasil Name=BrazilBomba cod=0 description=null ResponseObject=24
+2022-10-05 12:09:41,942 [main] INFO craftBet - 30 598 ID=26277 Provider=Betsoft Name=Caishen'sArrival cod=0 description=null ResponseObject=24
+2022-10-05 12:09:47,909 [main] INFO craftBet - 31 610 ID=25548 Provider=GameArt Name=Captain Candy cod=0 description=null ResponseObject=24
+2022-10-05 12:09:54,295 [main] INFO craftBet - 32 624 ID=28840 Provider=Leander Name=Cash Encounters cod=0 description=null ResponseObject=24
+2022-10-05 12:10:05,217 [main] INFO craftBet - 33 651 ID=26409 Provider=Yggdrasil Name=CazinoZeppelin cod=0 description=null ResponseObject=24
+2022-10-05 12:10:06,905 [main] INFO craftBet - 34 655 ID=26980 Provider=PlaynGo Name=Charlie Chance cod=0 description=null ResponseObject=24
+2022-10-05 12:10:11,744 [main] INFO craftBet - 35 666 ID=27237 Provider=PlaysonDirect Name=Chicago Gangsters cod=0 description=null ResponseObject=24
+2022-10-05 12:10:12,526 [main] INFO craftBet - 36 668 ID=25876 Provider=GameArt Name=Chili Quest cod=0 description=null ResponseObject=24
+2022-10-05 12:10:21,767 [main] INFO craftBet - 37 686 ID=28832 Provider=PlaynGo Name=ChronosJoker cod=0 description=null ResponseObject=24
+2022-10-05 12:10:31,600 [main] INFO craftBet - 38 710 ID=26294 Provider=Habanero Name=ColossalGems cod=0 description=null ResponseObject=24
+2022-10-05 12:10:35,732 [main] INFO craftBet - 39 719 ID=29318 Provider=Thunderkick Name=Cosmic Voyager cod=0 description=null ResponseObject=24
+2022-10-05 12:10:39,370 [main] INFO craftBet - 40 728 ID=29619 Provider=Igrosoft Name=Crazy Monkey cod=0 description=null ResponseObject=24
+2022-10-05 12:10:47,071 [main] INFO craftBet - 41 743 ID=26473 Provider=Ganapati Name=Crypcrusade cod=0 description=null ResponseObject=24
+2022-10-05 12:10:47,433 [main] INFO craftBet - 42 744 ID=26474 Provider=BoomingGames Name=Crystal Classics cod=0 description=null ResponseObject=24
+2022-10-05 12:10:59,062 [main] INFO craftBet - 43 768 ID=27236 Provider=Spadegaming Name=Da Fu Xiao Fu cod=0 description=null ResponseObject=24
+2022-10-05 12:11:06,432 [main] INFO craftBet - 44 785 ID=25739 Provider=NetEnt Name=Dazzleme cod=0 description=null ResponseObject=24
+2022-10-05 12:11:34,519 [main] INFO craftBet - 45 849 ID=27234 Provider=NetEnt Name=DoubleStac cod=0 description=null ResponseObject=24
+2022-10-05 12:11:48,764 [main] INFO craftBet - 46 870 ID=26459 Provider=GameArt Name=DragonKing cod=0 description=null ResponseObject=24
+2022-10-05 12:12:03,536 [main] INFO craftBet - 47 901 ID=26979 Provider=Wazdan Name=Dwarfs Fortune cod=0 description=null ResponseObject=24
+2022-10-05 12:12:15,409 [main] INFO craftBet - 48 927 ID=28836 Provider=NetEnt Name=Elements cod=0 description=null ResponseObject=24
+2022-10-05 12:12:21,191 [main] INFO craftBet - 49 940 ID=25737 Provider=PlaynGo Name=Energoonz cod=0 description=null ResponseObject=24
+2022-10-05 12:12:41,001 [main] INFO craftBet - 50 984 ID=29986 Provider=PushGaming Name=Fat Santa cod=0 description=null ResponseObject=24
+2022-10-05 12:12:56,145 [main] INFO craftBet - 51 1012 ID=26456 Provider=Spadegaming Name=First Love cod=0 description=null ResponseObject=24
+2022-10-05 12:13:11,920 [main] INFO craftBet - 52 1044 ID=29278 Provider=Leander Name=ForceofNature cod=0 description=null ResponseObject=24
+2022-10-05 12:13:23,756 [main] INFO craftBet - 53 1070 ID=29552 Provider=GameArt Name=Four Symbols cod=0 description=null ResponseObject=24
+2022-10-05 12:14:07,152 [main] INFO craftBet - 54 1154 ID=27230 Provider=PragmaticPlay Name=Gems Bonanza cod=0 description=null ResponseObject=24
+2022-10-05 12:14:16,746 [main] INFO craftBet - 55 1175 ID=75277 Provider=Igrosoft Name=Gnome cod=0 description=null ResponseObject=24
+2022-10-05 12:14:39,134 [main] INFO craftBet - 56 1222 ID=29192 Provider=WACS Name=GoldenBullets cod=0 description=null ResponseObject=24
+2022-10-05 12:14:42,077 [main] INFO craftBet - 57 1229 ID=27229 Provider=NoLimitCity Name=GoldenGenieandtheWalkingWilds cod=0 description=null ResponseObject=24
+2022-10-05 12:14:57,654 [main] INFO craftBet - 58 1265 ID=26466 Provider=Wazdan Name=GreatBookOfMagic cod=0 description=null ResponseObject=24
+2022-10-05 12:15:04,069 [main] INFO craftBet - 59 1279 ID=25556 Provider=QuickSpin Name=HalloftheMountainKing cod=0 description=null ResponseObject=24
+2022-10-05 12:15:07,230 [main] INFO craftBet - 60 1287 ID=27228 Provider=Habanero Name=HappiestChristmasTree cod=0 description=null ResponseObject=24
+2022-10-05 12:15:23,937 [main] INFO craftBet - 61 1327 ID=27226 Provider=Spadegaming Name=Honey Hunter cod=0 description=null ResponseObject=24
+2022-10-05 12:15:26,898 [main] INFO craftBet - 62 1334 ID=75171 Provider=ZeusPlay Name=Hot 27 Lines cod=0 description=null ResponseObject=24
+2022-10-05 12:15:45,742 [main] INFO craftBet - 63 1373 ID=29981 Provider=Evoplay Name=HungryNight cod=0 description=null ResponseObject=24
+2022-10-05 12:15:47,595 [main] INFO craftBet - 64 1377 ID=28842 Provider=Yggdrasil Name=Hypernova 10K Ways cod=0 description=null ResponseObject=24
+2022-10-05 12:15:50,363 [main] INFO craftBet - 65 1383 ID=25767 Provider=WACS Name=IceCreamVan cod=0 description=null ResponseObject=24
+2022-10-05 12:15:53,871 [main] INFO craftBet - 66 1391 ID=29983 Provider=NoLimitCity Name=ImmortalFruits cod=0 description=null ResponseObject=24
+2022-10-05 12:16:17,384 [main] INFO craftBet - 67 1442 ID=29948 Provider=PushGaming Name=Jammin Jars cod=0 description=null ResponseObject=24
+2022-10-05 12:16:18,639 [main] INFO craftBet - 68 1445 ID=26278 Provider=Wazdan Name=Jelly Reels cod=0 description=null ResponseObject=24
+2022-10-05 12:16:39,993 [main] INFO craftBet - 69 1492 ID=26465 Provider=Evoplay Name=JourneytotheWest cod=0 description=null ResponseObject=24
+2022-10-05 12:17:06,322 [main] INFO craftBet - 70 1547 ID=26447 Provider=Leander Name=KrakenConquest cod=0 description=null ResponseObject=24
+2022-10-05 12:17:07,977 [main] INFO craftBet - 71 1551 ID=29345 Provider=Yggdrasil Name=Lady Merlin Lightning Chase cod=0 description=null ResponseObject=24
+2022-10-05 12:17:16,720 [main] INFO craftBet - 72 1571 ID=28655 Provider=DragonGaming Name=Legend of Horus cod=0 description=null ResponseObject=24
+2022-10-05 12:17:21,706 [main] INFO craftBet - 73 1582 ID=27220 Provider=Yggdrasil Name=Legion  Hot 1 cod=0 description=null ResponseObject=24
+2022-10-05 12:17:25,448 [main] INFO craftBet - 74 1591 ID=76131 Provider=Leander Name=Light Racers cod=0 description=null ResponseObject=24
+2022-10-05 12:17:27,006 [main] INFO craftBet - 75 1595 ID=26443 Provider=PlaysonDirect Name=Lion Gems: Hold and Win cod=0 description=null ResponseObject=24
+2022-10-05 12:17:36,859 [main] INFO craftBet - 76 1618 ID=29601 Provider=WorldMatch Name=Lotus Luck cod=0 description=null ResponseObject=24
+2022-10-05 12:17:59,580 [main] INFO craftBet - 77 1667 ID=26663 Provider=Platipus Name=LuckyMoney cod=0 description=null ResponseObject=24
+2022-10-05 12:18:00,482 [main] INFO craftBet - 78 1669 ID=25212 Provider=Wazdan Name=LuckyQueen cod=0 description=null ResponseObject=24
+2022-10-05 12:18:36,906 [main] INFO craftBet - 79 1746 ID=25141 Provider=Spadegaming Name=Mega 7 cod=0 description=null ResponseObject=24
+2022-10-05 12:18:37,584 [main] INFO craftBet - 80 1748 ID=29273 Provider=WorldMatch Name=Mega Jack HD cod=0 description=null ResponseObject=24
+2022-10-05 12:18:55,485 [main] INFO craftBet - 81 1786 ID=26445 Provider=Yggdrasil Name=Moley Moolah cod=0 description=null ResponseObject=24
+2022-10-05 12:19:04,486 [main] INFO craftBet - 82 1800 ID=29414 Provider=Evoplay Name=MonsterLab cod=0 description=null ResponseObject=24
+2022-10-05 12:19:07,005 [main] INFO craftBet - 83 1805 ID=25738 Provider=WorldMatch Name=Monte Carlo Jewels HD cod=0 description=null ResponseObject=24
+2022-10-05 12:19:16,357 [main] INFO craftBet - 84 1827 ID=25664 Provider=PlaynGo Name=Multifruit81 cod=0 description=null ResponseObject=24
+2022-10-05 12:19:31,005 [main] INFO craftBet - 85 1855 ID=75929 Provider=Evoplay Name=Necromancer cod=0 description=null ResponseObject=24
+2022-10-05 12:19:32,862 [main] INFO craftBet - 86 1858 ID=75789 Provider=GameArt Name=Nefertiti's Nile cod=0 description=null ResponseObject=24
+2022-10-05 12:19:35,829 [main] INFO craftBet - 87 1865 ID=26449 Provider=QuickSpin Name=Nero'sFortune cod=0 description=null ResponseObject=24
+2022-10-05 12:19:38,384 [main] INFO craftBet - 88 1871 ID=26642 Provider=Evoplay Name=Night of the Living Tales cod=0 description=null ResponseObject=24
+2022-10-05 12:19:40,690 [main] INFO craftBet - 89 1876 ID=26469 Provider=WorldMatch Name=Nile's Mystery cod=0 description=null ResponseObject=24
+2022-10-05 12:19:47,440 [main] INFO craftBet - 90 1890 ID=28960 Provider=BoomingGames Name=Ocean Drive cod=0 description=null ResponseObject=24
+2022-10-05 12:19:53,656 [main] INFO craftBet - 91 1904 ID=26453 Provider=Habanero Name=Orbs of Atlantis cod=0 description=null ResponseObject=24
+2022-10-05 12:19:57,345 [main] INFO craftBet - 92 1913 ID=75905 Provider=Ganapati Name=PacquiaoOnePunchKO cod=0 description=null ResponseObject=24
+2022-10-05 12:19:57,717 [main] INFO craftBet - 93 1914 ID=26273 Provider=ZeusPlay Name=Page of Fortune Deluxe cod=0 description=null ResponseObject=24
+2022-10-05 12:20:20,098 [main] INFO craftBet - 94 1963 ID=26275 Provider=Yggdrasil Name=PiggyPop cod=0 description=null ResponseObject=24
+2022-10-05 12:20:21,517 [main] INFO craftBet - 95 1967 ID=26281 Provider=Thunderkick Name=Pink Elephants 2 cod=0 description=null ResponseObject=24
+2022-10-05 12:20:34,666 [main] INFO craftBet - 96 1997 ID=25646 Provider=Platipus Name=Posh Cats cod=0 description=null ResponseObject=24
+2022-10-05 12:20:40,275 [main] INFO craftBet - 97 2009 ID=25740 Provider=Platipus Name=PowerofGods cod=0 description=null ResponseObject=24
+2022-10-05 12:20:41,960 [main] INFO craftBet - 98 2013 ID=27214 Provider=Habanero Name=Presto! cod=0 description=null ResponseObject=24
+2022-10-05 12:20:51,693 [main] INFO craftBet - 99 2035 ID=27212 Provider=NoLimitCity Name=Punk Rocker cod=0 description=null ResponseObject=24
+2022-10-05 12:20:58,842 [main] INFO craftBet - 100 2052 ID=75286 Provider=PlaynGo Name=Rabbit Hole Riches cod=0 description=null ResponseObject=24
+2022-10-05 12:21:02,875 [main] INFO craftBet - 101 2063 ID=27210 Provider=PlaynGo Name=RainforestMagic cod=0 description=null ResponseObject=24
+2022-10-05 12:21:12,265 [main] INFO craftBet - 102 2083 ID=27209 Provider=Yggdrasil Name=Reel Desire cod=0 description=null ResponseObject=24
+2022-10-05 12:21:12,633 [main] INFO craftBet - 103 2084 ID=29346 Provider=Leander Name=Reel Holidays cod=0 description=null ResponseObject=24
+2022-10-05 12:21:18,367 [main] INFO craftBet - 104 2097 ID=27207 Provider=Igrosoft Name=Resident cod=0 description=null ResponseObject=24
+2022-10-05 12:21:44,744 [main] INFO craftBet - 105 2156 ID=75969 Provider=Yggdrasil Name=Roulette Evolution VIP cod=0 description=null ResponseObject=24
+2022-10-05 12:21:45,123 [main] INFO craftBet - 106 2157 ID=75968 Provider=PlaysonDirect Name=Roulette with Track cod=0 description=null ResponseObject=24
+2022-10-05 12:21:56,040 [main] INFO craftBet - 107 2180 ID=75005 Provider=PlaynGo Name=Safari of Wealth cod=0 description=null ResponseObject=24
+2022-10-05 12:21:59,019 [main] INFO craftBet - 108 2187 ID=26322 Provider=PlaynGo Name=SailsofGold cod=0 description=null ResponseObject=24
+2022-10-05 12:22:01,607 [main] INFO craftBet - 109 2194 ID=26450 Provider=NoLimitCity Name=San Quentin xWays cod=0 description=null ResponseObject=24
+2022-10-05 12:22:25,842 [main] INFO craftBet - 110 2245 ID=26472 Provider=TomHorn Name=Sherlock in Bohemia cod=0 description=null ResponseObject=24
+2022-10-05 12:22:27,493 [main] INFO craftBet - 111 2247 ID=26282 Provider=PlaynGo Name=Shimmering Woods cod=0 description=null ResponseObject=24
+2022-10-05 12:22:50,347 [main] INFO craftBet - 112 2257 ID=26629 Provider=Betsoft Name=Single Deck Blackjack cod=0 description=null ResponseObject=24
+2022-10-05 12:22:52,951 [main] INFO craftBet - 113 2261 ID=29828 Provider=PlaynGo Name=Sisters of The Sun cod=0 description=null ResponseObject=24
+2022-10-05 12:23:05,994 [main] INFO craftBet - 114 2283 ID=25764 Provider=Apollo Name=SmilingJokerII cod=0 description=null ResponseObject=24
+2022-10-05 12:23:20,612 [main] INFO craftBet - 115 2314 ID=27203 Provider=TomHorn Name=Spinball cod=0 description=null ResponseObject=24
+2022-10-05 12:23:36,995 [main] INFO craftBet - 116 2342 ID=75841 Provider=NetEnt Name=Steam Tower cod=0 description=null ResponseObject=24
+2022-10-05 12:23:45,722 [main] INFO craftBet - 117 2359 ID=26279 Provider=Booongo Name=Sun Of Egypt 2 cod=0 description=null ResponseObject=24
+2022-10-05 12:23:49,205 [main] INFO craftBet - 118 2367 ID=27270 Provider=Booongo Name=SunofEgypt cod=0 description=null ResponseObject=24
+2022-10-05 12:23:58,137 [main] INFO craftBet - 119 2386 ID=27201 Provider=WorldMatch Name=SuperHeroes HD cod=0 description=null ResponseObject=24
+2022-10-05 12:24:03,578 [main] INFO craftBet - 120 2397 ID=26470 Provider=Leander Name=Swap The Flop cod=0 description=null ResponseObject=24
+2022-10-05 12:24:03,964 [main] INFO craftBet - 121 2398 ID=29322 Provider=Spadegaming Name=Sweet Bakery cod=0 description=null ResponseObject=24
+2022-10-05 12:24:11,554 [main] INFO craftBet - 122 2411 ID=28835 Provider=Evoplay Name=Syndicate cod=0 description=null ResponseObject=24
+2022-10-05 12:24:26,615 [main] INFO craftBet - 123 2442 ID=29169 Provider=Evoplay Name=TexasHold’emPoker3D cod=0 description=null ResponseObject=24
+2022-10-05 12:24:30,170 [main] INFO craftBet - 124 2450 ID=29927 Provider=NoLimitCity Name=The Creepy Carnival cod=0 description=null ResponseObject=24
+2022-10-05 12:24:55,929 [main] INFO craftBet - 125 2502 ID=27707 Provider=Habanero Name=TheKoiGate cod=0 description=null ResponseObject=24
+2022-10-05 12:24:57,230 [main] INFO craftBet - 126 2505 ID=26654 Provider=NetEnt Name=Theme Park cod=0 description=null ResponseObject=24
+2022-10-05 12:24:57,935 [main] INFO craftBet - 127 2507 ID=26437 Provider=PariPlay Name=ThePrancingPony:ChristmasEdition cod=0 description=null ResponseObject=24
+2022-10-05 12:25:32,428 [main] INFO craftBet - 128 2545 ID=75193 Provider=Yggdrasil Name=Tiki Runner 2 DoubleMax cod=0 description=null ResponseObject=24
+2022-10-05 12:25:33,334 [main] INFO craftBet - 129 2547 ID=29992 Provider=Yggdrasil Name=TikiPop cod=0 description=null ResponseObject=24
+2022-10-05 12:25:44,462 [main] INFO craftBet - 130 2568 ID=26628 Provider=RedTiger Name=totemlightningpowerreels cod=0 description=null ResponseObject=24
+2022-10-05 12:26:02,804 [main] INFO craftBet - 131 2608 ID=26276 Provider=NetEnt Name=TwinSpinDeluxe cod=0 description=null ResponseObject=24
+2022-10-05 12:26:04,512 [main] INFO craftBet - 132 2613 ID=26464 Provider=Platipus Name=Un Dia De Muertos cod=0 description=null ResponseObject=24
+2022-10-05 12:26:07,635 [main] INFO craftBet - 133 2620 ID=26600 Provider=Evoplay Name=USSRSeventies cod=0 description=null ResponseObject=24
+2022-10-05 12:26:11,437 [main] INFO craftBet - 134 2628 ID=27199 Provider=Yggdrasil Name=ValleyoftheGods2 cod=0 description=null ResponseObject=24
+2022-10-05 12:26:11,827 [main] INFO craftBet - 135 2629 ID=25566 Provider=WorldMatch Name=Vampire Killer HD cod=0 description=null ResponseObject=24
+2022-10-05 12:26:19,991 [main] INFO craftBet - 136 2643 ID=28838 Provider=NetEnt Name=Victorious cod=0 description=null ResponseObject=24
+2022-10-05 12:26:23,831 [main] INFO craftBet - 137 2650 ID=29342 Provider=PariPlay Name=VikingGlory cod=0 description=null ResponseObject=24
+2022-10-05 12:26:28,460 [main] INFO craftBet - 138 2661 ID=27198 Provider=Yggdrasil Name=VikingsgotoHell cod=0 description=null ResponseObject=24
+2022-10-05 12:26:28,832 [main] INFO craftBet - 139 2662 ID=27197 Provider=Yggdrasil Name=Vikingsgowild cod=0 description=null ResponseObject=24
+2022-10-05 12:26:29,212 [main] INFO craftBet - 140 2663 ID=27194 Provider=Habanero Name=Viking'sPlunder cod=0 description=null ResponseObject=24
+2022-10-05 12:27:00,338 [main] INFO craftBet - 141 2724 ID=29980 Provider=PariPlay Name=Wild Wild Pistols cod=0 description=null ResponseObject=24
+2022-10-05 12:27:20,131 [main] INFO craftBet - 142 2763 ID=26462 Provider=QuickSpin Name=WildTomeoftheWoods cod=0 description=null ResponseObject=24
+2022-10-05 12:27:27,473 [main] INFO craftBet - 143 2780 ID=27191 Provider=RedTiger Name=winterwonders cod=0 description=null ResponseObject=24
+2022-10-05 12:27:38,670 [main] INFO craftBet - 144 2802 ID=27147 Provider=Yggdrasil Name=Word Of Thoth cod=0 description=null ResponseObject=24
+2022-10-05 12:27:39,042 [main] INFO craftBet - 145 2803 ID=29561 Provider=Booongo Name=Wukong cod=0 description=null ResponseObject=24
+2022-10-05 12:27:52,391 [main] INFO craftBet - From Get URL API broken games are captured
+2022-10-05 12:27:52,391 [main] INFO craftBet - Broken url-es are:  145
+2022-10-05 12:27:53,815 [main] INFO craftBet - Browser closed
+2022-10-05 12:27:53,816 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-10-05 12:27:53,926 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-10-06 12:35:48,074 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-10-06 12:35:48,981 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.31.0 (resolved driver for Firefox 105)
+2022-10-06 12:35:48,999 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\user\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-10-06 12:35:53,078 [main] INFO craftBet - URL: https://play.tether.bet  Browser: firefox
+2022-10-06 12:35:53,171 [main] INFO craftBet - All Page elements are initialized
+2022-10-06 12:35:54,179 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-10-06 12:35:54,846 [main] INFO craftBet - Get games Api call was sent
+2022-10-06 12:35:55,343 [main] INFO craftBet - Browser closed
+2022-10-06 12:35:55,343 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-10-06 12:35:55,349 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-10-06 12:36:47,550 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-10-06 12:36:47,737 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.31.0 (resolved driver for Firefox 105)
+2022-10-06 12:36:47,760 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\user\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-10-06 12:36:50,291 [main] INFO craftBet - URL: https://play.tether.bet  Browser: firefox
+2022-10-06 12:36:50,348 [main] INFO craftBet - All Page elements are initialized
+2022-10-06 12:36:51,682 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-10-06 12:36:52,500 [main] INFO craftBet - Get games Api call was sent
+2022-10-06 12:36:53,115 [main] INFO craftBet - Browser closed
+2022-10-06 12:36:53,116 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-10-06 12:36:53,230 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
 2022-10-06 12:38:02,648 [main] INFO craftBet - Browser for test will be firefox as chosen
 2022-10-06 12:38:03,759 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.31.0 (resolved driver for Firefox 104)
 2022-10-06 12:38:03,795 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
@@ -1624,3 +1887,37 @@ java.net.SocketException: Connection reset
 2022-10-06 12:40:01,113 [main] INFO craftBet - Browser closed
 2022-10-06 12:40:01,113 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-10-06 12:40:01,123 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-10-06 12:52:47,228 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-10-06 12:52:47,422 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.31.0 (resolved driver for Firefox 105)
+2022-10-06 12:52:47,440 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\user\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-10-06 12:52:49,906 [main] INFO craftBet - URL: https://play.tether.bet  Browser: firefox
+2022-10-06 12:52:49,967 [main] INFO craftBet - All Page elements are initialized
+2022-10-06 12:52:50,996 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-10-06 12:52:53,284 [main] INFO craftBet - Get games Api call was sent
+2022-10-06 12:52:53,420 [main] INFO craftBet - Get games Api Response was captured
+2022-10-06 12:52:53,492 [main] INFO craftBet - Dupliicate game Name =  Football
+2022-10-06 12:52:53,508 [main] INFO craftBet - Dupliicate game Name =  Baccarat
+2022-10-06 12:52:53,512 [main] INFO craftBet - Dupliicate game Name =  Blackjack
+2022-10-06 12:52:53,513 [main] INFO craftBet - Dupliicate game Name =  Blackjack VIP
+2022-10-06 12:52:53,527 [main] INFO craftBet - Dupliicate game Name =  ChineseNewYear
+2022-10-06 12:52:53,534 [main] INFO craftBet - Dupliicate game Name =  Deuces Wild
+2022-10-06 12:52:53,534 [main] INFO craftBet - Dupliicate game Name =  Deuces Wild
+2022-10-06 12:52:53,534 [main] INFO craftBet - Dupliicate game Name =  Deuces Wild
+2022-10-06 12:52:53,540 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-06 12:52:53,540 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-06 12:52:53,540 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-06 12:52:53,540 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-06 12:52:53,541 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-06 12:52:53,541 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-06 12:52:53,542 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-06 12:52:53,542 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-06 12:52:53,542 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-06 12:52:53,542 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-06 12:52:53,542 [main] INFO craftBet - Dupliicate game Name =  European Roulette VIP
+2022-10-06 12:52:53,550 [main] INFO craftBet - Dupliicate game Name =  Jacks or Better
+2022-10-06 12:52:53,551 [main] INFO craftBet - Dupliicate game Name =  Joker Poker
+2022-10-06 12:52:53,558 [main] INFO craftBet - Dupliicate game Name =  Tomahawk
+2022-10-06 12:52:53,559 [main] INFO craftBet - Duplicate games are:  22
+2022-10-06 12:52:55,134 [main] INFO craftBet - Browser closed
+2022-10-06 12:52:55,135 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-10-06 12:52:55,139 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
