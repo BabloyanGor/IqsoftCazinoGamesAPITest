@@ -192,7 +192,7 @@ public class BaseTest extends DriverFactory {
                 getGamesAPIUrl = "https://websitewebapi.play.tether.bet/54/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.play.tether.bet/54/api/Main/GetProductUrl";
                 getUserID = 1650822;
-                getGamesOrigin = "https://play.63we p;['-uj7y8ujyhn bhjyuhn mjhu87.bet";
+                getGamesOrigin = "https://play.tether.bet";
                 getGamesRecurse = "https://resources.tether.bet/products/";
                 getGamesPartnerName = "Tetherbet";
                 getGamesBaseURL = "https://play.tether.bet";
