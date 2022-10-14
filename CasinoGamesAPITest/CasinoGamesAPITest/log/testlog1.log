@@ -1921,3 +1921,501 @@ java.net.SocketException: Connection reset
 2022-10-06 12:52:55,134 [main] INFO craftBet - Browser closed
 2022-10-06 12:52:55,135 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-10-06 12:52:55,139 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-10-14 10:21:47,991 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-10-14 10:21:49,342 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.31.0 (resolved driver for Firefox 104)
+2022-10-14 10:21:49,382 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-10-14 10:21:56,724 [main] INFO craftBet - URL: https://craftbet.la  Browser: firefox
+2022-10-14 10:21:56,857 [main] INFO craftBet - All Page elements are initialized
+2022-10-14 10:21:59,500 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-10-14 10:22:02,108 [main] INFO craftBet - Get games Api call was sent
+2022-10-14 10:22:02,184 [main] INFO craftBet - Get games Api Response was captured
+2022-10-14 10:22:02,215 [main] INFO craftBet - Dupliicate game Name =  243CrystalFruits
+2022-10-14 10:22:02,218 [main] INFO craftBet - Dupliicate game Name =  Arising Phoenix
+2022-10-14 10:22:02,218 [main] INFO craftBet - Dupliicate game Name =  Aztec Secret
+2022-10-14 10:22:02,219 [main] INFO craftBet - Dupliicate game Name =  Bells on Fire
+2022-10-14 10:22:02,221 [main] INFO craftBet - Dupliicate game Name =  Big Bass Bonanza Megaways
+2022-10-14 10:22:02,223 [main] INFO craftBet - Dupliicate game Name =  Big Juan
+2022-10-14 10:22:02,224 [main] INFO craftBet - Dupliicate game Name =  Bigger Bass Bonanza
+2022-10-14 10:22:02,225 [main] INFO craftBet - Dupliicate game Name =  Billyonaire
+2022-10-14 10:22:02,227 [main] INFO craftBet - Dupliicate game Name =  Blackbeard'sQuest
+2022-10-14 10:22:02,228 [main] INFO craftBet - Dupliicate game Name =  Blue Dolphin
+2022-10-14 10:22:02,228 [main] INFO craftBet - Dupliicate game Name =  Book of Fortune
+2022-10-14 10:22:02,229 [main] INFO craftBet - Dupliicate game Name =  Casinova
+2022-10-14 10:22:02,230 [main] INFO craftBet - Dupliicate game Name =  Cool Diamonds II
+2022-10-14 10:22:02,230 [main] INFO craftBet - Dupliicate game Name =  Diamond Cats
+2022-10-14 10:22:02,231 [main] INFO craftBet - Dupliicate game Name =  Diamond Monkey
+2022-10-14 10:22:02,231 [main] INFO craftBet - Dupliicate game Name =  Diamonds on Fire
+2022-10-14 10:22:02,231 [main] INFO craftBet - Dupliicate game Name =  Dragons Kingdom
+2022-10-14 10:22:02,232 [main] INFO craftBet - Dupliicate game Name =  Elemental Gems Megaways
+2022-10-14 10:22:02,232 [main] INFO craftBet - Dupliicate game Name =  Elements
+2022-10-14 10:22:02,233 [main] INFO craftBet - Dupliicate game Name =  Eye of Ra
+2022-10-14 10:22:02,234 [main] INFO craftBet - Dupliicate game Name =  GrandX
+2022-10-14 10:22:02,235 [main] INFO craftBet - Dupliicate game Name =  Hot Diamonds
+2022-10-14 10:22:02,235 [main] INFO craftBet - Dupliicate game Name =  Hot Twenty
+2022-10-14 10:22:02,236 [main] INFO craftBet - Dupliicate game Name =  John Hunter and the Quest for Bermuda Riches
+2022-10-14 10:22:02,237 [main] INFO craftBet - Dupliicate game Name =  Joker Reelz
+2022-10-14 10:22:02,238 [main] INFO craftBet - Dupliicate game Name =  Lady Joker
+2022-10-14 10:22:02,238 [main] INFO craftBet - Dupliicate game Name =  Lovely Lady
+2022-10-14 10:22:02,239 [main] INFO craftBet - Dupliicate game Name =  Lucky Coin
+2022-10-14 10:22:02,239 [main] INFO craftBet - Dupliicate game Name =  Magic Idol
+2022-10-14 10:22:02,239 [main] INFO craftBet - Dupliicate game Name =  Might of Ra
+2022-10-14 10:22:02,240 [main] INFO craftBet - Dupliicate game Name =  Queen of Gold 100,000
+2022-10-14 10:22:02,240 [main] INFO craftBet - Dupliicate game Name =  Royal Unicorn
+2022-10-14 10:22:02,241 [main] INFO craftBet - Dupliicate game Name =  Spinball
+2022-10-14 10:22:02,241 [main] INFO craftBet - Dupliicate game Name =  Starlight Princess
+2022-10-14 10:22:02,241 [main] INFO craftBet - Dupliicate game Name =  Sugar Rush
+2022-10-14 10:22:02,242 [main] INFO craftBet - Dupliicate game Name =  Sweet Crush
+2022-10-14 10:22:02,242 [main] INFO craftBet - Dupliicate game Name =  TalesOfDarkness
+2022-10-14 10:22:02,242 [main] INFO craftBet - Dupliicate game Name =  Wild Beach Party
+2022-10-14 10:22:02,242 [main] INFO craftBet - Dupliicate game Name =  Wild Stars
+2022-10-14 10:22:02,242 [main] INFO craftBet - Dupliicate game Name =  Wolf Moon
+2022-10-14 10:22:02,242 [main] INFO craftBet - Duplicate games are:  40
+2022-10-14 10:22:04,716 [main] INFO craftBet - Browser closed
+2022-10-14 10:22:04,717 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-10-14 10:22:04,737 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-10-14 10:22:04,756 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.31.0 (resolved driver for Firefox 104)
+2022-10-14 10:22:04,779 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-10-14 10:22:09,323 [main] INFO craftBet - URL: https://craftbet.la  Browser: firefox
+2022-10-14 10:22:09,335 [main] INFO craftBet - All Page elements are initialized
+2022-10-14 10:22:11,552 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-10-14 10:22:13,056 [main] INFO craftBet - Get games Api call was sent
+2022-10-14 10:22:13,085 [main] INFO craftBet - Get games Api Response was captured
+2022-10-14 10:22:13,108 [main] INFO craftBet - All captured games images was added into ArrayList
+2022-10-14 10:22:45,065 [main] ERROR craftBet - 39   Game Provider Name = Amatic :   Game Name =  Admiral :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Admiral.jpg
+2022-10-14 10:22:53,984 [main] ERROR craftBet - 52   Game Provider Name = Amatic :   Game Name =  Allways Win :   cod = 404:   src = https://resources.craftbet.la/products/amatic/AllwaysWin.jpg
+2022-10-14 10:22:54,793 [main] ERROR craftBet - 54   Game Provider Name = Amatic :   Game Name =  Always Fruits :   cod = 404:   src = https://resources.craftbet.la/products/amatic/AllWaysFruits.jpg
+2022-10-14 10:22:55,204 [main] ERROR craftBet - 55   Game Provider Name = PragmaticPlay :   Game Name =  American Blackjack :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:23:00,085 [main] ERROR craftBet - 63   Game Provider Name = Amatic :   Game Name =  Arising Phoenix :   cod = 404:   src = https://resources.craftbet.la/products/amatic/ArisingPhoenix.jpg
+2022-10-14 10:23:04,255 [main] ERROR craftBet - 69   Game Provider Name = Amatic :   Game Name =  Aztec Secret :   cod = 404:   src = https://resources.craftbet.la/products/amatic/AztecSecret.jpg
+2022-10-14 10:23:12,226 [main] ERROR craftBet - 80   Game Provider Name = PragmaticPlay :   Game Name =  Barn Festival :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:23:18,623 [main] ERROR craftBet - 88   Game Provider Name = Amatic :   Game Name =  Bells on Fire :   cod = 404:   src = https://resources.craftbet.la/products/amatic/BellsonFire.jpg
+2022-10-14 10:23:25,575 [main] ERROR craftBet - 102   Game Provider Name = Amatic :   Game Name =  Big Panda :   cod = 404:   src = https://resources.craftbet.la/products/amatic/BigPanda.jpg
+2022-10-14 10:23:28,494 [main] ERROR craftBet - 107   Game Provider Name = Amatic :   Game Name =  Billy`s Game :   cod = 404:   src = https://resources.craftbet.la/products/amatic/BillysGame.jpg
+2022-10-14 10:23:28,873 [main] ERROR craftBet - 108   Game Provider Name = Amatic :   Game Name =  Billyonaire :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Billyonaire.jpg
+2022-10-14 10:23:29,624 [main] ERROR craftBet - 110   Game Provider Name = Amatic :   Game Name =  Billy's Game :   cod = 404:   src = https://resources.craftbet.la/products/inbet/Billy_s_Game.jpg
+2022-10-14 10:23:30,024 [main] ERROR craftBet - 111   Game Provider Name = Amatic :   Game Name =  Black Jack :   cod = 404:   src = https://resources.craftbet.la/products/amatic/BlackJack.jpg
+2022-10-14 10:23:35,345 [main] ERROR craftBet - 121   Game Provider Name = Amatic :   Game Name =  Blue Dolphin :   cod = 404:   src = https://resources.craftbet.la/products/amatic/BlueDolphin.jpg
+2022-10-14 10:23:40,844 [main] ERROR craftBet - 130   Game Provider Name = Amatic :   Game Name =  Book of Aztec :   cod = 404:   src = https://resources.craftbet.la/products/amatic/BookofAztec.jpg
+2022-10-14 10:23:51,084 [main] ERROR craftBet - 143   Game Provider Name = Amatic :   Game Name =  Book of Fortune :   cod = 404:   src = https://resources.craftbet.la/products/amatic/BookofFortune.jpg
+2022-10-14 10:24:30,094 [main] ERROR craftBet - 192   Game Provider Name = Amatic :   Game Name =  Casanova :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Casinova.png
+2022-10-14 10:24:32,917 [main] ERROR craftBet - 197   Game Provider Name = Amatic :   Game Name =  Casinova :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Casinova.png
+2022-10-14 10:24:54,282 [main] ERROR craftBet - 223   Game Provider Name = Amatic :   Game Name =  Cool Diamonds II :   cod = 404:   src = https://resources.craftbet.la/products/amatic/CoolDiamondsII.jpg
+2022-10-14 10:25:19,687 [main] ERROR craftBet - 256   Game Provider Name = Amatic :   Game Name =  Deuces Wild :   cod = 404:   src = https://resources.craftbet.la/products/amatic/DeucesWild.jpg
+2022-10-14 10:25:20,775 [main] ERROR craftBet - 258   Game Provider Name = Amatic :   Game Name =  Diamond Cats :   cod = 404:   src = https://resources.craftbet.la/products/amatic/DiamondCats.jpg
+2022-10-14 10:25:22,005 [main] ERROR craftBet - 261   Game Provider Name = Amatic :   Game Name =  Diamond Monkey :   cod = 404:   src = https://resources.craftbet.la/products/amatic/DiamondMonkey.jpg
+2022-10-14 10:25:23,225 [main] ERROR craftBet - 264   Game Provider Name = PragmaticPlay :   Game Name =  Diamond Strike 250,000 :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:25:26,186 [main] ERROR craftBet - 268   Game Provider Name = Amatic :   Game Name =  Diamonds on Fire :   cod = 404:   src = https://resources.craftbet.la/products/amatic/DiamondsonFire.jpg
+2022-10-14 10:25:35,286 [main] ERROR craftBet - 282   Game Provider Name = PragmaticPlay :   Game Name =  Dragon Bonus Baccarat :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:25:36,965 [main] ERROR craftBet - 286   Game Provider Name = PragmaticPlay :   Game Name =  Dragon Tiger :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:25:42,095 [main] ERROR craftBet - 293   Game Provider Name = Amatic :   Game Name =  Dragons Kingdom :   cod = 404:   src = https://resources.craftbet.la/products/amatic/DragonsKingdom.jpg
+2022-10-14 10:25:42,895 [main] ERROR craftBet - 295   Game Provider Name = Amatic :   Game Name =  Dragons pearl :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Dragonspearl.jpg
+2022-10-14 10:26:09,365 [main] ERROR craftBet - 332   Game Provider Name = Amatic :   Game Name =  Eye of Ra :   cod = 404:   src = https://resources.craftbet.la/products/amatic/EyeofRa.jpg
+2022-10-14 10:26:13,076 [main] ERROR craftBet - 339   Game Provider Name = Amatic :   Game Name =  Fire AndIce :   cod = 404:   src = https://resources.craftbet.la/products/amatic/FireAndIce.jpg
+2022-10-14 10:26:24,968 [main] ERROR craftBet - 358   Game Provider Name = Amatic :   Game Name =  Fortunas Fruits :   cod = 404:   src = https://resources.craftbet.la/products/amatic/FortunasFruits.jpg
+2022-10-14 10:26:59,438 [main] ERROR craftBet - 372   Game Provider Name = Amatic :   Game Name =  Fruit Poker :   cod = 404:   src = https://resources.craftbet.la/products/amatic/FruitPoker.jpg
+2022-10-14 10:28:04,251 [main] ERROR craftBet - 423   Game Provider Name = PragmaticPlay :   Game Name =  Gold Rush 500,000 :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:28:06,999 [main] ERROR craftBet - 426   Game Provider Name = Amatic :   Game Name =  Golden Book :   cod = 404:   src = https://resources.craftbet.la/products/amatic/GoldenBook.jpg
+2022-10-14 10:28:16,768 [main] ERROR craftBet - 445   Game Provider Name = Amatic :   Game Name =  Grand Tiger :   cod = 404:   src = https://resources.craftbet.la/products/amatic/GrandTiger.jpg
+2022-10-14 10:28:17,609 [main] ERROR craftBet - 447   Game Provider Name = Amatic :   Game Name =  GrandX :   cod = 404:   src = https://resources.craftbet.la/products/amatic/GrandX.jpg
+2022-10-14 10:28:18,008 [main] ERROR craftBet - 448   Game Provider Name = Amatic :   Game Name =  GrandX :   cod = 404:   src = https://resources.craftbet.la/products/inbet/Grand_X_252_190.jpg
+2022-10-14 10:28:28,677 [main] ERROR craftBet - 468   Game Provider Name = Amatic :   Game Name =  Hot 7 :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Hot7.jpg
+2022-10-14 10:28:29,068 [main] ERROR craftBet - 469   Game Provider Name = Amatic :   Game Name =  Hot 81 :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Hot81.jpg
+2022-10-14 10:28:29,948 [main] ERROR craftBet - 471   Game Provider Name = Amatic :   Game Name =  Hot Diamonds :   cod = 404:   src = https://resources.craftbet.la/products/amatic/HotDiamonds.jpg
+2022-10-14 10:28:30,788 [main] ERROR craftBet - 473   Game Provider Name = Amatic :   Game Name =  Hot Neon :   cod = 404:   src = https://resources.craftbet.la/products/amatic/HotNeon.jpg
+2022-10-14 10:28:31,668 [main] ERROR craftBet - 475   Game Provider Name = PragmaticPlay :   Game Name =  Hot Safari 75,000 :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:28:32,058 [main] ERROR craftBet - 476   Game Provider Name = Amatic :   Game Name =  Hot Scatter :   cod = 404:   src = https://resources.craftbet.la/products/amatic/HotScatter.jpg
+2022-10-14 10:28:32,858 [main] ERROR craftBet - 478   Game Provider Name = Amatic :   Game Name =  Hot Star :   cod = 404:   src = https://resources.craftbet.la/products/amatic/HotStar.jpg
+2022-10-14 10:28:33,668 [main] ERROR craftBet - 480   Game Provider Name = Amatic :   Game Name =  Hot Twenty :   cod = 404:   src = https://resources.craftbet.la/products/amatic/HotTwenty.jpg
+2022-10-14 10:28:52,308 [main] ERROR craftBet - 512   Game Provider Name = PragmaticPlay :   Game Name =  Jackpot :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:28:53,139 [main] ERROR craftBet - 514   Game Provider Name = Amatic :   Game Name =  Jacks or Better :   cod = 404:   src = https://resources.craftbet.la/products/amatic/JacksorBetter.jpg
+2022-10-14 10:28:59,608 [main] ERROR craftBet - 528   Game Provider Name = Amatic :   Game Name =  Joker Card Poker :   cod = 404:   src = https://resources.craftbet.la/products/amatic/JokerCardPoker.jpg
+2022-10-14 10:29:13,869 [main] ERROR craftBet - 556   Game Provider Name = Amatic :   Game Name =  La Gran Aventura :   cod = 404:   src = https://resources.craftbet.la/products/amatic/LaGranAventura.jpg
+2022-10-14 10:29:14,779 [main] ERROR craftBet - 558   Game Provider Name = Amatic :   Game Name =  Lady Joker :   cod = 404:   src = https://resources.craftbet.la/products/amatic/LadyJoker.jpg
+2022-10-14 10:29:25,938 [main] ERROR craftBet - 581   Game Provider Name = Amatic :   Game Name =  Lovely Lady :   cod = 404:   src = https://resources.craftbet.la/products/amatic/LovelyLady.jpg
+2022-10-14 10:29:27,079 [main] ERROR craftBet - 584   Game Provider Name = Amatic :   Game Name =  Lucky Bells :   cod = 404:   src = https://resources.craftbet.la/products/amatic/LuckyBells.jpg
+2022-10-14 10:29:28,619 [main] ERROR craftBet - 587   Game Provider Name = Amatic :   Game Name =  Lucky Coin :   cod = 404:   src = https://resources.craftbet.la/products/amatic/LuckyCoin.jpg
+2022-10-14 10:29:31,818 [main] ERROR craftBet - 594   Game Provider Name = Amatic :   Game Name =  Lucky Zodiac :   cod = 404:   src = https://resources.craftbet.la/products/amatic/LuckyZodiac.jpg
+2022-10-14 10:29:35,119 [main] ERROR craftBet - 602   Game Provider Name = Amatic :   Game Name =  Magic Forest :   cod = 404:   src = https://resources.craftbet.la/products/amatic/MagicForest.jpg
+2022-10-14 10:29:35,499 [main] ERROR craftBet - 603   Game Provider Name = Amatic :   Game Name =  Magic Idol :   cod = 404:   src = https://resources.craftbet.la/products/amatic/MagicIdol.jpg
+2022-10-14 10:29:36,349 [main] ERROR craftBet - 605   Game Provider Name = Amatic :   Game Name =  Magic Owl :   cod = 404:   src = https://resources.craftbet.la/products/amatic/MagicOwl.jpg
+2022-10-14 10:29:45,580 [main] ERROR craftBet - 625   Game Provider Name = Amatic :   Game Name =  Mermaids Gold :   cod = 404:   src = https://resources.craftbet.la/products/amatic/MermaidsGold.jpg
+2022-10-14 10:29:46,950 [main] ERROR craftBet - 628   Game Provider Name = Amatic :   Game Name =  Merry Fruits :   cod = 404:   src = https://resources.craftbet.la/products/amatic/MerryFruits.jpg
+2022-10-14 10:29:55,609 [main] ERROR craftBet - 647   Game Provider Name = Amatic :   Game Name =  Multi-Card Win :   cod = 404:   src = https://resources.craftbet.la/products/amatic/MultiCardWin.jpg
+2022-10-14 10:29:55,989 [main] ERROR craftBet - 648   Game Provider Name = Amatic :   Game Name =  Multi-Card Win Triple :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Multi-CardWinTriple.jpg
+2022-10-14 10:30:09,339 [main] ERROR craftBet - 678   Game Provider Name = PragmaticPlay :   Game Name =  Panda Gold 50,000 :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:30:13,630 [main] ERROR craftBet - 687   Game Provider Name = Amatic :   Game Name =  Party Time :   cod = 404:   src = https://resources.craftbet.la/products/amatic/PartyTime.jpg
+2022-10-14 10:30:36,889 [main] ERROR craftBet - 736   Game Provider Name = PragmaticPlay :   Game Name =  Rainbow Gold :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:30:40,270 [main] ERROR craftBet - 743   Game Provider Name = Amatic :   Game Name =  Red Chilli :   cod = 404:   src = https://resources.craftbet.la/products/amatic/RedChilli.jpg
+2022-10-14 10:30:58,840 [main] ERROR craftBet - 781   Game Provider Name = Amatic :   Game Name =  Roulette :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Roulette.jpg
+2022-10-14 10:30:59,221 [main] ERROR craftBet - 782   Game Provider Name = Amatic :   Game Name =  Royal Unicorn :   cod = 404:   src = https://resources.craftbet.la/products/amatic/RoyalUnicorn.jpg
+2022-10-14 10:31:09,570 [main] ERROR craftBet - 803   Game Provider Name = Amatic :   Game Name =  Scarab Treasure :   cod = 404:   src = https://resources.craftbet.la/products/amatic/ScarabTreasure.jpg
+2022-10-14 10:31:31,731 [main] ERROR craftBet - 849   Game Provider Name = PragmaticPlay :   Game Name =  Spaceman :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:31:40,041 [main] ERROR craftBet - 867   Game Provider Name = Internal :   Game Name =  Sportsbook :   cod = 404:   src = https://resources.craftbet.la/products/iqsoft/sport.png
+2022-10-14 10:31:58,611 [main] ERROR craftBet - 908   Game Provider Name = PragmaticPlay :   Game Name =  Sweet Bonanza CandyLand :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:32:20,261 [main] ERROR craftBet - 953   Game Provider Name = PragmaticPlay :   Game Name =  Tic Tac Take :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:32:31,641 [main] ERROR craftBet - 977   Game Provider Name = Amatic :   Game Name =  Tweety Birds :   cod = 404:   src = https://resources.craftbet.la/products/amatic/TweetyBirds.jpg
+2022-10-14 10:32:32,021 [main] ERROR craftBet - 978   Game Provider Name = Amatic :   Game Name =  Twenty Seven :   cod = 404:   src = https://resources.craftbet.la/products/amatic/TwentySeven.jpg
+2022-10-14 10:32:34,402 [main] ERROR craftBet - 984   Game Provider Name = Amatic :   Game Name =  Ultra Seven :   cod = 404:   src = https://resources.craftbet.la/products/amatic/UltraSeven.jpg
+2022-10-14 10:32:37,761 [main] ERROR craftBet - 991   Game Provider Name = Amatic :   Game Name =  Vampires :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Vampires.jpg
+2022-10-14 10:32:46,022 [main] ERROR craftBet - 1010   Game Provider Name = Amatic :   Game Name =  Wild 7 :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Wild7.jpg
+2022-10-14 10:32:47,432 [main] ERROR craftBet - 1013   Game Provider Name = PragmaticPlay :   Game Name =  Wild Beach Party :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:32:48,722 [main] ERROR craftBet - 1016   Game Provider Name = Amatic :   Game Name =  Wild Dragon :   cod = 404:   src = https://resources.craftbet.la/products/amatic/WildDragon.jpg
+2022-10-14 10:32:51,462 [main] ERROR craftBet - 1022   Game Provider Name = Amatic :   Game Name =  Wild Respin :   cod = 404:   src = https://resources.craftbet.la/products/amatic/WildRespin.jpg
+2022-10-14 10:32:51,852 [main] ERROR craftBet - 1023   Game Provider Name = Amatic :   Game Name =  Wild Shark :   cod = 404:   src = https://resources.craftbet.la/products/amatic/WildShark.jpg
+2022-10-14 10:32:52,221 [main] ERROR craftBet - 1024   Game Provider Name = Amatic :   Game Name =  Wild Stars :   cod = 404:   src = https://resources.craftbet.la/products/amatic/WildStars.jpg
+2022-10-14 10:33:10,882 [main] ERROR craftBet - 1064   Game Provider Name = PragmaticPlay :   Game Name =  Wolf Gold 1 Million :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:33:11,272 [main] ERROR craftBet - 1065   Game Provider Name = PragmaticPlay :   Game Name =  Wolf Gold 1,000,000 :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:33:11,681 [main] ERROR craftBet - 1066   Game Provider Name = Amatic :   Game Name =  Wolf Moon :   cod = 404:   src = https://resources.craftbet.la/products/amatic/WolfMoon.jpg
+2022-10-14 10:33:18,462 [main] INFO craftBet - Broken images are:  85
+2022-10-14 10:33:20,186 [main] INFO craftBet - Browser closed
+2022-10-14 10:33:20,186 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-10-14 10:33:20,200 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-10-14 10:33:20,213 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.31.0 (resolved driver for Firefox 104)
+2022-10-14 10:33:20,234 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-10-14 10:33:25,369 [main] INFO craftBet - URL: https://craftbet.la  Browser: firefox
+2022-10-14 10:33:25,376 [main] INFO craftBet - All Page elements are initialized
+2022-10-14 10:33:27,817 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-10-14 10:33:30,064 [main] INFO craftBet - Get games Api call was sent
+2022-10-14 10:33:30,101 [main] INFO craftBet - Get games Api Response was captured
+2022-10-14 10:33:30,123 [main] INFO craftBet - All captured games images was added into ArrayList
+2022-10-14 10:33:51,366 [main] ERROR craftBet - 40   Game Provider Name = Amatic :   Game Name =  Admiral Nelson :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Admiral.jpg
+2022-10-14 10:33:58,203 [main] ERROR craftBet - 53   Game Provider Name = NetEnt :   Game Name =  Aloha :   cod = 404:   src = https://resources.craftbet.la/products/amatic/AllwaysWin.jpg
+2022-10-14 10:33:59,163 [main] ERROR craftBet - 55   Game Provider Name = PragmaticPlay :   Game Name =  American Blackjack :   cod = 404:   src = https://resources.craftbet.la/products/amatic/AllWaysFruits.jpg
+2022-10-14 10:33:59,542 [main] ERROR craftBet - 56   Game Provider Name = RedTiger :   Game Name =  ancientscript :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:34:03,513 [main] ERROR craftBet - 64   Game Provider Name = Amatic :   Game Name =  Arising Phoenix :   cod = 404:   src = https://resources.craftbet.la/products/amatic/ArisingPhoenix.jpg
+2022-10-14 10:34:06,174 [main] ERROR craftBet - 70   Game Provider Name = Amatic :   Game Name =  Aztec Secret :   cod = 404:   src = https://resources.craftbet.la/products/amatic/AztecSecret.jpg
+2022-10-14 10:34:11,183 [main] ERROR craftBet - 81   Game Provider Name = TomHorn :   Game Name =  Beastie Bux :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:34:14,753 [main] ERROR craftBet - 89   Game Provider Name = Amatic :   Game Name =  Bells on Fire :   cod = 404:   src = https://resources.craftbet.la/products/amatic/BellsonFire.jpg
+2022-10-14 10:34:20,793 [main] ERROR craftBet - 103   Game Provider Name = QuickSpin :   Game Name =  BigBadWolf :   cod = 404:   src = https://resources.craftbet.la/products/amatic/BigPanda.jpg
+2022-10-14 10:34:22,923 [main] ERROR craftBet - 108   Game Provider Name = Amatic :   Game Name =  Billyonaire :   cod = 404:   src = https://resources.craftbet.la/products/amatic/BillysGame.jpg
+2022-10-14 10:34:23,313 [main] ERROR craftBet - 109   Game Provider Name = Amatic :   Game Name =  Billyonaire :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Billyonaire.jpg
+2022-10-14 10:34:24,183 [main] ERROR craftBet - 111   Game Provider Name = TomHorn :   Game Name =  Blackbeard'sQuest :   cod = 404:   src = https://resources.craftbet.la/products/amatic/BlackJack.jpg
+2022-10-14 10:34:27,643 [main] ERROR craftBet - 118   Game Provider Name = Amatic :   Game Name =  Blue Dolphin :   cod = 404:   src = https://resources.craftbet.la/products/amatic/BlueDolphin.jpg
+2022-10-14 10:34:32,073 [main] ERROR craftBet - 127   Game Provider Name = Spinomenal :   Game Name =  Book Of Champions :   cod = 404:   src = https://resources.craftbet.la/products/amatic/BookofAztec.jpg
+2022-10-14 10:34:39,005 [main] ERROR craftBet - 140   Game Provider Name = Amatic :   Game Name =  Book of Fortune :   cod = 404:   src = https://resources.craftbet.la/products/amatic/BookofFortune.jpg
+2022-10-14 10:34:55,893 [main] ERROR craftBet - 174   Game Provider Name = Spinomenal :   Game Name =  BookOfRebirth :   cod = 404:   src = https://resources.craftbet.la/products/greentube/mobile/book-of-ra-deluxe.png
+2022-10-14 10:35:03,714 [main] ERROR craftBet - 189   Game Provider Name = PragmaticPlay :   Game Name =  Cash Bonanza :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Casinova.png
+2022-10-14 10:35:05,914 [main] ERROR craftBet - 194   Game Provider Name = Amatic :   Game Name =  Casinova :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Casinova.png
+2022-10-14 10:35:15,464 [main] ERROR craftBet - 214   Game Provider Name = NetEnt :   Game Name =  Colossal Pinatas :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:35:18,274 [main] ERROR craftBet - 220   Game Provider Name = Amatic :   Game Name =  Cool Diamonds II :   cod = 404:   src = https://resources.craftbet.la/products/amatic/CoolDiamondsII.jpg
+2022-10-14 10:35:33,774 [main] ERROR craftBet - 253   Game Provider Name = RedTiger :   Game Name =  devilsnumber :   cod = 404:   src = https://resources.craftbet.la/products/amatic/DeucesWild.jpg
+2022-10-14 10:35:34,634 [main] ERROR craftBet - 255   Game Provider Name = Amatic :   Game Name =  Diamond Cats :   cod = 404:   src = https://resources.craftbet.la/products/amatic/DiamondCats.jpg
+2022-10-14 10:35:36,154 [main] ERROR craftBet - 258   Game Provider Name = Amatic :   Game Name =  Diamond Monkey :   cod = 404:   src = https://resources.craftbet.la/products/amatic/DiamondMonkey.jpg
+2022-10-14 10:35:37,394 [main] ERROR craftBet - 261   Game Provider Name = NucleusGaming :   Game Name =  Diamond Strip :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:35:39,414 [main] ERROR craftBet - 265   Game Provider Name = Amatic :   Game Name =  Diamonds on Fire :   cod = 404:   src = https://resources.craftbet.la/products/amatic/DiamondsonFire.jpg
+2022-10-14 10:35:45,815 [main] ERROR craftBet - 279   Game Provider Name = TomHorn :   Game Name =  Dragon Egg :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:35:47,814 [main] ERROR craftBet - 283   Game Provider Name = TomHorn :   Game Name =  Dragon vs Phoenix :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:35:51,124 [main] ERROR craftBet - 290   Game Provider Name = Amatic :   Game Name =  Dragons Kingdom :   cod = 404:   src = https://resources.craftbet.la/products/amatic/DragonsKingdom.jpg
+2022-10-14 10:35:51,964 [main] ERROR craftBet - 292   Game Provider Name = Amatic :   Game Name =  Dragon's Pearl :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Dragonspearl.jpg
+2022-10-14 10:36:09,786 [main] ERROR craftBet - 329   Game Provider Name = Amatic :   Game Name =  Eye of Ra :   cod = 404:   src = https://resources.craftbet.la/products/amatic/EyeofRa.jpg
+2022-10-14 10:36:12,984 [main] ERROR craftBet - 336   Game Provider Name = TomHorn :   Game Name =  Fire 'n' Hot :   cod = 404:   src = https://resources.craftbet.la/products/amatic/FireAndIce.jpg
+2022-10-14 10:36:22,435 [main] ERROR craftBet - 355   Game Provider Name = Amatic :   Game Name =  Fortuna's Fruits :   cod = 404:   src = https://resources.craftbet.la/products/amatic/FortunasFruits.jpg
+2022-10-14 10:36:29,805 [main] ERROR craftBet - 369   Game Provider Name = NucleusGaming :   Game Name =  Fruit Serenity :   cod = 404:   src = https://resources.craftbet.la/products/amatic/FruitPoker.jpg
+2022-10-14 10:36:58,646 [main] ERROR craftBet - 420   Game Provider Name = TomHorn :   Game Name =  Gold x :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:37:00,045 [main] ERROR craftBet - 423   Game Provider Name = QuickSpin :   Game Name =  Golden Glyph 2 :   cod = 404:   src = https://resources.craftbet.la/products/amatic/GoldenBook.jpg
+2022-10-14 10:37:11,660 [main] ERROR craftBet - 442   Game Provider Name = RedTiger :   Game Name =  grandwheel :   cod = 404:   src = https://resources.craftbet.la/products/amatic/GrandTiger.jpg
+2022-10-14 10:37:12,845 [main] ERROR craftBet - 444   Game Provider Name = PragmaticPlay :   Game Name =  Great Rhino :   cod = 404:   src = https://resources.craftbet.la/products/amatic/GrandX.jpg
+2022-10-14 10:37:24,556 [main] ERROR craftBet - 464   Game Provider Name = Amatic :   Game Name =  Hot 81 :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Hot7.jpg
+2022-10-14 10:37:24,935 [main] ERROR craftBet - 465   Game Provider Name = TomHorn :   Game Name =  Hot Blizzard :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Hot81.jpg
+2022-10-14 10:37:25,856 [main] ERROR craftBet - 467   Game Provider Name = Amatic :   Game Name =  Hot Diamonds :   cod = 404:   src = https://resources.craftbet.la/products/amatic/HotDiamonds.jpg
+2022-10-14 10:37:27,125 [main] ERROR craftBet - 469   Game Provider Name = PragmaticPlay :   Game Name =  Hot Safari 50,000 :   cod = 404:   src = https://resources.craftbet.la/products/amatic/HotNeon.jpg
+2022-10-14 10:37:27,966 [main] ERROR craftBet - 471   Game Provider Name = Amatic :   Game Name =  Hot Scatter :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:37:28,336 [main] ERROR craftBet - 472   Game Provider Name = Amatic :   Game Name =  Hot Seven :   cod = 404:   src = https://resources.craftbet.la/products/amatic/HotScatter.jpg
+2022-10-14 10:37:29,165 [main] ERROR craftBet - 474   Game Provider Name = PragmaticPlay :   Game Name =  Hot to burn :   cod = 404:   src = https://resources.craftbet.la/products/amatic/HotStar.jpg
+2022-10-14 10:37:29,976 [main] ERROR craftBet - 476   Game Provider Name = Amatic :   Game Name =  Hot Twenty :   cod = 404:   src = https://resources.craftbet.la/products/amatic/HotTwenty.jpg
+2022-10-14 10:37:51,398 [main] ERROR craftBet - 508   Game Provider Name = RedTiger :   Game Name =  jackpotquest :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:37:52,686 [main] ERROR craftBet - 510   Game Provider Name = PragmaticPlay :   Game Name =  Jacks or Better :   cod = 404:   src = https://resources.craftbet.la/products/amatic/JacksorBetter.jpg
+2022-10-14 10:37:53,286 [main] ERROR craftBet - 511   Game Provider Name = PragmaticPlay :   Game Name =  Jade Butterfly :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:38:00,868 [main] ERROR craftBet - 525   Game Provider Name = NucleusGaming :   Game Name =  Joker Gemferno :   cod = 404:   src = https://resources.craftbet.la/products/amatic/JokerCardPoker.jpg
+2022-10-14 10:38:17,686 [main] ERROR craftBet - 553   Game Provider Name = TomHorn :   Game Name =  La Tomatina :   cod = 404:   src = https://resources.craftbet.la/products/amatic/LaGranAventura.jpg
+2022-10-14 10:38:18,587 [main] ERROR craftBet - 555   Game Provider Name = Amatic :   Game Name =  Lady Joker :   cod = 404:   src = https://resources.craftbet.la/products/amatic/LadyJoker.jpg
+2022-10-14 10:38:32,377 [main] ERROR craftBet - 578   Game Provider Name = Amatic :   Game Name =  Lovely Lady :   cod = 404:   src = https://resources.craftbet.la/products/amatic/LovelyLady.jpg
+2022-10-14 10:38:33,640 [main] ERROR craftBet - 581   Game Provider Name = NucleusGaming :   Game Name =  Lucky Clovers :   cod = 404:   src = https://resources.craftbet.la/products/amatic/LuckyBells.jpg
+2022-10-14 10:38:35,317 [main] ERROR craftBet - 584   Game Provider Name = Amatic :   Game Name =  Lucky Coin :   cod = 404:   src = https://resources.craftbet.la/products/amatic/LuckyCoin.jpg
+2022-10-14 10:38:39,850 [main] ERROR craftBet - 591   Game Provider Name = RedTiger :   Game Name =  luckyeaster :   cod = 404:   src = https://resources.craftbet.la/products/amatic/LuckyZodiac.jpg
+2022-10-14 10:38:44,167 [main] ERROR craftBet - 599   Game Provider Name = Amatic :   Game Name =  Magic Idol :   cod = 404:   src = https://resources.craftbet.la/products/amatic/MagicForest.jpg
+2022-10-14 10:38:44,597 [main] ERROR craftBet - 600   Game Provider Name = Amatic :   Game Name =  Magic Idol :   cod = 404:   src = https://resources.craftbet.la/products/amatic/MagicIdol.jpg
+2022-10-14 10:38:45,488 [main] ERROR craftBet - 602   Game Provider Name = NetEnt :   Game Name =  Magic Portals :   cod = 404:   src = https://resources.craftbet.la/products/amatic/MagicOwl.jpg
+2022-10-14 10:38:58,487 [main] ERROR craftBet - 622   Game Provider Name = Amatic :   Game Name =  Mermaid's Gold :   cod = 404:   src = https://resources.craftbet.la/products/amatic/MermaidsGold.jpg
+2022-10-14 10:38:59,977 [main] ERROR craftBet - 625   Game Provider Name = Spinomenal :   Game Name =  Mexican Chilies :   cod = 404:   src = https://resources.craftbet.la/products/amatic/MerryFruits.jpg
+2022-10-14 10:39:11,393 [main] ERROR craftBet - 644   Game Provider Name = Amatic :   Game Name =  Multi-Card Win Triple :   cod = 404:   src = https://resources.craftbet.la/products/amatic/MultiCardWin.jpg
+2022-10-14 10:39:12,027 [main] ERROR craftBet - 645   Game Provider Name = NetEnt :   Game Name =  Multiplier Mayhem :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Multi-CardWinTriple.jpg
+2022-10-14 10:39:28,468 [main] ERROR craftBet - 675   Game Provider Name = Mr.Slotty :   Game Name =  PandaMEME :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:39:33,608 [main] ERROR craftBet - 684   Game Provider Name = RedTiger :   Game Name =  pathofdestiny :   cod = 404:   src = https://resources.craftbet.la/products/amatic/PartyTime.jpg
+2022-10-14 10:40:03,580 [main] ERROR craftBet - 733   Game Provider Name = RedTiger :   Game Name =  rainbowjackpots :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:40:07,488 [main] ERROR craftBet - 740   Game Provider Name = Spinomenal :   Game Name =  Red Hot Fruits :   cod = 404:   src = https://resources.craftbet.la/products/amatic/RedChilli.jpg
+2022-10-14 10:40:28,659 [main] ERROR craftBet - 778   Game Provider Name = Amatic :   Game Name =  Royal Unicorn :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Roulette.jpg
+2022-10-14 10:40:29,069 [main] ERROR craftBet - 779   Game Provider Name = Amatic :   Game Name =  Royal Unicorn :   cod = 404:   src = https://resources.craftbet.la/products/amatic/RoyalUnicorn.jpg
+2022-10-14 10:40:43,928 [main] ERROR craftBet - 800   Game Provider Name = Spinomenal :   Game Name =  Scratchy Bit :   cod = 404:   src = https://resources.craftbet.la/products/amatic/ScarabTreasure.jpg
+2022-10-14 10:41:08,629 [main] ERROR craftBet - 845   Game Provider Name = NetEnt :   Game Name =  SpaceWars :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:41:19,709 [main] ERROR craftBet - 863   Game Provider Name = Greentube :   Game Name =  SpringQueen :   cod = 404:   src = https://resources.craftbet.la/products/iqsoft/sport.png
+2022-10-14 10:41:42,260 [main] ERROR craftBet - 904   Game Provider Name = PragmaticPlay :   Game Name =  Sweet Bonanza Xmas :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:42:04,850 [main] ERROR craftBet - 949   Game Provider Name = QuickSpin :   Game Name =  TickettotheStars :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:42:18,171 [main] ERROR craftBet - 973   Game Provider Name = Amatic :   Game Name =  Twenty Seven :   cod = 404:   src = https://resources.craftbet.la/products/amatic/TweetyBirds.jpg
+2022-10-14 10:42:18,539 [main] ERROR craftBet - 974   Game Provider Name = Spinomenal :   Game Name =  Twin Diamonds :   cod = 404:   src = https://resources.craftbet.la/products/amatic/TwentySeven.jpg
+2022-10-14 10:42:21,493 [main] ERROR craftBet - 980   Game Provider Name = Mr.Slotty :   Game Name =  UnicornGems :   cod = 404:   src = https://resources.craftbet.la/products/amatic/UltraSeven.jpg
+2022-10-14 10:42:24,870 [main] ERROR craftBet - 987   Game Provider Name = QuickSpin :   Game Name =  VampireSenpai :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Vampires.jpg
+2022-10-14 10:42:34,031 [main] ERROR craftBet - 1006   Game Provider Name = NucleusGaming :   Game Name =  Wild Adventures :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Wild7.jpg
+2022-10-14 10:42:35,663 [main] ERROR craftBet - 1009   Game Provider Name = NucleusGaming :   Game Name =  Wild Cherry Blast :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:42:37,550 [main] ERROR craftBet - 1012   Game Provider Name = QuickSpin :   Game Name =  Wild Harlequin :   cod = 404:   src = https://resources.craftbet.la/products/amatic/WildDragon.jpg
+2022-10-14 10:42:40,575 [main] ERROR craftBet - 1018   Game Provider Name = Amatic :   Game Name =  Wild Shark :   cod = 404:   src = https://resources.craftbet.la/products/amatic/WildRespin.jpg
+2022-10-14 10:42:41,071 [main] ERROR craftBet - 1019   Game Provider Name = Amatic :   Game Name =  Wild Stars :   cod = 404:   src = https://resources.craftbet.la/products/amatic/WildShark.jpg
+2022-10-14 10:42:41,471 [main] ERROR craftBet - 1020   Game Provider Name = Amatic :   Game Name =  Wild Stars :   cod = 404:   src = https://resources.craftbet.la/products/amatic/WildStars.jpg
+2022-10-14 10:43:01,991 [main] ERROR craftBet - 1060   Game Provider Name = PragmaticPlay :   Game Name =  Wolf Gold 1,000,000 :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:43:02,391 [main] ERROR craftBet - 1061   Game Provider Name = Amatic :   Game Name =  Wolf Moon :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-14 10:43:02,780 [main] ERROR craftBet - 1062   Game Provider Name = Amatic :   Game Name =  Wolf Moon :   cod = 404:   src = https://resources.craftbet.la/products/amatic/WolfMoon.jpg
+2022-10-14 10:43:11,311 [main] INFO craftBet - Broken images are:  86
+2022-10-14 10:43:13,075 [main] INFO craftBet - Browser closed
+2022-10-14 10:43:13,075 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-10-14 10:43:13,088 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-10-14 10:43:13,110 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.31.0 (resolved driver for Firefox 104)
+2022-10-14 10:43:13,132 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-10-14 10:43:18,244 [main] INFO craftBet - URL: https://craftbet.la  Browser: firefox
+2022-10-14 10:43:18,252 [main] INFO craftBet - All Page elements are initialized
+2022-10-14 10:43:20,791 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-10-14 10:43:24,192 [main] INFO craftBet - username passed
+2022-10-14 10:43:24,229 [main] INFO craftBet - password passed
+2022-10-14 10:43:24,495 [main] INFO craftBet - Log In Button was clicked
+2022-10-14 10:45:20,007 [main] INFO craftBet - Token was captured 2519ccc55b544c5b9382b715aefabea4
+2022-10-14 10:45:21,265 [main] INFO craftBet - Get All games API call 
+2022-10-14 10:45:21,305 [main] INFO craftBet - From Get All games API call body captured 
+2022-10-14 10:45:21,316 [main] INFO craftBet - From Get All games API productIDes and Names was captured 
+2022-10-14 10:45:33,044 [main] INFO craftBet - 1 14 ID=6101 Provider=TomHorn Name=243CrystalFruits cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:45:33,643 [main] INFO craftBet - 2 15 ID=6086 Provider=TomHorn Name=243CrystalFruits cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:45:50,385 [main] INFO craftBet - 3 37 ID=23226 Provider=NucleusGaming Name=A Time to Win cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:45:52,473 [main] INFO craftBet - 4 40 ID=2657 Provider=Amatic Name=Admiral Nelson cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:45:53,033 [main] INFO craftBet - 5 41 ID=23225 Provider=Spinomenal Name=African Drum cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:46:02,094 [main] INFO craftBet - 6 52 ID=23235 Provider=Amatic Name=Allways Win cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:46:02,684 [main] INFO craftBet - 7 53 ID=2600 Provider=NetEnt Name=Aloha cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:46:03,855 [main] INFO craftBet - 8 55 ID=2656 Provider=PragmaticPlay Name=American Blackjack cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:46:09,995 [main] INFO craftBet - 9 64 ID=2625 Provider=Amatic Name=Arising Phoenix cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:46:10,624 [main] INFO craftBet - 10 65 ID=23245 Provider=QuickSpin Name=ArkofMystery cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:46:14,205 [main] INFO craftBet - 11 70 ID=2597 Provider=Amatic Name=Aztec Secret cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:46:14,774 [main] INFO craftBet - 12 71 ID=23246 Provider=Spinomenal Name=Aztec Spell - Forgotten Empire cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:46:28,954 [main] INFO craftBet - 13 89 ID=2655 Provider=Amatic Name=Bells on Fire cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:46:29,596 [main] INFO craftBet - 14 90 ID=23232 Provider=Amatic Name=Bells on Fire HOT cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:46:30,185 [main] INFO craftBet - 15 91 ID=23247 Provider=Amatic Name=Bells on Fire ROMBO cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:46:31,458 [main] INFO craftBet - 16 92 ID=23248 Provider=NetEnt Name=Berry Burst cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:46:37,985 [main] INFO craftBet - 17 103 ID=2608 Provider=QuickSpin Name=BigBadWolf cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:46:41,215 [main] INFO craftBet - 18 108 ID=2602 Provider=Amatic Name=Billyonaire cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:46:41,794 [main] INFO craftBet - 19 109 ID=2654 Provider=Amatic Name=Billyonaire cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:46:42,464 [main] INFO craftBet - 20 110 ID=23249 Provider=Amatic Name=Billy's Game cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:46:43,634 [main] INFO craftBet - 21 112 ID=2610 Provider=TomHorn Name=Black Mummy cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:46:44,214 [main] INFO craftBet - 22 113 ID=6013 Provider=TomHorn Name=Blackbeard'sQuest cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:46:44,866 [main] INFO craftBet - 23 114 ID=6010 Provider=TomHorn Name=Blackbeard'sQuest cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:46:46,044 [main] INFO craftBet - 24 116 ID=6096 Provider=NetEnt Name=blacklagoon cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:46:49,444 [main] INFO craftBet - 25 122 ID=2653 Provider=Amatic Name=Blue Dolphin cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:46:50,014 [main] INFO craftBet - 26 123 ID=23231 Provider=QuickSpin Name=Blue Fortune cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:46:56,056 [main] INFO craftBet - 27 131 ID=2652 Provider=Spinomenal Name=Book Of Champions cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:47:06,974 [main] INFO craftBet - 28 144 ID=2651 Provider=Amatic Name=Book of Fortune cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:47:07,555 [main] INFO craftBet - 29 145 ID=23227 Provider=Spinomenal Name=Book Of Golden Joker cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:47:24,176 [main] INFO craftBet - 30 164 ID=6009 Provider=Spinomenal Name=Book Of The Divine cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:47:46,466 [main] INFO craftBet - 31 193 ID=2650 Provider=PragmaticPlay Name=Cash Bonanza cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:47:50,095 [main] INFO craftBet - 32 198 ID=2595 Provider=Amatic Name=Casinova cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:47:50,885 [main] INFO craftBet - 33 199 ID=23250 Provider=NucleusGaming Name=Catch and Release cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:48:11,475 [main] INFO craftBet - 34 224 ID=2649 Provider=Amatic Name=Cool Diamonds II cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:48:12,036 [main] INFO craftBet - 35 225 ID=23251 Provider=NetEnt Name=Copy Cats cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:48:37,886 [main] INFO craftBet - 36 257 ID=2648 Provider=RedTiger Name=devilsnumber cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:48:39,096 [main] INFO craftBet - 37 259 ID=2624 Provider=Amatic Name=Diamond Cats cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:48:39,666 [main] INFO craftBet - 38 260 ID=23252 Provider=TomHorn Name=Diamond Hill cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:48:40,367 [main] INFO craftBet - 39 261 ID=6104 Provider=Amatic Name=Diamond Monkey cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:48:41,026 [main] INFO craftBet - 40 262 ID=2599 Provider=Amatic Name=Diamond Monkey cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:48:41,717 [main] INFO craftBet - 41 263 ID=23253 Provider=PragmaticPlay Name=Diamond Strike 100,000 cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:48:45,837 [main] INFO craftBet - 42 269 ID=2613 Provider=Amatic Name=Diamonds on Fire cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:48:46,496 [main] INFO craftBet - 43 270 ID=23254 Provider=PlaynGo Name=DiamondsRealm cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:48:52,247 [main] INFO craftBet - 44 278 ID=6007 Provider=TomHorn Name=DonJuan'sPeppers cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:48:56,409 [main] INFO craftBet - 45 284 ID=6020 Provider=TomHorn Name=Dragon Riches cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:48:57,037 [main] INFO craftBet - 46 285 ID=6097 Provider=TomHorn Name=Dragon Riches Prog. cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:48:57,616 [main] INFO craftBet - 47 286 ID=6088 Provider=PragmaticPlay Name=Dragon Tiger cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:49:03,388 [main] INFO craftBet - 48 294 ID=2606 Provider=Amatic Name=Dragons Kingdom cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:49:04,026 [main] INFO craftBet - 49 295 ID=23255 Provider=Amatic Name=Dragons pearl cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:49:04,608 [main] INFO craftBet - 50 296 ID=2647 Provider=Amatic Name=Dragon's Pearl cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:49:05,267 [main] INFO craftBet - 51 297 ID=23236 Provider=QuickSpin Name=DragonShrine cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:49:34,317 [main] INFO craftBet - 52 333 ID=2646 Provider=Amatic Name=Eye of Ra cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:49:34,897 [main] INFO craftBet - 53 334 ID=23234 Provider=NetEnt Name=Fairy Red cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:49:37,357 [main] INFO craftBet - 54 337 ID=6019 Provider=TomHorn Name=FengFu cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:49:38,618 [main] INFO craftBet - 55 339 ID=23256 Provider=Amatic Name=Fire AndIce cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:49:39,327 [main] INFO craftBet - 56 340 ID=2601 Provider=TomHorn Name=Fire 'n' Hot cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:49:39,918 [main] INFO craftBet - 57 341 ID=6003 Provider=PragmaticPlay Name=Fire Strike 2 cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:49:45,168 [main] INFO craftBet - 58 348 ID=6015 Provider=RedTiger Name=flamingfox cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:49:53,317 [main] INFO craftBet - 59 359 ID=2623 Provider=Amatic Name=Fortuna's Fruits cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:49:54,008 [main] INFO craftBet - 60 360 ID=23237 Provider=RedTiger Name=fortunecharm cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:50:00,237 [main] INFO craftBet - 61 369 ID=6089 Provider=TomHorn Name=FrozenQueen cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:50:03,309 [main] INFO craftBet - 62 373 ID=2611 Provider=NucleusGaming Name=Fruit Serenity cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:50:25,987 [main] INFO craftBet - 63 401 ID=6005 Provider=TomHorn Name=Geisha'sFan cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:50:43,959 [main] INFO craftBet - 64 425 ID=6099 Provider=TomHorn Name=Gold X cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:50:45,129 [main] INFO craftBet - 65 427 ID=2612 Provider=QuickSpin Name=Golden Glyph 2 cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:50:59,879 [main] INFO craftBet - 66 446 ID=2594 Provider=RedTiger Name=grandwheel cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:51:01,431 [main] INFO craftBet - 67 448 ID=2622 Provider=Amatic Name=GrandX cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:51:17,300 [main] INFO craftBet - 68 469 ID=2645 Provider=Amatic Name=Hot 81 cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:51:17,930 [main] INFO craftBet - 69 470 ID=2621 Provider=TomHorn Name=Hot Blizzard cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:51:18,530 [main] INFO craftBet - 70 471 ID=6106 Provider=Amatic Name=Hot Diamonds cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:51:19,120 [main] INFO craftBet - 71 472 ID=2644 Provider=Amatic Name=Hot Diamonds cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:51:19,719 [main] INFO craftBet - 72 473 ID=23243 Provider=Amatic Name=Hot Neon cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:51:20,608 [main] INFO craftBet - 73 474 ID=2643 Provider=PragmaticPlay Name=Hot Safari 50,000 cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:51:22,549 [main] INFO craftBet - 74 477 ID=2642 Provider=Amatic Name=Hot Seven cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:51:23,138 [main] INFO craftBet - 75 478 ID=23233 Provider=Amatic Name=Hot Star cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:51:23,721 [main] INFO craftBet - 76 479 ID=2641 Provider=PragmaticPlay Name=Hot to burn cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:51:24,888 [main] INFO craftBet - 77 481 ID=2640 Provider=Amatic Name=Hot Twenty cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:51:25,618 [main] INFO craftBet - 78 482 ID=23242 Provider=TomHorn Name=Hot&Fruity cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:51:31,619 [main] INFO craftBet - 79 490 ID=6105 Provider=QuickSpin Name=HotSync cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:51:40,409 [main] INFO craftBet - 80 501 ID=6107 Provider=TomHorn Name=Inca'sTreasure cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:51:51,680 [main] INFO craftBet - 81 515 ID=2639 Provider=PragmaticPlay Name=Jade Butterfly cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:52:00,310 [main] INFO craftBet - 82 529 ID=2638 Provider=NucleusGaming Name=Joker Gemferno cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:52:03,239 [main] INFO craftBet - 83 533 ID=6102 Provider=TomHorn Name=Joker Reelz cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:52:21,770 [main] INFO craftBet - 84 557 ID=2598 Provider=TomHorn Name=La Tomatina cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:52:23,069 [main] INFO craftBet - 85 559 ID=2607 Provider=Amatic Name=Lady Joker cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:52:23,629 [main] INFO craftBet - 86 560 ID=23238 Provider=RedTiger Name=laserfruit cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:52:41,900 [main] INFO craftBet - 87 582 ID=2620 Provider=Amatic Name=Lovely Lady cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:52:42,530 [main] INFO craftBet - 88 583 ID=23229 Provider=NetEnt Name=Lucky Angler cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:52:43,971 [main] INFO craftBet - 89 585 ID=2619 Provider=NucleusGaming Name=Lucky Clovers cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:52:46,201 [main] INFO craftBet - 90 588 ID=2637 Provider=Amatic Name=Lucky Coin cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:52:46,850 [main] INFO craftBet - 91 589 ID=23228 Provider=Spinomenal Name=Lucky Jack - Book Of Rebirth cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:52:59,600 [main] INFO craftBet - 92 595 ID=3106 Provider=RedTiger Name=luckyeaster cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:53:06,141 [main] INFO craftBet - 93 603 ID=2593 Provider=Amatic Name=Magic Idol cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:53:06,821 [main] INFO craftBet - 94 604 ID=2636 Provider=Amatic Name=Magic Idol cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:53:07,391 [main] INFO craftBet - 95 605 ID=23230 Provider=Amatic Name=Magic Owl cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:53:07,971 [main] INFO craftBet - 96 606 ID=2617 Provider=NetEnt Name=Magic Portals cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:53:27,310 [main] INFO craftBet - 97 626 ID=2616 Provider=Amatic Name=Mermaid's Gold cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:53:28,620 [main] INFO craftBet - 98 627 ID=23241 Provider=NucleusGaming Name=Mermaid's Treasure cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:53:29,831 [main] INFO craftBet - 99 629 ID=2635 Provider=Spinomenal Name=Mexican Chilies cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:53:37,430 [main] INFO craftBet - 100 638 ID=6008 Provider=TomHorn Name=Monkey27 cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:53:38,610 [main] INFO craftBet - 101 640 ID=6090 Provider=Mr.Slotty Name=MonsterBirds cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:53:44,701 [main] INFO craftBet - 102 648 ID=2634 Provider=Amatic Name=Multi-Card Win Triple cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:53:45,392 [main] INFO craftBet - 103 649 ID=2633 Provider=NetEnt Name=Multiplier Mayhem cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:54:13,591 [main] INFO craftBet - 104 681 ID=6001 Provider=TomHorn Name=Panda'sRun cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:54:18,352 [main] INFO craftBet - 105 688 ID=2632 Provider=RedTiger Name=pathofdestiny cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:55:03,922 [main] INFO craftBet - 106 744 ID=2605 Provider=Spinomenal Name=Red Hot Fruits cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:55:05,502 [main] INFO craftBet - 107 746 ID=6091 Provider=Spinomenal Name=Red Square Games cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:55:34,123 [main] INFO craftBet - 108 782 ID=2609 Provider=Amatic Name=Royal Unicorn cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:55:34,722 [main] INFO craftBet - 109 783 ID=2615 Provider=Amatic Name=Royal Unicorn cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:55:35,262 [main] INFO craftBet - 110 784 ID=23240 Provider=Mr.Slotty Name=Royal7Fruits cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:55:48,512 [main] INFO craftBet - 111 801 ID=6018 Provider=TomHorn Name=SavannahKing cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:55:50,994 [main] INFO craftBet - 112 804 ID=2614 Provider=TomHorn Name=Scratch Card cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:55:51,742 [main] INFO craftBet - 113 805 ID=6095 Provider=Spinomenal Name=Scratchy Bit cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:56:00,082 [main] INFO craftBet - 114 817 ID=6004 Provider=TomHorn Name=Shaolin'sTiger cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:56:04,183 [main] INFO craftBet - 115 822 ID=6093 Provider=TomHorn Name=SherlockAScandalinBohemia cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:56:09,944 [main] INFO craftBet - 116 829 ID=6012 Provider=TomHorn Name=SizableWin cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:56:13,754 [main] INFO craftBet - 117 834 ID=6017 Provider=TomHorn Name=SkyBarons cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:56:32,533 [main] INFO craftBet - 118 856 ID=6109 Provider=TomHorn Name=Spinball cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:57:19,584 [main] INFO craftBet - 119 911 ID=6098 Provider=TomHorn Name=Sweet Crush cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:57:32,045 [main] INFO craftBet - 120 928 ID=6016 Provider=PragmaticPlay Name=The Dog House cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:57:39,755 [main] INFO craftBet - 121 941 ID=6103 Provider=PragmaticPlay Name=The Ultimate 5 cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:57:46,715 [main] INFO craftBet - 122 952 ID=6006 Provider=TomHorn Name=ThronesOfPersia cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:58:06,445 [main] INFO craftBet - 123 978 ID=2604 Provider=Amatic Name=Twenty Seven cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:58:07,165 [main] INFO craftBet - 124 979 ID=2631 Provider=Spinomenal Name=Twin Diamonds cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:58:11,404 [main] INFO craftBet - 125 985 ID=2592 Provider=Mr.Slotty Name=UnicornGems cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:58:17,944 [main] INFO craftBet - 126 992 ID=2603 Provider=QuickSpin Name=VampireSenpai cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:58:31,885 [main] INFO craftBet - 127 1011 ID=2630 Provider=NucleusGaming Name=Wild Adventures cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:58:35,835 [main] INFO craftBet - 128 1017 ID=2596 Provider=QuickSpin Name=Wild Harlequin cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:58:40,564 [main] INFO craftBet - 129 1023 ID=2629 Provider=Amatic Name=Wild Shark cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:58:41,216 [main] INFO craftBet - 130 1024 ID=2628 Provider=Amatic Name=Wild Stars cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:58:41,815 [main] INFO craftBet - 131 1025 ID=2627 Provider=Amatic Name=Wild Stars cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:58:42,425 [main] INFO craftBet - 132 1026 ID=23244 Provider=NetEnt Name=Wild Water cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:58:43,736 [main] INFO craftBet - 133 1028 ID=6094 Provider=PragmaticPlay Name=Wild West Gold cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:59:13,376 [main] INFO craftBet - 134 1067 ID=2626 Provider=Amatic Name=Wolf Moon cod=21 description=String reference not set to an instance of a String.
+Parameter name: s ResponseObject=null
+2022-10-14 10:59:14,137 [main] INFO craftBet - 135 1068 ID=23239 Provider=TomHorn Name=Wolf Sierra cod=21 description=The system cannot find the file specified.
+ ResponseObject=null
+2022-10-14 10:59:14,756 [main] INFO craftBet - 136 1069 ID=6100 Provider=NetEnt Name=Wolfs Night cod=60 description=Partner key not found ResponseObject=null
+2022-10-14 10:59:26,937 [main] INFO craftBet - From Get URL API broken games are captured
+2022-10-14 10:59:26,937 [main] INFO craftBet - Broken url-es are:  136
+2022-10-14 10:59:28,902 [main] INFO craftBet - Browser closed
+2022-10-14 10:59:28,902 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-10-14 10:59:28,919 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  

@@ -87,6 +87,7 @@ public class BaseTest extends DriverFactory {
         PropertyConfigurator.configure("Log4j.properties");
 
         switch (partnerConfigNum) {
+
             case 1: {
                 partnerID = 1;
                 getGamesAPIUrl = "https://websitewebapi.craftbet.com/1/api/Main/GetGames";
