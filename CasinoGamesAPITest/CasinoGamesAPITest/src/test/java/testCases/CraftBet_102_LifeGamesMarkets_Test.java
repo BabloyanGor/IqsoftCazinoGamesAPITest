@@ -141,7 +141,7 @@ public class CraftBet_102_LifeGamesMarkets_Test extends BaseTest {
             }
         } else {
             logger.error("Please provide CraftBet id  as test Partner ");
-            Assert.fail();
+            Assert.assertTrue(false);
         }
     }
 }

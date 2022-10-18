@@ -131,7 +131,7 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
         if (getUrlCheckGamesUrl(getGamesAPIUrl, getGamesOrigin, getURLAPIUrl, token, getUserID, partnerID, getGamesPartnerName)) {
             Assert.assertTrue(true);
         } else {
-            Assert.fail();
+            Assert.assertTrue(false);
         }
     }
 

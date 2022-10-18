@@ -373,7 +373,7 @@ public class CraftBet_101_LifeGamesTimeOut_Test extends BaseTest{
             if (getLimitOutGamesApiCheck(getAllLifeGames, getGamesPartnerName)) {
                 Assert.assertTrue(true);
             } else {
-                Assert.fail();
+                Assert.assertTrue(false);
             }
         }
         else{

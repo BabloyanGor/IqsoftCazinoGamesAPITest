@@ -119,7 +119,7 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
             Assert.assertTrue(true);
         }
         else {
-            Assert.fail();
+            Assert.assertTrue(false);
         }
     }
 }
