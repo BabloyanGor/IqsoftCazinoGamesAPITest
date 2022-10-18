@@ -111,7 +111,7 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
         logger.info("Empty Markets count is:  " + errorEmptyMarkets.size());
 
         if (errorEmptyMarkets.size() > 0) {
-            writeInExel(errorEmptyMarkets, "/src/test/java/Craftbet_003_EmptyMarketList/" + readConfig.partnerConfigNum() + getGamesPartnerName + sport + "EmptyMarketsList.xlsx", "EmptyMarkets");
+            writeInExel(errorEmptyMarkets, "/src/test/java/Craftbet_003_EmptyMarketList/" + readConfig.partnerConfigNum() + getGamesPartnerName + sport + "_" + errorEmptyMarkets.size() + "_" + "EmptyMarketsList.xlsx", "EmptyMarkets");
             isPassed = false;
         } else {
             isPassed = true;
@@ -245,7 +245,7 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
         logger.info("Error Markets count is:  " + errorSrcXl.size());
 
         if (errorSrcXl.size() > 0) {
-            writeInExel(errorSrcXl, "/src/test/java/CraftBet_003_BrokenMarkets/" + readConfig.partnerConfigNum() + getGamesPartnerName + sport + "DataErrorMarketsList.xlsx", "ErrorMarkets");
+            writeInExel(errorSrcXl, "/src/test/java/CraftBet_003_BrokenMarkets/" + readConfig.partnerConfigNum() + getGamesPartnerName + sport + "_" + errorSrcXl.size() + "_" + "DataErrorMarketsList.xlsx", "ErrorMarkets");
             isPassed = false;
         } else {
             isPassed = true;
@@ -254,39 +254,50 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
     }
 
 
-
-
-
     @DataProvider(name = "sports")
     Object[][] loginDataInvalid() {
 
         String[][] arr = {
-                {"Handball"},
                 {"Basketball"},
                 {"Tennis"},
+                {"Formula 1"},
                 {"Ice Hockey"},
+                {"Table Tennis"},
                 {"Rugby League"},
                 {"Rugby Union"},
                 {"Volleyball"},
+                {"Golf"},
                 {"American Football"},
-                {"Table Tennis"},
                 {"Futsal"},
                 {"Aussie Rules"},
                 {"Cricket"},
-                {"E-sports"},
+                {"Cybersport"},
+                {"Handball"},
+                {"Badminton"},
+                {"Kabaddi"},
                 {"Baseball"},
-                {"Biathlon"},
-                {"Water Polo"},
                 {"Boxing"},
                 {"MMA"},
-                {"Gaelic Football"},
-                {"Lacrosse"},
                 {"Darts"},
-                {"Beach Soccer"},
-                {"Squash"},
+                {"Lottery"},
+                {"Netball"},
+                {"Politics"},
+                {"E-Football"},
+                {"E-Basketball"},
+                {"Snooker"},
+                {"Specials"},
                 {"Floorball"},
                 {"Chess"},
-                {"Soccer"}
+
+                {"E-sports"},
+                {"Biathlon"},
+                {"Water Polo"},
+                {"Gaelic Football"},
+                {"Lacrosse"},
+                {"Beach Soccer"},
+                {"Squash"},
+
+                {"Soccer"}  //
         };
 
 //        String[][] arr = { {"Basketball"}};
@@ -433,7 +444,7 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
             isPassed = true;
         } else {
 
-//            writeInExel(errorSrcXl, "src/test/java/CraftBet_003_BrokenMarkets/" + readConfig.partnerConfigNum() + partnerName + "DataErrorMarketsList.xlsx", "ErrorMarkets");
+            writeInExel(errorSrcXl, "/src/test/java/CraftBet_003_BrokenMarkets/" + readConfig.partnerConfigNum() + partnerName + "DataErrorMarketsList.xlsx", "ErrorMarkets");
             isPassed = false;
         }
         return isPassed;
