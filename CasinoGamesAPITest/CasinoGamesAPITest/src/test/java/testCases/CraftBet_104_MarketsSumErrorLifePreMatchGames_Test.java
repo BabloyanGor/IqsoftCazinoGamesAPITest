@@ -3,6 +3,7 @@ package testCases;
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
+import org.apache.log4j.Priority;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -20,7 +21,7 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
     String getPreMatchTreeOrigin = "https://sportsbookwebsite.craftbet.com";
 
 
-    @Test(dataProvider = "sports")
+    @Test(priority = 1,dataProvider = "sports")
     public void gatPreMatchMatchGamesWithEmptyMarkets(String sport) throws UnirestException, JSONException, IOException {
         if (getGamesPartnerName.equals("Craftbet")) {
             if (getPreMatchGamesWithEmptyMarkets(sport)) {
@@ -120,7 +121,7 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
     }
 
 
-    @Test(dataProvider = "sports")
+    @Test(priority = 2,dataProvider = "sports")
     public void gatPreMatchMatchGamesBrokenMarkets(String sport) throws UnirestException, JSONException, IOException {
         if (getGamesPartnerName.equals("Craftbet")) {
             if (getPreMatchGamesAPICheckMarkets(sport)) {
@@ -451,7 +452,7 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
     }
 
 
-    @Test
+    @Test(priority = 3)
     public void gatLifeMatchGamesMarket() throws UnirestException, JSONException, IOException {
 
         if (getGamesPartnerName.equals("Craftbet")) {
