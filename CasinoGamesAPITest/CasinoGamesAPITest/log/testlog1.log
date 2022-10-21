@@ -19802,3 +19802,26 @@
 2022-10-20 13:09:11,185 [main] INFO craftBet - Browser closed
 2022-10-20 13:09:11,186 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-10-20 13:09:11,217 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-10-21 09:25:38,619 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-10-21 09:25:40,143 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.31.0 (resolved driver for Firefox 104)
+2022-10-21 09:25:40,190 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-10-21 09:25:45,274 [main] INFO craftBet - URL: https://exclusivebet-stage.com  Browser: firefox
+2022-10-21 09:25:45,459 [main] INFO craftBet - All Page elements are initialized
+2022-10-21 09:25:54,010 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-10-21 09:25:54,115 [main] ERROR craftBet - Please provide CraftBet id  as test Partner 
+2022-10-21 09:25:54,942 [main] INFO craftBet - Browser closed
+2022-10-21 09:25:54,942 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-10-21 09:25:54,956 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-10-21 09:26:09,801 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-10-21 09:26:10,119 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.31.0 (resolved driver for Firefox 104)
+2022-10-21 09:26:10,156 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-10-21 09:26:14,076 [main] INFO craftBet - URL: https://craftbet.com  Browser: firefox
+2022-10-21 09:26:14,155 [main] INFO craftBet - All Page elements are initialized
+2022-10-21 09:26:15,013 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-10-21 09:26:16,221 [main] INFO craftBet - Get games Api call was sent
+2022-10-21 09:26:16,233 [main] INFO craftBet - Games are 14
+2022-10-21 09:26:16,233 [main] INFO craftBet - Get Life games Api Response was captured
+2022-10-21 09:26:16,250 [main] INFO craftBet - Time out Games are:  0
+2022-10-21 09:26:16,995 [main] INFO craftBet - Browser closed
+2022-10-21 09:26:16,996 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-10-21 09:26:17,004 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
