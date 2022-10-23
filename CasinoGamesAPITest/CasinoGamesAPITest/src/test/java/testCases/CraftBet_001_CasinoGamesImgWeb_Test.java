@@ -9,9 +9,14 @@ import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 
 public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
@@ -104,24 +109,27 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
         if (errorSrcXl.size() == 0) {
             isPassed = true;
         } else {
-            writeInExel(errorSrcXl,"/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataBrokenIMGList.xlsx" , "brokenIMG");
+            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataBrokenIMGList.xlsx", "brokenIMG");
             isPassed = false;
         }
         return isPassed;
     }
 
 
-
     @Test
     public void gamesImgTest() throws UnirestException, JSONException, IOException {
 
-        if (getGamesAPICheckPictures(getGamesAPIUrl, getGamesOrigin, getGamesRecurse, getGamesPartnerName)){
+        if (getGamesAPICheckPictures(getGamesAPIUrl, getGamesOrigin, getGamesRecurse, getGamesPartnerName)) {
             Assert.assertTrue(true);
-        }
-        else {
+        } else {
             Assert.assertTrue(false);
         }
     }
+
+
+
+
+
 }
 
 

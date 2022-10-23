@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class CraftBet_004_CasinoSameNameCopyGames_Test extends BaseTest{
+public class CraftBet_000_CasinoSameNameCopyGames_Test extends BaseTest{
 
 
     public boolean getALLGamesAPICheckCopyGames(String getGamesAPIUrl, String origin, String partnerName)
@@ -22,6 +22,7 @@ public class CraftBet_004_CasinoSameNameCopyGames_Test extends BaseTest{
         int k = 1;
         ArrayList<String> gameNames = new ArrayList<>();
         ArrayList<String> gameProviderNames = new ArrayList<>();
+        ArrayList<String> gameProviderNamesList = new ArrayList<>();
         ArrayList<String> errorSrcXl = new ArrayList<>();
 
         Unirest.setTimeouts(0, 0);
@@ -45,6 +46,10 @@ public class CraftBet_004_CasinoSameNameCopyGames_Test extends BaseTest{
             String sp = jsonObjectGame.getString("sp");  //Provider Name
             gameProviderNames.add(sp);
             gameNames.add(n);
+
+//            if (!gameProviderNamesList.contains(sp)){                     For Providers List
+//                gameProviderNamesList.add(sp);
+//            }
         }
 
         for (int i = 0; i < gameNames.size(); i++) {
@@ -65,7 +70,8 @@ public class CraftBet_004_CasinoSameNameCopyGames_Test extends BaseTest{
             writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataDuplicateGamesList.xlsx", "CopyGames");
             isPassed = false;
         }
-
+        // writeInExel(gameProviderNamesList, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "ProvidersList.xlsx", "Providers");
+        // For Providers List
         return isPassed;
     }
 
