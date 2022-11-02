@@ -19825,3 +19825,1159 @@
 2022-10-21 09:26:16,995 [main] INFO craftBet - Browser closed
 2022-10-21 09:26:16,996 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-10-21 09:26:17,004 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-10-27 17:09:57,740 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-10-27 17:09:58,699 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.32.0 (resolved driver for Firefox 105)
+2022-10-27 17:09:58,728 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\user\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+2022-10-27 17:10:02,818 [main] INFO craftBet - URL: https://craftbet.la  Browser: firefox
+2022-10-27 17:10:02,899 [main] INFO craftBet - All Page elements are initialized
+2022-10-27 17:10:04,687 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-10-27 17:10:08,214 [main] INFO craftBet - Get games Api call was sent
+2022-10-27 17:10:08,411 [main] INFO craftBet - Get games Api Response was captured
+2022-10-27 17:10:08,533 [main] INFO craftBet - Dupliicate game Name =  243CrystalFruits
+2022-10-27 17:10:08,551 [main] INFO craftBet - Dupliicate game Name =  American Blackjack
+2022-10-27 17:10:08,552 [main] INFO craftBet - Dupliicate game Name =  American Roulette
+2022-10-27 17:10:08,552 [main] INFO craftBet - Dupliicate game Name =  American Roulette
+2022-10-27 17:10:08,552 [main] INFO craftBet - Dupliicate game Name =  American Roulette
+2022-10-27 17:10:08,552 [main] INFO craftBet - Dupliicate game Name =  American Roulette
+2022-10-27 17:10:08,552 [main] INFO craftBet - Dupliicate game Name =  American Roulette
+2022-10-27 17:10:08,552 [main] INFO craftBet - Dupliicate game Name =  American Roulette
+2022-10-27 17:10:08,557 [main] INFO craftBet - Dupliicate game Name =  Arising Phoenix
+2022-10-27 17:10:08,561 [main] INFO craftBet - Dupliicate game Name =  Aztec Secret
+2022-10-27 17:10:08,562 [main] INFO craftBet - Dupliicate game Name =  Baccarat
+2022-10-27 17:10:08,563 [main] INFO craftBet - Dupliicate game Name =  Baccarat
+2022-10-27 17:10:08,563 [main] INFO craftBet - Dupliicate game Name =  Baccarat
+2022-10-27 17:10:08,563 [main] INFO craftBet - Dupliicate game Name =  Baccarat
+2022-10-27 17:10:08,563 [main] INFO craftBet - Dupliicate game Name =  Baccarat
+2022-10-27 17:10:08,564 [main] INFO craftBet - Dupliicate game Name =  Baccarat
+2022-10-27 17:10:08,569 [main] INFO craftBet - Dupliicate game Name =  Bells on Fire
+2022-10-27 17:10:08,570 [main] INFO craftBet - Dupliicate game Name =  Big Bass Bonanza Megaways
+2022-10-27 17:10:08,570 [main] INFO craftBet - Dupliicate game Name =  Big Juan
+2022-10-27 17:10:08,571 [main] INFO craftBet - Dupliicate game Name =  Bigger Bass Bonanza
+2022-10-27 17:10:08,572 [main] INFO craftBet - Dupliicate game Name =  Billyonaire
+2022-10-27 17:10:08,572 [main] INFO craftBet - Dupliicate game Name =  Black Jack
+2022-10-27 17:10:08,573 [main] INFO craftBet - Dupliicate game Name =  Black Jack
+2022-10-27 17:10:08,573 [main] INFO craftBet - Dupliicate game Name =  Black Jack
+2022-10-27 17:10:08,573 [main] INFO craftBet - Dupliicate game Name =  Blackbeard'sQuest
+2022-10-27 17:10:08,574 [main] INFO craftBet - Dupliicate game Name =  Blackjack
+2022-10-27 17:10:08,574 [main] INFO craftBet - Dupliicate game Name =  Blackjack
+2022-10-27 17:10:08,574 [main] INFO craftBet - Dupliicate game Name =  Blackjack
+2022-10-27 17:10:08,574 [main] INFO craftBet - Dupliicate game Name =  Blackjack
+2022-10-27 17:10:08,574 [main] INFO craftBet - Dupliicate game Name =  Blackjack
+2022-10-27 17:10:08,574 [main] INFO craftBet - Dupliicate game Name =  Blackjack
+2022-10-27 17:10:08,574 [main] INFO craftBet - Dupliicate game Name =  Blackjack VIP
+2022-10-27 17:10:08,575 [main] INFO craftBet - Dupliicate game Name =  Blue Dolphin
+2022-10-27 17:10:08,575 [main] INFO craftBet - Dupliicate game Name =  Bonus Deuces Wild
+2022-10-27 17:10:08,576 [main] INFO craftBet - Dupliicate game Name =  Book of Fortune
+2022-10-27 17:10:08,577 [main] INFO craftBet - Dupliicate game Name =  BookofDead
+2022-10-27 17:10:08,580 [main] INFO craftBet - Dupliicate game Name =  Caligula
+2022-10-27 17:10:08,580 [main] INFO craftBet - Dupliicate game Name =  CandyDreams
+2022-10-27 17:10:08,581 [main] INFO craftBet - Dupliicate game Name =  Casinova
+2022-10-27 17:10:08,583 [main] INFO craftBet - Dupliicate game Name =  ChineseNewYear
+2022-10-27 17:10:08,584 [main] INFO craftBet - Dupliicate game Name =  Cool Diamonds II
+2022-10-27 17:10:08,586 [main] INFO craftBet - Dupliicate game Name =  Deuces Wild
+2022-10-27 17:10:08,586 [main] INFO craftBet - Dupliicate game Name =  Deuces Wild
+2022-10-27 17:10:08,587 [main] INFO craftBet - Dupliicate game Name =  Deuces Wild
+2022-10-27 17:10:08,587 [main] INFO craftBet - Dupliicate game Name =  Deuces Wild
+2022-10-27 17:10:08,587 [main] INFO craftBet - Dupliicate game Name =  Deuces Wild
+2022-10-27 17:10:08,587 [main] INFO craftBet - Dupliicate game Name =  Deuces Wild
+2022-10-27 17:10:08,587 [main] INFO craftBet - Dupliicate game Name =  Deuces Wild
+2022-10-27 17:10:08,587 [main] INFO craftBet - Dupliicate game Name =  Deuces Wild
+2022-10-27 17:10:08,587 [main] INFO craftBet - Dupliicate game Name =  Deuces Wild
+2022-10-27 17:10:08,587 [main] INFO craftBet - Dupliicate game Name =  Deuces Wild
+2022-10-27 17:10:08,587 [main] INFO craftBet - Dupliicate game Name =  Diamond Cats
+2022-10-27 17:10:08,588 [main] INFO craftBet - Dupliicate game Name =  Diamond Monkey
+2022-10-27 17:10:08,589 [main] INFO craftBet - Dupliicate game Name =  Diamonds on Fire
+2022-10-27 17:10:08,590 [main] INFO craftBet - Dupliicate game Name =  Dragon Tiger
+2022-10-27 17:10:08,591 [main] INFO craftBet - Dupliicate game Name =  Dragon Tiger
+2022-10-27 17:10:08,591 [main] INFO craftBet - Dupliicate game Name =  Dragon Tiger
+2022-10-27 17:10:08,591 [main] INFO craftBet - Dupliicate game Name =  Dragons Kingdom
+2022-10-27 17:10:08,593 [main] INFO craftBet - Dupliicate game Name =  Elemental Gems Megaways
+2022-10-27 17:10:08,593 [main] INFO craftBet - Dupliicate game Name =  Elements
+2022-10-27 17:10:08,594 [main] INFO craftBet - Dupliicate game Name =  European Blackjack
+2022-10-27 17:10:08,594 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,594 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,594 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,594 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,595 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,595 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,595 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,595 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,595 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,595 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,595 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,595 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,595 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,595 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,595 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,595 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,596 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,596 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,596 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,596 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,596 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,596 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,596 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,596 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,597 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,597 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,597 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,597 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,597 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,597 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,597 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,598 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,598 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,598 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,598 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,598 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-10-27 17:10:08,598 [main] INFO craftBet - Dupliicate game Name =  European Roulette VIP
+2022-10-27 17:10:08,599 [main] INFO craftBet - Dupliicate game Name =  Eye of Ra
+2022-10-27 17:10:08,600 [main] INFO craftBet - Dupliicate game Name =  Football
+2022-10-27 17:10:08,600 [main] INFO craftBet - Dupliicate game Name =  Football
+2022-10-27 17:10:08,600 [main] INFO craftBet - Dupliicate game Name =  Football
+2022-10-27 17:10:08,606 [main] INFO craftBet - Dupliicate game Name =  GrandX
+2022-10-27 17:10:08,608 [main] INFO craftBet - Dupliicate game Name =  Hot Diamonds
+2022-10-27 17:10:08,609 [main] INFO craftBet - Dupliicate game Name =  Hot Twenty
+2022-10-27 17:10:08,611 [main] INFO craftBet - Dupliicate game Name =  Jacks or Better
+2022-10-27 17:10:08,611 [main] INFO craftBet - Dupliicate game Name =  Jacks or Better
+2022-10-27 17:10:08,611 [main] INFO craftBet - Dupliicate game Name =  Jacks or Better
+2022-10-27 17:10:08,611 [main] INFO craftBet - Dupliicate game Name =  Jacks or Better
+2022-10-27 17:10:08,611 [main] INFO craftBet - Dupliicate game Name =  Jacks or Better
+2022-10-27 17:10:08,611 [main] INFO craftBet - Dupliicate game Name =  Jacks or Better
+2022-10-27 17:10:08,611 [main] INFO craftBet - Dupliicate game Name =  Jacks or Better
+2022-10-27 17:10:08,611 [main] INFO craftBet - Dupliicate game Name =  Jacks or Better
+2022-10-27 17:10:08,611 [main] INFO craftBet - Dupliicate game Name =  Jacks or Better
+2022-10-27 17:10:08,611 [main] INFO craftBet - Dupliicate game Name =  Jacks or Better
+2022-10-27 17:10:08,612 [main] INFO craftBet - Dupliicate game Name =  John Hunter and the Quest for Bermuda Riches
+2022-10-27 17:10:08,612 [main] INFO craftBet - Dupliicate game Name =  Joker Poker
+2022-10-27 17:10:08,612 [main] INFO craftBet - Dupliicate game Name =  Joker Poker
+2022-10-27 17:10:08,612 [main] INFO craftBet - Dupliicate game Name =  Joker Poker
+2022-10-27 17:10:08,612 [main] INFO craftBet - Dupliicate game Name =  Joker Reelz
+2022-10-27 17:10:08,614 [main] INFO craftBet - Dupliicate game Name =  Keno
+2022-10-27 17:10:08,614 [main] INFO craftBet - Dupliicate game Name =  Lady Joker
+2022-10-27 17:10:08,615 [main] INFO craftBet - Dupliicate game Name =  Legend of the Four Beasts
+2022-10-27 17:10:08,616 [main] INFO craftBet - Dupliicate game Name =  Lovely Lady
+2022-10-27 17:10:08,617 [main] INFO craftBet - Dupliicate game Name =  Lucky Clover
+2022-10-27 17:10:08,617 [main] INFO craftBet - Dupliicate game Name =  Lucky Coin
+2022-10-27 17:10:08,617 [main] INFO craftBet - Dupliicate game Name =  LuckyLeprechaun
+2022-10-27 17:10:08,618 [main] INFO craftBet - Dupliicate game Name =  Magic Idol
+2022-10-27 17:10:08,619 [main] INFO craftBet - Dupliicate game Name =  Might of Ra
+2022-10-27 17:10:08,623 [main] INFO craftBet - Dupliicate game Name =  Queen of Gold 100,000
+2022-10-27 17:10:08,624 [main] INFO craftBet - Dupliicate game Name =  Reactoonz
+2022-10-27 17:10:08,624 [main] INFO craftBet - Dupliicate game Name =  Reactoonz 2
+2022-10-27 17:10:08,624 [main] INFO craftBet - Dupliicate game Name =  Red Dog
+2022-10-27 17:10:08,624 [main] INFO craftBet - Dupliicate game Name =  RiseofDead
+2022-10-27 17:10:08,625 [main] INFO craftBet - Dupliicate game Name =  Roulette
+2022-10-27 17:10:08,625 [main] INFO craftBet - Dupliicate game Name =  Royal Unicorn
+2022-10-27 17:10:08,627 [main] INFO craftBet - Dupliicate game Name =  Sparta
+2022-10-27 17:10:08,627 [main] INFO craftBet - Dupliicate game Name =  Spinball
+2022-10-27 17:10:08,627 [main] INFO craftBet - Dupliicate game Name =  Stampede
+2022-10-27 17:10:08,627 [main] INFO craftBet - Dupliicate game Name =  Starlight Princess
+2022-10-27 17:10:08,628 [main] INFO craftBet - Dupliicate game Name =  Sugar Rush
+2022-10-27 17:10:08,628 [main] INFO craftBet - Dupliicate game Name =  Sweet Crush
+2022-10-27 17:10:08,629 [main] INFO craftBet - Dupliicate game Name =  TalesOfDarkness
+2022-10-27 17:10:08,629 [main] INFO craftBet - Dupliicate game Name =  Tomahawk
+2022-10-27 17:10:08,630 [main] INFO craftBet - Dupliicate game Name =  TreasuresofEgypt
+2022-10-27 17:10:08,630 [main] INFO craftBet - Dupliicate game Name =  Vampires
+2022-10-27 17:10:08,630 [main] INFO craftBet - Dupliicate game Name =  Wild Beach Party
+2022-10-27 17:10:08,630 [main] INFO craftBet - Dupliicate game Name =  Wild Stars
+2022-10-27 17:10:08,631 [main] INFO craftBet - Dupliicate game Name =  WildFrames
+2022-10-27 17:10:08,631 [main] INFO craftBet - Dupliicate game Name =  Wolf Moon
+2022-10-27 17:10:08,631 [main] INFO craftBet - Duplicate games are:  150
+2022-10-27 17:10:10,109 [main] INFO craftBet - Browser closed
+2022-10-27 17:10:10,109 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-10-27 17:10:10,112 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-10-27 17:10:10,119 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.32.0 (resolved driver for Firefox 105)
+2022-10-27 17:10:10,131 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\user\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+2022-10-27 17:10:12,878 [main] INFO craftBet - URL: https://craftbet.la  Browser: firefox
+2022-10-27 17:10:12,882 [main] INFO craftBet - All Page elements are initialized
+2022-10-27 17:10:13,982 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-10-27 17:10:17,952 [main] INFO craftBet - Get games Api call was sent
+2022-10-27 17:10:18,054 [main] INFO craftBet - Get games Api Response was captured
+2022-10-27 17:10:18,113 [main] INFO craftBet - All captured games images was added into ArrayList
+2022-10-27 17:11:09,768 [main] ERROR craftBet - 168   Game Provider Name = Amatic :   Game Name =  Admiral :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Admiral.jpg
+2022-10-27 17:11:29,738 [main] ERROR craftBet - 234   Game Provider Name = Amatic :   Game Name =  Allways Win :   cod = 404:   src = https://resources.craftbet.la/products/amatic/AllwaysWin.jpg
+2022-10-27 17:11:31,967 [main] ERROR craftBet - 242   Game Provider Name = Amatic :   Game Name =  Always Fruits :   cod = 404:   src = https://resources.craftbet.la/products/amatic/AllWaysFruits.jpg
+2022-10-27 17:11:36,930 [main] ERROR craftBet - 259   Game Provider Name = PragmaticPlay :   Game Name =  American Blackjack :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 17:11:58,750 [main] ERROR craftBet - 326   Game Provider Name = Amatic :   Game Name =  Arising Phoenix :   cod = 404:   src = https://resources.craftbet.la/products/amatic/ArisingPhoenix.jpg
+2022-10-27 17:12:14,434 [main] ERROR craftBet - 378   Game Provider Name = Amatic :   Game Name =  Aztec Secret :   cod = 404:   src = https://resources.craftbet.la/products/amatic/AztecSecret.jpg
+2022-10-27 17:12:53,616 [main] ERROR craftBet - 440   Game Provider Name = PragmaticPlay :   Game Name =  Barn Festival :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 17:13:10,459 [main] ERROR craftBet - 490   Game Provider Name = Amatic :   Game Name =  Bells on Fire :   cod = 404:   src = https://resources.craftbet.la/products/amatic/BellsonFire.jpg
+2022-10-27 17:13:20,460 [main] ERROR craftBet - 520   Game Provider Name = Amatic :   Game Name =  Big Panda :   cod = 404:   src = https://resources.craftbet.la/products/amatic/BigPanda.jpg
+2022-10-27 17:13:27,125 [main] ERROR craftBet - 540   Game Provider Name = Amatic :   Game Name =  Billy`s Game :   cod = 404:   src = https://resources.craftbet.la/products/amatic/BillysGame.jpg
+2022-10-27 17:13:27,371 [main] ERROR craftBet - 541   Game Provider Name = Amatic :   Game Name =  Billyonaire :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Billyonaire.jpg
+2022-10-27 17:13:27,961 [main] ERROR craftBet - 543   Game Provider Name = Amatic :   Game Name =  Billy's Game :   cod = 404:   src = https://resources.craftbet.la/products/inbet/Billy_s_Game.jpg
+2022-10-27 17:13:31,756 [main] ERROR craftBet - 554   Game Provider Name = Amatic :   Game Name =  Black Jack :   cod = 404:   src = https://resources.craftbet.la/products/amatic/BlackJack.jpg
+2022-10-27 17:13:48,695 [main] ERROR craftBet - 606   Game Provider Name = Amatic :   Game Name =  Blue Dolphin :   cod = 404:   src = https://resources.craftbet.la/products/amatic/BlueDolphin.jpg
+2022-10-27 17:14:02,837 [main] ERROR craftBet - 636   Game Provider Name = Amatic :   Game Name =  Book of Aztec :   cod = 404:   src = https://resources.craftbet.la/products/amatic/BookofAztec.jpg
+2022-10-27 17:14:11,360 [main] ERROR craftBet - 655   Game Provider Name = Amatic :   Game Name =  Book of Fortune :   cod = 404:   src = https://resources.craftbet.la/products/amatic/BookofFortune.jpg
+2022-10-27 17:16:20,910 [main] ERROR craftBet - 856   Game Provider Name = Amatic :   Game Name =  Casanova :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Casinova.png
+2022-10-27 17:16:38,052 [main] ERROR craftBet - 892   Game Provider Name = Amatic :   Game Name =  Casinova :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Casinova.png
+2022-10-27 17:17:44,767 [main] ERROR craftBet - 1017   Game Provider Name = Amatic :   Game Name =  Cool Diamonds II :   cod = 404:   src = https://resources.craftbet.la/products/amatic/CoolDiamondsII.jpg
+2022-10-27 17:18:42,426 [main] ERROR craftBet - 1144   Game Provider Name = Amatic :   Game Name =  Deuces Wild :   cod = 404:   src = https://resources.craftbet.la/products/amatic/DeucesWild.jpg
+2022-10-27 17:18:48,348 [main] ERROR craftBet - 1158   Game Provider Name = Amatic :   Game Name =  Diamond Cats :   cod = 404:   src = https://resources.craftbet.la/products/amatic/DiamondCats.jpg
+2022-10-27 17:18:53,454 [main] ERROR craftBet - 1171   Game Provider Name = Amatic :   Game Name =  Diamond Monkey :   cod = 404:   src = https://resources.craftbet.la/products/amatic/DiamondMonkey.jpg
+2022-10-27 17:18:55,319 [main] ERROR craftBet - 1176   Game Provider Name = PragmaticPlay :   Game Name =  Diamond Strike 250,000 :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 17:18:59,886 [main] ERROR craftBet - 1187   Game Provider Name = Amatic :   Game Name =  Diamonds on Fire :   cod = 404:   src = https://resources.craftbet.la/products/amatic/DiamondsonFire.jpg
+2022-10-27 17:19:29,906 [main] ERROR craftBet - 1253   Game Provider Name = PragmaticPlay :   Game Name =  Dragon Bonus Baccarat :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 17:19:37,524 [main] ERROR craftBet - 1265   Game Provider Name = PragmaticPlay :   Game Name =  Dragon Tiger :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 17:19:55,685 [main] ERROR craftBet - 1284   Game Provider Name = MG :   Game Name =  Dragon's Cache :   cod = 404:   src = https://agstatic.com/games/mg/dragons_?ache.jpg
+2022-10-27 17:19:56,072 [main] ERROR craftBet - 1285   Game Provider Name = Amatic :   Game Name =  Dragons Kingdom :   cod = 404:   src = https://resources.craftbet.la/products/amatic/DragonsKingdom.jpg
+2022-10-27 17:20:00,436 [main] ERROR craftBet - 1290   Game Provider Name = Amatic :   Game Name =  Dragons pearl :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Dragonspearl.jpg
+2022-10-27 17:21:10,860 [main] ERROR craftBet - 1461   Game Provider Name = Amatic :   Game Name =  Eye of Ra :   cod = 404:   src = https://resources.craftbet.la/products/amatic/EyeofRa.jpg
+2022-10-27 17:21:34,214 [main] ERROR craftBet - 1507   Game Provider Name = Amatic :   Game Name =  Fire AndIce :   cod = 404:   src = https://resources.craftbet.la/products/amatic/FireAndIce.jpg
+2022-10-27 17:22:00,860 [main] ERROR craftBet - 1591   Game Provider Name = Amatic :   Game Name =  Fortunas Fruits :   cod = 404:   src = https://resources.craftbet.la/products/amatic/FortunasFruits.jpg
+2022-10-27 17:22:19,249 [main] ERROR craftBet - 1651   Game Provider Name = Amatic :   Game Name =  Fruit Poker :   cod = 404:   src = https://resources.craftbet.la/products/amatic/FruitPoker.jpg
+2022-10-27 17:23:17,530 [main] ERROR craftBet - 1827   Game Provider Name = PragmaticPlay :   Game Name =  Gold Rush 500,000 :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 17:23:21,034 [main] ERROR craftBet - 1839   Game Provider Name = Amatic :   Game Name =  Golden Book :   cod = 404:   src = https://resources.craftbet.la/products/amatic/GoldenBook.jpg
+2022-10-27 17:23:46,687 [main] ERROR craftBet - 1921   Game Provider Name = Amatic :   Game Name =  Grand Tiger :   cod = 404:   src = https://resources.craftbet.la/products/amatic/GrandTiger.jpg
+2022-10-27 17:23:47,401 [main] ERROR craftBet - 1923   Game Provider Name = Amatic :   Game Name =  GrandX :   cod = 404:   src = https://resources.craftbet.la/products/amatic/GrandX.jpg
+2022-10-27 17:23:47,948 [main] ERROR craftBet - 1924   Game Provider Name = Amatic :   Game Name =  GrandX :   cod = 404:   src = https://resources.craftbet.la/products/inbet/Grand_X_252_190.jpg
+2022-10-27 17:24:03,225 [main] ERROR craftBet - 1974   Game Provider Name = Leander :   Game Name =  Hattrick Heroes :   cod = 403:   src = https://agstatic.com/games/leander/?attrick_?eroes.jpg
+2022-10-27 17:24:21,363 [main] ERROR craftBet - 2033   Game Provider Name = Amatic :   Game Name =  Hot 7 :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Hot7.jpg
+2022-10-27 17:24:21,655 [main] ERROR craftBet - 2034   Game Provider Name = Amatic :   Game Name =  Hot 81 :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Hot81.jpg
+2022-10-27 17:24:23,837 [main] ERROR craftBet - 2041   Game Provider Name = Amatic :   Game Name =  Hot Diamonds :   cod = 404:   src = https://resources.craftbet.la/products/amatic/HotDiamonds.jpg
+2022-10-27 17:24:25,027 [main] ERROR craftBet - 2045   Game Provider Name = Amatic :   Game Name =  Hot Neon :   cod = 404:   src = https://resources.craftbet.la/products/amatic/HotNeon.jpg
+2022-10-27 17:24:25,640 [main] ERROR craftBet - 2047   Game Provider Name = PragmaticPlay :   Game Name =  Hot Safari 75,000 :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 17:24:25,912 [main] ERROR craftBet - 2048   Game Provider Name = Amatic :   Game Name =  Hot Scatter :   cod = 404:   src = https://resources.craftbet.la/products/amatic/HotScatter.jpg
+2022-10-27 17:24:28,854 [main] ERROR craftBet - 2058   Game Provider Name = Amatic :   Game Name =  Hot Star :   cod = 404:   src = https://resources.craftbet.la/products/amatic/HotStar.jpg
+2022-10-27 17:24:29,765 [main] ERROR craftBet - 2061   Game Provider Name = Amatic :   Game Name =  Hot Twenty :   cod = 404:   src = https://resources.craftbet.la/products/amatic/HotTwenty.jpg
+2022-10-27 17:24:56,440 [main] ERROR craftBet - 2145   Game Provider Name = MG :   Game Name =  Inferno Gladiator :   cod = 404:   src = https://agstatic.com/games/mg/inferno_gladiator.jpg
+2022-10-27 17:25:07,007 [main] ERROR craftBet - 2178   Game Provider Name = PragmaticPlay :   Game Name =  Jackpot :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 17:25:08,775 [main] ERROR craftBet - 2184   Game Provider Name = Amatic :   Game Name =  Jacks or Better :   cod = 404:   src = https://resources.craftbet.la/products/amatic/JacksorBetter.jpg
+2022-10-27 17:25:25,055 [main] ERROR craftBet - 2237   Game Provider Name = Amatic :   Game Name =  Joker Card Poker :   cod = 404:   src = https://resources.craftbet.la/products/amatic/JokerCardPoker.jpg
+2022-10-27 17:26:04,786 [main] ERROR craftBet - 2366   Game Provider Name = Amatic :   Game Name =  La Gran Aventura :   cod = 404:   src = https://resources.craftbet.la/products/amatic/LaGranAventura.jpg
+2022-10-27 17:26:05,692 [main] ERROR craftBet - 2369   Game Provider Name = Amatic :   Game Name =  Lady Joker :   cod = 404:   src = https://resources.craftbet.la/products/amatic/LadyJoker.jpg
+2022-10-27 17:26:43,402 [main] ERROR craftBet - 2490   Game Provider Name = Amatic :   Game Name =  Lovely Lady :   cod = 404:   src = https://resources.craftbet.la/products/amatic/LovelyLady.jpg
+2022-10-27 17:26:45,961 [main] ERROR craftBet - 2499   Game Provider Name = Amatic :   Game Name =  Lucky Bells :   cod = 404:   src = https://resources.craftbet.la/products/amatic/LuckyBells.jpg
+2022-10-27 17:26:48,465 [main] ERROR craftBet - 2507   Game Provider Name = Amatic :   Game Name =  Lucky Coin :   cod = 404:   src = https://resources.craftbet.la/products/amatic/LuckyCoin.jpg
+2022-10-27 17:27:01,090 [main] ERROR craftBet - 2540   Game Provider Name = Amatic :   Game Name =  Lucky Zodiac :   cod = 404:   src = https://resources.craftbet.la/products/amatic/LuckyZodiac.jpg
+2022-10-27 17:27:20,224 [main] ERROR craftBet - 2596   Game Provider Name = Amatic :   Game Name =  Magic Forest :   cod = 404:   src = https://resources.craftbet.la/products/amatic/MagicForest.jpg
+2022-10-27 17:27:20,484 [main] ERROR craftBet - 2597   Game Provider Name = Amatic :   Game Name =  Magic Idol :   cod = 404:   src = https://resources.craftbet.la/products/amatic/MagicIdol.jpg
+2022-10-27 17:27:23,415 [main] ERROR craftBet - 2606   Game Provider Name = Amatic :   Game Name =  Magic Owl :   cod = 404:   src = https://resources.craftbet.la/products/amatic/MagicOwl.jpg
+2022-10-27 17:28:04,839 [main] ERROR craftBet - 2717   Game Provider Name = Amatic :   Game Name =  Mermaids Gold :   cod = 404:   src = https://resources.craftbet.la/products/amatic/MermaidsGold.jpg
+2022-10-27 17:28:06,500 [main] ERROR craftBet - 2722   Game Provider Name = Amatic :   Game Name =  Merry Fruits :   cod = 404:   src = https://resources.craftbet.la/products/amatic/MerryFruits.jpg
+2022-10-27 17:28:40,629 [main] ERROR craftBet - 2835   Game Provider Name = Amatic :   Game Name =  Multi-Card Win :   cod = 404:   src = https://resources.craftbet.la/products/amatic/MultiCardWin.jpg
+2022-10-27 17:28:40,876 [main] ERROR craftBet - 2836   Game Provider Name = Amatic :   Game Name =  Multi-Card Win Triple :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Multi-CardWinTriple.jpg
+2022-10-27 17:29:25,707 [main] ERROR craftBet - 2986   Game Provider Name = PragmaticPlay :   Game Name =  Panda Gold 50,000 :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 17:29:31,562 [main] ERROR craftBet - 3004   Game Provider Name = Amatic :   Game Name =  Party Time :   cod = 404:   src = https://resources.craftbet.la/products/amatic/PartyTime.jpg
+2022-10-27 17:30:38,588 [main] ERROR craftBet - 3218   Game Provider Name = PragmaticPlay :   Game Name =  Rainbow Gold :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 17:30:47,848 [main] ERROR craftBet - 3243   Game Provider Name = Amatic :   Game Name =  Red Chilli :   cod = 404:   src = https://resources.craftbet.la/products/amatic/RedChilli.jpg
+2022-10-27 17:31:57,281 [main] ERROR craftBet - 3406   Game Provider Name = Amatic :   Game Name =  Roulette :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Roulette.jpg
+2022-10-27 17:32:06,117 [main] ERROR craftBet - 3427   Game Provider Name = Amatic :   Game Name =  Royal Unicorn :   cod = 404:   src = https://resources.craftbet.la/products/amatic/RoyalUnicorn.jpg
+2022-10-27 17:32:40,616 [main] ERROR craftBet - 3500   Game Provider Name = Amatic :   Game Name =  Scarab Treasure :   cod = 404:   src = https://resources.craftbet.la/products/amatic/ScarabTreasure.jpg
+2022-10-27 17:34:09,818 [main] ERROR craftBet - 3677   Game Provider Name = PragmaticPlay :   Game Name =  Spaceman :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 17:34:31,489 [main] ERROR craftBet - 3725   Game Provider Name = Internal :   Game Name =  Sportsbook :   cod = 404:   src = https://resources.craftbet.la/products/iqsoft/sport.png
+2022-10-27 17:35:42,912 [main] ERROR craftBet - 3888   Game Provider Name = PragmaticPlay :   Game Name =  Sweet Bonanza CandyLand :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 17:37:11,595 [main] ERROR craftBet - 4094   Game Provider Name = PragmaticPlay :   Game Name =  Tic Tac Take :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 17:38:04,137 [main] ERROR craftBet - 4215   Game Provider Name = Amatic :   Game Name =  Tweety Birds :   cod = 404:   src = https://resources.craftbet.la/products/amatic/TweetyBirds.jpg
+2022-10-27 17:38:04,499 [main] ERROR craftBet - 4216   Game Provider Name = Amatic :   Game Name =  Twenty Seven :   cod = 404:   src = https://resources.craftbet.la/products/amatic/TwentySeven.jpg
+2022-10-27 17:38:10,456 [main] ERROR craftBet - 4231   Game Provider Name = Amatic :   Game Name =  Ultra Seven :   cod = 404:   src = https://resources.craftbet.la/products/amatic/UltraSeven.jpg
+2022-10-27 17:38:22,179 [main] ERROR craftBet - 4258   Game Provider Name = Amatic :   Game Name =  Vampires :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Vampires.jpg
+2022-10-27 17:39:15,690 [main] ERROR craftBet - 4382   Game Provider Name = Amatic :   Game Name =  Wild 7 :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Wild7.jpg
+2022-10-27 17:39:17,605 [main] ERROR craftBet - 4387   Game Provider Name = PragmaticPlay :   Game Name =  Wild Beach Party :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 17:39:20,334 [main] ERROR craftBet - 4394   Game Provider Name = Amatic :   Game Name =  Wild Dragon :   cod = 404:   src = https://resources.craftbet.la/products/amatic/WildDragon.jpg
+2022-10-27 17:39:30,928 [main] ERROR craftBet - 4419   Game Provider Name = Amatic :   Game Name =  Wild Respin :   cod = 404:   src = https://resources.craftbet.la/products/amatic/WildRespin.jpg
+2022-10-27 17:39:31,636 [main] ERROR craftBet - 4421   Game Provider Name = Amatic :   Game Name =  Wild Shark :   cod = 404:   src = https://resources.craftbet.la/products/amatic/WildShark.jpg
+2022-10-27 17:39:31,897 [main] ERROR craftBet - 4422   Game Provider Name = Amatic :   Game Name =  Wild Stars :   cod = 404:   src = https://resources.craftbet.la/products/amatic/WildStars.jpg
+2022-10-27 17:40:22,523 [main] ERROR craftBet - 4539   Game Provider Name = PragmaticPlay :   Game Name =  Wolf Gold 1 Million :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 17:40:22,822 [main] ERROR craftBet - 4540   Game Provider Name = PragmaticPlay :   Game Name =  Wolf Gold 1,000,000 :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 17:40:24,424 [main] ERROR craftBet - 4544   Game Provider Name = Amatic :   Game Name =  Wolf Moon :   cod = 404:   src = https://resources.craftbet.la/products/amatic/WolfMoon.jpg
+2022-10-27 17:40:52,294 [main] INFO craftBet - Broken images are:  88
+2022-10-27 17:40:53,794 [main] INFO craftBet - Browser closed
+2022-10-27 17:40:53,794 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-10-27 17:40:53,796 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-10-27 17:40:53,801 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.32.0 (resolved driver for Firefox 105)
+2022-10-27 17:40:53,810 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\user\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+2022-10-27 17:40:58,933 [main] INFO craftBet - URL: https://craftbet.la  Browser: firefox
+2022-10-27 17:40:58,937 [main] INFO craftBet - All Page elements are initialized
+2022-10-27 17:41:00,022 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-10-27 17:41:03,341 [main] INFO craftBet - Get games Api call was sent
+2022-10-27 17:41:03,407 [main] INFO craftBet - Get games Api Response was captured
+2022-10-27 17:41:03,469 [main] INFO craftBet - All captured games images was added into ArrayList
+2022-10-27 17:42:11,615 [main] ERROR craftBet - 168   Game Provider Name = Amatic :   Game Name =  Admiral Nelson :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Admiral.jpg
+2022-10-27 17:42:32,803 [main] ERROR craftBet - 233   Game Provider Name = MG :   Game Name =  AllWinFC :   cod = 404:   src = https://resources.craftbet.la/products/amatic/AllwaysWin.jpg
+2022-10-27 17:42:35,242 [main] ERROR craftBet - 241   Game Provider Name = WACS :   Game Name =  Amaze India :   cod = 404:   src = https://resources.craftbet.la/products/amatic/AllWaysFruits.jpg
+2022-10-27 17:42:42,432 [main] ERROR craftBet - 258   Game Provider Name = MG :   Game Name =  American Roulette :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 17:44:14,091 [main] ERROR craftBet - 324   Game Provider Name = Amatic :   Game Name =  Arising Phoenix :   cod = 404:   src = https://resources.craftbet.la/products/amatic/ArisingPhoenix.jpg
+2022-10-27 17:46:27,116 [main] ERROR craftBet - 376   Game Provider Name = Amatic :   Game Name =  Aztec Secret :   cod = 404:   src = https://resources.craftbet.la/products/amatic/AztecSecret.jpg
+2022-10-27 17:46:45,762 [main] ERROR craftBet - 437   Game Provider Name = Habanero :   Game Name =  BarnstormerBucks :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 17:47:01,262 [main] ERROR craftBet - 485   Game Provider Name = Amatic :   Game Name =  Bells on Fire :   cod = 404:   src = https://resources.craftbet.la/products/amatic/BellsonFire.jpg
+2022-10-27 17:47:10,777 [main] ERROR craftBet - 515   Game Provider Name = MG :   Game Name =  Big Thunder :   cod = 404:   src = https://resources.craftbet.la/products/amatic/BigPanda.jpg
+2022-10-27 17:47:19,062 [main] ERROR craftBet - 535   Game Provider Name = Amatic :   Game Name =  Billyonaire :   cod = 404:   src = https://resources.craftbet.la/products/amatic/BillysGame.jpg
+2022-10-27 17:47:19,321 [main] ERROR craftBet - 536   Game Provider Name = Amatic :   Game Name =  Billyonaire :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Billyonaire.jpg
+2022-10-27 17:47:22,885 [main] ERROR craftBet - 548   Game Provider Name = PlaysonDirect :   Game Name =  Black Jack :   cod = 404:   src = https://resources.craftbet.la/products/amatic/BlackJack.jpg
+2022-10-27 17:47:37,227 [main] ERROR craftBet - 597   Game Provider Name = Amatic :   Game Name =  Blue Dolphin :   cod = 404:   src = https://resources.craftbet.la/products/amatic/BlueDolphin.jpg
+2022-10-27 17:47:45,803 [main] ERROR craftBet - 627   Game Provider Name = ISoftBet :   Game Name =  Book of Cai Shen :   cod = 404:   src = https://resources.craftbet.la/products/amatic/BookofAztec.jpg
+2022-10-27 17:47:51,498 [main] ERROR craftBet - 646   Game Provider Name = Amatic :   Game Name =  Book of Fortune :   cod = 404:   src = https://resources.craftbet.la/products/amatic/BookofFortune.jpg
+2022-10-27 17:48:11,700 [main] ERROR craftBet - 712   Game Provider Name = Spinomenal :   Game Name =  BookOfRebirth :   cod = 404:   src = https://resources.craftbet.la/products/greentube/mobile/book-of-ra-deluxe.png
+2022-10-27 17:48:59,704 [main] ERROR craftBet - 846   Game Provider Name = PragmaticPlay :   Game Name =  Cash Bonanza :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Casinova.png
+2022-10-27 17:49:10,727 [main] ERROR craftBet - 882   Game Provider Name = Amatic :   Game Name =  Casinova :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Casinova.png
+2022-10-27 17:49:45,900 [main] ERROR craftBet - 994   Game Provider Name = NetEnt :   Game Name =  Colossal Pinatas :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 17:49:49,781 [main] ERROR craftBet - 1006   Game Provider Name = Amatic :   Game Name =  Cool Diamonds II :   cod = 404:   src = https://resources.craftbet.la/products/amatic/CoolDiamondsII.jpg
+2022-10-27 17:50:39,551 [main] ERROR craftBet - 1128   Game Provider Name = Genii :   Game Name =  Deuces Wild :   cod = 404:   src = https://resources.craftbet.la/products/amatic/DeucesWild.jpg
+2022-10-27 17:50:43,808 [main] ERROR craftBet - 1142   Game Provider Name = Amatic :   Game Name =  Diamond Cats :   cod = 404:   src = https://resources.craftbet.la/products/amatic/DiamondCats.jpg
+2022-10-27 17:50:47,862 [main] ERROR craftBet - 1155   Game Provider Name = Amatic :   Game Name =  Diamond Monkey :   cod = 404:   src = https://resources.craftbet.la/products/amatic/DiamondMonkey.jpg
+2022-10-27 17:50:49,640 [main] ERROR craftBet - 1160   Game Provider Name = NucleusGaming :   Game Name =  Diamond Strip :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 17:50:53,818 [main] ERROR craftBet - 1171   Game Provider Name = Amatic :   Game Name =  Diamonds on Fire :   cod = 404:   src = https://resources.craftbet.la/products/amatic/DiamondsonFire.jpg
+2022-10-27 17:51:22,744 [main] ERROR craftBet - 1236   Game Provider Name = TomHorn :   Game Name =  Dragon Egg :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 17:51:28,135 [main] ERROR craftBet - 1248   Game Provider Name = TomHorn :   Game Name =  Dragon vs Phoenix :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 17:51:38,648 [main] ERROR craftBet - 1267   Game Provider Name = Amatic :   Game Name =  Dragons Kingdom :   cod = 404:   src = https://agstatic.com/games/mg/dragons_?ache.jpg
+2022-10-27 17:51:39,246 [main] ERROR craftBet - 1268   Game Provider Name = Amatic :   Game Name =  Dragons Kingdom :   cod = 404:   src = https://resources.craftbet.la/products/amatic/DragonsKingdom.jpg
+2022-10-27 17:51:40,892 [main] ERROR craftBet - 1273   Game Provider Name = Amatic :   Game Name =  Dragon's Pearl :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Dragonspearl.jpg
+2022-10-27 17:52:41,557 [main] ERROR craftBet - 1444   Game Provider Name = Amatic :   Game Name =  Eye of Ra :   cod = 404:   src = https://resources.craftbet.la/products/amatic/EyeofRa.jpg
+2022-10-27 17:53:00,679 [main] ERROR craftBet - 1488   Game Provider Name = MG :   Game Name =  Fire Forge :   cod = 404:   src = https://resources.craftbet.la/products/amatic/FireAndIce.jpg
+2022-10-27 17:53:38,171 [main] ERROR craftBet - 1572   Game Provider Name = Amatic :   Game Name =  Fortuna's Fruits :   cod = 404:   src = https://resources.craftbet.la/products/amatic/FortunasFruits.jpg
+2022-10-27 17:54:02,914 [main] ERROR craftBet - 1629   Game Provider Name = NucleusGaming :   Game Name =  Fruit Serenity :   cod = 404:   src = https://resources.craftbet.la/products/amatic/FruitPoker.jpg
+2022-10-27 17:55:16,823 [main] ERROR craftBet - 1801   Game Provider Name = Betsoft :   Game Name =  Gold Tiger Ascent :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 17:55:21,389 [main] ERROR craftBet - 1812   Game Provider Name = ISoftBet :   Game Name =  Golden Buffalo Double Up :   cod = 404:   src = https://resources.craftbet.la/products/amatic/GoldenBook.jpg
+2022-10-27 17:55:57,694 [main] ERROR craftBet - 1894   Game Provider Name = RedTiger :   Game Name =  grandwheel :   cod = 404:   src = https://resources.craftbet.la/products/amatic/GrandTiger.jpg
+2022-10-27 17:55:58,318 [main] ERROR craftBet - 1896   Game Provider Name = Habanero :   Game Name =  GrapeEscape :   cod = 404:   src = https://resources.craftbet.la/products/amatic/GrandX.jpg
+2022-10-27 17:56:21,792 [main] ERROR craftBet - 1946   Game Provider Name = Wazdan :   Game Name =  HauntedHospital :   cod = 403:   src = https://agstatic.com/games/leander/?attrick_?eroes.jpg
+2022-10-27 17:56:47,510 [main] ERROR craftBet - 2004   Game Provider Name = Amatic :   Game Name =  Hot 81 :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Hot7.jpg
+2022-10-27 17:56:47,808 [main] ERROR craftBet - 2005   Game Provider Name = PlaynGo :   Game Name =  Hot Bingo :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Hot81.jpg
+2022-10-27 17:56:50,510 [main] ERROR craftBet - 2012   Game Provider Name = Amatic :   Game Name =  Hot Diamonds :   cod = 404:   src = https://resources.craftbet.la/products/amatic/HotDiamonds.jpg
+2022-10-27 17:56:51,893 [main] ERROR craftBet - 2016   Game Provider Name = PragmaticPlay :   Game Name =  Hot Safari 50,000 :   cod = 404:   src = https://resources.craftbet.la/products/amatic/HotNeon.jpg
+2022-10-27 17:56:52,462 [main] ERROR craftBet - 2018   Game Provider Name = Amatic :   Game Name =  Hot Scatter :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 17:56:52,742 [main] ERROR craftBet - 2019   Game Provider Name = Amatic :   Game Name =  Hot Seven :   cod = 404:   src = https://resources.craftbet.la/products/amatic/HotScatter.jpg
+2022-10-27 17:56:56,758 [main] ERROR craftBet - 2029   Game Provider Name = PragmaticPlay :   Game Name =  Hot to burn :   cod = 404:   src = https://resources.craftbet.la/products/amatic/HotStar.jpg
+2022-10-27 17:56:57,776 [main] ERROR craftBet - 2032   Game Provider Name = Amatic :   Game Name =  Hot Twenty :   cod = 404:   src = https://resources.craftbet.la/products/amatic/HotTwenty.jpg
+2022-10-27 17:57:33,179 [main] ERROR craftBet - 2116   Game Provider Name = PlaynGo :   Game Name =  InfernoJoker :   cod = 404:   src = https://agstatic.com/games/mg/inferno_gladiator.jpg
+2022-10-27 17:57:46,967 [main] ERROR craftBet - 2149   Game Provider Name = MG :   Game Name =  Jackpot Cherries Pull Tab :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 17:57:49,306 [main] ERROR craftBet - 2155   Game Provider Name = Genii :   Game Name =  Jacks or Better :   cod = 404:   src = https://resources.craftbet.la/products/amatic/JacksorBetter.jpg
+2022-10-27 17:57:50,821 [main] ERROR craftBet - 2159   Game Provider Name = Platipus :   Game Name =  Jacks or Better :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 17:58:11,605 [main] ERROR craftBet - 2209   Game Provider Name = Platipus :   Game Name =  Joker Chase :   cod = 404:   src = https://resources.craftbet.la/products/amatic/JokerCardPoker.jpg
+2022-10-27 17:59:07,634 [main] ERROR craftBet - 2338   Game Provider Name = TomHorn :   Game Name =  La Tomatina :   cod = 404:   src = https://resources.craftbet.la/products/amatic/LaGranAventura.jpg
+2022-10-27 17:59:08,724 [main] ERROR craftBet - 2341   Game Provider Name = Amatic :   Game Name =  Lady Joker :   cod = 404:   src = https://resources.craftbet.la/products/amatic/LadyJoker.jpg
+2022-10-27 18:00:02,397 [main] ERROR craftBet - 2461   Game Provider Name = Amatic :   Game Name =  Lovely Lady :   cod = 404:   src = https://resources.craftbet.la/products/amatic/LovelyLady.jpg
+2022-10-27 18:00:05,975 [main] ERROR craftBet - 2470   Game Provider Name = Evoplay :   Game Name =  Lucky Card :   cod = 404:   src = https://resources.craftbet.la/products/amatic/LuckyBells.jpg
+2022-10-27 18:00:09,327 [main] ERROR craftBet - 2478   Game Provider Name = Amatic :   Game Name =  Lucky Coin :   cod = 404:   src = https://resources.craftbet.la/products/amatic/LuckyCoin.jpg
+2022-10-27 18:00:23,089 [main] ERROR craftBet - 2511   Game Provider Name = Apollo :   Game Name =  Lucky81 :   cod = 404:   src = https://resources.craftbet.la/products/amatic/LuckyZodiac.jpg
+2022-10-27 18:00:47,006 [main] ERROR craftBet - 2567   Game Provider Name = Amatic :   Game Name =  Magic Idol :   cod = 404:   src = https://resources.craftbet.la/products/amatic/MagicForest.jpg
+2022-10-27 18:00:47,289 [main] ERROR craftBet - 2568   Game Provider Name = Amatic :   Game Name =  Magic Idol :   cod = 404:   src = https://resources.craftbet.la/products/amatic/MagicIdol.jpg
+2022-10-27 18:00:50,854 [main] ERROR craftBet - 2577   Game Provider Name = Wazdan :   Game Name =  Magic Poker :   cod = 404:   src = https://resources.craftbet.la/products/amatic/MagicOwl.jpg
+2022-10-27 18:01:38,020 [main] ERROR craftBet - 2687   Game Provider Name = Amatic :   Game Name =  Mermaid's Gold :   cod = 404:   src = https://resources.craftbet.la/products/amatic/MermaidsGold.jpg
+2022-10-27 18:01:39,952 [main] ERROR craftBet - 2692   Game Provider Name = PlaynGo :   Game Name =  MerryXmas :   cod = 404:   src = https://resources.craftbet.la/products/amatic/MerryFruits.jpg
+2022-10-27 18:02:34,880 [main] ERROR craftBet - 2803   Game Provider Name = Amatic :   Game Name =  Multi-Card Win Triple :   cod = 404:   src = https://resources.craftbet.la/products/amatic/MultiCardWin.jpg
+2022-10-27 18:02:35,168 [main] ERROR craftBet - 2804   Game Provider Name = MG :   Game Name =  Multifire Roulette :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Multi-CardWinTriple.jpg
+2022-10-27 18:03:31,787 [main] ERROR craftBet - 2953   Game Provider Name = MG :   Game Name =  Panda King :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 18:03:37,260 [main] ERROR craftBet - 2971   Game Provider Name = RedTiger :   Game Name =  pathofdestiny :   cod = 404:   src = https://resources.craftbet.la/products/amatic/PartyTime.jpg
+2022-10-27 18:04:42,422 [main] ERROR craftBet - 3185   Game Provider Name = WorldMatch :   Game Name =  Rainbow HD :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 18:04:49,833 [main] ERROR craftBet - 3210   Game Provider Name = Betsoft :   Game Name =  Red Dog :   cod = 404:   src = https://resources.craftbet.la/products/amatic/RedChilli.jpg
+2022-10-27 18:05:40,768 [main] ERROR craftBet - 3371   Game Provider Name = MG :   Game Name =  Roulette :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Roulette.jpg
+2022-10-27 18:05:47,862 [main] ERROR craftBet - 3392   Game Provider Name = Amatic :   Game Name =  Royal Unicorn :   cod = 404:   src = https://resources.craftbet.la/products/amatic/RoyalUnicorn.jpg
+2022-10-27 18:06:12,712 [main] ERROR craftBet - 3465   Game Provider Name = Booongo :   Game Name =  ScarabRiches :   cod = 404:   src = https://resources.craftbet.la/products/amatic/ScarabTreasure.jpg
+2022-10-27 18:07:14,939 [main] ERROR craftBet - 3641   Game Provider Name = PlaynGo :   Game Name =  SpaceRace :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 18:07:30,295 [main] ERROR craftBet - 3689   Game Provider Name = MG :   Game Name =  SpringBreak :   cod = 404:   src = https://resources.craftbet.la/products/iqsoft/sport.png
+2022-10-27 18:08:21,578 [main] ERROR craftBet - 3851   Game Provider Name = PragmaticPlay :   Game Name =  Sweet Bonanza Xmas :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 18:09:29,268 [main] ERROR craftBet - 4056   Game Provider Name = QuickSpin :   Game Name =  TickettotheStars :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 18:10:07,495 [main] ERROR craftBet - 4177   Game Provider Name = Amatic :   Game Name =  Twenty Seven :   cod = 404:   src = https://resources.craftbet.la/products/amatic/TweetyBirds.jpg
+2022-10-27 18:10:07,782 [main] ERROR craftBet - 4178   Game Provider Name = MG :   Game Name =  Twice the Money :   cod = 404:   src = https://resources.craftbet.la/products/amatic/TwentySeven.jpg
+2022-10-27 18:10:13,088 [main] ERROR craftBet - 4193   Game Provider Name = Platipus :   Game Name =  Un Dia De Muertos :   cod = 404:   src = https://resources.craftbet.la/products/amatic/UltraSeven.jpg
+2022-10-27 18:10:22,358 [main] ERROR craftBet - 4220   Game Provider Name = Edict :   Game Name =  Vampires :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Vampires.jpg
+2022-10-27 18:11:00,847 [main] ERROR craftBet - 4342   Game Provider Name = NucleusGaming :   Game Name =  Wild Adventures :   cod = 404:   src = https://resources.craftbet.la/products/amatic/Wild7.jpg
+2022-10-27 18:11:02,712 [main] ERROR craftBet - 4347   Game Provider Name = BoomingGames :   Game Name =  Wild Bonus Re-Spins :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 18:11:04,883 [main] ERROR craftBet - 4354   Game Provider Name = Betsoft :   Game Name =  Wild Drops :   cod = 404:   src = https://resources.craftbet.la/products/amatic/WildDragon.jpg
+2022-10-27 18:11:12,837 [main] ERROR craftBet - 4379   Game Provider Name = Spinomenal :   Game Name =  Wild Santa Dice :   cod = 404:   src = https://resources.craftbet.la/products/amatic/WildRespin.jpg
+2022-10-27 18:11:13,503 [main] ERROR craftBet - 4381   Game Provider Name = Amatic :   Game Name =  Wild Stars :   cod = 404:   src = https://resources.craftbet.la/products/amatic/WildShark.jpg
+2022-10-27 18:11:13,827 [main] ERROR craftBet - 4382   Game Provider Name = Amatic :   Game Name =  Wild Stars :   cod = 404:   src = https://resources.craftbet.la/products/amatic/WildStars.jpg
+2022-10-27 18:11:53,720 [main] ERROR craftBet - 4499   Game Provider Name = PragmaticPlay :   Game Name =  Wolf Gold 1,000,000 :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 18:11:54,420 [main] ERROR craftBet - 4500   Game Provider Name = Evoplay :   Game Name =  Wolf Hiding :   cod = 403:   src = https://resources.craftbet.la/products/
+2022-10-27 18:11:55,589 [main] ERROR craftBet - 4504   Game Provider Name = Amatic :   Game Name =  Wolf Moon :   cod = 404:   src = https://resources.craftbet.la/products/amatic/WolfMoon.jpg
+2022-10-27 18:12:24,449 [main] INFO craftBet - Broken images are:  89
+2022-10-27 18:12:26,743 [main] INFO craftBet - Browser closed
+2022-10-27 18:12:26,744 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-10-27 18:12:26,747 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-10-27 18:12:27,292 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.32.0 (resolved driver for Firefox 105)
+2022-10-27 18:12:27,301 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\user\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+2022-10-27 18:12:33,091 [main] INFO craftBet - URL: https://craftbet.la  Browser: firefox
+2022-10-27 18:12:33,097 [main] INFO craftBet - All Page elements are initialized
+2022-10-27 18:12:35,881 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-10-27 18:12:38,117 [main] INFO craftBet - username passed
+2022-10-27 18:12:38,182 [main] INFO craftBet - password passed
+2022-10-27 18:12:38,475 [main] INFO craftBet - Log In Button was clicked
+2022-11-02 19:09:33,669 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-11-02 19:09:34,504 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.32.0 (resolved driver for Firefox 105)
+2022-11-02 19:09:34,531 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\user\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+2022-11-02 19:09:37,727 [main] INFO craftBet - URL: https://vikwin.com  Browser: firefox
+2022-11-02 19:09:37,918 [main] INFO craftBet - All Page elements are initialized
+2022-11-02 19:09:38,491 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-11-02 19:09:43,406 [main] INFO craftBet - Get games Api call was sent
+2022-11-02 19:09:43,450 [main] INFO craftBet - Get games Api Response was captured
+2022-11-02 19:09:43,468 [main] INFO craftBet - Dupliicate game Name =  Adventure Palace
+2022-11-02 19:09:43,468 [main] INFO craftBet - Dupliicate game Name =  Agent Jane Blonde
+2022-11-02 19:09:43,469 [main] INFO craftBet - Dupliicate game Name =  Alaskan Fishing
+2022-11-02 19:09:43,471 [main] INFO craftBet - Dupliicate game Name =  Amazing Amazonia
+2022-11-02 19:09:43,471 [main] INFO craftBet - Dupliicate game Name =  American Roulette
+2022-11-02 19:09:43,472 [main] INFO craftBet - Dupliicate game Name =  Asian Beauty
+2022-11-02 19:09:43,472 [main] INFO craftBet - Dupliicate game Name =  Avalon
+2022-11-02 19:09:43,473 [main] INFO craftBet - Dupliicate game Name =  Basketball Star
+2022-11-02 19:09:43,475 [main] INFO craftBet - Dupliicate game Name =  Blood Suckers
+2022-11-02 19:09:43,475 [main] INFO craftBet - Dupliicate game Name =  Blue Heart
+2022-11-02 19:09:43,477 [main] INFO craftBet - Dupliicate game Name =  Breakaway
+2022-11-02 19:09:43,478 [main] INFO craftBet - Dupliicate game Name =  Burning Desire
+2022-11-02 19:09:43,478 [main] INFO craftBet - Dupliicate game Name =  Burning Hot
+2022-11-02 19:09:43,478 [main] INFO craftBet - Dupliicate game Name =  Cashapillar
+2022-11-02 19:09:43,479 [main] INFO craftBet - Dupliicate game Name =  Cool Wolf
+2022-11-02 19:09:43,479 [main] INFO craftBet - Dupliicate game Name =  Dead or Alive
+2022-11-02 19:09:43,479 [main] INFO craftBet - Dupliicate game Name =  Deck the Halls
+2022-11-02 19:09:43,480 [main] INFO craftBet - Dupliicate game Name =  Deuces Wild
+2022-11-02 19:09:43,480 [main] INFO craftBet - Dupliicate game Name =  Dolphin Quest
+2022-11-02 19:09:43,480 [main] INFO craftBet - Dupliicate game Name =  Dragon Reels
+2022-11-02 19:09:43,481 [main] INFO craftBet - Dupliicate game Name =  Dragonz
+2022-11-02 19:09:43,481 [main] INFO craftBet - Dupliicate game Name =  Eagles Wings
+2022-11-02 19:09:43,481 [main] INFO craftBet - Dupliicate game Name =  Eggomatic
+2022-11-02 19:09:43,481 [main] INFO craftBet - Dupliicate game Name =  Elements
+2022-11-02 19:09:43,482 [main] INFO craftBet - Dupliicate game Name =  Emperor of the Sea
+2022-11-02 19:09:43,482 [main] INFO craftBet - Dupliicate game Name =  Excalibur
+2022-11-02 19:09:43,483 [main] INFO craftBet - Dupliicate game Name =  Flaming Hot
+2022-11-02 19:09:43,483 [main] INFO craftBet - Dupliicate game Name =  Fortune Spells
+2022-11-02 19:09:43,483 [main] INFO craftBet - Dupliicate game Name =  French Roulette
+2022-11-02 19:09:43,484 [main] INFO craftBet - Dupliicate game Name =  Game of Thrones
+2022-11-02 19:09:43,484 [main] INFO craftBet - Dupliicate game Name =  Ghost Pirates
+2022-11-02 19:09:43,485 [main] INFO craftBet - Dupliicate game Name =  Glow
+2022-11-02 19:09:43,485 [main] INFO craftBet - Dupliicate game Name =  Gods of Giza
+2022-11-02 19:09:43,485 [main] INFO craftBet - Dupliicate game Name =  Grace of Cleopatra
+2022-11-02 19:09:43,485 [main] INFO craftBet - Dupliicate game Name =  Huangdi Yellow Emperor
+2022-11-02 19:09:43,486 [main] INFO craftBet - Dupliicate game Name =  Immortal Romance
+2022-11-02 19:09:43,486 [main] INFO craftBet - Dupliicate game Name =  Isis
+2022-11-02 19:09:43,486 [main] INFO craftBet - Dupliicate game Name =  Jack & Beanstalk
+2022-11-02 19:09:43,486 [main] INFO craftBet - Dupliicate game Name =  Jack Hammer
+2022-11-02 19:09:43,486 [main] INFO craftBet - Dupliicate game Name =  Jack Hammer 2
+2022-11-02 19:09:43,486 [main] INFO craftBet - Dupliicate game Name =  Jacks or Better
+2022-11-02 19:09:43,486 [main] INFO craftBet - Dupliicate game Name =  Jungle Jim Eldorado
+2022-11-02 19:09:43,487 [main] INFO craftBet - Dupliicate game Name =  Kathmandu
+2022-11-02 19:09:43,487 [main] INFO craftBet - Dupliicate game Name =  King of Cash
+2022-11-02 19:09:43,487 [main] INFO craftBet - Dupliicate game Name =  King of Slots
+2022-11-02 19:09:43,487 [main] INFO craftBet - Dupliicate game Name =  Lady in Red
+2022-11-02 19:09:43,487 [main] INFO craftBet - Dupliicate game Name =  Life of Riches
+2022-11-02 19:09:43,488 [main] INFO craftBet - Dupliicate game Name =  Lights
+2022-11-02 19:09:43,488 [main] INFO craftBet - Dupliicate game Name =  Loaded
+2022-11-02 19:09:43,488 [main] INFO craftBet - Dupliicate game Name =  Lotus Land
+2022-11-02 19:09:43,488 [main] INFO craftBet - Dupliicate game Name =  Lucky Angler
+2022-11-02 19:09:43,488 [main] INFO craftBet - Dupliicate game Name =  Lucky Koi
+2022-11-02 19:09:43,488 [main] INFO craftBet - Dupliicate game Name =  Lucky Twins
+2022-11-02 19:09:43,489 [main] INFO craftBet - Dupliicate game Name =  Magic Portals
+2022-11-02 19:09:43,489 [main] INFO craftBet - Dupliicate game Name =  Majestic Forest
+2022-11-02 19:09:43,489 [main] INFO craftBet - Dupliicate game Name =  Mayan Princess
+2022-11-02 19:09:43,489 [main] INFO craftBet - Dupliicate game Name =  Mermaids Millions
+2022-11-02 19:09:43,489 [main] INFO craftBet - Dupliicate game Name =  Mythic Maiden
+2022-11-02 19:09:43,490 [main] INFO craftBet - Dupliicate game Name =  Olympus Glory
+2022-11-02 19:09:43,490 [main] INFO craftBet - Dupliicate game Name =  Piggy Riches
+2022-11-02 19:09:43,490 [main] INFO craftBet - Dupliicate game Name =  Pistoleras
+2022-11-02 19:09:43,490 [main] INFO craftBet - Dupliicate game Name =  Pretty Kitty
+2022-11-02 19:09:43,490 [main] INFO craftBet - Dupliicate game Name =  Reel Rush
+2022-11-02 19:09:43,491 [main] INFO craftBet - Dupliicate game Name =  Reel Steal
+2022-11-02 19:09:43,491 [main] INFO craftBet - Dupliicate game Name =  Rise of Ra
+2022-11-02 19:09:43,491 [main] INFO craftBet - Dupliicate game Name =  Royal Secrets
+2022-11-02 19:09:43,491 [main] INFO craftBet - Dupliicate game Name =  Scrooge
+2022-11-02 19:09:43,491 [main] INFO craftBet - Dupliicate game Name =  Shining Crown
+2022-11-02 19:09:43,491 [main] INFO craftBet - Dupliicate game Name =  Silver Fang
+2022-11-02 19:09:43,492 [main] INFO craftBet - Dupliicate game Name =  Spellcast
+2022-11-02 19:09:43,492 [main] INFO craftBet - Dupliicate game Name =  Spinata Grande
+2022-11-02 19:09:43,492 [main] INFO craftBet - Dupliicate game Name =  Starburst
+2022-11-02 19:09:43,492 [main] INFO craftBet - Dupliicate game Name =  Stardust
+2022-11-02 19:09:43,492 [main] INFO craftBet - Dupliicate game Name =  Suntide
+2022-11-02 19:09:43,492 [main] INFO craftBet - Dupliicate game Name =  Supreme Hot
+2022-11-02 19:09:43,492 [main] INFO craftBet - Dupliicate game Name =  Thunderstruck
+2022-11-02 19:09:43,493 [main] INFO craftBet - Dupliicate game Name =  Thunderstruck II
+2022-11-02 19:09:43,493 [main] INFO craftBet - Dupliicate game Name =  Titans of the Sun: Heia
+2022-11-02 19:09:43,493 [main] INFO craftBet - Dupliicate game Name =  Titans of the Sun: Hyperion
+2022-11-02 19:09:43,493 [main] INFO craftBet - Dupliicate game Name =  Tomb Raider
+2022-11-02 19:09:43,493 [main] INFO craftBet - Dupliicate game Name =  Twin Spin
+2022-11-02 19:09:43,493 [main] INFO craftBet - Dupliicate game Name =  Ultimate Hot
+2022-11-02 19:09:43,493 [main] INFO craftBet - Dupliicate game Name =  Versailles Gold
+2022-11-02 19:09:43,493 [main] INFO craftBet - Dupliicate game Name =  Vikings
+2022-11-02 19:09:43,494 [main] INFO craftBet - Dupliicate game Name =  Wild Water
+2022-11-02 19:09:43,494 [main] INFO craftBet - Dupliicate game Name =  Witches Charm
+2022-11-02 19:09:43,494 [main] INFO craftBet - Dupliicate game Name =  Zodiac Wheel
+2022-11-02 19:09:43,494 [main] INFO craftBet - Duplicate games are:  87
+2022-11-02 19:09:44,895 [main] INFO craftBet - Browser closed
+2022-11-02 19:09:44,896 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-11-02 19:09:44,899 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-11-02 19:09:44,904 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.32.0 (resolved driver for Firefox 105)
+2022-11-02 19:09:44,914 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\user\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+2022-11-02 19:09:47,237 [main] INFO craftBet - URL: https://vikwin.com  Browser: firefox
+2022-11-02 19:09:47,241 [main] INFO craftBet - All Page elements are initialized
+2022-11-02 19:09:47,859 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-11-02 19:09:48,989 [main] INFO craftBet - Get games Api call was sent
+2022-11-02 19:09:49,007 [main] INFO craftBet - Get games Api Response was captured
+2022-11-02 19:09:49,017 [main] INFO craftBet - All captured games images was added into ArrayList
+2022-11-02 19:09:50,726 [main] ERROR craftBet - 10   Game Provider Name = PlaysonDirect :   Game Name =  3 Fruits Win :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:09:50,854 [main] ERROR craftBet - 11   Game Provider Name = EGT :   Game Name =  40 Burning Dice :   cod = 404:   src = https://resources.vikwin.com/products/egt/web/40_burning_dice.png
+2022-11-02 19:09:52,076 [main] ERROR craftBet - 16   Game Provider Name = Aristocrat :   Game Name =  5 Dragons :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:09:52,309 [main] ERROR craftBet - 18   Game Provider Name = Aristocrat :   Game Name =  5 Koi :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:09:52,973 [main] ERROR craftBet - 22   Game Provider Name = Aristocrat :   Game Name =  50 Lions :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:09:59,293 [main] ERROR craftBet - 49   Game Provider Name = NetEnt :   Game Name =  American Roulette :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/american_roulette.jpg
+2022-11-02 19:09:59,394 [main] ERROR craftBet - 50   Game Provider Name = NetEnt :   Game Name =  American Roulette :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/american_roulette_html.jpg
+2022-11-02 19:10:02,276 [main] ERROR craftBet - 71   Game Provider Name = Greentube :   Game Name =  Bars and Sevens :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/barsandsevens_gt_html.jpg
+2022-11-02 19:10:05,703 [main] ERROR craftBet - 96   Game Provider Name = Aristocrat :   Game Name =  Big Red :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:06,337 [main] ERROR craftBet - 100   Game Provider Name = Wazdan :   Game Name =  Black Hawk Deluxe :   cod = 404:   src = https://resources.vikwin.com/products/wazdan\web\bhd_wzdn.jpg
+2022-11-02 19:10:06,547 [main] ERROR craftBet - 102   Game Provider Name = NetEnt :   Game Name =  Black Jack 3 hands :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/blackjack_html.jpg
+2022-11-02 19:10:06,641 [main] ERROR craftBet - 103   Game Provider Name = NetEnt :   Game Name =  Blackjack Classic touch :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/blackjack_classic_touch.jpg
+2022-11-02 19:10:06,745 [main] ERROR craftBet - 104   Game Provider Name = NetEnt :   Game Name =  Blackjack Single Deck t. :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/blackjack_single_deck_touch.jpg
+2022-11-02 19:10:06,837 [main] ERROR craftBet - 105   Game Provider Name = NetEnt :   Game Name =  Blackjack touch :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/blackjack_touch.jpg
+2022-11-02 19:10:07,153 [main] ERROR craftBet - 108   Game Provider Name = NetEnt :   Game Name =  Blood Suckers :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/blood_suckers_touch.jpg
+2022-11-02 19:10:07,255 [main] ERROR craftBet - 109   Game Provider Name = NetEnt :   Game Name =  Blood Suckers :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/blood_suckers.jpg
+2022-11-02 19:10:07,357 [main] ERROR craftBet - 110   Game Provider Name = NetEnt :   Game Name =  Blood Suckers 2 :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/blood_suckers_2.jpg
+2022-11-02 19:10:08,103 [main] ERROR craftBet - 117   Game Provider Name = PlaynGo :   Game Name =  Book of Dead :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:08,308 [main] ERROR craftBet - 119   Game Provider Name = PlaysonDirect :   Game Name =  Book of Gold: Classic :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:08,413 [main] ERROR craftBet - 120   Game Provider Name = PlaysonDirect :   Game Name =  Book of Gold: Double Chance :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:08,510 [main] ERROR craftBet - 121   Game Provider Name = PlaysonDirect :   Game Name =  Book of Gold: Symbol Choice :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:08,944 [main] ERROR craftBet - 124   Game Provider Name = Greentube :   Game Name =  Book of Maya :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/bookofmaya_gt_html.jpg
+2022-11-02 19:10:09,528 [main] ERROR craftBet - 128   Game Provider Name = Greentube :   Game Name =  Book of Ra Classic :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/bookofraclassic_gt_html.jpg
+2022-11-02 19:10:10,482 [main] ERROR craftBet - 133   Game Provider Name = NetEnt :   Game Name =  Boom Brothers :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/boom_brothers.jpg
+2022-11-02 19:10:10,593 [main] ERROR craftBet - 134   Game Provider Name = Microgaming :   Game Name =  Booty Time :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/bootytime_mg_flash.jpg
+2022-11-02 19:10:11,058 [main] ERROR craftBet - 138   Game Provider Name = Microgaming :   Game Name =  Breakaway :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/breakaway_mg_flash.jpg
+2022-11-02 19:10:11,403 [main] ERROR craftBet - 140   Game Provider Name = Aristocrat :   Game Name =  Buffalo :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:11,718 [main] ERROR craftBet - 142   Game Provider Name = Greentube :   Game Name =  Bugs'n'Bees :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/bugsnbees_gt_html.jpg
+2022-11-02 19:10:11,820 [main] ERROR craftBet - 143   Game Provider Name = Greentube :   Game Name =  Bullion Bars :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/bullionbars_gt_html.jpg
+2022-11-02 19:10:12,676 [main] ERROR craftBet - 151   Game Provider Name = PlaysonDirect :   Game Name =  Burning Wins :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:13,289 [main] ERROR craftBet - 157   Game Provider Name = Greentube :   Game Name =  Caribbean Holidays :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/caribbeanholidays_gt_html.jpg
+2022-11-02 19:10:13,530 [main] ERROR craftBet - 159   Game Provider Name = WMG :   Game Name =  Cash Bunny :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:14,279 [main] ERROR craftBet - 166   Game Provider Name = NetEnt :   Game Name =  Champion of the track :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/champion.jpg
+2022-11-02 19:10:14,673 [main] ERROR craftBet - 170   Game Provider Name = Konami :   Game Name =  China Mystery :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:15,254 [main] ERROR craftBet - 174   Game Provider Name = PlaysonDirect :   Game Name =  Clover Riches :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:15,820 [main] ERROR craftBet - 178   Game Provider Name = QuickSpin :   Game Name =  Colossus :   cod = 404:   src = https://resources.vikwin.com/products/quickspin/web/qso_colossus.jpg
+2022-11-02 19:10:16,320 [main] ERROR craftBet - 182   Game Provider Name = Microgaming :   Game Name =  Cool Wolf :   cod = 404:   src = https://resources.vikwin.com/products/microgaming/web/coolwolf_mg_flash_html.jpg
+2022-11-02 19:10:16,423 [main] ERROR craftBet - 183   Game Provider Name = Microgaming :   Game Name =  Cool Wolf :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/coolwolf_mg_flash.jpg
+2022-11-02 19:10:16,642 [main] ERROR craftBet - 185   Game Provider Name = EGT :   Game Name =  Coral Island :   cod = 404:   src = https://resources.vikwin.com/products/egt/web/CoralIsland.png
+2022-11-02 19:10:17,176 [main] ERROR craftBet - 190   Game Provider Name = NetEnt :   Game Name =  Creature From The Black Lagoon :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/creature_from_the_black_lagoon.jpg
+2022-11-02 19:10:17,273 [main] ERROR craftBet - 191   Game Provider Name = NetEnt :   Game Name =  Crime Scene :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/crime_scene.jpg
+2022-11-02 19:10:17,470 [main] ERROR craftBet - 193   Game Provider Name = NetEnt :   Game Name =  Crusade of Fortune :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/crusade_of_fortune.jpg
+2022-11-02 19:10:17,974 [main] ERROR craftBet - 196   Game Provider Name = NetEnt :   Game Name =  Dazzle Me :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/dazzle_me.jpg
+2022-11-02 19:10:18,187 [main] ERROR craftBet - 198   Game Provider Name = NetEnt :   Game Name =  Dead or Alive :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/dead_or_alive_html.jpg
+2022-11-02 19:10:18,282 [main] ERROR craftBet - 199   Game Provider Name = NetEnt :   Game Name =  Dead or Alive :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/dead_or_alive.jpg
+2022-11-02 19:10:18,898 [main] ERROR craftBet - 205   Game Provider Name = Konami :   Game Name =  Destiny of Athena :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:18,991 [main] ERROR craftBet - 206   Game Provider Name = NetEnt :   Game Name =  Deuces Wild :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/deuces_wild_poker.jpg
+2022-11-02 19:10:19,089 [main] ERROR craftBet - 207   Game Provider Name = NetEnt :   Game Name =  Deuces Wild :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/deuces_wild_poker_25_hands.jpg
+2022-11-02 19:10:19,284 [main] ERROR craftBet - 209   Game Provider Name = NetEnt :   Game Name =  Devil`s Delight :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/devils_delight.jpg
+2022-11-02 19:10:19,544 [main] ERROR craftBet - 211   Game Provider Name = NetEnt :   Game Name =  Diamond Dogs :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/diamond_dogs.jpg
+2022-11-02 19:10:21,455 [main] ERROR craftBet - 216   Game Provider Name = EGT :   Game Name =  Dice & Roll :   cod = 404:   src = https://resources.vikwin.com/products/egt/web/DiceandRoll.png
+2022-11-02 19:10:21,715 [main] ERROR craftBet - 218   Game Provider Name = EGT :   Game Name =  Dice Of Ra :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:22,087 [main] ERROR craftBet - 221   Game Provider Name = QuickSpin :   Game Name =  Divine Dreams :   cod = 404:   src = https://resources.vikwin.com/products/quickspin/web/DivineDreams.png
+2022-11-02 19:10:22,492 [main] ERROR craftBet - 224   Game Provider Name = Aristocrat :   Game Name =  Dolphin Treasure :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:22,922 [main] ERROR craftBet - 228   Game Provider Name = Aristocrat :   Game Name =  Double Happiness :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:23,251 [main] ERROR craftBet - 231   Game Provider Name = NetEnt :   Game Name =  Dracula :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/dracula.jpg
+2022-11-02 19:10:23,379 [main] ERROR craftBet - 232   Game Provider Name = NetEnt :   Game Name =  Dracula touch :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/dracula_touch.jpg
+2022-11-02 19:10:24,760 [main] ERROR craftBet - 243   Game Provider Name = Microgaming :   Game Name =  Dragonz :   cod = 404:   src = https://resources.vikwin.com/products/microgaming/web/mobbet/dragonz_mg_html.jpg
+2022-11-02 19:10:24,850 [main] ERROR craftBet - 244   Game Provider Name = Microgaming :   Game Name =  Dragonz :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/dragonz_mg_flash.jpg
+2022-11-02 19:10:25,055 [main] ERROR craftBet - 246   Game Provider Name = NetEnt :   Game Name =  Drive Multiplier Mayhem :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/drive_multiplier_mayhem.jpg
+2022-11-02 19:10:25,997 [main] ERROR craftBet - 252   Game Provider Name = PlaynGo :   Game Name =  Easter Eggs :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:26,723 [main] ERROR craftBet - 257   Game Provider Name = NetEnt :   Game Name =  Elements :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/elements_html.jpg
+2022-11-02 19:10:27,620 [main] ERROR craftBet - 264   Game Provider Name = NetEnt :   Game Name =  Excalibur :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/excalibur.jpg
+2022-11-02 19:10:28,531 [main] ERROR craftBet - 270   Game Provider Name = Greentube :   Game Name =  Fairy Queen :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/fairyqueen_gt_html.jpg
+2022-11-02 19:10:29,401 [main] ERROR craftBet - 277   Game Provider Name = PlaynGo :   Game Name =  Fire Joker :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:29,520 [main] ERROR craftBet - 278   Game Provider Name = Aristocrat :   Game Name =  Fire Light :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:30,907 [main] ERROR craftBet - 283   Game Provider Name = NetEnt :   Game Name =  Fisticuffs :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/fisticuffs.jpg
+2022-11-02 19:10:31,098 [main] ERROR craftBet - 285   Game Provider Name = Aristocrat :   Game Name =  Flame Of Olympus :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:31,320 [main] ERROR craftBet - 287   Game Provider Name = EGT :   Game Name =  Flaming Dice :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:31,704 [main] ERROR craftBet - 291   Game Provider Name = NetEnt :   Game Name =  Flowers :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/flowers.jpg
+2022-11-02 19:10:31,790 [main] ERROR craftBet - 292   Game Provider Name = NetEnt :   Game Name =  Flowers Christmas Edition :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/flowers_christmas.jpg
+2022-11-02 19:10:31,879 [main] ERROR craftBet - 293   Game Provider Name = NetEnt :   Game Name =  Flowers touch :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/flowers_touch.jpg
+2022-11-02 19:10:31,975 [main] ERROR craftBet - 294   Game Provider Name = NetEnt :   Game Name =  Football: Champions Cup :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/football.jpg
+2022-11-02 19:10:32,797 [main] ERROR craftBet - 301   Game Provider Name = Konami :   Game Name =  Fortune Stacks :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:32,893 [main] ERROR craftBet - 302   Game Provider Name = NetEnt :   Game Name =  FortuneTeller :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/fortuneteller.jpg
+2022-11-02 19:10:33,091 [main] ERROR craftBet - 304   Game Provider Name = NetEnt :   Game Name =  Frankenstein touch :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/frankenstein_touch.jpg
+2022-11-02 19:10:33,183 [main] ERROR craftBet - 305   Game Provider Name = NetEnt :   Game Name =  French Roulette :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/french_roulette.jpg
+2022-11-02 19:10:33,274 [main] ERROR craftBet - 306   Game Provider Name = NetEnt :   Game Name =  French Roulette :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/french_roulette_html.jpg
+2022-11-02 19:10:33,971 [main] ERROR craftBet - 313   Game Provider Name = NetEnt :   Game Name =  Fruit Shop :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/fruitshop_touch.jpg
+2022-11-02 19:10:34,164 [main] ERROR craftBet - 315   Game Provider Name = PlaysonDirect :   Game Name =  Fruit Supreme :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:34,255 [main] ERROR craftBet - 316   Game Provider Name = PlaysonDirect :   Game Name =  Fruit Xtreme :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:34,349 [main] ERROR craftBet - 317   Game Provider Name = PlaysonDirect :   Game Name =  Fruits & Clovers: 20 lines :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:34,443 [main] ERROR craftBet - 318   Game Provider Name = PlaysonDirect :   Game Name =  Fruits & Jokers: 100 lines :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:34,532 [main] ERROR craftBet - 319   Game Provider Name = PlaysonDirect :   Game Name =  Fruits & Jokers: 20 lines :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:34,614 [main] ERROR craftBet - 320   Game Provider Name = PlaysonDirect :   Game Name =  Fruits & Jokers: 40 lines :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:34,793 [main] ERROR craftBet - 322   Game Provider Name = PlaysonDirect :   Game Name =  Fruits 'n' Stars :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:34,894 [main] ERROR craftBet - 323   Game Provider Name = PlaysonDirect :   Game Name =  Fruits 'n' Stars Holiday Edition :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:34,984 [main] ERROR craftBet - 324   Game Provider Name = PlaysonDirect :   Game Name =  Fruits of the Nile :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:35,084 [main] ERROR craftBet - 325   Game Provider Name = NetEnt :   Game Name =  Fruitshop Christmas Edition :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/fruitshop_christmas.jpg
+2022-11-02 19:10:35,434 [main] ERROR craftBet - 327   Game Provider Name = Greentube :   Game Name =  Frutilicious :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/fruitilicious_gt_html.jpg
+2022-11-02 19:10:36,715 [main] ERROR craftBet - 338   Game Provider Name = Aristocrat :   Game Name =  Geisha :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:37,187 [main] ERROR craftBet - 341   Game Provider Name = NetEnt :   Game Name =  Ghost Pirates :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/ghost_pirates.jpg
+2022-11-02 19:10:38,262 [main] ERROR craftBet - 350   Game Provider Name = PlaysonDirect :   Game Name =  God of Wild Sea :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:39,876 [main] ERROR craftBet - 362   Game Provider Name = Konami :   Game Name =  Golden Wolves :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:39,983 [main] ERROR craftBet - 363   Game Provider Name = QuickSpin :   Game Name =  Goldilocks & Wild Bears :   cod = 404:   src = https://resources.vikwin.com/products/quickspin/web/qso_goldilocks2.jpg
+2022-11-02 19:10:40,094 [main] ERROR craftBet - 364   Game Provider Name = NetEnt :   Game Name =  Gonzos Quest :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/gonzos_quest_touch.jpg
+2022-11-02 19:10:41,156 [main] ERROR craftBet - 374   Game Provider Name = Greentube :   Game Name =  Gryphon`s Gold Deluxe :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/gryphonsgolddeluxe_gt_html.jpg
+2022-11-02 19:10:41,345 [main] ERROR craftBet - 376   Game Provider Name = NetEnt :   Game Name =  Guns 'N' Roses :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/guns_and_roses.jpg
+2022-11-02 19:10:41,442 [main] ERROR craftBet - 377   Game Provider Name = Konami :   Game Name =  Gypsy Fire :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:41,767 [main] ERROR craftBet - 380   Game Provider Name = PlaynGo :   Game Name =  Happy Halloween :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:42,116 [main] ERROR craftBet - 383   Game Provider Name = WMG :   Game Name =  Haunted House :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:42,237 [main] ERROR craftBet - 384   Game Provider Name = WMG :   Game Name =  Haunted House Rest In Paradise :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:42,335 [main] ERROR craftBet - 385   Game Provider Name = Konami :   Game Name =  Heart Of Romance :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:43,467 [main] ERROR craftBet - 395   Game Provider Name = NetEnt :   Game Name =  Hook's Heroes :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/hooks_heroes.jpg
+2022-11-02 19:10:44,840 [main] ERROR craftBet - 402   Game Provider Name = NetEnt :   Game Name =  Hot City :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/hot_city.jpg
+2022-11-02 19:10:48,302 [main] ERROR craftBet - 421   Game Provider Name = Kajot :   Game Name =  Ice Bar 27 :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:48,394 [main] ERROR craftBet - 422   Game Provider Name = QuickSpin :   Game Name =  Illuminous :   cod = 404:   src = https://resources.vikwin.com/products/quickspin/web/qso_illuminous.jpg
+2022-11-02 19:10:48,779 [main] ERROR craftBet - 425   Game Provider Name = PlaysonDirect :   Game Name =  Imperial Fruits: 100 Lines :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:48,871 [main] ERROR craftBet - 426   Game Provider Name = PlaysonDirect :   Game Name =  Imperial Fruits: 40 Lines :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:48,992 [main] ERROR craftBet - 427   Game Provider Name = PlaysonDirect :   Game Name =  Imperial Fruits: 5 Lines :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:49,097 [main] ERROR craftBet - 428   Game Provider Name = Konami :   Game Name =  Imperial Wealth :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:49,718 [main] ERROR craftBet - 433   Game Provider Name = PlaynGo :   Game Name =  Inferno Star :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:49,833 [main] ERROR craftBet - 434   Game Provider Name = RelaxGaming :   Game Name =  Iron Bank :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/ironbank_rg.jpg
+2022-11-02 19:10:50,670 [main] ERROR craftBet - 440   Game Provider Name = NetEnt :   Game Name =  Jack & Beanstalk :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/jack_and_the_beanstalk_touch.jpg
+2022-11-02 19:10:50,875 [main] ERROR craftBet - 442   Game Provider Name = NetEnt :   Game Name =  Jack Hammer :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/jack_hammer_touch.jpg
+2022-11-02 19:10:50,981 [main] ERROR craftBet - 443   Game Provider Name = NetEnt :   Game Name =  Jack Hammer :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/jack_hammer.jpg
+2022-11-02 19:10:51,109 [main] ERROR craftBet - 444   Game Provider Name = NetEnt :   Game Name =  Jack Hammer 2 :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/jack_hammer_2_touch.jpg
+2022-11-02 19:10:51,210 [main] ERROR craftBet - 445   Game Provider Name = NetEnt :   Game Name =  Jack Hammer 2 :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/jack_hammer_2.jpg
+2022-11-02 19:10:51,588 [main] ERROR craftBet - 448   Game Provider Name = NetEnt :   Game Name =  Jacks or Better :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/jacks_or_better.jpg
+2022-11-02 19:10:51,699 [main] ERROR craftBet - 449   Game Provider Name = NetEnt :   Game Name =  Jacks or Better :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/jacks_or_better_5_hands.jpg
+2022-11-02 19:10:51,792 [main] ERROR craftBet - 450   Game Provider Name = Aristocrat :   Game Name =  Jaguar Mist :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:52,457 [main] ERROR craftBet - 455   Game Provider Name = NetEnt :   Game Name =  Jimi Hendrix :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/jimi_hendrix.jpg
+2022-11-02 19:10:53,137 [main] ERROR craftBet - 460   Game Provider Name = PlaysonDirect :   Game Name =  Juice and Fruits :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:53,779 [main] ERROR craftBet - 466   Game Provider Name = NetEnt :   Game Name =  Jungle Spirit :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/jungle_spirit.jpg
+2022-11-02 19:10:54,744 [main] ERROR craftBet - 475   Game Provider Name = Greentube :   Game Name =  Keno plus 2Balls :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/kenoplustwoball_gt_html.jpg
+2022-11-02 19:10:54,838 [main] ERROR craftBet - 476   Game Provider Name = EGT :   Game Name =  Keno Universe :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/keno_universe_html.jpg
+2022-11-02 19:10:55,801 [main] ERROR craftBet - 485   Game Provider Name = NetEnt :   Game Name =  Koi Princess :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/koi_princess.jpg
+2022-11-02 19:10:55,988 [main] ERROR craftBet - 487   Game Provider Name = Microgaming :   Game Name =  Lady in Red :   cod = 404:   src = https://resources.vikwin.com/products/microgaming/web/mobebet/ladyinred_mg_flash.jpg
+2022-11-02 19:10:56,264 [main] ERROR craftBet - 490   Game Provider Name = PlaynGo :   Game Name =  Legacy of Dead :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:56,346 [main] ERROR craftBet - 491   Game Provider Name = PlaysonDirect :   Game Name =  Legend Of Cleopatra :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:57,607 [main] ERROR craftBet - 497   Game Provider Name = NetEnt :   Game Name =  Lights :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/lights_touch.jpg
+2022-11-02 19:10:58,570 [main] ERROR craftBet - 505   Game Provider Name = Konami :   Game Name =  Lotus Land :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:58,655 [main] ERROR craftBet - 506   Game Provider Name = Konami :   Game Name =  Lotus Land :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:10:59,174 [main] ERROR craftBet - 511   Game Provider Name = NetEnt :   Game Name =  Lucky Angler :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/lucky_angler_touch.jpg
+2022-11-02 19:11:02,748 [main] ERROR craftBet - 531   Game Provider Name = PlaysonDirect :   Game Name =  Lucky Staxx: 40 lines :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:05,130 [main] ERROR craftBet - 550   Game Provider Name = NetEnt :   Game Name =  Magic Portals :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/magic_portals_touch.jpg
+2022-11-02 19:11:05,512 [main] ERROR craftBet - 553   Game Provider Name = Amatic :   Game Name =  Magic Scatter :   cod = 404:   src = https://resources.vikwin.com/products/amatic\web\MagicScatter.jpg
+2022-11-02 19:11:06,551 [main] ERROR craftBet - 561   Game Provider Name = NetEnt :   Game Name =  Master of Mystery :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/master_of_mystery.jpg
+2022-11-02 19:11:07,323 [main] ERROR craftBet - 566   Game Provider Name = PlaysonDirect :   Game Name =  Mega Burning Wins: 27 ways :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:08,942 [main] ERROR craftBet - 578   Game Provider Name = RelaxGaming :   Game Name =  Money Train 2 :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/moneytrain2_rg.jpg
+2022-11-02 19:11:09,577 [main] ERROR craftBet - 582   Game Provider Name = Aristocrat :   Game Name =  Moon Festival :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:09,676 [main] ERROR craftBet - 583   Game Provider Name = EGT :   Game Name =  More Dice & Roll :   cod = 404:   src = https://resources.vikwin.com/products/egt/web/MoreDiceandRoll.png
+2022-11-02 19:11:10,197 [main] ERROR craftBet - 588   Game Provider Name = QuickSpin :   Game Name =  Mountain King :   cod = 404:   src = https://resources.vikwin.com/products/quickspin/web/MountainKing.png
+2022-11-02 19:11:10,291 [main] ERROR craftBet - 589   Game Provider Name = Kajot :   Game Name =  Multi Vegas 81 :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:10,651 [main] ERROR craftBet - 592   Game Provider Name = NetEnt :   Game Name =  Mystery at the Mansion :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/mystery_at_the_mansion.jpg
+2022-11-02 19:11:11,111 [main] ERROR craftBet - 596   Game Provider Name = NetEnt :   Game Name =  Mythic Maiden :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/mythic_maiden_touch.jpg
+2022-11-02 19:11:11,203 [main] ERROR craftBet - 597   Game Provider Name = NetEnt :   Game Name =  Mythic Maiden :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/mythic_maiden.jpg
+2022-11-02 19:11:11,286 [main] ERROR craftBet - 598   Game Provider Name = EGT :   Game Name =  Neon Dice :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:11,376 [main] ERROR craftBet - 599   Game Provider Name = Kajot :   Game Name =  Neon Fruits :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:11,481 [main] ERROR craftBet - 600   Game Provider Name = NetEnt :   Game Name =  Neon Staxx :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/neon_staxx.jpg
+2022-11-02 19:11:11,697 [main] ERROR craftBet - 602   Game Provider Name = Kajot :   Game Name =  Nine Stars :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:12,539 [main] ERROR craftBet - 607   Game Provider Name = NetEnt :   Game Name =  Nrvna touch :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/nrvna_touch.jpg
+2022-11-02 19:11:13,735 [main] ERROR craftBet - 615   Game Provider Name = Microgaming :   Game Name =  One of Egypt :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/throneofegypt_mg_flash.jpg
+2022-11-02 19:11:14,078 [main] ERROR craftBet - 618   Game Provider Name = NetEnt :   Game Name =  Pacific Attack! :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/pacific_attack.jpg
+2022-11-02 19:11:14,318 [main] ERROR craftBet - 620   Game Provider Name = NetEnt :   Game Name =  Pandora's Box :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/pandoras_box.jpg
+2022-11-02 19:11:14,867 [main] ERROR craftBet - 623   Game Provider Name = Booongo :   Game Name =  Patrick's Pub :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/web/PatricksPub.png
+2022-11-02 19:11:14,976 [main] ERROR craftBet - 624   Game Provider Name = Aristocrat :   Game Name =  Pelican Pete :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:15,709 [main] ERROR craftBet - 630   Game Provider Name = PlaysonDirect :   Game Name =  Phoenix Fire :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:16,481 [main] ERROR craftBet - 633   Game Provider Name = NetEnt :   Game Name =  Piggy Riches :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/piggy_riches_touch.jpg
+2022-11-02 19:11:16,574 [main] ERROR craftBet - 634   Game Provider Name = NetEnt :   Game Name =  Piggy Riches :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/piggy_riches.jpg
+2022-11-02 19:11:17,720 [main] ERROR craftBet - 642   Game Provider Name = Kajot :   Game Name =  Poly Diamonds :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:18,135 [main] ERROR craftBet - 645   Game Provider Name = Kajot :   Game Name =  Puppet Show :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:18,260 [main] ERROR craftBet - 646   Game Provider Name = NetEnt :   Game Name =  Pyramid :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/pyramid_new.jpg
+2022-11-02 19:11:20,041 [main] ERROR craftBet - 659   Game Provider Name = PlaysonDirect :   Game Name =  Red Chilli Wins :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:20,898 [main] ERROR craftBet - 666   Game Provider Name = NetEnt :   Game Name =  Reel Rush :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/reel_rush_html.jpg
+2022-11-02 19:11:21,110 [main] ERROR craftBet - 668   Game Provider Name = NetEnt :   Game Name =  Reel Steal :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/reel_steal.jpg
+2022-11-02 19:11:21,794 [main] ERROR craftBet - 674   Game Provider Name = PlaynGo :   Game Name =  Riches of RA :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:21,976 [main] ERROR craftBet - 675   Game Provider Name = Kajot :   Game Name =  Ring Of Fire Xl :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:22,111 [main] ERROR craftBet - 676   Game Provider Name = PlaysonDirect :   Game Name =  Rise Of Egypt :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:22,208 [main] ERROR craftBet - 677   Game Provider Name = PlaynGo :   Game Name =  Rise of Merlin :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:23,318 [main] ERROR craftBet - 686   Game Provider Name = EGT :   Game Name =  Rolling Dice :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:23,416 [main] ERROR craftBet - 687   Game Provider Name = Konami :   Game Name =  Roman Tribune :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:23,513 [main] ERROR craftBet - 688   Game Provider Name = PlaysonDirect :   Game Name =  Rome: Caesar's Glory :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:23,747 [main] ERROR craftBet - 690   Game Provider Name = NetEnt :   Game Name =  Roulette touch :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/roulette_touch.jpg
+2022-11-02 19:11:23,968 [main] ERROR craftBet - 692   Game Provider Name = EGT :   Game Name =  Royal Gardens :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:24,573 [main] ERROR craftBet - 697   Game Provider Name = PlaysonDirect :   Game Name =  Sakura Dragon :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:27,636 [main] ERROR craftBet - 710   Game Provider Name = PlaynGo :   Game Name =  Secret of Dead :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:28,080 [main] ERROR craftBet - 712   Game Provider Name = Konami :   Game Name =  Secret of the Mermaid :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:28,220 [main] ERROR craftBet - 713   Game Provider Name = NetEnt :   Game Name =  Secrets of Atlantis :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/secrets_of_atlantis.jpg
+2022-11-02 19:11:28,318 [main] ERROR craftBet - 714   Game Provider Name = NetEnt :   Game Name =  Secrets of Christmas :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/secrets_of_christmas.jpg
+2022-11-02 19:11:28,407 [main] ERROR craftBet - 715   Game Provider Name = Kajot :   Game Name =  Secrets Of Egypt :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:28,561 [main] ERROR craftBet - 716   Game Provider Name = NetEnt :   Game Name =  Secrets of Horus :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/secrets_of_horus.jpg
+2022-11-02 19:11:29,076 [main] ERROR craftBet - 720   Game Provider Name = PlaysonDirect :   Game Name =  Sevens & Fruits :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:29,179 [main] ERROR craftBet - 721   Game Provider Name = PlaysonDirect :   Game Name =  Sevens & Fruits: 20 lines :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:30,986 [main] ERROR craftBet - 733   Game Provider Name = Kajot :   Game Name =  Simply The Best 81 :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:31,188 [main] ERROR craftBet - 735   Game Provider Name = Booongo :   Game Name =  Singles Day :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/web/SinglesDay.png
+2022-11-02 19:11:32,886 [main] ERROR craftBet - 746   Game Provider Name = RelaxGaming :   Game Name =  Snake Arena :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/snakearena_rg.jpg
+2022-11-02 19:11:33,361 [main] ERROR craftBet - 750   Game Provider Name = NetEnt :   Game Name =  South Park touch :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/south_park_touch.jpg
+2022-11-02 19:11:33,589 [main] ERROR craftBet - 752   Game Provider Name = NetEnt :   Game Name =  Sparks :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/sparks.jpg
+2022-11-02 19:11:33,699 [main] ERROR craftBet - 753   Game Provider Name = NetEnt :   Game Name =  Spellcast :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/spellcast.jpg.jpg
+2022-11-02 19:11:33,922 [main] ERROR craftBet - 755   Game Provider Name = NetEnt :   Game Name =  Spinata Grande :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/spinata_grande_touch.jpg
+2022-11-02 19:11:34,145 [main] ERROR craftBet - 757   Game Provider Name = QuickSpin :   Game Name =  Spinions Beach Party :   cod = 404:   src = https://resources.vikwin.com/products/quickspin/web/qso_spinions.jpg
+2022-11-02 19:11:34,272 [main] ERROR craftBet - 758   Game Provider Name = Greentube :   Game Name =  Spinning Stars :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/spinningstars_gt_html.jpg
+2022-11-02 19:11:34,810 [main] ERROR craftBet - 761   Game Provider Name = NetEnt :   Game Name =  Starburst :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/starburst_touch.jpg
+2022-11-02 19:11:35,285 [main] ERROR craftBet - 765   Game Provider Name = Kajot :   Game Name =  Stars :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:35,471 [main] ERROR craftBet - 767   Game Provider Name = NetEnt :   Game Name =  Steam Tower touch :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/steam_tower_touch.jpg
+2022-11-02 19:11:35,601 [main] ERROR craftBet - 768   Game Provider Name = NetEnt :   Game Name =  Stickers :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/stickers.jpg
+2022-11-02 19:11:36,348 [main] ERROR craftBet - 773   Game Provider Name = NetEnt :   Game Name =  Subtopia touch :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/subtopia_touch.jpg
+2022-11-02 19:11:36,855 [main] ERROR craftBet - 777   Game Provider Name = Aristocrat :   Game Name =  Sun And Moon :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:37,446 [main] ERROR craftBet - 782   Game Provider Name = PlaysonDirect :   Game Name =  Super Burning Wins :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:37,563 [main] ERROR craftBet - 783   Game Provider Name = PlaysonDirect :   Game Name =  Super Burning Wins: Respin :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:37,922 [main] ERROR craftBet - 786   Game Provider Name = EGT :   Game Name =  Supreme Dice :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:39,521 [main] ERROR craftBet - 797   Game Provider Name = QuickSpin :   Game Name =  Tales of Doctor Dolittle :   cod = 404:   src = https://resources.vikwin.com/products/quickspin/web/TalesofDoctorDolittle.png
+2022-11-02 19:11:39,627 [main] ERROR craftBet - 798   Game Provider Name = NetEnt :   Game Name =  Tales of Krakow :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/tales_of_krakow.jpg
+2022-11-02 19:11:39,994 [main] ERROR craftBet - 801   Game Provider Name = RelaxGaming :   Game Name =  Temple Tumble Megaways :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/templetumble_rg.jpg
+2022-11-02 19:11:41,577 [main] ERROR craftBet - 812   Game Provider Name = NetEnt :   Game Name =  the Invisible Man :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/the_invisible_man.jpg
+2022-11-02 19:11:42,085 [main] ERROR craftBet - 816   Game Provider Name = PlaynGo :   Game Name =  The Sword and The Grail :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:42,388 [main] ERROR craftBet - 819   Game Provider Name = NetEnt :   Game Name =  Theme Park :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/theme_park.jpg
+2022-11-02 19:11:42,864 [main] ERROR craftBet - 823   Game Provider Name = NetEnt :   Game Name =  ThrillSpin :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/thrillspin.jpg
+2022-11-02 19:11:43,285 [main] ERROR craftBet - 825   Game Provider Name = PlaysonDirect :   Game Name =  Thunder Reels :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:43,999 [main] ERROR craftBet - 831   Game Provider Name = Aristocrat :   Game Name =  Tiki Torch :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:44,897 [main] ERROR craftBet - 839   Game Provider Name = NetEnt :   Game Name =  Tornado touch :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/tornado_touch.jpg
+2022-11-02 19:11:45,246 [main] ERROR craftBet - 842   Game Provider Name = NetEnt :   Game Name =  Trolls :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/trolls.jpg
+2022-11-02 19:11:45,343 [main] ERROR craftBet - 843   Game Provider Name = Kajot :   Game Name =  Turbo 27 :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:45,837 [main] ERROR craftBet - 847   Game Provider Name = NetEnt :   Game Name =  Twin Spin :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/twin_spin_touch.jpg
+2022-11-02 19:11:45,937 [main] ERROR craftBet - 848   Game Provider Name = NetEnt :   Game Name =  Twin Spin :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/twin_spin.jpg
+2022-11-02 19:11:48,499 [main] ERROR craftBet - 865   Game Provider Name = NetEnt :   Game Name =  Viking`s Treasure :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/vikings_treasure.jpg
+2022-11-02 19:11:48,721 [main] ERROR craftBet - 867   Game Provider Name = Kajot :   Game Name =  Vikings :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:49,464 [main] ERROR craftBet - 870   Game Provider Name = QuickSpin :   Game Name =  Volcano Riches :   cod = 404:   src = https://resources.vikwin.com/products/quickspin/web/VolcanoRiches.png
+2022-11-02 19:11:49,595 [main] ERROR craftBet - 871   Game Provider Name = NetEnt :   Game Name =  Voodoo Vibes :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/voodoo_vibes.jpg
+2022-11-02 19:11:49,714 [main] ERROR craftBet - 872   Game Provider Name = Kajot :   Game Name =  Wanted :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:49,997 [main] ERROR craftBet - 874   Game Provider Name = NetEnt :   Game Name =  Warlords - Crystal of P. :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/warlords.jpg
+2022-11-02 19:11:50,116 [main] ERROR craftBet - 875   Game Provider Name = Konami :   Game Name =  Wealthy Monkey :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:51,511 [main] ERROR craftBet - 885   Game Provider Name = PlaysonDirect :   Game Name =  Wild Burning Wins: 5 lines :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:51,644 [main] ERROR craftBet - 886   Game Provider Name = RelaxGaming :   Game Name =  Wild Chapo :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/wildchapo_rg.jpg
+2022-11-02 19:11:51,744 [main] ERROR craftBet - 887   Game Provider Name = QuickSpin :   Game Name =  Wild Chase :   cod = 404:   src = https://resources.vikwin.com/products/quickspin/web/WildChase.png
+2022-11-02 19:11:52,999 [main] ERROR craftBet - 897   Game Provider Name = NetEnt :   Game Name =  Wild Turkey :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/wild_turkey.jpg
+2022-11-02 19:11:53,117 [main] ERROR craftBet - 898   Game Provider Name = PlaysonDirect :   Game Name =  Wild Warriors :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:53,222 [main] ERROR craftBet - 899   Game Provider Name = NetEnt :   Game Name =  Wild Water :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/wild_water_html.jpg
+2022-11-02 19:11:53,593 [main] ERROR craftBet - 902   Game Provider Name = NetEnt :   Game Name =  Wild Wild West :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/wild_wild_west.jpg
+2022-11-02 19:11:53,707 [main] ERROR craftBet - 903   Game Provider Name = NetEnt :   Game Name =  Wild Witches :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/wild_witches.jpg
+2022-11-02 19:11:54,308 [main] ERROR craftBet - 907   Game Provider Name = NetEnt :   Game Name =  Wish Master :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/wishmaster.jpg
+2022-11-02 19:11:55,022 [main] ERROR craftBet - 913   Game Provider Name = Konami :   Game Name =  Wonder Rose :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:55,620 [main] ERROR craftBet - 918   Game Provider Name = WMG :   Game Name =  Yabba Dabba Dosh :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:11:56,466 [main] INFO craftBet - Broken images are:  234
+2022-11-02 19:11:56,822 [main] INFO craftBet - Browser closed
+2022-11-02 19:11:56,822 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-11-02 19:11:56,825 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-11-02 19:11:56,833 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.32.0 (resolved driver for Firefox 105)
+2022-11-02 19:11:56,843 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\user\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+2022-11-02 19:11:58,526 [main] INFO craftBet - URL: https://vikwin.com  Browser: firefox
+2022-11-02 19:11:58,533 [main] INFO craftBet - All Page elements are initialized
+2022-11-02 19:11:59,177 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-11-02 19:12:00,528 [main] INFO craftBet - Get games Api call was sent
+2022-11-02 19:12:00,544 [main] INFO craftBet - Get games Api Response was captured
+2022-11-02 19:12:00,553 [main] INFO craftBet - All captured games images was added into ArrayList
+2022-11-02 19:12:02,124 [main] ERROR craftBet - 11   Game Provider Name = EGT :   Game Name =  40 Burning Dice :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:02,239 [main] ERROR craftBet - 12   Game Provider Name = EGT :   Game Name =  40 Burning Hot :   cod = 404:   src = https://resources.vikwin.com/products/egt/mob/40BurningDice.png
+2022-11-02 19:12:02,802 [main] ERROR craftBet - 17   Game Provider Name = EGT :   Game Name =  5 Hot Dice :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:03,055 [main] ERROR craftBet - 19   Game Provider Name = PragmaticPlay :   Game Name =  5 Lions :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:03,525 [main] ERROR craftBet - 23   Game Provider Name = Booongo :   Game Name =  777 Gems Respin :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:07,442 [main] ERROR craftBet - 44   Game Provider Name = Gaminator :   Game Name =  Always Hot classic :   cod = 404:   src = https://resources.vikwin.com/products/netent/mobile/aloha_cluster_pays.jpg
+2022-11-02 19:12:08,041 [main] ERROR craftBet - 50   Game Provider Name = Merkur :   Game Name =  Amulet of the Pharaoh :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/american_roulette_html.jpg
+2022-11-02 19:12:10,949 [main] ERROR craftBet - 71   Game Provider Name = Microgaming :   Game Name =  Basketball Star :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/barsandsevens_gt_html.jpg
+2022-11-02 19:12:14,483 [main] ERROR craftBet - 96   Game Provider Name = Amatic :   Game Name =  Billyonaire :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:15,173 [main] ERROR craftBet - 100   Game Provider Name = Wazdan :   Game Name =  Black Horse :   cod = 404:   src = https://resources.vikwin.com/products/wazdan\mob\bhd_wzdn.jpg
+2022-11-02 19:12:15,385 [main] ERROR craftBet - 102   Game Provider Name = NetEnt :   Game Name =  Blackjack Classic touch :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/blackjack_html.jpg
+2022-11-02 19:12:15,513 [main] ERROR craftBet - 103   Game Provider Name = NetEnt :   Game Name =  Blackjack Single Deck t. :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/blackjack_classic_touch.jpg
+2022-11-02 19:12:15,639 [main] ERROR craftBet - 104   Game Provider Name = NetEnt :   Game Name =  Blackjack touch :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/blackjack_single_deck_touch.jpg
+2022-11-02 19:12:15,750 [main] ERROR craftBet - 105   Game Provider Name = Merkur :   Game Name =  Blazing Star :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/blackjack_touch.jpg
+2022-11-02 19:12:16,106 [main] ERROR craftBet - 108   Game Provider Name = NetEnt :   Game Name =  Blood Suckers :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/blood_suckers_touch.jpg
+2022-11-02 19:12:16,200 [main] ERROR craftBet - 109   Game Provider Name = NetEnt :   Game Name =  Blood Suckers 2 :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/blood_suckers.jpg
+2022-11-02 19:12:16,330 [main] ERROR craftBet - 110   Game Provider Name = Amatic :   Game Name =  Blue Dolphin :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/blood_suckers_2.jpg
+2022-11-02 19:12:17,205 [main] ERROR craftBet - 117   Game Provider Name = Amatic :   Game Name =  Book of Fortune :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:17,456 [main] ERROR craftBet - 119   Game Provider Name = PlaysonDirect :   Game Name =  Book of Gold: Double Chance :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:17,582 [main] ERROR craftBet - 120   Game Provider Name = PlaysonDirect :   Game Name =  Book of Gold: Symbol Choice :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:17,695 [main] ERROR craftBet - 121   Game Provider Name = Amatic :   Game Name =  Book Of Lords :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:18,248 [main] ERROR craftBet - 124   Game Provider Name = Amatic :   Game Name =  Book Of Queen :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/bookofmaya_gt_html.jpg
+2022-11-02 19:12:18,927 [main] ERROR craftBet - 128   Game Provider Name = Greentube :   Game Name =  Book of Ra Deluxe :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/bookofraclassic_gt_html.jpg
+2022-11-02 19:12:19,908 [main] ERROR craftBet - 133   Game Provider Name = Microgaming :   Game Name =  Booty Time :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/boom_brothers.jpg
+2022-11-02 19:12:20,004 [main] ERROR craftBet - 134   Game Provider Name = Microgaming :   Game Name =  Break da Bank again :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/bootytime_mg_flash.jpg
+2022-11-02 19:12:20,476 [main] ERROR craftBet - 138   Game Provider Name = Booongo :   Game Name =  Buddha Fortune :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/breakaway_mg_flash.jpg
+2022-11-02 19:12:20,911 [main] ERROR craftBet - 140   Game Provider Name = PragmaticPlay :   Game Name =  Buffalo King :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:21,024 [main] ERROR craftBet - 141   Game Provider Name = Greentube :   Game Name =  Bugs'n'Bees :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:21,122 [main] ERROR craftBet - 142   Game Provider Name = Greentube :   Game Name =  Bullion Bars :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/bugsnbees_gt_html.jpg
+2022-11-02 19:12:21,250 [main] ERROR craftBet - 143   Game Provider Name = Microgaming :   Game Name =  Burning Desire :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/bullionbars_gt_html.jpg
+2022-11-02 19:12:22,187 [main] ERROR craftBet - 151   Game Provider Name = NetEnt :   Game Name =  Butterfly Staxx :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:22,920 [main] ERROR craftBet - 157   Game Provider Name = Amatic :   Game Name =  Casanova :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/caribbeanholidays_gt_html.jpg
+2022-11-02 19:12:23,150 [main] ERROR craftBet - 159   Game Provider Name = Merkur :   Game Name =  Cash fruits plus :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:24,032 [main] ERROR craftBet - 166   Game Provider Name = Greentube :   Game Name =  Changing Fate 40 :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/champion.jpg
+2022-11-02 19:12:24,479 [main] ERROR craftBet - 170   Game Provider Name = Aristocrat :   Game Name =  Choy Sun Doa :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:25,117 [main] ERROR craftBet - 174   Game Provider Name = Merkur :   Game Name =  Coffeehouse Mystery :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:25,602 [main] ERROR craftBet - 178   Game Provider Name = Gaminator :   Game Name =  Columbus classic :   cod = 404:   src = https://resources.vikwin.com/products/quickspin/mob/qso_colossus.jpg
+2022-11-02 19:12:26,055 [main] ERROR craftBet - 182   Game Provider Name = Microgaming :   Game Name =  Cool Wolf :   cod = 404:   src = https://resources.vikwin.com/products/microgaming/mob/coolwolf_mg_flash_html.jpg
+2022-11-02 19:12:26,174 [main] ERROR craftBet - 183   Game Provider Name = NetEnt :   Game Name =  Copy Cats :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/coolwolf_mg_flash.jpg
+2022-11-02 19:12:26,410 [main] ERROR craftBet - 185   Game Provider Name = Wazdan :   Game Name =  Corrida Romance :   cod = 404:   src = https://resources.vikwin.com/products/egt/mob/CoralIsland.png
+2022-11-02 19:12:27,241 [main] ERROR craftBet - 190   Game Provider Name = NetEnt :   Game Name =  Crime Scene :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/creature_from_the_black_lagoon.jpg
+2022-11-02 19:12:27,449 [main] ERROR craftBet - 191   Game Provider Name = Wazdan :   Game Name =  CrisCross 81 :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/crime_scene.jpg
+2022-11-02 19:12:27,724 [main] ERROR craftBet - 193   Game Provider Name = QuickSpin :   Game Name =  Crystal Queen :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/crusade_of_fortune.jpg
+2022-11-02 19:12:28,242 [main] ERROR craftBet - 196   Game Provider Name = Greentube :   Game Name =  Dazzling Diamonds :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/dazzle_me.jpg
+2022-11-02 19:12:28,472 [main] ERROR craftBet - 198   Game Provider Name = NetEnt :   Game Name =  Dead or Alive :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/dead_or_alive_html.jpg
+2022-11-02 19:12:28,603 [main] ERROR craftBet - 199   Game Provider Name = NetEnt :   Game Name =  Dead or Alive 2 :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/dead_or_alive.jpg
+2022-11-02 19:12:29,319 [main] ERROR craftBet - 205   Game Provider Name = NetEnt :   Game Name =  Deuses Wild :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:29,548 [main] ERROR craftBet - 207   Game Provider Name = Amatic :   Game Name =  Diamond Cats :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/devils_delight.jpg
+2022-11-02 19:12:29,806 [main] ERROR craftBet - 209   Game Provider Name = Amatic :   Game Name =  Diamond Monkey :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/diamond_dogs.jpg
+2022-11-02 19:12:30,454 [main] ERROR craftBet - 214   Game Provider Name = Apollo :   Game Name =  Dice 81 :   cod = 404:   src = https://resources.vikwin.com/products/egt/mob/DiceandRoll.png
+2022-11-02 19:12:30,713 [main] ERROR craftBet - 216   Game Provider Name = Wazdan :   Game Name =  Dino Reels 81 :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:31,059 [main] ERROR craftBet - 219   Game Provider Name = Microgaming :   Game Name =  Dolphin Quest :   cod = 404:   src = https://resources.vikwin.com/products/quickspin/mob/DivineDreams.png
+2022-11-02 19:12:31,451 [main] ERROR craftBet - 222   Game Provider Name = Greentube :   Game Name =  Dolphin`s Pearl Classic :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:31,913 [main] ERROR craftBet - 226   Game Provider Name = NetEnt :   Game Name =  Double Stacks :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:32,270 [main] ERROR craftBet - 229   Game Provider Name = NetEnt :   Game Name =  Dracula touch :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/dracula.jpg
+2022-11-02 19:12:32,406 [main] ERROR craftBet - 230   Game Provider Name = NetEnt :   Game Name =  Dragon Island :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/dracula_touch.jpg
+2022-11-02 19:12:34,192 [main] ERROR craftBet - 242   Game Provider Name = Microgaming :   Game Name =  Dream Date :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/dragonz_mg_flash.jpg
+2022-11-02 19:12:34,518 [main] ERROR craftBet - 244   Game Provider Name = QuickSpin :   Game Name =  Durian Dynamite :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/drive_multiplier_mayhem.jpg
+2022-11-02 19:12:35,698 [main] ERROR craftBet - 250   Game Provider Name = QuickSpin :   Game Name =  Eastern Emeralds :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:36,517 [main] ERROR craftBet - 255   Game Provider Name = NetEnt :   Game Name =  Elements :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/elements_html.jpg
+2022-11-02 19:12:36,617 [main] ERROR craftBet - 256   Game Provider Name = Microgaming :   Game Name =  Emoticoins :   cod = 404:   src = https://resources.vikwin.com/products/netent/mobt/elements.jpg
+2022-11-02 19:12:37,479 [main] ERROR craftBet - 262   Game Provider Name = NetEnt :   Game Name =  Excalibur :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/excalibur.jpg
+2022-11-02 19:12:38,383 [main] ERROR craftBet - 268   Game Provider Name = EGT :   Game Name =  Fast Money :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/fairyqueen_gt_html.jpg
+2022-11-02 19:12:39,221 [main] ERROR craftBet - 275   Game Provider Name = Aristocrat :   Game Name =  Fire Light :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:39,346 [main] ERROR craftBet - 276   Game Provider Name = Merkur :   Game Name =  Fire of Egypt :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:39,673 [main] ERROR craftBet - 278   Game Provider Name = Spadegaming :   Game Name =  Fishing god :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:40,843 [main] ERROR craftBet - 281   Game Provider Name = Greentube :   Game Name =  Flame Dancer :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/fisticuffs.jpg
+2022-11-02 19:12:41,118 [main] ERROR craftBet - 283   Game Provider Name = Greentube :   Game Name =  Flamenco Roses :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:41,339 [main] ERROR craftBet - 285   Game Provider Name = EGT :   Game Name =  Flaming Hot :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:41,838 [main] ERROR craftBet - 289   Game Provider Name = NetEnt :   Game Name =  Flowers Christmas Edition :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/flowers.jpg
+2022-11-02 19:12:41,937 [main] ERROR craftBet - 290   Game Provider Name = NetEnt :   Game Name =  Flowers touch :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/flowers_christmas.jpg
+2022-11-02 19:12:42,051 [main] ERROR craftBet - 291   Game Provider Name = NetEnt :   Game Name =  Football: Champions Cup :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/flowers_touch.jpg
+2022-11-02 19:12:42,174 [main] ERROR craftBet - 292   Game Provider Name = Microgaming :   Game Name =  Forbidden Throne :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/football.jpg
+2022-11-02 19:12:43,159 [main] ERROR craftBet - 299   Game Provider Name = NetEnt :   Game Name =  FortuneTeller :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:43,256 [main] ERROR craftBet - 300   Game Provider Name = NetEnt :   Game Name =  Frankenstein :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/fortuneteller.jpg
+2022-11-02 19:12:43,521 [main] ERROR craftBet - 302   Game Provider Name = NetEnt :   Game Name =  French Roulette :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/frankenstein_touch.jpg
+2022-11-02 19:12:43,653 [main] ERROR craftBet - 303   Game Provider Name = NetEnt :   Game Name =  Fruit Case :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/french_roulette_html.jpg
+2022-11-02 19:12:44,500 [main] ERROR craftBet - 310   Game Provider Name = NetEnt :   Game Name =  Fruit Spin :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/fruitshop_touch.jpg
+2022-11-02 19:12:44,721 [main] ERROR craftBet - 312   Game Provider Name = PlaysonDirect :   Game Name =  Fruit Xtreme :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:44,842 [main] ERROR craftBet - 313   Game Provider Name = PlaysonDirect :   Game Name =  Fruits & Clovers: 20 lines :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:44,946 [main] ERROR craftBet - 314   Game Provider Name = PlaysonDirect :   Game Name =  Fruits & Jokers: 100 lines :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:45,048 [main] ERROR craftBet - 315   Game Provider Name = PlaysonDirect :   Game Name =  Fruits & Jokers: 20 lines :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:45,169 [main] ERROR craftBet - 316   Game Provider Name = PlaysonDirect :   Game Name =  Fruits & Jokers: 40 lines :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:45,279 [main] ERROR craftBet - 317   Game Provider Name = Greentube :   Game Name =  Fruits and Royals :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:45,516 [main] ERROR craftBet - 319   Game Provider Name = PlaysonDirect :   Game Name =  Fruits 'n' Stars Holiday Edition :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:45,622 [main] ERROR craftBet - 320   Game Provider Name = PlaysonDirect :   Game Name =  Fruits of the Nile :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:45,709 [main] ERROR craftBet - 321   Game Provider Name = NetEnt :   Game Name =  Fruitshop Christmas Edition :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:45,809 [main] ERROR craftBet - 322   Game Provider Name = Booongo :   Game Name =  Fruity Wild :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/fruitshop_christmas.jpg
+2022-11-02 19:12:46,252 [main] ERROR craftBet - 324   Game Provider Name = Booongo :   Game Name =  Fu Cai Shen :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/fruitilicious_gt_html.jpg
+2022-11-02 19:12:48,009 [main] ERROR craftBet - 335   Game Provider Name = Amatic :   Game Name =  Gem Star :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:48,497 [main] ERROR craftBet - 338   Game Provider Name = NetEnt :   Game Name =  Ghost Pirates :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/ghost_pirates.jpg
+2022-11-02 19:12:49,406 [main] ERROR craftBet - 347   Game Provider Name = Microgaming :   Game Name =  Gods of Giza :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:50,995 [main] ERROR craftBet - 359   Game Provider Name = QuickSpin :   Game Name =  Goldilocks & Wild Bears :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:51,084 [main] ERROR craftBet - 360   Game Provider Name = NetEnt :   Game Name =  Gonzos Quest :   cod = 404:   src = https://resources.vikwin.com/products/quickspin/mob/qso_goldilocks2.jpg
+2022-11-02 19:12:51,169 [main] ERROR craftBet - 361   Game Provider Name = Wazdan :   Game Name =  Good Luck 40 :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/gonzos_quest_touch.jpg
+2022-11-02 19:12:52,313 [main] ERROR craftBet - 371   Game Provider Name = Gaminator :   Game Name =  Gryphons Gold classic :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/gryphonsgolddeluxe_gt_html.jpg
+2022-11-02 19:12:52,575 [main] ERROR craftBet - 373   Game Provider Name = Konami :   Game Name =  Gypsy Fire :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/guns_and_roses.jpg
+2022-11-02 19:12:52,682 [main] ERROR craftBet - 374   Game Provider Name = Microgaming :   Game Name =  Halloween :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:53,048 [main] ERROR craftBet - 377   Game Provider Name = Gaminator :   Game Name =  Hat Trick :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:53,416 [main] ERROR craftBet - 380   Game Provider Name = WMG :   Game Name =  Haunted House Rest In Paradise :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:53,519 [main] ERROR craftBet - 381   Game Provider Name = Konami :   Game Name =  Heart Of Romance :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:53,617 [main] ERROR craftBet - 382   Game Provider Name = Greentube :   Game Name =  Helena :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:12:55,197 [main] ERROR craftBet - 392   Game Provider Name = Amatic :   Game Name =  Hot 27 dice :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/hooks_heroes.jpg
+2022-11-02 19:12:56,659 [main] ERROR craftBet - 399   Game Provider Name = Amatic :   Game Name =  Hot Diamonds :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/hot_city.jpg
+2022-11-02 19:13:00,260 [main] ERROR craftBet - 417   Game Provider Name = Kajot :   Game Name =  Ice Bar 27 :   cod = 404:   src = https://resources.vikwin.com/products/greentube\mobhypnohippo_gt_html.jpg
+2022-11-02 19:13:00,381 [main] ERROR craftBet - 418   Game Provider Name = QuickSpin :   Game Name =  Illuminous :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:00,483 [main] ERROR craftBet - 419   Game Provider Name = Microgaming :   Game Name =  Immortal Romance :   cod = 404:   src = https://resources.vikwin.com/products/quickspin/mob//qso_illuminous.jpg
+2022-11-02 19:13:00,850 [main] ERROR craftBet - 422   Game Provider Name = PlaysonDirect :   Game Name =  Imperial Fruits: 40 Lines :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:00,968 [main] ERROR craftBet - 423   Game Provider Name = PlaysonDirect :   Game Name =  Imperial Fruits: 5 Lines :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:01,068 [main] ERROR craftBet - 424   Game Provider Name = Konami :   Game Name =  Imperial Wealth :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:01,183 [main] ERROR craftBet - 425   Game Provider Name = Wazdan :   Game Name =  In the Forest :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:01,832 [main] ERROR craftBet - 430   Game Provider Name = RelaxGaming :   Game Name =  Iron Bank :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:01,932 [main] ERROR craftBet - 431   Game Provider Name = Microgaming :   Game Name =  Isis :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/ironbank_rg.jpg
+2022-11-02 19:13:02,874 [main] ERROR craftBet - 437   Game Provider Name = NetEnt :   Game Name =  Jack & Beanstalk :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/jack_and_the_beanstalk_touch.jpg
+2022-11-02 19:13:03,152 [main] ERROR craftBet - 439   Game Provider Name = NetEnt :   Game Name =  Jack Hammer :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/jack_hammer_touch.jpg
+2022-11-02 19:13:03,285 [main] ERROR craftBet - 440   Game Provider Name = NetEnt :   Game Name =  Jack Hammer 2 :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/jack_hammer.jpg
+2022-11-02 19:13:03,403 [main] ERROR craftBet - 441   Game Provider Name = NetEnt :   Game Name =  Jack Hammer 2 :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/jack_hammer_2_touch.jpg
+2022-11-02 19:13:03,510 [main] ERROR craftBet - 442   Game Provider Name = Wazdan :   Game Name =  Jack on Hold :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/jack_hammer_2.jpg
+2022-11-02 19:13:03,840 [main] ERROR craftBet - 445   Game Provider Name = Merkur :   Game Name =  Jamboree Jubilee :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:04,458 [main] ERROR craftBet - 450   Game Provider Name = NetEnt :   Game Name =  Jingle Spin :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/jimi_hendrix.jpg
+2022-11-02 19:13:05,272 [main] ERROR craftBet - 455   Game Provider Name = PragmaticPlay :   Game Name =  Juicy Fruits :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:06,014 [main] ERROR craftBet - 461   Game Provider Name = Microgaming :   Game Name =  Jurassic World :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/jungle_spirit.jpg
+2022-11-02 19:13:07,203 [main] ERROR craftBet - 470   Game Provider Name = EGT :   Game Name =  Keno Universe :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/kenoplustwoball_gt_html.jpg
+2022-11-02 19:13:07,328 [main] ERROR craftBet - 471   Game Provider Name = Greentube :   Game Name =  King of Cards :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/keno_universe_html.jpg
+2022-11-02 19:13:08,463 [main] ERROR craftBet - 480   Game Provider Name = Microgaming :   Game Name =  Lady in Red :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/koi_princess.jpg
+2022-11-02 19:13:09,050 [main] ERROR craftBet - 485   Game Provider Name = PlaysonDirect :   Game Name =  Legend Of Cleopatra :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:09,164 [main] ERROR craftBet - 486   Game Provider Name = Greentube :   Game Name =  Leonardo's Code :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:10,001 [main] ERROR craftBet - 492   Game Provider Name = NetEnt :   Game Name =  Lights :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/lights_touch.jpg
+2022-11-02 19:13:11,039 [main] ERROR craftBet - 500   Game Provider Name = Konami :   Game Name =  Lotus Land :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:11,134 [main] ERROR craftBet - 501   Game Provider Name = Amatic :   Game Name =  Lovely Lady :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:11,872 [main] ERROR craftBet - 506   Game Provider Name = NetEnt :   Game Name =  Lucky Angler :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/lucky_angler_touch.jpg
+2022-11-02 19:13:12,445 [main] ERROR craftBet - 510   Game Provider Name = PragmaticPlay :   Game Name =  Lucky Dragons :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:14,913 [main] ERROR craftBet - 526   Game Provider Name = Microgaming :   Game Name =  Lucky Twins :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:17,537 [main] ERROR craftBet - 545   Game Provider Name = NetEnt :   Game Name =  Magic Portals :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/magic_portals_touch.jpg
+2022-11-02 19:13:17,887 [main] ERROR craftBet - 548   Game Provider Name = Wazdan :   Game Name =  Magic Target :   cod = 404:   src = https://resources.vikwin.com/products/amatic\web\MagicScatter.jpg
+2022-11-02 19:13:18,934 [main] ERROR craftBet - 556   Game Provider Name = Greentube :   Game Name =  Mayan Moons :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/master_of_mystery.jpg
+2022-11-02 19:13:19,683 [main] ERROR craftBet - 561   Game Provider Name = Greentube :   Game Name =  Mega Joker :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:21,408 [main] ERROR craftBet - 573   Game Provider Name = Booongo :   Game Name =  Monkey Money :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/moneytrain2_rg.jpg
+2022-11-02 19:13:22,059 [main] ERROR craftBet - 577   Game Provider Name = EGT :   Game Name =  More Dice & Roll :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:22,164 [main] ERROR craftBet - 578   Game Provider Name = EGT :   Game Name =  More Like a Diamond :   cod = 404:   src = https://resources.vikwin.com/products/egt/mob/MoreDiceandRoll.png
+2022-11-02 19:13:22,727 [main] ERROR craftBet - 583   Game Provider Name = Kajot :   Game Name =  Multi Vegas 81 :   cod = 404:   src = https://resources.vikwin.com/products/quickspin/mob/MountainKing.png
+2022-11-02 19:13:22,847 [main] ERROR craftBet - 584   Game Provider Name = Merkur :   Game Name =  Multifruits :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:23,192 [main] ERROR craftBet - 587   Game Provider Name = Wazdan :   Game Name =  Mystery Jack :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/mystery_at_the_mansion.jpg
+2022-11-02 19:13:23,667 [main] ERROR craftBet - 591   Game Provider Name = NetEnt :   Game Name =  Mythic Maiden :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/mythic_maiden_touch.jpg
+2022-11-02 19:13:23,782 [main] ERROR craftBet - 592   Game Provider Name = EGT :   Game Name =  Neon Dice :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/mythic_maiden.jpg
+2022-11-02 19:13:23,885 [main] ERROR craftBet - 593   Game Provider Name = Kajot :   Game Name =  Neon Fruits :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:23,982 [main] ERROR craftBet - 594   Game Provider Name = NetEnt :   Game Name =  Neon Staxx :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:24,091 [main] ERROR craftBet - 595   Game Provider Name = Wazdan :   Game Name =  Night Club 81 :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/neon_staxx.jpg
+2022-11-02 19:13:24,338 [main] ERROR craftBet - 597   Game Provider Name = Microgaming :   Game Name =  Ninja Magic :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:25,144 [main] ERROR craftBet - 602   Game Provider Name = Greentube :   Game Name =  Ocean Tale :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/nrvna_touch.jpg
+2022-11-02 19:13:26,312 [main] ERROR craftBet - 610   Game Provider Name = Greentube :   Game Name =  Orca :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/throneofegypt_mg_flash.jpg
+2022-11-02 19:13:27,629 [main] ERROR craftBet - 613   Game Provider Name = Apollo :   Game Name =  Pandora :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/pacific_attack.jpg
+2022-11-02 19:13:27,848 [main] ERROR craftBet - 615   Game Provider Name = Amatic :   Game Name =  Party Night :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/pandoras_box.jpg
+2022-11-02 19:13:28,436 [main] ERROR craftBet - 618   Game Provider Name = Aristocrat :   Game Name =  Pelican Pete :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/mob/PatricksPub.png
+2022-11-02 19:13:28,542 [main] ERROR craftBet - 619   Game Provider Name = Greentube :   Game Name =  Perchta :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:29,284 [main] ERROR craftBet - 625   Game Provider Name = QuickSpin :   Game Name =  Phoenix Sun :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:30,165 [main] ERROR craftBet - 628   Game Provider Name = NetEnt :   Game Name =  Piggy Riches :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/piggy_riches_touch.jpg
+2022-11-02 19:13:30,266 [main] ERROR craftBet - 629   Game Provider Name = Igrosoft :   Game Name =  Pirate :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/piggy_riches.jpg
+2022-11-02 19:13:31,417 [main] ERROR craftBet - 637   Game Provider Name = Microgaming :   Game Name =  Pretty Kitty :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:31,774 [main] ERROR craftBet - 640   Game Provider Name = NetEnt :   Game Name =  Pyramid :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:31,894 [main] ERROR craftBet - 641   Game Provider Name = PragmaticPlay :   Game Name =  Pyramid King :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/pyramid_new.jpg
+2022-11-02 19:13:33,613 [main] ERROR craftBet - 654   Game Provider Name = Greentube :   Game Name =  Red Lady :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:34,508 [main] ERROR craftBet - 661   Game Provider Name = NetEnt :   Game Name =  Reel Rush :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/reel_rush_html.jpg
+2022-11-02 19:13:34,755 [main] ERROR craftBet - 663   Game Provider Name = NetEnt :   Game Name =  Reel Steal :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/reel_steal.jpg
+2022-11-02 19:13:35,503 [main] ERROR craftBet - 669   Game Provider Name = Kajot :   Game Name =  Ring Of Fire Xl :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:35,604 [main] ERROR craftBet - 670   Game Provider Name = PlaysonDirect :   Game Name =  Rise Of Egypt :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:35,757 [main] ERROR craftBet - 671   Game Provider Name = PlaynGo :   Game Name =  Rise of Merlin :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:35,891 [main] ERROR craftBet - 672   Game Provider Name = EGT :   Game Name =  Rise of Ra :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:36,949 [main] ERROR craftBet - 681   Game Provider Name = Konami :   Game Name =  Roman Tribune :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:37,072 [main] ERROR craftBet - 682   Game Provider Name = PlaysonDirect :   Game Name =  Rome: Caesar's Glory :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:37,185 [main] ERROR craftBet - 683   Game Provider Name = Amatic :   Game Name =  Roulette Royal :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:37,405 [main] ERROR craftBet - 685   Game Provider Name = Greentube :   Game Name =  Royal Dynasty :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/roulette_touch.jpg
+2022-11-02 19:13:38,660 [main] ERROR craftBet - 687   Game Provider Name = EGT :   Game Name =  Royal Secrets :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:39,338 [main] ERROR craftBet - 692   Game Provider Name = Microgaming :   Game Name =  Santas Wild Ride :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:41,494 [main] ERROR craftBet - 705   Game Provider Name = Booongo :   Game Name =  Secret of Nefertiti 2 :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:41,975 [main] ERROR craftBet - 707   Game Provider Name = NetEnt :   Game Name =  Secrets of Atlantis :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:42,091 [main] ERROR craftBet - 708   Game Provider Name = NetEnt :   Game Name =  Secrets of Christmas :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/secrets_of_atlantis.jpg
+2022-11-02 19:13:42,197 [main] ERROR craftBet - 709   Game Provider Name = Kajot :   Game Name =  Secrets Of Egypt :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/secrets_of_christmas.jpg
+2022-11-02 19:13:42,297 [main] ERROR craftBet - 710   Game Provider Name = NetEnt :   Game Name =  Secrets of Horus :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:42,424 [main] ERROR craftBet - 711   Game Provider Name = NetEnt :   Game Name =  Secrets of Stones :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/secrets_of_horus.jpg
+2022-11-02 19:13:42,862 [main] ERROR craftBet - 715   Game Provider Name = PlaysonDirect :   Game Name =  Sevens & Fruits: 20 lines :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:42,983 [main] ERROR craftBet - 716   Game Provider Name = QuickSpin :   Game Name =  Sevens High :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:44,903 [main] ERROR craftBet - 728   Game Provider Name = NetEnt :   Game Name =  Simsalabim :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:45,158 [main] ERROR craftBet - 730   Game Provider Name = Microgaming :   Game Name =  Six Acrobats :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/mob/SinglesDay.png
+2022-11-02 19:13:46,611 [main] ERROR craftBet - 741   Game Provider Name = NetEnt :   Game Name =  South Park :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/snakearena_rg.jpg
+2022-11-02 19:13:47,051 [main] ERROR craftBet - 745   Game Provider Name = NetEnt :   Game Name =  Space Wars :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/south_park_touch.jpg
+2022-11-02 19:13:47,282 [main] ERROR craftBet - 747   Game Provider Name = NetEnt :   Game Name =  Spellcast :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/sparks.jpg
+2022-11-02 19:13:47,405 [main] ERROR craftBet - 748   Game Provider Name = NetEnt :   Game Name =  Spellcast :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/spellcast.jpg.jpg
+2022-11-02 19:13:47,745 [main] ERROR craftBet - 750   Game Provider Name = NetEnt :   Game Name =  Spinata Grande :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/spinata_grande_touch.jpg
+2022-11-02 19:13:48,122 [main] ERROR craftBet - 752   Game Provider Name = Greentube :   Game Name =  Spinning Stars :   cod = 404:   src = https://resources.vikwin.com/products/quickspin/mob/qso_spinions.jpg
+2022-11-02 19:13:48,223 [main] ERROR craftBet - 753   Game Provider Name = Greentube :   Game Name =  Spring Queen :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/spinningstars_gt_html.jpg
+2022-11-02 19:13:48,812 [main] ERROR craftBet - 756   Game Provider Name = NetEnt :   Game Name =  Starburst :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/starburst_touch.jpg
+2022-11-02 19:13:49,259 [main] ERROR craftBet - 760   Game Provider Name = NetEnt :   Game Name =  Steam Tower :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:49,497 [main] ERROR craftBet - 762   Game Provider Name = NetEnt :   Game Name =  Stickers :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/steam_tower_touch.jpg
+2022-11-02 19:13:49,616 [main] ERROR craftBet - 763   Game Provider Name = QuickSpin :   Game Name =  Sticky Bandits :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/stickers.jpg
+2022-11-02 19:13:50,397 [main] ERROR craftBet - 768   Game Provider Name = Microgaming :   Game Name =  Sugar Parade :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/subtopia_touch.jpg
+2022-11-02 19:13:50,975 [main] ERROR craftBet - 772   Game Provider Name = Microgaming :   Game Name =  Suntide :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:51,584 [main] ERROR craftBet - 777   Game Provider Name = PlaysonDirect :   Game Name =  Super Burning Wins: Respin :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:51,679 [main] ERROR craftBet - 778   Game Provider Name = NetEnt :   Game Name =  Super Eighties :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:52,052 [main] ERROR craftBet - 781   Game Provider Name = Booongo :   Game Name =  Supreme Fortune :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:53,558 [main] ERROR craftBet - 792   Game Provider Name = NetEnt :   Game Name =  Tales of Krakow :   cod = 404:   src = https://resources.vikwin.com/products/quickspin/mob/TalesofDoctorDolittle.png
+2022-11-02 19:13:53,674 [main] ERROR craftBet - 793   Game Provider Name = Microgaming :   Game Name =  Tasty Street :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/tales_of_krakow.jpg
+2022-11-02 19:13:54,022 [main] ERROR craftBet - 796   Game Provider Name = Microgaming :   Game Name =  Terminator 2 :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/templetumble_rg.jpg
+2022-11-02 19:13:55,454 [main] ERROR craftBet - 807   Game Provider Name = Gaminator :   Game Name =  The Money Game :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/the_invisible_man.jpg
+2022-11-02 19:13:55,896 [main] ERROR craftBet - 811   Game Provider Name = Microgaming :   Game Name =  the Twisted Circus :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:56,261 [main] ERROR craftBet - 814   Game Provider Name = NetEnt :   Game Name =  Thief :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/theme_park.jpg
+2022-11-02 19:13:56,719 [main] ERROR craftBet - 818   Game Provider Name = Booongo :   Game Name =  Thunder Of Olympus :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/thrillspin.jpg
+2022-11-02 19:13:57,173 [main] ERROR craftBet - 820   Game Provider Name = NetEnt :   Game Name =  Thunderfist :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:57,892 [main] ERROR craftBet - 826   Game Provider Name = Microgaming :   Game Name =  Titans of the Sun: Heia :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:58,878 [main] ERROR craftBet - 834   Game Provider Name = Greentube :   Game Name =  Tres Amigos :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/tornado_touch.jpg
+2022-11-02 19:13:59,264 [main] ERROR craftBet - 837   Game Provider Name = Kajot :   Game Name =  Turbo 27 :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/trolls.jpg
+2022-11-02 19:13:59,372 [main] ERROR craftBet - 838   Game Provider Name = Apollo :   Game Name =  Turbo Slots :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:13:59,900 [main] ERROR craftBet - 842   Game Provider Name = NetEnt :   Game Name =  Twin Spin :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/twin_spin_touch.jpg
+2022-11-02 19:14:00,007 [main] ERROR craftBet - 843   Game Provider Name = Microgaming :   Game Name =  Twisted Circus :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/twin_spin.jpg
+2022-11-02 19:14:00,740 [main] ERROR craftBet - 849   Game Provider Name = Greentube :   Game Name =  Ultra Hot Deluxe :   cod = 404:   src = https://resources.vikwin.com/products/pragmaticplay\mob\UltraHoldAndSpinweb.png
+2022-11-02 19:14:02,228 [main] ERROR craftBet - 860   Game Provider Name = NetEnt :   Game Name =  Vikings :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/vikings_treasure.jpg
+2022-11-02 19:14:02,459 [main] ERROR craftBet - 862   Game Provider Name = Booongo :   Game Name =  Vikings Gods Gold :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:14:03,225 [main] ERROR craftBet - 865   Game Provider Name = NetEnt :   Game Name =  Voodoo Vibes :   cod = 404:   src = https://resources.vikwin.com/products/quickspin/mob/VolcanoRiches.png
+2022-11-02 19:14:03,332 [main] ERROR craftBet - 866   Game Provider Name = Kajot :   Game Name =  Wanted :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/voodoo_vibes.jpg
+2022-11-02 19:14:03,465 [main] ERROR craftBet - 867   Game Provider Name = Hacksaw :   Game Name =  Wanted Dead or a Wild :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:14:03,687 [main] ERROR craftBet - 869   Game Provider Name = Konami :   Game Name =  Wealthy Monkey :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/warlords.jpg
+2022-11-02 19:14:03,784 [main] ERROR craftBet - 870   Game Provider Name = Wazdan :   Game Name =  Welcome to Hell 81 :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:14:05,191 [main] ERROR craftBet - 880   Game Provider Name = RelaxGaming :   Game Name =  Wild Chapo :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:14:05,300 [main] ERROR craftBet - 881   Game Provider Name = QuickSpin :   Game Name =  Wild Chase :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/wildchapo_rg.jpg
+2022-11-02 19:14:05,403 [main] ERROR craftBet - 882   Game Provider Name = Amatic :   Game Name =  Wild Dragon :   cod = 404:   src = https://resources.vikwin.com/products/quickspin/mob/WildChase.png
+2022-11-02 19:14:05,605 [main] ERROR craftBet - 884   Game Provider Name = Greentube :   Game Name =  Wild Horses :   cod = 404:   src = https://resources.vikwin.com/products/Apolo/mob/wildfruits27_ag.jpg
+2022-11-02 19:14:06,503 [main] ERROR craftBet - 892   Game Provider Name = PlaysonDirect :   Game Name =  Wild Warriors :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/wild_turkey.jpg
+2022-11-02 19:14:06,608 [main] ERROR craftBet - 893   Game Provider Name = NetEnt :   Game Name =  Wild Water :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:14:06,720 [main] ERROR craftBet - 894   Game Provider Name = NetEnt :   Game Name =  Wild Water :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/wild_water_html.jpg
+2022-11-02 19:14:07,066 [main] ERROR craftBet - 897   Game Provider Name = NetEnt :   Game Name =  Wild Witches :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/wild_wild_west.jpg
+2022-11-02 19:14:07,179 [main] ERROR craftBet - 898   Game Provider Name = NetEnt :   Game Name =  Wildotron 3000 :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/wild_witches.jpg
+2022-11-02 19:14:07,848 [main] ERROR craftBet - 902   Game Provider Name = EGT :   Game Name =  Witches Charm :   cod = 404:   src = https://resources.vikwin.com/products/outcomebet/wishmaster.jpg
+2022-11-02 19:14:08,563 [main] ERROR craftBet - 908   Game Provider Name = NetEnt :   Game Name =  Wonky Wabbits :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:14:09,213 [main] ERROR craftBet - 913   Game Provider Name = EGT :   Game Name =  Zodiac Wheel :   cod = 403:   src = https://resources.vikwin.com/products/
+2022-11-02 19:14:10,062 [main] INFO craftBet - Broken images are:  234
+2022-11-02 19:14:10,388 [main] INFO craftBet - Browser closed
+2022-11-02 19:14:10,388 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-11-02 19:14:10,390 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-11-02 19:14:10,396 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.32.0 (resolved driver for Firefox 105)
+2022-11-02 19:14:10,404 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\user\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+2022-11-02 19:14:12,085 [main] INFO craftBet - URL: https://vikwin.com  Browser: firefox
+2022-11-02 19:14:12,095 [main] INFO craftBet - All Page elements are initialized
+2022-11-02 19:14:12,694 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-11-02 19:14:13,491 [main] INFO craftBet - username passed
+2022-11-02 19:14:13,534 [main] INFO craftBet - password passed
+2022-11-02 19:14:13,785 [main] INFO craftBet - Log In Button was clicked
+2022-11-02 19:14:15,300 [main] INFO craftBet - Token was captured 475a477cb8764a41a16a4d457b7c47aa
+2022-11-02 19:14:16,178 [main] INFO craftBet - Get All games API call 
+2022-11-02 19:14:16,192 [main] INFO craftBet - From Get All games API call body captured 
+2022-11-02 19:14:16,200 [main] INFO craftBet - From Get All games API productIDes and Names was captured 
+2022-11-02 19:14:47,049 [main] INFO craftBet - 1 29 ID=23633 Provider=Greentube Name=African simba cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:14:50,567 [main] INFO craftBet - 2 35 ID=23652 Provider=Microgaming Name=Alaskan Fishing cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:14:51,624 [main] INFO craftBet - 3 37 ID=23634 Provider=Spadegaming Name=Alien hunter cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:14:52,723 [main] INFO craftBet - 4 39 ID=23119 Provider=NetEnt Name=Aliens touch cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:14:57,352 [main] INFO craftBet - 5 47 ID=23476 Provider=EGT Name=Amazing Amazonia cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:14:59,111 [main] INFO craftBet - 6 50 ID=23172 Provider=NetEnt Name=American Roulette cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:15:01,452 [main] INFO craftBet - 7 54 ID=23635 Provider=Amatic Name=Arising Phoenix cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:15:04,891 [main] INFO craftBet - 8 60 ID=23653 Provider=NetEnt Name=Attraction cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:15:05,461 [main] INFO craftBet - 9 61 ID=23126 Provider=Greentube Name=Autumn Queen cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:15:07,089 [main] INFO craftBet - 10 64 ID=23636 Provider=PragmaticPlay Name=Aztec Gems Deluxe cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:15:12,901 [main] INFO craftBet - 11 74 ID=23670 Provider=PlayTech Name=Batman & the Joker J. cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:15:15,617 [main] INFO craftBet - 12 78 ID=23130 Provider=Wazdan Name=Beach Party cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:15:22,804 [main] INFO craftBet - 13 89 ID=23122 Provider=NetEnt Name=Big Bang touch cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:15:26,363 [main] INFO craftBet - 14 95 ID=23671 Provider=Amatic Name=Big Panda cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:15:35,089 [main] INFO craftBet - 15 110 ID=23088 Provider=NetEnt Name=Blood Suckers 2 cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:15:36,764 [main] INFO craftBet - 16 113 ID=23010 Provider=EGT Name=Blue Heart cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:15:37,844 [main] INFO craftBet - 17 115 ID=23403 Provider=NetEnt Name=Bollywood Story cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:15:49,222 [main] INFO craftBet - 18 134 ID=23133 Provider=Microgaming Name=Booty Time cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:15:49,727 [main] INFO craftBet - 19 135 ID=23672 Provider=Microgaming Name=Break da Bank again cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:15:50,352 [main] INFO craftBet - 20 136 ID=23637 Provider=Microgaming Name=Break da Bank Again cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:15:51,981 [main] INFO craftBet - 21 139 ID=23673 Provider=Booongo Name=Buddha Fortune cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:15:55,866 [main] INFO craftBet - 22 146 ID=23638 Provider=EGT Name=Burning Dice cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:15:57,070 [main] INFO craftBet - 23 148 ID=23008 Provider=EGT Name=Burning Hot cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:16:06,028 [main] INFO craftBet - 24 164 ID=23639 Provider=EGT Name=Casino Mania cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:16:07,724 [main] INFO craftBet - 25 167 ID=23087 Provider=Greentube Name=Changing Fate 40 cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:16:17,945 [main] INFO craftBet - 26 184 ID=23674 Provider=NetEnt Name=Copy Cats cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:16:22,019 [main] INFO craftBet - 27 191 ID=23131 Provider=NetEnt Name=Crime Scene cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:16:22,505 [main] INFO craftBet - 28 192 ID=23132 Provider=Wazdan Name=CrisCross 81 cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:16:23,534 [main] INFO craftBet - 29 194 ID=23089 Provider=QuickSpin Name=Crystal Queen cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:16:26,935 [main] INFO craftBet - 30 200 ID=23091 Provider=NetEnt Name=Dead or Alive 2 cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:16:28,641 [main] INFO craftBet - 31 203 ID=23640 Provider=NetEnt Name=Demolition Squad cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:16:29,152 [main] INFO craftBet - 32 204 ID=23146 Provider=Wazdan Name=Demon Jack 27 cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:16:30,881 [main] INFO craftBet - 33 207 ID=23165 Provider=NetEnt Name=Deuces Wild cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:16:31,475 [main] INFO craftBet - 34 208 ID=23167 Provider=NetEnt Name=Deuses Wild cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:16:32,117 [main] INFO craftBet - 35 209 ID=23166 Provider=NetEnt Name=Devil`s Delight cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:16:33,619 [main] INFO craftBet - 36 210 ID=23092 Provider=Amatic Name=Diamond Cats cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:16:34,646 [main] INFO craftBet - 37 212 ID=23086 Provider=Amatic Name=Diamond Monkey cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:16:39,803 [main] INFO craftBet - 38 221 ID=23151 Provider=QuickSpin Name=Divine Dreams cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:16:41,360 [main] INFO craftBet - 39 224 ID=23641 Provider=Aristocrat Name=Dolphin Treasure cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:16:46,510 [main] INFO craftBet - 40 232 ID=23136 Provider=NetEnt Name=Dracula touch cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:16:47,775 [main] INFO craftBet - 41 234 ID=23128 Provider=PragmaticPlay Name=Dragon Kingdom cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:16:48,966 [main] INFO craftBet - 42 236 ID=23480 Provider=EGT Name=Dragon Reels cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:16:54,258 [main] INFO craftBet - 43 245 ID=23681 Provider=Microgaming Name=Dream Date cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:16:58,126 [main] INFO craftBet - 44 252 ID=23642 Provider=PlaynGo Name=Easter Eggs cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:16:59,796 [main] INFO craftBet - 45 255 ID=23144 Provider=NetEnt Name=Eggomatic cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:17:00,853 [main] INFO craftBet - 46 257 ID=23108 Provider=NetEnt Name=Elements cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:17:01,953 [main] INFO craftBet - 47 259 ID=23141 Provider=Microgaming Name=Emoticoins cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:17:03,768 [main] INFO craftBet - 48 262 ID=23691 Provider=Amatic Name=Enchanted Cleopatra cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:17:04,815 [main] INFO craftBet - 49 264 ID=23142 Provider=NetEnt Name=Excalibur cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:17:05,334 [main] INFO craftBet - 50 265 ID=23070 Provider=NetEnt Name=Excalibur cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:17:17,733 [main] INFO craftBet - 51 284 ID=23145 Provider=Greentube Name=Flame Dancer cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:17:20,601 [main] INFO craftBet - 52 289 ID=23007 Provider=EGT Name=Flaming Hot cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:17:22,234 [main] INFO craftBet - 53 292 ID=23097 Provider=NetEnt Name=Flowers Christmas Edition cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:17:26,830 [main] INFO craftBet - 54 300 ID=23523 Provider=EGT Name=Fortune Spells cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:17:28,424 [main] INFO craftBet - 55 303 ID=23085 Provider=NetEnt Name=Frankenstein cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:17:28,972 [main] INFO craftBet - 56 304 ID=23104 Provider=NetEnt Name=Frankenstein touch cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:17:30,147 [main] INFO craftBet - 57 306 ID=23161 Provider=NetEnt Name=French Roulette cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:17:31,161 [main] INFO craftBet - 58 308 ID=23120 Provider=Igrosoft Name=Fruit Cocktail cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:17:43,974 [main] INFO craftBet - 59 330 ID=23152 Provider=EGT Name=Game Of Luck cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:17:46,014 [main] INFO craftBet - 60 333 ID=23643 Provider=Microgaming Name=Game of Thrones 243 ways cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:17:46,653 [main] INFO craftBet - 61 334 ID=23644 Provider=Microgaming Name=Game of Thrones 243 Ways cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:17:51,634 [main] INFO craftBet - 62 342 ID=23093 Provider=NetEnt Name=Ghost Pirates cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:17:52,698 [main] INFO craftBet - 63 344 ID=23662 Provider=Microgaming Name=Girls with Guns: Frozen Dawn cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:17:53,297 [main] INFO craftBet - 64 345 ID=23682 Provider=PlayTech Name=Gladiator: Road to Rome cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:17:54,570 [main] INFO craftBet - 65 347 ID=23156 Provider=NetEnt Name=Glow cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:17:56,254 [main] INFO craftBet - 66 350 ID=23139 Provider=PlaysonDirect Name=God of Wild Sea cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:17:58,101 [main] INFO craftBet - 67 353 ID=23675 Provider=Merkur Name=Gold Cup cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:18:08,082 [main] INFO craftBet - 68 368 ID=23676 Provider=EGT Name=Grace of Cleopatra cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:18:08,580 [main] INFO craftBet - 69 369 ID=23005 Provider=EGT Name=Grace of Cleopatra cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:18:11,575 [main] INFO craftBet - 70 374 ID=23153 Provider=Greentube Name=Gryphon`s Gold Deluxe cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:18:21,197 [main] INFO craftBet - 71 388 ID=23677 Provider=PragmaticPlay Name=Hercules Son of Zeus cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:18:34,662 [main] INFO craftBet - 72 394 ID=23401 Provider=Microgaming Name=Hollyjolly Penguins cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:18:40,170 [main] INFO craftBet - 73 403 ID=23084 Provider=Amatic Name=Hot Diamonds cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:18:50,784 [main] INFO craftBet - 74 419 ID=23645 Provider=Wazdan Name=Hungry Shark cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:18:55,054 [main] INFO craftBet - 75 425 ID=23646 Provider=PlaysonDirect Name=Imperial Fruits: 100 Lines cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:19:02,534 [main] INFO craftBet - 76 437 ID=23647 Provider=Igrosoft Name=Island cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:19:05,705 [main] INFO craftBet - 77 442 ID=23109 Provider=NetEnt Name=Jack Hammer cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:19:07,063 [main] INFO craftBet - 78 444 ID=23098 Provider=NetEnt Name=Jack Hammer 2 cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:19:08,358 [main] INFO craftBet - 79 446 ID=23099 Provider=Wazdan Name=Jack on Hold cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:19:10,198 [main] INFO craftBet - 80 449 ID=23162 Provider=NetEnt Name=Jacks or Better cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:19:10,706 [main] INFO craftBet - 81 450 ID=23163 Provider=Aristocrat Name=Jaguar Mist cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:19:12,419 [main] INFO craftBet - 82 453 ID=23654 Provider=Gaminator Name=Jewels 4 All cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:19:18,856 [main] INFO craftBet - 83 463 ID=23116 Provider=Microgaming Name=Jungle Jim Eldorado cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:19:20,060 [main] INFO craftBet - 84 465 ID=23683 Provider=Greentube Name=Jungle Queen cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:19:25,497 [main] INFO craftBet - 85 474 ID=23648 Provider=Igrosoft Name=Keks cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:19:29,764 [main] INFO craftBet - 86 481 ID=23655 Provider=NetEnt Name=King of Slots cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:19:30,382 [main] INFO craftBet - 87 482 ID=23402 Provider=NetEnt Name=King of Slots cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:19:33,974 [main] INFO craftBet - 88 488 ID=23656 Provider=Amatic Name=Lady Joker cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:19:35,262 [main] INFO craftBet - 89 490 ID=23678 Provider=PlaynGo Name=Legacy of Dead cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:19:39,417 [main] INFO craftBet - 90 496 ID=23663 Provider=Greentube Name=Lightning Wild cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:19:41,365 [main] INFO craftBet - 91 499 ID=23124 Provider=EGT Name=Like a Diamond cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:19:43,085 [main] INFO craftBet - 92 502 ID=23664 Provider=Greentube Name=Lord of the Ocean Deluxe cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:19:44,146 [main] INFO craftBet - 93 504 ID=23125 Provider=Wazdan Name=Lost Treasure cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:19:45,878 [main] INFO craftBet - 94 506 ID=23951 Provider=Konami Name=Lotus Land cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:19:49,934 [main] INFO craftBet - 95 513 ID=23106 Provider=Amatic Name=Lucky Bells cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:19:56,007 [main] INFO craftBet - 96 524 ID=23684 Provider=Greentube Name=Lucky Lady`s Charm 6 Deluxe cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:20:01,643 [main] INFO craftBet - 97 534 ID=23665 Provider=Booongo Name=Lucky Xmas cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:20:11,979 [main] INFO craftBet - 98 552 ID=23123 Provider=Greentube Name=Magic Princess cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:20:15,257 [main] INFO craftBet - 99 557 ID=23004 Provider=EGT Name=Majestic Forest cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:20:18,245 [main] INFO craftBet - 100 562 ID=23155 Provider=Greentube Name=Mayan Moons cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:20:19,987 [main] INFO craftBet - 101 565 ID=23657 Provider=QuickSpin Name=Mayana cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:20:23,243 [main] INFO craftBet - 102 571 ID=23658 Provider=Greentube Name=Mermaid's Pearl cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:20:32,948 [main] INFO craftBet - 103 588 ID=23693 Provider=QuickSpin Name=Mountain King cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:20:35,120 [main] INFO craftBet - 104 592 ID=23112 Provider=NetEnt Name=Mystery at the Mansion cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:20:35,606 [main] INFO craftBet - 105 593 ID=23073 Provider=Wazdan Name=Mystery Jack cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:20:38,820 [main] INFO craftBet - 106 598 ID=23100 Provider=EGT Name=Neon Dice cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:20:42,500 [main] INFO craftBet - 107 604 ID=23685 Provider=Greentube Name=Ninja Path cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:20:44,073 [main] INFO craftBet - 108 607 ID=23158 Provider=NetEnt Name=Nrvna touch cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:20:46,873 [main] INFO craftBet - 109 612 ID=23666 Provider=Booongo Name=Olympian Gods cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:20:47,916 [main] INFO craftBet - 110 614 ID=23003 Provider=EGT Name=Olympus Glory cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:20:48,971 [main] INFO craftBet - 111 616 ID=23680 Provider=Greentube Name=Orca cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:20:50,273 [main] INFO craftBet - 112 618 ID=23659 Provider=NetEnt Name=Pacific Attack! cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:20:50,795 [main] INFO craftBet - 113 619 ID=23072 Provider=Apollo Name=Pandora cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:20:52,853 [main] INFO craftBet - 114 621 ID=23069 Provider=Amatic Name=Party Night cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:21:00,940 [main] INFO craftBet - 115 635 ID=23094 Provider=Igrosoft Name=Pirate cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:21:03,794 [main] INFO craftBet - 116 640 ID=23686 Provider=NetEnt Name=Planet of the Apes cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:21:06,544 [main] INFO craftBet - 117 645 ID=23649 Provider=Kajot Name=Puppet Show cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:21:12,049 [main] INFO craftBet - 118 654 ID=23690 Provider=Merkur Name=Railroad cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:21:20,004 [main] INFO craftBet - 119 668 ID=23143 Provider=NetEnt Name=Reel Steal cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:21:20,570 [main] INFO craftBet - 120 669 ID=23090 Provider=NetEnt Name=Reel Steal cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:21:26,485 [main] INFO craftBet - 121 679 ID=23002 Provider=EGT Name=Rise of Ra cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:21:29,277 [main] INFO craftBet - 122 684 ID=23110 Provider=Microgaming Name=Robo Jack cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:21:29,834 [main] INFO craftBet - 123 685 ID=23692 Provider=Igrosoft Name=Rock Climber cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:21:35,036 [main] INFO craftBet - 124 694 ID=23001 Provider=EGT Name=Royal Secrets cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:21:38,373 [main] INFO craftBet - 125 700 ID=23687 Provider=Booongo Name=Scarab Riches cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:21:39,408 [main] INFO craftBet - 126 702 ID=23114 Provider=Microgaming Name=Scrooge cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:21:40,516 [main] INFO craftBet - 127 704 ID=23650 Provider=NetEnt Name=Scruffy Duck cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:21:43,872 [main] INFO craftBet - 128 709 ID=23117 Provider=Greentube Name=Secret Elixir cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:21:48,435 [main] INFO craftBet - 129 717 ID=23065 Provider=NetEnt Name=Secrets of Stones cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:21:48,952 [main] INFO craftBet - 130 718 ID=23113 Provider=Greentube Name=Serengeti Heat cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:21:50,009 [main] INFO craftBet - 131 720 ID=23667 Provider=PlaysonDirect Name=Sevens & Fruits cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:21:54,792 [main] INFO craftBet - 132 728 ID=23723 Provider=Greentube Name=Shooting Stars cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:21:56,406 [main] INFO craftBet - 133 731 ID=23148 Provider=Microgaming Name=Silver Fang cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:21:57,608 [main] INFO craftBet - 134 733 ID=23660 Provider=Kajot Name=Simply The Best 81 cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:21:58,736 [main] INFO craftBet - 135 735 ID=23118 Provider=Booongo Name=Singles Day cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:22:06,166 [main] INFO craftBet - 136 748 ID=23115 Provider=NetEnt Name=South Park Reel Chaos cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:22:06,690 [main] INFO craftBet - 137 749 ID=23150 Provider=NetEnt Name=South Park Reel Chaos touch cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:22:08,350 [main] INFO craftBet - 138 752 ID=23147 Provider=NetEnt Name=Sparks cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:22:09,514 [main] INFO craftBet - 139 754 ID=23066 Provider=NetEnt Name=Spellcast cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:22:11,276 [main] INFO craftBet - 140 757 ID=23138 Provider=QuickSpin Name=Spinions Beach Party cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:22:15,198 [main] INFO craftBet - 141 763 ID=23103 Provider=Microgaming Name=Stardust cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:22:16,238 [main] INFO craftBet - 142 765 ID=23688 Provider=Kajot Name=Stars cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:22:17,291 [main] INFO craftBet - 143 767 ID=23137 Provider=NetEnt Name=Steam Tower touch cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:22:20,628 [main] INFO craftBet - 144 773 ID=23102 Provider=NetEnt Name=Subtopia touch cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:22:24,608 [main] INFO craftBet - 145 780 ID=23668 Provider=EGT Name=Super 20 cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:22:27,372 [main] INFO craftBet - 146 785 ID=23154 Provider=Wazdan Name=Super Hot cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:22:30,216 [main] INFO craftBet - 147 790 ID=23721 Provider=PragmaticPlay Name=Sweet Bonanza cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:22:34,195 [main] INFO craftBet - 148 797 ID=23669 Provider=QuickSpin Name=Tales of Doctor Dolittle cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:22:35,253 [main] INFO craftBet - 149 799 ID=23083 Provider=Microgaming Name=Tasty Street cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:22:37,565 [main] INFO craftBet - 150 803 ID=23689 Provider=Wazdan Name=Tetrimania cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:22:48,250 [main] INFO craftBet - 151 821 ID=23107 Provider=Greentube Name=Thirteen cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:22:49,987 [main] INFO craftBet - 152 824 ID=23064 Provider=Booongo Name=Thunder Of Olympus cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:22:51,754 [main] INFO craftBet - 153 827 ID=23129 Provider=Microgaming Name=Thunderstruck cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:22:52,831 [main] INFO craftBet - 154 829 ID=23651 Provider=Microgaming Name=Thunderstruck II cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:22:53,860 [main] INFO craftBet - 155 831 ID=23632 Provider=Aristocrat Name=Tiki Torch cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:22:55,676 [main] INFO craftBet - 156 834 ID=23626 Provider=Microgaming Name=Titans of the Sun: Hyperion cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:22:56,825 [main] INFO craftBet - 157 836 ID=23625 Provider=Microgaming Name=Tomb Raider cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:22:57,869 [main] INFO craftBet - 158 838 ID=23661 Provider=NetEnt Name=Tornado cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:22:58,374 [main] INFO craftBet - 159 839 ID=23140 Provider=NetEnt Name=Tornado touch cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:23:00,708 [main] INFO craftBet - 160 843 ID=23068 Provider=Kajot Name=Turbo 27 cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:23:04,038 [main] INFO craftBet - 161 849 ID=23135 Provider=Microgaming Name=Twisted Circus cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:23:04,523 [main] INFO craftBet - 162 850 ID=23679 Provider=Greentube Name=Two Mayans cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:23:06,316 [main] INFO craftBet - 163 853 ID=23720 Provider=Merkur Name=Ultra 7 Wild cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:23:12,681 [main] INFO craftBet - 164 863 ID=23719 Provider=NetEnt Name=Victorious cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:23:13,191 [main] INFO craftBet - 165 864 ID=23101 Provider=NetEnt Name=Victorious touch cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:23:14,273 [main] INFO craftBet - 166 866 ID=23063 Provider=NetEnt Name=Vikings cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:23:17,715 [main] INFO craftBet - 167 872 ID=23071 Provider=Kajot Name=Wanted cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:23:21,723 [main] INFO craftBet - 168 879 ID=23157 Provider=Aristocrat Name=Where's The Gold cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:23:30,966 [main] INFO craftBet - 169 895 ID=23149 Provider=Amatic Name=Wild Shark cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:23:32,613 [main] INFO craftBet - 170 898 ID=23095 Provider=PlaysonDirect Name=Wild Warriors cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:23:34,244 [main] INFO craftBet - 171 901 ID=23127 Provider=PragmaticPlay Name=Wild West Gold cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:23:36,091 [main] INFO craftBet - 172 904 ID=23067 Provider=NetEnt Name=Wildotron 3000 cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:23:38,402 [main] INFO craftBet - 173 908 ID=23134 Provider=EGT Name=Witches Charm cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:23:39,510 [main] INFO craftBet - 174 910 ID=23718 Provider=NetEnt Name=Wolf Cub cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:23:43,182 [main] INFO craftBet - 175 915 ID=23121 Provider=Merkur Name=Xtra 10 Liner cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:23:46,678 [main] INFO craftBet - 176 921 ID=23717 Provider=Spadegaming Name=Zombie party cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2022-11-02 19:23:47,814 [main] INFO craftBet - 923 Unirest Exception 
+2022-11-02 19:23:47,814 [main] INFO craftBet - From Get URL API broken games are captured
+2022-11-02 19:23:47,814 [main] INFO craftBet - Broken url-es are:  176
+2022-11-02 19:23:48,826 [main] INFO craftBet - Browser closed
+2022-11-02 19:23:48,826 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-11-02 19:23:48,935 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
