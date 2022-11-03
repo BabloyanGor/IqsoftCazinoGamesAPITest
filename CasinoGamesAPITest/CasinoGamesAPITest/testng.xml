@@ -11,10 +11,10 @@
 <!--            <class name="testCases.CraftBet_101_LifeGamesTimeOut_Test"/>-->
 <!--            <class name="testCases."/>-->
 
-<!--            <class name="testCases.CraftBet_000_CasinoSameNameCopyGames_Test"/>-->
-<!--            <class name="testCases.CraftBet_001_CasinoGamesImgWeb_Test"/>-->
+            <class name="testCases.CraftBet_000_CasinoSameNameCopyGames_Test"/>
+            <class name="testCases.CraftBet_001_CasinoGamesImgWeb_Test"/>
             <class name="testCases.CraftBet_002_CasinoGamesIMGMobile_Test"/>
-<!--            <class name="testCases.CraftBet_003_CasinoGamesUrl_Test"/>-->
+            <class name="testCases.CraftBet_003_CasinoGamesUrl_Test"/>
         </classes>
     </test>
 </suite>
