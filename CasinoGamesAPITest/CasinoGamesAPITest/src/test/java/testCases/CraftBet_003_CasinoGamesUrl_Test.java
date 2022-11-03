@@ -99,7 +99,7 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
             String errMessage;
             try {
                 if (!code.equals("0") || url == null || url.length() < 10) {
-                    errMessage = errCount + " " + k + " ID=" + id + " Provider=" + provider.get(k) + " Name=" + name.get(k) + " cod=" + code + " description=" + description + " ResponseObject=" + url;
+                    errMessage = errCount + " " + k + " ID=" + id + " Provider=" + provider.get(k-1) + " Name=" + name.get(k-1) + " cod=" + code + " description=" + description + " ResponseObject=" + url;
                     logger.info(errMessage);
                     errorSrcXl.add(errMessage);
                     errCount++;
