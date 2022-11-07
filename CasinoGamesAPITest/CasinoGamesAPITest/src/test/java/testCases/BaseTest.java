@@ -267,6 +267,20 @@ public class BaseTest extends DriverFactory {
                 break;
             }
 
+            case 14: {
+                partnerID = 14;
+                getGamesAPIUrl = "https://websitewebapi.winmatch.win/14/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.winmatch.win/14/api/Main/GetProductUrl";
+                getUserID = 1656377;
+                getGamesOrigin = "https://winmatch.win";
+                getGamesRecurse = "https://resources.winmatch.win/products/";
+                getGamesPartnerName = "winmatch";
+                getGamesBaseURL = "https://winmatch.win";
+                break;
+            }
+
+
+
             case 100: {
                 partnerID = 1;
                 getGamesAPIUrl = "https://websitewebapi.exclusivebet-stage.com/1/api/Main/GetGames";
