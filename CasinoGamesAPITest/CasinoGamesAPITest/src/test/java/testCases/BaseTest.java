@@ -26,6 +26,7 @@ import java.util.ArrayList;
 
 
 
+
 public class BaseTest extends DriverFactory {
 
     static final int MINUTES_PER_HOUR = 60;
@@ -46,7 +47,13 @@ public class BaseTest extends DriverFactory {
 
     public String getPreMatchTree;
 
+
+    public String getPrematchMatchesMarketsByID(int gameID){
+        return getMarketByID + gameID + "&OddsType=0";
+    }
+
     public String getMarketByID;
+
 
 
     public CraftBet_01_Header_Page craftBet_01_header_page;
@@ -123,7 +130,7 @@ public class BaseTest extends DriverFactory {
 
                 getPreMatchTree = "https://sportsbookwebsitewebapi.craftbet.com/website/getprematchtree?LanguageId=en&TimeZone=4";
                 getPrematchTreeOrigin = "https://sportsbookwebsite.craftbet.com";
-                getMarketByID = "https://sportsbookwebsitewebapi.craftbet.com/website/getmarketsbymatchid?LanguageId=en&TimeZone=4&MatchId=3713041&OddsType=0";
+                getMarketByID = "https://sportsbookwebsitewebapi.craftbet.com/website/getmarketsbymatchid?LanguageId=en&TimeZone=4&MatchId="; //3713041&OddsType=0
                 getMarketByIDOrigin = "https://sportsbookwebsite.craftbet.com";
 
                 break;
@@ -218,6 +225,18 @@ public class BaseTest extends DriverFactory {
                 getGamesRecurse = "https://resources.tether.bet/products/";
                 getGamesPartnerName = "Tetherbet";
                 getGamesBaseURL = "https://play.tether.bet";
+
+
+                getAllLifeGames = "https://sportsbookwebsitewebapi.play.tether.bet/website/getlivematchesoverview?LanguageId=en&TimeZone=4&origin=https://sportsbookwebsite.play.tether.bet";
+
+                getPreMatchTree = "https://sportsbookwebsitewebapi.play.tether.bet/website/getprematchtree?LanguageId=en&TimeZone=4";
+
+                getPrematchTreeOrigin = "https://sportsbookwebsite.play.tether.bet";
+                /////getPrematchTreeOrigin = " https://sportsbookwebsitewebapi.play.tether.bet/website/getprematchtree?LanguageId=en&TimeZone=4";
+
+                getMarketByID = "https://sportsbookwebsitewebapi.play.tether.bet/website/getmarketsbymatchid?LanguageId=en&TimeZone=4&MatchId="; //3956272&OddsType=0
+
+                getMarketByIDOrigin = "https://sportsbookwebsite..play.tether.bet";
                 break;
             }
 

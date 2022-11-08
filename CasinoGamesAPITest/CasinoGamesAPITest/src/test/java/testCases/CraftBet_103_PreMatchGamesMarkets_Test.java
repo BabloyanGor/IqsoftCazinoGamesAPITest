@@ -84,8 +84,9 @@ public class CraftBet_103_PreMatchGamesMarkets_Test extends BaseTest{
         }
 
 //        craftBet_01_header_page.waitAction(2000);
+        int gameIDCount = 0;
         for (String gameId : gameIDs){
-
+            gameIDCount++;
             Unirest.setTimeouts(0, 0);
             HttpResponse<String> response = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getmarketsbymatchid?LanguageId=en&TimeZone=4&MatchId="+gameId+"&OddsType=0")
                     .header("origin", getMarketsAPI)
@@ -94,7 +95,7 @@ public class CraftBet_103_PreMatchGamesMarkets_Test extends BaseTest{
 //            System.out.println(jsonObjectMarketsResponseBody.toString());
             JSONArray jsonArrayAllMarkets = jsonObjectMarketsResponseBody.getJSONArray("Markets");
             Unirest.shutdown();
-            System.out.println(k);
+//            System.out.println(k);
             k--;
             for (int c = 0; c < jsonArrayAllMarkets.length(); c++) {
                 String oneMarket = String.valueOf(jsonArrayAllMarkets.get(c));
@@ -134,10 +135,11 @@ public class CraftBet_103_PreMatchGamesMarkets_Test extends BaseTest{
                         errorSrcXl.add("Cant parse to int selectorPoint:  " + selectorPoint );
 
                     }
-                    System.out.println(pointCount);
+//                    System.out.println(pointCount);
                     pointCount++;
                 }
             }
+            System.out.println("GameID number  " + gameIDCount + "  of  " + k);
         }
 
 
@@ -153,7 +155,7 @@ public class CraftBet_103_PreMatchGamesMarkets_Test extends BaseTest{
     }
     @Test
     public void gatPreMatchGamesMarket() throws UnirestException, JSONException, IOException {
-        if (getGamesPartnerName.equals("Craftbet")){
+        if (getGamesPartnerName.equals("Craftbet")||getGamesPartnerName.equals("Tetherbet")){
             if (getPreMatchGamesAPICheckMarkets(getPreMatchTree, getMarketByID, getPrematchTreeOrigin,getGamesPartnerName)){
                 Assert.assertTrue(true);
             }
@@ -162,7 +164,7 @@ public class CraftBet_103_PreMatchGamesMarkets_Test extends BaseTest{
             }
         }
         else{
-            logger.error("Please provide Craftbet id  as test Partner ");
+            logger.error("Please provide Craftbet/Tetherbet id  as test Partner ");
             Assert.assertTrue(false);
         }
     }
