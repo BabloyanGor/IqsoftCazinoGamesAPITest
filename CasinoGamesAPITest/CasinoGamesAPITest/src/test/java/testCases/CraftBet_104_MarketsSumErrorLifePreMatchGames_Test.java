@@ -16,14 +16,14 @@ import java.util.ArrayList;
 
 public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest {
     int count = 1;
-    String getAllLifeGamesURL = "https://sportsbookwebsitewebapi.craftbet.com/website/getlivematchesoverview?LanguageId=en&TimeZone=4&origin=https://sportsbookwebsite.craftbet.com";
-    String getPreMatchTree = "https://sportsbookwebsitewebapi.craftbet.com/website/getprematchtree?LanguageId=en&TimeZone=4";
-    String getPreMatchTreeOrigin = "https://sportsbookwebsite.craftbet.com";
+//    String getAllLifeGamesURL = "https://sportsbookwebsitewebapi.craftbet.com/website/getlivematchesoverview?LanguageId=en&TimeZone=4&origin=https://sportsbookwebsite.craftbet.com";
+//    String getPreMatchTree = "https://sportsbookwebsitewebapi.craftbet.com/website/getprematchtree?LanguageId=en&TimeZone=4";
+//    String getPreMatchTreeOrigin = "https://sportsbookwebsite.craftbet.com";
 
 
     @Test(priority = 1,dataProvider = "sports")
     public void gatPreMatchMatchGamesWithEmptyMarkets(String sport) throws UnirestException, JSONException, IOException {
-        if (getGamesPartnerName.equals("Craftbet")) {
+        if (getGamesPartnerName.equals("Craftbet")||getGamesPartnerName.equals("Tetherbet")) {
             if (getPreMatchGamesWithEmptyMarkets(sport)) {
                 Assert.assertTrue(true);
             } else {
@@ -48,10 +48,10 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
 
         Unirest.setTimeouts(0, 0);
         HttpResponse<String> responseGetMatches = Unirest.get(getPreMatchTree)
-                .header("origin", getPreMatchTreeOrigin)
+                .header("origin", getPrematchTreeOrigin)
                 .asString();
 
-        logger.info("Get Matches Api call was sent");
+        logger.info("Get Matches Api call was sent url:" +  getPreMatchTree + "  Origin  " + getPrematchTreeOrigin );
         JSONObject jsonObjectBody = new JSONObject(responseGetMatches.getBody());
         JSONArray jsonArrayAllSports = jsonObjectBody.getJSONArray("Ss");
         Unirest.shutdown();
@@ -88,8 +88,9 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
 
         for (int i = 0; i < gameIDs.size(); i++) {
             Unirest.setTimeouts(0, 0);
-            HttpResponse<String> responseGetMarkets = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getmarketsbymatchid?LanguageId=en&TimeZone=4&MatchId=" + gameIDs.get(i) + "&OddsType=0")
-                    .header("origin", getPreMatchTreeOrigin)
+//            HttpResponse<String> responseGetMarkets = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getmarketsbymatchid?LanguageId=en&TimeZone=4&MatchId=" + gameIDs.get(i) + "&OddsType=0")
+            HttpResponse<String> responseGetMarkets = Unirest.get(getPrematchMatchesMarketsByID(Integer.parseInt(gameIDs.get(i))))
+                    .header("origin", getPrematchTreeOrigin)
                     .asString();
             JSONObject jsonObjectMarketsResponseBody = new JSONObject(responseGetMarkets.getBody());
             Unirest.shutdown();
@@ -121,9 +122,19 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
     }
 
 
+
+
+
+
+
+
+
+
+
+
     @Test(priority = 2,dataProvider = "sports")
     public void gatPreMatchMatchGamesBrokenMarkets(String sport) throws UnirestException, JSONException, IOException {
-        if (getGamesPartnerName.equals("Craftbet")) {
+        if (getGamesPartnerName.equals("Craftbet")||getGamesPartnerName.equals("Tetherbet")) {
             if (getPreMatchGamesAPICheckMarkets(sport)) {
                 Assert.assertTrue(true);
             } else {
@@ -134,6 +145,12 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
             Assert.fail();
         }
     }
+
+
+
+
+
+
 
     public boolean getPreMatchGamesAPICheckMarkets(String sport)
             throws UnirestException, JSONException, IOException {
@@ -154,7 +171,7 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
 
         Unirest.setTimeouts(0, 0);
         HttpResponse<String> responseGetMatches = Unirest.get(getPreMatchTree)
-                .header("origin", getPreMatchTreeOrigin)
+                .header("origin", getPrematchTreeOrigin)
                 .asString();
 
         logger.info("Get Matches Api call was sent");
@@ -198,7 +215,7 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
             breakMatchCount++;
             Unirest.setTimeouts(0, 0);
             HttpResponse<String> responseGetMarkets = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getmarketsbymatchid?LanguageId=en&TimeZone=4&MatchId=" + gameId + "&OddsType=0")
-                    .header("origin", getPreMatchTreeOrigin)
+                    .header("origin", getPrematchTreeOrigin)
                     .asString();
             JSONObject jsonObjectMarketsResponseBody = new JSONObject(responseGetMarkets.getBody());
             Unirest.shutdown();
@@ -259,44 +276,43 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
     Object[][] loginDataInvalid() {
 
         String[][] arr = {
-                {"Basketball"},
-                {"Tennis"},
-                {"Formula 1"},
-                {"Ice Hockey"},
-                {"Table Tennis"},
-                {"Rugby League"},
-                {"Rugby Union"},
-                {"Volleyball"},
-                {"Golf"},
-                {"American Football"},
-                {"Futsal"},
-                {"Aussie Rules"},
-                {"Cricket"},
-                {"Cybersport"},
-                {"Handball"},
-                {"Badminton"},
-                {"Kabaddi"},
-                {"Baseball"},
-                {"Boxing"},
-                {"MMA"},
-                {"Darts"},
-                {"Lottery"},
-                {"Netball"},
-                {"Politics"},
-                {"E-Football"},
-                {"E-Basketball"},
-                {"Snooker"},
-                {"Specials"},
-                {"Floorball"},
-                {"Chess"},
-
-                {"E-sports"},
-                {"Biathlon"},
-                {"Water Polo"},
-                {"Gaelic Football"},
-                {"Lacrosse"},
-                {"Beach Soccer"},
-                {"Squash"},
+//                {"Basketball"},
+//                {"Tennis"},
+//                {"Formula 1"},
+//                {"Ice Hockey"},
+//                {"Table Tennis"},
+//                {"Rugby League"},
+//                {"Rugby Union"},
+//                {"Volleyball"},
+//                {"Golf"},
+//                {"American Football"},
+//                {"Futsal"},
+//                {"Aussie Rules"},
+//                {"Cricket"},
+//                {"Cybersport"},
+//                {"Handball"},
+//                {"Badminton"},
+//                {"Kabaddi"},
+//                {"Baseball"},
+//                {"Boxing"},
+//                {"MMA"},
+//                {"Darts"},
+//                {"Lottery"},
+//                {"Netball"},
+//                {"Politics"},
+//                {"E-Football"},
+//                {"E-Basketball"},
+//                {"Snooker"},
+//                {"Specials"},
+//                {"Floorball"},
+//                {"Chess"},
+//                {"E-sports"},
+//                {"Biathlon"},
+//                {"Water Polo"},
+//                {"Gaelic Football"},
+//                {"Lacrosse"},
+//                {"Beach Soccer"},
+//                {"Squash"},
 
                 {"Soccer"}  //
         };
@@ -333,7 +349,7 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
         ArrayList<Double> selectorCoefficientArrayList = new ArrayList<>();
 
         Unirest.setTimeouts(0, 0);
-        HttpResponse<String> response = Unirest.get(getAllLifeGamesURL).asString();
+        HttpResponse<String> response = Unirest.get(getAllLifeGames).asString();
 
         logger.info("Get games Api call was sent");
         JSONObject jsonObjectBody = new JSONObject(response.getBody());
