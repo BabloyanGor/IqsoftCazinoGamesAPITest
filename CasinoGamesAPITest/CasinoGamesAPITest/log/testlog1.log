@@ -554,3 +554,154 @@
 2022-11-09 12:29:51,342 [main] INFO craftBet - Browser closed
 2022-11-09 12:29:51,342 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-11-09 12:29:51,348 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-11-10 17:38:10,037 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-11-10 17:38:11,132 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.32.0 (resolved driver for Firefox 106)
+2022-11-10 17:38:11,172 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+2022-11-10 17:38:16,184 [main] INFO craftBet - URL: https://oceanbet.io  Browser: firefox
+2022-11-10 17:38:16,336 [main] INFO craftBet - All Page elements are initialized
+2022-11-10 17:38:16,860 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-11-10 17:38:35,780 [main] INFO craftBet - Get games Api call was sent
+2022-11-10 17:38:35,993 [main] INFO craftBet - Get games Api Response was captured
+2022-11-10 17:38:36,137 [main] INFO craftBet - Dupliicate game Name =  777
+2022-11-10 17:38:36,152 [main] INFO craftBet - Dupliicate game Name =  American Roulette
+2022-11-10 17:38:36,152 [main] INFO craftBet - Dupliicate game Name =  American Roulette
+2022-11-10 17:38:36,152 [main] INFO craftBet - Dupliicate game Name =  American Roulette
+2022-11-10 17:38:36,153 [main] INFO craftBet - Dupliicate game Name =  American Roulette
+2022-11-10 17:38:36,153 [main] INFO craftBet - Dupliicate game Name =  American Roulette
+2022-11-10 17:38:36,153 [main] INFO craftBet - Dupliicate game Name =  American Roulette
+2022-11-10 17:38:36,153 [main] INFO craftBet - Dupliicate game Name =  American Roulette
+2022-11-10 17:38:36,154 [main] INFO craftBet - Dupliicate game Name =  American Roulette
+2022-11-10 17:38:36,154 [main] INFO craftBet - Dupliicate game Name =  American Roulette
+2022-11-10 17:38:36,154 [main] INFO craftBet - Dupliicate game Name =  American Roulette
+2022-11-10 17:38:36,157 [main] INFO craftBet - Dupliicate game Name =  Apollo
+2022-11-10 17:38:36,164 [main] INFO craftBet - Dupliicate game Name =  Aztec Twist
+2022-11-10 17:38:36,169 [main] INFO craftBet - Dupliicate game Name =  Baccarat
+2022-11-10 17:38:36,170 [main] INFO craftBet - Dupliicate game Name =  Baccarat
+2022-11-10 17:38:36,170 [main] INFO craftBet - Dupliicate game Name =  Baccarat
+2022-11-10 17:38:36,170 [main] INFO craftBet - Dupliicate game Name =  Baccarat
+2022-11-10 17:38:36,170 [main] INFO craftBet - Dupliicate game Name =  Baccarat
+2022-11-10 17:38:36,170 [main] INFO craftBet - Dupliicate game Name =  Baccarat
+2022-11-10 17:38:36,171 [main] INFO craftBet - Dupliicate game Name =  Backgammon
+2022-11-10 17:38:36,177 [main] INFO craftBet - Dupliicate game Name =  Berry Burst
+2022-11-10 17:38:36,179 [main] INFO craftBet - Dupliicate game Name =  Big Bass Bonanza Megaways
+2022-11-10 17:38:36,180 [main] INFO craftBet - Dupliicate game Name =  Big Juan
+2022-11-10 17:38:36,183 [main] INFO craftBet - Dupliicate game Name =  Black Jack
+2022-11-10 17:38:36,185 [main] INFO craftBet - Dupliicate game Name =  Blackjack
+2022-11-10 17:38:36,185 [main] INFO craftBet - Dupliicate game Name =  Blackjack
+2022-11-10 17:38:36,185 [main] INFO craftBet - Dupliicate game Name =  Blackjack
+2022-11-10 17:38:36,185 [main] INFO craftBet - Dupliicate game Name =  Blackjack
+2022-11-10 17:38:36,185 [main] INFO craftBet - Dupliicate game Name =  Blackjack
+2022-11-10 17:38:36,185 [main] INFO craftBet - Dupliicate game Name =  Blackjack
+2022-11-10 17:38:36,186 [main] INFO craftBet - Dupliicate game Name =  Blackjack VIP
+2022-11-10 17:38:36,189 [main] INFO craftBet - Dupliicate game Name =  Bonus Deuces Wild
+2022-11-10 17:38:36,204 [main] INFO craftBet - Dupliicate game Name =  Bounty Gold
+2022-11-10 17:38:36,211 [main] INFO craftBet - Dupliicate game Name =  Caligula
+2022-11-10 17:38:36,212 [main] INFO craftBet - Dupliicate game Name =  CandyDreams
+2022-11-10 17:38:36,214 [main] INFO craftBet - Dupliicate game Name =  Cash Compass
+2022-11-10 17:38:36,217 [main] INFO craftBet - Dupliicate game Name =  Cash Quest
+2022-11-10 17:38:36,222 [main] INFO craftBet - Dupliicate game Name =  Chaos Crew
+2022-11-10 17:38:36,224 [main] INFO craftBet - Dupliicate game Name =  ChineseNewYear
+2022-11-10 17:38:36,236 [main] INFO craftBet - Dupliicate game Name =  Cubes
+2022-11-10 17:38:36,239 [main] INFO craftBet - Dupliicate game Name =  Day of Dead
+2022-11-10 17:38:36,241 [main] INFO craftBet - Dupliicate game Name =  Deuces Wild
+2022-11-10 17:38:36,241 [main] INFO craftBet - Dupliicate game Name =  Deuces Wild
+2022-11-10 17:38:36,241 [main] INFO craftBet - Dupliicate game Name =  Deuces Wild
+2022-11-10 17:38:36,242 [main] INFO craftBet - Dupliicate game Name =  Deuces Wild
+2022-11-10 17:38:36,242 [main] INFO craftBet - Dupliicate game Name =  Deuces Wild
+2022-11-10 17:38:36,242 [main] INFO craftBet - Dupliicate game Name =  Deuces Wild
+2022-11-10 17:38:36,248 [main] INFO craftBet - Dupliicate game Name =  Double Rainbow
+2022-11-10 17:38:36,252 [main] INFO craftBet - Dupliicate game Name =  Dragon Tiger
+2022-11-10 17:38:36,252 [main] INFO craftBet - Dupliicate game Name =  Dragon Tiger
+2022-11-10 17:38:36,252 [main] INFO craftBet - Dupliicate game Name =  Dragon Tiger
+2022-11-10 17:38:36,259 [main] INFO craftBet - Dupliicate game Name =  Elements
+2022-11-10 17:38:36,262 [main] INFO craftBet - Dupliicate game Name =  European Blackjack
+2022-11-10 17:38:36,262 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,262 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,262 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,262 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,262 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,263 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,263 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,263 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,263 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,263 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,263 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,263 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,263 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,263 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,263 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,267 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,267 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,267 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,267 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,268 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,268 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,268 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,268 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,268 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,268 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,268 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,269 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,269 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,269 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,269 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,270 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,270 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,270 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,270 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,271 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,271 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2022-11-10 17:38:36,272 [main] INFO craftBet - Dupliicate game Name =  European Roulette VIP
+2022-11-10 17:38:36,277 [main] INFO craftBet - Dupliicate game Name =  Football
+2022-11-10 17:38:36,278 [main] INFO craftBet - Dupliicate game Name =  Football
+2022-11-10 17:38:36,278 [main] INFO craftBet - Dupliicate game Name =  Football
+2022-11-10 17:38:36,282 [main] INFO craftBet - Dupliicate game Name =  Frutz
+2022-11-10 17:38:36,284 [main] INFO craftBet - Dupliicate game Name =  Gladiator Legends
+2022-11-10 17:38:36,286 [main] INFO craftBet - Dupliicate game Name =  Gold Rush
+2022-11-10 17:38:36,290 [main] INFO craftBet - Dupliicate game Name =  Harvest Wilds
+2022-11-10 17:38:36,296 [main] INFO craftBet - Dupliicate game Name =  Jacks or Better
+2022-11-10 17:38:36,296 [main] INFO craftBet - Dupliicate game Name =  Jacks or Better
+2022-11-10 17:38:36,297 [main] INFO craftBet - Dupliicate game Name =  Jacks or Better
+2022-11-10 17:38:36,297 [main] INFO craftBet - Dupliicate game Name =  Jacks or Better
+2022-11-10 17:38:36,297 [main] INFO craftBet - Dupliicate game Name =  Jacks or Better
+2022-11-10 17:38:36,297 [main] INFO craftBet - Dupliicate game Name =  Jacks or Better
+2022-11-10 17:38:36,298 [main] INFO craftBet - Dupliicate game Name =  John Hunter and the Quest for Bermuda Riches
+2022-11-10 17:38:36,299 [main] INFO craftBet - Dupliicate game Name =  Joker Bombs
+2022-11-10 17:38:36,299 [main] INFO craftBet - Dupliicate game Name =  Joker Poker
+2022-11-10 17:38:36,300 [main] INFO craftBet - Dupliicate game Name =  Joker Poker
+2022-11-10 17:38:36,300 [main] INFO craftBet - Dupliicate game Name =  Joker Poker
+2022-11-10 17:38:36,301 [main] INFO craftBet - Dupliicate game Name =  Keno
+2022-11-10 17:38:36,302 [main] INFO craftBet - Dupliicate game Name =  Keno
+2022-11-10 17:38:36,302 [main] INFO craftBet - Dupliicate game Name =  Keno
+2022-11-10 17:38:36,302 [main] INFO craftBet - Dupliicate game Name =  King Carrot
+2022-11-10 17:38:36,304 [main] INFO craftBet - Dupliicate game Name =  Legend of the Four Beasts
+2022-11-10 17:38:36,305 [main] INFO craftBet - Dupliicate game Name =  Let It Snow
+2022-11-10 17:38:36,307 [main] INFO craftBet - Dupliicate game Name =  Lucky Clover
+2022-11-10 17:38:36,309 [main] INFO craftBet - Dupliicate game Name =  LuckyLeprechaun
+2022-11-10 17:38:36,310 [main] INFO craftBet - Dupliicate game Name =  LuckyZodiac
+2022-11-10 17:38:36,311 [main] INFO craftBet - Dupliicate game Name =  Magician's Secrets
+2022-11-10 17:38:36,313 [main] INFO craftBet - Dupliicate game Name =  Miami Multiplier
+2022-11-10 17:38:36,317 [main] INFO craftBet - Dupliicate game Name =  Mystery Motel
+2022-11-10 17:38:36,318 [main] INFO craftBet - Dupliicate game Name =  Mystic Chief
+2022-11-10 17:38:36,326 [main] INFO craftBet - Dupliicate game Name =  Red Dog
+2022-11-10 17:38:36,327 [main] INFO craftBet - Dupliicate game Name =  Rocket Reels
+2022-11-10 17:38:36,330 [main] INFO craftBet - Dupliicate game Name =  Sparks
+2022-11-10 17:38:36,330 [main] INFO craftBet - Dupliicate game Name =  Sparta
+2022-11-10 17:38:36,331 [main] INFO craftBet - Dupliicate game Name =  Stampede
+2022-11-10 17:38:36,331 [main] INFO craftBet - Dupliicate game Name =  Sugar Rush
+2022-11-10 17:38:36,332 [main] INFO craftBet - Dupliicate game Name =  Tasty Treats
+2022-11-10 17:38:36,333 [main] INFO craftBet - Dupliicate game Name =  The Bowery Boys
+2022-11-10 17:38:36,333 [main] INFO craftBet - Dupliicate game Name =  The Dog House
+2022-11-10 17:38:36,334 [main] INFO craftBet - Dupliicate game Name =  Tomahawk
+2022-11-10 17:38:36,334 [main] INFO craftBet - Dupliicate game Name =  Toshi Video Club
+2022-11-10 17:38:36,335 [main] INFO craftBet - Dupliicate game Name =  TreasuresofEgypt
+2022-11-10 17:38:36,335 [main] INFO craftBet - Dupliicate game Name =  Vampires
+2022-11-10 17:38:36,335 [main] INFO craftBet - Dupliicate game Name =  Vampires
+2022-11-10 17:38:36,335 [main] INFO craftBet - Dupliicate game Name =  Vampires
+2022-11-10 17:38:36,336 [main] INFO craftBet - Dupliicate game Name =  Wanted Dead or a Wild
+2022-11-10 17:38:36,336 [main] INFO craftBet - Dupliicate game Name =  Warrior Ways
+2022-11-10 17:38:36,336 [main] INFO craftBet - Dupliicate game Name =  Wolf Cub
+2022-11-10 17:38:36,336 [main] INFO craftBet - Duplicate games are:  139
+2022-11-10 17:38:38,482 [main] INFO craftBet - Browser closed
+2022-11-10 17:38:38,482 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-11-10 17:38:38,500 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
