@@ -8,12 +8,13 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 
-public class CraftBet_002_CasinoGamesIMGMobile_Test extends BaseTest{
+public class CraftBet_002_CasinoGamesIMGMobile_Test extends BaseTest {
 
 
     public boolean getGamesAPICheckPicturesForMobile(String getGamesAPIUrl, String origin, String recurse, String partnerName)
@@ -23,6 +24,7 @@ public class CraftBet_002_CasinoGamesIMGMobile_Test extends BaseTest{
         int k = 0;
         ArrayList<String> srces = new ArrayList<>();
         ArrayList<String> gameNames = new ArrayList<>();
+        ArrayList<String> gameIDes = new ArrayList<>();
         ArrayList<String> gameProviderNames = new ArrayList<>();
         ArrayList<String> errorSrcXl = new ArrayList<>();
 
@@ -48,8 +50,10 @@ public class CraftBet_002_CasinoGamesIMGMobile_Test extends BaseTest{
             String i = jsonObjectGame.getString("i");    // Game src
             String n = jsonObjectGame.getString("n");    //Game Name
             String sp = jsonObjectGame.getString("sp");  //Provider Name
+            String p = jsonObjectGame.get("p").toString();   //Game ID
             gameNames.add(n);
             gameProviderNames.add(sp);
+            gameIDes.add(p);
 
             if (i.contains("http") && i.contains(" ")) {
                 String change = i.replace(" ", "%20");
@@ -66,8 +70,8 @@ public class CraftBet_002_CasinoGamesIMGMobile_Test extends BaseTest{
         logger.info("All captured games images was added into ArrayList");
         for (String src : srces) {
             if (src == null || src.isEmpty()) {
-                logger.info(k + "   Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + " :   " + ":   src = " + src + " :" + " this games image src has empty/null value");
-                errorSrcXl.add(k + "  Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + "  " + ":   src = " + src + " " + " ----->  this games image src has empty/null value");
+                logger.info(k + "  Game ID = " + gameIDes.get(k) + "   Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + " :   " + ":   src = " + src + " :" + " this games image src has empty/null value");
+                errorSrcXl.add(k + "  Game ID = " + gameIDes.get(k) + "  Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + "  " + ":   src = " + src + " " + " ----->  this games image src has empty/null value");
             } else {
                 int cod;
                 try {
@@ -77,8 +81,8 @@ public class CraftBet_002_CasinoGamesIMGMobile_Test extends BaseTest{
                     cod = connection.getResponseCode();
 
                     if (cod >= 400) {
-                        logger.error(k + "   Game Provider Name = " + gameProviderNames.get(k) + " :   " + "Game Name =  " + gameNames.get(k) + " :   " + "cod = " + cod + ":   src = " + src);
-                        errorSrcXl.add(k + "  Game Provider Name = " + gameProviderNames.get(k) + "   " + "Game Name =  " + gameNames.get(k) + "  " + "cod = " + cod + "   src = " + src);
+                        logger.error(k + "  Game ID = " + gameIDes.get(k) + "   Game Provider Name = " + gameProviderNames.get(k) + " :   " + "Game Name =  " + gameNames.get(k) + " :   " + "cod = " + cod + ":   src = " + src);
+                        errorSrcXl.add(k + "  Game ID = " + gameIDes.get(k) + "  Game Provider Name = " + gameProviderNames.get(k) + "   " + "Game Name =  " + gameNames.get(k) + "  " + "cod = " + cod + "   src = " + src);
                     }
                 } catch (Exception e) {
                     try {
@@ -88,12 +92,12 @@ public class CraftBet_002_CasinoGamesIMGMobile_Test extends BaseTest{
                         cod = connection.getResponseCode();
 
                         if (cod >= 400) {
-                            logger.error(k + "  Game Provider Name = " + gameProviderNames.get(k) + " :   " + "Game Name =  " + gameNames.get(k) + " :   " + "cod = " + cod + ":   src = " + src);
-                            errorSrcXl.add(k + "  Game Provider Name = " + gameProviderNames.get(k) + "   " + "Game Name =  " + gameNames.get(k) + "  " + "cod = " + cod + "   src = " + src);
+                            logger.error(k + "  Game ID = " + gameIDes.get(k) + "  Game Provider Name = " + gameProviderNames.get(k) + " :   " + "Game Name =  " + gameNames.get(k) + " :   " + "cod = " + cod + ":   src = " + src);
+                            errorSrcXl.add(k + "  Game ID = " + gameIDes.get(k) + "  Game Provider Name = " + gameProviderNames.get(k) + "   " + "Game Name =  " + gameNames.get(k) + "  " + "cod = " + cod + "   src = " + src);
                         }
                     } catch (Exception ex) {
-                        logger.error(k + " Game Provider Name = " + gameProviderNames.get(k) + " :                    " + "Game Name = " + gameNames.get(k) + " :                    " + "   src = " + src + "         " + e);
-                        errorSrcXl.add(k + "  Game Provider Name = " + gameProviderNames.get(k) + "   " + "Game Name =  " + gameNames.get(k) + "  " + "src = " + src);
+                        logger.error(k + "  Game ID = " + gameIDes.get(k) + " Game Provider Name = " + gameProviderNames.get(k) + " :                    " + "Game Name = " + gameNames.get(k) + " :                    " + "   src = " + src + "         " + e);
+                        errorSrcXl.add(k + "  Game ID = " + gameIDes.get(k) + "  Game Provider Name = " + gameProviderNames.get(k) + "   " + "Game Name =  " + gameNames.get(k) + "  " + "src = " + src);
                     }
                 }
             }
@@ -103,17 +107,17 @@ public class CraftBet_002_CasinoGamesIMGMobile_Test extends BaseTest{
         if (errorSrcXl.size() == 0) {
             isPassed = true;
         } else {
-            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataBrokenIMGListForMobile.xlsx", "brokenIMG");
+            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenIMGListMobile.xlsx", "brokenIMG");
             isPassed = false;
         }
         return isPassed;
     }
+
     @Test
     public void mobileGamesImgTest() throws UnirestException, JSONException, IOException {
-        if (getGamesAPICheckPicturesForMobile(getGamesAPIUrl, getGamesOrigin, getGamesRecurse, getGamesPartnerName)){
+        if (getGamesAPICheckPicturesForMobile(getGamesAPIUrl, getGamesOrigin, getGamesRecurse, getGamesPartnerName)) {
             Assert.assertTrue(true);
-        }
-        else {
+        } else {
             Assert.assertTrue(false);
         }
     }

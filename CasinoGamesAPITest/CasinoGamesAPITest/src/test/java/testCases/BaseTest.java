@@ -276,13 +276,13 @@ public class BaseTest extends DriverFactory {
             }
             case 13: {
                 partnerID = 55;
-                getGamesAPIUrl = "https://websitewebapi.baqto.com/55/api/Main/GetGames";
-                getURLAPIUrl = "https://websitewebapi.baqto.com/55/api/Main/GetProductUrl";
+                getGamesAPIUrl = "https://websitewebapi.play.baqto.com/55/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.play.baqto.com/55/api/Main/GetProductUrl";
                 getUserID = 1651687;
-                getGamesOrigin = "https://baqto.com";
-                getGamesRecurse = "https://resources.baqto.com/products/";
+                getGamesOrigin = "https://play.baqto.com";
+                getGamesRecurse = "https://resources.play.baqto.com/products/";
                 getGamesPartnerName = "baqto";
-                getGamesBaseURL = "https://baqto.com";
+                getGamesBaseURL = "https://play.baqto.com";
                 break;
             }
 

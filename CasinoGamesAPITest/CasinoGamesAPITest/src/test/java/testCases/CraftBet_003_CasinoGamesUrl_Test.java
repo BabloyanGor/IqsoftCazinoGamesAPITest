@@ -23,26 +23,25 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
     public void logIn() {
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-            craftBet_01_header_page.clickOnLogInButtonIfVisible();
-            craftBet_03_login_popUp_page.loginPopUpEmailOrUsernameSendKeys(username);
-            logger.info("username passed");
-            craftBet_03_login_popUp_page.loginPopUpPasswordSendKeys(password);
-            logger.info("password passed");
-            craftBet_03_login_popUp_page.clickLoginPopUpLogInButton();
-            logger.info("Log In Button was clicked");
-            if (craftBet_01_header_page.userIdLabelIsEnabled()) {
-                token = craftBet_01_header_page.getItem("token");
-                logger.info("Token was captured " + token);
-            }
-            else {
+        craftBet_01_header_page.clickOnLogInButtonIfVisible();
+        craftBet_03_login_popUp_page.loginPopUpEmailOrUsernameSendKeys(username);
+        logger.info("username passed");
+        craftBet_03_login_popUp_page.loginPopUpPasswordSendKeys(password);
+        logger.info("password passed");
+        craftBet_03_login_popUp_page.clickLoginPopUpLogInButton();
+        logger.info("Log In Button was clicked");
+        if (craftBet_01_header_page.userIdLabelIsEnabled()) {
+            token = craftBet_01_header_page.getItem("token");
+            logger.info("Token was captured " + token);
+        } else {
 //                token = craftBet_01_header_page.getItem("token");
 //                logger.info("Token was captured " + token);
-            }
+        }
     }
 
     public boolean getUrlCheckGamesUrl(String getGamesAPIUrl, String origin, String getURLAPIurl, String token,
                                        int userID, int partnerID, String partnerName)
-                                                                    throws JSONException, IOException, UnirestException {
+            throws JSONException, IOException, UnirestException {
         boolean isPassed;
         ArrayList<String> productID = new ArrayList<>();
         ArrayList<String> name = new ArrayList<>();
@@ -99,7 +98,7 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
             String errMessage;
             try {
                 if (!code.equals("0") || url == null || url.length() < 10) {
-                    errMessage = errCount + " " + k + " ID=" + id + " Provider=" + provider.get(k-1) + " Name=" + name.get(k-1) + " cod=" + code + " description=" + description + " ResponseObject=" + url;
+                    errMessage = errCount + " " + k + " ID=" + id + " Provider=" + provider.get(k - 1) + " Name=" + name.get(k - 1) + " cod=" + code + " description=" + description + " ResponseObject=" + url;
                     logger.info(errMessage);
                     errorSrcXl.add(errMessage);
                     errCount++;
@@ -120,7 +119,7 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
             isPassed = true;
 
         } else {
-            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataBrokenURLList.xlsx", "brokenURL");
+            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenGameURLList.xlsx", "brokenURL");
             isPassed = false;
         }
         return isPassed;
@@ -128,17 +127,15 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
 
     @Test
     public void getUrlAPITest() throws UnirestException, JSONException, IOException {
-        try{
+        try {
             if (getUrlCheckGamesUrl(getGamesAPIUrl, getGamesOrigin, getURLAPIUrl, token, getUserID, partnerID, getGamesPartnerName)) {
                 Assert.assertTrue(true);
             } else {
                 Assert.fail();
             }
-        }
-        catch (Exception e){
+        } catch (Exception e) {
             System.out.println(e);
         }
-
     }
 
 

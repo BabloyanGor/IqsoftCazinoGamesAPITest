@@ -29,6 +29,7 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
         int k = 0;
         ArrayList<String> srces = new ArrayList<>();
         ArrayList<String> gameNames = new ArrayList<>();
+        ArrayList<String> gameIDes = new ArrayList<>();
         ArrayList<String> gameProviderNames = new ArrayList<>();
         ArrayList<String> errorSrcXl = new ArrayList<>();
 
@@ -53,9 +54,11 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
             String i = jsonObjectGame.getString("i");    // Game src
             String n = jsonObjectGame.getString("n");    //Game Name
             String sp = jsonObjectGame.getString("sp");  //Provider Name
+            String p = jsonObjectGame.get("p").toString();   //Game ID
+
             gameNames.add(n);
             gameProviderNames.add(sp);
-
+            gameIDes.add(p);
             if (i.contains("http") && i.contains(" ")) {
                 String change = i.replace(" ", "%20");
                 srces.add(change);
@@ -71,8 +74,8 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
         logger.info("All captured games images was added into ArrayList");
         for (String src : srces) {
             if (src == null || src.isEmpty()) {
-                logger.info(k + "   Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + " :   " + ":   src = " + src + " :" + " this games image src has empty/null value");
-                errorSrcXl.add(k + "  Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + "  " + ":   src = " + src + " " + " ----->  this games image src has empty/null value");
+                logger.info(k + "  Game ID = " + gameIDes.get(k) + "   Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + " :   " + ":   src = " + src + " :" + " this games image src has empty/null value");
+                errorSrcXl.add(k + "  Game ID = " + gameIDes.get(k) + "  Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + "  " + ":   src = " + src + " " + " ----->  this games image src has empty/null value");
             } else {
                 int cod;
                 try {
@@ -82,8 +85,8 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
                     cod = connection.getResponseCode();
 
                     if (cod >= 400) {
-                        logger.error(k + "   Game Provider Name = " + gameProviderNames.get(k) + " :   " + "Game Name =  " + gameNames.get(k) + " :   " + "cod = " + cod + ":   src = " + src);
-                        errorSrcXl.add(k + "  Game Provider Name = " + gameProviderNames.get(k) + "   " + "Game Name =  " + gameNames.get(k) + "  " + "cod = " + cod + "   src = " + src);
+                        logger.error(k + "  Game ID = " + gameIDes.get(k) + "   Game Provider Name = " + gameProviderNames.get(k) + " :   " + "Game Name =  " + gameNames.get(k) + " :   " + "cod = " + cod + ":   src = " + src);
+                        errorSrcXl.add(k + "  Game ID = " + gameIDes.get(k) + "  Game Provider Name = " + gameProviderNames.get(k) + "   " + "Game Name =  " + gameNames.get(k) + "  " + "cod = " + cod + "   src = " + src);
                     }
                 } catch (Exception e) {
                     try {
@@ -93,12 +96,12 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
                         cod = connection.getResponseCode();
 
                         if (cod >= 400) {
-                            logger.error(k + "  Game Provider Name = " + gameProviderNames.get(k) + " :   " + "Game Name =  " + gameNames.get(k) + " :   " + "cod = " + cod + ":   src = " + src);
-                            errorSrcXl.add(k + "  Game Provider Name = " + gameProviderNames.get(k) + "   " + "Game Name =  " + gameNames.get(k) + "  " + "cod = " + cod + "   src = " + src);
+                            logger.error(k + "  Game ID = " + gameIDes.get(k) + "  Game Provider Name = " + gameProviderNames.get(k) + " :   " + "Game Name =  " + gameNames.get(k) + " :   " + "cod = " + cod + ":   src = " + src);
+                            errorSrcXl.add(k + "  Game ID = " + gameIDes.get(k) + "  Game Provider Name = " + gameProviderNames.get(k) + "   " + "Game Name =  " + gameNames.get(k) + "  " + "cod = " + cod + "   src = " + src);
                         }
                     } catch (Exception ex) {
-                        logger.error(k + " Game Provider Name = " + gameProviderNames.get(k) + " :                    " + "Game Name = " + gameNames.get(k) + " :                    " + "   src = " + src + "         " + e);
-                        errorSrcXl.add(k + "  Game Provider Name = " + gameProviderNames.get(k) + "   " + "Game Name =  " + gameNames.get(k) + "  " + "src = " + src);
+                        logger.error(k + "  Game ID = " + gameIDes.get(k) + " Game Provider Name = " + gameProviderNames.get(k) + " :   " + "Game Name = " + gameNames.get(k) + " :  " + "   src = " + src + "   " + e);
+                        errorSrcXl.add(k + "  Game ID = " + gameIDes.get(k) + "  Game Provider Name = " + gameProviderNames.get(k) + "   " + "Game Name =  " + gameNames.get(k) + "  " + "src = " + src);
                     }
                 }
             }
@@ -109,7 +112,7 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
         if (errorSrcXl.size() == 0) {
             isPassed = true;
         } else {
-            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataBrokenIMGList.xlsx", "brokenIMG");
+            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenIMGListWeb.xlsx", "brokenIMGWeb");
             isPassed = false;
         }
         return isPassed;
@@ -125,9 +128,6 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
             Assert.assertTrue(false);
         }
     }
-
-
-
 
 
 }

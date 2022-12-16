@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class CraftBet_000_CasinoSameNameCopyGames_Test extends BaseTest{
+public class CraftBet_000_CasinoSameNameCopyGames_Test extends BaseTest {
 
 
     public boolean getALLGamesAPICheckCopyGames(String getGamesAPIUrl, String origin, String partnerName)
@@ -67,7 +67,7 @@ public class CraftBet_000_CasinoSameNameCopyGames_Test extends BaseTest{
         if (errorSrcXl.size() == 0) {
             isPassed = true;
         } else {
-            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DataDuplicateGamesList.xlsx", "CopyGames");
+            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DuplicateGamesList.xlsx", "CopyGames");
             isPassed = false;
         }
         // writeInExel(gameProviderNamesList, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "ProvidersList.xlsx", "Providers");
@@ -75,14 +75,13 @@ public class CraftBet_000_CasinoSameNameCopyGames_Test extends BaseTest{
         return isPassed;
     }
 
-        @Test
-        public void getDuplicateGames() throws UnirestException, JSONException, IOException {
+    @Test
+    public void getDuplicateGames() throws UnirestException, JSONException, IOException {
 
-            if (getALLGamesAPICheckCopyGames(getGamesAPIUrl, getGamesOrigin, getGamesPartnerName)){
-                Assert.assertTrue(true);
-            }
-            else {
-                Assert.assertTrue(false);
-            }
+        if (getALLGamesAPICheckCopyGames(getGamesAPIUrl, getGamesOrigin, getGamesPartnerName)) {
+            Assert.assertTrue(true);
+        } else {
+            Assert.assertTrue(false);
         }
+    }
 }
