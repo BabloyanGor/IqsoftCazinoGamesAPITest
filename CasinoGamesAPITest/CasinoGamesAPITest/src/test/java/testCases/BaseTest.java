@@ -297,7 +297,17 @@ public class BaseTest extends DriverFactory {
                 getGamesBaseURL = "https://winmatch.win";
                 break;
             }
-
+            case 15: {
+                partnerID = 66;
+                getGamesAPIUrl = "https://websitewebapi.kontrbet.com/66/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.kontrbet.com/66/api/Main/GetProductUrl";
+                getUserID = 1676748;
+                getGamesOrigin = "https://kontrbet.com";
+                getGamesRecurse = "https://resources.kontrbet.com/products/";
+                getGamesPartnerName = "kontrbet";
+                getGamesBaseURL = "https://kontrbet.com";
+                break;
+            }
 
 
             case 100: {
