@@ -10970,3 +10970,30 @@ Parameter name: format ResponseObject=null
 2022-12-28 16:47:08,437 [main] INFO craftBet - Browser closed
 2022-12-28 16:47:08,437 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-12-28 16:47:08,548 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-12-29 13:36:17,277 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-12-29 13:36:18,992 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+2022-12-29 13:36:19,055 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+2022-12-29 13:36:24,975 [main] INFO craftBet - URL: https://kontrbet.com  Browser: firefox
+2022-12-29 13:36:25,143 [main] INFO craftBet - All Page elements are initialized
+2022-12-29 13:36:25,679 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-12-29 13:36:27,259 [main] INFO craftBet - Browser closed
+2022-12-29 13:36:27,259 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-12-29 13:36:27,268 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-12-29 13:41:33,738 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-12-29 13:41:34,108 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+2022-12-29 13:41:34,146 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+2022-12-29 13:41:38,316 [main] INFO craftBet - URL: https://kontrbet.com  Browser: firefox
+2022-12-29 13:41:38,496 [main] INFO craftBet - All Page elements are initialized
+2022-12-29 13:41:39,112 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-12-29 13:41:40,893 [main] INFO craftBet - Browser closed
+2022-12-29 13:41:40,894 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-12-29 13:41:40,917 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-12-29 13:44:55,223 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-12-29 13:44:55,482 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+2022-12-29 13:44:55,522 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+2022-12-29 13:44:59,023 [main] INFO craftBet - URL: https://kontrbet.com  Browser: firefox
+2022-12-29 13:44:59,128 [main] INFO craftBet - All Page elements are initialized
+2022-12-29 13:44:59,810 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-12-29 13:45:04,629 [main] INFO craftBet - Browser closed
+2022-12-29 13:45:04,629 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-12-29 13:45:04,638 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
