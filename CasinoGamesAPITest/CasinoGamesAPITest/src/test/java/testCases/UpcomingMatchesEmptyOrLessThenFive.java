@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-public class UpcomingMatchesEmptyOrLessThenFive extends BaseTest {
+public class UpcomingMatchesEmptyOrLessThenFive  {
 
     public int getUpcomingMatchesCount() {
         int count = 0;
