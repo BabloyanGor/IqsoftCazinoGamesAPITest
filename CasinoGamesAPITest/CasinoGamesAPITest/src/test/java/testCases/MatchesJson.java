@@ -138,7 +138,7 @@ public class MatchesJson {
 
         SoftAssert softAssert = new SoftAssert();
         upcomingMatchesCount = getUpcomingMatchesCount();
-//        lifeMatchesCount = getLifeMatchesCount();
+        lifeMatchesCount = getLifeMatchesCount();
         preMatchMatchesCount = getPreMatchMatchesCount();
 
         int compareUpcomingMatchesCount = 5;
@@ -174,13 +174,11 @@ public class MatchesJson {
         matchesJson.setDescription(description);
         matchesJson.setAlarmOn(alarmOn);
 
-
         JSONObject jsonObjectMain = new JSONObject();     // Working version
         JSONObject jsonObjectResponseObject = new JSONObject();
 //        JSONArray jsonArray = new JSONArray();
 
         JSONObject jsonResponseObject = new JSONObject();
-
 
         jsonObjectResponseObject.put("UpcomingMatchesCount", matchesJson.getUpcomingMatchesCount());
         jsonObjectResponseObject.put("LifeMatchesCount", matchesJson.getLifeMatchesCount());
@@ -194,7 +192,6 @@ public class MatchesJson {
 //        jsonObjectMain.put("UpcomingMatches",jsonArray);
         jsonObjectMain.put("AlarmOn", alarmOn);
         jsonObjectMain.put("MatchesCount", jsonResponseObject);
-
 
         System.out.println(jsonObjectMain);
 
