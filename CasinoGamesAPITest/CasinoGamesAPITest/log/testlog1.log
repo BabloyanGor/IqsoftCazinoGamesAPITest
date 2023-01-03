@@ -10997,3 +10997,957 @@ Parameter name: format ResponseObject=null
 2022-12-29 13:45:04,629 [main] INFO craftBet - Browser closed
 2022-12-29 13:45:04,629 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-12-29 13:45:04,638 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2023-01-03 12:20:10,342 [main] INFO craftBet - Browser for test will be firefox as chosen
+2023-01-03 12:20:11,258 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+2023-01-03 12:20:11,284 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\user\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+2023-01-03 12:20:15,634 [main] INFO craftBet - URL: https://kontrbet.com  Browser: firefox
+2023-01-03 12:20:15,767 [main] INFO craftBet - All Page elements are initialized
+2023-01-03 12:20:18,215 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2023-01-03 12:20:33,215 [main] INFO craftBet - Get games Api call was sent
+2023-01-03 12:20:33,328 [main] INFO craftBet - Get games Api Response was captured
+2023-01-03 12:20:33,397 [main] INFO craftBet - Dupliicate game Name =  Blue Wizard
+2023-01-03 12:20:33,404 [main] INFO craftBet - Dupliicate game Name =  Baccarat
+2023-01-03 12:20:33,423 [main] INFO craftBet - Dupliicate game Name =  European Roulette
+2023-01-03 12:20:33,428 [main] INFO craftBet - Dupliicate game Name =  Gold Rush
+2023-01-03 12:20:33,428 [main] INFO craftBet - Dupliicate game Name =  Gold Rush
+2023-01-03 12:20:33,428 [main] INFO craftBet - Dupliicate game Name =  Gold Rush
+2023-01-03 12:20:33,431 [main] INFO craftBet - Dupliicate game Name =  Haunted House
+2023-01-03 12:20:33,436 [main] INFO craftBet - Dupliicate game Name =  Keno
+2023-01-03 12:20:33,441 [main] INFO craftBet - Dupliicate game Name =  Lucky Fortune Cat
+2023-01-03 12:20:33,447 [main] INFO craftBet - Dupliicate game Name =  Penguin Vacation
+2023-01-03 12:20:33,455 [main] INFO craftBet - Duplicate games are:  10
+2023-01-03 12:20:37,780 [main] INFO craftBet - Browser closed
+2023-01-03 12:20:37,781 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-01-03 12:20:37,785 [main] INFO craftBet - Browser for test will be firefox as chosen
+2023-01-03 12:20:37,791 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+2023-01-03 12:20:37,801 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\user\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+2023-01-03 12:20:40,792 [main] INFO craftBet - URL: https://kontrbet.com  Browser: firefox
+2023-01-03 12:20:40,797 [main] INFO craftBet - All Page elements are initialized
+2023-01-03 12:20:42,924 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2023-01-03 12:20:45,170 [main] INFO craftBet - Get games Api call was sent
+2023-01-03 12:20:45,243 [main] INFO craftBet - Get games Api Response was captured
+2023-01-03 12:20:45,273 [main] INFO craftBet - All captured games images was added into ArrayList
+2023-01-03 12:21:47,419 [main] ERROR craftBet - 74  Game ID = 82377   Game Provider Name = QuickSpin :   Game Name =  Sticky Bandits: Wild return :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:21:56,478 [main] ERROR craftBet - 92  Game ID = 82412   Game Provider Name = QuickSpin :   Game Name =  Blue Wizard :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:21:56,696 [main] ERROR craftBet - 93  Game ID = 82351   Game Provider Name = QuickSpin :   Game Name =  Hall of the Mountain King :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:21:57,920 [main] ERROR craftBet - 96  Game ID = 82048   Game Provider Name = PlaysonDirect :   Game Name =  100 Joker Staxx :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:01,191 [main] ERROR craftBet - 102  Game ID = 80849   Game Provider Name = Booongo :   Game Name =  15 Golden Eggs :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:03,656 [main] ERROR craftBet - 108  Game ID = 81472   Game Provider Name = Playpearls :   Game Name =  28 Spins Later :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:06,137 [main] ERROR craftBet - 114  Game ID = 82511   Game Provider Name = RealisticGames :   Game Name =  3 Hand Blackjack :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:06,859 [main] ERROR craftBet - 116  Game ID = 82810   Game Provider Name = PlaynGo :   Game Name =  3-Hand Casino Hold'em :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:10,729 [main] ERROR craftBet - 125  Game ID = 82512   Game Provider Name = RealisticGames :   Game Name =  5 Hand Blackjack :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:14,668 [main] ERROR craftBet - 134  Game ID = 82513   Game Provider Name = RealisticGames :   Game Name =  6 Appeal Deluxe Pull Tab :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:18,331 [main] ERROR craftBet - 143  Game ID = 81475   Game Provider Name = Playpearls :   Game Name =  777 Hot Ice :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:19,317 [main] ERROR craftBet - 146  Game ID = 81528   Game Provider Name = Playpearls :   Game Name =  8 Leprechauns :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:19,517 [main] ERROR craftBet - 147  Game ID = 82729   Game Provider Name = Playpearls :   Game Name =  8 Leprechauns: Scratch Card :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:20,627 [main] ERROR craftBet - 151  Game ID = 80775   Game Provider Name = RealisticGames :   Game Name =  8th Wonder Game Changer :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:20,887 [main] ERROR craftBet - 152  Game ID = 82514   Game Provider Name = RealisticGames :   Game Name =  8th Wonder Pull Tab :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:23,910 [main] ERROR craftBet - 160  Game ID = 82788   Game Provider Name = Habanero :   Game Name =  Aces & Eights 1 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:26,679 [main] ERROR craftBet - 166  Game ID = 82107   Game Provider Name = PlayTech :   Game Name =  Adventure Trail Fireblaze Jackpots :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:27,937 [main] ERROR craftBet - 170  Game ID = 80935   Game Provider Name = Yggdrasil :   Game Name =  Age of Asgard™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:34,728 [main] ERROR craftBet - 189  Game ID = 82754   Game Provider Name = Habanero :   Game Name =  All American Poker 1 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:34,956 [main] ERROR craftBet - 190  Game ID = 82775   Game Provider Name = Habanero :   Game Name =  All American Poker 10 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:35,156 [main] ERROR craftBet - 191  Game ID = 82764   Game Provider Name = Habanero :   Game Name =  All American Poker 100 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:35,377 [main] ERROR craftBet - 192  Game ID = 82760   Game Provider Name = Habanero :   Game Name =  All American Poker 5 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:35,587 [main] ERROR craftBet - 193  Game ID = 82751   Game Provider Name = Habanero :   Game Name =  All American Poker 50 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:36,269 [main] ERROR craftBet - 195  Game ID = 80739   Game Provider Name = Spinthon :   Game Name =  All the Vogue :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:36,497 [main] ERROR craftBet - 196  Game ID = 80444   Game Provider Name = NetEnt :   Game Name =  Aloha! Christmas™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:36,716 [main] ERROR craftBet - 197  Game ID = 80344   Game Provider Name = NetEnt :   Game Name =  Aloha! Cluster Pays™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:36,926 [main] ERROR craftBet - 198  Game ID = 80927   Game Provider Name = Hacksaw :   Game Name =  Alpha Eagle :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:37,747 [main] ERROR craftBet - 201  Game ID = 82790   Game Provider Name = Habanero :   Game Name =  American Baccarat :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:37,976 [main] ERROR craftBet - 202  Game ID = 82807   Game Provider Name = Habanero :   Game Name =  American Baccarat Zero Commission :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:38,187 [main] ERROR craftBet - 203  Game ID = 82792   Game Provider Name = Habanero :   Game Name =  American Blackjack :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:38,576 [main] ERROR craftBet - 205  Game ID = 82306   Game Provider Name = PlayTech :   Game Name =  Anaconda Uncoiled :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:38,797 [main] ERROR craftBet - 206  Game ID = 82110   Game Provider Name = PlayTech :   Game Name =  Anaconda Wild :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:41,778 [main] ERROR craftBet - 214  Game ID = 82735   Game Provider Name = Playpearls :   Game Name =  Andar Bahar :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:45,478 [main] ERROR craftBet - 223  Game ID = 82112   Game Provider Name = PlayTech :   Game Name =  Archer :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:46,677 [main] ERROR craftBet - 226  Game ID = 82113   Game Provider Name = PlayTech :   Game Name =  Arowanas Luck :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:48,527 [main] ERROR craftBet - 231  Game ID = 81471   Game Provider Name = Playpearls :   Game Name =  Asgards Gold :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:51,786 [main] ERROR craftBet - 239  Game ID = 82279   Game Provider Name = PlayTech :   Game Name =  Atlantis Cash Collect :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:52,018 [main] ERROR craftBet - 240  Game ID = 81006   Game Provider Name = Yggdrasil :   Game Name =  Atlantis Megaways™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:52,226 [main] ERROR craftBet - 241  Game ID = 82114   Game Provider Name = PlayTech :   Game Name =  Atlantis Queen :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:52,877 [main] ERROR craftBet - 244  Game ID = 81252   Game Provider Name = Caleta :   Game Name =  Atomico Lotto :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:54,480 [main] ERROR craftBet - 249  Game ID = 81473   Game Provider Name = Playpearls :   Game Name =  Awesome 5 :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:55,467 [main] ERROR craftBet - 252  Game ID = 82273   Game Provider Name = PlayTech :   Game Name =  Aztec Expedition :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:22:58,879 [main] ERROR craftBet - 261  Game ID = 81523   Game Provider Name = Playpearls :   Game Name =  Aztec Treasure :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:00,207 [main] ERROR craftBet - 264  Game ID = 82331   Game Provider Name = PlayTech :   Game Name =  Azteca - Bonus Lines :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:01,439 [main] ERROR craftBet - 267  Game ID = 82733   Game Provider Name = Playpearls :   Game Name =  Baccarat :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:02,334 [main] ERROR craftBet - 270  Game ID = 82115   Game Provider Name = PlayTech :   Game Name =  Bai Shi :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:03,447 [main] ERROR craftBet - 274  Game ID = 82627   Game Provider Name = Hacksaw :   Game Name =  Balloons :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:04,357 [main] ERROR craftBet - 278  Game ID = 81476   Game Provider Name = Playpearls :   Game Name =  Banana King :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:05,538 [main] ERROR craftBet - 281  Game ID = 82333   Game Provider Name = PlayTech :   Game Name =  Banca Francesa :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:06,997 [main] ERROR craftBet - 286  Game ID = 81465   Game Provider Name = Leap :   Game Name =  Banshee :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:07,867 [main] ERROR craftBet - 290  Game ID = 81747   Game Provider Name = NoLimitCity :   Game Name =  Barbarian Fury :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:08,087 [main] ERROR craftBet - 291  Game ID = 80194   Game Provider Name = PragmaticPlay :   Game Name =  Barn Festival :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:08,297 [main] ERROR craftBet - 292  Game ID = 81477   Game Provider Name = Playpearls :   Game Name =  Barn Kings :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:09,467 [main] ERROR craftBet - 295  Game ID = 80780   Game Provider Name = RealisticGames :   Game Name =  Bar-X-7even :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:12,309 [main] ERROR craftBet - 303  Game ID = 82516   Game Provider Name = RealisticGames :   Game Name =  Bee Fab Pull Tab :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:12,547 [main] ERROR craftBet - 304  Game ID = 82117   Game Provider Name = PlayTech :   Game Name =  Bee Frenzy :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:12,747 [main] ERROR craftBet - 305  Game ID = 80458   Game Provider Name = NetEnt :   Game Name =  Bee Hive Bonanza :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:14,828 [main] ERROR craftBet - 311  Game ID = 82118   Game Provider Name = PlayTech :   Game Name =  Bermuda Triangle :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:15,517 [main] ERROR craftBet - 314  Game ID = 82120   Game Provider Name = PlayTech :   Game Name =  Better Wilds :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:16,927 [main] ERROR craftBet - 318  Game ID = 81529   Game Provider Name = Playpearls :   Game Name =  Biergarten Fest :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:21,277 [main] ERROR craftBet - 330  Game ID = 80663   Game Provider Name = RedTiger :   Game Name =  Big Cat Rescue Megaways™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:21,577 [main] ERROR craftBet - 331  Game ID = 81478   Game Provider Name = Playpearls :   Game Name =  Big Game Hunter :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:22,957 [main] ERROR craftBet - 335  Game ID = 80782   Game Provider Name = RealisticGames :   Game Name =  Big Wheel :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:24,237 [main] ERROR craftBet - 338  Game ID = 80263   Game Provider Name = PragmaticPlay :   Game Name =  Bigger Bass Blizzard - Christmas Catch :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:26,418 [main] ERROR craftBet - 346  Game ID = 81251   Game Provider Name = Caleta :   Game Name =  Bingo Fada da Fortuna :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:27,987 [main] ERROR craftBet - 353  Game ID = 81277   Game Provider Name = Caleta :   Game Name =  Bingo Saga Loca :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:28,207 [main] ERROR craftBet - 354  Game ID = 81292   Game Provider Name = Caleta :   Game Name =  Bingo Senor Taco :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:28,417 [main] ERROR craftBet - 355  Game ID = 81293   Game Provider Name = Caleta :   Game Name =  Bingo Señorita Calavera :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:30,347 [main] ERROR craftBet - 362  Game ID = 80783   Game Provider Name = RealisticGames :   Game Name =  Black Ice :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:32,238 [main] ERROR craftBet - 366  Game ID = 82558   Game Provider Name = RealisticGames :   Game Name =  Blackjack :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:32,477 [main] ERROR craftBet - 367  Game ID = 82517   Game Provider Name = RealisticGames :   Game Name =  Blackjack (3 Box) :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:32,697 [main] ERROR craftBet - 368  Game ID = 82800   Game Provider Name = Habanero :   Game Name =  Blackjack 3 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:32,927 [main] ERROR craftBet - 369  Game ID = 82795   Game Provider Name = Habanero :   Game Name =  Blackjack Double Exposure 3 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:33,127 [main] ERROR craftBet - 370  Game ID = 82809   Game Provider Name = PlaynGo :   Game Name =  Blackjack MH :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:33,847 [main] ERROR craftBet - 372  Game ID = 82122   Game Provider Name = PlayTech :   Game Name =  Blazing Bells :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:38,358 [main] ERROR craftBet - 385  Game ID = 81479   Game Provider Name = Playpearls :   Game Name =  Bloody Mary's Booty :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:41,678 [main] ERROR craftBet - 393  Game ID = 82124   Game Provider Name = PlayTech :   Game Name =  Bombs :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:43,437 [main] ERROR craftBet - 397  Game ID = 81751   Game Provider Name = NoLimitCity :   Game Name =  Bonus Bunnies :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:43,636 [main] ERROR craftBet - 398  Game ID = 82789   Game Provider Name = Habanero :   Game Name =  Bonus Deuces Wild 1 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:43,847 [main] ERROR craftBet - 399  Game ID = 82785   Game Provider Name = Habanero :   Game Name =  Bonus Deuces Wild 10 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:44,056 [main] ERROR craftBet - 400  Game ID = 82784   Game Provider Name = Habanero :   Game Name =  Bonus Deuces Wild 5 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:44,477 [main] ERROR craftBet - 402  Game ID = 82799   Game Provider Name = Habanero :   Game Name =  Bonus Poker 1 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:44,687 [main] ERROR craftBet - 403  Game ID = 82755   Game Provider Name = Habanero :   Game Name =  Bonus Poker 100 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:44,897 [main] ERROR craftBet - 404  Game ID = 82793   Game Provider Name = Habanero :   Game Name =  Bonus Poker 5 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:45,137 [main] ERROR craftBet - 405  Game ID = 82752   Game Provider Name = Habanero :   Game Name =  Bonus Poker 50 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:45,376 [main] ERROR craftBet - 406  Game ID = 82126   Game Provider Name = PlayTech :   Game Name =  Bonus Train Bandit :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:46,137 [main] ERROR craftBet - 408  Game ID = 81104   Game Provider Name = Yggdrasil :   Game Name =  Book Hotfire :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:47,388 [main] ERROR craftBet - 412  Game ID = 80832   Game Provider Name = RealisticGames :   Game Name =  Book of Charms :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:50,997 [main] ERROR craftBet - 421  Game ID = 82128   Game Provider Name = PlayTech :   Game Name =  Book Of Kings 2 :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:52,447 [main] ERROR craftBet - 426  Game ID = 81755   Game Provider Name = NoLimitCity :   Game Name =  Book of Shadows :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:23:55,539 [main] ERROR craftBet - 432  Game ID = 80931   Game Provider Name = Hacksaw :   Game Name =  Book of Time :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:01,697 [main] ERROR craftBet - 445  Game ID = 82633   Game Provider Name = Hacksaw :   Game Name =  Boxes :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:02,749 [main] ERROR craftBet - 447  Game ID = 80945   Game Provider Name = Yggdrasil :   Game Name =  Brazil Bomba :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:03,017 [main] ERROR craftBet - 448  Game ID = 80929   Game Provider Name = Hacksaw :   Game Name =  Break Bones :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:03,238 [main] ERROR craftBet - 449  Game ID = 82628   Game Provider Name = Hacksaw :   Game Name =  Break the Ice :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:03,727 [main] ERROR craftBet - 451  Game ID = 82129   Game Provider Name = PlayTech :   Game Name =  Breakout Bob :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:04,627 [main] ERROR craftBet - 454  Game ID = 82130   Game Provider Name = PlayTech :   Game Name =  Buccaneer Blast :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:08,537 [main] ERROR craftBet - 462  Game ID = 81756   Game Provider Name = NoLimitCity :   Game Name =  Buffalo Hunter :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:11,138 [main] ERROR craftBet - 467  Game ID = 82081   Game Provider Name = PlaysonDirect :   Game Name =  Buffalo Power: Megaways™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:11,928 [main] ERROR craftBet - 469  Game ID = 82811   Game Provider Name = PlaynGo :   Game Name =  Bugs Party :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:14,258 [main] ERROR craftBet - 475  Game ID = 82518   Game Provider Name = RealisticGames :   Game Name =  Bully4U Pull Tab :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:17,219 [main] ERROR craftBet - 484  Game ID = 80720   Game Provider Name = Spinthon :   Game Name =  Burning Wild :   cod = 404:   src = https://resources.kontrbet.com/products/spinthon/web/Burning-Wild.jpg
+2023-01-03 12:24:18,427 [main] ERROR craftBet - 487  Game ID = 81762   Game Provider Name = NoLimitCity :   Game Name =  Bushido Ways xNudge :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:18,657 [main] ERROR craftBet - 488  Game ID = 81017   Game Provider Name = Yggdrasil :   Game Name =  Buster Hammer Carnival :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:18,848 [main] ERROR craftBet - 489  Game ID = 80348   Game Provider Name = NetEnt :   Game Name =  Butterfly Staxx :   cod = 404:   src = https://resources.kontrbet.com/products/netent/mob/ButterflyStaxx.jpg.jpg
+2023-01-03 12:24:19,618 [main] ERROR craftBet - 492  Game ID = 82134   Game Provider Name = PlayTech :   Game Name =  Caishen Ways :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:21,958 [main] ERROR craftBet - 498  Game ID = 81112   Game Provider Name = Yggdrasil :   Game Name =  Calavera Crush :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:27,518 [main] ERROR craftBet - 512  Game ID = 82791   Game Provider Name = Habanero :   Game Name =  Caribbean Hold'Em :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:27,757 [main] ERROR craftBet - 513  Game ID = 82797   Game Provider Name = Habanero :   Game Name =  Caribbean Stud :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:28,918 [main] ERROR craftBet - 517  Game ID = 81009   Game Provider Name = Yggdrasil :   Game Name =  Carol of the Elves :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:29,198 [main] ERROR craftBet - 518  Game ID = 82136   Game Provider Name = PlayTech :   Game Name =  Cascading Cave :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:31,607 [main] ERROR craftBet - 524  Game ID = 80225   Game Provider Name = PragmaticPlay :   Game Name =  Cash Patrol :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:32,338 [main] ERROR craftBet - 526  Game ID = 82629   Game Provider Name = Hacksaw :   Game Name =  Cash Pool :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:34,748 [main] ERROR craftBet - 530  Game ID = 81480   Game Provider Name = Playpearls :   Game Name =  Cash Spell :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:36,237 [main] ERROR craftBet - 533  Game ID = 82630   Game Provider Name = Hacksaw :   Game Name =  Cash Vault I :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:36,457 [main] ERROR craftBet - 534  Game ID = 82631   Game Provider Name = Hacksaw :   Game Name =  Cash Vault II :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:37,477 [main] ERROR craftBet - 537  Game ID = 80785   Game Provider Name = RealisticGames :   Game Name =  Cashing Rainbows :   cod = 404:   src = https://resources.kontrbet.com/products/realistic/web/cashingrainbow.jpg
+2023-01-03 12:24:37,897 [main] ERROR craftBet - 539  Game ID = 80351   Game Provider Name = NetEnt :   Game Name =  Cash-o-Matic™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:38,597 [main] ERROR craftBet - 541  Game ID = 81441   Game Provider Name = KalambaNew :   Game Name =  Cashpot Kegs :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:38,827 [main] ERROR craftBet - 542  Game ID = 82137   Game Provider Name = PlayTech :   Game Name =  Casino Charms :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:39,037 [main] ERROR craftBet - 543  Game ID = 82826   Game Provider Name = PlaynGo :   Game Name =  Casino Hold'em :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:39,248 [main] ERROR craftBet - 544  Game ID = 81727   Game Provider Name = NoLimitCity :   Game Name =  Casino Win Spin :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:43,677 [main] ERROR craftBet - 554  Game ID = 80946   Game Provider Name = Yggdrasil :   Game Name =  Cazino Cosmos :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:43,887 [main] ERROR craftBet - 555  Game ID = 80947   Game Provider Name = Yggdrasil :   Game Name =  Cazino Zeppelin :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:44,918 [main] ERROR craftBet - 558  Game ID = 81521   Game Provider Name = Playpearls :   Game Name =  Celebrity Zoo :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:46,227 [main] ERROR craftBet - 561  Game ID = 80948   Game Provider Name = Yggdrasil :   Game Name =  Champions of Rome :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:46,977 [main] ERROR craftBet - 563  Game ID = 82640   Game Provider Name = Hacksaw :   Game Name =  Chaos Crew Scratch :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:49,936 [main] ERROR craftBet - 570  Game ID = 81004   Game Provider Name = Yggdrasil :   Game Name =  Cherry Pop :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:50,708 [main] ERROR craftBet - 572  Game ID = 80949   Game Provider Name = Yggdrasil :   Game Name =  Chibeasties :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:51,348 [main] ERROR craftBet - 574  Game ID = 80166   Game Provider Name = PragmaticPlay :   Game Name =  Chicken Drop™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:51,567 [main] ERROR craftBet - 575  Game ID = 82274   Game Provider Name = PlayTech :   Game Name =  Chili Eruption Thunder Shots :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:52,037 [main] ERROR craftBet - 577  Game ID = 80163   Game Provider Name = PragmaticPlay :   Game Name =  Chilli Heat Megaways™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:52,480 [main] ERROR craftBet - 579  Game ID = 82332   Game Provider Name = PlayTech :   Game Name =  Chilli Xtreme - PowerPlay :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:55,960 [main] ERROR craftBet - 588  Game ID = 82140   Game Provider Name = PlayTech :   Game Name =  Christmas Jackpot Bells :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:57,359 [main] ERROR craftBet - 591  Game ID = 81481   Game Provider Name = Playpearls :   Game Name =  Chubby Princess :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:57,648 [main] ERROR craftBet - 592  Game ID = 81482   Game Provider Name = Playpearls :   Game Name =  Chuggers Pot :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:24:58,788 [main] ERROR craftBet - 595  Game ID = 82328   Game Provider Name = PlayTech :   Game Name =  Circus Launch :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:05,558 [main] ERROR craftBet - 610  Game ID = 81603   Game Provider Name = RubyPlay :   Game Name =  Clovers of Luck 2 :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:05,788 [main] ERROR craftBet - 611  Game ID = 80450   Game Provider Name = NetEnt :   Game Name =  Codex of Fortune™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:06,568 [main] ERROR craftBet - 613  Game ID = 82141   Game Provider Name = PlayTech :   Game Name =  Coin! Coin! Coin! :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:06,888 [main] ERROR craftBet - 614  Game ID = 82632   Game Provider Name = Hacksaw :   Game Name =  Coins :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:07,107 [main] ERROR craftBet - 615  Game ID = 81729   Game Provider Name = NoLimitCity :   Game Name =  Coins of Fortune :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:08,178 [main] ERROR craftBet - 618  Game ID = 81474   Game Provider Name = Playpearls :   Game Name =  Colt P.I. :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:09,937 [main] ERROR craftBet - 622  Game ID = 80459   Game Provider Name = NetEnt :   Game Name =  Cornelius :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:15,358 [main] ERROR craftBet - 635  Game ID = 82674   Game Provider Name = Hacksaw :   Game Name =  Crazy Donuts :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:16,315 [main] ERROR craftBet - 638  Game ID = 81030 Game Provider Name = Yggdrasil :   Game Name = Crazy Mix :     src = https://static.egamings.com/games/yggdrasil/crazy_mix.jpg   java.net.UnknownHostException: static.egamings.com
+2023-01-03 12:25:16,518 [main] ERROR craftBet - 639  Game ID = 80352   Game Provider Name = NetEnt :   Game Name =  Creature from the Black Lagoon™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:24,338 [main] ERROR craftBet - 657  Game ID = 82271   Game Provider Name = PlayTech :   Game Name =  Curse of Anubis :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:24,828 [main] ERROR craftBet - 659  Game ID = 82667   Game Provider Name = Hacksaw :   Game Name =  Cut the Grass :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:27,249 [main] ERROR craftBet - 666  Game ID = 81483   Game Provider Name = Playpearls :   Game Name =  Dangerous Billy :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:27,497 [main] ERROR craftBet - 667  Game ID = 80353   Game Provider Name = NetEnt :   Game Name =  Dark King: Forbidden Riches :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:28,038 [main] ERROR craftBet - 669  Game ID = 80951   Game Provider Name = Yggdrasil :   Game Name =  Dark Vortex :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:28,268 [main] ERROR craftBet - 670  Game ID = 81768   Game Provider Name = NoLimitCity :   Game Name =  Das xBoot :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:29,607 [main] ERROR craftBet - 674  Game ID = 80354   Game Provider Name = NetEnt :   Game Name =  Dazzle Me™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:29,828 [main] ERROR craftBet - 675  Game ID = 80449   Game Provider Name = NetEnt :   Game Name =  Dazzle Me™ Megaways™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:30,028 [main] ERROR craftBet - 676  Game ID = 81484   Game Provider Name = Playpearls :   Game Name =  Dazzling Gems :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:31,169 [main] ERROR craftBet - 679  Game ID = 80356   Game Provider Name = NetEnt :   Game Name =  Dead or Alive™ :   cod = 404:   src = https://resources.kontrbet.com/products/netent/web/DeadOrAlive.jpg
+2023-01-03 12:25:31,398 [main] ERROR craftBet - 680  Game ID = 81750   Game Provider Name = NoLimitCity :   Game Name =  Deadwood xNudge :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:31,898 [main] ERROR craftBet - 682  Game ID = 81485   Game Provider Name = Playpearls :   Game Name =  Deep Sea :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:34,318 [main] ERROR craftBet - 688  Game ID = 81018   Game Provider Name = Yggdrasil :   Game Name =  Desperate Dawgs :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:35,047 [main] ERROR craftBet - 690  Game ID = 82769   Game Provider Name = Habanero :   Game Name =  Deuces Wild 1 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:35,348 [main] ERROR craftBet - 691  Game ID = 82776   Game Provider Name = Habanero :   Game Name =  Deuces Wild 10 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:35,568 [main] ERROR craftBet - 692  Game ID = 82765   Game Provider Name = Habanero :   Game Name =  Deuces Wild 100 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:35,778 [main] ERROR craftBet - 693  Game ID = 82781   Game Provider Name = Habanero :   Game Name =  Deuces Wild 5 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:36,017 [main] ERROR craftBet - 694  Game ID = 82804   Game Provider Name = Habanero :   Game Name =  Deuces Wild 50 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:36,238 [main] ERROR craftBet - 695  Game ID = 82812   Game Provider Name = PlaynGo :   Game Name =  Deuces Wild MH :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:39,067 [main] ERROR craftBet - 701  Game ID = 82091   Game Provider Name = PlaysonDirect :   Game Name =  Diamond Fortunator: Hold and Win :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:40,268 [main] ERROR craftBet - 705  Game ID = 82307   Game Provider Name = PlayTech :   Game Name =  Diamond Rise :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:41,080 [main] ERROR craftBet - 707  Game ID = 82679   Game Provider Name = Hacksaw :   Game Name =  Diamond Rush :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:47,438 [main] ERROR craftBet - 721  Game ID = 80357   Game Provider Name = NetEnt :   Game Name =  Disco Danny :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:49,499 [main] ERROR craftBet - 725  Game ID = 80443   Game Provider Name = NetEnt :   Game Name =  Divine Fortune MegaWays™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:53,598 [main] ERROR craftBet - 735  Game ID = 82796   Game Provider Name = Habanero :   Game Name =  Double Bonus Poker 1 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:53,807 [main] ERROR craftBet - 736  Game ID = 82805   Game Provider Name = Habanero :   Game Name =  Double Bonus Poker 10 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:54,241 [main] ERROR craftBet - 737  Game ID = 82767   Game Provider Name = Habanero :   Game Name =  Double Bonus Poker 100 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:54,468 [main] ERROR craftBet - 738  Game ID = 82794   Game Provider Name = Habanero :   Game Name =  Double Bonus Poker 5 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:54,688 [main] ERROR craftBet - 739  Game ID = 82756   Game Provider Name = Habanero :   Game Name =  Double Bonus Poker 50 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:54,878 [main] ERROR craftBet - 740  Game ID = 82761   Game Provider Name = Habanero :   Game Name =  Double Double Bonus Poker 1 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:55,097 [main] ERROR craftBet - 741  Game ID = 82770   Game Provider Name = Habanero :   Game Name =  Double Double Bonus Poker 100 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:55,317 [main] ERROR craftBet - 742  Game ID = 82753   Game Provider Name = Habanero :   Game Name =  Double Double Bonus Poker 5 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:55,537 [main] ERROR craftBet - 743  Game ID = 82762   Game Provider Name = Habanero :   Game Name =  Double Double Bonus Poker 50 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:55,728 [main] ERROR craftBet - 744  Game ID = 80952   Game Provider Name = Yggdrasil :   Game Name =  Double Dragons :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:55,957 [main] ERROR craftBet - 745  Game ID = 82813   Game Provider Name = PlaynGo :   Game Name =  Double Exposure BlackJack MH :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:57,577 [main] ERROR craftBet - 749  Game ID = 82665   Game Provider Name = Hacksaw :   Game Name =  Double Salary - 1 Year :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:57,778 [main] ERROR craftBet - 750  Game ID = 80358   Game Provider Name = NetEnt :   Game Name =  Double Stacks :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:58,008 [main] ERROR craftBet - 751  Game ID = 80788   Game Provider Name = RealisticGames :   Game Name =  Double your Dough :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:25:58,238 [main] ERROR craftBet - 752  Game ID = 82521   Game Provider Name = RealisticGames :   Game Name =  Double your Dough Pull Tab :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:06,378 [main] ERROR craftBet - 775  Game ID = 82148   Game Provider Name = PlayTech :   Game Name =  Dragon Spark :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:06,628 [main] ERROR craftBet - 776  Game ID = 82798   Game Provider Name = Habanero :   Game Name =  Dragon Tiger :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:07,128 [main] ERROR craftBet - 778  Game ID = 81744   Game Provider Name = NoLimitCity :   Game Name =  Dragon Tribe :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:07,597 [main] ERROR craftBet - 780  Game ID = 82722   Game Provider Name = Playpearls :   Game Name =  Dragons Cave :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:11,401 [main] ERROR craftBet - 787  Game ID = 81486   Game Provider Name = Playpearls :   Game Name =  Dragons Gold :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:11,668 [main] ERROR craftBet - 788  Game ID = 82283   Game Provider Name = PlayTech :   Game Name =  Dragon's Hall Thundershots :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:15,298 [main] ERROR craftBet - 795  Game ID = 82657   Game Provider Name = Hacksaw :   Game Name =  Dream Car Speed :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:15,538 [main] ERROR craftBet - 796  Game ID = 82656   Game Provider Name = Hacksaw :   Game Name =  Dream Car SUV :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:15,747 [main] ERROR craftBet - 797  Game ID = 82655   Game Provider Name = Hacksaw :   Game Name =  Dream Car Urban :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:16,688 [main] ERROR craftBet - 801  Game ID = 80360   Game Provider Name = NetEnt :   Game Name =  Druids Dream™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:17,688 [main] ERROR craftBet - 804  Game ID = 81731   Game Provider Name = NoLimitCity :   Game Name =  Dungeon Quest :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:18,429 [main] ERROR craftBet - 806  Game ID = 80789   Game Provider Name = RealisticGames :   Game Name =  Duplicats :   cod = 404:   src = https://resources.kontrbet.com/products/realistic/wev/duplicats.jpg
+2023-01-03 12:26:18,688 [main] ERROR craftBet - 807  Game ID = 80953   Game Provider Name = Yggdrasil :   Game Name =  Dwarf Mine :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:21,881 [main] ERROR craftBet - 815  Game ID = 81761   Game Provider Name = NoLimitCity :   Game Name =  East Coast Vs West Coast :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:22,678 [main] ERROR craftBet - 817  Game ID = 80954   Game Provider Name = Yggdrasil :   Game Name =  Easter Island :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:22,958 [main] ERROR craftBet - 818  Game ID = 81019   Game Provider Name = Yggdrasil :   Game Name =  Easter Island 2 :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:23,418 [main] ERROR craftBet - 820  Game ID = 80361   Game Provider Name = NetEnt :   Game Name =  EggOMatic™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:24,488 [main] ERROR craftBet - 823  Game ID = 82641   Game Provider Name = Hacksaw :   Game Name =  Eggstra Cash :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:25,838 [main] ERROR craftBet - 826  Game ID = 82150   Game Provider Name = PlayTech :   Game Name =  Egyptian Emeralds :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:26,578 [main] ERROR craftBet - 829  Game ID = 81016   Game Provider Name = Yggdrasil :   Game Name =  El Dorado Infinity Reels™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:26,798 [main] ERROR craftBet - 830  Game ID = 81763   Game Provider Name = NoLimitCity :   Game Name =  El Paso Gunfight xNudge :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:27,638 [main] ERROR craftBet - 833  Game ID = 80362   Game Provider Name = NetEnt :   Game Name =  Elements: The Awakening™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:28,078 [main] ERROR craftBet - 835  Game ID = 82151   Game Provider Name = PlayTech :   Game Name =  Eliminators :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:31,618 [main] ERROR craftBet - 845  Game ID = 81487   Game Provider Name = Playpearls :   Game Name =  Enchanted Lot :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:33,218 [main] ERROR craftBet - 849  Game ID = 82152   Game Provider Name = PlayTech :   Game Name =  Epic Ape :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:34,988 [main] ERROR craftBet - 854  Game ID = 82814   Game Provider Name = PlaynGo :   Game Name =  European BlackJack MH :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:35,188 [main] ERROR craftBet - 855  Game ID = 82806   Game Provider Name = Habanero :   Game Name =  European Roulette :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:36,228 [main] ERROR craftBet - 858  Game ID = 82815   Game Provider Name = PlaynGo :   Game Name =  European Roulette Pro :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:36,447 [main] ERROR craftBet - 859  Game ID = 81769   Game Provider Name = NoLimitCity :   Game Name =  Evil Goblins :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:36,928 [main] ERROR craftBet - 861  Game ID = 82647   Game Provider Name = Hacksaw :   Game Name =  Express 200 Scratch :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:37,408 [main] ERROR craftBet - 863  Game ID = 80199   Game Provider Name = PragmaticPlay :   Game Name =  Extra Juicy Megaways™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:42,329 [main] ERROR craftBet - 874  Game ID = 82154   Game Provider Name = PlayTech :   Game Name =  Fairground Fortunes Ghost Train :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:42,598 [main] ERROR craftBet - 875  Game ID = 82294   Game Provider Name = PlayTech :   Game Name =  Fairy Gathering Thundershots :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:43,067 [main] ERROR craftBet - 877  Game ID = 80363   Game Provider Name = NetEnt :   Game Name =  Fairytale Legends: Hansel and Gretel :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:43,278 [main] ERROR craftBet - 878  Game ID = 80364   Game Provider Name = NetEnt :   Game Name =  Fairytale Legends: Mirror Mirror :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:43,498 [main] ERROR craftBet - 879  Game ID = 80365   Game Provider Name = NetEnt :   Game Name =  Fairytale Legends: Red Riding Hood :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:45,540 [main] ERROR craftBet - 885  Game ID = 82155   Game Provider Name = PlayTech :   Game Name =  Fei Long Zai Tian :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:46,498 [main] ERROR craftBet - 888  Game ID = 80366   Game Provider Name = NetEnt :   Game Name =  Finn and the Swirly Spin :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:47,158 [main] ERROR craftBet - 891  Game ID = 80367   Game Provider Name = NetEnt :   Game Name =  Finn's Golden Tavern :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:47,588 [main] ERROR craftBet - 893  Game ID = 82285   Game Provider Name = PlayTech :   Game Name =  Fire Blaze Classic Blue Wizard Megaways :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:47,797 [main] ERROR craftBet - 894  Game ID = 82156   Game Provider Name = PlayTech :   Game Name =  Fire Blaze Golden Buccaneer Bells :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:48,238 [main] ERROR craftBet - 896  Game ID = 82281   Game Provider Name = PlayTech :   Game Name =  Fire Blaze Golden: Tundra Wolf :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:48,478 [main] ERROR craftBet - 897  Game ID = 82277   Game Provider Name = PlayTech :   Game Name =  Fire Blaze Jackpot: Red Wizard :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:48,698 [main] ERROR craftBet - 898  Game ID = 82295   Game Provider Name = PlayTech :   Game Name =  Fire Blaze Scratch :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:48,928 [main] ERROR craftBet - 899  Game ID = 82158   Game Provider Name = PlayTech :   Game Name =  Fire Blaze Sisters Gift :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:49,138 [main] ERROR craftBet - 900  Game ID = 82159   Game Provider Name = PlayTech :   Game Name =  Fire Blaze: Golden Macaque :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:49,368 [main] ERROR craftBet - 901  Game ID = 82160   Game Provider Name = PlayTech :   Game Name =  Fire Blaze: Jinns Moon :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:49,577 [main] ERROR craftBet - 902  Game ID = 82161   Game Provider Name = PlayTech :   Game Name =  Fire Blaze: Pearls Pearls Pearls :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:49,808 [main] ERROR craftBet - 903  Game ID = 82162   Game Provider Name = PlayTech :   Game Name =  Fire Blaze: River Empress :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:50,258 [main] ERROR craftBet - 905  Game ID = 80236   Game Provider Name = PragmaticPlay :   Game Name =  Fire Hot 100 :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:50,468 [main] ERROR craftBet - 906  Game ID = 80242   Game Provider Name = PragmaticPlay :   Game Name =  Fire Hot 20 :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:50,668 [main] ERROR craftBet - 907  Game ID = 80243   Game Provider Name = PragmaticPlay :   Game Name =  Fire Hot 40 :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:50,858 [main] ERROR craftBet - 908  Game ID = 80241   Game Provider Name = PragmaticPlay :   Game Name =  Fire Hot 5 :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:51,068 [main] ERROR craftBet - 909  Game ID = 81723   Game Provider Name = NoLimitCity :   Game Name =  Fire in The Hole xBomb :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:54,408 [main] ERROR craftBet - 917  Game ID = 82321   Game Provider Name = PlayTech :   Game Name =  Fireblaze Quattro Celtic Charm :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:56,718 [main] ERROR craftBet - 924  Game ID = 82523   Game Provider Name = RealisticGames :   Game Name =  Fireworks Pull Tab :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:26:57,788 [main] ERROR craftBet - 927  Game ID = 82298   Game Provider Name = PlayTech :   Game Name =  Fishing Bonanza :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:00,798 [main] ERROR craftBet - 934  Game ID = 80659   Game Provider Name = RedTiger :   Game Name =  Flodder :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:02,257 [main] ERROR craftBet - 938  Game ID = 82816   Game Provider Name = PlaynGo :   Game Name =  Flying Pigs :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:02,748 [main] ERROR craftBet - 940  Game ID = 81778   Game Provider Name = NoLimitCity :   Game Name =  Folsom Prison :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:02,938 [main] ERROR craftBet - 941  Game ID = 82329   Game Provider Name = PlayTech :   Game Name =  Football - Cash Collect :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:03,148 [main] ERROR craftBet - 942  Game ID = 81446   Game Provider Name = KalambaNew :   Game Name =  Football Blast :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:03,338 [main] ERROR craftBet - 943  Game ID = 81470   Game Provider Name = Leap :   Game Name =  Football Cup World :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:04,141 [main] ERROR craftBet - 945  Game ID = 80955   Game Provider Name = Yggdrasil :   Game Name =  Football Glory :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:05,158 [main] ERROR craftBet - 949  Game ID = 82163   Game Provider Name = PlayTech :   Game Name =  Football Rules :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:05,368 [main] ERROR craftBet - 950  Game ID = 82676   Game Provider Name = Hacksaw :   Game Name =  Football Scratch :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:05,849 [main] ERROR craftBet - 952  Game ID = 80369   Game Provider Name = NetEnt :   Game Name =  Football: Champions Cup™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:06,058 [main] ERROR craftBet - 953  Game ID = 80926   Game Provider Name = Hacksaw :   Game Name =  Forest Fortune :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:06,268 [main] ERROR craftBet - 954  Game ID = 82164   Game Provider Name = PlayTech :   Game Name =  Forest Prince :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:08,180 [main] ERROR craftBet - 958  Game ID = 82165   Game Provider Name = PlayTech :   Game Name =  Fortunate Five :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:10,388 [main] ERROR craftBet - 963  Game ID = 81653   Game Provider Name = Habanero :   Game Name =  Fortune Dogs :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:10,678 [main] ERROR craftBet - 964  Game ID = 80509   Game Provider Name = RedTiger :   Game Name =  Fortune Fest :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:11,148 [main] ERROR craftBet - 966  Game ID = 80510   Game Provider Name = RedTiger :   Game Name =  Fortune House :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:11,898 [main] ERROR craftBet - 968  Game ID = 80223   Game Provider Name = PragmaticPlay :   Game Name =  Fortune of Giza :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:13,828 [main] ERROR craftBet - 972  Game ID = 82166   Game Provider Name = PlayTech :   Game Name =  Fortunes of the Fox :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:15,910 [main] ERROR craftBet - 976  Game ID = 81524   Game Provider Name = Playpearls :   Game Name =  Freya :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:16,438 [main] ERROR craftBet - 978  Game ID = 82671   Game Provider Name = Hacksaw :   Game Name =  Frogs :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:16,668 [main] ERROR craftBet - 979  Game ID = 82167   Game Provider Name = PlayTech :   Game Name =  Frog's Gift :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:17,509 [main] ERROR craftBet - 981  Game ID = 81012   Game Provider Name = Yggdrasil :   Game Name =  Frost Queen Jackpots :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:18,568 [main] ERROR craftBet - 984  Game ID = 81488   Game Provider Name = Playpearls :   Game Name =  Fruit Basket :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:18,848 [main] ERROR craftBet - 985  Game ID = 80505   Game Provider Name = RedTiger :   Game Name =  Fruit Blox :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:20,140 [main] ERROR craftBet - 989  Game ID = 81489   Game Provider Name = Playpearls :   Game Name =  Fruit Loops :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:20,648 [main] ERROR craftBet - 991  Game ID = 80165   Game Provider Name = PragmaticPlay :   Game Name =  Fruit Party 2™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:21,148 [main] ERROR craftBet - 993  Game ID = 80370   Game Provider Name = NetEnt :   Game Name =  Fruit Shop Christmas Edition™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:21,368 [main] ERROR craftBet - 994  Game ID = 80445   Game Provider Name = NetEnt :   Game Name =  Fruit Shop Megaways™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:22,328 [main] ERROR craftBet - 997  Game ID = 80372   Game Provider Name = NetEnt :   Game Name =  Fruit Spin™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:22,818 [main] ERROR craftBet - 999  Game ID = 81445   Game Provider Name = KalambaNew :   Game Name =  FruitMax - CashLinez :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:23,038 [main] ERROR craftBet - 1000  Game ID = 80956   Game Provider Name = Yggdrasil :   Game Name =  Fruitoids :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:23,459 [main] ERROR craftBet - 1002  Game ID = 81767   Game Provider Name = NoLimitCity :   Game Name =  Fruits :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:25,619 [main] ERROR craftBet - 1007  Game ID = 82319   Game Provider Name = PlayTech :   Game Name =  Fruity Showers :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:27,589 [main] ERROR craftBet - 1011  Game ID = 82286   Game Provider Name = PlayTech :   Game Name =  Full Moon White Panda :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:28,308 [main] ERROR craftBet - 1014  Game ID = 80456   Game Provider Name = NetEnt :   Game Name =  Funkmaster :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:28,758 [main] ERROR craftBet - 1016  Game ID = 80262   Game Provider Name = PragmaticPlay :   Game Name =  Fury of Odin Megaways :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:28,988 [main] ERROR craftBet - 1017  Game ID = 81748   Game Provider Name = NoLimitCity :   Game Name =  Gaelic Gold :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:29,208 [main] ERROR craftBet - 1018  Game ID = 82169   Game Provider Name = PlayTech :   Game Name =  Gaelic Luck :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:29,948 [main] ERROR craftBet - 1020  Game ID = 82170   Game Provider Name = PlayTech :   Game Name =  Galactic Streak :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:31,018 [main] ERROR craftBet - 1023  Game ID = 80831   Game Provider Name = RealisticGames :   Game Name =  Game Changer :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:32,588 [main] ERROR craftBet - 1027  Game ID = 81490   Game Provider Name = Playpearls :   Game Name =  Gangster City :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:33,368 [main] ERROR craftBet - 1029  Game ID = 81033   Game Provider Name = Yggdrasil :   Game Name =  Gargoyle Infinity Reels™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:35,948 [main] ERROR craftBet - 1036  Game ID = 81027   Game Provider Name = Yggdrasil :   Game Name =  Gator Gold Gigablox :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:36,408 [main] ERROR craftBet - 1038  Game ID = 82172   Game Provider Name = PlayTech :   Game Name =  Gem Heat (Bars and 7's) :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:36,618 [main] ERROR craftBet - 1039  Game ID = 80957   Game Provider Name = Yggdrasil :   Game Name =  Gem Rocks :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:38,268 [main] ERROR craftBet - 1043  Game ID = 80512   Game Provider Name = RedTiger :   Game Name =  Gems Gone Wild :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:39,628 [main] ERROR craftBet - 1046  Game ID = 80266   Game Provider Name = PragmaticPlay :   Game Name =  Gems of Serengeti :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:42,809 [main] ERROR craftBet - 1052  Game ID = 81008   Game Provider Name = Yggdrasil :   Game Name =  Giza Infinity Reels™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:44,188 [main] ERROR craftBet - 1055  Game ID = 82275   Game Provider Name = PlayTech :   Game Name =  Glorious Guardians :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:44,678 [main] ERROR craftBet - 1057  Game ID = 82675   Game Provider Name = Hacksaw :   Game Name =  Go Panda :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:44,897 [main] ERROR craftBet - 1058  Game ID = 82524   Game Provider Name = RealisticGames :   Game Name =  Go Wild on Safari Pull Tab :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:46,098 [main] ERROR craftBet - 1063  Game ID = 80514   Game Provider Name = RedTiger :   Game Name =  God of Wealth :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:46,528 [main] ERROR craftBet - 1065  Game ID = 80373   Game Provider Name = NetEnt :   Game Name =  Gods Of Gold: InfiniReels :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:47,078 [main] ERROR craftBet - 1067  Game ID = 80854 Game Provider Name = Booongo :   Game Name = God's Temple :     src = https://static.egamings.com/games/booongo/gods_temple.jpg   java.net.UnknownHostException: static.egamings.com
+2023-01-03 12:27:48,648 [main] ERROR craftBet - 1071  Game ID = 82670   Game Provider Name = Hacksaw :   Game Name =  Gold Coins :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:49,878 [main] ERROR craftBet - 1075  Game ID = 82323   Game Provider Name = PlayTech :   Game Name =  Gold Hit: O'Reillys Riches :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:51,810 [main] ERROR craftBet - 1080  Game ID = 82173   Game Provider Name = PlayTech :   Game Name =  Gold Pile Tigers Pride :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:53,228 [main] ERROR craftBet - 1085  Game ID = 82678   Game Provider Name = Hacksaw :   Game Name =  Gold Rush :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:56,708 [main] ERROR craftBet - 1093  Game ID = 82681   Game Provider Name = Yggdrasil :   Game Name =  Golden Chip Roulette :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:57,438 [main] ERROR craftBet - 1095  Game ID = 80470   Game Provider Name = RedTiger :   Game Name =  Golden Cryptex :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:58,221 [main] ERROR craftBet - 1097  Game ID = 81491   Game Provider Name = Playpearls :   Game Name =  Golden Dragon :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:58,438 [main] ERROR craftBet - 1098  Game ID = 82723   Game Provider Name = Playpearls :   Game Name =  Golden Egg Keno :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:58,648 [main] ERROR craftBet - 1099  Game ID = 80933   Game Provider Name = Yggdrasil :   Game Name =  Golden Fishtank :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:27:59,728 [main] ERROR craftBet - 1102  Game ID = 81753   Game Provider Name = NoLimitCity :   Game Name =  Golden Genie & the Walking Wilds :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:01,078 [main] ERROR craftBet - 1105  Game ID = 82330   Game Provider Name = PlayTech :   Game Name =  Golden Guns - Grand Junction :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:05,628 [main] ERROR craftBet - 1114  Game ID = 82724   Game Provider Name = Playpearls :   Game Name =  Golden Potion :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:06,451 [main] ERROR craftBet - 1116  Game ID = 81492   Game Provider Name = Playpearls :   Game Name =  Golden Stars :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:10,338 [main] ERROR craftBet - 1124  Game ID = 80453   Game Provider Name = NetEnt :   Game Name =  Gonzo's Gold :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:10,689 [main] ERROR craftBet - 1126  Game ID = 80590 Game Provider Name = RedTiger :   Game Name = Gonzo's Quest™ Megaways™ :     src = https://static.egamings.com/games/redtigergaming/gonzos_quest_megaways.jpg   java.net.UnknownHostException: static.egamings.com
+2023-01-03 12:28:10,899 [main] ERROR craftBet - 1127  Game ID = 82489   Game Provider Name = RedTiger :   Game Name =  Good Luck Clusterbuster :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:11,108 [main] ERROR craftBet - 1128  Game ID = 80374   Game Provider Name = NetEnt :   Game Name =  Gorilla Kingdom™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:12,078 [main] ERROR craftBet - 1132  Game ID = 82301   Game Provider Name = PlayTech :   Game Name =  Grand Junction: Enchanted Inca :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:12,548 [main] ERROR craftBet - 1134  Game ID = 81601   Game Provider Name = RubyPlay :   Game Name =  Grand Mariachi :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:12,738 [main] ERROR craftBet - 1135  Game ID = 80375   Game Provider Name = NetEnt :   Game Name =  Grand Spinn™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:12,928 [main] ERROR craftBet - 1136  Game ID = 80522   Game Provider Name = RedTiger :   Game Name =  Grand Wheel :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:17,708 [main] ERROR craftBet - 1149  Game ID = 82327   Game Provider Name = PlayTech :   Game Name =  Green Wizard :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:18,978 [main] ERROR craftBet - 1153  Game ID = 80932   Game Provider Name = Hacksaw :   Game Name =  Gronk's Gems :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:19,508 [main] ERROR craftBet - 1155  Game ID = 80376   Game Provider Name = NetEnt :   Game Name =  Guns N' Roses Video Slots™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:20,518 [main] ERROR craftBet - 1158  Game ID = 80958   Game Provider Name = Yggdrasil :   Game Name =  Hades Gigablox :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:20,938 [main] ERROR craftBet - 1160  Game ID = 81493   Game Provider Name = Playpearls :   Game Name =  Hallo Wins Day :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:21,838 [main] ERROR craftBet - 1164  Game ID = 82289   Game Provider Name = PlayTech :   Game Name =  Halloween Fortune Scratch :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:22,298 [main] ERROR craftBet - 1166  Game ID = 80377   Game Provider Name = NetEnt :   Game Name =  Halloween Jack™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:26,628 [main] ERROR craftBet - 1178  Game ID = 80959   Game Provider Name = Yggdrasil :   Game Name =  Hanzo's Dojo :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:29,428 [main] ERROR craftBet - 1184  Game ID = 82653   Game Provider Name = Hacksaw :   Game Name =  Happy Scratch :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:30,169 [main] ERROR craftBet - 1186  Game ID = 81749   Game Provider Name = NoLimitCity :   Game Name =  Harlequin Carnival :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:31,039 [main] ERROR craftBet - 1188  Game ID = 82181   Game Provider Name = PlayTech :   Game Name =  Haunted House :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:32,258 [main] ERROR craftBet - 1192  Game ID = 82182   Game Provider Name = PlayTech :   Game Name =  Heart of the Frontier :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:32,459 [main] ERROR craftBet - 1193  Game ID = 82183   Game Provider Name = PlayTech :   Game Name =  Heart of the Jungle :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:32,678 [main] ERROR craftBet - 1194  Game ID = 81519   Game Provider Name = Playpearls :   Game Name =  Heavy Metal Princess :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:33,980 [main] ERROR craftBet - 1197  Game ID = 80448   Game Provider Name = NetEnt :   Game Name =  Hell's Kitchen™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:34,208 [main] ERROR craftBet - 1198  Game ID = 80734   Game Provider Name = Spinthon :   Game Name =  Her Majesty's Knights :   cod = 404:   src = https://resources.kontrbet.com/products/spinthon/web/Her-Majesty.jpg
+2023-01-03 12:28:35,138 [main] ERROR craftBet - 1202  Game ID = 82292   Game Provider Name = PlayTech :   Game Name =  Heroes Arrow :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:38,388 [main] ERROR craftBet - 1213  Game ID = 81494   Game Provider Name = Playpearls :   Game Name =  Hippie Roll :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:38,588 [main] ERROR craftBet - 1214  Game ID = 81028   Game Provider Name = Yggdrasil :   Game Name =  HippoPop™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:47,431 [main] ERROR craftBet - 1234  Game ID = 81740   Game Provider Name = NoLimitCity :   Game Name =  Hot 4 Cash :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:47,688 [main] ERROR craftBet - 1235  Game ID = 81495   Game Provider Name = Playpearls :   Game Name =  Hot 7 Wheel :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:48,710 [main] ERROR craftBet - 1238  Game ID = 81496   Game Provider Name = Playpearls :   Game Name =  Hot Cash Chest :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:50,408 [main] ERROR craftBet - 1244  Game ID = 82531   Game Provider Name = RealisticGames :   Game Name =  Hot Cross Bunnies Pull Tab :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:51,148 [main] ERROR craftBet - 1247  Game ID = 82185   Game Provider Name = PlayTech :   Game Name =  Hot Gems :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:51,358 [main] ERROR craftBet - 1248  Game ID = 82186   Game Provider Name = PlayTech :   Game Name =  Hot Gems Xtreme :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:53,158 [main] ERROR craftBet - 1252  Game ID = 81730   Game Provider Name = NoLimitCity :   Game Name =  Hot Nudge :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:53,379 [main] ERROR craftBet - 1253  Game ID = 80260   Game Provider Name = PragmaticPlay :   Game Name =  Hot Pepper :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:28:55,200 [main] ERROR craftBet - 1259  Game ID = 80378   Game Provider Name = NetEnt :   Game Name =  Hotline :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:03,118 [main] ERROR craftBet - 1275  Game ID = 80960   Game Provider Name = Yggdrasil :   Game Name =  Hyperburst :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:03,858 [main] ERROR craftBet - 1277  Game ID = 82187   Game Provider Name = PlayTech :   Game Name =  Ice Cave :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:04,109 [main] ERROR craftBet - 1278  Game ID = 81732   Game Provider Name = NoLimitCity :   Game Name =  Ice Ice Yeti :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:06,958 [main] ERROR craftBet - 1284  Game ID = 81754   Game Provider Name = NoLimitCity :   Game Name =  Immortal Fruits :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:09,488 [main] ERROR craftBet - 1289  Game ID = 80523   Game Provider Name = RedTiger :   Game Name =  Imperial Palace :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:10,248 [main] ERROR craftBet - 1291  Game ID = 80961   Game Provider Name = Yggdrasil :   Game Name =  Incinerator :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:11,098 [main] ERROR craftBet - 1293  Game ID = 81765   Game Provider Name = NoLimitCity :   Game Name =  Infectious 5 xWays :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:13,278 [main] ERROR craftBet - 1298  Game ID = 82188   Game Provider Name = PlayTech :   Game Name =  Irish Luck :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:13,509 [main] ERROR craftBet - 1299  Game ID = 80380   Game Provider Name = NetEnt :   Game Name =  Irish Pot Luck™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:14,259 [main] ERROR craftBet - 1301  Game ID = 81497   Game Provider Name = Playpearls :   Game Name =  Iron Sky :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:14,470 [main] ERROR craftBet - 1302  Game ID = 82727   Game Provider Name = Playpearls :   Game Name =  Iron Sky Vril-ya Scratch Card :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:14,668 [main] ERROR craftBet - 1303  Game ID = 82280   Game Provider Name = PlayTech :   Game Name =  Ishtar Power Zones :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:14,908 [main] ERROR craftBet - 1304  Game ID = 82532   Game Provider Name = RealisticGames :   Game Name =  It Came from the Moon Pull Tab :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:15,319 [main] ERROR craftBet - 1306  Game ID = 80692   Game Provider Name = FelixGaming :   Game Name =  It's a Joker :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:15,549 [main] ERROR craftBet - 1307  Game ID = 82664   Game Provider Name = Hacksaw :   Game Name =  It's bananas! :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:15,978 [main] ERROR craftBet - 1309  Game ID = 80382   Game Provider Name = NetEnt :   Game Name =  Jack Hammer 2™: Fishy Business :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:16,170 [main] ERROR craftBet - 1310  Game ID = 80383   Game Provider Name = NetEnt :   Game Name =  Jack Hammer™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:16,370 [main] ERROR craftBet - 1311  Game ID = 80524   Game Provider Name = RedTiger :   Game Name =  Jack in a pot :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:16,919 [main] ERROR craftBet - 1313  Game ID = 80384   Game Provider Name = NetEnt :   Game Name =  Jackpot 6000 :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:17,149 [main] ERROR craftBet - 1314  Game ID = 82269   Game Provider Name = PlayTech :   Game Name =  Jackpot Bells :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:17,619 [main] ERROR craftBet - 1316  Game ID = 82533   Game Provider Name = RealisticGames :   Game Name =  Jackpot Cherries Pull Tab :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:17,839 [main] ERROR craftBet - 1317  Game ID = 80525   Game Provider Name = RedTiger :   Game Name =  Jackpot Quest :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:18,111 [main] ERROR craftBet - 1318  Game ID = 82771   Game Provider Name = Habanero :   Game Name =  Jacks or Better 1 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:18,319 [main] ERROR craftBet - 1319  Game ID = 82782   Game Provider Name = Habanero :   Game Name =  Jacks or Better 10 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:18,539 [main] ERROR craftBet - 1320  Game ID = 82779   Game Provider Name = Habanero :   Game Name =  Jacks or Better 100 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:18,748 [main] ERROR craftBet - 1321  Game ID = 82763   Game Provider Name = Habanero :   Game Name =  Jacks or Better 5 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:18,950 [main] ERROR craftBet - 1322  Game ID = 82817   Game Provider Name = PlaynGo :   Game Name =  Jacks or Better MH :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:19,158 [main] ERROR craftBet - 1323  Game ID = 82725   Game Provider Name = Playpearls :   Game Name =  Jacks or Better Saloon :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:19,659 [main] ERROR craftBet - 1325  Game ID = 80526   Game Provider Name = RedTiger :   Game Name =  Jade Charms :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:19,880 [main] ERROR craftBet - 1326  Game ID = 82189   Game Provider Name = PlayTech :   Game Name =  Jade Emperor :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:20,638 [main] ERROR craftBet - 1328  Game ID = 81026   Game Provider Name = Yggdrasil :   Game Name =  Jaguar Super Ways :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:22,300 [main] ERROR craftBet - 1332  Game ID = 80527   Game Provider Name = RedTiger :   Game Name =  Jester Spins :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:25,698 [main] ERROR craftBet - 1339  Game ID = 82534   Game Provider Name = RealisticGames :   Game Name =  Jewellery Box Pull Tab :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:25,919 [main] ERROR craftBet - 1340  Game ID = 82190   Game Provider Name = PlayTech :   Game Name =  Ji Xiang 8™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:26,150 [main] ERROR craftBet - 1341  Game ID = 80385   Game Provider Name = NetEnt :   Game Name =  Jimi Hendrix Online Slot™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:26,379 [main] ERROR craftBet - 1342  Game ID = 80528   Game Provider Name = RedTiger :   Game Name =  Jingle Bells :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:27,109 [main] ERROR craftBet - 1344  Game ID = 81141   Game Provider Name = BoomingGames :   Game Name =  Jingle Jingle :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:27,339 [main] ERROR craftBet - 1345  Game ID = 80386   Game Provider Name = NetEnt :   Game Name =  Jingle Spin™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:28,379 [main] ERROR craftBet - 1348  Game ID = 80031   Game Provider Name = PragmaticPlay :   Game Name =  John Hunter and the Aztec Treasure :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:29,968 [main] ERROR craftBet - 1354  Game ID = 81020   Game Provider Name = Yggdrasil :   Game Name =  Johnan Legendarian :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:31,800 [main] ERROR craftBet - 1359  Game ID = 81444   Game Provider Name = KalambaNew :   Game Name =  Joker Fortune Blitz :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:33,899 [main] ERROR craftBet - 1367  Game ID = 82787   Game Provider Name = Habanero :   Game Name =  Joker Poker 1 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:34,109 [main] ERROR craftBet - 1368  Game ID = 82766   Game Provider Name = Habanero :   Game Name =  Joker Poker 10 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:34,308 [main] ERROR craftBet - 1369  Game ID = 82757   Game Provider Name = Habanero :   Game Name =  Joker Poker 100 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:34,540 [main] ERROR craftBet - 1370  Game ID = 82768   Game Provider Name = Habanero :   Game Name =  Joker Poker 5 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:34,749 [main] ERROR craftBet - 1371  Game ID = 82774   Game Provider Name = Habanero :   Game Name =  Joker Poker 50 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:34,969 [main] ERROR craftBet - 1372  Game ID = 82818   Game Provider Name = PlaynGo :   Game Name =  Joker Poker MH :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:35,600 [main] ERROR craftBet - 1375  Game ID = 82315   Game Provider Name = PlayTech :   Game Name =  Joker Rush :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:36,850 [main] ERROR craftBet - 1380  Game ID = 80962   Game Provider Name = Yggdrasil :   Game Name =  Jokerizer :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:40,180 [main] ERROR craftBet - 1387  Game ID = 82191   Game Provider Name = PlayTech :   Game Name =  Juego De La Oca :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:40,999 [main] ERROR craftBet - 1389  Game ID = 81498   Game Provider Name = Playpearls :   Game Name =  Juice Box :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:41,248 [main] ERROR craftBet - 1390  Game ID = 82829   Game Provider Name = PlaysonDirect :   Game Name =  Juice Inc. :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:42,071 [main] ERROR craftBet - 1393  Game ID = 80388   Game Provider Name = NetEnt :   Game Name =  Jumanji :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:43,420 [main] ERROR craftBet - 1396  Game ID = 80963   Game Provider Name = Yggdrasil :   Game Name =  Jungle Books :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:43,699 [main] ERROR craftBet - 1397  Game ID = 82192   Game Provider Name = PlayTech :   Game Name =  Jungle Giants :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:44,918 [main] ERROR craftBet - 1401  Game ID = 80389   Game Provider Name = NetEnt :   Game Name =  Jungle Spirit: Call of the Wild :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:45,149 [main] ERROR craftBet - 1402  Game ID = 82193   Game Provider Name = PlayTech :   Game Name =  Jungle Trouble :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:45,670 [main] ERROR craftBet - 1404  Game ID = 82194   Game Provider Name = PlayTech :   Game Name =  Jurassic Island :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:45,898 [main] ERROR craftBet - 1405  Game ID = 82287   Game Provider Name = PlayTech :   Game Name =  Jurassic Island 2 :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:46,388 [main] ERROR craftBet - 1407  Game ID = 82195   Game Provider Name = PlayTech :   Game Name =  Kanpai Banzai :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:46,609 [main] ERROR craftBet - 1408  Game ID = 81777   Game Provider Name = NoLimitCity :   Game Name =  Karen Maneater :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:46,809 [main] ERROR craftBet - 1409  Game ID = 82819   Game Provider Name = PlaynGo :   Game Name =  Keno :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:49,839 [main] ERROR craftBet - 1416  Game ID = 82650   Game Provider Name = Hacksaw :   Game Name =  King Treasure :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:51,761 [main] ERROR craftBet - 1420  Game ID = 81726   Game Provider Name = NoLimitCity :   Game Name =  Kitchen Drama BBQ Frenzy :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:52,029 [main] ERROR craftBet - 1421  Game ID = 81724   Game Provider Name = NoLimitCity :   Game Name =  Kitchen Drama Sushi Mania :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:52,269 [main] ERROR craftBet - 1422  Game ID = 80455   Game Provider Name = NetEnt :   Game Name =  Knight Rider :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:53,550 [main] ERROR craftBet - 1425  Game ID = 82669   Game Provider Name = Hacksaw :   Game Name =  Koi Cash :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:58,018 [main] ERROR craftBet - 1437  Game ID = 81525   Game Provider Name = Playpearls :   Game Name =  Las Vegas :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:29:58,290 [main] ERROR craftBet - 1438  Game ID = 80529   Game Provider Name = RedTiger :   Game Name =  Laser Fruit :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:01,309 [main] ERROR craftBet - 1444  Game ID = 82196   Game Provider Name = PlayTech :   Game Name =  Legacy of the Wild :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:01,540 [main] ERROR craftBet - 1445  Game ID = 82197   Game Provider Name = PlayTech :   Game Name =  Legacy of the Wild 2 :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:02,740 [main] ERROR craftBet - 1448  Game ID = 82074 Game Provider Name = PlaysonDirect :   Game Name = Legend of Cleopatra Megaways™ :     src = https://static.egamings.com/games/playsondirect/legend_of_cleopatra_megaways.jpg   java.net.UnknownHostException: static.egamings.com
+2023-01-03 12:30:03,289 [main] ERROR craftBet - 1450  Game ID = 80964   Game Provider Name = Yggdrasil :   Game Name =  Legend of the Golden Monkey :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:04,729 [main] ERROR craftBet - 1453  Game ID = 80463   Game Provider Name = RedTiger :   Game Name =  Legendary Excalibur :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:05,020 [main] ERROR craftBet - 1454  Game ID = 81029   Game Provider Name = Yggdrasil :   Game Name =  Legion Hot 1 :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:05,290 [main] ERROR craftBet - 1455  Game ID = 81771   Game Provider Name = NoLimitCity :   Game Name =  Legion X :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:07,330 [main] ERROR craftBet - 1460  Game ID = 82302   Game Provider Name = PlayTech :   Game Name =  Leprechauns Luck: Cash Collect :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:09,940 [main] ERROR craftBet - 1465  Game ID = 82198   Game Provider Name = PlayTech :   Game Name =  Lie Yan Zuan Shi :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:10,450 [main] ERROR craftBet - 1467  Game ID = 80965   Game Provider Name = Yggdrasil :   Game Name =  Lightning Joker :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:12,859 [main] ERROR craftBet - 1473  Game ID = 81782   Game Provider Name = NoLimitCity :   Game Name =  Little Bighorn :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:13,099 [main] ERROR craftBet - 1474  Game ID = 80219   Game Provider Name = PragmaticPlay :   Game Name =  Little Gem :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:13,881 [main] ERROR craftBet - 1476  Game ID = 81499   Game Provider Name = Playpearls :   Game Name =  Lizard Disco :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:16,700 [main] ERROR craftBet - 1482  Game ID = 81955   Game Provider Name = PlaynGo :   Game Name =  Lord Merlin and the Lady of the Lake :   cod = 404:   src = https://resources.kontrbet.com/products/Lord%20Merlin%20and%20the%20Lady%20of%20the%20Lake
+2023-01-03 12:30:17,670 [main] ERROR craftBet - 1485  Game ID = 80393   Game Provider Name = NetEnt :   Game Name =  Lost Relics™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:18,098 [main] ERROR craftBet - 1487  Game ID = 82199   Game Provider Name = PlayTech :   Game Name =  Lotto Madness :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:18,829 [main] ERROR craftBet - 1489  Game ID = 82642   Game Provider Name = Hacksaw :   Game Name =  LOVE is all you need :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:19,559 [main] ERROR craftBet - 1491  Game ID = 82200   Game Provider Name = PlayTech :   Game Name =  Lovefool :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:19,818 [main] ERROR craftBet - 1492  Game ID = 80966   Game Provider Name = Yggdrasil :   Game Name =  Lucha Maniacs :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:21,399 [main] ERROR craftBet - 1496  Game ID = 80532   Game Provider Name = RedTiger :   Game Name =  Lucky Easter :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:21,639 [main] ERROR craftBet - 1497  Game ID = 82201   Game Provider Name = PlayTech :   Game Name =  Lucky Emeralds :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:23,789 [main] ERROR craftBet - 1502  Game ID = 80168   Game Provider Name = PragmaticPlay :   Game Name =  Lucky Grace and Charm™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:26,339 [main] ERROR craftBet - 1508  Game ID = 80967   Game Provider Name = Yggdrasil :   Game Name =  Lucky Neko Gigablox :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:26,640 [main] ERROR craftBet - 1509  Game ID = 80061   Game Provider Name = PragmaticPlay :   Game Name =  Lucky New Year :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:26,839 [main] ERROR craftBet - 1510  Game ID = 82661   Game Provider Name = Hacksaw :   Game Name =  Lucky Numbers x12 :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:27,030 [main] ERROR craftBet - 1511  Game ID = 82662   Game Provider Name = Hacksaw :   Game Name =  Lucky Numbers x16 :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:27,239 [main] ERROR craftBet - 1512  Game ID = 82663   Game Provider Name = Hacksaw :   Game Name =  Lucky Numbers x20 :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:27,459 [main] ERROR craftBet - 1513  Game ID = 82659   Game Provider Name = Hacksaw :   Game Name =  Lucky Numbers x8 :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:28,750 [main] ERROR craftBet - 1516  Game ID = 82654   Game Provider Name = Hacksaw :   Game Name =  Lucky Scratch :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:28,989 [main] ERROR craftBet - 1517  Game ID = 82658   Game Provider Name = Hacksaw :   Game Name =  Lucky Shot :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:29,189 [main] ERROR craftBet - 1518  Game ID = 82683   Game Provider Name = Fugaso :   Game Name =  Lucky Spin Euro Roulette :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:30,679 [main] ERROR craftBet - 1522  Game ID = 80535   Game Provider Name = RedTiger :   Game Name =  Lucky Wizard :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:30,899 [main] ERROR craftBet - 1523  Game ID = 81500   Game Provider Name = Playpearls :   Game Name =  Lucky's Pizza :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:31,129 [main] ERROR craftBet - 1524  Game ID = 82202   Game Provider Name = PlayTech :   Game Name =  Luminous Life :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:32,389 [main] ERROR craftBet - 1528  Game ID = 80051   Game Provider Name = PragmaticPlay :   Game Name =  Madame Destiny :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:32,589 [main] ERROR craftBet - 1529  Game ID = 80144   Game Provider Name = PragmaticPlay :   Game Name =  Madame Destiny Megaways™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:33,889 [main] ERROR craftBet - 1533  Game ID = 81501   Game Provider Name = Playpearls :   Game Name =  Mafia Story :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:34,089 [main] ERROR craftBet - 1534  Game ID = 80798   Game Provider Name = RealisticGames :   Game Name =  Magic 10 :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:34,329 [main] ERROR craftBet - 1535  Game ID = 80799   Game Provider Name = RealisticGames :   Game Name =  Magic 7 :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:36,259 [main] ERROR craftBet - 1539  Game ID = 80094   Game Provider Name = PragmaticPlay :   Game Name =  Magic Crystals :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:37,249 [main] ERROR craftBet - 1542  Game ID = 80021   Game Provider Name = PragmaticPlay :   Game Name =  Magic Journey :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:37,490 [main] ERROR craftBet - 1543  Game ID = 80394   Game Provider Name = NetEnt :   Game Name =  Magic Maid Cafe™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:37,729 [main] ERROR craftBet - 1544  Game ID = 80231   Game Provider Name = PragmaticPlay :   Game Name =  Magic Money Maze :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:39,329 [main] ERROR craftBet - 1548  Game ID = 82203   Game Provider Name = PlayTech :   Game Name =  Magical Stacks :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:39,559 [main] ERROR craftBet - 1549  Game ID = 80209   Game Provider Name = PragmaticPlay :   Game Name =  Magician's Secrets :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:39,779 [main] ERROR craftBet - 1550  Game ID = 82685   Game Provider Name = Fugaso :   Game Name =  Magnify Man :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:41,679 [main] ERROR craftBet - 1554  Game ID = 82204   Game Provider Name = PlayTech :   Game Name =  Maji Wilds :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:42,389 [main] ERROR craftBet - 1557  Game ID = 81742   Game Provider Name = NoLimitCity :   Game Name =  Manhattan Goes Wild :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:44,219 [main] ERROR craftBet - 1561  Game ID = 80045   Game Provider Name = PragmaticPlay :   Game Name =  Master Chen's Fortune :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:45,699 [main] ERROR craftBet - 1566  Game ID = 82310   Game Provider Name = PlayTech :   Game Name =  Mayan Blocks :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:46,169 [main] ERROR craftBet - 1568  Game ID = 80537   Game Provider Name = RedTiger :   Game Name =  Mayan Gods :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:46,389 [main] ERROR craftBet - 1569  Game ID = 81502   Game Provider Name = Playpearls :   Game Name =  Mayan Gold :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:46,629 [main] ERROR craftBet - 1570  Game ID = 81736   Game Provider Name = NoLimitCity :   Game Name =  Mayan Magic Wildfire :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:49,259 [main] ERROR craftBet - 1576  Game ID = 82293   Game Provider Name = PlayTech :   Game Name =  Mega Fire Blaze Big Circus :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:49,499 [main] ERROR craftBet - 1577  Game ID = 82205   Game Provider Name = PlayTech :   Game Name =  Mega Fire Blaze Jackpots Legacy of the Tiger :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:49,739 [main] ERROR craftBet - 1578  Game ID = 82309   Game Provider Name = PlayTech :   Game Name =  Mega Fire Blaze: Khonsu God of Moon :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:51,671 [main] ERROR craftBet - 1582  Game ID = 82029   Game Provider Name = PlaynGo :   Game Name =  Megadon :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:53,092 [main] ERROR craftBet - 1585  Game ID = 81770   Game Provider Name = NoLimitCity :   Game Name =  Mental :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:56,030 [main] ERROR craftBet - 1592  Game ID = 82682   Game Provider Name = Yggdrasil :   Game Name =  MexoMax! :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:57,089 [main] ERROR craftBet - 1595  Game ID = 80800   Game Provider Name = RealisticGames :   Game Name =  Mice n Easy :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:58,060 [main] ERROR craftBet - 1598  Game ID = 82206   Game Provider Name = PlayTech :   Game Name =  Midnight Wild :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:58,799 [main] ERROR craftBet - 1600  Game ID = 80201   Game Provider Name = PragmaticPlay :   Game Name =  Might of Ra™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:59,599 [main] ERROR craftBet - 1602  Game ID = 82320   Game Provider Name = PlayTech :   Game Name =  Mighty Hat - Mine O' Mine :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:30:59,849 [main] ERROR craftBet - 1603  Game ID = 82312   Game Provider Name = PlayTech :   Game Name =  Mighty Hat-Lamp of Gold :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:00,079 [main] ERROR craftBet - 1604  Game ID = 80091   Game Provider Name = PragmaticPlay :   Game Name =  Mighty Kong :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:00,828 [main] ERROR craftBet - 1606  Game ID = 81752   Game Provider Name = NoLimitCity :   Game Name =  Milky Ways :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:01,680 [main] ERROR craftBet - 1608  Game ID = 82634   Game Provider Name = Hacksaw :   Game Name =  Mines :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:01,919 [main] ERROR craftBet - 1609  Game ID = 82820   Game Provider Name = PlaynGo :   Game Name =  Mini Baccarat :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:02,509 [main] ERROR craftBet - 1611  Game ID = 81775   Game Provider Name = NoLimitCity :   Game Name =  Misery Mining :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:02,740 [main] ERROR craftBet - 1612  Game ID = 82207   Game Provider Name = PlayTech :   Game Name =  Miss Fortune :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:03,459 [main] ERROR craftBet - 1614  Game ID = 80968   Game Provider Name = Yggdrasil :   Game Name =  Moley Moolah Going Underground :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:04,919 [main] ERROR craftBet - 1618  Game ID = 82535   Game Provider Name = RealisticGames :   Game Name =  Money Matrix Pull Tab :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:05,669 [main] ERROR craftBet - 1620  Game ID = 80020   Game Provider Name = PragmaticPlay :   Game Name =  Money Mouse :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:05,889 [main] ERROR craftBet - 1621  Game ID = 82821   Game Provider Name = PlaynGo :   Game Name =  Money Wheel :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:06,549 [main] ERROR craftBet - 1624  Game ID = 80064   Game Provider Name = PragmaticPlay :   Game Name =  Monkey Madness :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:06,769 [main] ERROR craftBet - 1625  Game ID = 80121   Game Provider Name = PragmaticPlay :   Game Name =  Monkey Warrior™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:07,519 [main] ERROR craftBet - 1627  Game ID = 81757   Game Provider Name = NoLimitCity :   Game Name =  Monkey's Gold xPays :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:07,839 [main] ERROR craftBet - 1628  Game ID = 81064   Game Provider Name = Yggdrasil :   Game Name =  Monster Blox Gigablox™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:08,609 [main] ERROR craftBet - 1630  Game ID = 82317   Game Provider Name = PlayTech :   Game Name =  Monsters Multipliers :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:11,999 [main] ERROR craftBet - 1637  Game ID = 80395   Game Provider Name = NetEnt :   Game Name =  Motörhead Video Slot :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:13,909 [main] ERROR craftBet - 1641  Game ID = 82208   Game Provider Name = PlayTech :   Game Name =  Mr. Cashback :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:15,699 [main] ERROR craftBet - 1647  Game ID = 80969   Game Provider Name = Yggdrasil :   Game Name =  MultiFly!™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:17,799 [main] ERROR craftBet - 1651  Game ID = 82209   Game Provider Name = PlayTech :   Game Name =  Murder Mystery :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:18,059 [main] ERROR craftBet - 1652  Game ID = 81503   Game Provider Name = Playpearls :   Game Name =  Music Stage :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:18,279 [main] ERROR craftBet - 1653  Game ID = 80042   Game Provider Name = PragmaticPlay :   Game Name =  Mustang Gold :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:18,769 [main] ERROR craftBet - 1655  Game ID = 80141   Game Provider Name = PragmaticPlay :   Game Name =  Mysterious Egypt™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:22,489 [main] ERROR craftBet - 1662  Game ID = 80546   Game Provider Name = RedTiger :   Game Name =  Mystery Reels Power Reels :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:22,749 [main] ERROR craftBet - 1663  Game ID = 80183   Game Provider Name = PragmaticPlay :   Game Name =  Mystic Chief :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:24,819 [main] ERROR craftBet - 1668  Game ID = 82326   Game Provider Name = PlayTech :   Game Name =  Mystic Tales - Mighty Hat :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:25,059 [main] ERROR craftBet - 1669  Game ID = 80547   Game Provider Name = RedTiger :   Game Name =  Mystic Wheel :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:26,069 [main] ERROR craftBet - 1672  Game ID = 80397   Game Provider Name = NetEnt :   Game Name =  Narcos :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:26,289 [main] ERROR craftBet - 1673  Game ID = 80656   Game Provider Name = RedTiger :   Game Name =  Narcos Mexico :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:26,489 [main] ERROR craftBet - 1674  Game ID = 81504   Game Provider Name = Playpearls :   Game Name =  Native Indians :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:26,709 [main] ERROR craftBet - 1675  Game ID = 81602   Game Provider Name = RubyPlay :   Game Name =  Native Spirit :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:28,672 [main] ERROR craftBet - 1679  Game ID = 82684   Game Provider Name = Fugaso :   Game Name =  Neon Roulette :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:28,879 [main] ERROR craftBet - 1680  Game ID = 80970   Game Provider Name = Yggdrasil :   Game Name =  Neon Rush Splitz :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:31,039 [main] ERROR craftBet - 1687  Game ID = 82210   Game Provider Name = PlayTech :   Game Name =  New Year's Bonanza :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:31,290 [main] ERROR craftBet - 1688  Game ID = 81467   Game Provider Name = Leap :   Game Name =  Nexus :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:32,028 [main] ERROR craftBet - 1690  Game ID = 82211   Game Provider Name = PlayTech :   Game Name =  Ni Shu Shen Me :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:34,441 [main] ERROR craftBet - 1695  Game ID = 80971   Game Provider Name = Yggdrasil :   Game Name =  Nirvana :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:34,749 [main] ERROR craftBet - 1696  Game ID = 80215   Game Provider Name = PragmaticPlay :   Game Name =  North Guardians :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:36,610 [main] ERROR craftBet - 1700  Game ID = 80549   Game Provider Name = RedTiger :   Game Name =  Ocean Fortune :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:36,819 [main] ERROR craftBet - 1701  Game ID = 81505   Game Provider Name = Playpearls :   Game Name =  Ocean Riches :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:37,819 [main] ERROR craftBet - 1704  Game ID = 80399   Game Provider Name = NetEnt :   Game Name =  Ocean's Treasure :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:38,029 [main] ERROR craftBet - 1705  Game ID = 80244   Game Provider Name = PragmaticPlay :   Game Name =  Octobeer Fortunes :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:38,760 [main] ERROR craftBet - 1707  Game ID = 81024   Game Provider Name = Yggdrasil :   Game Name =  Odin Infinity Reels™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:40,090 [main] ERROR craftBet - 1710  Game ID = 81766   Game Provider Name = NoLimitCity :   Game Name =  Oktoberfest :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:42,431 [main] ERROR craftBet - 1716  Game ID = 80972   Game Provider Name = Yggdrasil :   Game Name =  Orient Express :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:43,129 [main] ERROR craftBet - 1719  Game ID = 81733   Game Provider Name = NoLimitCity :   Game Name =  Owls :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:43,349 [main] ERROR craftBet - 1720  Game ID = 82212   Game Provider Name = PlayTech :   Game Name =  Ox Riches :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:43,569 [main] ERROR craftBet - 1721  Game ID = 80400   Game Provider Name = NetEnt :   Game Name =  Ozzy Osbourne Video Slots :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:45,089 [main] ERROR craftBet - 1725  Game ID = 82213   Game Provider Name = PlayTech :   Game Name =  Panda Luck :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:45,809 [main] ERROR craftBet - 1727  Game ID = 80067   Game Provider Name = PragmaticPlay :   Game Name =  Panda's Fortune :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:46,049 [main] ERROR craftBet - 1728  Game ID = 80174   Game Provider Name = PragmaticPlay :   Game Name =  Panda's Fortune 2 :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:46,270 [main] ERROR craftBet - 1729  Game ID = 82214   Game Provider Name = PlayTech :   Game Name =  Panther Moon :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:46,479 [main] ERROR craftBet - 1730  Game ID = 82215   Game Provider Name = PlayTech :   Game Name =  Panther Pays :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:46,700 [main] ERROR craftBet - 1731  Game ID = 80078   Game Provider Name = PragmaticPlay :   Game Name =  Panther Queen :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:48,080 [main] ERROR craftBet - 1734  Game ID = 80447   Game Provider Name = NetEnt :   Game Name =  Parthenon: Quest of Immortality™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:50,958 [main] ERROR craftBet - 1741  Game ID = 81784   Game Provider Name = NoLimitCity :   Game Name =  Pearl Harbor :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:52,540 [main] ERROR craftBet - 1745  Game ID = 80048   Game Provider Name = PragmaticPlay :   Game Name =  Peking Luck :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:52,790 [main] ERROR craftBet - 1746  Game ID = 80973   Game Provider Name = Yggdrasil :   Game Name =  Penguin City :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:53,000 [main] ERROR craftBet - 1747  Game ID = 82216   Game Provider Name = PlayTech :   Game Name =  Penguin Vacation :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:53,209 [main] ERROR craftBet - 1748  Game ID = 81526   Game Provider Name = Playpearls :   Game Name =  Penguin Vacation :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:54,359 [main] ERROR craftBet - 1752  Game ID = 82537   Game Provider Name = RealisticGames :   Game Name =  Perfect Pairs 21+3 Blackjack (3 Box) :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:54,612 [main] ERROR craftBet - 1753  Game ID = 82538   Game Provider Name = RealisticGames :   Game Name =  Perfect Pairs 21+3 Blackjack (5 Box) :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:54,829 [main] ERROR craftBet - 1754  Game ID = 80550   Game Provider Name = RedTiger :   Game Name =  Persian Fortune :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:55,039 [main] ERROR craftBet - 1755  Game ID = 82730   Game Provider Name = Playpearls :   Game Name =  Pharaoh :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:55,270 [main] ERROR craftBet - 1756  Game ID = 82308   Game Provider Name = PlayTech :   Game Name =  Pharaoh's Daughter / FIREBLAZE :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:55,759 [main] ERROR craftBet - 1758  Game ID = 82217   Game Provider Name = PlayTech :   Game Name =  Pharaoh's Secrets :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:56,239 [main] ERROR craftBet - 1760  Game ID = 81506   Game Provider Name = Playpearls :   Game Name =  Pharaohs Treasure :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:56,449 [main] ERROR craftBet - 1761  Game ID = 81447   Game Provider Name = KalambaNew :   Game Name =  Phat Cats Megaways :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:57,199 [main] ERROR craftBet - 1763  Game ID = 80554   Game Provider Name = RedTiger :   Game Name =  Phoenix Fire Power Reels :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:57,469 [main] ERROR craftBet - 1764  Game ID = 80161   Game Provider Name = PragmaticPlay :   Game Name =  Phoenix Forge™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:57,699 [main] ERROR craftBet - 1765  Game ID = 81875   Game Provider Name = PlaynGo :   Game Name =  Phoenix Reborn :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:31:58,889 [main] ERROR craftBet - 1768  Game ID = 80184   Game Provider Name = PragmaticPlay :   Game Name =  Piggy Bank Bills :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:03,119 [main] ERROR craftBet - 1777  Game ID = 80034   Game Provider Name = PragmaticPlay :   Game Name =  Pirate Gold :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:03,399 [main] ERROR craftBet - 1778  Game ID = 80133   Game Provider Name = PragmaticPlay :   Game Name =  Pirate Gold Deluxe™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:04,689 [main] ERROR craftBet - 1782  Game ID = 80974   Game Provider Name = Yggdrasil :   Game Name =  Pirates 2: Mutiny :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:06,620 [main] ERROR craftBet - 1787  Game ID = 80975   Game Provider Name = Yggdrasil :   Game Name =  Pirates: Smugglers Paradise :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:06,860 [main] ERROR craftBet - 1788  Game ID = 82218   Game Provider Name = PlayTech :   Game Name =  Pixel Samurai™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:07,119 [main] ERROR craftBet - 1789  Game ID = 80073   Game Provider Name = PragmaticPlay :   Game Name =  Pixie Wings :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:07,431 [main] ERROR craftBet - 1790  Game ID = 81741   Game Provider Name = NoLimitCity :   Game Name =  Pixies vs Pirates :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:08,440 [main] ERROR craftBet - 1793  Game ID = 82219   Game Provider Name = PlayTech :   Game Name =  Plenty O`Fortune :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:08,929 [main] ERROR craftBet - 1795  Game ID = 81745   Game Provider Name = NoLimitCity :   Game Name =  Poison Eve :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:09,809 [main] ERROR craftBet - 1797  Game ID = 82560   Game Provider Name = RealisticGames :   Game Name =  Pot Luck :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:10,099 [main] ERROR craftBet - 1798  Game ID = 80154   Game Provider Name = PragmaticPlay :   Game Name =  Power of Thor Megaways™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:10,309 [main] ERROR craftBet - 1799  Game ID = 82220   Game Provider Name = PlayTech :   Game Name =  PowerZones: Legend of Hydra :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:11,270 [main] ERROR craftBet - 1802  Game ID = 82290   Game Provider Name = PlayTech :   Game Name =  Pride of Persia Empire Treasures :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:12,010 [main] ERROR craftBet - 1804  Game ID = 82652   Game Provider Name = Hacksaw :   Game Name =  Prince Treasure :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:16,079 [main] ERROR craftBet - 1813  Game ID = 80930   Game Provider Name = Hacksaw :   Game Name =  Pug Life :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:16,330 [main] ERROR craftBet - 1814  Game ID = 82539   Game Provider Name = RealisticGames :   Game Name =  Pull a Cracker Pull Tab :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:16,549 [main] ERROR craftBet - 1815  Game ID = 82221   Game Provider Name = PlayTech :   Game Name =  Pumpkin Bonanza :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:17,540 [main] ERROR craftBet - 1817  Game ID = 80976   Game Provider Name = Yggdrasil :   Game Name =  Pumpkin Smash :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:17,890 [main] ERROR craftBet - 1818  Game ID = 81746   Game Provider Name = NoLimitCity :   Game Name =  Punk Rocker :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:18,119 [main] ERROR craftBet - 1819  Game ID = 81774   Game Provider Name = NoLimitCity :   Game Name =  Punk Toilet :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:18,339 [main] ERROR craftBet - 1820  Game ID = 82222   Game Provider Name = PlayTech :   Game Name =  Purple Hot :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:19,660 [main] ERROR craftBet - 1823  Game ID = 80104   Game Provider Name = PragmaticPlay :   Game Name =  Pyramid King™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:19,979 [main] ERROR craftBet - 1824  Game ID = 80401   Game Provider Name = NetEnt :   Game Name =  Pyramid: Quest for Immortality :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:20,409 [main] ERROR craftBet - 1826  Game ID = 82318   Game Provider Name = PlayTech :   Game Name =  Qins Empire - Caishens Temple :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:20,610 [main] ERROR craftBet - 1827  Game ID = 82316   Game Provider Name = PlayTech :   Game Name =  Qins Empire - Celetial Guardians :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:20,840 [main] ERROR craftBet - 1828  Game ID = 80079   Game Provider Name = PragmaticPlay :   Game Name =  Queen of Atlantis :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:21,089 [main] ERROR craftBet - 1829  Game ID = 80224   Game Provider Name = PragmaticPlay :   Game Name =  Queen of Gods :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:21,299 [main] ERROR craftBet - 1830  Game ID = 80080   Game Provider Name = PragmaticPlay :   Game Name =  Queen of Gold :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:23,209 [main] ERROR craftBet - 1834  Game ID = 82651   Game Provider Name = Hacksaw :   Game Name =  Queen Treasure :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:23,469 [main] ERROR craftBet - 1835  Game ID = 80198   Game Provider Name = PragmaticPlay :   Game Name =  Queenie :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:24,440 [main] ERROR craftBet - 1838  Game ID = 82223   Game Provider Name = PlayTech :   Game Name =  Quest West :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:25,169 [main] ERROR craftBet - 1840  Game ID = 80977   Game Provider Name = Yggdrasil :   Game Name =  Racing Lovers :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:28,089 [main] ERROR craftBet - 1847  Game ID = 80210   Game Provider Name = PragmaticPlay :   Game Name =  Rainbow Gold :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:28,330 [main] ERROR craftBet - 1848  Game ID = 80556   Game Provider Name = RedTiger :   Game Name =  Rainbow Jackpots :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:29,071 [main] ERROR craftBet - 1850  Game ID = 82540   Game Provider Name = RealisticGames :   Game Name =  Rainbow Magic Pull Tab :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:29,319 [main] ERROR craftBet - 1851  Game ID = 81128   Game Provider Name = Yggdrasil :   Game Name =  Rainbow Power Pots :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:29,529 [main] ERROR craftBet - 1852  Game ID = 80978   Game Provider Name = Yggdrasil :   Game Name =  Rainbow Ryan :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:30,300 [main] ERROR craftBet - 1854  Game ID = 82825   Game Provider Name = PlaynGo :   Game Name =  Rainforest Magic Bingo :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:32,159 [main] ERROR craftBet - 1858  Game ID = 82673   Game Provider Name = Hacksaw :   Game Name =  Rat Riches :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:34,299 [main] ERROR craftBet - 1863  Game ID = 82224   Game Provider Name = PlayTech :   Game Name =  Record Riches :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:35,319 [main] ERROR craftBet - 1866  Game ID = 80807   Game Provider Name = RealisticGames :   Game Name =  Red Hot Gambler :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:36,060 [main] ERROR craftBet - 1868  Game ID = 80693   Game Provider Name = FelixGaming :   Game Name =  Red Lion :   cod = 404:   src = https://resources.kontrbet.com/products/FelixGaming/web/red_lion.png
+2023-01-03 12:32:36,310 [main] ERROR craftBet - 1869  Game ID = 81507   Game Provider Name = Playpearls :   Game Name =  Red Nights :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:36,539 [main] ERROR craftBet - 1870  Game ID = 80452   Game Provider Name = NetEnt :   Game Name =  Reef Raider™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:36,960 [main] ERROR craftBet - 1872  Game ID = 80261   Game Provider Name = PragmaticPlay :   Game Name =  Reel Banks :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:37,180 [main] ERROR craftBet - 1873  Game ID = 81015   Game Provider Name = Yggdrasil :   Game Name =  Reel Desire :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:38,729 [main] ERROR craftBet - 1877  Game ID = 80483   Game Provider Name = RedTiger :   Game Name =  Reel King Mega :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:39,180 [main] ERROR craftBet - 1879  Game ID = 80404   Game Provider Name = NetEnt :   Game Name =  Reel Rush 2 :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:40,989 [main] ERROR craftBet - 1884  Game ID = 80018   Game Provider Name = PragmaticPlay :   Game Name =  Release the Kraken :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:41,580 [main] ERROR craftBet - 1886  Game ID = 81776   Game Provider Name = NoLimitCity :   Game Name =  Remember Gulag :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:43,400 [main] ERROR craftBet - 1891  Game ID = 82541   Game Provider Name = RealisticGames :   Game Name =  Re-Trigger Happy Pull Tab :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:43,619 [main] ERROR craftBet - 1892  Game ID = 82225   Game Provider Name = PlayTech :   Game Name =  Retro Rush :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:43,830 [main] ERROR craftBet - 1893  Game ID = 80131   Game Provider Name = PragmaticPlay :   Game Name =  Return of the Dead™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:48,090 [main] ERROR craftBet - 1901  Game ID = 80406   Game Provider Name = NetEnt :   Game Name =  Riches of Midgard: Land & Expand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:51,940 [main] ERROR craftBet - 1909  Game ID = 82561   Game Provider Name = Booongo :   Game Name =  Rio Gems :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:54,630 [main] ERROR craftBet - 1915  Game ID = 80164   Game Provider Name = PragmaticPlay :   Game Name =  Rise of Giza PowerNudge™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:55,380 [main] ERROR craftBet - 1917  Game ID = 80407   Game Provider Name = NetEnt :   Game Name =  Rise of Maya :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:58,331 [main] ERROR craftBet - 1923  Game ID = 81780   Game Provider Name = NoLimitCity :   Game Name =  Road Rage :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:58,560 [main] ERROR craftBet - 1924  Game ID = 80476   Game Provider Name = RedTiger :   Game Name =  Robin Hood’s Wild Forest :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:32:59,300 [main] ERROR craftBet - 1926  Game ID = 81022   Game Provider Name = Yggdrasil :   Game Name =  Robin Sherwood Marauders :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:00,290 [main] ERROR craftBet - 1929  Game ID = 81785   Game Provider Name = NoLimitCity :   Game Name =  Rock Bottom :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:00,509 [main] ERROR craftBet - 1930  Game ID = 81005   Game Provider Name = Yggdrasil :   Game Name =  Rock the Cashbar :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:00,812 [main] ERROR craftBet - 1931  Game ID = 80206   Game Provider Name = PragmaticPlay :   Game Name =  Rock Vegas :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:02,640 [main] ERROR craftBet - 1935  Game ID = 81508   Game Provider Name = Playpearls :   Game Name =  Roll & Ride :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:04,680 [main] ERROR craftBet - 1940  Game ID = 82226   Game Provider Name = PlayTech :   Game Name =  Rome & Glory :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:04,910 [main] ERROR craftBet - 1941  Game ID = 80446   Game Provider Name = NetEnt :   Game Name =  Rome: The Golden Age™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:05,110 [main] ERROR craftBet - 1942  Game ID = 80088   Game Provider Name = PragmaticPlay :   Game Name =  Romeo and Juliet :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:07,011 [main] ERROR craftBet - 1946  Game ID = 81023   Game Provider Name = Yggdrasil :   Game Name =  Royal Dragon Infinity Reels™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:08,390 [main] ERROR craftBet - 1949  Game ID = 82227   Game Provider Name = PlayTech :   Game Name =  Royal Respin Deluxe :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:09,870 [main] ERROR craftBet - 1953  Game ID = 82660   Game Provider Name = Hacksaw :   Game Name =  Ruby Rush :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:12,390 [main] ERROR craftBet - 1960  Game ID = 82228   Game Provider Name = PlayTech :   Game Name =  Sacred Stones :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:13,290 [main] ERROR craftBet - 1964  Game ID = 82229   Game Provider Name = PlayTech :   Game Name =  Safari Heat :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:13,510 [main] ERROR craftBet - 1965  Game ID = 80040   Game Provider Name = PragmaticPlay :   Game Name =  Safari King :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:14,280 [main] ERROR craftBet - 1967  Game ID = 80980   Game Provider Name = Yggdrasil :   Game Name =  Sahara Nights :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:14,541 [main] ERROR craftBet - 1968  Game ID = 82311   Game Provider Name = PlayTech :   Game Name =  Sahara Riches Cash Collect :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:14,780 [main] ERROR craftBet - 1969  Game ID = 81894   Game Provider Name = PlaynGo :   Game Name =  Sails of Gold :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:15,250 [main] ERROR craftBet - 1971  Game ID = 81895   Game Provider Name = PlaynGo :   Game Name =  Samba Carnival :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:15,720 [main] ERROR craftBet - 1973  Game ID = 81760   Game Provider Name = NoLimitCity :   Game Name =  San Quentin xWays :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:15,920 [main] ERROR craftBet - 1974  Game ID = 80066   Game Provider Name = PragmaticPlay :   Game Name =  Santa :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:16,701 [main] ERROR craftBet - 1976  Game ID = 82230   Game Provider Name = PlayTech :   Game Name =  Santa Surprise :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:19,411 [main] ERROR craftBet - 1982  Game ID = 80190   Game Provider Name = PragmaticPlay :   Game Name =  Santa's Wonderland™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:19,631 [main] ERROR craftBet - 1983  Game ID = 82231   Game Provider Name = PlayTech :   Game Name =  Savage Jungle :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:23,551 [main] ERROR craftBet - 1991  Game ID = 81239   Game Provider Name = Caleta :   Game Name =  Scratch card Trevo da Sorte :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:23,810 [main] ERROR craftBet - 1992  Game ID = 82646   Game Provider Name = Hacksaw :   Game Name =  SCRATCH! Bronze :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:24,020 [main] ERROR craftBet - 1993  Game ID = 82644   Game Provider Name = Hacksaw :   Game Name =  SCRATCH! Gold :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:24,240 [main] ERROR craftBet - 1994  Game ID = 82643   Game Provider Name = Hacksaw :   Game Name =  SCRATCH! Platinum :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:24,459 [main] ERROR craftBet - 1995  Game ID = 82645   Game Provider Name = Hacksaw :   Game Name =  SCRATCH! Silver :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:24,670 [main] ERROR craftBet - 1996  Game ID = 82668   Game Provider Name = Hacksaw :   Game Name =  Scratch’em :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:24,910 [main] ERROR craftBet - 1997  Game ID = 82677   Game Provider Name = Hacksaw :   Game Name =  Scratchy :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:25,120 [main] ERROR craftBet - 1998  Game ID = 82649   Game Provider Name = Hacksaw :   Game Name =  Scratchy Big :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:25,359 [main] ERROR craftBet - 1999  Game ID = 82648   Game Provider Name = Hacksaw :   Game Name =  Scratchy Mini :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:26,880 [main] ERROR craftBet - 2003  Game ID = 80409   Game Provider Name = NetEnt :   Game Name =  Scudamore's Super Stakes :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:27,120 [main] ERROR craftBet - 2004  Game ID = 81896   Game Provider Name = PlaynGo :   Game Name =  Sea Hunter :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:27,350 [main] ERROR craftBet - 2005  Game ID = 81003   Game Provider Name = Yggdrasil :   Game Name =  Seasons :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:28,193 [main] ERROR craftBet - 2007  Game ID = 80410   Game Provider Name = NetEnt :   Game Name =  Secret of the Stones :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:28,390 [main] ERROR craftBet - 2008  Game ID = 80411   Game Provider Name = NetEnt :   Game Name =  Secret of the Stones MAX :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:28,600 [main] ERROR craftBet - 2009  Game ID = 80412   Game Provider Name = NetEnt :   Game Name =  Secrets of Atlantis :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:29,040 [main] ERROR craftBet - 2011  Game ID = 82232   Game Provider Name = PlayTech :   Game Name =  Secrets of the Amazon :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:29,480 [main] ERROR craftBet - 2013  Game ID = 80757   Game Provider Name = Spinthon :   Game Name =  Sekabet Crown :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:29,689 [main] ERROR craftBet - 2014  Game ID = 82233   Game Provider Name = PlayTech :   Game Name =  Selfie Elfie :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:30,510 [main] ERROR craftBet - 2016  Game ID = 80414   Game Provider Name = NetEnt :   Game Name =  Serengeti Kings :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:30,710 [main] ERROR craftBet - 2017  Game ID = 81783   Game Provider Name = NoLimitCity :   Game Name =  Serial :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:33,851 [main] ERROR craftBet - 2025  Game ID = 82666   Game Provider Name = Hacksaw :   Game Name =  Shave the Beard :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:34,099 [main] ERROR craftBet - 2026  Game ID = 82672   Game Provider Name = Hacksaw :   Game Name =  Shave the Sheep :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:34,560 [main] ERROR craftBet - 2028  Game ID = 80267   Game Provider Name = PragmaticPlay :   Game Name =  Shield of Sparta :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:34,770 [main] ERROR craftBet - 2029  Game ID = 82234   Game Provider Name = PlayTech :   Game Name =  Shields of Rome :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:35,000 [main] ERROR craftBet - 2030  Game ID = 81466   Game Provider Name = Leap :   Game Name =  Shields of Troy :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:35,680 [main] ERROR craftBet - 2032  Game ID = 80240   Game Provider Name = PragmaticPlay :   Game Name =  Shining Hot 100 :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:35,910 [main] ERROR craftBet - 2033  Game ID = 80238   Game Provider Name = PragmaticPlay :   Game Name =  Shining Hot 20 :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:36,120 [main] ERROR craftBet - 2034  Game ID = 80239   Game Provider Name = PragmaticPlay :   Game Name =  Shining Hot 40 :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:36,340 [main] ERROR craftBet - 2035  Game ID = 80229   Game Provider Name = PragmaticPlay :   Game Name =  Shining Hot 5 :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:36,550 [main] ERROR craftBet - 2036  Game ID = 82543   Game Provider Name = RealisticGames :   Game Name =  Shore Thing Pull Tab :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:38,220 [main] ERROR craftBet - 2041  Game ID = 82544   Game Provider Name = RealisticGames :   Game Name =  Shuffle Bots Pull Tab :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:38,440 [main] ERROR craftBet - 2042  Game ID = 82801   Game Provider Name = Habanero :   Game Name =  Sicbo :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:38,650 [main] ERROR craftBet - 2043  Game ID = 82235   Game Provider Name = PlayTech :   Game Name =  Silent Samurai :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:39,090 [main] ERROR craftBet - 2045  Game ID = 82236   Game Provider Name = PlayTech :   Game Name =  Silver Bullet :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:39,290 [main] ERROR craftBet - 2046  Game ID = 82313   Game Provider Name = PlayTech :   Game Name =  Silver Bullet Bandit - Cash Collect :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:39,500 [main] ERROR craftBet - 2047  Game ID = 80454   Game Provider Name = NetEnt :   Game Name =  Silverback Gold™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:39,699 [main] ERROR craftBet - 2048  Game ID = 82237   Game Provider Name = PlayTech :   Game Name =  Sinbad's Golden Voyage :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:39,910 [main] ERROR craftBet - 2049  Game ID = 82822   Game Provider Name = PlaynGo :   Game Name =  Single Deck BlackJack MH :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:41,500 [main] ERROR craftBet - 2053  Game ID = 81897   Game Provider Name = PlaynGo :   Game Name =  Sizzling Spins :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:42,030 [main] ERROR craftBet - 2055  Game ID = 82238   Game Provider Name = PlayTech :   Game Name =  Sky Queen :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:43,390 [main] ERROR craftBet - 2059  Game ID = 81600   Game Provider Name = RubyPlay :   Game Name =  Slotie :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:43,640 [main] ERROR craftBet - 2060  Game ID = 80192   Game Provider Name = PragmaticPlay :   Game Name =  Smugglers Cove™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:45,280 [main] ERROR craftBet - 2064  Game ID = 80812   Game Provider Name = RealisticGames :   Game Name =  Snakes and Ladders Deluxe :   cod = 404:   src = https://resources.kontrbet.com/products/realistic/web/snakesladder.jpg
+2023-01-03 12:33:45,490 [main] ERROR craftBet - 2065  Game ID = 80813   Game Provider Name = RealisticGames :   Game Name =  Snakes and Ladders Game Changer :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:45,700 [main] ERROR craftBet - 2066  Game ID = 80200   Game Provider Name = PragmaticPlay :   Game Name =  Snakes and Ladders Megadice™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:45,920 [main] ERROR craftBet - 2067  Game ID = 82546   Game Provider Name = RealisticGames :   Game Name =  Snakes and Ladders Pull Tab :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:46,371 [main] ERROR craftBet - 2069  Game ID = 82547   Game Provider Name = RealisticGames :   Game Name =  Snapshot Pull Tab :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:46,609 [main] ERROR craftBet - 2070  Game ID = 82637   Game Provider Name = Hacksaw :   Game Name =  Snow Scratcher :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:46,830 [main] ERROR craftBet - 2071  Game ID = 80560   Game Provider Name = RedTiger :   Game Name =  Snow Wild and the 7 Features :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:48,131 [main] ERROR craftBet - 2074  Game ID = 82089   Game Provider Name = PlaysonDirect :   Game Name =  Solar Queen Megaways™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:48,400 [main] ERROR craftBet - 2075  Game ID = 82069   Game Provider Name = PlaysonDirect :   Game Name =  Solar Temple :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:48,600 [main] ERROR craftBet - 2076  Game ID = 81509   Game Provider Name = Playpearls :   Game Name =  Soldiers Fortune :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:48,810 [main] ERROR craftBet - 2077  Game ID = 82239   Game Provider Name = PlayTech :   Game Name =  Sorcerer's Guild of Magic :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:50,040 [main] ERROR craftBet - 2080  Game ID = 81520   Game Provider Name = Playpearls :   Game Name =  Space Hunters :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:50,321 [main] ERROR craftBet - 2081  Game ID = 82734   Game Provider Name = Playpearls :   Game Name =  Space Hunters Halloween - Scratch Card :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:50,530 [main] ERROR craftBet - 2082  Game ID = 82728   Game Provider Name = Playpearls :   Game Name =  Space Hunters: Scratch Card :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:50,750 [main] ERROR craftBet - 2083  Game ID = 81898   Game Provider Name = PlaynGo :   Game Name =  Space Race :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:51,200 [main] ERROR craftBet - 2085  Game ID = 80457   Game Provider Name = NetEnt :   Game Name =  Space Wars 2 :   cod = 404:   src = https://resources.kontrbet.com/products/netent/web/SpaceWars2.jpg.jpg
+2023-01-03 12:33:51,430 [main] ERROR craftBet - 2086  Game ID = 81988   Game Provider Name = PlaynGo :   Game Name =  Sparky & Shortz :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:52,150 [main] ERROR craftBet - 2088  Game ID = 81510   Game Provider Name = Playpearls :   Game Name =  Spartan Gold :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:52,420 [main] ERROR craftBet - 2089  Game ID = 80137   Game Provider Name = PragmaticPlay :   Game Name =  Spartan King™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:53,590 [main] ERROR craftBet - 2093  Game ID = 80815   Game Provider Name = RealisticGames :   Game Name =  Spin Dizzy :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:54,512 [main] ERROR craftBet - 2096  Game ID = 81899   Game Provider Name = PlaynGo :   Game Name =  Spin Party :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:54,760 [main] ERROR craftBet - 2097  Game ID = 82291   Game Provider Name = PlayTech :   Game Name =  Spin Till You Win Roulette :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:55,470 [main] ERROR craftBet - 2099  Game ID = 80981   Game Provider Name = Yggdrasil :   Game Name =  Spina Colada :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:55,960 [main] ERROR craftBet - 2101  Game ID = 80416   Game Provider Name = NetEnt :   Game Name =  Spinata Grande :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:56,952 [main] ERROR craftBet - 2104  Game ID = 80214   Game Provider Name = PragmaticPlay :   Game Name =  Spirit of Adventure :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:57,871 [main] ERROR craftBet - 2107  Game ID = 82638   Game Provider Name = Hacksaw :   Game Name =  Spooky Scary Scratchy :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:58,710 [main] ERROR craftBet - 2109  Game ID = 82635   Game Provider Name = Hacksaw :   Game Name =  Stack 'em Scratch :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:59,443 [main] ERROR craftBet - 2111  Game ID = 82240   Game Provider Name = PlayTech :   Game Name =  Stallion strike :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:59,700 [main] ERROR craftBet - 2112  Game ID = 80159   Game Provider Name = PragmaticPlay :   Game Name =  Star Bounty :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:33:59,909 [main] ERROR craftBet - 2113  Game ID = 81900   Game Provider Name = PlaynGo :   Game Name =  Star Joker :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:00,141 [main] ERROR craftBet - 2114  Game ID = 80180   Game Provider Name = PragmaticPlay :   Game Name =  Star Pirates Code :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:00,350 [main] ERROR craftBet - 2115  Game ID = 81511   Game Provider Name = Playpearls :   Game Name =  Star Trex :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:00,800 [main] ERROR craftBet - 2117  Game ID = 80451   Game Provider Name = NetEnt :   Game Name =  Starburst™XXXTREME :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:01,020 [main] ERROR craftBet - 2118  Game ID = 80177   Game Provider Name = PragmaticPlay :   Game Name =  Starlight Princess™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:02,270 [main] ERROR craftBet - 2120  Game ID = 82241   Game Provider Name = PlayTech :   Game Name =  Starmada Exiles :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:02,500 [main] ERROR craftBet - 2121  Game ID = 82242   Game Provider Name = PlayTech :   Game Name =  Stars Ablaze :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:02,710 [main] ERROR craftBet - 2122  Game ID = 82243   Game Provider Name = PlayTech :   Game Name =  Stars Awakening :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:02,901 [main] ERROR craftBet - 2123  Game ID = 81734   Game Provider Name = NoLimitCity :   Game Name =  Starstruck :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:05,133 [main] ERROR craftBet - 2129  Game ID = 81901   Game Provider Name = PlaynGo :   Game Name =  Sticky Joker :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:06,280 [main] ERROR craftBet - 2132  Game ID = 81324   Game Provider Name = Fugaso :   Game Name =  Stoned Joker :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:06,960 [main] ERROR craftBet - 2134  Game ID = 82244   Game Provider Name = PlayTech :   Game Name =  Streak of Luck :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:07,190 [main] ERROR craftBet - 2135  Game ID = 81902   Game Provider Name = PlaynGo :   Game Name =  Street Magic :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:07,430 [main] ERROR craftBet - 2136  Game ID = 80106   Game Provider Name = PragmaticPlay :   Game Name =  Street Racer™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:09,432 [main] ERROR craftBet - 2142  Game ID = 82680   Game Provider Name = Hacksaw :   Game Name =  Summer Scratch :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:12,000 [main] ERROR craftBet - 2149  Game ID = 82245   Game Provider Name = PlayTech :   Game Name =  Sun Wukong :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:12,651 [main] ERROR craftBet - 2151  Game ID = 82549   Game Provider Name = RealisticGames :   Game Name =  Sunken Treasure :   cod = 404:   src = https://resources.kontrbet.com/products/realistic/web/sunkentreasure.jpg
+2023-01-03 12:34:13,311 [main] ERROR craftBet - 2153  Game ID = 80982   Game Provider Name = Yggdrasil :   Game Name =  Sunny Shores :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:13,540 [main] ERROR craftBet - 2154  Game ID = 80817   Game Provider Name = RealisticGames :   Game Name =  Sunrise Reels :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:13,760 [main] ERROR craftBet - 2155  Game ID = 82550   Game Provider Name = RealisticGames :   Game Name =  Sunrise Reels Pull Tab :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:14,231 [main] ERROR craftBet - 2157  Game ID = 82551   Game Provider Name = RealisticGames :   Game Name =  Sunset Reels Pull Tab :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:16,052 [main] ERROR craftBet - 2163  Game ID = 82071   Game Provider Name = PlaysonDirect :   Game Name =  Super Burning Wins :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:17,480 [main] ERROR craftBet - 2167  Game ID = 81903   Game Provider Name = PlaynGo :   Game Name =  Super Flip :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:18,800 [main] ERROR craftBet - 2172  Game ID = 82553   Game Provider Name = RealisticGames :   Game Name =  Super Graphics Upside Down Pull Tab :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:21,630 [main] ERROR craftBet - 2181  Game ID = 80441   Game Provider Name = NetEnt :   Game Name =  Super Striker™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:22,782 [main] ERROR craftBet - 2184  Game ID = 82823   Game Provider Name = PlaynGo :   Game Name =  Super Wheel :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:23,061 [main] ERROR craftBet - 2185  Game ID = 80188   Game Provider Name = PragmaticPlay :   Game Name =  Super X™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:23,501 [main] ERROR craftBet - 2187  Game ID = 80460   Game Provider Name = NetEnt :   Game Name =  Superstars :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:24,460 [main] ERROR craftBet - 2190  Game ID = 81904   Game Provider Name = PlaynGo :   Game Name =  Sweet 27 :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:24,690 [main] ERROR craftBet - 2191  Game ID = 81905   Game Provider Name = PlaynGo :   Game Name =  Sweet Alchemy :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:24,901 [main] ERROR craftBet - 2192  Game ID = 82824   Game Provider Name = PlaynGo :   Game Name =  Sweet Alchemy Bingo :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:25,119 [main] ERROR craftBet - 2193  Game ID = 80033   Game Provider Name = PragmaticPlay :   Game Name =  Sweet Bonanza :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:25,380 [main] ERROR craftBet - 2194  Game ID = 80023   Game Provider Name = PragmaticPlay :   Game Name =  Sweet Bonanza Xmas :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:26,751 [main] ERROR craftBet - 2199  Game ID = 80825   Game Provider Name = RealisticGames :   Game Name =  Symmetry :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:27,000 [main] ERROR craftBet - 2200  Game ID = 81007   Game Provider Name = Yggdrasil :   Game Name =  Syncronite Splitz :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:28,450 [main] ERROR craftBet - 2204  Game ID = 82001   Game Provider Name = PlaynGo :   Game Name =  Tale of Kyubiko :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:28,670 [main] ERROR craftBet - 2205  Game ID = 81991   Game Provider Name = PlaynGo :   Game Name =  Tales of Asgard Loki's Fortune :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:28,870 [main] ERROR craftBet - 2206  Game ID = 82007   Game Provider Name = PlaynGo :   Game Name =  Tales of Asgard: Freya's Wedding :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:29,080 [main] ERROR craftBet - 2207  Game ID = 80101   Game Provider Name = PragmaticPlay :   Game Name =  Tales of Egypt :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:32,080 [main] ERROR craftBet - 2215  Game ID = 80983   Game Provider Name = Yggdrasil :   Game Name =  Temple Stacks: Splitz™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:32,290 [main] ERROR craftBet - 2216  Game ID = 80152   Game Provider Name = PragmaticPlay :   Game Name =  Temujin Treasures™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:32,490 [main] ERROR craftBet - 2217  Game ID = 80564   Game Provider Name = RedTiger :   Game Name =  Ten Elements :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:32,680 [main] ERROR craftBet - 2218  Game ID = 82777   Game Provider Name = Habanero :   Game Name =  Tens Or Better 1 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:32,890 [main] ERROR craftBet - 2219  Game ID = 82786   Game Provider Name = Habanero :   Game Name =  Tens Or Better 10 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:33,100 [main] ERROR craftBet - 2220  Game ID = 82778   Game Provider Name = Habanero :   Game Name =  Tens Or Better 100 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:33,291 [main] ERROR craftBet - 2221  Game ID = 82758   Game Provider Name = Habanero :   Game Name =  Tens Or Better 5 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:33,511 [main] ERROR craftBet - 2222  Game ID = 82759   Game Provider Name = Habanero :   Game Name =  Tens Or Better 50 Hand :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:33,720 [main] ERROR craftBet - 2223  Game ID = 81728   Game Provider Name = NoLimitCity :   Game Name =  Tesla Jolt :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:33,900 [main] ERROR craftBet - 2224  Game ID = 81906   Game Provider Name = PlaynGo :   Game Name =  Testament :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:34,110 [main] ERROR craftBet - 2225  Game ID = 80001   Game Provider Name = PragmaticPlay :   Game Name =  TestGame :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:34,320 [main] ERROR craftBet - 2226  Game ID = 82246   Game Provider Name = PlayTech :   Game Name =  Thai Paradise :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:35,090 [main] ERROR craftBet - 2228  Game ID = 80160   Game Provider Name = PragmaticPlay :   Game Name =  The Amazing Money Machine :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:35,791 [main] ERROR craftBet - 2230  Game ID = 81781   Game Provider Name = NoLimitCity :   Game Name =  The Border :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:36,631 [main] ERROR craftBet - 2232  Game ID = 80093   Game Provider Name = PragmaticPlay :   Game Name =  The Catfather :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:36,870 [main] ERROR craftBet - 2233  Game ID = 80122   Game Provider Name = PragmaticPlay :   Game Name =  The Catfather II™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:37,100 [main] ERROR craftBet - 2234  Game ID = 80053   Game Provider Name = PragmaticPlay :   Game Name =  The Champions :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:37,330 [main] ERROR craftBet - 2235  Game ID = 81738   Game Provider Name = NoLimitCity :   Game Name =  The Creepy Carnival :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:37,570 [main] ERROR craftBet - 2236  Game ID = 80950   Game Provider Name = Yggdrasil :   Game Name =  The Dark Joker Rizes :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:38,282 [main] ERROR craftBet - 2238  Game ID = 80035   Game Provider Name = PragmaticPlay :   Game Name =  The Dog House :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:38,490 [main] ERROR craftBet - 2239  Game ID = 80109   Game Provider Name = PragmaticPlay :   Game Name =  The Dog House Megaways™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:38,701 [main] ERROR craftBet - 2240  Game ID = 80566   Game Provider Name = RedTiger :   Game Name =  The Equalizer :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:38,901 [main] ERROR craftBet - 2241  Game ID = 81954   Game Provider Name = PlaynGo :   Game Name =  The Faces of Freya :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:39,110 [main] ERROR craftBet - 2242  Game ID = 80123   Game Provider Name = PragmaticPlay :   Game Name =  The Great Chicken Escape™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:39,330 [main] ERROR craftBet - 2243  Game ID = 82247   Game Provider Name = PlayTech :   Game Name =  The Great Reveal :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:39,540 [main] ERROR craftBet - 2244  Game ID = 80218   Game Provider Name = PragmaticPlay :   Game Name =  The Great Stick-Up :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:39,760 [main] ERROR craftBet - 2245  Game ID = 80567   Game Provider Name = RedTiger :   Game Name =  The Greatest Train Robbery :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:39,970 [main] ERROR craftBet - 2246  Game ID = 81958   Game Provider Name = PlaynGo :   Game Name =  The Green Knight :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:40,170 [main] ERROR craftBet - 2247  Game ID = 80749   Game Provider Name = Spinthon :   Game Name =  The Healer :   cod = 404:   src = https://resources.kontrbet.com/products/spinthon/web/The-Healer.jpg
+2023-01-03 12:34:40,390 [main] ERROR craftBet - 2248  Game ID = 81025   Game Provider Name = Yggdrasil :   Game Name =  The Hot Offer :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:41,771 [main] ERROR craftBet - 2252  Game ID = 81993   Game Provider Name = PlaynGo :   Game Name =  The Last Sundown :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:42,371 [main] ERROR craftBet - 2254  Game ID = 80420   Game Provider Name = NetEnt :   Game Name =  The Legend of Shangri-La: Cluster Pays :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:42,630 [main] ERROR craftBet - 2255  Game ID = 80162   Game Provider Name = PragmaticPlay :   Game Name =  The Magic Cauldron - Enchanted Brew™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:44,282 [main] ERROR craftBet - 2259  Game ID = 80984   Game Provider Name = Yggdrasil :   Game Name =  The One Armed Bandit :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:44,511 [main] ERROR craftBet - 2260  Game ID = 81957   Game Provider Name = PlaynGo :   Game Name =  The Paying Piano Club :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:44,731 [main] ERROR craftBet - 2261  Game ID = 82248   Game Provider Name = PlayTech :   Game Name =  The Perfect Heist :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:45,010 [main] ERROR craftBet - 2262  Game ID = 82639   Game Provider Name = Hacksaw :   Game Name =  The Perfect Scratch :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:45,200 [main] ERROR craftBet - 2263  Game ID = 81779   Game Provider Name = NoLimitCity :   Game Name =  The Rave :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:45,961 [main] ERROR craftBet - 2265  Game ID = 82249   Game Provider Name = PlayTech :   Game Name =  The Riches of Don Quixote :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:46,642 [main] ERROR craftBet - 2267  Game ID = 80979   Game Provider Name = Yggdrasil :   Game Name =  The Royal Family :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:47,402 [main] ERROR craftBet - 2269  Game ID = 81908   Game Provider Name = PlaynGo :   Game Name =  The Sword and The Grail :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:48,631 [main] ERROR craftBet - 2273  Game ID = 81512   Game Provider Name = Playpearls :   Game Name =  The Vikings :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:49,533 [main] ERROR craftBet - 2276  Game ID = 80473   Game Provider Name = RedTiger :   Game Name =  The Wild Hatter :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:51,032 [main] ERROR craftBet - 2280  Game ID = 80421   Game Provider Name = NetEnt :   Game Name =  The Wolf's Bane :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:51,261 [main] ERROR craftBet - 2281  Game ID = 81739   Game Provider Name = NoLimitCity :   Game Name =  Thor Hammer Time :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:51,460 [main] ERROR craftBet - 2282  Game ID = 81021   Game Provider Name = Yggdrasil :   Game Name =  Thor Infinity Reels™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:52,571 [main] ERROR craftBet - 2285  Game ID = 82808   Game Provider Name = Habanero :   Game Name =  Three Card Poker :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:52,819 [main] ERROR craftBet - 2286  Game ID = 82803   Game Provider Name = Habanero :   Game Name =  Three Card Poker Deluxe :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:54,571 [main] ERROR craftBet - 2291  Game ID = 82296   Game Provider Name = PlayTech :   Game Name =  Thunder Birds: Power Zones :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:55,763 [main] ERROR craftBet - 2294  Game ID = 81961   Game Provider Name = PlaynGo :   Game Name =  Thunder Screech :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:56,671 [main] ERROR craftBet - 2297  Game ID = 80195   Game Provider Name = PragmaticPlay :   Game Name =  Tic Tac Take :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:56,880 [main] ERROR craftBet - 2298  Game ID = 82250   Game Provider Name = PlayTech :   Game Name =  Tiger Claw :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:57,911 [main] ERROR craftBet - 2301  Game ID = 82636   Game Provider Name = Hacksaw :   Game Name =  Tiger Scratch :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:58,150 [main] ERROR craftBet - 2302  Game ID = 82251   Game Provider Name = PlayTech :   Game Name =  Tiger Stacks :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:34:59,321 [main] ERROR craftBet - 2305  Game ID = 82252   Game Provider Name = PlayTech :   Game Name =  Tiger Turtle Dragon Phoenix :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:00,531 [main] ERROR craftBet - 2308  Game ID = 81513   Game Provider Name = Playpearls :   Game Name =  Tiki Beach :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:00,841 [main] ERROR craftBet - 2309  Game ID = 81604   Game Provider Name = RubyPlay :   Game Name =  Tiki Blaze :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:02,504 [main] ERROR craftBet - 2313  Game ID = 81014   Game Provider Name = Yggdrasil :   Game Name =  Tiki Pop :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:04,511 [main] ERROR craftBet - 2319  Game ID = 80985   Game Provider Name = Yggdrasil :   Game Name =  Time Travel Tigers :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:04,720 [main] ERROR craftBet - 2320  Game ID = 82253   Game Provider Name = PlayTech :   Game Name =  Tip Top Totems :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:04,920 [main] ERROR craftBet - 2321  Game ID = 82254   Game Provider Name = PlayTech :   Game Name =  Toads Gift :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:05,131 [main] ERROR craftBet - 2322  Game ID = 81759   Game Provider Name = NoLimitCity :   Game Name =  Tomb of Akenhaten :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:05,330 [main] ERROR craftBet - 2323  Game ID = 81743   Game Provider Name = NoLimitCity :   Game Name =  Tomb of Nefertiti :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:05,540 [main] ERROR craftBet - 2324  Game ID = 81735   Game Provider Name = NoLimitCity :   Game Name =  Tombstone :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:05,780 [main] ERROR craftBet - 2325  Game ID = 81773   Game Provider Name = NoLimitCity :   Game Name =  Tombstone R.I.P. :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:07,741 [main] ERROR craftBet - 2330  Game ID = 80572   Game Provider Name = RedTiger :   Game Name =  Totem Lightning Power Reels :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:09,181 [main] ERROR craftBet - 2333  Game ID = 81787   Game Provider Name = PlaynGo :   Game Name =  Tower Quest :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:10,671 [main] ERROR craftBet - 2337  Game ID = 81737   Game Provider Name = NoLimitCity :   Game Name =  Tractor Beam :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:11,606 [main] ERROR craftBet - 2340  Game ID = 80039   Game Provider Name = PragmaticPlay :   Game Name =  Treasure Horse :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:11,850 [main] ERROR craftBet - 2341  Game ID = 80573   Game Provider Name = RedTiger :   Game Name =  Treasure Mine :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:13,041 [main] ERROR craftBet - 2344  Game ID = 80178   Game Provider Name = PragmaticPlay :   Game Name =  Treasure Wild™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:13,331 [main] ERROR craftBet - 2345  Game ID = 82102   Game Provider Name = PlaysonDirect :   Game Name =  Treasures of Fire :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:13,540 [main] ERROR craftBet - 2346  Game ID = 82255   Game Provider Name = PlayTech :   Game Name =  Treasures of the Lamps :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:13,991 [main] ERROR craftBet - 2348  Game ID = 80028   Game Provider Name = PragmaticPlay :   Game Name =  Tree of Riches :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:14,969 [main] ERROR craftBet - 2351  Game ID = 80043   Game Provider Name = PragmaticPlay :   Game Name =  Triple Dragons :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:15,551 [main] ERROR craftBet - 2353  Game ID = 82554   Game Provider Name = RealisticGames :   Game Name =  Triple Kings Pull Tab :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:15,780 [main] ERROR craftBet - 2354  Game ID = 80059   Game Provider Name = PragmaticPlay :   Game Name =  Triple Tigers :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:15,991 [main] ERROR craftBet - 2355  Game ID = 81910   Game Provider Name = PlaynGo :   Game Name =  Troll Hunters :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:16,255 [main] ERROR craftBet - 2356  Game ID = 81925   Game Provider Name = PlaynGo :   Game Name =  Troll Hunters 2 :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:16,540 [main] ERROR craftBet - 2357  Game ID = 80422   Game Provider Name = NetEnt :   Game Name =  Trollpot 5000 :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:16,750 [main] ERROR craftBet - 2358  Game ID = 80986   Game Provider Name = Yggdrasil :   Game Name =  Trolls Bridge :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:16,970 [main] ERROR craftBet - 2359  Game ID = 80987   Game Provider Name = Yggdrasil :   Game Name =  Trolls Bridge 2 :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:17,180 [main] ERROR craftBet - 2360  Game ID = 81514   Game Provider Name = Playpearls :   Game Name =  Tropic Paradise :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:17,401 [main] ERROR craftBet - 2361  Game ID = 80230   Game Provider Name = PragmaticPlay :   Game Name =  Tropical Tiki :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:17,600 [main] ERROR craftBet - 2362  Game ID = 81515   Game Provider Name = Playpearls :   Game Name =  True 3D Classic Slotmachine :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:17,800 [main] ERROR craftBet - 2363  Game ID = 81772   Game Provider Name = NoLimitCity :   Game Name =  True Grit Redemption :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:18,001 [main] ERROR craftBet - 2364  Game ID = 82256   Game Provider Name = PlayTech :   Game Name =  True Love :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:18,220 [main] ERROR craftBet - 2365  Game ID = 81325   Game Provider Name = Fugaso :   Game Name =  Trump It Deluxe :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:18,881 [main] ERROR craftBet - 2367  Game ID = 82257   Game Provider Name = PlayTech :   Game Name =  Tsai Shen's Gift :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:19,562 [main] ERROR craftBet - 2369  Game ID = 80423   Game Provider Name = NetEnt :   Game Name =  Turn Your Fortune :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:20,240 [main] ERROR craftBet - 2372  Game ID = 80988   Game Provider Name = Yggdrasil :   Game Name =  Tut's Twister :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:20,720 [main] ERROR craftBet - 2374  Game ID = 80442   Game Provider Name = NetEnt :   Game Name =  Twin Spin MegaWays™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:20,921 [main] ERROR craftBet - 2375  Game ID = 81923   Game Provider Name = PlaynGo :   Game Name =  Twisted Sister :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:21,111 [main] ERROR craftBet - 2376  Game ID = 81516   Game Provider Name = Playpearls :   Game Name =  Uga Age :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:21,330 [main] ERROR craftBet - 2377  Game ID = 80103   Game Provider Name = PragmaticPlay :   Game Name =  Ultra Burn™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:22,030 [main] ERROR craftBet - 2379  Game ID = 80125   Game Provider Name = PragmaticPlay :   Game Name =  Ultra Hold and Spin™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:22,271 [main] ERROR craftBet - 2380  Game ID = 80928   Game Provider Name = Hacksaw :   Game Name =  Undead Fortune :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:22,941 [main] ERROR craftBet - 2383  Game ID = 82043   Game Provider Name = PlaynGo :   Game Name =  USA Flip :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:23,141 [main] ERROR craftBet - 2384  Game ID = 82258   Game Provider Name = PlayTech :   Game Name =  Vacation Station :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:23,361 [main] ERROR craftBet - 2385  Game ID = 82259   Game Provider Name = PlayTech :   Game Name =  Vacation Station Deluxe :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:24,490 [main] ERROR craftBet - 2388  Game ID = 80989   Game Provider Name = Yggdrasil :   Game Name =  Valley of the Gods :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:24,720 [main] ERROR craftBet - 2389  Game ID = 80990   Game Provider Name = Yggdrasil :   Game Name =  Valley of the Gods 2 :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:25,161 [main] ERROR craftBet - 2391  Game ID = 82260   Game Provider Name = PlayTech :   Game Name =  Vampire Princess of Darkness :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:25,400 [main] ERROR craftBet - 2392  Game ID = 81527   Game Provider Name = Playpearls :   Game Name =  Vampires :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:25,621 [main] ERROR craftBet - 2393  Game ID = 80126   Game Provider Name = PragmaticPlay :   Game Name =  Vampires vs Wolves™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:26,331 [main] ERROR craftBet - 2395  Game ID = 80471   Game Provider Name = RedTiger :   Game Name =  Vault of Anubis :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:26,550 [main] ERROR craftBet - 2396  Game ID = 80991   Game Provider Name = Yggdrasil :   Game Name =  Vault of Fortune :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:27,451 [main] ERROR craftBet - 2400  Game ID = 80046   Game Provider Name = PragmaticPlay :   Game Name =  Vegas Magic :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:27,670 [main] ERROR craftBet - 2401  Game ID = 80070   Game Provider Name = PragmaticPlay :   Game Name =  Vegas Nights :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:29,041 [main] ERROR craftBet - 2405  Game ID = 80574   Game Provider Name = RedTiger :   Game Name =  Vicky Ventura :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:29,461 [main] ERROR craftBet - 2407  Game ID = 80426   Game Provider Name = NetEnt :   Game Name =  Victorious MAX :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:30,111 [main] ERROR craftBet - 2410  Game ID = 81911   Game Provider Name = PlaynGo :   Game Name =  Viking Runecraft :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:30,311 [main] ERROR craftBet - 2411  Game ID = 82827   Game Provider Name = PlaynGo :   Game Name =  Viking Runecraft Bingo :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:30,521 [main] ERROR craftBet - 2412  Game ID = 80992   Game Provider Name = Yggdrasil :   Game Name =  Vikings Go Berzerk :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:31,211 [main] ERROR craftBet - 2414  Game ID = 80993   Game Provider Name = Yggdrasil :   Game Name =  Vikings go to Hell :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:31,891 [main] ERROR craftBet - 2416  Game ID = 80994   Game Provider Name = Yggdrasil :   Game Name =  Vikings Go Wild :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:32,612 [main] ERROR craftBet - 2418  Game ID = 80427   Game Provider Name = NetEnt :   Game Name =  Vikings Video Slot :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:34,901 [main] ERROR craftBet - 2425  Game ID = 80140   Game Provider Name = PragmaticPlay :   Game Name =  Voodoo Magic™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:35,760 [main] ERROR craftBet - 2427  Game ID = 82802   Game Provider Name = Habanero :   Game Name =  War :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:36,961 [main] ERROR craftBet - 2430  Game ID = 80428   Game Provider Name = NetEnt :   Game Name =  Warlords: Crystals of Power :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:37,230 [main] ERROR craftBet - 2431  Game ID = 81758   Game Provider Name = NoLimitCity :   Game Name =  Warrior Graveyard xNudge :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:38,703 [main] ERROR craftBet - 2435  Game ID = 81522   Game Provider Name = Playpearls :   Game Name =  Way of the Warrior :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:38,910 [main] ERROR craftBet - 2436  Game ID = 82732   Game Provider Name = Playpearls :   Game Name =  Way of the Warrior - Scratch Card :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:39,602 [main] ERROR craftBet - 2438  Game ID = 82324   Game Provider Name = PlayTech :   Game Name =  Ways of the Genie - Thundershots :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:39,831 [main] ERROR craftBet - 2439  Game ID = 82261   Game Provider Name = PlayTech :   Game Name =  Ways Of The Phoenix :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:42,110 [main] ERROR craftBet - 2445  Game ID = 82262   Game Provider Name = PlayTech :   Game Name =  White King II :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:42,360 [main] ERROR craftBet - 2446  Game ID = 80995   Game Provider Name = Yggdrasil :   Game Name =  Wicked Circus :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:43,003 [main] ERROR craftBet - 2448  Game ID = 80429   Game Provider Name = NetEnt :   Game Name =  Wild Bazaar :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:43,240 [main] ERROR craftBet - 2449  Game ID = 80197   Game Provider Name = PragmaticPlay :   Game Name =  Wild Beach Party :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:44,981 [main] ERROR craftBet - 2453  Game ID = 80155   Game Provider Name = PragmaticPlay :   Game Name =  Wild Booster™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:45,180 [main] ERROR craftBet - 2454  Game ID = 80576   Game Provider Name = RedTiger :   Game Name =  Wild Cats Multiline :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:45,865 [main] ERROR craftBet - 2456  Game ID = 80208   Game Provider Name = PragmaticPlay :   Game Name =  Wild Depths :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:49,431 [main] ERROR craftBet - 2464  Game ID = 80579   Game Provider Name = RedTiger :   Game Name =  Wild Fight :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:50,821 [main] ERROR craftBet - 2468  Game ID = 82263   Game Provider Name = PlayTech :   Game Name =  Wild Gambler :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:51,030 [main] ERROR craftBet - 2469  Game ID = 80038   Game Provider Name = PragmaticPlay :   Game Name =  Wild Gladiators :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:51,441 [main] ERROR craftBet - 2471  Game ID = 80249   Game Provider Name = PragmaticPlay :   Game Name =  Wild Hop&Drop :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:52,660 [main] ERROR craftBet - 2474  Game ID = 82264   Game Provider Name = PlayTech :   Game Name =  Wild Lava :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:52,871 [main] ERROR craftBet - 2475  Game ID = 81517   Game Provider Name = Playpearls :   Game Name =  Wild Leprechaun :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:53,080 [main] ERROR craftBet - 2476  Game ID = 82282   Game Provider Name = PlayTech :   Game Name =  Wild Linx :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:53,280 [main] ERROR craftBet - 2477  Game ID = 80996   Game Provider Name = Yggdrasil :   Game Name =  Wild Mantra :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:54,181 [main] ERROR craftBet - 2480  Game ID = 80580   Game Provider Name = RedTiger :   Game Name =  Wild Nords :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:56,492 [main] ERROR craftBet - 2485  Game ID = 82299   Game Provider Name = PlayTech :   Game Name =  Wild Pistolero MFB :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:56,730 [main] ERROR craftBet - 2486  Game ID = 80032   Game Provider Name = PragmaticPlay :   Game Name =  Wild Pixies :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:56,961 [main] ERROR craftBet - 2487  Game ID = 80997   Game Provider Name = Yggdrasil :   Game Name =  Wild Pops :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:58,120 [main] ERROR craftBet - 2490  Game ID = 80998   Game Provider Name = Yggdrasil :   Game Name =  Wild Robo Factory :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:58,804 [main] ERROR craftBet - 2492  Game ID = 81518   Game Provider Name = Playpearls :   Game Name =  Wild School Soft :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:35:59,902 [main] ERROR craftBet - 2495  Game ID = 80071   Game Provider Name = PragmaticPlay :   Game Name =  Wild Spells :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:01,410 [main] ERROR craftBet - 2499  Game ID = 80128   Game Provider Name = PragmaticPlay :   Game Name =  Wild Walker™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:01,871 [main] ERROR craftBet - 2501  Game ID = 82731   Game Provider Name = Playpearls :   Game Name =  Wild West :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:02,331 [main] ERROR craftBet - 2503  Game ID = 80221   Game Provider Name = PragmaticPlay :   Game Name =  Wild West Gold Megaways :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:02,560 [main] ERROR craftBet - 2504  Game ID = 82265   Game Provider Name = PlayTech :   Game Name =  Wild West Wilds :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:02,791 [main] ERROR craftBet - 2505  Game ID = 80582   Game Provider Name = RedTiger :   Game Name =  Wild Wild Chest :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:02,991 [main] ERROR craftBet - 2506  Game ID = 80127   Game Provider Name = PragmaticPlay :   Game Name =  Wild Wild Riches™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:03,621 [main] ERROR craftBet - 2508  Game ID = 80431   Game Provider Name = NetEnt :   Game Name =  Wild Wild West: The Great Train Heist :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:03,891 [main] ERROR craftBet - 2509  Game ID = 80432   Game Provider Name = NetEnt :   Game Name =  Wild Worlds :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:04,332 [main] ERROR craftBet - 2511  Game ID = 80433   Game Provider Name = NetEnt :   Game Name =  Wilderland :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:05,012 [main] ERROR craftBet - 2513  Game ID = 80999   Game Provider Name = Yggdrasil :   Game Name =  Wilhelm Tell :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:05,250 [main] ERROR craftBet - 2514  Game ID = 80434   Game Provider Name = NetEnt :   Game Name =  Willy's Hot Chillies :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:07,341 [main] ERROR craftBet - 2520  Game ID = 80468   Game Provider Name = RedTiger :   Game Name =  Wings of Ra :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:07,591 [main] ERROR craftBet - 2521  Game ID = 80435   Game Provider Name = NetEnt :   Game Name =  Wings of Riches :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:07,851 [main] ERROR craftBet - 2522  Game ID = 80584   Game Provider Name = RedTiger :   Game Name =  Winter Wonders :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:08,141 [main] ERROR craftBet - 2523  Game ID = 81000   Game Provider Name = Yggdrasil :   Game Name =  Winterberries :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:08,621 [main] ERROR craftBet - 2525  Game ID = 82325   Game Provider Name = PlayTech :   Game Name =  Witches - Cash Collect :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:09,304 [main] ERROR craftBet - 2527  Game ID = 81725   Game Provider Name = NoLimitCity :   Game Name =  WiXX :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:11,881 [main] ERROR craftBet - 2535  Game ID = 81001   Game Provider Name = Yggdrasil :   Game Name =  Wolf Hunters :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:12,532 [main] ERROR craftBet - 2537  Game ID = 82093   Game Provider Name = PlaysonDirect :   Game Name =  Wolf Power Megaways™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:13,693 [main] ERROR craftBet - 2540  Game ID = 82266   Game Provider Name = PlayTech :   Game Name =  Wolves! Wolves! Wolves! :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:14,421 [main] ERROR craftBet - 2542  Game ID = 80461   Game Provider Name = NetEnt :   Game Name =  Wonders of Christmas :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:14,660 [main] ERROR craftBet - 2543  Game ID = 82267   Game Provider Name = PlayTech :   Game Name =  Wu Long :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:18,941 [main] ERROR craftBet - 2553  Game ID = 81764   Game Provider Name = NoLimitCity :   Game Name =  xWays Hoarder xSplit :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:19,190 [main] ERROR craftBet - 2554  Game ID = 81002   Game Provider Name = Yggdrasil :   Game Name =  Yokozuna Clash :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:19,851 [main] ERROR craftBet - 2556  Game ID = 80175   Game Provider Name = PragmaticPlay :   Game Name =  Yum Yum Powerways™ :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:20,100 [main] ERROR craftBet - 2557  Game ID = 82268   Game Provider Name = PlayTech :   Game Name =  Yun Cong Long :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:22,731 [main] ERROR craftBet - 2564  Game ID = 82270   Game Provider Name = PlayTech :   Game Name =  Zhao Cai Jin Bao :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:23,423 [main] ERROR craftBet - 2566  Game ID = 82276   Game Provider Name = PlayTech :   Game Name =  Zodiac Charms :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:23,661 [main] ERROR craftBet - 2567  Game ID = 82726   Game Provider Name = Playpearls :   Game Name =  Zodiac Signs :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:24,311 [main] ERROR craftBet - 2569  Game ID = 80222   Game Provider Name = PragmaticPlay :   Game Name =  Zombie Carnival :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:24,781 [main] ERROR craftBet - 2571  Game ID = 80753   Game Provider Name = Spinthon :   Game Name =  Zombielogy :   cod = 403:   src = https://resources.kontrbet.com/products/
+2023-01-03 12:36:25,211 [main] INFO craftBet - Broken images are:  920
+2023-01-03 12:36:26,292 [main] INFO craftBet - Browser closed
+2023-01-03 12:36:26,292 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-01-03 12:36:26,403 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
