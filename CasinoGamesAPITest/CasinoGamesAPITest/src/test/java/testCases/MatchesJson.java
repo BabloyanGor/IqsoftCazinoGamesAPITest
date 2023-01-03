@@ -32,16 +32,64 @@ public class MatchesJson {
     int preMatchMatchesCount = 0;
     int responseCod = 0;
     String description = null;
-
-    ArrayList<Object> upcomingMatches = new ArrayList<>();
     boolean alarmOn = false;
+    ArrayList<Object> upcomingMatches = new ArrayList<>();
+    ArrayList<String> upcomingSports = new ArrayList<>();
+    public ArrayList<String> getUpcomingSportsIDs() {
 
-    public int getUpcomingMatchesCount() {
+        try {
+            Unirest.setTimeouts(0, 0);
+            HttpResponse<String> response = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getupcomingsports?LanguageId=en&TimeZone=4&Id=11955")
+                    .header("content-type", "application/json; charset=utf-8")
+                    .header("origin", "https://sportsbookwebsite.craftbet.com")
+                    .asString();
+
+            JSONObject jsonObjectBody = new JSONObject(response.getBody());
+            Unirest.shutdown();
+
+            JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.toString());
+            JSONArray jsonArraySports = jsonObjectResponseObject.getJSONArray("ResponseObject");
+            for (int i = 0; i <jsonArraySports.length();i++ ){
+                String first = String.valueOf(jsonArraySports.get(i));
+                JSONObject jsonObjectGame = new JSONObject(first);
+                String id = String.valueOf(jsonObjectGame.get("Id"));
+                upcomingSports.add(id);
+            }
+            return upcomingSports;
+
+        } catch (Exception e) {
+            try {
+                Unirest.setTimeouts(0, 0);
+                HttpResponse<String> response = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getupcomingsports?LanguageId=en&TimeZone=4&Id=11955")
+                        .header("content-type", "application/json; charset=utf-8")
+                        .header("origin", "https://sportsbookwebsite.craftbet.com")
+                        .asString();
+
+                JSONObject jsonObjectBody = new JSONObject(response.getBody());
+                Unirest.shutdown();
+
+                JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.toString());
+                JSONArray jsonArraySports = jsonObjectResponseObject.getJSONArray("ResponseObject");
+                for (int i = 0; i <jsonArraySports.length();i++ ){
+                    String first = String.valueOf(jsonArraySports.get(i));
+                    JSONObject jsonObjectGame = new JSONObject(first);
+                    String id = jsonObjectGame.getString("Id");
+                    upcomingSports.add(id);
+                }
+                return upcomingSports;
+            } catch (Exception k) {
+                System.out.println("Upcoming Sports Exception  " + e);
+                return null;
+            }
+        }
+    }
+
+    public int getUpcomingMatchesCount(String sportID) {
 
         int count = 0;
         try {
             Unirest.setTimeouts(0, 0);
-            HttpResponse<String> response = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getupcomingmatches?LanguageId=en&TimeZone=4&SportId=1&IncludeMarketTypeIds=1&IncludeMarketTypeIds=6021&IncludeMarketTypeIds=38")
+            HttpResponse<String> response = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getupcomingmatches?LanguageId=en&TimeZone=4&SportId="+sportID+"&IncludeMarketTypeIds=1&IncludeMarketTypeIds=6021&IncludeMarketTypeIds=38")
                     .header("content-type", "application/json; charset=utf-8")
                     .header("origin", "https://sportsbookwebsite.craftbet.com")
                     .asString();
@@ -165,7 +213,7 @@ public class MatchesJson {
                 Clip clip = AudioSystem.getClip();
                 clip.open(audioInputStream);
                 clip.start();
-                TimeUnit.SECONDS.sleep(7);
+//                TimeUnit.SECONDS.sleep(7);
                 i++;
             }
 
@@ -184,45 +232,47 @@ public class MatchesJson {
 
     @Test
     public void getMatchesCount() throws InterruptedException {
+        ArrayList<String> upcomingSportsLocal = getUpcomingSportsIDs();
+        for (int i=0; i<upcomingSportsLocal.size();i++ ){
+
+            String id = upcomingSportsLocal.get(i);
+            upcomingMatchesCount+=getUpcomingMatchesCount(id);
+        }
+
+
 
         while (true) {
             SoftAssert softAssert = new SoftAssert();
-            upcomingMatchesCount = getUpcomingMatchesCount();
             lifeMatchesCount = getLifeMatchesCount();
-            preMatchMatchesCount = getPreMatchMatchesCount();
+
 
             int compareUpcomingMatchesCount = 5;
             int compareLifeMatchesCount = 1;
-            int comparePreMatchSportsCount = 5;
+
 
             if (upcomingMatchesCount < compareUpcomingMatchesCount) {
                 responseCod = 1000;
                 description = "Upcoming Matches count is less then: " + compareUpcomingMatchesCount;
                 alarmOn = true;
-                softAssert.fail("Upcoming Matches count is: " + getUpcomingMatchesCount());
+                softAssert.fail("Upcoming Matches count is: " + upcomingMatchesCount);
             } else if (lifeMatchesCount < compareLifeMatchesCount) {
                 responseCod = 1001;
                 description = "Life Matches count is less then: " + compareLifeMatchesCount;
                 alarmOn = true;
                 softAssert.fail("Life Matches count is: " + getLifeMatchesCount());
-            } else if (preMatchMatchesCount < comparePreMatchSportsCount) {
-                responseCod = 1002;
-                description = "PreMatch Sports count is less then: " + comparePreMatchSportsCount;
-                alarmOn = true;
-                softAssert.fail("PreMatch Sports count is: " + getPreMatchMatchesCount());
-            } else {
+            }
+            else {
                 responseCod = 0;
                 description = "null";
                 alarmOn = false;
                 softAssert.assertTrue(true);
-
             }
 
 //            softAssert.assertAll();
 
             matchesJson.setUpcomingMatchesCount(upcomingMatchesCount);
             matchesJson.setLifeMatchesCount(lifeMatchesCount);
-            matchesJson.setPreMatchesCount(preMatchMatchesCount);
+
             matchesJson.setResponseCode(responseCod);
             matchesJson.setDescription(description);
             matchesJson.setAlarmOn(alarmOn);
@@ -235,7 +285,7 @@ public class MatchesJson {
 
             jsonObjectResponseObject.put("UpcomingMatchesCount", matchesJson.getUpcomingMatchesCount());
             jsonObjectResponseObject.put("LifeMatchesCount", matchesJson.getLifeMatchesCount());
-            jsonObjectResponseObject.put("PreMatchesSportsCount", matchesJson.getPreMatchesCount());
+
 
             jsonResponseObject.put("ResponseCod", matchesJson.getResponseCode());
             jsonResponseObject.put("Description", matchesJson.getDescription());
@@ -254,4 +304,9 @@ public class MatchesJson {
 
         }
     }
+
+
+
+
+
 }
