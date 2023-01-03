@@ -33,7 +33,6 @@ public class MatchesJson {
     int responseCod = 0;
     String description = null;
     boolean alarmOn = false;
-    ArrayList<Object> upcomingMatches = new ArrayList<>();
     ArrayList<String> upcomingSports = new ArrayList<>();
     public ArrayList<String> getUpcomingSportsIDs() {
 
