@@ -1,17 +1,12 @@
 package TestDataJson;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.JsonArray;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-import java.util.ArrayList;
+public class MatchesJson {
 
-public class UpcomingMatchesJson {
-
-//    @SerializedName("ResponseCode")
-//    @Expose
+    @SerializedName("ResponseCode")
+    @Expose
     private int ResponseCode;
 
     public int getResponseCode() {
@@ -40,7 +35,25 @@ public class UpcomingMatchesJson {
 //    @SerializedName("UpcomingMatchesCount")
 //    @Expose
     private int UpcomingMatchesCount;
+    private int LifeMatchesCount;
 
+    public int getLifeMatchesCount() {
+        return LifeMatchesCount;
+    }
+
+    public void setLifeMatchesCount(int lifeMatchesCount) {
+        LifeMatchesCount = lifeMatchesCount;
+    }
+
+    public int getPreMatchesCount() {
+        return PreMatchesCount;
+    }
+
+    public void setPreMatchesCount(int preMatchesCount) {
+        PreMatchesCount = preMatchesCount;
+    }
+
+    private int PreMatchesCount;
 
     public int getUpcomingMatchesCount() {
         return UpcomingMatchesCount;
