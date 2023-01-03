@@ -111,7 +111,7 @@ public class BaseTest extends DriverFactory {
 
     @BeforeMethod
     public void setup() throws InterruptedException {
-        logger = Logger.getLogger("craftBet");
+        logger = Logger.getLogger("craftBetWorld");
         PropertyConfigurator.configure("Log4j.properties");
 
         switch (partnerConfigNum) {

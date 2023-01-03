@@ -2,15 +2,31 @@ package testCases;
 
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.Unirest;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.json.JSONArray;
 import org.json.JSONObject;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+import javax.sound.sampled.AudioInputStream;
+import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.Clip;
+
+import java.io.File;
+
+import javafx.scene.media.Media;
+import javafx.scene.media.MediaPlayer;
+
+import java.io.File;
 import java.util.ArrayList;
+import java.util.concurrent.TimeUnit;
 
 public class MatchesJson {
     TestDataJson.MatchesJson matchesJson = new TestDataJson.MatchesJson();
+
+    public static Logger logger;
     int upcomingMatchesCount = 0;
     int lifeMatchesCount = 0;
     int preMatchMatchesCount = 0;
@@ -133,67 +149,109 @@ public class MatchesJson {
         }
     }
 
-    @Test
-    public void getMatchesCount() {
+    public void playSound() {
+        String path = System.getProperty("user.dir") + "\\src\\test\\java\\mp3\\1.wav";
+        try {
+//            String bip = path;
+//            Media hit = new Media(new File(bip).toURI().toString());
+//            com.sun.javafx.application.PlatformImpl.startup(()->{});
+//
+//            MediaPlayer mediaPlayer = new MediaPlayer(hit);
+//            mediaPlayer.play();
+//            com.sun.javafx.application.PlatformImpl.exit();
+            int i = 0;
+            while (i<3){
+                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File(path).getAbsoluteFile());
+                Clip clip = AudioSystem.getClip();
+                clip.open(audioInputStream);
+                clip.start();
+                TimeUnit.SECONDS.sleep(7);
+                i++;
+            }
 
-        SoftAssert softAssert = new SoftAssert();
-        upcomingMatchesCount = getUpcomingMatchesCount();
-        lifeMatchesCount = getLifeMatchesCount();
-        preMatchMatchesCount = getPreMatchMatchesCount();
-
-        int compareUpcomingMatchesCount = 5;
-        int compareLifeMatchesCount = 1;
-        int comparePreMatchSportsCount = 1;
-
-        if (upcomingMatchesCount < compareUpcomingMatchesCount) {
-            responseCod = 1000;
-            description = "Upcoming Matches count is less then: " + compareUpcomingMatchesCount;
-            alarmOn = true;
-            softAssert.fail("Upcoming Matches count is: " + getUpcomingMatchesCount());
-        } else if (lifeMatchesCount < compareLifeMatchesCount) {
-            responseCod = 1001;
-            description = "Life Matches count is less then: " + compareLifeMatchesCount;
-            alarmOn = true;
-            softAssert.fail("Life Matches count is: " + getLifeMatchesCount());
-        } else if (preMatchMatchesCount < 1) {
-            responseCod = 1002;
-            description = "PreMatch Sports count is less then: " + comparePreMatchSportsCount;
-            alarmOn = true;
-            softAssert.fail("PreMatch Sports count is: " + getPreMatchMatchesCount());
-        } else {
-            responseCod = 0;
-            description = "null";
-            alarmOn = false;
-            softAssert.assertTrue(true);
+        } catch (Exception ex) {
+            System.out.println("Error with playing sound.");
+            ex.printStackTrace();
         }
+    }
 
-        matchesJson.setUpcomingMatchesCount(upcomingMatchesCount);
-        matchesJson.setLifeMatchesCount(lifeMatchesCount);
-        matchesJson.setPreMatchesCount(preMatchMatchesCount);
-        matchesJson.setResponseCode(responseCod);
-        matchesJson.setDescription(description);
-        matchesJson.setAlarmOn(alarmOn);
 
-        JSONObject jsonObjectMain = new JSONObject();     // Working version
-        JSONObject jsonObjectResponseObject = new JSONObject();
+    @BeforeClass
+    public void beforeClass() {
+        logger = Logger.getLogger("craftBetWorld");
+        PropertyConfigurator.configure("Log4j.properties");
+    }
+
+    @Test
+    public void getMatchesCount() throws InterruptedException {
+
+        while (true) {
+            SoftAssert softAssert = new SoftAssert();
+            upcomingMatchesCount = getUpcomingMatchesCount();
+            lifeMatchesCount = getLifeMatchesCount();
+            preMatchMatchesCount = getPreMatchMatchesCount();
+
+            int compareUpcomingMatchesCount = 5;
+            int compareLifeMatchesCount = 1;
+            int comparePreMatchSportsCount = 5;
+
+            if (upcomingMatchesCount < compareUpcomingMatchesCount) {
+                responseCod = 1000;
+                description = "Upcoming Matches count is less then: " + compareUpcomingMatchesCount;
+                alarmOn = true;
+                softAssert.fail("Upcoming Matches count is: " + getUpcomingMatchesCount());
+            } else if (lifeMatchesCount < compareLifeMatchesCount) {
+                responseCod = 1001;
+                description = "Life Matches count is less then: " + compareLifeMatchesCount;
+                alarmOn = true;
+                softAssert.fail("Life Matches count is: " + getLifeMatchesCount());
+            } else if (preMatchMatchesCount < comparePreMatchSportsCount) {
+                responseCod = 1002;
+                description = "PreMatch Sports count is less then: " + comparePreMatchSportsCount;
+                alarmOn = true;
+                softAssert.fail("PreMatch Sports count is: " + getPreMatchMatchesCount());
+            } else {
+                responseCod = 0;
+                description = "null";
+                alarmOn = false;
+                softAssert.assertTrue(true);
+
+            }
+
+//            softAssert.assertAll();
+
+            matchesJson.setUpcomingMatchesCount(upcomingMatchesCount);
+            matchesJson.setLifeMatchesCount(lifeMatchesCount);
+            matchesJson.setPreMatchesCount(preMatchMatchesCount);
+            matchesJson.setResponseCode(responseCod);
+            matchesJson.setDescription(description);
+            matchesJson.setAlarmOn(alarmOn);
+
+            JSONObject jsonObjectMain = new JSONObject();     // Working version
+            JSONObject jsonObjectResponseObject = new JSONObject();
 //        JSONArray jsonArray = new JSONArray();
 
-        JSONObject jsonResponseObject = new JSONObject();
+            JSONObject jsonResponseObject = new JSONObject();
 
-        jsonObjectResponseObject.put("UpcomingMatchesCount", matchesJson.getUpcomingMatchesCount());
-        jsonObjectResponseObject.put("LifeMatchesCount", matchesJson.getLifeMatchesCount());
-        jsonObjectResponseObject.put("PreMatchesCount", matchesJson.getPreMatchesCount());
+            jsonObjectResponseObject.put("UpcomingMatchesCount", matchesJson.getUpcomingMatchesCount());
+            jsonObjectResponseObject.put("LifeMatchesCount", matchesJson.getLifeMatchesCount());
+            jsonObjectResponseObject.put("PreMatchesSportsCount", matchesJson.getPreMatchesCount());
 
-        jsonResponseObject.put("ResponseCod", matchesJson.getResponseCode());
-        jsonResponseObject.put("Description", matchesJson.getDescription());
-        jsonResponseObject.put("ResponseObject", jsonObjectResponseObject);
+            jsonResponseObject.put("ResponseCod", matchesJson.getResponseCode());
+            jsonResponseObject.put("Description", matchesJson.getDescription());
+            jsonResponseObject.put("ResponseObject", jsonObjectResponseObject);
 
 //        jsonArray.put(jsonResponseObject);
 //        jsonObjectMain.put("UpcomingMatches",jsonArray);
-        jsonObjectMain.put("AlarmOn", alarmOn);
-        jsonObjectMain.put("MatchesCount", jsonResponseObject);
+            jsonObjectMain.put("AlarmOn", alarmOn);
+            jsonObjectMain.put("MatchesCount", jsonResponseObject);
+            logger.info(jsonObjectMain);
 
-        System.out.println(jsonObjectMain);
+            if (alarmOn) {
+                playSound();
+            }
+            TimeUnit.MINUTES.sleep(10);
 
+        }
     }
 }
