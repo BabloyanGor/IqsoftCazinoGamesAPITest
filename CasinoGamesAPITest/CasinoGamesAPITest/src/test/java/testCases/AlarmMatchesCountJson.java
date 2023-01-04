@@ -294,7 +294,7 @@ public class AlarmMatchesCountJson {
                 if (alarmOn) {
                     playSound();
                 }
-                TimeUnit.MINUTES.sleep(1);
+                TimeUnit.MINUTES.sleep(5);
             }
             catch (Exception e){
                 logger.info("Exception on while loop: " + e);
