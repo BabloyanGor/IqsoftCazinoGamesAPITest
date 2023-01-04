@@ -69,3 +69,15 @@
 2023-01-03 17:33:37,359 [main] INFO craftBetWorld - Get games Api Response was captured
 2023-01-03 17:33:37,406 [main] INFO craftBetWorld - All captured games images was added into ArrayList
 2023-01-03 17:34:04,180 [main] INFO craftBetWorld - {"MatchesCount":{"Description":"null","ResponseObject":{"UpcomingMatchesCount":120,"LifeMatchesCount":14},"ResponseCod":0},"AlarmOn":false}
+2023-01-03 17:35:28,634 [main] INFO craftBetWorld - {"MatchesCount":{"Description":"null","ResponseObject":{"UpcomingMatchesCount":120,"LifeMatchesCount":14},"ResponseCod":0},"AlarmOn":false}
+2023-01-03 17:45:29,067 [main] INFO craftBetWorld - {"MatchesCount":{"Description":"null","ResponseObject":{"UpcomingMatchesCount":120,"LifeMatchesCount":13},"ResponseCod":0},"AlarmOn":false}
+2023-01-03 17:51:39,171 [main] INFO craftBetWorld - {"MatchesCount":{"Description":"null","ResponseObject":{"UpcomingMatchesCount":120,"LifeMatchesCount":13},"ResponseCod":0},"AlarmOn":false}
+2023-01-03 17:52:11,161 [main] INFO craftBetWorld - {"MatchesCount":{"Description":"null","ResponseObject":{"UpcomingMatchesCount":120,"LifeMatchesCount":13},"ResponseCod":0},"AlarmOn":false}
+2023-01-03 17:52:44,721 [main] INFO craftBetWorld - {"MatchesCount":{"Description":"Upcoming Matches count is less then: 5","ResponseObject":{"UpcomingMatchesCount":2,"LifeMatchesCount":13},"ResponseCod":1000},"AlarmOn":true}
+2023-01-04 17:06:17,818 [main] INFO craftBetWorld - {"MatchesCount":{"Description":"null","ResponseObject":{"UpcomingMatchesCount":117,"LifeMatchesCount":13},"ResponseCod":0},"AlarmOn":false}
+2023-01-04 17:07:18,135 [main] INFO craftBetWorld - {"MatchesCount":{"Description":"null","ResponseObject":{"UpcomingMatchesCount":117,"LifeMatchesCount":13},"ResponseCod":0},"AlarmOn":false}
+2023-01-04 17:07:50,182 [main] INFO craftBetWorld - {"MatchesCount":{"Description":"Upcoming Matches count is less then: 5","ResponseObject":{"UpcomingMatchesCount":1,"LifeMatchesCount":12},"ResponseCod":1000},"AlarmOn":true}
+2023-01-04 17:19:45,536 [main] INFO craftBetWorld - {"MatchesCount":{"Description":"Life Matches count is less then: 1","ResponseObject":{"UpcomingMatchesCount":111,"LifeMatchesCount":0},"ResponseCod":1001},"AlarmOn":true}
+2023-01-04 17:20:45,890 [main] INFO craftBetWorld - {"MatchesCount":{"Description":"null","ResponseObject":{"UpcomingMatchesCount":111,"LifeMatchesCount":13},"ResponseCod":0},"AlarmOn":false}
+2023-01-04 17:21:46,177 [main] INFO craftBetWorld - {"MatchesCount":{"Description":"null","ResponseObject":{"UpcomingMatchesCount":111,"LifeMatchesCount":12},"ResponseCod":0},"AlarmOn":false}
+2023-01-04 17:22:46,563 [main] INFO craftBetWorld - {"MatchesCount":{"Description":"null","ResponseObject":{"UpcomingMatchesCount":111,"LifeMatchesCount":11},"ResponseCod":0},"AlarmOn":false}

@@ -3,7 +3,6 @@ package testCases;
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
-import org.apache.log4j.Priority;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -15,11 +14,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest {
-    int count = 1;
-//    String getAllLifeGamesURL = "https://sportsbookwebsitewebapi.craftbet.com/website/getlivematchesoverview?LanguageId=en&TimeZone=4&origin=https://sportsbookwebsite.craftbet.com";
-//    String getPreMatchTree = "https://sportsbookwebsitewebapi.craftbet.com/website/getprematchtree?LanguageId=en&TimeZone=4";
-//    String getPreMatchTreeOrigin = "https://sportsbookwebsite.craftbet.com";
-
 
     @Test(priority = 1,dataProvider = "sports")
     public void gatPreMatchMatchGamesWithEmptyMarkets(String sport) throws UnirestException, JSONException, IOException {
@@ -276,43 +270,43 @@ public class CraftBet_104_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
     Object[][] loginDataInvalid() {
 
         String[][] arr = {
-//                {"Basketball"},
-//                {"Tennis"},
-//                {"Formula 1"},
-//                {"Ice Hockey"},
-//                {"Table Tennis"},
-//                {"Rugby League"},
-//                {"Rugby Union"},
-//                {"Volleyball"},
-//                {"Golf"},
-//                {"American Football"},
-//                {"Futsal"},
-//                {"Aussie Rules"},
-//                {"Cricket"},
-//                {"Cybersport"},
-//                {"Handball"},
-//                {"Badminton"},
-//                {"Kabaddi"},
-//                {"Baseball"},
-//                {"Boxing"},
-//                {"MMA"},
-//                {"Darts"},
-//                {"Lottery"},
-//                {"Netball"},
-//                {"Politics"},
-//                {"E-Football"},
-//                {"E-Basketball"},
-//                {"Snooker"},
-//                {"Specials"},
-//                {"Floorball"},
-//                {"Chess"},
-//                {"E-sports"},
-//                {"Biathlon"},
-//                {"Water Polo"},
-//                {"Gaelic Football"},
-//                {"Lacrosse"},
-//                {"Beach Soccer"},
-//                {"Squash"},
+                {"Basketball"},
+                {"Tennis"},
+                {"Formula 1"},
+                {"Ice Hockey"},
+                {"Table Tennis"},
+                {"Rugby League"},
+                {"Rugby Union"},
+                {"Volleyball"},
+                {"Golf"},
+                {"American Football"},
+                {"Futsal"},
+                {"Aussie Rules"},
+                {"Cricket"},
+                {"Cybersport"},
+                {"Handball"},
+                {"Badminton"},
+                {"Kabaddi"},
+                {"Baseball"},
+                {"Boxing"},
+                {"MMA"},
+                {"Darts"},
+                {"Lottery"},
+                {"Netball"},
+                {"Politics"},
+                {"E-Football"},
+                {"E-Basketball"},
+                {"Snooker"},
+                {"Specials"},
+                {"Floorball"},
+                {"Chess"},
+                {"E-sports"},
+                {"Biathlon"},
+                {"Water Polo"},
+                {"Gaelic Football"},
+                {"Lacrosse"},
+                {"Beach Soccer"},
+                {"Squash"},
 
                 {"Soccer"}  //
         };

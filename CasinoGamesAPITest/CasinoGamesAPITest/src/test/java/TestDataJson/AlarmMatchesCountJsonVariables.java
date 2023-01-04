@@ -3,7 +3,7 @@ package TestDataJson;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class MatchesJson {
+public class AlarmMatchesCountJsonVariables {
 
     @SerializedName("ResponseCode")
     @Expose
@@ -12,14 +12,14 @@ public class MatchesJson {
     public int getResponseCode() {
         return ResponseCode;
     }
+
     public void setResponseCode(int responseCode) {
         ResponseCode = responseCode;
     }
 
 
-
-//    @SerializedName("Description")
-//    @Expose
+    @SerializedName("Description")
+    @Expose
     private String Description;
 
     public String getDescription() {
@@ -31,10 +31,20 @@ public class MatchesJson {
     }
 
 
-
-//    @SerializedName("UpcomingMatchesCount")
-//    @Expose
+    @SerializedName("UpcomingMatchesCount")
+    @Expose
     private int UpcomingMatchesCount;
+
+    public int getUpcomingMatchesCount() {
+        return UpcomingMatchesCount;
+    }
+
+    public void setUpcomingMatchesCount(int upcomingMatchesCount) {
+        UpcomingMatchesCount = upcomingMatchesCount;
+    }
+
+    @SerializedName("LifeMatchesCount")
+    @Expose
     private int LifeMatchesCount;
 
     public int getLifeMatchesCount() {
@@ -45,6 +55,13 @@ public class MatchesJson {
         LifeMatchesCount = lifeMatchesCount;
     }
 
+
+
+
+    @SerializedName("PreMatchesCount")
+    @Expose
+    private int PreMatchesCount;
+
     public int getPreMatchesCount() {
         return PreMatchesCount;
     }
@@ -53,20 +70,9 @@ public class MatchesJson {
         PreMatchesCount = preMatchesCount;
     }
 
-    private int PreMatchesCount;
 
-    public int getUpcomingMatchesCount() {
-        return UpcomingMatchesCount;
-    }
-
-    public void setUpcomingMatchesCount(int upcomingMatchesCount) {
-        UpcomingMatchesCount = upcomingMatchesCount;
-    }
-
-
-
-//    @SerializedName("AlarmOn")
-//    @Expose
+    @SerializedName("AlarmOn")
+    @Expose
     private boolean AlarmOn;
 
 
@@ -77,8 +83,6 @@ public class MatchesJson {
     public void setAlarmOn(boolean alarmOn) {
         AlarmOn = alarmOn;
     }
-
-
 
 
 }
