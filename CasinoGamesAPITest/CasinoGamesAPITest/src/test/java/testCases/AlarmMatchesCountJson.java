@@ -210,7 +210,7 @@ public class AlarmMatchesCountJson {
                 Clip clip = AudioSystem.getClip();
                 clip.open(audioInputStream);
                 clip.start();
-//                TimeUnit.SECONDS.sleep(7);
+                TimeUnit.SECONDS.sleep(7);
                 i++;
             }
 
