@@ -17,6 +17,8 @@ import javax.sound.sampled.Clip;
 
 import java.io.File;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
@@ -24,15 +26,28 @@ public class AlarmMatchesCountJson {
     AlarmMatchesCountJsonVariables alarmMatchesCountJsonVariables = new AlarmMatchesCountJsonVariables();
 
     public static Logger logger;
-    int upcomingMatchesCount = 0;
-    int lifeMatchesCount = 0;
+
+
 //    int preMatchMatchesCount = 0;
     int responseCod = 0;
     String description = null;
     boolean alarmOn = false;
-    ArrayList<String> upcomingSports = new ArrayList<>();
-    public ArrayList<String> getUpcomingSportsIDs() {
 
+
+
+
+    @BeforeClass
+    public void beforeClass() {
+        logger = Logger.getLogger("craftBetWorld");
+        PropertyConfigurator.configure("Log4j.properties");
+    }
+
+
+
+
+    public ArrayList<String> getUpcomingSportsIDs() {
+        ArrayList<String> upcomingSportsIDs = new ArrayList<>();
+        ArrayList<String> upcomingSportsNames = new ArrayList<>();
         try {
             Unirest.setTimeouts(0, 0);
             HttpResponse<String> response = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getupcomingsports?LanguageId=en&TimeZone=4&Id=11955")
@@ -43,15 +58,18 @@ public class AlarmMatchesCountJson {
             JSONObject jsonObjectBody = new JSONObject(response.getBody());
             Unirest.shutdown();
 
+
             JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.toString());
             JSONArray jsonArraySports = jsonObjectResponseObject.getJSONArray("ResponseObject");
             for (int i = 0; i <jsonArraySports.length();i++ ){
                 String first = String.valueOf(jsonArraySports.get(i));
                 JSONObject jsonObjectGame = new JSONObject(first);
                 String id = String.valueOf(jsonObjectGame.get("Id"));
-                upcomingSports.add(id);
+                String name = String.valueOf(jsonObjectGame.get("Name"));
+                upcomingSportsIDs.add(id);
+                upcomingSportsNames.add(name);
             }
-            return upcomingSports;
+            return upcomingSportsIDs;
 
         } catch (Exception e) {
             try {
@@ -70,11 +88,11 @@ public class AlarmMatchesCountJson {
                     String first = String.valueOf(jsonArraySports.get(i));
                     JSONObject jsonObjectGame = new JSONObject(first);
                     String id = jsonObjectGame.getString("Id");
-                    upcomingSports.add(id);
+                    upcomingSportsIDs.add(id);
                 }
-                return upcomingSports;
+                return upcomingSportsIDs;
             } catch (Exception k) {
-                System.out.println("Upcoming Sports Exception  " + e);
+                logger.warn("Upcoming Sports Exception  " + e);
                 return null;
             }
         }
@@ -86,12 +104,13 @@ public class AlarmMatchesCountJson {
         int count = 0;
         try {
             Unirest.setTimeouts(0, 0);
-            HttpResponse<String> response = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getupcomingmatches?LanguageId=en&TimeZone=4&SportId="+sportID+"&IncludeMarketTypeIds=1&IncludeMarketTypeIds=6021&IncludeMarketTypeIds=38")
+            HttpResponse<String> response = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getupcomingmatches?LanguageId=en&TimeZone=4&SportId="+sportID)
                     .header("content-type", "application/json; charset=utf-8")
                     .header("origin", "https://sportsbookwebsite.craftbet.com")
                     .asString();
             JSONObject jsonObjectBody = new JSONObject(response.getBody());
             Unirest.shutdown();
+
 
             JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.toString());
             JSONArray jsonArrayGames = jsonObjectResponseObject.getJSONArray("Ms");
@@ -100,7 +119,7 @@ public class AlarmMatchesCountJson {
         } catch (Exception e) {
             try {
                 Unirest.setTimeouts(0, 0);
-                HttpResponse<String> response = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getupcomingmatches?LanguageId=en&TimeZone=4&SportId=1&IncludeMarketTypeIds=1&IncludeMarketTypeIds=6021&IncludeMarketTypeIds=38")
+                HttpResponse<String> response = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getupcomingmatches?LanguageId=en&TimeZone=4&SportId="+sportID)
                         .header("content-type", "application/json; charset=utf-8")
                         .header("origin", "https://sportsbookwebsite.craftbet.com")
                         .asString();
@@ -112,19 +131,76 @@ public class AlarmMatchesCountJson {
                 count = jsonArrayGames.length();
                 return count;
             } catch (Exception k) {
-                System.out.println("Count Exception  " + e);
+                logger.warn("Count Exception  " + e);
                 return count;
             }
         }
     }
 
 
-    public int getLifeMatchesCount() {
+
+    public ArrayList<String> getLiveSportsIDs() {
+        ArrayList<String> liveSportsIDs = new ArrayList<>();
+        ArrayList<String> liveSportsNames = new ArrayList<>();
+        try {
+            Unirest.setTimeouts(0, 0);
+            HttpResponse<String> response = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getlivesports?LanguageId=en&TimeZone=4")
+                    .header("content-type", "application/json; charset=utf-8")
+                    .header("origin", "https://sportsbookwebsite.craftbet.com")
+                    .asString();
+
+            JSONObject jsonObjectBody = new JSONObject(response.getBody());
+            Unirest.shutdown();
+
+
+            JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.toString());
+            JSONArray jsonArraySports = jsonObjectResponseObject.getJSONArray("ResponseObject");
+            for (int i = 0; i <jsonArraySports.length();i++ ){
+                String first = String.valueOf(jsonArraySports.get(i));
+                JSONObject jsonObjectGame = new JSONObject(first);
+                String id = String.valueOf(jsonObjectGame.get("Id"));
+                String name = String.valueOf(jsonObjectGame.get("Name"));
+                liveSportsIDs.add(id);
+                liveSportsNames.add(name);
+
+
+            }
+            return liveSportsIDs;
+
+        } catch (Exception e) {
+            try {
+                Unirest.setTimeouts(0, 0);
+                HttpResponse<String> response = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getlivesports?LanguageId=en&TimeZone=4")
+                        .header("content-type", "application/json; charset=utf-8")
+                        .header("origin", "https://sportsbookwebsite.craftbet.com")
+                        .asString();
+
+                JSONObject jsonObjectBody = new JSONObject(response.getBody());
+                Unirest.shutdown();
+
+                JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.toString());
+                JSONArray jsonArraySports = jsonObjectResponseObject.getJSONArray("ResponseObject");
+                for (int i = 0; i <jsonArraySports.length();i++ ){
+                    String first = String.valueOf(jsonArraySports.get(i));
+                    JSONObject jsonObjectGame = new JSONObject(first);
+                    String id = jsonObjectGame.getString("Id");
+                    liveSportsIDs.add(id);
+                }
+                return liveSportsIDs;
+            } catch (Exception k) {
+                logger.warn("Live Sports Exception  " + e);
+                return null;
+            }
+        }
+    }
+
+
+    public int getLifeMatchesCount(String sportID) {
 
         int count = 0;
         try {
             Unirest.setTimeouts(0, 0);
-            HttpResponse<String> response = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/gettoplivematches?LanguageId=en&TimeZone=4&SportId=3&IncludeMarketTypeIds=3001&IncludeMarketTypeIds=3007&IncludeMarketTypeIds=5649")
+            HttpResponse<String> response = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/gettoplivematches?LanguageId=en&TimeZone=4&SportId=" + sportID)
                     .header("origin", "https://sportsbookwebsite.craftbet.com")
                     .header("content-type", "application/json")
                     .asString();
@@ -138,7 +214,7 @@ public class AlarmMatchesCountJson {
         } catch (Exception e) {
             try {
                 Unirest.setTimeouts(0, 0);
-                HttpResponse<String> response = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/gettoplivematches?LanguageId=en&TimeZone=4&SportId=3&IncludeMarketTypeIds=3001&IncludeMarketTypeIds=3007&IncludeMarketTypeIds=5649")
+                HttpResponse<String> response = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/gettoplivematches?LanguageId=en&TimeZone=4&SportId="+ sportID)
                         .header("origin", "https://sportsbookwebsite.craftbet.com")
                         .header("content-type", "application/json")
                         .asString();
@@ -150,11 +226,29 @@ public class AlarmMatchesCountJson {
                 count = jsonArrayGames.length();
                 return count;
             } catch (Exception k) {
-                System.out.println("Count Exception  " + e);
+                logger.warn("Count Exception  " + e);
                 return count;
             }
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //    public int getPreMatchMatchesCount() {
@@ -188,7 +282,7 @@ public class AlarmMatchesCountJson {
 //                count = jsonArrayGames.length();
 //                return count;
 //            } catch (Exception k) {
-//                System.out.println("Count Exception  " + e);
+//                logger.warn("Count Exception  " + e);
 //                return count;
 //            }
 //        }
@@ -215,31 +309,38 @@ public class AlarmMatchesCountJson {
             }
 
         } catch (Exception ex) {
-            System.out.println("Error with playing sound.");
+            logger.warn("Error with playing sound.");
             ex.printStackTrace();
         }
     }
 
-
-    @BeforeClass
-    public void beforeClass() {
-        logger = Logger.getLogger("craftBetWorld");
-        PropertyConfigurator.configure("Log4j.properties");
+    public String currentTime(){
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+        LocalDateTime dateTimeNow = LocalDateTime.now();
+        String dateTime = dtf.format(dateTimeNow);
+        return dateTime;
     }
 
+
     @Test
-    public void getMatchesCount() throws InterruptedException {
-        ArrayList<String> upcomingSportsLocal = getUpcomingSportsIDs();
-        for (String id : upcomingSportsLocal) {
-            upcomingMatchesCount += getUpcomingMatchesCount(id);
-        }
-
-
+    public void getMatchesCount()  {
 
         while (true) {
+            int upcomingMatchesCount = 0;
+            int liveMatchesCount = 0;
             try{
+                ArrayList<String> upcomingSportsLocal = getUpcomingSportsIDs();
+                for (String id : upcomingSportsLocal) {
+                    upcomingMatchesCount += getUpcomingMatchesCount(id);
+                }
+
+                ArrayList<String> liveSportsLocal = getLiveSportsIDs();
+                for (String id : liveSportsLocal) {
+                    liveMatchesCount += getLifeMatchesCount(id);
+
+                }
+
                 SoftAssert softAssert = new SoftAssert();
-                lifeMatchesCount = getLifeMatchesCount();
 
                 int compareUpcomingMatchesCount = 5;
                 int compareLifeMatchesCount = 1;
@@ -250,11 +351,11 @@ public class AlarmMatchesCountJson {
                     description = "Upcoming Matches count is less then: " + compareUpcomingMatchesCount;
                     alarmOn = true;
                     softAssert.fail("Upcoming Matches count is: " + upcomingMatchesCount);
-                } else if (lifeMatchesCount < compareLifeMatchesCount) {
+                } else if (liveMatchesCount < compareLifeMatchesCount) {
                     responseCod = 1001;
                     description = "Life Matches count is less then: " + compareLifeMatchesCount;
                     alarmOn = true;
-                    softAssert.fail("Life Matches count is: " + getLifeMatchesCount());
+                    softAssert.fail("Life Matches count is: " + liveMatchesCount);
                 }
                 else {
                     responseCod = 0;
@@ -265,13 +366,13 @@ public class AlarmMatchesCountJson {
 
 
                 alarmMatchesCountJsonVariables.setUpcomingMatchesCount(upcomingMatchesCount);
-                alarmMatchesCountJsonVariables.setLifeMatchesCount(lifeMatchesCount);
+                alarmMatchesCountJsonVariables.setLifeMatchesCount(liveMatchesCount);
 
                 alarmMatchesCountJsonVariables.setResponseCode(responseCod);
                 alarmMatchesCountJsonVariables.setDescription(description);
                 alarmMatchesCountJsonVariables.setAlarmOn(alarmOn);
 
-                JSONObject jsonObjectMain = new JSONObject();     // Working version
+                JSONObject jsonObjectMain = new JSONObject();
                 JSONObject jsonObjectResponseObject = new JSONObject();
 //        JSONArray jsonArray = new JSONArray();
 
@@ -288,13 +389,14 @@ public class AlarmMatchesCountJson {
 //        jsonArray.put(jsonResponseObject);
 //        jsonObjectMain.put("UpcomingMatches",jsonArray);
                 jsonObjectMain.put("AlarmOn", alarmOn);
+                jsonObjectMain.put("DateTime", currentTime());
                 jsonObjectMain.put("MatchesCount", jsonResponseObject);
                 logger.info(jsonObjectMain);
 
                 if (alarmOn) {
                     playSound();
                 }
-                TimeUnit.MINUTES.sleep(5);
+                TimeUnit.SECONDS.sleep(30);
             }
             catch (Exception e){
                 logger.info("Exception on while loop: " + e);
