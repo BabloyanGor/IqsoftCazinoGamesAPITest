@@ -33,9 +33,18 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
         if (craftBet_01_header_page.userIdLabelIsEnabled()) {
             token = craftBet_01_header_page.getItem("token");
             logger.info("Token was captured " + token);
+        } else if (craftBet_01_header_page.balanceLabelIsEnabled()) {
+            token = craftBet_01_header_page.getItem("token");
+            logger.info("Token was captured " + token);
         } else {
-//                token = craftBet_01_header_page.getItem("token");
-//                logger.info("Token was captured " + token);
+            craftBet_03_login_popUp_page.waitAction(2000);
+            if (craftBet_01_header_page.getItem("token")!=null){
+            token = craftBet_01_header_page.getItem("token");
+            logger.info("Token was captured " + token);
+            }
+            else{
+                logger.info("Token Cant be captured its null token: " + token);
+            }
         }
     }
 
