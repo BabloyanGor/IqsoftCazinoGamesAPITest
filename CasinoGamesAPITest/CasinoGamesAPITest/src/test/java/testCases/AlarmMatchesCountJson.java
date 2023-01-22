@@ -11,6 +11,7 @@ import org.json.JSONObject;
 import org.knowm.xchart.QuickChart;
 import org.knowm.xchart.SwingWrapper;
 import org.knowm.xchart.XYChart;
+import org.knowm.xchart.XYChartBuilder;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -26,6 +27,7 @@ import java.text.DecimalFormat;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class AlarmMatchesCountJson {
@@ -348,54 +350,21 @@ public class AlarmMatchesCountJson {
         return dateTime;
     }
 
-//    public static void runGraph()throws Exception{
-//        double phase = 0;
-//        double[][] initdata = getSineData(phase);
-//
-//        // Create Chart
-//        final XYChart chart = QuickChart.getChart("Upcoming matches count", "Time", "Data", "sine", initdata[0], initdata[1]);
-//
-//        // Show it
-//        final SwingWrapper<XYChart> sw = new SwingWrapper<XYChart>(chart);
-//        sw.displayChart();
-//
-//        while (true) {
-//
-////            phase += 2 * Math.PI * 2 / 20.0;
-//
-//            Thread.sleep(100);
-//
-//            final double[][] data = getSineData(phase);
-//
-//            chart.updateXYSeries("sine", data[0], data[1], null);
-//            sw.repaintChart();
-//        }
-//    }
-
-
-//    private static double[][] getSineData(double[] upcomingArray,double[] upcomingArrayX) {
-
-//        double[] xData = new double[10];
-//        double[] yData = new double[10];
-//        for (int i = 0; i < xData.length; i++) {
-//            xData[i] = upcoming;
-//            yData[i] = i;
-//        }
-//        return new double[][] { upcomingArrayX, upcomingArray  };
-//    }
-
 
     @Test(description = "Show Graph count of Upcoming, LocalLive, Live, Pre Matches")
     @Severity(SeverityLevel.BLOCKER)
     public void getMatchesCount() {
+
+
+
         SoftAssert softAssert = new SoftAssert();
         int upcomingMatchesCount;
         int localLiveMatchesCount;
         int liveMatchesCount;
         int preMatchesCount;
 
-        final int xyAxisLength = 20;
-        final int timeDelaySeconds = 5;
+        final int xyAxisLength = 51;
+        final int timeDelaySeconds = 1;
         float timeDelayMinutesVisualisation =(float) timeDelaySeconds/60;
         DecimalFormat df = new DecimalFormat("#.#");
 
@@ -419,25 +388,33 @@ public class AlarmMatchesCountJson {
         double[][] initDataPreMatch = new double[][]{matchesCountArrayXAxis, upcomingMatchesCountArray};
 
 
+
         // Create Charts
+        List<XYChart> charts = new ArrayList<XYChart>();
+
         XYChart chartUpcoming = QuickChart.getChart("Upcoming matches count StartTime: " + currentTime(), "X: "+df.format(timeDelayMinutesVisualisation) + " min", "Value", "Upcoming Matches", initDataUpcoming[0], initDataUpcoming[1]);
         XYChart chartLocalLive = QuickChart.getChart("Local Live matches count StartTime: " + currentTime(), "X: "+df.format(timeDelayMinutesVisualisation) + " min", "Value", "Local Live Matches", initDataLocalLive[0], initDataLocalLive[1]);
         XYChart chartLive = QuickChart.getChart("Live matches count StartTime: " + currentTime(), "X: "+df.format(timeDelayMinutesVisualisation) + " min", "Value", "Live Matches", initDataLive[0], initDataLive[1]);
         XYChart chartPreMatches = QuickChart.getChart("Pre matches count StartTime: " + currentTime(), "X: "+df.format(timeDelayMinutesVisualisation) + " min", "Value", "Pre Matches", initDataPreMatch[0], initDataPreMatch[1]);
-
-
+        charts.add(chartUpcoming);
+        charts.add(chartLocalLive);
+        charts.add(chartLive);
+        charts.add(chartPreMatches);
+        SwingWrapper<XYChart> sw = new SwingWrapper<XYChart>(charts);
+        sw.displayChartMatrix();
+//        new SwingWrapper<XYChart>(charts).displayChartMatrix();
         // Show it
 
-        SwingWrapper<XYChart> swUpcoming = new SwingWrapper<XYChart>(chartUpcoming);
-        SwingWrapper<XYChart> swLocalLive = new SwingWrapper<XYChart>(chartLocalLive);
-        SwingWrapper<XYChart> swLive = new SwingWrapper<XYChart>(chartLive);
-        SwingWrapper<XYChart> swPreMatch = new SwingWrapper<XYChart>(chartPreMatches);
+//        SwingWrapper<XYChart> swUpcoming = new SwingWrapper<XYChart>(chartUpcoming);
+//        SwingWrapper<XYChart> swLocalLive = new SwingWrapper<XYChart>(chartLocalLive);
+//        SwingWrapper<XYChart> swLive = new SwingWrapper<XYChart>(chartLive);
+//        SwingWrapper<XYChart> swPreMatch = new SwingWrapper<XYChart>(chartPreMatches);
 
-
-        swUpcoming.displayChart();
-        swLocalLive.displayChart();
-        swLive.displayChart();
-        swPreMatch.displayChart();
+//
+//        swUpcoming.displayChart();
+//        swLocalLive.displayChart();
+//        swLive.displayChart();
+//        swPreMatch.displayChart();
 
         while (true) {
             upcomingMatchesCount = 0;
@@ -476,10 +453,15 @@ public class AlarmMatchesCountJson {
                 chartLive.updateXYSeries("Live Matches", null, liveMatchesCountArray, null);
                 chartPreMatches.updateXYSeries("Pre Matches", null, preMatchMatchesCountArray, null);
 
-                swUpcoming.repaintChart();
-                swLocalLive.repaintChart();
-                swLive.repaintChart();
-                swPreMatch.repaintChart();
+
+                for (int l=0; l<charts.size();l++){
+                    sw.repaintChart(l);
+                }
+
+//                swUpcoming.repaintChart();
+//                swLocalLive.repaintChart();
+//                swLive.repaintChart();
+//                swPreMatch.repaintChart();
 
 
                 if (upcomingMatchesCount < compareUpcomingMatchesCount) {
