@@ -308,6 +308,17 @@ public class BaseTest extends DriverFactory {
                 getGamesBaseURL = "https://kontrbet.com";
                 break;
             }
+            case 16: {
+                partnerID = 67;
+                getGamesAPIUrl = "https://websitewebapi.zorrobet365.com/67/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.zorrobet365.com/67/api/Main/GetProductUrl";
+                getUserID = 1703584;
+                getGamesOrigin = "https://zorrobet365.com";
+                getGamesRecurse = "https://resources.zorrobet365.com/products/";
+                getGamesPartnerName = "zorrobet365";
+                getGamesBaseURL = "https://zorrobet365.com";
+                break;
+            }
 
 
             case 100: {
