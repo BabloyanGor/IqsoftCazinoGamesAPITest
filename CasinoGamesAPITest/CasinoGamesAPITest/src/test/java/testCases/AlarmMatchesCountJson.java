@@ -33,7 +33,7 @@ import java.util.concurrent.TimeUnit;
 public class AlarmMatchesCountJson {
     public static Logger logger;
 
-//    AlarmMatchesCountJsonVariables alarmMatchesCountJsonVariables = new AlarmMatchesCountJsonVariables();
+    //    AlarmMatchesCountJsonVariables alarmMatchesCountJsonVariables = new AlarmMatchesCountJsonVariables();
     int responseCod = 0;
     String description = null;
     boolean alarmOn = false;
@@ -277,16 +277,16 @@ public class AlarmMatchesCountJson {
 
             JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.toString());
             JSONArray jsonArrayGames = jsonObjectResponseObject.getJSONArray("Ss");
-            for (int i = 0; i< jsonArrayGames.length(); i++){
+            for (int i = 0; i < jsonArrayGames.length(); i++) {
                 JSONObject sportJson = new JSONObject(jsonArrayGames.get(i).toString());
                 JSONArray sportArray = sportJson.getJSONArray("Rs");
-                for (int j = 0 ; j < sportArray.length(); j++ ){
+                for (int j = 0; j < sportArray.length(); j++) {
                     JSONObject competitionJson = new JSONObject(sportArray.get(j).toString());
                     JSONArray competitionArray = competitionJson.getJSONArray("Cs");
-                    for (int k = 0; k<competitionArray.length(); k++){
+                    for (int k = 0; k < competitionArray.length(); k++) {
                         JSONObject matchJson = new JSONObject(competitionArray.get(k).toString());
                         JSONArray matchArray = matchJson.getJSONArray("Ms");
-                        count+=matchArray.length();
+                        count += matchArray.length();
                     }
                 }
             }
@@ -304,10 +304,10 @@ public class AlarmMatchesCountJson {
 
                 JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.toString());
                 JSONArray jsonArrayGames = jsonObjectResponseObject.getJSONArray("Ss");
-                for (int i = 0; i< jsonArrayGames.length(); i++){
+                for (int i = 0; i < jsonArrayGames.length(); i++) {
                     JSONObject sportJson = new JSONObject(jsonArrayGames.get(i));
                     JSONArray sportArray = sportJson.getJSONArray("Rs");
-                    count+=sportArray.length();
+                    count += sportArray.length();
                 }
                 return count;
             } catch (Exception k) {
@@ -356,16 +356,15 @@ public class AlarmMatchesCountJson {
     public void getMatchesCount() {
 
 
-
         SoftAssert softAssert = new SoftAssert();
         int upcomingMatchesCount;
         int localLiveMatchesCount;
         int liveMatchesCount;
         int preMatchesCount;
 
-        final int xyAxisLength = 51;
+        final int xyAxisLength = 5;
         final int timeDelaySeconds = 1;
-        float timeDelayMinutesVisualisation =(float) timeDelaySeconds/60;
+        float timeDelayMinutesVisualisation = (float) timeDelaySeconds / 60;
         DecimalFormat df = new DecimalFormat("#.#");
 
 
@@ -379,23 +378,22 @@ public class AlarmMatchesCountJson {
         double[][] initDataUpcoming = new double[][]{matchesCountArrayXAxis, upcomingMatchesCountArray};
 
         double[] localLiveMatchesCountArray = new double[xyAxisLength];
-        double[][] initDataLocalLive = new double[][]{matchesCountArrayXAxis, upcomingMatchesCountArray};
+        double[][] initDataLocalLive = new double[][]{matchesCountArrayXAxis, localLiveMatchesCountArray};
 
         double[] liveMatchesCountArray = new double[xyAxisLength];
-        double[][] initDataLive = new double[][]{matchesCountArrayXAxis, upcomingMatchesCountArray};
+        double[][] initDataLive = new double[][]{matchesCountArrayXAxis, liveMatchesCountArray};
 
         double[] preMatchMatchesCountArray = new double[xyAxisLength];
-        double[][] initDataPreMatch = new double[][]{matchesCountArrayXAxis, upcomingMatchesCountArray};
-
+        double[][] initDataPreMatch = new double[][]{matchesCountArrayXAxis, preMatchMatchesCountArray};
 
 
         // Create Charts
         List<XYChart> charts = new ArrayList<XYChart>();
 
-        XYChart chartUpcoming = QuickChart.getChart("Upcoming matches count StartTime: " + currentTime(), "X: "+df.format(timeDelayMinutesVisualisation) + " min", "Value", "Upcoming Matches", initDataUpcoming[0], initDataUpcoming[1]);
-        XYChart chartLocalLive = QuickChart.getChart("Local Live matches count StartTime: " + currentTime(), "X: "+df.format(timeDelayMinutesVisualisation) + " min", "Value", "Local Live Matches", initDataLocalLive[0], initDataLocalLive[1]);
-        XYChart chartLive = QuickChart.getChart("Live matches count StartTime: " + currentTime(), "X: "+df.format(timeDelayMinutesVisualisation) + " min", "Value", "Live Matches", initDataLive[0], initDataLive[1]);
-        XYChart chartPreMatches = QuickChart.getChart("Pre matches count StartTime: " + currentTime(), "X: "+df.format(timeDelayMinutesVisualisation) + " min", "Value", "Pre Matches", initDataPreMatch[0], initDataPreMatch[1]);
+        XYChart chartUpcoming = QuickChart.getChart("Upcoming matches count StartTime: " + currentTime(), "X: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Upcoming Matches", initDataUpcoming[0], initDataUpcoming[1]);
+        XYChart chartLocalLive = QuickChart.getChart("Local Live matches count StartTime: " + currentTime(), "X: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Local Live Matches", initDataLocalLive[0], initDataLocalLive[1]);
+        XYChart chartLive = QuickChart.getChart("Live matches count StartTime: " + currentTime(), "X: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Live Matches", initDataLive[0], initDataLive[1]);
+        XYChart chartPreMatches = QuickChart.getChart("Pre matches count StartTime: " + currentTime(), "X: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Pre Matches", initDataPreMatch[0], initDataPreMatch[1]);
         charts.add(chartUpcoming);
         charts.add(chartLocalLive);
         charts.add(chartLive);
@@ -422,24 +420,23 @@ public class AlarmMatchesCountJson {
             liveMatchesCount = 0;
             preMatchesCount = 0;
 
+
             try {
                 ArrayList<String> upcomingSportsLocal = getUpcomingSportsIDs();
                 for (String id : upcomingSportsLocal) {
                     upcomingMatchesCount += getUpcomingMatchesCount(id);
                 }
-                upcomingMatchesCountArray[p] = upcomingMatchesCount;
 
 
                 ArrayList<String> liveSportsLocal = getLiveSportsIDs();
                 for (String id : liveSportsLocal) {
                     localLiveMatchesCount += getLocalLifeMatchesCount(id);
                 }
-                localLiveMatchesCountArray[p] = localLiveMatchesCount;
+
 
                 liveMatchesCount = getLifeMatchesCount();
-                liveMatchesCountArray[p] = liveMatchesCount;
                 preMatchesCount = getPreMatchMatchesCount();
-                preMatchMatchesCountArray[p] = preMatchesCount;
+
 //                System.out.println("liveMatchesCount: " + liveMatchesCount + "  preMatchesCount: "+ preMatchesCount );
 
 //                chart.addSeries("Live",upcomingMatchesCountArray);
@@ -454,7 +451,7 @@ public class AlarmMatchesCountJson {
                 chartPreMatches.updateXYSeries("Pre Matches", null, preMatchMatchesCountArray, null);
 
 
-                for (int l=0; l<charts.size();l++){
+                for (int l = 0; l < charts.size(); l++) {
                     sw.repaintChart(l);
                 }
 
@@ -521,17 +518,27 @@ public class AlarmMatchesCountJson {
 
 
             //for graph
-            if (p < upcomingMatchesCountArray.length - 1) {
+            if (p < upcomingMatchesCountArray.length) {
+                upcomingMatchesCountArray[p] = upcomingMatchesCount;
+                localLiveMatchesCountArray[p] = localLiveMatchesCount;
+                liveMatchesCountArray[p] = liveMatchesCount;
+                preMatchMatchesCountArray[p] = preMatchesCount;
                 p++;
             } else {
+                p--;
                 for (int i = 1; i < upcomingMatchesCountArray.length; i++) {
                     upcomingMatchesCountArray[i - 1] = upcomingMatchesCountArray[i];
                     localLiveMatchesCountArray[i - 1] = localLiveMatchesCountArray[i];
+                    liveMatchesCountArray[i - 1] = liveMatchesCountArray[i];
+                    preMatchMatchesCountArray[i - 1] = preMatchMatchesCountArray[i];
                 }
-                upcomingMatchesCountArray[upcomingMatchesCountArray.length - 1] = upcomingMatchesCount;
-                localLiveMatchesCountArray[localLiveMatchesCountArray.length - 1] = localLiveMatchesCount;
+                upcomingMatchesCountArray[p] = upcomingMatchesCount;
+                localLiveMatchesCountArray[p] = localLiveMatchesCount;
+                liveMatchesCountArray[p] = liveMatchesCount;
+                preMatchMatchesCountArray[p] = preMatchesCount;
+                p++;
             }
-
+            System.out.println();
         }
 
 
