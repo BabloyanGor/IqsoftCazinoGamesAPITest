@@ -356,8 +356,8 @@ public class AlarmMatchesCountJson {
         int liveMatchesCount;
         int preMatchesCount;
 
-        final int xAxisLength = 50;
-        final int timeDelaySeconds = 2;
+        final int xAxisLength = 300;
+        final int timeDelaySeconds = 60;
         float timeDelayMinutesVisualisation = (float) timeDelaySeconds / 60;
         DecimalFormat df = new DecimalFormat("#.#");
 
@@ -444,6 +444,13 @@ public class AlarmMatchesCountJson {
 //                swLocalLive.repaintChart();
 //                swLive.repaintChart();
 //                swPreMatch.repaintChart();
+
+
+
+
+
+
+
 
             //for graph
             if (p < upcomingMatchesCountArray.length) {
@@ -535,6 +542,10 @@ public class AlarmMatchesCountJson {
                     logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  localLiveMatchesCount: " + localLiveMatchesCount + "  "
                             + "  liveMatchesCount: " + liveMatchesCount + "  "+ "  preMatchesCount: " + preMatchesCount + "  "+ currentTime());
                     playSound();
+
+
+
+
                 }
                 TimeUnit.SECONDS.sleep(timeDelaySeconds);
 
