@@ -11,11 +11,8 @@ import org.json.JSONObject;
 import org.knowm.xchart.QuickChart;
 import org.knowm.xchart.SwingWrapper;
 import org.knowm.xchart.XYChart;
-import org.knowm.xchart.XYChartBuilder;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
-
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
@@ -48,7 +45,7 @@ public class AlarmMatchesCountJson {
 
     public ArrayList<String> getUpcomingSportsIDs() {
         ArrayList<String> upcomingSportsIDs = new ArrayList<>();
-        ArrayList<String> upcomingSportsNames = new ArrayList<>();
+//        ArrayList<String> upcomingSportsNames = new ArrayList<>();
         try {
             Unirest.setTimeouts(0, 0);
             HttpResponse<String> response = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getupcomingsports?LanguageId=en&TimeZone=4&Id=11955")
@@ -68,7 +65,7 @@ public class AlarmMatchesCountJson {
                 String id = String.valueOf(jsonObjectGame.get("Id"));
                 String name = String.valueOf(jsonObjectGame.get("Name"));
                 upcomingSportsIDs.add(id);
-                upcomingSportsNames.add(name);
+//                upcomingSportsNames.add(name);
             }
             return upcomingSportsIDs;
 
@@ -93,7 +90,7 @@ public class AlarmMatchesCountJson {
                 }
                 return upcomingSportsIDs;
             } catch (Exception k) {
-                logger.warn("Upcoming Sports Exception  " + e);
+                logger.fatal("Upcoming Sports Exception  " + e);
                 return null;
             }
         }
@@ -131,7 +128,7 @@ public class AlarmMatchesCountJson {
                 count = jsonArrayGames.length();
                 return count;
             } catch (Exception k) {
-                logger.warn("Count Exception  " + e);
+                logger.fatal("Count Exception  " + e);
                 return count;
             }
         }
@@ -139,7 +136,7 @@ public class AlarmMatchesCountJson {
 
     public ArrayList<String> getLiveSportsIDs() {
         ArrayList<String> liveSportsIDs = new ArrayList<>();
-        ArrayList<String> liveSportsNames = new ArrayList<>();
+//        ArrayList<String> liveSportsNames = new ArrayList<>();
         try {
             Unirest.setTimeouts(0, 0);
             HttpResponse<String> response = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getlivesports?LanguageId=en&TimeZone=4")
@@ -159,7 +156,7 @@ public class AlarmMatchesCountJson {
                 String id = String.valueOf(jsonObjectGame.get("Id"));
                 String name = String.valueOf(jsonObjectGame.get("Name"));
                 liveSportsIDs.add(id);
-                liveSportsNames.add(name);
+//                liveSportsNames.add(name);
 
 
             }
@@ -186,7 +183,7 @@ public class AlarmMatchesCountJson {
                 }
                 return liveSportsIDs;
             } catch (Exception k) {
-                logger.warn("Live Sports Exception  " + e);
+                logger.fatal("Live Sports Exception  " + e);
                 return null;
             }
         }
@@ -222,7 +219,7 @@ public class AlarmMatchesCountJson {
                 count = jsonArrayGames.length();
                 return count;
             } catch (Exception k) {
-                logger.warn("Count Exception  " + e);
+                logger.fatal("Count Exception  " + e);
                 return count;
             }
         }
@@ -258,7 +255,7 @@ public class AlarmMatchesCountJson {
                 count = jsonObjectResponseObject.getInt("TotalCount");
                 return count;
             } catch (Exception k) {
-                logger.warn("Count Exception  " + e);
+                logger.fatal("Count Exception  " + e);
                 return count;
             }
         }
@@ -311,15 +308,15 @@ public class AlarmMatchesCountJson {
                 }
                 return count;
             } catch (Exception k) {
-                logger.warn("Count Exception  " + e);
+                logger.fatal("Count Exception  " + e);
                 return count;
             }
         }
     }
 
     public void playSound() {
-        String path = System.getProperty("user.dir") + "\\src\\test\\java\\mp3\\1.wav";
         try {
+            String path = System.getProperty("user.dir") + "\\src\\test\\java\\mp3\\1.wav";
 //            String bip = path;
 //            Media hit = new Media(new File(bip).toURI().toString());
 //            com.sun.javafx.application.PlatformImpl.startup(()->{});
@@ -336,18 +333,16 @@ public class AlarmMatchesCountJson {
                 TimeUnit.SECONDS.sleep(7);
                 i++;
             }
-
         } catch (Exception ex) {
-            logger.warn("Error with playing sound.");
-            ex.printStackTrace();
+            logger.fatal("Exception with playing sound: " + ex);
+
         }
     }
 
     public String currentTime() {
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
         LocalDateTime dateTimeNow = LocalDateTime.now();
-        String dateTime = dtf.format(dateTimeNow);
-        return dateTime;
+        return dtf.format(dateTimeNow);
     }
 
 
@@ -356,52 +351,56 @@ public class AlarmMatchesCountJson {
     public void getMatchesCount() {
 
 
-        SoftAssert softAssert = new SoftAssert();
         int upcomingMatchesCount;
         int localLiveMatchesCount;
         int liveMatchesCount;
         int preMatchesCount;
 
-        final int xyAxisLength = 5;
-        final int timeDelaySeconds = 1;
+        final int xAxisLength = 50;
+        final int timeDelaySeconds = 2;
         float timeDelayMinutesVisualisation = (float) timeDelaySeconds / 60;
         DecimalFormat df = new DecimalFormat("#.#");
 
 
         final int compareUpcomingMatchesCount = 5;
         final int compareLocalLifeMatchesCount = 1;
+        final int compareLifeMatchesCount = 0;
+        final int comparePreMatchesCount = 0;
+
         int p = 0;
 
-        double[] matchesCountArrayXAxis = new double[xyAxisLength];
+        double[] matchesCountArrayXAxis = new double[xAxisLength];
 
-        double[] upcomingMatchesCountArray = new double[xyAxisLength];
+        double[] upcomingMatchesCountArray = new double[xAxisLength];
         double[][] initDataUpcoming = new double[][]{matchesCountArrayXAxis, upcomingMatchesCountArray};
 
-        double[] localLiveMatchesCountArray = new double[xyAxisLength];
+        double[] localLiveMatchesCountArray = new double[xAxisLength];
         double[][] initDataLocalLive = new double[][]{matchesCountArrayXAxis, localLiveMatchesCountArray};
 
-        double[] liveMatchesCountArray = new double[xyAxisLength];
+        double[] liveMatchesCountArray = new double[xAxisLength];
         double[][] initDataLive = new double[][]{matchesCountArrayXAxis, liveMatchesCountArray};
 
-        double[] preMatchMatchesCountArray = new double[xyAxisLength];
+        double[] preMatchMatchesCountArray = new double[xAxisLength];
         double[][] initDataPreMatch = new double[][]{matchesCountArrayXAxis, preMatchMatchesCountArray};
 
 
         // Create Charts
-        List<XYChart> charts = new ArrayList<XYChart>();
+        List<XYChart> charts = new ArrayList<>();
 
-        XYChart chartUpcoming = QuickChart.getChart("Upcoming matches count StartTime: " + currentTime(), "X: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Upcoming Matches", initDataUpcoming[0], initDataUpcoming[1]);
-        XYChart chartLocalLive = QuickChart.getChart("Local Live matches count StartTime: " + currentTime(), "X: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Local Live Matches", initDataLocalLive[0], initDataLocalLive[1]);
-        XYChart chartLive = QuickChart.getChart("Live matches count StartTime: " + currentTime(), "X: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Live Matches", initDataLive[0], initDataLive[1]);
-        XYChart chartPreMatches = QuickChart.getChart("Pre matches count StartTime: " + currentTime(), "X: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Pre Matches", initDataPreMatch[0], initDataPreMatch[1]);
+        XYChart chartUpcoming = QuickChart.getChart("Upcoming matches count", "X: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Upcoming Matches", initDataUpcoming[0], initDataUpcoming[1]);
+        XYChart chartLocalLive = QuickChart.getChart("Local Live matches count" , "X: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Local Live Matches", initDataLocalLive[0], initDataLocalLive[1]);
+        XYChart chartLive = QuickChart.getChart("Live matches count" , "X: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Live Matches", initDataLive[0], initDataLive[1]);
+        XYChart chartPreMatches = QuickChart.getChart("Pre matches count", "X: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Pre Matches", initDataPreMatch[0], initDataPreMatch[1]);
+
         charts.add(chartUpcoming);
         charts.add(chartLocalLive);
         charts.add(chartLive);
         charts.add(chartPreMatches);
-        SwingWrapper<XYChart> sw = new SwingWrapper<XYChart>(charts);
-        sw.displayChartMatrix();
-//        new SwingWrapper<XYChart>(charts).displayChartMatrix();
+
         // Show it
+        SwingWrapper<XYChart> sw = new SwingWrapper<>(charts);
+        sw.setTitle("IQ-Soft Matches Count Graph    StartTime: " + currentTime());
+        sw.displayChartMatrix();
 
 //        SwingWrapper<XYChart> swUpcoming = new SwingWrapper<XYChart>(chartUpcoming);
 //        SwingWrapper<XYChart> swLocalLive = new SwingWrapper<XYChart>(chartLocalLive);
@@ -420,19 +419,16 @@ public class AlarmMatchesCountJson {
             liveMatchesCount = 0;
             preMatchesCount = 0;
 
-
             try {
                 ArrayList<String> upcomingSportsLocal = getUpcomingSportsIDs();
                 for (String id : upcomingSportsLocal) {
                     upcomingMatchesCount += getUpcomingMatchesCount(id);
                 }
 
-
                 ArrayList<String> liveSportsLocal = getLiveSportsIDs();
                 for (String id : liveSportsLocal) {
                     localLiveMatchesCount += getLocalLifeMatchesCount(id);
                 }
-
 
                 liveMatchesCount = getLifeMatchesCount();
                 preMatchesCount = getPreMatchMatchesCount();
@@ -444,41 +440,69 @@ public class AlarmMatchesCountJson {
 //                double[][] dataLive = new double[][]{liveMatchesCountArrayXAxis ,localLiveMatchesCountArray};
 //                chartUpcoming.updateXYSeries("Upcoming Matches", dataUpcoming[0], dataUpcoming[1], null);
 //                chartLocalLive.updateXYSeries("Local Live Matches", dataLive[0], dataLive[1], null);
-
-                chartUpcoming.updateXYSeries("Upcoming Matches", null, upcomingMatchesCountArray, null);
-                chartLocalLive.updateXYSeries("Local Live Matches", null, localLiveMatchesCountArray, null);
-                chartLive.updateXYSeries("Live Matches", null, liveMatchesCountArray, null);
-                chartPreMatches.updateXYSeries("Pre Matches", null, preMatchMatchesCountArray, null);
-
-
-                for (int l = 0; l < charts.size(); l++) {
-                    sw.repaintChart(l);
-                }
-
 //                swUpcoming.repaintChart();
 //                swLocalLive.repaintChart();
 //                swLive.repaintChart();
 //                swPreMatch.repaintChart();
+
+            //for graph
+            if (p < upcomingMatchesCountArray.length) {
+                upcomingMatchesCountArray[p] = upcomingMatchesCount;
+                localLiveMatchesCountArray[p] = localLiveMatchesCount;
+                liveMatchesCountArray[p] = liveMatchesCount;
+                preMatchMatchesCountArray[p] = preMatchesCount;
+                p++;
+            } else {
+                int lastArrayItem = p-1;
+
+                for (int i = 1; i < upcomingMatchesCountArray.length; i++) {
+                    upcomingMatchesCountArray[i - 1] = upcomingMatchesCountArray[i];
+                    localLiveMatchesCountArray[i - 1] = localLiveMatchesCountArray[i];
+                    liveMatchesCountArray[i - 1] = liveMatchesCountArray[i];
+                    preMatchMatchesCountArray[i - 1] = preMatchMatchesCountArray[i];
+                }
+                upcomingMatchesCountArray[lastArrayItem] = upcomingMatchesCount;
+                localLiveMatchesCountArray[lastArrayItem] = localLiveMatchesCount;
+                liveMatchesCountArray[lastArrayItem] = liveMatchesCount;
+                preMatchMatchesCountArray[lastArrayItem] = preMatchesCount;
+
+            }
+                chartUpcoming.updateXYSeries("Upcoming Matches", null, upcomingMatchesCountArray, null);
+                chartLocalLive.updateXYSeries("Local Live Matches", null, localLiveMatchesCountArray, null);
+                chartLive.updateXYSeries("Live Matches", null, liveMatchesCountArray, null);
+                chartPreMatches.updateXYSeries("Pre Matches", null, preMatchMatchesCountArray, null);
+                for (int l = 0; l < charts.size(); l++) {
+                    sw.repaintChart(l);
+                }
 
 
                 if (upcomingMatchesCount < compareUpcomingMatchesCount) {
                     responseCod = 1000;
                     description = "Upcoming Matches count is less then: " + compareUpcomingMatchesCount;
                     alarmOn = true;
-                    softAssert.fail("Upcoming Matches count is: " + upcomingMatchesCount);
+//                    logger.error("Upcoming Matches count is: " + upcomingMatchesCount);
                 } else if (localLiveMatchesCount < compareLocalLifeMatchesCount) {
                     responseCod = 1001;
                     description = "Local Life Matches count is less then: " + compareLocalLifeMatchesCount;
                     alarmOn = true;
-                    softAssert.fail("Local Life Matches count is: " + localLiveMatchesCount);
-                } else {
+//                    logger.error("Local Life Matches count is: " + localLiveMatchesCount);
+                }
+                else if (liveMatchesCount < compareLifeMatchesCount) {
+                    responseCod = 1002;
+                    description = "Life Matches count is less then: " + compareLifeMatchesCount;
+                    alarmOn = false;
+//                    logger.error("Life Matches count is: " + liveMatchesCount);
+                }
+                else if (preMatchesCount < comparePreMatchesCount) {
+                    responseCod = 1003;
+                    description = "Pre Matches count is less then: " + comparePreMatchesCount;
+                    alarmOn = false;
+//                    logger.error("Pre Matches count is: " + preMatchesCount);
+                }else {
                     responseCod = 0;
                     description = "null";
                     alarmOn = false;
-                    softAssert.assertTrue(true);
                 }
-
-
 //                alarmMatchesCountJsonVariables.setUpcomingMatchesCount(upcomingMatchesCount);
 //                alarmMatchesCountJsonVariables.setLifeMatchesCount(localLiveMatchesCount);
 //
@@ -508,35 +532,14 @@ public class AlarmMatchesCountJson {
 //                logger.info(jsonObjectMain);
 
                 if (alarmOn) {
-                    logger.fatal("UpcomingMatchesCount: " + upcomingMatchesCount + "  localLiveMatchesCount: " + localLiveMatchesCount + "  " + currentTime());
+                    logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  localLiveMatchesCount: " + localLiveMatchesCount + "  "
+                            + "  liveMatchesCount: " + liveMatchesCount + "  "+ "  preMatchesCount: " + preMatchesCount + "  "+ currentTime());
                     playSound();
                 }
                 TimeUnit.SECONDS.sleep(timeDelaySeconds);
+
             } catch (Exception e) {
-                logger.info("Exception on while loop: " + e);
-            }
-
-
-            //for graph
-            if (p < upcomingMatchesCountArray.length) {
-                upcomingMatchesCountArray[p] = upcomingMatchesCount;
-                localLiveMatchesCountArray[p] = localLiveMatchesCount;
-                liveMatchesCountArray[p] = liveMatchesCount;
-                preMatchMatchesCountArray[p] = preMatchesCount;
-                p++;
-            } else {
-                p--;
-                for (int i = 1; i < upcomingMatchesCountArray.length; i++) {
-                    upcomingMatchesCountArray[i - 1] = upcomingMatchesCountArray[i];
-                    localLiveMatchesCountArray[i - 1] = localLiveMatchesCountArray[i];
-                    liveMatchesCountArray[i - 1] = liveMatchesCountArray[i];
-                    preMatchMatchesCountArray[i - 1] = preMatchMatchesCountArray[i];
-                }
-                upcomingMatchesCountArray[p] = upcomingMatchesCount;
-                localLiveMatchesCountArray[p] = localLiveMatchesCount;
-                liveMatchesCountArray[p] = liveMatchesCount;
-                preMatchMatchesCountArray[p] = preMatchesCount;
-                p++;
+                logger.fatal("Exception on while loop: " + e);
             }
             System.out.println();
         }

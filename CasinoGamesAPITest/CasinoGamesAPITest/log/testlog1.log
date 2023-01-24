@@ -53,3 +53,20 @@
 2023-01-23 16:47:04,315 [main] INFO craftBetWorld - Exception on while loop: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
 2023-01-23 16:47:28,923 [main] INFO craftBetWorld - Exception on while loop: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
 2023-01-23 16:47:46,385 [main] INFO craftBetWorld - Exception on while loop: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+2023-01-23 17:55:02,287 [main] FATAL craftBetWorld - UpcomingMatchesCount: 0  localLiveMatchesCount: 48  2023/01/23 17:55:02
+2023-01-23 17:55:19,945 [main] FATAL craftBetWorld - UpcomingMatchesCount: 0  localLiveMatchesCount: 48  2023/01/23 17:55:19
+2023-01-23 17:55:37,943 [main] FATAL craftBetWorld - UpcomingMatchesCount: 0  localLiveMatchesCount: 48  2023/01/23 17:55:37
+2023-01-23 17:55:55,752 [main] FATAL craftBetWorld - UpcomingMatchesCount: 0  localLiveMatchesCount: 49  2023/01/23 17:55:55
+2023-01-23 17:56:13,370 [main] FATAL craftBetWorld - UpcomingMatchesCount: 0  localLiveMatchesCount: 49  2023/01/23 17:56:13
+2023-01-23 17:56:30,938 [main] FATAL craftBetWorld - UpcomingMatchesCount: 0  localLiveMatchesCount: 49  2023/01/23 17:56:30
+2023-01-23 17:56:48,976 [main] FATAL craftBetWorld - UpcomingMatchesCount: 0  localLiveMatchesCount: 49  2023/01/23 17:56:48
+2023-01-23 17:57:07,189 [main] FATAL craftBetWorld - UpcomingMatchesCount: 0  localLiveMatchesCount: 49  2023/01/23 17:57:07
+2023-01-23 17:57:26,554 [main] FATAL craftBetWorld - UpcomingMatchesCount: 0  localLiveMatchesCount: 50  2023/01/23 17:57:26
+2023-01-23 17:57:44,432 [main] FATAL craftBetWorld - UpcomingMatchesCount: 0  localLiveMatchesCount: 50  2023/01/23 17:57:44
+2023-01-23 17:58:01,868 [main] FATAL craftBetWorld - UpcomingMatchesCount: 0  localLiveMatchesCount: 50  2023/01/23 17:58:01
+2023-01-23 17:58:20,274 [main] FATAL craftBetWorld - UpcomingMatchesCount: 0  localLiveMatchesCount: 50  2023/01/23 17:58:20
+2023-01-23 17:58:38,396 [main] FATAL craftBetWorld - UpcomingMatchesCount: 0  localLiveMatchesCount: 50  2023/01/23 17:58:38
+2023-01-23 17:58:57,414 [main] FATAL craftBetWorld - UpcomingMatchesCount: 0  localLiveMatchesCount: 49  2023/01/23 17:58:57
+2023-01-23 17:59:14,957 [main] FATAL craftBetWorld - UpcomingMatchesCount: 0  localLiveMatchesCount: 51  2023/01/23 17:59:14
+2023-01-23 17:59:32,560 [main] FATAL craftBetWorld - UpcomingMatchesCount: 0  localLiveMatchesCount: 51  2023/01/23 17:59:32
+2023-01-23 17:59:51,538 [main] FATAL craftBetWorld - UpcomingMatchesCount: 0  localLiveMatchesCount: 52  2023/01/23 17:59:51
