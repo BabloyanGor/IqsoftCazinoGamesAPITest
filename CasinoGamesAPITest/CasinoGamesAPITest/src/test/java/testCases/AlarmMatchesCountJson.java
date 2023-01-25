@@ -363,7 +363,7 @@ public class AlarmMatchesCountJson {
         int preMatchesCount;
 
         final int xAxisLength = 300;
-        final int timeDelaySeconds = 12;
+        final int timeDelaySeconds = 300;
         float timeDelayMinutesVisualisation = (float) timeDelaySeconds / 60;
         DecimalFormat df = new DecimalFormat("#.#");
 
@@ -422,10 +422,10 @@ public class AlarmMatchesCountJson {
             localLiveMatchesCount = 0;
             liveMatchesCount = 0;
             preMatchesCount = 0;
-            int tempUpcomingMatchesCount = 0;
-            int tempLocalLiveMatchesCount = 0;
-            int tempLiveMatchesCount = 0;
-            int tempPreMatchesCount = 0;
+//            int tempUpcomingMatchesCount = 0;
+//            int tempLocalLiveMatchesCount = 0;
+//            int tempLiveMatchesCount = 0;
+//            int tempPreMatchesCount = 0;
 
 //            int collectForGraph = 5;
             try {
