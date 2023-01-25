@@ -1,13 +1,14 @@
 package Graphs;
-
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.Unirest;
 
 import java.awt.*;
-import java.util.Enumeration;
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLConnection;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.log4j.Appender;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.json.JSONArray;
@@ -15,8 +16,7 @@ import org.json.JSONObject;
 import org.knowm.xchart.QuickChart;
 import org.knowm.xchart.SwingWrapper;
 import org.knowm.xchart.XYChart;
-import org.knowm.xchart.style.theme.Theme;
-
+import org.knowm.xchart.style.Styler;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
@@ -29,7 +29,6 @@ import java.util.List;
 
 public class AlarmMatchesCountJson {
     public static Logger logger;
-
 
     static final int averageNum = 5;
     static final int compareUpcomingMatchesCount = 5;
@@ -98,24 +97,74 @@ public class AlarmMatchesCountJson {
         List<XYChart> charts = new ArrayList<>();
 
 
-        XYChart chartUpcoming = QuickChart.getChart("Upcoming matches count", "X: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Upcoming Matches", initDataUpcoming[0], initDataUpcoming[1]);
-        XYChart chartTopLive = QuickChart.getChart("Top Live matches count", "X: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Top Live Matches", initDataTopLive[0], initDataTopLive[1]);
-        XYChart chartLive = QuickChart.getChart("Live matches count", "X: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Live Matches", initDataLive[0], initDataLive[1]);
-        XYChart chartPreMatches = QuickChart.getChart("Pre matches count", "X division: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Pre Matches", initDataPreMatch[0], initDataPreMatch[1]);
-
-        chartUpcoming.getStyler().setCursorColor(Color.red);
+        XYChart chartUpcoming = QuickChart.getChart("Upcoming matches count", "X-Axis division: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Upcoming Matches", initDataUpcoming[0], initDataUpcoming[1]);
+        XYChart chartTopLive = QuickChart.getChart("Top Live matches count", "X-Axis division: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Top Live Matches", initDataTopLive[0], initDataTopLive[1]);
+        XYChart chartLive = QuickChart.getChart("Live matches count", "X-Axis division: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Live Matches", initDataLive[0], initDataLive[1]);
+        XYChart chartPreMatches = QuickChart.getChart("Pre matches count", "X-Axis division: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Pre Matches", initDataPreMatch[0], initDataPreMatch[1]);
 
         charts.add(chartUpcoming);
         charts.add(chartTopLive);
         charts.add(chartLive);
         charts.add(chartPreMatches);
 
+        //Styles for Chart
+//        chartUpcoming.getStyler().setCursorColor(Color.red);
+        chartUpcoming.getStyler().setPlotGridVerticalLinesVisible(true);
+        chartUpcoming.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
+        chartUpcoming.getStyler().setXAxisMax((double) xAxisLength);
+        chartUpcoming.getStyler().setXAxisMin(1.0);
+        chartUpcoming.getStyler().setToolTipsEnabled(true);
+        chartUpcoming.getStyler().setZoomEnabled(true);
+//        chartUpcoming.getStyler().setZoomResetByButton(true);
+        chartUpcoming.getStyler().setZoomResetByDoubleClick(true);
+        chartUpcoming.getStyler().setChartBackgroundColor(new Color(210,210,210));
+        chartUpcoming.getStyler().setLegendBackgroundColor(new Color(237, 236, 255));
+        chartUpcoming.getStyler().setCursorLineWidth(1.0f);
+
+
+        chartTopLive.getStyler().setPlotGridVerticalLinesVisible(true);
+        chartTopLive.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
+        chartTopLive.getStyler().setXAxisMax((double) xAxisLength);
+        chartTopLive.getStyler().setXAxisMin(1.0);
+        chartTopLive.getStyler().setToolTipsEnabled(true);
+        chartTopLive.getStyler().setZoomEnabled(true);
+//        chartTopLive.getStyler().setZoomResetByButton(true);
+        chartTopLive.getStyler().setZoomResetByDoubleClick(true);
+        chartTopLive.getStyler().setChartBackgroundColor(new Color(210,210,210));
+        chartTopLive.getStyler().setLegendBackgroundColor(new Color(237, 236, 255));
+        chartUpcoming.getStyler().setCursorLineWidth(1.0f);
+
+        chartLive.getStyler().setPlotGridVerticalLinesVisible(true);
+        chartLive.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
+        chartLive.getStyler().setXAxisMax((double) xAxisLength);
+        chartLive.getStyler().setXAxisMin(1.0);
+        chartLive.getStyler().setToolTipsEnabled(true);
+        chartLive.getStyler().setZoomEnabled(true);
+//        chartLive.getStyler().setZoomResetByButton(true);
+        chartLive.getStyler().setZoomResetByDoubleClick(true);
+        chartLive.getStyler().setChartBackgroundColor(new Color(210,210,210));
+        chartLive.getStyler().setLegendBackgroundColor(new Color(237, 236, 255));
+        chartUpcoming.getStyler().setCursorLineWidth(1.0f);
+
+        chartPreMatches.getStyler().setPlotGridVerticalLinesVisible(true);
+        chartPreMatches.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
+        chartPreMatches.getStyler().setXAxisMax((double) xAxisLength);
+        chartPreMatches.getStyler().setXAxisMin(1.0);
+        chartPreMatches.getStyler().setToolTipsEnabled(true);
+        chartPreMatches.getStyler().setZoomEnabled(true);
+//        chartPreMatches.getStyler().setZoomResetByButton(true);
+        chartPreMatches.getStyler().setZoomResetByDoubleClick(true);
+        chartPreMatches.getStyler().setChartBackgroundColor(new Color(210,210,210));
+        chartPreMatches.getStyler().setLegendBackgroundColor(new Color(237, 236, 255));
+        chartUpcoming.getStyler().setCursorLineWidth(1.0f);
+
         // Show it
         SwingWrapper<XYChart> sw = new SwingWrapper<>(charts);
         sw.setTitle("IQ-Soft Matches Count Graph    StartTime: " + currentTime());
+
         sw.displayChartMatrix();
 
-        int k=0;
+        int k;
 
 
 
@@ -132,24 +181,23 @@ public class AlarmMatchesCountJson {
                 for (k=1; k<=averageNum; k++){
                     tempUpcomingSportsLocal = 0;
                     tempTopLiveMatchesCount = 0;
-                    tempLiveMatchesCount = 0;
-                    tempPreMatchesCount = 0;
                     upcomingSportsLocal = getUpcomingSportsIDs();
-                    for (String id : upcomingSportsLocal) {
-                        tempUpcomingSportsLocal += getUpcomingMatchesCount(id);
-//                        upcomingMatchesCount += getUpcomingMatchesCount(id);
+                    if (upcomingSportsLocal!=null){
+                        for (String id : upcomingSportsLocal) {
+                            tempUpcomingSportsLocal += getUpcomingMatchesCount(id);
+                        }
                     }
+
 
                     liveSportsTop = getLiveSportsIDs();
-                    for (String id : liveSportsTop) {
-                        tempTopLiveMatchesCount += getLocalLifeMatchesCount(id);
-//                        topLiveMatchesCount += getLocalLifeMatchesCount(id);
+                    if (liveSportsTop!=null){
+                        for (String id : liveSportsTop) {
+                            tempTopLiveMatchesCount += getLocalLifeMatchesCount(id);
+                        }
                     }
+
                     tempLiveMatchesCount = getLifeMatchesCount();
                     tempPreMatchesCount = getPreMatchMatchesCount();
-//                    liveMatchesCount = getLifeMatchesCount();
-//                    preMatchesCount = getPreMatchMatchesCount();
-
 
                     upcomingMatchesCount += tempUpcomingSportsLocal;
                     topLiveMatchesCount += tempTopLiveMatchesCount;
@@ -169,9 +217,6 @@ public class AlarmMatchesCountJson {
                         preMatchesCount = preMatchesCount/averageNum;
                     }
                 }
-
-
-
 
                 //Creating arrays that contain last Matches Count Values
 
@@ -201,11 +246,6 @@ public class AlarmMatchesCountJson {
                 // Update charts
 
                 chartUpcoming.updateXYSeries("Upcoming Matches", null, upcomingMatchesCountArray, null);
-//                chartUpcoming.getStyler().setChartFontColor(Color.red);
-//                chartUpcoming.getStyler().setCursorBackgroundColor(Color.red);
-
-
-
                 chartTopLive.updateXYSeries("Top Live Matches", null, topLiveMatchesCountArray, null);
                 chartLive.updateXYSeries("Live Matches", null, liveMatchesCountArray, null);
                 chartPreMatches.updateXYSeries("Pre Matches", null, preMatchMatchesCountArray, null);
@@ -219,64 +259,68 @@ public class AlarmMatchesCountJson {
                 if (upcomingMatchesCount < compareUpcomingMatchesCount) {
 //                    responseCod = 1000;
 //                    description = "Upcoming Matches count is less then: " + compareUpcomingMatchesCount;
-                    chartUpcoming.getStyler().setChartBackgroundColor(Color.red);
+                    chartUpcoming.getStyler().setChartBackgroundColor(new Color(255, 68, 68));
                     alarmOnUpcoming = true;
+                    logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
+                            + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount );
+                    playSoundUpcoming();
 //                    logger.error("Upcoming Matches count is: " + upcomingMatchesCount);
-                } else if (topLiveMatchesCount < compareTopLifeMatchesCount) {
+                } if (topLiveMatchesCount < compareTopLifeMatchesCount) {
 //                    responseCod = 1001;
 //                    description = "Local Life Matches count is less then: " + compareTopLifeMatchesCount;
-                    chartTopLive.getStyler().setChartBackgroundColor(Color.red);
+                    chartTopLive.getStyler().setChartBackgroundColor(new Color(255, 68, 68));
                     alarmOnTopLive = true;
+                    logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
+                            + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount );
+                    playSoundTopLive();
 //                    logger.error("Local Life Matches count is: " + topLiveMatchesCount);
-                } else if (liveMatchesCount < compareLifeMatchesCount) {
+                } if (liveMatchesCount < compareLifeMatchesCount) {
 //                    responseCod = 1002;
 //                    description = "Life Matches count is less then: " + compareLifeMatchesCount;
-                    chartLive.getStyler().setChartBackgroundColor(Color.red);
+                    chartLive.getStyler().setChartBackgroundColor(new Color(255, 68, 68));
                     alarmOnLive = true;
+                    logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
+                            + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount );
+                    playSoundLive();
 //                    logger.error("Life Matches count is: " + liveMatchesCount);
-                } else if (preMatchesCount < comparePreMatchesCount) {
+                } if (preMatchesCount < comparePreMatchesCount) {
 //                    responseCod = 1003;
 //                    description = "Pre Matches count is less then: " + comparePreMatchesCount;
-                    chartPreMatches.getStyler().setChartBackgroundColor(Color.red);
+                    chartPreMatches.getStyler().setChartBackgroundColor(new Color(255, 68, 68));
                     alarmOnPreMatch = true;
+                    logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
+                            + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount );
+                    playSoundPreMatch();
 //                    logger.error("Pre Matches count is: " + preMatchesCount);
-                } else {
+                } if (upcomingMatchesCount >= compareUpcomingMatchesCount && topLiveMatchesCount >= compareTopLifeMatchesCount
+                        &&liveMatchesCount >= compareLifeMatchesCount && preMatchesCount >= comparePreMatchesCount){
 //                    responseCod = 0;
 //                    description = "null";
-                    chartUpcoming.getStyler().setChartBackgroundColor(Color.lightGray);
-                    chartLive.getStyler().setChartBackgroundColor(Color.lightGray);
-                    chartTopLive.getStyler().setChartBackgroundColor(Color.lightGray);
-                    chartPreMatches.getStyler().setChartBackgroundColor(Color.lightGray);
+                    chartUpcoming.getStyler().setChartBackgroundColor(new Color(210,210,210));
+                    chartLive.getStyler().setChartBackgroundColor(new Color(210,210,210));
+                    chartTopLive.getStyler().setChartBackgroundColor(new Color(210,210,210));
+                    chartPreMatches.getStyler().setChartBackgroundColor(new Color(210,210,210));
                     alarmOnUpcoming = false;
                     alarmOnTopLive = false;
                     alarmOnLive = false;
                     alarmOnPreMatch = false;
                 }
 
-
-
                 // When alarm is on play specific sound
 
                 if (alarmOnUpcoming) {
-                    logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
-                            + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount + "  " + currentTime());
                     playSoundUpcoming();
-                } else if (alarmOnTopLive) {
-                    logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
-                            + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount + "  " + currentTime());
-                    playSoundTopLive();
-                } else if (alarmOnLive) {
-                    logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
-                            + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount + "  " + currentTime());
-                    playSoundLive();
-                } else if (alarmOnPreMatch) {
-                    logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
-                            + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount + "  " + currentTime());
-                    playSoundPreMatch();
-                } else {
-//                    logger.info("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
-//                            + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount + "  " + currentTime());
                 }
+                else if (alarmOnPreMatch) {
+                    playSoundPreMatch();
+                }
+                else if (alarmOnTopLive) {
+                    playSoundTopLive();
+                }
+                else if (alarmOnLive) {
+                   playSoundLive();
+                }
+
 
 
 
@@ -290,7 +334,6 @@ public class AlarmMatchesCountJson {
 
 
     }
-
 
     public static void playSoundUpcoming() {
         try {
@@ -392,13 +435,25 @@ public class AlarmMatchesCountJson {
         }
     }
 
-
     public static String currentTime() {
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
         LocalDateTime dateTimeNow = LocalDateTime.now();
         return dtf.format(dateTimeNow);
     }
 
+    private static boolean netIsAvailable() {
+        try {
+            final URL url = new URL("http://www.google.com");
+            final URLConnection conn = url.openConnection();
+            conn.connect();
+            conn.getInputStream().close();
+            return true;
+        } catch (MalformedURLException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            return false;
+        }
+    }
 
     public static ArrayList<String> getUpcomingSportsIDs() {
         ArrayList<String> upcomingSportsIDs = new ArrayList<>();
@@ -511,11 +566,7 @@ public class AlarmMatchesCountJson {
                 String first = String.valueOf(jsonArraySports.get(i));
                 JSONObject jsonObjectGame = new JSONObject(first);
                 String id = String.valueOf(jsonObjectGame.get("Id"));
-                String name = String.valueOf(jsonObjectGame.get("Name"));
                 liveSportsIDs.add(id);
-//                liveSportsNames.add(name);
-
-
             }
             return liveSportsIDs;
 
