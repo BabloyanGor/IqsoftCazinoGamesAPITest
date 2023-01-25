@@ -27,9 +27,6 @@ import java.util.List;
 
 public class AlarmMatchesCountJson {
     public static Logger logger;
-    public static int delayTime = 5;
-
-    static boolean firstCall = true;
 
     AlarmMatchesCountJson() {
         logger = Logger.getLogger("craftBetWorld");
@@ -42,17 +39,19 @@ public class AlarmMatchesCountJson {
 //        ScheduledExecutorService service = Executors.newSingleThreadScheduledExecutor();
 //        service.schedule(AlarmMatchesCountJson::getMatchesCount,delayTime ,TimeUnit.SECONDS);
         getMatchesCount();
-
     }
 
 
     public static void getMatchesCount() {
         int responseCod = 0;
         String description = null;
-        boolean alarmOn = false;
+        boolean alarmOnUpcoming = false;
+        boolean alarmOnPreMatch = false;
+        boolean alarmOnTopLive = false;
+        boolean alarmOnLive = false;
 
         int upcomingMatchesCount;
-        int localLiveMatchesCount;
+        int topLiveMatchesCount;
         int liveMatchesCount;
         int preMatchesCount;
 
@@ -106,28 +105,31 @@ public class AlarmMatchesCountJson {
 
         while (true) {
             upcomingMatchesCount = 0;
-            localLiveMatchesCount = 0;
+            topLiveMatchesCount = 0;
             liveMatchesCount = 0;
             preMatchesCount = 0;
 
             try {
 
+                // Get Matches count
                 upcomingSportsLocal = getUpcomingSportsIDs();
                 for (String id : upcomingSportsLocal) {
                     upcomingMatchesCount += getUpcomingMatchesCount(id);
                 }
-
                 liveSportsTop = getLiveSportsIDs();
                 for (String id : liveSportsTop) {
-                    localLiveMatchesCount += getLocalLifeMatchesCount(id);
+                    topLiveMatchesCount += getLocalLifeMatchesCount(id);
                 }
-
                 liveMatchesCount = getLifeMatchesCount();
                 preMatchesCount = getPreMatchMatchesCount();
 
+
+
+                //Creating arrays that contain last Matches Count Values
+
                 if (p < upcomingMatchesCountArray.length) {
                     upcomingMatchesCountArray[p] = upcomingMatchesCount;
-                    topLiveMatchesCountArray[p] = localLiveMatchesCount;
+                    topLiveMatchesCountArray[p] = topLiveMatchesCount;
                     liveMatchesCountArray[p] = liveMatchesCount;
                     preMatchMatchesCountArray[p] = preMatchesCount;
                     p++;
@@ -141,11 +143,14 @@ public class AlarmMatchesCountJson {
                         preMatchMatchesCountArray[i - 1] = preMatchMatchesCountArray[i];
                     }
                     upcomingMatchesCountArray[lastArrayItem] = upcomingMatchesCount;
-                    topLiveMatchesCountArray[lastArrayItem] = localLiveMatchesCount;
+                    topLiveMatchesCountArray[lastArrayItem] = topLiveMatchesCount;
                     liveMatchesCountArray[lastArrayItem] = liveMatchesCount;
                     preMatchMatchesCountArray[lastArrayItem] = preMatchesCount;
                 }
 
+
+
+                // Update charts
 
                 chartUpcoming.updateXYSeries("Upcoming Matches", null, upcomingMatchesCountArray, null);
                 chartTopLive.updateXYSeries("Top Live Matches", null, topLiveMatchesCountArray, null);
@@ -156,39 +161,63 @@ public class AlarmMatchesCountJson {
                 }
 
 
+                //Compare Count matches and turn on alarm  if needed
+
                 if (upcomingMatchesCount < compareUpcomingMatchesCount) {
-                    responseCod = 1000;
-                    description = "Upcoming Matches count is less then: " + compareUpcomingMatchesCount;
-                    alarmOn = true;
+//                    responseCod = 1000;
+//                    description = "Upcoming Matches count is less then: " + compareUpcomingMatchesCount;
+                    alarmOnUpcoming = true;
 //                    logger.error("Upcoming Matches count is: " + upcomingMatchesCount);
-                } else if (localLiveMatchesCount < compareTopLifeMatchesCount) {
-                    responseCod = 1001;
-                    description = "Local Life Matches count is less then: " + compareTopLifeMatchesCount;
-                    alarmOn = true;
-//                    logger.error("Local Life Matches count is: " + localLiveMatchesCount);
+                } else if (topLiveMatchesCount < compareTopLifeMatchesCount) {
+//                    responseCod = 1001;
+//                    description = "Local Life Matches count is less then: " + compareTopLifeMatchesCount;
+                    alarmOnTopLive = true;
+//                    logger.error("Local Life Matches count is: " + topLiveMatchesCount);
                 } else if (liveMatchesCount < compareLifeMatchesCount) {
-                    responseCod = 1002;
-                    description = "Life Matches count is less then: " + compareLifeMatchesCount;
-                    alarmOn = true;
+//                    responseCod = 1002;
+//                    description = "Life Matches count is less then: " + compareLifeMatchesCount;
+                    alarmOnLive = true;
 //                    logger.error("Life Matches count is: " + liveMatchesCount);
                 } else if (preMatchesCount < comparePreMatchesCount) {
-                    responseCod = 1003;
-                    description = "Pre Matches count is less then: " + comparePreMatchesCount;
-                    alarmOn = true;
+//                    responseCod = 1003;
+//                    description = "Pre Matches count is less then: " + comparePreMatchesCount;
+                    alarmOnPreMatch = true;
 //                    logger.error("Pre Matches count is: " + preMatchesCount);
                 } else {
                     responseCod = 0;
-                    description = "null";
-                    alarmOn = false;
+//                    description = "null";
+                    alarmOnUpcoming = false;
+                    alarmOnTopLive = false;
+                    alarmOnLive = false;
+                    alarmOnPreMatch = false;
                 }
-                if (alarmOn) {
-                    logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  localLiveMatchesCount: " + localLiveMatchesCount + "  "
+
+
+
+                // When alarm is on play specific sound
+
+                if (alarmOnUpcoming) {
+                    logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
                             + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount + "  " + currentTime());
-                    playSound();
+                    playSoundUpcoming();
+                } else if (alarmOnTopLive) {
+                    logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
+                            + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount + "  " + currentTime());
+                    playSoundTopLive();
+                } else if (alarmOnLive) {
+                    logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
+                            + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount + "  " + currentTime());
+                    playSoundLive();
+                } else if (alarmOnPreMatch) {
+                    logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
+                            + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount + "  " + currentTime());
+                    playSoundPreMatch();
                 } else {
-                    logger.info("UpcomingMatchesCount: " + upcomingMatchesCount + "  localLiveMatchesCount: " + localLiveMatchesCount + "  "
+                    logger.info("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
                             + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount + "  " + currentTime());
                 }
+
+
 
                 TimeUnit.SECONDS.sleep(timeDelaySeconds);
 
@@ -202,7 +231,7 @@ public class AlarmMatchesCountJson {
     }
 
 
-    public static void playSound() {
+    public static void playSoundUpcoming() {
         try {
             String path = System.getProperty("user.dir") + "\\src\\test\\java\\mp3\\1.wav";
 //            String bip = path;
@@ -226,6 +255,82 @@ public class AlarmMatchesCountJson {
 
         }
     }
+
+    public static void playSoundPreMatch() {
+        try {
+            String path = System.getProperty("user.dir") + "\\src\\test\\java\\mp3\\1.wav";
+//            String bip = path;
+//            Media hit = new Media(new File(bip).toURI().toString());
+//            com.sun.javafx.application.PlatformImpl.startup(()->{});
+//
+//            MediaPlayer mediaPlayer = new MediaPlayer(hit);
+//            mediaPlayer.play();
+//            com.sun.javafx.application.PlatformImpl.exit();
+            int i = 0;
+            while (i < 2) {
+                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File(path).getAbsoluteFile());
+                Clip clip = AudioSystem.getClip();
+                clip.open(audioInputStream);
+                clip.start();
+                TimeUnit.SECONDS.sleep(7);
+                i++;
+            }
+        } catch (Exception ex) {
+            logger.fatal("Exception with playing sound: " + ex);
+
+        }
+    }
+
+    public static void playSoundTopLive() {
+        try {
+            String path = System.getProperty("user.dir") + "\\src\\test\\java\\mp3\\1.wav";
+//            String bip = path;
+//            Media hit = new Media(new File(bip).toURI().toString());
+//            com.sun.javafx.application.PlatformImpl.startup(()->{});
+//
+//            MediaPlayer mediaPlayer = new MediaPlayer(hit);
+//            mediaPlayer.play();
+//            com.sun.javafx.application.PlatformImpl.exit();
+            int i = 0;
+            while (i < 2) {
+                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File(path).getAbsoluteFile());
+                Clip clip = AudioSystem.getClip();
+                clip.open(audioInputStream);
+                clip.start();
+                TimeUnit.SECONDS.sleep(7);
+                i++;
+            }
+        } catch (Exception ex) {
+            logger.fatal("Exception with playing sound: " + ex);
+
+        }
+    }
+
+    public static void playSoundLive() {
+        try {
+            String path = System.getProperty("user.dir") + "\\src\\test\\java\\mp3\\1.wav";
+//            String bip = path;
+//            Media hit = new Media(new File(bip).toURI().toString());
+//            com.sun.javafx.application.PlatformImpl.startup(()->{});
+//
+//            MediaPlayer mediaPlayer = new MediaPlayer(hit);
+//            mediaPlayer.play();
+//            com.sun.javafx.application.PlatformImpl.exit();
+            int i = 0;
+            while (i < 2) {
+                AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File(path).getAbsoluteFile());
+                Clip clip = AudioSystem.getClip();
+                clip.open(audioInputStream);
+                clip.start();
+                TimeUnit.SECONDS.sleep(7);
+                i++;
+            }
+        } catch (Exception ex) {
+            logger.fatal("Exception with playing sound: " + ex);
+
+        }
+    }
+
 
     public static String currentTime() {
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
