@@ -42,7 +42,6 @@ public class AlarmMatchesCountJson {
 
     }
 
-
     public ArrayList<String> getUpcomingSportsIDs() {
         ArrayList<String> upcomingSportsIDs = new ArrayList<>();
 //        ArrayList<String> upcomingSportsNames = new ArrayList<>();
@@ -63,7 +62,7 @@ public class AlarmMatchesCountJson {
                 String first = String.valueOf(jsonArraySports.get(i));
                 JSONObject jsonObjectGame = new JSONObject(first);
                 String id = String.valueOf(jsonObjectGame.get("Id"));
-                String name = String.valueOf(jsonObjectGame.get("Name"));
+//                String name = String.valueOf(jsonObjectGame.get("Name"));
                 upcomingSportsIDs.add(id);
 //                upcomingSportsNames.add(name);
             }
@@ -363,7 +362,7 @@ public class AlarmMatchesCountJson {
         int preMatchesCount;
 
         final int xAxisLength = 300;
-        final int timeDelaySeconds = 12;
+        final int timeDelaySeconds = 1;
         float timeDelayMinutesVisualisation = (float) timeDelaySeconds / 60;
         DecimalFormat df = new DecimalFormat("#.#");
 
@@ -422,10 +421,6 @@ public class AlarmMatchesCountJson {
             localLiveMatchesCount = 0;
             liveMatchesCount = 0;
             preMatchesCount = 0;
-            int tempUpcomingMatchesCount = 0;
-            int tempLocalLiveMatchesCount = 0;
-            int tempLiveMatchesCount = 0;
-            int tempPreMatchesCount = 0;
 
 //            int collectForGraph = 5;
             try {
@@ -550,7 +545,6 @@ public class AlarmMatchesCountJson {
 //                jsonObjectMain.put("DateTime", currentTime());
 //                jsonObjectMain.put("MatchesCount", jsonResponseObject);
 //                logger.info(jsonObjectMain);
-
                 if (alarmOn) {
                     logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  localLiveMatchesCount: " + localLiveMatchesCount + "  "
                             + "  liveMatchesCount: " + liveMatchesCount + "  "+ "  preMatchesCount: " + preMatchesCount + "  "+ currentTime());
@@ -563,7 +557,13 @@ public class AlarmMatchesCountJson {
 
                 TimeUnit.SECONDS.sleep(timeDelaySeconds);
 
-            } catch (Exception e) {
+            }
+
+
+
+
+
+            catch (Exception e) {
                 logger.fatal("Exception on while loop: " + e);
             }
 //            System.out.println();
