@@ -3,8 +3,6 @@ import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.Unirest;
 
 import java.awt.*;
-import java.io.IOException;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.concurrent.TimeUnit;
@@ -30,13 +28,13 @@ import java.util.List;
 public class AlarmMatchesCountJson {
     public static Logger logger;
 
-    static final int averageNum = 5;
+    static final int averageNum = 1;
     static final int compareUpcomingMatchesCount = 5;
     static final int compareTopLifeMatchesCount = 1;
     static final int compareLifeMatchesCount = 1;
     static final int comparePreMatchesCount = 1;
-    static final int xAxisLength = 300;
-    static final int timeDelaySeconds = 60;
+    static final int xAxisLength = 50;
+    static final int timeDelaySeconds = 1;
 
 
     AlarmMatchesCountJson() {
@@ -44,11 +42,16 @@ public class AlarmMatchesCountJson {
         PropertyConfigurator.configure("log4j.properties");
     }
 
+    public static void loggerSetUp(){
+        logger = Logger.getLogger("craftBetWorld");
+        PropertyConfigurator.configure("log4j.properties");
+    }
     public static void main(String[] args) {
-        AlarmMatchesCountJson alarmMatchesCountJson = new AlarmMatchesCountJson();
+//        AlarmMatchesCountJson alarmMatchesCountJson = new AlarmMatchesCountJson();
 
 //        ScheduledExecutorService service = Executors.newSingleThreadScheduledExecutor();
 //        service.schedule(AlarmMatchesCountJson::getMatchesCount,delayTime ,TimeUnit.SECONDS);
+        loggerSetUp();
         getMatchesCount();
     }
 
@@ -166,173 +169,163 @@ public class AlarmMatchesCountJson {
 
         int k;
 
-
-
-
         while (true) {
-            upcomingMatchesCount = 0;
-            topLiveMatchesCount = 0;
-            liveMatchesCount = 0;
-            preMatchesCount = 0;
 
             try {
+                    upcomingMatchesCount = 0;
+                    topLiveMatchesCount = 0;
+                    liveMatchesCount = 0;
+                    preMatchesCount = 0;
 
-                //get matches count (graph will show average of calls averageNum times )
-                for (k=1; k<=averageNum; k++){
-                    tempUpcomingSportsLocal = 0;
-                    tempTopLiveMatchesCount = 0;
-                    upcomingSportsLocal = getUpcomingSportsIDs();
-                    if (upcomingSportsLocal!=null){
-                        for (String id : upcomingSportsLocal) {
-                            tempUpcomingSportsLocal += getUpcomingMatchesCount(id);
+                    //get matches count (graph will show average of calls averageNum times )
+                    for (k=1; k<=averageNum; k++){
+                        tempUpcomingSportsLocal = 0;
+                        tempTopLiveMatchesCount = 0;
+                        upcomingSportsLocal = getUpcomingSportsIDs();
+                        if (upcomingSportsLocal!=null){
+                            for (String id : upcomingSportsLocal) {
+                                    tempUpcomingSportsLocal += getUpcomingMatchesCount(id);
+                            }
+                        }
+
+
+                        liveSportsTop = getLiveSportsIDs();
+                        if (liveSportsTop!=null){
+                            for (String id : liveSportsTop) {
+                                    tempTopLiveMatchesCount += getLocalLifeMatchesCount(id);
+                            }
+                        }
+
+
+                        tempLiveMatchesCount = getLifeMatchesCount();
+                        tempPreMatchesCount = getPreMatchMatchesCount();
+
+                        upcomingMatchesCount += tempUpcomingSportsLocal;
+                        topLiveMatchesCount += tempTopLiveMatchesCount;
+                        liveMatchesCount += tempLiveMatchesCount;
+                        preMatchesCount += tempPreMatchesCount;
+
+
+                        logger.info("UpcomingMatchesCount: " + tempUpcomingSportsLocal + "  topLiveMatchesCount: " + tempTopLiveMatchesCount + "  "
+                                + "  liveMatchesCount: " + tempLiveMatchesCount + "  " + "  preMatchesCount: " + tempPreMatchesCount );
+
+                        TimeUnit.SECONDS.sleep(timeDelaySeconds);
+
+                        if (k==averageNum){
+                            upcomingMatchesCount = upcomingMatchesCount/averageNum;
+                            topLiveMatchesCount = topLiveMatchesCount/averageNum;
+                            liveMatchesCount = liveMatchesCount/averageNum;
+                            preMatchesCount = preMatchesCount/averageNum;
                         }
                     }
 
+                    //Creating arrays that contain last Matches Count Values
 
-                    liveSportsTop = getLiveSportsIDs();
-                    if (liveSportsTop!=null){
-                        for (String id : liveSportsTop) {
-                            tempTopLiveMatchesCount += getLocalLifeMatchesCount(id);
+                    if (p < upcomingMatchesCountArray.length) {
+                        upcomingMatchesCountArray[p] = upcomingMatchesCount;
+                        topLiveMatchesCountArray[p] = topLiveMatchesCount;
+                        liveMatchesCountArray[p] = liveMatchesCount;
+                        preMatchMatchesCountArray[p] = preMatchesCount;
+                        p++;
+                    } else {
+                        int lastArrayItem = p - 1;
+
+                        for (int i = 1; i < upcomingMatchesCountArray.length; i++) {
+                            upcomingMatchesCountArray[i - 1] = upcomingMatchesCountArray[i];
+                            topLiveMatchesCountArray[i - 1] = topLiveMatchesCountArray[i];
+                            liveMatchesCountArray[i - 1] = liveMatchesCountArray[i];
+                            preMatchMatchesCountArray[i - 1] = preMatchMatchesCountArray[i];
                         }
+                        upcomingMatchesCountArray[lastArrayItem] = upcomingMatchesCount;
+                        topLiveMatchesCountArray[lastArrayItem] = topLiveMatchesCount;
+                        liveMatchesCountArray[lastArrayItem] = liveMatchesCount;
+                        preMatchMatchesCountArray[lastArrayItem] = preMatchesCount;
                     }
 
-                    tempLiveMatchesCount = getLifeMatchesCount();
-                    tempPreMatchesCount = getPreMatchMatchesCount();
+                    // Update charts
 
-                    upcomingMatchesCount += tempUpcomingSportsLocal;
-                    topLiveMatchesCount += tempTopLiveMatchesCount;
-                    liveMatchesCount += tempLiveMatchesCount;
-                    preMatchesCount += tempPreMatchesCount;
-
-
-                    logger.info("UpcomingMatchesCount: " + tempUpcomingSportsLocal + "  topLiveMatchesCount: " + tempTopLiveMatchesCount + "  "
-                            + "  liveMatchesCount: " + tempLiveMatchesCount + "  " + "  preMatchesCount: " + tempPreMatchesCount + "  " + currentTime());
-
-                    TimeUnit.SECONDS.sleep(timeDelaySeconds);
-
-                    if (k==averageNum){
-                        upcomingMatchesCount = upcomingMatchesCount/averageNum;
-                        topLiveMatchesCount = topLiveMatchesCount/averageNum;
-                        liveMatchesCount = liveMatchesCount/averageNum;
-                        preMatchesCount = preMatchesCount/averageNum;
+                    chartUpcoming.updateXYSeries("Upcoming Matches", null, upcomingMatchesCountArray, null);
+                    chartTopLive.updateXYSeries("Top Live Matches", null, topLiveMatchesCountArray, null);
+                    chartLive.updateXYSeries("Live Matches", null, liveMatchesCountArray, null);
+                    chartPreMatches.updateXYSeries("Pre Matches", null, preMatchMatchesCountArray, null);
+                    for (int l = 0; l < charts.size(); l++) {
+                        sw.repaintChart(l);
                     }
-                }
-
-                //Creating arrays that contain last Matches Count Values
-
-                if (p < upcomingMatchesCountArray.length) {
-                    upcomingMatchesCountArray[p] = upcomingMatchesCount;
-                    topLiveMatchesCountArray[p] = topLiveMatchesCount;
-                    liveMatchesCountArray[p] = liveMatchesCount;
-                    preMatchMatchesCountArray[p] = preMatchesCount;
-                    p++;
-                } else {
-                    int lastArrayItem = p - 1;
-
-                    for (int i = 1; i < upcomingMatchesCountArray.length; i++) {
-                        upcomingMatchesCountArray[i - 1] = upcomingMatchesCountArray[i];
-                        topLiveMatchesCountArray[i - 1] = topLiveMatchesCountArray[i];
-                        liveMatchesCountArray[i - 1] = liveMatchesCountArray[i];
-                        preMatchMatchesCountArray[i - 1] = preMatchMatchesCountArray[i];
-                    }
-                    upcomingMatchesCountArray[lastArrayItem] = upcomingMatchesCount;
-                    topLiveMatchesCountArray[lastArrayItem] = topLiveMatchesCount;
-                    liveMatchesCountArray[lastArrayItem] = liveMatchesCount;
-                    preMatchMatchesCountArray[lastArrayItem] = preMatchesCount;
-                }
 
 
+                    //Compare Count matches and turn on alarm  if needed
 
-                // Update charts
-
-                chartUpcoming.updateXYSeries("Upcoming Matches", null, upcomingMatchesCountArray, null);
-                chartTopLive.updateXYSeries("Top Live Matches", null, topLiveMatchesCountArray, null);
-                chartLive.updateXYSeries("Live Matches", null, liveMatchesCountArray, null);
-                chartPreMatches.updateXYSeries("Pre Matches", null, preMatchMatchesCountArray, null);
-                for (int l = 0; l < charts.size(); l++) {
-                    sw.repaintChart(l);
-                }
-
-
-                //Compare Count matches and turn on alarm  if needed
-
-                if (upcomingMatchesCount < compareUpcomingMatchesCount) {
+                    if (upcomingMatchesCount < compareUpcomingMatchesCount) {
 //                    responseCod = 1000;
 //                    description = "Upcoming Matches count is less then: " + compareUpcomingMatchesCount;
-                    chartUpcoming.getStyler().setChartBackgroundColor(new Color(255, 68, 68));
-                    alarmOnUpcoming = true;
-                    logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
-                            + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount );
-                    playSoundUpcoming();
+                        chartUpcoming.getStyler().setChartBackgroundColor(new Color(255, 68, 68));
+                        alarmOnUpcoming = true;
+                        logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
+                                + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount );
+                        playSoundUpcoming();
 //                    logger.error("Upcoming Matches count is: " + upcomingMatchesCount);
-                } if (topLiveMatchesCount < compareTopLifeMatchesCount) {
+                    } if (topLiveMatchesCount < compareTopLifeMatchesCount) {
 //                    responseCod = 1001;
 //                    description = "Local Life Matches count is less then: " + compareTopLifeMatchesCount;
-                    chartTopLive.getStyler().setChartBackgroundColor(new Color(255, 68, 68));
-                    alarmOnTopLive = true;
-                    logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
-                            + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount );
-                    playSoundTopLive();
+                        chartTopLive.getStyler().setChartBackgroundColor(new Color(255, 68, 68));
+                        alarmOnTopLive = true;
+                        logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
+                                + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount );
+                        playSoundTopLive();
 //                    logger.error("Local Life Matches count is: " + topLiveMatchesCount);
-                } if (liveMatchesCount < compareLifeMatchesCount) {
+                    } if (liveMatchesCount < compareLifeMatchesCount) {
 //                    responseCod = 1002;
 //                    description = "Life Matches count is less then: " + compareLifeMatchesCount;
-                    chartLive.getStyler().setChartBackgroundColor(new Color(255, 68, 68));
-                    alarmOnLive = true;
-                    logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
-                            + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount );
-                    playSoundLive();
+                        chartLive.getStyler().setChartBackgroundColor(new Color(255, 68, 68));
+                        alarmOnLive = true;
+                        logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
+                                + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount );
+                        playSoundLive();
 //                    logger.error("Life Matches count is: " + liveMatchesCount);
-                } if (preMatchesCount < comparePreMatchesCount) {
+                    } if (preMatchesCount < comparePreMatchesCount) {
 //                    responseCod = 1003;
 //                    description = "Pre Matches count is less then: " + comparePreMatchesCount;
-                    chartPreMatches.getStyler().setChartBackgroundColor(new Color(255, 68, 68));
-                    alarmOnPreMatch = true;
-                    logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
-                            + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount );
-                    playSoundPreMatch();
+                        chartPreMatches.getStyler().setChartBackgroundColor(new Color(255, 68, 68));
+                        alarmOnPreMatch = true;
+                        logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
+                                + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount );
+                        playSoundPreMatch();
 //                    logger.error("Pre Matches count is: " + preMatchesCount);
-                } if (upcomingMatchesCount >= compareUpcomingMatchesCount && topLiveMatchesCount >= compareTopLifeMatchesCount
-                        &&liveMatchesCount >= compareLifeMatchesCount && preMatchesCount >= comparePreMatchesCount){
+                    } if (upcomingMatchesCount >= compareUpcomingMatchesCount && topLiveMatchesCount >= compareTopLifeMatchesCount
+                            &&liveMatchesCount >= compareLifeMatchesCount && preMatchesCount >= comparePreMatchesCount){
 //                    responseCod = 0;
 //                    description = "null";
-                    chartUpcoming.getStyler().setChartBackgroundColor(new Color(210,210,210));
-                    chartLive.getStyler().setChartBackgroundColor(new Color(210,210,210));
-                    chartTopLive.getStyler().setChartBackgroundColor(new Color(210,210,210));
-                    chartPreMatches.getStyler().setChartBackgroundColor(new Color(210,210,210));
-                    alarmOnUpcoming = false;
-                    alarmOnTopLive = false;
-                    alarmOnLive = false;
-                    alarmOnPreMatch = false;
-                }
+                        chartUpcoming.getStyler().setChartBackgroundColor(new Color(210,210,210));
+                        chartLive.getStyler().setChartBackgroundColor(new Color(210,210,210));
+                        chartTopLive.getStyler().setChartBackgroundColor(new Color(210,210,210));
+                        chartPreMatches.getStyler().setChartBackgroundColor(new Color(210,210,210));
+                        alarmOnUpcoming = false;
+                        alarmOnTopLive = false;
+                        alarmOnLive = false;
+                        alarmOnPreMatch = false;
+                    }
 
-                // When alarm is on play specific sound
+                    // When alarm is on play specific sound
 
-                if (alarmOnUpcoming) {
-                    playSoundUpcoming();
-                }
-                else if (alarmOnPreMatch) {
-                    playSoundPreMatch();
-                }
-                else if (alarmOnTopLive) {
-                    playSoundTopLive();
-                }
-                else if (alarmOnLive) {
-                   playSoundLive();
-                }
+                    if (alarmOnUpcoming) {
+                        playSoundUpcoming();
+                    }
+                    else if (alarmOnPreMatch) {
+                        playSoundPreMatch();
+                    }
+                    else if (alarmOnTopLive) {
+                        playSoundTopLive();
+                    }
+                    else if (alarmOnLive) {
+                        playSoundLive();
+                    }
 
-
-
-
-//                TimeUnit.SECONDS.sleep(timeDelaySeconds);
 
             } catch (Exception e) {
-                logger.fatal("Exception on while loop: " + e);
+                logger.fatal("Exception on Main While loop: " + e);
             }
 //            System.out.println();
         }
-
-
     }
 
     public static void playSoundUpcoming() {
@@ -436,9 +429,15 @@ public class AlarmMatchesCountJson {
     }
 
     public static String currentTime() {
-        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
-        LocalDateTime dateTimeNow = LocalDateTime.now();
-        return dtf.format(dateTimeNow);
+        try{
+            DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+            LocalDateTime dateTimeNow = LocalDateTime.now();
+            return dtf.format(dateTimeNow);
+        }
+        catch (Exception e){
+            return "currentTime() has an Exception";
+        }
+
     }
 
     private static boolean netIsAvailable() {
@@ -448,12 +447,11 @@ public class AlarmMatchesCountJson {
             conn.connect();
             conn.getInputStream().close();
             return true;
-        } catch (MalformedURLException e) {
-            throw new RuntimeException(e);
-        } catch (IOException e) {
-            return false;
         }
-    }
+            catch (Exception k) {
+                return false;
+            }
+        }
 
     public static ArrayList<String> getUpcomingSportsIDs() {
         ArrayList<String> upcomingSportsIDs = new ArrayList<>();
