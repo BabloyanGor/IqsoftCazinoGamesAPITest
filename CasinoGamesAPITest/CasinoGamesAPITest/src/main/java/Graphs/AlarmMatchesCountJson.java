@@ -28,13 +28,13 @@ import java.util.List;
 public class AlarmMatchesCountJson {
     public static Logger logger;
 
-    static final int averageNum = 1;
+    static final int averageNum = 5;
     static final int compareUpcomingMatchesCount = 5;
     static final int compareTopLifeMatchesCount = 1;
     static final int compareLifeMatchesCount = 1;
     static final int comparePreMatchesCount = 1;
     static final int xAxisLength = 50;
-    static final int timeDelaySeconds = 1;
+    static final int timeDelaySeconds = 60;
 
 
     AlarmMatchesCountJson() {
@@ -330,7 +330,7 @@ public class AlarmMatchesCountJson {
 
     public static void playSoundUpcoming() {
         try {
-            String path = System.getProperty("user.dir") + "\\src\\test\\java\\mp3\\1.wav";
+            String path = System.getProperty("user.dir") + "\\src\\test\\java\\mp3\\upcomingSound.wav";
 //            String bip = path;
 //            Media hit = new Media(new File(bip).toURI().toString());
 //            com.sun.javafx.application.PlatformImpl.startup(()->{});
@@ -355,7 +355,7 @@ public class AlarmMatchesCountJson {
 
     public static void playSoundPreMatch() {
         try {
-            String path = System.getProperty("user.dir") + "\\src\\test\\java\\mp3\\1.wav";
+            String path = System.getProperty("user.dir") + "\\src\\test\\java\\mp3\\prematchSound.wav";
 //            String bip = path;
 //            Media hit = new Media(new File(bip).toURI().toString());
 //            com.sun.javafx.application.PlatformImpl.startup(()->{});
@@ -380,7 +380,7 @@ public class AlarmMatchesCountJson {
 
     public static void playSoundTopLive() {
         try {
-            String path = System.getProperty("user.dir") + "\\src\\test\\java\\mp3\\1.wav";
+            String path = System.getProperty("user.dir") + "\\src\\test\\java\\mp3\\liveSound.wav";
 //            String bip = path;
 //            Media hit = new Media(new File(bip).toURI().toString());
 //            com.sun.javafx.application.PlatformImpl.startup(()->{});
@@ -405,7 +405,7 @@ public class AlarmMatchesCountJson {
 
     public static void playSoundLive() {
         try {
-            String path = System.getProperty("user.dir") + "\\src\\test\\java\\mp3\\1.wav";
+            String path = System.getProperty("user.dir") + "\\src\\test\\java\\mp3\\liveSound.wav";
 //            String bip = path;
 //            Media hit = new Media(new File(bip).toURI().toString());
 //            com.sun.javafx.application.PlatformImpl.startup(()->{});
@@ -435,7 +435,7 @@ public class AlarmMatchesCountJson {
             return dtf.format(dateTimeNow);
         }
         catch (Exception e){
-            return "currentTime() has an Exception";
+            return "currentTime() has an Exception" +e;
         }
 
     }
