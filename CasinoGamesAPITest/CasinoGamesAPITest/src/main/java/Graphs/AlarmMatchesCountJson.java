@@ -98,9 +98,9 @@ public class AlarmMatchesCountJson {
         List<XYChart> charts = new ArrayList<>();
 
 
-        XYChart chartUpcoming = QuickChart.getChart("Upcoming matches count", "X: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Upcoming Matches", initDataUpcoming[0], initDataUpcoming[1]);
-        XYChart chartTopLive = QuickChart.getChart("Top Live matches count", "X: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Top Live Matches", initDataTopLive[0], initDataTopLive[1]);
-        XYChart chartLive = QuickChart.getChart("Live matches count", "X: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Live Matches", initDataLive[0], initDataLive[1]);
+        XYChart chartUpcoming = QuickChart.getChart("Upcoming matches count", "X division: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Upcoming Matches", initDataUpcoming[0], initDataUpcoming[1]);
+        XYChart chartTopLive = QuickChart.getChart("Top Live matches count", "X division: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Top Live Matches", initDataTopLive[0], initDataTopLive[1]);
+        XYChart chartLive = QuickChart.getChart("Live matches count", "X division: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Live Matches", initDataLive[0], initDataLive[1]);
         XYChart chartPreMatches = QuickChart.getChart("Pre matches count", "X division: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Pre Matches", initDataPreMatch[0], initDataPreMatch[1]);
 
         chartUpcoming.getStyler().setCursorColor(Color.red);
