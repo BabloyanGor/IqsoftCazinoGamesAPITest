@@ -27,20 +27,6 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
-import java.io.File;
-import java.io.IOException;
-
-import javax.sound.sampled.AudioFormat;
-import javax.sound.sampled.AudioInputStream;
-import javax.sound.sampled.AudioSystem;
-import javax.sound.sampled.DataLine.Info;
-import javax.sound.sampled.LineUnavailableException;
-import javax.sound.sampled.SourceDataLine;
-import javax.sound.sampled.UnsupportedAudioFileException;
-
-import static javax.sound.sampled.AudioSystem.getAudioInputStream;
-import static javax.sound.sampled.AudioFormat.Encoding.PCM_SIGNED;
-
 public class AlarmMatchesCountJson {
     static final int averageNum = 5;
     static final int xAxisLength = 300;
@@ -54,8 +40,6 @@ public class AlarmMatchesCountJson {
 
 
     AlarmMatchesCountJson() {
-        logger = Logger.getLogger("craftBetWorld");
-        PropertyConfigurator.configure("log4j.properties");
     }
 
     public static void loggerSetUp() {
@@ -91,7 +75,7 @@ public class AlarmMatchesCountJson {
         ArrayList<String> liveSportsTop;
 
 
-        float timeDelayMinutesVisualisation = (float) timeDelaySeconds / 60;
+        float timeDelayMinutesVisualisation = (float) timeDelaySeconds / 60 * averageNum;
         DecimalFormat df = new DecimalFormat("#.#");
         int p = 0;
 
@@ -118,10 +102,12 @@ public class AlarmMatchesCountJson {
         XYChart chartLive = QuickChart.getChart("Live matches count", "X-Axis division: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Live Matches", initDataLive[0], initDataLive[1]);
         XYChart chartPreMatches = QuickChart.getChart("Pre matches count", "X-Axis division: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Pre Matches", initDataPreMatch[0], initDataPreMatch[1]);
 
+        charts.add(chartPreMatches);
+        charts.add(chartLive);
         charts.add(chartUpcoming);
         charts.add(chartTopLive);
-        charts.add(chartLive);
-        charts.add(chartPreMatches);
+
+
 
         //Styles for Chart
 //        chartUpcoming.getStyler().setCursorColor(Color.red);
@@ -180,7 +166,7 @@ public class AlarmMatchesCountJson {
 
         sw.displayChartMatrix();
 
-        int k;
+//        int k;
 
         while (true) {
 
@@ -191,7 +177,7 @@ public class AlarmMatchesCountJson {
                 preMatchesCount = 0;
 
                 //get matches count (graph will show average of calls averageNum times )
-                for (k = 1; k <= averageNum; k++) {
+                for (int k = 1; k <= averageNum; k++) {
                     tempUpcomingSportsLocal = 0;
                     tempTopLiveMatchesCount = 0;
                     upcomingSportsLocal = getUpcomingSportsIDs();
@@ -201,14 +187,12 @@ public class AlarmMatchesCountJson {
                         }
                     }
 
-
                     liveSportsTop = getLiveSportsIDs();
                     if (liveSportsTop != null) {
                         for (String id : liveSportsTop) {
                             tempTopLiveMatchesCount += getLocalLifeMatchesCount(id);
                         }
                     }
-
 
                     tempLiveMatchesCount = getLifeMatchesCount();
                     tempPreMatchesCount = getPreMatchMatchesCount();
