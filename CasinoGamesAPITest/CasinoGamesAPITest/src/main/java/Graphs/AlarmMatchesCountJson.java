@@ -121,8 +121,8 @@ public class AlarmMatchesCountJson {
         chartUpcoming.getStyler().setZoomResetByDoubleClick(true);
         chartUpcoming.getStyler().setChartBackgroundColor(new Color(210, 210, 210));
         chartUpcoming.getStyler().setLegendBackgroundColor(new Color(237, 236, 255));
-        chartUpcoming.getStyler().setCursorEnabled(true);
-        chartUpcoming.getStyler().setCursorLineWidth(1.0f);
+//        chartUpcoming.getStyler().setCursorEnabled(true);
+//        chartUpcoming.getStyler().setCursorLineWidth(1.0f);
 
 
 
@@ -136,8 +136,8 @@ public class AlarmMatchesCountJson {
         chartTopLive.getStyler().setZoomResetByDoubleClick(true);
         chartTopLive.getStyler().setChartBackgroundColor(new Color(210, 210, 210));
         chartTopLive.getStyler().setLegendBackgroundColor(new Color(237, 236, 255));
-        chartTopLive.getStyler().setCursorEnabled(true);
-        chartTopLive.getStyler().setCursorLineWidth(1.0f);
+//        chartTopLive.getStyler().setCursorEnabled(true);
+//        chartTopLive.getStyler().setCursorLineWidth(1.0f);
 
         chartLive.getStyler().setPlotGridVerticalLinesVisible(true);
         chartLive.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
@@ -149,8 +149,8 @@ public class AlarmMatchesCountJson {
         chartLive.getStyler().setZoomResetByDoubleClick(true);
         chartLive.getStyler().setChartBackgroundColor(new Color(210, 210, 210));
         chartLive.getStyler().setLegendBackgroundColor(new Color(237, 236, 255));
-        chartLive.getStyler().setCursorEnabled(true);
-        chartLive.getStyler().setCursorLineWidth(1.0f);
+//        chartLive.getStyler().setCursorEnabled(true);
+//        chartLive.getStyler().setCursorLineWidth(1.0f);
 
         chartPreMatches.getStyler().setPlotGridVerticalLinesVisible(true);
         chartPreMatches.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
@@ -162,8 +162,8 @@ public class AlarmMatchesCountJson {
         chartPreMatches.getStyler().setZoomResetByDoubleClick(true);
         chartPreMatches.getStyler().setChartBackgroundColor(new Color(210, 210, 210));
         chartPreMatches.getStyler().setLegendBackgroundColor(new Color(237, 236, 255));
-        chartPreMatches.getStyler().setCursorEnabled(true);
-        chartPreMatches.getStyler().setCursorLineWidth(1.0f);
+//        chartPreMatches.getStyler().setCursorEnabled(true);
+//        chartPreMatches.getStyler().setCursorLineWidth(1.0f);
 
         // Show it
         SwingWrapper<XYChart> sw = new SwingWrapper<>(charts);
