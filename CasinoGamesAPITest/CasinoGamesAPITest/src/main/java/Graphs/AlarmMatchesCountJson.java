@@ -27,27 +27,13 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
-import java.io.File;
-import java.io.IOException;
-
-import javax.sound.sampled.AudioFormat;
-import javax.sound.sampled.AudioInputStream;
-import javax.sound.sampled.AudioSystem;
-import javax.sound.sampled.DataLine.Info;
-import javax.sound.sampled.LineUnavailableException;
-import javax.sound.sampled.SourceDataLine;
-import javax.sound.sampled.UnsupportedAudioFileException;
-
-import static javax.sound.sampled.AudioSystem.getAudioInputStream;
-import static javax.sound.sampled.AudioFormat.Encoding.PCM_SIGNED;
-
 public class AlarmMatchesCountJson {
     static final int averageNum = 1;
     static final int compareUpcomingMatchesCount = 5;
     static final int compareTopLifeMatchesCount = 1;
     static final int compareLifeMatchesCount = 1;
     static final int comparePreMatchesCount = 1;
-    static final int xAxisLength = 50;
+    static final int xAxisLength = 100;
     static final int timeDelaySeconds = 1;
     public static Logger logger;
 
@@ -111,16 +97,17 @@ public class AlarmMatchesCountJson {
         // Create Charts
         List<XYChart> charts = new ArrayList<>();
 
-
+        XYChart chartPreMatches = QuickChart.getChart("Pre matches count", "X-Axis division: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Pre Matches", initDataPreMatch[0], initDataPreMatch[1]);
+        XYChart chartLive = QuickChart.getChart("Live matches count", "X-Axis division: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Live Matches", initDataLive[0], initDataLive[1]);
         XYChart chartUpcoming = QuickChart.getChart("Upcoming matches count", "X-Axis division: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Upcoming Matches", initDataUpcoming[0], initDataUpcoming[1]);
         XYChart chartTopLive = QuickChart.getChart("Top Live matches count", "X-Axis division: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Top Live Matches", initDataTopLive[0], initDataTopLive[1]);
-        XYChart chartLive = QuickChart.getChart("Live matches count", "X-Axis division: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Live Matches", initDataLive[0], initDataLive[1]);
-        XYChart chartPreMatches = QuickChart.getChart("Pre matches count", "X-Axis division: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Pre Matches", initDataPreMatch[0], initDataPreMatch[1]);
 
+        charts.add(chartPreMatches);
+        charts.add(chartLive);
         charts.add(chartUpcoming);
         charts.add(chartTopLive);
-        charts.add(chartLive);
-        charts.add(chartPreMatches);
+
+
 
         //Styles for Chart
 //        chartUpcoming.getStyler().setCursorColor(Color.red);
@@ -134,7 +121,9 @@ public class AlarmMatchesCountJson {
         chartUpcoming.getStyler().setZoomResetByDoubleClick(true);
         chartUpcoming.getStyler().setChartBackgroundColor(new Color(210, 210, 210));
         chartUpcoming.getStyler().setLegendBackgroundColor(new Color(237, 236, 255));
+        chartUpcoming.getStyler().setCursorEnabled(true);
         chartUpcoming.getStyler().setCursorLineWidth(1.0f);
+
 
 
         chartTopLive.getStyler().setPlotGridVerticalLinesVisible(true);
@@ -147,7 +136,8 @@ public class AlarmMatchesCountJson {
         chartTopLive.getStyler().setZoomResetByDoubleClick(true);
         chartTopLive.getStyler().setChartBackgroundColor(new Color(210, 210, 210));
         chartTopLive.getStyler().setLegendBackgroundColor(new Color(237, 236, 255));
-        chartUpcoming.getStyler().setCursorLineWidth(1.0f);
+        chartTopLive.getStyler().setCursorEnabled(true);
+        chartTopLive.getStyler().setCursorLineWidth(1.0f);
 
         chartLive.getStyler().setPlotGridVerticalLinesVisible(true);
         chartLive.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
@@ -159,7 +149,8 @@ public class AlarmMatchesCountJson {
         chartLive.getStyler().setZoomResetByDoubleClick(true);
         chartLive.getStyler().setChartBackgroundColor(new Color(210, 210, 210));
         chartLive.getStyler().setLegendBackgroundColor(new Color(237, 236, 255));
-        chartUpcoming.getStyler().setCursorLineWidth(1.0f);
+        chartLive.getStyler().setCursorEnabled(true);
+        chartLive.getStyler().setCursorLineWidth(1.0f);
 
         chartPreMatches.getStyler().setPlotGridVerticalLinesVisible(true);
         chartPreMatches.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
@@ -171,7 +162,8 @@ public class AlarmMatchesCountJson {
         chartPreMatches.getStyler().setZoomResetByDoubleClick(true);
         chartPreMatches.getStyler().setChartBackgroundColor(new Color(210, 210, 210));
         chartPreMatches.getStyler().setLegendBackgroundColor(new Color(237, 236, 255));
-        chartUpcoming.getStyler().setCursorLineWidth(1.0f);
+        chartPreMatches.getStyler().setCursorEnabled(true);
+        chartPreMatches.getStyler().setCursorLineWidth(1.0f);
 
         // Show it
         SwingWrapper<XYChart> sw = new SwingWrapper<>(charts);
@@ -255,11 +247,10 @@ public class AlarmMatchesCountJson {
                 }
 
                 // Update charts
-
+                chartPreMatches.updateXYSeries("Pre Matches", null, preMatchMatchesCountArray, null);
+                chartLive.updateXYSeries("Live Matches", null, liveMatchesCountArray, null);
                 chartUpcoming.updateXYSeries("Upcoming Matches", null, upcomingMatchesCountArray, null);
                 chartTopLive.updateXYSeries("Top Live Matches", null, topLiveMatchesCountArray, null);
-                chartLive.updateXYSeries("Live Matches", null, liveMatchesCountArray, null);
-                chartPreMatches.updateXYSeries("Pre Matches", null, preMatchMatchesCountArray, null);
                 for (int l = 0; l < charts.size(); l++) {
                     sw.repaintChart(l);
                 }
@@ -310,6 +301,7 @@ public class AlarmMatchesCountJson {
                     chartLive.getStyler().setChartBackgroundColor(new Color(210, 210, 210));
                     chartTopLive.getStyler().setChartBackgroundColor(new Color(210, 210, 210));
                     chartPreMatches.getStyler().setChartBackgroundColor(new Color(210, 210, 210));
+
                     alarmOnUpcoming = false;
                     alarmOnTopLive = false;
                     alarmOnLive = false;
@@ -325,7 +317,7 @@ public class AlarmMatchesCountJson {
                 } else if (alarmOnLive ) {
                     playSound(System.getProperty("user.dir") + "\\src\\test\\java\\mp3\\live.wav", 4);
                 } else if (alarmOnTopLive) {
-                    playSound(System.getProperty("user.dir") + "\\src\\test\\java\\mp3\\topLive.wav", 3);
+                    playSound(System.getProperty("user.dir") + "\\src\\test\\java\\mp3\\topLive.wav", 4);
                 }
 
 
@@ -344,6 +336,7 @@ public class AlarmMatchesCountJson {
             clip.open(audioInputStream);
             clip.start();
             TimeUnit.SECONDS.sleep(timeDelay);
+            clip.close();
 
         } catch (Exception ex) {
             logger.fatal("Error with playing sound." + path + "  Exception: " + ex);
