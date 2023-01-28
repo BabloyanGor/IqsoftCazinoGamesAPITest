@@ -1,0 +1,236 @@
+[INFO] 2023-01-28 16:01:55,059 craftBetWorld initDriver - Browser for test will be firefox as chosen
+[INFO] 2023-01-28 16:01:55,350 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+[INFO] 2023-01-28 16:01:55,393 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+[INFO] 2023-01-28 16:01:59,064 craftBetWorld setup - URL: https://play.baqto.com  Browser: firefox
+[INFO] 2023-01-28 16:01:59,152 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-01-28 16:02:00,078 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+[INFO] 2023-01-28 16:02:04,058 craftBetWorld getALLGamesNames - Get games Api call was sent
+[INFO] 2023-01-28 16:02:04,276 craftBetWorld getALLGamesNames - Get games Api Response was captured
+[INFO] 2023-01-28 16:02:07,328 craftBetWorld tearDown - Browser closed
+[INFO] 2023-01-28 16:02:07,328 craftBetWorld tearDown - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+[INFO] 2023-01-28 16:02:07,349 craftBetWorld Finish - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+[INFO] 2023-01-28 16:02:23,118 craftBetWorld initDriver - Browser for test will be firefox as chosen
+[INFO] 2023-01-28 16:02:23,373 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+[INFO] 2023-01-28 16:02:23,414 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+[INFO] 2023-01-28 16:02:27,295 craftBetWorld setup - URL: https://play.baqto.com  Browser: firefox
+[INFO] 2023-01-28 16:02:27,376 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-01-28 16:02:28,034 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+[INFO] 2023-01-28 16:02:32,267 craftBetWorld getALLGamesNames - Get games Api call was sent
+[INFO] 2023-01-28 16:02:32,470 craftBetWorld getALLGamesNames - Get games Api Response was captured
+[INFO] 2023-01-28 16:02:35,284 craftBetWorld tearDown - Browser closed
+[INFO] 2023-01-28 16:02:35,284 craftBetWorld tearDown - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+[INFO] 2023-01-28 16:02:35,320 craftBetWorld Finish - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+[INFO] 2023-01-28 16:05:06,543 craftBetWorld initDriver - Browser for test will be firefox as chosen
+[INFO] 2023-01-28 16:05:06,813 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+[INFO] 2023-01-28 16:05:06,855 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+[INFO] 2023-01-28 16:05:11,502 craftBetWorld setup - URL: https://play.baqto.com  Browser: firefox
+[INFO] 2023-01-28 16:05:11,582 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-01-28 16:05:12,220 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+[INFO] 2023-01-28 16:05:15,980 craftBetWorld getALLGamesNames - Get games Api call was sent
+[INFO] 2023-01-28 16:05:16,195 craftBetWorld getALLGamesNames - Get games Api Response was captured
+[INFO] 2023-01-28 16:05:18,587 craftBetWorld tearDown - Browser closed
+[INFO] 2023-01-28 16:05:18,588 craftBetWorld tearDown - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+[INFO] 2023-01-28 16:05:18,599 craftBetWorld Finish - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+[INFO] 2023-01-28 16:05:28,518 craftBetWorld initDriver - Browser for test will be firefox as chosen
+[INFO] 2023-01-28 16:05:28,796 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+[INFO] 2023-01-28 16:05:28,838 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+[INFO] 2023-01-28 16:05:32,682 craftBetWorld setup - URL: https://play.baqto.com  Browser: firefox
+[INFO] 2023-01-28 16:05:32,765 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-01-28 16:05:33,581 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+[INFO] 2023-01-28 16:05:37,683 craftBetWorld getALLGamesNames - Get games Api call was sent
+[INFO] 2023-01-28 16:05:37,917 craftBetWorld getALLGamesNames - Get games Api Response was captured
+[INFO] 2023-01-28 16:05:40,458 craftBetWorld tearDown - Browser closed
+[INFO] 2023-01-28 16:05:40,459 craftBetWorld tearDown - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+[INFO] 2023-01-28 16:05:40,523 craftBetWorld Finish - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+[INFO] 2023-01-28 16:07:17,214 craftBetWorld initDriver - Browser for test will be firefox as chosen
+[INFO] 2023-01-28 16:07:17,463 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+[INFO] 2023-01-28 16:07:17,502 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+[INFO] 2023-01-28 16:07:21,240 craftBetWorld setup - URL: https://play.baqto.com  Browser: firefox
+[INFO] 2023-01-28 16:07:21,326 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-01-28 16:07:22,211 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+[INFO] 2023-01-28 16:07:26,497 craftBetWorld getALLGamesNames - Get games Api call was sent
+[INFO] 2023-01-28 16:07:26,700 craftBetWorld getALLGamesNames - Get games Api Response was captured
+[INFO] 2023-01-28 16:07:29,500 craftBetWorld tearDown - Browser closed
+[INFO] 2023-01-28 16:07:29,501 craftBetWorld tearDown - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+[INFO] 2023-01-28 16:07:29,528 craftBetWorld Finish - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+[INFO] 2023-01-28 16:08:37,059 craftBetWorld initDriver - Browser for test will be firefox as chosen
+[INFO] 2023-01-28 16:08:37,345 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+[INFO] 2023-01-28 16:08:37,390 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+[INFO] 2023-01-28 16:08:40,712 craftBetWorld setup - URL: https://play.baqto.com  Browser: firefox
+[INFO] 2023-01-28 16:08:40,793 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-01-28 16:08:41,298 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+[INFO] 2023-01-28 16:08:45,062 craftBetWorld getALLGamesNames - Get games Api call was sent
+[INFO] 2023-01-28 16:08:45,285 craftBetWorld getALLGamesNames - Get games Api Response was captured
+[INFO] 2023-01-28 16:08:47,896 craftBetWorld tearDown - Browser closed
+[INFO] 2023-01-28 16:08:47,897 craftBetWorld tearDown - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+[INFO] 2023-01-28 16:08:47,933 craftBetWorld Finish - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+[INFO] 2023-01-28 16:10:56,058 craftBetWorld initDriver - Browser for test will be firefox as chosen
+[INFO] 2023-01-28 16:10:56,311 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+[INFO] 2023-01-28 16:10:56,351 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+[INFO] 2023-01-28 16:10:59,962 craftBetWorld setup - URL: https://play.baqto.com  Browser: firefox
+[INFO] 2023-01-28 16:11:00,052 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-01-28 16:11:01,043 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+[INFO] 2023-01-28 16:11:05,078 craftBetWorld getALLGamesNames - Get games Api call was sent
+[INFO] 2023-01-28 16:11:05,302 craftBetWorld getALLGamesNames - Get games Api Response was captured
+[INFO] 2023-01-28 16:11:07,987 craftBetWorld tearDown - Browser closed
+[INFO] 2023-01-28 16:11:07,988 craftBetWorld tearDown - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+[INFO] 2023-01-28 16:11:08,007 craftBetWorld Finish - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+[INFO] 2023-01-28 16:11:18,735 craftBetWorld initDriver - Browser for test will be firefox as chosen
+[INFO] 2023-01-28 16:11:19,021 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+[INFO] 2023-01-28 16:11:19,063 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+[INFO] 2023-01-28 16:11:22,387 craftBetWorld setup - URL: https://play.baqto.com  Browser: firefox
+[INFO] 2023-01-28 16:11:22,474 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-01-28 16:11:23,311 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+[INFO] 2023-01-28 16:11:26,901 craftBetWorld getALLGamesNames - Get games Api call was sent
+[INFO] 2023-01-28 16:11:27,118 craftBetWorld getALLGamesNames - Get games Api Response was captured
+[INFO] 2023-01-28 16:11:30,083 craftBetWorld tearDown - Browser closed
+[INFO] 2023-01-28 16:11:30,083 craftBetWorld tearDown - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+[INFO] 2023-01-28 16:11:30,095 craftBetWorld Finish - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+[INFO] 2023-01-28 16:13:06,509 craftBetWorld initDriver - Browser for test will be firefox as chosen
+[INFO] 2023-01-28 16:13:06,787 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+[INFO] 2023-01-28 16:13:06,832 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+[INFO] 2023-01-28 16:13:10,121 craftBetWorld setup - URL: https://play.baqto.com  Browser: firefox
+[INFO] 2023-01-28 16:13:10,203 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-01-28 16:13:11,047 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+[INFO] 2023-01-28 16:13:15,066 craftBetWorld getALLGamesNames - Get games Api call was sent
+[INFO] 2023-01-28 16:13:15,272 craftBetWorld getALLGamesNames - Get games Api Response was captured
+[INFO] 2023-01-28 16:13:17,895 craftBetWorld tearDown - Browser closed
+[INFO] 2023-01-28 16:13:17,896 craftBetWorld tearDown - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+[INFO] 2023-01-28 16:13:17,918 craftBetWorld Finish - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+[INFO] 2023-01-28 16:14:30,545 craftBetWorld initDriver - Browser for test will be firefox as chosen
+[INFO] 2023-01-28 16:14:30,830 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+[INFO] 2023-01-28 16:14:30,877 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+[INFO] 2023-01-28 16:14:34,229 craftBetWorld setup - URL: https://play.baqto.com  Browser: firefox
+[INFO] 2023-01-28 16:14:34,303 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-01-28 16:14:34,976 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+[INFO] 2023-01-28 16:14:39,002 craftBetWorld getALLGamesNames - Get games Api call was sent
+[INFO] 2023-01-28 16:14:39,205 craftBetWorld getALLGamesNames - Get games Api Response was captured
+[INFO] 2023-01-28 16:14:41,612 craftBetWorld tearDown - Browser closed
+[INFO] 2023-01-28 16:14:41,612 craftBetWorld tearDown - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+[INFO] 2023-01-28 16:14:41,620 craftBetWorld Finish - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+[INFO] 2023-01-28 16:16:49,629 craftBetWorld initDriver - Browser for test will be firefox as chosen
+[INFO] 2023-01-28 16:16:49,909 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+[INFO] 2023-01-28 16:16:49,951 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+[INFO] 2023-01-28 16:16:53,732 craftBetWorld setup - URL: https://play.baqto.com  Browser: firefox
+[INFO] 2023-01-28 16:16:53,808 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-01-28 16:16:54,670 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+[INFO] 2023-01-28 16:16:58,788 craftBetWorld getALLGamesNames - Get games Api call was sent
+[INFO] 2023-01-28 16:16:59,026 craftBetWorld getALLGamesNames - Get games Api Response was captured
+[INFO] 2023-01-28 16:17:01,722 craftBetWorld tearDown - Browser closed
+[INFO] 2023-01-28 16:17:01,722 craftBetWorld tearDown - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+[INFO] 2023-01-28 16:17:01,730 craftBetWorld Finish - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+[INFO] 2023-01-28 16:42:17,627 craftBetWorld initDriver - Browser for test will be firefox as chosen
+[INFO] 2023-01-28 16:42:18,371 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+[INFO] 2023-01-28 16:42:18,408 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+[INFO] 2023-01-28 16:42:22,142 craftBetWorld setup - URL: https://play.baqto.com  Browser: firefox
+[INFO] 2023-01-28 16:42:22,252 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-01-28 16:42:22,962 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+[INFO] 2023-01-28 16:42:27,371 craftBetWorld getALLGamesNames - Get games Api call was sent
+[INFO] 2023-01-28 16:42:27,663 craftBetWorld getALLGamesNames - Get games Api Response was captured
+[INFO] 2023-01-28 16:42:30,215 craftBetWorld tearDown - Browser closed
+[INFO] 2023-01-28 16:42:30,216 craftBetWorld tearDown - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+[INFO] 2023-01-28 16:42:30,230 craftBetWorld Finish - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+[INFO] 2023-01-28 16:42:37,520 craftBetWorld initDriver - Browser for test will be firefox as chosen
+[INFO] 2023-01-28 16:42:37,825 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+[INFO] 2023-01-28 16:42:37,872 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+[INFO] 2023-01-28 16:42:41,418 craftBetWorld setup - URL: https://play.baqto.com  Browser: firefox
+[INFO] 2023-01-28 16:42:41,517 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-01-28 16:42:42,253 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+[INFO] 2023-01-28 16:42:46,406 craftBetWorld getALLGamesNames - Get games Api call was sent
+[INFO] 2023-01-28 16:42:46,621 craftBetWorld getALLGamesNames - Get games Api Response was captured
+[INFO] 2023-01-28 16:42:48,989 craftBetWorld tearDown - Browser closed
+[INFO] 2023-01-28 16:42:48,990 craftBetWorld tearDown - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+[INFO] 2023-01-28 16:42:49,027 craftBetWorld Finish - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+[INFO] 2023-01-28 16:43:09,457 craftBetWorld initDriver - Browser for test will be firefox as chosen
+[INFO] 2023-01-28 16:43:09,765 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+[INFO] 2023-01-28 16:43:09,815 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+[INFO] 2023-01-28 16:43:13,440 craftBetWorld setup - URL: https://play.baqto.com  Browser: firefox
+[INFO] 2023-01-28 16:43:13,537 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-01-28 16:43:14,384 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+[INFO] 2023-01-28 16:43:18,900 craftBetWorld getALLGamesNames - Get games Api call was sent
+[INFO] 2023-01-28 16:43:19,122 craftBetWorld getALLGamesNames - Get games Api Response was captured
+[INFO] 2023-01-28 16:43:43,851 craftBetWorld initDriver - Browser for test will be firefox as chosen
+[INFO] 2023-01-28 16:43:44,147 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+[INFO] 2023-01-28 16:43:44,193 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+[INFO] 2023-01-28 16:43:48,033 craftBetWorld setup - URL: https://play.baqto.com  Browser: firefox
+[INFO] 2023-01-28 16:43:48,125 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-01-28 16:43:48,795 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+[INFO] 2023-01-28 16:43:53,015 craftBetWorld getALLGamesNames - Get games Api call was sent
+[INFO] 2023-01-28 16:43:53,304 craftBetWorld getALLGamesNames - Get games Api Response was captured
+[INFO] 2023-01-28 16:44:34,283 craftBetWorld initDriver - Browser for test will be firefox as chosen
+[INFO] 2023-01-28 16:44:34,569 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+[INFO] 2023-01-28 16:44:34,617 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+[INFO] 2023-01-28 16:44:38,304 craftBetWorld setup - URL: https://play.baqto.com  Browser: firefox
+[INFO] 2023-01-28 16:44:38,398 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-01-28 16:44:39,111 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+[INFO] 2023-01-28 16:44:43,572 craftBetWorld getALLGamesNames - Get games Api call was sent
+[INFO] 2023-01-28 16:44:43,778 craftBetWorld getALLGamesNames - Get games Api Response was captured
+[INFO] 2023-01-28 16:44:44,652 craftBetWorld tearDown - Browser closed
+[INFO] 2023-01-28 16:44:44,652 craftBetWorld tearDown - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+[INFO] 2023-01-28 16:44:44,672 craftBetWorld Finish - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+[INFO] 2023-01-28 16:45:29,704 craftBetWorld initDriver - Browser for test will be firefox as chosen
+[INFO] 2023-01-28 16:45:29,954 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+[INFO] 2023-01-28 16:45:29,995 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+[INFO] 2023-01-28 16:45:33,425 craftBetWorld setup - URL: https://play.baqto.com  Browser: firefox
+[INFO] 2023-01-28 16:45:33,518 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-01-28 16:45:34,191 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+[INFO] 2023-01-28 16:45:38,533 craftBetWorld getALLGamesNames - Get games Api call was sent
+[INFO] 2023-01-28 16:45:38,748 craftBetWorld getALLGamesNames - Get games Api Response was captured
+[INFO] 2023-01-28 16:45:41,538 craftBetWorld tearDown - Browser closed
+[INFO] 2023-01-28 16:45:41,538 craftBetWorld tearDown - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+[INFO] 2023-01-28 16:45:41,555 craftBetWorld Finish - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+[INFO] 2023-01-28 16:46:37,486 craftBetWorld initDriver - Browser for test will be firefox as chosen
+[INFO] 2023-01-28 16:46:37,742 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+[INFO] 2023-01-28 16:46:37,784 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+[INFO] 2023-01-28 16:46:41,073 craftBetWorld setup - URL: https://play.baqto.com  Browser: firefox
+[INFO] 2023-01-28 16:46:41,168 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-01-28 16:46:42,065 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+[INFO] 2023-01-28 16:46:46,333 craftBetWorld getALLGamesNames - Get games Api call was sent
+[INFO] 2023-01-28 16:46:46,535 craftBetWorld getALLGamesNames - Get games Api Response was captured
+[INFO] 2023-01-28 16:46:48,999 craftBetWorld tearDown - Browser closed
+[INFO] 2023-01-28 16:46:48,999 craftBetWorld tearDown - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+[INFO] 2023-01-28 16:46:49,012 craftBetWorld Finish - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+[INFO] 2023-01-28 16:47:37,418 craftBetWorld initDriver - Browser for test will be firefox as chosen
+[INFO] 2023-01-28 16:47:37,814 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+[INFO] 2023-01-28 16:47:37,857 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+[INFO] 2023-01-28 16:47:41,356 craftBetWorld setup - URL: https://play.baqto.com  Browser: firefox
+[INFO] 2023-01-28 16:47:41,446 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-01-28 16:47:42,356 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+[INFO] 2023-01-28 16:47:46,946 craftBetWorld getALLGamesNames - Get games Api call was sent
+[INFO] 2023-01-28 16:47:47,157 craftBetWorld getALLGamesNames - Get games Api Response was captured
+[INFO] 2023-01-28 16:47:49,668 craftBetWorld tearDown - Browser closed
+[INFO] 2023-01-28 16:47:49,669 craftBetWorld tearDown - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+[INFO] 2023-01-28 16:47:49,702 craftBetWorld Finish - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+[INFO] 2023-01-28 16:51:28,141 craftBetWorld initDriver - Browser for test will be firefox as chosen
+[INFO] 2023-01-28 16:51:28,400 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+[INFO] 2023-01-28 16:51:28,442 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+[INFO] 2023-01-28 16:51:32,138 craftBetWorld setup - URL: https://play.baqto.com  Browser: firefox
+[INFO] 2023-01-28 16:51:32,234 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-01-28 16:51:33,126 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+[INFO] 2023-01-28 16:51:36,572 craftBetWorld getALLGamesNames - Get games Api call was sent
+[INFO] 2023-01-28 16:51:36,809 craftBetWorld getALLGamesNames - Get games Api Response was captured
+[INFO] 2023-01-28 16:51:39,167 craftBetWorld tearDown - Browser closed
+[INFO] 2023-01-28 16:51:39,168 craftBetWorld tearDown - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+[INFO] 2023-01-28 16:51:39,183 craftBetWorld Finish - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+[INFO] 2023-01-28 16:51:54,287 craftBetWorld initDriver - Browser for test will be firefox as chosen
+[INFO] 2023-01-28 16:51:54,561 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+[INFO] 2023-01-28 16:51:54,602 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+[INFO] 2023-01-28 16:51:58,367 craftBetWorld setup - URL: https://play.baqto.com  Browser: firefox
+[INFO] 2023-01-28 16:51:58,449 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-01-28 16:51:59,283 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+[INFO] 2023-01-28 16:52:03,885 craftBetWorld getALLGamesNames - Get games Api call was sent
+[INFO] 2023-01-28 16:52:04,134 craftBetWorld getALLGamesNames - Get games Api Response was captured
+[INFO] 2023-01-28 16:52:07,323 craftBetWorld tearDown - Browser closed
+[INFO] 2023-01-28 16:52:07,324 craftBetWorld tearDown - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+[INFO] 2023-01-28 16:52:07,345 craftBetWorld Finish - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+[INFO] 2023-01-28 16:55:14,751 craftBetWorld initDriver - Browser for test will be firefox as chosen
+[INFO] 2023-01-28 16:55:15,031 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+[INFO] 2023-01-28 16:55:15,074 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+[INFO] 2023-01-28 16:55:18,717 craftBetWorld setup - URL: https://play.baqto.com  Browser: firefox
+[INFO] 2023-01-28 16:55:18,800 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-01-28 16:55:19,663 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+[INFO] 2023-01-28 16:55:23,852 craftBetWorld getALLGamesNames - Get games Api call was sent
+[INFO] 2023-01-28 16:55:24,071 craftBetWorld getALLGamesNames - Get games Api Response was captured
+[INFO] 2023-01-28 16:55:26,336 craftBetWorld tearDown - Browser closed
+[INFO] 2023-01-28 16:55:26,336 craftBetWorld tearDown - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+[INFO] 2023-01-28 16:55:26,344 craftBetWorld Finish - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  

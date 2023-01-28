@@ -11,8 +11,11 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.regex.Pattern;
 
 public class CraftBet_000_CasinoSameNameCopyGames_Test extends BaseTest {
+
+
 
 
     public boolean getALLGamesAPICheckCopyGames(String getGamesAPIUrl, String origin, String partnerName)
@@ -46,6 +49,7 @@ public class CraftBet_000_CasinoSameNameCopyGames_Test extends BaseTest {
             String sp = jsonObjectGame.getString("sp");  //Provider Name
             gameProviderNames.add(sp);
             gameNames.add(n);
+
 
 //            if (!gameProviderNamesList.contains(sp)){                     For Providers List
 //                gameProviderNamesList.add(sp);
@@ -83,5 +87,70 @@ public class CraftBet_000_CasinoSameNameCopyGames_Test extends BaseTest {
         } else {
             Assert.assertTrue(false);
         }
+    }
+
+    ArrayList<String> casinoGameNames = new ArrayList<>();
+    public void getALLGamesNames(String getGamesAPIUrl, String origin, String partnerName)
+            throws UnirestException, JSONException, IOException {
+        ArrayList<String> errorSrcXl = new ArrayList<>();
+        ArrayList<String> errorSrcXl2 = new ArrayList<>();
+        Unirest.setTimeouts(0, 0);
+        HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
+                .header("content-type", "application/json")
+                .header("origin", origin)
+                .body("{\"PageIndex\":0,\"PageSize\":20000,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false,\"Name\":\"\",\"LanguageId\":\"ja\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
+                .asString();
+        logger.info("Get games Api call was sent");
+        JSONObject jsonObjectBody = new JSONObject(response.getBody());
+        Unirest.shutdown();
+        JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.get("ResponseObject").toString());
+        JSONArray jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
+        logger.info("Get games Api Response was captured");
+
+        for (int j = 0; j < jsonArrayGames.length(); j++) {
+
+            String first = String.valueOf(jsonArrayGames.get(j));
+            JSONObject jsonObjectGame = new JSONObject(first);
+            String n = jsonObjectGame.getString("n");    //Game Name
+            String sp = jsonObjectGame.getString("sp");  //Provider Name
+            casinoGameNames.add(n);
+            if (regexCheck("^[^A-Za-z]+$",n)){
+//                if (regexCheck("[a-zA-Z. .,!&'™:\n0-9]{1,300}",n)){
+                    errorSrcXl.add(n);
+            }
+            else{
+                errorSrcXl2.add(n);
+            }
+
+        }
+        System.out.println("Games with japan " + errorSrcXl.size());
+        System.out.println("Games withOut japan " + errorSrcXl2.size());
+        if (errorSrcXl.size() == 0) {
+            System.out.println("");
+        } else {
+            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "GamesJapanTranslation.xlsx", "Games");
+        }
+        if (errorSrcXl2.size() == 0) {
+            System.out.println("");
+        } else {
+            writeInExel(errorSrcXl2, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "GamesNotTranslated.xlsx", "Games");
+        }
+
+    }
+    public boolean regexCheck(String regex, String matcher){
+
+//        isRegexTrue = Pattern.compile(regex).matcher(matcher).matches();
+
+//        Pattern p = Pattern.compile(".s");//. represents single character
+//        Matcher m = p.matcher("as");
+//        boolean b = m.matches();
+
+        boolean isRegexTrue = Pattern.matches(regex,matcher);
+        return isRegexTrue;
+    }
+    @Test
+    public void getCasinoGamesThatContainEnglishLetter() throws UnirestException, IOException {
+        getALLGamesNames(getGamesAPIUrl, getGamesOrigin, getGamesPartnerName);
+
     }
 }
