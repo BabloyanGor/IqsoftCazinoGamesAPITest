@@ -28,13 +28,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AlarmMatchesCountJson {
-    static final int averageNum = 1;
+    static final int averageNum = 5;
+    static final int xAxisLength = 288;
+    static final int timeDelaySeconds = 60;
     static final int compareUpcomingMatchesCount = 5;
     static final int compareTopLifeMatchesCount = 1;
     static final int compareLifeMatchesCount = 1;
     static final int comparePreMatchesCount = 1;
-    static final int xAxisLength = 100;
-    static final int timeDelaySeconds = 1;
+
     public static Logger logger;
 
 
@@ -76,7 +77,7 @@ public class AlarmMatchesCountJson {
         ArrayList<String> liveSportsTop;
 
 
-        float timeDelayMinutesVisualisation = (float) timeDelaySeconds / 60;
+        float timeDelayMinutesVisualisation = (float) timeDelaySeconds / 60 * averageNum;
         DecimalFormat df = new DecimalFormat("#.#");
         int p = 0;
 
