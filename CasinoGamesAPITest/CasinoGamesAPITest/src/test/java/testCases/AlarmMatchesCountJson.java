@@ -362,8 +362,8 @@ public class AlarmMatchesCountJson {
         int preMatchesCount;
 
         final int xAxisLength = 300;
-        final int timeDelaySeconds = 1;
-        float timeDelayMinutesVisualisation = (float) timeDelaySeconds / 60;
+        final int timeDelaySeconds = 60;
+        float timeDelayMinutesVisualisation = (float) timeDelaySeconds ;
         DecimalFormat df = new DecimalFormat("#.#");
 
         final int compareUpcomingMatchesCount = 5;
