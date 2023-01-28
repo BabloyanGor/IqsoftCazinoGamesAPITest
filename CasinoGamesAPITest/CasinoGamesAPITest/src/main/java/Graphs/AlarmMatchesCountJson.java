@@ -42,13 +42,14 @@ import static javax.sound.sampled.AudioSystem.getAudioInputStream;
 import static javax.sound.sampled.AudioFormat.Encoding.PCM_SIGNED;
 
 public class AlarmMatchesCountJson {
-    static final int averageNum = 1;
+    static final int averageNum = 5;
+    static final int xAxisLength = 300;
+    static final int timeDelaySeconds = 60;
     static final int compareUpcomingMatchesCount = 5;
     static final int compareTopLifeMatchesCount = 1;
     static final int compareLifeMatchesCount = 1;
     static final int comparePreMatchesCount = 1;
-    static final int xAxisLength = 50;
-    static final int timeDelaySeconds = 1;
+
     public static Logger logger;
 
 
