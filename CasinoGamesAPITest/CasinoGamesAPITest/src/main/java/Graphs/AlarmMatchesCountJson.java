@@ -27,6 +27,8 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
+import static org.apache.commons.lang3.ArrayUtils.contains;
+
 public class AlarmMatchesCountJson {
     static final int averageNum = 5;
     static final int xAxisLength = 288;
@@ -68,10 +70,10 @@ public class AlarmMatchesCountJson {
         int liveMatchesCount;
         int preMatchesCount;
 
-        int tempUpcomingSportsLocal;
-        int tempTopLiveMatchesCount;
-        int tempLiveMatchesCount;
-        int tempPreMatchesCount;
+        int[] tempUpcomingMatchesLocal = new int[averageNum];
+        int[] tempTopLiveMatchesCount = new int[averageNum];
+        int[] tempLiveMatchesCount= new int[averageNum];
+        int[] tempPreMatchesCount= new int[averageNum];
 
         ArrayList<String> upcomingSportsLocal;
         ArrayList<String> liveSportsTop;
@@ -81,7 +83,11 @@ public class AlarmMatchesCountJson {
         DecimalFormat df = new DecimalFormat("#.#");
         int p = 0;
 
+        int xAxisCount = 0;
         double[] matchesCountArrayXAxis = new double[xAxisLength];
+        for (xAxisCount = 0; xAxisCount < xAxisLength; xAxisCount++) {
+            matchesCountArrayXAxis[xAxisCount] = xAxisCount;
+        }
 
         double[] upcomingMatchesCountArray = new double[xAxisLength];
         double[][] initDataUpcoming = new double[][]{matchesCountArrayXAxis, upcomingMatchesCountArray};
@@ -109,7 +115,6 @@ public class AlarmMatchesCountJson {
         charts.add(chartTopLive);
 
 
-
         //Styles for Chart
 //        chartUpcoming.getStyler().setCursorColor(Color.red);
         chartUpcoming.getStyler().setPlotGridVerticalLinesVisible(true);
@@ -124,7 +129,6 @@ public class AlarmMatchesCountJson {
         chartUpcoming.getStyler().setLegendBackgroundColor(new Color(237, 236, 255));
 //        chartUpcoming.getStyler().setCursorEnabled(true);
 //        chartUpcoming.getStyler().setCursorLineWidth(1.0f);
-
 
 
         chartTopLive.getStyler().setPlotGridVerticalLinesVisible(true);
@@ -184,45 +188,81 @@ public class AlarmMatchesCountJson {
 
                 //get matches count (graph will show average of calls averageNum times )
                 for (k = 1; k <= averageNum; k++) {
-                    tempUpcomingSportsLocal = 0;
-                    tempTopLiveMatchesCount = 0;
+                    tempUpcomingMatchesLocal[k] = 0;
+
                     upcomingSportsLocal = getUpcomingSportsIDs();
                     if (upcomingSportsLocal != null) {
                         for (String id : upcomingSportsLocal) {
-                            tempUpcomingSportsLocal += getUpcomingMatchesCount(id);
+                            tempUpcomingMatchesLocal[k] += getUpcomingMatchesCount(id);
                         }
                     }
 
 
+                    tempTopLiveMatchesCount[k] = 0;
                     liveSportsTop = getLiveSportsIDs();
                     if (liveSportsTop != null) {
                         for (String id : liveSportsTop) {
-                            tempTopLiveMatchesCount += getLocalLifeMatchesCount(id);
+                            tempTopLiveMatchesCount[k] += getLocalLifeMatchesCount(id);
                         }
                     }
 
 
-                    tempLiveMatchesCount = getLifeMatchesCount();
-                    tempPreMatchesCount = getPreMatchMatchesCount();
-
-                    upcomingMatchesCount += tempUpcomingSportsLocal;
-                    topLiveMatchesCount += tempTopLiveMatchesCount;
-                    liveMatchesCount += tempLiveMatchesCount;
-                    preMatchesCount += tempPreMatchesCount;
+                    tempLiveMatchesCount[k] = getLifeMatchesCount();
+                    tempPreMatchesCount[k] = getPreMatchMatchesCount();
 
 
-                    logger.info("UpcomingMatchesCount: " + tempUpcomingSportsLocal + "  topLiveMatchesCount: " + tempTopLiveMatchesCount + "  "
+//                    upcomingMatchesCount += tempUpcomingMatchesLocal;
+//                    topLiveMatchesCount += tempTopLiveMatchesCount;
+//                    liveMatchesCount += tempLiveMatchesCount;
+//                    preMatchesCount += tempPreMatchesCount;
+
+
+                    logger.info("UpcomingMatchesCount: " + tempUpcomingMatchesLocal + "  topLiveMatchesCount: " + tempTopLiveMatchesCount + "  "
                             + "  liveMatchesCount: " + tempLiveMatchesCount + "  " + "  preMatchesCount: " + tempPreMatchesCount);
 
                     TimeUnit.SECONDS.sleep(timeDelaySeconds);
 
-                    if (k == averageNum) {
-                        upcomingMatchesCount = upcomingMatchesCount / averageNum;
-                        topLiveMatchesCount = topLiveMatchesCount / averageNum;
-                        liveMatchesCount = liveMatchesCount / averageNum;
-                        preMatchesCount = preMatchesCount / averageNum;
+
+                }
+
+                boolean containsZeroUpcoming = contains(tempUpcomingMatchesLocal, 0);
+                if (containsZeroUpcoming) {
+                    upcomingMatchesCount = 0;
+                } else {
+                    for (int m = 0; m < averageNum; m++) {
+                        upcomingMatchesCount += tempUpcomingMatchesLocal[m];
                     }
                 }
+                boolean containsZeroPreMatch = contains(tempPreMatchesCount, 0);
+                if (containsZeroPreMatch) {
+                    preMatchesCount = 0;
+                } else {
+                    for (int m = 0; m < averageNum; m++) {
+                        preMatchesCount += tempPreMatchesCount[m];
+                    }
+                }
+                boolean containsZeroTopLive = contains(tempTopLiveMatchesCount, 0);
+                if (containsZeroTopLive) {
+                    topLiveMatchesCount = 0;
+                } else {
+                    for (int m = 0; m < averageNum; m++) {
+                        topLiveMatchesCount += tempTopLiveMatchesCount[m];
+                    }
+                }
+                boolean containsZeroLive = contains(tempLiveMatchesCount, 0);
+                if (containsZeroLive) {
+                    liveMatchesCount = 0;
+                } else {
+                    for (int m = 0; m < averageNum; m++) {
+                        liveMatchesCount += tempLiveMatchesCount[m];
+                    }
+                }
+
+                upcomingMatchesCount = upcomingMatchesCount / averageNum;
+                topLiveMatchesCount = topLiveMatchesCount / averageNum;
+                liveMatchesCount = liveMatchesCount / averageNum;
+                preMatchesCount = preMatchesCount / averageNum;
+
 
                 //Creating arrays that contain last Matches Count Values
 
@@ -240,12 +280,16 @@ public class AlarmMatchesCountJson {
                         topLiveMatchesCountArray[i - 1] = topLiveMatchesCountArray[i];
                         liveMatchesCountArray[i - 1] = liveMatchesCountArray[i];
                         preMatchMatchesCountArray[i - 1] = preMatchMatchesCountArray[i];
+                        matchesCountArrayXAxis[i - 1] = matchesCountArrayXAxis[i - 1];
                     }
                     upcomingMatchesCountArray[lastArrayItem] = upcomingMatchesCount;
                     topLiveMatchesCountArray[lastArrayItem] = topLiveMatchesCount;
                     liveMatchesCountArray[lastArrayItem] = liveMatchesCount;
                     preMatchMatchesCountArray[lastArrayItem] = preMatchesCount;
+                    xAxisCount++;
+                    matchesCountArrayXAxis[lastArrayItem] = matchesCountArrayXAxis[xAxisCount];
                 }
+
 
                 // Update charts
                 chartPreMatches.updateXYSeries("Pre Matches", null, preMatchMatchesCountArray, null);
@@ -311,11 +355,11 @@ public class AlarmMatchesCountJson {
 
                 // When alarm is on play specific sound
 
-                if (alarmOnPreMatch ) {
+                if (alarmOnPreMatch) {
                     playSound(System.getProperty("user.dir") + "\\src\\test\\java\\mp3\\prematchMain.wav", 10);
                 } else if (alarmOnUpcoming) {
                     playSound(System.getProperty("user.dir") + "\\src\\test\\java\\mp3\\upcoming.wav", 8);
-                } else if (alarmOnLive ) {
+                } else if (alarmOnLive) {
                     playSound(System.getProperty("user.dir") + "\\src\\test\\java\\mp3\\live.wav", 4);
                 } else if (alarmOnTopLive) {
                     playSound(System.getProperty("user.dir") + "\\src\\test\\java\\mp3\\topLive.wav", 4);
@@ -343,7 +387,6 @@ public class AlarmMatchesCountJson {
             logger.fatal("Error with playing sound." + path + "  Exception: " + ex);
         }
     }
-
 
     public static String currentTime() {
         try {
