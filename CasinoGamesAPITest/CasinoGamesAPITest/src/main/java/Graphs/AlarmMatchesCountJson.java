@@ -42,11 +42,6 @@ public class AlarmMatchesCountJson  {
     public static Logger logger;
     static int xAxisValue = xAxisLength;
 
-    AlarmMatchesCountJson() {
-        logger = Logger.getLogger("craftBetWorld");
-        PropertyConfigurator.configure("log4j.properties");
-    }
-
     public static void loggerSetUp() {
         logger = Logger.getLogger("craftBetWorld");
         PropertyConfigurator.configure("log4j.properties");
