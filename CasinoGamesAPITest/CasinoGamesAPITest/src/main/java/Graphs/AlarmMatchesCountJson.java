@@ -30,9 +30,9 @@ import java.util.List;
 import static org.apache.commons.lang3.ArrayUtils.contains;
 
 public class AlarmMatchesCountJson {
-    static final int averageNum = 3;
-    static final int xAxisLength = 5;
-    static final int timeDelaySeconds = 1;
+    static final int averageNum = 5;
+    static final int xAxisLength = 288;
+    static final int timeDelaySeconds = 60;
     static final int compareUpcomingMatchesCount = 5;
     static final int compareTopLifeMatchesCount = 1;
     static final int compareLifeMatchesCount = 1;
@@ -130,6 +130,7 @@ public class AlarmMatchesCountJson {
         chartUpcoming.getStyler().setLegendBackgroundColor(new Color(237, 236, 255));
 //        chartUpcoming.getStyler().setCursorEnabled(true);
 //        chartUpcoming.getStyler().setCursorLineWidth(1.0f);
+        chartUpcoming.getStyler().setXAxisLabelRotation(90);
 
 
         chartTopLive.getStyler().setPlotGridVerticalLinesVisible(true);
@@ -144,6 +145,7 @@ public class AlarmMatchesCountJson {
         chartTopLive.getStyler().setLegendBackgroundColor(new Color(237, 236, 255));
 //        chartTopLive.getStyler().setCursorEnabled(true);
 //        chartTopLive.getStyler().setCursorLineWidth(1.0f);
+        chartTopLive.getStyler().setXAxisLabelRotation(90);
 
         chartLive.getStyler().setPlotGridVerticalLinesVisible(true);
         chartLive.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
@@ -157,6 +159,7 @@ public class AlarmMatchesCountJson {
         chartLive.getStyler().setLegendBackgroundColor(new Color(237, 236, 255));
 //        chartLive.getStyler().setCursorEnabled(true);
 //        chartLive.getStyler().setCursorLineWidth(1.0f);
+        chartLive.getStyler().setXAxisLabelRotation(90);
 
         chartPreMatches.getStyler().setPlotGridVerticalLinesVisible(true);
         chartPreMatches.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
@@ -170,6 +173,7 @@ public class AlarmMatchesCountJson {
         chartPreMatches.getStyler().setLegendBackgroundColor(new Color(237, 236, 255));
 //        chartPreMatches.getStyler().setCursorEnabled(true);
 //        chartPreMatches.getStyler().setCursorLineWidth(1.0f);
+        chartPreMatches.getStyler().setXAxisLabelRotation(90);
 
         // Show it
         SwingWrapper<XYChart> sw = new SwingWrapper<>(charts);
