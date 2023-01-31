@@ -32,8 +32,8 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
 
     static SwingWrapper<XYChart> sw ;
     static XYChart chart;
-    static final int averageNum = 2;
-    static final int xAxisLength = 10;
+    static final int averageNum = 1;
+    static final int xAxisLength = 288;
     static final int timeDelaySeconds = 1;
     static final int compareUpcomingMatchesCount = 5;
     static final int compareTopLifeMatchesCount = 1;
@@ -77,7 +77,6 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
     public static void main(String[] args) throws InterruptedException {
         loggerSetUp();
         initChart();
-        TimeUnit.SECONDS.sleep(timeDelaySeconds);
         updateChart();
 
     }
@@ -89,13 +88,13 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
         ExampleChart<XYChart> topLiveMatchesCount = new AlarmMatchesNew();
 
          chartPreMatch = preMatchesCount.getChart();
-         chartUpcoming = upcomingMatchesCount.getChart();
          chartLive = liveMatchesCount.getChart();
+         chartUpcoming = upcomingMatchesCount.getChart();
          chartTopLive = topLiveMatchesCount.getChart();
 
         charts.add(chartPreMatch);
-        charts.add(chartUpcoming);
         charts.add(chartLive);
+        charts.add(chartUpcoming);
         charts.add(chartTopLive);
 
         sw = new SwingWrapper<>(charts);
@@ -106,7 +105,103 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
 
 
 
+    static int chartsNum = 1;
+    public XYChart getChart() {
+        // Series
+        switch(chartsNum) {
+            case 1:{
+                // Create Chart
+                chartPreMatch = new XYChartBuilder().width(500).height(250).xAxisTitle("X").yAxisTitle("Y").build();
+                for (int m=1; m<=xAxisLength;m++){
+                    matchesCountArrayXAxis[m-1] = m;
+                }
+                // Customize Chart
+                chartPreMatch.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
+                chartPreMatch.getStyler().setAxisTitlesVisible(false);
+                chartPreMatch.getStyler().setDefaultSeriesRenderStyle(XYSeries.XYSeriesRenderStyle.Line);
+                chartPreMatch.getStyler().setSeriesColors(new Color[]{new Color(255,102,255)});
+                chartPreMatch.getStyler().setToolTipsEnabled(true);
+                chartPreMatch.getStyler().setZoomEnabled(true);
+                chartPreMatch.getStyler().setChartBackgroundColor(new Color(210, 210, 210));
+                chartPreMatch.getStyler().setLegendBackgroundColor(new Color(237, 236, 255));
+                chartPreMatch.getStyler().setXAxisLabelRotation(90);
+                chartPreMatch.getStyler().setMarkerSize(3);
+                chartPreMatch.addSeries("preMatch", matchesCountArrayXAxis, preMatchMatchesCountArray);
+                chartsNum++;
+                return chartPreMatch;
 
+            }
+            case 2:
+            {
+                chartLive = new XYChartBuilder().width(500).height(250).xAxisTitle("X").yAxisTitle("Y").build();
+                for (int m=1; m<=xAxisLength;m++){
+                    matchesCountArrayXAxis[m-1] = m;
+                }
+                // Customize Chart
+                chartLive.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
+                chartLive.getStyler().setAxisTitlesVisible(false);
+                chartLive.getStyler().setDefaultSeriesRenderStyle(XYSeries.XYSeriesRenderStyle.Line);
+                chartLive.getStyler().setSeriesColors(new Color[]{new Color(102,102,255)});
+                chartLive.getStyler().setToolTipsEnabled(true);
+                chartLive.getStyler().setZoomEnabled(true);
+                chartLive.getStyler().setChartBackgroundColor(new Color(210, 210, 210));
+                chartLive.getStyler().setLegendBackgroundColor(new Color(237, 236, 255));
+                chartLive.getStyler().setXAxisLabelRotation(90);
+                chartLive.getStyler().setMarkerSize(3);
+                chartLive.addSeries("Live", matchesCountArrayXAxis, upcomingMatchesCountArray);
+                chartsNum++;
+                return chartLive;
+
+            }
+            case 3:{
+                chartUpcoming = new XYChartBuilder().width(500).height(250).xAxisTitle("X").yAxisTitle("Y").build();
+                for (int m=1; m<=xAxisLength;m++){
+                    matchesCountArrayXAxis[m-1] = m;
+                }
+                // Customize Chart
+                chartUpcoming.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
+                chartUpcoming.getStyler().setAxisTitlesVisible(false);
+                chartUpcoming.getStyler().setDefaultSeriesRenderStyle(XYSeries.XYSeriesRenderStyle.Line);
+                chartUpcoming.getStyler().setSeriesColors(new Color[]{new Color(178,255,102)});
+                chartUpcoming.getStyler().setToolTipsEnabled(true);
+                chartUpcoming.getStyler().setZoomEnabled(true);
+                chartUpcoming.getStyler().setChartBackgroundColor(new Color(210, 210, 210));
+                chartUpcoming.getStyler().setLegendBackgroundColor(new Color(237, 236, 255));
+                chartUpcoming.getStyler().setXAxisLabelRotation(90);
+                chartUpcoming.getStyler().setMarkerSize(3);
+                chartUpcoming.addSeries("upcoming", matchesCountArrayXAxis, liveMatchesCountArray);
+                chartsNum++;
+                return chartUpcoming;
+
+            }
+            case 4:
+            {
+                chartTopLive = new XYChartBuilder().width(500).height(250).xAxisTitle("X").yAxisTitle("Y").build();
+                for (int m=1; m<=xAxisLength;m++){
+                    matchesCountArrayXAxis[m-1] = m;
+                }
+                // Customize Chart
+                chartTopLive.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
+                chartTopLive.getStyler().setAxisTitlesVisible(false);
+                chartTopLive.getStyler().setDefaultSeriesRenderStyle(XYSeries.XYSeriesRenderStyle.Step);
+                chartTopLive.getStyler().setSeriesColors(new Color[]{new Color(255,155,51)});
+                chartTopLive.getStyler().setMarkerSize(3);
+                chartTopLive.getStyler().setToolTipsEnabled(true);
+                chartTopLive.getStyler().setZoomEnabled(true);
+                chartTopLive.getStyler().setChartBackgroundColor(new Color(210, 210, 210));
+                chartTopLive.getStyler().setLegendBackgroundColor(new Color(237, 236, 255));
+                chartTopLive.getStyler().setXAxisLabelRotation(90);
+                chartTopLive.addSeries("topLive", matchesCountArrayXAxis, topLiveMatchesCountArray);
+                chartsNum++;
+                return chartTopLive;
+            }
+            default:{
+                return null;
+            }
+        }
+
+
+    }
 
     public static void updateChart() throws InterruptedException {
         while (true){
@@ -173,10 +268,10 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
                         liveMatchesCount += tempLiveMatchesCount[m];
                     }
                 }
+                preMatchesCount = preMatchesCount / averageNum;
+                liveMatchesCount = liveMatchesCount / averageNum;
                 upcomingMatchesCount = upcomingMatchesCount / averageNum;
                 topLiveMatchesCount = topLiveMatchesCount / averageNum;
-                liveMatchesCount = liveMatchesCount / averageNum;
-                preMatchesCount = preMatchesCount / averageNum;
 
                 //Creating arrays that contain last Matches Count Values
 
@@ -209,43 +304,35 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
 //                    System.out.println();
                 }
 
-
-
-
                 chartPreMatch.updateXYSeries("preMatch",matchesCountArrayXAxis, preMatchMatchesCountArray,null);
-                chartUpcoming.updateXYSeries("upcoming",matchesCountArrayXAxis, upcomingMatchesCountArray,null);
                 chartLive.updateXYSeries("Live", matchesCountArrayXAxis, liveMatchesCountArray,null);
+                chartUpcoming.updateXYSeries("upcoming",matchesCountArrayXAxis, upcomingMatchesCountArray,null);
                 chartTopLive.updateXYSeries("topLive", matchesCountArrayXAxis, topLiveMatchesCountArray,null);
                 for (int l = 0; l < charts.size(); l++) {
                     sw.repaintChart(l);
                 }
 
-
-
-
-
-
                 //Compare Count matches and turn on alarm  if needed
                 if (preMatchesCount < comparePreMatchesCount) {
-                    chart.getStyler().setChartBackgroundColor(new Color(255, 68, 68));
+                    chartPreMatch.getStyler().setChartBackgroundColor(new Color(255, 68, 68));
                     alarmOnPreMatch = true;
                     logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
                             + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount);
                 }
                 if (upcomingMatchesCount < compareUpcomingMatchesCount) {
-                    chart.getStyler().setChartBackgroundColor(new Color(255, 68, 68));
+                    chartUpcoming.getStyler().setChartBackgroundColor(new Color(255, 68, 68));
                     alarmOnUpcoming = true;
                     logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
                             + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount);
                 }
                 if (liveMatchesCount < compareLifeMatchesCount) {
-                    chart.getStyler().setChartBackgroundColor(new Color(255, 68, 68));
+                    chartLive.getStyler().setChartBackgroundColor(new Color(255, 68, 68));
                     alarmOnLive = true;
                     logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
                             + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount);
                 }
                 if (topLiveMatchesCount < compareTopLifeMatchesCount) {
-                    chart.getStyler().setChartBackgroundColor(new Color(255, 68, 68));
+                    chartTopLive.getStyler().setChartBackgroundColor(new Color(255, 68, 68));
                     alarmOnTopLive = true;
                     logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
                             + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount);
@@ -253,7 +340,11 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
                 if (upcomingMatchesCount >= compareUpcomingMatchesCount && topLiveMatchesCount >= compareTopLifeMatchesCount
                         && liveMatchesCount >= compareLifeMatchesCount && preMatchesCount >= comparePreMatchesCount) {
 //
-                    chart.getStyler().setChartBackgroundColor(new Color(210, 210, 210));
+                    chartPreMatch.getStyler().setChartBackgroundColor(new Color(210, 210, 210));
+                    chartUpcoming.getStyler().setChartBackgroundColor(new Color(210, 210, 210));
+                    chartLive.getStyler().setChartBackgroundColor(new Color(210, 210, 210));
+                    chartTopLive.getStyler().setChartBackgroundColor(new Color(210, 210, 210));
+
 
 
                     alarmOnUpcoming = false;
@@ -274,52 +365,15 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
                     playSound(System.getProperty("user.dir") + "\\src\\test\\java\\mp3\\topLive.wav", 4);
                 }
 
-
-
-
-
-
             }
             catch(Exception e){
                 logger.fatal("Exception on Main While loop: " + e);
             }
 
         }
-
-
-
-
-
-
     }
 
 
-
-    @Override
-    public XYChart getChart() { // String name
-        // Create Chart
-        chart = new XYChartBuilder().width(800).height(600).title("Matches Count  " + currentTime()).xAxisTitle("X").yAxisTitle("Y").build();
-        for (int m=1; m<=xAxisLength;m++){
-            matchesCountArrayXAxis[m-1] = m;
-        }
-        // Customize Chart
-        chart.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
-        chart.getStyler().setAxisTitlesVisible(false);
-        chart.getStyler().setDefaultSeriesRenderStyle(XYSeries.XYSeriesRenderStyle.Area);
-        chart.getStyler().setToolTipsEnabled(true);
-        chart.getStyler().setZoomEnabled(true);
-        chart.getStyler().setChartBackgroundColor(new Color(210, 210, 210));
-        chart.getStyler().setLegendBackgroundColor(new Color(237, 236, 255));
-        chart.getStyler().setXAxisLabelRotation(90);
-        // Series
-//        switch()
-//            case 1
-        chart.addSeries("preMatch", matchesCountArrayXAxis, preMatchMatchesCountArray);
-//        chart.addSeries("upcoming", matchesCountArrayXAxis, upcomingMatchesCountArray);
-//        chart.addSeries("Live", matchesCountArrayXAxis, liveMatchesCountArray);
-//        chart.addSeries("topLive", matchesCountArrayXAxis, topLiveMatchesCountArray);
-        return chart;
-    }
 
 
 

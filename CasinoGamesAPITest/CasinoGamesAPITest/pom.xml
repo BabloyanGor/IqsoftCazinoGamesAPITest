@@ -68,6 +68,14 @@
             <artifactId>xchart</artifactId>
             <version>3.8.3</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.knowm.xchart/xchart-parent -->
+        <dependency>
+            <groupId>org.knowm.xchart</groupId>
+            <artifactId>xchart-parent</artifactId>
+            <version>3.8.3</version>
+            <type>pom</type>
+        </dependency>
+
 
         <!-- https://mvnrepository.com/artifact/org.knowm.xchart/xchart-demo -->
         <dependency>
@@ -84,12 +92,16 @@
             <artifactId>javafx-swing</artifactId>
             <version>11.0.2</version>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.openjfx</groupId>-->
+<!--            <artifactId>javafx-controls</artifactId>-->
+<!--            <version>11.0.2</version>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>11.0.2</version>
+            <version>19.0.2.1</version>
         </dependency>
-
 
         <!--kmkmkmkmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
         <!-- https://mvnrepository.com/artifact/org.openjfx/javafx-media -->
