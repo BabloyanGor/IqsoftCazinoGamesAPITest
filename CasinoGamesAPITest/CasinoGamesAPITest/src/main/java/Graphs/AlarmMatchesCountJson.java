@@ -227,33 +227,29 @@ public class AlarmMatchesCountJson  {
                 }
 
                 boolean containsZeroUpcoming = contains(tempUpcomingMatchesLocal, 0);
-                if (containsZeroUpcoming) {
-                    upcomingMatchesCount = 0;
-                } else {
+                upcomingMatchesCount = 0;
+                if (!containsZeroUpcoming) {
                     for (int m = 0; m < averageNum; m++) {
                         upcomingMatchesCount += tempUpcomingMatchesLocal[m];
                     }
                 }
                 boolean containsZeroPreMatch = contains(tempPreMatchesCount, 0);
-                if (containsZeroPreMatch) {
-                    preMatchesCount = 0;
-                } else {
+                preMatchesCount = 0;
+                if (!containsZeroPreMatch) {
                     for (int m = 0; m < averageNum; m++) {
                         preMatchesCount += tempPreMatchesCount[m];
                     }
                 }
                 boolean containsZeroTopLive = contains(tempTopLiveMatchesCount, 0);
-                if (containsZeroTopLive) {
-                    topLiveMatchesCount = 0;
-                } else {
+                topLiveMatchesCount = 0;
+                if (!containsZeroTopLive) {
                     for (int m = 0; m < averageNum; m++) {
                         topLiveMatchesCount += tempTopLiveMatchesCount[m];
                     }
                 }
                 boolean containsZeroLive = contains(tempLiveMatchesCount, 0);
-                if (containsZeroLive) {
-                    liveMatchesCount = 0;
-                } else {
+                liveMatchesCount = 0;
+                if (!containsZeroLive) {
                     for (int m = 0; m < averageNum; m++) {
                         liveMatchesCount += tempLiveMatchesCount[m];
                     }
@@ -286,7 +282,7 @@ public class AlarmMatchesCountJson  {
 //                        System.out.println();
 
                     }
-//                    xAxisValue++;
+                    xAxisValue++;
 //                    matchesCountArrayXAxis[lastArrayItem] = xAxisValue;
                     upcomingMatchesCountArray[lastArrayItem] = upcomingMatchesCount;
                     topLiveMatchesCountArray[lastArrayItem] = topLiveMatchesCount;

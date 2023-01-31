@@ -16,67 +16,308 @@ import org.knowm.xchart.style.Styler;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
-import javax.swing.*;
+import java.awt.*;
 import java.io.File;
 import java.net.URL;
 import java.net.URLConnection;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
+
+import static org.apache.commons.lang3.ArrayUtils.contains;
 
 public class AlarmMatchesNew  implements ExampleChart<XYChart> {
 
-    static JFrame sw ;
+    static SwingWrapper<XYChart> sw ;
     static XYChart chart;
-    static final int averageNum = 5;
-    static final int xAxisLength = 288;
-    static final int timeDelaySeconds = 3;
+    static final int averageNum = 2;
+    static final int xAxisLength = 10;
+    static final int timeDelaySeconds = 1;
     static final int compareUpcomingMatchesCount = 5;
     static final int compareTopLifeMatchesCount = 1;
     static final int compareLifeMatchesCount = 1;
     static final int comparePreMatchesCount = 1;
     public static Logger logger;
+    static List<XYChart> charts = new ArrayList<>();
+    static double[] matchesCountArrayXAxis = new double[xAxisLength];
+    static double[] preMatchMatchesCountArray = new double[xAxisLength];
+    static double[] upcomingMatchesCountArray = new double[xAxisLength];
+    static double[] topLiveMatchesCountArray = new double[xAxisLength];
+    static double[] liveMatchesCountArray = new double[xAxisLength];
 
 
 
+    static boolean alarmOnUpcoming = false;
+    static boolean alarmOnPreMatch = false;
+    static boolean alarmOnTopLive = false;
+    static boolean alarmOnLive = false;
 
+    static int upcomingMatchesCount;
+    static int topLiveMatchesCount;
+    static int liveMatchesCount;
+    static int preMatchesCount;
+
+    static int[] tempUpcomingMatchesLocal = new int[averageNum];
+    static int[] tempTopLiveMatchesCount = new int[averageNum];
+    static int[] tempLiveMatchesCount = new int[averageNum];
+    static int[] tempPreMatchesCount = new int[averageNum];
+
+    static ArrayList<String> upcomingSportsLocal;
+    static ArrayList<String> liveSportsTop;
+
+    static int p = 0;
+    static int xAxisValue = xAxisLength;
+
+    static XYChart chartPreMatch;
+    static XYChart chartUpcoming;
+    static XYChart chartLive;
+    static XYChart chartTopLive;
     public static void main(String[] args) throws InterruptedException {
+        loggerSetUp();
         initChart();
-
+        TimeUnit.SECONDS.sleep(timeDelaySeconds);
         updateChart();
 
     }
 
     public static void initChart(){
-        ExampleChart<XYChart> matchesCount = new AlarmMatchesNew();
-        XYChart chart = matchesCount.getChart();
-        sw = new SwingWrapper<XYChart>(chart).displayChart();
+        ExampleChart<XYChart> preMatchesCount = new AlarmMatchesNew();
+        ExampleChart<XYChart> upcomingMatchesCount = new AlarmMatchesNew();
+        ExampleChart<XYChart> liveMatchesCount = new AlarmMatchesNew();
+        ExampleChart<XYChart> topLiveMatchesCount = new AlarmMatchesNew();
+
+         chartPreMatch = preMatchesCount.getChart();
+         chartUpcoming = upcomingMatchesCount.getChart();
+         chartLive = liveMatchesCount.getChart();
+         chartTopLive = topLiveMatchesCount.getChart();
+
+        charts.add(chartPreMatch);
+        charts.add(chartUpcoming);
+        charts.add(chartLive);
+        charts.add(chartTopLive);
+
+        sw = new SwingWrapper<>(charts);
+//        sw = new SwingWrapper<XYChart>(chartPreMatch);
+        sw.setTitle("Matches Count " + currentTime());
+        sw.displayChartMatrix();
     }
+
+
+
+
+
     public static void updateChart() throws InterruptedException {
-        TimeUnit.SECONDS.sleep(timeDelaySeconds);
-        chart.updateXYSeries("a", new double[] { 5, 6, 7, 8, 9 }, new double[] { 15, 20, 8, 4, 11 },null);
-        chart.updateXYSeries("b", new double[] { 5, 6, 7, 8, 9 }, new double[] { 61, 2, 27, 32,5 },null);
-        chart.updateXYSeries("c", new double[] { 5, 6, 7, 8, 9 }, new double[] { -2, -1, -1, 30, -91 },null);
-        chart.updateXYSeries("d", new double[] { 5, 6, 7, 8, 9 }, new double[] { 4, 51, 11, 22, 17 },null);
-        sw.repaint();
+        while (true){
+            try{
+                upcomingMatchesCount = 1000;
+                topLiveMatchesCount = 1000;
+                liveMatchesCount = 1000;
+                preMatchesCount = 1000;
+                //get matches count (graph will show average of calls averageNum times )
+                for (int k = 0; k < averageNum; k++) {
+
+                    upcomingSportsLocal = getUpcomingSportsIDs();
+                    tempUpcomingMatchesLocal[k] = 0;
+                    if (upcomingSportsLocal != null) {
+                        for (String id : upcomingSportsLocal) {
+                            tempUpcomingMatchesLocal[k] += getUpcomingMatchesCount(id);
+                        }
+                    }
+
+
+                    liveSportsTop = getLiveSportsIDs();
+                    tempTopLiveMatchesCount[k] = 0;
+                    if (liveSportsTop != null) {
+                        for (String id : liveSportsTop) {
+                            tempTopLiveMatchesCount[k] += getLocalLifeMatchesCount(id);
+                        }
+                    }
+
+
+                    tempLiveMatchesCount[k] = getLifeMatchesCount();
+                    tempPreMatchesCount[k] = getPreMatchMatchesCount();
+
+                    logger.info("UpcomingMatchesCount: " + tempUpcomingMatchesLocal[k] + "  topLiveMatchesCount: " + tempTopLiveMatchesCount[k] + "  "
+                            + "  liveMatchesCount: " + tempLiveMatchesCount[k] + "  " + "  preMatchesCount: " + tempPreMatchesCount[k]);
+
+                    TimeUnit.SECONDS.sleep(timeDelaySeconds);
+                }
+
+                boolean containsZeroUpcoming = contains(tempUpcomingMatchesLocal, 0);
+                upcomingMatchesCount = 0;
+                if (!containsZeroUpcoming) {
+                    for (int m = 0; m < averageNum; m++) {
+                        upcomingMatchesCount += tempUpcomingMatchesLocal[m];
+                    }
+                }
+                boolean containsZeroPreMatch = contains(tempPreMatchesCount, 0);
+                preMatchesCount = 0;
+                if (!containsZeroPreMatch) {
+                    for (int m = 0; m < averageNum; m++) {
+                        preMatchesCount += tempPreMatchesCount[m];
+                    }
+                }
+                boolean containsZeroTopLive = contains(tempTopLiveMatchesCount, 0);
+                topLiveMatchesCount = 0;
+                if (!containsZeroTopLive) {
+                    for (int m = 0; m < averageNum; m++) {
+                        topLiveMatchesCount += tempTopLiveMatchesCount[m];
+                    }
+                }
+                boolean containsZeroLive = contains(tempLiveMatchesCount, 0);
+                liveMatchesCount = 0;
+                if (!containsZeroLive) {
+                    for (int m = 0; m < averageNum; m++) {
+                        liveMatchesCount += tempLiveMatchesCount[m];
+                    }
+                }
+                upcomingMatchesCount = upcomingMatchesCount / averageNum;
+                topLiveMatchesCount = topLiveMatchesCount / averageNum;
+                liveMatchesCount = liveMatchesCount / averageNum;
+                preMatchesCount = preMatchesCount / averageNum;
+
+                //Creating arrays that contain last Matches Count Values
+
+                if (p < upcomingMatchesCountArray.length) {
+                    upcomingMatchesCountArray[p] = upcomingMatchesCount;
+                    topLiveMatchesCountArray[p] = topLiveMatchesCount;
+                    liveMatchesCountArray[p] = liveMatchesCount;
+                    preMatchMatchesCountArray[p] = preMatchesCount;
+                    p++;
+                } else {
+                    int lastArrayItem = p - 1;
+
+                    for (int i = 1; i < upcomingMatchesCountArray.length; i++) {
+                        upcomingMatchesCountArray[i - 1] = upcomingMatchesCountArray[i];
+                        topLiveMatchesCountArray[i - 1] = topLiveMatchesCountArray[i];
+                        liveMatchesCountArray[i - 1] = liveMatchesCountArray[i];
+                        preMatchMatchesCountArray[i - 1] = preMatchMatchesCountArray[i];
+
+                        matchesCountArrayXAxis[i - 1] = matchesCountArrayXAxis[i];
+//                        System.out.println();
+
+                    }
+                    xAxisValue++;
+                    matchesCountArrayXAxis[lastArrayItem] = xAxisValue;
+                    upcomingMatchesCountArray[lastArrayItem] = upcomingMatchesCount;
+                    topLiveMatchesCountArray[lastArrayItem] = topLiveMatchesCount;
+                    liveMatchesCountArray[lastArrayItem] = liveMatchesCount;
+                    preMatchMatchesCountArray[lastArrayItem] = preMatchesCount;
+
+//                    System.out.println();
+                }
+
+
+
+
+                chartPreMatch.updateXYSeries("preMatch",matchesCountArrayXAxis, preMatchMatchesCountArray,null);
+                chartUpcoming.updateXYSeries("upcoming",matchesCountArrayXAxis, upcomingMatchesCountArray,null);
+                chartLive.updateXYSeries("Live", matchesCountArrayXAxis, liveMatchesCountArray,null);
+                chartTopLive.updateXYSeries("topLive", matchesCountArrayXAxis, topLiveMatchesCountArray,null);
+                for (int l = 0; l < charts.size(); l++) {
+                    sw.repaintChart(l);
+                }
+
+
+
+
+
+
+                //Compare Count matches and turn on alarm  if needed
+                if (preMatchesCount < comparePreMatchesCount) {
+                    chart.getStyler().setChartBackgroundColor(new Color(255, 68, 68));
+                    alarmOnPreMatch = true;
+                    logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
+                            + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount);
+                }
+                if (upcomingMatchesCount < compareUpcomingMatchesCount) {
+                    chart.getStyler().setChartBackgroundColor(new Color(255, 68, 68));
+                    alarmOnUpcoming = true;
+                    logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
+                            + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount);
+                }
+                if (liveMatchesCount < compareLifeMatchesCount) {
+                    chart.getStyler().setChartBackgroundColor(new Color(255, 68, 68));
+                    alarmOnLive = true;
+                    logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
+                            + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount);
+                }
+                if (topLiveMatchesCount < compareTopLifeMatchesCount) {
+                    chart.getStyler().setChartBackgroundColor(new Color(255, 68, 68));
+                    alarmOnTopLive = true;
+                    logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
+                            + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount);
+                }
+                if (upcomingMatchesCount >= compareUpcomingMatchesCount && topLiveMatchesCount >= compareTopLifeMatchesCount
+                        && liveMatchesCount >= compareLifeMatchesCount && preMatchesCount >= comparePreMatchesCount) {
+//
+                    chart.getStyler().setChartBackgroundColor(new Color(210, 210, 210));
+
+
+                    alarmOnUpcoming = false;
+                    alarmOnTopLive = false;
+                    alarmOnLive = false;
+                    alarmOnPreMatch = false;
+                }
+
+                // When alarm is on play specific sound
+
+                if (alarmOnPreMatch) {
+                    playSound(System.getProperty("user.dir") + "\\src\\test\\java\\mp3\\prematchMain.wav", 10);
+                } else if (alarmOnUpcoming) {
+                    playSound(System.getProperty("user.dir") + "\\src\\test\\java\\mp3\\upcoming.wav", 8);
+                } else if (alarmOnLive) {
+                    playSound(System.getProperty("user.dir") + "\\src\\test\\java\\mp3\\live.wav", 4);
+                } else if (alarmOnTopLive) {
+                    playSound(System.getProperty("user.dir") + "\\src\\test\\java\\mp3\\topLive.wav", 4);
+                }
+
+
+
+
+
+
+            }
+            catch(Exception e){
+                logger.fatal("Exception on Main While loop: " + e);
+            }
+
+        }
+
+
+
+
+
+
     }
 
 
 
     @Override
-    public XYChart getChart() {
+    public XYChart getChart() { // String name
         // Create Chart
-        chart = new XYChartBuilder().width(1920).height(1080).title("Matches Count  " + currentTime()).xAxisTitle("X").yAxisTitle("Y").build();
+        chart = new XYChartBuilder().width(800).height(600).title("Matches Count  " + currentTime()).xAxisTitle("X").yAxisTitle("Y").build();
+        for (int m=1; m<=xAxisLength;m++){
+            matchesCountArrayXAxis[m-1] = m;
+        }
         // Customize Chart
-        chart.getStyler().setLegendPosition(Styler.LegendPosition.InsideNE);
+        chart.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
         chart.getStyler().setAxisTitlesVisible(false);
-        chart.getStyler().setDefaultSeriesRenderStyle(XYSeries.XYSeriesRenderStyle.Line);
+        chart.getStyler().setDefaultSeriesRenderStyle(XYSeries.XYSeriesRenderStyle.Area);
+        chart.getStyler().setToolTipsEnabled(true);
+        chart.getStyler().setZoomEnabled(true);
+        chart.getStyler().setChartBackgroundColor(new Color(210, 210, 210));
+        chart.getStyler().setLegendBackgroundColor(new Color(237, 236, 255));
+        chart.getStyler().setXAxisLabelRotation(90);
         // Series
-        chart.addSeries("a", new double[] { 0, 1, 2, 3, 4 }, new double[] { -3, 5, 9, 6, 5 });
-        chart.addSeries("b", new double[] { 0, 1, 2, 3, 4 }, new double[] { -1, 6, 4, 0, 4 });
-        chart.addSeries("c", new double[] { 0, 1, 2, 3, 4 }, new double[] { -2, -1, 1, 0, 1 });
-        chart.addSeries("d", new double[] { 0, 1, 2, 3, 4 }, new double[] { -4, 1, 11, 2, 7 });
+//        switch()
+//            case 1
+        chart.addSeries("preMatch", matchesCountArrayXAxis, preMatchMatchesCountArray);
+//        chart.addSeries("upcoming", matchesCountArrayXAxis, upcomingMatchesCountArray);
+//        chart.addSeries("Live", matchesCountArrayXAxis, liveMatchesCountArray);
+//        chart.addSeries("topLive", matchesCountArrayXAxis, topLiveMatchesCountArray);
         return chart;
     }
 
