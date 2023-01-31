@@ -69,6 +69,16 @@
             <version>3.8.3</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.knowm.xchart/xchart-demo -->
+        <dependency>
+            <groupId>org.knowm.xchart</groupId>
+            <artifactId>xchart-demo</artifactId>
+            <version>3.8.3</version>
+        </dependency>
+
+
+
+
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-swing</artifactId>

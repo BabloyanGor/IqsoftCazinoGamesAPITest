@@ -29,7 +29,8 @@ import java.util.List;
 
 import static org.apache.commons.lang3.ArrayUtils.contains;
 
-public class AlarmMatchesCountJson {
+public class AlarmMatchesCountJson  {
+
     static final int averageNum = 5;
     static final int xAxisLength = 288;
     static final int timeDelaySeconds = 60;
@@ -85,9 +86,9 @@ public class AlarmMatchesCountJson {
 
 
         double[] matchesCountArrayXAxis = new double[xAxisLength];
-//        for (int m=1; m<=xAxisLength;m++){
-//            matchesCountArrayXAxis[m-1] = m;
-//        }
+        for (int m=1; m<=xAxisLength;m++){
+            matchesCountArrayXAxis[m-1] = m;
+        }
 
 
         double[] upcomingMatchesCountArray = new double[xAxisLength];
@@ -105,6 +106,7 @@ public class AlarmMatchesCountJson {
         // Create Charts
         List<XYChart> charts = new ArrayList<>();
 
+
         XYChart chartPreMatches = QuickChart.getChart("Pre matches count", "X-Axis division: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Pre Matches", initDataPreMatch[0], initDataPreMatch[1]);
         XYChart chartLive = QuickChart.getChart("Live matches count", "X-Axis division: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Live Matches", initDataLive[0], initDataLive[1]);
         XYChart chartUpcoming = QuickChart.getChart("Upcoming matches count", "X-Axis division: " + df.format(timeDelayMinutesVisualisation) + " min", "Value", "Upcoming Matches", initDataUpcoming[0], initDataUpcoming[1]);
@@ -114,6 +116,7 @@ public class AlarmMatchesCountJson {
         charts.add(chartLive);
         charts.add(chartUpcoming);
         charts.add(chartTopLive);
+
 
 
         //Styles for Chart
@@ -131,7 +134,6 @@ public class AlarmMatchesCountJson {
 //        chartUpcoming.getStyler().setCursorEnabled(true);
 //        chartUpcoming.getStyler().setCursorLineWidth(1.0f);
         chartUpcoming.getStyler().setXAxisLabelRotation(90);
-
 
         chartTopLive.getStyler().setPlotGridVerticalLinesVisible(true);
         chartTopLive.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
@@ -181,6 +183,7 @@ public class AlarmMatchesCountJson {
 
         sw.displayChartMatrix();
 
+
         int k;
 
         while (true) {
@@ -226,8 +229,6 @@ public class AlarmMatchesCountJson {
                             + "  liveMatchesCount: " + tempLiveMatchesCount[k] + "  " + "  preMatchesCount: " + tempPreMatchesCount[k]);
 
                     TimeUnit.SECONDS.sleep(timeDelaySeconds);
-
-
                 }
 
                 boolean containsZeroUpcoming = contains(tempUpcomingMatchesLocal, 0);
@@ -285,7 +286,7 @@ public class AlarmMatchesCountJson {
                         topLiveMatchesCountArray[i - 1] = topLiveMatchesCountArray[i];
                         liveMatchesCountArray[i - 1] = liveMatchesCountArray[i];
                         preMatchMatchesCountArray[i - 1] = preMatchMatchesCountArray[i];
-//
+
 //                        matchesCountArrayXAxis[i - 1] = matchesCountArrayXAxis[i];
 //                        System.out.println();
 
@@ -297,16 +298,15 @@ public class AlarmMatchesCountJson {
                     liveMatchesCountArray[lastArrayItem] = liveMatchesCount;
                     preMatchMatchesCountArray[lastArrayItem] = preMatchesCount;
 
-
 //                    System.out.println();
                 }
 
 
                 // Update charts
-                chartPreMatches.updateXYSeries("Pre Matches", matchesCountArrayXAxis, preMatchMatchesCountArray, null);
-                chartLive.updateXYSeries("Live Matches", matchesCountArrayXAxis, liveMatchesCountArray, null);
-                chartUpcoming.updateXYSeries("Upcoming Matches", matchesCountArrayXAxis, upcomingMatchesCountArray, null);
-                chartTopLive.updateXYSeries("Top Live Matches", matchesCountArrayXAxis, topLiveMatchesCountArray, null);
+                chartPreMatches.updateXYSeries("Pre Matches", null, preMatchMatchesCountArray, null);
+                chartLive.updateXYSeries("Live Matches", null, liveMatchesCountArray, null);
+                chartUpcoming.updateXYSeries("Upcoming Matches", null, upcomingMatchesCountArray, null);
+                chartTopLive.updateXYSeries("Top Live Matches", null, topLiveMatchesCountArray, null);
                 for (int l = 0; l < charts.size(); l++) {
                     sw.repaintChart(l);
                 }
@@ -688,6 +688,7 @@ public class AlarmMatchesCountJson {
             }
         }
     }
+
 
 
 }
