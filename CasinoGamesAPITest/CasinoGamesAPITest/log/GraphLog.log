@@ -2004,3 +2004,88 @@
 [INFO] 2023-02-01 13:00:37,649 craftBetWorld updateChart - UpcomingMatchesCount: 121  topLiveMatchesCount: 36    liveMatchesCount: 58    preMatchesCount: 2349
 [INFO] 2023-02-01 13:01:10,750 craftBetWorld updateChart - UpcomingMatchesCount: 121  topLiveMatchesCount: 35    liveMatchesCount: 58    preMatchesCount: 2349
 [INFO] 2023-02-01 13:02:44,171 craftBetWorld updateChart - UpcomingMatchesCount: 121  topLiveMatchesCount: 36    liveMatchesCount: 58    preMatchesCount: 2349
+[INFO] 2023-02-01 13:51:31,871 craftBetWorld initDriver - Browser for test will be firefox as chosen
+[INFO] 2023-02-01 13:51:32,523 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+[INFO] 2023-02-01 13:51:32,541 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.gecko.driver as C:\Users\user\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+[INFO] 2023-02-01 13:52:05,805 craftBetWorld updateChart - UpcomingMatchesCount: 121  topLiveMatchesCount: 37    liveMatchesCount: 57    preMatchesCount: 2363
+[INFO] 2023-02-01 15:19:33,925 craftBetWorld initDriver - Browser for test will be firefox as chosen
+[INFO] 2023-02-01 15:19:34,523 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+[INFO] 2023-02-01 15:19:34,541 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.gecko.driver as C:\Users\user\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+[INFO] 2023-02-01 15:19:37,944 craftBetWorld setup - URL: https://play.baqto.com  Browser: firefox
+[INFO] 2023-02-01 15:19:45,497 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-02-01 15:19:46,165 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+[INFO] 2023-02-01 15:19:52,193 craftBetWorld getGamesAPICheckPictures - Get games Api call was sent
+[INFO] 2023-02-01 15:19:52,375 craftBetWorld getGamesAPICheckPictures - Get games Api Response was captured
+[INFO] 2023-02-01 15:19:52,464 craftBetWorld getGamesAPICheckPictures - All captured games images was added into ArrayList
+[ERROR] 2023-02-01 15:20:18,400 craftBetWorld getGamesAPICheckPictures - 132  Game ID = 75530   Game Provider Name = WorldMatch :   Game Name =  3D Farm HD :   cod = 404:   src = https://resources.play.baqto.com/products/worldmatch/web/3d_farm_hd
+[ERROR] 2023-02-01 15:21:23,196 craftBetWorld getGamesAPICheckPictures - 361  Game ID = 54273   Game Provider Name = PragmaticPlay :   Game Name =  Andar Bahar :   cod = 403:   src = https://resources.play.baqto.com/products/
+[ERROR] 2023-02-01 15:22:06,375 craftBetWorld getGamesAPICheckPictures - 515  Game ID = 54337   Game Provider Name = PragmaticPlay :   Game Name =  Barn Festival :   cod = 403:   src = https://resources.play.baqto.com/products/
+[ERROR] 2023-02-01 15:23:08,431 craftBetWorld getGamesAPICheckPictures - 765  Game ID = 54081   Game Provider Name = PragmaticPlay :   Game Name =  Book of Tut :   cod = 403:   src = https://resources.play.baqto.com/products/
+[ERROR] 2023-02-01 15:23:40,138 craftBetWorld getGamesAPICheckPictures - 889  Game ID = 54044   Game Provider Name = PragmaticPlay :   Game Name =  Caishen's Gold :   cod = 520:   src = https://resources.play.baqto.com/products/pragmaticplay/web/CaishensGold.png
+[ERROR] 2023-02-01 15:25:14,205 craftBetWorld getGamesAPICheckPictures - 1256  Game ID = 54202   Game Provider Name = PragmaticPlay :   Game Name =  Diamond Strike 250,000 :   cod = 403:   src = https://resources.play.baqto.com/products/
+[ERROR] 2023-02-01 15:25:35,171 craftBetWorld getGamesAPICheckPictures - 1342  Game ID = 54195   Game Provider Name = PragmaticPlay :   Game Name =  Dragon Tiger :   cod = 403:   src = https://resources.play.baqto.com/products/
+[ERROR] 2023-02-01 15:25:35,261 craftBetWorld getGamesAPICheckPictures - 1343  Game ID = 54274   Game Provider Name = PragmaticPlay :   Game Name =  Dragon Tiger :   cod = 403:   src = https://resources.play.baqto.com/products/
+[ERROR] 2023-02-01 15:27:52,293 craftBetWorld getGamesAPICheckPictures - 1892  Game ID = 54201   Game Provider Name = PragmaticPlay :   Game Name =  Gold Rush 500,000 :   cod = 403:   src = https://resources.play.baqto.com/products/
+[ERROR] 2023-02-01 15:28:52,779 craftBetWorld getGamesAPICheckPictures - 2122  Game ID = 54198   Game Provider Name = PragmaticPlay :   Game Name =  Hot Safari 75,000 :   cod = 403:   src = https://resources.play.baqto.com/products/
+[ERROR] 2023-02-01 15:29:15,536 craftBetWorld getGamesAPICheckPictures - 2213  Game ID = 29459   Game Provider Name = Microgaming :   Game Name =  Inferno Gladiator :   cod = 403:   src = https://agstatic.com/games/mg/inferno_gladiator.jpg
+[ERROR] 2023-02-01 15:29:26,473 craftBetWorld getGamesAPICheckPictures - 2253  Game ID = 54231   Game Provider Name = PragmaticPlay :   Game Name =  Jackpot :   cod = 403:   src = https://resources.play.baqto.com/products/
+[ERROR] 2023-02-01 15:31:46,880 craftBetWorld getGamesAPICheckPictures - 2775  Game ID = 77133   Game Provider Name = Evoplay :   Game Name =  Mega Greatest Catch Bоnus Buy :   cod = 403:   src = https://agstatic.com/games/evoplay/mega_greatest_catch_b?nus_buy.jpg
+[ERROR] 2023-02-01 15:31:47,947 craftBetWorld getGamesAPICheckPictures - 2779  Game ID = 54287   Game Provider Name = PragmaticPlay :   Game Name =  Mega Sic Bo :   cod = 403:   src = https://resources.play.baqto.com/products/
+[ERROR] 2023-02-01 15:31:48,037 craftBetWorld getGamesAPICheckPictures - 2780  Game ID = 54272   Game Provider Name = PragmaticPlay :   Game Name =  Mega Wheel :   cod = 403:   src = https://resources.play.baqto.com/products/
+[ERROR] 2023-02-01 15:33:01,557 craftBetWorld getGamesAPICheckPictures - 3052  Game ID = 54200   Game Provider Name = PragmaticPlay :   Game Name =  Panda Gold 50,000 :   cod = 403:   src = https://resources.play.baqto.com/products/
+[ERROR] 2023-02-01 15:33:47,005 craftBetWorld getGamesAPICheckPictures - 3219  Game ID = 54000   Game Provider Name = PragmaticPlay :   Game Name =  PromoWin :   cod = 403:   src = https://resources.play.baqto.com/products/
+[ERROR] 2023-02-01 15:36:01,654 craftBetWorld getGamesAPICheckPictures - 3733  Game ID = 54336   Game Provider Name = PragmaticPlay :   Game Name =  Spaceman :   cod = 403:   src = https://resources.play.baqto.com/products/
+[ERROR] 2023-02-01 15:36:52,847 craftBetWorld getGamesAPICheckPictures - 3934  Game ID = 54304   Game Provider Name = PragmaticPlay :   Game Name =  Sweet Bonanza CandyLand :   cod = 403:   src = https://resources.play.baqto.com/products/
+[ERROR] 2023-02-01 15:37:44,719 craftBetWorld getGamesAPICheckPictures - 4141  Game ID = 54335   Game Provider Name = PragmaticPlay :   Game Name =  Tic Tac Take :   cod = 403:   src = https://resources.play.baqto.com/products/
+[ERROR] 2023-02-01 15:38:03,465 craftBetWorld getGamesAPICheckPictures - 4219  Game ID = 77158   Game Provider Name = Evoplay :   Game Name =  Treasure-snipes: Christmas :   cod = 403:   src = https://agstatic.com/games/evoplay/treasure_snipes_?hristmas.jpg
+[ERROR] 2023-02-01 15:39:40,123 craftBetWorld getGamesAPICheckPictures - 4592  Game ID = 54204   Game Provider Name = PragmaticPlay :   Game Name =  Wolf Gold 1 Million :   cod = 403:   src = https://resources.play.baqto.com/products/
+[ERROR] 2023-02-01 15:39:40,210 craftBetWorld getGamesAPICheckPictures - 4593  Game ID = 54197   Game Provider Name = PragmaticPlay :   Game Name =  Wolf Gold 1,000,000 :   cod = 403:   src = https://resources.play.baqto.com/products/
+[INFO] 2023-02-01 15:40:00,128 craftBetWorld getGamesAPICheckPictures - Broken images are:  23
+[INFO] 2023-02-01 15:40:01,867 craftBetWorld tearDown - Browser closed
+[INFO] 2023-02-01 15:40:01,868 craftBetWorld tearDown - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+[INFO] 2023-02-01 15:40:01,872 craftBetWorld Finish - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+[INFO] 2023-02-01 15:40:54,880 craftBetWorld initDriver - Browser for test will be firefox as chosen
+[INFO] 2023-02-01 15:40:55,128 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+[INFO] 2023-02-01 15:40:55,153 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.gecko.driver as C:\Users\user\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+[INFO] 2023-02-01 15:40:57,805 craftBetWorld setup - URL: https://zorrobet365.com  Browser: firefox
+[INFO] 2023-02-01 15:40:57,874 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-02-01 15:40:58,722 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+[INFO] 2023-02-01 15:41:03,695 craftBetWorld getGamesAPICheckPictures - Get games Api call was sent
+[INFO] 2023-02-01 15:41:03,898 craftBetWorld getGamesAPICheckPictures - Get games Api Response was captured
+[INFO] 2023-02-01 15:41:04,038 craftBetWorld getGamesAPICheckPictures - All captured games images was added into ArrayList
+[ERROR] 2023-02-01 15:41:14,006 craftBetWorld getGamesAPICheckPictures - 56  Game ID = 82733   Game Provider Name = Playpearls :   Game Name =  Baccarat :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 15:41:51,032 craftBetWorld getGamesAPICheckPictures - 247  Game ID = 82989   Game Provider Name = NoLimitCity :   Game Name =  Dead Canary :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 15:42:21,512 craftBetWorld getGamesAPICheckPictures - 395  Game ID = 82723   Game Provider Name = Playpearls :   Game Name =  Golden Egg Keno :   cod = 404:   src = https://resources.zorrobet365.com/products/playpearls/web/GoldenEggKeno.png
+[ERROR] 2023-02-01 15:42:32,435 craftBetWorld getGamesAPICheckPictures - 441  Game ID = 81494   Game Provider Name = Playpearls :   Game Name =  Hippie Roll :   cod = 404:   src = https://resources.zorrobet365.com/products/playpearls/web/HippieRoll.png
+[ERROR] 2023-02-01 15:42:47,531 craftBetWorld getGamesAPICheckPictures - 508  Game ID = 82725   Game Provider Name = Playpearls :   Game Name =  Jacks or Better Saloon :   cod = 404:   src = https://resources.zorrobet365.com/products/playpearls/web/JacksorBetterSaloon.png
+[ERROR] 2023-02-01 15:43:14,585 craftBetWorld getGamesAPICheckPictures - 627  Game ID = 82990   Game Provider Name = PlaynGo :   Game Name =  Mötley Crüe :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 15:43:23,856 craftBetWorld getGamesAPICheckPictures - 672  Game ID = 82537   Game Provider Name = RealisticGames :   Game Name =  Perfect Pairs 21+3 Blackjack (3 Box) :   cod = 404:   src = https://resources.zorrobet365.com/products/realistic/web/Perfect-Pairs-21+3-Blackjack-(3-Box).jpg
+[ERROR] 2023-02-01 15:43:24,008 craftBetWorld getGamesAPICheckPictures - 673  Game ID = 82538   Game Provider Name = RealisticGames :   Game Name =  Perfect Pairs 21+3 Blackjack (5 Box) :   cod = 404:   src = https://resources.zorrobet365.com/products/realistic/web/Perfect-Pairs-21+3-Blackjack-(3-Box).jpg
+[ERROR] 2023-02-01 15:43:34,134 craftBetWorld getGamesAPICheckPictures - 721  Game ID = 82988   Game Provider Name = Caleta :   Game Name =  Red Sheriff :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 15:43:50,369 craftBetWorld getGamesAPICheckPictures - 791  Game ID = 82992   Game Provider Name = PlaynGo :   Game Name =  Shamrock Miner :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 15:43:55,262 craftBetWorld getGamesAPICheckPictures - 822  Game ID = 82734   Game Provider Name = Playpearls :   Game Name =  Space Hunters Halloween - Scratch Card :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 15:44:02,539 craftBetWorld getGamesAPICheckPictures - 855  Game ID = 82549   Game Provider Name = RealisticGames :   Game Name =  Sunken Treasure :   cod = 404:   src = https://resources.zorrobet365.com/products/realistic/web/sunkentreasure.jpg
+[ERROR] 2023-02-01 15:44:55,921 craftBetWorld getGamesAPICheckPictures - 1064  Game ID = 85003   Game Provider Name = Leander :   Game Name =  20,000 Leagues Under the Sea :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 15:44:56,873 craftBetWorld getGamesAPICheckPictures - 1068  Game ID = 85005   Game Provider Name = Leander :   Game Name =  3 Blind Mice :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 15:45:50,416 craftBetWorld getGamesAPICheckPictures - 1262  Game ID = 85075   Game Provider Name = Wazdan :   Game Name =  American Poker Gold :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 15:45:52,025 craftBetWorld getGamesAPICheckPictures - 1268  Game ID = 82482   Game Provider Name = NetEnt :   Game Name =  American Roulette :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 15:46:27,344 craftBetWorld getGamesAPICheckPictures - 1395  Game ID = 82483   Game Provider Name = NetEnt :   Game Name =  Baccarat :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 15:47:03,134 craftBetWorld getGamesAPICheckPictures - 1533  Game ID = 82484   Game Provider Name = NetEnt :   Game Name =  Blackjack :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 15:48:00,203 craftBetWorld getGamesAPICheckPictures - 1741  Game ID = 80349   Game Provider Name = NetEnt :   Game Name =  Butterfly Staxx 2 :   cod = 404:   src = https://resources.zorrobet365.com/products/netent/web/ButterflyStaxx2.jpg
+[ERROR] 2023-02-01 15:48:21,797 craftBetWorld getGamesAPICheckPictures - 1822  Game ID = 82481   Game Provider Name = NetEnt :   Game Name =  Casino Hold'em :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 15:48:21,920 craftBetWorld getGamesAPICheckPictures - 1823  Game ID = 85269   Game Provider Name = Wazdan :   Game Name =  Casino Roulette :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 15:48:48,583 craftBetWorld getGamesAPICheckPictures - 1924  Game ID = 85314   Game Provider Name = Wazdan :   Game Name =  Corrida Romance Deluxe :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 15:49:33,814 craftBetWorld getGamesAPICheckPictures - 2091  Game ID = 86469   Game Provider Name = Funky :   Game Name =  Domino QQ :   cod = 404:   src = https://s3-eu-west-1.amazonaws.com/static.qa.nektan.com/elite/games/images/domino-qq/tile-en.jpg
+[ERROR] 2023-02-01 15:50:30,284 craftBetWorld getGamesAPICheckPictures - 2295  Game ID = 82485   Game Provider Name = NetEnt :   Game Name =  European Roulette :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 15:50:40,856 craftBetWorld getGamesAPICheckPictures - 2339  Game ID = 85468   Game Provider Name = SpinMatic :   Game Name =  Fall of the Beast :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 15:51:17,717 craftBetWorld getGamesAPICheckPictures - 2479  Game ID = 82478   Game Provider Name = NetEnt :   Game Name =  French Roulette :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 15:52:05,822 craftBetWorld getGamesAPICheckPictures - 2651  Game ID = 86490   Game Provider Name = Wazdan :   Game Name =  Gold Roulette :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 15:53:20,004 craftBetWorld getGamesAPICheckPictures - 2936  Game ID = 80524   Game Provider Name = RedTiger :   Game Name =  Jack in a pot :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 15:53:24,247 craftBetWorld getGamesAPICheckPictures - 2952  Game ID = 82480   Game Provider Name = NetEnt :   Game Name =  Jacks or Better Double Up :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 15:53:55,787 craftBetWorld getGamesAPICheckPictures - 3077  Game ID = 85800   Game Provider Name = Wazdan :   Game Name =  KickOff :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 15:55:08,316 craftBetWorld getGamesAPICheckPictures - 3330  Game ID = 85928   Game Provider Name = Wazdan :   Game Name =  Magic Stars :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 15:55:08,981 craftBetWorld getGamesAPICheckPictures - 3333  Game ID = 85932   Game Provider Name = Wazdan :   Game Name =  Magic Stars 6 :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[INFO] 2023-02-01 16:02:49,066 craftBetWorld getGamesAPICheckPictures - Broken images are:  32
+[INFO] 2023-02-01 16:02:51,177 craftBetWorld tearDown - Browser closed
+[INFO] 2023-02-01 16:02:51,177 craftBetWorld tearDown - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+[INFO] 2023-02-01 16:02:51,183 craftBetWorld Finish - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
