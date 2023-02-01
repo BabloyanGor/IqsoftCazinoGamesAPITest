@@ -33,9 +33,9 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
 
     static SwingWrapper<XYChart> sw ;
 //    static XYChart chart;
-    static final int averageNum = 5;
+    static final int averageNum = 1;
     static final int xAxisLength = 288;
-    static final int timeDelaySeconds = 60;
+    static final int timeDelaySeconds = 1;
     static final int compareUpcomingMatchesCount = 5;
     static final int compareTopLifeMatchesCount = 1;
     static final int compareLifeMatchesCount = 1;
@@ -107,7 +107,7 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
 
 
     static int chartsNum = 1;
-    public XYChart getChart() {
+     public XYChart getChart() {
         float timeDelayMinutesVisualisation = (float) timeDelaySeconds / 60 * averageNum;
         DecimalFormat df = new DecimalFormat("#.#");
         // Series
@@ -121,7 +121,7 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
                 // Customize Chart
                 chartPreMatch.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
                 chartPreMatch.getStyler().setAxisTitlesVisible(false);
-                chartPreMatch.getStyler().setDefaultSeriesRenderStyle(XYSeries.XYSeriesRenderStyle.Line);
+                chartPreMatch.getStyler().setDefaultSeriesRenderStyle(XYSeries.XYSeriesRenderStyle.Step);
                 chartPreMatch.getStyler().setSeriesColors(new Color[]{new Color(0, 110, 0)});
                 chartPreMatch.getStyler().setToolTipsEnabled(true);
                 chartPreMatch.getStyler().setZoomEnabled(true);
@@ -144,7 +144,7 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
                 // Customize Chart
                 chartLive.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
                 chartLive.getStyler().setAxisTitlesVisible(false);
-                chartLive.getStyler().setDefaultSeriesRenderStyle(XYSeries.XYSeriesRenderStyle.Line);
+                chartLive.getStyler().setDefaultSeriesRenderStyle(XYSeries.XYSeriesRenderStyle.Step);
                 chartLive.getStyler().setSeriesColors(new Color[]{new Color(0, 0, 255)});
                 chartLive.getStyler().setToolTipsEnabled(true);
                 chartLive.getStyler().setZoomEnabled(true);
@@ -166,7 +166,7 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
                 // Customize Chart
                 chartUpcoming.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
                 chartUpcoming.getStyler().setAxisTitlesVisible(false);
-                chartUpcoming.getStyler().setDefaultSeriesRenderStyle(XYSeries.XYSeriesRenderStyle.Line);
+                chartUpcoming.getStyler().setDefaultSeriesRenderStyle(XYSeries.XYSeriesRenderStyle.Step);
                 chartUpcoming.getStyler().setSeriesColors(new Color[]{new Color(0, 185, 0)});
                 chartUpcoming.getStyler().setToolTipsEnabled(true);
                 chartUpcoming.getStyler().setZoomEnabled(true);
