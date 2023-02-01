@@ -1,0 +1,166 @@
+[INFO] 2023-02-01 12:26:20,164 craftBetWorld initDriver - Browser for test will be firefox as chosen
+[WARN] 2023-02-01 12:26:32,473 io.github.bonigarcia.wdm.versions.VersionDetector getVersionsInputStream - Error reading commands.properties, using local instead
+[WARN] 2023-02-01 12:26:32,642 io.github.bonigarcia.wdm.versions.VersionDetector getVersionsInputStream - Error reading versions.properties, using local instead
+[INFO] 2023-02-01 12:26:32,644 io.github.bonigarcia.wdm.WebDriverManager logSeekRepo - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+[WARN] 2023-02-01 12:26:32,654 io.github.bonigarcia.wdm.WebDriverManager fallback - There was an error managing geckodriver (latest version) (No such host is known (api.github.com)) ... trying again using latest driver stored in cache
+[INFO] 2023-02-01 12:26:32,656 io.github.bonigarcia.wdm.WebDriverManager logSeekRepo - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+[ERROR] 2023-02-01 12:26:32,660 io.github.bonigarcia.wdm.WebDriverManager handleException - There was an error managing geckodriver (latest version) (api.github.com)
+java.net.UnknownHostException: api.github.com
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:118)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:396)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:158)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:168)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:136)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:175)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:89)
+	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:158)
+	at io.github.bonigarcia.wdm.WebDriverManager.openGitHubConnection(WebDriverManager.java:1558)
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromGitHub(WebDriverManager.java:1572)
+	at io.github.bonigarcia.wdm.managers.FirefoxDriverManager.getDriverUrls(FirefoxDriverManager.java:102)
+	at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1402)
+	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1240)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1158)
+	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1397)
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1374)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1164)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:406)
+	at utilities.DriverFactory.initDriver(DriverFactory.java:45)
+	at testCases.BaseTest.setup(BaseTest.java:345)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:816)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[INFO] 2023-02-01 12:26:32,771 craftBetWorld Finish - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+[INFO] 2023-02-01 12:27:12,248 craftBetWorld initDriver - Browser for test will be firefox as chosen
+[INFO] 2023-02-01 12:27:36,910 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+[INFO] 2023-02-01 12:27:36,945 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.gecko.driver as C:\Users\user\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+[INFO] 2023-02-01 12:27:41,231 craftBetWorld setup - URL: https://zorrobet365.com  Browser: firefox
+[INFO] 2023-02-01 12:27:41,323 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-02-01 12:27:41,953 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+[INFO] 2023-02-01 12:27:59,209 craftBetWorld getGamesAPICheckPictures - Get games Api call was sent
+[INFO] 2023-02-01 12:27:59,405 craftBetWorld getGamesAPICheckPictures - Get games Api Response was captured
+[INFO] 2023-02-01 12:27:59,498 craftBetWorld getGamesAPICheckPictures - All captured games images was added into ArrayList
+[ERROR] 2023-02-01 12:28:48,098 craftBetWorld getGamesAPICheckPictures - 7  Game ID = 81967 Game Provider Name = PlaynGo :   Game Name = 3 Clown Monty :     src = https://agstatic.com/games/playngo/3_clown_monty.jpg   java.net.ConnectException: Connection timed out: connect
+[ERROR] 2023-02-01 12:31:19,514 craftBetWorld getGamesAPICheckPictures - 16  Game ID = 82084 Game Provider Name = PlaysonDirect :   Game Name = 5 Fortunator :     src = https://agstatic.com/games/playsondirect/5_fortunator.jpg   java.net.ConnectException: Connection timed out: connect
+[ERROR] 2023-02-01 12:32:01,596 craftBetWorld getGamesAPICheckPictures - 17  Game ID = 82512 Game Provider Name = RealisticGames :   Game Name = 5 Hand Blackjack :     src = https://resources.zorrobet365.com/products/realistic/web/5-hand-blackjack.jpg   java.net.ConnectException: Connection timed out: connect
+[INFO] 2023-02-01 12:32:33,455 craftBetWorld initDriver - Browser for test will be firefox as chosen
+[INFO] 2023-02-01 12:32:33,675 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+[INFO] 2023-02-01 12:32:33,699 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.gecko.driver as C:\Users\user\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+[INFO] 2023-02-01 12:32:39,348 craftBetWorld setup - URL: https://zorrobet365.com  Browser: firefox
+[INFO] 2023-02-01 12:33:22,529 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-02-01 12:33:23,275 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+[INFO] 2023-02-01 12:33:47,706 craftBetWorld getGamesAPICheckPictures - Get games Api call was sent
+[INFO] 2023-02-01 12:33:47,867 craftBetWorld getGamesAPICheckPictures - Get games Api Response was captured
+[INFO] 2023-02-01 12:33:47,947 craftBetWorld getGamesAPICheckPictures - All captured games images was added into ArrayList
+[ERROR] 2023-02-01 12:35:09,427 craftBetWorld getGamesAPICheckPictures - 3  Game ID = 80849 Game Provider Name = Booongo :   Game Name = 15 Golden Eggs :     src = https://resources.zorrobet365.com/products/booongo/web/15_golden-eggs.jpg   java.net.ConnectException: Connection timed out: connect
+[ERROR] 2023-02-01 12:36:35,136 craftBetWorld getGamesAPICheckPictures - 7  Game ID = 81967 Game Provider Name = PlaynGo :   Game Name = 3 Clown Monty :     src = https://agstatic.com/games/playngo/3_clown_monty.jpg   java.net.ConnectException: Connection timed out: connect
+[ERROR] 2023-02-01 12:38:51,841 craftBetWorld getGamesAPICheckPictures - 16  Game ID = 82084 Game Provider Name = PlaysonDirect :   Game Name = 5 Fortunator :     src = https://agstatic.com/games/playsondirect/5_fortunator.jpg   java.net.ConnectException: Connection timed out: connect
+[ERROR] 2023-02-01 12:39:20,135 craftBetWorld getGamesAPICheckPictures - 18  Game ID = 82075 Game Provider Name = PlaysonDirect :   Game Name = 5 Super Sevens & Fruits: 6 reels :     src = https://agstatic.com/games/playsondirect/5_super_sevens_and_fruits_6reels.jpg   java.net.UnknownHostException: agstatic.com
+[ERROR] 2023-02-01 12:39:20,135 craftBetWorld getGamesAPICheckPictures - 19  Game ID = 81789 Game Provider Name = PlaynGo :   Game Name = 5x Magic :     src = https://agstatic.com/games/playngo/5x_magic.jpg   java.net.UnknownHostException: agstatic.com
+[ERROR] 2023-02-01 12:41:32,240 craftBetWorld getGamesAPICheckPictures - 28  Game ID = 80774 Game Provider Name = RealisticGames :   Game Name = 8th Wonder :     src = https://resources.zorrobet365.com/products/Realistic/web/8th_wonder-game-changer.jpg   java.net.ConnectException: Connection timed out: connect
+[ERROR] 2023-02-01 12:42:14,332 craftBetWorld getGamesAPICheckPictures - 29  Game ID = 80775 Game Provider Name = RealisticGames :   Game Name = 8th Wonder Game Changer :     src = https://resources.zorrobet365.com/products/Realistic/mob/8th_wonder-game-changer.jpg   java.net.ConnectException: Connection timed out: connect
+[ERROR] 2023-02-01 12:42:56,994 craftBetWorld getGamesAPICheckPictures - 32  Game ID = 81790 Game Provider Name = PlaynGo :   Game Name = Ace of Spades :     src = https://agstatic.com/games/playngo/ace_of_spades.jpg   java.net.ConnectException: Connection timed out: connect
+[ERROR] 2023-02-01 12:44:26,821 craftBetWorld getGamesAPICheckPictures - 36  Game ID = 81979 Game Provider Name = PlaynGo :   Game Name = Agent of Hearts :     src = https://agstatic.com/games/playngo/agent_destiny.jpg   java.net.ConnectException: Connection timed out: connect
+[ERROR] 2023-02-01 12:44:48,187 craftBetWorld getGamesAPICheckPictures - 39  Game ID = 81987 Game Provider Name = PlaynGo :   Game Name = Alice Cooper and the Tome of Madness :     src = https://agstatic.com/games/playngo/alice_cooper_and_the_tome_of_madness.jpg   java.net.UnknownHostException: agstatic.com
+[ERROR] 2023-02-01 12:45:30,760 craftBetWorld getGamesAPICheckPictures - 42  Game ID = 81587 Game Provider Name = RubyPlay :   Game Name = Ancient Pharaoh :     src = https://resources.zorrobet365.com/products/rubyplay/web/ancientpharaoh.jpg   java.net.ConnectException: Connection timed out: connect
+[ERROR] 2023-02-01 12:46:12,834 craftBetWorld getGamesAPICheckPictures - 43  Game ID = 82735 Game Provider Name = Playpearls :   Game Name = Andar Bahar :     src = https://resources.zorrobet365.com/products/   java.net.ConnectException: Connection timed out: connect
+[ERROR] 2023-02-01 12:48:14,211 craftBetWorld getGamesAPICheckPictures - 47  Game ID = 81598 Game Provider Name = RubyPlay :   Game Name = Arabian Secret :     src = https://resources.zorrobet365.com/products/rubyplay/web/arabian.jpg   java.net.ConnectException: Connection timed out: connect
+[ERROR] 2023-02-01 12:48:22,810 craftBetWorld getGamesAPICheckPictures - 68  Game ID = 82733   Game Provider Name = Playpearls :   Game Name =  Baccarat :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 12:49:07,311 craftBetWorld getGamesAPICheckPictures - 259  Game ID = 82989   Game Provider Name = NoLimitCity :   Game Name =  Dead Canary :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 12:49:49,869 craftBetWorld getGamesAPICheckPictures - 407  Game ID = 82723   Game Provider Name = Playpearls :   Game Name =  Golden Egg Keno :   cod = 404:   src = https://resources.zorrobet365.com/products/playpearls/web/GoldenEggKeno.png
+[ERROR] 2023-02-01 12:50:23,750 craftBetWorld getGamesAPICheckPictures - 453  Game ID = 81494   Game Provider Name = Playpearls :   Game Name =  Hippie Roll :   cod = 404:   src = https://resources.zorrobet365.com/products/playpearls/web/HippieRoll.png
+[ERROR] 2023-02-01 12:50:47,952 craftBetWorld getGamesAPICheckPictures - 520  Game ID = 82725   Game Provider Name = Playpearls :   Game Name =  Jacks or Better Saloon :   cod = 404:   src = https://resources.zorrobet365.com/products/playpearls/web/JacksorBetterSaloon.png
+[ERROR] 2023-02-01 12:51:16,098 craftBetWorld getGamesAPICheckPictures - 639  Game ID = 82990   Game Provider Name = PlaynGo :   Game Name =  Mötley Crüe :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 12:51:26,124 craftBetWorld getGamesAPICheckPictures - 684  Game ID = 82537   Game Provider Name = RealisticGames :   Game Name =  Perfect Pairs 21+3 Blackjack (3 Box) :   cod = 404:   src = https://resources.zorrobet365.com/products/realistic/web/Perfect-Pairs-21+3-Blackjack-(3-Box).jpg
+[ERROR] 2023-02-01 12:51:26,275 craftBetWorld getGamesAPICheckPictures - 685  Game ID = 82538   Game Provider Name = RealisticGames :   Game Name =  Perfect Pairs 21+3 Blackjack (5 Box) :   cod = 404:   src = https://resources.zorrobet365.com/products/realistic/web/Perfect-Pairs-21+3-Blackjack-(3-Box).jpg
+[ERROR] 2023-02-01 12:51:38,142 craftBetWorld getGamesAPICheckPictures - 733  Game ID = 82988   Game Provider Name = Caleta :   Game Name =  Red Sheriff :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 12:51:55,663 craftBetWorld getGamesAPICheckPictures - 803  Game ID = 82992   Game Provider Name = PlaynGo :   Game Name =  Shamrock Miner :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 12:52:02,894 craftBetWorld getGamesAPICheckPictures - 834  Game ID = 82734   Game Provider Name = Playpearls :   Game Name =  Space Hunters Halloween - Scratch Card :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 12:52:13,759 craftBetWorld getGamesAPICheckPictures - 867  Game ID = 82549   Game Provider Name = RealisticGames :   Game Name =  Sunken Treasure :   cod = 404:   src = https://resources.zorrobet365.com/products/realistic/web/sunkentreasure.jpg
+[ERROR] 2023-02-01 12:53:14,093 craftBetWorld getGamesAPICheckPictures - 1076  Game ID = 85003   Game Provider Name = Leander :   Game Name =  20,000 Leagues Under the Sea :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 12:53:15,525 craftBetWorld getGamesAPICheckPictures - 1080  Game ID = 85005   Game Provider Name = Leander :   Game Name =  3 Blind Mice :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 12:54:15,659 craftBetWorld getGamesAPICheckPictures - 1274  Game ID = 85075   Game Provider Name = Wazdan :   Game Name =  American Poker Gold :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 12:54:17,276 craftBetWorld getGamesAPICheckPictures - 1280  Game ID = 82482   Game Provider Name = NetEnt :   Game Name =  American Roulette :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 12:54:55,485 craftBetWorld getGamesAPICheckPictures - 1407  Game ID = 82483   Game Provider Name = NetEnt :   Game Name =  Baccarat :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 12:55:33,609 craftBetWorld getGamesAPICheckPictures - 1545  Game ID = 82484   Game Provider Name = NetEnt :   Game Name =  Blackjack :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 12:56:33,979 craftBetWorld getGamesAPICheckPictures - 1753  Game ID = 80349   Game Provider Name = NetEnt :   Game Name =  Butterfly Staxx 2 :   cod = 404:   src = https://resources.zorrobet365.com/products/netent/web/ButterflyStaxx2.jpg
+[ERROR] 2023-02-01 12:56:58,977 craftBetWorld getGamesAPICheckPictures - 1834  Game ID = 82481   Game Provider Name = NetEnt :   Game Name =  Casino Hold'em :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 12:56:59,068 craftBetWorld getGamesAPICheckPictures - 1835  Game ID = 85269   Game Provider Name = Wazdan :   Game Name =  Casino Roulette :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 12:57:29,221 craftBetWorld getGamesAPICheckPictures - 1936  Game ID = 85314   Game Provider Name = Wazdan :   Game Name =  Corrida Romance Deluxe :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 12:58:20,832 craftBetWorld getGamesAPICheckPictures - 2103  Game ID = 86469   Game Provider Name = Funky :   Game Name =  Domino QQ :   cod = 404:   src = https://s3-eu-west-1.amazonaws.com/static.qa.nektan.com/elite/games/images/domino-qq/tile-en.jpg
+[ERROR] 2023-02-01 12:59:24,829 craftBetWorld getGamesAPICheckPictures - 2307  Game ID = 82485   Game Provider Name = NetEnt :   Game Name =  European Roulette :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 12:59:36,309 craftBetWorld getGamesAPICheckPictures - 2351  Game ID = 85468   Game Provider Name = SpinMatic :   Game Name =  Fall of the Beast :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 13:00:16,147 craftBetWorld getGamesAPICheckPictures - 2491  Game ID = 82478   Game Provider Name = NetEnt :   Game Name =  French Roulette :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 13:01:05,531 craftBetWorld getGamesAPICheckPictures - 2663  Game ID = 86490   Game Provider Name = Wazdan :   Game Name =  Gold Roulette :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 13:02:24,904 craftBetWorld getGamesAPICheckPictures - 2948  Game ID = 80524   Game Provider Name = RedTiger :   Game Name =  Jack in a pot :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 13:02:29,308 craftBetWorld getGamesAPICheckPictures - 2964  Game ID = 82480   Game Provider Name = NetEnt :   Game Name =  Jacks or Better Double Up :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 13:02:54,666 craftBetWorld getGamesAPICheckPictures - 3064  Game ID = 85785   Game Provider Name = Wazdan :   Game Name =  Jumping Fruits :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 13:03:01,589 craftBetWorld getGamesAPICheckPictures - 3090  Game ID = 85800   Game Provider Name = Wazdan :   Game Name =  KickOff :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 13:03:34,806 craftBetWorld getGamesAPICheckPictures - 3209  Game ID = 85858   Game Provider Name = Wazdan :   Game Name =  Lost Treasure :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 13:03:53,788 craftBetWorld getGamesAPICheckPictures - 3276  Game ID = 85889   Game Provider Name = Wazdan :   Game Name =  Lucky Queen :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 13:04:14,024 craftBetWorld getGamesAPICheckPictures - 3345  Game ID = 85928   Game Provider Name = Wazdan :   Game Name =  Magic Stars :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 13:04:14,785 craftBetWorld getGamesAPICheckPictures - 3348  Game ID = 85931   Game Provider Name = Wazdan :   Game Name =  Magic Stars 5 :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 13:04:14,875 craftBetWorld getGamesAPICheckPictures - 3349  Game ID = 85932   Game Provider Name = Wazdan :   Game Name =  Magic Stars 6 :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 13:06:06,662 craftBetWorld getGamesAPICheckPictures - 3716  Game ID = 80716   Game Provider Name = PragmaticPlay :   Game Name =  PIZZA! PIZZA? PIZZA! :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 13:07:31,481 craftBetWorld getGamesAPICheckPictures - 3969  Game ID = 80446   Game Provider Name = NetEnt :   Game Name =  Rome: The Golden Age™ :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 13:07:32,961 craftBetWorld getGamesAPICheckPictures - 3975  Game ID = 82479   Game Provider Name = NetEnt :   Game Name =  Roulette Advanced :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 13:08:17,046 craftBetWorld getGamesAPICheckPictures - 4123  Game ID = 86244   Game Provider Name = Wazdan :   Game Name =  Sizzling 777 :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 13:08:20,792 craftBetWorld getGamesAPICheckPictures - 4136  Game ID = 86257   Game Provider Name = Wazdan :   Game Name =  Slot Jam :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 13:08:32,710 craftBetWorld getGamesAPICheckPictures - 4176  Game ID = 86275   Game Provider Name = Wazdan :   Game Name =  Space Gem™ :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 13:08:34,320 craftBetWorld getGamesAPICheckPictures - 4183  Game ID = 82501   Game Provider Name = PragmaticPlay :   Game Name =  Spaceman :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 13:08:36,030 craftBetWorld getGamesAPICheckPictures - 4190  Game ID = 86282   Game Provider Name = Wazdan :   Game Name =  Spectrum :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 13:08:49,310 craftBetWorld getGamesAPICheckPictures - 4233  Game ID = 82985   Game Provider Name = PragmaticPlay :   Game Name =  Starlight Christmas :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 13:09:17,285 craftBetWorld getGamesAPICheckPictures - 4326  Game ID = 86350   Game Provider Name = Wazdan :   Game Name =  Super Hot :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 13:10:38,592 craftBetWorld getGamesAPICheckPictures - 4607  Game ID = 86722   Game Provider Name = Wazdan :   Game Name =  Triple Star :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 13:10:43,500 craftBetWorld getGamesAPICheckPictures - 4625  Game ID = 86729   Game Provider Name = Wazdan :   Game Name =  Turbo Play :   cod = 403:   src = https://resources.zorrobet365.com/products/
+[ERROR] 2023-02-01 13:11:00,556 craftBetWorld getGamesAPICheckPictures - 4685  Game ID = 80426   Game Provider Name = NetEnt :   Game Name =  Victorious MAX :   cod = 404:   src = https://resources.zorrobet365.com/products/netent/web/Victorious-Max.jpg
+[INFO] 2023-02-01 13:12:33,648 craftBetWorld getGamesAPICheckPictures - Broken images are:  62
+[INFO] 2023-02-01 13:12:34,944 craftBetWorld tearDown - Browser closed
+[INFO] 2023-02-01 13:12:34,944 craftBetWorld tearDown - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+[INFO] 2023-02-01 13:12:34,950 craftBetWorld Finish - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
