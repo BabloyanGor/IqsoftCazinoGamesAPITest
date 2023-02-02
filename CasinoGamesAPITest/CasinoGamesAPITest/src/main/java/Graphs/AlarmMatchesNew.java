@@ -29,13 +29,13 @@ import java.util.concurrent.TimeUnit;
 
 import static org.apache.commons.lang3.ArrayUtils.contains;
 
-public class AlarmMatchesNew  implements ExampleChart<XYChart> {
+public class AlarmMatchesNew implements ExampleChart<XYChart> {
 
-    static SwingWrapper<XYChart> sw ;
-//    static XYChart chart;
-    static final int averageNum = 1;
+    static SwingWrapper<XYChart> sw;
+    //    static XYChart chart;
+    static final int averageNum = 5;
     static final int xAxisLength = 288;
-    static final int timeDelaySeconds = 1;
+    static final int timeDelaySeconds = 60;
     static final int compareUpcomingMatchesCount = 5;
     static final int compareTopLifeMatchesCount = 1;
     static final int compareLifeMatchesCount = 1;
@@ -47,7 +47,6 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
     static double[] upcomingMatchesCountArray = new double[xAxisLength];
     static double[] topLiveMatchesCountArray = new double[xAxisLength];
     static double[] liveMatchesCountArray = new double[xAxisLength];
-
 
 
     static boolean alarmOnUpcoming = false;
@@ -75,23 +74,23 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
     static XYChart chartUpcoming;
     static XYChart chartLive;
     static XYChart chartTopLive;
+
     public static void main(String[] args) throws InterruptedException {
         loggerSetUp();
         initChart();
         updateChart();
-
     }
 
-    public static void initChart(){
+    public static void initChart() {
         ExampleChart<XYChart> preMatchesCount = new AlarmMatchesNew();
         ExampleChart<XYChart> upcomingMatchesCount = new AlarmMatchesNew();
         ExampleChart<XYChart> liveMatchesCount = new AlarmMatchesNew();
         ExampleChart<XYChart> topLiveMatchesCount = new AlarmMatchesNew();
 
-         chartPreMatch = preMatchesCount.getChart();
-         chartLive = liveMatchesCount.getChart();
-         chartUpcoming = upcomingMatchesCount.getChart();
-         chartTopLive = topLiveMatchesCount.getChart();
+        chartPreMatch = preMatchesCount.getChart();
+        chartLive = liveMatchesCount.getChart();
+        chartUpcoming = upcomingMatchesCount.getChart();
+        chartTopLive = topLiveMatchesCount.getChart();
 
         charts.add(chartPreMatch);
         charts.add(chartLive);
@@ -105,18 +104,18 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
     }
 
 
-
     static int chartsNum = 1;
-     public XYChart getChart() {
+
+    public XYChart getChart() {
         float timeDelayMinutesVisualisation = (float) timeDelaySeconds / 60 * averageNum;
         DecimalFormat df = new DecimalFormat("#.#");
         // Series
-        switch(chartsNum) {
-            case 1:{
+        switch (chartsNum) {
+            case 1: {
                 // Create Chart
-                chartPreMatch = new XYChartBuilder().width(500).height(250).xAxisTitle("X-Axis division: " + df.format(timeDelayMinutesVisualisation)+ " min").yAxisTitle("Y").build();
-                for (int m=1; m<=xAxisLength;m++){
-                    matchesCountArrayXAxis[m-1] = m;
+                chartPreMatch = new XYChartBuilder().width(500).height(250).xAxisTitle("X-Axis division: " + df.format(timeDelayMinutesVisualisation) + " min").yAxisTitle("Y").build();
+                for (int m = 1; m <= xAxisLength; m++) {
+                    matchesCountArrayXAxis[m - 1] = m;
                 }
                 // Customize Chart
                 chartPreMatch.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
@@ -135,11 +134,10 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
                 return chartPreMatch;
 
             }
-            case 2:
-            {
-                chartLive = new XYChartBuilder().width(500).height(250).xAxisTitle("X-Axis division: " + df.format(timeDelayMinutesVisualisation)+ " min").yAxisTitle("Y").build();
-                for (int m=1; m<=xAxisLength;m++){
-                    matchesCountArrayXAxis[m-1] = m;
+            case 2: {
+                chartLive = new XYChartBuilder().width(500).height(250).xAxisTitle("X-Axis division: " + df.format(timeDelayMinutesVisualisation) + " min").yAxisTitle("Y").build();
+                for (int m = 1; m <= xAxisLength; m++) {
+                    matchesCountArrayXAxis[m - 1] = m;
                 }
                 // Customize Chart
                 chartLive.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
@@ -158,10 +156,10 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
                 return chartLive;
 
             }
-            case 3:{
-                chartUpcoming = new XYChartBuilder().width(500).height(250).xAxisTitle("X-Axis division: " + df.format(timeDelayMinutesVisualisation)+ " min").yAxisTitle("Y").build();
-                for (int m=1; m<=xAxisLength;m++){
-                    matchesCountArrayXAxis[m-1] = m;
+            case 3: {
+                chartUpcoming = new XYChartBuilder().width(500).height(250).xAxisTitle("X-Axis division: " + df.format(timeDelayMinutesVisualisation) + " min").yAxisTitle("Y").build();
+                for (int m = 1; m <= xAxisLength; m++) {
+                    matchesCountArrayXAxis[m - 1] = m;
                 }
                 // Customize Chart
                 chartUpcoming.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
@@ -180,11 +178,10 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
                 return chartUpcoming;
 
             }
-            case 4:
-            {
-                chartTopLive = new XYChartBuilder().width(500).height(250).xAxisTitle("X-Axis division: " + df.format(timeDelayMinutesVisualisation)+ " min").yAxisTitle("Y").build();
-                for (int m=1; m<=xAxisLength;m++){
-                    matchesCountArrayXAxis[m-1] = m;
+            case 4: {
+                chartTopLive = new XYChartBuilder().width(500).height(250).xAxisTitle("X-Axis division: " + df.format(timeDelayMinutesVisualisation) + " min").yAxisTitle("Y").build();
+                for (int m = 1; m <= xAxisLength; m++) {
+                    matchesCountArrayXAxis[m - 1] = m;
                 }
                 // Customize Chart
                 chartTopLive.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
@@ -202,7 +199,7 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
                 chartsNum++;
                 return chartTopLive;
             }
-            default:{
+            default: {
                 return null;
             }
         }
@@ -211,31 +208,36 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
     }
 
     public static void updateChart() throws InterruptedException {
-        while (true){
-            try{
+        while (true) {
+            try {
+                upcomingMatchesCount = 0;
+                topLiveMatchesCount= 0;
+                liveMatchesCount= 0;
+                preMatchesCount= 0;
 
-                upcomingMatchesCount = 500;
-                topLiveMatchesCount = 500;
-                liveMatchesCount = 500;
-                preMatchesCount = 500;
                 //get matches count (graph will show average of calls averageNum times )
                 for (int k = 0; k < averageNum; k++) {
 
                     upcomingSportsLocal = getUpcomingSportsIDs();
-                    tempUpcomingMatchesLocal[k] = 0;
+
                     if (upcomingSportsLocal != null) {
+                        tempUpcomingMatchesLocal[k] = 0;
                         for (String id : upcomingSportsLocal) {
                             tempUpcomingMatchesLocal[k] += getUpcomingMatchesCount(id);
                         }
+                    } else {
+                        tempUpcomingMatchesLocal[k] = 555;
                     }
 
-
                     liveSportsTop = getLiveSportsIDs();
-                    tempTopLiveMatchesCount[k] = 0;
+
                     if (liveSportsTop != null) {
+                        tempTopLiveMatchesCount[k] = 0;
                         for (String id : liveSportsTop) {
                             tempTopLiveMatchesCount[k] += getLocalLifeMatchesCount(id);
                         }
+                    } else {
+                        tempTopLiveMatchesCount[k] = 555;
                     }
 
 
@@ -248,38 +250,75 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
                     TimeUnit.SECONDS.sleep(timeDelaySeconds);
                 }
 
+
                 boolean containsZeroUpcoming = contains(tempUpcomingMatchesLocal, 0);
-                upcomingMatchesCount = 0;
-                if (!containsZeroUpcoming) {
+                boolean containsExceptionUpcoming = contains(tempUpcomingMatchesLocal, 555);
+                if (!containsZeroUpcoming && !containsExceptionUpcoming) {
                     for (int m = 0; m < averageNum; m++) {
                         upcomingMatchesCount += tempUpcomingMatchesLocal[m];
                     }
+                    upcomingMatchesCount = upcomingMatchesCount / averageNum;
+                } else {
+                    if (containsExceptionUpcoming) {
+                        upcomingMatchesCount = 555;
+                    } else {
+                        upcomingMatchesCount = 0;
+                    }
                 }
+
+
                 boolean containsZeroPreMatch = contains(tempPreMatchesCount, 0);
-                preMatchesCount = 0;
-                if (!containsZeroPreMatch) {
+                boolean containsExceptionPreMatch = contains(tempPreMatchesCount, 555);
+                if (!containsZeroPreMatch && !containsExceptionPreMatch) {
                     for (int m = 0; m < averageNum; m++) {
                         preMatchesCount += tempPreMatchesCount[m];
                     }
+                    preMatchesCount = preMatchesCount / averageNum;
+                } else {
+                    if (containsExceptionPreMatch) {
+                        preMatchesCount = 555;
+                    } else {
+                        preMatchesCount = 0;
+                    }
                 }
+
+
                 boolean containsZeroTopLive = contains(tempTopLiveMatchesCount, 0);
-                topLiveMatchesCount = 0;
-                if (!containsZeroTopLive) {
+                boolean containsExceptionTopLive = contains(tempTopLiveMatchesCount, 555);
+                if (!containsZeroTopLive && !containsExceptionTopLive) {
                     for (int m = 0; m < averageNum; m++) {
                         topLiveMatchesCount += tempTopLiveMatchesCount[m];
                     }
+                    topLiveMatchesCount = topLiveMatchesCount / averageNum;
+                } else {
+                    if (containsExceptionTopLive) {
+                        topLiveMatchesCount = 555;
+                    } else {
+                        topLiveMatchesCount = 0;
+                    }
                 }
+
+
                 boolean containsZeroLive = contains(tempLiveMatchesCount, 0);
-                liveMatchesCount = 0;
-                if (!containsZeroLive) {
+                boolean containsExceptionLive = contains(tempLiveMatchesCount, 555);
+                if (!containsZeroLive && !containsExceptionLive) {
                     for (int m = 0; m < averageNum; m++) {
                         liveMatchesCount += tempLiveMatchesCount[m];
                     }
+                    liveMatchesCount = liveMatchesCount / averageNum;
+                } else {
+                    if (containsExceptionLive) {
+                        liveMatchesCount = 555;
+                    } else {
+                        liveMatchesCount = 0;
+                    }
                 }
-                preMatchesCount = preMatchesCount / averageNum;
-                liveMatchesCount = liveMatchesCount / averageNum;
-                upcomingMatchesCount = upcomingMatchesCount / averageNum;
-                topLiveMatchesCount = topLiveMatchesCount / averageNum;
+
+
+
+
+
+
 
                 //Creating arrays that contain last Matches Count Values
 
@@ -312,10 +351,10 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
 //                    System.out.println();
                 }
 
-                chartPreMatch.updateXYSeries("PreMatch",matchesCountArrayXAxis, preMatchMatchesCountArray,null);
-                chartLive.updateXYSeries("Live", matchesCountArrayXAxis, liveMatchesCountArray,null);
-                chartUpcoming.updateXYSeries("Upcoming",matchesCountArrayXAxis, upcomingMatchesCountArray,null);
-                chartTopLive.updateXYSeries("TopLive", matchesCountArrayXAxis, topLiveMatchesCountArray,null);
+                chartPreMatch.updateXYSeries("PreMatch", matchesCountArrayXAxis, preMatchMatchesCountArray, null);
+                chartLive.updateXYSeries("Live", matchesCountArrayXAxis, liveMatchesCountArray, null);
+                chartUpcoming.updateXYSeries("Upcoming", matchesCountArrayXAxis, upcomingMatchesCountArray, null);
+                chartTopLive.updateXYSeries("TopLive", matchesCountArrayXAxis, topLiveMatchesCountArray, null);
                 for (int l = 0; l < charts.size(); l++) {
                     sw.repaintChart(l);
                 }
@@ -324,26 +363,22 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
                 if (preMatchesCount < comparePreMatchesCount) {
                     chartPreMatch.getStyler().setChartBackgroundColor(new Color(255, 0, 0));
                     alarmOnPreMatch = true;
-                    logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
-                            + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount);
+                    logger.error("Error PreMatches >>>>>>>>>>>>  "   + preMatchesCount);
                 }
                 if (upcomingMatchesCount < compareUpcomingMatchesCount) {
                     chartUpcoming.getStyler().setChartBackgroundColor(new Color(255, 0, 0));
                     alarmOnUpcoming = true;
-                    logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
-                            + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount);
+                    logger.error("Error UpcomingMatches >>>>>>>>>>>>  "   + preMatchesCount);
                 }
                 if (liveMatchesCount < compareLifeMatchesCount) {
                     chartLive.getStyler().setChartBackgroundColor(new Color(255, 0, 0));
                     alarmOnLive = true;
-                    logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
-                            + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount);
+                    logger.error("Error LiveMatches >>>>>>>>>>>>  "   + preMatchesCount);
                 }
                 if (topLiveMatchesCount < compareTopLifeMatchesCount) {
                     chartTopLive.getStyler().setChartBackgroundColor(new Color(255, 0, 0));
                     alarmOnTopLive = true;
-                    logger.error("UpcomingMatchesCount: " + upcomingMatchesCount + "  topLiveMatchesCount: " + topLiveMatchesCount + "  "
-                            + "  liveMatchesCount: " + liveMatchesCount + "  " + "  preMatchesCount: " + preMatchesCount);
+                    logger.error("Error topLiveMatches >>>>>>>>>>>>  "   + preMatchesCount);
                 }
                 if (upcomingMatchesCount >= compareUpcomingMatchesCount && topLiveMatchesCount >= compareTopLifeMatchesCount
                         && liveMatchesCount >= compareLifeMatchesCount && preMatchesCount >= comparePreMatchesCount) {
@@ -352,7 +387,6 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
                     chartUpcoming.getStyler().setChartBackgroundColor(new Color(230, 255, 255));
                     chartLive.getStyler().setChartBackgroundColor(new Color(230, 255, 255));
                     chartTopLive.getStyler().setChartBackgroundColor(new Color(230, 255, 255));
-
 
 
                     alarmOnUpcoming = false;
@@ -373,8 +407,7 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
                     playSound(System.getProperty("user.dir") + "\\src\\test\\java\\mp3\\topLive.wav", 4);
                 }
 
-            }
-            catch(Exception e){
+            } catch (Exception e) {
                 logger.fatal("Exception on Main While loop: " + e);
             }
 
@@ -382,16 +415,10 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
     }
 
 
-
-
-
-
     @Override
     public String getExampleChartName() {
         return null;
     }
-
-
 
 
     public static void loggerSetUp() {
@@ -491,7 +518,7 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
 
     public static int getUpcomingMatchesCount(String sportID) {
 
-        int count = 0;
+        int count = 555;
         try {
             Unirest.setTimeouts(0, 0);
             HttpResponse<String> response = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getupcomingmatches?LanguageId=en&TimeZone=4&SportId=" + sportID)
@@ -579,7 +606,7 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
     }
 
     public static int getLocalLifeMatchesCount(String sportID) {
-        int count = 0;
+        int count = 555;
         try {
             Unirest.setTimeouts(0, 0);
             HttpResponse<String> response = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/gettoplivematches?LanguageId=en&TimeZone=4&SportId=" + sportID)
@@ -615,7 +642,7 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
     }
 
     public static int getLifeMatchesCount() {
-        int count = 0;
+        int count = 555;
         try {
             Unirest.setTimeouts(0, 0);
             HttpResponse<String> response = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getlivematchescount?LanguageId=en&TimeZone=4")
@@ -651,7 +678,7 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
     }
 
     public static int getPreMatchMatchesCount() {
-        int count = 0;
+        int count = 555;
         try {
             Unirest.setTimeouts(0, 0);
             HttpResponse<String> response = Unirest.get("https://sportsbookwebsitewebapi.craftbet.com/website/getprematchtree?LanguageId=en&TimeZone=4")
@@ -660,7 +687,7 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
                     .asString();
             JSONObject jsonObjectBody = new JSONObject(response.getBody());
             Unirest.shutdown();
-
+            count=0;
             JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.toString());
             JSONArray jsonArrayGames = jsonObjectResponseObject.getJSONArray("Ss");
             for (int i = 0; i < jsonArrayGames.length(); i++) {
@@ -687,7 +714,7 @@ public class AlarmMatchesNew  implements ExampleChart<XYChart> {
                         .asString();
                 JSONObject jsonObjectBody = new JSONObject(response.getBody());
                 Unirest.shutdown();
-
+                count=0;
                 JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.toString());
                 JSONArray jsonArrayGames = jsonObjectResponseObject.getJSONArray("Ss");
                 for (int i = 0; i < jsonArrayGames.length(); i++) {
