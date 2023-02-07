@@ -1,0 +1,27 @@
+[INFO] 2023-02-07 12:22:39,982 craftBetWorld initDriver - Browser for test will be firefox as chosen
+[INFO] 2023-02-07 12:22:40,826 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using geckodriver 0.32.0 (resolved driver for Firefox 107)
+[INFO] 2023-02-07 12:22:40,851 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.gecko.driver as C:\Users\user\.cache\selenium\geckodriver\win64\0.32.0\geckodriver.exe
+[INFO] 2023-02-07 12:22:44,050 craftBetWorld setup - URL: https://craftbet.com  Browser: firefox
+[INFO] 2023-02-07 12:22:44,242 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-02-07 12:22:45,257 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+[INFO] 2023-02-07 12:27:57,754 craftBetWorld initDriver - Browser for test will be chrome as chosen
+[INFO] 2023-02-07 12:27:58,586 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO] 2023-02-07 12:27:58,603 io.github.bonigarcia.wdm.WebDriverManager logSeekRepo - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+[INFO] 2023-02-07 12:27:59,080 io.github.bonigarcia.wdm.online.Downloader downloadAndExtract - Downloading https://chromedriver.storage.googleapis.com/109.0.5414.74/chromedriver_win32.zip
+[INFO] 2023-02-07 12:28:00,996 io.github.bonigarcia.wdm.online.Downloader extract - Extracting driver from compressed file chromedriver_win32.zip
+[INFO] 2023-02-07 12:28:01,084 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO] 2023-02-07 12:28:03,994 craftBetWorld setup - URL: https://craftbet.com  Browser: chrome
+[INFO] 2023-02-07 12:28:04,041 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-02-07 12:28:04,051 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+[INFO] 2023-02-07 12:31:38,126 craftBetWorld initDriver - Browser for test will be chrome as chosen
+[INFO] 2023-02-07 12:31:38,454 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO] 2023-02-07 12:31:38,487 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO] 2023-02-07 12:31:40,889 craftBetWorld setup - URL: https://craftbet.com  Browser: chrome
+[INFO] 2023-02-07 12:31:40,943 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-02-07 12:31:40,952 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+[INFO] 2023-02-07 12:34:07,361 craftBetWorld initDriver - Browser for test will be chrome as chosen
+[INFO] 2023-02-07 12:34:07,604 io.github.bonigarcia.wdm.WebDriverManager resolveDriverVersion - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO] 2023-02-07 12:34:07,628 io.github.bonigarcia.wdm.WebDriverManager exportDriver - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO] 2023-02-07 12:34:09,801 craftBetWorld setup - URL: https://craftbet.com  Browser: chrome
+[INFO] 2023-02-07 12:34:09,853 craftBetWorld setup - All Page elements are initialized
+[INFO] 2023-02-07 12:34:09,863 craftBetWorld setup - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
