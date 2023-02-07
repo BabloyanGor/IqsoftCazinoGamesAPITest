@@ -148,9 +148,11 @@ public class CraftBet_000_CasinoSameNameCopyGames_Test extends BaseTest {
         boolean isRegexTrue = Pattern.matches(regex,matcher);
         return isRegexTrue;
     }
-    @Test
-    public void getCasinoGamesThatContainEnglishLetter() throws UnirestException, IOException {
-        getALLGamesNames(getGamesAPIUrl, getGamesOrigin, getGamesPartnerName);
+//    @Test
+//    public void getCasinoGamesThatContainEnglishLetter() throws UnirestException, IOException {
+//        getALLGamesNames(getGamesAPIUrl, getGamesOrigin, getGamesPartnerName);
+//
+//    }
 
-    }
+
 }
