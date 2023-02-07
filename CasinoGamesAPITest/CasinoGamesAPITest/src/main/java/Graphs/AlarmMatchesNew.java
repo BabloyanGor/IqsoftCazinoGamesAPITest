@@ -40,6 +40,7 @@ public class AlarmMatchesNew implements ExampleChart<XYChart> {
     static final int compareTopLifeMatchesCount = 1;
     static final int compareLifeMatchesCount = 1;
     static final int comparePreMatchesCount = 1;
+
     public static Logger logger;
     static List<XYChart> charts = new ArrayList<>();
     static double[] matchesCountArrayXAxis = new double[xAxisLength];
@@ -102,7 +103,6 @@ public class AlarmMatchesNew implements ExampleChart<XYChart> {
         sw.setTitle("Matches Count " + currentTime());
         sw.displayChartMatrix();
     }
-
 
     static int chartsNum = 1;
 
@@ -207,7 +207,7 @@ public class AlarmMatchesNew implements ExampleChart<XYChart> {
 
     }
 
-    public static void updateChart() throws InterruptedException {
+    public static void updateChart()  {
         while (true) {
             try {
                 upcomingMatchesCount = 0;
@@ -245,7 +245,7 @@ public class AlarmMatchesNew implements ExampleChart<XYChart> {
                     tempPreMatchesCount[k] = getPreMatchMatchesCount();
 
                     logger.info("UpcomingMatchesCount: " + tempUpcomingMatchesLocal[k] + "  topLiveMatchesCount: " + tempTopLiveMatchesCount[k] + "  "
-                            + "  liveMatchesCount: " + tempLiveMatchesCount[k] + "  " + "  preMatchesCount: " + tempPreMatchesCount[k]);
+                            + "  liveMatchesCount: " + tempLiveMatchesCount[k] + "  " + "  preMatchesCount: " + tempPreMatchesCount[k] + " ");
 
                     TimeUnit.SECONDS.sleep(timeDelaySeconds);
                 }
@@ -363,22 +363,22 @@ public class AlarmMatchesNew implements ExampleChart<XYChart> {
                 if (preMatchesCount < comparePreMatchesCount) {
                     chartPreMatch.getStyler().setChartBackgroundColor(new Color(255, 0, 0));
                     alarmOnPreMatch = true;
-                    logger.error("Error PreMatches >>>>>>>>>>>>  "   + preMatchesCount);
+//                    logger.error("Error PreMatches >>>>>>>>>>>>  "   + preMatchesCount);
                 }
                 if (upcomingMatchesCount < compareUpcomingMatchesCount) {
                     chartUpcoming.getStyler().setChartBackgroundColor(new Color(255, 0, 0));
                     alarmOnUpcoming = true;
-                    logger.error("Error UpcomingMatches >>>>>>>>>>>>  "   + preMatchesCount);
+//                    logger.error("Error UpcomingMatches >>>>>>>>>>>>  "   + upcomingMatchesCount);
                 }
                 if (liveMatchesCount < compareLifeMatchesCount) {
                     chartLive.getStyler().setChartBackgroundColor(new Color(255, 0, 0));
                     alarmOnLive = true;
-                    logger.error("Error LiveMatches >>>>>>>>>>>>  "   + preMatchesCount);
+//                    logger.error("Error LiveMatches >>>>>>>>>>>>  "   + liveMatchesCount);
                 }
                 if (topLiveMatchesCount < compareTopLifeMatchesCount) {
                     chartTopLive.getStyler().setChartBackgroundColor(new Color(255, 0, 0));
                     alarmOnTopLive = true;
-                    logger.error("Error topLiveMatches >>>>>>>>>>>>  "   + preMatchesCount);
+//                    logger.error("Error topLiveMatches >>>>>>>>>>>>  "   + topLiveMatchesCount);
                 }
                 if (upcomingMatchesCount >= compareUpcomingMatchesCount && topLiveMatchesCount >= compareTopLifeMatchesCount
                         && liveMatchesCount >= compareLifeMatchesCount && preMatchesCount >= comparePreMatchesCount) {
@@ -413,7 +413,6 @@ public class AlarmMatchesNew implements ExampleChart<XYChart> {
 
         }
     }
-
 
     @Override
     public String getExampleChartName() {
@@ -652,7 +651,7 @@ public class AlarmMatchesNew implements ExampleChart<XYChart> {
 
             JSONObject jsonObjectBody = new JSONObject(response.getBody());
             Unirest.shutdown();
-
+            count=0;
             JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.toString());
             count = jsonObjectResponseObject.getInt("TotalCount");
             return count;
@@ -666,7 +665,7 @@ public class AlarmMatchesNew implements ExampleChart<XYChart> {
 
                 JSONObject jsonObjectBody = new JSONObject(response.getBody());
                 Unirest.shutdown();
-
+                count=0;
                 JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.toString());
                 count = jsonObjectResponseObject.getInt("TotalCount");
                 return count;

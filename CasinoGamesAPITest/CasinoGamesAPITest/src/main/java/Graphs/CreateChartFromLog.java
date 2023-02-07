@@ -1,5 +1,6 @@
 package Graphs;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 import org.knowm.xchart.SwingWrapper;
 import org.knowm.xchart.XYChart;
@@ -21,47 +22,20 @@ import java.util.List;
 
 public class CreateChartFromLog implements ExampleChart<XYChart> {
 
-    static String logFilePath = System.getProperty("user.dir") + "\\log\\GraphLog.log.2023-02-01-16-02";
+    static String logFilePath = System.getProperty("user.dir") + "\\log\\GraphLog.log.2023-02-07-08";
 
     static SwingWrapper<XYChart> sw ;
     //    static XYChart chart;
-    static final int averageNum = 1;
-    static final int xAxisLength = 288;
-    static final int timeDelaySeconds = 1;
-    static final int compareUpcomingMatchesCount = 5;
-    static final int compareTopLifeMatchesCount = 1;
-    static final int compareLifeMatchesCount = 1;
-    static final int comparePreMatchesCount = 1;
+    static final int timeDelaySeconds = 60;
+
     public static Logger logger;
     static List<XYChart> charts = new ArrayList<>();
-    static double[] matchesCountArrayXAxis = new double[xAxisLength];
-    static double[] preMatchMatchesCountArray = new double[xAxisLength];
-    static double[] upcomingMatchesCountArray = new double[xAxisLength];
-    static double[] topLiveMatchesCountArray = new double[xAxisLength];
-    static double[] liveMatchesCountArray = new double[xAxisLength];
+    static ArrayList<String> LogLines = new ArrayList<>();
 
-
-
-    static boolean alarmOnUpcoming = false;
-    static boolean alarmOnPreMatch = false;
-    static boolean alarmOnTopLive = false;
-    static boolean alarmOnLive = false;
-
-    static int upcomingMatchesCount;
-    static int topLiveMatchesCount;
-    static int liveMatchesCount;
-    static int preMatchesCount;
-
-    static int[] tempUpcomingMatchesLocal = new int[averageNum];
-    static int[] tempTopLiveMatchesCount = new int[averageNum];
-    static int[] tempLiveMatchesCount = new int[averageNum];
-    static int[] tempPreMatchesCount = new int[averageNum];
-
-    static ArrayList<String> upcomingSportsLocal;
-    static ArrayList<String> liveSportsTop;
-
-    static int p = 0;
-    static int xAxisValue = xAxisLength;
+    static ArrayList<Double> preMatchMatchesCountArrayList = new ArrayList<>();
+    static ArrayList<Double> upcomingMatchesCountArrayList = new ArrayList<>();
+    static ArrayList<Double> topLiveMatchesCountArrayList = new ArrayList<>();
+    static ArrayList<Double> liveMatchesCountArrayList = new ArrayList<>();
 
     static XYChart chartPreMatch;
     static XYChart chartUpcoming;
@@ -69,13 +43,6 @@ public class CreateChartFromLog implements ExampleChart<XYChart> {
     static XYChart chartTopLive;
 
     public static void main(String[] args) {
-        showLogGraph();
-//        createDataForGraph();
-    }
-
-
-
-    public static void showLogGraph(){
         initChart();
     }
 
@@ -101,24 +68,50 @@ public class CreateChartFromLog implements ExampleChart<XYChart> {
 //        sw = new SwingWrapper<XYChart>(chartPreMatch);
         sw.setTitle("Matches Count " + currentTime());
         sw.displayChartMatrix();
+
+        getDataForGraph();
+
+        double[] preMatchMatchesCountArray = new double[preMatchMatchesCountArrayList.size()];
+        double[] upcomingMatchesCountArray  = new double[upcomingMatchesCountArrayList.size()];
+        double[] topLiveMatchesCountArray = new double[topLiveMatchesCountArrayList.size()];
+        double[] liveMatchesCountArray  = new double[liveMatchesCountArrayList.size()];
+        for (int l=0;l<preMatchMatchesCountArrayList.size();l++){
+            preMatchMatchesCountArray[l] = preMatchMatchesCountArrayList.get(l);
+        }
+        for (int l=0;l<upcomingMatchesCountArrayList.size();l++){
+            upcomingMatchesCountArray[l] = upcomingMatchesCountArrayList.get(l);
+        }
+        for (int l=0;l<topLiveMatchesCountArrayList.size();l++){
+            topLiveMatchesCountArray[l] = topLiveMatchesCountArrayList.get(l);
+        }
+        for (int l=0;l<liveMatchesCountArrayList.size();l++){
+            liveMatchesCountArray[l] = liveMatchesCountArrayList.get(l);
+        }
+
+
+        chartPreMatch.updateXYSeries("PreMatch", null, preMatchMatchesCountArray, null);
+        chartLive.updateXYSeries("Live", null, liveMatchesCountArray, null);
+        chartUpcoming.updateXYSeries("Upcoming", null, upcomingMatchesCountArray, null);
+        chartTopLive.updateXYSeries("TopLive", null, topLiveMatchesCountArray, null);
+        for (int l = 0; l < charts.size(); l++) {
+            sw.repaintChart(l);
+        }
     }
 
     @Override
     public XYChart getChart() {
-        float timeDelayMinutesVisualisation = (float) timeDelaySeconds / 60 * averageNum;
+        float timeDelayMinutesVisualisation = (float) timeDelaySeconds / 60 ;
         DecimalFormat df = new DecimalFormat("#.#");
         // Series
         switch(chartsNum) {
             case 1:{
                 // Create Chart
                 chartPreMatch = new XYChartBuilder().width(500).height(250).xAxisTitle("X-Axis division: " + df.format(timeDelayMinutesVisualisation)+ " min").yAxisTitle("Y").build();
-                for (int m=1; m<=xAxisLength;m++){
-                    matchesCountArrayXAxis[m-1] = m;
-                }
+
                 // Customize Chart
                 chartPreMatch.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
                 chartPreMatch.getStyler().setAxisTitlesVisible(false);
-                chartPreMatch.getStyler().setDefaultSeriesRenderStyle(XYSeries.XYSeriesRenderStyle.Step);
+                chartPreMatch.getStyler().setDefaultSeriesRenderStyle(XYSeries.XYSeriesRenderStyle.Line);
                 chartPreMatch.getStyler().setSeriesColors(new Color[]{new Color(0, 110, 0)});
                 chartPreMatch.getStyler().setToolTipsEnabled(true);
                 chartPreMatch.getStyler().setZoomEnabled(true);
@@ -127,7 +120,7 @@ public class CreateChartFromLog implements ExampleChart<XYChart> {
                 chartPreMatch.getStyler().setXAxisLabelRotation(90);
                 chartPreMatch.getStyler().setMarkerSize(3);
                 chartPreMatch.getStyler().setXAxisTitleVisible(true);
-                chartPreMatch.addSeries("PreMatch", matchesCountArrayXAxis, preMatchMatchesCountArray);
+                chartPreMatch.addSeries("PreMatch", null, new double[]{0.0});
                 chartsNum++;
                 return chartPreMatch;
 
@@ -135,13 +128,11 @@ public class CreateChartFromLog implements ExampleChart<XYChart> {
             case 2:
             {
                 chartLive = new XYChartBuilder().width(500).height(250).xAxisTitle("X-Axis division: " + df.format(timeDelayMinutesVisualisation)+ " min").yAxisTitle("Y").build();
-                for (int m=1; m<=xAxisLength;m++){
-                    matchesCountArrayXAxis[m-1] = m;
-                }
+
                 // Customize Chart
                 chartLive.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
                 chartLive.getStyler().setAxisTitlesVisible(false);
-                chartLive.getStyler().setDefaultSeriesRenderStyle(XYSeries.XYSeriesRenderStyle.Step);
+                chartLive.getStyler().setDefaultSeriesRenderStyle(XYSeries.XYSeriesRenderStyle.Line);
                 chartLive.getStyler().setSeriesColors(new Color[]{new Color(0, 0, 255)});
                 chartLive.getStyler().setToolTipsEnabled(true);
                 chartLive.getStyler().setZoomEnabled(true);
@@ -150,20 +141,18 @@ public class CreateChartFromLog implements ExampleChart<XYChart> {
                 chartLive.getStyler().setXAxisLabelRotation(90);
                 chartLive.getStyler().setMarkerSize(3);
                 chartLive.getStyler().setXAxisTitleVisible(true);
-                chartLive.addSeries("Live", matchesCountArrayXAxis, upcomingMatchesCountArray);
+                chartLive.addSeries("Live", null,  new double[]{0.0});
                 chartsNum++;
                 return chartLive;
 
             }
             case 3:{
                 chartUpcoming = new XYChartBuilder().width(500).height(250).xAxisTitle("X-Axis division: " + df.format(timeDelayMinutesVisualisation)+ " min").yAxisTitle("Y").build();
-                for (int m=1; m<=xAxisLength;m++){
-                    matchesCountArrayXAxis[m-1] = m;
-                }
+
                 // Customize Chart
                 chartUpcoming.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
                 chartUpcoming.getStyler().setAxisTitlesVisible(false);
-                chartUpcoming.getStyler().setDefaultSeriesRenderStyle(XYSeries.XYSeriesRenderStyle.Step);
+                chartUpcoming.getStyler().setDefaultSeriesRenderStyle(XYSeries.XYSeriesRenderStyle.Line);
                 chartUpcoming.getStyler().setSeriesColors(new Color[]{new Color(0, 185, 0)});
                 chartUpcoming.getStyler().setToolTipsEnabled(true);
                 chartUpcoming.getStyler().setZoomEnabled(true);
@@ -172,7 +161,7 @@ public class CreateChartFromLog implements ExampleChart<XYChart> {
                 chartUpcoming.getStyler().setXAxisLabelRotation(90);
                 chartUpcoming.getStyler().setMarkerSize(3);
                 chartUpcoming.getStyler().setXAxisTitleVisible(true);
-                chartUpcoming.addSeries("Upcoming", matchesCountArrayXAxis, liveMatchesCountArray);
+                chartUpcoming.addSeries("Upcoming", null,  new double[]{0.0});
                 chartsNum++;
                 return chartUpcoming;
 
@@ -180,13 +169,11 @@ public class CreateChartFromLog implements ExampleChart<XYChart> {
             case 4:
             {
                 chartTopLive = new XYChartBuilder().width(500).height(250).xAxisTitle("X-Axis division: " + df.format(timeDelayMinutesVisualisation)+ " min").yAxisTitle("Y").build();
-                for (int m=1; m<=xAxisLength;m++){
-                    matchesCountArrayXAxis[m-1] = m;
-                }
+
                 // Customize Chart
                 chartTopLive.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
                 chartTopLive.getStyler().setAxisTitlesVisible(false);
-                chartTopLive.getStyler().setDefaultSeriesRenderStyle(XYSeries.XYSeriesRenderStyle.Step);
+                chartTopLive.getStyler().setDefaultSeriesRenderStyle(XYSeries.XYSeriesRenderStyle.Line);
                 chartTopLive.getStyler().setSeriesColors(new Color[]{new Color(0, 150, 255)});
                 chartTopLive.getStyler().setMarkerSize(3);
                 chartTopLive.getStyler().setToolTipsEnabled(true);
@@ -195,7 +182,7 @@ public class CreateChartFromLog implements ExampleChart<XYChart> {
                 chartTopLive.getStyler().setLegendBackgroundColor(new Color(255, 255, 255));
                 chartTopLive.getStyler().setXAxisLabelRotation(90);
                 chartTopLive.getStyler().setXAxisTitleVisible(true);
-                chartTopLive.addSeries("TopLive", matchesCountArrayXAxis, topLiveMatchesCountArray);
+                chartTopLive.addSeries("TopLive", null,  new double[]{0.0});
                 chartsNum++;
                 return chartTopLive;
             }
@@ -205,10 +192,7 @@ public class CreateChartFromLog implements ExampleChart<XYChart> {
         }
             }
 
-    @Override
-    public String getExampleChartName() {
-        return null;
-    }
+
 
     public static String currentTime() {
         try {
@@ -223,7 +207,8 @@ public class CreateChartFromLog implements ExampleChart<XYChart> {
 
 
 
-    public static void createDataForGraph() {
+
+    public static void getDataForGraph() {
         try {
             File file = new File(logFilePath);    //creates a new file instance
             FileReader fr = new FileReader(file);   //reads the file
@@ -232,13 +217,65 @@ public class CreateChartFromLog implements ExampleChart<XYChart> {
             String line;
             while ((line = br.readLine()) != null) {
                 sb.append(line);      //appends line to string buffer
+                LogLines.add(line);
                 sb.append("\n");     //line feed
             }
             fr.close();    //closes the stream and release the resources
-            System.out.println("Contents of File: ");
-            System.out.println(sb.toString());   //returns a string that textually represents the object
+//            System.out.println("Contents of File: ");
+
+            for (int k = 0 ; k<LogLines.size();k++){
+                try{
+                    String oneLine = LogLines.get(k);
+
+                    try{
+                        String preMatch = StringUtils.substringBetween(oneLine,"preMatchesCount: "," ");
+                        preMatchMatchesCountArrayList.add(Double.parseDouble(preMatch));
+                    }
+                    catch (Exception ignored){}
+                    try{
+                        String upcoming  = StringUtils.substringBetween(oneLine,"UpcomingMatchesCount: ","  topLiveMatchesCount:");
+                        upcomingMatchesCountArrayList.add(Double.parseDouble(upcoming));
+                    }
+                    catch (Exception ignored){}
+                    try{
+                        String live = StringUtils.substringBetween(oneLine,"liveMatchesCount: ","    preMatchesCount:");
+                        liveMatchesCountArrayList.add(Double.parseDouble(live));
+                    }
+                    catch (Exception ignored){}
+                    try{
+                        String topLive = StringUtils.substringBetween(oneLine,"topLiveMatchesCount: ","    liveMatchesCount: ");
+                        topLiveMatchesCountArrayList.add(Double.parseDouble(topLive));
+                    }
+                    catch (Exception ignored){}
+
+
+
+
+
+
+//                    System.out.println(" preMatch >>>> " + preMatchMatchesCountArray[k] );
+//                    System.out.println(" upcoming >>>> " + upcomingMatchesCountArray[k] );
+//                    System.out.println(" live >>>> " + liveMatchesCountArray[k] );
+//                    System.out.println(" topLive >>>> " + topLiveMatchesCountArray[k] );
+//                    System.out.println();
+                }
+                catch (Exception e){
+                }
+            }
+
+
+//            System.out.println(sb.toString());   //returns a string that textually represents the object
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+
+
+
+
+    @Override
+    public String getExampleChartName() {
+        return null;
     }
 }
