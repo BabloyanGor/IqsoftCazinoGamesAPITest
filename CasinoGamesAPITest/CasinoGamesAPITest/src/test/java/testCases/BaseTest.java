@@ -333,7 +333,17 @@ public class BaseTest extends DriverFactory {
                 break;
             }
 
-
+            case 101: {
+                partnerID = 91;
+                getGamesAPIUrl = "https://websitewebapi.prdbtzmrk.com/1/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.prdbtzmrk.com/1/api/Main/GetProductUrl";
+                getUserID = 254304;
+                getGamesOrigin = "https://prdbtzmrk.com";
+                getGamesRecurse = "https://resources.prdbtzmrk.com/products/";
+                getGamesPartnerName = "Prdbtzmrk";
+                getGamesBaseURL = "https://prdbtzmrk.com";
+                break;
+            }
             default: {
                 logger.error("Wrong Partner ID: From config.properties file insert the right PartnerID Please");
                 throw new SkipException("From config.properties file choose the right PartnerID Please");

@@ -33,6 +33,7 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
                 .header("content-type", "application/json")
                 .header("origin", origin)
                 .body("{\"PageIndex\":0,\"PageSize\":20000,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false,\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
+
                 .asString();
 
         logger.info("Get games Api call was sent");
