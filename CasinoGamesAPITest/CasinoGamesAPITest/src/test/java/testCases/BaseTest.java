@@ -43,6 +43,7 @@ public class BaseTest extends DriverFactory {
     public String getGamesRecurse;
     public String getGamesPartnerName;
     public String getGamesBaseURL;
+    public String loginClient;
     public String getAllLifeGames;
 
     public String getPreMatchTree;
@@ -320,6 +321,19 @@ public class BaseTest extends DriverFactory {
                 break;
             }
 
+            case 17: {
+                partnerID = 70;
+                getGamesAPIUrl = "https://websitewebapi.winsroyal.com/70/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.winsroyal.com/70/api/Main/GetProductUrl";
+                getUserID = 1785170;
+                getGamesOrigin = "https://winsroyal.com";
+                getGamesRecurse = "https://resources.winsroyal.com/products/";
+                getGamesPartnerName = "winsroyal";
+                getGamesBaseURL = "https://winsroyal.com";
+                loginClient = "https://websitewebapi.winsroyal.com/70/api/Main/LoginClient";
+                break;
+            }
+
 
             case 100: {
                 partnerID = 1;
@@ -361,7 +375,6 @@ public class BaseTest extends DriverFactory {
             }
         } catch (org.openqa.selenium.TimeoutException exception) {
             super.initDriver(getGamesBaseURL, browser, isHeadless);
-
         }
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 

@@ -20,32 +20,52 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
     String token;
 
     @BeforeMethod
-    public void logIn() {
+    public void logIn() throws UnirestException, IOException {
 
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        craftBet_01_header_page.clickOnLogInButtonIfVisible();
-        craftBet_03_login_popUp_page.loginPopUpEmailOrUsernameSendKeys(username);
-        logger.info("username passed");
-        craftBet_03_login_popUp_page.loginPopUpPasswordSendKeys(password);
-        logger.info("password passed");
-        craftBet_03_login_popUp_page.clickLoginPopUpLogInButton();
-        logger.info("Log In Button was clicked");
-        if (craftBet_01_header_page.userIdLabelIsEnabled()) {
-            token = craftBet_01_header_page.getItem("token");
-            logger.info("Token was captured " + token);
-        } else if (craftBet_01_header_page.balanceLabelIsEnabled()) {
-            token = craftBet_01_header_page.getItem("token");
-            logger.info("Token was captured " + token);
-        } else {
-            craftBet_03_login_popUp_page.waitAction(2000);
-            if (craftBet_01_header_page.getItem("token")!=null){
-            token = craftBet_01_header_page.getItem("token");
-            logger.info("Token was captured " + token);
-            }
-            else{
-                logger.info("Token Cant be captured its null token: " + token);
-            }
+//        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+//        craftBet_01_header_page.clickOnLogInButtonIfVisible();
+//        craftBet_03_login_popUp_page.loginPopUpEmailOrUsernameSendKeys(username);
+//        logger.info("username passed");
+//        craftBet_03_login_popUp_page.loginPopUpPasswordSendKeys(password);
+//        logger.info("password passed");
+//        craftBet_03_login_popUp_page.clickLoginPopUpLogInButton();
+//        logger.info("Log In Button was clicked");
+//        if (craftBet_01_header_page.userIdLabelIsEnabled()) {
+//            token = craftBet_01_header_page.getItem("token");
+//            logger.info("Token was captured " + token);
+//        } else if (craftBet_01_header_page.balanceLabelIsEnabled()) {
+//            token = craftBet_01_header_page.getItem("token");
+//            logger.info("Token was captured " + token);
+//        } else {
+//            craftBet_03_login_popUp_page.waitAction(2000);
+//            if (craftBet_01_header_page.getItem("token")!=null){
+//            token = craftBet_01_header_page.getItem("token");
+//            logger.info("Token was captured " + token);
+//            }
+//            else{
+//                logger.info("Token Cant be captured its null token: " + token);
+//            }
+//        }
+
+        Unirest.setTimeouts(0, 0);
+        HttpResponse<String> response = Unirest.post(loginClient)
+                .header("origin", getGamesOrigin)
+                .header("Content-Type", "application/json")
+                .body("{\"Data\":\"M+/X9wqJp4gNfj2gGgHoNvrXY/3viig6D1SaG2xejREv7Q0TwrPilF98mne59b3vIytOitTfpNnfcwBt2f4V5LBNIbk4St8LcZKXypvuJArz3F+//z3eY8grTLhVWfctV027XZK9K+WuY3y4dYqgy6q9zqkk61wSZ1oMYv5GnnTGNdYG0wgZRMKXJFzEokN2aA8B26ScXWIAqGoDH+dEuAlpaAMFMK4CMNLNu+uo/iX1iAbo4cB5AygbnTfvqA0CWkCCca3ngoN/YVEgYVxuvM7OSpeAN0lUCY0KbbDCd1d5DhUytazzOeSwrFSE+Ti0pwl9f/DwWfM4cozyfOyHhg==\",\"TimeZone\":4}")
+                .asString();
+        logger.info("Log In Call sent");
+
+        JSONObject jsonObjectBody = new JSONObject(response.getBody());
+        Unirest.shutdown();
+        int ResponseCode = jsonObjectBody.getInt("ResponseCode");
+        if (ResponseCode == 0){
+            token = jsonObjectBody.getString("Token");
+//            userID = jsonObjectBody.getString("Id");
         }
+
+
+
+
     }
 
     public boolean getUrlCheckGamesUrl(String getGamesAPIUrl, String origin, String getURLAPIurl, String token,
