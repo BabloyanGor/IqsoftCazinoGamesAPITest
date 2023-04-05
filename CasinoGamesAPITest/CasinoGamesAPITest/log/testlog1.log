@@ -13698,3 +13698,349 @@ Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 2023-04-05 16:13:02,832 [main] INFO craftBetWorld - Broken url-es are:  85
 2023-04-05 16:13:04,531 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2023-04-05 16:13:04,542 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2023-04-05 17:03:58,807 [main] INFO craftBetWorld - Log In request was sent
+2023-04-05 17:03:58,816 [main] INFO craftBetWorld - Token was captured: 73be3564b6b94739bdb3620092bfdb99
+2023-04-05 17:03:58,816 [main] INFO craftBetWorld - User Id was captured: 254304
+2023-04-05 17:03:59,683 [main] INFO craftBetWorld - Get All games API call 
+2023-04-05 17:03:59,777 [main] INFO craftBetWorld - From getGamesAPIUrl call body captured 
+2023-04-05 17:03:59,812 [main] INFO craftBetWorld - From getGamesAPIUrl call productIDes and Names was captured 
+2023-04-05 17:04:10,111 [main] INFO craftBetWorld - Get games Api call was sent
+2023-04-05 17:04:10,191 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-04-05 17:04:10,235 [main] INFO craftBetWorld - Dupliicate game Name =  American Roulette
+2023-04-05 17:04:10,237 [main] INFO craftBetWorld - Dupliicate game Name =  Andar Bahar
+2023-04-05 17:04:10,237 [main] INFO craftBetWorld - Dupliicate game Name =  Andar Bahar
+2023-04-05 17:04:10,237 [main] INFO craftBetWorld - Dupliicate game Name =  Andar Bahar
+2023-04-05 17:04:10,239 [main] INFO craftBetWorld - Dupliicate game Name =  Baccarat A
+2023-04-05 17:04:10,240 [main] INFO craftBetWorld - Dupliicate game Name =  Baccarat B
+2023-04-05 17:04:10,242 [main] INFO craftBetWorld - Dupliicate game Name =  Blackjack
+2023-04-05 17:04:10,245 [main] INFO craftBetWorld - Dupliicate game Name =  Blackjack A
+2023-04-05 17:04:10,245 [main] INFO craftBetWorld - Dupliicate game Name =  Blackjack B
+2023-04-05 17:04:10,246 [main] INFO craftBetWorld - Dupliicate game Name =  Blackjack C
+2023-04-05 17:04:10,249 [main] INFO craftBetWorld - Dupliicate game Name =  Blackjack D
+2023-04-05 17:04:10,250 [main] INFO craftBetWorld - Dupliicate game Name =  Blackjack E
+2023-04-05 17:04:10,250 [main] INFO craftBetWorld - Dupliicate game Name =  Blackjack F
+2023-04-05 17:04:10,250 [main] INFO craftBetWorld - Dupliicate game Name =  Blackjack G
+2023-04-05 17:04:10,251 [main] INFO craftBetWorld - Dupliicate game Name =  Blackjack H
+2023-04-05 17:04:10,252 [main] INFO craftBetWorld - Dupliicate game Name =  Blackjack I
+2023-04-05 17:04:10,252 [main] INFO craftBetWorld - Dupliicate game Name =  Blackjack J
+2023-04-05 17:04:10,257 [main] INFO craftBetWorld - Dupliicate game Name =  Caligula
+2023-04-05 17:04:10,261 [main] INFO craftBetWorld - Dupliicate game Name =  Dragon Tiger
+2023-04-05 17:04:10,262 [main] INFO craftBetWorld - Dupliicate game Name =  Dragon Tiger
+2023-04-05 17:04:10,262 [main] INFO craftBetWorld - Dupliicate game Name =  Dragon Tiger
+2023-04-05 17:04:10,263 [main] INFO craftBetWorld - Dupliicate game Name =  European Roulette
+2023-04-05 17:04:10,264 [main] INFO craftBetWorld - Dupliicate game Name =  French Roulette
+2023-04-05 17:04:10,270 [main] INFO craftBetWorld - Dupliicate game Name =  Lobby
+2023-04-05 17:04:10,271 [main] INFO craftBetWorld - Dupliicate game Name =  Multihand Blackjack
+2023-04-05 17:04:10,272 [main] INFO craftBetWorld - Dupliicate game Name =  No Comm Speed Baccarat 1
+2023-04-05 17:04:10,272 [main] INFO craftBetWorld - Dupliicate game Name =  No Commission Baccarat
+2023-04-05 17:04:10,273 [main] INFO craftBetWorld - Dupliicate game Name =  Roulette
+2023-04-05 17:04:10,274 [main] INFO craftBetWorld - Dupliicate game Name =  Sic Bo
+2023-04-05 17:04:10,275 [main] INFO craftBetWorld - Dupliicate game Name =  Speed Roulette
+2023-04-05 17:04:10,275 [main] INFO craftBetWorld - Dupliicate game Name =  Teen Patti
+2023-04-05 17:04:10,276 [main] INFO craftBetWorld - Dupliicate game Name =  Unlimited Blackjack
+2023-04-05 17:04:10,276 [main] INFO craftBetWorld - Duplicate games are:  32
+2023-04-05 17:04:11,754 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-04-05 17:04:12,375 [main] INFO craftBetWorld - Get games Api call was sent
+2023-04-05 17:04:12,444 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-04-05 17:04:12,481 [main] INFO craftBetWorld - All captured games images was added into ArrayList
+2023-04-05 17:04:22,784 [main] ERROR craftBetWorld - 34  Game ID = 3719   Game Provider Name = Ezugi :   Game Name =  32 Cards :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:04:22,940 [main] ERROR craftBetWorld - 35  Game ID = 1714   Game Provider Name = WorldMatch :   Game Name =  3D Farm HD :   cod = 404:   src = https://resources.iqsoftllc.com/products/worldmatch/web/3d_farm_hd
+2023-04-05 17:04:38,543 [main] ERROR craftBetWorld - 89  Game ID = 3330   Game Provider Name = PragmaticLive :   Game Name =  American Blackjack :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:04:41,702 [main] ERROR craftBetWorld - 100  Game ID = 3702   Game Provider Name = Ezugi :   Game Name =  Andar Bahar :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:04:47,366 [main] ERROR craftBetWorld - 120  Game ID = 3666   Game Provider Name = Ezugi :   Game Name =  Automatic Roulette :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:04:53,445 [main] ERROR craftBetWorld - 142  Game ID = 3333   Game Provider Name = PragmaticLive :   Game Name =  Baccarat :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:04:53,933 [main] ERROR craftBetWorld - 146  Game ID = 1407   Game Provider Name = Evolution :   Game Name =  Baccarat A :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:04:54,016 [main] ERROR craftBetWorld - 147  Game ID = 3642   Game Provider Name = Ezugi :   Game Name =  Baccarat A :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:04:54,100 [main] ERROR craftBetWorld - 148  Game ID = 3643   Game Provider Name = Ezugi :   Game Name =  Baccarat B :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:04:54,186 [main] ERROR craftBetWorld - 149  Game ID = 1440   Game Provider Name = Evolution :   Game Name =  Baccarat B :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:04:54,269 [main] ERROR craftBetWorld - 150  Game ID = 1441   Game Provider Name = Evolution :   Game Name =  Baccarat C :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:04:54,359 [main] ERROR craftBetWorld - 151  Game ID = 1442   Game Provider Name = Evolution :   Game Name =  Baccarat Control Squeeze :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:04:54,445 [main] ERROR craftBetWorld - 152  Game ID = 3650   Game Provider Name = Ezugi :   Game Name =  Baccarat Dragon Bonus A :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:04:54,529 [main] ERROR craftBetWorld - 153  Game ID = 3651   Game Provider Name = Ezugi :   Game Name =  Baccarat Dragon Bonus B :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:04:54,613 [main] ERROR craftBetWorld - 154  Game ID = 3654   Game Provider Name = Ezugi :   Game Name =  Baccarat Dragon Tiger A :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:04:54,702 [main] ERROR craftBetWorld - 155  Game ID = 3648   Game Provider Name = Ezugi :   Game Name =  Baccarat Knock Out A :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:04:54,792 [main] ERROR craftBetWorld - 156  Game ID = 3649   Game Provider Name = Ezugi :   Game Name =  Baccarat Knock Out B :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:04:54,877 [main] ERROR craftBetWorld - 157  Game ID = 3697   Game Provider Name = Ezugi :   Game Name =  Baccarat Pro 1 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:04:55,125 [main] ERROR craftBetWorld - 159  Game ID = 3699   Game Provider Name = Ezugi :   Game Name =  Baccarat Pro 3 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:04:55,210 [main] ERROR craftBetWorld - 160  Game ID = 3700   Game Provider Name = Ezugi :   Game Name =  Baccarat Pro 4 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:04:55,594 [main] ERROR craftBetWorld - 162  Game ID = 1408   Game Provider Name = Evolution :   Game Name =  Baccarat Squeeze :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:04:55,690 [main] ERROR craftBetWorld - 163  Game ID = 3652   Game Provider Name = Ezugi :   Game Name =  Baccarat Super Six A :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:04:55,780 [main] ERROR craftBetWorld - 164  Game ID = 3653   Game Provider Name = Ezugi :   Game Name =  Baccarat Super Six B :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:04,058 [main] ERROR craftBetWorld - 196  Game ID = 3662   Game Provider Name = Ezugi :   Game Name =  Bet on Numbers A :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:04,141 [main] ERROR craftBetWorld - 197  Game ID = 3680   Game Provider Name = Ezugi :   Game Name =  Bet on Teen Patti :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:05,940 [main] ERROR craftBetWorld - 204  Game ID = 3709   Game Provider Name = Ezugi :   Game Name =  Black Russian Blackjack :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:06,972 [main] ERROR craftBetWorld - 209  Game ID = 3341   Game Provider Name = PragmaticLive :   Game Name =  Blackjack 1 - Azure :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:07,057 [main] ERROR craftBetWorld - 210  Game ID = 3348   Game Provider Name = PragmaticLive :   Game Name =  Blackjack 10 - Azure :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:07,328 [main] ERROR craftBetWorld - 213  Game ID = 3351   Game Provider Name = PragmaticLive :   Game Name =  Blackjack 14 :   cod = 404:   src = https://resources.iqsoftllc.com/products/pragmaticlive/web/Baccarat14.jpg
+2023-04-05 17:05:07,415 [main] ERROR craftBetWorld - 214  Game ID = 3352   Game Provider Name = PragmaticLive :   Game Name =  Blackjack 15 :   cod = 404:   src = https://resources.iqsoftllc.com/products/pragmaticlive/web/Baccarat15.jpg
+2023-04-05 17:05:07,503 [main] ERROR craftBetWorld - 215  Game ID = 3353   Game Provider Name = PragmaticLive :   Game Name =  Blackjack 16 :   cod = 404:   src = https://resources.iqsoftllc.com/products/pragmaticlive/web/Baccarat16.jpg
+2023-04-05 17:05:07,594 [main] ERROR craftBetWorld - 216  Game ID = 3354   Game Provider Name = PragmaticLive :   Game Name =  Blackjack 17 - Azure :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:07,682 [main] ERROR craftBetWorld - 217  Game ID = 3355   Game Provider Name = PragmaticLive :   Game Name =  Blackjack 18 - Azure :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:07,856 [main] ERROR craftBetWorld - 219  Game ID = 3344   Game Provider Name = PragmaticLive :   Game Name =  Blackjack 2 - Azure :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:08,175 [main] ERROR craftBetWorld - 222  Game ID = 3343   Game Provider Name = PragmaticLive :   Game Name =  Blackjack 22 - Azure :   cod = 404:   src = https://resources.iqsoftllc.com/products/pragmaticlive/web/Blackjack22Azure.jpg
+2023-04-05 17:05:08,696 [main] ERROR craftBetWorld - 227  Game ID = 3342   Game Provider Name = PragmaticLive :   Game Name =  Blackjack 27 - Azure :   cod = 404:   src = https://resources.iqsoftllc.com/products/pragmaticlive/web/Blackjack27Azure.jpg
+2023-04-05 17:05:08,948 [main] ERROR craftBetWorld - 230  Game ID = 3337   Game Provider Name = PragmaticLive :   Game Name =  Blackjack 3 - Azure :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:09,230 [main] ERROR craftBetWorld - 233  Game ID = 3367   Game Provider Name = PragmaticLive :   Game Name =  Blackjack 32 - Azure :   cod = 404:   src = https://resources.iqsoftllc.com/products/pragmaticlive/web/Blackjack321Azure.jpg
+2023-04-05 17:05:10,087 [main] ERROR craftBetWorld - 241  Game ID = 3340   Game Provider Name = PragmaticLive :   Game Name =  Blackjack 4 - Azure :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:11,068 [main] ERROR craftBetWorld - 252  Game ID = 3345   Game Provider Name = PragmaticLive :   Game Name =  Blackjack 5 - Azure :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:11,581 [main] ERROR craftBetWorld - 257  Game ID = 3453   Game Provider Name = PragmaticLive :   Game Name =  Blackjack 55 - Ruby :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:11,760 [main] ERROR craftBetWorld - 259  Game ID = 3338   Game Provider Name = PragmaticLive :   Game Name =  Blackjack 6 - Azure :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:11,845 [main] ERROR craftBetWorld - 260  Game ID = 3683   Game Provider Name = Ezugi :   Game Name =  Blackjack 7 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:11,934 [main] ERROR craftBetWorld - 261  Game ID = 3339   Game Provider Name = PragmaticLive :   Game Name =  Blackjack 7 - Azure :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:12,016 [main] ERROR craftBetWorld - 262  Game ID = 3346   Game Provider Name = PragmaticLive :   Game Name =  Blackjack 8 - Azure :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:12,098 [main] ERROR craftBetWorld - 263  Game ID = 3347   Game Provider Name = PragmaticLive :   Game Name =  Blackjack 9 - Azure :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:12,179 [main] ERROR craftBetWorld - 264  Game ID = 3629   Game Provider Name = Ezugi :   Game Name =  Blackjack A :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:12,267 [main] ERROR craftBetWorld - 265  Game ID = 1409   Game Provider Name = Evolution :   Game Name =  Blackjack A :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:12,351 [main] ERROR craftBetWorld - 266  Game ID = 3470   Game Provider Name = Evolution :   Game Name =  Blackjack B :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:12,438 [main] ERROR craftBetWorld - 267  Game ID = 3630   Game Provider Name = Ezugi :   Game Name =  Blackjack B :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:12,520 [main] ERROR craftBetWorld - 268  Game ID = 3710   Game Provider Name = Ezugi :   Game Name =  Blackjack Bucuresti :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:12,625 [main] ERROR craftBetWorld - 269  Game ID = 3473   Game Provider Name = Evolution :   Game Name =  Blackjack C :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:12,941 [main] ERROR craftBetWorld - 270  Game ID = 3631   Game Provider Name = Ezugi :   Game Name =  Blackjack C :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:13,025 [main] ERROR craftBetWorld - 271  Game ID = 3469   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 1 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:13,117 [main] ERROR craftBetWorld - 272  Game ID = 3460   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 10 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:13,202 [main] ERROR craftBetWorld - 273  Game ID = 3459   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 11 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:13,285 [main] ERROR craftBetWorld - 274  Game ID = 3458   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 12 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:13,376 [main] ERROR craftBetWorld - 275  Game ID = 3457   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 13 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:13,458 [main] ERROR craftBetWorld - 276  Game ID = 3456   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 14 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:13,540 [main] ERROR craftBetWorld - 277  Game ID = 1502   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 15 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:13,627 [main] ERROR craftBetWorld - 278  Game ID = 1501   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 16 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:13,718 [main] ERROR craftBetWorld - 279  Game ID = 1500   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 17 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:13,802 [main] ERROR craftBetWorld - 280  Game ID = 1499   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 18 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:13,888 [main] ERROR craftBetWorld - 281  Game ID = 1498   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 19 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:13,969 [main] ERROR craftBetWorld - 282  Game ID = 1497   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 20 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:14,057 [main] ERROR craftBetWorld - 283  Game ID = 1496   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 21 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:14,141 [main] ERROR craftBetWorld - 284  Game ID = 1495   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 22 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:14,226 [main] ERROR craftBetWorld - 285  Game ID = 1494   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 23 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:14,307 [main] ERROR craftBetWorld - 286  Game ID = 1493   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 24 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:14,391 [main] ERROR craftBetWorld - 287  Game ID = 1492   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 25 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:14,476 [main] ERROR craftBetWorld - 288  Game ID = 1491   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 26 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:14,568 [main] ERROR craftBetWorld - 289  Game ID = 1490   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 27 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:14,649 [main] ERROR craftBetWorld - 290  Game ID = 1489   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 28 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:14,734 [main] ERROR craftBetWorld - 291  Game ID = 1488   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 29 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:14,816 [main] ERROR craftBetWorld - 292  Game ID = 3467   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 3 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:14,900 [main] ERROR craftBetWorld - 293  Game ID = 1487   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 30 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:14,982 [main] ERROR craftBetWorld - 294  Game ID = 1486   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 31 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:15,063 [main] ERROR craftBetWorld - 295  Game ID = 1485   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 32 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:15,147 [main] ERROR craftBetWorld - 296  Game ID = 1484   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 33 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:15,232 [main] ERROR craftBetWorld - 297  Game ID = 1483   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 34 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:15,321 [main] ERROR craftBetWorld - 298  Game ID = 1482   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 35 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:15,406 [main] ERROR craftBetWorld - 299  Game ID = 1481   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 36 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:15,490 [main] ERROR craftBetWorld - 300  Game ID = 1480   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 37 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:15,575 [main] ERROR craftBetWorld - 301  Game ID = 1479   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 38 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:15,672 [main] ERROR craftBetWorld - 302  Game ID = 1478   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 39 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:15,753 [main] ERROR craftBetWorld - 303  Game ID = 3466   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 4 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:15,835 [main] ERROR craftBetWorld - 304  Game ID = 1477   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 40 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:15,919 [main] ERROR craftBetWorld - 305  Game ID = 1476   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 41 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:15,999 [main] ERROR craftBetWorld - 306  Game ID = 1475   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 42 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:16,082 [main] ERROR craftBetWorld - 307  Game ID = 1474   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 43 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:16,168 [main] ERROR craftBetWorld - 308  Game ID = 1473   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 44 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:16,249 [main] ERROR craftBetWorld - 309  Game ID = 1472   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 45 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:16,331 [main] ERROR craftBetWorld - 310  Game ID = 1471   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 46 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:16,422 [main] ERROR craftBetWorld - 311  Game ID = 1470   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 47 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:16,507 [main] ERROR craftBetWorld - 312  Game ID = 1469   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 48 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:16,594 [main] ERROR craftBetWorld - 313  Game ID = 1468   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 49 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:16,684 [main] ERROR craftBetWorld - 314  Game ID = 3465   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 5 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:16,768 [main] ERROR craftBetWorld - 315  Game ID = 1467   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 50 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:16,850 [main] ERROR craftBetWorld - 316  Game ID = 1466   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 51 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:16,941 [main] ERROR craftBetWorld - 317  Game ID = 1465   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 52 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:17,023 [main] ERROR craftBetWorld - 318  Game ID = 1464   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 53 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:17,113 [main] ERROR craftBetWorld - 319  Game ID = 1463   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 54 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:17,201 [main] ERROR craftBetWorld - 320  Game ID = 1462   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 55 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:17,285 [main] ERROR craftBetWorld - 321  Game ID = 1461   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 56 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:17,368 [main] ERROR craftBetWorld - 322  Game ID = 1460   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 57 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:17,449 [main] ERROR craftBetWorld - 323  Game ID = 1459   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 58 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:17,544 [main] ERROR craftBetWorld - 324  Game ID = 1458   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 59 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:17,635 [main] ERROR craftBetWorld - 325  Game ID = 3464   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 6 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:17,718 [main] ERROR craftBetWorld - 326  Game ID = 1456   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 61 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:17,800 [main] ERROR craftBetWorld - 327  Game ID = 1455   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 62 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:17,882 [main] ERROR craftBetWorld - 328  Game ID = 1454   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 63 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:17,967 [main] ERROR craftBetWorld - 329  Game ID = 1453   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 64 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:18,050 [main] ERROR craftBetWorld - 330  Game ID = 1452   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 65 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:18,134 [main] ERROR craftBetWorld - 331  Game ID = 1451   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 66 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:18,215 [main] ERROR craftBetWorld - 332  Game ID = 1450   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 67 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:18,296 [main] ERROR craftBetWorld - 333  Game ID = 1449   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 68 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:18,387 [main] ERROR craftBetWorld - 334  Game ID = 1448   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 69 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:18,468 [main] ERROR craftBetWorld - 335  Game ID = 3463   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 7 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:18,550 [main] ERROR craftBetWorld - 336  Game ID = 1445   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 72 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:18,635 [main] ERROR craftBetWorld - 337  Game ID = 1444   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 73 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:18,723 [main] ERROR craftBetWorld - 338  Game ID = 3462   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 8 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:18,805 [main] ERROR craftBetWorld - 339  Game ID = 3461   Game Provider Name = Evolution :   Game Name =  Blackjack Classic 9 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:18,885 [main] ERROR craftBetWorld - 340  Game ID = 3475   Game Provider Name = Evolution :   Game Name =  Blackjack D :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:18,979 [main] ERROR craftBetWorld - 341  Game ID = 3632   Game Provider Name = Ezugi :   Game Name =  Blackjack D :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:19,060 [main] ERROR craftBetWorld - 342  Game ID = 3513   Game Provider Name = Evolution :   Game Name =  Blackjack Diamond VIP :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:19,141 [main] ERROR craftBetWorld - 343  Game ID = 3476   Game Provider Name = Evolution :   Game Name =  Blackjack E :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:19,222 [main] ERROR craftBetWorld - 344  Game ID = 3633   Game Provider Name = Ezugi :   Game Name =  Blackjack E :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:19,301 [main] ERROR craftBetWorld - 345  Game ID = 3477   Game Provider Name = Evolution :   Game Name =  Blackjack F :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:19,388 [main] ERROR craftBetWorld - 346  Game ID = 3634   Game Provider Name = Ezugi :   Game Name =  Blackjack F :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:19,473 [main] ERROR craftBetWorld - 347  Game ID = 3511   Game Provider Name = Evolution :   Game Name =  Blackjack Fortune VIP :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:19,568 [main] ERROR craftBetWorld - 348  Game ID = 3478   Game Provider Name = Evolution :   Game Name =  Blackjack G :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:19,648 [main] ERROR craftBetWorld - 349  Game ID = 3635   Game Provider Name = Ezugi :   Game Name =  Blackjack G :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:19,736 [main] ERROR craftBetWorld - 350  Game ID = 3682   Game Provider Name = Ezugi :   Game Name =  Blackjack Gold 1 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:19,817 [main] ERROR craftBetWorld - 351  Game ID = 3685   Game Provider Name = Ezugi :   Game Name =  Blackjack Gold 6 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:19,899 [main] ERROR craftBetWorld - 352  Game ID = 3512   Game Provider Name = Evolution :   Game Name =  Blackjack Grand VIP :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:19,985 [main] ERROR craftBetWorld - 353  Game ID = 3636   Game Provider Name = Ezugi :   Game Name =  Blackjack H :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:20,070 [main] ERROR craftBetWorld - 354  Game ID = 3479   Game Provider Name = Evolution :   Game Name =  Blackjack H :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:20,162 [main] ERROR craftBetWorld - 355  Game ID = 3480   Game Provider Name = Evolution :   Game Name =  Blackjack I :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:20,247 [main] ERROR craftBetWorld - 356  Game ID = 3637   Game Provider Name = Ezugi :   Game Name =  Blackjack I :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:20,339 [main] ERROR craftBetWorld - 357  Game ID = 3481   Game Provider Name = Evolution :   Game Name =  Blackjack J :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:20,429 [main] ERROR craftBetWorld - 358  Game ID = 3638   Game Provider Name = Ezugi :   Game Name =  Blackjack J :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:20,512 [main] ERROR craftBetWorld - 359  Game ID = 3639   Game Provider Name = Ezugi :   Game Name =  Blackjack K :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:20,595 [main] ERROR craftBetWorld - 360  Game ID = 3640   Game Provider Name = Ezugi :   Game Name =  Blackjack L :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:20,682 [main] ERROR craftBetWorld - 361  Game ID = 3641   Game Provider Name = Ezugi :   Game Name =  Blackjack M :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:20,768 [main] ERROR craftBetWorld - 362  Game ID = 3668   Game Provider Name = Ezugi :   Game Name =  Blackjack N :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:20,851 [main] ERROR craftBetWorld - 363  Game ID = 3669   Game Provider Name = Ezugi :   Game Name =  Blackjack O :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:20,934 [main] ERROR craftBetWorld - 364  Game ID = 3472   Game Provider Name = Evolution :   Game Name =  Blackjack Party :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:21,341 [main] ERROR craftBetWorld - 366  Game ID = 3482   Game Provider Name = Evolution :   Game Name =  Blackjack Silver 1 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:21,422 [main] ERROR craftBetWorld - 367  Game ID = 3483   Game Provider Name = Evolution :   Game Name =  Blackjack Silver 2 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:21,512 [main] ERROR craftBetWorld - 368  Game ID = 3484   Game Provider Name = Evolution :   Game Name =  Blackjack Silver 3 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:21,603 [main] ERROR craftBetWorld - 369  Game ID = 3485   Game Provider Name = Evolution :   Game Name =  Blackjack Silver 4 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:21,693 [main] ERROR craftBetWorld - 370  Game ID = 3486   Game Provider Name = Evolution :   Game Name =  Blackjack Silver 5 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:21,774 [main] ERROR craftBetWorld - 371  Game ID = 3487   Game Provider Name = Evolution :   Game Name =  Blackjack Silver 6 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:21,855 [main] ERROR craftBetWorld - 372  Game ID = 3488   Game Provider Name = Evolution :   Game Name =  Blackjack Silver 7 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:23,739 [main] ERROR craftBetWorld - 392  Game ID = 3489   Game Provider Name = Evolution :   Game Name =  Blackjack VIP A :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:23,825 [main] ERROR craftBetWorld - 393  Game ID = 3490   Game Provider Name = Evolution :   Game Name =  Blackjack VIP B :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:23,910 [main] ERROR craftBetWorld - 394  Game ID = 3491   Game Provider Name = Evolution :   Game Name =  Blackjack VIP C :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:23,997 [main] ERROR craftBetWorld - 395  Game ID = 3492   Game Provider Name = Evolution :   Game Name =  Blackjack VIP D :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:24,085 [main] ERROR craftBetWorld - 396  Game ID = 3493   Game Provider Name = Evolution :   Game Name =  Blackjack VIP E :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:24,175 [main] ERROR craftBetWorld - 397  Game ID = 3494   Game Provider Name = Evolution :   Game Name =  Blackjack VIP F :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:24,259 [main] ERROR craftBetWorld - 398  Game ID = 3495   Game Provider Name = Evolution :   Game Name =  Blackjack VIP G :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:24,344 [main] ERROR craftBetWorld - 399  Game ID = 3496   Game Provider Name = Evolution :   Game Name =  Blackjack VIP H :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:24,432 [main] ERROR craftBetWorld - 400  Game ID = 3497   Game Provider Name = Evolution :   Game Name =  Blackjack VIP I :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:24,521 [main] ERROR craftBetWorld - 401  Game ID = 3498   Game Provider Name = Evolution :   Game Name =  Blackjack VIP J :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:24,608 [main] ERROR craftBetWorld - 402  Game ID = 3499   Game Provider Name = Evolution :   Game Name =  Blackjack VIP K :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:24,700 [main] ERROR craftBetWorld - 403  Game ID = 3500   Game Provider Name = Evolution :   Game Name =  Blackjack VIP L :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:24,782 [main] ERROR craftBetWorld - 404  Game ID = 3501   Game Provider Name = Evolution :   Game Name =  Blackjack VIP M :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:24,873 [main] ERROR craftBetWorld - 405  Game ID = 3502   Game Provider Name = Evolution :   Game Name =  Blackjack VIP N :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:24,959 [main] ERROR craftBetWorld - 406  Game ID = 3503   Game Provider Name = Evolution :   Game Name =  Blackjack VIP O :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:25,041 [main] ERROR craftBetWorld - 407  Game ID = 3504   Game Provider Name = Evolution :   Game Name =  Blackjack VIP P :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:25,207 [main] ERROR craftBetWorld - 409  Game ID = 3506   Game Provider Name = Evolution :   Game Name =  Blackjack VIP S :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:25,288 [main] ERROR craftBetWorld - 410  Game ID = 3507   Game Provider Name = Evolution :   Game Name =  Blackjack VIP T :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:25,385 [main] ERROR craftBetWorld - 411  Game ID = 3508   Game Provider Name = Evolution :   Game Name =  Blackjack VIP U :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:25,469 [main] ERROR craftBetWorld - 412  Game ID = 3509   Game Provider Name = Evolution :   Game Name =  Blackjack VIP V :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:05:25,639 [main] ERROR craftBetWorld - 414  Game ID = 3471   Game Provider Name = Evolution :   Game Name =  Blackjack White 1 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:06:15,541 [main] ERROR craftBetWorld - 439  Game ID = 2908 Game Provider Name = Spinomenal :   Game Name = Book Of Demi Gods II Reloaded :     src = https://agstatic.com/games/spinomenal/book_of_demi_gods_ii_reloaded.jpg   java.net.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2023-04-05 17:06:57,614 [main] ERROR craftBetWorld - 440  Game ID = 2857 Game Provider Name = Spinomenal :   Game Name = Book Of Demi Gods III :     src = https://agstatic.com/games/spinomenal/book_of_demi_gods_3.jpg   java.net.ConnectException: Connection timed out: connect
+2023-04-05 17:07:19,127 [main] ERROR craftBetWorld - 489  Game ID = 1597   Game Provider Name = PragmaticPlay :   Game Name =  Book of Tut :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:07:34,982 [main] ERROR craftBetWorld - 542  Game ID = 1412   Game Provider Name = Evolution :   Game Name =  Caribbean Stud Poker :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:07:36,955 [main] ERROR craftBetWorld - 549  Game ID = 1413   Game Provider Name = Evolution :   Game Name =  Casino Holdem :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:07:37,391 [main] ERROR craftBetWorld - 551  Game ID = 3661   Game Provider Name = Ezugi :   Game Name =  Casino Holdem A :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:07:44,381 [main] ERROR craftBetWorld - 574  Game ID = 3468   Game Provider Name = Evolution :   Game Name =  Classic Speed Blackjack 21 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:07:51,894 [main] ERROR craftBetWorld - 616  Game ID = 3527   Game Provider Name = Evolution :   Game Name =  Craps :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:08:13,994 [main] ERROR craftBetWorld - 621  Game ID = 3740   Game Provider Name = Ezugi :   Game Name =  Cricket War :   cod = 404:   src = https://resources.iqsoftllc.com/products/ezugi/web/CircketWar.jpg
+2023-04-05 17:08:15,953 [main] ERROR craftBetWorld - 629  Game ID = 3695   Game Provider Name = Ezugi :   Game Name =  Cumbia Ruleta 1 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:08:21,272 [main] ERROR craftBetWorld - 647  Game ID = 1414   Game Provider Name = Evolution :   Game Name =  Deal or No Deal :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:08:27,701 [main] ERROR craftBetWorld - 669  Game ID = 3678   Game Provider Name = Ezugi :   Game Name =  Diamond Roulette :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:08:31,712 [main] ERROR craftBetWorld - 684  Game ID = 3519   Game Provider Name = Evolution :   Game Name =  Double Ball Roulette :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:08:33,457 [main] ERROR craftBetWorld - 691  Game ID = 3332   Game Provider Name = PragmaticLive :   Game Name =  Dragon Bonus Baccarat :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:08:34,597 [main] ERROR craftBetWorld - 696  Game ID = 1415   Game Provider Name = Evolution :   Game Name =  Dragon Tiger :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:08:39,058 [main] ERROR craftBetWorld - 712  Game ID = 1416   Game Provider Name = Evolution :   Game Name =  Dream Catcher :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:08:51,926 [main] ERROR craftBetWorld - 756  Game ID = 3523   Game Provider Name = Evolution :   Game Name =  Extreme Texas Hold'em :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:08:56,015 [main] ERROR craftBetWorld - 771  Game ID = 3720   Game Provider Name = Ezugi :   Game Name =  Fiesta Baccarat :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:08:56,103 [main] ERROR craftBetWorld - 772  Game ID = 3706   Game Provider Name = Ezugi :   Game Name =  Fiesta Blackjack Unlimited :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:08:57,681 [main] ERROR craftBetWorld - 779  Game ID = 3528   Game Provider Name = Evolution :   Game Name =  First Person Craps :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:09:00,509 [main] ERROR craftBetWorld - 792  Game ID = 1417   Game Provider Name = Evolution :   Game Name =  Football studio :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:09:04,553 [main] ERROR craftBetWorld - 808  Game ID = 1418   Game Provider Name = Evolution :   Game Name =  Free Bet Blackjack :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:09:45,041 [main] ERROR craftBetWorld - 947  Game ID = 3517   Game Provider Name = Evolution :   Game Name =  Immersive Roulette :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:09:45,748 [main] ERROR craftBetWorld - 950  Game ID = 1420   Game Provider Name = Evolution :   Game Name =  Infinite Blackjack :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:09:47,384 [main] ERROR craftBetWorld - 957  Game ID = 3688   Game Provider Name = Ezugi :   Game Name =  Italian Blackjack :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:09:58,465 [main] ERROR craftBetWorld - 996  Game ID = 3663   Game Provider Name = Ezugi :   Game Name =  Keno A :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:10:08,364 [main] ERROR craftBetWorld - 1030  Game ID = 1421   Game Provider Name = Evolution :   Game Name =  Lightning Dice :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:10:09,965 [main] ERROR craftBetWorld - 1036  Game ID = 3336   Game Provider Name = PragmaticLive :   Game Name =  Lobby :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:10:10,054 [main] ERROR craftBetWorld - 1037  Game ID = 1403   Game Provider Name = Evolution :   Game Name =  Lobby :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:10:20,188 [main] ERROR craftBetWorld - 1072  Game ID = 3679   Game Provider Name = Ezugi :   Game Name =  Lucky7 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:10:20,994 [main] ERROR craftBetWorld - 1075  Game ID = 3714   Game Provider Name = Ezugi :   Game Name =  Lumina Auto Roulette :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:10:30,018 [main] ERROR craftBetWorld - 1106  Game ID = 3693   Game Provider Name = Ezugi :   Game Name =  Mambo Unlimited Blackjack :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:10:31,865 [main] ERROR craftBetWorld - 1115  Game ID = 3677   Game Provider Name = Ezugi :   Game Name =  Marina Casino Roulette :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:10:43,114 [main] ERROR craftBetWorld - 1156  Game ID = 3334   Game Provider Name = PragmaticLive :   Game Name =  Multihand Blackjack :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:10:45,234 [main] ERROR craftBetWorld - 1164  Game ID = 3694   Game Provider Name = Ezugi :   Game Name =  Namaste Roulette :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:10:49,875 [main] ERROR craftBetWorld - 1180  Game ID = 3406   Game Provider Name = PragmaticLive :   Game Name =  No Comm Baccarat 1 :   cod = 404:   src = https://resources.iqsoftllc.com/products/pragmaticlive/web/NoCommBaccarat.jpg
+2023-04-05 17:10:49,960 [main] ERROR craftBetWorld - 1181  Game ID = 1439   Game Provider Name = Evolution :   Game Name =  No Comm Speed Baccarat :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:10:50,312 [main] ERROR craftBetWorld - 1184  Game ID = 3553   Game Provider Name = Evolution :   Game Name =  No Comm Speed Baccarat B :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:10:50,394 [main] ERROR craftBetWorld - 1185  Game ID = 1422   Game Provider Name = Evolution :   Game Name =  No Commission Baccarat :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:10:50,488 [main] ERROR craftBetWorld - 1186  Game ID = 3701   Game Provider Name = Ezugi :   Game Name =  No Commission Baccarat :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:10:53,626 [main] ERROR craftBetWorld - 1199  Game ID = 3715   Game Provider Name = Ezugi :   Game Name =  One Day Teen Patti :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:10:53,721 [main] ERROR craftBetWorld - 1200  Game ID = 3716   Game Provider Name = Ezugi :   Game Name =  One Day Teen Patti Classic :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:10:53,936 [main] ERROR craftBetWorld - 1202  Game ID = 3713   Game Provider Name = Ezugi :   Game Name =  Oracle Casino Roulette 360 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:10:54,629 [main] ERROR craftBetWorld - 1205  Game ID = 3703   Game Provider Name = Ezugi :   Game Name =  OTT Andar bahar :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:09,025 [main] ERROR craftBetWorld - 1257  Game ID = 3664   Game Provider Name = Ezugi :   Game Name =  Portomaso Roulette A :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:09,116 [main] ERROR craftBetWorld - 1258  Game ID = 3665   Game Provider Name = Ezugi :   Game Name =  Portomaso Roulette B :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:10,765 [main] ERROR craftBetWorld - 1264  Game ID = 3526   Game Provider Name = Evolution :   Game Name =  Power Blackjack :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:11,583 [main] ERROR craftBetWorld - 1268  Game ID = 3705   Game Provider Name = Ezugi :   Game Name =  Prestige Auto Roulette :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:13,421 [main] ERROR craftBetWorld - 1275  Game ID = 3655   Game Provider Name = Ezugi :   Game Name =  Punto Banco A :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:13,513 [main] ERROR craftBetWorld - 1276  Game ID = 3656   Game Provider Name = Ezugi :   Game Name =  Punto Banco B :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:17,147 [main] ERROR craftBetWorld - 1289  Game ID = 3644   Game Provider Name = Ezugi :   Game Name =  Queenco Baccarat A :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:17,232 [main] ERROR craftBetWorld - 1290  Game ID = 3645   Game Provider Name = Ezugi :   Game Name =  Queenco Baccarat B :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:17,317 [main] ERROR craftBetWorld - 1291  Game ID = 3646   Game Provider Name = Ezugi :   Game Name =  Queenco Baccarat C :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:17,399 [main] ERROR craftBetWorld - 1292  Game ID = 3647   Game Provider Name = Ezugi :   Game Name =  Queenco Baccarat D :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:31,618 [main] ERROR craftBetWorld - 1341  Game ID = 1423   Game Provider Name = Evolution :   Game Name =  Roulette :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:31,705 [main] ERROR craftBetWorld - 1342  Game ID = 3335   Game Provider Name = PragmaticLive :   Game Name =  Roulette :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:31,890 [main] ERROR craftBetWorld - 1344  Game ID = 3408   Game Provider Name = PragmaticLive :   Game Name =  Roulette 10 - Ruby :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:32,975 [main] ERROR craftBetWorld - 1355  Game ID = 3407   Game Provider Name = PragmaticLive :   Game Name =  Roulette 9 - The Club :   cod = 404:   src = https://resources.iqsoftllc.com/products/pragmaticlive/web/Roulette9TheClub.jpg
+2023-04-05 17:11:33,064 [main] ERROR craftBetWorld - 1356  Game ID = 3657   Game Provider Name = Ezugi :   Game Name =  Roulette A :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:33,148 [main] ERROR craftBetWorld - 1357  Game ID = 3659   Game Provider Name = Ezugi :   Game Name =  Roulette C :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:33,229 [main] ERROR craftBetWorld - 1358  Game ID = 3660   Game Provider Name = Ezugi :   Game Name =  Roulette D :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:33,312 [main] ERROR craftBetWorld - 1359  Game ID = 3671   Game Provider Name = Ezugi :   Game Name =  Roulette E :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:33,400 [main] ERROR craftBetWorld - 1360  Game ID = 3672   Game Provider Name = Ezugi :   Game Name =  Roulette F :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:33,483 [main] ERROR craftBetWorld - 1361  Game ID = 3673   Game Provider Name = Ezugi :   Game Name =  Roulette G :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:35,901 [main] ERROR craftBetWorld - 1371  Game ID = 3689   Game Provider Name = Ezugi :   Game Name =  Rumba Blackjack 1 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:35,985 [main] ERROR craftBetWorld - 1372  Game ID = 3707   Game Provider Name = Ezugi :   Game Name =  Rumba Blackjack 3 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:36,991 [main] ERROR craftBetWorld - 1377  Game ID = 1443   Game Provider Name = Evolution :   Game Name =  Salon Privé Baccarat :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:37,339 [main] ERROR craftBetWorld - 1381  Game ID = 3514   Game Provider Name = Evolution :   Game Name =  Salon Privé Blackjack 1 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:37,423 [main] ERROR craftBetWorld - 1382  Game ID = 3515   Game Provider Name = Evolution :   Game Name =  Salon Privé Blackjack 2 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:37,507 [main] ERROR craftBetWorld - 1383  Game ID = 3545   Game Provider Name = Evolution :   Game Name =  Salon Privé Blackjack B :   cod = 404:   src = https://resources.iqsoftllc.com/products/evolution/web/SalonPriveBaccaratB.jpg
+2023-04-05 17:11:37,753 [main] ERROR craftBetWorld - 1385  Game ID = 3522   Game Provider Name = Evolution :   Game Name =  Salon Privé Roulette :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:37,930 [main] ERROR craftBetWorld - 1387  Game ID = 3728   Game Provider Name = Ezugi :   Game Name =  Salsa Baccarat 2 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:38,020 [main] ERROR craftBetWorld - 1388  Game ID = 3717   Game Provider Name = Ezugi :   Game Name =  Salsa Baccarat 3 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:38,104 [main] ERROR craftBetWorld - 1389  Game ID = 3718   Game Provider Name = Ezugi :   Game Name =  Salsa Baccarat 4 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:45,438 [main] ERROR craftBetWorld - 1416  Game ID = 1429   Game Provider Name = Evolution :   Game Name =  Side Bet City :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:45,886 [main] ERROR craftBetWorld - 1418  Game ID = 3712   Game Provider Name = Ezugi :   Game Name =  Slavyanka Roulette :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:50,057 [main] ERROR craftBetWorld - 1434  Game ID = 3676   Game Provider Name = Ezugi :   Game Name =  Speed Auto Roulette :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:51,604 [main] ERROR craftBetWorld - 1450  Game ID = 1430   Game Provider Name = Evolution :   Game Name =  Speed Baccarat A :   cod = 404:   src = https://resources.iqsoftllc.com/products/evolution/web/SpeedBaccarat1.jpg
+2023-04-05 17:11:51,961 [main] ERROR craftBetWorld - 1454  Game ID = 1434   Game Provider Name = Evolution :   Game Name =  Speed Baccarat E :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:52,046 [main] ERROR craftBetWorld - 1455  Game ID = 1435   Game Provider Name = Evolution :   Game Name =  Speed Baccarat F :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:52,131 [main] ERROR craftBetWorld - 1456  Game ID = 1436   Game Provider Name = Evolution :   Game Name =  Speed Baccarat G :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:52,213 [main] ERROR craftBetWorld - 1457  Game ID = 1437   Game Provider Name = Evolution :   Game Name =  Speed Baccarat H :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:52,300 [main] ERROR craftBetWorld - 1458  Game ID = 1438   Game Provider Name = Evolution :   Game Name =  Speed Baccarat I :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:52,385 [main] ERROR craftBetWorld - 1459  Game ID = 3540   Game Provider Name = Evolution :   Game Name =  Speed Baccarat J :   cod = 404:   src = https://resources.iqsoftllc.com/products/evolution/web/SpeedBlackjackJ.jpg
+2023-04-05 17:11:52,690 [main] ERROR craftBetWorld - 1461  Game ID = 3414   Game Provider Name = PragmaticLive :   Game Name =  Speed Blackjack 2 - Ruby :   cod = 404:   src = https://resources.iqsoftllc.com/products/pragmaticlive/web/SpeedBaccarat2Ruby.jpg
+2023-04-05 17:11:52,774 [main] ERROR craftBetWorld - 1462  Game ID = 3415   Game Provider Name = PragmaticLive :   Game Name =  Speed Blackjack 3 - Ruby :   cod = 404:   src = https://resources.iqsoftllc.com/products/pragmaticlive/web/SpeedBaccarat3Ruby.jpg
+2023-04-05 17:11:52,867 [main] ERROR craftBetWorld - 1463  Game ID = 3416   Game Provider Name = PragmaticLive :   Game Name =  Speed Blackjack 4 - Ruby :   cod = 404:   src = https://resources.iqsoftllc.com/products/pragmaticlive/web/SpeedBaccarat4Ruby.jpg
+2023-04-05 17:11:52,958 [main] ERROR craftBetWorld - 1464  Game ID = 3417   Game Provider Name = PragmaticLive :   Game Name =  Speed Blackjack 5 - Ruby :   cod = 404:   src = https://resources.iqsoftllc.com/products/pragmaticlive/web/SpeedBaccarat5Ruby.jpg
+2023-04-05 17:11:53,046 [main] ERROR craftBetWorld - 1465  Game ID = 3533   Game Provider Name = Evolution :   Game Name =  Speed Blackjack A :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:53,507 [main] ERROR craftBetWorld - 1470  Game ID = 3518   Game Provider Name = Evolution :   Game Name =  Speed Roulette :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:11:53,594 [main] ERROR craftBetWorld - 1471  Game ID = 3675   Game Provider Name = Ezugi :   Game Name =  Speed Roulette :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:12:15,271 [main] ERROR craftBetWorld - 1549  Game ID = 1424   Game Provider Name = Evolution :   Game Name =  Super Sic Bo :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:12:19,383 [main] ERROR craftBetWorld - 1563  Game ID = 3696   Game Provider Name = Ezugi :   Game Name =  Teen Patti :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:12:21,100 [main] ERROR craftBetWorld - 1570  Game ID = 1425   Game Provider Name = Evolution :   Game Name =  Texas Holdem Bonus Poker :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:12:39,426 [main] ERROR craftBetWorld - 1630  Game ID = 3524   Game Provider Name = Evolution :   Game Name =  Triple Card Poker :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:12:41,105 [main] ERROR craftBetWorld - 1636  Game ID = 3711   Game Provider Name = Ezugi :   Game Name =  Türkçe Rulet :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:12:41,193 [main] ERROR craftBetWorld - 1637  Game ID = 3691   Game Provider Name = Ezugi :   Game Name =  Turkish Blackjack 1 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:12:41,278 [main] ERROR craftBetWorld - 1638  Game ID = 3692   Game Provider Name = Ezugi :   Game Name =  Turkish Blackjack 2 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:12:42,319 [main] ERROR craftBetWorld - 1643  Game ID = 3681   Game Provider Name = Ezugi :   Game Name =  Unlimited Blackjack :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:12:42,404 [main] ERROR craftBetWorld - 1644  Game ID = 3674   Game Provider Name = Ezugi :   Game Name =  Unlimited Blackjack :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:12:47,828 [main] ERROR craftBetWorld - 1663  Game ID = 3687   Game Provider Name = Ezugi :   Game Name =  VIP Blackjack :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:12:48,008 [main] ERROR craftBetWorld - 1665  Game ID = 3684   Game Provider Name = Ezugi :   Game Name =  VIP Blackjack 2 :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:12:48,502 [main] ERROR craftBetWorld - 1670  Game ID = 3686   Game Provider Name = Ezugi :   Game Name =  VIP Blackjack with Surrender :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:12:48,908 [main] ERROR craftBetWorld - 1673  Game ID = 1428   Game Provider Name = Evolution :   Game Name =  VIP Roulette :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:12:54,578 [main] ERROR craftBetWorld - 1694  Game ID = 3708   Game Provider Name = Ezugi :   Game Name =  White Russia Blackjack :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-04-05 17:13:18,392 [main] INFO craftBetWorld - Broken images are:  280
+2023-04-05 17:13:18,501 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-04-05 17:13:18,511 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2023-04-05 17:39:01,854 [main] INFO craftBetWorld - Get games Api call was sent
+2023-04-05 17:39:01,889 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-04-05 17:39:55,366 [main] INFO craftBetWorld - All captured providers data  was added into ArrayLists
+2023-04-05 17:40:34,105 [main] INFO craftBetWorld - Broken Providers images are:  0
+2023-04-05 17:40:34,120 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-04-05 17:40:34,135 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2023-04-05 17:41:04,202 [main] INFO craftBetWorld - Get games Api call was sent
+2023-04-05 17:41:04,274 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-04-05 17:41:04,367 [main] INFO craftBetWorld - All captured providers data  was added into ArrayLists
+2023-04-05 17:41:06,255 [main] INFO craftBetWorld - Broken Providers images are:  0
+2023-04-05 17:41:06,269 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-04-05 17:41:06,278 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2023-04-05 17:42:23,356 [main] INFO craftBetWorld - Get games Api call was sent
+2023-04-05 17:42:23,426 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-04-05 17:42:23,526 [main] INFO craftBetWorld - All captured providers data  was added into ArrayLists Count: 60
+2023-04-05 17:42:25,179 [main] INFO craftBetWorld - Broken Providers images are:  0
+2023-04-05 17:42:25,193 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-04-05 17:42:25,209 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
