@@ -14044,3 +14044,104 @@ Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 2023-04-05 17:42:25,179 [main] INFO craftBetWorld - Broken Providers images are:  0
 2023-04-05 17:42:25,193 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2023-04-05 17:42:25,209 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2023-04-06 09:26:14,846 [main] INFO craftBetWorld - Get games Api call was sent
+2023-04-06 09:26:14,936 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-04-06 09:26:15,041 [main] INFO craftBetWorld - All captured providers data  was added into ArrayLists Count: 60
+2023-04-06 09:26:18,553 [main] INFO craftBetWorld - Broken Providers images are:  0
+2023-04-06 09:26:18,569 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-04-06 09:26:18,599 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2023-04-06 09:28:12,912 [main] INFO craftBetWorld - Get games Api call was sent
+2023-04-06 09:28:12,980 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-04-06 09:28:13,070 [main] INFO craftBetWorld - All captured providers data  was added into ArrayLists Count: 60
+2023-04-06 09:28:13,388 [main] ERROR craftBetWorld - 10  Provider ID = 1150   Provider Name = BetSolutions :   cod = 200:   src = https://craftbet.com/assets/images/providers/1150.png
+2023-04-06 09:28:14,128 [main] ERROR craftBetWorld - 38  Provider ID = 1113   Provider Name = NucleusGaming :   cod = 200:   src = https://craftbet.com/assets/images/providers/1113.png
+2023-04-06 09:28:14,624 [main] INFO craftBetWorld - Broken Providers images are:  2
+2023-04-06 09:28:15,678 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-04-06 09:28:15,689 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2023-04-06 10:07:55,373 [main] INFO craftBetWorld - Get games Api call was sent
+2023-04-06 10:07:55,437 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-04-06 10:07:55,518 [main] INFO craftBetWorld - All captured providers data  was added into ArrayLists Count: 10
+2023-04-06 10:07:55,761 [main] ERROR craftBetWorld - 6  Provider ID = 87   Provider Name = PlaynGo :   cod = 200:   src = https://vikwin.com/assets/images/providers/87.png
+2023-04-06 10:07:55,878 [main] INFO craftBetWorld - Broken Providers images are:  1
+2023-04-06 10:07:57,007 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-04-06 10:07:57,027 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2023-04-06 10:20:44,151 [main] INFO craftBetWorld - Get games Api call was sent
+2023-04-06 10:20:44,233 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-04-06 10:20:44,360 [main] INFO craftBetWorld - All captured providers data  was added into ArrayLists Count: 42
+2023-04-06 10:20:46,888 [main] INFO craftBetWorld - Broken Providers images are:  0
+2023-04-06 10:20:46,903 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-04-06 10:20:46,920 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2023-04-06 10:21:07,881 [main] INFO craftBetWorld - Get games Api call was sent
+2023-04-06 10:21:07,951 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-04-06 10:21:08,039 [main] INFO craftBetWorld - All captured providers data  was added into ArrayLists Count: 51
+2023-04-06 10:21:09,273 [main] ERROR craftBetWorld - 1  Provider ID = 1153   Provider Name = 1Spin4Win :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1153.png
+2023-04-06 10:21:09,972 [main] ERROR craftBetWorld - 2  Provider ID = 1060   Provider Name = 1X2Gaming :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1060.png
+2023-04-06 10:21:10,654 [main] ERROR craftBetWorld - 3  Provider ID = 1154   Provider Name = 5Men :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1154.png
+2023-04-06 10:21:11,398 [main] ERROR craftBetWorld - 4  Provider ID = 1176   Provider Name = 7Mojos :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1176.png
+2023-04-06 10:21:12,145 [main] ERROR craftBetWorld - 5  Provider ID = 1178   Provider Name = Alg :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1178.png
+2023-04-06 10:21:12,858 [main] ERROR craftBetWorld - 6  Provider ID = 1179   Provider Name = Altente :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1179.png
+2023-04-06 10:21:13,563 [main] ERROR craftBetWorld - 7  Provider ID = 1156   Provider Name = AvatarUX :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1156.png
+2023-04-06 10:21:14,166 [main] ERROR craftBetWorld - 8  Provider ID = 1157   Provider Name = Belatra :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1157.png
+2023-04-06 10:21:14,906 [main] ERROR craftBetWorld - 9  Provider ID = 1119   Provider Name = BGaming :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1119.png
+2023-04-06 10:21:15,510 [main] ERROR craftBetWorld - 10  Provider ID = 1158   Provider Name = Bluebird :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1158.png
+2023-04-06 10:21:15,965 [main] ERROR craftBetWorld - 11  Provider ID = 1021   Provider Name = Blueprint :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1021.png
+2023-04-06 10:21:16,679 [main] ERROR craftBetWorld - 12  Provider ID = 63   Provider Name = Evoplay :   cod = 404:   src = https://winsroyal.com/assets/images/providers/63.png
+2023-04-06 10:21:17,395 [main] ERROR craftBetWorld - 13  Provider ID = 5   Provider Name = Ezugi :   cod = 404:   src = https://winsroyal.com/assets/images/providers/5.png
+2023-04-06 10:21:17,920 [main] ERROR craftBetWorld - 14  Provider ID = 1091   Provider Name = FelixGaming :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1091.png
+2023-04-06 10:21:18,464 [main] ERROR craftBetWorld - 15  Provider ID = 1045   Provider Name = Fugaso :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1045.png
+2023-04-06 10:21:18,977 [main] ERROR craftBetWorld - 16  Provider ID = 1043   Provider Name = GameArt :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1043.png
+2023-04-06 10:21:19,422 [main] ERROR craftBetWorld - 17  Provider ID = 1159   Provider Name = Gamebeat :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1159.png
+2023-04-06 10:21:19,931 [main] ERROR craftBetWorld - 18  Provider ID = 1124   Provider Name = Gamzix :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1124.png
+2023-04-06 10:21:20,497 [main] ERROR craftBetWorld - 19  Provider ID = 62   Provider Name = Habanero :   cod = 404:   src = https://winsroyal.com/assets/images/providers/62.png
+2023-04-06 10:21:21,076 [main] ERROR craftBetWorld - 20  Provider ID = 1160   Provider Name = Holle :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1160.png
+2023-04-06 10:21:21,502 [main] ERROR craftBetWorld - 21  Provider ID = 18   Provider Name = Igrosoft :   cod = 404:   src = https://winsroyal.com/assets/images/providers/18.png
+2023-04-06 10:21:22,207 [main] ERROR craftBetWorld - 22  Provider ID = 1161   Provider Name = KAGaming :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1161.png
+2023-04-06 10:21:22,749 [main] ERROR craftBetWorld - 23  Provider ID = 1088   Provider Name = KalambaNew :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1088.png
+2023-04-06 10:21:23,183 [main] ERROR craftBetWorld - 24  Provider ID = 24   Provider Name = LuckyGames :   cod = 404:   src = https://winsroyal.com/assets/images/providers/24.png
+2023-04-06 10:21:23,754 [main] ERROR craftBetWorld - 25  Provider ID = 1118   Provider Name = LuckyStreak :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1118.png
+2023-04-06 10:21:24,273 [main] ERROR craftBetWorld - 26  Provider ID = 86   Provider Name = Mancala :   cod = 404:   src = https://winsroyal.com/assets/images/providers/86.png
+2023-04-06 10:21:24,715 [main] ERROR craftBetWorld - 27  Provider ID = 53   Provider Name = Mascot :   cod = 404:   src = https://winsroyal.com/assets/images/providers/53.png
+2023-04-06 10:21:25,284 [main] ERROR craftBetWorld - 28  Provider ID = 1028   Provider Name = Merkur :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1028.png
+2023-04-06 10:21:25,944 [main] ERROR craftBetWorld - 29  Provider ID = 1163   Provider Name = MPlay :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1163.png
+2023-04-06 10:21:26,468 [main] ERROR craftBetWorld - 30  Provider ID = 1003   Provider Name = NetEnt :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1003.png
+2023-04-06 10:21:26,897 [main] ERROR craftBetWorld - 31  Provider ID = 1164   Provider Name = Netgame :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1164.png
+2023-04-06 10:21:27,492 [main] ERROR craftBetWorld - 32  Provider ID = 1113   Provider Name = NucleusGaming :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1113.png
+2023-04-06 10:21:28,012 [main] ERROR craftBetWorld - 33  Provider ID = 1169   Provider Name = OnlyPlay :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1169.png
+2023-04-06 10:21:28,473 [main] ERROR craftBetWorld - 34  Provider ID = 1038   Provider Name = Platipus :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1038.png
+2023-04-06 10:21:28,995 [main] ERROR craftBetWorld - 35  Provider ID = 87   Provider Name = PlaynGo :   cod = 404:   src = https://winsroyal.com/assets/images/providers/87.png
+2023-04-06 10:21:29,441 [main] ERROR craftBetWorld - 36  Provider ID = 54   Provider Name = PragmaticPlay :   cod = 404:   src = https://winsroyal.com/assets/images/providers/54.png
+2023-04-06 10:21:30,123 [main] ERROR craftBetWorld - 37  Provider ID = 1024   Provider Name = QuickSpin :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1024.png
+2023-04-06 10:21:30,562 [main] ERROR craftBetWorld - 38  Provider ID = 1035   Provider Name = RedTiger :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1035.png
+2023-04-06 10:21:31,003 [main] ERROR craftBetWorld - 39  Provider ID = 1166   Provider Name = Reevo :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1166.png
+2023-04-06 10:21:31,440 [main] ERROR craftBetWorld - 40  Provider ID = 1177   Provider Name = Religa :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1177.png
+2023-04-06 10:21:32,014 [main] ERROR craftBetWorld - 41  Provider ID = 1180   Provider Name = Rfranco :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1180.png
+2023-04-06 10:21:32,526 [main] ERROR craftBetWorld - 42  Provider ID = 1183   Provider Name = Rtg :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1183.png
+2023-04-06 10:21:33,040 [main] ERROR craftBetWorld - 43  Provider ID = 1167   Provider Name = Slotmill :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1167.png
+2023-04-06 10:21:33,478 [main] ERROR craftBetWorld - 44  Provider ID = 1089   Provider Name = Spadegaming :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1089.png
+2023-04-06 10:21:33,921 [main] ERROR craftBetWorld - 45  Provider ID = 1168   Provider Name = Spinza :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1168.png
+2023-04-06 10:21:34,630 [main] ERROR craftBetWorld - 46  Provider ID = 1040   Provider Name = Thunderkick :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1040.png
+2023-04-06 10:21:35,081 [main] ERROR craftBetWorld - 47  Provider ID = 6   Provider Name = TomHorn :   cod = 404:   src = https://winsroyal.com/assets/images/providers/6.png
+2023-04-06 10:21:35,553 [main] ERROR craftBetWorld - 48  Provider ID = 1175   Provider Name = TrueLab :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1175.png
+2023-04-06 10:21:35,973 [main] ERROR craftBetWorld - 49  Provider ID = 79   Provider Name = TurboGames :   cod = 404:   src = https://winsroyal.com/assets/images/providers/79.png
+2023-04-06 10:21:36,382 [main] ERROR craftBetWorld - 50  Provider ID = 1025   Provider Name = Wazdan :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1025.png
+2023-04-06 10:21:36,809 [main] ERROR craftBetWorld - 51  Provider ID = 1034   Provider Name = Yggdrasil :   cod = 404:   src = https://winsroyal.com/assets/images/providers/1034.png
+2023-04-06 10:21:36,810 [main] INFO craftBetWorld - Broken Providers images are:  51
+2023-04-06 10:21:37,894 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-04-06 10:21:37,903 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2023-04-06 10:22:30,108 [main] INFO craftBetWorld - Get games Api call was sent
+2023-04-06 10:22:30,113 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-04-06 10:22:30,137 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-04-06 10:22:30,151 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2023-04-06 10:23:40,590 [main] INFO craftBetWorld - Get games Api call was sent
+2023-04-06 10:23:40,622 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-04-06 10:23:40,687 [main] INFO craftBetWorld - All captured providers data  was added into ArrayLists Count: 17
+2023-04-06 10:23:41,320 [main] INFO craftBetWorld - Broken Providers images are:  0
+2023-04-06 10:23:41,333 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-04-06 10:23:41,346 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2023-04-06 10:24:01,589 [main] INFO craftBetWorld - Get games Api call was sent
+2023-04-06 10:24:01,676 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-04-06 10:24:01,807 [main] INFO craftBetWorld - All captured providers data  was added into ArrayLists Count: 40
+2023-04-06 10:24:03,081 [main] ERROR craftBetWorld - 23  Provider ID = 87   Provider Name = PlaynGo :   cod = 200:   src = https://zorrobet365.com/assets/images/providers/87.png
+2023-04-06 10:24:04,678 [main] INFO craftBetWorld - Broken Providers images are:  1
+2023-04-06 10:24:05,711 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-04-06 10:24:05,723 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  

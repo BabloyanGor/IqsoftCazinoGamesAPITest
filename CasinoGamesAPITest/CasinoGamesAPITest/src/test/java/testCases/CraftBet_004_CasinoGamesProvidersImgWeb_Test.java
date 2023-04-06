@@ -74,26 +74,35 @@ public class CraftBet_004_CasinoGamesProvidersImgWeb_Test extends BaseTest {
                     HttpURLConnection connection = (HttpURLConnection) img.openConnection();
                     connection.connect();
                     cod = connection.getResponseCode();
-
-                    if (cod >= 400) {
+                    String contentType = connection.getContentType();
+//                    System.out.println("contentType  "  + contentType);
+                    if (cod >= 400 || !contentType.equals("image/png")) {
                         logger.error(count + "  Provider ID = " + providerIDes.get(k) + "   Provider Name = " + providerNames.get(k) + " :   "  + "cod = " + cod + ":   src = " + src);
                         errorSrcXl.add(count + "  Provider ID = " + providerIDes.get(k) + "   Provider Name = " + providerNames.get(k) + " :   "  + "cod = " + cod + ":   src = " + src);
                     }
-                } catch (Exception e) {
+                }
+
+
+
+                catch (Exception e) {
                     try {
                         URL img = new URL(src);
                         HttpURLConnection connection = (HttpURLConnection) img.openConnection();
                         connection.connect();
                         cod = connection.getResponseCode();
-
-                        if (cod >= 400) {
+                        String contentType = connection.getContentType();
+                        if (cod >= 400 || !contentType.equals("image/png")) {
                             logger.error(count + "  Provider ID = " + providerIDes.get(k) + "   Provider Name = " + providerNames.get(k) + " :   "  + "cod = " + cod + ":   src = " + src);
                             errorSrcXl.add(count + "  Provider ID = " + providerIDes.get(k) + "   Provider Name = " + providerNames.get(k) + " :   "  + "cod = " + cod + ":   src = " + src);
                         }
-                    } catch (Exception ex) {
+                    }
+
+
+
+
+                    catch (Exception ex) {
                         logger.error(count + "  Provider ID = " + providerIDes.get(k) + "   Provider Name = " + providerNames.get(k) + " :   "  + ":   src = " + src);
                         errorSrcXl.add(count + "  Provider ID = " + providerIDes.get(k) + "   Provider Name = " + providerNames.get(k) + " :   "  +  ":   src = " + src);
-
                     }
                 }
 
