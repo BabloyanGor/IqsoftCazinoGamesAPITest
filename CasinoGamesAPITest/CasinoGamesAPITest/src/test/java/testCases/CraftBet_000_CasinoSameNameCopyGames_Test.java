@@ -17,7 +17,7 @@ public class CraftBet_000_CasinoSameNameCopyGames_Test extends BaseTest {
 
 
     public boolean getALLGamesAPICheckCopyGames(String getGamesAPIUrl, String origin, String partnerName)
-            throws UnirestException, JSONException, IOException {
+            throws  JSONException, IOException {
 
         boolean isPassed;
         int k = 1;
@@ -85,16 +85,32 @@ public class CraftBet_000_CasinoSameNameCopyGames_Test extends BaseTest {
     }
 
     @Test
-    public void getDuplicateGames() throws UnirestException, JSONException, IOException {
+    public void getDuplicateGames() throws  JSONException  {
 
-        if (getALLGamesAPICheckCopyGames(getGamesAPIUrl, getGamesOrigin, getGamesPartnerName)) {
-            Assert.assertTrue(true);
-        } else {
-            Assert.assertTrue(false);
+        try{
+            Assert.assertTrue(getALLGamesAPICheckCopyGames(getGamesAPIUrl, getGamesOrigin, getGamesPartnerName));
         }
+        catch (Exception e) {
+            System.out.println("getDuplicateGamesTest has an exception" + e);
+            Assert.fail();
+        }
+
     }
 
+
+
+
+
+
+
+
+
+
+
+
     ArrayList<String> casinoGameNames = new ArrayList<>();
+
+
     public void getALLGamesNames(String getGamesAPIUrl, String origin, String partnerName)
             throws UnirestException, JSONException, IOException {
         ArrayList<String> errorSrcXl = new ArrayList<>();

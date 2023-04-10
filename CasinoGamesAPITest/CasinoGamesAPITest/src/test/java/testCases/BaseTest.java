@@ -123,7 +123,6 @@ public class BaseTest {
                 getGamesBaseURL = "https://craftbet.com";
                 loginClient = "https://websitewebapi.craftbet.com/1/api/Main/LoginClient";
 
-
                 getAllLifeGames = "https://sportsbookwebsitewebapi.craftbet.com/website/getlivematchesoverview?LanguageId=en&TimeZone=4&origin=https://sportsbookwebsite.craftbet.com";
                 getPreMatchTree = "https://sportsbookwebsitewebapi.craftbet.com/website/getprematchtree?LanguageId=en&TimeZone=4";
                 getPrematchTreeOrigin = "https://sportsbookwebsite.craftbet.com";
@@ -409,7 +408,7 @@ public class BaseTest {
 //
 //        craftBet_01_header_page.setItem("lang", language);
 //        craftBet_01_header_page.navigateRefresh();
-//        logger.info(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started ");
+        logger.info("Test Url: " + getGamesBaseURL  + " partnerID: " + partnerID);
     }
 
 

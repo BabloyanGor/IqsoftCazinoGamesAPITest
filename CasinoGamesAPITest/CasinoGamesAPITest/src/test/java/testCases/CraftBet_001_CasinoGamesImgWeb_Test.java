@@ -4,7 +4,6 @@ import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.Unirest;
 import org.json.JSONArray;
 import org.json.JSONException;
-import com.mashape.unirest.http.exceptions.UnirestException;
 import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -16,9 +15,8 @@ import java.util.ArrayList;
 
 public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
 
-
     public boolean getGamesAPICheckPictures(String getGamesAPIUrl, String origin, String recurse, String partnerName)
-            throws  JSONException, IOException {
+            throws JSONException, IOException {
 
         boolean isPassed;
         int k = 0;
@@ -28,7 +26,7 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
         ArrayList<String> gameProviderNames = new ArrayList<>();
         ArrayList<String> errorSrcXl = new ArrayList<>();
 
-        try{
+        try {
             Unirest.setTimeouts(0, 0);
             HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
                     .header("content-type", "application/json")
@@ -66,11 +64,9 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
                     srces.add(i);
                 }
             }
-        }
-        catch (Exception e){
+        } catch (Exception e) {
             logger.info("Get games Api Request has an Exception");
-        }
-        finally {
+        } finally {
             Unirest.shutdown();
         }
 
@@ -78,7 +74,7 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
         int count = 1;
         for (String src : srces) {
             if (src == null || src.isEmpty()) {
-                logger.info( count + "  " + k + "  Game ID = " + gameIDes.get(k) + "   Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + " :   " + ":   src = " + src + " :" + " this games image src has empty/null value");
+                logger.info(count + "  " + k + "  Game ID = " + gameIDes.get(k) + "   Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + " :   " + ":   src = " + src + " :" + " this games image src has empty/null value");
                 errorSrcXl.add(count + "  " + k + "  Game ID = " + gameIDes.get(k) + "  Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + "  " + ":   src = " + src + " " + " ----->  this games image src has empty/null value");
                 count++;
             } else {
@@ -96,15 +92,15 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
                     }
                 } catch (Exception e) {
 
-                        logger.error(count + "  " + k + "  Game ID = " + gameIDes.get(k) + " Game Provider Name = " + gameProviderNames.get(k) + " :   " + "Game Name = " + gameNames.get(k) + " :  " + "   src = " + src + "   " + e);
-                        errorSrcXl.add(count + "  " + k + "  Game ID = " + gameIDes.get(k) + "  Game Provider Name = " + gameProviderNames.get(k) + "   " + "Game Name =  " + gameNames.get(k) + "  " + "src = " + src);
-                        count++;
-                }
-                finally {
+                    logger.error(count + "  " + k + "  Game ID = " + gameIDes.get(k) + " Game Provider Name = " + gameProviderNames.get(k) + " :   " + "Game Name = " + gameNames.get(k) + " :  " + "   src = " + src + "   " + e);
+                    errorSrcXl.add(count + "  " + k + "  Game ID = " + gameIDes.get(k) + "  Game Provider Name = " + gameProviderNames.get(k) + "   " + "Game Name =  " + gameNames.get(k) + "  " + "src = " + src);
+                    count++;
+                } finally {
                     Unirest.shutdown();
                 }
+                k++;
             }
-            k++;
+
 
         }
         logger.info("Broken images are:  " + errorSrcXl.size());
@@ -119,18 +115,19 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
 
 
     @Test
-    public void gamesImgTest() throws UnirestException, JSONException, IOException {
+    public void gamesImgTest() throws JSONException {
+        try {
+            Assert.assertTrue(getGamesAPICheckPictures(getGamesAPIUrl, getGamesOrigin, getGamesRecurse, getGamesPartnerName));
 
-        if (getGamesAPICheckPictures(getGamesAPIUrl, getGamesOrigin, getGamesRecurse, getGamesPartnerName)) {
-            Assert.assertTrue(true);
-        } else {
-            Assert.assertTrue(false);
+        } catch (Exception e) {
+            System.out.println("getUrlAPITest has an exception" + e);
+            Assert.fail();
         }
+
     }
 
 
 }
-
 
 
 

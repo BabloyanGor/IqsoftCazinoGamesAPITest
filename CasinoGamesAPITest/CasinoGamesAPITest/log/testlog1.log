@@ -18753,3 +18753,794 @@ Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 2023-04-09 21:43:04,099 [main] INFO craftBetWorld - Broken url-es are:  303
 2023-04-09 21:43:05,376 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2023-04-09 21:43:05,498 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2023-04-10 10:53:20,621 [main] INFO craftBetWorld - Get games Api call was sent
+2023-04-10 10:53:20,820 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-04-10 10:53:21,045 [main] INFO craftBetWorld - Dupliicate game Name =  Caligula
+2023-04-10 10:53:21,175 [main] INFO craftBetWorld - Duplicate games are:  1
+2023-04-10 10:53:22,603 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-04-10 10:53:25,477 [main] INFO craftBetWorld - Get games Api call was sent
+2023-04-10 10:53:25,615 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-04-10 10:53:25,694 [main] INFO craftBetWorld - All captured games images links was added into ArrayList: 5120
+2023-04-10 11:17:53,838 [main] INFO craftBetWorld - Broken images are:  0
+2023-04-10 11:17:53,852 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-04-10 11:17:54,513 [main] INFO craftBetWorld - Log In request was sent to https://slots.inc
+2023-04-10 11:17:54,516 [main] INFO craftBetWorld - Token was captured: 4c6b3cea61694b1a829d8793680019e3
+2023-04-10 11:17:54,517 [main] INFO craftBetWorld - User Id was captured: 1792346
+2023-04-10 11:17:57,577 [main] INFO craftBetWorld - Get All games API call 
+2023-04-10 11:17:57,683 [main] INFO craftBetWorld - From getGamesAPIUrl call body captured 
+2023-04-10 11:17:57,748 [main] INFO craftBetWorld - From getGamesAPIUrl call productIDes and Names was captured Games count: 5120
+2023-04-10 11:18:19,297 [main] INFO craftBetWorld - 1 46 ID=28623 Provider=Edict Name=1717 Caribbean Pirates cod=0 description=null ResponseObject=24
+2023-04-10 11:18:21,729 [main] INFO craftBetWorld - 2 53 ID=26976 Provider=Edict Name=221BBakerStreet cod=0 description=null ResponseObject=24
+2023-04-10 11:19:27,704 [main] INFO craftBetWorld - 3 225 ID=76572 Provider=Edict Name=Alduin & Celdor cod=0 description=null ResponseObject=24
+2023-04-10 11:19:47,499 [main] INFO craftBetWorld - 4 272 ID=26970 Provider=Edict Name=Amazonia cod=0 description=null ResponseObject=24
+2023-04-10 11:19:52,385 [main] INFO craftBetWorld - 5 286 ID=29394 Provider=Edict Name=Amu Tep cod=0 description=null ResponseObject=24
+2023-04-10 11:19:52,652 [main] INFO craftBetWorld - 6 287 ID=29492 Provider=Edict Name=Amulet of the Pharaoh cod=0 description=null ResponseObject=24
+2023-04-10 11:19:54,563 [main] INFO craftBetWorld - 7 292 ID=75383 Provider=Edict Name=Ancient World Deluxe cod=0 description=null ResponseObject=24
+2023-04-10 11:19:58,877 [main] INFO craftBetWorld - 8 304 ID=28637 Provider=Edict Name=Ankaa's Dawn cod=0 description=null ResponseObject=24
+2023-04-10 11:20:07,646 [main] INFO craftBetWorld - 9 328 ID=25726 Provider=QuickSpin Name=Arcane Gems cod=0 description=null ResponseObject=24
+2023-04-10 11:20:12,534 [main] INFO craftBetWorld - 10 343 ID=27263 Provider=QuickSpin Name=Ark of Mystery cod=0 description=null ResponseObject=24
+2023-04-10 11:20:13,484 [main] INFO craftBetWorld - 11 346 ID=25718 Provider=QuickSpin Name=ArtemisvsMedusa cod=0 description=null ResponseObject=24
+2023-04-10 11:20:37,935 [main] INFO craftBetWorld - 12 414 ID=76285 Provider=QuickSpin Name=Azticons Chaos Clusters cod=0 description=null ResponseObject=24
+2023-04-10 11:21:01,695 [main] INFO craftBetWorld - 13 484 ID=76616 Provider=QuickSpin Name=Beastwood cod=0 description=null ResponseObject=24
+2023-04-10 11:21:06,051 [main] INFO craftBetWorld - 14 494 ID=77226 Provider=Edict Name=Beauty Of Atlantis cod=0 description=null ResponseObject=24
+2023-04-10 11:21:15,844 [main] INFO craftBetWorld - 15 521 ID=78409 Provider=QuickSpin Name=Betty Bonkers cod=0 description=null ResponseObject=24
+2023-04-10 11:21:19,978 [main] INFO craftBetWorld - 16 532 ID=28848 Provider=QuickSpin Name=Big Bad Wolf Christmas Special cod=0 description=null ResponseObject=24
+2023-04-10 11:21:20,250 [main] INFO craftBetWorld - 17 533 ID=75100 Provider=QuickSpin Name=Big Bad Wolf Megaways cod=0 description=null ResponseObject=24
+2023-04-10 11:21:20,516 [main] INFO craftBetWorld - 18 534 ID=75995 Provider=PushGaming Name=Big Bamboo cod=0 description=null ResponseObject=24
+2023-04-10 11:21:21,670 [main] INFO craftBetWorld - 19 538 ID=27466 Provider=QuickSpin Name=Big Bot Crew cod=0 description=null ResponseObject=24
+2023-04-10 11:21:25,489 [main] INFO craftBetWorld - 20 550 ID=25282 Provider=QuickSpin Name=BigBadWolf cod=0 description=null ResponseObject=24
+2023-04-10 11:21:31,044 [main] INFO craftBetWorld - 21 568 ID=75896 Provider=PushGaming Name=Bison Battle cod=0 description=null ResponseObject=24
+2023-04-10 11:21:33,442 [main] INFO craftBetWorld - 22 574 ID=29482 Provider=Edict Name=Black Hole cod=0 description=null ResponseObject=24
+2023-04-10 11:21:43,061 [main] INFO craftBetWorld - 23 600 ID=29810 Provider=Edict Name=Blackmoore Wolf cod=0 description=null ResponseObject=24
+2023-04-10 11:21:43,553 [main] INFO craftBetWorld - 24 602 ID=77227 Provider=PushGaming Name=Blaze of Ra cod=0 description=null ResponseObject=24
+2023-04-10 11:21:44,477 [main] INFO craftBetWorld - 25 605 ID=26975 Provider=Edict Name=BlazingStar cod=0 description=null ResponseObject=24
+2023-04-10 11:21:48,951 [main] INFO craftBetWorld - 26 618 ID=29596 Provider=QuickSpin Name=Blue Fortune cod=0 description=null ResponseObject=24
+2023-04-10 11:22:10,110 [main] INFO craftBetWorld - 27 675 ID=75292 Provider=QuickSpin Name=Book of Duat cod=0 description=null ResponseObject=24
+2023-04-10 11:22:15,474 [main] INFO craftBetWorld - 28 688 ID=78476 Provider=QuickSpin Name=Book of Inferno cod=0 description=null ResponseObject=24
+2023-04-10 11:22:31,421 [main] INFO craftBetWorld - 29 727 ID=26382 Provider=Fugaso Name=Book Of Tattoo cod=0 description=null ResponseObject=24
+2023-04-10 11:22:47,139 [main] INFO craftBetWorld - 30 766 ID=26378 Provider=Edict Name=BoomBastic cod=0 description=null ResponseObject=24
+2023-04-10 11:22:50,663 [main] INFO craftBetWorld - 31 774 ID=29974 Provider=PushGaming Name=Booty Bay cod=0 description=null ResponseObject=24
+2023-04-10 11:22:54,655 [main] INFO craftBetWorld - 32 786 ID=26349 Provider=Fugaso Name=Brave Mongoose cod=0 description=null ResponseObject=24
+2023-04-10 11:22:59,778 [main] INFO craftBetWorld - 33 801 ID=26963 Provider=Edict Name=BrilliantSparkle cod=0 description=null ResponseObject=24
+2023-04-10 11:23:18,591 [main] INFO craftBetWorld - 34 857 ID=29925 Provider=QuickSpin Name=Cabin Crashers cod=0 description=null ResponseObject=24
+2023-04-10 11:23:28,347 [main] INFO craftBetWorld - 35 888 ID=26974 Provider=Edict Name=Candy&Fruits cod=0 description=null ResponseObject=24
+2023-04-10 11:23:29,091 [main] INFO craftBetWorld - 36 891 ID=26962 Provider=Edict Name=CannonThunder cod=0 description=null ResponseObject=24
+2023-04-10 11:23:31,474 [main] INFO craftBetWorld - 37 899 ID=26961 Provider=Edict Name=CaptainStack cod=0 description=null ResponseObject=24
+2023-04-10 11:23:41,899 [main] INFO craftBetWorld - 38 930 ID=75904 Provider=QuickSpin Name=Cash Truck cod=0 description=null ResponseObject=24
+2023-04-10 11:23:42,180 [main] INFO craftBetWorld - 39 931 ID=77177 Provider=QuickSpin Name=Cash Truck Xmas Delivery cod=0 description=null ResponseObject=24
+2023-04-10 11:23:45,162 [main] INFO craftBetWorld - 40 940 ID=26959 Provider=Edict Name=CashFruitsPlus cod=0 description=null ResponseObject=24
+2023-04-10 11:23:53,876 [main] INFO craftBetWorld - 41 970 ID=75788 Provider=Edict Name=Celebrationale cod=0 description=null ResponseObject=24
+2023-04-10 11:23:54,872 [main] INFO craftBetWorld - 42 973 ID=26958 Provider=Edict Name=Centurio cod=0 description=null ResponseObject=24
+2023-04-10 11:24:16,944 [main] INFO craftBetWorld - 43 1036 ID=76465 Provider=Edict Name=Clash of Gems cod=0 description=null ResponseObject=24
+2023-04-10 11:24:21,630 [main] INFO craftBetWorld - 44 1049 ID=26362 Provider=Fugaso Name=Cleopatra's Diary cod=0 description=null ResponseObject=24
+2023-04-10 11:24:25,228 [main] INFO craftBetWorld - 45 1062 ID=26957 Provider=Edict Name=CoffeeHouseMystery cod=0 description=null ResponseObject=24
+2023-04-10 11:24:30,586 [main] INFO craftBetWorld - 46 1077 ID=27185 Provider=Microgaming Name=ColossusFracpot cod=0 description=null ResponseObject=24
+2023-04-10 11:24:49,551 [main] INFO craftBetWorld - 47 1131 ID=29349 Provider=QuickSpin Name=Crown of Valor cod=0 description=null ResponseObject=24
+2023-04-10 11:24:52,387 [main] INFO craftBetWorld - 48 1139 ID=28849 Provider=QuickSpin Name=Crystal Prince cod=0 description=null ResponseObject=24
+2023-04-10 11:24:52,799 [main] INFO craftBetWorld - 49 1140 ID=27534 Provider=QuickSpin Name=Crystal Queen cod=0 description=null ResponseObject=24
+2023-04-10 11:25:01,357 [main] INFO craftBetWorld - 50 1164 ID=28626 Provider=Edict Name=Cyborg Towers cod=0 description=null ResponseObject=24
+2023-04-10 11:25:10,701 [main] INFO craftBetWorld - 51 1194 ID=76602 Provider=PushGaming Name=Deadly 5 cod=0 description=null ResponseObject=24
+2023-04-10 11:25:14,316 [main] INFO craftBetWorld - 52 1205 ID=29806 Provider=Edict Name=Defenders of the Monastery cod=0 description=null ResponseObject=24
+2023-04-10 11:25:21,001 [main] INFO craftBetWorld - 53 1224 ID=29471 Provider=Edict Name=Diamond and Gold cod=0 description=null ResponseObject=24
+2023-04-10 11:25:30,807 [main] INFO craftBetWorld - 54 1251 ID=25289 Provider=QuickSpin Name=DiamondDuke cod=0 description=null ResponseObject=24
+2023-04-10 11:25:36,685 [main] INFO craftBetWorld - 55 1267 ID=29975 Provider=PushGaming Name=Dinopolis cod=0 description=null ResponseObject=24
+2023-04-10 11:25:36,980 [main] INFO craftBetWorld - 56 1268 ID=29350 Provider=QuickSpin Name=Dinosaur Rage cod=0 description=null ResponseObject=24
+2023-04-10 11:25:37,262 [main] INFO craftBetWorld - 57 1269 ID=26954 Provider=Edict Name=DinosaurKingdom cod=0 description=null ResponseObject=24
+2023-04-10 11:25:39,997 [main] INFO craftBetWorld - 58 1278 ID=25848 Provider=Fugaso Name=Divine Carnival cod=0 description=null ResponseObject=24
+2023-04-10 11:25:40,957 [main] INFO craftBetWorld - 59 1281 ID=27092 Provider=QuickSpin Name=Divine Dreams cod=0 description=null ResponseObject=24
+2023-04-10 11:25:52,704 [main] INFO craftBetWorld - 60 1318 ID=26973 Provider=Edict Name=DoubleTripleChance cod=0 description=null ResponseObject=24
+2023-04-10 11:26:07,620 [main] INFO craftBetWorld - 61 1358 ID=26971 Provider=Edict Name=Dragon’sTreasure cod=0 description=null ResponseObject=24
+2023-04-10 11:26:08,937 [main] INFO craftBetWorld - 62 1362 ID=76175 Provider=Edict Name=Dragons Axe cod=0 description=null ResponseObject=24
+2023-04-10 11:26:14,447 [main] INFO craftBetWorld - 63 1375 ID=29252 Provider=Edict Name=Dragon's Treasure II HTML5 cod=0 description=null ResponseObject=24
+2023-04-10 11:26:15,890 [main] INFO craftBetWorld - 64 1379 ID=27530 Provider=QuickSpin Name=DragonShrine cod=0 description=null ResponseObject=24
+2023-04-10 11:26:16,808 [main] INFO craftBetWorld - 65 1382 ID=25993 Provider=Edict Name=Dragon'sMaid cod=0 description=null ResponseObject=24
+2023-04-10 11:26:18,258 [main] INFO craftBetWorld - 66 1387 ID=25820 Provider=Edict Name=Dragull cod=0 description=null ResponseObject=24
+2023-04-10 11:26:20,931 [main] INFO craftBetWorld - 67 1395 ID=25995 Provider=Edict Name=DreamingIsland cod=0 description=null ResponseObject=24
+2023-04-10 11:26:24,233 [main] INFO craftBetWorld - 68 1405 ID=26845 Provider=QuickSpin Name=DurianDynamite cod=0 description=null ResponseObject=24
+2023-04-10 11:26:25,401 [main] INFO craftBetWorld - 69 1409 ID=27481 Provider=QuickSpin Name=Dwarfs Gone Wild cod=0 description=null ResponseObject=24
+2023-04-10 11:26:33,470 [main] INFO craftBetWorld - 70 1427 ID=25605 Provider=QuickSpin Name=Eastern Emeralds cod=0 description=null ResponseObject=24
+2023-04-10 11:26:33,750 [main] INFO craftBetWorld - 71 1428 ID=76689 Provider=QuickSpin Name=Eastern Emeralds Megaways cod=0 description=null ResponseObject=24
+2023-04-10 11:26:38,477 [main] INFO craftBetWorld - 72 1434 ID=76142 Provider=Edict Name=Eggstra Wilds cod=0 description=null ResponseObject=24
+2023-04-10 11:26:40,465 [main] INFO craftBetWorld - 73 1436 ID=75341 Provider=Edict Name=Egyptian Diamonds cod=0 description=null ResponseObject=24
+2023-04-10 11:26:55,980 [main] INFO craftBetWorld - 74 1455 ID=75668 Provider=Edict Name=Electric Fruit cod=0 description=null ResponseObject=24
+2023-04-10 11:27:00,007 [main] INFO craftBetWorld - 75 1467 ID=26309 Provider=Edict Name=ElMolinador cod=0 description=null ResponseObject=24
+2023-04-10 11:27:08,624 [main] INFO craftBetWorld - 76 1489 ID=26952 Provider=Edict Name=EndlessSummer cod=0 description=null ResponseObject=24
+2023-04-10 11:27:09,273 [main] INFO craftBetWorld - 77 1491 ID=76272 Provider=Edict Name=Energy Burst cod=0 description=null ResponseObject=24
+2023-04-10 11:27:25,074 [main] INFO craftBetWorld - 78 1528 ID=28627 Provider=Edict Name=Extra Liner Jackpot cod=0 description=null ResponseObject=24
+2023-04-10 11:27:25,335 [main] INFO craftBetWorld - 79 1529 ID=26950 Provider=Edict Name=Extra10Liner cod=0 description=null ResponseObject=24
+2023-04-10 11:27:25,600 [main] INFO craftBetWorld - 80 1530 ID=26949 Provider=Edict Name=ExtraWild cod=0 description=null ResponseObject=24
+2023-04-10 11:27:31,912 [main] INFO craftBetWorld - 81 1549 ID=27523 Provider=QuickSpin Name=Fairy Gate cod=0 description=null ResponseObject=24
+2023-04-10 11:27:34,475 [main] INFO craftBetWorld - 82 1556 ID=26005 Provider=Edict Name=FallenAlien cod=0 description=null ResponseObject=24
+2023-04-10 11:27:35,277 [main] INFO craftBetWorld - 83 1558 ID=26946 Provider=Edict Name=FantasticFruit cod=0 description=null ResponseObject=24
+2023-04-10 11:27:36,675 [main] INFO craftBetWorld - 84 1563 ID=76239 Provider=PushGaming Name=Fat Banker cod=0 description=null ResponseObject=24
+2023-04-10 11:27:37,027 [main] INFO craftBetWorld - 85 1564 ID=75190 Provider=PushGaming Name=Fat Drac cod=0 description=null ResponseObject=24
+2023-04-10 11:27:37,794 [main] INFO craftBetWorld - 86 1567 ID=75793 Provider=PushGaming Name=Fat Rabbit cod=0 description=null ResponseObject=24
+2023-04-10 11:27:38,064 [main] INFO craftBetWorld - 87 1568 ID=29984 Provider=PushGaming Name=Fat Santa cod=0 description=null ResponseObject=24
+2023-04-10 11:27:43,694 [main] INFO craftBetWorld - 88 1584 ID=29966 Provider=Edict Name=Fight of Terragon cod=0 description=null ResponseObject=24
+2023-04-10 11:27:45,323 [main] INFO craftBetWorld - 89 1589 ID=28615 Provider=Edict Name=Fire and Ice cod=0 description=null ResponseObject=24
+2023-04-10 11:27:46,246 [main] INFO craftBetWorld - 90 1592 ID=75355 Provider=PushGaming Name=Fire Hopper cod=0 description=null ResponseObject=24
+2023-04-10 11:27:50,927 [main] INFO craftBetWorld - 91 1607 ID=26945 Provider=Edict Name=FireofEgypt cod=0 description=null ResponseObject=24
+2023-04-10 11:27:52,391 [main] INFO craftBetWorld - 92 1611 ID=29201 Provider=Edict Name=First Dynasty cod=0 description=null ResponseObject=24
+2023-04-10 11:27:59,148 [main] INFO craftBetWorld - 93 1629 ID=26310 Provider=Edict Name=FlamesOfEgypt cod=0 description=null ResponseObject=24
+2023-04-10 11:28:04,612 [main] INFO craftBetWorld - 94 1636 ID=76339 Provider=QuickSpin Name=Flip Royale cod=0 description=null ResponseObject=24
+2023-04-10 11:28:15,246 [main] INFO craftBetWorld - 95 1666 ID=25535 Provider=Edict Name=ForbiddenPrincess cod=0 description=null ResponseObject=24
+2023-04-10 11:28:29,274 [main] INFO craftBetWorld - 96 1705 ID=28635 Provider=Edict Name=Fountain of Fortune cod=0 description=null ResponseObject=24
+2023-04-10 11:28:39,050 [main] INFO craftBetWorld - 97 1728 ID=76565 Provider=Edict Name=Frooty Temptation cod=0 description=null ResponseObject=24
+2023-04-10 11:28:56,049 [main] INFO craftBetWorld - 98 1768 ID=26941 Provider=Edict Name=Fruitinator cod=0 description=null ResponseObject=24
+2023-04-10 11:28:57,106 [main] INFO craftBetWorld - 99 1771 ID=26940 Provider=Edict Name=Fruitopia cod=0 description=null ResponseObject=24
+2023-04-10 11:29:04,058 [main] INFO craftBetWorld - 100 1787 ID=76244 Provider=Edict Name=Fruits Tastylicious cod=0 description=null ResponseObject=24
+2023-04-10 11:29:07,770 [main] INFO craftBetWorld - 101 1799 ID=76492 Provider=Edict Name=Fruity Fruit Shake cod=0 description=null ResponseObject=24
+2023-04-10 11:29:18,802 [main] INFO craftBetWorld - 102 1830 ID=26361 Provider=Fugaso Name=Gates of Hell cod=0 description=null ResponseObject=24
+2023-04-10 11:29:25,542 [main] INFO craftBetWorld - 103 1851 ID=77200 Provider=PushGaming Name=Generous Jack cod=0 description=null ResponseObject=24
+2023-04-10 11:29:26,111 [main] INFO craftBetWorld - 104 1853 ID=75172 Provider=QuickSpin Name=Genies Touch cod=0 description=null ResponseObject=24
+2023-04-10 11:29:26,375 [main] INFO craftBetWorld - 105 1854 ID=29263 Provider=Edict Name=Genie's Wonderlamp cod=0 description=null ResponseObject=24
+2023-04-10 11:29:27,805 [main] INFO craftBetWorld - 106 1859 ID=28858 Provider=QuickSpin Name=Ghost Glyph cod=0 description=null ResponseObject=24
+2023-04-10 11:29:28,875 [main] INFO craftBetWorld - 107 1863 ID=26938 Provider=Edict Name=GhostSlider cod=0 description=null ResponseObject=24
+2023-04-10 11:29:31,806 [main] INFO craftBetWorld - 108 1872 ID=29395 Provider=Edict Name=Gladiators cod=0 description=null ResponseObject=24
+2023-04-10 11:29:42,009 [main] INFO craftBetWorld - 109 1897 ID=76117 Provider=Microgaming Name=Gods Of Giza cod=0 description=null ResponseObject=Wrong incoming params
+2023-04-10 11:29:46,022 [main] INFO craftBetWorld - 110 1908 ID=77152 Provider=Edict Name=Gold Cup Free Spin cod=0 description=null ResponseObject=24
+2023-04-10 11:29:49,220 [main] INFO craftBetWorld - 111 1918 ID=27531 Provider=QuickSpin Name=Gold Lab cod=0 description=null ResponseObject=24
+2023-04-10 11:29:54,473 [main] INFO craftBetWorld - 112 1933 ID=26934 Provider=Edict Name=GoldBeaver cod=0 description=null ResponseObject=24
+2023-04-10 11:29:54,741 [main] INFO craftBetWorld - 113 1934 ID=26933 Provider=Edict Name=Goldbird cod=0 description=null ResponseObject=24
+2023-04-10 11:29:55,354 [main] INFO craftBetWorld - 114 1936 ID=26936 Provider=Edict Name=GoldCup cod=0 description=null ResponseObject=24
+2023-04-10 11:30:01,948 [main] INFO craftBetWorld - 115 1957 ID=29636 Provider=QuickSpin Name=Golden Glyph 2 cod=0 description=null ResponseObject=24
+2023-04-10 11:30:11,345 [main] INFO craftBetWorld - 116 1987 ID=27428 Provider=Amatic Name=GoldenBook cod=0 description=null ResponseObject=Transactions ID failed value
+2023-04-10 11:30:12,040 [main] INFO craftBetWorld - 117 1989 ID=26932 Provider=Edict Name=GoldenGate cod=0 description=null ResponseObject=24
+2023-04-10 11:30:12,598 [main] INFO craftBetWorld - 118 1991 ID=25288 Provider=QuickSpin Name=GoldenGlyph cod=0 description=null ResponseObject=24
+2023-04-10 11:30:14,930 [main] INFO craftBetWorld - 119 1998 ID=25536 Provider=Edict Name=GoldFrenzy cod=0 description=null ResponseObject=24
+2023-04-10 11:30:15,203 [main] INFO craftBetWorld - 120 1999 ID=25283 Provider=QuickSpin Name=GoldilocksandtheWildBears cod=0 description=null ResponseObject=24
+2023-04-10 11:30:15,564 [main] INFO craftBetWorld - 121 2000 ID=26935 Provider=Edict Name=GoldofPersia cod=0 description=null ResponseObject=24
+2023-04-10 11:30:17,917 [main] INFO craftBetWorld - 122 2007 ID=75894 Provider=Edict Name=Gong Hei Gong Hei cod=0 description=null ResponseObject=24
+2023-04-10 11:30:28,313 [main] INFO craftBetWorld - 123 2041 ID=29747 Provider=QuickSpin Name=Guardian Of Athens cod=0 description=null ResponseObject=24
+2023-04-10 11:30:31,272 [main] INFO craftBetWorld - 124 2051 ID=26548 Provider=QuickSpin Name=HalloftheMountainKing cod=0 description=null ResponseObject=24
+2023-04-10 11:30:34,807 [main] INFO craftBetWorld - 125 2059 ID=28851 Provider=QuickSpin Name=Hammer of Vulcan cod=0 description=null ResponseObject=24
+2023-04-10 11:30:47,376 [main] INFO craftBetWorld - 126 2102 ID=26930 Provider=Edict Name=HexenKessel cod=0 description=null ResponseObject=24
+2023-04-10 11:30:48,527 [main] INFO craftBetWorld - 127 2106 ID=27468 Provider=QuickSpin Name=HiddenValley cod=0 description=null ResponseObject=24
+2023-04-10 11:30:48,790 [main] INFO craftBetWorld - 128 2107 ID=29460 Provider=Edict Name=Hide & Seek cod=0 description=null ResponseObject=24
+2023-04-10 11:30:50,037 [main] INFO craftBetWorld - 129 2111 ID=76113 Provider=QuickSpin Name=High Street Heist cod=0 description=null ResponseObject=24
+2023-04-10 11:30:56,043 [main] INFO craftBetWorld - 130 2132 ID=29455 Provider=Edict Name=Hocus Pocus Deluxe cod=0 description=null ResponseObject=24
+2023-04-10 11:31:06,398 [main] INFO craftBetWorld - 131 2159 ID=28616 Provider=Edict Name=Hot Dragon cod=0 description=null ResponseObject=24
+2023-04-10 11:31:22,612 [main] INFO craftBetWorld - 132 2207 ID=26929 Provider=Edict Name=HotFlame cod=0 description=null ResponseObject=24
+2023-04-10 11:31:26,519 [main] INFO craftBetWorld - 133 2218 ID=27528 Provider=QuickSpin Name=HotSync cod=0 description=null ResponseObject=24
+2023-04-10 11:31:33,748 [main] INFO craftBetWorld - 134 2239 ID=75996 Provider=Edict Name=Hyper Fruits cod=0 description=null ResponseObject=24
+2023-04-10 11:31:40,578 [main] INFO craftBetWorld - 135 2257 ID=27535 Provider=QuickSpin Name=Illuminous cod=0 description=null ResponseObject=24
+2023-04-10 11:31:41,291 [main] INFO craftBetWorld - 136 2259 ID=26330 Provider=Fugaso Name=ImhotepManuscript cod=0 description=null ResponseObject=24
+2023-04-10 11:31:48,411 [main] INFO craftBetWorld - 137 2280 ID=29437 Provider=Edict Name=Indian Ruby cod=0 description=null ResponseObject=24
+2023-04-10 11:32:00,663 [main] INFO craftBetWorld - 138 2313 ID=27136 Provider=QuickSpin Name=IvanandtheImmortalKing cod=0 description=null ResponseObject=24
+2023-04-10 11:32:09,720 [main] INFO craftBetWorld - 139 2338 ID=29453 Provider=Edict Name=Jamboree Jubilee cod=0 description=null ResponseObject=24
+2023-04-10 11:32:09,977 [main] INFO craftBetWorld - 140 2339 ID=29989 Provider=PushGaming Name=Jammin Jars cod=0 description=null ResponseObject=24
+2023-04-10 11:32:10,230 [main] INFO craftBetWorld - 141 2340 ID=29973 Provider=PushGaming Name=Jammin' Jars 2 cod=0 description=null ResponseObject=24
+2023-04-10 11:32:15,165 [main] INFO craftBetWorld - 142 2354 ID=26432 Provider=Fugaso Name=JewelSea cod=0 description=null ResponseObject=24
+2023-04-10 11:32:22,551 [main] INFO craftBetWorld - 143 2378 ID=75787 Provider=Edict Name=Joker Nature cod=0 description=null ResponseObject=24
+2023-04-10 11:32:25,139 [main] INFO craftBetWorld - 144 2386 ID=29993 Provider=PushGaming Name=Joker Troupe cod=0 description=null ResponseObject=24
+2023-04-10 11:32:28,907 [main] INFO craftBetWorld - 145 2397 ID=27485 Provider=QuickSpin Name=JokerStrike cod=0 description=null ResponseObject=24
+2023-04-10 11:32:30,752 [main] INFO craftBetWorld - 146 2403 ID=26928 Provider=Edict Name=Jolly'sCap cod=0 description=null ResponseObject=24
+2023-04-10 11:32:38,157 [main] INFO craftBetWorld - 147 2424 ID=78470 Provider=Edict Name=Jungle Jackpots cod=0 description=null ResponseObject=24
+2023-04-10 11:32:41,797 [main] INFO craftBetWorld - 148 2436 ID=29519 Provider=Edict Name=Kaiserwetter cod=0 description=null ResponseObject=24
+2023-04-10 11:32:45,898 [main] INFO craftBetWorld - 149 2448 ID=26927 Provider=Edict Name=KeyoftheNile cod=0 description=null ResponseObject=24
+2023-04-10 11:32:52,552 [main] INFO craftBetWorld - 150 2467 ID=27540 Provider=QuickSpin Name=KingColossus cod=0 description=null ResponseObject=24
+2023-04-10 11:32:55,094 [main] INFO craftBetWorld - 151 2471 ID=27562 Provider=Microgaming Name=KingofKaiju:RampageRiches cod=0 description=null ResponseObject=24
+2023-04-10 11:33:02,442 [main] INFO craftBetWorld - 152 2492 ID=26924 Provider=Edict Name=Knight'sLife cod=0 description=null ResponseObject=24
+2023-04-10 11:33:03,677 [main] INFO craftBetWorld - 153 2495 ID=26923 Provider=Edict Name=KnockoutWins cod=0 description=null ResponseObject=24
+2023-04-10 11:33:11,840 [main] INFO craftBetWorld - 154 2520 ID=29978 Provider=PushGaming Name=Land of Zenith cod=0 description=null ResponseObject=24
+2023-04-10 11:33:20,704 [main] INFO craftBetWorld - 155 2547 ID=29595 Provider=Edict Name=Legendary Palace cod=0 description=null ResponseObject=24
+2023-04-10 11:33:26,367 [main] INFO craftBetWorld - 156 2565 ID=27527 Provider=QuickSpin Name=LeprechaunHills cod=0 description=null ResponseObject=24
+2023-04-10 11:33:28,651 [main] INFO craftBetWorld - 157 2572 ID=26920 Provider=Edict Name=LibertyBells cod=0 description=null ResponseObject=24
+2023-04-10 11:33:29,555 [main] INFO craftBetWorld - 158 2575 ID=26919 Provider=Edict Name=LightBlocks cod=0 description=null ResponseObject=24
+2023-04-10 11:33:30,643 [main] INFO craftBetWorld - 159 2579 ID=76075 Provider=Edict Name=Lights of Xia cod=0 description=null ResponseObject=24
+2023-04-10 11:33:36,207 [main] INFO craftBetWorld - 160 2593 ID=28846 Provider=QuickSpin Name=Loco the Monkey cod=0 description=null ResponseObject=24
+2023-04-10 11:33:50,449 [main] INFO craftBetWorld - 161 2634 ID=78550 Provider=Edict Name=Luck O' The Irish Fortune Spins cod=0 description=null ResponseObject=24
+2023-04-10 11:34:24,054 [main] INFO craftBetWorld - 162 2702 ID=28587 Provider=Microgaming Name=Lucky Shot cod=0 description=null ResponseObject=24
+2023-04-10 11:34:39,836 [main] INFO craftBetWorld - 163 2739 ID=76120 Provider=Microgaming Name=Machine Gun Unicorn cod=0 description=null ResponseObject=Wrong incoming params
+2023-04-10 11:34:40,213 [main] INFO craftBetWorld - 164 2740 ID=76557 Provider=PushGaming Name=Mad Cars cod=0 description=null ResponseObject=24
+2023-04-10 11:34:51,339 [main] INFO craftBetWorld - 165 2770 ID=29246 Provider=Edict Name=Magic Mirror Three Lions Deluxe cod=0 description=null ResponseObject=24
+2023-04-10 11:34:51,645 [main] INFO craftBetWorld - 166 2771 ID=29820 Provider=Edict Name=Magic Mirror Wild cod=0 description=null ResponseObject=24
+2023-04-10 11:34:51,920 [main] INFO craftBetWorld - 167 2772 ID=75792 Provider=Edict Name=Magic Monk Rasputin X-Mas Edition cod=0 description=null ResponseObject=24
+2023-04-10 11:35:04,398 [main] INFO craftBetWorld - 168 2807 ID=26916 Provider=Edict Name=MagicMirror cod=0 description=null ResponseObject=24
+2023-04-10 11:35:04,703 [main] INFO craftBetWorld - 169 2808 ID=26915 Provider=Edict Name=MagicMirrorDeluxeII cod=0 description=null ResponseObject=24
+2023-04-10 11:35:04,988 [main] INFO craftBetWorld - 170 2809 ID=26914 Provider=Edict Name=MagicMonkRasputin cod=0 description=null ResponseObject=24
+2023-04-10 11:35:07,080 [main] INFO craftBetWorld - 171 2815 ID=75251 Provider=Edict Name=Magika Boola cod=0 description=null ResponseObject=24
+2023-04-10 11:35:07,348 [main] INFO craftBetWorld - 172 2816 ID=77217 Provider=Edict Name=Magika Boola Xmas Spirit cod=0 description=null ResponseObject=24
+2023-04-10 11:35:27,876 [main] INFO craftBetWorld - 173 2863 ID=27546 Provider=QuickSpin Name=Mayana cod=0 description=null ResponseObject=24
+2023-04-10 11:35:38,414 [main] INFO craftBetWorld - 174 2885 ID=26912 Provider=Edict Name=MerkurMagnus7 cod=0 description=null ResponseObject=24
+2023-04-10 11:35:48,846 [main] INFO craftBetWorld - 175 2906 ID=29501 Provider=QuickSpin Name=Midas Coins cod=0 description=null ResponseObject=24
+2023-04-10 11:35:55,943 [main] INFO craftBetWorld - 176 2919 ID=27545 Provider=QuickSpin Name=MightyArthur cod=0 description=null ResponseObject=24
+2023-04-10 11:36:00,529 [main] INFO craftBetWorld - 177 2927 ID=78589 Provider=QuickSpin Name=Mine and Melt cod=0 description=null ResponseObject=24
+2023-04-10 11:36:09,449 [main] INFO craftBetWorld - 178 2944 ID=26209 Provider=Edict Name=MojitoBeach cod=0 description=null ResponseObject=24
+2023-04-10 11:36:21,540 [main] INFO craftBetWorld - 179 2965 ID=26910 Provider=Edict Name=MonkeyMayhem cod=0 description=null ResponseObject=24
+2023-04-10 11:36:36,793 [main] INFO craftBetWorld - 180 3003 ID=75934 Provider=PushGaming Name=Mount Magmas cod=0 description=null ResponseObject=24
+2023-04-10 11:36:41,258 [main] INFO craftBetWorld - 181 3014 ID=76526 Provider=Edict Name=Multi 7 Wild cod=0 description=null ResponseObject=24
+2023-04-10 11:36:41,571 [main] INFO craftBetWorld - 182 3015 ID=29970 Provider=Edict Name=Multi Wild 243 cod=0 description=null ResponseObject=24
+2023-04-10 11:36:41,851 [main] INFO craftBetWorld - 183 3016 ID=28625 Provider=Edict Name=Multi Wild Deluxe cod=0 description=null ResponseObject=24
+2023-04-10 11:36:43,162 [main] INFO craftBetWorld - 184 3020 ID=26909 Provider=Edict Name=MultiFruits cod=0 description=null ResponseObject=24
+2023-04-10 11:36:46,621 [main] INFO craftBetWorld - 185 3030 ID=26908 Provider=Edict Name=MultiSupreme81 cod=0 description=null ResponseObject=24
+2023-04-10 11:36:46,943 [main] INFO craftBetWorld - 186 3031 ID=25819 Provider=Edict Name=MultiWild cod=0 description=null ResponseObject=24
+2023-04-10 11:36:51,667 [main] INFO craftBetWorld - 187 3043 ID=29813 Provider=Edict Name=Mysteries of Karnak cod=0 description=null ResponseObject=24
+2023-04-10 11:36:54,986 [main] INFO craftBetWorld - 188 3053 ID=77044 Provider=PushGaming Name=Mystery Mission - To The Moon cod=0 description=null ResponseObject=24
+2023-04-10 11:36:55,469 [main] INFO craftBetWorld - 189 3055 ID=29982 Provider=PushGaming Name=Mystery Museum cod=0 description=null ResponseObject=24
+2023-04-10 11:37:10,053 [main] INFO craftBetWorld - 190 3089 ID=25285 Provider=QuickSpin Name=Nero'sFortune cod=0 description=null ResponseObject=24
+2023-04-10 11:37:15,124 [main] INFO craftBetWorld - 191 3100 ID=76001 Provider=PushGaming Name=Nightfall cod=0 description=null ResponseObject=24
+2023-04-10 11:37:18,365 [main] INFO craftBetWorld - 192 3106 ID=26904 Provider=Edict Name=NileLiner cod=0 description=null ResponseObject=24
+2023-04-10 11:37:22,883 [main] INFO craftBetWorld - 193 3117 ID=27560 Provider=QuickSpin Name=NorthernSky cod=0 description=null ResponseObject=24
+2023-04-10 11:37:28,478 [main] INFO craftBetWorld - 194 3130 ID=26903 Provider=Edict Name=Odin cod=0 description=null ResponseObject=24
+2023-04-10 11:37:47,802 [main] INFO craftBetWorld - 195 3178 ID=25755 Provider=QuickSpin Name=Panther'sReign cod=0 description=null ResponseObject=24
+2023-04-10 11:38:14,873 [main] INFO craftBetWorld - 196 3237 ID=76940 Provider=Edict Name=Phil and Kanes Halloween cod=0 description=null ResponseObject=24
+2023-04-10 11:38:17,100 [main] INFO craftBetWorld - 197 3242 ID=27529 Provider=QuickSpin Name=Phoenix Sun cod=0 description=null ResponseObject=24
+2023-04-10 11:38:17,628 [main] INFO craftBetWorld - 198 3243 ID=25366 Provider=GameArt Name=PhoenixPrincess cod=0 description=null ResponseObject=24
+2023-04-10 11:38:19,566 [main] INFO craftBetWorld - 199 3248 ID=27544 Provider=QuickSpin Name=PiedPiper cod=0 description=null ResponseObject=24
+2023-04-10 11:38:35,427 [main] INFO craftBetWorld - 200 3289 ID=27483 Provider=QuickSpin Name=Pirate'sCharm cod=0 description=null ResponseObject=24
+2023-04-10 11:38:36,790 [main] INFO craftBetWorld - 201 3293 ID=76258 Provider=Edict Name=Pixielicious cod=0 description=null ResponseObject=24
+2023-04-10 11:38:37,769 [main] INFO craftBetWorld - 202 3296 ID=26899 Provider=Edict Name=PizzaExpress cod=0 description=null ResponseObject=24
+2023-04-10 11:38:43,775 [main] INFO craftBetWorld - 203 3315 ID=26028 Provider=QuickSpin Name=PolarPaws cod=0 description=null ResponseObject=24
+2023-04-10 11:38:45,281 [main] INFO craftBetWorld - 204 3320 ID=28636 Provider=Edict Name=Pop Art Fruits cod=0 description=null ResponseObject=24
+2023-04-10 11:38:55,487 [main] INFO craftBetWorld - 205 3348 ID=76998 Provider=QuickSpin Name=Primal Spirits cod=0 description=null ResponseObject=24
+2023-04-10 11:38:56,233 [main] INFO craftBetWorld - 206 3350 ID=26534 Provider=QuickSpin Name=Prime Zone cod=0 description=null ResponseObject=24
+2023-04-10 11:39:11,369 [main] INFO craftBetWorld - 207 3391 ID=28824 Provider=Edict Name=Pyramids of the Nile cod=0 description=null ResponseObject=24
+2023-04-10 11:39:11,633 [main] INFO craftBetWorld - 208 3392 ID=26898 Provider=Edict Name=PyramidsofEgypt cod=0 description=null ResponseObject=24
+2023-04-10 11:39:19,379 [main] INFO craftBetWorld - 209 3412 ID=26897 Provider=Edict Name=QueenOfMars cod=0 description=null ResponseObject=24
+2023-04-10 11:39:22,478 [main] INFO craftBetWorld - 210 3422 ID=26896 Provider=Edict Name=Racetowin cod=0 description=null ResponseObject=24
+2023-04-10 11:39:25,328 [main] INFO craftBetWorld - 211 3432 ID=76116 Provider=Microgaming Name=Ragnarok cod=0 description=null ResponseObject=Wrong incoming params
+2023-04-10 11:39:25,907 [main] INFO craftBetWorld - 212 3434 ID=26895 Provider=Edict Name=Railroad cod=0 description=null ResponseObject=24
+2023-04-10 11:39:29,863 [main] INFO craftBetWorld - 213 3447 ID=27542 Provider=QuickSpin Name=Rapunzel's Tower cod=0 description=null ResponseObject=24
+2023-04-10 11:39:30,807 [main] INFO craftBetWorld - 214 3450 ID=77040 Provider=QuickSpin Name=Raven Rising cod=0 description=null ResponseObject=24
+2023-04-10 11:39:31,553 [main] INFO craftBetWorld - 215 3452 ID=29991 Provider=PushGaming Name=Razor Shark cod=0 description=null ResponseObject=24
+2023-04-10 11:39:31,882 [main] INFO craftBetWorld - 216 3453 ID=27533 Provider=QuickSpin Name=Razortooth cod=0 description=null ResponseObject=24
+2023-04-10 11:39:51,962 [main] INFO craftBetWorld - 217 3508 ID=75259 Provider=QuickSpin Name=Reno 7's cod=0 description=null ResponseObject=24
+2023-04-10 11:39:52,806 [main] INFO craftBetWorld - 218 3510 ID=26340 Provider=Fugaso Name=Resident 3D cod=0 description=null ResponseObject=24
+2023-04-10 11:40:00,615 [main] INFO craftBetWorld - 219 3528 ID=77165 Provider=PushGaming Name=Retro Tapes cod=0 description=null ResponseObject=24
+2023-04-10 11:40:18,777 [main] INFO craftBetWorld - 220 3585 ID=26893 Provider=Edict Name=RisingLiner cod=0 description=null ResponseObject=24
+2023-04-10 11:40:25,575 [main] INFO craftBetWorld - 221 3604 ID=76118 Provider=Microgaming Name=Robyn cod=0 description=null ResponseObject=Wrong incoming params
+2023-04-10 11:40:34,029 [main] INFO craftBetWorld - 222 3628 ID=28575 Provider=Fugaso Name=Romance V cod=0 description=null ResponseObject=24
+2023-04-10 11:40:48,834 [main] INFO craftBetWorld - 223 3672 ID=75147 Provider=Edict Name=Ruby Sevens cod=0 description=null ResponseObject=24
+2023-04-10 11:40:58,296 [main] INFO craftBetWorld - 224 3699 ID=76176 Provider=QuickSpin Name=Sakura Fortune 2 cod=0 description=null ResponseObject=24
+2023-04-10 11:40:58,876 [main] INFO craftBetWorld - 225 3701 ID=25280 Provider=QuickSpin Name=SakuraFortune cod=0 description=null ResponseObject=24
+2023-04-10 11:40:59,459 [main] INFO craftBetWorld - 226 3703 ID=25918 Provider=Edict Name=SalmonCatch cod=0 description=null ResponseObject=24
+2023-04-10 11:41:15,329 [main] INFO craftBetWorld - 227 3742 ID=77667 Provider=QuickSpin Name=Scatter Monsters cod=0 description=null ResponseObject=24
+2023-04-10 11:41:20,916 [main] INFO craftBetWorld - 228 3756 ID=29438 Provider=Edict Name=Scribes of Thebes cod=0 description=null ResponseObject=24
+2023-04-10 11:41:26,169 [main] INFO craftBetWorld - 229 3773 ID=27532 Provider=QuickSpin Name=Second Strike cod=0 description=null ResponseObject=24
+2023-04-10 11:41:30,262 [main] INFO craftBetWorld - 230 3787 ID=27536 Provider=QuickSpin Name=Sevens High cod=0 description=null ResponseObject=24
+2023-04-10 11:41:30,553 [main] INFO craftBetWorld - 231 3788 ID=29953 Provider=QuickSpin Name=Sevens High Ultra cod=0 description=null ResponseObject=24
+2023-04-10 11:41:39,195 [main] INFO craftBetWorld - 232 3812 ID=29968 Provider=Edict Name=Shenyijing cod=0 description=null ResponseObject=24
+2023-04-10 11:41:47,154 [main] INFO craftBetWorld - 233 3834 ID=26889 Provider=Edict Name=SicilianSun cod=0 description=null ResponseObject=24
+2023-04-10 11:41:50,855 [main] INFO craftBetWorld - 234 3844 ID=26888 Provider=Edict Name=Sindbad cod=0 description=null ResponseObject=24
+2023-04-10 11:41:58,163 [main] INFO craftBetWorld - 235 3867 ID=26025 Provider=QuickSpin Name=Skulls UP! cod=0 description=null ResponseObject=24
+2023-04-10 11:42:03,314 [main] INFO craftBetWorld - 236 3880 ID=76618 Provider=QuickSpin Name=Slugger Time cod=0 description=null ResponseObject=24
+2023-04-10 11:42:03,923 [main] INFO craftBetWorld - 237 3882 ID=26887 Provider=Edict Name=SmartRestart cod=0 description=null ResponseObject=24
+2023-04-10 11:42:06,264 [main] INFO craftBetWorld - 238 3887 ID=75389 Provider=Edict Name=Snake God cod=0 description=null ResponseObject=24
+2023-04-10 11:42:10,938 [main] INFO craftBetWorld - 239 3898 ID=28624 Provider=Edict Name=Snow Wolf Supreme cod=0 description=null ResponseObject=24
+2023-04-10 11:42:16,443 [main] INFO craftBetWorld - 240 3911 ID=75144 Provider=Edict Name=Soul of Nature cod=0 description=null ResponseObject=24
+2023-04-10 11:42:20,658 [main] INFO craftBetWorld - 241 3923 ID=76917 Provider=PushGaming Name=Space Stacks cod=0 description=null ResponseObject=24
+2023-04-10 11:42:27,183 [main] INFO craftBetWorld - 242 3943 ID=25850 Provider=Fugaso Name=Spin Joker, Spin! cod=0 description=null ResponseObject=24
+2023-04-10 11:42:30,862 [main] INFO craftBetWorld - 243 3952 ID=27556 Provider=QuickSpin Name=Spinions Beach Party cod=0 description=null ResponseObject=24
+2023-04-10 11:42:31,240 [main] INFO craftBetWorld - 244 3953 ID=76615 Provider=QuickSpin Name=Spinions Game Day cod=0 description=null ResponseObject=24
+2023-04-10 11:42:31,512 [main] INFO craftBetWorld - 245 3954 ID=75394 Provider=QuickSpin Name=Spinions X-mas Party cod=0 description=null ResponseObject=24
+2023-04-10 11:42:35,052 [main] INFO craftBetWorld - 246 3964 ID=26871 Provider=Edict Name=SpiritsOfTheEast cod=0 description=null ResponseObject=24
+2023-04-10 11:42:47,365 [main] INFO craftBetWorld - 247 3996 ID=77108 Provider=Edict Name=Station Red cod=0 description=null ResponseObject=24
+2023-04-10 11:42:51,504 [main] INFO craftBetWorld - 248 4005 ID=29556 Provider=QuickSpin Name=Sticky Bandits 3: Most Wanted cod=0 description=null ResponseObject=24
+2023-04-10 11:42:51,773 [main] INFO craftBetWorld - 249 4006 ID=76617 Provider=QuickSpin Name=Sticky Bandits Trail of Blood cod=0 description=null ResponseObject=24
+2023-04-10 11:42:52,913 [main] INFO craftBetWorld - 250 4009 ID=25284 Provider=QuickSpin Name=StickyBandits cod=0 description=null ResponseObject=24
+2023-04-10 11:42:53,172 [main] INFO craftBetWorld - 251 4010 ID=26531 Provider=QuickSpin Name=StickyBandits:WildReturn cod=0 description=null ResponseObject=24
+2023-04-10 11:43:05,492 [main] INFO craftBetWorld - 252 4038 ID=26373 Provider=Edict Name=SuccubusOffer cod=0 description=null ResponseObject=24
+2023-04-10 11:43:14,447 [main] INFO craftBetWorld - 253 4061 ID=25124 Provider=PlaysonDirect Name=SunnyFruitsHoldandWin cod=0 description=null ResponseObject=Transactions ID failed value
+2023-04-10 11:43:30,198 [main] INFO craftBetWorld - 254 4098 ID=29449 Provider=Edict Name=Super Liner cod=0 description=null ResponseObject=24
+2023-04-10 11:43:35,996 [main] INFO craftBetWorld - 255 4110 ID=26885 Provider=Edict Name=Super7Reels cod=0 description=null ResponseObject=24
+2023-04-10 11:43:44,611 [main] INFO craftBetWorld - 256 4129 ID=29963 Provider=Edict Name=Swahili cod=0 description=null ResponseObject=24
+2023-04-10 11:43:54,026 [main] INFO craftBetWorld - 257 4152 ID=26006 Provider=Edict Name=TacoTuesday cod=0 description=null ResponseObject=24
+2023-04-10 11:43:57,903 [main] INFO craftBetWorld - 258 4163 ID=26843 Provider=QuickSpin Name=TalesofDr.Dolittle cod=0 description=null ResponseObject=24
+2023-04-10 11:44:27,593 [main] INFO craftBetWorld - 259 4241 ID=26848 Provider=QuickSpin Name=The Grand cod=0 description=null ResponseObject=24
+2023-04-10 11:44:46,079 [main] INFO craftBetWorld - 260 4291 ID=29988 Provider=PushGaming Name=The Shadow Order cod=0 description=null ResponseObject=24
+2023-04-10 11:44:46,397 [main] INFO craftBetWorld - 261 4292 ID=29527 Provider=Fugaso Name=The Sword & The Magic cod=0 description=null ResponseObject=24
+2023-04-10 11:44:46,980 [main] INFO craftBetWorld - 262 4294 ID=76076 Provider=Edict Name=The Three Musketeers cod=0 description=null ResponseObject=24
+2023-04-10 11:44:55,691 [main] INFO craftBetWorld - 263 4315 ID=26350 Provider=Fugaso Name=TheMummy2018:BlockPays cod=0 description=null ResponseObject=24
+2023-04-10 11:45:09,859 [main] INFO craftBetWorld - 264 4351 ID=26868 Provider=QuickSpin Name=TickettotheStars cod=0 description=null ResponseObject=24
+2023-04-10 11:45:14,166 [main] INFO craftBetWorld - 265 4361 ID=27179 Provider=QuickSpin Name=Tiger's Glory cod=0 description=null ResponseObject=24
+2023-04-10 11:45:14,520 [main] INFO craftBetWorld - 266 4362 ID=29821 Provider=QuickSpin Name=Tiger's Glory Ultra cod=0 description=null ResponseObject=24
+2023-04-10 11:45:18,491 [main] INFO craftBetWorld - 267 4372 ID=76359 Provider=PushGaming Name=Tiki Tumble cod=0 description=null ResponseObject=24
+2023-04-10 11:45:24,491 [main] INFO craftBetWorld - 268 4385 ID=28850 Provider=QuickSpin Name=Titan Thunder: Wrath of Hades cod=0 description=null ResponseObject=24
+2023-04-10 11:45:28,565 [main] INFO craftBetWorld - 269 4393 ID=78456 Provider=Edict Name=Tiwanaku cod=0 description=null ResponseObject=24
+2023-04-10 11:45:28,978 [main] INFO craftBetWorld - 270 4394 ID=29400 Provider=Edict Name=Tizona cod=0 description=null ResponseObject=24
+2023-04-10 11:45:44,625 [main] INFO craftBetWorld - 271 4435 ID=25158 Provider=Edict Name=TreasuresofEgypt cod=0 description=null ResponseObject=24
+2023-04-10 11:45:46,877 [main] INFO craftBetWorld - 272 4442 ID=75138 Provider=Edict Name=Tribe of Thunder cod=0 description=null ResponseObject=24
+2023-04-10 11:45:47,748 [main] INFO craftBetWorld - 273 4445 ID=26878 Provider=Edict Name=TrickyTrio cod=0 description=null ResponseObject=24
+2023-04-10 11:45:52,837 [main] INFO craftBetWorld - 274 4461 ID=25823 Provider=Edict Name=TripleTripleChance cod=0 description=null ResponseObject=24
+2023-04-10 11:45:52,932 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:52,932 [main] INFO craftBetWorld - 275 4462 ID=26584 Provider=Evoplay Name=TriptotheFuture cod=null description=null ResponseObject=null
+2023-04-10 11:45:53,035 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:53,036 [main] INFO craftBetWorld - 276 4463 ID=77615 Provider=Microgaming Name=Trojan Kingdom cod=null description=null ResponseObject=null
+2023-04-10 11:45:53,145 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:53,146 [main] INFO craftBetWorld - 277 4464 ID=29738 Provider=Spinomenal Name=Trojan Tales cod=null description=null ResponseObject=null
+2023-04-10 11:45:53,252 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:53,253 [main] INFO craftBetWorld - 278 4465 ID=75774 Provider=Microgaming Name=Trojan Treasure cod=null description=null ResponseObject=null
+2023-04-10 11:45:53,357 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:53,357 [main] INFO craftBetWorld - 279 4466 ID=26991 Provider=PlaynGo Name=Troll Hunters cod=null description=null ResponseObject=null
+2023-04-10 11:45:53,456 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:53,457 [main] INFO craftBetWorld - 280 4467 ID=25220 Provider=PlaynGo Name=TrollHunters2 cod=null description=null ResponseObject=null
+2023-04-10 11:45:53,547 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:53,547 [main] INFO craftBetWorld - 281 4468 ID=26415 Provider=Yggdrasil Name=Trolls Bridge cod=null description=null ResponseObject=null
+2023-04-10 11:45:53,640 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:53,640 [main] INFO craftBetWorld - 282 4469 ID=76585 Provider=ISoftBet Name=Tropical Bonanza cod=null description=null ResponseObject=null
+2023-04-10 11:45:53,730 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:53,731 [main] INFO craftBetWorld - 283 4470 ID=29447 Provider=Edict Name=Tropical Heat cod=null description=null ResponseObject=null
+2023-04-10 11:45:53,821 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:53,822 [main] INFO craftBetWorld - 284 4471 ID=66653 Provider=NucleusGaming Name=Tropical Splash cod=null description=null ResponseObject=null
+2023-04-10 11:45:53,913 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:53,914 [main] INFO craftBetWorld - 285 4472 ID=29217 Provider=Microgaming Name=Tropical Wilds cod=null description=null ResponseObject=null
+2023-04-10 11:45:54,020 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:54,020 [main] INFO craftBetWorld - 286 4473 ID=27324 Provider=Spigo Name=Tropicana cod=null description=null ResponseObject=null
+2023-04-10 11:45:54,110 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:54,111 [main] INFO craftBetWorld - 287 4474 ID=75103 Provider=WorldMatch Name=True American cod=null description=null ResponseObject=null
+2023-04-10 11:45:54,201 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:54,201 [main] INFO craftBetWorld - 288 4475 ID=75795 Provider=NoLimitCity Name=True Grit cod=null description=null ResponseObject=null
+2023-04-10 11:45:54,290 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:54,291 [main] INFO craftBetWorld - 289 4476 ID=25259 Provider=Betsoft Name=True Illusions cod=null description=null ResponseObject=null
+2023-04-10 11:45:54,442 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:54,442 [main] INFO craftBetWorld - 290 4477 ID=26336 Provider=Fugaso Name=TrumpItDeluxe cod=null description=null ResponseObject=null
+2023-04-10 11:45:54,529 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:54,529 [main] INFO craftBetWorld - 291 4478 ID=25183 Provider=Fugaso Name=TrumpItDeluxeEPICWAYS cod=null description=null ResponseObject=null
+2023-04-10 11:45:54,620 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:54,621 [main] INFO craftBetWorld - 292 4479 ID=28569 Provider=WorldMatch Name=Tuan Yuan Panda cod=null description=null ResponseObject=null
+2023-04-10 11:45:54,772 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:54,772 [main] INFO craftBetWorld - 293 4480 ID=76898 Provider=Habanero Name=Tuk Tuk Thailand cod=null description=null ResponseObject=null
+2023-04-10 11:45:54,866 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:54,866 [main] INFO craftBetWorld - 294 4481 ID=26719 Provider=Wazdan Name=Turbo Play cod=null description=null ResponseObject=null
+2023-04-10 11:45:55,018 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:55,019 [main] INFO craftBetWorld - 295 4482 ID=28968 Provider=Wazdan Name=Turbo Poker cod=null description=null ResponseObject=null
+2023-04-10 11:45:55,105 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:55,106 [main] INFO craftBetWorld - 296 4483 ID=27149 Provider=Apollo Name=Turbo Slots cod=null description=null ResponseObject=null
+2023-04-10 11:45:55,204 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:55,205 [main] INFO craftBetWorld - 297 4484 ID=25763 Provider=Apollo Name=TurboSlots81 cod=null description=null ResponseObject=null
+2023-04-10 11:45:55,356 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:55,357 [main] INFO craftBetWorld - 298 4485 ID=25896 Provider=Thunderkick Name=Turning Totems cod=null description=null ResponseObject=null
+2023-04-10 11:45:55,448 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:55,449 [main] INFO craftBetWorld - 299 4486 ID=29590 Provider=Microgaming Name=Tutankhamun Pull Tab cod=null description=null ResponseObject=null
+2023-04-10 11:45:55,620 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:55,620 [main] INFO craftBetWorld - 300 4487 ID=27200 Provider=Yggdrasil Name=Tut'sTwister cod=null description=null ResponseObject=null
+2023-04-10 11:45:55,721 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:55,721 [main] INFO craftBetWorld - 301 4488 ID=26496 Provider=Microgaming Name=Tweethearts cod=null description=null ResponseObject=null
+2023-04-10 11:45:55,875 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:55,876 [main] INFO craftBetWorld - 302 4489 ID=27422 Provider=Amatic Name=TweetyBirds cod=null description=null ResponseObject=null
+2023-04-10 11:45:55,976 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:55,976 [main] INFO craftBetWorld - 303 4490 ID=75775 Provider=Microgaming Name=Twice the Money cod=null description=null ResponseObject=null
+2023-04-10 11:45:56,124 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:56,124 [main] INFO craftBetWorld - 304 4491 ID=25672 Provider=Microgaming Name=TwicetheDiamonds cod=null description=null ResponseObject=null
+2023-04-10 11:45:56,219 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:56,219 [main] INFO craftBetWorld - 305 4492 ID=76265 Provider=Spinomenal Name=Twin Diamonds cod=null description=null ResponseObject=null
+2023-04-10 11:45:56,374 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:56,375 [main] INFO craftBetWorld - 306 4493 ID=77187 Provider=Spinomenal Name=Twin Diamonds Xmas cod=null description=null ResponseObject=null
+2023-04-10 11:45:56,543 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:56,544 [main] INFO craftBetWorld - 307 4494 ID=67228 Provider=DragonGaming Name=Twin Dragons cod=null description=null ResponseObject=null
+2023-04-10 11:45:56,638 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:56,639 [main] INFO craftBetWorld - 308 4495 ID=17603 Provider=NetEnt Name=Twin Happiness cod=null description=null ResponseObject=null
+2023-04-10 11:45:56,800 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:56,800 [main] INFO craftBetWorld - 309 4496 ID=25630 Provider=Microgaming Name=Twin Harlequin cod=null description=null ResponseObject=null
+2023-04-10 11:45:56,948 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:56,949 [main] INFO craftBetWorld - 310 4497 ID=17044 Provider=NetEnt Name=Twin Spin cod=null description=null ResponseObject=null
+2023-04-10 11:45:57,113 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:57,114 [main] INFO craftBetWorld - 311 4498 ID=17628 Provider=NetEnt Name=Twin Spin Deluxe cod=null description=null ResponseObject=null
+2023-04-10 11:45:57,215 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:57,215 [main] INFO craftBetWorld - 312 4499 ID=17652 Provider=NetEnt Name=twinspinmw cod=null description=null ResponseObject=null
+2023-04-10 11:45:57,363 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:57,363 [main] INFO craftBetWorld - 313 4500 ID=25236 Provider=PlaynGo Name=TwistedSister cod=null description=null ResponseObject=null
+2023-04-10 11:45:57,517 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:57,518 [main] INFO craftBetWorld - 314 4501 ID=75119 Provider=ISoftBet Name=Tyrant King Megaways cod=null description=null ResponseObject=null
+2023-04-10 11:45:57,685 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:57,685 [main] INFO craftBetWorld - 315 4502 ID=75400 Provider=WorldMatch Name=Uga Age HD cod=null description=null ResponseObject=null
+2023-04-10 11:45:57,840 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:57,841 [main] INFO craftBetWorld - 316 4503 ID=75510 Provider=ISoftBet Name=Ultimate Super Reels cod=null description=null ResponseObject=null
+2023-04-10 11:45:57,998 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:57,999 [main] INFO craftBetWorld - 317 4504 ID=29445 Provider=Edict Name=Ultra 7 Wild cod=null description=null ResponseObject=null
+2023-04-10 11:45:58,089 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:58,090 [main] INFO craftBetWorld - 318 4505 ID=54066 Provider=PragmaticPlay Name=Ultra Burn cod=null description=null ResponseObject=null
+2023-04-10 11:45:58,240 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:58,241 [main] INFO craftBetWorld - 319 4506 ID=76586 Provider=PlaysonDirect Name=Ultra Fortunator: Hold and Win cod=null description=null ResponseObject=null
+2023-04-10 11:45:58,347 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:58,347 [main] INFO craftBetWorld - 320 4507 ID=54022 Provider=PragmaticPlay Name=Ultra Hold and Spin cod=null description=null ResponseObject=null
+2023-04-10 11:45:58,502 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:58,503 [main] INFO craftBetWorld - 321 4508 ID=27362 Provider=Amatic Name=UltraSeven cod=null description=null ResponseObject=null
+2023-04-10 11:45:58,671 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:58,672 [main] INFO craftBetWorld - 322 4509 ID=75121 Provider=Platipus Name=Un Dia De Muertos cod=null description=null ResponseObject=null
+2023-04-10 11:45:58,829 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:58,829 [main] INFO craftBetWorld - 323 4510 ID=76566 Provider=Microgaming Name=Undead Fortune cod=null description=null ResponseObject=null
+2023-04-10 11:45:58,979 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:58,980 [main] INFO craftBetWorld - 324 4511 ID=25101 Provider=Betsoft Name=Under the Bed cod=null description=null ResponseObject=null
+2023-04-10 11:45:59,134 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:59,134 [main] INFO craftBetWorld - 325 4512 ID=25463 Provider=Betsoft Name=UndertheSea cod=null description=null ResponseObject=null
+2023-04-10 11:45:59,290 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:59,291 [main] INFO craftBetWorld - 326 4513 ID=75017 Provider=Microgaming Name=Unicorn Bliss cod=null description=null ResponseObject=null
+2023-04-10 11:45:59,452 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:59,452 [main] INFO craftBetWorld - 327 4514 ID=29154 Provider=Wazdan Name=Unicorn Reels cod=null description=null ResponseObject=null
+2023-04-10 11:45:59,621 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:59,621 [main] INFO craftBetWorld - 328 4515 ID=25778 Provider=Leander Name=Universal Cup cod=null description=null ResponseObject=null
+2023-04-10 11:45:59,778 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:59,778 [main] INFO craftBetWorld - 329 4516 ID=29281 Provider=Evoplay Name=Unlimited Wishes cod=null description=null ResponseObject=null
+2023-04-10 11:45:59,925 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:45:59,925 [main] INFO craftBetWorld - 330 4517 ID=25950 Provider=Genii Name=UpperCrustAbbey cod=null description=null ResponseObject=null
+2023-04-10 11:46:00,077 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:00,077 [main] INFO craftBetWorld - 331 4518 ID=77163 Provider=PlaynGo Name=USA Flip cod=null description=null ResponseObject=null
+2023-04-10 11:46:00,224 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:00,224 [main] INFO craftBetWorld - 332 4519 ID=26617 Provider=Evoplay Name=USSRSeventies cod=null description=null ResponseObject=null
+2023-04-10 11:46:00,375 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:00,375 [main] INFO craftBetWorld - 333 4520 ID=75931 Provider=Spinomenal Name=Valentine Collection 10 Lines cod=null description=null ResponseObject=null
+2023-04-10 11:46:00,530 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:00,531 [main] INFO craftBetWorld - 334 4521 ID=75932 Provider=Spinomenal Name=Valentine Collection 20 Lines cod=null description=null ResponseObject=null
+2023-04-10 11:46:00,683 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:00,683 [main] INFO craftBetWorld - 335 4522 ID=75921 Provider=Spinomenal Name=Valentine Collection 30 Lines cod=null description=null ResponseObject=null
+2023-04-10 11:46:00,838 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:00,838 [main] INFO craftBetWorld - 336 4523 ID=75918 Provider=Spinomenal Name=Valentine Collection 40 Lines cod=null description=null ResponseObject=null
+2023-04-10 11:46:00,985 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:00,985 [main] INFO craftBetWorld - 337 4524 ID=76710 Provider=Spinomenal Name=Valentine’s Fortune Dice cod=null description=null ResponseObject=null
+2023-04-10 11:46:01,145 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:01,145 [main] INFO craftBetWorld - 338 4525 ID=27084 Provider=WACS Name=Valentine’sGift cod=null description=null ResponseObject=null
+2023-04-10 11:46:01,300 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:01,300 [main] INFO craftBetWorld - 339 4526 ID=29296 Provider=Spinomenal Name=Valentine's Fortune cod=null description=null ResponseObject=null
+2023-04-10 11:46:01,449 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:01,450 [main] INFO craftBetWorld - 340 4527 ID=26751 Provider=Wazdan Name=Valhalla cod=null description=null ResponseObject=null
+2023-04-10 11:46:01,594 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:01,594 [main] INFO craftBetWorld - 341 4528 ID=29625 Provider=Microgaming Name=Valhalla Gold cod=null description=null ResponseObject=null
+2023-04-10 11:46:01,747 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:01,747 [main] INFO craftBetWorld - 342 4529 ID=75330 Provider=Yggdrasil Name=Valkyries cod=null description=null ResponseObject=null
+2023-04-10 11:46:01,895 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:01,896 [main] INFO craftBetWorld - 343 4530 ID=76228 Provider=Yggdrasil Name=Valley of the Gods cod=null description=null ResponseObject=null
+2023-04-10 11:46:02,065 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:02,066 [main] INFO craftBetWorld - 344 4531 ID=76210 Provider=Yggdrasil Name=Valley of the Gods 2 cod=null description=null ResponseObject=null
+2023-04-10 11:46:02,223 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:02,224 [main] INFO craftBetWorld - 345 4532 ID=27550 Provider=BoomingGames Name=ValleyofPharaohs cod=null description=null ResponseObject=null
+2023-04-10 11:46:02,382 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:02,383 [main] INFO craftBetWorld - 346 4533 ID=75399 Provider=WorldMatch Name=Vampire Killer HD cod=null description=null ResponseObject=null
+2023-04-10 11:46:02,534 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:02,534 [main] INFO craftBetWorld - 347 4534 ID=27676 Provider=Microgaming Name=Vampire:TheMasquerade-LasVegas cod=null description=null ResponseObject=null
+2023-04-10 11:46:02,685 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:02,685 [main] INFO craftBetWorld - 348 4535 ID=27418 Provider=Amatic Name=Vampires cod=null description=null ResponseObject=null
+2023-04-10 11:46:02,835 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:02,836 [main] INFO craftBetWorld - 349 4536 ID=75249 Provider=Edict Name=Vampires II cod=null description=null ResponseObject=null
+2023-04-10 11:46:02,990 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:02,991 [main] INFO craftBetWorld - 350 4537 ID=25287 Provider=QuickSpin Name=VampireSenpai cod=null description=null ResponseObject=null
+2023-04-10 11:46:03,153 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:03,154 [main] INFO craftBetWorld - 351 4538 ID=75197 Provider=ISoftBet Name=Van der Wilde and The Outlaws cod=null description=null ResponseObject=null
+2023-04-10 11:46:03,308 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:03,309 [main] INFO craftBetWorld - 352 4539 ID=25205 Provider=Yggdrasil Name=VaultofFortune cod=null description=null ResponseObject=null
+2023-04-10 11:46:03,460 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:03,461 [main] INFO craftBetWorld - 353 4540 ID=77116 Provider=Spinomenal Name=Vegas - Chase'N'Win cod=null description=null ResponseObject=null
+2023-04-10 11:46:03,616 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:03,617 [main] INFO craftBetWorld - 354 4541 ID=76035 Provider=Microgaming Name=Vegas Cash cod=null description=null ResponseObject=null
+2023-04-10 11:46:03,783 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:03,785 [main] INFO craftBetWorld - 355 4542 ID=26017 Provider=Microgaming Name=Vegas Downtown Blackjack cod=null description=null ResponseObject=null
+2023-04-10 11:46:03,947 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:03,947 [main] INFO craftBetWorld - 356 4543 ID=76546 Provider=Microgaming Name=Vegas Golden Bells cod=null description=null ResponseObject=null
+2023-04-10 11:46:04,102 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:04,103 [main] INFO craftBetWorld - 357 4544 ID=29883 Provider=ISoftBet Name=Vegas High Roller cod=null description=null ResponseObject=null
+2023-04-10 11:46:04,257 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:04,257 [main] INFO craftBetWorld - 358 4545 ID=26819 Provider=Wazdan Name=Vegas Hot cod=null description=null ResponseObject=null
+2023-04-10 11:46:04,406 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:04,406 [main] INFO craftBetWorld - 359 4546 ID=26718 Provider=Wazdan Name=Vegas Hot 81 cod=null description=null ResponseObject=null
+2023-04-10 11:46:04,557 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:04,557 [main] INFO craftBetWorld - 360 4547 ID=54025 Provider=PragmaticPlay Name=Vegas Magic cod=null description=null ResponseObject=null
+2023-04-10 11:46:04,707 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:04,707 [main] INFO craftBetWorld - 361 4548 ID=26651 Provider=Evoplay Name=Vegas Nights cod=null description=null ResponseObject=null
+2023-04-10 11:46:04,861 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:04,862 [main] INFO craftBetWorld - 362 4549 ID=26717 Provider=Wazdan Name=Vegas Reels II cod=null description=null ResponseObject=null
+2023-04-10 11:46:05,012 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:05,012 [main] INFO craftBetWorld - 363 4550 ID=65594 Provider=NucleusGaming Name=Vegas Road Trip cod=null description=null ResponseObject=null
+2023-04-10 11:46:05,162 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:05,162 [main] INFO craftBetWorld - 364 4551 ID=28434 Provider=Microgaming Name=Vegas Single Deck Blackjack cod=null description=null ResponseObject=null
+2023-04-10 11:46:05,319 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:05,319 [main] INFO craftBetWorld - 365 4552 ID=28488 Provider=Microgaming Name=Vegas Single Deck Blackjack Gold cod=null description=null ResponseObject=null
+2023-04-10 11:46:05,470 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:05,471 [main] INFO craftBetWorld - 366 4553 ID=28923 Provider=Genii Name=Vegas Strip Blackjack cod=null description=null ResponseObject=null
+2023-04-10 11:46:05,623 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:05,623 [main] INFO craftBetWorld - 367 4554 ID=28483 Provider=Microgaming Name=Vegas Strip Blackjack Gold cod=null description=null ResponseObject=null
+2023-04-10 11:46:05,782 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:05,782 [main] INFO craftBetWorld - 368 4555 ID=28864 Provider=Genii Name=Vegas Triple Pay Deluxe cod=null description=null ResponseObject=null
+2023-04-10 11:46:05,932 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:05,933 [main] INFO craftBetWorld - 369 4556 ID=27471 Provider=BoomingGames Name=Vegas VIP Gold cod=null description=null ResponseObject=null
+2023-04-10 11:46:06,083 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:06,084 [main] INFO craftBetWorld - 370 4557 ID=27516 Provider=BoomingGames Name=Vegas Wins cod=null description=null ResponseObject=null
+2023-04-10 11:46:06,234 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:06,234 [main] INFO craftBetWorld - 371 4558 ID=27080 Provider=WACS Name=Veggietoons cod=null description=null ResponseObject=null
+2023-04-10 11:46:06,386 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:06,386 [main] INFO craftBetWorld - 372 4559 ID=25357 Provider=GameArt Name=Venetia cod=null description=null ResponseObject=null
+2023-04-10 11:46:06,537 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:06,538 [main] INFO craftBetWorld - 373 4560 ID=17045 Provider=NetEnt Name=Victorious cod=null description=null ResponseObject=null
+2023-04-10 11:46:06,688 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:06,688 [main] INFO craftBetWorld - 374 4561 ID=76735 Provider=Microgaming Name=Video Bingo - Bikers cod=null description=null ResponseObject=null
+2023-04-10 11:46:06,839 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:06,840 [main] INFO craftBetWorld - 375 4562 ID=76734 Provider=Microgaming Name=Video Bingo - Buffalo cod=null description=null ResponseObject=null
+2023-04-10 11:46:06,992 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:06,993 [main] INFO craftBetWorld - 376 4563 ID=76733 Provider=Microgaming Name=Video Bingo - Circus cod=null description=null ResponseObject=null
+2023-04-10 11:46:07,142 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:07,142 [main] INFO craftBetWorld - 377 4564 ID=76732 Provider=Microgaming Name=Video Bingo - Cleopatra cod=null description=null ResponseObject=null
+2023-04-10 11:46:07,297 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:07,298 [main] INFO craftBetWorld - 378 4565 ID=76731 Provider=Microgaming Name=Video Bingo - HollyWood cod=null description=null ResponseObject=null
+2023-04-10 11:46:07,446 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:07,447 [main] INFO craftBetWorld - 379 4566 ID=76730 Provider=Microgaming Name=Video Bingo - Magician cod=null description=null ResponseObject=null
+2023-04-10 11:46:07,600 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:07,601 [main] INFO craftBetWorld - 380 4567 ID=76729 Provider=Microgaming Name=Video Bingo - Rock Live cod=null description=null ResponseObject=null
+2023-04-10 11:46:07,765 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:07,766 [main] INFO craftBetWorld - 381 4568 ID=76728 Provider=Microgaming Name=Video Bingo - Sea cod=null description=null ResponseObject=null
+2023-04-10 11:46:07,922 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:07,922 [main] INFO craftBetWorld - 382 4569 ID=76727 Provider=Microgaming Name=Video Bingo - Sunken City cod=null description=null ResponseObject=null
+2023-04-10 11:46:08,084 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:08,085 [main] INFO craftBetWorld - 383 4570 ID=76726 Provider=Microgaming Name=Video Bingo - Sweet Home cod=null description=null ResponseObject=null
+2023-04-10 11:46:08,238 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:08,238 [main] INFO craftBetWorld - 384 4571 ID=25258 Provider=Betsoft Name=Viking Age cod=null description=null ResponseObject=null
+2023-04-10 11:46:08,390 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:08,390 [main] INFO craftBetWorld - 385 4572 ID=29990 Provider=PushGaming Name=Viking Clash cod=null description=null ResponseObject=null
+2023-04-10 11:46:08,545 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:08,545 [main] INFO craftBetWorld - 386 4573 ID=29722 Provider=PariPlay Name=Viking Glory cod=null description=null ResponseObject=null
+2023-04-10 11:46:08,696 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:08,697 [main] INFO craftBetWorld - 387 4574 ID=75524 Provider=WorldMatch Name=Viking Legend HD cod=null description=null ResponseObject=null
+2023-04-10 11:46:08,867 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:08,868 [main] INFO craftBetWorld - 388 4575 ID=75922 Provider=Microgaming Name=Viking Queen cod=null description=null ResponseObject=null
+2023-04-10 11:46:09,037 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:09,038 [main] INFO craftBetWorld - 389 4576 ID=29465 Provider=Leander Name=Viking Raid Zone cod=null description=null ResponseObject=null
+2023-04-10 11:46:09,189 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:09,189 [main] INFO craftBetWorld - 390 4577 ID=75721 Provider=Microgaming Name=Viking Reign cod=null description=null ResponseObject=null
+2023-04-10 11:46:09,337 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:09,338 [main] INFO craftBetWorld - 391 4578 ID=76797 Provider=PlaynGo Name=Viking Runecraft Bingo cod=null description=null ResponseObject=null
+2023-04-10 11:46:09,503 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:09,503 [main] INFO craftBetWorld - 392 4579 ID=29684 Provider=Edict Name=Viking Towers cod=null description=null ResponseObject=null
+2023-04-10 11:46:09,650 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:09,650 [main] INFO craftBetWorld - 393 4580 ID=26555 Provider=Betsoft Name=Viking Voyage cod=null description=null ResponseObject=null
+2023-04-10 11:46:09,808 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:09,808 [main] INFO craftBetWorld - 394 4581 ID=26184 Provider=Genii Name=Vikingdom cod=null description=null ResponseObject=null
+2023-04-10 11:46:09,969 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:09,969 [main] INFO craftBetWorld - 395 4582 ID=26990 Provider=PlaynGo Name=VikingRunecraft cod=null description=null ResponseObject=null
+2023-04-10 11:46:10,116 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:10,116 [main] INFO craftBetWorld - 396 4583 ID=17657 Provider=NetEnt Name=vikings cod=null description=null ResponseObject=null
+2023-04-10 11:46:10,272 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:10,273 [main] INFO craftBetWorld - 397 4584 ID=76230 Provider=Yggdrasil Name=Vikings go Berzerk cod=null description=null ResponseObject=null
+2023-04-10 11:46:10,417 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:10,418 [main] INFO craftBetWorld - 398 4585 ID=75153 Provider=Yggdrasil Name=Vikings Go Berzerk: Reloaded cod=null description=null ResponseObject=null
+2023-04-10 11:46:10,585 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:10,585 [main] INFO craftBetWorld - 399 4586 ID=76202 Provider=Yggdrasil Name=Vikings Go To Hell cod=null description=null ResponseObject=null
+2023-04-10 11:46:10,734 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:10,735 [main] INFO craftBetWorld - 400 4587 ID=75966 Provider=Yggdrasil Name=Vikings go to Valhalla cod=null description=null ResponseObject=null
+2023-04-10 11:46:10,895 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:10,895 [main] INFO craftBetWorld - 401 4588 ID=76221 Provider=Yggdrasil Name=Vikings go Wild cod=null description=null ResponseObject=null
+2023-04-10 11:46:11,048 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:11,049 [main] INFO craftBetWorld - 402 4589 ID=25128 Provider=PlaysonDirect Name=VikingsFortune:HoldandWin cod=null description=null ResponseObject=null
+2023-04-10 11:46:11,215 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:11,215 [main] INFO craftBetWorld - 403 4590 ID=27634 Provider=Habanero Name=Viking'sPlunder cod=null description=null ResponseObject=null
+2023-04-10 11:46:11,366 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:11,367 [main] INFO craftBetWorld - 404 4591 ID=28007 Provider=Microgaming Name=VinylCountdown cod=null description=null ResponseObject=null
+2023-04-10 11:46:11,536 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:11,536 [main] INFO craftBetWorld - 405 4592 ID=28477 Provider=Betsoft Name=Vip American Roulette cod=null description=null ResponseObject=null
+2023-04-10 11:46:11,694 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:11,695 [main] INFO craftBetWorld - 406 4593 ID=28478 Provider=Betsoft Name=Vip European Roulette cod=null description=null ResponseObject=null
+2023-04-10 11:46:11,862 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:11,862 [main] INFO craftBetWorld - 407 4594 ID=27517 Provider=BoomingGames Name=VIPFilthyRiches cod=null description=null ResponseObject=null
+2023-04-10 11:46:12,010 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:12,010 [main] INFO craftBetWorld - 408 4595 ID=25938 Provider=Microgaming Name=Viva Las Vegas cod=null description=null ResponseObject=null
+2023-04-10 11:46:12,157 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:12,157 [main] INFO craftBetWorld - 409 4596 ID=75022 Provider=Microgaming Name=Vlads Castle cod=null description=null ResponseObject=null
+2023-04-10 11:46:12,304 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:12,304 [main] INFO craftBetWorld - 410 4597 ID=75521 Provider=Microgaming Name=Voila cod=null description=null ResponseObject=null
+2023-04-10 11:46:12,456 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:12,456 [main] INFO craftBetWorld - 411 4598 ID=26112 Provider=Microgaming Name=VolatileSlot cod=null description=null ResponseObject=null
+2023-04-10 11:46:12,605 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:12,605 [main] INFO craftBetWorld - 412 4599 ID=27553 Provider=QuickSpin Name=Volcano Riches cod=null description=null ResponseObject=null
+2023-04-10 11:46:12,761 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:12,762 [main] INFO craftBetWorld - 413 4600 ID=26237 Provider=Microgaming Name=VomitingUnicorns cod=null description=null ResponseObject=null
+2023-04-10 11:46:12,928 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:12,929 [main] INFO craftBetWorld - 414 4601 ID=76389 Provider=Yggdrasil Name=Voodoo Hex cod=null description=null ResponseObject=null
+2023-04-10 11:46:13,102 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:13,102 [main] INFO craftBetWorld - 415 4602 ID=54083 Provider=PragmaticPlay Name=Voodoo Magic cod=null description=null ResponseObject=null
+2023-04-10 11:46:13,245 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:13,246 [main] INFO craftBetWorld - 416 4603 ID=29443 Provider=Edict Name=Voodoo Shark cod=null description=null ResponseObject=null
+2023-04-10 11:46:13,394 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:13,395 [main] INFO craftBetWorld - 417 4604 ID=27077 Provider=WACS Name=VoxSlot cod=null description=null ResponseObject=null
+2023-04-10 11:46:13,550 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:13,551 [main] INFO craftBetWorld - 418 4605 ID=29795 Provider=Spinomenal Name=Wacky Monkey cod=null description=null ResponseObject=null
+2023-04-10 11:46:13,710 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:13,711 [main] INFO craftBetWorld - 419 4606 ID=77023 Provider=Spinomenal Name=Wacky Monkey - Chase'N'Win cod=null description=null ResponseObject=null
+2023-04-10 11:46:13,877 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:13,877 [main] INFO craftBetWorld - 420 4607 ID=76717 Provider=Spinomenal Name=Wacky Monkey Dice cod=null description=null ResponseObject=null
+2023-04-10 11:46:14,024 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:14,024 [main] INFO craftBetWorld - 421 4608 ID=27629 Provider=Microgaming Name=Wacky Panda cod=null description=null ResponseObject=null
+2023-04-10 11:46:14,173 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:14,173 [main] INFO craftBetWorld - 422 4609 ID=76747 Provider=Microgaming Name=Wacky Waves cod=null description=null ResponseObject=null
+2023-04-10 11:46:14,331 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:14,331 [main] INFO craftBetWorld - 423 4610 ID=27085 Provider=WACS Name=Waikiki Heroes cod=null description=null ResponseObject=null
+2023-04-10 11:46:14,478 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:14,479 [main] INFO craftBetWorld - 424 4611 ID=78139 Provider=NoLimitCity Name=Walk Of Shame cod=null description=null ResponseObject=null
+2023-04-10 11:46:14,629 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:14,630 [main] INFO craftBetWorld - 425 4612 ID=75156 Provider=Microgaming Name=Wanted Dead or a Wild cod=null description=null ResponseObject=null
+2023-04-10 11:46:14,783 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:14,784 [main] INFO craftBetWorld - 426 4613 ID=28785 Provider=Microgaming Name=Wanted Outlaws cod=null description=null ResponseObject=null
+2023-04-10 11:46:14,956 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:14,956 [main] INFO craftBetWorld - 427 4614 ID=66769 Provider=Hacksaw Name=Wanted: Dead or a Wild cod=null description=null ResponseObject=null
+2023-04-10 11:46:15,106 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:15,106 [main] INFO craftBetWorld - 428 4615 ID=68662 Provider=NucleusGaming Name=War cod=null description=null ResponseObject=null
+2023-04-10 11:46:15,255 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:15,255 [main] INFO craftBetWorld - 429 4616 ID=26341 Provider=Fugaso Name=Warlock's Book cod=null description=null ResponseObject=null
+2023-04-10 11:46:15,404 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:15,405 [main] INFO craftBetWorld - 430 4617 ID=17046 Provider=NetEnt Name=Warlords cod=null description=null ResponseObject=null
+2023-04-10 11:46:15,561 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:15,561 [main] INFO craftBetWorld - 431 4618 ID=27150 Provider=Apollo Name=WaroftheTitans cod=null description=null ResponseObject=null
+2023-04-10 11:46:15,715 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:15,715 [main] INFO craftBetWorld - 432 4619 ID=76114 Provider=QuickSpin Name=Warp Wreckers Power Glyph cod=null description=null ResponseObject=null
+2023-04-10 11:46:15,860 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:15,860 [main] INFO craftBetWorld - 433 4620 ID=28693 Provider=NoLimitCity Name=Warrior Graveyard cod=null description=null ResponseObject=null
+2023-04-10 11:46:16,018 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:16,018 [main] INFO craftBetWorld - 434 4621 ID=67031 Provider=Hacksaw Name=Warrior Ways cod=null description=null ResponseObject=null
+2023-04-10 11:46:16,169 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:16,169 [main] INFO craftBetWorld - 435 4622 ID=76220 Provider=Yggdrasil Name=Water Blox Gigablox cod=null description=null ResponseObject=null
+2023-04-10 11:46:16,324 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:16,324 [main] INFO craftBetWorld - 436 4623 ID=27575 Provider=Habanero Name=Ways Of Fortune cod=null description=null ResponseObject=null
+2023-04-10 11:46:16,479 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:16,480 [main] INFO craftBetWorld - 437 4624 ID=76307 Provider=Platipus Name=Ways of Gauls cod=null description=null ResponseObject=null
+2023-04-10 11:46:16,643 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:16,644 [main] INFO craftBetWorld - 438 4625 ID=75091 Provider=Leander Name=Ways of Labyrinth cod=null description=null ResponseObject=null
+2023-04-10 11:46:16,794 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:16,794 [main] INFO craftBetWorld - 439 4626 ID=67152 Provider=BGaming Name=WBC Ring of Riches cod=null description=null ResponseObject=null
+2023-04-10 11:46:16,946 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:16,946 [main] INFO craftBetWorld - 440 4627 ID=29160 Provider=Platipus Name=Wealth of Wisdom cod=null description=null ResponseObject=null
+2023-04-10 11:46:17,103 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:17,104 [main] INFO craftBetWorld - 441 4628 ID=25195 Provider=Habanero Name=WealthInn cod=null description=null ResponseObject=null
+2023-04-10 11:46:17,252 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:17,252 [main] INFO craftBetWorld - 442 4629 ID=25093 Provider=Betsoft Name=Weekend In Vegas cod=null description=null ResponseObject=null
+2023-04-10 11:46:17,402 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:17,402 [main] INFO craftBetWorld - 443 4630 ID=27633 Provider=Habanero Name=WeirdScience cod=null description=null ResponseObject=null
+2023-04-10 11:46:17,553 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:17,554 [main] INFO craftBetWorld - 444 4631 ID=26716 Provider=Wazdan Name=Welcome To Hell 81 cod=null description=null ResponseObject=null
+2023-04-10 11:46:17,710 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:17,710 [main] INFO craftBetWorld - 445 4632 ID=28862 Provider=Genii Name=Well Oil Be! cod=null description=null ResponseObject=null
+2023-04-10 11:46:17,877 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:46:17,877 [main] INFO craftBetWorld - 446 4633 ID=25895 Provider=Thunderkick Name=WellofWonders cod=null description=null ResponseObject=null
+2023-04-10 11:46:22,467 [main] INFO craftBetWorld - 447 4640 ID=75885 Provider=Edict Name=Western Pacific cod=0 description=null ResponseObject=24
+2023-04-10 11:46:25,522 [main] INFO craftBetWorld - 448 4647 ID=29979 Provider=PushGaming Name=Wheel of Wonders cod=0 description=null ResponseObject=24
+2023-04-10 11:46:43,177 [main] INFO craftBetWorld - 449 4691 ID=75183 Provider=QuickSpin Name=Wild Harlequin cod=0 description=null ResponseObject=24
+2023-04-10 11:46:48,049 [main] INFO craftBetWorld - 450 4704 ID=29775 Provider=QuickSpin Name=Wild Luchador cod=0 description=null ResponseObject=24
+2023-04-10 11:46:54,520 [main] INFO craftBetWorld - 451 4720 ID=26342 Provider=Fugaso Name=Wild Rodeo cod=0 description=null ResponseObject=24
+2023-04-10 11:46:56,945 [main] INFO craftBetWorld - 452 4727 ID=29441 Provider=Edict Name=Wild Supreme cod=0 description=null ResponseObject=24
+2023-04-10 11:46:57,203 [main] INFO craftBetWorld - 453 4728 ID=29985 Provider=PushGaming Name=Wild Swarm cod=0 description=null ResponseObject=24
+2023-04-10 11:47:05,115 [main] INFO craftBetWorld - 454 4751 ID=25756 Provider=QuickSpin Name=WildCauldron cod=0 description=null ResponseObject=24
+2023-04-10 11:47:05,637 [main] INFO craftBetWorld - 455 4752 ID=25286 Provider=QuickSpin Name=WildChase cod=0 description=null ResponseObject=24
+2023-04-10 11:47:05,904 [main] INFO craftBetWorld - 456 4753 ID=26295 Provider=QuickSpin Name=WildChase:TokyoGo cod=0 description=null ResponseObject=24
+2023-04-10 11:47:12,791 [main] INFO craftBetWorld - 457 4772 ID=26875 Provider=Edict Name=WildSpirit cod=0 description=null ResponseObject=24
+2023-04-10 11:47:13,370 [main] INFO craftBetWorld - 458 4774 ID=26376 Provider=QuickSpin Name=WildTomeoftheWoods cod=0 description=null ResponseObject=24
+2023-04-10 11:47:20,648 [main] INFO craftBetWorld - 459 4794 ID=27526 Provider=QuickSpin Name=Wins of Fortune cod=0 description=null ResponseObject=24
+2023-04-10 11:47:22,623 [main] INFO craftBetWorld - 460 4800 ID=75350 Provider=Edict Name=Wishing Well cod=0 description=null ResponseObject=24
+2023-04-10 11:47:42,798 [main] INFO craftBetWorld - 461 4846 ID=25920 Provider=Edict Name=WoopWoop cod=0 description=null ResponseObject=24
+2023-04-10 11:47:43,606 [main] INFO craftBetWorld - 462 4848 ID=26874 Provider=Edict Name=WorldofCircus cod=0 description=null ResponseObject=24
+2023-04-10 11:47:56,918 [main] INFO craftBetWorld - 463 4882 ID=26872 Provider=Edict Name=Zentaurus cod=0 description=null ResponseObject=24
+2023-04-10 11:47:59,100 [main] INFO craftBetWorld - 464 4889 ID=26873 Provider=Edict Name=Zipper cod=0 description=null ResponseObject=24
+2023-04-10 11:49:04,570 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:04,571 [main] INFO craftBetWorld - 465 5049 ID=78310 Provider=PlayTech Name=Penguin Vacation cod=null description=null ResponseObject=null
+2023-04-10 11:49:04,671 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:04,672 [main] INFO craftBetWorld - 466 5050 ID=78242 Provider=PlayTech Name=Pharaohs Daughter cod=null description=null ResponseObject=null
+2023-04-10 11:49:04,782 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:04,783 [main] INFO craftBetWorld - 467 5051 ID=78309 Provider=PlayTech Name=Pharaoh's Secrets cod=null description=null ResponseObject=null
+2023-04-10 11:49:04,887 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:04,887 [main] INFO craftBetWorld - 468 5052 ID=78223 Provider=PlayTech Name=Pigeons From Space! cod=null description=null ResponseObject=null
+2023-04-10 11:49:04,973 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:04,974 [main] INFO craftBetWorld - 469 5053 ID=14456 Provider=PragmaticPlay Name=PIZZA! PIZZA? PIZZA! cod=null description=null ResponseObject=null
+2023-04-10 11:49:05,063 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:05,063 [main] INFO craftBetWorld - 470 5054 ID=78396 Provider=PlayTech Name=Plenty O`Fortune cod=null description=null ResponseObject=null
+2023-04-10 11:49:05,222 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:05,223 [main] INFO craftBetWorld - 471 5055 ID=78218 Provider=PlayTech Name=Plunder Ahoy cod=null description=null ResponseObject=null
+2023-04-10 11:49:05,392 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:05,393 [main] INFO craftBetWorld - 472 5056 ID=78155 Provider=PlayTech Name=Power Zones: Ishtar cod=null description=null ResponseObject=null
+2023-04-10 11:49:05,562 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:05,562 [main] INFO craftBetWorld - 473 5057 ID=78156 Provider=PlayTech Name=Power Zones: Thunder Birds cod=null description=null ResponseObject=null
+2023-04-10 11:49:05,710 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:05,710 [main] INFO craftBetWorld - 474 5058 ID=78307 Provider=PlayTech Name=Premium Blackjack Single Hand cod=null description=null ResponseObject=null
+2023-04-10 11:49:05,860 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:05,860 [main] INFO craftBetWorld - 475 5059 ID=78246 Provider=PlayTech Name=Pumpkin Bonanza cod=null description=null ResponseObject=null
+2023-04-10 11:49:05,952 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:05,953 [main] INFO craftBetWorld - 476 5060 ID=78212 Provider=PlayTech Name=Pyramid Linx cod=null description=null ResponseObject=null
+2023-04-10 11:49:06,106 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:06,107 [main] INFO craftBetWorld - 477 5061 ID=78177 Provider=PlayTech Name=Pyramid Valley: Power Zones cod=null description=null ResponseObject=null
+2023-04-10 11:49:06,277 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:06,277 [main] INFO craftBetWorld - 478 5062 ID=78216 Provider=PlayTech Name=Qins Empire - Caishens Temple cod=null description=null ResponseObject=null
+2023-04-10 11:49:06,432 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:06,432 [main] INFO craftBetWorld - 479 5063 ID=78214 Provider=PlayTech Name=Qins Empire - Celestial Guardians cod=null description=null ResponseObject=null
+2023-04-10 11:49:06,578 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:06,578 [main] INFO craftBetWorld - 480 5064 ID=78245 Provider=PlayTech Name=Quest West cod=null description=null ResponseObject=null
+2023-04-10 11:49:06,745 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:06,745 [main] INFO craftBetWorld - 481 5065 ID=78279 Provider=PlayTech Name=Record Riches cod=null description=null ResponseObject=null
+2023-04-10 11:49:06,901 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:06,902 [main] INFO craftBetWorld - 482 5066 ID=78244 Provider=PlayTech Name=Retro Rush cod=null description=null ResponseObject=null
+2023-04-10 11:49:07,079 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:07,079 [main] INFO craftBetWorld - 483 5067 ID=78305 Provider=PlayTech Name=Rome&Glory cod=null description=null ResponseObject=null
+2023-04-10 11:49:07,228 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:07,229 [main] INFO craftBetWorld - 484 5068 ID=78303 Provider=PlayTech Name=Royal Respin Deluxe cod=null description=null ResponseObject=null
+2023-04-10 11:49:07,376 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:07,376 [main] INFO craftBetWorld - 485 5069 ID=78302 Provider=PlayTech Name=Sacred Stones cod=null description=null ResponseObject=null
+2023-04-10 11:49:07,528 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:07,528 [main] INFO craftBetWorld - 486 5070 ID=78301 Provider=PlayTech Name=Safari Heat cod=null description=null ResponseObject=null
+2023-04-10 11:49:07,678 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:07,678 [main] INFO craftBetWorld - 487 5071 ID=78173 Provider=PlayTech Name=Sahara Riches - Cash Collect Megaways cod=null description=null ResponseObject=null
+2023-04-10 11:49:07,828 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:07,828 [main] INFO craftBetWorld - 488 5072 ID=78410 Provider=PlayTech Name=Santa Surprise cod=null description=null ResponseObject=null
+2023-04-10 11:49:07,980 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:07,980 [main] INFO craftBetWorld - 489 5073 ID=78243 Provider=PlayTech Name=Savage Jungle cod=null description=null ResponseObject=null
+2023-04-10 11:49:08,131 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:08,131 [main] INFO craftBetWorld - 490 5074 ID=78300 Provider=PlayTech Name=Secrets of the Amazon cod=null description=null ResponseObject=null
+2023-04-10 11:49:08,277 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:08,277 [main] INFO craftBetWorld - 491 5075 ID=78241 Provider=PlayTech Name=Selfie Elfie cod=null description=null ResponseObject=null
+2023-04-10 11:49:08,426 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:08,426 [main] INFO craftBetWorld - 492 5076 ID=78210 Provider=PlayTech Name=Sharks Blitz cod=null description=null ResponseObject=null
+2023-04-10 11:49:08,579 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:08,580 [main] INFO craftBetWorld - 493 5077 ID=78299 Provider=PlayTech Name=Sherlock Mystery cod=null description=null ResponseObject=null
+2023-04-10 11:49:08,734 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:08,735 [main] INFO craftBetWorld - 494 5078 ID=78240 Provider=PlayTech Name=Shields of Rome cod=null description=null ResponseObject=null
+2023-04-10 11:49:08,896 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:08,897 [main] INFO craftBetWorld - 495 5079 ID=78298 Provider=PlayTech Name=Silent Samurai cod=null description=null ResponseObject=null
+2023-04-10 11:49:09,052 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:09,053 [main] INFO craftBetWorld - 496 5080 ID=78297 Provider=PlayTech Name=Silver Bullet cod=null description=null ResponseObject=null
+2023-04-10 11:49:09,204 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:09,205 [main] INFO craftBetWorld - 497 5081 ID=78169 Provider=PlayTech Name=Silver Bullet Bandit: Cash Collect cod=null description=null ResponseObject=null
+2023-04-10 11:49:09,361 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:09,361 [main] INFO craftBetWorld - 498 5082 ID=78296 Provider=PlayTech Name=Sinbad's Golden Voyage cod=null description=null ResponseObject=null
+2023-04-10 11:49:09,531 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:09,532 [main] INFO craftBetWorld - 499 5083 ID=78239 Provider=PlayTech Name=Sky Queen cod=null description=null ResponseObject=null
+2023-04-10 11:49:09,698 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:09,698 [main] INFO craftBetWorld - 500 5084 ID=78376 Provider=PlayTech Name=Sorcerer's Guild of Magic cod=null description=null ResponseObject=null
+2023-04-10 11:49:09,845 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:09,846 [main] INFO craftBetWorld - 501 5085 ID=78188 Provider=PlayTech Name=Space Hunter: Shoot for Cash cod=null description=null ResponseObject=null
+2023-04-10 11:49:10,002 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:10,003 [main] INFO craftBetWorld - 502 5086 ID=78238 Provider=PlayTech Name=Stallion strike cod=null description=null ResponseObject=null
+2023-04-10 11:49:10,155 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:10,155 [main] INFO craftBetWorld - 503 5087 ID=78237 Provider=PlayTech Name=Starmada Exiles cod=null description=null ResponseObject=null
+2023-04-10 11:49:10,307 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:10,307 [main] INFO craftBetWorld - 504 5088 ID=78236 Provider=PlayTech Name=Stars Ablaze cod=null description=null ResponseObject=null
+2023-04-10 11:49:10,452 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:10,453 [main] INFO craftBetWorld - 505 5089 ID=78295 Provider=PlayTech Name=Stars Awakening cod=null description=null ResponseObject=null
+2023-04-10 11:49:10,600 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:10,600 [main] INFO craftBetWorld - 506 5090 ID=78294 Provider=PlayTech Name=Sun Wukong cod=null description=null ResponseObject=null
+2023-04-10 11:49:10,752 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:10,752 [main] INFO craftBetWorld - 507 5091 ID=14457 Provider=PragmaticPlay Name=Sweet Powernudge cod=null description=null ResponseObject=null
+2023-04-10 11:49:10,904 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:10,905 [main] INFO craftBetWorld - 508 5092 ID=78292 Provider=PlayTech Name=Thai Paradise cod=null description=null ResponseObject=null
+2023-04-10 11:49:11,052 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:11,052 [main] INFO craftBetWorld - 509 5093 ID=78235 Provider=PlayTech Name=The Great Reveal cod=null description=null ResponseObject=null
+2023-04-10 11:49:11,200 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:11,200 [main] INFO craftBetWorld - 510 5094 ID=78291 Provider=PlayTech Name=The Riches of Don Quixote cod=null description=null ResponseObject=null
+2023-04-10 11:49:11,347 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:11,348 [main] INFO craftBetWorld - 511 5095 ID=78290 Provider=PlayTech Name=Tiger Claw cod=null description=null ResponseObject=null
+2023-04-10 11:49:11,505 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:11,505 [main] INFO craftBetWorld - 512 5096 ID=78234 Provider=PlayTech Name=Tiger Stacks cod=null description=null ResponseObject=null
+2023-04-10 11:49:11,656 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:11,656 [main] INFO craftBetWorld - 513 5097 ID=78233 Provider=PlayTech Name=Tip Top Totems cod=null description=null ResponseObject=null
+2023-04-10 11:49:11,808 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:11,809 [main] INFO craftBetWorld - 514 5098 ID=78232 Provider=PlayTech Name=Toads Gift cod=null description=null ResponseObject=null
+2023-04-10 11:49:11,958 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:11,958 [main] INFO craftBetWorld - 515 5099 ID=78289 Provider=PlayTech Name=Treasures of the Lamps cod=null description=null ResponseObject=null
+2023-04-10 11:49:12,107 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:12,108 [main] INFO craftBetWorld - 516 5100 ID=78435 Provider=PlayTech Name=Triple Stop: Mermaids Find cod=null description=null ResponseObject=null
+2023-04-10 11:49:12,256 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:12,256 [main] INFO craftBetWorld - 517 5101 ID=78288 Provider=PlayTech Name=True Love cod=null description=null ResponseObject=null
+2023-04-10 11:49:12,406 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:12,407 [main] INFO craftBetWorld - 518 5102 ID=78231 Provider=PlayTech Name=Tsai Shen's Gift cod=null description=null ResponseObject=null
+2023-04-10 11:49:12,560 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:12,560 [main] INFO craftBetWorld - 519 5103 ID=78287 Provider=PlayTech Name=Vacation Station cod=null description=null ResponseObject=null
+2023-04-10 11:49:12,715 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:12,715 [main] INFO craftBetWorld - 520 5104 ID=78286 Provider=PlayTech Name=Vacation Station Deluxe cod=null description=null ResponseObject=null
+2023-04-10 11:49:12,868 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:12,868 [main] INFO craftBetWorld - 521 5105 ID=78230 Provider=PlayTech Name=Vampire Princess of Darkness cod=null description=null ResponseObject=null
+2023-04-10 11:49:13,022 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:13,022 [main] INFO craftBetWorld - 522 5106 ID=78206 Provider=PlayTech Name=Ways of the Genie - Thundershots cod=null description=null ResponseObject=null
+2023-04-10 11:49:13,173 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:13,173 [main] INFO craftBetWorld - 523 5107 ID=78285 Provider=PlayTech Name=Ways Of The Phoenix cod=null description=null ResponseObject=null
+2023-04-10 11:49:13,322 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:13,324 [main] INFO craftBetWorld - 524 5108 ID=78413 Provider=PlayTech Name=White King cod=null description=null ResponseObject=null
+2023-04-10 11:49:13,493 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:13,493 [main] INFO craftBetWorld - 525 5109 ID=78411 Provider=PlayTech Name=White King 2 cod=null description=null ResponseObject=null
+2023-04-10 11:49:13,640 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:13,640 [main] INFO craftBetWorld - 526 5110 ID=78284 Provider=PlayTech Name=Wild Gambler cod=null description=null ResponseObject=null
+2023-04-10 11:49:13,791 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:13,792 [main] INFO craftBetWorld - 527 5111 ID=78381 Provider=PlayTech Name=Wild Lava cod=null description=null ResponseObject=null
+2023-04-10 11:49:13,942 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:13,943 [main] INFO craftBetWorld - 528 5112 ID=78189 Provider=PlayTech Name=Wild Linx cod=null description=null ResponseObject=null
+2023-04-10 11:49:14,113 [main] FATAL craftBetWorld - jsonObjectGetUrl has an exception org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+2023-04-10 11:49:14,114 [main] INFO craftBetWorld - 529 5113 ID=78229 Provider=PlayTech Name=Wild West Wilds cod=null description=null ResponseObject=null
+2023-04-10 11:49:18,789 [main] INFO craftBetWorld - From Get URL API broken games are captured
+2023-04-10 11:49:18,790 [main] INFO craftBetWorld - Broken url-es are:  529 of 5120
+2023-04-10 11:49:18,949 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-04-10 11:49:22,709 [main] INFO craftBetWorld - Get games Api call was sent
+2023-04-10 11:49:22,803 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-04-10 11:49:22,860 [main] INFO craftBetWorld - All captured games images was added into ArrayList
+2023-04-10 12:14:35,639 [main] INFO craftBetWorld - Broken images are:  0
+2023-04-10 12:14:35,645 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-04-10 12:14:35,659 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  

@@ -68,11 +68,7 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
             logger.fatal("Login process has an Exception " + e);
         }
     }
-//Runtime.getRuntime().addShutdownHook(new Thread() {
-//        public void run() {
-//            Unirest.shutdown();
-//        }
-//    });
+
 
     public boolean getUrlCheckGamesUrl(String getGamesAPIUrl, String origin, String getURLAPIurl, String token,
                                        int userID, int partnerID, String partnerName)
@@ -103,13 +99,11 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
             jsonObjectResponseObject = new JSONObject(jsonObjectBody.get("ResponseObject").toString());
             jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
             logger.info("From getGamesAPIUrl call body captured ");
-        }  catch (Exception ee) {
-                logger.fatal("getGamesAPIUrl call has an exception " + ee);
-            }
-        finally {
+        } catch (Exception ee) {
+            logger.fatal("getGamesAPIUrl call has an exception " + ee);
+        } finally {
             Unirest.shutdown();
         }
-
 
 
         if (jsonArrayGames != null) {
@@ -124,7 +118,7 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
                 provider.add(sp);
             }
         }
-        logger.info("From getGamesAPIUrl call productIDes and Names was captured Games count: "+ productID.size());
+        logger.info("From getGamesAPIUrl call productIDes and Names was captured Games count: " + productID.size());
 
 
         for (String id : productID) {
@@ -149,9 +143,8 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
                 description = jsonObjectGetUrl.get("Description").toString();
                 url = jsonObjectGetUrl.get("ResponseObject").toString();
             } catch (Exception ee) {
-                    logger.fatal("jsonObjectGetUrl has an exception " + ee);
-                }
-            finally {
+                logger.fatal("jsonObjectGetUrl has an exception " + ee);
+            } finally {
                 Unirest.shutdown();
             }
 
@@ -173,7 +166,7 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
 
         //Write into exel shite
 
-        logger.info("Broken url-es are:  " + errorSrcXl.size() + " of "+ productID.size());
+        logger.info("Broken url-es are:  " + errorSrcXl.size() + " of " + productID.size());
         if (errorSrcXl.size() == 0) {
             logger.info("Broken Games are null");
             isPassed = true;
@@ -189,14 +182,10 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
     @Test
     public void getUrlAPITest() throws JSONException {
         try {
-            if (getUrlCheckGamesUrl(getGamesAPIUrl, getGamesOrigin, getURLAPIUrl, token, userID, partnerID, getGamesPartnerName)) {
-                Assert.assertTrue(true);
-            } else {
-                Assert.fail();
-            }
+            Assert.assertTrue(getUrlCheckGamesUrl(getGamesAPIUrl, getGamesOrigin, getURLAPIUrl, token, userID, partnerID, getGamesPartnerName));
         } catch (Exception e) {
-            Assert.fail();
             System.out.println("getUrlAPITest has an exception" + e);
+            Assert.fail();
         }
     }
 
