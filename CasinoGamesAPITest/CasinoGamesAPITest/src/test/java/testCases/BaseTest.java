@@ -342,6 +342,17 @@ public class BaseTest {
                 break;
             }
 
+            case 18: {
+                partnerID = 63;
+                getGamesAPIUrl = "https://websitewebapi.slots.inc/63/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.slots.inc/63/api/Main/GetProductUrl";
+                getGamesOrigin = "https://slots.inc";
+                getGamesRecurse = "https://resources.slots.inc/products/";
+                getGamesPartnerName = "slots.inc";
+                getGamesBaseURL = "https://slots.inc";
+                loginClient = "https://websitewebapi.slots.inc/63/api/Main/LoginClient";
+                break;
+            }
 
             case 100: {
                 //                getUserID = 2;

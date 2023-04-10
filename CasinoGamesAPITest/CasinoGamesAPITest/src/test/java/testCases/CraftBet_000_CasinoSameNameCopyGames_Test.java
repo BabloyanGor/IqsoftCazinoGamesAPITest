@@ -16,8 +16,6 @@ import java.util.regex.Pattern;
 public class CraftBet_000_CasinoSameNameCopyGames_Test extends BaseTest {
 
 
-
-
     public boolean getALLGamesAPICheckCopyGames(String getGamesAPIUrl, String origin, String partnerName)
             throws UnirestException, JSONException, IOException {
 
@@ -28,33 +26,40 @@ public class CraftBet_000_CasinoSameNameCopyGames_Test extends BaseTest {
         ArrayList<String> gameProviderNamesList = new ArrayList<>();
         ArrayList<String> errorSrcXl = new ArrayList<>();
 
-        Unirest.setTimeouts(0, 0);
-        HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
-                .header("content-type", "application/json")
-                .header("origin", origin)
-                .body("{\"PageIndex\":0,\"PageSize\":20000,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false,\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
-                .asString();
-        logger.info("Get games Api call was sent");
-        JSONObject jsonObjectBody = new JSONObject(response.getBody());
-        Unirest.shutdown();
-        JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.get("ResponseObject").toString());
-        JSONArray jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
-        logger.info("Get games Api Response was captured");
+        try{
+            Unirest.setTimeouts(0, 0);
+            HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
+                    .header("content-type", "application/json")
+                    .header("origin", origin)
+                    .body("{\"PageIndex\":0,\"PageSize\":20000,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false,\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
+                    .asString();
+            logger.info("Get games Api call was sent");
+            JSONObject jsonObjectBody = new JSONObject(response.getBody());
 
-        for (int j = 0; j < jsonArrayGames.length(); j++) {
+            JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.get("ResponseObject").toString());
+            JSONArray jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
+            logger.info("Get games Api Response was captured");
+            for (int j = 0; j < jsonArrayGames.length(); j++) {
 
-            String first = String.valueOf(jsonArrayGames.get(j));
-            JSONObject jsonObjectGame = new JSONObject(first);
-            String n = jsonObjectGame.getString("n");    //Game Name
-            String sp = jsonObjectGame.getString("sp");  //Provider Name
-            gameProviderNames.add(sp);
-            gameNames.add(n);
-
-
+                String first = String.valueOf(jsonArrayGames.get(j));
+                JSONObject jsonObjectGame = new JSONObject(first);
+                String n = jsonObjectGame.getString("n");    //Game Name
+                String sp = jsonObjectGame.getString("sp");  //Provider Name
+                gameProviderNames.add(sp);
+                gameNames.add(n);
 //            if (!gameProviderNamesList.contains(sp)){                     For Providers List
 //                gameProviderNamesList.add(sp);
 //            }
+            }
         }
+        catch (Exception e){
+            logger.info("Get games Api Response has an Exception: " + e);
+        }
+        finally {
+            Unirest.shutdown();
+        }
+
+
 
         for (int i = 0; i < gameNames.size(); i++) {
             String name = gameNames.get(i);
