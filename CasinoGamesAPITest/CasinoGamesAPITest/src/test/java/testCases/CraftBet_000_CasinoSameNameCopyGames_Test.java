@@ -3,6 +3,8 @@ package testCases;
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
+
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -10,10 +12,56 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
+import java.net.*;
 import java.util.ArrayList;
+import java.util.Enumeration;
+import java.util.List;
 import java.util.regex.Pattern;
 
 public class CraftBet_000_CasinoSameNameCopyGames_Test extends BaseTest {
+//    public static void main(String[] args) throws UnknownHostException, SocketException {
+//        InetAddress ip =  InetAddress.getLocalHost();
+//
+//        Enumeration e = NetworkInterface.getNetworkInterfaces();
+//        while (e.hasMoreElements()){
+//            NetworkInterface n = (NetworkInterface) e.nextElement();
+//            Enumeration ee = n.getInetAddresses();
+//            while (ee.hasMoreElements()){
+//                InetAddress i = (InetAddress) ee.nextElement();
+//                System.out.println("IPS " + i);
+//            }
+//        }
+////        System.out.println("Ip: " + ip);
+////        System.out.println("Ips: " + e);
+//
+//            List<String> proxyList = new ArrayList<>(); // list of proxy IP addresses
+//            proxyList.add("192.168.1.1");
+//            proxyList.add("192.168.1.2");
+//            proxyList.add("192.168.1.3");
+//            proxyList.add("192.168.1.4");
+//            proxyList.add("192.168.1.5");
+//            proxyList.add("192.168.1.6");
+//            proxyList.add("192.168.1.7");
+//            proxyList.add("192.168.1.8");
+//            proxyList.add("192.168.1.9");
+//            proxyList.add("192.168.1.10");
+//
+//            for (String proxyAddress : proxyList) {
+//                try {
+//                    HttpResponse<String> response = Unirest.get("https://your-api-endpoint.com")
+//                            .header("X-Mashape-Key", "your-mashape-key")
+//                            .header("Accept", "application/json")
+//                            .proxy(proxyAddress, 8080) // set the proxy address for this request
+//                            .asString();;
+//
+//                    System.out.println("Response status: " + response.getStatus());
+//                    System.out.println("Response body: " + response.getBody());
+//                } catch (UnirestException eee) {
+//                    eee.printStackTrace();
+//                }
+//            }
+//        }
+//
 
 
     public boolean getALLGamesAPICheckCopyGames(String getGamesAPIUrl, String origin, String partnerName)

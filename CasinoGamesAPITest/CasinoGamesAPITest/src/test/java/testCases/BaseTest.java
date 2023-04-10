@@ -62,7 +62,6 @@ public class BaseTest {
     public String password = readConfig.getPassword();
     public String language = readConfig.getLanguage();
     public int DimensionHeight = readConfig.getDimensionHeight();
-    //region <Page Class Instances  >
     public int DimensionWidth = readConfig.getDimensionWidth();
     public int partnerConfigNum = readConfig.partnerConfigNum();
 

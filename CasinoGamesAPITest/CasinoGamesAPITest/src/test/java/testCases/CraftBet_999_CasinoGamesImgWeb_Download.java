@@ -7,7 +7,7 @@
 //import org.json.JSONException;
 //import org.json.JSONObject;
 //import org.testng.annotations.Test;
-//
+
 //import java.io.IOException;
 //import java.io.InputStream;
 //import java.io.OutputStream;
@@ -15,7 +15,7 @@
 //import java.nio.file.Files;
 //import java.nio.file.Paths;
 //import java.util.ArrayList;
-//
+
 //public class CraftBet_005_CasinoGamesImgWeb_Download extends BaseTest {
 //    public void getGamesPicturesDownload(String getGamesAPIUrl, String origin, String recurse, String partnerName)
 //            throws UnirestException, JSONException, IOException {

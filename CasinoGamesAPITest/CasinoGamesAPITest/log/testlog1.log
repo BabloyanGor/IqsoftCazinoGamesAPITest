@@ -19544,3 +19544,1096 @@ Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
 2023-04-10 12:14:35,639 [main] INFO craftBetWorld - Broken images are:  0
 2023-04-10 12:14:35,645 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2023-04-10 12:14:35,659 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2023-04-10 13:20:42,879 [main] INFO craftBetWorld - Test Url: https://craftbet.com partnerID: 1
+2023-04-10 13:21:27,368 [main] INFO craftBetWorld - Get games Api call was sent
+2023-04-10 13:21:27,521 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-04-10 13:21:27,617 [main] INFO craftBetWorld - Dupliicate game Name =  Sugar Rush
+2023-04-10 13:21:27,621 [main] INFO craftBetWorld - Dupliicate game Name =  5 Fortune Dragons
+2023-04-10 13:21:27,622 [main] INFO craftBetWorld - Dupliicate game Name =  888
+2023-04-10 13:21:27,630 [main] INFO craftBetWorld - Dupliicate game Name =  Just Jewels Deluxe
+2023-04-10 13:21:27,637 [main] INFO craftBetWorld - Dupliicate game Name =  12 Zodiacs
+2023-04-10 13:21:27,637 [main] INFO craftBetWorld - Dupliicate game Name =  20,000 Leagues Under the Sea
+2023-04-10 13:21:27,638 [main] INFO craftBetWorld - Dupliicate game Name =  4 Seasons
+2023-04-10 13:21:27,639 [main] INFO craftBetWorld - Dupliicate game Name =  5 Lucky Lions
+2023-04-10 13:21:27,641 [main] INFO craftBetWorld - Dupliicate game Name =  9 Burning Dragons
+2023-04-10 13:21:27,643 [main] INFO craftBetWorld - Dupliicate game Name =  9 Coins
+2023-04-10 13:21:27,644 [main] INFO craftBetWorld - Dupliicate game Name =  A Pirate's Quest
+2023-04-10 13:21:27,645 [main] INFO craftBetWorld - Dupliicate game Name =  Aces & Eights 5 Hand
+2023-04-10 13:21:27,647 [main] INFO craftBetWorld - Dupliicate game Name =  All For One
+2023-04-10 13:21:27,649 [main] INFO craftBetWorld - Dupliicate game Name =  American Baccarat
+2023-04-10 13:21:27,649 [main] INFO craftBetWorld - Dupliicate game Name =  American Baccarat Zero Commission
+2023-04-10 13:21:27,650 [main] INFO craftBetWorld - Dupliicate game Name =  Apollo
+2023-04-10 13:21:27,650 [main] INFO craftBetWorld - Dupliicate game Name =  Arabian Spins
+2023-04-10 13:21:27,651 [main] INFO craftBetWorld - Dupliicate game Name =  Arcane Elements
+2023-04-10 13:21:27,651 [main] INFO craftBetWorld - Dupliicate game Name =  Asia Wins
+2023-04-10 13:21:27,652 [main] INFO craftBetWorld - Dupliicate game Name =  Astro Pandas
+2023-04-10 13:21:27,653 [main] INFO craftBetWorld - Dupliicate game Name =  Aztec Blox
+2023-04-10 13:21:27,653 [main] INFO craftBetWorld - Dupliicate game Name =  Aztec Moon
+2023-04-10 13:21:27,654 [main] INFO craftBetWorld - Dupliicate game Name =  Baboon to the Moon
+2023-04-10 13:21:27,654 [main] INFO craftBetWorld - Dupliicate game Name =  Baby Bloomers
+2023-04-10 13:21:27,655 [main] INFO craftBetWorld - Dupliicate game Name =  Baby Cai Shen
+2023-04-10 13:21:27,656 [main] INFO craftBetWorld - Dupliicate game Name =  Bandida
+2023-04-10 13:21:27,656 [main] INFO craftBetWorld - Dupliicate game Name =  Bang Bang
+2023-04-10 13:21:27,657 [main] INFO craftBetWorld - Dupliicate game Name =  Bar King Deluxe
+2023-04-10 13:21:27,659 [main] INFO craftBetWorld - Dupliicate game Name =  Beach Party
+2023-04-10 13:21:27,659 [main] INFO craftBetWorld - Dupliicate game Name =  Beach Party Hot
+2023-04-10 13:21:27,661 [main] INFO craftBetWorld - Dupliicate game Name =  Before Time Runs Out
+2023-04-10 13:21:27,661 [main] INFO craftBetWorld - Dupliicate game Name =  Bell Wizard
+2023-04-10 13:21:27,662 [main] INFO craftBetWorld - Dupliicate game Name =  Big Apple Wins
+2023-04-10 13:21:27,662 [main] INFO craftBetWorld - Dupliicate game Name =  Big Bass Bonanza
+2023-04-10 13:21:27,663 [main] INFO craftBetWorld - Dupliicate game Name =  Big Prosperity SA
+2023-04-10 13:21:27,663 [main] INFO craftBetWorld - Dupliicate game Name =  Bikini Island
+2023-04-10 13:21:27,664 [main] INFO craftBetWorld - Dupliicate game Name =  Bird of Thunder
+2023-04-10 13:21:27,664 [main] INFO craftBetWorld - Dupliicate game Name =  Black Hawk
+2023-04-10 13:21:27,664 [main] INFO craftBetWorld - Dupliicate game Name =  Black Hawk Deluxe
+2023-04-10 13:21:27,665 [main] INFO craftBetWorld - Dupliicate game Name =  Blackbeard
+2023-04-10 13:21:27,665 [main] INFO craftBetWorld - Dupliicate game Name =  Blackjack Double Exposure 3 Hand
+2023-04-10 13:21:27,666 [main] INFO craftBetWorld - Dupliicate game Name =  Bomb Runner
+2023-04-10 13:21:27,667 [main] INFO craftBetWorld - Dupliicate game Name =  Bombs Away
+2023-04-10 13:21:27,668 [main] INFO craftBetWorld - Dupliicate game Name =  Book of Myth
+2023-04-10 13:21:27,669 [main] INFO craftBetWorld - Dupliicate game Name =  Book of Poseidon
+2023-04-10 13:21:27,669 [main] INFO craftBetWorld - Dupliicate game Name =  Book of Tombs
+2023-04-10 13:21:27,671 [main] INFO craftBetWorld - Dupliicate game Name =  Booming Gold
+2023-04-10 13:21:27,671 [main] INFO craftBetWorld - Dupliicate game Name =  Boomshakalaka
+2023-04-10 13:21:27,672 [main] INFO craftBetWorld - Dupliicate game Name =  Buggy Bonus
+2023-04-10 13:21:27,673 [main] INFO craftBetWorld - Dupliicate game Name =  Burning Reels
+2023-04-10 13:21:27,675 [main] INFO craftBetWorld - Dupliicate game Name =  Candy Candy
+2023-04-10 13:21:27,675 [main] INFO craftBetWorld - Dupliicate game Name =  Candy Pop
+2023-04-10 13:21:27,677 [main] INFO craftBetWorld - Dupliicate game Name =  Candy Tower
+2023-04-10 13:21:27,678 [main] INFO craftBetWorld - Dupliicate game Name =  Caribbean Stud
+2023-04-10 13:21:27,679 [main] INFO craftBetWorld - Dupliicate game Name =  Carnival Cash
+2023-04-10 13:21:27,679 [main] INFO craftBetWorld - Dupliicate game Name =  Cash Encounters
+2023-04-10 13:21:27,680 [main] INFO craftBetWorld - Dupliicate game Name =  Cash Pig
+2023-04-10 13:21:27,680 [main] INFO craftBetWorld - Dupliicate game Name =  Cash Reef
+2023-04-10 13:21:27,680 [main] INFO craftBetWorld - Dupliicate game Name =  Cash Up
+2023-04-10 13:21:27,681 [main] INFO craftBetWorld - Dupliicate game Name =  Cashosaurus
+2023-04-10 13:21:27,681 [main] INFO craftBetWorld - Dupliicate game Name =  Casino Roulette
+2023-04-10 13:21:27,682 [main] INFO craftBetWorld - Dupliicate game Name =  Cats
+2023-04-10 13:21:27,682 [main] INFO craftBetWorld - Dupliicate game Name =  Cats
+2023-04-10 13:21:27,683 [main] INFO craftBetWorld - Dupliicate game Name =  Cherry Bomb Deluxe
+2023-04-10 13:21:27,684 [main] INFO craftBetWorld - Dupliicate game Name =  Chilli Con Carnage
+2023-04-10 13:21:27,685 [main] INFO craftBetWorld - Dupliicate game Name =  Christmas Gift Rush
+2023-04-10 13:21:27,685 [main] INFO craftBetWorld - Dupliicate game Name =  Classico
+2023-04-10 13:21:27,688 [main] INFO craftBetWorld - Dupliicate game Name =  Craps
+2023-04-10 13:21:27,689 [main] INFO craftBetWorld - Dupliicate game Name =  Crazy Bananas
+2023-04-10 13:21:27,689 [main] INFO craftBetWorld - Dupliicate game Name =  Crazy Bomber
+2023-04-10 13:21:27,689 [main] INFO craftBetWorld - Dupliicate game Name =  Criss Cross 81
+2023-04-10 13:21:27,690 [main] INFO craftBetWorld - Dupliicate game Name =  Crystal Classics
+2023-04-10 13:21:27,690 [main] INFO craftBetWorld - Dupliicate game Name =  Dancing Fever
+2023-04-10 13:21:27,691 [main] INFO craftBetWorld - Dupliicate game Name =  Danger Zone
+2023-04-10 13:21:27,691 [main] INFO craftBetWorld - Dupliicate game Name =  Demon Jack 27
+2023-04-10 13:21:27,693 [main] INFO craftBetWorld - Dupliicate game Name =  Devil's Heat
+2023-04-10 13:21:27,693 [main] INFO craftBetWorld - Dupliicate game Name =  Diamond Blast Zone
+2023-04-10 13:21:27,694 [main] INFO craftBetWorld - Dupliicate game Name =  Diamond Riches
+2023-04-10 13:21:27,694 [main] INFO craftBetWorld - Dupliicate game Name =  Diamond Symphony
+2023-04-10 13:21:27,694 [main] INFO craftBetWorld - Dupliicate game Name =  Dino Reels 81
+2023-04-10 13:21:27,695 [main] INFO craftBetWorld - Dupliicate game Name =  Dino Zone
+2023-04-10 13:21:27,695 [main] INFO craftBetWorld - Dupliicate game Name =  Disco Beats
+2023-04-10 13:21:27,695 [main] INFO craftBetWorld - Dupliicate game Name =  Disco Funk
+2023-04-10 13:21:27,698 [main] INFO craftBetWorld - Dupliicate game Name =  Double Tigers
+2023-04-10 13:21:27,699 [main] INFO craftBetWorld - Dupliicate game Name =  Dracula's Castle
+2023-04-10 13:21:27,699 [main] INFO craftBetWorld - Dupliicate game Name =  Dragon Castle
+2023-04-10 13:21:27,700 [main] INFO craftBetWorld - Dupliicate game Name =  Dragon Lore
+2023-04-10 13:21:27,700 [main] INFO craftBetWorld - Dupliicate game Name =  Dragon Tiger
+2023-04-10 13:21:27,701 [main] INFO craftBetWorld - Dupliicate game Name =  Dragon's Chest
+2023-04-10 13:21:27,702 [main] INFO craftBetWorld - Dupliicate game Name =  Dwarfs Fortune
+2023-04-10 13:21:27,702 [main] INFO craftBetWorld - Dupliicate game Name =  Egyptian Dreams
+2023-04-10 13:21:27,703 [main] INFO craftBetWorld - Dupliicate game Name =  Egyptian Dreams Deluxe
+2023-04-10 13:21:27,704 [main] INFO craftBetWorld - Dupliicate game Name =  Exotic Fruit
+2023-04-10 13:21:27,705 [main] INFO craftBetWorld - Dupliicate game Name =  FaFaFa
+2023-04-10 13:21:27,706 [main] INFO craftBetWorld - Dupliicate game Name =  Fenghuang
+2023-04-10 13:21:27,706 [main] INFO craftBetWorld - Dupliicate game Name =  Fenix Play 27
+2023-04-10 13:21:27,707 [main] INFO craftBetWorld - Dupliicate game Name =  Fenix Play 27 Deluxe
+2023-04-10 13:21:27,707 [main] INFO craftBetWorld - Dupliicate game Name =  Fenix Play Deluxe
+2023-04-10 13:21:27,707 [main] INFO craftBetWorld - Dupliicate game Name =  Fiery Sevens
+2023-04-10 13:21:27,708 [main] INFO craftBetWorld - Dupliicate game Name =  Fire Bird
+2023-04-10 13:21:27,708 [main] INFO craftBetWorld - Dupliicate game Name =  Fire Rooster
+2023-04-10 13:21:27,710 [main] INFO craftBetWorld - Dupliicate game Name =  First Love
+2023-04-10 13:21:27,712 [main] INFO craftBetWorld - Dupliicate game Name =  Flames of Hephaestus
+2023-04-10 13:21:27,712 [main] INFO craftBetWorld - Dupliicate game Name =  Flaming Chilies
+2023-04-10 13:21:27,712 [main] INFO craftBetWorld - Dupliicate game Name =  Fly!
+2023-04-10 13:21:27,712 [main] INFO craftBetWorld - Dupliicate game Name =  Flying High
+2023-04-10 13:21:27,713 [main] INFO craftBetWorld - Dupliicate game Name =  Football Mania
+2023-04-10 13:21:27,713 [main] INFO craftBetWorld - Dupliicate game Name =  Football Mania Deluxe
+2023-04-10 13:21:27,714 [main] INFO craftBetWorld - Dupliicate game Name =  Force of Nature
+2023-04-10 13:21:27,715 [main] INFO craftBetWorld - Dupliicate game Name =  Fortune Fireworks
+2023-04-10 13:21:27,716 [main] INFO craftBetWorld - Dupliicate game Name =  Fortune Lucky
+2023-04-10 13:21:27,716 [main] INFO craftBetWorld - Dupliicate game Name =  Fortune Reels
+2023-04-10 13:21:27,717 [main] INFO craftBetWorld - Dupliicate game Name =  Fortune Teller's Charm
+2023-04-10 13:21:27,717 [main] INFO craftBetWorld - Dupliicate game Name =  Fortune Teller's Charm 6
+2023-04-10 13:21:27,718 [main] INFO craftBetWorld - Dupliicate game Name =  Four Divine Beasts
+2023-04-10 13:21:27,719 [main] INFO craftBetWorld - Dupliicate game Name =  Freezing Classics
+2023-04-10 13:21:27,719 [main] INFO craftBetWorld - Dupliicate game Name =  Frontier Fortunes
+2023-04-10 13:21:27,720 [main] INFO craftBetWorld - Dupliicate game Name =  Fruit Fiesta
+2023-04-10 13:21:27,720 [main] INFO craftBetWorld - Dupliicate game Name =  Fruit Mania
+2023-04-10 13:21:27,720 [main] INFO craftBetWorld - Dupliicate game Name =  Fruit Mania Deluxe
+2023-04-10 13:21:27,722 [main] INFO craftBetWorld - Dupliicate game Name =  Galactic Cash
+2023-04-10 13:21:27,723 [main] INFO craftBetWorld - Dupliicate game Name =  Gamblelicious Hold and Win
+2023-04-10 13:21:27,723 [main] INFO craftBetWorld - Dupliicate game Name =  Gangsters
+2023-04-10 13:21:27,724 [main] INFO craftBetWorld - Dupliicate game Name =  Gem Splitter
+2023-04-10 13:21:27,724 [main] INFO craftBetWorld - Dupliicate game Name =  Gem Zone
+2023-04-10 13:21:27,726 [main] INFO craftBetWorld - Dupliicate game Name =  Gladiator Arena
+2023-04-10 13:21:27,728 [main] INFO craftBetWorld - Dupliicate game Name =  Gold Hunter
+2023-04-10 13:21:27,728 [main] INFO craftBetWorld - Dupliicate game Name =  Gold Panther
+2023-04-10 13:21:27,729 [main] INFO craftBetWorld - Dupliicate game Name =  Gold Roulette
+2023-04-10 13:21:27,730 [main] INFO craftBetWorld - Dupliicate game Name =  Gold Vein
+2023-04-10 13:21:27,730 [main] INFO craftBetWorld - Dupliicate game Name =  Golden Girls
+2023-04-10 13:21:27,730 [main] INFO craftBetWorld - Dupliicate game Name =  Golden Lucky Pigs
+2023-04-10 13:21:27,731 [main] INFO craftBetWorld - Dupliicate game Name =  Golden Profits
+2023-04-10 13:21:27,731 [main] INFO craftBetWorld - Dupliicate game Name =  Golden Unicorn
+2023-04-10 13:21:27,731 [main] INFO craftBetWorld - Dupliicate game Name =  Golden Unicorn Deluxe
+2023-04-10 13:21:27,732 [main] INFO craftBetWorld - Dupliicate game Name =  Golden Whale
+2023-04-10 13:21:27,732 [main] INFO craftBetWorld - Dupliicate game Name =  Good Luck 40
+2023-04-10 13:21:27,732 [main] INFO craftBetWorld - Dupliicate game Name =  Grape Escape
+2023-04-10 13:21:27,733 [main] INFO craftBetWorld - Dupliicate game Name =  Greek Legends
+2023-04-10 13:21:27,733 [main] INFO craftBetWorld - Dupliicate game Name =  Gunspinner
+2023-04-10 13:21:27,734 [main] INFO craftBetWorld - Dupliicate game Name =  Gypsy Spell
+2023-04-10 13:21:27,734 [main] INFO craftBetWorld - Dupliicate game Name =  Happy Ape
+2023-04-10 13:21:27,735 [main] INFO craftBetWorld - Dupliicate game Name =  Hattrick Heroes
+2023-04-10 13:21:27,736 [main] INFO craftBetWorld - Dupliicate game Name =  Heroes
+2023-04-10 13:21:27,736 [main] INFO craftBetWorld - Dupliicate game Name =  Highschool Manga
+2023-04-10 13:21:27,737 [main] INFO craftBetWorld - Dupliicate game Name =  Honey Hunter
+2023-04-10 13:21:27,737 [main] INFO craftBetWorld - Dupliicate game Name =  Hooked
+2023-04-10 13:21:27,738 [main] INFO craftBetWorld - Dupliicate game Name =  Hot Hot Fruit
+2023-04-10 13:21:27,738 [main] INFO craftBetWorld - Dupliicate game Name =  Hot Hot Halloween
+2023-04-10 13:21:27,738 [main] INFO craftBetWorld - Dupliicate game Name =  Hot Party
+2023-04-10 13:21:27,739 [main] INFO craftBetWorld - Dupliicate game Name =  Hot Party Deluxe
+2023-04-10 13:21:27,739 [main] INFO craftBetWorld - Dupliicate game Name =  Hot Slot: 777 Crown
+2023-04-10 13:21:27,740 [main] INFO craftBetWorld - Dupliicate game Name =  Howling Wolves Megaways
+2023-04-10 13:21:27,740 [main] INFO craftBetWorld - Dupliicate game Name =  Hugon Quest
+2023-04-10 13:21:27,741 [main] INFO craftBetWorld - Dupliicate game Name =  Hungry Shark
+2023-04-10 13:21:27,741 [main] INFO craftBetWorld - Dupliicate game Name =  In The Forest
+2023-04-10 13:21:27,742 [main] INFO craftBetWorld - Dupliicate game Name =  Indian Cash Catcher
+2023-04-10 13:21:27,743 [main] INFO craftBetWorld - Dupliicate game Name =  Jack on Hold
+2023-04-10 13:21:27,744 [main] INFO craftBetWorld - Dupliicate game Name =  Jackpot Builders
+2023-04-10 13:21:27,745 [main] INFO craftBetWorld - Dupliicate game Name =  Jelly Reels
+2023-04-10 13:21:27,745 [main] INFO craftBetWorld - Dupliicate game Name =  Jellyfish Flow
+2023-04-10 13:21:27,746 [main] INFO craftBetWorld - Dupliicate game Name =  Jesters Joy
+2023-04-10 13:21:27,747 [main] INFO craftBetWorld - Dupliicate game Name =  Joker Explosion
+2023-04-10 13:21:27,747 [main] INFO craftBetWorld - Dupliicate game Name =  Jokers Treasure
+2023-04-10 13:21:27,748 [main] INFO craftBetWorld - Dupliicate game Name =  Jugglenaut
+2023-04-10 13:21:27,748 [main] INFO craftBetWorld - Dupliicate game Name =  Juicy Reels
+2023-04-10 13:21:27,749 [main] INFO craftBetWorld - Dupliicate game Name =  Jump!
+2023-04-10 13:21:27,749 [main] INFO craftBetWorld - Dupliicate game Name =  Jumping Fruits
+2023-04-10 13:21:27,749 [main] INFO craftBetWorld - Dupliicate game Name =  Jungle King
+2023-04-10 13:21:27,750 [main] INFO craftBetWorld - Dupliicate game Name =  Jungle Rumble
+2023-04-10 13:21:27,751 [main] INFO craftBetWorld - Dupliicate game Name =  KickOff
+2023-04-10 13:21:27,751 [main] INFO craftBetWorld - Dupliicate game Name =  Kim's Wild Journey
+2023-04-10 13:21:27,751 [main] INFO craftBetWorld - Dupliicate game Name =  Kingdom of Cards
+2023-04-10 13:21:27,752 [main] INFO craftBetWorld - Dupliicate game Name =  Knockout Football
+2023-04-10 13:21:27,752 [main] INFO craftBetWorld - Dupliicate game Name =  Knockout Football Rush
+2023-04-10 13:21:27,752 [main] INFO craftBetWorld - Dupliicate game Name =  Kraken Conquest
+2023-04-10 13:21:27,753 [main] INFO craftBetWorld - Dupliicate game Name =  Lantern Luck
+2023-04-10 13:21:27,753 [main] INFO craftBetWorld - Dupliicate game Name =  Larry the Leprechaun Easter
+2023-04-10 13:21:27,755 [main] INFO craftBetWorld - Dupliicate game Name =  Legendary Diamonds
+2023-04-10 13:21:27,755 [main] INFO craftBetWorld - Dupliicate game Name =  Little Green Money
+2023-04-10 13:21:27,755 [main] INFO craftBetWorld - Dupliicate game Name =  Little Pigs
+2023-04-10 13:21:27,756 [main] INFO craftBetWorld - Dupliicate game Name =  London Hunter
+2023-04-10 13:21:27,757 [main] INFO craftBetWorld - Dupliicate game Name =  Lost Treasure
+2023-04-10 13:21:27,757 [main] INFO craftBetWorld - Dupliicate game Name =  Lotus Love
+2023-04-10 13:21:27,757 [main] INFO craftBetWorld - Dupliicate game Name =  Low Hanging Fruit
+2023-04-10 13:21:27,758 [main] INFO craftBetWorld - Dupliicate game Name =  Lucky Cat
+2023-04-10 13:21:27,759 [main] INFO craftBetWorld - Dupliicate game Name =  Lucky Coin
+2023-04-10 13:21:27,760 [main] INFO craftBetWorld - Dupliicate game Name =  Lucky Durian
+2023-04-10 13:21:27,760 [main] INFO craftBetWorld - Dupliicate game Name =  Lucky Fish
+2023-04-10 13:21:27,761 [main] INFO craftBetWorld - Dupliicate game Name =  Lucky Fortune Cat
+2023-04-10 13:21:27,761 [main] INFO craftBetWorld - Dupliicate game Name =  Lucky Gems
+2023-04-10 13:21:27,762 [main] INFO craftBetWorld - Dupliicate game Name =  Lucky Koi
+2023-04-10 13:21:27,763 [main] INFO craftBetWorld - Dupliicate game Name =  Lucky Queen
+2023-04-10 13:21:27,764 [main] INFO craftBetWorld - Dupliicate game Name =  Lucky Scarabs
+2023-04-10 13:21:27,765 [main] INFO craftBetWorld - Dupliicate game Name =  Mad Monsters
+2023-04-10 13:21:27,766 [main] INFO craftBetWorld - Dupliicate game Name =  Magic Eggs
+2023-04-10 13:21:27,766 [main] INFO craftBetWorld - Dupliicate game Name =  Magic Fruits
+2023-04-10 13:21:27,766 [main] INFO craftBetWorld - Dupliicate game Name =  Magic Fruits 27
+2023-04-10 13:21:27,766 [main] INFO craftBetWorld - Dupliicate game Name =  Magic Fruits 4
+2023-04-10 13:21:27,767 [main] INFO craftBetWorld - Dupliicate game Name =  Magic Fruits 4 Deluxe
+2023-04-10 13:21:27,767 [main] INFO craftBetWorld - Dupliicate game Name =  Magic Fruits 81
+2023-04-10 13:21:27,767 [main] INFO craftBetWorld - Dupliicate game Name =  Magic Fruits Deluxe
+2023-04-10 13:21:27,767 [main] INFO craftBetWorld - Dupliicate game Name =  Magic Hot
+2023-04-10 13:21:27,768 [main] INFO craftBetWorld - Dupliicate game Name =  Magic Hot 4
+2023-04-10 13:21:27,768 [main] INFO craftBetWorld - Dupliicate game Name =  Magic Hot 4 Deluxe
+2023-04-10 13:21:27,768 [main] INFO craftBetWorld - Dupliicate game Name =  Magic Mystery Money
+2023-04-10 13:21:27,768 [main] INFO craftBetWorld - Dupliicate game Name =  Magic Of The Ring
+2023-04-10 13:21:27,768 [main] INFO craftBetWorld - Dupliicate game Name =  Magic Spins
+2023-04-10 13:21:27,768 [main] INFO craftBetWorld - Dupliicate game Name =  Magic Stars
+2023-04-10 13:21:27,769 [main] INFO craftBetWorld - Dupliicate game Name =  Magic Stars 5
+2023-04-10 13:21:27,769 [main] INFO craftBetWorld - Dupliicate game Name =  Magic Stars 6
+2023-04-10 13:21:27,769 [main] INFO craftBetWorld - Dupliicate game Name =  Magic Stars 9
+2023-04-10 13:21:27,769 [main] INFO craftBetWorld - Dupliicate game Name =  Magic Target
+2023-04-10 13:21:27,769 [main] INFO craftBetWorld - Dupliicate game Name =  Magic Target Deluxe
+2023-04-10 13:21:27,770 [main] INFO craftBetWorld - Dupliicate game Name =  Majestic Safari
+2023-04-10 13:21:27,770 [main] INFO craftBetWorld - Dupliicate game Name =  Marvelous Furlongs
+2023-04-10 13:21:27,770 [main] INFO craftBetWorld - Dupliicate game Name =  Mayan Gems
+2023-04-10 13:21:27,771 [main] INFO craftBetWorld - Dupliicate game Name =  Mermaid
+2023-04-10 13:21:27,771 [main] INFO craftBetWorld - Dupliicate game Name =  Mexico Wins
+2023-04-10 13:21:27,771 [main] INFO craftBetWorld - Dupliicate game Name =  Miami Beach
+2023-04-10 13:21:27,771 [main] INFO craftBetWorld - Dupliicate game Name =  Miami Nights
+2023-04-10 13:21:27,771 [main] INFO craftBetWorld - Dupliicate game Name =  Midnight in Tokyo
+2023-04-10 13:21:27,771 [main] INFO craftBetWorld - Dupliicate game Name =  Mighty Gorilla
+2023-04-10 13:21:27,771 [main] INFO craftBetWorld - Dupliicate game Name =  Mighty Medusa
+2023-04-10 13:21:27,772 [main] INFO craftBetWorld - Dupliicate game Name =  Money Moose
+2023-04-10 13:21:27,772 [main] INFO craftBetWorld - Dupliicate game Name =  Money Mouse
+2023-04-10 13:21:27,772 [main] INFO craftBetWorld - Dupliicate game Name =  Money Mouse
+2023-04-10 13:21:27,772 [main] INFO craftBetWorld - Dupliicate game Name =  Monster Mash Cash
+2023-04-10 13:21:27,772 [main] INFO craftBetWorld - Dupliicate game Name =  Moodie Foodie
+2023-04-10 13:21:27,772 [main] INFO craftBetWorld - Dupliicate game Name =  Moose Vamoose
+2023-04-10 13:21:27,773 [main] INFO craftBetWorld - Dupliicate game Name =  Mr Bling
+2023-04-10 13:21:27,773 [main] INFO craftBetWorld - Dupliicate game Name =  Mr Chu Tycoon
+2023-04-10 13:21:27,773 [main] INFO craftBetWorld - Dupliicate game Name =  Mr. Billionaire
+2023-04-10 13:21:27,773 [main] INFO craftBetWorld - Dupliicate game Name =  Mystery Jack
+2023-04-10 13:21:27,774 [main] INFO craftBetWorld - Dupliicate game Name =  Mystery Jack Deluxe
+2023-04-10 13:21:27,774 [main] INFO craftBetWorld - Dupliicate game Name =  Mystic Fortune
+2023-04-10 13:21:27,774 [main] INFO craftBetWorld - Dupliicate game Name =  Mystic Fortune Deluxe
+2023-04-10 13:21:27,774 [main] INFO craftBetWorld - Dupliicate game Name =  Night Club 81
+2023-04-10 13:21:27,774 [main] INFO craftBetWorld - Dupliicate game Name =  Nine Tails
+2023-04-10 13:21:27,775 [main] INFO craftBetWorld - Dupliicate game Name =  Nuwa
+2023-04-10 13:21:27,776 [main] INFO craftBetWorld - Dupliicate game Name =  Ocean Drive
+2023-04-10 13:21:27,776 [main] INFO craftBetWorld - Dupliicate game Name =  Ocean's Call
+2023-04-10 13:21:27,777 [main] INFO craftBetWorld - Dupliicate game Name =  Orbs of Atlantis
+2023-04-10 13:21:27,777 [main] INFO craftBetWorld - Dupliicate game Name =  Out of This World
+2023-04-10 13:21:27,778 [main] INFO craftBetWorld - Dupliicate game Name =  Panda Panda
+2023-04-10 13:21:27,778 [main] INFO craftBetWorld - Dupliicate game Name =  Paris Nights
+2023-04-10 13:21:27,778 [main] INFO craftBetWorld - Dupliicate game Name =  Patrick's Jackpot
+2023-04-10 13:21:27,779 [main] INFO craftBetWorld - Dupliicate game Name =  Potion Factory
+2023-04-10 13:21:27,780 [main] INFO craftBetWorld - Dupliicate game Name =  Presto!
+2023-04-10 13:21:27,780 [main] INFO craftBetWorld - Dupliicate game Name =  Princess Wang
+2023-04-10 13:21:27,780 [main] INFO craftBetWorld - Dupliicate game Name =  Pumpkin Patch
+2023-04-10 13:21:27,780 [main] INFO craftBetWorld - Dupliicate game Name =  Queen of Queens
+2023-04-10 13:21:27,780 [main] INFO craftBetWorld - Dupliicate game Name =  Queen of Queens II
+2023-04-10 13:21:27,780 [main] INFO craftBetWorld - Dupliicate game Name =  Queen Of Thrones
+2023-04-10 13:21:27,781 [main] INFO craftBetWorld - Dupliicate game Name =  Red Hot Volcano
+2023-04-10 13:21:27,781 [main] INFO craftBetWorld - Dupliicate game Name =  Red Temple II
+2023-04-10 13:21:27,782 [main] INFO craftBetWorld - Dupliicate game Name =  Reel Holidays
+2023-04-10 13:21:27,782 [main] INFO craftBetWorld - Dupliicate game Name =  Rhino Hold and Win
+2023-04-10 13:21:27,782 [main] INFO craftBetWorld - Dupliicate game Name =  Rise Of Werewolves
+2023-04-10 13:21:27,783 [main] INFO craftBetWorld - Dupliicate game Name =  Rodeo Drive
+2023-04-10 13:21:27,783 [main] INFO craftBetWorld - Dupliicate game Name =  Rolling Roger
+2023-04-10 13:21:27,783 [main] INFO craftBetWorld - Dupliicate game Name =  Roman Empire
+2023-04-10 13:21:27,783 [main] INFO craftBetWorld - Dupliicate game Name =  Royal Katt
+2023-04-10 13:21:27,783 [main] INFO craftBetWorld - Dupliicate game Name =  Royal Wins
+2023-04-10 13:21:27,784 [main] INFO craftBetWorld - Dupliicate game Name =  Royale House
+2023-04-10 13:21:27,784 [main] INFO craftBetWorld - Dupliicate game Name =  S.O.S!
+2023-04-10 13:21:27,784 [main] INFO craftBetWorld - Dupliicate game Name =  Santa's Village
+2023-04-10 13:21:27,784 [main] INFO craftBetWorld - Dupliicate game Name =  Savage Shark
+2023-04-10 13:21:27,785 [main] INFO craftBetWorld - Dupliicate game Name =  Shang Dynasty
+2023-04-10 13:21:27,785 [main] INFO craftBetWorld - Dupliicate game Name =  Shaolin Fortunes
+2023-04-10 13:21:27,785 [main] INFO craftBetWorld - Dupliicate game Name =  Shaolin Fortunes 100
+2023-04-10 13:21:27,785 [main] INFO craftBetWorld - Dupliicate game Name =  Show Master
+2023-04-10 13:21:27,785 [main] INFO craftBetWorld - Dupliicate game Name =  Sic Bo Dragons
+2023-04-10 13:21:27,786 [main] INFO craftBetWorld - Dupliicate game Name =  Sicbo
+2023-04-10 13:21:27,786 [main] INFO craftBetWorld - Dupliicate game Name =  Sicbo
+2023-04-10 13:21:27,786 [main] INFO craftBetWorld - Dupliicate game Name =  Silk Road Riches
+2023-04-10 13:21:27,786 [main] INFO craftBetWorld - Dupliicate game Name =  Single Deck Blackjack
+2023-04-10 13:21:27,786 [main] INFO craftBetWorld - Dupliicate game Name =  Single Deck Blackjack
+2023-04-10 13:21:27,786 [main] INFO craftBetWorld - Dupliicate game Name =  Sizzling Bells
+2023-04-10 13:21:27,787 [main] INFO craftBetWorld - Dupliicate game Name =  Sizzling Eggs
+2023-04-10 13:21:27,787 [main] INFO craftBetWorld - Dupliicate game Name =  Sizzling Moon
+2023-04-10 13:21:27,787 [main] INFO craftBetWorld - Dupliicate game Name =  Sky Vault
+2023-04-10 13:21:27,787 [main] INFO craftBetWorld - Dupliicate game Name =  Slot Jam
+2023-04-10 13:21:27,787 [main] INFO craftBetWorld - Dupliicate game Name =  Snail Race
+2023-04-10 13:21:27,788 [main] INFO craftBetWorld - Dupliicate game Name =  Space Fortune
+2023-04-10 13:21:27,788 [main] INFO craftBetWorld - Dupliicate game Name =  Sparta
+2023-04-10 13:21:27,788 [main] INFO craftBetWorld - Dupliicate game Name =  Sparta
+2023-04-10 13:21:27,788 [main] INFO craftBetWorld - Dupliicate game Name =  Spectrum
+2023-04-10 13:21:27,789 [main] INFO craftBetWorld - Dupliicate game Name =  Spinosaurus
+2023-04-10 13:21:27,789 [main] INFO craftBetWorld - Dupliicate game Name =  Splitting Ways
+2023-04-10 13:21:27,789 [main] INFO craftBetWorld - Dupliicate game Name =  Sticky Bombs
+2023-04-10 13:21:27,790 [main] INFO craftBetWorld - Dupliicate game Name =  Sugar Skulls
+2023-04-10 13:21:27,790 [main] INFO craftBetWorld - Dupliicate game Name =  Super Boom
+2023-04-10 13:21:27,790 [main] INFO craftBetWorld - Dupliicate game Name =  Super Hot
+2023-04-10 13:21:27,791 [main] INFO craftBetWorld - Dupliicate game Name =  Super Strike
+2023-04-10 13:21:27,791 [main] INFO craftBetWorld - Dupliicate game Name =  Super Twister
+2023-04-10 13:21:27,791 [main] INFO craftBetWorld - Dupliicate game Name =  Surfin' Reels
+2023-04-10 13:21:27,791 [main] INFO craftBetWorld - Dupliicate game Name =  Taberna De Los Muertos
+2023-04-10 13:21:27,792 [main] INFO craftBetWorld - Dupliicate game Name =  Taxi
+2023-04-10 13:21:27,792 [main] INFO craftBetWorld - Dupliicate game Name =  Techno Tumble
+2023-04-10 13:21:27,793 [main] INFO craftBetWorld - Dupliicate game Name =  The Big Deal
+2023-04-10 13:21:27,794 [main] INFO craftBetWorld - Dupliicate game Name =  The Dead Escape
+2023-04-10 13:21:27,794 [main] INFO craftBetWorld - Dupliicate game Name =  The Expandables
+2023-04-10 13:21:27,794 [main] INFO craftBetWorld - Dupliicate game Name =  The Jungle II
+2023-04-10 13:21:27,795 [main] INFO craftBetWorld - Dupliicate game Name =  The Tablet of Amun Ra
+2023-04-10 13:21:27,795 [main] INFO craftBetWorld - Dupliicate game Name =  Three Card Poker
+2023-04-10 13:21:27,795 [main] INFO craftBetWorld - Dupliicate game Name =  Tiger Dance
+2023-04-10 13:21:27,796 [main] INFO craftBetWorld - Dupliicate game Name =  Totem Towers
+2023-04-10 13:21:27,796 [main] INFO craftBetWorld - Dupliicate game Name =  Tower Of Pizza
+2023-04-10 13:21:27,796 [main] INFO craftBetWorld - Dupliicate game Name =  Triple Panda
+2023-04-10 13:21:27,796 [main] INFO craftBetWorld - Dupliicate game Name =  Triple Star
+2023-04-10 13:21:27,797 [main] INFO craftBetWorld - Dupliicate game Name =  Unicorn Reels
+2023-04-10 13:21:27,797 [main] INFO craftBetWorld - Dupliicate game Name =  Universal Cup
+2023-04-10 13:21:27,797 [main] INFO craftBetWorld - Dupliicate game Name =  Valhalla
+2023-04-10 13:21:27,797 [main] INFO craftBetWorld - Dupliicate game Name =  Vegas Hot
+2023-04-10 13:21:27,798 [main] INFO craftBetWorld - Dupliicate game Name =  Vegas Hot 81
+2023-04-10 13:21:27,798 [main] INFO craftBetWorld - Dupliicate game Name =  Vegas Reels II
+2023-04-10 13:21:27,798 [main] INFO craftBetWorld - Dupliicate game Name =  Vegas VIP Gold
+2023-04-10 13:21:27,798 [main] INFO craftBetWorld - Dupliicate game Name =  Vegas Wins
+2023-04-10 13:21:27,799 [main] INFO craftBetWorld - Dupliicate game Name =  Viking Raid Zone
+2023-04-10 13:21:27,799 [main] INFO craftBetWorld - Dupliicate game Name =  War
+2023-04-10 13:21:27,799 [main] INFO craftBetWorld - Dupliicate game Name =  Ways Of Fortune
+2023-04-10 13:21:27,800 [main] INFO craftBetWorld - Dupliicate game Name =  Welcome To Hell 81
+2023-04-10 13:21:27,800 [main] INFO craftBetWorld - Dupliicate game Name =  Wild & Fruity
+2023-04-10 13:21:27,800 [main] INFO craftBetWorld - Dupliicate game Name =  Wild Bonus Re-Spins
+2023-04-10 13:21:27,800 [main] INFO craftBetWorld - Dupliicate game Name =  Wild Diamond 7x
+2023-04-10 13:21:27,801 [main] INFO craftBetWorld - Dupliicate game Name =  Wild Energy
+2023-04-10 13:21:27,801 [main] INFO craftBetWorld - Dupliicate game Name =  Wild Girls
+2023-04-10 13:21:27,801 [main] INFO craftBetWorld - Dupliicate game Name =  Wild Guns
+2023-04-10 13:21:27,801 [main] INFO craftBetWorld - Dupliicate game Name =  Wild Jack
+2023-04-10 13:21:27,801 [main] INFO craftBetWorld - Dupliicate game Name =  Wild Jack
+2023-04-10 13:21:27,801 [main] INFO craftBetWorld - Dupliicate game Name =  Wild Jack 81
+2023-04-10 13:21:27,801 [main] INFO craftBetWorld - Dupliicate game Name =  Wild Jane
+2023-04-10 13:21:27,802 [main] INFO craftBetWorld - Dupliicate game Name =  Wild Jester
+2023-04-10 13:21:27,802 [main] INFO craftBetWorld - Dupliicate game Name =  Wild Ocean
+2023-04-10 13:21:27,802 [main] INFO craftBetWorld - Dupliicate game Name =  Wild Pride
+2023-04-10 13:21:27,802 [main] INFO craftBetWorld - Dupliicate game Name =  Wild Trucks
+2023-04-10 13:21:27,802 [main] INFO craftBetWorld - Dupliicate game Name =  Wild West Zone
+2023-04-10 13:21:27,802 [main] INFO craftBetWorld - Dupliicate game Name =  Wild Wild Vegas
+2023-04-10 13:21:27,803 [main] INFO craftBetWorld - Dupliicate game Name =  Wizarding Wins
+2023-04-10 13:21:27,803 [main] INFO craftBetWorld - Dupliicate game Name =  Wunderfest
+2023-04-10 13:21:27,804 [main] INFO craftBetWorld - Dupliicate game Name =  Yin & Yang
+2023-04-10 13:21:27,804 [main] INFO craftBetWorld - Dupliicate game Name =  Zeus
+2023-04-10 13:21:27,804 [main] INFO craftBetWorld - Dupliicate game Name =  Zeus 2
+2023-04-10 13:21:27,805 [main] INFO craftBetWorld - Dupliicate game Name =  Mini Roulette
+2023-04-10 13:21:27,805 [main] INFO craftBetWorld - Dupliicate game Name =  The Mystery of Faberge
+2023-04-10 13:21:27,805 [main] INFO craftBetWorld - Dupliicate game Name =  Zeppelin
+2023-04-10 13:21:27,807 [main] INFO craftBetWorld - Dupliicate game Name =  3Kingdoms-BattleofR.C.
+2023-04-10 13:21:27,811 [main] INFO craftBetWorld - Dupliicate game Name =  Always Hot Cubes
+2023-04-10 13:21:27,812 [main] INFO craftBetWorld - Dupliicate game Name =  Always Hot Deluxe
+2023-04-10 13:21:27,812 [main] INFO craftBetWorld - Dupliicate game Name =  Amulet of the Pharaoh
+2023-04-10 13:21:27,815 [main] INFO craftBetWorld - Dupliicate game Name =  Baccarat
+2023-04-10 13:21:27,817 [main] INFO craftBetWorld - Dupliicate game Name =  Big Ben
+2023-04-10 13:21:27,818 [main] INFO craftBetWorld - Dupliicate game Name =  Big Ben
+2023-04-10 13:21:27,818 [main] INFO craftBetWorld - Dupliicate game Name =  Big Ben
+2023-04-10 13:21:27,819 [main] INFO craftBetWorld - Dupliicate game Name =  Black Jack
+2023-04-10 13:21:27,819 [main] INFO craftBetWorld - Dupliicate game Name =  Blackjack
+2023-04-10 13:21:27,819 [main] INFO craftBetWorld - Dupliicate game Name =  Blackjack VIP
+2023-04-10 13:21:27,824 [main] INFO craftBetWorld - Dupliicate game Name =  Caligula
+2023-04-10 13:21:27,826 [main] INFO craftBetWorld - Dupliicate game Name =  Cats
+2023-04-10 13:21:27,828 [main] INFO craftBetWorld - Dupliicate game Name =  Choy Sun Doa
+2023-04-10 13:21:27,828 [main] INFO craftBetWorld - Dupliicate game Name =  Choy Sun Doa
+2023-04-10 13:21:27,828 [main] INFO craftBetWorld - Dupliicate game Name =  Choy Sun Doa
+2023-04-10 13:21:27,831 [main] INFO craftBetWorld - Dupliicate game Name =  Dazzling Diamonds
+2023-04-10 13:21:27,832 [main] INFO craftBetWorld - Dupliicate game Name =  Deuces Wild
+2023-04-10 13:21:27,832 [main] INFO craftBetWorld - Dupliicate game Name =  Deuces Wild
+2023-04-10 13:21:27,833 [main] INFO craftBetWorld - Dupliicate game Name =  Deuces Wild
+2023-04-10 13:21:27,834 [main] INFO craftBetWorld - Dupliicate game Name =  Dolphin's Pearl
+2023-04-10 13:21:27,835 [main] INFO craftBetWorld - Dupliicate game Name =  Double Happiness
+2023-04-10 13:21:27,838 [main] INFO craftBetWorld - Dupliicate game Name =  European Blackjack
+2023-04-10 13:21:27,839 [main] INFO craftBetWorld - Dupliicate game Name =  European Roulette
+2023-04-10 13:21:27,839 [main] INFO craftBetWorld - Dupliicate game Name =  European Roulette
+2023-04-10 13:21:27,839 [main] INFO craftBetWorld - Dupliicate game Name =  European Roulette
+2023-04-10 13:21:27,839 [main] INFO craftBetWorld - Dupliicate game Name =  European Roulette
+2023-04-10 13:21:27,839 [main] INFO craftBetWorld - Dupliicate game Name =  European Roulette
+2023-04-10 13:21:27,839 [main] INFO craftBetWorld - Dupliicate game Name =  European Roulette
+2023-04-10 13:21:27,840 [main] INFO craftBetWorld - Dupliicate game Name =  European Roulette VIP
+2023-04-10 13:21:27,841 [main] INFO craftBetWorld - Dupliicate game Name =  Faust
+2023-04-10 13:21:27,844 [main] INFO craftBetWorld - Dupliicate game Name =  Fruit Farm
+2023-04-10 13:21:27,845 [main] INFO craftBetWorld - Dupliicate game Name =  Fruit Sensation
+2023-04-10 13:21:27,845 [main] INFO craftBetWorld - Dupliicate game Name =  Fruits'n Royals
+2023-04-10 13:21:27,848 [main] INFO craftBetWorld - Dupliicate game Name =  Gold Rush
+2023-04-10 13:21:27,848 [main] INFO craftBetWorld - Dupliicate game Name =  Golden Ark
+2023-04-10 13:21:27,850 [main] INFO craftBetWorld - Dupliicate game Name =  Hat Trick
+2023-04-10 13:21:27,851 [main] INFO craftBetWorld - Dupliicate game Name =  Helena
+2023-04-10 13:21:27,852 [main] INFO craftBetWorld - Dupliicate game Name =  Hot Chance
+2023-04-10 13:21:27,854 [main] INFO craftBetWorld - Dupliicate game Name =  Jacks or Better
+2023-04-10 13:21:27,854 [main] INFO craftBetWorld - Dupliicate game Name =  Jamboree Jubilee
+2023-04-10 13:21:27,855 [main] INFO craftBetWorld - Dupliicate game Name =  Joker Poker
+2023-04-10 13:21:27,855 [main] INFO craftBetWorld - Dupliicate game Name =  Joker Poker
+2023-04-10 13:21:27,855 [main] INFO craftBetWorld - Dupliicate game Name =  Joker Poker
+2023-04-10 13:21:27,856 [main] INFO craftBetWorld - Dupliicate game Name =  Katana
+2023-04-10 13:21:27,857 [main] INFO craftBetWorld - Dupliicate game Name =  Legend of the Four Beasts
+2023-04-10 13:21:27,858 [main] INFO craftBetWorld - Dupliicate game Name =  Lucky Clover
+2023-04-10 13:21:27,859 [main] INFO craftBetWorld - Dupliicate game Name =  Lucky Lady's Charm
+2023-04-10 13:21:27,859 [main] INFO craftBetWorld - Dupliicate game Name =  Lucky Lady's Charm
+2023-04-10 13:21:27,859 [main] INFO craftBetWorld - Dupliicate game Name =  Lucky Lady's Charm
+2023-04-10 13:21:27,859 [main] INFO craftBetWorld - Dupliicate game Name =  Lucky Lady's Charm
+2023-04-10 13:21:27,859 [main] INFO craftBetWorld - Dupliicate game Name =  Lucky Lady's Charm
+2023-04-10 13:21:27,860 [main] INFO craftBetWorld - Dupliicate game Name =  Lucky Lady's Charm
+2023-04-10 13:21:27,862 [main] INFO craftBetWorld - Dupliicate game Name =  Mega Joker
+2023-04-10 13:21:27,862 [main] INFO craftBetWorld - Dupliicate game Name =  Mega Joker
+2023-04-10 13:21:27,862 [main] INFO craftBetWorld - Dupliicate game Name =  Mega Joker
+2023-04-10 13:21:27,863 [main] INFO craftBetWorld - Dupliicate game Name =  Miss Kitty
+2023-04-10 13:21:27,863 [main] INFO craftBetWorld - Dupliicate game Name =  Money Mouse
+2023-04-10 13:21:27,864 [main] INFO craftBetWorld - Dupliicate game Name =  Mystic Secrets
+2023-04-10 13:21:27,865 [main] INFO craftBetWorld - Dupliicate game Name =  Pirate 21
+2023-04-10 13:21:27,865 [main] INFO craftBetWorld - Dupliicate game Name =  Plenty of Fruit 20
+2023-04-10 13:21:27,865 [main] INFO craftBetWorld - Dupliicate game Name =  Plenty of Fruit 40
+2023-04-10 13:21:27,866 [main] INFO craftBetWorld - Dupliicate game Name =  Queen of Gold 100,000
+2023-04-10 13:21:27,866 [main] INFO craftBetWorld - Dupliicate game Name =  Queen Of Hearts
+2023-04-10 13:21:27,866 [main] INFO craftBetWorld - Dupliicate game Name =  Railroad
+2023-04-10 13:21:27,867 [main] INFO craftBetWorld - Dupliicate game Name =  Red Baron
+2023-04-10 13:21:27,867 [main] INFO craftBetWorld - Dupliicate game Name =  Red Baron
+2023-04-10 13:21:27,867 [main] INFO craftBetWorld - Dupliicate game Name =  Red Baron
+2023-04-10 13:21:27,867 [main] INFO craftBetWorld - Dupliicate game Name =  Red Dog
+2023-04-10 13:21:27,867 [main] INFO craftBetWorld - Dupliicate game Name =  Rex
+2023-04-10 13:21:27,867 [main] INFO craftBetWorld - Dupliicate game Name =  Roaring Forties
+2023-04-10 13:21:27,868 [main] INFO craftBetWorld - Dupliicate game Name =  Secret Elixir
+2023-04-10 13:21:27,868 [main] INFO craftBetWorld - Dupliicate game Name =  Sicbo
+2023-04-10 13:21:27,868 [main] INFO craftBetWorld - Dupliicate game Name =  Single Deck Blackjack
+2023-04-10 13:21:27,868 [main] INFO craftBetWorld - Dupliicate game Name =  Sizzling 6
+2023-04-10 13:21:27,868 [main] INFO craftBetWorld - Dupliicate game Name =  Sizzling Hot Deluxe
+2023-04-10 13:21:27,868 [main] INFO craftBetWorld - Dupliicate game Name =  Sizzling Hot Deluxe
+2023-04-10 13:21:27,869 [main] INFO craftBetWorld - Dupliicate game Name =  Sizzling Hot Deluxe
+2023-04-10 13:21:27,869 [main] INFO craftBetWorld - Dupliicate game Name =  Sparta
+2023-04-10 13:21:27,869 [main] INFO craftBetWorld - Dupliicate game Name =  TalesOfDarkness
+2023-04-10 13:21:27,869 [main] INFO craftBetWorld - Dupliicate game Name =  The King G.Records
+2023-04-10 13:21:27,870 [main] INFO craftBetWorld - Dupliicate game Name =  Tomahawk
+2023-04-10 13:21:27,870 [main] INFO craftBetWorld - Dupliicate game Name =  Ultra 7 Wild
+2023-04-10 13:21:27,870 [main] INFO craftBetWorld - Dupliicate game Name =  Werewolf Wild
+2023-04-10 13:21:27,870 [main] INFO craftBetWorld - Dupliicate game Name =  Wild Jack
+2023-04-10 13:21:27,870 [main] INFO craftBetWorld - Dupliicate game Name =  Xtra Hot
+2023-04-10 13:21:27,870 [main] INFO craftBetWorld - Duplicate games are:  433
+2023-04-10 13:21:28,978 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-04-10 13:21:28,985 [main] INFO craftBetWorld - Test Url: https://craftbet.com partnerID: 1
+2023-04-10 13:21:31,622 [main] INFO craftBetWorld - Get games Api call was sent
+2023-04-10 13:21:31,658 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-04-10 13:21:31,729 [main] INFO craftBetWorld - All captured providers data  was added into ArrayLists Count: 60
+2023-04-10 13:21:32,094 [main] ERROR craftBetWorld - 10  Provider ID = 1150   Provider Name = BetSolutions :   cod = 200:   src = https://craftbet.com/assets/images/providers/1150.png
+2023-04-10 13:21:32,827 [main] ERROR craftBetWorld - 38  Provider ID = 1113   Provider Name = NucleusGaming :   cod = 200:   src = https://craftbet.com/assets/images/providers/1113.png
+2023-04-10 13:21:33,367 [main] INFO craftBetWorld - Broken Providers images are:  2
+2023-04-10 13:21:33,389 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-04-10 13:21:33,393 [main] INFO craftBetWorld - Test Url: https://craftbet.com partnerID: 1
+2023-04-10 13:21:36,038 [main] INFO craftBetWorld - Get games Api call was sent
+2023-04-10 13:21:36,132 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-04-10 13:21:36,186 [main] INFO craftBetWorld - All captured games images links was added into ArrayList: 4630
+2023-04-10 13:22:15,414 [main] INFO craftBetWorld - Test Url: https://craftbet.com partnerID: 1
+2023-04-10 13:22:16,838 [main] INFO craftBetWorld - Log In request was sent to https://craftbet.com
+2023-04-10 13:22:16,843 [main] INFO craftBetWorld - Token was captured: e78f429faba540999f7a90c54b423e83
+2023-04-10 13:22:16,844 [main] INFO craftBetWorld - User Id was captured: 1630845
+2023-04-10 13:22:19,442 [main] INFO craftBetWorld - Get All games API call 
+2023-04-10 13:22:19,607 [main] INFO craftBetWorld - From getGamesAPIUrl call body captured 
+2023-04-10 13:22:19,696 [main] INFO craftBetWorld - From getGamesAPIUrl call productIDes and Names was captured Games count: 4630
+2023-04-10 13:23:33,571 [main] INFO craftBetWorld - 1 60 ID=53024 Provider=Mascot Name=Prince of Persia: Persepolis cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:23:33,877 [main] INFO craftBetWorld - 2 61 ID=53012 Provider=Mascot Name=Riot cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:23:34,181 [main] INFO craftBetWorld - 3 62 ID=53025 Provider=Mascot Name=the Myth cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:23:34,556 [main] INFO craftBetWorld - 4 63 ID=53029 Provider=Mascot Name=Queen of Spades cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:23:34,888 [main] INFO craftBetWorld - 5 64 ID=7001 Provider=ZeusPlay Name=40 Flaming Lines cod=0 description=null ResponseObject=No final product_id
+2023-04-10 13:23:37,179 [main] INFO craftBetWorld - 6 68 ID=7006 Provider=ZeusPlay Name=Butterfly hot 10 cod=0 description=null ResponseObject=No final product_id
+2023-04-10 13:23:37,398 [main] INFO craftBetWorld - 7 69 ID=7009 Provider=ZeusPlay Name=Captain nelson deluxe cod=0 description=null ResponseObject=No final product_id
+2023-04-10 13:23:37,631 [main] INFO craftBetWorld - 8 70 ID=7013 Provider=ZeusPlay Name=Dice tronic cod=0 description=null ResponseObject=No final product_id
+2023-04-10 13:23:37,857 [main] INFO craftBetWorld - 9 71 ID=7014 Provider=ZeusPlay Name=Disco fever cod=0 description=null ResponseObject=No final product_id
+2023-04-10 13:23:41,741 [main] INFO craftBetWorld - 10 76 ID=7016 Provider=ZeusPlay Name=Fire twenty deluxe cod=0 description=null ResponseObject=No final product_id
+2023-04-10 13:23:44,187 [main] INFO craftBetWorld - 11 79 ID=7017 Provider=ZeusPlay Name=Golden dice 3 cod=0 description=null ResponseObject=No final product_id
+2023-04-10 13:23:44,495 [main] INFO craftBetWorld - 12 80 ID=7023 Provider=ZeusPlay Name=Hot 27 lines deluxe cod=0 description=null ResponseObject=No final product_id
+2023-04-10 13:23:44,747 [main] INFO craftBetWorld - 13 81 ID=7020 Provider=ZeusPlay Name=Hot 5 deluxe cod=0 description=null ResponseObject=No final product_id
+2023-04-10 13:23:45,335 [main] INFO craftBetWorld - 14 83 ID=7026 Provider=ZeusPlay Name=le mystere du prince cod=0 description=null ResponseObject=No final product_id
+2023-04-10 13:23:45,621 [main] INFO craftBetWorld - 15 84 ID=7031 Provider=ZeusPlay Name=Mad cubes 25 cod=0 description=null ResponseObject=No final product_id
+2023-04-10 13:23:45,919 [main] INFO craftBetWorld - 16 85 ID=7032 Provider=ZeusPlay Name=Magic charm cod=0 description=null ResponseObject=No final product_id
+2023-04-10 13:23:47,008 [main] INFO craftBetWorld - 17 87 ID=7034 Provider=ZeusPlay Name=Page of fortune deluxe cod=0 description=null ResponseObject=No final product_id
+2023-04-10 13:23:48,059 [main] INFO craftBetWorld - 18 89 ID=7038 Provider=ZeusPlay Name=Royal jewels cod=0 description=null ResponseObject=No final product_id
+2023-04-10 13:23:51,938 [main] INFO craftBetWorld - 19 94 ID=7039 Provider=ZeusPlay Name=Snake eyes cod=0 description=null ResponseObject=No final product_id
+2023-04-10 13:23:52,151 [main] INFO craftBetWorld - 20 95 ID=7040 Provider=ZeusPlay Name=Super hot cod=0 description=null ResponseObject=No final product_id
+2023-04-10 13:34:42,470 [main] INFO craftBetWorld - 21 1299 ID=21275 Provider=Evolution Name=First Person American Roulette cod=21 description={"errors":[{"code":"V.34","message":"Table with id 302 does not exist"}]} ResponseObject=null
+2023-04-10 13:35:09,186 [main] INFO craftBetWorld - 22 1321 ID=23305 Provider=IGT Name=100 Pandas cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-04-10 13:35:14,503 [main] INFO craftBetWorld - 23 1335 ID=28623 Provider=Edict Name=1717 Caribbean Pirates cod=0 description=null ResponseObject=24
+2023-04-10 13:35:15,384 [main] INFO craftBetWorld - 24 1337 ID=2404 Provider=EGT Name=2 Dragons cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:35:15,956 [main] INFO craftBetWorld - 25 1339 ID=2401 Provider=EGT Name=20 Diamonds cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:35:16,590 [main] INFO craftBetWorld - 26 1341 ID=2402 Provider=EGT Name=20 Super Dice cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:35:17,471 [main] INFO craftBetWorld - 27 1344 ID=26976 Provider=Edict Name=221BBakerStreet cod=0 description=null ResponseObject=24
+2023-04-10 13:35:20,160 [main] INFO craftBetWorld - 28 1351 ID=53030 Provider=Mascot Name=3 Corsairs cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:35:24,744 [main] INFO craftBetWorld - 29 1366 ID=2405 Provider=EGT Name=40 Super Dice cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:35:27,737 [main] INFO craftBetWorld - 30 1373 ID=2409 Provider=EGT Name=5 Hot Dice cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:35:29,367 [main] INFO craftBetWorld - 31 1379 ID=2494 Provider=NYX Name=50 Dragons cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:35:29,648 [main] INFO craftBetWorld - 32 1380 ID=2407 Provider=EGT Name=50 Horses cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:35:41,561 [main] INFO craftBetWorld - 33 1418 ID=7050 Provider=ZeusPlay Name=Abby And The Witch cod=0 description=null ResponseObject=No final product_id
+2023-04-10 13:36:05,038 [main] INFO craftBetWorld - 34 1471 ID=2389 Provider=Greentube Name=Always Hot Cubes cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:36:05,558 [main] INFO craftBetWorld - 35 1473 ID=2370 Provider=Greentube Name=Always Hot Deluxe cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:36:06,347 [main] INFO craftBetWorld - 36 1476 ID=2411 Provider=EGT Name=Amazing Amazonia cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:36:07,402 [main] INFO craftBetWorld - 37 1479 ID=26970 Provider=Edict Name=Amazonia cod=0 description=null ResponseObject=24
+2023-04-10 13:36:10,982 [main] INFO craftBetWorld - 38 1488 ID=29394 Provider=Edict Name=Amu Tep cod=0 description=null ResponseObject=24
+2023-04-10 13:36:11,717 [main] INFO craftBetWorld - 39 1490 ID=29492 Provider=Edict Name=Amulet of the Pharaoh cod=0 description=null ResponseObject=24
+2023-04-10 13:36:13,430 [main] INFO craftBetWorld - 40 1495 ID=75383 Provider=Edict Name=Ancient World Deluxe cod=0 description=null ResponseObject=24
+2023-04-10 13:36:15,086 [main] INFO craftBetWorld - 41 1500 ID=28637 Provider=Edict Name=Ankaa's Dawn cod=0 description=null ResponseObject=24
+2023-04-10 13:36:15,706 [main] INFO craftBetWorld - 42 1502 ID=53001 Provider=Mascot Name=Anksunamun: the Queen of Egypt cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:36:47,194 [main] INFO craftBetWorld - 43 1583 ID=53013 Provider=Mascot Name=Bamboo Bear cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:36:54,809 [main] INFO craftBetWorld - 44 1604 ID=2449 Provider=Greentube Name=Bars and Sevens cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:36:55,717 [main] INFO craftBetWorld - 45 1607 ID=53026 Provider=Mascot Name=Bastet and Cats cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:37:05,841 [main] INFO craftBetWorld - 46 1630 ID=2371 Provider=Greentube Name=Beetle Mania Deluxe cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:37:09,791 [main] INFO craftBetWorld - 47 1640 ID=53021 Provider=Mascot Name=Benny's the Biggest game cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:37:14,489 [main] INFO craftBetWorld - 48 1650 ID=2351 Provider=TwoWinPower Name=Big Ben cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:37:14,759 [main] INFO craftBetWorld - 49 1651 ID=2495 Provider=NYX Name=Big Ben cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:37:21,352 [main] INFO craftBetWorld - 50 1669 ID=2504 Provider=NYX Name=Bingo Billions cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:37:24,957 [main] INFO craftBetWorld - 51 1677 ID=29482 Provider=Edict Name=Black Hole cod=0 description=null ResponseObject=24
+2023-04-10 13:37:36,334 [main] INFO craftBetWorld - 52 1702 ID=29810 Provider=Edict Name=Blackmoore Wolf cod=0 description=null ResponseObject=24
+2023-04-10 13:37:37,507 [main] INFO craftBetWorld - 53 1705 ID=26975 Provider=Edict Name=BlazingStar cod=0 description=null ResponseObject=24
+2023-04-10 13:37:39,429 [main] INFO craftBetWorld - 54 1710 ID=2506 Provider=NYX Name=Bloodlore Vampire clan cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:37:40,512 [main] INFO craftBetWorld - 55 1713 ID=2412 Provider=EGT Name=Blue Heart cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:38:02,628 [main] INFO craftBetWorld - 56 1765 ID=2204 Provider=TwoWinPower Name=Book of Ra cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:38:02,912 [main] INFO craftBetWorld - 57 1766 ID=2372 Provider=Greentube Name=Book Of Ra cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:38:04,011 [main] INFO craftBetWorld - 58 1768 ID=2369 Provider=Greentube Name=Book Of Ra Deluxe cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:38:04,276 [main] INFO craftBetWorld - 59 1769 ID=2442 Provider=Greentube Name=Book of Ra Deluxe 6 cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:38:08,299 [main] INFO craftBetWorld - 60 1778 ID=2443 Provider=Greentube Name=Book of Stars cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:38:09,139 [main] INFO craftBetWorld - 61 1781 ID=26382 Provider=Fugaso Name=Book Of Tattoo cod=0 description=null ResponseObject=24
+2023-04-10 13:38:20,140 [main] INFO craftBetWorld - 62 1808 ID=26378 Provider=Edict Name=BoomBastic cod=0 description=null ResponseObject=24
+2023-04-10 13:38:23,850 [main] INFO craftBetWorld - 63 1815 ID=29974 Provider=PushGaming Name=Booty Bay cod=0 description=null ResponseObject=24
+2023-04-10 13:38:25,530 [main] INFO craftBetWorld - 64 1820 ID=26349 Provider=Fugaso Name=Brave Mongoose cod=0 description=null ResponseObject=24
+2023-04-10 13:38:27,455 [main] INFO craftBetWorld - 65 1825 ID=26963 Provider=Edict Name=BrilliantSparkle cod=0 description=null ResponseObject=24
+2023-04-10 13:38:33,172 [main] INFO craftBetWorld - 66 1840 ID=2414 Provider=EGT Name=Burning Dice cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:38:43,327 [main] INFO craftBetWorld - 67 1865 ID=53005 Provider=Mascot Name=CanCan Saloon cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:38:46,846 [main] INFO craftBetWorld - 68 1875 ID=26974 Provider=Edict Name=Candy&Fruits cod=0 description=null ResponseObject=24
+2023-04-10 13:38:47,149 [main] INFO craftBetWorld - 69 1876 ID=26962 Provider=Edict Name=CannonThunder cod=0 description=null ResponseObject=24
+2023-04-10 13:38:48,925 [main] INFO craftBetWorld - 70 1881 ID=26961 Provider=Edict Name=CaptainStack cod=0 description=null ResponseObject=24
+2023-04-10 13:38:53,445 [main] INFO craftBetWorld - 71 1893 ID=23289 Provider=IGT Name=Cash Coaster cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-04-10 13:38:55,648 [main] INFO craftBetWorld - 72 1899 ID=2491 Provider=Greentube Name=Cash Runner cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:38:56,806 [main] INFO craftBetWorld - 73 1902 ID=26959 Provider=Edict Name=CashFruitsPlus cod=0 description=null ResponseObject=24
+2023-04-10 13:38:58,211 [main] INFO craftBetWorld - 74 1907 ID=2416 Provider=EGT Name=Casino Mania cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:39:01,331 [main] INFO craftBetWorld - 75 1915 ID=2400 Provider=EGT Name=Cats cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:39:06,196 [main] INFO craftBetWorld - 76 1925 ID=75788 Provider=Edict Name=Celebrationale cod=0 description=null ResponseObject=24
+2023-04-10 13:39:06,475 [main] INFO craftBetWorld - 77 1926 ID=26958 Provider=Edict Name=Centurio cod=0 description=null ResponseObject=24
+2023-04-10 13:39:09,739 [main] INFO craftBetWorld - 78 1935 ID=2507 Provider=NYX Name=Cherry Blossoms cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:39:11,687 [main] INFO craftBetWorld - 79 1941 ID=2450 Provider=Greentube Name=Chicago cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:39:17,132 [main] INFO craftBetWorld - 80 1957 ID=2206 Provider=TwoWinPower Name=Choy Sun Doa cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:39:17,400 [main] INFO craftBetWorld - 81 1958 ID=2496 Provider=NYX Name=Choy Sun Doa cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:39:21,732 [main] INFO craftBetWorld - 82 1972 ID=26362 Provider=Fugaso Name=Cleopatra's Diary cod=0 description=null ResponseObject=24
+2023-04-10 13:39:24,126 [main] INFO craftBetWorld - 83 1980 ID=26957 Provider=Edict Name=CoffeeHouseMystery cod=0 description=null ResponseObject=24
+2023-04-10 13:39:24,576 [main] INFO craftBetWorld - 84 1982 ID=2492 Provider=Greentube Name=Coin Of Apollo cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:39:35,515 [main] INFO craftBetWorld - 85 2009 ID=23292 Provider=IGT Name=Coyote Moon cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-04-10 13:39:48,523 [main] INFO craftBetWorld - 86 2048 ID=28626 Provider=Edict Name=Cyborg Towers cod=0 description=null ResponseObject=24
+2023-04-10 13:39:48,778 [main] INFO craftBetWorld - 87 2049 ID=2509 Provider=NYX Name=D.Love On Vacation cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:39:54,311 [main] INFO craftBetWorld - 88 2067 ID=23293 Provider=IGT Name=DaVinci Dual Pay cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-04-10 13:39:55,256 [main] INFO craftBetWorld - 89 2070 ID=23294 Provider=IGT Name=Day of the Dead cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-04-10 13:39:55,526 [main] INFO craftBetWorld - 90 2071 ID=2451 Provider=Greentube Name=Dazzling Diamonds cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:39:58,592 [main] INFO craftBetWorld - 91 2080 ID=29806 Provider=Edict Name=Defenders of the Monastery cod=0 description=null ResponseObject=24
+2023-04-10 13:40:07,762 [main] INFO craftBetWorld - 92 2098 ID=29471 Provider=Edict Name=Diamond and Gold cod=0 description=null ResponseObject=24
+2023-04-10 13:40:12,570 [main] INFO craftBetWorld - 93 2109 ID=23295 Provider=IGT Name=Diamond Queen cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-04-10 13:40:16,351 [main] INFO craftBetWorld - 94 2122 ID=2417 Provider=EGT Name=Dice Of Ra cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:40:17,592 [main] INFO craftBetWorld - 95 2126 ID=29975 Provider=PushGaming Name=Dinopolis cod=0 description=null ResponseObject=24
+2023-04-10 13:40:17,884 [main] INFO craftBetWorld - 96 2127 ID=26954 Provider=Edict Name=DinosaurKingdom cod=0 description=null ResponseObject=24
+2023-04-10 13:40:20,378 [main] INFO craftBetWorld - 97 2135 ID=25848 Provider=Fugaso Name=Divine Carnival cod=0 description=null ResponseObject=24
+2023-04-10 13:40:22,245 [main] INFO craftBetWorld - 98 2141 ID=2508 Provider=NYX Name=Doctor Love cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:40:24,391 [main] INFO craftBetWorld - 99 2147 ID=2374 Provider=Greentube Name=Dolphins' Pearl cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:40:24,659 [main] INFO craftBetWorld - 100 2148 ID=2195 Provider=TwoWinPower Name=Dolphin's Pearl cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:40:27,519 [main] INFO craftBetWorld - 101 2159 ID=2497 Provider=NYX Name=Double Happiness cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:40:29,546 [main] INFO craftBetWorld - 102 2165 ID=26973 Provider=Edict Name=DoubleTripleChance cod=0 description=null ResponseObject=24
+2023-04-10 13:40:32,848 [main] INFO craftBetWorld - 103 2175 ID=2498 Provider=NYX Name=Dragon Emperor cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:40:40,455 [main] INFO craftBetWorld - 104 2195 ID=2486 Provider=Greentube Name=Dragon’s deep cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:40:41,198 [main] INFO craftBetWorld - 105 2197 ID=26971 Provider=Edict Name=Dragon’sTreasure cod=0 description=null ResponseObject=24
+2023-04-10 13:40:42,120 [main] INFO craftBetWorld - 106 2200 ID=76175 Provider=Edict Name=Dragons Axe cod=0 description=null ResponseObject=24
+2023-04-10 13:40:47,378 [main] INFO craftBetWorld - 107 2210 ID=29252 Provider=Edict Name=Dragon's Treasure II HTML5 cod=0 description=null ResponseObject=24
+2023-04-10 13:40:48,234 [main] INFO craftBetWorld - 108 2213 ID=25993 Provider=Edict Name=Dragon'sMaid cod=0 description=null ResponseObject=24
+2023-04-10 13:40:49,413 [main] INFO craftBetWorld - 109 2217 ID=25820 Provider=Edict Name=Dragull cod=0 description=null ResponseObject=24
+2023-04-10 13:40:50,096 [main] INFO craftBetWorld - 110 2219 ID=25995 Provider=Edict Name=DreamingIsland cod=0 description=null ResponseObject=24
+2023-04-10 13:40:54,385 [main] INFO craftBetWorld - 111 2234 ID=2444 Provider=Greentube Name=Dynasty of Ra cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:40:58,253 [main] INFO craftBetWorld - 112 2245 ID=2518 Provider=NYX Name=Eastern Dragon cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:40:59,263 [main] INFO craftBetWorld - 113 2248 ID=76142 Provider=Edict Name=Eggstra Wilds cod=0 description=null ResponseObject=24
+2023-04-10 13:40:59,543 [main] INFO craftBetWorld - 114 2249 ID=75341 Provider=Edict Name=Egyptian Diamonds cod=0 description=null ResponseObject=24
+2023-04-10 13:41:05,014 [main] INFO craftBetWorld - 115 2263 ID=75668 Provider=Edict Name=Electric Fruit cod=0 description=null ResponseObject=24
+2023-04-10 13:41:05,954 [main] INFO craftBetWorld - 116 2266 ID=26309 Provider=Edict Name=ElMolinador cod=0 description=null ResponseObject=24
+2023-04-10 13:41:07,630 [main] INFO craftBetWorld - 117 2273 ID=2519 Provider=NYX Name=Emperors Garden cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:41:08,675 [main] INFO craftBetWorld - 118 2276 ID=2493 Provider=Greentube Name=Empire V cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:41:09,662 [main] INFO craftBetWorld - 119 2281 ID=26952 Provider=Edict Name=EndlessSummer cod=0 description=null ResponseObject=24
+2023-04-10 13:41:10,177 [main] INFO craftBetWorld - 120 2283 ID=76272 Provider=Edict Name=Energy Burst cod=0 description=null ResponseObject=24
+2023-04-10 13:41:21,147 [main] INFO craftBetWorld - 121 2308 ID=25370 Provider=GameArt Name=ExplosiveReels cod=0 description=null ResponseObject=24
+2023-04-10 13:41:21,422 [main] INFO craftBetWorld - 122 2309 ID=2418 Provider=EGT Name=Extra Joker cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:41:21,879 [main] INFO craftBetWorld - 123 2311 ID=28627 Provider=Edict Name=Extra Liner Jackpot cod=0 description=null ResponseObject=24
+2023-04-10 13:41:22,175 [main] INFO craftBetWorld - 124 2312 ID=7052 Provider=ZeusPlay Name=Extra Super Hot Barbeque cod=0 description=null ResponseObject=No final product_id
+2023-04-10 13:41:22,928 [main] INFO craftBetWorld - 125 2314 ID=26950 Provider=Edict Name=Extra10Liner cod=0 description=null ResponseObject=24
+2023-04-10 13:41:23,213 [main] INFO craftBetWorld - 126 2315 ID=26949 Provider=Edict Name=ExtraWild cod=0 description=null ResponseObject=24
+2023-04-10 13:41:23,466 [main] INFO craftBetWorld - 127 2316 ID=2420 Provider=EGT Name=Extremely Hot cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:41:25,320 [main] INFO craftBetWorld - 128 2322 ID=2489 Provider=Greentube Name=Eye Of The Dragon cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:41:28,494 [main] INFO craftBetWorld - 129 2334 ID=7056 Provider=ZeusPlay Name=Fairy's Golden Path cod=0 description=null ResponseObject=No final product_id
+2023-04-10 13:41:29,440 [main] INFO craftBetWorld - 130 2337 ID=26005 Provider=Edict Name=FallenAlien cod=0 description=null ResponseObject=24
+2023-04-10 13:41:30,041 [main] INFO craftBetWorld - 131 2339 ID=26946 Provider=Edict Name=FantasticFruit cod=0 description=null ResponseObject=24
+2023-04-10 13:41:30,922 [main] INFO craftBetWorld - 132 2342 ID=75190 Provider=PushGaming Name=Fat Drac cod=0 description=null ResponseObject=24
+2023-04-10 13:41:32,002 [main] INFO craftBetWorld - 133 2345 ID=29984 Provider=PushGaming Name=Fat Santa cod=0 description=null ResponseObject=24
+2023-04-10 13:41:32,377 [main] INFO craftBetWorld - 134 2346 ID=2376 Provider=Greentube Name=Faust cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:41:37,264 [main] INFO craftBetWorld - 135 2360 ID=29966 Provider=Edict Name=Fight of Terragon cod=0 description=null ResponseObject=24
+2023-04-10 13:41:38,174 [main] INFO craftBetWorld - 136 2363 ID=28615 Provider=Edict Name=Fire and Ice cod=0 description=null ResponseObject=24
+2023-04-10 13:41:40,267 [main] INFO craftBetWorld - 137 2370 ID=23296 Provider=IGT Name=Fire Opals cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-04-10 13:41:42,438 [main] INFO craftBetWorld - 138 2378 ID=26945 Provider=Edict Name=FireofEgypt cod=0 description=null ResponseObject=24
+2023-04-10 13:41:42,711 [main] INFO craftBetWorld - 139 2379 ID=29201 Provider=Edict Name=First Dynasty cod=0 description=null ResponseObject=24
+2023-04-10 13:41:47,395 [main] INFO craftBetWorld - 140 2393 ID=2445 Provider=Greentube Name=Flamenco Roses cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:41:48,042 [main] INFO craftBetWorld - 141 2395 ID=26310 Provider=Edict Name=FlamesOfEgypt cod=0 description=null ResponseObject=24
+2023-04-10 13:41:52,606 [main] INFO craftBetWorld - 142 2410 ID=25535 Provider=Edict Name=ForbiddenPrincess cod=0 description=null ResponseObject=24
+2023-04-10 13:41:58,687 [main] INFO craftBetWorld - 143 2429 ID=2422 Provider=EGT Name=Fortune Spells cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:42:01,048 [main] INFO craftBetWorld - 144 2436 ID=28635 Provider=Edict Name=Fountain of Fortune cod=0 description=null ResponseObject=24
+2023-04-10 13:42:08,649 [main] INFO craftBetWorld - 145 2455 ID=2488 Provider=Greentube Name=Fruit Farm cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:42:09,416 [main] INFO craftBetWorld - 146 2458 ID=53027 Provider=Mascot Name=Fruit Macau cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:42:10,367 [main] INFO craftBetWorld - 147 2461 ID=53028 Provider=Mascot Name=Fruit Monaco cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:42:10,813 [main] INFO craftBetWorld - 148 2463 ID=2198 Provider=TwoWinPower Name=Fruit Sensation cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:42:11,080 [main] INFO craftBetWorld - 149 2464 ID=2391 Provider=Greentube Name=Fruit Sensation cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:42:11,492 [main] INFO craftBetWorld - 150 2465 ID=53019 Provider=Mascot Name=Fruit Vegas cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:42:14,495 [main] INFO craftBetWorld - 151 2473 ID=26941 Provider=Edict Name=Fruitinator cod=0 description=null ResponseObject=24
+2023-04-10 13:42:15,101 [main] INFO craftBetWorld - 152 2475 ID=26940 Provider=Edict Name=Fruitopia cod=0 description=null ResponseObject=24
+2023-04-10 13:42:20,695 [main] INFO craftBetWorld - 153 2488 ID=76244 Provider=Edict Name=Fruits Tastylicious cod=0 description=null ResponseObject=24
+2023-04-10 13:42:22,955 [main] INFO craftBetWorld - 154 2495 ID=2392 Provider=Greentube Name=Fruits'n Royals cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:42:26,902 [main] INFO craftBetWorld - 155 2507 ID=2521 Provider=NYX Name=Funky Chicken cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:42:29,662 [main] INFO craftBetWorld - 156 2515 ID=2356 Provider=EGT Name=Game Of Luck cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:42:31,076 [main] INFO craftBetWorld - 157 2519 ID=2470 Provider=Igrosoft Name=Garage cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:42:32,021 [main] INFO craftBetWorld - 158 2520 ID=23297 Provider=IGT Name=Garden Party cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-04-10 13:42:32,463 [main] INFO craftBetWorld - 159 2521 ID=26361 Provider=Fugaso Name=Gates of Hell cod=0 description=null ResponseObject=24
+2023-04-10 13:42:39,573 [main] INFO craftBetWorld - 160 2540 ID=53015 Provider=Mascot Name=Gemz Grow cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:42:40,606 [main] INFO craftBetWorld - 161 2543 ID=29263 Provider=Edict Name=Genie's Wonderlamp cod=0 description=null ResponseObject=24
+2023-04-10 13:42:42,515 [main] INFO craftBetWorld - 162 2549 ID=26938 Provider=Edict Name=GhostSlider cod=0 description=null ResponseObject=24
+2023-04-10 13:42:45,466 [main] INFO craftBetWorld - 163 2557 ID=29395 Provider=Edict Name=Gladiators cod=0 description=null ResponseObject=24
+2023-04-10 13:42:59,329 [main] INFO craftBetWorld - 164 2594 ID=26934 Provider=Edict Name=GoldBeaver cod=0 description=null ResponseObject=24
+2023-04-10 13:42:59,696 [main] INFO craftBetWorld - 165 2595 ID=26933 Provider=Edict Name=Goldbird cod=0 description=null ResponseObject=24
+2023-04-10 13:43:00,375 [main] INFO craftBetWorld - 166 2597 ID=26936 Provider=Edict Name=GoldCup cod=0 description=null ResponseObject=24
+2023-04-10 13:43:00,650 [main] INFO craftBetWorld - 167 2598 ID=2377 Provider=Greentube Name=Golden Ark cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:43:04,047 [main] INFO craftBetWorld - 168 2607 ID=2452 Provider=Greentube Name=Golden Cobras Deluxe cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:43:16,476 [main] INFO craftBetWorld - 169 2642 ID=26932 Provider=Edict Name=GoldenGate cod=0 description=null ResponseObject=24
+2023-04-10 13:43:17,387 [main] INFO craftBetWorld - 170 2645 ID=25536 Provider=Edict Name=GoldFrenzy cod=0 description=null ResponseObject=24
+2023-04-10 13:43:18,099 [main] INFO craftBetWorld - 171 2647 ID=26935 Provider=Edict Name=GoldofPersia cod=0 description=null ResponseObject=24
+2023-04-10 13:43:20,300 [main] INFO craftBetWorld - 172 2653 ID=75894 Provider=Edict Name=Gong Hei Gong Hei cod=0 description=null ResponseObject=24
+2023-04-10 13:43:21,553 [main] INFO craftBetWorld - 173 2656 ID=2424 Provider=EGT Name=Grace Of Cleopatra cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:43:22,671 [main] INFO craftBetWorld - 174 2658 ID=23298 Provider=IGT Name=Grand Monarch cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-04-10 13:43:27,614 [main] INFO craftBetWorld - 175 2675 ID=53020 Provider=Mascot Name=Gryphons Castle cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:43:28,486 [main] INFO craftBetWorld - 176 2677 ID=2390 Provider=Greentube Name=Gryphons' Gold Deluxe cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:43:38,392 [main] INFO craftBetWorld - 177 2705 ID=7057 Provider=ZeusPlay Name=Haunted Walker cod=0 description=null ResponseObject=No final product_id
+2023-04-10 13:43:42,458 [main] INFO craftBetWorld - 178 2719 ID=2396 Provider=Greentube Name=Helena cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:43:43,405 [main] INFO craftBetWorld - 179 2723 ID=53022 Provider=Mascot Name=Hell'Sing cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:43:44,881 [main] INFO craftBetWorld - 180 2729 ID=26930 Provider=Edict Name=HexenKessel cod=0 description=null ResponseObject=24
+2023-04-10 13:43:46,055 [main] INFO craftBetWorld - 181 2732 ID=29460 Provider=Edict Name=Hide & Seek cod=0 description=null ResponseObject=24
+2023-04-10 13:43:49,644 [main] INFO craftBetWorld - 182 2745 ID=29455 Provider=Edict Name=Hocus Pocus Deluxe cod=0 description=null ResponseObject=24
+2023-04-10 13:43:55,852 [main] INFO craftBetWorld - 183 2762 ID=2262 Provider=TwoWinPower Name=Hot Chance cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:43:56,135 [main] INFO craftBetWorld - 184 2763 ID=2453 Provider=Greentube Name=Hot Chance cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:43:58,731 [main] INFO craftBetWorld - 185 2769 ID=28616 Provider=Edict Name=Hot Dragon cod=0 description=null ResponseObject=24
+2023-04-10 13:44:08,316 [main] INFO craftBetWorld - 186 2796 ID=26929 Provider=Edict Name=HotFlame cod=0 description=null ResponseObject=24
+2023-04-10 13:44:13,619 [main] INFO craftBetWorld - 187 2813 ID=75996 Provider=Edict Name=Hyper Fruits cod=0 description=null ResponseObject=24
+2023-04-10 13:44:18,028 [main] INFO craftBetWorld - 188 2827 ID=26330 Provider=Fugaso Name=ImhotepManuscript cod=0 description=null ResponseObject=24
+2023-04-10 13:44:20,401 [main] INFO craftBetWorld - 189 2835 ID=2425 Provider=EGT Name=Inca Gold II cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:44:22,948 [main] INFO craftBetWorld - 190 2842 ID=29437 Provider=Edict Name=Indian Ruby cod=0 description=null ResponseObject=24
+2023-04-10 13:44:23,238 [main] INFO craftBetWorld - 191 2843 ID=2395 Provider=Greentube Name=Indian Spirit cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:44:26,464 [main] INFO craftBetWorld - 192 2855 ID=2510 Provider=NYX Name=Irish Eyes 2 cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:44:29,091 [main] INFO craftBetWorld - 193 2862 ID=2473 Provider=Igrosoft Name=Island 2 cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:44:33,919 [main] INFO craftBetWorld - 194 2875 ID=2511 Provider=NYX Name=Jade Idol cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:44:37,779 [main] INFO craftBetWorld - 195 2884 ID=29453 Provider=Edict Name=Jamboree Jubilee cod=0 description=null ResponseObject=24
+2023-04-10 13:44:38,348 [main] INFO craftBetWorld - 196 2886 ID=29989 Provider=PushGaming Name=Jammin Jars cod=0 description=null ResponseObject=24
+2023-04-10 13:44:38,613 [main] INFO craftBetWorld - 197 2887 ID=29973 Provider=PushGaming Name=Jammin' Jars 2 cod=0 description=null ResponseObject=24
+2023-04-10 13:44:41,304 [main] INFO craftBetWorld - 198 2893 ID=23299 Provider=IGT Name=Jewel of the Arts cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-04-10 13:44:42,662 [main] INFO craftBetWorld - 199 2897 ID=2524 Provider=Novomatic Name=Jewels 4 All BTD cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:44:43,676 [main] INFO craftBetWorld - 200 2899 ID=26432 Provider=Fugaso Name=JewelSea cod=0 description=null ResponseObject=24
+2023-04-10 13:44:50,116 [main] INFO craftBetWorld - 201 2921 ID=75787 Provider=Edict Name=Joker Nature cod=0 description=null ResponseObject=24
+2023-04-10 13:44:54,577 [main] INFO craftBetWorld - 202 2931 ID=29993 Provider=PushGaming Name=Joker Troupe cod=0 description=null ResponseObject=24
+2023-04-10 13:44:57,191 [main] INFO craftBetWorld - 203 2940 ID=26928 Provider=Edict Name=Jolly'sCap cod=0 description=null ResponseObject=24
+2023-04-10 13:45:04,789 [main] INFO craftBetWorld - 204 2964 ID=2378 Provider=Greentube Name=Just Jewels Deluxe cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:45:06,192 [main] INFO craftBetWorld - 205 2968 ID=29519 Provider=Edict Name=Kaiserwetter cod=0 description=null ResponseObject=24
+2023-04-10 13:45:07,040 [main] INFO craftBetWorld - 206 2970 ID=2426 Provider=EGT Name=Kashmir Gold cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:45:07,308 [main] INFO craftBetWorld - 207 2971 ID=2214 Provider=TwoWinPower Name=Katana cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:45:07,570 [main] INFO craftBetWorld - 208 2972 ID=2379 Provider=Greentube Name=Katana cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:45:08,579 [main] INFO craftBetWorld - 209 2975 ID=26927 Provider=Edict Name=KeyoftheNile cod=0 description=null ResponseObject=24
+2023-04-10 13:45:17,327 [main] INFO craftBetWorld - 210 2999 ID=23300 Provider=IGT Name=Kitty Glitter cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-04-10 13:45:18,434 [main] INFO craftBetWorld - 211 3002 ID=26924 Provider=Edict Name=Knight'sLife cod=0 description=null ResponseObject=24
+2023-04-10 13:45:19,323 [main] INFO craftBetWorld - 212 3005 ID=26923 Provider=Edict Name=KnockoutWins cod=0 description=null ResponseObject=24
+2023-04-10 13:45:24,707 [main] INFO craftBetWorld - 213 3022 ID=29978 Provider=PushGaming Name=Land of Zenith cod=0 description=null ResponseObject=24
+2023-04-10 13:45:30,953 [main] INFO craftBetWorld - 214 3042 ID=29595 Provider=Edict Name=Legendary Palace cod=0 description=null ResponseObject=24
+2023-04-10 13:45:32,705 [main] INFO craftBetWorld - 215 3048 ID=53017 Provider=Mascot Name=Legioner cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:45:33,371 [main] INFO craftBetWorld - 216 3050 ID=2455 Provider=Greentube Name=Leonardo's Code cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:45:36,772 [main] INFO craftBetWorld - 217 3059 ID=26920 Provider=Edict Name=LibertyBells cod=0 description=null ResponseObject=24
+2023-04-10 13:45:37,339 [main] INFO craftBetWorld - 218 3061 ID=26919 Provider=Edict Name=LightBlocks cod=0 description=null ResponseObject=24
+2023-04-10 13:45:37,904 [main] INFO craftBetWorld - 219 3063 ID=76075 Provider=Edict Name=Lights of Xia cod=0 description=null ResponseObject=24
+2023-04-10 13:45:39,187 [main] INFO craftBetWorld - 220 3069 ID=53002 Provider=Mascot Name=Lions Pride cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:45:42,452 [main] INFO craftBetWorld - 221 3081 ID=2381 Provider=Greentube Name=Lord Of The Ocean cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:45:50,034 [main] INFO craftBetWorld - 222 3104 ID=2427 Provider=EGT Name=Lucky And Wild cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:45:56,247 [main] INFO craftBetWorld - 223 3125 ID=2475 Provider=Igrosoft Name=Lucky Haunter cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:45:56,501 [main] INFO craftBetWorld - 224 3126 ID=2428 Provider=EGT Name=Lucky Hot cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:45:58,218 [main] INFO craftBetWorld - 225 3131 ID=2485 Provider=Greentube Name=Lucky L. Charm 6 cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:45:58,883 [main] INFO craftBetWorld - 226 3132 ID=2194 Provider=TwoWinPower Name=Lucky Lady's Charm cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:45:59,265 [main] INFO craftBetWorld - 227 3133 ID=2380 Provider=Greentube Name=Lucky Lady's Charm cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:46:12,607 [main] INFO craftBetWorld - 228 3169 ID=7053 Provider=ZeusPlay Name=Mad Cubes 50 cod=0 description=null ResponseObject=No final product_id
+2023-04-10 13:46:12,884 [main] INFO craftBetWorld - 229 3170 ID=2512 Provider=NYX Name=Mad Mad Monkey cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:46:23,042 [main] INFO craftBetWorld - 230 3198 ID=29246 Provider=Edict Name=Magic Mirror Three Lions Deluxe cod=0 description=null ResponseObject=24
+2023-04-10 13:46:23,304 [main] INFO craftBetWorld - 231 3199 ID=29820 Provider=Edict Name=Magic Mirror Wild cod=0 description=null ResponseObject=24
+2023-04-10 13:46:23,972 [main] INFO craftBetWorld - 232 3201 ID=75792 Provider=Edict Name=Magic Monk Rasputin X-Mas Edition cod=0 description=null ResponseObject=24
+2023-04-10 13:46:32,573 [main] INFO craftBetWorld - 233 3225 ID=26916 Provider=Edict Name=MagicMirror cod=0 description=null ResponseObject=24
+2023-04-10 13:46:32,859 [main] INFO craftBetWorld - 234 3226 ID=26915 Provider=Edict Name=MagicMirrorDeluxeII cod=0 description=null ResponseObject=24
+2023-04-10 13:46:33,133 [main] INFO craftBetWorld - 235 3227 ID=26914 Provider=Edict Name=MagicMonkRasputin cod=0 description=null ResponseObject=24
+2023-04-10 13:46:34,708 [main] INFO craftBetWorld - 236 3232 ID=75251 Provider=Edict Name=Magika Boola cod=0 description=null ResponseObject=24
+2023-04-10 13:46:35,172 [main] INFO craftBetWorld - 237 3234 ID=2429 Provider=EGT Name=Majestic Forest cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:46:42,535 [main] INFO craftBetWorld - 238 3254 ID=23301 Provider=IGT Name=Masques of San Marco cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-04-10 13:46:44,368 [main] INFO craftBetWorld - 239 3262 ID=23302 Provider=IGT Name=Mayan Riches cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-04-10 13:46:46,302 [main] INFO craftBetWorld - 240 3269 ID=2397 Provider=Greentube Name=Mega Joker cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:46:49,113 [main] INFO craftBetWorld - 241 3279 ID=26912 Provider=Edict Name=MerkurMagnus7 cod=0 description=null ResponseObject=24
+2023-04-10 13:46:50,312 [main] INFO craftBetWorld - 242 3283 ID=53009 Provider=Mascot Name=Merlin's Tower cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:46:50,905 [main] INFO craftBetWorld - 243 3286 ID=53008 Provider=Mascot Name=Mermaid's Bay cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:46:52,209 [main] INFO craftBetWorld - 244 3290 ID=53023 Provider=Mascot Name=Merry Scary Christmas cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:47:01,597 [main] INFO craftBetWorld - 245 3317 ID=2499 Provider=NYX Name=Miss Kitty cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:47:02,936 [main] INFO craftBetWorld - 246 3319 ID=23303 Provider=IGT Name=Miss Red cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-04-10 13:47:03,999 [main] INFO craftBetWorld - 247 3323 ID=26209 Provider=Edict Name=MojitoBeach cod=0 description=null ResponseObject=24
+2023-04-10 13:47:11,837 [main] INFO craftBetWorld - 248 3338 ID=26910 Provider=Edict Name=MonkeyMayhem cod=0 description=null ResponseObject=24
+2023-04-10 13:47:24,087 [main] INFO craftBetWorld - 249 3377 ID=29970 Provider=Edict Name=Multi Wild 243 cod=0 description=null ResponseObject=24
+2023-04-10 13:47:24,408 [main] INFO craftBetWorld - 250 3378 ID=28625 Provider=Edict Name=Multi Wild Deluxe cod=0 description=null ResponseObject=24
+2023-04-10 13:47:25,147 [main] INFO craftBetWorld - 251 3381 ID=26909 Provider=Edict Name=MultiFruits cod=0 description=null ResponseObject=24
+2023-04-10 13:47:25,524 [main] INFO craftBetWorld - 252 3382 ID=26908 Provider=Edict Name=MultiSupreme81 cod=0 description=null ResponseObject=24
+2023-04-10 13:47:25,811 [main] INFO craftBetWorld - 253 3383 ID=25819 Provider=Edict Name=MultiWild cod=0 description=null ResponseObject=24
+2023-04-10 13:47:26,380 [main] INFO craftBetWorld - 254 3385 ID=2490 Provider=Greentube Name=Music Island cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:47:27,495 [main] INFO craftBetWorld - 255 3388 ID=29813 Provider=Edict Name=Mysteries of Karnak cod=0 description=null ResponseObject=24
+2023-04-10 13:47:30,447 [main] INFO craftBetWorld - 256 3398 ID=29982 Provider=PushGaming Name=Mystery Museum cod=0 description=null ResponseObject=24
+2023-04-10 13:47:33,440 [main] INFO craftBetWorld - 257 3404 ID=2213 Provider=TwoWinPower Name=Mystic Secrets cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:47:33,704 [main] INFO craftBetWorld - 258 3405 ID=2382 Provider=Greentube Name=Mystic Secrets cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:47:36,517 [main] INFO craftBetWorld - 259 3414 ID=2430 Provider=EGT Name=Neon Dice cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:47:43,313 [main] INFO craftBetWorld - 260 3431 ID=26904 Provider=Edict Name=NileLiner cod=0 description=null ResponseObject=24
+2023-04-10 13:47:44,799 [main] INFO craftBetWorld - 261 3436 ID=23304 Provider=IGT Name=Noahs Ark cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-04-10 13:47:45,742 [main] INFO craftBetWorld - 262 3439 ID=53004 Provider=Mascot Name=Northern Heat cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:47:50,936 [main] INFO craftBetWorld - 263 3450 ID=26903 Provider=Edict Name=Odin cod=0 description=null ResponseObject=24
+2023-04-10 13:47:52,389 [main] INFO craftBetWorld - 264 3455 ID=2431 Provider=EGT Name=Oil Company II cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:48:00,488 [main] INFO craftBetWorld - 265 3476 ID=23306 Provider=IGT Name=Pamplona cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-04-10 13:48:17,921 [main] INFO craftBetWorld - 266 3522 ID=2446 Provider=Greentube Name=Pharaohs Ring cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:48:27,936 [main] INFO craftBetWorld - 267 3548 ID=2476 Provider=Igrosoft Name=Pirate cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:48:32,718 [main] INFO craftBetWorld - 268 3565 ID=76258 Provider=Edict Name=Pixielicious cod=0 description=null ResponseObject=24
+2023-04-10 13:48:33,529 [main] INFO craftBetWorld - 269 3567 ID=26899 Provider=Edict Name=PizzaExpress cod=0 description=null ResponseObject=24
+2023-04-10 13:48:34,005 [main] INFO craftBetWorld - 270 3569 ID=2513 Provider=NYX Name=Platinum Pyramid cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:48:34,281 [main] INFO craftBetWorld - 271 3570 ID=2456 Provider=Greentube Name=Plenty of Fruit 20 cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:48:34,939 [main] INFO craftBetWorld - 272 3572 ID=2483 Provider=Greentube Name=Plenty Of Fruit 20 H. cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:48:35,388 [main] INFO craftBetWorld - 273 3574 ID=2457 Provider=Greentube Name=Plenty of Fruit 40 cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:48:36,251 [main] INFO craftBetWorld - 274 3577 ID=2484 Provider=Greentube Name=Plenty Of Jewels 20H. cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:48:36,669 [main] INFO craftBetWorld - 275 3578 ID=2482 Provider=Greentube Name=Plenty On 20 II Hot cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:48:36,944 [main] INFO craftBetWorld - 276 3579 ID=2394 Provider=Greentube Name=Plenty on Twenty cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:48:39,645 [main] INFO craftBetWorld - 277 3589 ID=28636 Provider=Edict Name=Pop Art Fruits cod=0 description=null ResponseObject=24
+2023-04-10 13:48:42,307 [main] INFO craftBetWorld - 278 3595 ID=2514 Provider=NYX Name=Potion Commotion cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:48:45,766 [main] INFO craftBetWorld - 279 3605 ID=2447 Provider=Greentube Name=Power Stars cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:48:50,650 [main] INFO craftBetWorld - 280 3621 ID=23307 Provider=IGT Name=Prowling Panther cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-04-10 13:48:53,473 [main] INFO craftBetWorld - 281 3629 ID=53010 Provider=Mascot Name=Purple Pills cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:48:56,963 [main] INFO craftBetWorld - 282 3637 ID=28824 Provider=Edict Name=Pyramids of the Nile cod=0 description=null ResponseObject=24
+2023-04-10 13:48:57,353 [main] INFO craftBetWorld - 283 3638 ID=26898 Provider=Edict Name=PyramidsofEgypt cod=0 description=null ResponseObject=24
+2023-04-10 13:48:58,651 [main] INFO craftBetWorld - 284 3642 ID=2487 Provider=Greentube Name=Queen Cleopatra cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:49:01,356 [main] INFO craftBetWorld - 285 3650 ID=2245 Provider=TwoWinPower Name=Queen of Hearts cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:49:01,625 [main] INFO craftBetWorld - 286 3651 ID=2383 Provider=Greentube Name=Queen Of Hearts cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:49:06,039 [main] INFO craftBetWorld - 287 3661 ID=2500 Provider=NYX Name=Queen of the Nile II cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:49:07,692 [main] INFO craftBetWorld - 288 3666 ID=26897 Provider=Edict Name=QueenOfMars cod=0 description=null ResponseObject=24
+2023-04-10 13:49:08,966 [main] INFO craftBetWorld - 289 3671 ID=26896 Provider=Edict Name=Racetowin cod=0 description=null ResponseObject=24
+2023-04-10 13:49:11,262 [main] INFO craftBetWorld - 290 3679 ID=26895 Provider=Edict Name=Railroad cod=0 description=null ResponseObject=24
+2023-04-10 13:49:12,483 [main] INFO craftBetWorld - 291 3684 ID=2515 Provider=NYX Name=Ramesses Riches cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:49:14,910 [main] INFO craftBetWorld - 292 3690 ID=29991 Provider=PushGaming Name=Razor Shark cod=0 description=null ResponseObject=24
+2023-04-10 13:49:16,021 [main] INFO craftBetWorld - 293 3694 ID=2350 Provider=TwoWinPower Name=Red Baron cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:49:16,285 [main] INFO craftBetWorld - 294 3695 ID=2501 Provider=NYX Name=Red Baron cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:49:18,466 [main] INFO craftBetWorld - 295 3701 ID=53016 Provider=Mascot Name=Red Horde cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:49:22,583 [main] INFO craftBetWorld - 296 3714 ID=2458 Provider=Greentube Name=Reel King cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:49:24,314 [main] INFO craftBetWorld - 297 3719 ID=53003 Provider=Mascot Name=ReKill cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:49:25,219 [main] INFO craftBetWorld - 298 3723 ID=26340 Provider=Fugaso Name=Resident 3D cod=0 description=null ResponseObject=24
+2023-04-10 13:49:33,768 [main] INFO craftBetWorld - 299 3742 ID=2266 Provider=TwoWinPower Name=Rex cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:49:34,063 [main] INFO craftBetWorld - 300 3743 ID=2393 Provider=Greentube Name=Rex cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:49:42,615 [main] INFO craftBetWorld - 301 3770 ID=2433 Provider=EGT Name=Rise Of Ra cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:49:45,297 [main] INFO craftBetWorld - 302 3778 ID=26893 Provider=Edict Name=RisingLiner cod=0 description=null ResponseObject=24
+2023-04-10 13:49:46,500 [main] INFO craftBetWorld - 303 3782 ID=2192 Provider=TwoWinPower Name=Roaring Forties cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:49:46,787 [main] INFO craftBetWorld - 304 3783 ID=2385 Provider=Greentube Name=Roaring Forties cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:49:47,062 [main] INFO craftBetWorld - 305 3784 ID=2459 Provider=Greentube Name=Roaring Wilds cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:49:47,977 [main] INFO craftBetWorld - 306 3787 ID=53011 Provider=Mascot Name=Robin of Loxley cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:49:51,883 [main] INFO craftBetWorld - 307 3802 ID=28575 Provider=Fugaso Name=Romance V cod=0 description=null ResponseObject=24
+2023-04-10 13:50:00,164 [main] INFO craftBetWorld - 308 3825 ID=2434 Provider=EGT Name=Royal Secrets cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:50:02,573 [main] INFO craftBetWorld - 309 3833 ID=75147 Provider=Edict Name=Ruby Sevens cod=0 description=null ResponseObject=24
+2023-04-10 13:50:07,649 [main] INFO craftBetWorld - 310 3848 ID=25918 Provider=Edict Name=SalmonCatch cod=0 description=null ResponseObject=24
+2023-04-10 13:50:12,873 [main] INFO craftBetWorld - 311 3864 ID=2516 Provider=NYX Name=Savannah Sunrise cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:50:15,826 [main] INFO craftBetWorld - 312 3874 ID=29438 Provider=Edict Name=Scribes of Thebes cod=0 description=null ResponseObject=24
+2023-04-10 13:50:20,183 [main] INFO craftBetWorld - 313 3889 ID=2234 Provider=TwoWinPower Name=Secret Elixir cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:50:20,452 [main] INFO craftBetWorld - 314 3890 ID=2386 Provider=Greentube Name=Secret Elixir cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:50:21,535 [main] INFO craftBetWorld - 315 3894 ID=2398 Provider=Greentube Name=Sevens cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:50:25,896 [main] INFO craftBetWorld - 316 3905 ID=61041 Provider=AWC Name=Shark Hunter cod=0 description=null ResponseObject=Code: 1029, Message: Invalid IP address.: [138.201.48.200]
+2023-04-10 13:50:27,552 [main] INFO craftBetWorld - 317 3911 ID=29968 Provider=Edict Name=Shenyijing cod=0 description=null ResponseObject=24
+2023-04-10 13:50:30,374 [main] INFO craftBetWorld - 318 3918 ID=2461 Provider=Greentube Name=Shooting Stars cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:50:32,276 [main] INFO craftBetWorld - 319 3922 ID=23308 Provider=IGT Name=Siberian Storm cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-04-10 13:50:33,312 [main] INFO craftBetWorld - 320 3926 ID=26889 Provider=Edict Name=SicilianSun cod=0 description=null ResponseObject=24
+2023-04-10 13:50:35,168 [main] INFO craftBetWorld - 321 3930 ID=26888 Provider=Edict Name=Sindbad cod=0 description=null ResponseObject=24
+2023-04-10 13:50:37,159 [main] INFO craftBetWorld - 322 3937 ID=2448 Provider=Greentube Name=Sizzling 6 cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:50:38,242 [main] INFO craftBetWorld - 323 3941 ID=2399 Provider=Greentube Name=Sizzling Gems cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:50:38,752 [main] INFO craftBetWorld - 324 3943 ID=2462 Provider=Greentube Name=Sizzling Hot 6 E.Gold cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:50:39,602 [main] INFO craftBetWorld - 325 3945 ID=2387 Provider=Greentube Name=Sizzling Hot Deluxe cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:50:43,302 [main] INFO craftBetWorld - 326 3958 ID=26887 Provider=Edict Name=SmartRestart cod=0 description=null ResponseObject=24
+2023-04-10 13:50:44,501 [main] INFO craftBetWorld - 327 3961 ID=75389 Provider=Edict Name=Snake God cod=0 description=null ResponseObject=24
+2023-04-10 13:50:46,652 [main] INFO craftBetWorld - 328 3967 ID=28624 Provider=Edict Name=Snow Wolf Supreme cod=0 description=null ResponseObject=24
+2023-04-10 13:50:48,143 [main] INFO craftBetWorld - 329 3972 ID=75144 Provider=Edict Name=Soul of Nature cod=0 description=null ResponseObject=24
+2023-04-10 13:50:50,897 [main] INFO craftBetWorld - 330 3982 ID=29397 Provider=Edict Name=Sparta cod=0 description=null ResponseObject=24
+2023-04-10 13:50:54,019 [main] INFO craftBetWorld - 331 3992 ID=25850 Provider=Fugaso Name=Spin Joker, Spin! cod=0 description=null ResponseObject=24
+2023-04-10 13:50:59,996 [main] INFO craftBetWorld - 332 4007 ID=26871 Provider=Edict Name=SpiritsOfTheEast cod=0 description=null ResponseObject=24
+2023-04-10 13:51:05,375 [main] INFO craftBetWorld - 333 4020 ID=7049 Provider=ZeusPlay Name=Star Frenzy cod=0 description=null ResponseObject=No final product_id
+2023-04-10 13:51:05,817 [main] INFO craftBetWorld - 334 4022 ID=2463 Provider=Greentube Name=Star Nova cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:51:07,192 [main] INFO craftBetWorld - 335 4025 ID=23309 Provider=IGT Name=Star Trek cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-04-10 13:51:07,451 [main] INFO craftBetWorld - 336 4026 ID=2522 Provider=NYX Name=Starmania cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:51:26,790 [main] INFO craftBetWorld - 337 4067 ID=26373 Provider=Edict Name=SuccubusOffer cod=0 description=null ResponseObject=24
+2023-04-10 13:51:29,334 [main] INFO craftBetWorld - 338 4076 ID=23310 Provider=IGT Name=Sumatran Storm cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-04-10 13:51:38,879 [main] INFO craftBetWorld - 339 4104 ID=29449 Provider=Edict Name=Super Liner cod=0 description=null ResponseObject=24
+2023-04-10 13:51:41,983 [main] INFO craftBetWorld - 340 4114 ID=26885 Provider=Edict Name=Super7Reels cod=0 description=null ResponseObject=24
+2023-04-10 13:51:45,734 [main] INFO craftBetWorld - 341 4125 ID=29963 Provider=Edict Name=Swahili cod=0 description=null ResponseObject=24
+2023-04-10 13:51:50,484 [main] INFO craftBetWorld - 342 4138 ID=26006 Provider=Edict Name=TacoTuesday cod=0 description=null ResponseObject=24
+2023-04-10 13:52:13,674 [main] INFO craftBetWorld - 343 4200 ID=2436 Provider=EGT Name=The Great Egypt cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:52:15,679 [main] INFO craftBetWorld - 344 4207 ID=2464 Provider=Greentube Name=The King G.Records cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:52:21,716 [main] INFO craftBetWorld - 345 4228 ID=53006 Provider=Mascot Name=The Rite cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:52:23,915 [main] INFO craftBetWorld - 346 4233 ID=29988 Provider=PushGaming Name=The Shadow Order cod=0 description=null ResponseObject=24
+2023-04-10 13:52:24,166 [main] INFO craftBetWorld - 347 4234 ID=2523 Provider=NYX Name=The Snake Charmer cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:52:24,452 [main] INFO craftBetWorld - 348 4235 ID=29527 Provider=Fugaso Name=The Sword & The Magic cod=0 description=null ResponseObject=24
+2023-04-10 13:52:25,010 [main] INFO craftBetWorld - 349 4237 ID=76076 Provider=Edict Name=The Three Musketeers cod=0 description=null ResponseObject=24
+2023-04-10 13:52:25,666 [main] INFO craftBetWorld - 350 4239 ID=53014 Provider=Mascot Name=The Tomb: Dragon Emperor's Treasure cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:52:28,744 [main] INFO craftBetWorld - 351 4250 ID=26350 Provider=Fugaso Name=TheMummy2018:BlockPays cod=0 description=null ResponseObject=24
+2023-04-10 13:52:44,078 [main] INFO craftBetWorld - 352 4294 ID=29400 Provider=Edict Name=Tizona cod=0 description=null ResponseObject=24
+2023-04-10 13:52:52,508 [main] INFO craftBetWorld - 353 4321 ID=25158 Provider=Edict Name=TreasuresofEgypt cod=0 description=null ResponseObject=24
+2023-04-10 13:52:53,781 [main] INFO craftBetWorld - 354 4326 ID=75138 Provider=Edict Name=Tribe of Thunder cod=0 description=null ResponseObject=24
+2023-04-10 13:52:54,354 [main] INFO craftBetWorld - 355 4328 ID=26878 Provider=Edict Name=TrickyTrio cod=0 description=null ResponseObject=24
+2023-04-10 13:52:57,372 [main] INFO craftBetWorld - 356 4339 ID=25823 Provider=Edict Name=TripleTripleChance cod=0 description=null ResponseObject=24
+2023-04-10 13:52:59,315 [main] INFO craftBetWorld - 357 4346 ID=29447 Provider=Edict Name=Tropical Heat cod=0 description=null ResponseObject=24
+2023-04-10 13:53:00,469 [main] INFO craftBetWorld - 358 4350 ID=26336 Provider=Fugaso Name=TrumpItDeluxe cod=0 description=null ResponseObject=24
+2023-04-10 13:53:05,314 [main] INFO craftBetWorld - 359 4360 ID=2438 Provider=EGT Name=Ultimate Hot cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:53:06,345 [main] INFO craftBetWorld - 360 4363 ID=29445 Provider=Edict Name=Ultra 7 Wild cod=0 description=null ResponseObject=24
+2023-04-10 13:53:07,085 [main] INFO craftBetWorld - 361 4367 ID=2388 Provider=Greentube Name=Ultra Hot Deluxe cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:53:13,622 [main] INFO craftBetWorld - 362 4387 ID=26877 Provider=Edict Name=Vampires cod=0 description=null ResponseObject=24
+2023-04-10 13:53:13,879 [main] INFO craftBetWorld - 363 4388 ID=75249 Provider=Edict Name=Vampires II cod=0 description=null ResponseObject=24
+2023-04-10 13:53:15,903 [main] INFO craftBetWorld - 364 4394 ID=23311 Provider=IGT Name=Vegas Baby cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-04-10 13:53:20,336 [main] INFO craftBetWorld - 365 4407 ID=53007 Provider=Mascot Name=Venetian Magic cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:53:20,667 [main] INFO craftBetWorld - 366 4408 ID=2517 Provider=NYX Name=Venetian Rose cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:53:21,291 [main] INFO craftBetWorld - 367 4410 ID=29990 Provider=PushGaming Name=Viking Clash cod=0 description=null ResponseObject=24
+2023-04-10 13:53:22,724 [main] INFO craftBetWorld - 368 4414 ID=29684 Provider=Edict Name=Viking Towers cod=0 description=null ResponseObject=24
+2023-04-10 13:53:29,434 [main] INFO craftBetWorld - 369 4432 ID=29443 Provider=Edict Name=Voodoo Shark cod=0 description=null ResponseObject=24
+2023-04-10 13:53:31,136 [main] INFO craftBetWorld - 370 4437 ID=26341 Provider=Fugaso Name=Warlock's Book cod=0 description=null ResponseObject=24
+2023-04-10 13:53:31,802 [main] INFO craftBetWorld - 371 4439 ID=23312 Provider=IGT Name=Water Dragons cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-04-10 13:53:36,198 [main] INFO craftBetWorld - 372 4450 ID=2502 Provider=NYX Name=Werewolf Wild cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:53:37,024 [main] INFO craftBetWorld - 373 4452 ID=23313 Provider=IGT Name=Western Belles cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-04-10 13:53:37,666 [main] INFO craftBetWorld - 374 4454 ID=75885 Provider=Edict Name=Western Pacific cod=0 description=null ResponseObject=24
+2023-04-10 13:53:38,352 [main] INFO craftBetWorld - 375 4456 ID=2077 Provider=TwoWinPower Name=Whats Cooking cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:53:39,288 [main] INFO craftBetWorld - 376 4459 ID=29979 Provider=PushGaming Name=Wheel of Wonders cod=0 description=null ResponseObject=24
+2023-04-10 13:53:39,673 [main] INFO craftBetWorld - 377 4460 ID=23758 Provider=Aristocrat Name=Where's The Gold cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-04-10 13:53:58,786 [main] INFO craftBetWorld - 378 4509 ID=26342 Provider=Fugaso Name=Wild Rodeo cod=0 description=null ResponseObject=24
+2023-04-10 13:54:00,084 [main] INFO craftBetWorld - 379 4513 ID=53018 Provider=Mascot Name=Wild Spirit cod=21 description=<html>
+<head><title>400 The SSL certificate error</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The SSL certificate error</center>
+<hr><center>nginx</center>
+</body>
+</html>
+ ResponseObject=null
+2023-04-10 13:54:00,749 [main] INFO craftBetWorld - 380 4515 ID=29441 Provider=Edict Name=Wild Supreme cod=0 description=null ResponseObject=24
+2023-04-10 13:54:01,028 [main] INFO craftBetWorld - 381 4516 ID=29985 Provider=PushGaming Name=Wild Swarm cod=0 description=null ResponseObject=24
+2023-04-10 13:54:05,398 [main] INFO craftBetWorld - 382 4528 ID=23314 Provider=IGT Name=Wild Wolf cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-04-10 13:54:08,535 [main] INFO craftBetWorld - 383 4537 ID=7051 Provider=ZeusPlay Name=Wilds & Pirates cod=0 description=null ResponseObject=No final product_id
+2023-04-10 13:54:09,112 [main] INFO craftBetWorld - 384 4539 ID=26875 Provider=Edict Name=WildSpirit cod=0 description=null ResponseObject=24
+2023-04-10 13:54:13,954 [main] INFO craftBetWorld - 385 4553 ID=75350 Provider=Edict Name=Wishing Well cod=0 description=null ResponseObject=24
+2023-04-10 13:54:14,643 [main] INFO craftBetWorld - 386 4555 ID=2440 Provider=EGT Name=Witches Charm cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:54:23,902 [main] INFO craftBetWorld - 387 4580 ID=25920 Provider=Edict Name=WoopWoop cod=0 description=null ResponseObject=24
+2023-04-10 13:54:24,170 [main] INFO craftBetWorld - 388 4581 ID=26874 Provider=Edict Name=WorldofCircus cod=0 description=null ResponseObject=24
+2023-04-10 13:54:30,309 [main] INFO craftBetWorld - 389 4600 ID=2465 Provider=Greentube Name=Xtra Hot cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:54:34,338 [main] INFO craftBetWorld - 390 4611 ID=26872 Provider=Edict Name=Zentaurus cod=0 description=null ResponseObject=24
+2023-04-10 13:54:36,982 [main] INFO craftBetWorld - 391 4620 ID=26873 Provider=Edict Name=Zipper cod=0 description=null ResponseObject=24
+2023-04-10 13:54:37,554 [main] INFO craftBetWorld - 392 4622 ID=2441 Provider=EGT Name=Zodiac Wheel cod=21 description={"name":"Forbidden","message":"Merchant not found","code":0,"status":403} ResponseObject=null
+2023-04-10 13:54:40,000 [main] INFO craftBetWorld - From Get URL API broken games are captured
+2023-04-10 13:54:40,000 [main] INFO craftBetWorld - Broken url-es are:  392 of 4630
+2023-04-10 13:54:41,033 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-04-10 13:54:41,044 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
