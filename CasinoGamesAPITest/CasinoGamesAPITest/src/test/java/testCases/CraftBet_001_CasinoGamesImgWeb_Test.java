@@ -18,7 +18,7 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
 
 
     public boolean getGamesAPICheckPictures(String getGamesAPIUrl, String origin, String recurse, String partnerName)
-            throws UnirestException, JSONException, IOException {
+            throws  JSONException, IOException {
 
         boolean isPassed;
         int k = 0;
@@ -28,51 +28,59 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
         ArrayList<String> gameProviderNames = new ArrayList<>();
         ArrayList<String> errorSrcXl = new ArrayList<>();
 
-        Unirest.setTimeouts(0, 0);
-        HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
-                .header("content-type", "application/json")
-                .header("origin", origin)
-                .body("{\"PageIndex\":0,\"PageSize\":20000,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false,\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
+        try{
+            Unirest.setTimeouts(0, 0);
+            HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
+                    .header("content-type", "application/json")
+                    .header("origin", origin)
+                    .body("{\"PageIndex\":0,\"PageSize\":20000,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false,\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
 
-                .asString();
+                    .asString();
 
-        logger.info("Get games Api call was sent");
-        JSONObject jsonObjectBody = new JSONObject(response.getBody());
-        Unirest.shutdown();
-        JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.get("ResponseObject").toString());
-        JSONArray jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
-        logger.info("Get games Api Response was captured");
+            logger.info("Get games Api call was sent");
+            JSONObject jsonObjectBody = new JSONObject(response.getBody());
+            JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.get("ResponseObject").toString());
+            JSONArray jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
+            logger.info("Get games Api Response was captured");
 
+            for (int j = 0; j < jsonArrayGames.length(); j++) {
+                String first = String.valueOf(jsonArrayGames.get(j));
+                JSONObject jsonObjectGame = new JSONObject(first);
+                String i = jsonObjectGame.getString("i");    // Game src
+                String n = jsonObjectGame.getString("n");    //Game Name
+                String sp = jsonObjectGame.getString("sp");  //Provider Name
+                String p = jsonObjectGame.get("p").toString();   //Game ID
 
-        for (int j = 0; j < jsonArrayGames.length(); j++) {
-            String first = String.valueOf(jsonArrayGames.get(j));
-            JSONObject jsonObjectGame = new JSONObject(first);
-            String i = jsonObjectGame.getString("i");    // Game src
-            String n = jsonObjectGame.getString("n");    //Game Name
-            String sp = jsonObjectGame.getString("sp");  //Provider Name
-            String p = jsonObjectGame.get("p").toString();   //Game ID
-
-            gameNames.add(n);
-            gameProviderNames.add(sp);
-            gameIDes.add(p);
-            if (i.contains("http") && i.contains(" ")) {
-                String change = i.replace(" ", "%20");
-                srces.add(change);
-            } else if (!i.contains("http") && !i.contains(" ")) {
-                srces.add(recurse + i);
-            } else if (!i.contains("http") && i.contains(" ")) {
-                String change = recurse + i.replace(" ", "%20");
-                srces.add(change);
-            } else {
-                srces.add(i);
+                gameNames.add(n);
+                gameProviderNames.add(sp);
+                gameIDes.add(p);
+                if (i.contains("http") && i.contains(" ")) {
+                    String change = i.replace(" ", "%20");
+                    srces.add(change);
+                } else if (!i.contains("http") && !i.contains(" ")) {
+                    srces.add(recurse + i);
+                } else if (!i.contains("http") && i.contains(" ")) {
+                    String change = recurse + i.replace(" ", "%20");
+                    srces.add(change);
+                } else {
+                    srces.add(i);
+                }
             }
         }
-        logger.info("All captured games images was added into ArrayList");
+        catch (Exception e){
+            logger.info("Get games Api Request has an Exception");
+        }
+        finally {
+            Unirest.shutdown();
+        }
+
+        logger.info("All captured games images links was added into ArrayList: " + srces.size());
+        int count = 1;
         for (String src : srces) {
-            int count = 1;
             if (src == null || src.isEmpty()) {
                 logger.info( count + "  " + k + "  Game ID = " + gameIDes.get(k) + "   Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + " :   " + ":   src = " + src + " :" + " this games image src has empty/null value");
                 errorSrcXl.add(count + "  " + k + "  Game ID = " + gameIDes.get(k) + "  Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + "  " + ":   src = " + src + " " + " ----->  this games image src has empty/null value");
+                count++;
             } else {
                 int cod;
                 try {
@@ -84,28 +92,21 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
                     if (cod >= 400) {
                         logger.error(count + "  " + k + "  Game ID = " + gameIDes.get(k) + "   Game Provider Name = " + gameProviderNames.get(k) + " :   " + "Game Name =  " + gameNames.get(k) + " :   " + "cod = " + cod + ":   src = " + src);
                         errorSrcXl.add(count + "  " + k + "  Game ID = " + gameIDes.get(k) + "  Game Provider Name = " + gameProviderNames.get(k) + "   " + "Game Name =  " + gameNames.get(k) + "  " + "cod = " + cod + "   src = " + src);
+                        count++;
                     }
                 } catch (Exception e) {
-                    try {
-                        URL img = new URL(src);
-                        HttpURLConnection connection = (HttpURLConnection) img.openConnection();
-                        connection.connect();
-                        cod = connection.getResponseCode();
 
-                        if (cod >= 400) {
-                            logger.error(count + "  " + k + "  Game ID = " + gameIDes.get(k) + "  Game Provider Name = " + gameProviderNames.get(k) + " :   " + "Game Name =  " + gameNames.get(k) + " :   " + "cod = " + cod + ":   src = " + src);
-                            errorSrcXl.add(count + "  " + k + "  Game ID = " + gameIDes.get(k) + "  Game Provider Name = " + gameProviderNames.get(k) + "   " + "Game Name =  " + gameNames.get(k) + "  " + "cod = " + cod + "   src = " + src);
-                        }
-                    } catch (Exception ex) {
                         logger.error(count + "  " + k + "  Game ID = " + gameIDes.get(k) + " Game Provider Name = " + gameProviderNames.get(k) + " :   " + "Game Name = " + gameNames.get(k) + " :  " + "   src = " + src + "   " + e);
                         errorSrcXl.add(count + "  " + k + "  Game ID = " + gameIDes.get(k) + "  Game Provider Name = " + gameProviderNames.get(k) + "   " + "Game Name =  " + gameNames.get(k) + "  " + "src = " + src);
-                    }
+                        count++;
+                }
+                finally {
+                    Unirest.shutdown();
                 }
             }
             k++;
-            count++;
-        }
 
+        }
         logger.info("Broken images are:  " + errorSrcXl.size());
         if (errorSrcXl.size() == 0) {
             isPassed = true;
