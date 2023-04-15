@@ -74,25 +74,46 @@ public class CraftBet_002_CasinoGamesIMGMobile_Test extends BaseTest {
 
 
         logger.info("All captured games images was added into ArrayList");
+        int count = 1;
+        HttpURLConnection connection = null;
         for (String src : srces) {
             if (src == null || src.isEmpty()) {
-                logger.info(k + "  Game ID = " + gameIDes.get(k) + "   Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + " :   " + ":   src = " + src + " :" + " this games image src has empty/null value");
+                logger.info(count + "  " + k + "  Game ID = " + gameIDes.get(k) + "   Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + " :   " + ":   src = " + src + " :" + " this games image src has empty/null value");
                 errorSrcXl.add(k + "  Game ID = " + gameIDes.get(k) + "  Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + "  " + ":   src = " + src + " " + " ----->  this games image src has empty/null value");
+                count++;
             } else {
                 int cod;
                 try {
                     URL img = new URL(src);
-                    HttpURLConnection connection = (HttpURLConnection) img.openConnection();
+                    connection = (HttpURLConnection) img.openConnection();
                     connection.connect();
                     cod = connection.getResponseCode();
-
-                    if (cod >= 400) {
-                        logger.error(k + "  Game ID = " + gameIDes.get(k) + "   Game Provider Name = " + gameProviderNames.get(k) + " :   " + "Game Name =  " + gameNames.get(k) + " :   " + "cod = " + cod + ":   src = " + src);
-                        errorSrcXl.add(k + "  Game ID = " + gameIDes.get(k) + "  Game Provider Name = " + gameProviderNames.get(k) + "   " + "Game Name =  " + gameNames.get(k) + "  " + "cod = " + cod + "   src = " + src);
+                    String contentType = connection.getContentType();
+                    if (cod >= 400 || !contentType.contains("image")) {
+                        logger.info(count + "  " + k + "  Game ID = " + gameIDes.get(k) + "   Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + " :   " + ":   src = " + src);
+                        errorSrcXl.add(k + "  Game ID = " + gameIDes.get(k) + "  Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + "  " + ":   src = " + src);
+                        count++;
                     }
                 } catch (Exception e) {
-                    logger.error(k + "  Game ID = " + gameIDes.get(k) + " Game Provider Name = " + gameProviderNames.get(k) + " :                    " + "Game Name = " + gameNames.get(k) + " :                    " + "   src = " + src + "         " + e);
-                    errorSrcXl.add(k + "  Game ID = " + gameIDes.get(k) + "  Game Provider Name = " + gameProviderNames.get(k) + "   " + "Game Name =  " + gameNames.get(k) + "  " + "src = " + src);
+                    try {
+                        URL img = new URL(src);
+                        connection = (HttpURLConnection) img.openConnection();
+                        connection.connect();
+                        cod = connection.getResponseCode();
+                        String contentType = connection.getContentType();
+                        if (cod >= 400 || !contentType.contains("image")) {
+                            logger.info(count + "  " + k + "  Game ID = " + gameIDes.get(k) + "   Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + " :   " + ":   src = " + src);
+                            errorSrcXl.add(k + "  Game ID = " + gameIDes.get(k) + "  Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + "  " + ":   src = " + src);
+                        }
+                    }
+                    catch (Exception ee){
+                        logger.info(count + "  " + k + "  Game ID = " + gameIDes.get(k) + "   Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + " :   " + ":   src = " + src);
+                        errorSrcXl.add(k + "  Game ID = " + gameIDes.get(k) + "  Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + "  " + ":   src = " + src);
+                        count++;
+                    }
+                }
+                finally {
+                    connection.disconnect();
                 }
             }
             k++;
@@ -101,9 +122,10 @@ public class CraftBet_002_CasinoGamesIMGMobile_Test extends BaseTest {
 
         logger.info("Broken images are:  " + errorSrcXl.size());
         if (errorSrcXl.size() == 0) {
+            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenData.xlsx", "GamesBrokenImgMobile");
             isPassed = true;
         } else {
-            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenIMGListMobile.xlsx", "brokenIMG");
+            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenData.xlsx", "GamesBrokenImgMobile");
             isPassed = false;
         }
         return isPassed;

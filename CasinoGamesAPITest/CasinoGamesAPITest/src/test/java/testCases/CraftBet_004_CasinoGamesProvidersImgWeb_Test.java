@@ -71,31 +71,46 @@ public class CraftBet_004_CasinoGamesProvidersImgWeb_Test extends BaseTest {
         int count = 1;
         for (String src : srces) {
             int cod;
-
+            HttpURLConnection connection = null;
             try {
                 URL img = new URL(src);
-                HttpURLConnection connection = (HttpURLConnection) img.openConnection();
+                connection = (HttpURLConnection) img.openConnection();
                 connection.connect();
                 cod = connection.getResponseCode();
                 String contentType = connection.getContentType();
-                if (cod >= 400 || !contentType.equals("image/png")) {
+                if (cod >= 400 || !contentType.contains("image")) {
                     logger.error(count + "  Provider ID = " + providerIDes.get(k) + "   Provider Name = " + providerNames.get(k) + " :   " + "cod = " + cod + ":   src = " + src);
                     errorSrcXl.add(count + "  Provider ID = " + providerIDes.get(k) + "   Provider Name = " + providerNames.get(k) + " :   " + "cod = " + cod + ":   src = " + src);
                 }
             } catch (Exception e) {
+                try {
+                    URL img = new URL(src);
+                    connection = (HttpURLConnection) img.openConnection();
+                    connection.connect();
+                    cod = connection.getResponseCode();
+                    String contentType = connection.getContentType();
+                    if (cod >= 400 || !contentType.contains("image")) {
+                        logger.error(count + "  Provider ID = " + providerIDes.get(k) + "   Provider Name = " + providerNames.get(k) + " :   " + "cod = " + cod + ":   src = " + src);
+                        errorSrcXl.add(count + "  Provider ID = " + providerIDes.get(k) + "   Provider Name = " + providerNames.get(k) + " :   " + "cod = " + cod + ":   src = " + src);
+                    }
+                } catch (Exception ee) {
 
-                logger.error(count + "  Provider ID = " + providerIDes.get(k) + "   Provider Name = " + providerNames.get(k) + " :   " + ":   src = " + src);
-                errorSrcXl.add(count + "  Provider ID = " + providerIDes.get(k) + "   Provider Name = " + providerNames.get(k) + " :   " + ":   src = " + src);
+                    logger.error(count + "  Provider ID = " + providerIDes.get(k) + "   Provider Name = " + providerNames.get(k) + " :   " + ":   src = " + src);
+                    errorSrcXl.add(count + "  Provider ID = " + providerIDes.get(k) + "   Provider Name = " + providerNames.get(k) + " :   " + ":   src = " + src);
+                }
+            }
+            finally {
+                connection.disconnect();
             }
             k++;
             count++;
-
         }
         logger.info("Broken Providers images are:  " + errorSrcXl.size());
         if (errorSrcXl.size() == 0) {
+            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenData.xlsx", "ProvidersBrokenImgWeb");
             isPassed = true;
         } else {
-            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "ProvidersBrokenIMGListWeb.xlsx", "ProvidersBrokenIMGWeb");
+            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenData.xlsx", "ProvidersBrokenImgWeb");
             isPassed = false;
         }
         return isPassed;

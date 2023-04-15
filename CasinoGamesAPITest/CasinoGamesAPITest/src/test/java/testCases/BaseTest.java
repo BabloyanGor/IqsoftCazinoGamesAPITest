@@ -2,25 +2,19 @@ package testCases;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-import org.apache.poi.xssf.usermodel.XSSFRow;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.openqa.selenium.Dimension;
-import org.openqa.selenium.support.PageFactory;
 import org.testng.SkipException;
 import org.testng.annotations.*;
 import pageObjects.*;
-import utilities.DriverFactory;
 import utilities.ReadConfig;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
+import java.io.*;
 import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.time.Duration;
 import java.util.ArrayList;
 
 
@@ -70,21 +64,60 @@ public class BaseTest {
     }
 
 
+//    public void writeInExel(ArrayList<String> errorSrcXl, String src, String shitName) throws IOException {
+//        String target = System.getProperty("user.dir") + src;
+//        XSSFWorkbook workbook = new XSSFWorkbook();
+//        FileOutputStream file = new FileOutputStream(target);
+//        XSSFSheet sheet = workbook.createSheet(shitName);
+//        sheet.setColumnWidth(0, 20000);
+//        int l = 0;
+//        for (String err : errorSrcXl) {
+//            XSSFRow row = sheet.createRow(l);
+//            row.createCell(0).setCellValue(err);
+//            l++;
+//        }
+//        workbook.write(file);
+//        workbook.close();
+//    }
+
+
     public void writeInExel(ArrayList<String> errorSrcXl, String src, String shitName) throws IOException {
-        String target = System.getProperty("user.dir") + src;
-        XSSFWorkbook workbook = new XSSFWorkbook();
-        FileOutputStream file = new FileOutputStream(target);
-        XSSFSheet sheet = workbook.createSheet(shitName);
-        sheet.setColumnWidth(0, 20000);
+
+        String filePath = System.getProperty("user.dir") + src;
+        Workbook workbook;
+        File file = new File(filePath);
+        if (file.exists()) {
+            FileInputStream fis = new FileInputStream(file);
+            workbook = new XSSFWorkbook(fis);
+        } else {
+            workbook = new XSSFWorkbook();
+        }
+        if (workbook.getSheet(shitName) != null) {
+            workbook.removeSheetAt(workbook.getSheetIndex(shitName));
+        }
+        Sheet sheet = workbook.createSheet(shitName);
+        if (sheet == null) {
+            sheet = workbook.createSheet("Sheet1");
+        }
+        sheet.setColumnWidth(0, 50000);
+
         int l = 0;
         for (String err : errorSrcXl) {
-            XSSFRow row = sheet.createRow(l);
+            Row row = sheet.createRow(l);
             row.createCell(0).setCellValue(err);
             l++;
         }
-        workbook.write(file);
+        // save the workbook to the file
+        FileOutputStream fos = new FileOutputStream(filePath);
+        workbook.write(fos);
+        // close the streams
+        fos.close();
         workbook.close();
     }
+
+
+
+
 
 
     public static void saveImage(String imageUrl, String destinationFile) throws IOException {

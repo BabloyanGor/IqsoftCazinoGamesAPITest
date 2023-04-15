@@ -85,7 +85,7 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
         JSONObject jsonObjectBody;
         JSONObject jsonObjectResponseObject;
         JSONArray jsonArrayGames = null;
-
+//        String contentType = null;
         try {
             Unirest.setTimeouts(0, 0);
             HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
@@ -138,10 +138,13 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
                                 "\"Index\":null,\"ActivationKey\":null,\"MobileNumber\":null,\"Code\":null,\"RequestData\":\"{}\",\"IsForDemo\":false," +
                                 "\"IsForMobile\":false,\"Position\":\"\",\"DeviceType\":1,\"ClientId\":" + userID + ",\"Token\":\"" + token + "\"}")
                         .asString();
+//                contentType = responseUrl.getHeaders().getFirst("Content-Type");
+
                 jsonObjectGetUrl = new JSONObject(responseUrl.getBody());
                 code = jsonObjectGetUrl.get("ResponseCode").toString();
                 description = jsonObjectGetUrl.get("Description").toString();
                 url = jsonObjectGetUrl.get("ResponseObject").toString();
+
             } catch (Exception ee) {
                 logger.fatal("jsonObjectGetUrl has an exception " + ee);
             } finally {
@@ -150,9 +153,9 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
 
             String errMessage;
             try {
-                if (!code.equals("0") || url == null || url.length() < 10 || !url.contains("https://")) {
-                    errMessage = errCount + " " + k + " ID=" + id + " Provider=" + provider.get(k - 1) + " Name=" + name.get(k - 1) + " cod=" + code + " description=" + description + " ResponseObject=" + url;
-                    logger.info(errMessage);
+                if (!code.equals("0") || url == null || url.length() < 10 || !url.contains("https://") ) {
+                    errMessage = k + " ID=" + id + " Provider=" + provider.get(k - 1) + " Name=" + name.get(k - 1) + " cod=" + code + " description=" + description + " ResponseObject=" + url;
+                    logger.info(errCount + " " + errMessage);
                     errorSrcXl.add(errMessage);
                     errCount++;
                 }
@@ -169,10 +172,11 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
         logger.info("Broken url-es are:  " + errorSrcXl.size() + " of " + productID.size());
         if (errorSrcXl.size() == 0) {
             logger.info("Broken Games are null");
+            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenData.xlsx", "GamesBrokenURL");
             isPassed = true;
 
         } else {
-            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenGameURLList.xlsx", "brokenURL");
+            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenData.xlsx", "GamesBrokenURL");
             isPassed = false;
         }
         return isPassed;

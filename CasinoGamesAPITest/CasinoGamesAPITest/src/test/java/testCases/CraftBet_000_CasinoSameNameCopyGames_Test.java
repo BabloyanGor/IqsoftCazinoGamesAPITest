@@ -12,10 +12,8 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
-import java.net.*;
 import java.util.ArrayList;
-import java.util.Enumeration;
-import java.util.List;
+
 import java.util.regex.Pattern;
 
 public class CraftBet_000_CasinoSameNameCopyGames_Test extends BaseTest {
@@ -122,9 +120,10 @@ public class CraftBet_000_CasinoSameNameCopyGames_Test extends BaseTest {
         }
         logger.info("Duplicate games are:  " + errorSrcXl.size());
         if (errorSrcXl.size() == 0) {
+            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenData.xlsx", "CopyGames");
             isPassed = true;
         } else {
-            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "DuplicateGamesList.xlsx", "CopyGames");
+            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenData.xlsx", "CopyGames");
             isPassed = false;
         }
         // writeInExel(gameProviderNamesList, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "ProvidersList.xlsx", "Providers");
