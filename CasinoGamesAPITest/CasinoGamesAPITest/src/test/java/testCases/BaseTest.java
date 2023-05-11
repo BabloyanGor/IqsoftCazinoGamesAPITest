@@ -2,42 +2,36 @@ package testCases;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.SkipException;
 import org.testng.annotations.*;
 import pageObjects.*;
 import utilities.ReadConfig;
 
-import java.io.*;
-import java.net.URL;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.ArrayList;
+import java.awt.*;
 
 
 public class BaseTest {
 
+    BasePage basePage = new BasePage();
     static final int MINUTES_PER_HOUR = 60;
     static final int SECONDS_PER_MINUTE = 60;
     static final int SECONDS_PER_HOUR = SECONDS_PER_MINUTE * MINUTES_PER_HOUR;
     public static Logger logger;
-    public int partnerID;
-    public String getGamesAPIUrl;
-    public String getURLAPIUrl;
-    //    public int getUserID;
-    public String getGamesOrigin;
-    public String getPrematchTreeOrigin;
-    public String getMarketByIDOrigin;
-    public String getGamesRecurse;
-    public String getGamesPartnerName;
-    public String getGamesBaseURL;
-    public String loginClient;
-    public String getAllLifeGames;
 
-    public String getPreMatchTree;
+
+    public static int partnerID;
+    public static String getGamesAPIUrl;
+    public static String getURLAPIUrl;
+    //    public int getUserID;
+    public static String getGamesOrigin;
+    public static String getPrematchTreeOrigin;
+    public static String getMarketByIDOrigin;
+    public static String getGamesRecurse;
+    public static String getGamesPartnerName;
+    public static String getGamesBaseURL;
+    public static String loginClient;
+    public static String getAllLifeGames;
+    public static String getPreMatchTree;
 
 
     public String getPrematchMatchesMarketsByID(int gameID) {
@@ -47,95 +41,26 @@ public class BaseTest {
     public String getMarketByID;
 
 
-    public CraftBet_01_Header_Page craftBet_01_header_page;
-    public CraftBet_03_Login_PopUp_Page craftBet_03_login_popUp_page;
+//    public CraftBet_01_Header_Page craftBet_01_header_page;
+//    public CraftBet_03_Login_PopUp_Page craftBet_03_login_popUp_page;
     ReadConfig readConfig = new ReadConfig();
-    public String isHeadless = readConfig.isHeadless();
-    public String browser = readConfig.getBrowser();
-    public String username = readConfig.getUsername();
-    public String password = readConfig.getPassword();
-    public String language = readConfig.getLanguage();
-    public int DimensionHeight = readConfig.getDimensionHeight();
-    public int DimensionWidth = readConfig.getDimensionWidth();
     public int partnerConfigNum = readConfig.partnerConfigNum();
+//    public String isHeadless = readConfig.isHeadless();
+//    public String browser = readConfig.getBrowser();
+//    public String username = readConfig.getUsername();
+//    public String password = readConfig.getPassword();
+//    public String language = readConfig.getLanguage();
+//    public int DimensionHeight = readConfig.getDimensionHeight();
+//    public int DimensionWidth = readConfig.getDimensionWidth();
+
 
     //endregion
-    public BaseTest() {
-    }
-
-
-//    public void writeInExel(ArrayList<String> errorSrcXl, String src, String shitName) throws IOException {
-//        String target = System.getProperty("user.dir") + src;
-//        XSSFWorkbook workbook = new XSSFWorkbook();
-//        FileOutputStream file = new FileOutputStream(target);
-//        XSSFSheet sheet = workbook.createSheet(shitName);
-//        sheet.setColumnWidth(0, 20000);
-//        int l = 0;
-//        for (String err : errorSrcXl) {
-//            XSSFRow row = sheet.createRow(l);
-//            row.createCell(0).setCellValue(err);
-//            l++;
-//        }
-//        workbook.write(file);
-//        workbook.close();
-//    }
-
-
-    public void writeInExel(ArrayList<String> errorSrcXl, String src, String shitName) throws IOException {
-
-        String filePath = System.getProperty("user.dir") + src;
-        Workbook workbook;
-        File file = new File(filePath);
-        if (file.exists()) {
-            FileInputStream fis = new FileInputStream(file);
-            workbook = new XSSFWorkbook(fis);
-        } else {
-            workbook = new XSSFWorkbook();
-        }
-        if (workbook.getSheet(shitName) != null) {
-            workbook.removeSheetAt(workbook.getSheetIndex(shitName));
-        }
-        Sheet sheet = workbook.createSheet(shitName);
-        if (sheet == null) {
-            sheet = workbook.createSheet("Sheet1");
-        }
-        sheet.setColumnWidth(0, 50000);
-
-        int l = 0;
-        for (String err : errorSrcXl) {
-            Row row = sheet.createRow(l);
-            row.createCell(0).setCellValue(err);
-            l++;
-        }
-        // save the workbook to the file
-        FileOutputStream fos = new FileOutputStream(filePath);
-        workbook.write(fos);
-        // close the streams
-        fos.close();
-        workbook.close();
+    public BaseTest() throws AWTException {
     }
 
 
 
-
-
-
-    public static void saveImage(String imageUrl, String destinationFile) throws IOException {
-        URL url = new URL(imageUrl);
-        InputStream is = url.openStream();
-        OutputStream os = Files.newOutputStream(Paths.get(destinationFile));
-
-        byte[] b = new byte[2048];
-        int length;
-
-        while ((length = is.read(b)) != -1) {
-            os.write(b, 0, length);
-        }
-
-        is.close();
-        os.close();
-    }
-
+//    BasePage basePage = new BasePage();
 
     @BeforeMethod
     public void setup() throws InterruptedException {
@@ -302,6 +227,7 @@ public class BaseTest {
                 //                getUserID = 1651063;
                 partnerID = 43;
                 getGamesAPIUrl = "https://websitewebapi.oceanbet.io/43/api/Main/GetGames";
+
                 getURLAPIUrl = "https://websitewebapi.oceanbet.io/43/api/Main/GetProductUrl";
                 getGamesOrigin = "https://oceanbet.io";
                 getGamesRecurse = "https://resources.oceanbet.io/products/";
@@ -384,6 +310,18 @@ public class BaseTest {
                 loginClient = "https://websitewebapi.slots.inc/63/api/Main/LoginClient";
                 break;
             }
+            case 19: {
+                partnerID = 43;
+                getGamesAPIUrl = "https://websitewebapi.oceanbet.io/43/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.oceanbet.io/43/api/Main/GetProductUrl";
+                getGamesOrigin = "https://rivierabet.com";
+                getGamesRecurse = "https://resources.slots.inc/products/";
+                getGamesPartnerName = "rivierabet";
+                getGamesBaseURL = "https://rivierabet.com";
+                loginClient = "https://websitewebapi.oceanbet.io/43/api/Main/LoginClient";
+                break;
+            }
+
 
             case 100: {
                 //                getUserID = 2;
@@ -415,7 +353,7 @@ public class BaseTest {
                 throw new SkipException("From config.properties file choose the right PartnerID Please");
             }
         }
-
+        logger.info("Test Url: " + getGamesBaseURL  + " partnerID: " + partnerID);
 
 //        try {
 //            super.initDriver(getGamesBaseURL, browser, isHeadless);
@@ -440,7 +378,7 @@ public class BaseTest {
 //
 //        craftBet_01_header_page.setItem("lang", language);
 //        craftBet_01_header_page.navigateRefresh();
-        logger.info("Test Url: " + getGamesBaseURL  + " partnerID: " + partnerID);
+
     }
 
 

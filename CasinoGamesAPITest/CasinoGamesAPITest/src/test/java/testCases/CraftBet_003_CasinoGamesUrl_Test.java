@@ -9,14 +9,19 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.awt.*;
 import java.io.IOException;
 import java.util.ArrayList;
 
 import static java.lang.Integer.parseInt;
 
 public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
+
     String token;
     int userID;
+
+    public CraftBet_003_CasinoGamesUrl_Test() throws AWTException {
+    }
 
     @BeforeMethod
     public void logIn() {
@@ -74,7 +79,7 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
                                        int userID, int partnerID, String partnerName)
             throws JSONException, IOException {
 
-        boolean isPassed;
+        boolean isPassed = false;
         ArrayList<String> productID = new ArrayList<>();
         ArrayList<String> name = new ArrayList<>();
         ArrayList<String> provider = new ArrayList<>();
@@ -172,11 +177,11 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
         logger.info("Broken url-es are:  " + errorSrcXl.size() + " of " + productID.size());
         if (errorSrcXl.size() == 0) {
             logger.info("Broken Games are null");
-            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenData.xlsx", "GamesBrokenURL");
+            basePage.writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenData.xlsx", "GamesBrokenURL");
             isPassed = true;
 
         } else {
-            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenData.xlsx", "GamesBrokenURL");
+            basePage.writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenData.xlsx", "GamesBrokenURL");
             isPassed = false;
         }
         return isPassed;

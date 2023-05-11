@@ -2,13 +2,13 @@ package testCases;
 
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.Unirest;
-import com.mashape.unirest.http.exceptions.UnirestException;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.awt.*;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -16,10 +16,13 @@ import java.util.ArrayList;
 
 public class CraftBet_004_CasinoGamesProvidersImgWeb_Test extends BaseTest {
 
+    public CraftBet_004_CasinoGamesProvidersImgWeb_Test() throws AWTException {
+    }
 
     public boolean getGamesAPICheckProvidersPictures(String getGamesAPIUrl, String origin, String partnerName)
             throws JSONException, IOException {
 
+//        BasePage basePage = new BasePage();
         boolean isPassed;
         int k = 0;
         ArrayList<String> providerIDes = new ArrayList<>();
@@ -100,17 +103,20 @@ public class CraftBet_004_CasinoGamesProvidersImgWeb_Test extends BaseTest {
                 }
             }
             finally {
-                connection.disconnect();
+                try {
+                    connection.disconnect();
+                }
+                catch (Exception e){}
             }
             k++;
             count++;
         }
         logger.info("Broken Providers images are:  " + errorSrcXl.size());
         if (errorSrcXl.size() == 0) {
-            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenData.xlsx", "ProvidersBrokenImgWeb");
+            basePage.writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenData.xlsx", "ProvidersBrokenImgWeb");
             isPassed = true;
         } else {
-            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenData.xlsx", "ProvidersBrokenImgWeb");
+            basePage.writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenData.xlsx", "ProvidersBrokenImgWeb");
             isPassed = false;
         }
         return isPassed;

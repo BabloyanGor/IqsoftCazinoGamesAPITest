@@ -19,43 +19,43 @@ public class ReadConfig {
             System.out.println("Exception is " + e.getMessage());
         }
     }
-
-    public String getBrowser()
-    {
-        return pro.getProperty("browser");
-    }
-    public String isHeadless()
-    {
-        return pro.getProperty("headless");
-    }
-
-    public String getUsername()
-    {
-        return pro.getProperty("username");
-    }
-
-    public String getPassword()
-    {
-        return pro.getProperty("password");
-    }
-
-    public String getLanguage()
-    {
-        return pro.getProperty("Language");
-    }
-
-    public int getDimensionWidth()
-    {
-        return Integer.parseInt(pro.getProperty("DimensionWidth"));
-    }
-    public int getDimensionHeight()
-    {
-        return Integer.parseInt(pro.getProperty("DimensionHeight"));
-    }
-
     public int partnerConfigNum()
     {
         return Integer.parseInt(pro.getProperty("id"));
     }
+
+//    public String getBrowser()
+//    {
+//        return pro.getProperty("browser");
+//    }
+//    public String isHeadless()
+//    {
+//        return pro.getProperty("headless");
+//    }
+//
+//    public String getUsername()
+//    {
+//        return pro.getProperty("username");
+//    }
+//
+//    public String getPassword()
+//    {
+//        return pro.getProperty("password");
+//    }
+//
+//    public String getLanguage()
+//    {
+//        return pro.getProperty("Language");
+//    }
+//
+//    public int getDimensionWidth()
+//    {
+//        return Integer.parseInt(pro.getProperty("DimensionWidth"));
+//    }
+//    public int getDimensionHeight()
+//    {
+//        return Integer.parseInt(pro.getProperty("DimensionHeight"));
+//    }
+
 
 }

@@ -7,7 +7,9 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import pageObjects.BasePage;
 
+import java.awt.*;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -16,9 +18,12 @@ import java.util.ArrayList;
 public class CraftBet_002_CasinoGamesIMGMobile_Test extends BaseTest {
 
 
-    public boolean getGamesAPICheckPicturesForMobile(String getGamesAPIUrl, String origin, String recurse, String partnerName)
-            throws  JSONException, IOException {
+    public CraftBet_002_CasinoGamesIMGMobile_Test() throws AWTException {
+    }
 
+    public boolean getGamesAPICheckPicturesForMobile(String getGamesAPIUrl, String origin, String recurse, String partnerName)
+            throws JSONException, IOException, AWTException {
+        BasePage basePage = new BasePage();
         boolean isPassed;
         int k = 0;
         ArrayList<String> srces = new ArrayList<>();
@@ -122,10 +127,10 @@ public class CraftBet_002_CasinoGamesIMGMobile_Test extends BaseTest {
 
         logger.info("Broken images are:  " + errorSrcXl.size());
         if (errorSrcXl.size() == 0) {
-            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenData.xlsx", "GamesBrokenImgMobile");
+            basePage.writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenData.xlsx", "GamesBrokenImgMobile");
             isPassed = true;
         } else {
-            writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenData.xlsx", "GamesBrokenImgMobile");
+            basePage.writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenData.xlsx", "GamesBrokenImgMobile");
             isPassed = false;
         }
         return isPassed;
