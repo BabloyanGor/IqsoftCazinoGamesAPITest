@@ -321,6 +321,18 @@ public class BaseTest {
                 loginClient = "https://websitewebapi.oceanbet.io/43/api/Main/LoginClient";
                 break;
             }
+            case 20: {
+                partnerID = 28;
+                getGamesAPIUrl = "https://websitewebapi.woopio.com/28/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.woopio.com/28/api/Main/GetProductUrl";
+                getGamesOrigin = "https://woopio.com";
+                getGamesRecurse = "https://resources.woopio.com/products/";
+                getGamesPartnerName = "woopio";
+                getGamesBaseURL = "https://woopio.com";
+                loginClient = "https://websitewebapi.woopio.com/28/api/Main/LoginClient";
+                break;
+            }
+
 
 
             case 100: {
