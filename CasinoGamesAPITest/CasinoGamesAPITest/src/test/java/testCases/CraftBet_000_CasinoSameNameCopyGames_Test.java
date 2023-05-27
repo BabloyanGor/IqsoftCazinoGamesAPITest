@@ -89,7 +89,7 @@ public class CraftBet_000_CasinoSameNameCopyGames_Test extends BaseTest {
     }
 
     @Test
-    public void getDuplicateGames() throws  JSONException  {
+    public void getSlotsDuplicateGames() throws  JSONException  {
         try{
             Assert.assertTrue(getALLGamesAPICheckCopyGames(getGamesAPIUrl, getGamesOrigin, getGamesPartnerName));
         }

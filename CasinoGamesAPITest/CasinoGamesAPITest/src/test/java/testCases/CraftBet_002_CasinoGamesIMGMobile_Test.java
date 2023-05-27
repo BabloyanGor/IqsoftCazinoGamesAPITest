@@ -78,7 +78,8 @@ public class CraftBet_002_CasinoGamesIMGMobile_Test extends BaseTest {
         }
 
 
-        logger.info("All captured games images was added into ArrayList");
+
+        logger.info("All captured games images was added into ArrayList: " + srces.size());
         int count = 1;
         HttpURLConnection connection = null;
         for (String src : srces) {
@@ -137,7 +138,7 @@ public class CraftBet_002_CasinoGamesIMGMobile_Test extends BaseTest {
     }
 
     @Test
-    public void mobileGamesImgTest() throws  JSONException {
+    public void getSlotGamesMobileImgTest() throws  JSONException {
         try{
             Assert.assertTrue(getGamesAPICheckPicturesForMobile(getGamesAPIUrl, getGamesOrigin, getGamesRecurse, getGamesPartnerName));
         } catch (Exception e) {

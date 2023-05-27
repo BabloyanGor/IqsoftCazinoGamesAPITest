@@ -189,7 +189,7 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
 
 
     @Test
-    public void getUrlAPITest() throws JSONException {
+    public void getSlotGamesUrlAPITest() throws JSONException {
         try {
             Assert.assertTrue(getUrlCheckGamesUrl(getGamesAPIUrl, getGamesOrigin, getURLAPIUrl, token, userID, partnerID, getGamesPartnerName));
         } catch (Exception e) {
