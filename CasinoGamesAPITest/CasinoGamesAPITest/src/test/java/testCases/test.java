@@ -5,6 +5,9 @@ import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
 import org.apache.http.HttpHost;
 import com.mashape.unirest.http.options.Options;
+import org.json.JSONException;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import java.io.IOException;
 import java.net.InetAddress;
@@ -228,11 +231,27 @@ public class test {
     }
 
 
+    @Test
+    public void getDuplicateGames() throws JSONException {
+        try {
 
+            int user = 1871519;
+            Unirest.setTimeouts(0, 0);
+            HttpResponse<String> response = Unirest.post("https://adminwebapi.iqsoftllc.com/api/Main/ApiRequest?TimeZone=4&LanguageId=en&token=da110bf8-9a2e-4787-b1a1-312430d689dd")
+                    .header("Content-Type", "application/json")
+                    .body("{\r\n    \"Method\": \"SaveProductLimit\",\r\n    \"Controller\": \"Util\",\r\n    \"RequestObject\": {\r\n        \"Method\": \"SaveProductLimit\",\r\n        \"Controller\": \"Util\",\r\n        \"Id\": 239,\r\n        \"MaxLimit\": 5,\r\n        \"ProductId\": 65,\r\n        \"ObjectId\": \"" + user + "      \",\r\n        \"ObjectTypeId\": 2\r\n    },\r\n    \"Token\": \"da110bf8-9a2e-4787-b1a1-312430d689dd\"\r\n}")
+                    .asString();
+
+            System.out.println("Body: " + response.getBody());
+            System.out.println();
+        } catch (Exception e) {
+            System.out.println("getDuplicateGamesTest has an exception" + e);
+            Assert.fail();
+        }
+    }
 
 
     }
-
 
 
 

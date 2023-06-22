@@ -315,7 +315,7 @@ public class BaseTest {
                 getGamesAPIUrl = "https://websitewebapi.oceanbet.io/43/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.oceanbet.io/43/api/Main/GetProductUrl";
                 getGamesOrigin = "https://rivierabet.com";
-                getGamesRecurse = "https://resources.slots.inc/products/";
+                getGamesRecurse = "https://resources.oceanbet.io/products/";
                 getGamesPartnerName = "rivierabet";
                 getGamesBaseURL = "https://rivierabet.com";
                 loginClient = "https://websitewebapi.oceanbet.io/43/api/Main/LoginClient";

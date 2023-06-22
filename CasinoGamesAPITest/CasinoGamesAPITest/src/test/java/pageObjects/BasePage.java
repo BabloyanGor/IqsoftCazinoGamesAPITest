@@ -27,6 +27,7 @@ import java.nio.file.Paths;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashSet;
 import java.util.regex.Pattern;
 
 public class BasePage {
@@ -142,6 +143,40 @@ public class BasePage {
 
 
     public void writeInExel(ArrayList<String> errorSrcXl, String src, String shitName) throws IOException {
+
+        String filePath = System.getProperty("user.dir") + src;
+        Workbook workbook;
+        File file = new File(filePath);
+        if (file.exists()) {
+            FileInputStream fis = new FileInputStream(file);
+            workbook = new XSSFWorkbook(fis);
+        } else {
+            workbook = new XSSFWorkbook();
+        }
+        if (workbook.getSheet(shitName) != null) {
+            workbook.removeSheetAt(workbook.getSheetIndex(shitName));
+        }
+        Sheet sheet = workbook.createSheet(shitName);
+        if (sheet == null) {
+            sheet = workbook.createSheet("Sheet1");
+        }
+        sheet.setColumnWidth(0, 50000);
+
+        int l = 0;
+        for (String err : errorSrcXl) {
+            Row row = sheet.createRow(l);
+            row.createCell(0).setCellValue(err);
+            l++;
+        }
+        // save the workbook to the file
+        FileOutputStream fos = new FileOutputStream(filePath);
+        workbook.write(fos);
+        // close the streams
+        fos.close();
+        workbook.close();
+    }
+
+    public void writeInExelSet(HashSet<String> errorSrcXl, String src, String shitName) throws IOException {
 
         String filePath = System.getProperty("user.dir") + src;
         Workbook workbook;
