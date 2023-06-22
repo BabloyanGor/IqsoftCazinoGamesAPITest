@@ -335,6 +335,19 @@ public class BaseTest {
 
 
 
+            case 21: {
+                partnerID = 2;
+                getGamesAPIUrl = "https://websitewebapi.totox-stage.com/2/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.totox-stage.com/2/api/Main/GetProductUrl";
+                getGamesOrigin = "https://totox-stage.com";
+                getGamesRecurse = "https://resources.totox-stage.com/products/";
+                getGamesPartnerName = "totox";
+                getGamesBaseURL = "https://totox-stage.com";
+                loginClient = "https://websitewebapi.totox-stage.com/2/api/Main/LoginClient";
+                break;
+            }
+
+
             case 100: {
                 //                getUserID = 2;
                 partnerID = 1;

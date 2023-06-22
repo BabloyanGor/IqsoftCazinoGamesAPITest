@@ -13421,3 +13421,43 @@ Parameter name: s ResponseObject=null
 2023-06-21 17:20:18,573 [main] INFO craftBetWorld - Broken url-es are:  258 of 4572
 2023-06-21 17:20:18,712 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2023-06-21 17:20:18,743 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2023-06-22 17:49:27,769 [main] INFO craftBetWorld - Test Url: https://totox-stage.com partnerID: 2
+2023-06-22 17:49:29,253 [main] INFO craftBetWorld - Get games Api call was sent
+2023-06-22 17:49:29,281 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-06-22 17:49:29,293 [main] INFO craftBetWorld - Duplicate game Name =  Elements
+2023-06-22 17:49:29,295 [main] INFO craftBetWorld - Duplicate game Name =  TalesOfDarkness
+2023-06-22 17:49:29,295 [main] INFO craftBetWorld - Duplicate games are:  2
+2023-06-22 17:49:30,833 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-06-22 17:49:30,841 [main] INFO craftBetWorld - Test Url: https://totox-stage.com partnerID: 2
+2023-06-22 17:49:31,246 [main] INFO craftBetWorld - Get games Api call was sent
+2023-06-22 17:49:31,249 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-06-22 17:49:31,254 [main] INFO craftBetWorld - All captured providers data  was added into ArrayLists Count: 9
+2023-06-22 17:49:31,506 [main] INFO craftBetWorld - Broken Providers images are:  0
+2023-06-22 17:49:31,639 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-06-22 17:49:31,646 [main] INFO craftBetWorld - Test Url: https://totox-stage.com partnerID: 2
+2023-06-22 17:49:32,113 [main] INFO craftBetWorld - Get games Api call was sent
+2023-06-22 17:49:32,121 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-06-22 17:49:32,130 [main] INFO craftBetWorld - All captured games images links was added into ArrayList: 339
+2023-06-22 17:49:33,780 [main] ERROR craftBetWorld - 1  5  Game ID = 1394   Game Provider Name = PlaysonDirect :   Game Name =  100 Joker Staxx :   cod = 403:   src = https://resources.totox-stage.com/products/
+2023-06-22 17:49:34,521 [main] ERROR craftBetWorld - 2  9  Game ID = 1404   Game Provider Name = PlaysonDirect :   Game Name =  40 Joker Staxx :   cod = 403:   src = https://resources.totox-stage.com/products/
+2023-06-22 17:49:43,358 [main] ERROR craftBetWorld - 3  74  Game ID = 1193   Game Provider Name = RedTiger :   Game Name =  Dragons Luck :   cod = 404:   src = https://resources.iqsoftllc.com/products/redtiger/web/dragons_luck.png
+2023-06-22 17:49:43,449 [main] ERROR craftBetWorld - 4  75  Game ID = 1194   Game Provider Name = RedTiger :   Game Name =  Dragons Luck Megaways :   cod = 404:   src = https://resources.iqsoftllc.com/products/redtiger/web/dragons_luck_megaways.jpg
+2023-06-22 17:49:45,016 [main] ERROR craftBetWorld - 5  87  Game ID = 1075   Game Provider Name = NetEnt :   Game Name =  Finn :   cod = 404:   src = https://resources.iqsoftllc.com/products/netent/web/Finn_252_190.jpg
+2023-06-22 17:49:46,866 [main] ERROR craftBetWorld - 6  103  Game ID = 1008 Game Provider Name = PlaynGo :   Game Name = FreeReelinJoker :     src = https://static.egamings.com/games/playngo/free_reelin_joker.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 17:49:49,828 [main] ERROR craftBetWorld - 7  121  Game ID = 1209 Game Provider Name = RedTiger :   Game Name = God Of Wealth :     src = https://static.egamings.com/games/redtigergaming/god_of_wealth.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 17:49:51,411 [main] ERROR craftBetWorld - 8  132  Game ID = 1212   Game Provider Name = RedTiger :   Game Name =  Gonzo's Quest Megaways :   cod = 404:   src = https://resources.iqsoftllc.com/products/redtigergaming/web/gonzo's_quest_megaways.jpg
+2023-06-22 17:49:51,837 [main] ERROR craftBetWorld - 9  137  Game ID = 1010 Game Provider Name = PlaynGo :   Game Name = GreenKnight :     src = https://static.egamings.com/games/playngo/the_green_knight.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 17:49:51,929 [main] ERROR craftBetWorld - 10  139  Game ID = 1214 Game Provider Name = RedTiger :   Game Name = Hammer Gods :     src = https://static.egamings.com/games/redtigergaming/hammer_gods.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 17:49:55,435 [main] ERROR craftBetWorld - 11  167  Game ID = 1400   Game Provider Name = PlaysonDirect :   Game Name =  Joker Expand: 40 lines :   cod = 403:   src = https://resources.totox-stage.com/products/
+2023-06-22 17:49:55,516 [main] ERROR craftBetWorld - 12  168  Game ID = 1419   Game Provider Name = PlaysonDirect :   Game Name =  Joker Expand: 5 lines :   cod = 403:   src = https://resources.totox-stage.com/products/
+2023-06-22 17:49:58,002 [main] ERROR craftBetWorld - 13  186  Game ID = 1014 Game Provider Name = PlaynGo :   Game Name = LokisFortune :     src = https://static.egamings.com/games/playngo/tales_of_asgard_lokis_fortune.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 17:50:08,369 [main] ERROR craftBetWorld - 14  266  Game ID = 1251 Game Provider Name = RedTiger :   Game Name = Sky Warrior :     src = https://static.egamings.com/games/redtigergaming/1942_sky_warrior.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 17:50:08,530 [main] ERROR craftBetWorld - 15  267  Game ID = 1402   Game Provider Name = PlaysonDirect :   Game Name =  Sky Way :   cod = 403:   src = https://resources.totox-stage.com/products/
+2023-06-22 17:50:08,672 [main] ERROR craftBetWorld - 16  269  Game ID = 1252 Game Provider Name = RedTiger :   Game Name = Snow Wild And The 7 Features :     src = https://static.egamings.com/games/redtigergaming/snow_wild_and_the_7_features.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 17:50:09,511 [main] ERROR craftBetWorld - 17  276  Game ID = 6   Game Provider Name = IQSoft :   Game Name =  Sportsbook :   cod = 404:   src = https://resources.totox-stage.com/products/iqsoft/sport.png
+2023-06-22 17:50:12,198 [main] ERROR craftBetWorld - 18  300  Game ID = 1258 Game Provider Name = RedTiger :   Game Name = Totem Lightning Power Reels :     src = https://static.egamings.com/games/redtigergaming/totem_lightning.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 17:50:15,073 [main] ERROR craftBetWorld - 19  325  Game ID = 1403   Game Provider Name = PlaysonDirect :   Game Name =  Wild Warriors :   cod = 403:   src = https://resources.totox-stage.com/products/
+2023-06-22 17:50:15,747 [main] ERROR craftBetWorld - 20  331  Game ID = 1269 Game Provider Name = RedTiger :   Game Name = Wings Of Ra :     src = https://static.egamings.com/games/redtigergaming/wings_of_ra.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 17:50:16,563 [main] INFO craftBetWorld - Broken images are:  20
+2023-06-22 17:50:16,627 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-06-22 17:50:16,636 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
