@@ -53,6 +53,7 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
                 String sp = jsonObjectGame.getString("sp");  //Provider Name
                 String p = jsonObjectGame.get("p").toString();   //Game ID
 
+
                 gameNames.add(n);
                 gameProviderNames.add(sp);
                 gameIDes.add(p);

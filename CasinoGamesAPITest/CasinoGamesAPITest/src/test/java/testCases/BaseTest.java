@@ -315,7 +315,7 @@ public class BaseTest {
                 getGamesAPIUrl = "https://websitewebapi.oceanbet.io/43/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.oceanbet.io/43/api/Main/GetProductUrl";
                 getGamesOrigin = "https://rivierabet.com";
-                getGamesRecurse = "https://resources.slots.inc/products/";
+                getGamesRecurse = "https://resources.oceanbet.io/products/";
                 getGamesPartnerName = "rivierabet";
                 getGamesBaseURL = "https://rivierabet.com";
                 loginClient = "https://websitewebapi.oceanbet.io/43/api/Main/LoginClient";
@@ -333,6 +333,19 @@ public class BaseTest {
                 break;
             }
 
+
+
+            case 21: {
+                partnerID = 2;
+                getGamesAPIUrl = "https://websitewebapi.totox-stage.com/2/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.totox-stage.com/2/api/Main/GetProductUrl";
+                getGamesOrigin = "https://totox-stage.com";
+                getGamesRecurse = "https://resources.totox-stage.com/products/";
+                getGamesPartnerName = "totox";
+                getGamesBaseURL = "https://totox-stage.com";
+                loginClient = "https://websitewebapi.totox-stage.com/2/api/Main/LoginClient";
+                break;
+            }
 
 
             case 100: {

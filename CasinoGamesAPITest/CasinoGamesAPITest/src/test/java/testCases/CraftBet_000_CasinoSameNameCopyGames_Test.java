@@ -7,20 +7,19 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
 import java.awt.*;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashSet;
 
 public class CraftBet_000_CasinoSameNameCopyGames_Test extends BaseTest {
     public CraftBet_000_CasinoSameNameCopyGames_Test() throws AWTException {
     }
 
 
-
-
-
     public boolean getALLGamesAPICheckCopyGames(String getGamesAPIUrl, String origin, String partnerName)
-            throws  JSONException, IOException {
+            throws JSONException, IOException {
 
         boolean isPassed;
         int k = 1;
@@ -28,8 +27,9 @@ public class CraftBet_000_CasinoSameNameCopyGames_Test extends BaseTest {
         ArrayList<String> gameProviderNames = new ArrayList<>();
 //        ArrayList<String> gameProviderNamesList = new ArrayList<>();
         ArrayList<String> errorSrcXl = new ArrayList<>();
+        HashSet<String> errSet = new HashSet<String>();
 
-        try{
+        try {
             Unirest.setTimeouts(0, 0);
             HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
                     .header("content-type", "application/json")
@@ -54,33 +54,38 @@ public class CraftBet_000_CasinoSameNameCopyGames_Test extends BaseTest {
 //                gameProviderNamesList.add(sp);
 //            }
             }
-        }
-        catch (Exception e){
+        } catch (Exception e) {
             logger.info("Get games Api Response has an Exception: " + e);
-        }
-        finally {
+        } finally {
             Unirest.shutdown();
         }
-
 
 
         for (int i = 0; i < gameNames.size(); i++) {
             String name = gameNames.get(i);
             for (int j = i + 1; j < gameNames.size(); j++) {
                 String x = gameNames.get(j);
+//                if (name.contains(x)) {
                 if (name.equals(x)) {
                     logger.info("Duplicate game Name =  " + gameNames.get(j));
-                    errorSrcXl.add(k + "  This game has duplicate Please check it :  Name =  " + gameNames.get(j));
+//                    errorSrcXl.add(k + "  This game has duplicate Please check it :  Name =  " + gameNames.get(j));
+//                    errSet.add(k + "  This game has duplicate Please check it :  Name =  " + gameNames.get(j));
+                    errSet.add(gameNames.get(j));
                     k++;
                 }
             }
         }
-        logger.info("Duplicate games are:  " + errorSrcXl.size());
-        if (errorSrcXl.size() == 0) {
-            basePage.writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenData.xlsx", "CopyGames");
+//        logger.info("Duplicate games are:  " + errorSrcXl.size());
+        logger.info("Duplicate games are:  " + errSet.size());
+//        if (errorSrcXl.size() == 0) {
+        if (errSet.size() == 0) {
+//            basePage.writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenData.xlsx", "CopyGames");
+            basePage.writeInExelSet(errSet, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenData.xlsx", "CopyGames");
+
             isPassed = true;
         } else {
-            basePage.writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenData.xlsx", "CopyGames");
+//            basePage.writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenData.xlsx", "CopyGames");
+            basePage.writeInExelSet(errSet, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "BrokenData.xlsx", "CopyGames");
             isPassed = false;
         }
         // writeInExel(gameProviderNamesList, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + partnerName + "ProvidersList.xlsx", "Providers");
@@ -89,36 +94,17 @@ public class CraftBet_000_CasinoSameNameCopyGames_Test extends BaseTest {
     }
 
     @Test
-    public void getSlotsDuplicateGames() throws  JSONException  {
-        try{
+    public void getDuplicateGames() throws JSONException {
+        try {
             Assert.assertTrue(getALLGamesAPICheckCopyGames(getGamesAPIUrl, getGamesOrigin, getGamesPartnerName));
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             System.out.println("getDuplicateGamesTest has an exception" + e);
             Assert.fail();
         }
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     // For checking games name Japan translation
-
-
 
 
 //    public void casinoGamesNamesTranslationCheck(String getGamesAPIUrl, String origin, String partnerName)
@@ -169,10 +155,6 @@ public class CraftBet_000_CasinoSameNameCopyGames_Test extends BaseTest {
 //        }
 //
 //    }
-
-
-
-
 
 
     // For Proxy connection
