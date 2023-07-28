@@ -7845,6 +7845,499 @@
 2023-05-18 17:50:21,014 [main] INFO craftBetWorld - Broken images are:  7
 2023-05-18 17:50:22,670 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2023-05-18 17:50:22,683 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2023-05-27 20:46:46,820 [main] INFO craftBetWorld - Test Url: https://prdbtzmrk.com partnerID: 91
+2023-05-27 20:46:52,340 [main] INFO craftBetWorld - Get games Api call was sent
+2023-05-27 20:46:52,467 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-05-27 20:46:52,559 [main] INFO craftBetWorld - Duplicate game Name =  American Blackjack
+2023-05-27 20:46:52,559 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-05-27 20:46:52,560 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-05-27 20:46:52,560 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-05-27 20:46:52,560 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-05-27 20:46:52,560 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-05-27 20:46:52,561 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-05-27 20:46:52,563 [main] INFO craftBetWorld - Duplicate game Name =  Andar Bahar
+2023-05-27 20:46:52,563 [main] INFO craftBetWorld - Duplicate game Name =  Andar Bahar
+2023-05-27 20:46:52,563 [main] INFO craftBetWorld - Duplicate game Name =  Andar Bahar
+2023-05-27 20:46:52,564 [main] INFO craftBetWorld - Duplicate game Name =  Apollo
+2023-05-27 20:46:52,571 [main] INFO craftBetWorld - Duplicate game Name =  Baccarat
+2023-05-27 20:46:52,572 [main] INFO craftBetWorld - Duplicate game Name =  Baccarat
+2023-05-27 20:46:52,573 [main] INFO craftBetWorld - Duplicate game Name =  Baccarat
+2023-05-27 20:46:52,574 [main] INFO craftBetWorld - Duplicate game Name =  Baccarat A
+2023-05-27 20:46:52,574 [main] INFO craftBetWorld - Duplicate game Name =  Baccarat B
+2023-05-27 20:46:52,577 [main] INFO craftBetWorld - Duplicate game Name =  Backgammon
+2023-05-27 20:46:52,580 [main] INFO craftBetWorld - Duplicate game Name =  Beauty and the Beast
+2023-05-27 20:46:52,585 [main] INFO craftBetWorld - Duplicate game Name =  Black Jack
+2023-05-27 20:46:52,586 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack
+2023-05-27 20:46:52,586 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack
+2023-05-27 20:46:52,587 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack
+2023-05-27 20:46:52,587 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack
+2023-05-27 20:46:52,587 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack
+2023-05-27 20:46:52,587 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack
+2023-05-27 20:46:52,588 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack 16
+2023-05-27 20:46:52,591 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack 7
+2023-05-27 20:46:52,592 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack A
+2023-05-27 20:46:52,592 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack B
+2023-05-27 20:46:52,593 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack C
+2023-05-27 20:46:52,598 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack D
+2023-05-27 20:46:52,599 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack E
+2023-05-27 20:46:52,599 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack F
+2023-05-27 20:46:52,599 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack G
+2023-05-27 20:46:52,600 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack H
+2023-05-27 20:46:52,600 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack I
+2023-05-27 20:46:52,600 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack J
+2023-05-27 20:46:52,602 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack VIP
+2023-05-27 20:46:52,620 [main] INFO craftBetWorld - Duplicate game Name =  Caligula
+2023-05-27 20:46:52,623 [main] INFO craftBetWorld - Duplicate game Name =  Casino Hold'em
+2023-05-27 20:46:52,632 [main] INFO craftBetWorld - Duplicate game Name =  Craps
+2023-05-27 20:46:52,637 [main] INFO craftBetWorld - Duplicate game Name =  Dragon Tiger
+2023-05-27 20:46:52,637 [main] INFO craftBetWorld - Duplicate game Name =  Dragon Tiger
+2023-05-27 20:46:52,638 [main] INFO craftBetWorld - Duplicate game Name =  Dragon Tiger
+2023-05-27 20:46:52,638 [main] INFO craftBetWorld - Duplicate game Name =  Dragon Tiger
+2023-05-27 20:46:52,638 [main] INFO craftBetWorld - Duplicate game Name =  Dragon Tiger
+2023-05-27 20:46:52,638 [main] INFO craftBetWorld - Duplicate game Name =  Dragon Tiger
+2023-05-27 20:46:52,638 [main] INFO craftBetWorld - Duplicate game Name =  Dragon Tiger
+2023-05-27 20:46:52,638 [main] INFO craftBetWorld - Duplicate game Name =  Dragon Tiger
+2023-05-27 20:46:52,638 [main] INFO craftBetWorld - Duplicate game Name =  Dragon Tiger
+2023-05-27 20:46:52,638 [main] INFO craftBetWorld - Duplicate game Name =  Dragon Tiger
+2023-05-27 20:46:52,641 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-05-27 20:46:52,641 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-05-27 20:46:52,641 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-05-27 20:46:52,641 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-05-27 20:46:52,642 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-05-27 20:46:52,642 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-05-27 20:46:52,642 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-05-27 20:46:52,642 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-05-27 20:46:52,642 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-05-27 20:46:52,642 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-05-27 20:46:52,642 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-05-27 20:46:52,643 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-05-27 20:46:52,643 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-05-27 20:46:52,643 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-05-27 20:46:52,643 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-05-27 20:46:52,643 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-05-27 20:46:52,643 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-05-27 20:46:52,643 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-05-27 20:46:52,644 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-05-27 20:46:52,644 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-05-27 20:46:52,645 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-05-27 20:46:52,648 [main] INFO craftBetWorld - Duplicate game Name =  French Roulette
+2023-05-27 20:46:52,649 [main] INFO craftBetWorld - Duplicate game Name =  Fruits
+2023-05-27 20:46:52,652 [main] INFO craftBetWorld - Duplicate game Name =  Golden Pig
+2023-05-27 20:46:52,654 [main] INFO craftBetWorld - Duplicate game Name =  Halloween
+2023-05-27 20:46:52,656 [main] INFO craftBetWorld - Duplicate game Name =  Jacks or Better
+2023-05-27 20:46:52,658 [main] INFO craftBetWorld - Duplicate game Name =  Journey to the West
+2023-05-27 20:46:52,660 [main] INFO craftBetWorld - Duplicate game Name =  Lobby
+2023-05-27 20:46:52,664 [main] INFO craftBetWorld - Duplicate game Name =  Multihand Blackjack
+2023-05-27 20:46:52,665 [main] INFO craftBetWorld - Duplicate game Name =  No Comm Speed Baccarat 1
+2023-05-27 20:46:52,665 [main] INFO craftBetWorld - Duplicate game Name =  No Commission Baccarat
+2023-05-27 20:46:52,667 [main] INFO craftBetWorld - Duplicate game Name =  Pontoon
+2023-05-27 20:46:52,668 [main] INFO craftBetWorld - Duplicate game Name =  Roman Empire
+2023-05-27 20:46:52,669 [main] INFO craftBetWorld - Duplicate game Name =  Roulette
+2023-05-27 20:46:52,669 [main] INFO craftBetWorld - Duplicate game Name =  Roulette
+2023-05-27 20:46:52,669 [main] INFO craftBetWorld - Duplicate game Name =  Roulette
+2023-05-27 20:46:52,669 [main] INFO craftBetWorld - Duplicate game Name =  Roulette
+2023-05-27 20:46:52,669 [main] INFO craftBetWorld - Duplicate game Name =  Roulette
+2023-05-27 20:46:52,669 [main] INFO craftBetWorld - Duplicate game Name =  Roulette
+2023-05-27 20:46:52,670 [main] INFO craftBetWorld - Duplicate game Name =  Sic Bo
+2023-05-27 20:46:52,670 [main] INFO craftBetWorld - Duplicate game Name =  Sic Bo
+2023-05-27 20:46:52,670 [main] INFO craftBetWorld - Duplicate game Name =  Sic Bo
+2023-05-27 20:46:52,670 [main] INFO craftBetWorld - Duplicate game Name =  Speed Roulette
+2023-05-27 20:46:52,671 [main] INFO craftBetWorld - Duplicate game Name =  Teen Patti
+2023-05-27 20:46:52,671 [main] INFO craftBetWorld - Duplicate game Name =  Unlimited Blackjack
+2023-05-27 20:46:52,672 [main] INFO craftBetWorld - Duplicate game Name =  Virtual Roulette
+2023-05-27 20:46:52,672 [main] INFO craftBetWorld - Duplicate game Name =  Wild Jack
+2023-05-27 20:46:52,672 [main] INFO craftBetWorld - Duplicate games are:  98
+2023-05-27 20:46:53,545 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-05-27 20:46:53,549 [main] INFO craftBetWorld - Test Url: https://prdbtzmrk.com partnerID: 91
+2023-05-27 20:46:54,778 [main] INFO craftBetWorld - Get games Api call was sent
+2023-05-27 20:46:54,815 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-05-27 20:46:54,913 [main] INFO craftBetWorld - All captured providers data  was added into ArrayLists Count: 39
+2023-05-27 20:47:01,891 [main] INFO craftBetWorld - Broken Providers images are:  0
+2023-05-27 20:47:01,952 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-05-27 20:47:01,955 [main] INFO craftBetWorld - Test Url: https://prdbtzmrk.com partnerID: 91
+2023-05-27 20:47:04,187 [main] INFO craftBetWorld - Get games Api call was sent
+2023-05-27 20:47:04,252 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-05-27 20:47:04,304 [main] INFO craftBetWorld - All captured games images links was added into ArrayList: 3884
+2023-05-27 20:48:14,969 [main] ERROR craftBetWorld - 1  199  Game ID = 5142 Game Provider Name = Edict :   Game Name = AfricanMask :     src = https://static.egamings.com/games/edict/african_mask.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 20:48:36,513 [main] ERROR craftBetWorld - 2  270  Game ID = 5177 Game Provider Name = Edict :   Game Name = AncientRichesHTML5 :     src = https://static.egamings.com/games/edict/ancient_riches_html5.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 20:49:31,831 [main] ERROR craftBetWorld - 3  437  Game ID = 5176 Game Provider Name = Edict :   Game Name = BeautifulNatureHTML5 :     src = https://static.egamings.com/games/edict/beautiful_nature_html5.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 20:49:53,330 [main] ERROR craftBetWorld - 4  493  Game ID = 5175 Game Provider Name = Edict :   Game Name = BlackBeauty :     src = https://static.egamings.com/games/edict/black_beauty.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 20:50:48,400 [main] ERROR craftBetWorld - 5  741  Game ID = 1524   Game Provider Name = PragmaticPlay :   Game Name =  Bonanza Gold :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-05-27 20:51:01,684 [main] ERROR craftBetWorld - 6  778  Game ID = 5189 Game Provider Name = Edict :   Game Name = Book of Fire :     src = https://static.egamings.com/games/edict/book_of_fire.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 20:51:21,234 [main] ERROR craftBetWorld - 7  828  Game ID = 1597   Game Provider Name = PragmaticPlay :   Game Name =  Book of Tut :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-05-27 20:51:26,371 [main] ERROR craftBetWorld - 8  847  Game ID = 5174 Game Provider Name = Edict :   Game Name = BookofRomeoandJuliaHTML5 :     src = https://static.egamings.com/games/edict/book_of_romeo_and_julia_html.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 20:51:27,197 [main] ERROR craftBetWorld - 9  851  Game ID = 5173 Game Provider Name = Edict :   Game Name = BookoftheAgesHTML5 :     src = https://static.egamings.com/games/edict/book_of_the_ages_html5.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 20:51:28,074 [main] ERROR craftBetWorld - 10  854  Game ID = 5172 Game Provider Name = Edict :   Game Name = BooksandBulls :     src = https://static.egamings.com/games/edict/books_and_bulls.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 20:51:47,426 [main] ERROR craftBetWorld - 11  921  Game ID = 1602   Game Provider Name = PragmaticPlay :   Game Name =  Busy Bees :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-05-27 20:52:43,683 [main] ERROR craftBetWorld - 12  1091  Game ID = 1515   Game Provider Name = PragmaticPlay :   Game Name =  Club Tropicana :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-05-27 20:53:00,972 [main] ERROR craftBetWorld - 13  1151  Game ID = 5171 Game Provider Name = Edict :   Game Name = CrystalBallHTML5 :     src = https://static.egamings.com/games/edict/crystal_ball_html.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 20:53:49,513 [main] ERROR craftBetWorld - 14  1297  Game ID = 5170 Game Provider Name = Edict :   Game Name = DragonandKnights :     src = https://static.egamings.com/games/edict/dragon_and_knights.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 20:54:33,097 [main] ERROR craftBetWorld - 15  1417  Game ID = 5169 Game Provider Name = Edict :   Game Name = ExplodiacHTML5 :     src = https://static.egamings.com/games/edict/explodiac_html.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 20:54:41,869 [main] ERROR craftBetWorld - 16  1447  Game ID = 5168 Game Provider Name = Edict :   Game Name = FancyFruitsHTML5 :     src = https://static.egamings.com/games/edict/fancy_fruits_html.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 20:54:48,389 [main] ERROR craftBetWorld - 17  1471  Game ID = 1514   Game Provider Name = PragmaticPlay :   Game Name =  Fire Archer :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-05-27 20:55:12,026 [main] ERROR craftBetWorld - 18  1537  Game ID = 5167 Game Provider Name = Edict :   Game Name = FortBraveHTML5 :     src = https://static.egamings.com/games/edict/fort_brave_html.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 20:55:32,747 [main] ERROR craftBetWorld - 19  1609  Game ID = 5166 Game Provider Name = Edict :   Game Name = FruitManiaHTML5 :     src = https://static.egamings.com/games/edict/fruit_mania_html.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 20:55:51,762 [main] ERROR craftBetWorld - 20  1667  Game ID = 5165 Game Provider Name = Edict :   Game Name = GatesofPersia :     src = https://static.egamings.com/games/edict/gates_of_persia.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 20:56:03,803 [main] ERROR craftBetWorld - 21  1702  Game ID = 5164 Game Provider Name = Edict :   Game Name = GlamorousTimesHTML5 :     src = https://static.egamings.com/games/edict/glamorous_times_html5.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 20:56:25,491 [main] ERROR craftBetWorld - 22  1764  Game ID = 1531   Game Provider Name = PragmaticPlay :   Game Name =  Golden Ox :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-05-27 20:56:25,656 [main] ERROR craftBetWorld - 23  1765  Game ID = 1565   Game Provider Name = PragmaticPlay :   Game Name =  Golden Pig :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-05-27 20:56:41,783 [main] ERROR craftBetWorld - 24  1813  Game ID = 5163 Game Provider Name = Edict :   Game Name = GuardiansOfTheMonastery :     src = https://static.egamings.com/games/edict/guardians_of_the_monastery.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 20:58:20,548 [main] ERROR craftBetWorld - 25  2110  Game ID = 5162 Game Provider Name = Edict :   Game Name = KingandQueen :     src = https://static.egamings.com/games/edict/king_and_queen.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 20:58:20,917 [main] ERROR craftBetWorld - 26  2112  Game ID = 5161 Game Provider Name = Edict :   Game Name = KingoftheJungle :     src = https://static.egamings.com/games/edict/king_of_the_jungle.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 20:58:26,656 [main] ERROR craftBetWorld - 27  2131  Game ID = 5160 Game Provider Name = Edict :   Game Name = LaDolceVitaHTML5 :     src = https://static.egamings.com/games/edict/la_dolce_vita_html5.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 20:59:00,756 [main] ERROR craftBetWorld - 28  2232  Game ID = 1598   Game Provider Name = PragmaticPlay :   Game Name =  Lucky Dragon Ball :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-05-27 20:59:18,398 [main] ERROR craftBetWorld - 29  2287  Game ID = 5159 Game Provider Name = Edict :   Game Name = MaaaxDiamonds :     src = https://static.egamings.com/games/edict/maaax_diamonds.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 20:59:40,830 [main] ERROR craftBetWorld - 30  2350  Game ID = 5158 Game Provider Name = Edict :   Game Name = MagicStone :     src = https://static.egamings.com/games/edict/magic_stone.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 20:59:54,260 [main] ERROR craftBetWorld - 31  2396  Game ID = 5187 Game Provider Name = Edict :   Game Name = Medusas Eyes :     src = https://static.egamings.com/games/edict/medusas_eyes.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 20:59:58,115 [main] ERROR craftBetWorld - 32  2403  Game ID = 4738   Game Provider Name = Evoplay :   Game Name =  Mega Greatest Catch Bоnus Buy :   cod = 403:   src = https://agstatic.com/games/evoplay/mega_greatest_catch_b?nus_buy.jpg
+2023-05-27 21:00:08,537 [main] ERROR craftBetWorld - 33  2439  Game ID = 5157 Game Provider Name = Edict :   Game Name = MightyDragon :     src = https://static.egamings.com/games/edict/mighty_dragon.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 21:00:14,344 [main] ERROR craftBetWorld - 34  2459  Game ID = 1570   Game Provider Name = PragmaticPlay :   Game Name =  Money Money Money :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-05-27 21:00:19,556 [main] ERROR craftBetWorld - 35  2478  Game ID = 1513   Game Provider Name = PragmaticPlay :   Game Name =  Monster Superlanche :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-05-27 21:00:46,768 [main] ERROR craftBetWorld - 36  2555  Game ID = 5156 Game Provider Name = Edict :   Game Name = NightOfTheWereWolf :     src = https://static.egamings.com/games/edict/night_of_the_were_wolf.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 21:00:48,429 [main] ERROR craftBetWorld - 37  2560  Game ID = 5155 Game Provider Name = Edict :   Game Name = NightWolves :     src = https://static.egamings.com/games/edict/night_wolves.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 21:00:59,000 [main] ERROR craftBetWorld - 38  2595  Game ID = 5154 Game Provider Name = Edict :   Game Name = OldFisherman :     src = https://static.egamings.com/games/edict/old_fisherman.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 21:01:23,041 [main] ERROR craftBetWorld - 39  2671  Game ID = 5153 Game Provider Name = Edict :   Game Name = Phantom'sMirror :     src = https://static.egamings.com/games/edict/phantoms_mirror.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 21:01:24,433 [main] ERROR craftBetWorld - 40  2676  Game ID = 5152 Game Provider Name = Edict :   Game Name = PharaosRiches :     src = https://static.egamings.com/games/edict/pharaos_riches.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 21:01:56,821 [main] ERROR craftBetWorld - 41  2773  Game ID = 5188 Game Provider Name = Edict :   Game Name = Princess of the Forest :     src = https://static.egamings.com/games/edict/princess_of_the_forest.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 21:01:58,091 [main] ERROR craftBetWorld - 42  2777  Game ID = 1516   Game Provider Name = PragmaticPlay :   Game Name =  PromoWin :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-05-27 21:02:22,423 [main] ERROR craftBetWorld - 43  2835  Game ID = 5151 Game Provider Name = Edict :   Game Name = RamsesBookHTML5 :     src = https://static.egamings.com/games/edict/ramses_book_html5.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 21:02:49,165 [main] ERROR craftBetWorld - 44  2909  Game ID = 1589   Game Provider Name = PragmaticPlay :   Game Name =  Rise of Samurai :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-05-27 21:02:59,344 [main] ERROR craftBetWorld - 45  2944  Game ID = 5150 Game Provider Name = Edict :   Game Name = RomanLegionHTML5 :     src = https://static.egamings.com/games/edict/roman_legion_html.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 21:02:59,345 [main] ERROR craftBetWorld - 46  2945  Game ID = 5149 Game Provider Name = Edict :   Game Name = RomanLegionXtreme :     src = https://static.egamings.com/games/edict/roman_legion_xtreme.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 21:03:25,741 [main] ERROR craftBetWorld - 47  3048  Game ID = 5148 Game Provider Name = Edict :   Game Name = SavannaMoon :     src = https://static.egamings.com/games/edict/savanna_moon.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 21:04:28,848 [main] ERROR craftBetWorld - 48  3253  Game ID = 5147 Game Provider Name = Edict :   Game Name = StickyDiamondsHTML5 :     src = https://static.egamings.com/games/edict/sticky_diamonds_html.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 21:05:00,019 [main] ERROR craftBetWorld - 49  3334  Game ID = 5146 Game Provider Name = Edict :   Game Name = SuperDuperCherry :     src = https://static.egamings.com/games/edict/super_duper_cherry.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 21:05:08,368 [main] ERROR craftBetWorld - 50  3364  Game ID = 5145 Game Provider Name = Edict :   Game Name = Take5HTML5 :     src = https://static.egamings.com/games/edict/take_5_html5.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 21:05:26,779 [main] ERROR craftBetWorld - 51  3425  Game ID = 3328   Game Provider Name = PragmaticPlay :   Game Name =  The Knight King :   cod = 404:   src = https://resources.iqsoftllc.com/products/resources.iqsoftllc.com/products/pragmaticplay/web/knightking.jpg
+2023-05-27 21:05:36,732 [main] ERROR craftBetWorld - 52  3447  Game ID = 1588   Game Provider Name = PragmaticPlay :   Game Name =  The Tiger Warrior :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-05-27 21:05:43,336 [main] ERROR craftBetWorld - 53  3463  Game ID = 5144 Game Provider Name = Edict :   Game Name = TheLandofHeroes :     src = https://static.egamings.com/games/edict/the_land_of_heroes.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 21:06:10,564 [main] ERROR craftBetWorld - 54  3543  Game ID = 4739   Game Provider Name = Evoplay :   Game Name =  Treasure-snipes: Christmas :   cod = 403:   src = https://agstatic.com/games/evoplay/treasure_snipes_?hristmas.jpg
+2023-05-27 21:06:11,527 [main] ERROR craftBetWorld - 55  3548  Game ID = 5141 Game Provider Name = Edict :   Game Name = TribeoftheSun :     src = https://static.egamings.com/games/edict/tribe_of_the_sun.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 21:07:24,560 [main] ERROR craftBetWorld - 56  3786  Game ID = 5143 Game Provider Name = Edict :   Game Name = WildRapaNui :     src = https://static.egamings.com/games/edict/wild_rapa_nui.jpg   java.net.UnknownHostException: static.egamings.com
+2023-05-27 21:07:58,136 [main] INFO craftBetWorld - Broken images are:  56
+2023-05-27 21:07:58,533 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-05-27 21:07:58,536 [main] INFO craftBetWorld - Test Url: https://prdbtzmrk.com partnerID: 91
+2023-05-27 21:07:58,946 [main] INFO craftBetWorld - Log In request was sent to https://prdbtzmrk.com
+2023-05-27 21:07:58,947 [main] INFO craftBetWorld - Token was captured: 0ed7b3a156694181947f3b1591c47474
+2023-05-27 21:07:58,947 [main] INFO craftBetWorld - User Id was captured: 254304
+2023-05-27 21:08:00,193 [main] INFO craftBetWorld - Get All games API call 
+2023-05-27 21:08:00,256 [main] INFO craftBetWorld - From getGamesAPIUrl call body captured 
+2023-05-27 21:08:00,292 [main] INFO craftBetWorld - From getGamesAPIUrl call productIDes and Names was captured Games count: 3884
+2023-05-27 21:10:22,210 [main] INFO craftBetWorld - 1 200 ID=5142 Provider=Edict Name=AfricanMask cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:11:15,144 [main] INFO craftBetWorld - 2 271 ID=5177 Provider=Edict Name=AncientRichesHTML5 cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:11:20,518 [main] INFO craftBetWorld - 3 279 ID=5178 Provider=Edict Name=Ankaa's Dawn cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:13:11,138 [main] INFO craftBetWorld - 4 438 ID=5176 Provider=Edict Name=BeautifulNatureHTML5 cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:13:31,867 [main] INFO craftBetWorld - 5 467 ID=5186 Provider=Edict Name=Big Buck Bunny cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:13:51,835 [main] INFO craftBetWorld - 6 494 ID=5175 Provider=Edict Name=BlackBeauty cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:14:07,478 [main] INFO craftBetWorld - 7 524 ID=3786 Provider=LuckyStreak Name=Blackjack 3 cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:15:19,323 [main] INFO craftBetWorld - 8 634 ID=1444 Provider=Evolution Name=Blackjack Classic 73 cod=0 description=null ResponseObject={"errors":[{"code":"V.59","message":"Table not assigned"}]}
+2023-05-27 21:16:38,156 [main] INFO craftBetWorld - 9 742 ID=1524 Provider=PragmaticPlay Name=Bonanza Gold cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:16:46,473 [main] INFO craftBetWorld - 10 755 ID=5566 Provider=IronDog Name=Book Of Ba'al cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:17:05,578 [main] INFO craftBetWorld - 11 779 ID=5189 Provider=Edict Name=Book of Fire cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:17:55,809 [main] INFO craftBetWorld - 12 848 ID=5174 Provider=Edict Name=BookofRomeoandJuliaHTML5 cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:17:59,657 [main] INFO craftBetWorld - 13 852 ID=5173 Provider=Edict Name=BookoftheAgesHTML5 cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:18:01,522 [main] INFO craftBetWorld - 14 855 ID=5172 Provider=Edict Name=BooksandBulls cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:18:46,735 [main] INFO craftBetWorld - 15 922 ID=1602 Provider=PragmaticPlay Name=Busy Bees cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:21:39,194 [main] INFO craftBetWorld - 16 1152 ID=5171 Provider=Edict Name=CrystalBallHTML5 cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:23:16,760 [main] INFO craftBetWorld - 17 1298 ID=5170 Provider=Edict Name=DragonandKnights cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:24:10,798 [main] INFO craftBetWorld - 18 1374 ID=5185 Provider=Edict Name=El Torero cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:24:42,304 [main] INFO craftBetWorld - 19 1418 ID=5169 Provider=Edict Name=ExplodiacHTML5 cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:24:46,093 [main] INFO craftBetWorld - 20 1425 ID=5563 Provider=PlayTech Name=Extreme Fruits Ultimate cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:24:47,658 [main] INFO craftBetWorld - 21 1428 ID=5500 Provider=PlayTech Name=Eye of Anubis cod=0 description=null ResponseObject=Transactions ID failed value
+2023-05-27 21:24:48,547 [main] INFO craftBetWorld - 22 1430 ID=5184 Provider=Edict Name=Eye of Horus cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:25:00,063 [main] INFO craftBetWorld - 23 1448 ID=5168 Provider=Edict Name=FancyFruitsHTML5 cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:25:30,926 [main] INFO craftBetWorld - 24 1499 ID=5183 Provider=Edict Name=Fishin Frenzy cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:25:58,939 [main] INFO craftBetWorld - 25 1538 ID=5167 Provider=Edict Name=FortBraveHTML5 cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:26:50,681 [main] INFO craftBetWorld - 26 1610 ID=5166 Provider=Edict Name=FruitManiaHTML5 cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:27:17,578 [main] INFO craftBetWorld - 27 1651 ID=3268 Provider=SmartSoft Name=Fun Fruit cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:27:28,633 [main] INFO craftBetWorld - 28 1668 ID=5165 Provider=Edict Name=GatesofPersia cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:27:33,024 [main] INFO craftBetWorld - 29 1676 ID=5560 Provider=PlayTech Name=GemBurst cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:27:42,039 [main] INFO craftBetWorld - 30 1692 ID=5559 Provider=PlayTech Name=Giant Grizzly cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:27:49,503 [main] INFO craftBetWorld - 31 1703 ID=5164 Provider=Edict Name=GlamorousTimesHTML5 cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:28:22,248 [main] INFO craftBetWorld - 32 1752 ID=5182 Provider=Edict Name=Golden Goose cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:28:33,439 [main] INFO craftBetWorld - 33 1765 ID=1531 Provider=PragmaticPlay Name=Golden Ox cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:28:33,719 [main] INFO craftBetWorld - 34 1766 ID=1565 Provider=PragmaticPlay Name=Golden Pig cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:29:05,914 [main] INFO craftBetWorld - 35 1814 ID=5163 Provider=Edict Name=GuardiansOfTheMonastery cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:32:37,134 [main] INFO craftBetWorld - 36 2111 ID=5162 Provider=Edict Name=KingandQueen cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:32:37,925 [main] INFO craftBetWorld - 37 2113 ID=5161 Provider=Edict Name=KingoftheJungle cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:32:50,272 [main] INFO craftBetWorld - 38 2132 ID=5160 Provider=Edict Name=LaDolceVitaHTML5 cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:33:07,517 [main] INFO craftBetWorld - 39 2158 ID=5557 Provider=PlayTech Name=Legend of the Jaguar cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:33:53,397 [main] INFO craftBetWorld - 40 2233 ID=1598 Provider=PragmaticPlay Name=Lucky Dragon Ball cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:34:29,424 [main] INFO craftBetWorld - 41 2282 ID=5555 Provider=PlayTech Name=LuckyU cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:34:32,791 [main] INFO craftBetWorld - 42 2288 ID=5159 Provider=Edict Name=MaaaxDiamonds cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:35:14,077 [main] INFO craftBetWorld - 43 2351 ID=5158 Provider=Edict Name=MagicStone cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:35:53,109 [main] INFO craftBetWorld - 44 2397 ID=5187 Provider=Edict Name=Medusas Eyes cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:36:21,346 [main] INFO craftBetWorld - 45 2440 ID=5157 Provider=Edict Name=MightyDragon cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:36:36,233 [main] INFO craftBetWorld - 46 2460 ID=1570 Provider=PragmaticPlay Name=Money Money Money cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:37:26,336 [main] INFO craftBetWorld - 47 2539 ID=5609 Provider=IronDog Name=Neon Jungle cod=0 description=null ResponseObject=24
+2023-05-27 21:37:38,090 [main] INFO craftBetWorld - 48 2556 ID=5156 Provider=Edict Name=NightOfTheWereWolf cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:37:41,145 [main] INFO craftBetWorld - 49 2561 ID=5155 Provider=Edict Name=NightWolves cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:38:02,449 [main] INFO craftBetWorld - 50 2587 ID=5552 Provider=PlayTech Name=Oceanus Rising cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:38:08,029 [main] INFO craftBetWorld - 51 2596 ID=5154 Provider=Edict Name=OldFisherman cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:38:11,102 [main] INFO craftBetWorld - 52 2602 ID=5190 Provider=Edict Name=Omuato cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:38:29,122 [main] INFO craftBetWorld - 53 2635 ID=5550 Provider=PlayTech Name=Pantry Plunder cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:39:05,879 [main] INFO craftBetWorld - 54 2672 ID=5153 Provider=Edict Name=Phantom'sMirror cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:39:09,405 [main] INFO craftBetWorld - 55 2677 ID=5152 Provider=Edict Name=PharaosRiches cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:40:20,358 [main] INFO craftBetWorld - 56 2774 ID=5188 Provider=Edict Name=Princess of the Forest cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:41:11,970 [main] INFO craftBetWorld - 57 2836 ID=5151 Provider=Edict Name=RamsesBookHTML5 cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:42:21,887 [main] INFO craftBetWorld - 58 2910 ID=1589 Provider=PragmaticPlay Name=Rise of Samurai cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:42:46,249 [main] INFO craftBetWorld - 59 2945 ID=5150 Provider=Edict Name=RomanLegionHTML5 cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:42:47,594 [main] INFO craftBetWorld - 60 2946 ID=5149 Provider=Edict Name=RomanLegionXtreme cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:43:09,035 [main] INFO craftBetWorld - 61 2984 ID=2712 Provider=BFGames Name=Royal Crown cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:43:09,306 [main] INFO craftBetWorld - 62 2985 ID=2689 Provider=BFGames Name=Royal Crown Remastered cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:43:50,298 [main] INFO craftBetWorld - 63 3045 ID=5181 Provider=Edict Name=Savanna Stampede cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:43:52,571 [main] INFO craftBetWorld - 64 3049 ID=5148 Provider=Edict Name=SavannaMoon cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:44:22,531 [main] INFO craftBetWorld - 65 3090 ID=5654 Provider=Belatra Name=Shogun's Fortune cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:46:26,121 [main] INFO craftBetWorld - 66 3254 ID=5147 Provider=Edict Name=StickyDiamondsHTML5 cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:47:24,260 [main] INFO craftBetWorld - 67 3335 ID=5146 Provider=Edict Name=SuperDuperCherry cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:47:47,934 [main] INFO craftBetWorld - 68 3365 ID=5145 Provider=Edict Name=Take5HTML5 cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:48:46,646 [main] INFO craftBetWorld - 69 3448 ID=1588 Provider=PragmaticPlay Name=The Tiger Warrior cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:48:50,530 [main] INFO craftBetWorld - 70 3453 ID=5180 Provider=Edict Name=Theatre Of Rome cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:48:56,904 [main] INFO craftBetWorld - 71 3464 ID=5144 Provider=Edict Name=TheLandofHeroes cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:50:01,011 [main] INFO craftBetWorld - 72 3549 ID=5141 Provider=Edict Name=TribeoftheSun cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:50:07,849 [main] INFO craftBetWorld - 73 3559 ID=5179 Provider=Edict Name=Triple Flame cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:52:48,777 [main] INFO craftBetWorld - 74 3787 ID=5143 Provider=Edict Name=WildRapaNui cod=0 description=null ResponseObject=Product blocked for this partner
+2023-05-27 21:53:57,514 [main] INFO craftBetWorld - From Get URL API broken games are captured
+2023-05-27 21:53:57,514 [main] INFO craftBetWorld - Broken url-es are:  74 of 3884
+2023-05-27 21:53:57,575 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-05-27 21:53:57,584 [main] INFO craftBetWorld - Test Url: https://prdbtzmrk.com partnerID: 91
+2023-05-27 21:53:58,761 [main] INFO craftBetWorld - Get games Api call was sent
+2023-05-27 21:53:58,844 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-05-27 21:53:58,891 [main] INFO craftBetWorld - All captured games images was added into ArrayList: 3831
+2023-05-27 21:55:01,888 [main] INFO craftBetWorld - 1  196  Game ID = 5142   Game Provider Name = Edict  Game Name = AfricanMask :   :   src = https://static.egamings.com/games/edict/african_mask.jpg
+2023-05-27 21:55:28,738 [main] INFO craftBetWorld - 2  266  Game ID = 5177   Game Provider Name = Edict  Game Name = AncientRichesHTML5 :   :   src = https://static.egamings.com/games/edict/ancient_riches_html5.jpg
+2023-05-27 21:56:16,842 [main] INFO craftBetWorld - 3  431  Game ID = 5176   Game Provider Name = Edict  Game Name = BeautifulNatureHTML5 :   :   src = https://static.egamings.com/games/edict/beautiful_nature_html5.jpg
+2023-05-27 21:56:29,844 [main] INFO craftBetWorld - 4  486  Game ID = 5175   Game Provider Name = Edict  Game Name = BlackBeauty :   :   src = https://static.egamings.com/games/edict/black_beauty.jpg
+2023-05-27 21:57:14,631 [main] INFO craftBetWorld - 5  735  Game ID = 1524   Game Provider Name = PragmaticPlay  Game Name = Bonanza Gold :   :   src = https://resources.prdbtzmrk.com/products/
+2023-05-27 21:57:24,716 [main] INFO craftBetWorld - 6  772  Game ID = 5189   Game Provider Name = Edict  Game Name = Book of Fire :   :   src = https://static.egamings.com/games/edict/book_of_fire.jpg
+2023-05-27 21:57:40,709 [main] INFO craftBetWorld - 7  822  Game ID = 1597   Game Provider Name = PragmaticPlay  Game Name = Book of Tut :   :   src = https://resources.prdbtzmrk.com/products/
+2023-05-27 21:57:47,583 [main] INFO craftBetWorld - 8  841  Game ID = 5174   Game Provider Name = Edict  Game Name = BookofRomeoandJuliaHTML5 :   :   src = https://static.egamings.com/games/edict/book_of_romeo_and_julia_html.jpg
+2023-05-27 21:57:48,444 [main] INFO craftBetWorld - 9  845  Game ID = 5173   Game Provider Name = Edict  Game Name = BookoftheAgesHTML5 :   :   src = https://static.egamings.com/games/edict/book_of_the_ages_html5.jpg
+2023-05-27 21:57:48,938 [main] INFO craftBetWorld - 10  848  Game ID = 5172   Game Provider Name = Edict  Game Name = BooksandBulls :   :   src = https://static.egamings.com/games/edict/books_and_bulls.jpg
+2023-05-27 21:58:07,523 [main] INFO craftBetWorld - 11  914  Game ID = 1602   Game Provider Name = PragmaticPlay  Game Name = Busy Bees :   :   src = https://resources.prdbtzmrk.com/products/
+2023-05-27 21:58:53,002 [main] INFO craftBetWorld - 12  1083  Game ID = 1515   Game Provider Name = PragmaticPlay  Game Name = Club Tropicana :   :   src = https://resources.prdbtzmrk.com/products/
+2023-05-27 21:59:11,974 [main] INFO craftBetWorld - 13  1140  Game ID = 5171   Game Provider Name = Edict  Game Name = CrystalBallHTML5 :   :   src = https://static.egamings.com/games/edict/crystal_ball_html.jpg
+2023-05-27 21:59:54,624 [main] INFO craftBetWorld - 14  1281  Game ID = 5170   Game Provider Name = Edict  Game Name = DragonandKnights :   :   src = https://static.egamings.com/games/edict/dragon_and_knights.jpg
+2023-05-27 22:00:34,139 [main] INFO craftBetWorld - 15  1399  Game ID = 5169   Game Provider Name = Edict  Game Name = ExplodiacHTML5 :   :   src = https://static.egamings.com/games/edict/explodiac_html.jpg
+2023-05-27 22:00:43,933 [main] INFO craftBetWorld - 16  1429  Game ID = 5168   Game Provider Name = Edict  Game Name = FancyFruitsHTML5 :   :   src = https://static.egamings.com/games/edict/fancy_fruits_html.jpg
+2023-05-27 22:00:51,815 [main] INFO craftBetWorld - 17  1451  Game ID = 1514   Game Provider Name = PragmaticPlay  Game Name = Fire Archer :   :   src = https://resources.prdbtzmrk.com/products/
+2023-05-27 22:01:14,955 [main] INFO craftBetWorld - 18  1516  Game ID = 5167   Game Provider Name = Edict  Game Name = FortBraveHTML5 :   :   src = https://static.egamings.com/games/edict/fort_brave_html.jpg
+2023-05-27 22:01:37,363 [main] INFO craftBetWorld - 19  1585  Game ID = 5166   Game Provider Name = Edict  Game Name = FruitManiaHTML5 :   :   src = https://static.egamings.com/games/edict/fruit_mania_html.jpg
+2023-05-27 22:01:54,382 [main] INFO craftBetWorld - 20  1642  Game ID = 5165   Game Provider Name = Edict  Game Name = GatesofPersia :   :   src = https://static.egamings.com/games/edict/gates_of_persia.jpg
+2023-05-27 22:02:06,650 [main] INFO craftBetWorld - 21  1675  Game ID = 5164   Game Provider Name = Edict  Game Name = GlamorousTimesHTML5 :   :   src = https://static.egamings.com/games/edict/glamorous_times_html5.jpg
+2023-05-27 22:02:25,684 [main] INFO craftBetWorld - 22  1734  Game ID = 1531   Game Provider Name = PragmaticPlay  Game Name = Golden Ox :   :   src = https://resources.prdbtzmrk.com/products/
+2023-05-27 22:02:25,855 [main] INFO craftBetWorld - 23  1735  Game ID = 1565   Game Provider Name = PragmaticPlay  Game Name = Golden Pig :   :   src = https://resources.prdbtzmrk.com/products/
+2023-05-27 22:02:40,585 [main] INFO craftBetWorld - 24  1782  Game ID = 5163   Game Provider Name = Edict  Game Name = GuardiansOfTheMonastery :   :   src = https://static.egamings.com/games/edict/guardians_of_the_monastery.jpg
+2023-05-27 22:04:12,884 [main] INFO craftBetWorld - 25  2076  Game ID = 5162   Game Provider Name = Edict  Game Name = KingandQueen :   :   src = https://static.egamings.com/games/edict/king_and_queen.jpg
+2023-05-27 22:04:13,249 [main] INFO craftBetWorld - 26  2078  Game ID = 5161   Game Provider Name = Edict  Game Name = KingoftheJungle :   :   src = https://static.egamings.com/games/edict/king_of_the_jungle.jpg
+2023-05-27 22:04:18,240 [main] INFO craftBetWorld - 27  2097  Game ID = 5160   Game Provider Name = Edict  Game Name = LaDolceVitaHTML5 :   :   src = https://static.egamings.com/games/edict/la_dolce_vita_html5.jpg
+2023-05-27 22:04:46,568 [main] INFO craftBetWorld - 28  2195  Game ID = 1598   Game Provider Name = PragmaticPlay  Game Name = Lucky Dragon Ball :   :   src = https://resources.prdbtzmrk.com/products/
+2023-05-27 22:05:07,392 [main] INFO craftBetWorld - 29  2250  Game ID = 5159   Game Provider Name = Edict  Game Name = MaaaxDiamonds :   :   src = https://static.egamings.com/games/edict/maaax_diamonds.jpg
+2023-05-27 22:05:22,901 [main] INFO craftBetWorld - 30  2312  Game ID = 5158   Game Provider Name = Edict  Game Name = MagicStone :   :   src = https://static.egamings.com/games/edict/magic_stone.jpg
+2023-05-27 22:05:36,477 [main] INFO craftBetWorld - 31  2358  Game ID = 5187   Game Provider Name = Edict  Game Name = Medusas Eyes :   :   src = https://static.egamings.com/games/edict/medusas_eyes.jpg
+2023-05-27 22:05:38,628 [main] INFO craftBetWorld - 32  2365  Game ID = 4738   Game Provider Name = Evoplay  Game Name = Mega Greatest Catch Bоnus Buy :   :   src = https://agstatic.com/games/evoplay/mega_greatest_catch_b?nus_buy.jpg
+2023-05-27 22:05:48,891 [main] INFO craftBetWorld - 33  2400  Game ID = 5157   Game Provider Name = Edict  Game Name = MightyDragon :   :   src = https://static.egamings.com/games/edict/mighty_dragon.jpg
+2023-05-27 22:05:54,857 [main] INFO craftBetWorld - 34  2420  Game ID = 1570   Game Provider Name = PragmaticPlay  Game Name = Money Money Money :   :   src = https://resources.prdbtzmrk.com/products/
+2023-05-27 22:05:59,100 [main] INFO craftBetWorld - 35  2438  Game ID = 1513   Game Provider Name = PragmaticPlay  Game Name = Monster Superlanche :   :   src = https://resources.prdbtzmrk.com/products/
+2023-05-27 22:06:21,116 [main] INFO craftBetWorld - 36  2513  Game ID = 5156   Game Provider Name = Edict  Game Name = NightOfTheWereWolf :   :   src = https://static.egamings.com/games/edict/night_of_the_were_wolf.jpg
+2023-05-27 22:06:22,422 [main] INFO craftBetWorld - 37  2518  Game ID = 5155   Game Provider Name = Edict  Game Name = NightWolves :   :   src = https://static.egamings.com/games/edict/night_wolves.jpg
+2023-05-27 22:06:31,805 [main] INFO craftBetWorld - 38  2552  Game ID = 5154   Game Provider Name = Edict  Game Name = OldFisherman :   :   src = https://static.egamings.com/games/edict/old_fisherman.jpg
+2023-05-27 22:06:56,257 [main] INFO craftBetWorld - 39  2628  Game ID = 5153   Game Provider Name = Edict  Game Name = Phantom'sMirror :   :   src = https://static.egamings.com/games/edict/phantoms_mirror.jpg
+2023-05-27 22:06:57,554 [main] INFO craftBetWorld - 40  2633  Game ID = 5152   Game Provider Name = Edict  Game Name = PharaosRiches :   :   src = https://static.egamings.com/games/edict/pharaos_riches.jpg
+2023-05-27 22:07:30,113 [main] INFO craftBetWorld - 41  2730  Game ID = 5188   Game Provider Name = Edict  Game Name = Princess of the Forest :   :   src = https://static.egamings.com/games/edict/princess_of_the_forest.jpg
+2023-05-27 22:07:30,809 [main] INFO craftBetWorld - 42  2734  Game ID = 1516   Game Provider Name = PragmaticPlay  Game Name = PromoWin :   :   src = https://resources.prdbtzmrk.com/products/
+2023-05-27 22:07:47,086 [main] INFO craftBetWorld - 43  2791  Game ID = 5151   Game Provider Name = Edict  Game Name = RamsesBookHTML5 :   :   src = https://static.egamings.com/games/edict/ramses_book_html5.jpg
+2023-05-27 22:08:12,163 [main] INFO craftBetWorld - 44  2864  Game ID = 1589   Game Provider Name = PragmaticPlay  Game Name = Rise of Samurai :   :   src = https://resources.prdbtzmrk.com/products/
+2023-05-27 22:08:20,813 [main] INFO craftBetWorld - 45  2898  Game ID = 5150   Game Provider Name = Edict  Game Name = RomanLegionHTML5 :   :   src = https://static.egamings.com/games/edict/roman_legion_html.jpg
+2023-05-27 22:08:20,813 [main] INFO craftBetWorld - 46  2899  Game ID = 5149   Game Provider Name = Edict  Game Name = RomanLegionXtreme :   :   src = https://static.egamings.com/games/edict/roman_legion_xtreme.jpg
+2023-05-27 22:08:45,529 [main] INFO craftBetWorld - 47  3005  Game ID = 5148   Game Provider Name = Edict  Game Name = SavannaMoon :   :   src = https://static.egamings.com/games/edict/savanna_moon.jpg
+2023-05-27 22:09:40,126 [main] INFO craftBetWorld - 48  3211  Game ID = 5147   Game Provider Name = Edict  Game Name = StickyDiamondsHTML5 :   :   src = https://static.egamings.com/games/edict/sticky_diamonds_html.jpg
+2023-05-27 22:10:10,275 [main] INFO craftBetWorld - 49  3291  Game ID = 5146   Game Provider Name = Edict  Game Name = SuperDuperCherry :   :   src = https://static.egamings.com/games/edict/super_duper_cherry.jpg
+2023-05-27 22:10:18,749 [main] INFO craftBetWorld - 50  3320  Game ID = 5145   Game Provider Name = Edict  Game Name = Take5HTML5 :   :   src = https://static.egamings.com/games/edict/take_5_html5.jpg
+2023-05-27 22:10:38,953 [main] INFO craftBetWorld - 51  3380  Game ID = 3328   Game Provider Name = PragmaticPlay  Game Name = The Knight King :   :   src = https://resources.iqsoftllc.com/products/resources.iqsoftllc.com/products/pragmaticplay/mob/knightking.jpg
+2023-05-27 22:10:46,883 [main] INFO craftBetWorld - 52  3402  Game ID = 1588   Game Provider Name = PragmaticPlay  Game Name = The Tiger Warrior :   :   src = https://resources.prdbtzmrk.com/products/
+2023-05-27 22:10:52,651 [main] INFO craftBetWorld - 53  3417  Game ID = 5144   Game Provider Name = Edict  Game Name = TheLandofHeroes :   :   src = https://static.egamings.com/games/edict/the_land_of_heroes.jpg
+2023-05-27 22:11:15,306 [main] INFO craftBetWorld - 54  3495  Game ID = 4739   Game Provider Name = Evoplay  Game Name = Treasure-snipes: Christmas :   :   src = https://agstatic.com/games/evoplay/treasure_snipes_?hristmas.jpg
+2023-05-27 22:11:16,125 [main] INFO craftBetWorld - 55  3500  Game ID = 5141   Game Provider Name = Edict  Game Name = TribeoftheSun :   :   src = https://static.egamings.com/games/edict/tribe_of_the_sun.jpg
+2023-05-27 22:12:27,833 [main] INFO craftBetWorld - 56  3735  Game ID = 5143   Game Provider Name = Edict  Game Name = WildRapaNui :   :   src = https://static.egamings.com/games/edict/wild_rapa_nui.jpg
+2023-05-27 22:12:59,930 [main] INFO craftBetWorld - Broken images are:  56
+2023-05-27 22:12:59,975 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-05-27 22:12:59,985 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2023-06-08 20:00:21,773 [main] INFO craftBetWorld - Test Url: https://prdbtzmrk.com partnerID: 91
+2023-06-08 20:00:27,851 [main] INFO craftBetWorld - Get games Api call was sent
+2023-06-08 20:00:27,968 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-06-08 20:00:28,057 [main] INFO craftBetWorld - Duplicate game Name =  American Blackjack
+2023-06-08 20:00:28,058 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-06-08 20:00:28,058 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-06-08 20:00:28,058 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-06-08 20:00:28,058 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-06-08 20:00:28,059 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-06-08 20:00:28,059 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-06-08 20:00:28,060 [main] INFO craftBetWorld - Duplicate game Name =  Andar Bahar
+2023-06-08 20:00:28,062 [main] INFO craftBetWorld - Duplicate game Name =  Andar Bahar
+2023-06-08 20:00:28,062 [main] INFO craftBetWorld - Duplicate game Name =  Andar Bahar
+2023-06-08 20:00:28,063 [main] INFO craftBetWorld - Duplicate game Name =  Apollo
+2023-06-08 20:00:28,069 [main] INFO craftBetWorld - Duplicate game Name =  Baccarat
+2023-06-08 20:00:28,069 [main] INFO craftBetWorld - Duplicate game Name =  Baccarat
+2023-06-08 20:00:28,070 [main] INFO craftBetWorld - Duplicate game Name =  Baccarat
+2023-06-08 20:00:28,071 [main] INFO craftBetWorld - Duplicate game Name =  Baccarat A
+2023-06-08 20:00:28,071 [main] INFO craftBetWorld - Duplicate game Name =  Baccarat B
+2023-06-08 20:00:28,073 [main] INFO craftBetWorld - Duplicate game Name =  Backgammon
+2023-06-08 20:00:28,076 [main] INFO craftBetWorld - Duplicate game Name =  Beauty and the Beast
+2023-06-08 20:00:28,080 [main] INFO craftBetWorld - Duplicate game Name =  Black Jack
+2023-06-08 20:00:28,081 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack
+2023-06-08 20:00:28,081 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack
+2023-06-08 20:00:28,081 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack
+2023-06-08 20:00:28,081 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack
+2023-06-08 20:00:28,081 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack
+2023-06-08 20:00:28,081 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack
+2023-06-08 20:00:28,082 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack 16
+2023-06-08 20:00:28,086 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack 7
+2023-06-08 20:00:28,086 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack A
+2023-06-08 20:00:28,087 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack B
+2023-06-08 20:00:28,087 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack C
+2023-06-08 20:00:28,092 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack D
+2023-06-08 20:00:28,092 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack E
+2023-06-08 20:00:28,093 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack F
+2023-06-08 20:00:28,093 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack G
+2023-06-08 20:00:28,094 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack H
+2023-06-08 20:00:28,094 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack I
+2023-06-08 20:00:28,094 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack J
+2023-06-08 20:00:28,095 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack VIP
+2023-06-08 20:00:28,111 [main] INFO craftBetWorld - Duplicate game Name =  Caligula
+2023-06-08 20:00:28,114 [main] INFO craftBetWorld - Duplicate game Name =  Casino Hold'em
+2023-06-08 20:00:28,122 [main] INFO craftBetWorld - Duplicate game Name =  Craps
+2023-06-08 20:00:28,129 [main] INFO craftBetWorld - Duplicate game Name =  Dragon Tiger
+2023-06-08 20:00:28,129 [main] INFO craftBetWorld - Duplicate game Name =  Dragon Tiger
+2023-06-08 20:00:28,129 [main] INFO craftBetWorld - Duplicate game Name =  Dragon Tiger
+2023-06-08 20:00:28,130 [main] INFO craftBetWorld - Duplicate game Name =  Dragon Tiger
+2023-06-08 20:00:28,130 [main] INFO craftBetWorld - Duplicate game Name =  Dragon Tiger
+2023-06-08 20:00:28,130 [main] INFO craftBetWorld - Duplicate game Name =  Dragon Tiger
+2023-06-08 20:00:28,130 [main] INFO craftBetWorld - Duplicate game Name =  Dragon Tiger
+2023-06-08 20:00:28,130 [main] INFO craftBetWorld - Duplicate game Name =  Dragon Tiger
+2023-06-08 20:00:28,130 [main] INFO craftBetWorld - Duplicate game Name =  Dragon Tiger
+2023-06-08 20:00:28,130 [main] INFO craftBetWorld - Duplicate game Name =  Dragon Tiger
+2023-06-08 20:00:28,133 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-06-08 20:00:28,134 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-06-08 20:00:28,134 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-06-08 20:00:28,134 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-06-08 20:00:28,134 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-06-08 20:00:28,134 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-06-08 20:00:28,134 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-06-08 20:00:28,134 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-06-08 20:00:28,134 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-06-08 20:00:28,134 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-06-08 20:00:28,135 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-06-08 20:00:28,135 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-06-08 20:00:28,135 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-06-08 20:00:28,135 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-06-08 20:00:28,135 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-06-08 20:00:28,135 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-06-08 20:00:28,135 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-06-08 20:00:28,135 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-06-08 20:00:28,135 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-06-08 20:00:28,135 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-06-08 20:00:28,136 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-06-08 20:00:28,139 [main] INFO craftBetWorld - Duplicate game Name =  French Roulette
+2023-06-08 20:00:28,140 [main] INFO craftBetWorld - Duplicate game Name =  Fruits
+2023-06-08 20:00:28,143 [main] INFO craftBetWorld - Duplicate game Name =  Halloween
+2023-06-08 20:00:28,146 [main] INFO craftBetWorld - Duplicate game Name =  Jacks or Better
+2023-06-08 20:00:28,147 [main] INFO craftBetWorld - Duplicate game Name =  Journey to the West
+2023-06-08 20:00:28,149 [main] INFO craftBetWorld - Duplicate game Name =  Lobby
+2023-06-08 20:00:28,153 [main] INFO craftBetWorld - Duplicate game Name =  Multihand Blackjack
+2023-06-08 20:00:28,153 [main] INFO craftBetWorld - Duplicate game Name =  No Comm Speed Baccarat 1
+2023-06-08 20:00:28,153 [main] INFO craftBetWorld - Duplicate game Name =  No Commission Baccarat
+2023-06-08 20:00:28,155 [main] INFO craftBetWorld - Duplicate game Name =  Pontoon
+2023-06-08 20:00:28,156 [main] INFO craftBetWorld - Duplicate game Name =  Roman Empire
+2023-06-08 20:00:28,156 [main] INFO craftBetWorld - Duplicate game Name =  Roulette
+2023-06-08 20:00:28,156 [main] INFO craftBetWorld - Duplicate game Name =  Roulette
+2023-06-08 20:00:28,156 [main] INFO craftBetWorld - Duplicate game Name =  Roulette
+2023-06-08 20:00:28,157 [main] INFO craftBetWorld - Duplicate game Name =  Roulette
+2023-06-08 20:00:28,157 [main] INFO craftBetWorld - Duplicate game Name =  Roulette
+2023-06-08 20:00:28,157 [main] INFO craftBetWorld - Duplicate game Name =  Roulette
+2023-06-08 20:00:28,158 [main] INFO craftBetWorld - Duplicate game Name =  Sic Bo
+2023-06-08 20:00:28,158 [main] INFO craftBetWorld - Duplicate game Name =  Sic Bo
+2023-06-08 20:00:28,158 [main] INFO craftBetWorld - Duplicate game Name =  Sic Bo
+2023-06-08 20:00:28,158 [main] INFO craftBetWorld - Duplicate game Name =  Speed Roulette
+2023-06-08 20:00:28,159 [main] INFO craftBetWorld - Duplicate game Name =  Teen Patti
+2023-06-08 20:00:28,159 [main] INFO craftBetWorld - Duplicate game Name =  Unlimited Blackjack
+2023-06-08 20:00:28,160 [main] INFO craftBetWorld - Duplicate game Name =  Virtual Roulette
+2023-06-08 20:00:28,160 [main] INFO craftBetWorld - Duplicate game Name =  Wild Jack
+2023-06-08 20:00:28,160 [main] INFO craftBetWorld - Duplicate games are:  97
+2023-06-08 20:00:29,105 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-06-08 20:00:29,108 [main] INFO craftBetWorld - Test Url: https://prdbtzmrk.com partnerID: 91
+2023-06-08 20:00:30,281 [main] INFO craftBetWorld - Get games Api call was sent
+2023-06-08 20:00:30,318 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-06-08 20:00:30,379 [main] INFO craftBetWorld - All captured providers data  was added into ArrayLists Count: 38
+2023-06-08 20:00:35,457 [main] INFO craftBetWorld - Broken Providers images are:  0
+2023-06-08 20:00:35,527 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-06-08 20:00:35,529 [main] INFO craftBetWorld - Test Url: https://prdbtzmrk.com partnerID: 91
+2023-06-08 20:00:36,464 [main] INFO craftBetWorld - Get games Api call was sent
+2023-06-08 20:00:36,538 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-06-08 20:00:36,581 [main] INFO craftBetWorld - All captured games images links was added into ArrayList: 3810
+2023-06-08 20:04:15,740 [main] ERROR craftBetWorld - 1  817  Game ID = 1597   Game Provider Name = PragmaticPlay :   Game Name =  Book of Tut :   cod = 404:   src = https://resources.iqsoftllc.com/products/pragmaticplay/web/bookoftut.jpg
+2023-06-08 20:05:28,931 [main] ERROR craftBetWorld - 2  1076  Game ID = 1515   Game Provider Name = PragmaticPlay :   Game Name =  Club Tropicana :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-06-08 20:07:28,738 [main] ERROR craftBetWorld - 3  1449  Game ID = 1514   Game Provider Name = PragmaticPlay :   Game Name =  Fire Archer :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-06-08 20:12:35,636 [main] ERROR craftBetWorld - 4  2359  Game ID = 4738   Game Provider Name = Evoplay :   Game Name =  Mega Greatest Catch Bоnus Buy :   cod = 403:   src = https://agstatic.com/games/evoplay/mega_greatest_catch_b?nus_buy.jpg
+2023-06-08 20:13:01,212 [main] ERROR craftBetWorld - 5  2432  Game ID = 1513   Game Provider Name = PragmaticPlay :   Game Name =  Monster Superlanche :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-06-08 20:14:35,723 [main] ERROR craftBetWorld - 6  2721  Game ID = 1516   Game Provider Name = PragmaticPlay :   Game Name =  PromoWin :   cod = 403:   src = https://resources.prdbtzmrk.com/products/
+2023-06-08 20:17:47,319 [main] ERROR craftBetWorld - 7  3357  Game ID = 3328   Game Provider Name = PragmaticPlay :   Game Name =  The Knight King :   cod = 404:   src = https://resources.iqsoftllc.com/products/resources.iqsoftllc.com/products/pragmaticplay/web/knightking.jpg
+2023-06-08 20:18:45,331 [main] ERROR craftBetWorld - 8  3472  Game ID = 4739   Game Provider Name = Evoplay :   Game Name =  Treasure-snipes: Christmas :   cod = 403:   src = https://agstatic.com/games/evoplay/treasure_snipes_?hristmas.jpg
+2023-06-08 20:20:34,669 [main] INFO craftBetWorld - Broken images are:  8
+2023-06-08 20:20:35,038 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-06-08 20:20:35,040 [main] INFO craftBetWorld - Test Url: https://prdbtzmrk.com partnerID: 91
+2023-06-08 20:20:36,727 [main] INFO craftBetWorld - Log In request was sent to https://prdbtzmrk.com
+2023-06-08 20:20:36,727 [main] INFO craftBetWorld - Token was captured: d6dfd3f6d6814514a883a6fb765b7b7d
+2023-06-08 20:20:36,727 [main] INFO craftBetWorld - User Id was captured: 254304
+2023-06-08 20:20:37,853 [main] INFO craftBetWorld - Get All games API call 
+2023-06-08 20:20:37,918 [main] INFO craftBetWorld - From getGamesAPIUrl call body captured 
+2023-06-08 20:20:37,968 [main] INFO craftBetWorld - From getGamesAPIUrl call productIDes and Names was captured Games count: 3810
+2023-06-08 20:23:36,534 [main] INFO craftBetWorld - 1 243 ID=1961 Provider=RedTigerGaming Name=Amazon Island MegaWays cod=0 description=null ResponseObject=Transactions ID failed value
+2023-06-08 20:31:29,493 [main] INFO craftBetWorld - 2 938 ID=4534 Provider=Yggdrasil Name=Cannonade! cod=0 description=null ResponseObject=Product blocked for this partner
+2023-06-08 20:37:51,469 [main] INFO craftBetWorld - 3 1406 ID=5563 Provider=PlayTech Name=Extreme Fruits Ultimate cod=0 description=null ResponseObject=Product blocked for this partner
+2023-06-08 20:52:33,450 [main] INFO craftBetWorld - 4 2535 ID=2719 Provider=BFGames Name=Ocean Reef cod=0 description=null ResponseObject=24
+2023-06-08 20:52:59,525 [main] INFO craftBetWorld - 5 2573 ID=2718 Provider=BFGames Name=Pagoda of Fortune cod=0 description=null ResponseObject=24
+2023-06-08 20:53:31,972 [main] INFO craftBetWorld - 6 2619 ID=2717 Provider=BFGames Name=Pharaohs and Aliens cod=0 description=null ResponseObject=24
+2023-06-08 20:54:59,480 [main] INFO craftBetWorld - 7 2739 ID=2716 Provider=BFGames Name=Pyramid Treasure cod=0 description=null ResponseObject=24
+2023-06-08 20:55:35,952 [main] INFO craftBetWorld - 8 2779 ID=2755 Provider=BFGames Name=Ramses Rising cod=0 description=null ResponseObject=24
+2023-06-08 20:56:19,667 [main] INFO craftBetWorld - 9 2836 ID=2715 Provider=BFGames Name=Rich Castle cod=0 description=null ResponseObject=24
+2023-06-08 20:56:23,226 [main] INFO craftBetWorld - 10 2841 ID=2714 Provider=BFGames Name=Riches From The Deep cod=0 description=null ResponseObject=24
+2023-06-08 20:56:54,193 [main] INFO craftBetWorld - 11 2887 ID=2713 Provider=BFGames Name=Rome Warrior cod=0 description=null ResponseObject=24
+2023-06-08 21:00:22,644 [main] INFO craftBetWorld - 12 3164 ID=2696 Provider=BFGames Name=Squid from the Deep cod=0 description=null ResponseObject=24
+2023-06-08 21:00:29,829 [main] INFO craftBetWorld - 13 3174 ID=2711 Provider=BFGames Name=Star Fortune cod=0 description=null ResponseObject=24
+2023-06-08 21:00:30,689 [main] INFO craftBetWorld - 14 3175 ID=2700 Provider=BFGames Name=Star Settler cod=0 description=null ResponseObject=24
+2023-06-08 21:00:37,671 [main] INFO craftBetWorld - 15 3184 ID=2752 Provider=BFGames Name=Steampunk Big City cod=0 description=null ResponseObject=24
+2023-06-08 21:01:05,946 [main] INFO craftBetWorld - 16 3210 ID=2710 Provider=BFGames Name=Stunning 27 cod=0 description=null ResponseObject=24
+2023-06-08 21:01:06,602 [main] INFO craftBetWorld - 17 3211 ID=2687 Provider=BFGames Name=Stunning 27 Remastered cod=0 description=null ResponseObject=24
+2023-06-08 21:01:07,508 [main] INFO craftBetWorld - 18 3212 ID=2698 Provider=BFGames Name=Stunning Cash cod=0 description=null ResponseObject=24
+2023-06-08 21:01:08,352 [main] INFO craftBetWorld - 19 3213 ID=2757 Provider=BFGames Name=Stunning Cash Ultra cod=0 description=null ResponseObject=24
+2023-06-08 21:01:09,117 [main] INFO craftBetWorld - 20 3214 ID=2691 Provider=BFGames Name=Stunning Cube cod=0 description=null ResponseObject=24
+2023-06-08 21:01:09,914 [main] INFO craftBetWorld - 21 3215 ID=2709 Provider=BFGames Name=Stunning Hot cod=0 description=null ResponseObject=24
+2023-06-08 21:01:10,585 [main] INFO craftBetWorld - 22 3216 ID=2707 Provider=BFGames Name=Stunning Hot 20 Deluxe cod=0 description=null ResponseObject=24
+2023-06-08 21:01:11,335 [main] INFO craftBetWorld - 23 3217 ID=2690 Provider=BFGames Name=Stunning Hot 20 Deluxe Remastered cod=0 description=null ResponseObject=24
+2023-06-08 21:01:12,101 [main] INFO craftBetWorld - 24 3218 ID=2708 Provider=BFGames Name=Stunning Hot Remastered cod=0 description=null ResponseObject=24
+2023-06-08 21:01:12,960 [main] INFO craftBetWorld - 25 3219 ID=2706 Provider=BFGames Name=Stunning snow cod=0 description=null ResponseObject=24
+2023-06-08 21:01:13,631 [main] INFO craftBetWorld - 26 3220 ID=2688 Provider=BFGames Name=Stunning snow Remastered cod=0 description=null ResponseObject=24
+2023-06-08 21:04:19,137 [main] INFO craftBetWorld - 27 3462 ID=2704 Provider=BFGames Name=Transylvanian Beauty cod=0 description=null ResponseObject=24
+2023-06-08 21:06:41,885 [main] INFO craftBetWorld - 28 3653 ID=1793 Provider=PariPlay Name=Wild Cherry cod=0 description=null ResponseObject=24
+2023-06-08 21:08:35,389 [main] INFO craftBetWorld - From Get URL API broken games are captured
+2023-06-08 21:08:35,389 [main] INFO craftBetWorld - Broken url-es are:  28 of 3810
+2023-06-08 21:08:35,764 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-06-08 21:08:35,764 [main] INFO craftBetWorld - Test Url: https://prdbtzmrk.com partnerID: 91
+2023-06-08 21:08:37,045 [main] INFO craftBetWorld - Get games Api call was sent
+2023-06-08 21:08:37,107 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-06-08 21:08:37,154 [main] INFO craftBetWorld - All captured games images was added into ArrayList: 3757
+2023-06-08 21:12:20,425 [main] INFO craftBetWorld - 1  811  Game ID = 1597   Game Provider Name = PragmaticPlay  Game Name = Book of Tut :   :   src = https://resources.iqsoftllc.com/products/pragmaticplay/mob/bookoftut.jpg
+2023-06-08 21:13:42,218 [main] INFO craftBetWorld - 2  1068  Game ID = 1515   Game Provider Name = PragmaticPlay  Game Name = Club Tropicana :   :   src = https://resources.prdbtzmrk.com/products/
+2023-06-08 21:15:45,321 [main] INFO craftBetWorld - 3  1429  Game ID = 1514   Game Provider Name = PragmaticPlay  Game Name = Fire Archer :   :   src = https://resources.prdbtzmrk.com/products/
+2023-06-08 21:20:35,401 [main] INFO craftBetWorld - 4  2321  Game ID = 4738   Game Provider Name = Evoplay  Game Name = Mega Greatest Catch Bоnus Buy :   :   src = https://agstatic.com/games/evoplay/mega_greatest_catch_b?nus_buy.jpg
+2023-06-08 21:20:55,368 [main] INFO craftBetWorld - 5  2392  Game ID = 1513   Game Provider Name = PragmaticPlay  Game Name = Monster Superlanche :   :   src = https://resources.prdbtzmrk.com/products/
+2023-06-08 21:22:32,737 [main] INFO craftBetWorld - 6  2678  Game ID = 1516   Game Provider Name = PragmaticPlay  Game Name = PromoWin :   :   src = https://resources.prdbtzmrk.com/products/
+2023-06-08 21:25:51,669 [main] INFO craftBetWorld - 7  3312  Game ID = 3328   Game Provider Name = PragmaticPlay  Game Name = The Knight King :   :   src = https://resources.iqsoftllc.com/products/resources.iqsoftllc.com/products/pragmaticplay/mob/knightking.jpg
+2023-06-08 21:26:37,777 [main] INFO craftBetWorld - 8  3424  Game ID = 4739   Game Provider Name = Evoplay  Game Name = Treasure-snipes: Christmas :   :   src = https://agstatic.com/games/evoplay/treasure_snipes_?hristmas.jpg
+2023-06-08 21:28:14,554 [main] INFO craftBetWorld - Broken images are:  8
+2023-06-08 21:28:14,594 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-06-08 21:28:14,603 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
 2023-05-22 15:47:21,161 [main] INFO craftBetWorld - Test Url: https://woopio.com partnerID: 28
 2023-05-22 15:47:31,849 [main] INFO craftBetWorld - Get games Api call was sent
 2023-05-22 15:47:32,055 [main] INFO craftBetWorld - Get games Api Response was captured
@@ -13461,6 +13954,164 @@ Parameter name: s ResponseObject=null
 2023-06-22 17:50:16,563 [main] INFO craftBetWorld - Broken images are:  20
 2023-06-22 17:50:16,627 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2023-06-22 17:50:16,636 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2023-06-22 20:34:27,125 [main] INFO craftBetWorld - Test Url: https://totox-stage.com partnerID: 2
+2023-06-22 20:34:41,473 [main] INFO craftBetWorld - Get games Api call was sent
+2023-06-22 20:34:41,504 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-06-22 20:34:41,516 [main] INFO craftBetWorld - Duplicate game Name =  Elements
+2023-06-22 20:34:41,519 [main] INFO craftBetWorld - Duplicate game Name =  TalesOfDarkness
+2023-06-22 20:34:41,520 [main] INFO craftBetWorld - Duplicate games are:  2
+2023-06-22 20:34:42,469 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-06-22 20:34:42,473 [main] INFO craftBetWorld - Test Url: https://totox-stage.com partnerID: 2
+2023-06-22 20:34:45,758 [main] INFO craftBetWorld - Get games Api call was sent
+2023-06-22 20:34:45,761 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-06-22 20:34:45,769 [main] INFO craftBetWorld - All captured providers data  was added into ArrayLists Count: 10
+2023-06-22 20:35:37,188 [main] INFO craftBetWorld - Broken Providers images are:  0
+2023-06-22 20:35:37,224 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-06-22 20:35:37,227 [main] INFO craftBetWorld - Test Url: https://totox-stage.com partnerID: 2
+2023-06-22 20:35:38,467 [main] INFO craftBetWorld - Get games Api call was sent
+2023-06-22 20:35:38,474 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-06-22 20:35:38,480 [main] INFO craftBetWorld - All captured games images links was added into ArrayList: 382
+2023-06-22 20:36:00,299 [main] ERROR craftBetWorld - 1  10  Game ID = 1492 Game Provider Name = Booongo :   Game Name = 777 Gems Respin :     src = https://static.egamings.com/games/booongo/777_gems_respin.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 20:36:00,942 [main] ERROR craftBetWorld - 2  12  Game ID = 1500 Game Provider Name = Booongo :   Game Name = 88 Wild Dragon :     src = https://static.egamings.com/games/booongo/88_wild_dragon.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 20:36:00,942 [main] ERROR craftBetWorld - 3  13  Game ID = 1510 Game Provider Name = Booongo :   Game Name = African Spirit :     src = https://static.egamings.com/games/booongo/african_spirit.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 20:36:00,942 [main] ERROR craftBetWorld - 4  14  Game ID = 1491 Game Provider Name = Booongo :   Game Name = Age of Caesar :     src = https://static.egamings.com/games/booongo/age_of_caesar.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 20:36:16,075 [main] ERROR craftBetWorld - 5  29  Game ID = 1486   Game Provider Name = Wazdan :   Game Name =  Black Hawk Deluxe :   cod = 404:   src = https://resources.iqsoftllc.com/products/wazdan\web\bhd_wzdn.jpg
+2023-06-22 20:36:42,171 [main] ERROR craftBetWorld - 6  58  Game ID = 1511 Game Provider Name = Booongo :   Game Name = Christmas Charm :     src = https://static.egamings.com/games/booongo/christmas_charm.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 20:37:00,971 [main] ERROR craftBetWorld - 7  91  Game ID = 1193   Game Provider Name = RedTiger :   Game Name =  Dragons Luck :   cod = 404:   src = https://resources.iqsoftllc.com/products/redtiger/web/dragons_luck.png
+2023-06-22 20:37:03,053 [main] ERROR craftBetWorld - 8  92  Game ID = 1194   Game Provider Name = RedTiger :   Game Name =  Dragons Luck Megaways :   cod = 404:   src = https://resources.iqsoftllc.com/products/redtiger/web/dragons_luck_megaways.jpg
+2023-06-22 20:37:17,478 [main] ERROR craftBetWorld - 9  106  Game ID = 1075   Game Provider Name = NetEnt :   Game Name =  Finn :   cod = 404:   src = https://resources.iqsoftllc.com/products/netent/web/Finn_252_190.jpg
+2023-06-22 20:38:09,650 [main] ERROR craftBetWorld - 10  122  Game ID = 1502 Game Provider Name = Booongo :   Game Name = Fortune Multiplier :     src = https://static.egamings.com/games/booongo/fortune_multiplier.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 20:38:10,424 [main] ERROR craftBetWorld - 11  124  Game ID = 1008 Game Provider Name = PlaynGo :   Game Name = FreeReelinJoker :     src = https://static.egamings.com/games/playngo/free_reelin_joker.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 20:38:13,936 [main] ERROR craftBetWorld - 12  130  Game ID = 1512 Game Provider Name = Booongo :   Game Name = Fruity Wild :     src = https://static.egamings.com/games/leander/wild_and_fruity.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 20:38:13,937 [main] ERROR craftBetWorld - 13  131  Game ID = 1493 Game Provider Name = Booongo :   Game Name = Fu Cai Shen :     src = https://static.egamings.com/games/booongo/fu_cai_shen.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 20:38:17,424 [main] ERROR craftBetWorld - 14  135  Game ID = 1209 Game Provider Name = RedTiger :   Game Name = God Of Wealth :     src = https://static.egamings.com/games/redtigergaming/god_of_wealth.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 20:38:28,132 [main] ERROR craftBetWorld - 15  146  Game ID = 1212   Game Provider Name = RedTiger :   Game Name =  Gonzo's Quest Megaways :   cod = 404:   src = https://resources.iqsoftllc.com/products/redtigergaming/web/gonzo's_quest_megaways.jpg
+2023-06-22 20:38:48,092 [main] ERROR craftBetWorld - 16  152  Game ID = 1010 Game Provider Name = PlaynGo :   Game Name = GreenKnight :     src = https://static.egamings.com/games/playngo/the_green_knight.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 20:38:48,460 [main] ERROR craftBetWorld - 17  154  Game ID = 1214 Game Provider Name = RedTiger :   Game Name = Hammer Gods :     src = https://static.egamings.com/games/redtigergaming/hammer_gods.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 20:39:22,895 [main] ERROR craftBetWorld - 18  203  Game ID = 1014 Game Provider Name = PlaynGo :   Game Name = LokisFortune :     src = https://static.egamings.com/games/playngo/tales_of_asgard_lokis_fortune.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 20:39:27,785 [main] ERROR craftBetWorld - 19  216  Game ID = 1503 Game Provider Name = Booongo :   Game Name = Lucky Xmas :     src = https://static.egamings.com/games/booongo/lucky_xmas.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 20:39:48,076 [main] ERROR craftBetWorld - 20  237  Game ID = 1494 Game Provider Name = Booongo :   Game Name = Monkey Money :     src = https://static.egamings.com/games/booongo/monkey_money.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 20:40:14,846 [main] ERROR craftBetWorld - 21  255  Game ID = 1495 Game Provider Name = Booongo :   Game Name = Olympian Gods :     src = https://static.egamings.com/games/booongo/olympian_gods.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 20:40:16,100 [main] ERROR craftBetWorld - 22  258  Game ID = 1513   Game Provider Name = Booongo :   Game Name =  Patrick's Pub :   cod = 404:   src = https://resources.iqsoftllc.com/products/outcomebet/web/PatricksPub.png
+2023-06-22 20:40:41,885 [main] ERROR craftBetWorld - 23  286  Game ID = 1496 Game Provider Name = Booongo :   Game Name = Scarab Riches :     src = https://static.egamings.com/games/booongo/scarab_riches.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 20:40:43,691 [main] ERROR craftBetWorld - 24  289  Game ID = 1504 Game Provider Name = Booongo :   Game Name = Secret of Nefertiti 2 :     src = https://static.egamings.com/games/booongo/secret_of_nefertiti_2.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 20:40:44,688 [main] ERROR craftBetWorld - 25  294  Game ID = 1497 Game Provider Name = Booongo :   Game Name = Shen Long Mi Bao :     src = https://static.egamings.com/games/booongo/shen_long_mi_bao.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 20:40:45,016 [main] ERROR craftBetWorld - 26  295  Game ID = 1498   Game Provider Name = Booongo :   Game Name =  Singles Day :   cod = 404:   src = https://resources.iqsoftllc.com/products/outcomebet/web/SinglesDay.png
+2023-06-22 20:40:45,891 [main] ERROR craftBetWorld - 27  299  Game ID = 1505 Game Provider Name = Booongo :   Game Name = Sky Gems: 5 Wilds :     src = https://static.egamings.com/games/booongo/sky_gems_5_wilds.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 20:40:45,891 [main] ERROR craftBetWorld - 28  300  Game ID = 1251 Game Provider Name = RedTiger :   Game Name = Sky Warrior :     src = https://static.egamings.com/games/redtigergaming/1942_sky_warrior.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 20:40:46,036 [main] ERROR craftBetWorld - 29  302  Game ID = 1252 Game Provider Name = RedTiger :   Game Name = Snow Wild And The 7 Features :     src = https://static.egamings.com/games/redtigergaming/snow_wild_and_the_7_features.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 20:40:47,636 [main] ERROR craftBetWorld - 30  309  Game ID = 6   Game Provider Name = IQSoft :   Game Name =  Sportsbook :   cod = 404:   src = https://resources.totox-stage.com/products/iqsoft/sport.png
+2023-06-22 20:40:47,787 [main] ERROR craftBetWorld - 31  311  Game ID = 1506 Game Provider Name = Booongo :   Game Name = Star Gems :     src = https://static.egamings.com/games/booongo/star_gems.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 20:40:49,938 [main] ERROR craftBetWorld - 32  317  Game ID = 1509 Game Provider Name = Booongo :   Game Name = Supreme Fortune :     src = https://static.egamings.com/games/booongo/supreme_fortune.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 20:41:07,390 [main] ERROR craftBetWorld - 33  335  Game ID = 1258 Game Provider Name = RedTiger :   Game Name = Totem Lightning Power Reels :     src = https://static.egamings.com/games/redtigergaming/totem_lightning.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 20:41:36,298 [main] ERROR craftBetWorld - 34  351  Game ID = 1499 Game Provider Name = Booongo :   Game Name = Vikings Gods Gold :     src = https://static.egamings.com/games/booongo/vikings_gods_gold.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 20:41:36,298 [main] ERROR craftBetWorld - 35  352  Game ID = 1507 Game Provider Name = Booongo :   Game Name = Vikings Winter :     src = https://static.egamings.com/games/booongo/vikings_winter.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 20:41:38,088 [main] ERROR craftBetWorld - 36  359  Game ID = 1508 Game Provider Name = Booongo :   Game Name = Wild 888 :     src = https://static.egamings.com/games/booongo/wild_888.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 20:42:17,389 [main] ERROR craftBetWorld - 37  373  Game ID = 1269 Game Provider Name = RedTiger :   Game Name = Wings Of Ra :     src = https://static.egamings.com/games/redtigergaming/wings_of_ra.jpg   java.net.UnknownHostException: static.egamings.com
+2023-06-22 20:42:21,343 [main] INFO craftBetWorld - Broken images are:  37
+2023-06-22 20:42:21,384 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-06-22 20:42:21,387 [main] INFO craftBetWorld - Test Url: https://totox-stage.com partnerID: 2
+2023-06-22 20:42:22,119 [main] INFO craftBetWorld - Log In request was sent to https://totox-stage.com
+2023-06-22 20:42:22,120 [main] INFO craftBetWorld - Token was captured: 91f6ae85519f48ab920e68ddf0f9b2dd
+2023-06-22 20:42:22,120 [main] INFO craftBetWorld - User Id was captured: 523
+2023-06-22 20:42:22,976 [main] INFO craftBetWorld - Get All games API call 
+2023-06-22 20:42:22,984 [main] INFO craftBetWorld - From getGamesAPIUrl call body captured 
+2023-06-22 20:42:22,989 [main] INFO craftBetWorld - From getGamesAPIUrl call productIDes and Names was captured Games count: 382
+2023-06-22 20:42:55,160 [main] INFO craftBetWorld - 1 30 ID=1486 Provider=Wazdan Name=Black Hawk Deluxe cod=0 description=null ResponseObject=Product blocked for this partner
+2023-06-22 20:44:21,556 [main] INFO craftBetWorld - 2 107 ID=1075 Provider=NetEnt Name=Finn cod=0 description=null ResponseObject=Product blocked for this partner
+2023-06-22 20:45:09,092 [main] INFO craftBetWorld - 3 160 ID=1080 Provider=NetEnt Name=Highlights cod=0 description=null ResponseObject=Product blocked for this partner
+2023-06-22 20:45:11,339 [main] INFO craftBetWorld - 4 163 ID=1081 Provider=NetEnt Name=Hooks Heroes cod=0 description=null ResponseObject=Product blocked for this partner
+2023-06-22 20:46:12,334 [main] INFO craftBetWorld - 5 225 ID=1487 Provider=Wazdan Name=Magic of the Ring Deluxe cod=0 description=null ResponseObject=SESSION_INVALID_PARAMS
+2023-06-22 20:48:28,034 [main] INFO craftBetWorld - From Get URL API broken games are captured
+2023-06-22 20:48:28,035 [main] INFO craftBetWorld - Broken url-es are:  5 of 382
+2023-06-22 20:48:28,075 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-06-22 20:48:28,083 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2023-06-22 21:07:28,179 [main] INFO craftBetWorld - Test Url: https://totox-stage.com partnerID: 2
+2023-06-22 21:07:28,904 [main] INFO craftBetWorld - Log In request was sent to https://totox-stage.com
+2023-06-22 21:07:28,907 [main] INFO craftBetWorld - Token was captured: 6bebb4d30f284b8b85ce666a97524fd8
+2023-06-22 21:07:28,907 [main] INFO craftBetWorld - User Id was captured: 523
+2023-06-22 21:07:29,518 [main] INFO craftBetWorld - Get All games API call 
+2023-06-22 21:07:29,539 [main] INFO craftBetWorld - From getGamesAPIUrl call body captured 
+2023-06-22 21:07:29,555 [main] INFO craftBetWorld - From getGamesAPIUrl call productIDes and Names was captured Games count: 382
+2023-06-22 21:07:29,826 [main] INFO craftBetWorld - 1 1 ID=1337 Provider=PragmaticPlay Name=Gates of Olympus cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:07:30,066 [main] INFO craftBetWorld - 2 2 ID=1385 Provider=QuickSpin Name=Big Bad Wolf cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:07:30,317 [main] INFO craftBetWorld - 3 3 ID=1332 Provider=PragmaticPlay Name=Big Bass Bonanza cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:07:30,551 [main] INFO craftBetWorld - 4 4 ID=1063 Provider=NetEnt Name=Aloha cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:07:30,795 [main] INFO craftBetWorld - 5 5 ID=1380 Provider=QuickSpin Name=Pirates Charm cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:07:31,039 [main] INFO craftBetWorld - 6 6 ID=1514 Provider=Booongo Name=15 Dragon Pearls cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:07:31,277 [main] INFO craftBetWorld - 7 7 ID=1178 Provider=RedTiger Name=24 Hour Grand Prix cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:07:31,505 [main] INFO craftBetWorld - 8 8 ID=1179 Provider=RedTiger Name=4 Squad cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:07:31,745 [main] INFO craftBetWorld - 9 9 ID=1343 Provider=PragmaticPlay Name=5 Lions cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:07:31,983 [main] INFO craftBetWorld - 10 10 ID=1344 Provider=PragmaticPlay Name=5 Lions Dance cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:07:32,247 [main] INFO craftBetWorld - 11 11 ID=1492 Provider=Booongo Name=777 Gems Respin cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:07:32,479 [main] INFO craftBetWorld - 12 12 ID=1180 Provider=RedTiger Name=777 Strike cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:07:32,719 [main] INFO craftBetWorld - 13 13 ID=1500 Provider=Booongo Name=88 Wild Dragon cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:07:32,963 [main] INFO craftBetWorld - 14 14 ID=1510 Provider=Booongo Name=African Spirit cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:07:33,220 [main] INFO craftBetWorld - 15 15 ID=1491 Provider=Booongo Name=Age of Caesar cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:07:33,465 [main] INFO craftBetWorld - 16 16 ID=1181 Provider=RedTiger Name=Ancient Script cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:07:33,711 [main] INFO craftBetWorld - 17 17 ID=1155 Provider=NetEnt Name=Arcane cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:07:33,971 [main] INFO craftBetWorld - 18 18 ID=1156 Provider=NetEnt Name=Archangels cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:07:34,200 [main] INFO craftBetWorld - 19 19 ID=1360 Provider=QuickSpin Name=Ark of Mystery cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:07:34,451 [main] INFO craftBetWorld - 20 20 ID=1157 Provider=NetEnt Name=Asgardian Stones cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:07:34,669 [main] INFO craftBetWorld - 21 21 ID=1272 Provider=Live5Gaming Name=Aviator cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:07:34,908 [main] INFO craftBetWorld - 22 22 ID=1331 Provider=PragmaticPlay Name=Aztec Gems Deluxe cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:07:35,129 [main] INFO craftBetWorld - 23 23 ID=1456 Provider=Wazdan Name=Back To The 70`s cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:11:13,271 [main] INFO craftBetWorld - Test Url: https://totox-stage.com partnerID: 2
+2023-06-22 21:11:13,977 [main] INFO craftBetWorld - Log In request was sent to https://totox-stage.com
+2023-06-22 21:11:13,979 [main] INFO craftBetWorld - Token was captured: f7c79c132b8b4d39ab8345de75cf2777
+2023-06-22 21:11:13,979 [main] INFO craftBetWorld - User Id was captured: 523
+2023-06-22 21:11:14,633 [main] INFO craftBetWorld - Get All games API call 
+2023-06-22 21:11:14,656 [main] INFO craftBetWorld - From getGamesAPIUrl call body captured 
+2023-06-22 21:11:14,670 [main] INFO craftBetWorld - From getGamesAPIUrl call productIDes and Names was captured Games count: 382
+2023-06-22 21:11:35,481 [main] INFO craftBetWorld - 1 30 ID=1486 Provider=Wazdan Name=Black Hawk Deluxe cod=0 description=null ResponseObject=Product blocked for this partner
+2023-06-22 21:12:15,277 [main] INFO craftBetWorld - 2 90 ID=1325 Provider=PragmaticPlay Name=Dragon Kingdom cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:15,532 [main] INFO craftBetWorld - 3 91 ID=1372 Provider=QuickSpin Name=Dragon Shrine cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:15,759 [main] INFO craftBetWorld - 4 92 ID=1193 Provider=RedTiger Name=Dragons Luck cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:16,040 [main] INFO craftBetWorld - 5 93 ID=1194 Provider=RedTiger Name=Dragons Luck Megaways cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:16,406 [main] INFO craftBetWorld - 6 94 ID=1373 Provider=QuickSpin Name=Durian Dynamite cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:16,638 [main] INFO craftBetWorld - 7 95 ID=1389 Provider=QuickSpin Name=Dwarfs Gone Wild cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:16,880 [main] INFO craftBetWorld - 8 96 ID=1374 Provider=QuickSpin Name=Eastern Emeralds cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:17,144 [main] INFO craftBetWorld - 9 97 ID=1073 Provider=NetEnt Name=Elements cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:17,383 [main] INFO craftBetWorld - 10 98 ID=1160 Provider=NetEnt Name=Elements cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:17,633 [main] INFO craftBetWorld - 11 99 ID=1195 Provider=RedTiger Name=Elven Magic cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:17,887 [main] INFO craftBetWorld - 12 100 ID=1196 Provider=RedTiger Name=Epic Journey cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:18,132 [main] INFO craftBetWorld - 13 101 ID=1197 Provider=RedTiger Name=Esqueleto Mariachi cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:18,368 [main] INFO craftBetWorld - 14 102 ID=1150 Provider=NetEnt Name=Excalibur cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:18,650 [main] INFO craftBetWorld - 15 103 ID=1375 Provider=QuickSpin Name=Fairy Gate cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:18,899 [main] INFO craftBetWorld - 16 104 ID=1074 Provider=NetEnt Name=Fairy Red cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:19,150 [main] INFO craftBetWorld - 17 105 ID=1435 Provider=Wazdan Name=Fenix Play cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:19,364 [main] INFO craftBetWorld - 18 106 ID=1436 Provider=Wazdan Name=Fenix Play 27 cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:19,619 [main] INFO craftBetWorld - 19 107 ID=1075 Provider=NetEnt Name=Finn cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:19,949 [main] INFO craftBetWorld - 20 108 ID=1485 Provider=Wazdan Name=Fire Bird cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:20,206 [main] INFO craftBetWorld - 21 109 ID=1313 Provider=PragmaticPlay Name=Fire Strike cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:20,557 [main] INFO craftBetWorld - 22 110 ID=1007 Provider=PlaynGo Name=FireToad cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:20,811 [main] INFO craftBetWorld - 23 111 ID=1198 Provider=RedTiger Name=Five Star cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:21,062 [main] INFO craftBetWorld - 24 112 ID=1199 Provider=RedTiger Name=Five Star Power Reels cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:21,296 [main] INFO craftBetWorld - 25 113 ID=1200 Provider=RedTiger Name=Flaming Fox cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:21,547 [main] INFO craftBetWorld - 26 114 ID=1333 Provider=PragmaticPlay Name=Floating Dragon Hold and Spin cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:21,786 [main] INFO craftBetWorld - 27 115 ID=1115 Provider=NetEnt Name=Flowers cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:22,016 [main] INFO craftBetWorld - 28 116 ID=1116 Provider=NetEnt Name=Flowers Christmas cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:22,322 [main] INFO craftBetWorld - 29 117 ID=1076 Provider=NetEnt Name=Football cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:22,603 [main] INFO craftBetWorld - 30 118 ID=1201 Provider=RedTiger Name=Forever 7 cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:22,840 [main] INFO craftBetWorld - 31 119 ID=1202 Provider=RedTiger Name=Fortune Charm cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:23,079 [main] INFO craftBetWorld - 32 120 ID=1203 Provider=RedTiger Name=Fortune Fest cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:23,302 [main] INFO craftBetWorld - 33 121 ID=1204 Provider=RedTiger Name=Fortune House cod=28 description=Session Not Found ResponseObject=null
+2023-06-22 21:12:26,008 [main] INFO craftBetWorld - Test Url: https://totox-stage.com partnerID: 2
+2023-06-22 21:12:26,736 [main] INFO craftBetWorld - Log In request was sent to https://totox-stage.com
+2023-06-22 21:12:26,740 [main] INFO craftBetWorld - Token was captured: a0faf1cc13dd4e8faceb4eda845c4936
+2023-06-22 21:12:26,741 [main] INFO craftBetWorld - User Id was captured: 523
+2023-06-22 21:12:27,319 [main] INFO craftBetWorld - Get All games API call 
+2023-06-22 21:12:27,346 [main] INFO craftBetWorld - From getGamesAPIUrl call body captured 
+2023-06-22 21:12:27,361 [main] INFO craftBetWorld - From getGamesAPIUrl call productIDes and Names was captured Games count: 382
+2023-06-22 21:12:55,017 [main] INFO craftBetWorld - 1 30 ID=1486 Provider=Wazdan Name=Black Hawk Deluxe cod=0 description=null ResponseObject=Product blocked for this partner
+2023-06-22 21:13:45,401 [main] INFO craftBetWorld - 2 107 ID=1075 Provider=NetEnt Name=Finn cod=0 description=null ResponseObject=Product blocked for this partner
+2023-06-22 21:14:18,398 [main] INFO craftBetWorld - 3 160 ID=1080 Provider=NetEnt Name=Highlights cod=0 description=null ResponseObject=Product blocked for this partner
+2023-06-22 21:14:20,518 [main] INFO craftBetWorld - 4 163 ID=1081 Provider=NetEnt Name=Hooks Heroes cod=0 description=null ResponseObject=Product blocked for this partner
+2023-06-22 21:15:03,585 [main] INFO craftBetWorld - 5 225 ID=1487 Provider=Wazdan Name=Magic of the Ring Deluxe cod=0 description=null ResponseObject=SESSION_INVALID_PARAMS
+2023-06-22 21:16:44,729 [main] INFO craftBetWorld - From Get URL API broken games are captured
+2023-06-22 21:16:44,729 [main] INFO craftBetWorld - Broken url-es are:  5 of 382
+2023-06-22 21:16:45,418 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-06-22 21:16:45,425 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
 2023-07-19 17:53:48,551 [main] INFO craftBetWorld - Test Url: https://fortunza.com partnerID: 62
 2023-07-19 17:53:53,299 [main] INFO craftBetWorld - Get games Api call was sent
 2023-07-19 17:53:53,573 [main] INFO craftBetWorld - Get games Api Response was captured
