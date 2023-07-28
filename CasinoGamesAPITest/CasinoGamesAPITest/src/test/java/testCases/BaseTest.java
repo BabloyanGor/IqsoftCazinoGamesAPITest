@@ -347,7 +347,17 @@ public class BaseTest {
                 break;
             }
 
-
+            case 22: {
+                partnerID = 62;
+                getGamesAPIUrl = "https://websitewebapi.fortunza.com/62/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.fortunza.com/62/api/Main/GetProductUrl";
+                getGamesOrigin = "https://fortunza.com";
+                getGamesRecurse = "https://resources.fortunza.com/products/";
+                getGamesPartnerName = "fortunza";
+                getGamesBaseURL = "https://fortunza.com";
+                loginClient = "https://websitewebapi.fortunza.com/62/api/Main/LoginClient";
+                break;
+            }
             case 100: {
                 //                getUserID = 2;
                 partnerID = 1;

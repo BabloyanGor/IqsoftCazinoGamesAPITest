@@ -13461,3 +13461,209 @@ Parameter name: s ResponseObject=null
 2023-06-22 17:50:16,563 [main] INFO craftBetWorld - Broken images are:  20
 2023-06-22 17:50:16,627 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2023-06-22 17:50:16,636 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2023-07-19 17:53:48,551 [main] INFO craftBetWorld - Test Url: https://fortunza.com partnerID: 62
+2023-07-19 17:53:53,299 [main] INFO craftBetWorld - Get games Api call was sent
+2023-07-19 17:53:53,573 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-07-19 17:53:53,736 [main] INFO craftBetWorld - Duplicate game Name =  Black Jack
+2023-07-19 17:53:53,737 [main] INFO craftBetWorld - Duplicate game Name =  Black Jack
+2023-07-19 17:53:53,738 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack
+2023-07-19 17:53:53,738 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack
+2023-07-19 17:53:53,740 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack VIP
+2023-07-19 17:53:53,764 [main] INFO craftBetWorld - Duplicate game Name =  Deuces Wild
+2023-07-19 17:53:53,774 [main] INFO craftBetWorld - Duplicate game Name =  European Blackjack
+2023-07-19 17:53:53,775 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-07-19 17:53:53,775 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-07-19 17:53:53,776 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-07-19 17:53:53,776 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-07-19 17:53:53,776 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-07-19 17:53:53,777 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-07-19 17:53:53,778 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-07-19 17:53:53,779 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-07-19 17:53:53,779 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-07-19 17:53:53,779 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-07-19 17:53:53,780 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-07-19 17:53:53,780 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-07-19 17:53:53,780 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette VIP
+2023-07-19 17:53:53,798 [main] INFO craftBetWorld - Duplicate game Name =  Jacks or Better
+2023-07-19 17:53:53,799 [main] INFO craftBetWorld - Duplicate game Name =  Jacks or Better
+2023-07-19 17:53:53,801 [main] INFO craftBetWorld - Duplicate game Name =  Joker Poker
+2023-07-19 17:53:53,801 [main] INFO craftBetWorld - Duplicate game Name =  Joker Poker
+2023-07-19 17:53:53,806 [main] INFO craftBetWorld - Duplicate game Name =  Lion Dance
+2023-07-19 17:53:53,807 [main] INFO craftBetWorld - Duplicate game Name =  Lucky Clover
+2023-07-19 17:53:53,808 [main] INFO craftBetWorld - Duplicate game Name =  Lucky Little Devil
+2023-07-19 17:53:53,821 [main] INFO craftBetWorld - Duplicate game Name =  Red Dog
+2023-07-19 17:53:53,828 [main] INFO craftBetWorld - Duplicate game Name =  Super Keno
+2023-07-19 17:53:53,832 [main] INFO craftBetWorld - Duplicate game Name =  Vampires
+2023-07-19 17:53:53,834 [main] INFO craftBetWorld - Duplicate game Name =  Wild Jack
+2023-07-19 17:53:53,836 [main] INFO craftBetWorld - Duplicate game Name =  Year Of The Tiger
+2023-07-19 17:53:53,837 [main] INFO craftBetWorld - Duplicate game Name =  243 Crystal Fruits
+2023-07-19 17:53:53,838 [main] INFO craftBetWorld - Duplicate game Name =  243 Crystal Fruits R.
+2023-07-19 17:53:53,842 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-07-19 17:53:53,842 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-07-19 17:53:53,843 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-07-19 17:53:53,843 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-07-19 17:53:53,843 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-07-19 17:53:53,843 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-07-19 17:53:53,846 [main] INFO craftBetWorld - Duplicate game Name =  Atlantis World
+2023-07-19 17:53:53,846 [main] INFO craftBetWorld - Duplicate game Name =  Azrabah Wishes
+2023-07-19 17:53:53,847 [main] INFO craftBetWorld - Duplicate game Name =  Baccarat
+2023-07-19 17:53:53,847 [main] INFO craftBetWorld - Duplicate game Name =  Baccarat
+2023-07-19 17:53:53,848 [main] INFO craftBetWorld - Duplicate game Name =  Baccarat
+2023-07-19 17:53:53,848 [main] INFO craftBetWorld - Duplicate game Name =  Baccarat
+2023-07-19 17:53:53,848 [main] INFO craftBetWorld - Duplicate game Name =  Baccarat
+2023-07-19 17:53:53,848 [main] INFO craftBetWorld - Duplicate game Name =  Baccarat
+2023-07-19 17:53:53,853 [main] INFO craftBetWorld - Duplicate game Name =  Black Jack
+2023-07-19 17:53:53,855 [main] INFO craftBetWorld - Duplicate game Name =  Black Mummy
+2023-07-19 17:53:53,855 [main] INFO craftBetWorld - Duplicate game Name =  Blackbeard's Quest
+2023-07-19 17:53:53,856 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack
+2023-07-19 17:53:53,862 [main] INFO craftBetWorld - Duplicate game Name =  Butterfly Lovers
+2023-07-19 17:53:53,862 [main] INFO craftBetWorld - Duplicate game Name =  Cai Yuan Guang Jin
+2023-07-19 17:53:53,863 [main] INFO craftBetWorld - Duplicate game Name =  Caligula
+2023-07-19 17:53:53,864 [main] INFO craftBetWorld - Duplicate game Name =  Captain Candy
+2023-07-19 17:53:53,869 [main] INFO craftBetWorld - Duplicate game Name =  Crystal Mystery
+2023-07-19 17:53:53,872 [main] INFO craftBetWorld - Duplicate game Name =  Diamond Hill
+2023-07-19 17:53:53,874 [main] INFO craftBetWorld - Duplicate game Name =  Don Juan's Peppers
+2023-07-19 17:53:53,875 [main] INFO craftBetWorld - Duplicate game Name =  Dracula
+2023-07-19 17:53:53,875 [main] INFO craftBetWorld - Duplicate game Name =  Dragon Egg
+2023-07-19 17:53:53,876 [main] INFO craftBetWorld - Duplicate game Name =  Dragon Riches
+2023-07-19 17:53:53,879 [main] INFO craftBetWorld - Duplicate game Name =  Emperors Wealth
+2023-07-19 17:53:53,879 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-07-19 17:53:53,879 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-07-19 17:53:53,880 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-07-19 17:53:53,881 [main] INFO craftBetWorld - Duplicate game Name =  Fantasy Park
+2023-07-19 17:53:53,882 [main] INFO craftBetWorld - Duplicate game Name =  Feng Fu
+2023-07-19 17:53:53,883 [main] INFO craftBetWorld - Duplicate game Name =  Flaming Fruit
+2023-07-19 17:53:53,885 [main] INFO craftBetWorld - Duplicate game Name =  Fortune Girl
+2023-07-19 17:53:53,885 [main] INFO craftBetWorld - Duplicate game Name =  Fortune Lions
+2023-07-19 17:53:53,886 [main] INFO craftBetWorld - Duplicate game Name =  French Roulette
+2023-07-19 17:53:53,887 [main] INFO craftBetWorld - Duplicate game Name =  Frozen Queen
+2023-07-19 17:53:53,888 [main] INFO craftBetWorld - Duplicate game Name =  Fruit Party
+2023-07-19 17:53:53,889 [main] INFO craftBetWorld - Duplicate game Name =  Fruits
+2023-07-19 17:53:53,890 [main] INFO craftBetWorld - Duplicate game Name =  Geisha's Fan
+2023-07-19 17:53:53,891 [main] INFO craftBetWorld - Duplicate game Name =  Goblin Run
+2023-07-19 17:53:53,893 [main] INFO craftBetWorld - Duplicate game Name =  Golden Dragon
+2023-07-19 17:53:53,899 [main] INFO craftBetWorld - Duplicate game Name =  Inca's Treasure
+2023-07-19 17:53:53,900 [main] INFO craftBetWorld - Duplicate game Name =  Jacks or Better
+2023-07-19 17:53:53,902 [main] INFO craftBetWorld - Duplicate game Name =  Joker Poker
+2023-07-19 17:53:53,903 [main] INFO craftBetWorld - Duplicate game Name =  Joker Reelz
+2023-07-19 17:53:53,905 [main] INFO craftBetWorld - Duplicate game Name =  Lady In Red
+2023-07-19 17:53:53,907 [main] INFO craftBetWorld - Duplicate game Name =  Lucky Cat
+2023-07-19 17:53:53,908 [main] INFO craftBetWorld - Duplicate game Name =  Lucky Cat
+2023-07-19 17:53:53,908 [main] INFO craftBetWorld - Duplicate game Name =  Lucky Cat
+2023-07-19 17:53:53,909 [main] INFO craftBetWorld - Duplicate game Name =  Lucky Koi
+2023-07-19 17:53:53,911 [main] INFO craftBetWorld - Duplicate game Name =  Money Farm 2
+2023-07-19 17:53:53,911 [main] INFO craftBetWorld - Duplicate game Name =  Monkey 27
+2023-07-19 17:53:53,912 [main] INFO craftBetWorld - Duplicate game Name =  Monster Madness
+2023-07-19 17:53:53,913 [main] INFO craftBetWorld - Duplicate game Name =  Oasis Poker
+2023-07-19 17:53:53,913 [main] INFO craftBetWorld - Duplicate game Name =  Oktoberfest
+2023-07-19 17:53:53,914 [main] INFO craftBetWorld - Duplicate game Name =  Pets
+2023-07-19 17:53:53,914 [main] INFO craftBetWorld - Duplicate game Name =  Pirate King
+2023-07-19 17:53:53,914 [main] INFO craftBetWorld - Duplicate game Name =  Pontoon
+2023-07-19 17:53:53,915 [main] INFO craftBetWorld - Duplicate game Name =  Queen Of Gold 100,000
+2023-07-19 17:53:53,915 [main] INFO craftBetWorld - Duplicate game Name =  Red Cliff
+2023-07-19 17:53:53,916 [main] INFO craftBetWorld - Duplicate game Name =  Red Lights
+2023-07-19 17:53:53,916 [main] INFO craftBetWorld - Duplicate game Name =  Savannah King
+2023-07-19 17:53:53,917 [main] INFO craftBetWorld - Duplicate game Name =  Shaolin's Tiger
+2023-07-19 17:53:53,917 [main] INFO craftBetWorld - Duplicate game Name =  Sizable Win
+2023-07-19 17:53:53,917 [main] INFO craftBetWorld - Duplicate game Name =  Sky Barons
+2023-07-19 17:53:53,918 [main] INFO craftBetWorld - Duplicate game Name =  Spinball
+2023-07-19 17:53:53,918 [main] INFO craftBetWorld - Duplicate game Name =  Sweet Crush
+2023-07-19 17:53:53,919 [main] INFO craftBetWorld - Duplicate game Name =  The Cup
+2023-07-19 17:53:53,919 [main] INFO craftBetWorld - Duplicate game Name =  Thrones Of Persia
+2023-07-19 17:53:53,920 [main] INFO craftBetWorld - Duplicate game Name =  Triple Dragons
+2023-07-19 17:53:53,920 [main] INFO craftBetWorld - Duplicate game Name =  Vegas Nights
+2023-07-19 17:53:53,920 [main] INFO craftBetWorld - Duplicate game Name =  Wild Weather
+2023-07-19 17:53:53,920 [main] INFO craftBetWorld - Duplicate games are:  75
+2023-07-19 17:53:55,607 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-07-19 17:53:55,614 [main] INFO craftBetWorld - Test Url: https://fortunza.com partnerID: 62
+2023-07-19 17:53:58,097 [main] INFO craftBetWorld - Get games Api call was sent
+2023-07-19 17:53:58,140 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-07-19 17:53:58,294 [main] INFO craftBetWorld - All captured providers data  was added into ArrayLists Count: 45
+2023-07-19 17:54:05,484 [main] INFO craftBetWorld - Broken Providers images are:  0
+2023-07-19 17:54:05,700 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-07-19 17:54:05,705 [main] INFO craftBetWorld - Test Url: https://fortunza.com partnerID: 62
+2023-07-19 17:54:08,326 [main] INFO craftBetWorld - Get games Api call was sent
+2023-07-19 17:54:08,472 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-07-19 17:54:08,542 [main] INFO craftBetWorld - All captured games images links was added into ArrayList: 4033
+2023-07-19 18:02:55,314 [main] ERROR craftBetWorld - 1  1429  Game ID = 23672   Game Provider Name = Microgaming :   Game Name =  Booty Time :   cod = 404:   src = https://resources.fortunza.com/products/outcomebet/bootytime_mg_flash.jpg
+2023-07-19 18:02:59,305 [main] ERROR craftBetWorld - 2  1443  Game ID = 23673   Game Provider Name = Microgaming :   Game Name =  Breakaway :   cod = 404:   src = https://resources.fortunza.com/products/outcomebet/breakaway_mg_flash.jpg
+2023-07-19 18:06:21,311 [main] ERROR craftBetWorld - 3  2149  Game ID = 63048   Game Provider Name = Evoplay :   Game Name =  Goblin Run :   cod = 404:   src = https://resources.fortunza.com/products/evoplay/web/goblinrun.png
+2023-07-19 18:07:35,514 [main] ERROR craftBetWorld - 4  2432  Game ID = 54231   Game Provider Name = PragmaticPlay :   Game Name =  Jackpot :   cod = 403:   src = https://resources.fortunza.com/products/
+2023-07-19 18:08:10,902 [main] ERROR craftBetWorld - 5  2569  Game ID = 23656   Game Provider Name = Microgaming :   Game Name =  Lady In Red :   cod = 404:   src = https://resources.fortunza.com/products/microgaming/web/mobebet/ladyinred_mg_flash.jpg
+2023-07-19 18:10:33,967 [main] ERROR craftBetWorld - 6  2981  Game ID = 23680   Game Provider Name = Microgaming :   Game Name =  One Of Egypt :   cod = 404:   src = https://resources.fortunza.com/products/outcomebet/throneofegypt_mg_flash.jpg
+2023-07-19 18:11:45,340 [main] ERROR craftBetWorld - 7  3243  Game ID = 68070   Game Provider Name = KAGaming :   Game Name =  Romance of the Three Kingdoms :   cod = 403:   src = https://resources.fortunza.com/products/
+2023-07-19 18:15:15,091 [main] INFO craftBetWorld - Broken images are:  7
+2023-07-19 18:15:15,156 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-07-19 18:15:15,164 [main] INFO craftBetWorld - Test Url: https://fortunza.com partnerID: 62
+2023-07-19 18:15:15,820 [main] INFO craftBetWorld - Log In request was sent to https://fortunza.com
+2023-07-19 18:15:15,822 [main] INFO craftBetWorld - Token was captured: 079cfeded355490a93072e677b1be1e7
+2023-07-19 18:15:15,822 [main] INFO craftBetWorld - User Id was captured: 1656317
+2023-07-19 18:15:33,013 [main] INFO craftBetWorld - Get All games API call 
+2023-07-19 18:15:33,130 [main] INFO craftBetWorld - From getGamesAPIUrl call body captured 
+2023-07-19 18:15:33,210 [main] INFO craftBetWorld - From getGamesAPIUrl call productIDes and Names was captured Games count: 4033
+2023-07-19 18:35:41,183 [main] INFO craftBetWorld - 1 1102 ID=23633 Provider=Microgaming Name=Adventure Palace cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:35:48,986 [main] INFO craftBetWorld - 2 1114 ID=23652 Provider=Microgaming Name=Agent Jane Blonde cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:35:52,959 [main] INFO craftBetWorld - 3 1121 ID=23634 Provider=Microgaming Name=Alaskan Fishing cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:36:41,863 [main] INFO craftBetWorld - 4 1189 ID=23635 Provider=Microgaming Name=Ariana cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:36:56,912 [main] INFO craftBetWorld - 5 1209 ID=23636 Provider=Microgaming Name=Avalon cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:37:40,163 [main] INFO craftBetWorld - 6 1276 ID=23670 Provider=Microgaming Name=Basketball Star cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:38:12,255 [main] INFO craftBetWorld - 7 1323 ID=23671 Provider=Microgaming Name=Big Kahuna cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:39:29,345 [main] INFO craftBetWorld - 8 1430 ID=23672 Provider=Microgaming Name=Booty Time cod=49 description=Product blocked for this partner ResponseObject=null
+2023-07-19 18:39:35,425 [main] INFO craftBetWorld - 9 1443 ID=23637 Provider=Microgaming Name=Break Da Bank Again cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:39:35,892 [main] INFO craftBetWorld - 10 1444 ID=23673 Provider=Microgaming Name=Breakaway cod=49 description=Product blocked for this partner ResponseObject=null
+2023-07-19 18:39:47,453 [main] INFO craftBetWorld - 11 1464 ID=23638 Provider=Microgaming Name=Burning Desire cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:40:48,226 [main] INFO craftBetWorld - 12 1527 ID=23639 Provider=Microgaming Name=Cashapillar cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:43:11,281 [main] INFO craftBetWorld - 13 1694 ID=23640 Provider=Microgaming Name=Deck The Halls cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:43:48,466 [main] INFO craftBetWorld - 14 1747 ID=23641 Provider=Microgaming Name=Dolphin Quest cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:44:35,551 [main] INFO craftBetWorld - 15 1810 ID=23681 Provider=Microgaming Name=Dragonz cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:44:51,868 [main] INFO craftBetWorld - 16 1832 ID=23642 Provider=Microgaming Name=Eagles Wings cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:45:13,463 [main] INFO craftBetWorld - 17 1864 ID=23691 Provider=Microgaming Name=Emperor Of The Sea cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:45:37,266 [main] INFO craftBetWorld - 18 1895 ID=25370 Provider=GameArt Name=Explosive Reels cod=0 description=null ResponseObject=24
+2023-07-19 18:48:08,285 [main] INFO craftBetWorld - 19 2100 ID=23644 Provider=Microgaming Name=Game Of Thrones 243 Ways cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:48:30,210 [main] INFO craftBetWorld - 20 2134 ID=23662 Provider=Microgaming Name=Girls With Guns cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:48:30,902 [main] INFO craftBetWorld - 21 2135 ID=23682 Provider=Microgaming Name=Girls With Guns: Frozen Dawn cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:48:42,587 [main] INFO craftBetWorld - 22 2158 ID=23675 Provider=Microgaming Name=Gods Of Giza cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:49:32,640 [main] INFO craftBetWorld - 23 2230 ID=23676 Provider=Microgaming Name=Gothic cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:50:02,190 [main] INFO craftBetWorld - 24 2282 ID=23677 Provider=Microgaming Name=Hell`s Grannies cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:50:58,686 [main] INFO craftBetWorld - 25 2381 ID=23645 Provider=Microgaming Name=Huangdi Yellow Emperor cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:51:11,697 [main] INFO craftBetWorld - 26 2399 ID=23646 Provider=Microgaming Name=Immortal Romance cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:51:25,737 [main] INFO craftBetWorld - 27 2422 ID=23647 Provider=Microgaming Name=Isis cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:51:41,109 [main] INFO craftBetWorld - 28 2450 ID=23654 Provider=Microgaming Name=Jekyll & Hyde cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:52:16,683 [main] INFO craftBetWorld - 29 2510 ID=23683 Provider=Microgaming Name=Jungle Jim El Dorado cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:52:21,318 [main] INFO craftBetWorld - 30 2520 ID=23648 Provider=Microgaming Name=Kathmandu cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:52:29,459 [main] INFO craftBetWorld - 31 2534 ID=23655 Provider=Microgaming Name=King Of Cash cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:52:47,920 [main] INFO craftBetWorld - 32 2570 ID=23656 Provider=Microgaming Name=Lady In Red cod=49 description=Product blocked for this partner ResponseObject=null
+2023-07-19 18:52:52,185 [main] INFO craftBetWorld - 33 2578 ID=23678 Provider=Microgaming Name=Land Of Lemuria cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:53:14,280 [main] INFO craftBetWorld - 34 2611 ID=23663 Provider=Microgaming Name=Life Of Riches cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:53:21,148 [main] INFO craftBetWorld - 35 2622 ID=23664 Provider=Microgaming Name=Loaded cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:53:53,465 [main] INFO craftBetWorld - 36 2686 ID=23684 Provider=Microgaming Name=Lucky Koi cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:54:09,043 [main] INFO craftBetWorld - 37 2710 ID=23665 Provider=Microgaming Name=Lucky Twins cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:54:54,843 [main] INFO craftBetWorld - 38 2792 ID=23657 Provider=Microgaming Name=Mayan Princess cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:55:17,069 [main] INFO craftBetWorld - 39 2822 ID=23658 Provider=Microgaming Name=Mermaids Millions cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:56:14,298 [main] INFO craftBetWorld - 40 2898 ID=23693 Provider=Microgaming Name=Mount Olympus cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:56:45,399 [main] INFO craftBetWorld - 41 2958 ID=23685 Provider=Microgaming Name=Ninja Magic cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:56:57,973 [main] INFO craftBetWorld - 42 2980 ID=23666 Provider=Microgaming Name=Old King Cole cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:56:59,809 [main] INFO craftBetWorld - 43 2982 ID=23680 Provider=Microgaming Name=One Of Egypt cod=49 description=Product blocked for this partner ResponseObject=null
+2023-07-19 18:57:03,717 [main] INFO craftBetWorld - 44 2986 ID=23659 Provider=Microgaming Name=Orion cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:57:51,919 [main] INFO craftBetWorld - 45 3075 ID=23686 Provider=Microgaming Name=Pistoleras cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:58:14,748 [main] INFO craftBetWorld - 46 3116 ID=23649 Provider=Microgaming Name=Pretty Kitty cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:58:36,200 [main] INFO craftBetWorld - 47 3158 ID=23690 Provider=Microgaming Name=Rabbit In The Hat cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 18:59:23,224 [main] INFO craftBetWorld - 48 3230 ID=23692 Provider=Microgaming Name=Robo Jack cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 19:00:05,550 [main] INFO craftBetWorld - 49 3303 ID=23687 Provider=Microgaming Name=Savanna King cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 19:00:25,172 [main] INFO craftBetWorld - 50 3316 ID=23650 Provider=Microgaming Name=Scrooge cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 19:00:34,456 [main] INFO craftBetWorld - 51 3335 ID=23667 Provider=Microgaming Name=Serenity cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 19:00:50,241 [main] INFO craftBetWorld - 52 3365 ID=23660 Provider=Microgaming Name=Silver Fang cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 19:01:37,245 [main] INFO craftBetWorld - 53 3452 ID=23688 Provider=Microgaming Name=Stardust cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 19:02:03,112 [main] INFO craftBetWorld - 54 3496 ID=23668 Provider=Microgaming Name=Suntide cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 19:02:45,793 [main] INFO craftBetWorld - 55 3567 ID=23689 Provider=Microgaming Name=Terminator 2 cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 19:04:00,827 [main] INFO craftBetWorld - 56 3702 ID=23651 Provider=Microgaming Name=Thunderstruck cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 19:04:02,647 [main] INFO craftBetWorld - 57 3703 ID=23632 Provider=Microgaming Name=Thunderstruck II cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 19:04:19,286 [main] INFO craftBetWorld - 58 3723 ID=23626 Provider=Microgaming Name=Titans Of The Sun: Heia cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 19:04:19,858 [main] INFO craftBetWorld - 59 3724 ID=23625 Provider=Microgaming Name=Titans Of The Sun: Hyperion cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 19:04:25,266 [main] INFO craftBetWorld - 60 3734 ID=23661 Provider=Microgaming Name=Tomb Raider cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 19:04:54,755 [main] INFO craftBetWorld - 61 3794 ID=23679 Provider=Microgaming Name=Twisted Circus cod=21 description=SESSION_INVALID_PARAMS ResponseObject=null
+2023-07-19 19:07:14,251 [main] INFO craftBetWorld - 62 4005 ID=78984 Provider=CQGaming Name=Xiao Ne Zha cod=0 description=null ResponseObject=24
+2023-07-19 19:07:27,842 [main] INFO craftBetWorld - From Get URL API broken games are captured
+2023-07-19 19:07:27,842 [main] INFO craftBetWorld - Broken url-es are:  62 of 4033
+2023-07-19 19:07:27,908 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-07-19 19:07:27,922 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
