@@ -136,7 +136,7 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
 
 
     @Test
-    public void gamesImgTest() throws JSONException {
+    public void getSlotGamesWebImgTest() throws JSONException {
         try {
             Assert.assertTrue(getGamesAPICheckPictures(getGamesAPIUrl, getGamesOrigin, getGamesRecurse, getGamesPartnerName));
 

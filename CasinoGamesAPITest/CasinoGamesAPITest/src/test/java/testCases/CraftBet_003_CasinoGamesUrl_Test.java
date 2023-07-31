@@ -138,10 +138,14 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
                 HttpResponse<String> responseUrl = Unirest.post(getURLAPIurl)
                         .header("Content-Type", "application/json")
                         .header("origin", origin)
-                        .body("{\"Loader\":true,\"PartnerId\":" + partnerID + ",\"TimeZone\":4,\"LanguageId\":\"en\",\"ProductId\":" + proID +
-                                ",\"Method\":\"GetProductUrl\",\"Controller\":\"Main\",\"CategoryId\":null,\"PageIndex\":0,\"PageSize\":100,\"ProviderIds\":[]," +
-                                "\"Index\":null,\"ActivationKey\":null,\"MobileNumber\":null,\"Code\":null,\"RequestData\":\"{}\",\"IsForDemo\":false," +
-                                "\"IsForMobile\":false,\"Position\":\"\",\"DeviceType\":1,\"ClientId\":" + userID + ",\"Token\":\"" + token + "\"}")
+//                        .body("{\"Loader\":true,\"PartnerId\":" + partnerID + ",\"TimeZone\":4,\"LanguageId\":\"en\",\"ProductId\":" + proID +
+//                                ",\"Method\":\"GetProductUrl\",\"Controller\":\"Main\",\"CategoryId\":null,\"PageIndex\":0,\"PageSize\":100,\"ProviderIds\":[]," +
+//                                "\"Index\":null,\"ActivationKey\":null,\"MobileNumber\":null,\"Code\":null,\"RequestData\":\"{}\",\"IsForDemo\":false," +
+//                                "\"IsForMobile\":false,\"Position\":\"\",\"DeviceType\":1,\"ClientId\":" + userID + ",\"Token\":\"" + token + "\"}")
+                        .body("{ \"IsForMobile\": false,   \"LanguageId\": \"en\",    \"PartnerId\": "+ partnerID +"," +
+                                " \"ProductId\": "+ proID +",  \"Position\": \"casino\"," +
+                                " \"Token\": \"" + token + "\",    \"ClientId\":"+ userID +" ," +
+                                " \"IsForDemo\": false, \"TimeZone\": 4}")
                         .asString();
 //                contentType = responseUrl.getHeaders().getFirst("Content-Type");
 
@@ -189,7 +193,7 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
 
 
     @Test
-    public void getUrlAPITest() throws JSONException {
+    public void getSlotGamesUrlAPITest() throws JSONException {
         try {
             Assert.assertTrue(getUrlCheckGamesUrl(getGamesAPIUrl, getGamesOrigin, getURLAPIUrl, token, userID, partnerID, getGamesPartnerName));
         } catch (Exception e) {
