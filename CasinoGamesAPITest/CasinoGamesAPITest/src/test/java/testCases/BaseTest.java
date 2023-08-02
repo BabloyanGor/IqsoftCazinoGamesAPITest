@@ -373,14 +373,14 @@ public class BaseTest {
 
             case 101: {
                 //                getUserID = 254304;
-                partnerID = 91;
-                getGamesAPIUrl = "https://websitewebapi.prdbtzmrk.com/1/api/Main/GetGames";
-                getURLAPIUrl = "https://websitewebapi.prdbtzmrk.com/1/api/Main/GetProductUrl";
-                getGamesOrigin = "https://prdbtzmrk.com";
-                getGamesRecurse = "https://resources.prdbtzmrk.com/products/";
-                getGamesPartnerName = "Prdbtzmrk";
-                getGamesBaseURL = "https://prdbtzmrk.com";
-                loginClient = "https://websitewebapi.prdbtzmrk.com/1/api/Main/LoginClient";
+                partnerID = 1;
+                getGamesAPIUrl = "https://websitewebapi.betzmark.com//1/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.betzmark.com/1/api/Main/GetProductUrl";
+                getGamesOrigin = "https://betzmark.com";
+                getGamesRecurse = "https://resources.betzmark.com/products/";
+                getGamesPartnerName = "Betzmark";
+                getGamesBaseURL = "https://betzmark.com";
+                loginClient = "https://websitewebapi.betzmark.com/1/api/Main/LoginClient";
                 break;
             }
             default: {
