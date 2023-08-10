@@ -374,13 +374,25 @@ public class BaseTest {
             case 101: {
                 //                getUserID = 254304;
                 partnerID = 1;
-                getGamesAPIUrl = "https://websitewebapi.betzmark.com//1/api/Main/GetGames";
+                getGamesAPIUrl = "https://websitewebapi.betzmark.com/1/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.betzmark.com/1/api/Main/GetProductUrl";
                 getGamesOrigin = "https://betzmark.com";
                 getGamesRecurse = "https://resources.betzmark.com/products/";
                 getGamesPartnerName = "Betzmark";
                 getGamesBaseURL = "https://betzmark.com";
                 loginClient = "https://websitewebapi.betzmark.com/1/api/Main/LoginClient";
+                break;
+            }
+            case 102: {
+                //                getUserID = 254304;
+                partnerID = 1;
+                getGamesAPIUrl = "https://websitewebapi.totox-stage.com/2/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.totox-stage.com/2/api/Main/GetProductUrl";
+                getGamesOrigin = "https://totox-stage.com";
+                getGamesRecurse = "https://resources.totox-stage.com/products/";
+                getGamesPartnerName = "Totox";
+                getGamesBaseURL = "https://totox-stage.com";
+                loginClient = "https://websitewebapi.totox-stage.com/2/api/Main/LoginClient";
                 break;
             }
             default: {
