@@ -358,7 +358,17 @@ public class BaseTest {
                 loginClient = "https://websitewebapi.galaxygoldrush.com/62/api/Main/LoginClient";
                 break;
             }
-
+            case 23: {
+                partnerID = 73;
+                getGamesAPIUrl = "https://websitewebapi.triplex.bet/73/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.triplex.bet/73/api/Main/GetProductUrl";
+                getGamesOrigin = "https://triplex.bet";
+                getGamesRecurse = "https://resources.triplex.bet/products/";
+                getGamesPartnerName = "triplex";
+                getGamesBaseURL = "https://triplex.bet";
+                loginClient = "https://websitewebapi.triplex.bet/73/api/Main/LoginClient";
+                break;
+            }
             case 100: {
                 //                getUserID = 2;
                 partnerID = 1;
