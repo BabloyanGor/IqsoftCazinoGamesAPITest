@@ -358,6 +358,7 @@ public class BaseTest {
                 loginClient = "https://websitewebapi.galaxygoldrush.com/62/api/Main/LoginClient";
                 break;
             }
+
             case 100: {
                 //                getUserID = 2;
                 partnerID = 1;
