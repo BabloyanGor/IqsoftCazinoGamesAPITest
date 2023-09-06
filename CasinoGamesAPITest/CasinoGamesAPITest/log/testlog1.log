@@ -16214,3 +16214,593 @@ Parameter name: s ResponseObject=null
 2023-08-10 10:22:50,248 [main] INFO craftBetWorld - Broken images are:  153
 2023-08-10 10:22:50,346 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2023-08-10 10:22:50,359 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2023-08-14 17:09:31,417 [main] INFO craftBetWorld - Test Url: https://totox-stage.com partnerID: 1
+2023-08-14 17:09:33,755 [main] INFO craftBetWorld - Get games Api call was sent
+2023-08-14 17:09:33,822 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-08-14 17:09:33,867 [main] INFO craftBetWorld - All captured games images links was added into ArrayList: 938
+2023-08-14 17:09:39,330 [main] ERROR craftBetWorld - 1  42  Game ID = 24214   Game Provider Name = Greentube :   Game Name =  Asian Attraction :   cod = 403:   src = https://resources.totox-stage.com/products/
+2023-08-14 17:09:39,602 [main] ERROR craftBetWorld - 2  45  Game ID = 24215   Game Provider Name = Greentube :   Game Name =  Autumn Queen :   cod = 403:   src = https://resources.totox-stage.com/products/
+2023-08-14 17:09:39,787 [main] ERROR craftBetWorld - 3  47  Game ID = 24341   Game Provider Name = Spribe :   Game Name =  Aviator :   cod = 404:   src = https://resources.totox-stage.com/products/spribe/web/24341.png
+2023-08-14 17:09:45,192 [main] ERROR craftBetWorld - 4  102  Game ID = 24203   Game Provider Name = Betsoft :   Game Name =  Book of Darkness	 :   cod = 404:   src = https://resources.totox-stage.com/products/betsoft/web/24203.png
+2023-08-14 17:09:47,252 [main] ERROR craftBetWorld - 5  119  Game ID = 24218   Game Provider Name = Greentube :   Game Name =  Book of Ra Magic :   cod = 403:   src = https://resources.totox-stage.com/products/
+2023-08-14 17:09:48,692 [main] ERROR craftBetWorld - 6  134  Game ID = 24210   Game Provider Name = Greentube :   Game Name =  Burning Hot Respin :   cod = 403:   src = https://resources.totox-stage.com/products/
+2023-08-14 17:09:50,557 [main] ERROR craftBetWorld - 7  153  Game ID = 24212   Game Provider Name = Greentube :   Game Name =  Changing Fate 40 :   cod = 403:   src = https://resources.totox-stage.com/products/
+2023-08-14 17:09:50,666 [main] ERROR craftBetWorld - 8  154  Game ID = 24223   Game Provider Name = Hacksaw :   Game Name =  Chaos Crew :   cod = 404:   src = https://resources.totox-stage.com/products/%20hacksaw/web/24223.jpg
+2023-08-14 17:09:50,849 [main] ERROR craftBetWorld - 9  156  Game ID = 24219   Game Provider Name = Greentube :   Game Name =  Chili Bomba :   cod = 403:   src = https://resources.totox-stage.com/products/
+2023-08-14 17:09:50,932 [main] ERROR craftBetWorld - 10  157  Game ID = 23783   Game Provider Name = PragmaticPlay :   Game Name =  Chilli Heat :   cod = 403:   src = https://resources.totox-stage.com/products/
+2023-08-14 17:09:53,528 [main] ERROR craftBetWorld - 11  185  Game ID = 24224   Game Provider Name = Hacksaw :   Game Name =  Cubes 2 :   cod = 404:   src = https://resources.totox-stage.com/products/hacksaw/web/24224.jpg
+2023-08-14 17:09:54,980 [main] ERROR craftBetWorld - 12  194  Game ID = 24245   Game Provider Name = NoLimitCity :   Game Name =  Deadwood :   cod = 404:   src = https://resources.totox-stage.com/products/nolimitcity/web/24245.png
+2023-08-14 17:09:57,890 [main] ERROR craftBetWorld - 13  217  Game ID = 24104   Game Provider Name = Aristocrat :   Game Name =  Dolphin Treasure	 :   cod = 404:   src = https://resources.totox-stage.com/products/aristocrat/web/24104.png
+2023-08-14 17:09:58,247 [main] ERROR craftBetWorld - 14  221  Game ID = 24112   Game Provider Name = Aristocrat :   Game Name =  Double Happiness :   cod = 404:   src = https://resources.totox-stage.com/products/aristocrat/web/24112.png
+2023-08-14 17:10:02,914 [main] ERROR craftBetWorld - 15  269  Game ID = 24246   Game Provider Name = NoLimitCity :   Game Name =  Fire In The Hole xBomb :   cod = 404:   src = https://resources.totox-stage.com/products/nolimitcity/web/24246.png
+2023-08-14 17:10:03,814 [main] ERROR craftBetWorld - 16  279  Game ID = 24114   Game Provider Name = Aristocrat :   Game Name =  Flame of Olympus	 :   cod = 404:   src = https://resources.totox-stage.com/products/aristocrat/web/24114.png
+2023-08-14 17:10:07,757 [main] ERROR craftBetWorld - 17  309  Game ID = 24287   Game Provider Name = PlaysonDirect :   Game Name =  Fruits & Clovers: 20 lines :   cod = 403:   src = https://resources.totox-stage.com/products/
+2023-08-14 17:10:08,319 [main] ERROR craftBetWorld - 18  315  Game ID = 24292   Game Provider Name = PlaysonDirect :   Game Name =  Fruits 'n' Stars Holiday Edition :   cod = 403:   src = https://resources.totox-stage.com/products/
+2023-08-14 17:10:14,544 [main] ERROR craftBetWorld - 19  379  Game ID = 23991   Game Provider Name = Apollo :   Game Name =  Hell :   cod = 403:   src = https://resources.totox-stage.com/products/
+2023-08-14 17:10:18,994 [main] ERROR craftBetWorld - 20  427  Game ID = 24247   Game Provider Name = NoLimitCity :   Game Name =  Infectious 5 Ways :   cod = 404:   src = https://resources.totox-stage.com/products/nolimitcity/web/24247.png
+2023-08-14 17:10:20,634 [main] ERROR craftBetWorld - 21  445  Game ID = 20106   Game Provider Name = PragmaticPlay :   Game Name =  Jaguar Mist	 :   cod = 403:   src = https://resources.totox-stage.com/products/
+2023-08-14 17:10:20,829 [main] ERROR craftBetWorld - 22  447  Game ID = 23770   Game Provider Name = PushGaming :   Game Name =  Jammin' Jars :   cod = 404:   src = https://resources.totox-stage.com/products/pushgaming/web/23770.png
+2023-08-14 17:10:21,115 [main] ERROR craftBetWorld - 23  450  Game ID = 24217   Game Provider Name = Greentube :   Game Name =  Jester's Luck :   cod = 403:   src = https://resources.totox-stage.com/products/
+2023-08-14 17:10:21,200 [main] ERROR craftBetWorld - 24  451  Game ID = 24343   Game Provider Name = SmartSoft :   Game Name =  JetX :   cod = 404:   src = https://resources.totox-stage.com/products/smartsoft/web/24343.jpg
+2023-08-14 17:10:21,381 [main] ERROR craftBetWorld - 25  453  Game ID = 24208   Game Provider Name = Gaminator :   Game Name =  Jewels 4 All :   cod = 403:   src = https://resources.totox-stage.com/products/
+2023-08-14 17:10:24,070 [main] ERROR craftBetWorld - 26  481  Game ID = 24248   Game Provider Name = NoLimitCity :   Game Name =  Karen Maneater :   cod = 404:   src = https://resources.totox-stage.com/products/nolimitcity/web/24248.png
+2023-08-14 17:10:29,715 [main] ERROR craftBetWorld - 27  542  Game ID = 24209   Game Provider Name = Greentube :   Game Name =  Magic 27 :   cod = 403:   src = https://resources.totox-stage.com/products/
+2023-08-14 17:10:30,582 [main] ERROR craftBetWorld - 28  551  Game ID = 23990   Game Provider Name = Apollo :   Game Name =  Magic Lady	 :   cod = 403:   src = https://resources.totox-stage.com/products/
+2023-08-14 17:10:31,508 [main] ERROR craftBetWorld - 29  561  Game ID = 24204   Game Provider Name = Betsoft :   Game Name =  Magic Shoppe	 :   cod = 404:   src = https://resources.totox-stage.com/products/betsoft/web/24204.png
+2023-08-14 17:10:33,019 [main] ERROR craftBetWorld - 30  578  Game ID = 24249   Game Provider Name = NoLimitCity :   Game Name =  Mental :   cod = 404:   src = https://resources.totox-stage.com/products/nolimitcity/web/24249.png
+2023-08-14 17:10:40,036 [main] ERROR craftBetWorld - 31  653  Game ID = 24344   Game Provider Name = Stake :   Game Name =  Plinko :   cod = 403:   src = https://resources.totox-stage.com/products/
+2023-08-14 17:10:40,509 [main] ERROR craftBetWorld - 32  658  Game ID = 24211   Game Provider Name = Greentube :   Game Name =  PowerStars :   cod = 403:   src = https://resources.totox-stage.com/products/
+2023-08-14 17:10:44,853 [main] ERROR craftBetWorld - 33  705  Game ID = 24225   Game Provider Name = Hacksaw :   Game Name =  Rocket Reels :   cod = 404:   src = https://resources.totox-stage.com/products/betsoft/web/24225.jpg
+2023-08-14 17:10:44,933 [main] ERROR craftBetWorld - 34  706  Game ID = 24213   Game Provider Name = Greentube :   Game Name =  Roman Colloseum :   cod = 403:   src = https://resources.totox-stage.com/products/
+2023-08-14 17:10:49,448 [main] ERROR craftBetWorld - 35  756  Game ID = 24220   Game Provider Name = Greentube :   Game Name =  Sizzling Hot Quattro :   cod = 403:   src = https://resources.totox-stage.com/products/
+2023-08-14 17:10:49,803 [main] ERROR craftBetWorld - 36  760  Game ID = 24345   Game Provider Name = RelaxGaming :   Game Name =  Snake Arena :   cod = 404:   src = https://resources.totox-stage.com/products/relaxgaming/web/24335.png
+2023-08-14 17:10:51,269 [main] ERROR craftBetWorld - 37  776  Game ID = 24222   Game Provider Name = Hacksaw :   Game Name =  Stack 'Em :   cod = 404:   src = https://resources.totox-stage.com/products/%20hacksaw/web/24222.jpg
+2023-08-14 17:10:57,656 [main] ERROR craftBetWorld - 38  847  Game ID = 24250   Game Provider Name = NoLimitCity :   Game Name =  Tombstone R.I.P :   cod = 404:   src = https://resources.totox-stage.com/products/nolimitcity/web/24250.png
+2023-08-14 17:11:00,289 [main] ERROR craftBetWorld - 39  876  Game ID = 24243   Game Provider Name = Kajot :   Game Name =  Vikings :   cod = 404:   src = https://resources.totox-stage.com/products/kajot/web/24243.png
+2023-08-14 17:11:00,656 [main] ERROR craftBetWorld - 40  880  Game ID = 24221   Game Provider Name = Hacksaw :   Game Name =  Wanted Dead or a Wild :   cod = 404:   src = https://resources.totox-stage.com/products/%20hacksaw/web/24221.jpg
+2023-08-14 17:11:04,887 [main] ERROR craftBetWorld - 41  927  Game ID = 24216   Game Provider Name = Greentube :   Game Name =  Wonderworld :   cod = 403:   src = https://resources.totox-stage.com/products/
+2023-08-14 17:11:05,773 [main] INFO craftBetWorld - Broken images are:  41
+2023-08-14 17:11:07,612 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-08-14 17:11:07,626 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2023-09-01 15:36:42,459 [main] INFO craftBetWorld - Test Url: https://oceanbet.io partnerID: 43
+2023-09-01 15:37:31,007 [main] INFO craftBetWorld - Get games Api call was sent
+2023-09-01 15:37:31,383 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-09-01 15:37:31,628 [main] INFO craftBetWorld - Duplicate game Name =  3 Kingdoms Battle Of R.C.
+2023-09-01 15:37:31,638 [main] INFO craftBetWorld - Duplicate game Name =  777
+2023-09-01 15:37:31,638 [main] INFO craftBetWorld - Duplicate game Name =  777
+2023-09-01 15:37:31,639 [main] INFO craftBetWorld - Duplicate game Name =  777
+2023-09-01 15:37:31,648 [main] INFO craftBetWorld - Duplicate game Name =  888
+2023-09-01 15:37:31,674 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-09-01 15:37:31,674 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-09-01 15:37:31,674 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-09-01 15:37:31,675 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-09-01 15:37:31,675 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-09-01 15:37:31,675 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-09-01 15:37:31,679 [main] INFO craftBetWorld - Duplicate game Name =  Apollo
+2023-09-01 15:37:31,679 [main] INFO craftBetWorld - Duplicate game Name =  Apollo
+2023-09-01 15:37:31,680 [main] INFO craftBetWorld - Duplicate game Name =  Apollo
+2023-09-01 15:37:31,681 [main] INFO craftBetWorld - Duplicate game Name =  Apollo Pays
+2023-09-01 15:37:31,686 [main] INFO craftBetWorld - Duplicate game Name =  Atlantic City Blackjack
+2023-09-01 15:37:31,687 [main] INFO craftBetWorld - Duplicate game Name =  Atlantis World
+2023-09-01 15:37:31,688 [main] INFO craftBetWorld - Duplicate game Name =  Azrabah Wishes
+2023-09-01 15:37:31,693 [main] INFO craftBetWorld - Duplicate game Name =  Baccarat
+2023-09-01 15:37:31,693 [main] INFO craftBetWorld - Duplicate game Name =  Baccarat
+2023-09-01 15:37:31,693 [main] INFO craftBetWorld - Duplicate game Name =  Baccarat
+2023-09-01 15:37:31,693 [main] INFO craftBetWorld - Duplicate game Name =  Baccarat
+2023-09-01 15:37:31,693 [main] INFO craftBetWorld - Duplicate game Name =  Baccarat
+2023-09-01 15:37:31,694 [main] INFO craftBetWorld - Duplicate game Name =  Baccarat
+2023-09-01 15:37:31,698 [main] INFO craftBetWorld - Duplicate game Name =  Barn Festival
+2023-09-01 15:37:31,706 [main] INFO craftBetWorld - Duplicate game Name =  Big Bass Bonanza Megaways
+2023-09-01 15:37:31,706 [main] INFO craftBetWorld - Duplicate game Name =  Big Bass Splash
+2023-09-01 15:37:31,707 [main] INFO craftBetWorld - Duplicate game Name =  Big Juan
+2023-09-01 15:37:31,710 [main] INFO craftBetWorld - Duplicate game Name =  Black Bull
+2023-09-01 15:37:31,711 [main] INFO craftBetWorld - Duplicate game Name =  Black Jack
+2023-09-01 15:37:31,711 [main] INFO craftBetWorld - Duplicate game Name =  Black Jack
+2023-09-01 15:37:31,711 [main] INFO craftBetWorld - Duplicate game Name =  Black Jack
+2023-09-01 15:37:31,713 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack
+2023-09-01 15:37:31,713 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack
+2023-09-01 15:37:31,713 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack
+2023-09-01 15:37:31,713 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack
+2023-09-01 15:37:31,714 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack
+2023-09-01 15:37:31,714 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack
+2023-09-01 15:37:31,715 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack VIP
+2023-09-01 15:37:31,718 [main] INFO craftBetWorld - Duplicate game Name =  Bomb Bonanza
+2023-09-01 15:37:31,719 [main] INFO craftBetWorld - Duplicate game Name =  Bonus Deuces Wild
+2023-09-01 15:37:31,723 [main] INFO craftBetWorld - Duplicate game Name =  Book Of Fallen
+2023-09-01 15:37:31,724 [main] INFO craftBetWorld - Duplicate game Name =  Book of Golden Sands
+2023-09-01 15:37:31,731 [main] INFO craftBetWorld - Duplicate game Name =  Bounty Gold
+2023-09-01 15:37:31,740 [main] INFO craftBetWorld - Duplicate game Name =  Caligula
+2023-09-01 15:37:31,741 [main] INFO craftBetWorld - Duplicate game Name =  Candy Dreams
+2023-09-01 15:37:31,742 [main] INFO craftBetWorld - Duplicate game Name =  Candy Stars
+2023-09-01 15:37:31,744 [main] INFO craftBetWorld - Duplicate game Name =  Captain Candy
+2023-09-01 15:37:31,755 [main] INFO craftBetWorld - Duplicate game Name =  Chicken Chase
+2023-09-01 15:37:31,757 [main] INFO craftBetWorld - Duplicate game Name =  Chinese New Year
+2023-09-01 15:37:31,759 [main] INFO craftBetWorld - Duplicate game Name =  Christmas Big Bass Bonanza
+2023-09-01 15:37:31,765 [main] INFO craftBetWorld - Duplicate game Name =  Cosmic Cash
+2023-09-01 15:37:31,768 [main] INFO craftBetWorld - Duplicate game Name =  Cricket Fever
+2023-09-01 15:37:31,769 [main] INFO craftBetWorld - Duplicate game Name =  Crown of Fire
+2023-09-01 15:37:31,770 [main] INFO craftBetWorld - Duplicate game Name =  Crystal Mystery
+2023-09-01 15:37:31,772 [main] INFO craftBetWorld - Duplicate game Name =  Cyberslot Megaclusters
+2023-09-01 15:37:31,774 [main] INFO craftBetWorld - Duplicate game Name =  Day Of Dead
+2023-09-01 15:37:31,777 [main] INFO craftBetWorld - Duplicate game Name =  Deuces Wild
+2023-09-01 15:37:31,777 [main] INFO craftBetWorld - Duplicate game Name =  Deuces Wild
+2023-09-01 15:37:31,778 [main] INFO craftBetWorld - Duplicate game Name =  Deuces Wild
+2023-09-01 15:37:31,779 [main] INFO craftBetWorld - Duplicate game Name =  Diamond Fruits
+2023-09-01 15:37:31,785 [main] INFO craftBetWorld - Duplicate game Name =  Donuts
+2023-09-01 15:37:31,786 [main] INFO craftBetWorld - Duplicate game Name =  Double Double Bonus Poker
+2023-09-01 15:37:31,790 [main] INFO craftBetWorld - Duplicate game Name =  Dragon Tiger
+2023-09-01 15:37:31,799 [main] INFO craftBetWorld - Duplicate game Name =  Emperors Wealth
+2023-09-01 15:37:31,801 [main] INFO craftBetWorld - Duplicate game Name =  European Blackjack
+2023-09-01 15:37:31,802 [main] INFO craftBetWorld - Duplicate game Name =  European Blackjack
+2023-09-01 15:37:31,802 [main] INFO craftBetWorld - Duplicate game Name =  European Blackjack
+2023-09-01 15:37:31,802 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 15:37:31,803 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 15:37:31,803 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 15:37:31,803 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 15:37:31,803 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 15:37:31,803 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 15:37:31,803 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 15:37:31,804 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 15:37:31,804 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 15:37:31,804 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 15:37:31,804 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 15:37:31,805 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 15:37:31,805 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 15:37:31,805 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 15:37:31,805 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 15:37:31,805 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 15:37:31,805 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 15:37:31,806 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 15:37:31,806 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 15:37:31,806 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 15:37:31,806 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 15:37:31,806 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 15:37:31,807 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 15:37:31,807 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 15:37:31,807 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 15:37:31,808 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 15:37:31,808 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 15:37:31,808 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 15:37:31,809 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette VIP
+2023-09-01 15:37:31,811 [main] INFO craftBetWorld - Duplicate game Name =  Fa Cai Shen
+2023-09-01 15:37:31,817 [main] INFO craftBetWorld - Duplicate game Name =  Fire Queen
+2023-09-01 15:37:31,821 [main] INFO craftBetWorld - Duplicate game Name =  Football
+2023-09-01 15:37:31,822 [main] INFO craftBetWorld - Duplicate game Name =  Football Fever
+2023-09-01 15:37:31,825 [main] INFO craftBetWorld - Duplicate game Name =  Fortune Girl
+2023-09-01 15:37:31,831 [main] INFO craftBetWorld - Duplicate game Name =  Fruits
+2023-09-01 15:37:31,836 [main] INFO craftBetWorld - Duplicate game Name =  Gates Of Valhalla
+2023-09-01 15:37:31,843 [main] INFO craftBetWorld - Duplicate game Name =  Gold Megaways
+2023-09-01 15:37:31,844 [main] INFO craftBetWorld - Duplicate game Name =  Gold Rush
+2023-09-01 15:37:31,845 [main] INFO craftBetWorld - Duplicate game Name =  Golden Catch
+2023-09-01 15:37:31,849 [main] INFO craftBetWorld - Duplicate game Name =  Gorilla Mayhem
+2023-09-01 15:37:31,852 [main] INFO craftBetWorld - Duplicate game Name =  Greek Gods
+2023-09-01 15:37:31,855 [main] INFO craftBetWorld - Duplicate game Name =  Haunted House
+2023-09-01 15:37:31,863 [main] INFO craftBetWorld - Duplicate game Name =  Hot Spin
+2023-09-01 15:37:31,868 [main] INFO craftBetWorld - Duplicate game Name =  Irish Luck
+2023-09-01 15:37:31,869 [main] INFO craftBetWorld - Duplicate game Name =  Iron Bank
+2023-09-01 15:37:31,871 [main] INFO craftBetWorld - Duplicate game Name =  Jacks or Better
+2023-09-01 15:37:31,873 [main] INFO craftBetWorld - Duplicate game Name =  John Hunter and the Book of Tut Respin
+2023-09-01 15:37:31,874 [main] INFO craftBetWorld - Duplicate game Name =  John Hunter And The Quest For Bermuda Riches
+2023-09-01 15:37:31,875 [main] INFO craftBetWorld - Duplicate game Name =  Joker Poker
+2023-09-01 15:37:31,875 [main] INFO craftBetWorld - Duplicate game Name =  Joker Poker
+2023-09-01 15:37:31,875 [main] INFO craftBetWorld - Duplicate game Name =  Joker Poker
+2023-09-01 15:37:31,876 [main] INFO craftBetWorld - Duplicate game Name =  Journey To The West
+2023-09-01 15:37:31,880 [main] INFO craftBetWorld - Duplicate game Name =  Keno
+2023-09-01 15:37:31,880 [main] INFO craftBetWorld - Duplicate game Name =  Keno
+2023-09-01 15:37:31,881 [main] INFO craftBetWorld - Duplicate game Name =  Keno
+2023-09-01 15:37:31,882 [main] INFO craftBetWorld - Duplicate game Name =  King Of Cats
+2023-09-01 15:37:31,891 [main] INFO craftBetWorld - Duplicate game Name =  Lucky 3
+2023-09-01 15:37:31,892 [main] INFO craftBetWorld - Duplicate game Name =  Lucky Cat
+2023-09-01 15:37:31,892 [main] INFO craftBetWorld - Duplicate game Name =  Lucky Clover
+2023-09-01 15:37:31,894 [main] INFO craftBetWorld - Duplicate game Name =  Lucky Koi
+2023-09-01 15:37:31,894 [main] INFO craftBetWorld - Duplicate game Name =  Lucky Leprechaun
+2023-09-01 15:37:31,895 [main] INFO craftBetWorld - Duplicate game Name =  Lucky Little Devil
+2023-09-01 15:37:31,895 [main] INFO craftBetWorld - Duplicate game Name =  Lucky Money
+2023-09-01 15:37:31,899 [main] INFO craftBetWorld - Duplicate game Name =  Magic Money Maze
+2023-09-01 15:37:31,901 [main] INFO craftBetWorld - Duplicate game Name =  Magician's Secrets
+2023-09-01 15:37:31,906 [main] INFO craftBetWorld - Duplicate game Name =  Mini Roulette
+2023-09-01 15:37:31,907 [main] INFO craftBetWorld - Duplicate game Name =  Money Farm 2
+2023-09-01 15:37:31,909 [main] INFO craftBetWorld - Duplicate game Name =  Money Mouse
+2023-09-01 15:37:31,909 [main] INFO craftBetWorld - Duplicate game Name =  Money Train 2
+2023-09-01 15:37:31,912 [main] INFO craftBetWorld - Duplicate game Name =  Muertos Multiplier Megaways
+2023-09-01 15:37:31,914 [main] INFO craftBetWorld - Duplicate game Name =  Mystic Chief
+2023-09-01 15:37:31,915 [main] INFO craftBetWorld - Duplicate game Name =  Myth
+2023-09-01 15:37:31,918 [main] INFO craftBetWorld - Duplicate game Name =  Opal Fruits
+2023-09-01 15:37:31,919 [main] INFO craftBetWorld - Duplicate game Name =  Outlaw
+2023-09-01 15:37:31,923 [main] INFO craftBetWorld - Duplicate game Name =  Pirate Golden Age
+2023-09-01 15:37:31,923 [main] INFO craftBetWorld - Duplicate game Name =  Pirate Pays
+2023-09-01 15:37:31,925 [main] INFO craftBetWorld - Duplicate game Name =  Pop
+2023-09-01 15:37:31,928 [main] INFO craftBetWorld - Duplicate game Name =  Queen Of Gold 100,000
+2023-09-01 15:37:31,931 [main] INFO craftBetWorld - Duplicate game Name =  Red Dog
+2023-09-01 15:37:31,935 [main] INFO craftBetWorld - Duplicate game Name =  Rock Vegas
+2023-09-01 15:37:31,940 [main] INFO craftBetWorld - Duplicate game Name =  Smugglers Cove
+2023-09-01 15:37:31,940 [main] INFO craftBetWorld - Duplicate game Name =  Snake Arena
+2023-09-01 15:37:31,941 [main] INFO craftBetWorld - Duplicate game Name =  Sparta
+2023-09-01 15:37:31,942 [main] INFO craftBetWorld - Duplicate game Name =  Spicy Meatballs
+2023-09-01 15:37:31,942 [main] INFO craftBetWorld - Duplicate game Name =  Stampede
+2023-09-01 15:37:31,943 [main] INFO craftBetWorld - Duplicate game Name =  Starz Megaways
+2023-09-01 15:37:31,944 [main] INFO craftBetWorld - Duplicate game Name =  Sugar Rush
+2023-09-01 15:37:31,944 [main] INFO craftBetWorld - Duplicate game Name =  Sugar Rush
+2023-09-01 15:37:31,945 [main] INFO craftBetWorld - Duplicate game Name =  Sugar Rush
+2023-09-01 15:37:31,946 [main] INFO craftBetWorld - Duplicate game Name =  Sword of Ares
+2023-09-01 15:37:31,946 [main] INFO craftBetWorld - Duplicate game Name =  The Dog House
+2023-09-01 15:37:31,947 [main] INFO craftBetWorld - Duplicate game Name =  The Final Countdown
+2023-09-01 15:37:31,948 [main] INFO craftBetWorld - Duplicate game Name =  Tropical Tiki
+2023-09-01 15:37:31,949 [main] INFO craftBetWorld - Duplicate game Name =  Tropicana
+2023-09-01 15:37:31,949 [main] INFO craftBetWorld - Duplicate game Name =  Vampires
+2023-09-01 15:37:31,949 [main] INFO craftBetWorld - Duplicate game Name =  Vampires
+2023-09-01 15:37:31,949 [main] INFO craftBetWorld - Duplicate game Name =  Vampires
+2023-09-01 15:37:31,950 [main] INFO craftBetWorld - Duplicate game Name =  Vegas Nights
+2023-09-01 15:37:31,950 [main] INFO craftBetWorld - Duplicate game Name =  Vegas Strip Blackjack
+2023-09-01 15:37:31,950 [main] INFO craftBetWorld - Duplicate game Name =  Virtual Roulette
+2023-09-01 15:37:31,950 [main] INFO craftBetWorld - Duplicate game Name =  Wild Chapo
+2023-09-01 15:37:31,951 [main] INFO craftBetWorld - Duplicate game Name =  Wild Flower
+2023-09-01 15:37:31,951 [main] INFO craftBetWorld - Duplicate game Name =  Wild Jack
+2023-09-01 15:37:31,951 [main] INFO craftBetWorld - Duplicate game Name =  Wild West Gold Megaways
+2023-09-01 15:37:31,951 [main] INFO craftBetWorld - Duplicate game Name =  Zeus
+2023-09-01 15:37:31,951 [main] INFO craftBetWorld - Duplicate game Name =  Zeus
+2023-09-01 15:37:31,952 [main] INFO craftBetWorld - Duplicate game Name =  Zeus
+2023-09-01 15:37:31,952 [main] INFO craftBetWorld - Duplicate games are:  113
+2023-09-01 15:37:34,069 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-09-01 15:37:34,077 [main] INFO craftBetWorld - Test Url: https://oceanbet.io partnerID: 43
+2023-09-01 15:38:05,643 [main] INFO craftBetWorld - Get games Api call was sent
+2023-09-01 15:38:05,707 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-09-01 15:38:05,831 [main] INFO craftBetWorld - All captured providers data  was added into ArrayLists Count: 50
+2023-09-01 15:38:07,311 [main] INFO craftBetWorld - Broken Providers images are:  0
+2023-09-01 15:38:07,400 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-09-01 15:38:07,406 [main] INFO craftBetWorld - Test Url: https://oceanbet.io partnerID: 43
+2023-09-01 15:38:08,507 [main] INFO craftBetWorld - Log In request was sent to https://oceanbet.io
+2023-09-01 15:38:08,507 [main] INFO craftBetWorld - Token was captured: dd93af4206d1438ebb02914452fb46e5
+2023-09-01 15:38:08,508 [main] INFO craftBetWorld - User Id was captured: 1651063
+2023-09-01 15:38:45,097 [main] INFO craftBetWorld - Get All games API call 
+2023-09-01 15:38:45,263 [main] INFO craftBetWorld - From getGamesAPIUrl call body captured 
+2023-09-01 15:38:45,359 [main] INFO craftBetWorld - From getGamesAPIUrl call productIDes and Names was captured Games count: 6170
+2023-09-01 15:44:11,047 [main] INFO craftBetWorld - 1 549 ID=77705 Provider=CQGaming Name=Ba Xian Chuan Qi cod=0 description=null ResponseObject=24
+2023-09-01 15:44:19,984 [main] INFO craftBetWorld - 2 569 ID=77793 Provider=CQGaming Name=Backyard Gold cod=0 description=null ResponseObject=24
+2023-09-01 15:44:54,051 [main] INFO craftBetWorld - 3 635 ID=77474 Provider=CQGaming Name=Beanstalk cod=0 description=null ResponseObject=24
+2023-09-01 15:45:55,927 [main] INFO craftBetWorld - 4 766 ID=76157 Provider=PariPlay Name=Blackjack cod=0 description=null ResponseObject=24
+2023-09-01 15:51:34,106 [main] INFO craftBetWorld - 5 1463 ID=77489 Provider=CQGaming Name=Da Fu Xing cod=0 description=null ResponseObject=24
+2023-09-01 15:52:17,556 [main] INFO craftBetWorld - 6 1548 ID=77548 Provider=CQGaming Name=Diamond Fruit cod=0 description=null ResponseObject=24
+2023-09-01 15:52:56,137 [main] INFO craftBetWorld - 7 1624 ID=77787 Provider=CQGaming Name=Doggone Lucky cod=0 description=null ResponseObject=24
+2023-09-01 15:53:04,244 [main] INFO craftBetWorld - 8 1640 ID=77785 Provider=CQGaming Name=Dou Di Zhu cod=0 description=null ResponseObject=24
+2023-09-01 15:53:04,637 [main] INFO craftBetWorld - 9 1641 ID=77704 Provider=CQGaming Name=Dou Di Zhu Plus cod=0 description=null ResponseObject=24
+2023-09-01 15:53:10,465 [main] INFO craftBetWorld - 10 1652 ID=77598 Provider=CQGaming Name=Double Happiness cod=0 description=null ResponseObject=24
+2023-09-01 15:53:10,744 [main] INFO craftBetWorld - 11 1653 ID=77790 Provider=CQGaming Name=Double Happy cod=0 description=null ResponseObject=24
+2023-09-01 15:53:27,773 [main] INFO craftBetWorld - 12 1681 ID=77788 Provider=CQGaming Name=Dragon Gate cod=0 description=null ResponseObject=24
+2023-09-01 15:54:58,548 [main] INFO craftBetWorld - 13 1864 ID=77495 Provider=CQGaming Name=Empress Wu cod=0 description=null ResponseObject=24
+2023-09-01 15:55:08,413 [main] INFO craftBetWorld - 14 1886 ID=77779 Provider=CQGaming Name=Eternal Fortune cod=0 description=null ResponseObject=24
+2023-09-01 15:55:25,134 [main] INFO craftBetWorld - 15 1924 ID=25370 Provider=GameArt Name=Explosive Reels cod=0 description=null ResponseObject=24
+2023-09-01 15:56:40,670 [main] INFO craftBetWorld - 16 2072 ID=78771 Provider=CQGaming Name=Fishing King cod=0 description=null ResponseObject=24
+2023-09-01 15:56:41,332 [main] INFO craftBetWorld - 17 2075 ID=77789 Provider=CQGaming Name=Five Ghosts cod=0 description=null ResponseObject=24
+2023-09-01 15:56:41,607 [main] INFO craftBetWorld - 18 2076 ID=77774 Provider=CQGaming Name=Five Lucky Elements cod=0 description=null ResponseObject=24
+2023-09-01 15:57:31,566 [main] INFO craftBetWorld - 19 2155 ID=77791 Provider=CQGaming Name=Fortune Cats cod=0 description=null ResponseObject=24
+2023-09-01 15:57:37,774 [main] INFO craftBetWorld - 20 2164 ID=77503 Provider=CQGaming Name=Fortune Gate cod=0 description=null ResponseObject=24
+2023-09-01 15:58:02,640 [main] INFO craftBetWorld - 21 2221 ID=77542 Provider=CQGaming Name=Frozen World cod=0 description=null ResponseObject=24
+2023-09-01 15:59:43,276 [main] INFO craftBetWorld - 22 2379 ID=77491 Provider=CQGaming Name=GENIE cod=0 description=null ResponseObject=24
+2023-09-01 16:00:16,085 [main] INFO craftBetWorld - 23 2438 ID=76117 Provider=Microgaming Name=Gods Of Giza cod=0 description=null ResponseObject=Wrong incoming params
+2023-09-01 16:02:16,032 [main] INFO craftBetWorld - 24 2661 ID=77482 Provider=CQGaming Name=HAPPY BUDDHA cod=0 description=null ResponseObject=24
+2023-09-01 16:02:17,476 [main] INFO craftBetWorld - 25 2666 ID=77543 Provider=CQGaming Name=Happy Insect cod=0 description=null ResponseObject=24
+2023-09-01 16:03:05,837 [main] INFO craftBetWorld - 26 2763 ID=77583 Provider=CQGaming Name=Hong Kong Flavor cod=0 description=null ResponseObject=24
+2023-09-01 16:03:57,768 [main] INFO craftBetWorld - 27 2879 ID=77786 Provider=CQGaming Name=Hu Got Lucky cod=0 description=null ResponseObject=24
+2023-09-01 16:03:58,085 [main] INFO craftBetWorld - 28 2880 ID=77484 Provider=CQGaming Name=HUGA cod=0 description=null ResponseObject=24
+2023-09-01 16:04:00,298 [main] INFO craftBetWorld - 29 2887 ID=77770 Provider=CQGaming Name=Hungry Cats cod=0 description=null ResponseObject=24
+2023-09-01 16:05:04,109 [main] INFO craftBetWorld - 30 3035 ID=77497 Provider=CQGaming Name=JIN LIAN PAN cod=0 description=null ResponseObject=24
+2023-09-01 16:05:53,030 [main] INFO craftBetWorld - 31 3120 ID=77475 Provider=CQGaming Name=JUNGLE ISLAND cod=0 description=null ResponseObject=24
+2023-09-01 16:06:01,502 [main] INFO craftBetWorld - 32 3129 ID=77784 Provider=CQGaming Name=Jungle Treasure cod=0 description=null ResponseObject=24
+2023-09-01 16:06:18,638 [main] INFO craftBetWorld - 33 3160 ID=77783 Provider=CQGaming Name=Kickin' Kash cod=0 description=null ResponseObject=24
+2023-09-01 16:07:05,456 [main] INFO craftBetWorld - 34 3251 ID=77778 Provider=CQGaming Name=Le Cirque cod=0 description=null ResponseObject=24
+2023-09-01 16:07:29,040 [main] INFO craftBetWorld - 35 3317 ID=77488 Provider=CQGaming Name=Lin Chong cod=0 description=null ResponseObject=24
+2023-09-01 16:07:43,411 [main] INFO craftBetWorld - 36 3342 ID=77501 Provider=CQGaming Name=LongLaiFa cod=0 description=null ResponseObject=24
+2023-09-01 16:07:46,774 [main] INFO craftBetWorld - 37 3343 ID=77508 Provider=CQGaming Name=LongLongLong cod=0 description=null ResponseObject=24
+2023-09-01 16:07:57,221 [main] INFO craftBetWorld - 38 3365 ID=77780 Provider=CQGaming Name=Lotus Lantern cod=0 description=null ResponseObject=24
+2023-09-01 16:07:59,945 [main] INFO craftBetWorld - 39 3374 ID=77776 Provider=CQGaming Name=Love Story cod=0 description=null ResponseObject=24
+2023-09-01 16:08:40,188 [main] INFO craftBetWorld - 40 3443 ID=77766 Provider=CQGaming Name=Lucky Legend cod=0 description=null ResponseObject=24
+2023-09-01 16:09:06,534 [main] INFO craftBetWorld - 41 3498 ID=76120 Provider=Microgaming Name=Machine Gun Unicorn cod=0 description=null ResponseObject=Wrong incoming params
+2023-09-01 16:09:53,050 [main] INFO craftBetWorld - 42 3595 ID=77773 Provider=CQGaming Name=Magpie Bridge cod=0 description=null ResponseObject=24
+2023-09-01 16:09:53,579 [main] INFO craftBetWorld - 43 3597 ID=77626 Provider=CQGaming Name=Mahjong For 2 Players cod=0 description=null ResponseObject=24
+2023-09-01 16:10:19,559 [main] INFO craftBetWorld - 44 3630 ID=77496 Provider=CQGaming Name=Master Panda cod=0 description=null ResponseObject=24
+2023-09-01 16:10:35,058 [main] INFO craftBetWorld - 45 3659 ID=77775 Provider=CQGaming Name=Mazu cod=0 description=null ResponseObject=24
+2023-09-01 16:10:45,125 [main] INFO craftBetWorld - 46 3685 ID=78772 Provider=CQGaming Name=Mega Winner cod=0 description=null ResponseObject=24
+2023-09-01 16:11:06,632 [main] INFO craftBetWorld - 47 3733 ID=78213 Provider=PlayTech Name=Mighty Hat: Lamp of Gold cod=0 description=null ResponseObject=Transactions ID failed value
+2023-09-01 16:11:38,961 [main] INFO craftBetWorld - 48 3793 ID=77687 Provider=CQGaming Name=Monkey King cod=0 description=null ResponseObject=24
+2023-09-01 16:11:56,994 [main] INFO craftBetWorld - 49 3816 ID=78215 Provider=PlayTech Name=Monsters Multipliers cod=0 description=null ResponseObject=Transactions ID failed value
+2023-09-01 16:12:23,329 [main] INFO craftBetWorld - 50 3861 ID=77483 Provider=CQGaming Name=MULAN cod=0 description=null ResponseObject=24
+2023-09-01 16:12:52,174 [main] INFO craftBetWorld - 51 3924 ID=77477 Provider=CQGaming Name=Myth cod=0 description=null ResponseObject=24
+2023-09-01 16:13:09,024 [main] INFO craftBetWorld - 52 3957 ID=77486 Provider=CQGaming Name=Nezha cod=0 description=null ResponseObject=24
+2023-09-01 16:13:23,819 [main] INFO craftBetWorld - 53 3980 ID=77480 Provider=CQGaming Name=Niu Niu Niu cod=0 description=null ResponseObject=24
+2023-09-01 16:14:17,978 [main] INFO craftBetWorld - 54 4077 ID=77476 Provider=CQGaming Name=PARTY ISLAND cod=0 description=null ResponseObject=24
+2023-09-01 16:16:33,698 [main] INFO craftBetWorld - 55 4362 ID=77777 Provider=CQGaming Name=Rabbit Rampage cod=0 description=null ResponseObject=24
+2023-09-01 16:16:38,486 [main] INFO craftBetWorld - 56 4376 ID=76116 Provider=Microgaming Name=Ragnarok cod=0 description=null ResponseObject=Wrong incoming params
+2023-09-01 17:10:39,839 [main] INFO craftBetWorld - Test Url: https://oceanbet.io partnerID: 43
+2023-09-01 17:11:21,986 [main] INFO craftBetWorld - Get games Api call was sent
+2023-09-01 17:11:22,287 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-09-01 17:11:22,601 [main] INFO craftBetWorld - Duplicate game Name =  3 Kingdoms Battle Of R.C.
+2023-09-01 17:11:22,640 [main] INFO craftBetWorld - Duplicate game Name =  777
+2023-09-01 17:11:22,640 [main] INFO craftBetWorld - Duplicate game Name =  777
+2023-09-01 17:11:22,640 [main] INFO craftBetWorld - Duplicate game Name =  777
+2023-09-01 17:11:22,643 [main] INFO craftBetWorld - Duplicate game Name =  888
+2023-09-01 17:11:22,661 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-09-01 17:11:22,662 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-09-01 17:11:22,662 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-09-01 17:11:22,662 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-09-01 17:11:22,662 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-09-01 17:11:22,663 [main] INFO craftBetWorld - Duplicate game Name =  American Roulette
+2023-09-01 17:11:22,667 [main] INFO craftBetWorld - Duplicate game Name =  Apollo
+2023-09-01 17:11:22,667 [main] INFO craftBetWorld - Duplicate game Name =  Apollo
+2023-09-01 17:11:22,669 [main] INFO craftBetWorld - Duplicate game Name =  Apollo
+2023-09-01 17:11:22,669 [main] INFO craftBetWorld - Duplicate game Name =  Apollo Pays
+2023-09-01 17:11:22,676 [main] INFO craftBetWorld - Duplicate game Name =  Atlantic City Blackjack
+2023-09-01 17:11:22,676 [main] INFO craftBetWorld - Duplicate game Name =  Atlantis World
+2023-09-01 17:11:22,678 [main] INFO craftBetWorld - Duplicate game Name =  Azrabah Wishes
+2023-09-01 17:11:22,683 [main] INFO craftBetWorld - Duplicate game Name =  Baccarat
+2023-09-01 17:11:22,683 [main] INFO craftBetWorld - Duplicate game Name =  Baccarat
+2023-09-01 17:11:22,683 [main] INFO craftBetWorld - Duplicate game Name =  Baccarat
+2023-09-01 17:11:22,684 [main] INFO craftBetWorld - Duplicate game Name =  Baccarat
+2023-09-01 17:11:22,684 [main] INFO craftBetWorld - Duplicate game Name =  Baccarat
+2023-09-01 17:11:22,684 [main] INFO craftBetWorld - Duplicate game Name =  Baccarat
+2023-09-01 17:11:22,689 [main] INFO craftBetWorld - Duplicate game Name =  Barn Festival
+2023-09-01 17:11:22,699 [main] INFO craftBetWorld - Duplicate game Name =  Big Bass Bonanza Megaways
+2023-09-01 17:11:22,699 [main] INFO craftBetWorld - Duplicate game Name =  Big Bass Splash
+2023-09-01 17:11:22,701 [main] INFO craftBetWorld - Duplicate game Name =  Big Juan
+2023-09-01 17:11:22,703 [main] INFO craftBetWorld - Duplicate game Name =  Black Bull
+2023-09-01 17:11:22,704 [main] INFO craftBetWorld - Duplicate game Name =  Black Jack
+2023-09-01 17:11:22,705 [main] INFO craftBetWorld - Duplicate game Name =  Black Jack
+2023-09-01 17:11:22,705 [main] INFO craftBetWorld - Duplicate game Name =  Black Jack
+2023-09-01 17:11:22,706 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack
+2023-09-01 17:11:22,706 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack
+2023-09-01 17:11:22,706 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack
+2023-09-01 17:11:22,706 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack
+2023-09-01 17:11:22,707 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack
+2023-09-01 17:11:22,707 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack
+2023-09-01 17:11:22,708 [main] INFO craftBetWorld - Duplicate game Name =  Blackjack VIP
+2023-09-01 17:11:22,712 [main] INFO craftBetWorld - Duplicate game Name =  Bomb Bonanza
+2023-09-01 17:11:22,713 [main] INFO craftBetWorld - Duplicate game Name =  Bonus Deuces Wild
+2023-09-01 17:11:22,717 [main] INFO craftBetWorld - Duplicate game Name =  Book Of Fallen
+2023-09-01 17:11:22,719 [main] INFO craftBetWorld - Duplicate game Name =  Book of Golden Sands
+2023-09-01 17:11:22,728 [main] INFO craftBetWorld - Duplicate game Name =  Bounty Gold
+2023-09-01 17:11:22,739 [main] INFO craftBetWorld - Duplicate game Name =  Caligula
+2023-09-01 17:11:22,740 [main] INFO craftBetWorld - Duplicate game Name =  Candy Dreams
+2023-09-01 17:11:22,741 [main] INFO craftBetWorld - Duplicate game Name =  Candy Stars
+2023-09-01 17:11:22,742 [main] INFO craftBetWorld - Duplicate game Name =  Captain Candy
+2023-09-01 17:11:22,754 [main] INFO craftBetWorld - Duplicate game Name =  Chicken Chase
+2023-09-01 17:11:22,755 [main] INFO craftBetWorld - Duplicate game Name =  Chinese New Year
+2023-09-01 17:11:22,756 [main] INFO craftBetWorld - Duplicate game Name =  Christmas Big Bass Bonanza
+2023-09-01 17:11:22,764 [main] INFO craftBetWorld - Duplicate game Name =  Cosmic Cash
+2023-09-01 17:11:22,768 [main] INFO craftBetWorld - Duplicate game Name =  Cricket Fever
+2023-09-01 17:11:22,769 [main] INFO craftBetWorld - Duplicate game Name =  Crown of Fire
+2023-09-01 17:11:22,770 [main] INFO craftBetWorld - Duplicate game Name =  Crystal Mystery
+2023-09-01 17:11:22,773 [main] INFO craftBetWorld - Duplicate game Name =  Cyberslot Megaclusters
+2023-09-01 17:11:22,776 [main] INFO craftBetWorld - Duplicate game Name =  Day Of Dead
+2023-09-01 17:11:22,779 [main] INFO craftBetWorld - Duplicate game Name =  Deuces Wild
+2023-09-01 17:11:22,780 [main] INFO craftBetWorld - Duplicate game Name =  Deuces Wild
+2023-09-01 17:11:22,780 [main] INFO craftBetWorld - Duplicate game Name =  Deuces Wild
+2023-09-01 17:11:22,782 [main] INFO craftBetWorld - Duplicate game Name =  Diamond Fruits
+2023-09-01 17:11:22,789 [main] INFO craftBetWorld - Duplicate game Name =  Donuts
+2023-09-01 17:11:22,790 [main] INFO craftBetWorld - Duplicate game Name =  Double Double Bonus Poker
+2023-09-01 17:11:22,796 [main] INFO craftBetWorld - Duplicate game Name =  Dragon Tiger
+2023-09-01 17:11:22,807 [main] INFO craftBetWorld - Duplicate game Name =  Emperors Wealth
+2023-09-01 17:11:22,810 [main] INFO craftBetWorld - Duplicate game Name =  European Blackjack
+2023-09-01 17:11:22,810 [main] INFO craftBetWorld - Duplicate game Name =  European Blackjack
+2023-09-01 17:11:22,811 [main] INFO craftBetWorld - Duplicate game Name =  European Blackjack
+2023-09-01 17:11:22,811 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 17:11:22,811 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 17:11:22,811 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 17:11:22,811 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 17:11:22,812 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 17:11:22,812 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 17:11:22,812 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 17:11:22,812 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 17:11:22,812 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 17:11:22,812 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 17:11:22,812 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 17:11:22,812 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 17:11:22,813 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 17:11:22,813 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 17:11:22,813 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 17:11:22,813 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 17:11:22,813 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 17:11:22,813 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 17:11:22,814 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 17:11:22,814 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 17:11:22,814 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 17:11:22,814 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 17:11:22,814 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 17:11:22,814 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 17:11:22,815 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 17:11:22,815 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 17:11:22,815 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 17:11:22,815 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette
+2023-09-01 17:11:22,816 [main] INFO craftBetWorld - Duplicate game Name =  European Roulette VIP
+2023-09-01 17:11:22,819 [main] INFO craftBetWorld - Duplicate game Name =  Fa Cai Shen
+2023-09-01 17:11:22,826 [main] INFO craftBetWorld - Duplicate game Name =  Fire Queen
+2023-09-01 17:11:22,832 [main] INFO craftBetWorld - Duplicate game Name =  Football
+2023-09-01 17:11:22,833 [main] INFO craftBetWorld - Duplicate game Name =  Football Fever
+2023-09-01 17:11:22,836 [main] INFO craftBetWorld - Duplicate game Name =  Fortune Girl
+2023-09-01 17:11:22,845 [main] INFO craftBetWorld - Duplicate game Name =  Fruits
+2023-09-01 17:11:22,850 [main] INFO craftBetWorld - Duplicate game Name =  Gates Of Valhalla
+2023-09-01 17:11:22,859 [main] INFO craftBetWorld - Duplicate game Name =  Gold Megaways
+2023-09-01 17:11:22,860 [main] INFO craftBetWorld - Duplicate game Name =  Gold Rush
+2023-09-01 17:11:22,862 [main] INFO craftBetWorld - Duplicate game Name =  Golden Catch
+2023-09-01 17:11:22,867 [main] INFO craftBetWorld - Duplicate game Name =  Gorilla Mayhem
+2023-09-01 17:11:22,869 [main] INFO craftBetWorld - Duplicate game Name =  Greek Gods
+2023-09-01 17:11:22,876 [main] INFO craftBetWorld - Duplicate game Name =  Haunted House
+2023-09-01 17:11:22,892 [main] INFO craftBetWorld - Duplicate game Name =  Hot Spin
+2023-09-01 17:11:22,899 [main] INFO craftBetWorld - Duplicate game Name =  Irish Luck
+2023-09-01 17:11:22,899 [main] INFO craftBetWorld - Duplicate game Name =  Iron Bank
+2023-09-01 17:11:22,902 [main] INFO craftBetWorld - Duplicate game Name =  Jacks or Better
+2023-09-01 17:11:22,908 [main] INFO craftBetWorld - Duplicate game Name =  John Hunter and the Book of Tut Respin
+2023-09-01 17:11:22,909 [main] INFO craftBetWorld - Duplicate game Name =  John Hunter And The Quest For Bermuda Riches
+2023-09-01 17:11:22,910 [main] INFO craftBetWorld - Duplicate game Name =  Joker Poker
+2023-09-01 17:11:22,910 [main] INFO craftBetWorld - Duplicate game Name =  Joker Poker
+2023-09-01 17:11:22,911 [main] INFO craftBetWorld - Duplicate game Name =  Joker Poker
+2023-09-01 17:11:22,912 [main] INFO craftBetWorld - Duplicate game Name =  Journey To The West
+2023-09-01 17:11:22,916 [main] INFO craftBetWorld - Duplicate game Name =  Keno
+2023-09-01 17:11:22,916 [main] INFO craftBetWorld - Duplicate game Name =  Keno
+2023-09-01 17:11:22,916 [main] INFO craftBetWorld - Duplicate game Name =  Keno
+2023-09-01 17:11:22,918 [main] INFO craftBetWorld - Duplicate game Name =  King Of Cats
+2023-09-01 17:11:22,931 [main] INFO craftBetWorld - Duplicate game Name =  Lucky 3
+2023-09-01 17:11:22,932 [main] INFO craftBetWorld - Duplicate game Name =  Lucky Cat
+2023-09-01 17:11:22,932 [main] INFO craftBetWorld - Duplicate game Name =  Lucky Clover
+2023-09-01 17:11:22,934 [main] INFO craftBetWorld - Duplicate game Name =  Lucky Koi
+2023-09-01 17:11:22,935 [main] INFO craftBetWorld - Duplicate game Name =  Lucky Leprechaun
+2023-09-01 17:11:22,935 [main] INFO craftBetWorld - Duplicate game Name =  Lucky Little Devil
+2023-09-01 17:11:22,936 [main] INFO craftBetWorld - Duplicate game Name =  Lucky Money
+2023-09-01 17:11:22,940 [main] INFO craftBetWorld - Duplicate game Name =  Magic Money Maze
+2023-09-01 17:11:22,942 [main] INFO craftBetWorld - Duplicate game Name =  Magician's Secrets
+2023-09-01 17:11:22,950 [main] INFO craftBetWorld - Duplicate game Name =  Mini Roulette
+2023-09-01 17:11:22,951 [main] INFO craftBetWorld - Duplicate game Name =  Money Farm 2
+2023-09-01 17:11:22,951 [main] INFO craftBetWorld - Duplicate game Name =  Money Mouse
+2023-09-01 17:11:22,951 [main] INFO craftBetWorld - Duplicate game Name =  Money Train 2
+2023-09-01 17:11:22,954 [main] INFO craftBetWorld - Duplicate game Name =  Muertos Multiplier Megaways
+2023-09-01 17:11:22,957 [main] INFO craftBetWorld - Duplicate game Name =  Mystic Chief
+2023-09-01 17:11:22,957 [main] INFO craftBetWorld - Duplicate game Name =  Myth
+2023-09-01 17:11:22,961 [main] INFO craftBetWorld - Duplicate game Name =  Opal Fruits
+2023-09-01 17:11:22,962 [main] INFO craftBetWorld - Duplicate game Name =  Outlaw
+2023-09-01 17:11:22,967 [main] INFO craftBetWorld - Duplicate game Name =  Pirate Golden Age
+2023-09-01 17:11:22,968 [main] INFO craftBetWorld - Duplicate game Name =  Pirate Pays
+2023-09-01 17:11:22,969 [main] INFO craftBetWorld - Duplicate game Name =  Pop
+2023-09-01 17:11:22,973 [main] INFO craftBetWorld - Duplicate game Name =  Queen Of Gold 100,000
+2023-09-01 17:11:22,975 [main] INFO craftBetWorld - Duplicate game Name =  Red Dog
+2023-09-01 17:11:22,979 [main] INFO craftBetWorld - Duplicate game Name =  Rock Vegas
+2023-09-01 17:11:22,986 [main] INFO craftBetWorld - Duplicate game Name =  Smugglers Cove
+2023-09-01 17:11:22,986 [main] INFO craftBetWorld - Duplicate game Name =  Snake Arena
+2023-09-01 17:11:22,987 [main] INFO craftBetWorld - Duplicate game Name =  Sparta
+2023-09-01 17:11:22,987 [main] INFO craftBetWorld - Duplicate game Name =  Spicy Meatballs
+2023-09-01 17:11:22,987 [main] INFO craftBetWorld - Duplicate game Name =  Stampede
+2023-09-01 17:11:22,988 [main] INFO craftBetWorld - Duplicate game Name =  Starz Megaways
+2023-09-01 17:11:22,989 [main] INFO craftBetWorld - Duplicate game Name =  Sugar Rush
+2023-09-01 17:11:22,989 [main] INFO craftBetWorld - Duplicate game Name =  Sugar Rush
+2023-09-01 17:11:22,989 [main] INFO craftBetWorld - Duplicate game Name =  Sugar Rush
+2023-09-01 17:11:22,991 [main] INFO craftBetWorld - Duplicate game Name =  Sword of Ares
+2023-09-01 17:11:22,992 [main] INFO craftBetWorld - Duplicate game Name =  The Dog House
+2023-09-01 17:11:22,992 [main] INFO craftBetWorld - Duplicate game Name =  The Final Countdown
+2023-09-01 17:11:22,994 [main] INFO craftBetWorld - Duplicate game Name =  Tropical Tiki
+2023-09-01 17:11:22,994 [main] INFO craftBetWorld - Duplicate game Name =  Tropicana
+2023-09-01 17:11:22,994 [main] INFO craftBetWorld - Duplicate game Name =  Vampires
+2023-09-01 17:11:22,994 [main] INFO craftBetWorld - Duplicate game Name =  Vampires
+2023-09-01 17:11:22,994 [main] INFO craftBetWorld - Duplicate game Name =  Vampires
+2023-09-01 17:11:22,995 [main] INFO craftBetWorld - Duplicate game Name =  Vegas Nights
+2023-09-01 17:11:22,995 [main] INFO craftBetWorld - Duplicate game Name =  Vegas Strip Blackjack
+2023-09-01 17:11:22,995 [main] INFO craftBetWorld - Duplicate game Name =  Virtual Roulette
+2023-09-01 17:11:22,995 [main] INFO craftBetWorld - Duplicate game Name =  Wild Chapo
+2023-09-01 17:11:22,996 [main] INFO craftBetWorld - Duplicate game Name =  Wild Flower
+2023-09-01 17:11:22,996 [main] INFO craftBetWorld - Duplicate game Name =  Wild Jack
+2023-09-01 17:11:22,996 [main] INFO craftBetWorld - Duplicate game Name =  Wild West Gold Megaways
+2023-09-01 17:11:22,997 [main] INFO craftBetWorld - Duplicate game Name =  Zeus
+2023-09-01 17:11:22,997 [main] INFO craftBetWorld - Duplicate game Name =  Zeus
+2023-09-01 17:11:22,997 [main] INFO craftBetWorld - Duplicate game Name =  Zeus
+2023-09-01 17:11:22,997 [main] INFO craftBetWorld - Duplicate games are:  113
+2023-09-01 17:11:24,993 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-09-01 17:11:25,000 [main] INFO craftBetWorld - Test Url: https://oceanbet.io partnerID: 43
+2023-09-01 17:11:54,832 [main] INFO craftBetWorld - Get games Api call was sent
+2023-09-01 17:11:54,900 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-09-01 17:11:55,029 [main] INFO craftBetWorld - All captured providers data  was added into ArrayLists Count: 50
+2023-09-01 17:11:56,511 [main] INFO craftBetWorld - Broken Providers images are:  0
+2023-09-01 17:11:56,785 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-09-01 17:11:56,790 [main] INFO craftBetWorld - Test Url: https://oceanbet.io partnerID: 43
+2023-09-01 17:11:57,144 [main] INFO craftBetWorld - Log In request was sent to https://oceanbet.io
+2023-09-01 17:11:57,145 [main] INFO craftBetWorld - Token was captured: 2ea36fed58324e669cf0f4ff34f1510c
+2023-09-01 17:11:57,145 [main] INFO craftBetWorld - User Id was captured: 1651063
+2023-09-01 17:12:28,822 [main] INFO craftBetWorld - Get All games API call 
+2023-09-01 17:12:28,995 [main] INFO craftBetWorld - From getGamesAPIUrl call body captured 
+2023-09-01 17:12:29,106 [main] INFO craftBetWorld - From getGamesAPIUrl call productIDes and Names was captured Games count: 6170
+2023-09-01 17:17:05,578 [main] INFO craftBetWorld - 1 549 ID=77705 Provider=CQGaming Name=Ba Xian Chuan Qi cod=0 description=null ResponseObject=24
+2023-09-01 17:17:13,905 [main] INFO craftBetWorld - 2 569 ID=77793 Provider=CQGaming Name=Backyard Gold cod=0 description=null ResponseObject=24
+2023-09-01 17:17:45,404 [main] INFO craftBetWorld - 3 635 ID=77474 Provider=CQGaming Name=Beanstalk cod=0 description=null ResponseObject=24
+2023-09-01 17:18:41,765 [main] INFO craftBetWorld - 4 766 ID=76157 Provider=PariPlay Name=Blackjack cod=0 description=null ResponseObject=24
+2023-09-01 17:23:55,568 [main] INFO craftBetWorld - 5 1463 ID=77489 Provider=CQGaming Name=Da Fu Xing cod=0 description=null ResponseObject=24
+2023-09-01 17:24:35,080 [main] INFO craftBetWorld - 6 1548 ID=77548 Provider=CQGaming Name=Diamond Fruit cod=0 description=null ResponseObject=24
+2023-09-01 17:25:10,347 [main] INFO craftBetWorld - 7 1624 ID=77787 Provider=CQGaming Name=Doggone Lucky cod=0 description=null ResponseObject=24
+2023-09-01 17:25:18,960 [main] INFO craftBetWorld - 8 1640 ID=77785 Provider=CQGaming Name=Dou Di Zhu cod=0 description=null ResponseObject=24
+2023-09-01 17:25:19,347 [main] INFO craftBetWorld - 9 1641 ID=77704 Provider=CQGaming Name=Dou Di Zhu Plus cod=0 description=null ResponseObject=24
+2023-09-01 17:25:25,227 [main] INFO craftBetWorld - 10 1652 ID=77598 Provider=CQGaming Name=Double Happiness cod=0 description=null ResponseObject=24
+2023-09-01 17:25:25,517 [main] INFO craftBetWorld - 11 1653 ID=77790 Provider=CQGaming Name=Double Happy cod=0 description=null ResponseObject=24
+2023-09-01 17:25:41,354 [main] INFO craftBetWorld - 12 1681 ID=77788 Provider=CQGaming Name=Dragon Gate cod=0 description=null ResponseObject=24
+2023-09-01 17:27:06,860 [main] INFO craftBetWorld - 13 1864 ID=77495 Provider=CQGaming Name=Empress Wu cod=0 description=null ResponseObject=24
+2023-09-01 17:27:16,792 [main] INFO craftBetWorld - 14 1886 ID=77779 Provider=CQGaming Name=Eternal Fortune cod=0 description=null ResponseObject=24
+2023-09-01 17:27:32,727 [main] INFO craftBetWorld - 15 1924 ID=25370 Provider=GameArt Name=Explosive Reels cod=0 description=null ResponseObject=24
+2023-09-01 17:29:18,196 [main] INFO craftBetWorld - 16 2072 ID=78771 Provider=CQGaming Name=Fishing King cod=0 description=null ResponseObject=24
+2023-09-01 17:29:18,835 [main] INFO craftBetWorld - 17 2075 ID=77789 Provider=CQGaming Name=Five Ghosts cod=0 description=null ResponseObject=24
+2023-09-01 17:29:19,135 [main] INFO craftBetWorld - 18 2076 ID=77774 Provider=CQGaming Name=Five Lucky Elements cod=0 description=null ResponseObject=24
+2023-09-01 17:30:12,773 [main] INFO craftBetWorld - 19 2155 ID=77791 Provider=CQGaming Name=Fortune Cats cod=0 description=null ResponseObject=24
+2023-09-01 17:30:19,029 [main] INFO craftBetWorld - 20 2164 ID=77503 Provider=CQGaming Name=Fortune Gate cod=0 description=null ResponseObject=24
+2023-09-01 17:30:46,994 [main] INFO craftBetWorld - 21 2221 ID=77542 Provider=CQGaming Name=Frozen World cod=0 description=null ResponseObject=24
+2023-09-01 17:32:07,867 [main] INFO craftBetWorld - 22 2379 ID=77491 Provider=CQGaming Name=GENIE cod=0 description=null ResponseObject=24
+2023-09-01 17:32:37,330 [main] INFO craftBetWorld - 23 2438 ID=76117 Provider=Microgaming Name=Gods Of Giza cod=0 description=null ResponseObject=Wrong incoming params
+2023-09-01 17:34:31,826 [main] INFO craftBetWorld - 24 2661 ID=77482 Provider=CQGaming Name=HAPPY BUDDHA cod=0 description=null ResponseObject=24
+2023-09-01 17:34:33,224 [main] INFO craftBetWorld - 25 2666 ID=77543 Provider=CQGaming Name=Happy Insect cod=0 description=null ResponseObject=24
+2023-09-01 17:35:09,717 [main] INFO craftBetWorld - 26 2730 ID=26773 Provider=Wazdan Name=Highschool Manga cod=0 description=null ResponseObject=Transactions ID failed value
+2023-09-01 17:35:20,964 [main] INFO craftBetWorld - 27 2763 ID=77583 Provider=CQGaming Name=Hong Kong Flavor cod=0 description=null ResponseObject=24
+2023-09-01 17:36:10,014 [main] INFO craftBetWorld - 28 2879 ID=77786 Provider=CQGaming Name=Hu Got Lucky cod=0 description=null ResponseObject=24
+2023-09-01 17:36:10,401 [main] INFO craftBetWorld - 29 2880 ID=77484 Provider=CQGaming Name=HUGA cod=0 description=null ResponseObject=24
+2023-09-01 17:36:12,552 [main] INFO craftBetWorld - 30 2887 ID=77770 Provider=CQGaming Name=Hungry Cats cod=0 description=null ResponseObject=24
+2023-09-01 17:37:15,923 [main] INFO craftBetWorld - 31 3035 ID=77497 Provider=CQGaming Name=JIN LIAN PAN cod=0 description=null ResponseObject=24
+2023-09-01 17:38:07,350 [main] INFO craftBetWorld - 32 3120 ID=77475 Provider=CQGaming Name=JUNGLE ISLAND cod=0 description=null ResponseObject=24
+2023-09-01 17:38:12,708 [main] INFO craftBetWorld - 33 3129 ID=77784 Provider=CQGaming Name=Jungle Treasure cod=0 description=null ResponseObject=24
+2023-09-01 17:38:27,815 [main] INFO craftBetWorld - 34 3160 ID=77783 Provider=CQGaming Name=Kickin' Kash cod=0 description=null ResponseObject=24
+2023-09-01 17:39:10,721 [main] INFO craftBetWorld - 35 3251 ID=77778 Provider=CQGaming Name=Le Cirque cod=0 description=null ResponseObject=24
+2023-09-01 17:39:36,108 [main] INFO craftBetWorld - 36 3317 ID=77488 Provider=CQGaming Name=Lin Chong cod=0 description=null ResponseObject=24
+2023-09-01 17:39:51,565 [main] INFO craftBetWorld - 37 3342 ID=77501 Provider=CQGaming Name=LongLaiFa cod=0 description=null ResponseObject=24
+2023-09-01 17:39:55,852 [main] INFO craftBetWorld - 38 3343 ID=77508 Provider=CQGaming Name=LongLongLong cod=0 description=null ResponseObject=24
+2023-09-01 17:40:07,271 [main] INFO craftBetWorld - 39 3365 ID=77780 Provider=CQGaming Name=Lotus Lantern cod=0 description=null ResponseObject=24
+2023-09-01 17:40:10,633 [main] INFO craftBetWorld - 40 3374 ID=77776 Provider=CQGaming Name=Love Story cod=0 description=null ResponseObject=24
+2023-09-01 17:40:51,649 [main] INFO craftBetWorld - 41 3431 ID=75250 Provider=Spinomenal Name=Lucky Jack – Tut’s Treasures cod=0 description=null ResponseObject=24
+2023-09-01 17:40:56,435 [main] INFO craftBetWorld - 42 3443 ID=77766 Provider=CQGaming Name=Lucky Legend cod=0 description=null ResponseObject=24
+2023-09-01 17:41:22,645 [main] INFO craftBetWorld - 43 3498 ID=76120 Provider=Microgaming Name=Machine Gun Unicorn cod=0 description=null ResponseObject=Wrong incoming params
+2023-09-01 17:42:01,314 [main] INFO craftBetWorld - 44 3595 ID=77773 Provider=CQGaming Name=Magpie Bridge cod=0 description=null ResponseObject=24
+2023-09-01 17:42:01,790 [main] INFO craftBetWorld - 45 3597 ID=77626 Provider=CQGaming Name=Mahjong For 2 Players cod=0 description=null ResponseObject=24
+2023-09-01 17:42:17,079 [main] INFO craftBetWorld - 46 3630 ID=77496 Provider=CQGaming Name=Master Panda cod=0 description=null ResponseObject=24
+2023-09-01 17:42:27,608 [main] INFO craftBetWorld - 47 3659 ID=77775 Provider=CQGaming Name=Mazu cod=0 description=null ResponseObject=24
+2023-09-01 17:42:36,848 [main] INFO craftBetWorld - 48 3685 ID=78772 Provider=CQGaming Name=Mega Winner cod=0 description=null ResponseObject=24
+2023-09-01 17:43:41,116 [main] INFO craftBetWorld - 49 3793 ID=77687 Provider=CQGaming Name=Monkey King cod=0 description=null ResponseObject=24
+2023-09-01 17:44:28,375 [main] INFO craftBetWorld - 50 3861 ID=77483 Provider=CQGaming Name=MULAN cod=0 description=null ResponseObject=24
+2023-09-01 17:45:00,383 [main] INFO craftBetWorld - 51 3924 ID=77477 Provider=CQGaming Name=Myth cod=0 description=null ResponseObject=24
+2023-09-01 17:45:20,531 [main] INFO craftBetWorld - 52 3957 ID=77486 Provider=CQGaming Name=Nezha cod=0 description=null ResponseObject=24
+2023-09-01 17:45:35,430 [main] INFO craftBetWorld - 53 3980 ID=77480 Provider=CQGaming Name=Niu Niu Niu cod=0 description=null ResponseObject=24
+2023-09-01 17:46:22,731 [main] INFO craftBetWorld - 54 4077 ID=77476 Provider=CQGaming Name=PARTY ISLAND cod=0 description=null ResponseObject=24
+2023-09-01 17:48:36,186 [main] INFO craftBetWorld - 55 4362 ID=77777 Provider=CQGaming Name=Rabbit Rampage cod=0 description=null ResponseObject=24
+2023-09-01 17:48:43,094 [main] INFO craftBetWorld - 56 4376 ID=76116 Provider=Microgaming Name=Ragnarok cod=0 description=null ResponseObject=Wrong incoming params
+2023-09-01 17:50:25,461 [main] INFO craftBetWorld - 57 4573 ID=76118 Provider=Microgaming Name=Robyn cod=0 description=null ResponseObject=Wrong incoming params
+2023-09-01 17:50:36,519 [main] INFO craftBetWorld - 58 4594 ID=77502 Provider=CQGaming Name=ROLLING DRAGON cod=0 description=null ResponseObject=24
+2023-09-01 17:50:50,566 [main] INFO craftBetWorld - 59 4626 ID=77597 Provider=CQGaming Name=Royal Fruit cod=0 description=null ResponseObject=24
+2023-09-01 17:51:10,602 [main] INFO craftBetWorld - 60 4666 ID=77478 Provider=CQGaming Name=Rush Hour cod=0 description=null ResponseObject=24
+2023-09-01 17:52:06,013 [main] INFO craftBetWorld - 61 4808 ID=77771 Provider=CQGaming Name=Sheng Xiao Chuan Qi cod=0 description=null ResponseObject=24
+2023-09-01 17:52:57,412 [main] INFO craftBetWorld - 62 4885 ID=77492 Provider=CQGaming Name=Slot 777 cod=0 description=null ResponseObject=24
+2023-09-01 17:53:19,405 [main] INFO craftBetWorld - 63 4928 ID=77547 Provider=CQGaming Name=Songkran cod=0 description=null ResponseObject=24
+2023-09-01 17:54:14,860 [main] INFO craftBetWorld - 64 5058 ID=77781 Provider=CQGaming Name=Stone to Gold cod=0 description=null ResponseObject=24
+2023-09-01 17:54:51,407 [main] INFO craftBetWorld - 65 5121 ID=77498 Provider=CQGaming Name=Sun Er Niang cod=0 description=null ResponseObject=24
+2023-09-01 17:55:28,309 [main] INFO craftBetWorld - 66 5206 ID=77464 Provider=CQGaming Name=Sweet 666 Deluxe cod=0 description=null ResponseObject=24
+2023-09-01 17:56:41,872 [main] INFO craftBetWorld - 67 5334 ID=77534 Provider=CQGaming Name=The Dragon Brings Wealth cod=0 description=null ResponseObject=24
+2023-09-01 17:56:42,180 [main] INFO craftBetWorld - 68 5335 ID=77623 Provider=CQGaming Name=The Dragon Brings Wealth 2 cod=0 description=null ResponseObject=24
+2023-09-01 17:57:04,757 [main] INFO craftBetWorld - 69 5394 ID=77487 Provider=CQGaming Name=The Legend Of Snake cod=0 description=null ResponseObject=24
+2023-09-01 17:57:06,380 [main] INFO craftBetWorld - 70 5400 ID=77782 Provider=CQGaming Name=The Magic Brush cod=0 description=null ResponseObject=24
+2023-09-01 17:57:45,906 [main] INFO craftBetWorld - 71 5490 ID=77490 Provider=CQGaming Name=TIGER HERO cod=0 description=null ResponseObject=24
+2023-09-01 17:58:28,478 [main] INFO craftBetWorld - 72 5576 ID=78539 Provider=CQGaming Name=Treasure Koi cod=0 description=null ResponseObject=24
+2023-09-01 17:59:03,589 [main] INFO craftBetWorld - 73 5658 ID=77792 Provider=CQGaming Name=Typhoon Cash cod=0 description=null ResponseObject=24
+2023-09-01 18:00:23,216 [main] INFO craftBetWorld - 74 5812 ID=77680 Provider=CQGaming Name=Water Margin cod=0 description=null ResponseObject=24
+2023-09-01 18:00:29,816 [main] INFO craftBetWorld - 75 5822 ID=77769 Provider=CQGaming Name=Wealthy Chicken cod=0 description=null ResponseObject=24
+2023-09-01 18:00:57,305 [main] INFO craftBetWorld - 76 5877 ID=77481 Provider=CQGaming Name=Wild Chameleon cod=0 description=null ResponseObject=24
+2023-09-01 18:02:18,104 [main] INFO craftBetWorld - 77 6033 ID=75848 Provider=Spinomenal Name=Winter’s Gold cod=0 description=null ResponseObject=Transactions ID failed value
+2023-09-01 18:03:01,086 [main] INFO craftBetWorld - 78 6108 ID=77772 Provider=CQGaming Name=Xiao Fu Xing cod=0 description=null ResponseObject=24
+2023-09-01 18:03:01,358 [main] INFO craftBetWorld - 79 6109 ID=78984 Provider=CQGaming Name=Xiao Ne Zha cod=0 description=null ResponseObject=24
+2023-09-01 18:03:01,974 [main] INFO craftBetWorld - 80 6111 ID=77493 Provider=CQGaming Name=XIYOUJI cod=0 description=null ResponseObject=24
+2023-09-01 18:03:37,388 [main] INFO craftBetWorld - 81 6164 ID=77768 Provider=CQGaming Name=Zombie's Fortune cod=0 description=null ResponseObject=24
+2023-09-01 18:03:42,849 [main] INFO craftBetWorld - From Get URL API broken games are captured
+2023-09-01 18:03:42,849 [main] INFO craftBetWorld - Broken url-es are:  81 of 6170
+2023-09-01 18:03:42,936 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-09-01 18:03:42,950 [main] INFO craftBetWorld - Test Url: https://oceanbet.io partnerID: 43
+2023-09-01 18:04:15,060 [main] INFO craftBetWorld - Get games Api call was sent
+2023-09-01 18:04:15,224 [main] INFO craftBetWorld - Get games Api Response was captured
+2023-09-01 18:04:15,340 [main] INFO craftBetWorld - All captured games images links was added into ArrayList: 6148
+2023-09-01 18:09:44,398 [main] ERROR craftBetWorld - 1  1298  Game ID = 25703   Game Provider Name = Fugaso :   Game Name =  Clash Of Gods :   cod = 403:   src = https://agstatic.com/games/fugaso/clash_of_gods1.jpg
+2023-09-01 18:16:19,664 [main] ERROR craftBetWorld - 2  2941  Game ID = 23754   Game Provider Name = RelaxGaming :   Game Name =  Iron Bank :   cod = 404:   src = https://resources.oceanbet.io/products/outcomebet/ironbank_rg.jpg
+2023-09-01 18:16:24,401 [main] ERROR craftBetWorld - 3  2961  Game ID = 54231   Game Provider Name = PragmaticPlay :   Game Name =  Jackpot :   cod = 403:   src = https://resources.oceanbet.io/products/
+2023-09-01 18:17:50,085 [main] ERROR craftBetWorld - 4  3352  Game ID = 1190526   Game Provider Name = Amatic :   Game Name =  Lovely Lady :   cod = 403:   src = https://resources.oceanbet.io/products/
+2023-09-01 18:19:34,174 [main] ERROR craftBetWorld - 5  3761  Game ID = 23753   Game Provider Name = RelaxGaming :   Game Name =  Money Train 2 :   cod = 404:   src = https://resources.oceanbet.io/products/outcomebet/moneytrain2_rg.jpg
+2023-09-01 18:21:42,105 [main] ERROR craftBetWorld - 6  4263  Game ID = 54000   Game Provider Name = PragmaticPlay :   Game Name =  PromoWin :   cod = 403:   src = https://resources.oceanbet.io/products/
+2023-09-01 18:24:02,288 [main] ERROR craftBetWorld - 7  4881  Game ID = 23752   Game Provider Name = RelaxGaming :   Game Name =  Snake Arena :   cod = 404:   src = https://resources.oceanbet.io/products/outcomebet/snakearena_rg.jpg
+2023-09-01 18:25:25,674 [main] ERROR craftBetWorld - 8  5254  Game ID = 23751   Game Provider Name = RelaxGaming :   Game Name =  Temple Tumble Megaways :   cod = 404:   src = https://resources.oceanbet.io/products/outcomebet/templetumble_rg.jpg
+2023-09-01 18:27:45,008 [main] ERROR craftBetWorld - 9  5855  Game ID = 23750   Game Provider Name = RelaxGaming :   Game Name =  Wild Chapo :   cod = 404:   src = https://resources.oceanbet.io/products/outcomebet/wildchapo_rg.jpg
+2023-09-01 18:28:49,146 [main] INFO craftBetWorld - Broken images are:  9
+2023-09-01 18:28:49,211 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2023-09-01 18:28:49,228 [main] INFO craftBetWorld - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
