@@ -359,6 +359,7 @@ public class BaseTest {
                 break;
             }
             case 23: {
+                //                getUserID = 1947176;
                 partnerID = 73;
                 getGamesAPIUrl = "https://websitewebapi.triplex.bet/73/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.triplex.bet/73/api/Main/GetProductUrl";
@@ -367,6 +368,18 @@ public class BaseTest {
                 getGamesPartnerName = "triplex";
                 getGamesBaseURL = "https://triplex.bet";
                 loginClient = "https://websitewebapi.triplex.bet/73/api/Main/LoginClient";
+                break;
+            }
+            case 24: {
+                //                getUserID = 1947176;
+                partnerID = 5;
+                getGamesAPIUrl = "https://websitewebapi.assos365.com/5/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.assos365.com/5/api/Main/GetProductUrl";
+                getGamesOrigin = "https://assos365.com";
+                getGamesRecurse = "https://resources.assos365.com/products/";
+                getGamesPartnerName = "assos365";
+                getGamesBaseURL = "https://assos365.com";
+                loginClient = "https://websitewebapi.assos365.com/5/api/Main/LoginClient";
                 break;
             }
             case 100: {
