@@ -382,6 +382,18 @@ public class BaseTest {
                 loginClient = "https://websitewebapi.assos365.com/5/api/Main/LoginClient";
                 break;
             }
+            case 25: {
+                //                getUserID = 1947176;
+                partnerID = 74;
+                getGamesAPIUrl = "https://websitewebapi.oceanbet.casino/74/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.oceanbet.casino/74/api/Main/GetProductUrl";
+                getGamesOrigin = "https://oceanbet.casino";
+                getGamesRecurse = "https://resources.oceanbet.casino/products/";
+                getGamesPartnerName = "oceanbetCasino";
+                getGamesBaseURL = "https://oceanbet.casino";
+                loginClient = "https://websitewebapi.oceanbet.casino/74/api/Main/LoginClient";
+                break;
+            }
             case 100: {
                 //                getUserID = 2;
                 partnerID = 1;
