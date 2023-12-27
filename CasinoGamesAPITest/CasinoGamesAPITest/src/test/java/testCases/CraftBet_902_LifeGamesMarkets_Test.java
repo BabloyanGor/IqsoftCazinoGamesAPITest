@@ -40,7 +40,7 @@ public class CraftBet_902_LifeGamesMarkets_Test extends BaseTest {
         ArrayList<String> gameIDs = new ArrayList<>();
         ArrayList<String> StartTime = new ArrayList<>();
 
-        ArrayList<String> nameMarketArray = new ArrayList<>();
+        List nameMarketArray = new List();
         ArrayList<String> selectorPointArray = new ArrayList<>();
         ArrayList<String> nameSelectorArray = new ArrayList<>();
         ArrayList<String> isBlockedForSelectorArray = new ArrayList<>();

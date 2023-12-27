@@ -41,6 +41,8 @@ public class CraftBet_901_LifeGamesTimeOut_Test extends BaseTest{
 
         return new long[]{hours, minutes, secs};
     }
+
+
     public boolean getLimitOutGamesApiCheck(String getGamesAPIUrl, String partnerName)
             throws UnirestException, JSONException, IOException {
 
@@ -165,7 +167,7 @@ public class CraftBet_901_LifeGamesTimeOut_Test extends BaseTest{
                     + minutesForLog + " minutes";
             switch (gameType.get(i)) {
                 case "Soccer": {
-                    if (allMinutes >= 180) {
+                    if (allMinutes >= 145) {
                         logger.error("The Time Out games are :   " + errMessageMinutes);
                         errorSrcXl.add(errMessageMinutes);
                         k++;
