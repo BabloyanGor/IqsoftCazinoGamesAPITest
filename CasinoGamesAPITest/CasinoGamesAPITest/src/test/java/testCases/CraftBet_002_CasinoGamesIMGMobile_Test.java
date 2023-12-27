@@ -14,6 +14,7 @@ import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.concurrent.*;
 
 public class CraftBet_002_CasinoGamesIMGMobile_Test extends BaseTest {
 
@@ -22,7 +23,7 @@ public class CraftBet_002_CasinoGamesIMGMobile_Test extends BaseTest {
     }
 
     public boolean getGamesAPICheckPicturesForMobile(String getGamesAPIUrl, String origin, String recurse, String partnerName)
-            throws JSONException, IOException, AWTException {
+            throws JSONException, IOException, AWTException, ExecutionException, InterruptedException {
         BasePage basePage = new BasePage();
         boolean isPassed;
         int k = 0;
@@ -83,6 +84,7 @@ public class CraftBet_002_CasinoGamesIMGMobile_Test extends BaseTest {
         int count = 1;
         HttpURLConnection connection = null;
         for (String src : srces) {
+
             if (src == null || src.isEmpty()) {
                 logger.info(count + "  " + k + "  Game ID = " + gameIDes.get(k) + "   Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + " :   " + ":   src = " + src + " :" + " this games image src has empty/null value");
                 errorSrcXl.add(k + "  Game ID = " + gameIDes.get(k) + "  Game Provider Name = " + gameProviderNames.get(k) + "  " + "Game Name = " + gameNames.get(k) + "  " + ":   src = " + src + " " + " ----->  this games image src has empty/null value");
@@ -90,6 +92,8 @@ public class CraftBet_002_CasinoGamesIMGMobile_Test extends BaseTest {
             } else {
                 int cod;
                 try {
+
+
                     URL img = new URL(src);
                     connection = (HttpURLConnection) img.openConnection();
                     connection.connect();
@@ -101,6 +105,10 @@ public class CraftBet_002_CasinoGamesIMGMobile_Test extends BaseTest {
                         count++;
                     }
                 } catch (Exception e) {
+
+
+
+
                     try {
                         URL img = new URL(src);
                         connection = (HttpURLConnection) img.openConnection();
@@ -136,6 +144,64 @@ public class CraftBet_002_CasinoGamesIMGMobile_Test extends BaseTest {
         }
         return isPassed;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    public void  asyncExample () throws Exception {
+        ExecutorService executorService = Executors.newSingleThreadExecutor();
+
+        Future<?> future = executorService.submit(() -> {
+            // Your asynchronous task here
+            System.out.println("Async task completed");
+        });
+
+        // Do other work here
+
+        // Block and wait for the asynchronous task to complete
+        future.get();
+
+        executorService.shutdown();
+    }
+
+
+
+
+
+    public void async() throws ExecutionException, InterruptedException {
+        CompletableFuture<Void> future = CompletableFuture.runAsync(() -> {
+            // Your asynchronous task here
+            System.out.println("Async task completed");
+        });
+
+        // Do other work here
+
+        // Block and wait for the asynchronous task to complete
+        future.get();
+    }
+
+
+
+
+
+
+
+
+
 
     @Test
     public void getSlotGamesMobileImgTest() throws  JSONException {
