@@ -19,6 +19,7 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
 
     String token;
     int userID;
+    int getGamesOnOneCall = 1000;
 
     public CraftBet_003_CasinoGamesUrl_Test() throws AWTException {
     }
@@ -75,35 +76,65 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
     }
 
 
-    public boolean getUrlCheckGamesUrl(String getGamesAPIUrl, String origin, String getURLAPIurl, String token,
-                                       int userID, int partnerID, String partnerName)
+    public boolean getUrlCheckGamesUrlParallel(String getGamesAPIUrl, String origin, String getURLAPIurl, String token,
+                                               int userID, int partnerID, String partnerName)
             throws JSONException, IOException {
 
-        boolean isPassed = false;
-        ArrayList<String> productID = new ArrayList<>();
-        ArrayList<String> name = new ArrayList<>();
-        ArrayList<String> provider = new ArrayList<>();
-        ArrayList<String> errorSrcXl = new ArrayList<>();
+        Integer gamesCount = 1;
 
-        int errCount = 1;
-        int k = 1;
-        JSONObject jsonObjectBody;
-        JSONObject jsonObjectResponseObject;
-        JSONArray jsonArrayGames = null;
-//        String contentType = null;
         try {
             Unirest.setTimeouts(0, 0);
             HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
                     .header("content-type", "application/json")
                     .header("origin", origin)
-                    .body("{\"PageIndex\":0,\"PageSize\":20000,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false," +
+                    .body("{\"PageIndex\":0,\"PageSize\":10,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false,\"Name\":\"\"," +
+                            "\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
+                    .asString();
+
+            logger.info("Get games Api call was sent");
+            JSONObject jsonObjectBody = new JSONObject(response.getBody());
+            JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.get("ResponseObject").toString());
+            gamesCount = Integer.valueOf(jsonObjectResponseObject.get("TotalGamesCount").toString());
+            logger.info("Get games Api call: TotalGamesCount = " + gamesCount);
+
+        } catch (Exception e) {
+            logger.info("Get Games Call for TotalGamesCount has an exception " + e);
+
+        }
+
+
+        boolean isPassed;
+        ArrayList<String> productID = new ArrayList<>();
+        ArrayList<String> name = new ArrayList<>();
+        ArrayList<String> provider = new ArrayList<>();
+        ArrayList<String> errorSrcXl = new ArrayList<>();
+
+        final int[] errCount = {1};
+        final int[] k = {1};
+        JSONObject jsonObjectBody;
+        JSONObject jsonObjectResponseObject;
+        JSONArray jsonArrayGames = null;
+//        String contentType = null;
+        int circleCount = gamesCount / getGamesOnOneCall + 1;
+        for (int m = 0; m < circleCount; m++) {
+        try {
+
+            Unirest.setTimeouts(0, 0);
+            HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
+                    .header("content-type", "application/json")
+                    .header("origin", origin)
+                    .body("{\"PageIndex\":" +
+                            m +
+                            ",\"PageSize\":" +
+                            getGamesOnOneCall +
+                            ",\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false," +
                             "\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
                     .asString();
-            logger.info("Get All games API call ");
+
             jsonObjectBody = new JSONObject(response.getBody());
             jsonObjectResponseObject = new JSONObject(jsonObjectBody.get("ResponseObject").toString());
             jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
-            logger.info("From getGamesAPIUrl call body captured ");
+            logger.info("From getGamesAPIUrl call body captured: " + m);
         } catch (Exception ee) {
             logger.fatal("getGamesAPIUrl call has an exception " + ee);
         } finally {
@@ -125,9 +156,13 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
         }
         logger.info("From getGamesAPIUrl call productIDes and Names was captured Games count: " + productID.size());
 
+    }
 
-        for (String id : productID) {
 
+//        for (String id : productID) {
+        productID.parallelStream().forEach(id -> {
+
+            int idIndex = productID.indexOf(id);;
             JSONObject jsonObjectGetUrl;
             String code = "null";
             String description = null;
@@ -157,23 +192,39 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
             } catch (Exception ee) {
                 logger.fatal("jsonObjectGetUrl has an exception " + ee);
             } finally {
-                Unirest.shutdown();
+                try {
+                    Unirest.shutdown();
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
             }
 
             String errMessage;
             try {
                 if (!code.equals("0") || url == null || url.length() < 10 || !url.contains("https://") ) {
-                    errMessage = k + " ID=" + id + " Provider=" + provider.get(k - 1) + " Name=" + name.get(k - 1) + " cod=" + code + " description=" + description + " ResponseObject=" + url;
-                    logger.info(errCount + " " + errMessage);
+                    errMessage = k[0] + " ID=" + id + " Provider=" + provider.get(idIndex) + " Name=" + name.get(idIndex) + " cod=" + code + " description=" + description + " ResponseObject=" + url;
+                    logger.info(errCount[0] + " " + errMessage);
                     errorSrcXl.add(errMessage);
-                    errCount++;
+                    errCount[0]++;
                 }
             } catch (Exception e) {
-                logger.info(k + " Unirest Exception ");
+                logger.info(k[0] + " Unirest Exception ");
             }
-            k++;
+            k[0]++;
+        });
+//        }
 
-        }
+
+
+
+
+
+
+
+
+
+
+
         logger.info("From Get URL API broken games are captured");
 
         //Write into exel shite
@@ -195,7 +246,7 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
     @Test
     public void getSlotGamesUrlAPITest() throws JSONException {
         try {
-            Assert.assertTrue(getUrlCheckGamesUrl(getGamesAPIUrl, getGamesOrigin, getURLAPIUrl, token, userID, partnerID, getGamesPartnerName));
+            Assert.assertTrue(getUrlCheckGamesUrlParallel(getGamesAPIUrl, getGamesOrigin, getURLAPIUrl, token, userID, partnerID, getGamesPartnerName));
         } catch (Exception e) {
             System.out.println("getUrlAPITest has an exception" + e);
             Assert.fail();

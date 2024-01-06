@@ -248,6 +248,30 @@
         </dependency>
 
 
+
+
+
+
+        <!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-util -->
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-util</artifactId>
+            <version>10.1.17</version>
+        </dependency>
+
+
+
+        <!--        &lt;!&ndash; https://mvnrepository.com/artifact/tomcat/tomcat-util &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>tomcat</groupId>-->
+<!--            <artifactId>tomcat-util</artifactId>-->
+<!--            <version>5.5.23</version>-->
+<!--        </dependency>-->
+
+
+
+
+
     </dependencies>
 
 

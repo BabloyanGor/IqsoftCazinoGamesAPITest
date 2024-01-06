@@ -23,6 +23,7 @@ public class CraftBet_004_CasinoGamesProvidersImgWeb_Test extends BaseTest {
             throws JSONException, IOException {
 
 //        BasePage basePage = new BasePage();
+        int getGamesOnOneCall = 1000;
         boolean isPassed;
         int k = 0;
         ArrayList<String> providerIDes = new ArrayList<>();
@@ -37,7 +38,7 @@ public class CraftBet_004_CasinoGamesProvidersImgWeb_Test extends BaseTest {
             HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
                     .header("content-type", "application/json")
                     .header("origin", origin)
-                    .body("{\"PageIndex\":0,\"PageSize\":20000,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false," +
+                    .body("{\"PageIndex\":0,\"PageSize\":10,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false," +
                             "\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
                     .asString();
 

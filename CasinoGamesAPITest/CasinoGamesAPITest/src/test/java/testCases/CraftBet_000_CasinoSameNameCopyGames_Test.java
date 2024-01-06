@@ -17,9 +17,32 @@ public class CraftBet_000_CasinoSameNameCopyGames_Test extends BaseTest {
     public CraftBet_000_CasinoSameNameCopyGames_Test() throws AWTException {
     }
 
+    int getGamesOnOneCall = 1000;
 
     public boolean getALLGamesAPICheckCopyGames(String getGamesAPIUrl, String origin, String partnerName)
             throws JSONException, IOException {
+
+        Integer gamesCount = 1;
+        try {
+            Unirest.setTimeouts(0, 0);
+            HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
+                    .header("content-type", "application/json")
+                    .header("origin", origin)
+                    .body("{\"PageIndex\":0,\"PageSize\":10,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false,\"Name\":\"\"," +
+                            "\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
+                    .asString();
+
+            logger.info("Get games Api call was sent");
+            JSONObject jsonObjectBody = new JSONObject(response.getBody());
+            JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.get("ResponseObject").toString());
+            gamesCount = Integer.valueOf(jsonObjectResponseObject.get("TotalGamesCount").toString());
+
+
+        } catch (Exception e) {
+            logger.info("Get Games Call for TotalGamesCount has an exception " + e);
+
+        }
+
 
         boolean isPassed;
         int k = 1;
@@ -29,35 +52,46 @@ public class CraftBet_000_CasinoSameNameCopyGames_Test extends BaseTest {
         ArrayList<String> errorSrcXl = new ArrayList<>();
         HashSet<String> errSet = new HashSet<String>();
 
-        try {
-            Unirest.setTimeouts(0, 0);
-            HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
-                    .header("content-type", "application/json")
-                    .header("origin", origin)
-                    .body("{\"PageIndex\":0,\"PageSize\":20000,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false,\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
-                    .asString();
-            logger.info("Get games Api call was sent");
-            JSONObject jsonObjectBody = new JSONObject(response.getBody());
 
-            JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.get("ResponseObject").toString());
-            JSONArray jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
-            logger.info("Get games Api Response was captured");
-            for (int j = 0; j < jsonArrayGames.length(); j++) {
+        int circleCount = gamesCount / getGamesOnOneCall + 1;
+        for (int m = 0; m < circleCount; m++) {
 
-                String first = String.valueOf(jsonArrayGames.get(j));
-                JSONObject jsonObjectGame = new JSONObject(first);
-                String n = jsonObjectGame.getString("n");    //Game Name
-                String sp = jsonObjectGame.getString("sp");  //Provider Name
-                gameProviderNames.add(sp);
-                gameNames.add(n);
+
+            try {
+                Unirest.setTimeouts(0, 0);
+                HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
+                        .header("content-type", "application/json")
+                        .header("origin", origin)
+                        .body("{\"PageIndex\":" +
+                                m +
+                                ",\"PageSize\":" +
+                                getGamesOnOneCall +
+                                ",\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false,\"Name\":\"\",\"LanguageId\":\"en\"," +
+                                "\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
+                        .asString();
+                logger.info("Get games Api call was sent");
+                JSONObject jsonObjectBody = new JSONObject(response.getBody());
+
+                JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.get("ResponseObject").toString());
+                JSONArray jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
+                logger.info("Get games Api Response was captured");
+                for (int j = 0; j < jsonArrayGames.length(); j++) {
+
+                    String first = String.valueOf(jsonArrayGames.get(j));
+                    JSONObject jsonObjectGame = new JSONObject(first);
+                    String n = jsonObjectGame.getString("n");    //Game Name
+                    String sp = jsonObjectGame.getString("sp");  //Provider Name
+                    gameProviderNames.add(sp);
+                    gameNames.add(n);
 //            if (!gameProviderNamesList.contains(sp)){                     For Providers List
 //                gameProviderNamesList.add(sp);
 //            }
+                }
+            } catch (Exception e) {
+                logger.info("Get games Api Response has an Exception: " + e);
+            } finally {
+                Unirest.shutdown();
             }
-        } catch (Exception e) {
-            logger.info("Get games Api Response has an Exception: " + e);
-        } finally {
-            Unirest.shutdown();
         }
 
 
@@ -102,6 +136,18 @@ public class CraftBet_000_CasinoSameNameCopyGames_Test extends BaseTest {
             Assert.fail();
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     // For checking games name Japan translation
@@ -203,5 +249,13 @@ public class CraftBet_000_CasinoSameNameCopyGames_Test extends BaseTest {
 //            }
 //        }
 //
+
+
+
+
+
+
+
+
 
 }
