@@ -109,8 +109,8 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
         ArrayList<String> provider = new ArrayList<>();
         ArrayList<String> errorSrcXl = new ArrayList<>();
 
-        final int[] errCount = {1};
-        final int[] k = {1};
+        int errCount = 1;
+        int k = 1;
         JSONObject jsonObjectBody;
         JSONObject jsonObjectResponseObject;
         JSONArray jsonArrayGames = null;
@@ -159,10 +159,10 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
     }
 
 
-//        for (String id : productID) {
-        productID.parallelStream().forEach(id -> {
+        for (String id : productID) {
+//        productID.parallelStream().forEach(id -> {
 
-            int idIndex = productID.indexOf(id);;
+            int idIndex = productID.indexOf(id);
             JSONObject jsonObjectGetUrl;
             String code = "null";
             String description = null;
@@ -188,9 +188,36 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
                 code = jsonObjectGetUrl.get("ResponseCode").toString();
                 description = jsonObjectGetUrl.get("Description").toString();
                 url = jsonObjectGetUrl.get("ResponseObject").toString();
+                k++;
 
-            } catch (Exception ee) {
-                logger.fatal("jsonObjectGetUrl has an exception " + ee);
+            } catch (Exception e) {
+                try {
+                    int proID = parseInt(id);
+                    Unirest.setTimeouts(0, 0);
+                    HttpResponse<String> responseUrl = Unirest.post(getURLAPIurl)
+                            .header("Content-Type", "application/json")
+                            .header("origin", origin)
+//                        .body("{\"Loader\":true,\"PartnerId\":" + partnerID + ",\"TimeZone\":4,\"LanguageId\":\"en\",\"ProductId\":" + proID +
+//                                ",\"Method\":\"GetProductUrl\",\"Controller\":\"Main\",\"CategoryId\":null,\"PageIndex\":0,\"PageSize\":100,\"ProviderIds\":[]," +
+//                                "\"Index\":null,\"ActivationKey\":null,\"MobileNumber\":null,\"Code\":null,\"RequestData\":\"{}\",\"IsForDemo\":false," +
+//                                "\"IsForMobile\":false,\"Position\":\"\",\"DeviceType\":1,\"ClientId\":" + userID + ",\"Token\":\"" + token + "\"}")
+                            .body("{ \"IsForMobile\": false,   \"LanguageId\": \"en\",    \"PartnerId\": "+ partnerID +"," +
+                                    " \"ProductId\": "+ proID +",  \"Position\": \"casino\"," +
+                                    " \"Token\": \"" + token + "\",    \"ClientId\":"+ userID +" ," +
+                                    " \"IsForDemo\": false, \"TimeZone\": 4}")
+                            .asString();
+//                contentType = responseUrl.getHeaders().getFirst("Content-Type");
+
+                    jsonObjectGetUrl = new JSONObject(responseUrl.getBody());
+                    code = jsonObjectGetUrl.get("ResponseCode").toString();
+                    description = jsonObjectGetUrl.get("Description").toString();
+                    url = jsonObjectGetUrl.get("ResponseObject").toString();
+                    k++;
+
+                }catch (Exception ee){
+                    logger.fatal("jsonObjectGetUrl has an exception " + ee);
+                }
+
             } finally {
                 try {
                     Unirest.shutdown();
@@ -202,27 +229,19 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
             String errMessage;
             try {
                 if (!code.equals("0") || url == null || url.length() < 10 || !url.contains("https://") ) {
-                    errMessage = k[0] + " ID=" + id + " Provider=" + provider.get(idIndex) + " Name=" + name.get(idIndex) + " cod=" + code + " description=" + description + " ResponseObject=" + url;
-                    logger.info(errCount[0] + " " + errMessage);
+                    errMessage = k + " ID=" + id + " Provider=" + provider.get(idIndex) + " Name=" + name.get(idIndex) + " cod=" + code + " description=" + description + " ResponseObject=" + url;
+                    logger.info(errCount + " " + errMessage);
                     errorSrcXl.add(errMessage);
-                    errCount[0]++;
+                    errCount++;
+
                 }
+
             } catch (Exception e) {
-                logger.info(k[0] + " Unirest Exception ");
+                logger.info(k + " Unirest Exception ");
             }
-            k[0]++;
-        });
-//        }
 
-
-
-
-
-
-
-
-
-
+//        });
+        }
 
 
         logger.info("From Get URL API broken games are captured");

@@ -22,8 +22,6 @@ public class CraftBet_004_CasinoGamesProvidersImgWeb_Test extends BaseTest {
     public boolean getGamesAPICheckProvidersPictures(String getGamesAPIUrl, String origin, String partnerName)
             throws JSONException, IOException {
 
-//        BasePage basePage = new BasePage();
-        int getGamesOnOneCall = 1000;
         boolean isPassed;
         int k = 0;
         ArrayList<String> providerIDes = new ArrayList<>();
