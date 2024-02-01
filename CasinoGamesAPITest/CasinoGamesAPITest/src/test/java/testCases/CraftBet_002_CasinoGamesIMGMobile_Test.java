@@ -336,6 +336,17 @@ public class CraftBet_002_CasinoGamesIMGMobile_Test extends BaseTest {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
     public void asyncExample() throws Exception {
         ExecutorService executorService = Executors.newSingleThreadExecutor();
 
@@ -364,6 +375,9 @@ public class CraftBet_002_CasinoGamesIMGMobile_Test extends BaseTest {
         // Block and wait for the asynchronous task to complete
         future.get();
     }
+
+
+
 
 
 }

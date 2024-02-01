@@ -57,7 +57,9 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
             HttpResponse<String> response = Unirest.post(loginClient)
                     .header("origin", getGamesOrigin)
                     .header("Content-Type", "application/json")
-                    .body("{\"Data\":\"M+/X9wqJp4gNfj2gGgHoNvrXY/3viig6D1SaG2xejREv7Q0TwrPilF98mne59b3vIytOitTfpNnfcwBt2f4V5LBNIbk4St8LcZKXypvuJArz3F+//z3eY8grTLhVWfctV027XZK9K+WuY3y4dYqgy6q9zqkk61wSZ1oMYv5GnnTGNdYG0wgZRMKXJFzEokN2aA8B26ScXWIAqGoDH+dEuAlpaAMFMK4CMNLNu+uo/iX1iAbo4cB5AygbnTfvqA0CWkCCca3ngoN/YVEgYVxuvM7OSpeAN0lUCY0KbbDCd1d5DhUytazzOeSwrFSE+Ti0pwl9f/DwWfM4cozyfOyHhg==\",\"TimeZone\":4}")
+//                    .body("{\"Data\":\"M+/X9wqJp4gNfj2gGgHoNvrXY/3viig6D1SaG2xejREv7Q0TwrPilF98mne59b3vIytOitTfpNnfcwBt2f4V5LBNIbk4St8LcZKXypvuJArz3F+//z3eY8grTLhVWfctV027XZK9K+WuY3y4dYqgy6q9zqkk61wSZ1oMYv5GnnTGNdYG0wgZRMKXJFzEokN2aA8B26ScXWIAqGoDH+dEuAlpaAMFMK4CMNLNu+uo/iX1iAbo4cB5AygbnTfvqA0CWkCCca3ngoN/YVEgYVxuvM7OSpeAN0lUCY0KbbDCd1d5DhUytazzOeSwrFSE+Ti0pwl9f/DwWfM4cozyfOyHhg==\",\"TimeZone\":4}")
+                    .body("{\"Data\":\"gVJyxZTOoasenz/e9nUoz6Bu2589f9STLdKT7cOEYt1zTbWZV5i8wCsm6KDEI96wh6X4RIHGOmvd/pfHAH+PL4ZpeQ7/QyM+tZP9w0qZ1oRzRhpC3WK+TG4wlTGA4JvbM14ihUyJ5VNojZdKv7dmEpMccCi4jB6rtRRVilfbizZCpWKkg/w1lXVuZuGiqKA3splWk8RkxFZMQpFLi77+Ckv0TIkapJM2ANDaGLrafk7Tupnj1M7xaiqrfuGjTO5WqrXIOsGLMC1Bj/GhnWIdGsSumaD2aYyhJJ66ISZTvZwATGYHobqjHxms1hvmdbQB+iN2teGGQP7KkkRn4iGcaw==\",\"TimeZone\":4}")
+
                     .asString();
             logger.info("Log In request was sent to " + getGamesBaseURL);
 

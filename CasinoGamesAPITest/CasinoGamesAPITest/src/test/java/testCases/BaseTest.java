@@ -394,6 +394,18 @@ public class BaseTest {
                 loginClient = "https://websitewebapi.oceanbet.casino/74/api/Main/LoginClient";
                 break;
             }
+            case 26: {
+                //                getUserID = 1947176;
+                partnerID = 25;
+                getGamesAPIUrl = "https://websitewebapi.zuraplaystage.com/25/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.zuraplaystage.com/25/api/Main/GetProductUrl";
+                getGamesOrigin = "https://zuraplaystage.com";
+                getGamesRecurse = "https://resources.zuraplaystage.com/products/";
+                getGamesPartnerName = "zuraplaystage";
+                getGamesBaseURL = "https://zuraplaystage.com";
+                loginClient = "https://websitewebapi.zuraplaystage.com/25/api/Main/LoginClient";
+                break;
+            }
             case 100: {
                 //                getUserID = 2;
                 partnerID = 1;

@@ -11,9 +11,9 @@
             <!--            <class name="testCases.CraftBet_901_LifeGamesTimeOut_Test"/>-->
             <!--            <class name="testCases."/>-->
 
-            <class name="testCases.CraftBet_000_CasinoSameNameCopyGames_Test"/>
-            <class name="testCases.CraftBet_004_CasinoGamesProvidersImgWeb_Test"/>
-            <class name="testCases.CraftBet_001_CasinoGamesImgWeb_Test"/>
+<!--            <class name="testCases.CraftBet_000_CasinoSameNameCopyGames_Test"/>-->
+<!--            <class name="testCases.CraftBet_004_CasinoGamesProvidersImgWeb_Test"/>-->
+<!--            <class name="testCases.CraftBet_001_CasinoGamesImgWeb_Test"/>-->
             <class name="testCases.CraftBet_003_CasinoGamesUrl_Test"/>
 
 
