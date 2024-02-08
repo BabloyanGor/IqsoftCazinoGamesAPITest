@@ -129,7 +129,7 @@ public class CraftBet_999_CasinoGamesImgWeb_Download extends BaseTest {
 
     @Test
     public void gamesImgTestDownload() throws UnirestException, IOException {
-        getGamesPicturesDownload(getGamesAPIUrl, getGamesOrigin, getGamesRecurse, getGamesPartnerName);
+        getGamesPicturesDownload(getGamesAPIUrl, getGamesOrigin, getGamesResource, getGamesPartnerName);
 //        getGamesPicturesDownload("https://websitewebapi.craftbet.com/1/api/Main/GetGames", "https://craftbet.com", "https://resources.craftbet.com/products/", BaseTest.getGamesPartnerName);
     }
 

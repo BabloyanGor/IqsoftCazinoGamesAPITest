@@ -25,6 +25,8 @@ import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.time.Duration;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashSet;
@@ -250,6 +252,27 @@ public class BasePage {
     }
 
 
+
+    public static String printMethodName() {
+        // Get the current stack trace
+        StackTraceElement[] stackTrace = Thread.currentThread().getStackTrace();
+        // The method name is at index 2 (index 0 is getStackTrace, index 1 is Thread.currentThread)
+        String methodName = stackTrace[2].getMethodName();
+        return methodName;
+    }
+
+    public static String dateTimeNow() {
+        // Get the current date and time
+        LocalDateTime currentDateTime = LocalDateTime.now();
+
+        // Define the desired date-time format
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss.SSS");
+
+        // Format the current date and time
+        String formattedDateTime = currentDateTime.format(formatter);
+
+        return formattedDateTime;
+    }
 
 
 

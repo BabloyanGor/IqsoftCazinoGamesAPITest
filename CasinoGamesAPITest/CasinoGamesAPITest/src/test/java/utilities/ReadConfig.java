@@ -23,6 +23,15 @@ public class ReadConfig {
     {
         return Integer.parseInt(pro.getProperty("id"));
     }
+    public int getAsyncMaxTimeMinutes()
+    {
+        return Integer.parseInt(pro.getProperty("AsyncMaxTimeMinutes"));
+    }
+    public int getGamesCountOnOneCall()
+    {
+        return Integer.parseInt(pro.getProperty("getGamesOnOneCall"));
+    }
+
 
 //    public String getBrowser()
 //    {

@@ -32,7 +32,7 @@ public class CraftBet_004_CasinoGamesProvidersImgWeb_Test extends BaseTest {
         ArrayList<String> errorSrcXl = new ArrayList<>();
 
         try {
-            Unirest.setTimeouts(0, 0);
+            Unirest.setTimeouts(20000, 20000);
             HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
                     .header("content-type", "application/json")
                     .header("origin", origin)

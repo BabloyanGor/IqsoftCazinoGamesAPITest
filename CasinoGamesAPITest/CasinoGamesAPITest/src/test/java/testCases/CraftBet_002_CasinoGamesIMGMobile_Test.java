@@ -15,20 +15,168 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.concurrent.*;
 
+import static pageObjects.BasePage.dateTimeNow;
+
 public class CraftBet_002_CasinoGamesIMGMobile_Test extends BaseTest {
 
 
     public CraftBet_002_CasinoGamesIMGMobile_Test() throws AWTException {
     }
 
-    int getGamesOnOneCall = 1000;
+
+    int k = 1;
+    int errCount = 1;
+    CompletableFuture<Void> future;
+    CompletableFuture<Void>[] futures;
+
+    public boolean checkMobileGamesImagesUrlAsync()throws JSONException, IOException {
+
+        try {
+            getGamesInfo(true);
+            futures = new CompletableFuture[srces.size()];
+            for (int i = 0; i < srces.size(); i++) {
+
+                int productId = Integer.parseInt(productIDs.get(i));
+                String gameName = gameNames.get(i);
+                String providerName = gameProviders.get(i);
+                String src = srces.get(i);
+
+                future = CompletableFuture.runAsync(() -> {
+                    try {
+                        AsyncCall( productId, gameName, providerName, src);
+                    } catch (Exception e) {
+                        // Handle exception if needed
+                        e.printStackTrace();
+                        future.completeExceptionally(e);
+                    }
+                });
+                futures[i] = future;
+            }
+            CompletableFuture<Void> allOf = CompletableFuture.allOf(futures);
+            allOf.get(asyncMaxTimeMinutes, TimeUnit.MINUTES); // This will block until all CompletableFuture are completed
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            for (CompletableFuture<Void> future : futures) {
+                if (!future.isDone()) {
+                    future.cancel(true); // Cancel incomplete futures
+                }
+//            future.completeExceptionally(e);
+            }
+        }
+
+        //Write errors into exel shite
+
+        logger.info("Broken GamesImages are:  " + errorSrcXl.size() + " of " + srces.size());
+        if (errorSrcXl.size() == 0) {
+            basePage.writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + getGamesPartnerName + "BrokenData.xlsx", "GamesBrokenImgMobile");
+            isPassed = true;
+        } else {
+            basePage.writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + getGamesPartnerName + "BrokenData.xlsx", "GamesBrokenImgMobile");
+            isPassed = false;
+        }
+        return isPassed;
+    }
+
+    public void AsyncCall(int productId, String gameName, String providerName, String src) {
+
+        int maxRetries = 10;
+        int currentRetry = 0;
+        HttpURLConnection connection = null;
+        do {
+            try {
+
+
+                if (src == null || src.isEmpty()) {
+                    logger.info(dateTimeNow() + "  >>>  "+ errCount + "  " + k + "  Game ID = " + productId + "   Game Provider Name = " + providerName + "  " + "Game Name = " + gameName + " :   " + ":   src = " + src + " :" + " this games image src has empty/null value");
+                    errorSrcXl.add(dateTimeNow() + "  >>>  "+ k + "  Game ID = " + productId+ "  Game Provider Name = " + providerName + "  " + "Game Name = " + gameName + "  " + ":   src = " + src + " " + " ----->  this games image src has empty/null value");
+                    errCount++;
+                } else {
+                    int cod;
+                    try {
+                        URL img = new URL(src);
+                        connection = (HttpURLConnection) img.openConnection();
+                        connection.connect();
+                        cod = connection.getResponseCode();
+                        String contentType = connection.getContentType();
+                        if (cod >= 400 || !contentType.contains("image")) {
+                            logger.error(dateTimeNow() + "  >>>  " + errCount + "  " + k + "  Game ID = " + productId + "   Game Provider Name = " + providerName + " :   " + "Game Name =  " + gameName + " :   " + "cod = " + cod + ":   src = " + src);
+                            errorSrcXl.add(dateTimeNow() + "  >>>  " + k + "  Game ID = " + productId + "  Game Provider Name = " + providerName + "   " + "Game Name =  " + gameName + "  " + "cod = " + cod + "   src = " + src);
+                            errCount++;
+                        }
+                    } catch (Exception e) {
+                        try {
+                            URL img = new URL(src);
+                            connection = (HttpURLConnection) img.openConnection();
+                            connection.connect();
+                            cod = connection.getResponseCode();
+                            String contentType = connection.getContentType();
+                            if (cod >= 400 || !contentType.contains("image")) {
+                                logger.error(dateTimeNow() + "  >>>  "+ errCount + "  " + k + "  Game ID = " + productId + "   Game Provider Name = " + providerName + " :   " + "Game Name =  " +gameName + " :   " + "cod = " + cod + ":   src = " + src);
+                                errorSrcXl.add(dateTimeNow() + "  >>>  "+ k + "  Game ID = " + productId + "  Game Provider Name = " + providerName + "   " + "Game Name =  " +gameName + "  " + "cod = " + cod + "   src = " + src);
+                                errCount++;
+                            }
+                        } catch (Exception ee) {
+
+                            logger.error(dateTimeNow() + "  >>>  "+ errCount + "  " + k + "  Game ID = " +productId + " Game Provider Name = " + providerName+ " :   " + "Game Name = " + gameName + " :  " + "   src = " + src + "   " + e);
+                            errorSrcXl.add(dateTimeNow() + "  >>>  "+ k + "  Game ID = " + productId + "  Game Provider Name = " + providerName + "   " + "Game Name =  " + gameName + "  " + "src = " + src);
+                            errCount++;
+                        }
+
+                    } finally {
+                        connection.disconnect();
+                    }
+                    k++;
+                    break;
+                }
+
+            } catch (Exception a) {
+                logger.fatal("jsonObjectCheckGamesImagesURL has an exception " + a);
+                future.completeExceptionally(a);
+                currentRetry++;
+            }
+        } while (currentRetry < maxRetries);
+    }
+
+
+
+
+    @Test
+    public void getSlotGamesMobileImgTest() throws JSONException {
+        try {
+//            Assert.assertTrue(getGamesAPICheckPicturesForMobile(getGamesAPIUrl, getGamesOrigin, getGamesRecurse, getGamesPartnerName));
+
+            Assert.assertTrue(checkMobileGamesImagesUrlAsync());
+
+
+        } catch (Exception e) {
+            System.out.println("getUrlAPITest has an exception" + e);
+            Assert.fail();
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public boolean getGamesAPICheckPicturesForMobile(String getGamesAPIUrl, String origin, String recurse, String partnerName)
             throws JSONException, IOException {
 
         Integer gamesCount = 1;
 
         try {
-            Unirest.setTimeouts(0, 0);
+            Unirest.setTimeouts(20000, 20000);
             HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
                     .header("content-type", "application/json")
                     .header("origin", origin)
@@ -58,7 +206,7 @@ public class CraftBet_002_CasinoGamesIMGMobile_Test extends BaseTest {
         int circleCount = gamesCount / getGamesOnOneCall + 1;
         for (int m = 0; m < circleCount; m++) {
             try {
-                Unirest.setTimeouts(0, 0);
+                Unirest.setTimeouts(20000, 20000);
                 HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
                         .header("content-type", "application/json")
                         .header("origin", origin)
@@ -168,7 +316,7 @@ public class CraftBet_002_CasinoGamesIMGMobile_Test extends BaseTest {
 
         Integer gamesCount=1;
         try {
-            Unirest.setTimeouts(0, 0);
+            Unirest.setTimeouts(20000, 20000);
             HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
                     .header("content-type", "application/json")
                     .header("origin", origin)
@@ -201,7 +349,7 @@ public class CraftBet_002_CasinoGamesIMGMobile_Test extends BaseTest {
         for (int m =0; m<circleCount;m++){
 
             try {
-                Unirest.setTimeouts(0, 0);
+                Unirest.setTimeouts(20000, 20000);
                 HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
                         .header("content-type", "application/json")
                         .header("origin", origin)
@@ -316,25 +464,6 @@ public class CraftBet_002_CasinoGamesIMGMobile_Test extends BaseTest {
         }
         return isPassed;
     }
-
-
-
-    @Test
-    public void getSlotGamesMobileImgTest() throws JSONException {
-        try {
-//            Assert.assertTrue(getGamesAPICheckPicturesForMobile(getGamesAPIUrl, getGamesOrigin, getGamesRecurse, getGamesPartnerName));
-
-            Assert.assertTrue(getGamesAPICCheckPicturesForMobileParallel(getGamesAPIUrl, getGamesOrigin, getGamesRecurse, getGamesPartnerName));
-
-
-        } catch (Exception e) {
-            System.out.println("getUrlAPITest has an exception" + e);
-            Assert.fail();
-        }
-    }
-
-
-
 
 
 

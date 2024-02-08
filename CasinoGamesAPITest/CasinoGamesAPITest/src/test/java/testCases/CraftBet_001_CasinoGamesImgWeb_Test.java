@@ -1,6 +1,7 @@
 package testCases;
 
 import com.mashape.unirest.http.HttpResponse;
+import com.mashape.unirest.http.JsonNode;
 import com.mashape.unirest.http.Unirest;
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -13,14 +14,147 @@ import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.TimeUnit;
+
+import static pageObjects.BasePage.dateTimeNow;
 
 public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
 
 
-    int getGamesOnOneCall = 1000;
-
     public CraftBet_001_CasinoGamesImgWeb_Test() throws AWTException {
     }
+
+    private int k = 1;
+    private int errCount = 1;
+    //    CompletableFuture<Void> future;
+    private CompletableFuture<Void>[] futures;
+
+    private int i = 0;
+
+    private boolean checkWebGamesImagesUrlAsync() throws JSONException, IOException {
+
+        try {
+            getGamesInfo(false);
+            futures = new CompletableFuture[srces.size()];
+            for (; i < srces.size(); i++) {
+
+                int productId = Integer.parseInt(productIDs.get(i));
+                String gameName = gameNames.get(i);
+                String providerName = gameProviders.get(i);
+                String src = srces.get(i);
+
+                futures[i] = CompletableFuture.runAsync(() -> {
+                    try {
+                        AsyncCall(productId, gameName, providerName, src);
+                    } catch (Exception e) {
+                        // Handle exception if needed
+                        e.printStackTrace();
+                        futures[i].completeExceptionally(e);
+                    }
+                });
+//                futures[i] = future;
+            }
+            CompletableFuture<Void> allOf = CompletableFuture.allOf(futures);
+            allOf.get(asyncMaxTimeMinutes, TimeUnit.MINUTES); // This will block until all CompletableFuture are completed
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            for (CompletableFuture<Void> future : futures) {
+                if (!future.isDone()) {
+                    future.cancel(true); // Cancel incomplete futures
+                }
+//            future.completeExceptionally(e);
+            }
+        }
+
+        //Write errors into exel shite
+
+        logger.info("Broken GamesImages are:  " + errorSrcXl.size() + " of " + srces.size());
+        if (errorSrcXl.size() == 0) {
+            basePage.writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + getGamesPartnerName + "BrokenData.xlsx", "GamesBrokenImgWeb");
+            isPassed = true;
+        } else {
+            basePage.writeInExel(errorSrcXl, "/src/test/java/CraftBet_001_APICasinoGamesBrokenData/" + readConfig.partnerConfigNum() + getGamesPartnerName + "BrokenData.xlsx", "GamesBrokenImgWeb");
+            isPassed = false;
+        }
+        return isPassed;
+    }
+
+    private void AsyncCall(int productId, String gameName, String providerName, String src) {
+
+        int maxRetries = 10;
+        int currentRetry = 0;
+        HttpURLConnection connection = null;
+        do {
+            try {
+
+
+                if (src == null || src.isEmpty()) {
+                    logger.info(dateTimeNow() + "  >>>  " + errCount + "  " + k + "  Game ID = " + productId + "   Game Provider Name = " + providerName + "  " + "Game Name = " + gameName + " :   " + ":   src = " + src + " :" + " this games image src has empty/null value");
+                    errorSrcXl.add(dateTimeNow() + "  >>>  " + k + "  Game ID = " + productId + "  Game Provider Name = " + providerName + "  " + "Game Name = " + gameName + "  " + ":   src = " + src + " " + " ----->  this games image src has empty/null value");
+                    errCount++;
+                } else {
+                    int cod;
+                    try {
+                        URL img = new URL(src);
+                        connection = (HttpURLConnection) img.openConnection();
+                        connection.connect();
+                        cod = connection.getResponseCode();
+                        String contentType = connection.getContentType();
+                        if (cod >= 400 || !contentType.contains("image")) {
+                            logger.error(dateTimeNow() + "  >>>  " + errCount + "  " + k + "  Game ID = " + productId + "   Game Provider Name = " + providerName + " :   " + "Game Name =  " + gameName + " :   " + "cod = " + cod + ":   src = " + src);
+                            errorSrcXl.add(dateTimeNow() + "  >>>  " + k + "  Game ID = " + productId + "  Game Provider Name = " + providerName + "   " + "Game Name =  " + gameName + "  " + "cod = " + cod + "   src = " + src);
+                            errCount++;
+                        }
+                    } catch (Exception e) {
+                        try {
+                            URL img = new URL(src);
+                            connection = (HttpURLConnection) img.openConnection();
+                            connection.connect();
+                            cod = connection.getResponseCode();
+                            String contentType = connection.getContentType();
+                            if (cod >= 400 || !contentType.contains("image")) {
+                                logger.error(dateTimeNow() + "  >>>  " + errCount + "  " + k + "  Game ID = " + productId + "   Game Provider Name = " + providerName + " :   " + "Game Name =  " + gameName + " :   " + "cod = " + cod + ":   src = " + src);
+                                errorSrcXl.add(dateTimeNow() + "  >>>  " + k + "  Game ID = " + productId + "  Game Provider Name = " + providerName + "   " + "Game Name =  " + gameName + "  " + "cod = " + cod + "   src = " + src);
+                                errCount++;
+                            }
+                        } catch (Exception ee) {
+
+                            logger.error(dateTimeNow() + "  >>>  " + errCount + "  " + k + "  Game ID = " + productId + " Game Provider Name = " + providerName + " :   " + "Game Name = " + gameName + " :  " + "   src = " + src + "   " + e);
+                            errorSrcXl.add(dateTimeNow() + "  >>>  " + k + "  Game ID = " + productId + "  Game Provider Name = " + providerName + "   " + "Game Name =  " + gameName + "  " + "src = " + src);
+                            errCount++;
+                        }
+
+                    } finally {
+                        connection.disconnect();
+                    }
+                    k++;
+                    break;
+                }
+
+            } catch (Exception a) {
+                logger.fatal("jsonObjectCheckGamesImagesURL has an exception " + a);
+                futures[i].completeExceptionally(a);
+                currentRetry++;
+            }
+        } while (currentRetry < maxRetries);
+    }
+
+
+    @Test
+    public void getSlotGamesWebImgTest() throws JSONException {
+        try {
+//            Assert.assertTrue(getGamesAPICheckPictures(getGamesAPIUrl, getGamesOrigin, getGamesRecurse, getGamesPartnerName));
+            Assert.assertTrue(checkWebGamesImagesUrlAsync());
+
+        } catch (Exception e) {
+            logger.fatal("checkGamesImagesUrlAsync() has an exception" + e);
+            Assert.fail();
+        }
+
+    }
+
 
     public boolean getGamesAPICheckPictures(String getGamesAPIUrl, String origin, String recurse, String partnerName)
             throws JSONException, IOException {
@@ -63,9 +197,9 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
                         .header("content-type", "application/json")
                         .header("origin", origin)
                         .body("{\"PageIndex\":" +
-                                m+
+                                m +
                                 ",\"PageSize\":" +
-                                gamesCount+
+                                gamesCount +
                                 ",\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":false,\"Name\":\"\"," +
                                 "\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
 
@@ -75,7 +209,7 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
                 JSONObject jsonObjectBody = new JSONObject(response.getBody());
                 JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.get("ResponseObject").toString());
                 JSONArray jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
-                logger.info("Get games Api Response was captured: " + m +1 );
+                logger.info("Get games Api Response was captured: " + m + 1);
 
                 for (int j = 0; j < jsonArrayGames.length(); j++) {
                     String first = String.valueOf(jsonArrayGames.get(j));
@@ -219,7 +353,7 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
                 JSONObject jsonObjectBody = new JSONObject(response.getBody());
                 JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.get("ResponseObject").toString());
                 JSONArray jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
-                logger.info("Get games Api Response was captured: " + m+1);
+                logger.info("Get games Api Response was captured: " + m + 1);
 
                 for (int j = 0; j < jsonArrayGames.length(); j++) {
                     String first = String.valueOf(jsonArrayGames.get(j));
@@ -320,23 +454,4 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
     }
 
 
-    @Test
-    public void getSlotGamesWebImgTest() throws JSONException {
-        try {
-//            Assert.assertTrue(getGamesAPICheckPictures(getGamesAPIUrl, getGamesOrigin, getGamesRecurse, getGamesPartnerName));
-            Assert.assertTrue(getGamesAPICCheckPicturesParallel(getGamesAPIUrl, getGamesOrigin, getGamesRecurse, getGamesPartnerName));
-
-        } catch (Exception e) {
-            System.out.println("getUrlAPITest has an exception" + e);
-            Assert.fail();
-        }
-
-    }
-
-
 }
-
-
-
-
-

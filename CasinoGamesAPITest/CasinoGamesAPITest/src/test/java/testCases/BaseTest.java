@@ -1,13 +1,19 @@
 package testCases;
 
+import com.mashape.unirest.http.HttpResponse;
+import com.mashape.unirest.http.Unirest;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.json.JSONArray;
+import org.json.JSONObject;
 import org.testng.SkipException;
 import org.testng.annotations.*;
 import pageObjects.*;
 import utilities.ReadConfig;
 
 import java.awt.*;
+import java.io.IOException;
+import java.util.ArrayList;
 
 
 public class BaseTest {
@@ -26,7 +32,7 @@ public class BaseTest {
     public static String getGamesOrigin;
     public static String getPrematchTreeOrigin;
     public static String getMarketByIDOrigin;
-    public static String getGamesRecurse;
+    public static String getGamesResource;
     public static String getGamesPartnerName;
     public static String getGamesBaseURL;
     public static String loginClient;
@@ -45,6 +51,9 @@ public class BaseTest {
 //    public CraftBet_03_Login_PopUp_Page craftBet_03_login_popUp_page;
     ReadConfig readConfig = new ReadConfig();
     public int partnerConfigNum = readConfig.partnerConfigNum();
+    int getGamesOnOneCall = readConfig.getGamesCountOnOneCall();
+    int asyncMaxTimeMinutes = readConfig.getAsyncMaxTimeMinutes();
+
 //    public String isHeadless = readConfig.isHeadless();
 //    public String browser = readConfig.getBrowser();
 //    public String username = readConfig.getUsername();
@@ -65,7 +74,7 @@ public class BaseTest {
     @BeforeMethod
     public void setup() throws InterruptedException {
         logger = Logger.getLogger("craftBetWorld");
-        PropertyConfigurator.configure("Log4j.properties");
+        PropertyConfigurator.configure( System.getProperty("user.dir") + "\\Log4j.properties");
 
         switch (partnerConfigNum) {
 
@@ -75,7 +84,7 @@ public class BaseTest {
                 getGamesAPIUrl = "https://websitewebapi.craftbet.com/1/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.craftbet.com/1/api/Main/GetProductUrl";
                 getGamesOrigin = "https://craftbet.com";
-                getGamesRecurse = "https://resources.craftbet.com/products/";
+                getGamesResource = "https://resources.craftbet.com/products/";
                 getGamesPartnerName = "Craftbet";
                 getGamesBaseURL = "https://craftbet.com";
                 loginClient = "https://websitewebapi.craftbet.com/1/api/Main/LoginClient";
@@ -95,7 +104,7 @@ public class BaseTest {
                 getGamesAPIUrl = "https://websitewebapi.pokies2go.io/56/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.pokies2go.io/56/api/Main/GetProductUrl";
                 getGamesOrigin = "https://pokies2go.io";
-                getGamesRecurse = "https://resources.pokies2go.io/products/";
+                getGamesResource = "https://resources.pokies2go.io/products/";
                 getGamesPartnerName = "Pokies2go";
                 getGamesBaseURL = "https://pokies2go.io";
                 loginClient = "https://websitewebapi.pokies2go.io/56/api/Main/LoginClient";
@@ -108,7 +117,7 @@ public class BaseTest {
                 getGamesAPIUrl = "https://websitewebapi.tigerbet001.com/59/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.tigerbet001.com/59/api/Main/GetProductUrl";
                 getGamesOrigin = "https://tigerbet001.com";
-                getGamesRecurse = "https://resources.tigerbet001.com/products/";
+                getGamesResource = "https://resources.tigerbet001.com/products/";
                 getGamesPartnerName = "tigerbet001";
                 getGamesBaseURL = "https://tigerbet001.com";
                 loginClient = "https://websitewebapi.tigerbet001.com/59/api/Main/LoginClient";
@@ -121,7 +130,7 @@ public class BaseTest {
                 getGamesAPIUrl = "https://websitewebapi.graciazz.com/52/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.graciazz.com/52/api/Main/GetProductUrl";
                 getGamesOrigin = "https://graciazz.com";
-                getGamesRecurse = "https://resources.graciazz.com/products/";
+                getGamesResource = "https://resources.graciazz.com/products/";
                 getGamesPartnerName = "graciazz";
                 getGamesBaseURL = "https://graciazz.com";
                 loginClient = "https://websitewebapi.graciazz.com/52/api/Main/LoginClient";
@@ -134,7 +143,7 @@ public class BaseTest {
                 getGamesAPIUrl = "https://websitewebapi.crypto-casino.games/47/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.crypto-casino.games/47/api/Main/GetProductUrl";
                 getGamesOrigin = "https://crypto-casino.games";
-                getGamesRecurse = "https://resources.crypto-casino.games/products/";
+                getGamesResource = "https://resources.crypto-casino.games/products/";
                 getGamesPartnerName = "cryptoCasino";
                 getGamesBaseURL = "https://crypto-casino.games";
                 loginClient = "https://websitewebapi.crypto-casino.games/47/api/Main/LoginClient";
@@ -147,7 +156,7 @@ public class BaseTest {
                 getGamesAPIUrl = "https://websitewebapi.betvito.com/48/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.betvito.com/48/api/Main/GetProductUrl";
                 getGamesOrigin = "https://betvito.com";
-                getGamesRecurse = "https://resources.https://betvito.com/products/";
+                getGamesResource = "https://resources.https://betvito.com/products/";
                 getGamesPartnerName = "Betvito";
                 getGamesBaseURL = "https://betvito.com";
                 loginClient = "https://websitewebapi.betvito.com/48/api/Main/LoginClient";
@@ -159,7 +168,7 @@ public class BaseTest {
                 getGamesAPIUrl = "https://websitewebapi.vikwin.com/41/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.vikwin.com/41/api/Main/GetProductUrl";
                 getGamesOrigin = "https://vikwin.com";
-                getGamesRecurse = "https://resources.vikwin.com/products/";
+                getGamesResource = "https://resources.vikwin.com/products/";
                 getGamesPartnerName = "Vikwin";
                 getGamesBaseURL = "https://vikwin.com";
                 loginClient = "https://websitewebapi.vikwin.com/41/api/Main/LoginClient";
@@ -171,7 +180,7 @@ public class BaseTest {
                 getGamesAPIUrl = "https://websitewebapi.bravowin.com/38/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.bravowin.com/38/api/Main/GetProductUrl";
                 getGamesOrigin = "https://bravowin.com";
-                getGamesRecurse = "https://resources.bravowin.com/products/";
+                getGamesResource = "https://resources.bravowin.com/products/";
                 getGamesPartnerName = "Bravowin";
                 getGamesBaseURL = "https://bravowin.com";
                 loginClient = "https://websitewebapi.bravowin.com/38/api/Main/LoginClient";
@@ -183,7 +192,7 @@ public class BaseTest {
                 getGamesAPIUrl = "https://websitewebapi.play.tether.bet/54/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.play.tether.bet/54/api/Main/GetProductUrl";
                 getGamesOrigin = "https://play.tether.bet";
-                getGamesRecurse = "https://resources.tether.bet/products/";
+                getGamesResource = "https://resources.tether.bet/products/";
                 getGamesPartnerName = "Tetherbet";
                 getGamesBaseURL = "https://play.tether.bet";
                 loginClient = "https://websitewebapi.play.tether.bet/54/api/Main/LoginClient";
@@ -204,7 +213,7 @@ public class BaseTest {
                 getGamesAPIUrl = "https://websitewebapi.bet2win.vip/45/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.bet2win.vip/45/api/Main/GetProductUrl";
                 getGamesOrigin = "https://bet2win.vip";
-                getGamesRecurse = "https://resources.bet2win.vip/products/";
+                getGamesResource = "https://resources.bet2win.vip/products/";
                 getGamesPartnerName = "bet2win";
                 getGamesBaseURL = "https://bet2win.vip";
                 loginClient = "https://websitewebapi.bet2win.vip/45/api/Main/LoginClient";
@@ -217,7 +226,7 @@ public class BaseTest {
                 getGamesAPIUrl = "https://websitewebapi.craftbet.la/57/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.craftbet.la/57/api/Main/GetProductUrl";
                 getGamesOrigin = "https://craftbet.la";
-                getGamesRecurse = "https://resources.craftbet.la/products/";
+                getGamesResource = "https://resources.craftbet.la/products/";
                 getGamesPartnerName = "CraftLA";
                 getGamesBaseURL = "https://craftbet.la";
                 loginClient = "https://websitewebapi.craftbet.la/57/api/Main/LoginClient";
@@ -230,7 +239,7 @@ public class BaseTest {
 
                 getURLAPIUrl = "https://websitewebapi.oceanbet.io/43/api/Main/GetProductUrl";
                 getGamesOrigin = "https://oceanbet.io";
-                getGamesRecurse = "https://resources.oceanbet.io/products/";
+                getGamesResource = "https://resources.oceanbet.io/products/";
                 getGamesPartnerName = "oceanbet";
                 getGamesBaseURL = "https://oceanbet.io";
                 loginClient = "https://websitewebapi.oceanbet.io/43/api/Main/LoginClient";
@@ -242,7 +251,7 @@ public class BaseTest {
                 getGamesAPIUrl = "https://websitewebapi.play.baqto.com/55/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.play.baqto.com/55/api/Main/GetProductUrl";
                 getGamesOrigin = "https://play.baqto.com";
-                getGamesRecurse = "https://resources.play.baqto.com/products/";
+                getGamesResource = "https://resources.play.baqto.com/products/";
                 getGamesPartnerName = "baqto";
                 getGamesBaseURL = "https://play.baqto.com";
                 loginClient = "https://websitewebapi.play.baqto.com/55/api/Main/LoginClient";
@@ -255,7 +264,7 @@ public class BaseTest {
                 getGamesAPIUrl = "https://websitewebapi.winmatch.win/14/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.winmatch.win/14/api/Main/GetProductUrl";
                 getGamesOrigin = "https://winmatch.win";
-                getGamesRecurse = "https://resources.winmatch.win/products/";
+                getGamesResource = "https://resources.winmatch.win/products/";
                 getGamesPartnerName = "winmatch";
                 getGamesBaseURL = "https://winmatch.win";
                 loginClient = "https://websitewebapi.winmatch.win/14/api/Main/LoginClient";
@@ -267,7 +276,7 @@ public class BaseTest {
                 getGamesAPIUrl = "https://websitewebapi.kontrbet.com/66/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.kontrbet.com/66/api/Main/GetProductUrl";
                 getGamesOrigin = "https://kontrbet.com";
-                getGamesRecurse = "https://resources.kontrbet.com/products/";
+                getGamesResource = "https://resources.kontrbet.com/products/";
                 getGamesPartnerName = "kontrbet";
                 getGamesBaseURL = "https://kontrbet.com";
                 loginClient = "https://websitewebapi.kontrbet.com/66/api/Main/LoginClient";
@@ -279,7 +288,7 @@ public class BaseTest {
                 getGamesAPIUrl = "https://websitewebapi.zorrobet365.com/67/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.zorrobet365.com/67/api/Main/GetProductUrl";
                 getGamesOrigin = "https://zorrobet365.com";
-                getGamesRecurse = "https://resources.zorrobet365.com/products/";
+                getGamesResource = "https://resources.zorrobet365.com/products/";
                 getGamesPartnerName = "zorrobet365";
                 getGamesBaseURL = "https://zorrobet365.com";
                 loginClient = "https://websitewebapi.zorrobet365.com/67/api/Main/LoginClient";
@@ -292,7 +301,7 @@ public class BaseTest {
                 getGamesAPIUrl = "https://websitewebapi.winsroyal.com/70/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.winsroyal.com/70/api/Main/GetProductUrl";
                 getGamesOrigin = "https://winsroyal.com";
-                getGamesRecurse = "https://resources.winsroyal.com/products/";
+                getGamesResource = "https://resources.winsroyal.com/products/";
                 getGamesPartnerName = "winsroyal";
                 getGamesBaseURL = "https://winsroyal.com";
                 loginClient = "https://websitewebapi.winsroyal.com/70/api/Main/LoginClient";
@@ -304,7 +313,7 @@ public class BaseTest {
                 getGamesAPIUrl = "https://websitewebapi.slots.inc/63/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.slots.inc/63/api/Main/GetProductUrl";
                 getGamesOrigin = "https://slots.inc";
-                getGamesRecurse = "https://resources.slots.inc/products/";
+                getGamesResource = "https://resources.slots.inc/products/";
                 getGamesPartnerName = "slots.inc";
                 getGamesBaseURL = "https://slots.inc";
                 loginClient = "https://websitewebapi.slots.inc/63/api/Main/LoginClient";
@@ -315,7 +324,7 @@ public class BaseTest {
                 getGamesAPIUrl = "https://websitewebapi.oceanbet.io/43/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.oceanbet.io/43/api/Main/GetProductUrl";
                 getGamesOrigin = "https://rivierabet.com";
-                getGamesRecurse = "https://resources.oceanbet.io/products/";
+                getGamesResource = "https://resources.oceanbet.io/products/";
                 getGamesPartnerName = "rivierabet";
                 getGamesBaseURL = "https://rivierabet.com";
                 loginClient = "https://websitewebapi.oceanbet.io/43/api/Main/LoginClient";
@@ -326,7 +335,7 @@ public class BaseTest {
                 getGamesAPIUrl = "https://websitewebapi.woopio.com/28/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.woopio.com/28/api/Main/GetProductUrl";
                 getGamesOrigin = "https://woopio.com";
-                getGamesRecurse = "https://resources.woopio.com/products/";
+                getGamesResource = "https://resources.woopio.com/products/";
                 getGamesPartnerName = "woopio";
                 getGamesBaseURL = "https://woopio.com";
                 loginClient = "https://websitewebapi.woopio.com/28/api/Main/LoginClient";
@@ -340,7 +349,7 @@ public class BaseTest {
                 getGamesAPIUrl = "https://websitewebapi.totox-stage.com/2/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.totox-stage.com/2/api/Main/GetProductUrl";
                 getGamesOrigin = "https://totox-stage.com";
-                getGamesRecurse = "https://resources.totox-stage.com/products/";
+                getGamesResource = "https://resources.totox-stage.com/products/";
                 getGamesPartnerName = "totox";
                 getGamesBaseURL = "https://totox-stage.com";
                 loginClient = "https://websitewebapi.totox-stage.com/2/api/Main/LoginClient";
@@ -352,7 +361,7 @@ public class BaseTest {
                 getGamesAPIUrl = "https://websitewebapi.galaxygoldrush.com/62/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.galaxygoldrush.com/62/api/Main/GetProductUrl";
                 getGamesOrigin = "https://galaxygoldrush.com";
-                getGamesRecurse = "https://resources.galaxygoldrush.com/products/";
+                getGamesResource = "https://resources.galaxygoldrush.com/products/";
                 getGamesPartnerName = "galaxygoldrush";
                 getGamesBaseURL = "https://galaxygoldrush.com";
                 loginClient = "https://websitewebapi.galaxygoldrush.com/62/api/Main/LoginClient";
@@ -364,7 +373,7 @@ public class BaseTest {
                 getGamesAPIUrl = "https://websitewebapi.triplex.bet/73/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.triplex.bet/73/api/Main/GetProductUrl";
                 getGamesOrigin = "https://triplex.bet";
-                getGamesRecurse = "https://resources.triplex.bet/products/";
+                getGamesResource = "https://resources.triplex.bet/products/";
                 getGamesPartnerName = "triplex";
                 getGamesBaseURL = "https://triplex.bet";
                 loginClient = "https://websitewebapi.triplex.bet/73/api/Main/LoginClient";
@@ -376,7 +385,7 @@ public class BaseTest {
                 getGamesAPIUrl = "https://websitewebapi.assos365.com/5/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.assos365.com/5/api/Main/GetProductUrl";
                 getGamesOrigin = "https://assos365.com";
-                getGamesRecurse = "https://resources.assos365.com/products/";
+                getGamesResource = "https://resources.assos365.com/products/";
                 getGamesPartnerName = "assos365";
                 getGamesBaseURL = "https://assos365.com";
                 loginClient = "https://websitewebapi.assos365.com/5/api/Main/LoginClient";
@@ -388,7 +397,7 @@ public class BaseTest {
                 getGamesAPIUrl = "https://websitewebapi.oceanbet.casino/74/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.oceanbet.casino/74/api/Main/GetProductUrl";
                 getGamesOrigin = "https://oceanbet.casino";
-                getGamesRecurse = "https://resources.oceanbet.casino/products/";
+                getGamesResource = "https://resources.oceanbet.casino/products/";
                 getGamesPartnerName = "oceanbetCasino";
                 getGamesBaseURL = "https://oceanbet.casino";
                 loginClient = "https://websitewebapi.oceanbet.casino/74/api/Main/LoginClient";
@@ -397,13 +406,13 @@ public class BaseTest {
             case 26: {
                 //                getUserID = 1947176;
                 partnerID = 25;
-                getGamesAPIUrl = "https://websitewebapi.zuraplaystage.com/25/api/Main/GetGames";
-                getURLAPIUrl = "https://websitewebapi.zuraplaystage.com/25/api/Main/GetProductUrl";
-                getGamesOrigin = "https://zuraplaystage.com";
-                getGamesRecurse = "https://resources.zuraplaystage.com/products/";
-                getGamesPartnerName = "zuraplaystage";
-                getGamesBaseURL = "https://zuraplaystage.com";
-                loginClient = "https://websitewebapi.zuraplaystage.com/25/api/Main/LoginClient";
+                getGamesAPIUrl = "https://websitewebapi.zuraplay.com/25/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.zuraplay.com/25/api/Main/GetProductUrl";
+                getGamesOrigin = "https://zuraplay.com";
+                getGamesResource = "https://resources.zuraplay.com/products/";
+                getGamesPartnerName = "zuraplay";
+                getGamesBaseURL = "https://zuraplay.com";
+                loginClient = "https://websitewebapi.zuraplay.com/25/api/Main/LoginClient";
                 break;
             }
             case 100: {
@@ -412,7 +421,7 @@ public class BaseTest {
                 getGamesAPIUrl = "https://websitewebapi.exclusivebet-stage.com/1/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.exclusivebet-stage.com/1/api/Main/GetProductUrl";
                 getGamesOrigin = "https://exclusivebet-stage.com";
-                getGamesRecurse = "https://resources.exclusivebet-stage.com/products/";
+                getGamesResource = "https://resources.exclusivebet-stage.com/products/";
                 getGamesPartnerName = "Exclusivebet";
                 getGamesBaseURL = "https://exclusivebet-stage.com";
                 loginClient = "https://websitewebapi.exclusivebet-stage.com/1/api/Main/LoginClient";
@@ -425,7 +434,7 @@ public class BaseTest {
                 getGamesAPIUrl = "https://websitewebapi.betzmark.com/1/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.betzmark.com/1/api/Main/GetProductUrl";
                 getGamesOrigin = "https://betzmark.com";
-                getGamesRecurse = "https://resources.betzmark.com/products/";
+                getGamesResource = "https://resources.betzmark.com/products/";
                 getGamesPartnerName = "Betzmark";
                 getGamesBaseURL = "https://betzmark.com";
                 loginClient = "https://websitewebapi.betzmark.com/1/api/Main/LoginClient";
@@ -437,7 +446,7 @@ public class BaseTest {
                 getGamesAPIUrl = "https://websitewebapi.totox-stage.com/2/api/Main/GetGames";
                 getURLAPIUrl = "https://websitewebapi.totox-stage.com/2/api/Main/GetProductUrl";
                 getGamesOrigin = "https://totox-stage.com";
-                getGamesRecurse = "https://resources.totox-stage.com/products/";
+                getGamesResource = "https://resources.totox-stage.com/products/";
                 getGamesPartnerName = "Totox";
                 getGamesBaseURL = "https://totox-stage.com";
                 loginClient = "https://websitewebapi.totox-stage.com/2/api/Main/LoginClient";
@@ -486,11 +495,124 @@ public class BaseTest {
 //            driver.quit();
 //            logger.info("Browser close_order has an exception");
 //        }
-        logger.info("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished ");
+        logger.info("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished   " + BasePage.dateTimeNow());
     }
 
     @AfterSuite
     public void Finish() {
         logger.info("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  ");
     }
+
+
+
+
+
+
+    ArrayList<String> productIDs = new ArrayList<>();
+    ArrayList<String> gameNames = new ArrayList<>();
+    ArrayList<String> gameProviders = new ArrayList<>();
+    ArrayList<String> errorSrcXl = new ArrayList<>();
+    ArrayList<String> srces = new ArrayList<>();
+    boolean isPassed = false;
+
+    public void getGamesInfo(boolean IsForMobile) throws IOException {
+        int gamesCount = 0;
+        try {
+            Unirest.setTimeouts(20000, 20000);
+            HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
+                    .header("content-type", "application/json")
+                    .header("origin", getGamesOrigin)
+                    .body("{\"PageIndex\":0,\"PageSize\":10,\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":" +
+                            IsForMobile +
+                            ",\"Name\":\"\"," +
+                            "\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
+                    .asString();
+
+            logger.info("Get games Api call was sent");
+            JSONObject jsonObjectBody = new JSONObject(response.getBody());
+            JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.get("ResponseObject").toString());
+            gamesCount = Integer.parseInt(jsonObjectResponseObject.get("TotalGamesCount").toString());
+            logger.info("Get games Api call: TotalGamesCount = " + gamesCount);
+
+        } catch (Exception e) {
+            logger.info("Get Games Call for TotalGamesCount has an exception " + e);
+        }
+        JSONObject jsonObjectBody;
+        JSONObject jsonObjectResponseObject;
+        JSONArray jsonArrayGames = null;
+        int circleCount = gamesCount / getGamesOnOneCall + 1;
+//        circleCount = 1;
+        for (int m = 0; m < circleCount; m++) {
+            try {
+                Unirest.setTimeouts(20000, 20000);
+                HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
+                        .header("content-type", "application/json")
+                        .header("origin", getGamesOrigin)
+                        .body("{\"PageIndex\":" +
+                                m +
+                                ",\"PageSize\":" +
+                                getGamesOnOneCall +
+                                ",\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":" +
+                                IsForMobile +
+                                "," +
+                                "\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
+                        .asString();
+                jsonObjectBody = new JSONObject(response.getBody());
+                jsonObjectResponseObject = new JSONObject(jsonObjectBody.get("ResponseObject").toString());
+                jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
+                logger.info("From getGamesAPIUrl call body captured: " + m);
+
+
+
+                if (jsonArrayGames != null) {
+                    for (int j = 0; j < jsonArrayGames.length(); j++) {
+                        String first = String.valueOf(jsonArrayGames.get(j));
+                        JSONObject jsonObjectGame = new JSONObject(first);
+                        String i = jsonObjectGame.get("i").toString();   // Game src
+                        String p = jsonObjectGame.get("p").toString();   //Game ID
+                        String n = jsonObjectGame.get("n").toString();   //Game Name
+                        String sp = jsonObjectGame.get("sp").toString(); //Provider Name
+                        productIDs.add(p);
+                        gameNames.add(n);
+                        gameProviders.add(sp);
+                        if (i.contains("http") && i.contains(" ")) {
+                            String change = i.replace(" ", "%20");
+                            srces.add(change);
+                        } else if (!i.contains("http") && !i.contains(" ")) {
+                            srces.add(getGamesResource + i);
+                        } else if (!i.contains("http") && i.contains(" ")) {
+                            String change = getGamesResource + i.replace(" ", "%20");
+                            srces.add(change);
+                        } else {
+                            srces.add(i);
+                        }
+                    }
+                }
+                logger.info("From getGamesAPIUrl call productIDes and Names was captured Games count: " + productIDs.size());
+            } catch (Exception ee) {
+                logger.fatal("getGamesAPIUrl call has an exception " + ee);
+            } finally {
+                Unirest.shutdown();
+            }
+
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
+
+
