@@ -35,7 +35,14 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
     private boolean checkWebGamesImagesUrlAsync() throws JSONException, IOException {
 
         try {
-            getGamesInfo(false);
+
+            if (partnerConfigNum < 1000){
+                getGamesInfo(false);
+            }
+            else{
+                getGamesInfoBO(false);
+            }
+            Unirest.shutdown();
             futures = new CompletableFuture[srces.size()];
             for (; i < srces.size(); i++) {
 
@@ -142,11 +149,15 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
     }
 
 
+
+
     @Test
     public void getSlotGamesWebImgTest() throws JSONException {
         try {
-//            Assert.assertTrue(getGamesAPICheckPictures(getGamesAPIUrl, getGamesOrigin, getGamesRecurse, getGamesPartnerName));
-            Assert.assertTrue(checkWebGamesImagesUrlAsync());
+                Assert.assertTrue(checkWebGamesImagesUrlAsync());
+                //            Assert.assertTrue(getGamesAPICheckPictures(getGamesAPIUrl, getGamesOrigin, getGamesRecurse, getGamesPartnerName));
+
+
 
         } catch (Exception e) {
             logger.fatal("checkGamesImagesUrlAsync() has an exception" + e);

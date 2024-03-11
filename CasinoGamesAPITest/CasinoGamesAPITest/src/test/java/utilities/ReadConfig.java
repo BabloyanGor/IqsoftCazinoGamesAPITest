@@ -32,6 +32,16 @@ public class ReadConfig {
         return Integer.parseInt(pro.getProperty("getGamesOnOneCall"));
     }
 
+    public String getAPIKeyBO()
+    {
+        return pro.getProperty("APIKey");
+    }
+    public int getUserIdBO()
+    {
+        return Integer.parseInt(pro.getProperty("UserId"));
+    }
+
+
 
 //    public String getBrowser()
 //    {

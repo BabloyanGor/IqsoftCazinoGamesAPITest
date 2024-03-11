@@ -124,12 +124,6 @@ public class CraftBet_904_MarketsSumErrorLifePreMatchGames_Test extends BaseTest
 
 
 
-
-
-
-
-
-
     @Test(priority = 2,dataProvider = "sports")
     public void gatPreMatchMatchGamesBrokenMarkets(String sport) throws UnirestException, JSONException, IOException {
         if (getGamesPartnerName.equals("Craftbet")||getGamesPartnerName.equals("Tetherbet")) {

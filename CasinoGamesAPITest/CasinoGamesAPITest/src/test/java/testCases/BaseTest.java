@@ -27,9 +27,11 @@ public class BaseTest {
 
     public static int partnerID;
     public static String getGamesAPIUrl;
+    public static String getGamesAPIUrlBO;
     public static String getURLAPIUrl;
     //    public int getUserID;
     public static String getGamesOrigin;
+    public static String getGamesOriginBO;
     public static String getPrematchTreeOrigin;
     public static String getMarketByIDOrigin;
     public static String getGamesResource;
@@ -53,6 +55,9 @@ public class BaseTest {
     public int partnerConfigNum = readConfig.partnerConfigNum();
     int getGamesOnOneCall = readConfig.getGamesCountOnOneCall();
     int asyncMaxTimeMinutes = readConfig.getAsyncMaxTimeMinutes();
+
+    public int userIdBO = readConfig.getUserIdBO();
+    public String ApiKeyBO = readConfig.getAPIKeyBO();
 
 //    public String isHeadless = readConfig.isHeadless();
 //    public String browser = readConfig.getBrowser();
@@ -415,6 +420,23 @@ public class BaseTest {
                 loginClient = "https://websitewebapi.zuraplay.com/25/api/Main/LoginClient";
                 break;
             }
+            case 27: {
+                //                getUserID = 1947176;
+                partnerID = 78;
+                getGamesAPIUrl = "https://websitewebapi.rocketbet.com/78/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.rocketbet.com/78/api/Main/GetProductUrl";
+                getGamesOrigin = "https://rocketbet.com";
+                getGamesResource = "https://resources.rocketbet.com/products/";
+                getGamesPartnerName = "Rocketbet";
+                getGamesBaseURL = "https://rocketbet.com";
+                loginClient = "https://websitewebapi.rocketbet.com/78/api/Main/LoginClient";
+                break;
+            }
+
+
+
+
+
             case 100: {
                 //                getUserID = 2;
                 partnerID = 1;
@@ -450,6 +472,18 @@ public class BaseTest {
                 getGamesPartnerName = "Totox";
                 getGamesBaseURL = "https://totox-stage.com";
                 loginClient = "https://websitewebapi.totox-stage.com/2/api/Main/LoginClient";
+                break;
+            }
+
+            case 1000: {
+                //                getUserID = 254304;
+                partnerID = 40;
+                getGamesAPIUrlBO = "https://adminwebapi.iqsoftllc.com/api/Main/ApiRequest";
+                getGamesOriginBO = "https://admin.iqsoftllc.com";
+                getGamesResource = "https://resources.gamingart.tech/products/";
+                getGamesPartnerName = "GamingArt";
+
+
                 break;
             }
             default: {
@@ -542,7 +576,7 @@ public class BaseTest {
         JSONArray jsonArrayGames = null;
         int circleCount = gamesCount / getGamesOnOneCall + 1;
 //        circleCount = 1;
-        for (int m = 0; m < circleCount; m++) {
+        for (int m = 0; m < circleCount; m++) {//circleCount
             try {
                 Unirest.setTimeouts(20000, 20000);
                 HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
@@ -592,13 +626,111 @@ public class BaseTest {
             } catch (Exception ee) {
                 logger.fatal("getGamesAPIUrl call has an exception " + ee);
             } finally {
-                Unirest.shutdown();
+//                Unirest.shutdown();
             }
 
         }
     }
 
+    public void getGamesInfoBO(boolean IsForMobile) throws IOException {
+        int gamesCount = 0;
+        try {
+            Unirest.setTimeouts(20000, 20000);
+            HttpResponse<String> response = Unirest.post(getGamesAPIUrlBO)
+                    .header("content-type", "application/json")
+                    .header("origin", getGamesOriginBO)
+                    .body("{\"Controller\":\"Product\",\"Method\":\"GetPartnerProductSettings\",\"RequestObject\":{\"Controller\":\"Product\"," +
+                            "\"Method\":\"GetPartnerProductSettings\",\"SkipCount\":0,\"TakeCount\":10,\"OrderBy\":null," +
+                            "\"FieldNameToOrderBy\":\"\",\"PartnerId\":" +
+                            partnerID +
+                            "},\"UserID\": \"" +
+                            userIdBO +
+                            "\",\"APIKey\": \"" +
+                            ApiKeyBO +
+                            "\"}")
+                    .asString();
 
+            logger.info("Get games from BO Api call was sent");
+            JSONObject jsonObjectBody = new JSONObject(response.getBody());
+            JSONObject jsonObjectResponseObject = new JSONObject(jsonObjectBody.get("ResponseObject").toString());
+            gamesCount = Integer.parseInt(jsonObjectResponseObject.get("Count").toString());
+            logger.info("Get games Api call: TotalGamesCount = " + gamesCount);
+
+        } catch (Exception e) {
+            logger.info("Get Games Call for TotalGamesCount has an exception " + e);
+        }
+        JSONObject jsonObjectBody;
+        JSONObject jsonObjectResponseObject;
+        JSONArray jsonArrayGames = null;
+        int circleCount = gamesCount / getGamesOnOneCall + 1;
+//        circleCount = 1;
+        for (int m = 0; m < circleCount; m++) {//circleCount
+            try {
+                HttpResponse<String> response = Unirest.post(getGamesAPIUrlBO)
+                        .header("content-type", "application/json")
+                        .header("origin", getGamesOriginBO)
+                        .body("{\"Controller\":\"Product\",\"Method\":\"GetPartnerProductSettings\",\"RequestObject\":{\"Controller\":\"Product\"," +
+                                "\"Method\":\"GetPartnerProductSettings\",\"SkipCount\":" +
+                                m +
+                                ",\"TakeCount\":" +
+                                getGamesOnOneCall +
+                                ",\"OrderBy\":null," +
+                                "\"FieldNameToOrderBy\":\"\",\"PartnerId\":" +
+                                partnerID +
+                                "},\"UserID\": \"" +
+                                userIdBO +
+                                "\",\"APIKey\": \"" +
+                                ApiKeyBO +
+                                "\"}")
+                        .asString();
+                jsonObjectBody = new JSONObject(response.getBody());
+                jsonObjectResponseObject = new JSONObject(jsonObjectBody.get("ResponseObject").toString());
+                jsonArrayGames = jsonObjectResponseObject.getJSONArray("Entities");
+                logger.info("From getGamesAPIUrl call body captured: " + m);
+
+
+
+                if (jsonArrayGames != null) {
+                    for (int j = 0; j < jsonArrayGames.length(); j++) {
+                        String first = String.valueOf(jsonArrayGames.get(j));
+                        JSONObject jsonObjectGame = new JSONObject(first);
+                        String i = "";
+                        if (IsForMobile){
+                            i = jsonObjectGame.get("WebImageUrl").toString();   // Game Web img src
+                        }
+                        else{
+                            i = jsonObjectGame.get("MobileImageUrl").toString();   // Game Mobile img src
+                        }
+                        String p = jsonObjectGame.get("ProductId").toString();   //Game ID
+                        String n = jsonObjectGame.get("ProductName").toString();   //ProductName
+                        String sp = jsonObjectGame.get("GameProviderName").toString(); //Provider Name
+
+
+                        productIDs.add(p);
+                        gameNames.add(n);
+                        gameProviders.add(sp);
+                        if (i.contains("http") && i.contains(" ")) {
+                            String change = i.replace(" ", "%20");
+                            srces.add(change);
+                        } else if (!i.contains("http") && !i.contains(" ")) {
+                            srces.add(getGamesResource + i);
+                        } else if (!i.contains("http") && i.contains(" ")) {
+                            String change = getGamesResource + i.replace(" ", "%20");
+                            srces.add(change);
+                        } else {
+                            srces.add(i);
+                        }
+                    }
+                }
+                logger.info("From getGamesAPIUrl call productIDes and Names was captured Games count: " + productIDs.size());
+            } catch (Exception ee) {
+                logger.fatal("getGamesAPIUrl call has an exception " + ee);
+            } finally {
+//                Unirest.shutdown();
+            }
+
+        }
+    }
 
 
 

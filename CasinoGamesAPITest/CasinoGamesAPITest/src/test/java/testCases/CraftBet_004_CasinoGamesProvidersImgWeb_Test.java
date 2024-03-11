@@ -6,6 +6,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.testng.Assert;
+import org.testng.SkipException;
 import org.testng.annotations.Test;
 
 import java.awt.*;
@@ -126,7 +127,12 @@ public class CraftBet_004_CasinoGamesProvidersImgWeb_Test extends BaseTest {
     public void providersImgTest() throws JSONException {
 
         try {
-            Assert.assertTrue(getGamesAPICheckProvidersPictures(getGamesAPIUrl, getGamesOrigin, getGamesPartnerName));
+            if (partnerConfigNum<1000){
+                Assert.assertTrue(getGamesAPICheckProvidersPictures(getGamesAPIUrl, getGamesOrigin, getGamesPartnerName));
+            }else{
+                throw new SkipException("PartnerId = " + partnerID + " Is External Partner");
+            }
+
         } catch (Exception e) {
             logger.info("gamesImgTest has an Exception: " + e);
             Assert.fail();
