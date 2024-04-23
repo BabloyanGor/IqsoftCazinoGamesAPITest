@@ -25,13 +25,14 @@
 ////    private static String getTestMethodName(ITestResult iTestResult) {
 ////        return iTestResult.getMethod().getConstructorOrMethod().getName();
 ////    }
-////
+
+
 ////    // Text attachments for Allure
 ////    @Attachment(value = "Page screenshot", type = "image/png")
 ////    public byte[] saveScreenshotPNG(WebDriver driver) {
 ////        return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
 ////    }
-////
+
 ////    // Text attachments for Allure
 ////    @Attachment(value = "{0}", type = "text/plain")
 ////    public static String saveTextLog(String message) {

@@ -257,15 +257,22 @@
 
 
 
-
-
-
-        <!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-util -->
+        <!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
         <dependency>
-            <groupId>org.apache.tomcat</groupId>
-            <artifactId>tomcat-util</artifactId>
-            <version>10.1.17</version>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.16.0</version>
         </dependency>
+
+
+
+
+<!--        &lt;!&ndash; https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-util &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.apache.tomcat</groupId>-->
+<!--            <artifactId>tomcat-util</artifactId>-->
+<!--            <version>10.1.17</version>-->
+<!--        </dependency>-->
 
 
 
