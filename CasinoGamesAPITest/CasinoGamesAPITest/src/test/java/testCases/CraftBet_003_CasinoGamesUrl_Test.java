@@ -87,7 +87,7 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
     private boolean checkGamesUrl(int userID, int partnerId, String partnerName)
             throws JSONException, IOException {
         try {
-            getGamesInfo(false);
+//            getGamesInfo(false);
             futures = new CompletableFuture[productIDs.size()];
             for (; i < productIDs.size(); i++) {
 
@@ -164,15 +164,15 @@ public class CraftBet_003_CasinoGamesUrl_Test extends BaseTest {
                 String url = jsonObjectGetUrl.get("ResponseObject").toString();
 
                 if (!code.equals("0") || url == null || url.length() < 20 || !url.contains("https://")) {
-//                    String errMessage = dateTimeNow() + " ID = " + productId + " GameName: " + gameName + " ProviderName: " + providerName + "  ResponseCode = " + code + " description = " + description + " ResponseObject = " + url;
-//                    logger.info(errCount + " " + k + "   " + errMessage);
-////                    logger.info("   " + errMessage);
-//
-//                    errorSrcXl.add(errMessage);
-//                    errCount++;
+                    String errMessage = dateTimeNow() + " ID = " + productId + " GameName: " + gameName + " ProviderName: " + providerName + "  ResponseCode = " + code + " description = " + description + " ResponseObject = " + url;
+                    logger.info(errCount + " " + k + "   " + errMessage);
+//                    logger.info("   " + errMessage);
+
+                    errorSrcXl.add(errMessage);
+                    errCount++;
                 } else {
-                    String message = dateTimeNow() + " ID = " + productId + " GameName: " + gameName + " ProviderName: " + providerName + "  ResponseCode = " + code + " description = " + description + " ResponseObject = " + url;
-                    logger.info(errCount + " " + k + "   " + message);
+//                    String message = dateTimeNow() + " ID = " + productId + " GameName: " + gameName + " ProviderName: " + providerName + "  ResponseCode = " + code + " description = " + description + " ResponseObject = " + url;
+//                    logger.info(errCount + " " + k + "   " + message);
                 }
                 k++;
                 break;

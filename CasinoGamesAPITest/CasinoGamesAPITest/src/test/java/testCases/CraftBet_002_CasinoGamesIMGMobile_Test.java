@@ -32,12 +32,12 @@ public class CraftBet_002_CasinoGamesIMGMobile_Test extends BaseTest {
     public boolean checkMobileGamesImagesUrlAsync()throws JSONException, IOException {
 
         try {
-            if (partnerConfigNum < 1000){
-                getGamesInfo(true);
-            }
-            else{
-                getGamesInfoBO(true);
-            }
+//            if (partnerConfigNum < 1000){
+//                getGamesInfo(true);
+//            }
+//            else{
+//                getGamesInfoBO(true);
+//            }
             futures = new CompletableFuture[srces.size()];
             for (int i = 0; i < srces.size(); i++) {
 

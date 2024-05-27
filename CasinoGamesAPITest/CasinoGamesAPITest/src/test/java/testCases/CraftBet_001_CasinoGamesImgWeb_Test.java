@@ -36,12 +36,12 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
 
         try {
 
-            if (partnerConfigNum < 1000){
-                getGamesInfo(false);
-            }
-            else{
-                getGamesInfoBO(false);
-            }
+//            if (partnerConfigNum < 1000){
+//                getGamesInfo(false);
+//            }
+//            else{
+//                getGamesInfoBO(false);
+//            }
             Unirest.shutdown();
             futures = new CompletableFuture[srces.size()];
             for (; i < srces.size(); i++) {

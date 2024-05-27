@@ -76,8 +76,8 @@ public class BaseTest {
 
 //    BasePage basePage = new BasePage();
 
-    @BeforeMethod
-    public void setup() throws InterruptedException {
+    @BeforeSuite
+    public void setup() throws InterruptedException, IOException {
         logger = Logger.getLogger("craftBetWorld");
         PropertyConfigurator.configure( System.getProperty("user.dir") + "\\Log4j.properties");
 
@@ -433,6 +433,19 @@ public class BaseTest {
                 break;
             }
 
+            case 28: {
+                //                getUserID = 1630845;
+                partnerID = 79;
+                getGamesAPIUrl = "https://websitewebapi.craftbet.io/79/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.craftbet.io/79/api/Main/GetProductUrl";
+                getGamesOrigin = "https://craftbet.io";
+                getGamesResource = "https://resources.craftbet.io/products/";
+                getGamesPartnerName = "CraftbetTurkey";
+                getGamesBaseURL = "https://craftbet.io";
+                loginClient = "https://websitewebapi.craftbet.io/79/api/Main/LoginClient";
+
+                break;
+            }
 
 
 
@@ -482,13 +495,11 @@ public class BaseTest {
                 getGamesOriginBO = "https://admin.iqsoftllc.com";
                 getGamesResource = "https://resources.gamingart.tech/products/";
                 getGamesPartnerName = "GamingArt";
-
-
                 break;
             }
             default: {
                 logger.error("Wrong Partner ID: From config.properties file insert the right PartnerID Please");
-                throw new SkipException("From config.properties file choose the right PartnerID Please");
+                throw new SkipException("From config.properties choose the right PartnerID Please");
             }
         }
         logger.info("Test Url: " + getGamesBaseURL  + " partnerID: " + partnerID);
@@ -516,6 +527,12 @@ public class BaseTest {
 //
 //        craftBet_01_header_page.setItem("lang", language);
 //        craftBet_01_header_page.navigateRefresh();
+        if (partnerConfigNum < 1000){
+            getGamesInfo(false);
+        }
+        else{
+            getGamesInfoBO(false);
+        }
 
     }
 
@@ -542,14 +559,14 @@ public class BaseTest {
 
 
 
-    ArrayList<String> productIDs = new ArrayList<>();
-    ArrayList<String> gameNames = new ArrayList<>();
-    ArrayList<String> gameProviders = new ArrayList<>();
-    ArrayList<String> errorSrcXl = new ArrayList<>();
-    ArrayList<String> srces = new ArrayList<>();
+    static ArrayList<String> productIDs = new ArrayList<>();
+    static ArrayList<String> gameNames = new ArrayList<>();
+    static ArrayList<String> gameProviders = new ArrayList<>();
+    static ArrayList<String> errorSrcXl = new ArrayList<>();
+    static ArrayList<String> srces = new ArrayList<>();
     boolean isPassed = false;
 
-    public void getGamesInfo(boolean IsForMobile) throws IOException {
+    public void getGamesInfo(boolean IsForMobile)  {
         int gamesCount = 0;
         try {
             Unirest.setTimeouts(20000, 20000);
@@ -578,23 +595,50 @@ public class BaseTest {
 //        circleCount = 1;
         for (int m = 0; m < circleCount; m++) {//circleCount
             try {
-                Unirest.setTimeouts(20000, 20000);
-                HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
-                        .header("content-type", "application/json")
-                        .header("origin", getGamesOrigin)
-                        .body("{\"PageIndex\":" +
-                                m +
-                                ",\"PageSize\":" +
-                                getGamesOnOneCall +
-                                ",\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":" +
-                                IsForMobile +
-                                "," +
-                                "\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
-                        .asString();
-                jsonObjectBody = new JSONObject(response.getBody());
-                jsonObjectResponseObject = new JSONObject(jsonObjectBody.get("ResponseObject").toString());
-                jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
-                logger.info("From getGamesAPIUrl call body captured: " + m);
+                try{
+                    Unirest.setTimeouts(60000, 60000);
+                    HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
+                            .header("content-type", "application/json")
+                            .header("origin", getGamesOrigin)
+                            .body("{\"PageIndex\":" +
+                                    m +
+                                    ",\"PageSize\":" +
+                                    getGamesOnOneCall +
+                                    ",\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":" +
+                                    IsForMobile +
+                                    "," +
+                                    "\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
+                            .asString();
+                    jsonObjectBody = new JSONObject(response.getBody());
+                    jsonObjectResponseObject = new JSONObject(jsonObjectBody.get("ResponseObject").toString());
+                    jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
+                    logger.info("From getGamesAPIUrl call body captured: " + m);
+                }
+                catch (Exception e1){
+                    try{
+                        Unirest.setTimeouts(60000, 60000);
+                        HttpResponse<String> response = Unirest.post(getGamesAPIUrl)
+                                .header("content-type", "application/json")
+                                .header("origin", getGamesOrigin)
+                                .body("{\"PageIndex\":" +
+                                        m +
+                                        ",\"PageSize\":" +
+                                        getGamesOnOneCall +
+                                        ",\"WithWidget\":false,\"CategoryId\":null,\"ProviderIds\":null,\"IsForMobile\":" +
+                                        IsForMobile +
+                                        "," +
+                                        "\"Name\":\"\",\"LanguageId\":\"en\",\"Token\":null,\"ClientId\":0,\"TimeZone\":4}")
+                                .asString();
+                        jsonObjectBody = new JSONObject(response.getBody());
+                        jsonObjectResponseObject = new JSONObject(jsonObjectBody.get("ResponseObject").toString());
+                        jsonArrayGames = jsonObjectResponseObject.getJSONArray("Games");
+                        logger.info("From getGamesAPIUrl call body captured: " + m);
+                    }
+                    catch (Exception e){
+                        logger.fatal("getGamesAPIUrl call has an exception " + e);
+                    }
+                }
+
 
 
 
@@ -622,7 +666,10 @@ public class BaseTest {
                         }
                     }
                 }
+
                 logger.info("From getGamesAPIUrl call productIDes and Names was captured Games count: " + productIDs.size());
+
+
             } catch (Exception ee) {
                 logger.fatal("getGamesAPIUrl call has an exception " + ee);
             } finally {

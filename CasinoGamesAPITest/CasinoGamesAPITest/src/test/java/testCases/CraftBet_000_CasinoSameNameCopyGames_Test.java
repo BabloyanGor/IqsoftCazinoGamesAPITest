@@ -16,12 +16,12 @@ public class CraftBet_000_CasinoSameNameCopyGames_Test extends BaseTest {
     public boolean getALLGamesAPICheckCopyGames()
             throws JSONException, IOException {
 
-        if (partnerConfigNum < 1000){
-            getGamesInfo(false);
-        }
-        else{
-            getGamesInfoBO(false);
-        }
+//        if (partnerConfigNum < 1000){
+//            getGamesInfo(false);
+//        }
+//        else{
+//            getGamesInfoBO(false);
+//        }
 
         boolean isPassed;
         HashSet<String> errSet = new HashSet<>();
