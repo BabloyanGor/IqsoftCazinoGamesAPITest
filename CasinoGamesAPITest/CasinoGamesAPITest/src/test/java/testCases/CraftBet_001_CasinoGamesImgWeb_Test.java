@@ -466,3 +466,95 @@ public class CraftBet_001_CasinoGamesImgWeb_Test extends BaseTest {
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+//public class ExcelWriter {
+//
+//    public static void main(String[] args) {
+//        // Sample data
+//        List<Integer> productId = List.of(1, 2, 3, 4);
+//        List<String> gameName = List.of("Game1", "Game2", "Game3", "Game4");
+//        List<String> providerName = List.of("Provider1", "Provider2", "Provider3", "Provider4");
+//        List<String> src = List.of("Src1", "Src2", "Src3", "Src4");
+//
+//        writeDataToExcel("Products.xlsx", productId, gameName, providerName, src);
+//    }
+//
+//    public static void writeDataToExcel(String fileName, List<Integer> productId, List<String> gameName, List<String> providerName, List<String> src) {
+//        Workbook workbook = new XSSFWorkbook();
+//        Sheet sheet = workbook.createSheet("Products");
+//
+//        // Header Row
+//        Row headerRow = sheet.createRow(0);
+//        headerRow.createCell(0).setCellValue("Product ID");
+//        headerRow.createCell(1).setCellValue("Game Name");
+//        headerRow.createCell(2).setCellValue("Provider Name");
+//        headerRow.createCell(3).setCellValue("Src");
+//
+//        // Write data
+//        for (int i = 0; i < productId.size(); i++) {
+//            Row row = sheet.createRow(i + 1);
+//            row.createCell(0).setCellValue(productId.get(i));
+//            row.createCell(1).setCellValue(gameName.get(i));
+//            row.createCell(2).setCellValue(providerName.get(i));
+//            row.createCell(3).setCellValue(src.get(i));
+//        }
+//
+//        // Auto-size columns
+//        for (int i = 0; i < 4; i++) {
+//            sheet.autoSizeColumn(i);
+//        }
+//
+//        // Write the output to a file
+//        try (FileOutputStream fileOut = new FileOutputStream(fileName)) {
+//            workbook.write(fileOut);
+//            System.out.println("Excel file created successfully: " + fileName);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        } finally {
+//            try {
+//                workbook.close();
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
+//        }
+//    }
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

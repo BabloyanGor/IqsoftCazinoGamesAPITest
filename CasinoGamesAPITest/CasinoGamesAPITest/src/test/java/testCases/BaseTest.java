@@ -446,7 +446,18 @@ public class BaseTest {
 
                 break;
             }
+            case 29: {
+                partnerID = 18;
+                getGamesAPIUrl = "https://websitewebapi.craftbet.io/18/api/Main/GetGames";
+                getURLAPIUrl = "https://websitewebapi.craftbet.io/18/api/Main/GetProductUrl";
+                getGamesOrigin = "https://angliabet.com";
+                getGamesResource = "https://resources.angliabet.com/products/";
+                getGamesPartnerName = "angliBet";
+                getGamesBaseURL = "https://angliabet.com";
+                loginClient = "https://websitewebapi.angliabet.com/18/api/Main/LoginClient";
 
+                break;
+            }
 
 
 
